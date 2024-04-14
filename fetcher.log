@@ -832,3 +832,33 @@
 [2024-04-15 01:07:19] INFO root fetch - processPackages [rainbow-api]: Remove: archive file [/home/abi/fetcher/tmp/rainbow_api-1.0.7.tar.gz]
 [2024-04-15 01:07:19] INFO root fetch - main [MainThread]: End processing [rainbow-api]: success
 [2024-04-15 01:07:19] INFO root fetch - main [MainThread]: Store serial: [22763284]
+[2024-04-15 01:09:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22763284]
+[2024-04-15 01:09:27] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-15 01:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oslili
+[2024-04-15 01:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: archyve
+[2024-04-15 01:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mlsauce
+[2024-04-15 01:09:27] INFO root fetch - processPackages [oslili]: New version: [0.8] Old Version: [0.7]
+[2024-04-15 01:09:27] INFO root fetch - processPackages [archyve]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-15 01:09:27] INFO root fetch - processPackages [oslili]: Downloading https://files.pythonhosted.org/packages/62/ee/71c9aefdd319c6741a760c4332d9e28a63494aa556de965f72803cd86ad1/oslili-0.7.tar.gz
+[2024-04-15 01:09:27] INFO root fetch - processPackages [archyve]: Downloading https://files.pythonhosted.org/packages/99/37/f3b892cc31a498d8c05cd01e830f92f3affce5a5e09fe2fd4847a0a8898b/archyve-0.2.3.tar.gz
+[2024-04-15 01:09:27] INFO root fetch - processPackages [mlsauce]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-15 01:09:28] INFO root fetch - processPackages [mlsauce]: Downloading https://files.pythonhosted.org/packages/09/f7/2b520a477f7710396348e4b9d582826758d5b083fe9b79613abe9c1435dd/mlsauce-0.9.0.tar.gz
+[2024-04-15 01:09:28] INFO root fetch - processPackages [oslili]: Downloading https://files.pythonhosted.org/packages/d6/16/83bff826f4da072f185d73330a5c376a0184abffaf881f9cd0fe3cf99c9d/oslili-0.8.tar.gz
+[2024-04-15 01:09:28] INFO root fetch - processPackages [archyve]: Downloading https://files.pythonhosted.org/packages/d7/f3/8e4e4e247e4a5c3378db982694f9b3e29c584f557bbcfec36117d07277ed/archyve-0.2.4.tar.gz
+[2024-04-15 01:09:28] INFO root fetch - processPackages [archyve]: executing diffoscope
+[2024-04-15 01:09:28] INFO root fetch - processPackages [archyve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archyve-0.2.3.tar.gz tmp/archyve-0.2.4.tar.gz --markdown 20240415/a/archyve/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-15 01:09:28] INFO root fetch - processPackages [oslili]: executing diffoscope
+[2024-04-15 01:09:28] INFO root fetch - processPackages [oslili]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oslili-0.7.tar.gz tmp/oslili-0.8.tar.gz --markdown 20240415/o/oslili/0.7-0.8/README.md --exclude *.pyd
+[2024-04-15 01:09:28] INFO root fetch - processPackages [mlsauce]: Downloading https://files.pythonhosted.org/packages/34/94/ecad26410f10cd9ffb719f2bc235ed21c44541226f01a963cd37706f4b37/mlsauce-0.9.1.tar.gz
+[2024-04-15 01:09:28] INFO root fetch - processPackages [archyve]: Remove: archive file [/home/abi/fetcher/tmp/archyve-0.2.3.tar.gz]
+[2024-04-15 01:09:28] INFO root fetch - processPackages [archyve]: Remove: archive file [/home/abi/fetcher/tmp/archyve-0.2.4.tar.gz]
+[2024-04-15 01:09:28] INFO root fetch - main [MainThread]: End processing [archyve]: success
+[2024-04-15 01:09:28] INFO root fetch - processPackages [mlsauce]: executing diffoscope
+[2024-04-15 01:09:28] INFO root fetch - processPackages [mlsauce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlsauce-0.9.0.tar.gz tmp/mlsauce-0.9.1.tar.gz --markdown 20240415/m/mlsauce/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-15 01:09:29] INFO root fetch - processPackages [mlsauce]: Remove: archive file [/home/abi/fetcher/tmp/mlsauce-0.9.0.tar.gz]
+[2024-04-15 01:09:29] INFO root fetch - processPackages [mlsauce]: Remove: archive file [/home/abi/fetcher/tmp/mlsauce-0.9.1.tar.gz]
+[2024-04-15 01:09:29] INFO root fetch - main [MainThread]: End processing [mlsauce]: success
+[2024-04-15 01:09:31] INFO root fetch - processPackages [oslili]: Remove: archive file [/home/abi/fetcher/tmp/oslili-0.7.tar.gz]
+[2024-04-15 01:09:31] INFO root fetch - processPackages [oslili]: Remove: archive file [/home/abi/fetcher/tmp/oslili-0.8.tar.gz]
+[2024-04-15 01:09:31] INFO root fetch - main [MainThread]: End processing [oslili]: success
+[2024-04-15 01:09:31] INFO root fetch - main [MainThread]: Store serial: [22763295]
