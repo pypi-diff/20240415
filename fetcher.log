@@ -1239,3 +1239,33 @@
 [2024-04-15 01:40:01] WARNING root fetch - processPackages [toolshop]: Skipping, unable to determine old version
 [2024-04-15 01:40:01] INFO root fetch - main [MainThread]: End processing [toolshop] error
 [2024-04-15 01:40:01] INFO root fetch - main [MainThread]: Store serial: [22763655]
+[2024-04-15 01:42:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22763655]
+[2024-04-15 01:42:09] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-15 01:42:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prefixmaps
+[2024-04-15 01:42:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swpclib
+[2024-04-15 01:42:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sql-athame
+[2024-04-15 01:42:09] INFO root fetch - processPackages [swpclib]: New version: [4.3.4] Old Version: [4.3.3]
+[2024-04-15 01:42:09] INFO root fetch - processPackages [swpclib]: Downloading https://files.pythonhosted.org/packages/70/6e/243626880b60365bb32698f7fe07ce6937c00ff6bb288db3782f76927a0b/swpclib-4.3.3.tar.gz
+[2024-04-15 01:42:09] INFO root fetch - processPackages [prefixmaps]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-15 01:42:09] INFO root fetch - processPackages [sql-athame]: New version: [0.4.0a2] Old Version: [0.4.0a1]
+[2024-04-15 01:42:10] INFO root fetch - processPackages [prefixmaps]: Downloading https://files.pythonhosted.org/packages/8e/9d/1a88bc5a0dc2d162ae89b64aa495050d0009fbb30d62ec6fc2eb7d42a02d/prefixmaps-0.2.3.tar.gz
+[2024-04-15 01:42:10] INFO root fetch - processPackages [sql-athame]: Downloading https://files.pythonhosted.org/packages/2d/e7/8fcbffbe3ad69656b7dadfa1b8a2bf7d9c051b2b79fc78016509e07af62d/sql_athame-0.4.0a1.tar.gz
+[2024-04-15 01:42:10] INFO root fetch - processPackages [swpclib]: Downloading https://files.pythonhosted.org/packages/f3/88/0c064369d658aca8493eecef3382c7474448d97104ec1b1cff7d769e2258/swpclib-4.3.4.tar.gz
+[2024-04-15 01:42:10] INFO root fetch - processPackages [swpclib]: executing diffoscope
+[2024-04-15 01:42:10] INFO root fetch - processPackages [swpclib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swpclib-4.3.3.tar.gz tmp/swpclib-4.3.4.tar.gz --markdown 20240415/s/swpclib/4.3.3-4.3.4/README.md --exclude *.pyd
+[2024-04-15 01:42:10] INFO root fetch - processPackages [prefixmaps]: Downloading https://files.pythonhosted.org/packages/7a/31/06f3ac634bb7d89b0263138c7c34d573bf45ea849f396d55cc6cc7a89cbf/prefixmaps-0.2.4.tar.gz
+[2024-04-15 01:42:10] INFO root fetch - processPackages [sql-athame]: Downloading https://files.pythonhosted.org/packages/af/d9/830e45b8cba829412841456fb973ae20b9ec0908af8659272d4cc397284a/sql_athame-0.4.0a2.tar.gz
+[2024-04-15 01:42:10] INFO root fetch - processPackages [sql-athame]: executing diffoscope
+[2024-04-15 01:42:10] INFO root fetch - processPackages [sql-athame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sql_athame-0.4.0a1.tar.gz tmp/sql_athame-0.4.0a2.tar.gz --markdown 20240415/s/sql-athame/0.4.0a1-0.4.0a2/README.md --exclude *.pyd
+[2024-04-15 01:42:10] INFO root fetch - processPackages [prefixmaps]: executing diffoscope
+[2024-04-15 01:42:10] INFO root fetch - processPackages [prefixmaps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prefixmaps-0.2.3.tar.gz tmp/prefixmaps-0.2.4.tar.gz --markdown 20240415/p/prefixmaps/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-15 01:42:10] INFO root fetch - processPackages [swpclib]: Remove: archive file [/home/abi/fetcher/tmp/swpclib-4.3.3.tar.gz]
+[2024-04-15 01:42:10] INFO root fetch - processPackages [swpclib]: Remove: archive file [/home/abi/fetcher/tmp/swpclib-4.3.4.tar.gz]
+[2024-04-15 01:42:10] INFO root fetch - main [MainThread]: End processing [swpclib]: success
+[2024-04-15 01:42:11] INFO root fetch - processPackages [sql-athame]: Remove: archive file [/home/abi/fetcher/tmp/sql_athame-0.4.0a1.tar.gz]
+[2024-04-15 01:42:11] INFO root fetch - processPackages [sql-athame]: Remove: archive file [/home/abi/fetcher/tmp/sql_athame-0.4.0a2.tar.gz]
+[2024-04-15 01:42:11] INFO root fetch - main [MainThread]: End processing [sql-athame]: success
+[2024-04-15 01:42:14] INFO root fetch - processPackages [prefixmaps]: Remove: archive file [/home/abi/fetcher/tmp/prefixmaps-0.2.3.tar.gz]
+[2024-04-15 01:42:14] INFO root fetch - processPackages [prefixmaps]: Remove: archive file [/home/abi/fetcher/tmp/prefixmaps-0.2.4.tar.gz]
+[2024-04-15 01:42:14] INFO root fetch - main [MainThread]: End processing [prefixmaps]: success
+[2024-04-15 01:42:14] INFO root fetch - main [MainThread]: Store serial: [22763665]
