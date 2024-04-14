@@ -49,3 +49,45 @@
 [2024-04-15 00:02:14] INFO root fetch - processPackages [ecs_composex]: Remove: archive file [/home/abi/fetcher/tmp/ecs_composex-1.1.0rc2.tar.gz]
 [2024-04-15 00:02:14] INFO root fetch - main [MainThread]: End processing [ecs_composex]: success
 [2024-04-15 00:02:14] INFO root fetch - main [MainThread]: Store serial: [22762781]
+[2024-04-15 00:04:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22762781]
+[2024-04-15 00:04:22] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-15 00:04:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dspy
+[2024-04-15 00:04:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SecLoadSDK
+[2024-04-15 00:04:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ansar-connect
+[2024-04-15 00:04:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pystaleds
+[2024-04-15 00:04:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spanking
+[2024-04-15 00:04:22] INFO root fetch - processPackages [spanking]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-15 00:04:22] INFO root fetch - processPackages [SecLoadSDK]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-15 00:04:22] INFO root fetch - processPackages [ansar-connect]: New version: [0.1.161] Old Version: [0.1.160]
+[2024-04-15 00:04:22] WARNING root fetch - processPackages [dspy]: Skipping, unable to determine old version
+[2024-04-15 00:04:22] INFO root fetch - main [MainThread]: End processing [dspy] error
+[2024-04-15 00:04:22] INFO root fetch - processPackages [pystaleds]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-15 00:04:22] INFO root fetch - processPackages [SecLoadSDK]: Downloading https://files.pythonhosted.org/packages/76/99/308233ee4ec081f0cfe3b24e2bf746c3f90cd6955ccfeb83ced15d4bc4ba/secloadsdk-0.0.5.tar.gz
+[2024-04-15 00:04:22] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/5d/4f/8baef19ed285d585b381fb23ec61c712255d9a566dc8ed863f0b132e4f98/ansar_connect-0.1.160.tar.gz
+[2024-04-15 00:04:22] INFO root fetch - processPackages [spanking]: Downloading https://files.pythonhosted.org/packages/26/c3/f500443f9f3fb573af4dcecb9dc346abdf5f845eca077500d7e05241d687/spanking-0.0.1.tar.gz
+[2024-04-15 00:04:22] INFO root fetch - processPackages [pystaleds]: Downloading https://files.pythonhosted.org/packages/ce/99/63d82d1dfb911c476b7c9182adaa95c3bec3328709f400612fe95718f883/pystaleds-0.1.2.tar.gz
+[2024-04-15 00:04:22] INFO root fetch - processPackages [SecLoadSDK]: Downloading https://files.pythonhosted.org/packages/50/86/7a846a7a1543b7a24989dc191eb61ef13155c397474e67355351f8a2c3fb/secloadsdk-0.0.6.tar.gz
+[2024-04-15 00:04:22] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/24/4e/f014465a2a230782f3fd8f56d28e5d6045153aa960188914171cc42b1b25/ansar_connect-0.1.161.tar.gz
+[2024-04-15 00:04:23] INFO root fetch - processPackages [spanking]: Downloading https://files.pythonhosted.org/packages/d7/c7/84262929949e9a79c59361181a8a2f3f593b33b7197f2aa33d400251d4cc/spanking-0.0.2.tar.gz
+[2024-04-15 00:04:23] INFO root fetch - processPackages [SecLoadSDK]: executing diffoscope
+[2024-04-15 00:04:23] INFO root fetch - processPackages [SecLoadSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secloadsdk-0.0.5.tar.gz tmp/secloadsdk-0.0.6.tar.gz --markdown 20240415/S/SecLoadSDK/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-15 00:04:23] INFO root fetch - processPackages [ansar-connect]: executing diffoscope
+[2024-04-15 00:04:23] INFO root fetch - processPackages [ansar-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar_connect-0.1.160.tar.gz tmp/ansar_connect-0.1.161.tar.gz --markdown 20240415/a/ansar-connect/0.1.160-0.1.161/README.md --exclude *.pyd
+[2024-04-15 00:04:23] INFO root fetch - processPackages [spanking]: executing diffoscope
+[2024-04-15 00:04:23] INFO root fetch - processPackages [spanking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanking-0.0.1.tar.gz tmp/spanking-0.0.2.tar.gz --markdown 20240415/s/spanking/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-15 00:04:23] INFO root fetch - processPackages [pystaleds]: Downloading https://files.pythonhosted.org/packages/ff/46/1e8fd8d4abc7e219307fa2acff401bdc85130dd55dc3b27ddff2ab377bc0/pystaleds-0.1.3-pp39-pypy39_pp73-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl
+[2024-04-15 00:04:23] INFO root fetch - processPackages [spanking]: Remove: archive file [/home/abi/fetcher/tmp/spanking-0.0.1.tar.gz]
+[2024-04-15 00:04:23] INFO root fetch - processPackages [spanking]: Remove: archive file [/home/abi/fetcher/tmp/spanking-0.0.2.tar.gz]
+[2024-04-15 00:04:23] INFO root fetch - main [MainThread]: End processing [spanking]: success
+[2024-04-15 00:04:23] INFO root fetch - processPackages [pystaleds]: executing diffoscope
+[2024-04-15 00:04:23] INFO root fetch - processPackages [pystaleds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystaleds-0.1.2.tar.gz tmp/pystaleds-0.1.3-pp39-pypy39_pp73-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl.zip --markdown 20240415/p/pystaleds/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-15 00:04:23] INFO root fetch - processPackages [SecLoadSDK]: Remove: archive file [/home/abi/fetcher/tmp/secloadsdk-0.0.5.tar.gz]
+[2024-04-15 00:04:23] INFO root fetch - processPackages [SecLoadSDK]: Remove: archive file [/home/abi/fetcher/tmp/secloadsdk-0.0.6.tar.gz]
+[2024-04-15 00:04:23] INFO root fetch - main [MainThread]: End processing [SecLoadSDK]: success
+[2024-04-15 00:04:23] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.160.tar.gz]
+[2024-04-15 00:04:23] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.161.tar.gz]
+[2024-04-15 00:04:23] INFO root fetch - main [MainThread]: End processing [ansar-connect]: success
+[2024-04-15 00:04:24] INFO root fetch - processPackages [pystaleds]: Remove: archive file [/home/abi/fetcher/tmp/pystaleds-0.1.2.tar.gz]
+[2024-04-15 00:04:24] INFO root fetch - processPackages [pystaleds]: Remove: archive file [/home/abi/fetcher/tmp/pystaleds-0.1.3-pp39-pypy39_pp73-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl.zip]
+[2024-04-15 00:04:24] INFO root fetch - main [MainThread]: End processing [pystaleds]: success
+[2024-04-15 00:04:24] INFO root fetch - main [MainThread]: Store serial: [22762823]
