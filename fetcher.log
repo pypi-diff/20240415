@@ -159,3 +159,33 @@
 [2024-04-15 00:12:59] INFO root fetch - processPackages [ReverseBox]: Remove: archive file [/home/abi/fetcher/tmp/ReverseBox-0.7.0.tar.gz]
 [2024-04-15 00:12:59] INFO root fetch - main [MainThread]: End processing [ReverseBox]: success
 [2024-04-15 00:12:59] INFO root fetch - main [MainThread]: Store serial: [22762891]
+[2024-04-15 00:15:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22762891]
+[2024-04-15 00:15:07] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-15 00:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: logChecker
+[2024-04-15 00:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: genflowly-lambda-utils
+[2024-04-15 00:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hat-duktape
+[2024-04-15 00:15:07] INFO root fetch - processPackages [genflowly-lambda-utils]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-15 00:15:07] INFO root fetch - processPackages [genflowly-lambda-utils]: Downloading https://files.pythonhosted.org/packages/28/ef/258b5b2289c0c2b90fa82c50e5c835e8f106c39c16dd0367abd0048a8c46/genflowly_lambda_utils-0.0.6.tar.gz
+[2024-04-15 00:15:07] INFO root fetch - processPackages [hat-duktape]: New version: [0.5.8] Old Version: [0.5.7]
+[2024-04-15 00:15:07] INFO root fetch - processPackages [logChecker]: New version: [4.1.0] Old Version: [4.0.1]
+[2024-04-15 00:15:08] INFO root fetch - processPackages [hat-duktape]: Downloading https://files.pythonhosted.org/packages/4a/cc/e775f41b602cbbac645a49dcd3799668b15d7e0322730c63df0881006a5a/hat_duktape-0.5.7-cp310.cp311.cp312-cp310.cp311.cp312-win_amd64.whl
+[2024-04-15 00:15:08] INFO root fetch - processPackages [logChecker]: Downloading https://files.pythonhosted.org/packages/d3/50/fc661ec313f5cf6f12609f43f58eef9e1d4f21372e6e91205d920ba7e552/logChecker-4.0.1.tar.gz
+[2024-04-15 00:15:08] INFO root fetch - processPackages [genflowly-lambda-utils]: Downloading https://files.pythonhosted.org/packages/02/22/b77ac192168663a982ea5c6c6547fd3fa6e0fa2d102b6cbb7d9b3a7c523b/genflowly_lambda_utils-0.0.7.tar.gz
+[2024-04-15 00:15:08] INFO root fetch - processPackages [genflowly-lambda-utils]: executing diffoscope
+[2024-04-15 00:15:08] INFO root fetch - processPackages [genflowly-lambda-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genflowly_lambda_utils-0.0.6.tar.gz tmp/genflowly_lambda_utils-0.0.7.tar.gz --markdown 20240415/g/genflowly-lambda-utils/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-15 00:15:08] INFO root fetch - processPackages [logChecker]: Downloading https://files.pythonhosted.org/packages/5b/33/e48c90fba39bfc6572b0862356bd682725561af760936fbe69a1f446c0db/logChecker-4.1.0-py3-none-any.whl
+[2024-04-15 00:15:08] INFO root fetch - processPackages [hat-duktape]: Downloading https://files.pythonhosted.org/packages/73/bb/57744faea42fe50b5b12d257c27cdce9a90f58ee21d5efd26535de73c61b/hat_duktape-0.5.8-cp310.cp311.cp312-cp310.cp311.cp312-win_amd64.whl
+[2024-04-15 00:15:08] INFO root fetch - processPackages [logChecker]: executing diffoscope
+[2024-04-15 00:15:08] INFO root fetch - processPackages [logChecker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logChecker-4.0.1.tar.gz tmp/logChecker-4.1.0-py3-none-any.whl.zip --markdown 20240415/l/logChecker/4.0.1-4.1.0/README.md --exclude *.pyd
+[2024-04-15 00:15:08] INFO root fetch - processPackages [hat-duktape]: executing diffoscope
+[2024-04-15 00:15:08] INFO root fetch - processPackages [hat-duktape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hat_duktape-0.5.7-cp310.cp311.cp312-cp310.cp311.cp312-win_amd64.whl.zip tmp/hat_duktape-0.5.8-cp310.cp311.cp312-cp310.cp311.cp312-win_amd64.whl.zip --markdown 20240415/h/hat-duktape/0.5.7-0.5.8/README.md --exclude *.pyd
+[2024-04-15 00:15:08] INFO root fetch - processPackages [genflowly-lambda-utils]: Remove: archive file [/home/abi/fetcher/tmp/genflowly_lambda_utils-0.0.6.tar.gz]
+[2024-04-15 00:15:08] INFO root fetch - processPackages [genflowly-lambda-utils]: Remove: archive file [/home/abi/fetcher/tmp/genflowly_lambda_utils-0.0.7.tar.gz]
+[2024-04-15 00:15:08] INFO root fetch - main [MainThread]: End processing [genflowly-lambda-utils]: success
+[2024-04-15 00:15:09] INFO root fetch - processPackages [logChecker]: Remove: archive file [/home/abi/fetcher/tmp/logChecker-4.0.1.tar.gz]
+[2024-04-15 00:15:09] INFO root fetch - processPackages [logChecker]: Remove: archive file [/home/abi/fetcher/tmp/logChecker-4.1.0-py3-none-any.whl.zip]
+[2024-04-15 00:15:09] INFO root fetch - main [MainThread]: End processing [logChecker]: success
+[2024-04-15 00:15:12] INFO root fetch - processPackages [hat-duktape]: Remove: archive file [/home/abi/fetcher/tmp/hat_duktape-0.5.7-cp310.cp311.cp312-cp310.cp311.cp312-win_amd64.whl.zip]
+[2024-04-15 00:15:12] INFO root fetch - processPackages [hat-duktape]: Remove: archive file [/home/abi/fetcher/tmp/hat_duktape-0.5.8-cp310.cp311.cp312-cp310.cp311.cp312-win_amd64.whl.zip]
+[2024-04-15 00:15:12] INFO root fetch - main [MainThread]: End processing [hat-duktape]: success
+[2024-04-15 00:15:12] INFO root fetch - main [MainThread]: Store serial: [22762902]
