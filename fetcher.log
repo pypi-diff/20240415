@@ -130,3 +130,20 @@
 [2024-04-15 00:06:34] INFO root fetch - processPackages [safe-store]: Remove: archive file [/home/abi/fetcher/tmp/safe_store-0.6.0.tar.gz]
 [2024-04-15 00:06:34] INFO root fetch - main [MainThread]: End processing [safe-store]: success
 [2024-04-15 00:06:34] INFO root fetch - main [MainThread]: Store serial: [22762876]
+[2024-04-15 00:08:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22762876]
+[2024-04-15 00:08:42] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-15 00:10:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22762876]
+[2024-04-15 00:10:48] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-15 00:10:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SecLoad
+[2024-04-15 00:10:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aisploit
+[2024-04-15 00:10:48] INFO root fetch - processPackages [aisploit]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-15 00:10:48] INFO root fetch - processPackages [aisploit]: Downloading https://files.pythonhosted.org/packages/1d/74/57334bbb6cdd1f5fb94ed46c97de575ed8c0ab6a66b52cc953fe6946746c/aisploit-0.0.8.tar.gz
+[2024-04-15 00:10:48] WARNING root fetch - processPackages [SecLoad]: Skipping, unable to determine old version
+[2024-04-15 00:10:48] INFO root fetch - main [MainThread]: End processing [SecLoad] error
+[2024-04-15 00:10:48] INFO root fetch - processPackages [aisploit]: Downloading https://files.pythonhosted.org/packages/79/1a/32067b96fbd51e172e74fa8134d42b6721bd699ae2c9f8e5927b09de2401/aisploit-0.0.9.tar.gz
+[2024-04-15 00:10:48] INFO root fetch - processPackages [aisploit]: executing diffoscope
+[2024-04-15 00:10:48] INFO root fetch - processPackages [aisploit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aisploit-0.0.8.tar.gz tmp/aisploit-0.0.9.tar.gz --markdown 20240415/a/aisploit/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-15 00:10:49] INFO root fetch - processPackages [aisploit]: Remove: archive file [/home/abi/fetcher/tmp/aisploit-0.0.8.tar.gz]
+[2024-04-15 00:10:49] INFO root fetch - processPackages [aisploit]: Remove: archive file [/home/abi/fetcher/tmp/aisploit-0.0.9.tar.gz]
+[2024-04-15 00:10:49] INFO root fetch - main [MainThread]: End processing [aisploit]: success
+[2024-04-15 00:10:49] INFO root fetch - main [MainThread]: Store serial: [22762886]
