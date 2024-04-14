@@ -910,3 +910,45 @@
 [2024-04-15 01:11:41] INFO root fetch - processPackages [testy-rust]: Remove: archive file [/home/abi/fetcher/tmp/TestY_rust-0.1.1-pp39-pypy39_pp73-musllinux_1_2_aarch64.whl.zip]
 [2024-04-15 01:11:41] INFO root fetch - main [MainThread]: End processing [testy-rust]: success
 [2024-04-15 01:11:41] INFO root fetch - main [MainThread]: Store serial: [22763336]
+[2024-04-15 01:13:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22763336]
+[2024-04-15 01:13:50] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-15 01:13:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-nai3
+[2024-04-15 01:13:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pystaleds
+[2024-04-15 01:13:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ttemtoolbox
+[2024-04-15 01:13:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: archyve
+[2024-04-15 01:13:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: transformer-heads
+[2024-04-15 01:13:50] INFO root fetch - processPackages [nonebot-plugin-nai3]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-15 01:13:50] INFO root fetch - processPackages [transformer-heads]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-15 01:13:50] INFO root fetch - processPackages [archyve]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-04-15 01:13:50] WARNING root fetch - processPackages [ttemtoolbox]: Skipping, unable to determine old version
+[2024-04-15 01:13:50] INFO root fetch - main [MainThread]: End processing [ttemtoolbox] error
+[2024-04-15 01:13:50] INFO root fetch - processPackages [transformer-heads]: Downloading https://files.pythonhosted.org/packages/c1/98/3eb2cf8b9e227fb23f445b79c46da2c3254dc70c0abd7f605353e484935c/transformer_heads-0.0.8.tar.gz
+[2024-04-15 01:13:50] INFO root fetch - processPackages [nonebot-plugin-nai3]: Downloading https://files.pythonhosted.org/packages/ff/65/e59f5ea3786867cf3e5a56ccb004029a72a0aa41445918d51adbb95b3bff/nonebot_plugin_nai3-0.0.7.tar.gz
+[2024-04-15 01:13:50] INFO root fetch - processPackages [archyve]: Downloading https://files.pythonhosted.org/packages/4d/fc/e8ae5918866dd5841ad70cc8abece03a93605353045e3ab972fd5713b3e6/archyve-0.2.5.tar.gz
+[2024-04-15 01:13:50] INFO root fetch - processPackages [pystaleds]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-15 01:13:50] INFO root fetch - processPackages [transformer-heads]: Downloading https://files.pythonhosted.org/packages/d5/a8/2b2535a372521239690cc07d4307cf48e43e6e6655f100344f709660611e/transformer_heads-0.0.9.tar.gz
+[2024-04-15 01:13:51] INFO root fetch - processPackages [nonebot-plugin-nai3]: Downloading https://files.pythonhosted.org/packages/a1/42/29135844c413fa028de0c104c9e493250efa5ac196de73f287cf1dff05cd/nonebot_plugin_nai3-0.0.8.tar.gz
+[2024-04-15 01:13:51] INFO root fetch - processPackages [pystaleds]: Downloading https://files.pythonhosted.org/packages/45/d1/971d47b9d5cb7aaddfed80d87c25589f8b7d809c08cb970139264ed0e237/pystaleds-0.1.3.tar.gz
+[2024-04-15 01:13:51] INFO root fetch - processPackages [archyve]: Downloading https://files.pythonhosted.org/packages/97/5d/bb05563ea68ce8fd4f69100099c130b1f570eeff4af7dbd5322f300f6a89/archyve-0.2.6.tar.gz
+[2024-04-15 01:13:51] INFO root fetch - processPackages [transformer-heads]: executing diffoscope
+[2024-04-15 01:13:51] INFO root fetch - processPackages [transformer-heads]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transformer_heads-0.0.8.tar.gz tmp/transformer_heads-0.0.9.tar.gz --markdown 20240415/t/transformer-heads/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-15 01:13:51] INFO root fetch - processPackages [nonebot-plugin-nai3]: executing diffoscope
+[2024-04-15 01:13:51] INFO root fetch - processPackages [nonebot-plugin-nai3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_nai3-0.0.7.tar.gz tmp/nonebot_plugin_nai3-0.0.8.tar.gz --markdown 20240415/n/nonebot-plugin-nai3/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-15 01:13:51] INFO root fetch - processPackages [archyve]: executing diffoscope
+[2024-04-15 01:13:51] INFO root fetch - processPackages [archyve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archyve-0.2.5.tar.gz tmp/archyve-0.2.6.tar.gz --markdown 20240415/a/archyve/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-04-15 01:13:51] INFO root fetch - processPackages [pystaleds]: Downloading https://files.pythonhosted.org/packages/2a/b3/110685e1dd5be02579e9b538e29a91a6ce0e9ae1d6f1171891c6f377d489/pystaleds-0.1.4.tar.gz
+[2024-04-15 01:13:51] INFO root fetch - processPackages [nonebot-plugin-nai3]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_nai3-0.0.7.tar.gz]
+[2024-04-15 01:13:51] INFO root fetch - processPackages [nonebot-plugin-nai3]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_nai3-0.0.8.tar.gz]
+[2024-04-15 01:13:51] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-nai3]: success
+[2024-04-15 01:13:51] INFO root fetch - processPackages [transformer-heads]: Remove: archive file [/home/abi/fetcher/tmp/transformer_heads-0.0.8.tar.gz]
+[2024-04-15 01:13:51] INFO root fetch - processPackages [transformer-heads]: Remove: archive file [/home/abi/fetcher/tmp/transformer_heads-0.0.9.tar.gz]
+[2024-04-15 01:13:51] INFO root fetch - main [MainThread]: End processing [transformer-heads]: success
+[2024-04-15 01:13:51] INFO root fetch - processPackages [archyve]: Remove: archive file [/home/abi/fetcher/tmp/archyve-0.2.5.tar.gz]
+[2024-04-15 01:13:51] INFO root fetch - processPackages [archyve]: Remove: archive file [/home/abi/fetcher/tmp/archyve-0.2.6.tar.gz]
+[2024-04-15 01:13:51] INFO root fetch - main [MainThread]: End processing [archyve]: success
+[2024-04-15 01:13:52] INFO root fetch - processPackages [pystaleds]: executing diffoscope
+[2024-04-15 01:13:52] INFO root fetch - processPackages [pystaleds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystaleds-0.1.3.tar.gz tmp/pystaleds-0.1.4.tar.gz --markdown 20240415/p/pystaleds/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-15 01:13:52] INFO root fetch - processPackages [pystaleds]: Remove: archive file [/home/abi/fetcher/tmp/pystaleds-0.1.3.tar.gz]
+[2024-04-15 01:13:52] INFO root fetch - processPackages [pystaleds]: Remove: archive file [/home/abi/fetcher/tmp/pystaleds-0.1.4.tar.gz]
+[2024-04-15 01:13:52] INFO root fetch - main [MainThread]: End processing [pystaleds]: success
+[2024-04-15 01:13:52] INFO root fetch - main [MainThread]: Store serial: [22763429]
