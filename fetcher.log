@@ -611,3 +611,42 @@
 [2024-04-15 00:54:15] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.0.9.tar.gz]
 [2024-04-15 00:54:15] INFO root fetch - main [MainThread]: End processing [yoto-api]: success
 [2024-04-15 00:54:15] INFO root fetch - main [MainThread]: Store serial: [22763142]
+[2024-04-15 00:56:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22763142]
+[2024-04-15 00:56:24] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-15 00:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spanking
+[2024-04-15 00:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eirStru
+[2024-04-15 00:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: robothub
+[2024-04-15 00:56:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: OptimalBragg
+[2024-04-15 00:56:24] INFO root fetch - processPackages [spanking]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-15 00:56:24] INFO root fetch - processPackages [eirStru]: New version: [0.2.92] Old Version: [0.2.91]
+[2024-04-15 00:56:24] INFO root fetch - processPackages [OptimalBragg]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-15 00:56:24] INFO root fetch - processPackages [spanking]: Downloading https://files.pythonhosted.org/packages/8a/39/2f13ab606630d4b20d42cbbbe19049332a2c00a1e3f1e6c834c3256232cc/spanking-0.0.3.tar.gz
+[2024-04-15 00:56:24] INFO root fetch - processPackages [robothub]: New version: [2.5.8] Old Version: [2.5.7]
+[2024-04-15 00:56:24] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/86/db/ddb5c7fd2e0bb8edb17a7b2cc3dcdfe8e5cc10ca2d9d068122c1acd3c74f/eirStru-0.2.91.tar.gz
+[2024-04-15 00:56:24] INFO root fetch - processPackages [OptimalBragg]: Downloading https://files.pythonhosted.org/packages/d7/6a/03cfd4a529c62ac2a66d535b935dce228aa0eea3b5273415ead73875f79a/optimalbragg-1.0.0.tar.gz
+[2024-04-15 00:56:24] INFO root fetch - processPackages [robothub]: Downloading https://files.pythonhosted.org/packages/c4/a3/9f4b8fe0c25504b14b780ca4fdf61c21b312ceb9e005d81e0e1290439fa3/robothub-2.5.7.tar.gz
+[2024-04-15 00:56:24] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/83/c7/1ea6fc37b59559d5545a3ed149f23d6cd288f0e485f591236146af8a5b52/eirStru-0.2.92.tar.gz
+[2024-04-15 00:56:24] INFO root fetch - processPackages [OptimalBragg]: Downloading https://files.pythonhosted.org/packages/4a/6b/522f057054eea77041488988f4921a5cfba66618cf5311cba60191594dfc/optimalbragg-1.0.1.tar.gz
+[2024-04-15 00:56:24] INFO root fetch - processPackages [eirStru]: executing diffoscope
+[2024-04-15 00:56:24] INFO root fetch - processPackages [eirStru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eirStru-0.2.91.tar.gz tmp/eirStru-0.2.92.tar.gz --markdown 20240415/e/eirStru/0.2.91-0.2.92/README.md --exclude *.pyd
+[2024-04-15 00:56:24] INFO root fetch - processPackages [spanking]: Downloading https://files.pythonhosted.org/packages/b3/e4/c9420477f3f332ba84839ff556e45d2ffcc58eeae1a2975e77fd9312e507/spanking-0.0.4.tar.gz
+[2024-04-15 00:56:24] INFO root fetch - processPackages [robothub]: Downloading https://files.pythonhosted.org/packages/3b/48/065c1db41439c1003f3f4b55d28a0cac4a8fae50d07deda20078fea94ec7/robothub-2.5.8.tar.gz
+[2024-04-15 00:56:24] INFO root fetch - processPackages [OptimalBragg]: executing diffoscope
+[2024-04-15 00:56:24] INFO root fetch - processPackages [OptimalBragg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimalbragg-1.0.0.tar.gz tmp/optimalbragg-1.0.1.tar.gz --markdown 20240415/O/OptimalBragg/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-15 00:56:24] INFO root fetch - processPackages [spanking]: executing diffoscope
+[2024-04-15 00:56:24] INFO root fetch - processPackages [spanking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanking-0.0.3.tar.gz tmp/spanking-0.0.4.tar.gz --markdown 20240415/s/spanking/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-15 00:56:25] INFO root fetch - processPackages [robothub]: executing diffoscope
+[2024-04-15 00:56:25] INFO root fetch - processPackages [robothub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robothub-2.5.7.tar.gz tmp/robothub-2.5.8.tar.gz --markdown 20240415/r/robothub/2.5.7-2.5.8/README.md --exclude *.pyd
+[2024-04-15 00:56:25] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.2.91.tar.gz]
+[2024-04-15 00:56:25] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.2.92.tar.gz]
+[2024-04-15 00:56:25] INFO root fetch - main [MainThread]: End processing [eirStru]: success
+[2024-04-15 00:56:25] INFO root fetch - processPackages [spanking]: Remove: archive file [/home/abi/fetcher/tmp/spanking-0.0.3.tar.gz]
+[2024-04-15 00:56:25] INFO root fetch - processPackages [spanking]: Remove: archive file [/home/abi/fetcher/tmp/spanking-0.0.4.tar.gz]
+[2024-04-15 00:56:25] INFO root fetch - main [MainThread]: End processing [spanking]: success
+[2024-04-15 00:56:25] INFO root fetch - processPackages [OptimalBragg]: Remove: archive file [/home/abi/fetcher/tmp/optimalbragg-1.0.0.tar.gz]
+[2024-04-15 00:56:25] INFO root fetch - processPackages [OptimalBragg]: Remove: archive file [/home/abi/fetcher/tmp/optimalbragg-1.0.1.tar.gz]
+[2024-04-15 00:56:25] INFO root fetch - main [MainThread]: End processing [OptimalBragg]: success
+[2024-04-15 00:56:25] INFO root fetch - processPackages [robothub]: Remove: archive file [/home/abi/fetcher/tmp/robothub-2.5.7.tar.gz]
+[2024-04-15 00:56:25] INFO root fetch - processPackages [robothub]: Remove: archive file [/home/abi/fetcher/tmp/robothub-2.5.8.tar.gz]
+[2024-04-15 00:56:25] INFO root fetch - main [MainThread]: End processing [robothub]: success
+[2024-04-15 00:56:25] INFO root fetch - main [MainThread]: Store serial: [22763153]
