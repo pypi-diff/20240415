@@ -1158,3 +1158,66 @@
 [2024-04-15 01:33:20] INFO root fetch - processPackages [dsp-ifsc]: Remove: archive file [/home/abi/fetcher/tmp/dsp_ifsc-0.0.7.tar.gz]
 [2024-04-15 01:33:20] INFO root fetch - main [MainThread]: End processing [dsp-ifsc]: success
 [2024-04-15 01:33:20] INFO root fetch - main [MainThread]: Store serial: [22763612]
+[2024-04-15 01:35:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22763612]
+[2024-04-15 01:35:30] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-15 01:35:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prompt-learner
+[2024-04-15 01:35:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dank-mids
+[2024-04-15 01:35:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: systemd-language-server
+[2024-04-15 01:35:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tmnt
+[2024-04-15 01:35:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flwr-nightly
+[2024-04-15 01:35:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PokemonLibrary
+[2024-04-15 01:35:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ubo-app
+[2024-04-15 01:35:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cygrid
+[2024-04-15 01:35:30] INFO root fetch - processPackages [systemd-language-server]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-04-15 01:35:30] WARNING root fetch - processPackages [PokemonLibrary]: Skipping, unable to determine old version
+[2024-04-15 01:35:30] INFO root fetch - main [MainThread]: End processing [PokemonLibrary] error
+[2024-04-15 01:35:30] WARNING root fetch - processPackages [prompt-learner]: Skipping, unable to determine old version
+[2024-04-15 01:35:30] INFO root fetch - main [MainThread]: End processing [prompt-learner] error
+[2024-04-15 01:35:30] INFO root fetch - processPackages [ubo-app]: New version: [0.9.9] Old Version: [0.9.8a4]
+[2024-04-15 01:35:30] INFO root fetch - processPackages [cygrid]: New version: [2.0.4] Old Version: [2.0.3]
+[2024-04-15 01:35:30] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.87]
+[2024-04-15 01:35:30] INFO root fetch - processPackages [flwr-nightly]: New version: [1.9.0.dev20240414] Old Version: [1.9.0.dev20240412]
+[2024-04-15 01:35:30] INFO root fetch - processPackages [systemd-language-server]: Downloading https://files.pythonhosted.org/packages/1b/93/ef85f6092118ed0bf46e96bed9cfd5335c49eb57f4c835547c08da4db32e/systemd_language_server-0.3.4.tar.gz
+[2024-04-15 01:35:30] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/2c/91/c8a3ad3361f0d5b254831411c4dbf2a785a617427993e53caa6248f466eb/dank_mids-4.20.87.tar.gz
+[2024-04-15 01:35:31] INFO root fetch - processPackages [tmnt]: New version: [0.7.52b20240414] Old Version: [0.7.52b20240413]
+[2024-04-15 01:35:31] INFO root fetch - processPackages [ubo-app]: Downloading https://files.pythonhosted.org/packages/95/e9/c4e16198ab3bdf6b007857bc40357fe1bb068e7391f5fe793ca7f6e9819d/ubo_app-0.9.8a4.tar.gz
+[2024-04-15 01:35:31] INFO root fetch - processPackages [cygrid]: Downloading https://files.pythonhosted.org/packages/50/8b/2d63b879cea53c39d417cdd201e476746e64cefc5b22800ca3f10f22b314/cygrid-2.0.3.tar.gz
+[2024-04-15 01:35:31] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/4a/3f/2225da10d5b7159134f7ca4995d72598b1357bf9e5a4eb9dea6818bda240/flwr_nightly-1.9.0.dev20240412.tar.gz
+[2024-04-15 01:35:31] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/4d/d4/990dd5a09c77bef2503950aa2712c407515f7206980732bb1de23b8b80f5/tmnt-0.7.52b20240413.tar.gz
+[2024-04-15 01:35:31] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2024-04-15 01:35:31] INFO root fetch - processPackages [ubo-app]: Downloading https://files.pythonhosted.org/packages/13/b7/3d42c344f38a9c5bf598c3ea5d71758fc78c30b3d3bf5b039ef153cf16b2/ubo_app-0.9.9.tar.gz
+[2024-04-15 01:35:31] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2024-04-15 01:35:31] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.87.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20240415/d/dank-mids/4.20.87-4.20.9/README.md --exclude *.pyd
+[2024-04-15 01:35:31] INFO root fetch - processPackages [systemd-language-server]: Downloading https://files.pythonhosted.org/packages/72/38/4526913c9a2b314eec0deea826c0349b8790c6123c387e796c999cf25015/systemd_language_server-0.3.5.tar.gz
+[2024-04-15 01:35:31] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/dc/3d/b0889985025a310e1259e0550ee1d5c548a7b064a898aa66164bf2ea126d/flwr_nightly-1.9.0.dev20240414.tar.gz
+[2024-04-15 01:35:31] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/d4/50/d5aa191a1d48e70947966a94b65b4cd6d327864f0927a8671897e65087ce/tmnt-0.7.52b20240414.tar.gz
+[2024-04-15 01:35:31] INFO root fetch - processPackages [ubo-app]: executing diffoscope
+[2024-04-15 01:35:31] INFO root fetch - processPackages [ubo-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ubo_app-0.9.8a4.tar.gz tmp/ubo_app-0.9.9.tar.gz --markdown 20240415/u/ubo-app/0.9.8a4-0.9.9/README.md --exclude *.pyd
+[2024-04-15 01:35:31] INFO root fetch - processPackages [systemd-language-server]: executing diffoscope
+[2024-04-15 01:35:31] INFO root fetch - processPackages [systemd-language-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systemd_language_server-0.3.4.tar.gz tmp/systemd_language_server-0.3.5.tar.gz --markdown 20240415/s/systemd-language-server/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-04-15 01:35:31] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2024-04-15 01:35:31] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.9.0.dev20240412.tar.gz tmp/flwr_nightly-1.9.0.dev20240414.tar.gz --markdown 20240415/f/flwr-nightly/1.9.0.dev20240412-1.9.0.dev20240414/README.md --exclude *.pyd
+[2024-04-15 01:35:31] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2024-04-15 01:35:31] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.52b20240413.tar.gz tmp/tmnt-0.7.52b20240414.tar.gz --markdown 20240415/t/tmnt/0.7.52b20240413-0.7.52b20240414/README.md --exclude *.pyd
+[2024-04-15 01:35:32] INFO root fetch - processPackages [cygrid]: Downloading https://files.pythonhosted.org/packages/a5/eb/921fe244b96f99524b0ae69ce0de574f2da1df70353655f8586b405d1e83/cygrid-2.0.4-cp38-cp38-manylinux_2_28_x86_64.whl
+[2024-04-15 01:35:32] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.87.tar.gz]
+[2024-04-15 01:35:32] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2024-04-15 01:35:32] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2024-04-15 01:35:32] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240413.tar.gz]
+[2024-04-15 01:35:32] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240414.tar.gz]
+[2024-04-15 01:35:32] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2024-04-15 01:35:32] INFO root fetch - processPackages [ubo-app]: Remove: archive file [/home/abi/fetcher/tmp/ubo_app-0.9.8a4.tar.gz]
+[2024-04-15 01:35:32] INFO root fetch - processPackages [ubo-app]: Remove: archive file [/home/abi/fetcher/tmp/ubo_app-0.9.9.tar.gz]
+[2024-04-15 01:35:32] INFO root fetch - main [MainThread]: End processing [ubo-app]: success
+[2024-04-15 01:35:32] INFO root fetch - processPackages [systemd-language-server]: Remove: archive file [/home/abi/fetcher/tmp/systemd_language_server-0.3.4.tar.gz]
+[2024-04-15 01:35:32] INFO root fetch - processPackages [systemd-language-server]: Remove: archive file [/home/abi/fetcher/tmp/systemd_language_server-0.3.5.tar.gz]
+[2024-04-15 01:35:32] INFO root fetch - main [MainThread]: End processing [systemd-language-server]: success
+[2024-04-15 01:35:32] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240412.tar.gz]
+[2024-04-15 01:35:32] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240414.tar.gz]
+[2024-04-15 01:35:32] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2024-04-15 01:35:41] INFO root fetch - processPackages [cygrid]: executing diffoscope
+[2024-04-15 01:35:41] INFO root fetch - processPackages [cygrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cygrid-2.0.3.tar.gz tmp/cygrid-2.0.4-cp38-cp38-manylinux_2_28_x86_64.whl.zip --markdown 20240415/c/cygrid/2.0.3-2.0.4/README.md --exclude *.pyd
+[2024-04-15 01:35:43] INFO root fetch - processPackages [cygrid]: Remove: archive file [/home/abi/fetcher/tmp/cygrid-2.0.3.tar.gz]
+[2024-04-15 01:35:43] INFO root fetch - processPackages [cygrid]: Remove: archive file [/home/abi/fetcher/tmp/cygrid-2.0.4-cp38-cp38-manylinux_2_28_x86_64.whl.zip]
+[2024-04-15 01:35:43] INFO root fetch - main [MainThread]: End processing [cygrid]: success
+[2024-04-15 01:35:43] INFO root fetch - main [MainThread]: Store serial: [22763639]
