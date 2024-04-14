@@ -1316,3 +1316,24 @@
 [2024-04-15 01:46:38] INFO root fetch - processPackages [ypricemagic]: Remove: archive file [/home/abi/fetcher/tmp/ypricemagic-3.4.7.tar.gz]
 [2024-04-15 01:46:38] INFO root fetch - main [MainThread]: End processing [ypricemagic]: success
 [2024-04-15 01:46:38] INFO root fetch - main [MainThread]: Store serial: [22763691]
+[2024-04-15 01:48:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22763691]
+[2024-04-15 01:48:47] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-15 01:48:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MethodicConfigurator
+[2024-04-15 01:48:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: karray
+[2024-04-15 01:48:47] INFO root fetch - processPackages [MethodicConfigurator]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-04-15 01:48:47] INFO root fetch - processPackages [karray]: New version: [2024.3.5] Old Version: [0.3.2]
+[2024-04-15 01:48:47] INFO root fetch - processPackages [MethodicConfigurator]: Downloading https://files.pythonhosted.org/packages/e1/19/3632d8aa8d881c1c95df52c4d6ea82f15a010f4bded12382e9b8e1aad0c9/MethodicConfigurator-0.1.9.tar.gz
+[2024-04-15 01:48:47] INFO root fetch - processPackages [karray]: Downloading https://files.pythonhosted.org/packages/f9/67/28f742c2874611c04786b81741b3fc5148f3a3e49e33cfab947ea62ebc6e/karray-0.3.2.tar.gz
+[2024-04-15 01:48:47] INFO root fetch - processPackages [MethodicConfigurator]: Downloading https://files.pythonhosted.org/packages/5b/b3/3ad6f3c67b383a846433504626e22e29a9d2da95b7cfca68b5e8f41eb393/methodicconfigurator-0.2.0.tar.gz
+[2024-04-15 01:48:48] INFO root fetch - processPackages [karray]: Downloading https://files.pythonhosted.org/packages/95/47/45644f06344cbbb4455d4b820e25aa1f9defb41ee2b7aaa8df0a3c728f70/karray-2024.3.5.tar.gz
+[2024-04-15 01:48:48] INFO root fetch - processPackages [MethodicConfigurator]: executing diffoscope
+[2024-04-15 01:48:48] INFO root fetch - processPackages [MethodicConfigurator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MethodicConfigurator-0.1.9.tar.gz tmp/methodicconfigurator-0.2.0.tar.gz --markdown 20240415/M/MethodicConfigurator/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-04-15 01:48:48] INFO root fetch - processPackages [karray]: executing diffoscope
+[2024-04-15 01:48:48] INFO root fetch - processPackages [karray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karray-0.3.2.tar.gz tmp/karray-2024.3.5.tar.gz --markdown 20240415/k/karray/0.3.2-2024.3.5/README.md --exclude *.pyd
+[2024-04-15 01:48:48] INFO root fetch - processPackages [karray]: Remove: archive file [/home/abi/fetcher/tmp/karray-0.3.2.tar.gz]
+[2024-04-15 01:48:48] INFO root fetch - processPackages [karray]: Remove: archive file [/home/abi/fetcher/tmp/karray-2024.3.5.tar.gz]
+[2024-04-15 01:48:48] INFO root fetch - main [MainThread]: End processing [karray]: success
+[2024-04-15 01:48:48] INFO root fetch - processPackages [MethodicConfigurator]: Remove: archive file [/home/abi/fetcher/tmp/MethodicConfigurator-0.1.9.tar.gz]
+[2024-04-15 01:48:48] INFO root fetch - processPackages [MethodicConfigurator]: Remove: archive file [/home/abi/fetcher/tmp/methodicconfigurator-0.2.0.tar.gz]
+[2024-04-15 01:48:48] INFO root fetch - main [MainThread]: End processing [MethodicConfigurator]: success
+[2024-04-15 01:48:48] INFO root fetch - main [MainThread]: Store serial: [22763710]
