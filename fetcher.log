@@ -1221,3 +1221,15 @@
 [2024-04-15 01:35:43] INFO root fetch - processPackages [cygrid]: Remove: archive file [/home/abi/fetcher/tmp/cygrid-2.0.4-cp38-cp38-manylinux_2_28_x86_64.whl.zip]
 [2024-04-15 01:35:43] INFO root fetch - main [MainThread]: End processing [cygrid]: success
 [2024-04-15 01:35:43] INFO root fetch - main [MainThread]: Store serial: [22763639]
+[2024-04-15 01:37:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22763639]
+[2024-04-15 01:37:51] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-15 01:37:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swpclib
+[2024-04-15 01:37:51] INFO root fetch - processPackages [swpclib]: New version: [4.3.3] Old Version: [4.3.2]
+[2024-04-15 01:37:52] INFO root fetch - processPackages [swpclib]: Downloading https://files.pythonhosted.org/packages/79/ee/c5afb989b44de9b9a9682cd9c257a0583c1eac31bbdd181289d0a2960ebe/swpclib-4.3.2.tar.gz
+[2024-04-15 01:37:52] INFO root fetch - processPackages [swpclib]: Downloading https://files.pythonhosted.org/packages/70/6e/243626880b60365bb32698f7fe07ce6937c00ff6bb288db3782f76927a0b/swpclib-4.3.3.tar.gz
+[2024-04-15 01:37:52] INFO root fetch - processPackages [swpclib]: executing diffoscope
+[2024-04-15 01:37:52] INFO root fetch - processPackages [swpclib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swpclib-4.3.2.tar.gz tmp/swpclib-4.3.3.tar.gz --markdown 20240415/s/swpclib/4.3.2-4.3.3/README.md --exclude *.pyd
+[2024-04-15 01:37:53] INFO root fetch - processPackages [swpclib]: Remove: archive file [/home/abi/fetcher/tmp/swpclib-4.3.2.tar.gz]
+[2024-04-15 01:37:53] INFO root fetch - processPackages [swpclib]: Remove: archive file [/home/abi/fetcher/tmp/swpclib-4.3.3.tar.gz]
+[2024-04-15 01:37:53] INFO root fetch - main [MainThread]: End processing [swpclib]: success
+[2024-04-15 01:37:53] INFO root fetch - main [MainThread]: Store serial: [22763648]
