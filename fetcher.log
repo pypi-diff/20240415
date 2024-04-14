@@ -326,3 +326,51 @@
 [2024-04-15 00:30:25] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.0.9.tar.gz]
 [2024-04-15 00:30:25] INFO root fetch - main [MainThread]: End processing [freegenius]: success
 [2024-04-15 00:30:25] INFO root fetch - main [MainThread]: Store serial: [22763013]
+[2024-04-15 00:32:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22763013]
+[2024-04-15 00:32:34] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-15 00:32:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: inkscape-layer-utils
+[2024-04-15 00:32:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: archyve
+[2024-04-15 00:32:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scludam
+[2024-04-15 00:32:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nzshm-common
+[2024-04-15 00:32:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: labelle
+[2024-04-15 00:32:34] INFO root fetch - processPackages [archyve]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-15 00:32:34] INFO root fetch - processPackages [nzshm-common]: New version: [0.7.0] Old Version: [0.6.1]
+[2024-04-15 00:32:34] INFO root fetch - processPackages [scludam]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-15 00:32:34] INFO root fetch - processPackages [labelle]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-15 00:32:34] INFO root fetch - processPackages [inkscape-layer-utils]: New version: [0.3.0] Old Version: [0.2.3]
+[2024-04-15 00:32:35] INFO root fetch - processPackages [archyve]: Downloading https://files.pythonhosted.org/packages/8d/51/b9677b228dceb954234ef5b2730f31f9fd2e208fc471d38b5cf35f3fe399/archyve-0.1.0.tar.gz
+[2024-04-15 00:32:35] INFO root fetch - processPackages [nzshm-common]: Downloading https://files.pythonhosted.org/packages/2d/61/200a5aad0b56872e1bbd4130469b47fe95f5fff3b4b4ab7390394fcd8d04/nzshm_common-0.6.1.tar.gz
+[2024-04-15 00:32:35] INFO root fetch - processPackages [scludam]: Downloading https://files.pythonhosted.org/packages/51/9c/e8e8940355947fb49e0051e41cbef8a8757f52a7f1748ad312220d457351/scludam-1.0.4-py3-none-any.whl
+[2024-04-15 00:32:35] INFO root fetch - processPackages [inkscape-layer-utils]: Downloading https://files.pythonhosted.org/packages/8a/6f/547f2b02919d6b42ecc76b18c533c5a60f19fcd449f4254faa0a36f22e6b/inkscape_layer_utils-0.2.3.tar.gz
+[2024-04-15 00:32:35] INFO root fetch - processPackages [labelle]: Downloading https://files.pythonhosted.org/packages/4c/f4/61d4dbc65d1de86eb5a3f369619aa8417573b4dc8e7d693e8a3b03399005/labelle-1.0.0.tar.gz
+[2024-04-15 00:32:35] INFO root fetch - processPackages [archyve]: Downloading https://files.pythonhosted.org/packages/4c/9d/9cc400e09b99fa84cb101550de69d3e0bcb5a24f02db271ca28f95c40cdf/archyve-0.2.0.tar.gz
+[2024-04-15 00:32:35] INFO root fetch - processPackages [archyve]: executing diffoscope
+[2024-04-15 00:32:35] INFO root fetch - processPackages [archyve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archyve-0.1.0.tar.gz tmp/archyve-0.2.0.tar.gz --markdown 20240415/a/archyve/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-15 00:32:35] INFO root fetch - processPackages [scludam]: Downloading https://files.pythonhosted.org/packages/9c/18/4b98852550c2d4965b48883fcf5ed89803d894b944a13ed7b914d01309b8/scludam-1.0.5-py3-none-any.whl
+[2024-04-15 00:32:35] INFO root fetch - processPackages [inkscape-layer-utils]: Downloading https://files.pythonhosted.org/packages/02/e3/e09828bcf3a121bf94c5a08f8355c3c01b13600d4ad5345da985e9885181/inkscape_layer_utils-0.3.0.tar.gz
+[2024-04-15 00:32:35] INFO root fetch - processPackages [nzshm-common]: Downloading https://files.pythonhosted.org/packages/2b/56/4621c7cc176e529306666fcc066dadd057ba75a5c85b614b5e9a6d3fc716/nzshm_common-0.7.0.tar.gz
+[2024-04-15 00:32:35] INFO root fetch - processPackages [scludam]: executing diffoscope
+[2024-04-15 00:32:35] INFO root fetch - processPackages [scludam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scludam-1.0.4-py3-none-any.whl.zip tmp/scludam-1.0.5-py3-none-any.whl.zip --markdown 20240415/s/scludam/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-15 00:32:35] INFO root fetch - processPackages [inkscape-layer-utils]: executing diffoscope
+[2024-04-15 00:32:35] INFO root fetch - processPackages [inkscape-layer-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inkscape_layer_utils-0.2.3.tar.gz tmp/inkscape_layer_utils-0.3.0.tar.gz --markdown 20240415/i/inkscape-layer-utils/0.2.3-0.3.0/README.md --exclude *.pyd
+[2024-04-15 00:32:35] INFO root fetch - processPackages [nzshm-common]: executing diffoscope
+[2024-04-15 00:32:35] INFO root fetch - processPackages [nzshm-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nzshm_common-0.6.1.tar.gz tmp/nzshm_common-0.7.0.tar.gz --markdown 20240415/n/nzshm-common/0.6.1-0.7.0/README.md --exclude *.pyd
+[2024-04-15 00:32:35] INFO root fetch - processPackages [labelle]: Downloading https://files.pythonhosted.org/packages/df/ab/a4deb959c334726efacba06e20aa299b59b4b2ccadd767ae47d13ac2d9c4/labelle-1.1.0.tar.gz
+[2024-04-15 00:32:35] INFO root fetch - processPackages [archyve]: Remove: archive file [/home/abi/fetcher/tmp/archyve-0.1.0.tar.gz]
+[2024-04-15 00:32:35] INFO root fetch - processPackages [archyve]: Remove: archive file [/home/abi/fetcher/tmp/archyve-0.2.0.tar.gz]
+[2024-04-15 00:32:35] INFO root fetch - main [MainThread]: End processing [archyve]: success
+[2024-04-15 00:32:36] INFO root fetch - processPackages [inkscape-layer-utils]: Remove: archive file [/home/abi/fetcher/tmp/inkscape_layer_utils-0.2.3.tar.gz]
+[2024-04-15 00:32:36] INFO root fetch - processPackages [inkscape-layer-utils]: Remove: archive file [/home/abi/fetcher/tmp/inkscape_layer_utils-0.3.0.tar.gz]
+[2024-04-15 00:32:36] INFO root fetch - main [MainThread]: End processing [inkscape-layer-utils]: success
+[2024-04-15 00:32:36] INFO root fetch - processPackages [scludam]: Remove: archive file [/home/abi/fetcher/tmp/scludam-1.0.4-py3-none-any.whl.zip]
+[2024-04-15 00:32:36] INFO root fetch - processPackages [scludam]: Remove: archive file [/home/abi/fetcher/tmp/scludam-1.0.5-py3-none-any.whl.zip]
+[2024-04-15 00:32:36] INFO root fetch - main [MainThread]: End processing [scludam]: success
+[2024-04-15 00:32:36] INFO root fetch - processPackages [nzshm-common]: Remove: archive file [/home/abi/fetcher/tmp/nzshm_common-0.6.1.tar.gz]
+[2024-04-15 00:32:36] INFO root fetch - processPackages [nzshm-common]: Remove: archive file [/home/abi/fetcher/tmp/nzshm_common-0.7.0.tar.gz]
+[2024-04-15 00:32:36] INFO root fetch - main [MainThread]: End processing [nzshm-common]: success
+[2024-04-15 00:32:36] INFO root fetch - processPackages [labelle]: executing diffoscope
+[2024-04-15 00:32:36] INFO root fetch - processPackages [labelle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labelle-1.0.0.tar.gz tmp/labelle-1.1.0.tar.gz --markdown 20240415/l/labelle/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-04-15 00:32:37] INFO root fetch - processPackages [labelle]: Remove: archive file [/home/abi/fetcher/tmp/labelle-1.0.0.tar.gz]
+[2024-04-15 00:32:37] INFO root fetch - processPackages [labelle]: Remove: archive file [/home/abi/fetcher/tmp/labelle-1.1.0.tar.gz]
+[2024-04-15 00:32:37] INFO root fetch - main [MainThread]: End processing [labelle]: success
+[2024-04-15 00:32:37] INFO root fetch - main [MainThread]: Store serial: [22763024]
