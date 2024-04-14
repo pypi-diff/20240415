@@ -650,3 +650,15 @@
 [2024-04-15 00:56:25] INFO root fetch - processPackages [robothub]: Remove: archive file [/home/abi/fetcher/tmp/robothub-2.5.8.tar.gz]
 [2024-04-15 00:56:25] INFO root fetch - main [MainThread]: End processing [robothub]: success
 [2024-04-15 00:56:25] INFO root fetch - main [MainThread]: Store serial: [22763153]
+[2024-04-15 00:58:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22763153]
+[2024-04-15 00:58:34] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-15 00:58:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-irclib
+[2024-04-15 00:58:34] INFO root fetch - processPackages [py-irclib]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-15 00:58:34] INFO root fetch - processPackages [py-irclib]: Downloading https://files.pythonhosted.org/packages/8d/50/75866f6e58c96f4d2bfac0e0511407f05196616608ca352e4926e6748469/py-irclib-0.3.0.tar.gz
+[2024-04-15 00:58:34] INFO root fetch - processPackages [py-irclib]: Downloading https://files.pythonhosted.org/packages/9d/6d/55ea957a105a09a38bd2bb90a74133d9944b8b7464e04bb8bfcd29d8a810/py_irclib-0.4.0.tar.gz
+[2024-04-15 00:58:34] INFO root fetch - processPackages [py-irclib]: executing diffoscope
+[2024-04-15 00:58:34] INFO root fetch - processPackages [py-irclib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-irclib-0.3.0.tar.gz tmp/py_irclib-0.4.0.tar.gz --markdown 20240415/p/py-irclib/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-04-15 00:58:35] INFO root fetch - processPackages [py-irclib]: Remove: archive file [/home/abi/fetcher/tmp/py-irclib-0.3.0.tar.gz]
+[2024-04-15 00:58:35] INFO root fetch - processPackages [py-irclib]: Remove: archive file [/home/abi/fetcher/tmp/py_irclib-0.4.0.tar.gz]
+[2024-04-15 00:58:35] INFO root fetch - main [MainThread]: End processing [py-irclib]: success
+[2024-04-15 00:58:35] INFO root fetch - main [MainThread]: Store serial: [22763156]
