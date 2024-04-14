@@ -1134,3 +1134,15 @@
 [2024-04-15 01:29:01] INFO root fetch - processPackages [gtfs-station-stop]: Remove: archive file [/home/abi/fetcher/tmp/gtfs_station_stop-0.8.0.tar.gz]
 [2024-04-15 01:29:01] INFO root fetch - main [MainThread]: End processing [gtfs-station-stop]: success
 [2024-04-15 01:29:01] INFO root fetch - main [MainThread]: Store serial: [22763606]
+[2024-04-15 01:31:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22763606]
+[2024-04-15 01:31:09] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-15 01:31:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llm-structured-output
+[2024-04-15 01:31:10] INFO root fetch - processPackages [llm-structured-output]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-15 01:31:10] INFO root fetch - processPackages [llm-structured-output]: Downloading https://files.pythonhosted.org/packages/c0/ff/d9a2260b1d89216872d4b04c79333ad4b15d48ec0a6bd79e970a09285140/llm_structured_output-0.0.5.tar.gz
+[2024-04-15 01:31:10] INFO root fetch - processPackages [llm-structured-output]: Downloading https://files.pythonhosted.org/packages/a1/8b/7ced36698209bd124c2e51118fd87c9c600428655dab9ac2a36d38017b22/llm_structured_output-0.0.6.tar.gz
+[2024-04-15 01:31:10] INFO root fetch - processPackages [llm-structured-output]: executing diffoscope
+[2024-04-15 01:31:10] INFO root fetch - processPackages [llm-structured-output]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_structured_output-0.0.5.tar.gz tmp/llm_structured_output-0.0.6.tar.gz --markdown 20240415/l/llm-structured-output/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-15 01:31:11] INFO root fetch - processPackages [llm-structured-output]: Remove: archive file [/home/abi/fetcher/tmp/llm_structured_output-0.0.5.tar.gz]
+[2024-04-15 01:31:11] INFO root fetch - processPackages [llm-structured-output]: Remove: archive file [/home/abi/fetcher/tmp/llm_structured_output-0.0.6.tar.gz]
+[2024-04-15 01:31:11] INFO root fetch - main [MainThread]: End processing [llm-structured-output]: success
+[2024-04-15 01:31:11] INFO root fetch - main [MainThread]: Store serial: [22763609]
