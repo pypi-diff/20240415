@@ -727,3 +727,45 @@
 [2024-04-15 01:00:45] INFO root fetch - processPackages [gammarer.aws-secure-frontend-web-app-cloudfront-distribution]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws_secure_frontend_web_app_cloudfront_distribution-1.2.1-py3-none-any.whl.zip]
 [2024-04-15 01:00:45] INFO root fetch - main [MainThread]: End processing [gammarer.aws-secure-frontend-web-app-cloudfront-distribution]: success
 [2024-04-15 01:00:45] INFO root fetch - main [MainThread]: Store serial: [22763178]
+[2024-04-15 01:02:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22763178]
+[2024-04-15 01:02:54] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-15 01:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autopipeline
+[2024-04-15 01:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gammarer.aws-secure-frontend-web-app-cloudfront-distribution
+[2024-04-15 01:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onebusaway
+[2024-04-15 01:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zettel-org
+[2024-04-15 01:02:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tokka
+[2024-04-15 01:02:54] INFO root fetch - processPackages [gammarer.aws-secure-frontend-web-app-cloudfront-distribution]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-15 01:02:54] INFO root fetch - processPackages [autopipeline]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-15 01:02:54] INFO root fetch - processPackages [zettel-org]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-04-15 01:02:54] WARNING root fetch - processPackages [tokka]: Skipping, unable to determine old version
+[2024-04-15 01:02:54] INFO root fetch - main [MainThread]: End processing [tokka] error
+[2024-04-15 01:02:54] INFO root fetch - processPackages [onebusaway]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-15 01:02:54] INFO root fetch - processPackages [gammarer.aws-secure-frontend-web-app-cloudfront-distribution]: Downloading https://files.pythonhosted.org/packages/ee/e3/791ba251600d19294fcf9b04db1e7dcbc603b11f3f69fbb54be70667a527/gammarer.aws-secure-frontend-web-app-cloudfront-distribution-1.2.0.tar.gz
+[2024-04-15 01:02:54] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/0f/9eaf209b6d540115afdc9ae31de828df0234756277bceae49a4d1a0ea8b3/autopipeline-0.1.98.tar.gz
+[2024-04-15 01:02:55] INFO root fetch - processPackages [zettel-org]: Downloading https://files.pythonhosted.org/packages/09/a8/65966ef8ca2c9f45bfa8fc87ed4a0206a91e729b56fcba345169c546acba/zettel-org-0.6.0.tar.gz
+[2024-04-15 01:02:55] INFO root fetch - processPackages [onebusaway]: Downloading https://files.pythonhosted.org/packages/0f/f2/eeb56667f406bd62d311efbede8e764cc691362c11a65ad90e06fa223973/onebusaway-1.0.0.tar.gz
+[2024-04-15 01:02:55] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/4a/f3df97d414e0a5e9120459fd5c7ab663092d540df59f7deacc45810deb41/autopipeline-0.1.99.tar.gz
+[2024-04-15 01:02:55] INFO root fetch - processPackages [gammarer.aws-secure-frontend-web-app-cloudfront-distribution]: Downloading https://files.pythonhosted.org/packages/f8/1e/7afd8771d3ce21a1021eb33bb5e76048f8a2b6b5788cb5c95203c8307d54/gammarer.aws_secure_frontend_web_app_cloudfront_distribution-1.2.1-py3-none-any.whl
+[2024-04-15 01:02:55] INFO root fetch - processPackages [autopipeline]: executing diffoscope
+[2024-04-15 01:02:55] INFO root fetch - processPackages [autopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopipeline-0.1.98.tar.gz tmp/autopipeline-0.1.99.tar.gz --markdown 20240415/a/autopipeline/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-15 01:02:55] INFO root fetch - processPackages [gammarer.aws-secure-frontend-web-app-cloudfront-distribution]: executing diffoscope
+[2024-04-15 01:02:55] INFO root fetch - processPackages [gammarer.aws-secure-frontend-web-app-cloudfront-distribution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-secure-frontend-web-app-cloudfront-distribution-1.2.0.tar.gz tmp/gammarer.aws_secure_frontend_web_app_cloudfront_distribution-1.2.1-py3-none-any.whl.zip --markdown 20240415/g/gammarer.aws-secure-frontend-web-app-cloudfront-distribution/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-04-15 01:02:55] INFO root fetch - processPackages [zettel-org]: Downloading https://files.pythonhosted.org/packages/d5/c3/e896a4950ad0abbadeab07cfdf09956a0b66ada6fac135ef081865369184/zettel_org-0.6.1.tar.gz
+[2024-04-15 01:02:55] INFO root fetch - processPackages [onebusaway]: Downloading https://files.pythonhosted.org/packages/de/85/161a2d670f4e3b62c98e967fef02c5846f3d1e50d2e77bbc799084ff21e8/onebusaway-1.0.1.tar.gz
+[2024-04-15 01:02:55] INFO root fetch - processPackages [onebusaway]: executing diffoscope
+[2024-04-15 01:02:55] INFO root fetch - processPackages [onebusaway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onebusaway-1.0.0.tar.gz tmp/onebusaway-1.0.1.tar.gz --markdown 20240415/o/onebusaway/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-15 01:02:55] INFO root fetch - processPackages [zettel-org]: executing diffoscope
+[2024-04-15 01:02:55] INFO root fetch - processPackages [zettel-org]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zettel-org-0.6.0.tar.gz tmp/zettel_org-0.6.1.tar.gz --markdown 20240415/z/zettel-org/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-04-15 01:02:55] INFO root fetch - processPackages [gammarer.aws-secure-frontend-web-app-cloudfront-distribution]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-frontend-web-app-cloudfront-distribution-1.2.0.tar.gz]
+[2024-04-15 01:02:55] INFO root fetch - processPackages [gammarer.aws-secure-frontend-web-app-cloudfront-distribution]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws_secure_frontend_web_app_cloudfront_distribution-1.2.1-py3-none-any.whl.zip]
+[2024-04-15 01:02:55] INFO root fetch - main [MainThread]: End processing [gammarer.aws-secure-frontend-web-app-cloudfront-distribution]: success
+[2024-04-15 01:02:55] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.98.tar.gz]
+[2024-04-15 01:02:55] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.99.tar.gz]
+[2024-04-15 01:02:55] INFO root fetch - main [MainThread]: End processing [autopipeline]: success
+[2024-04-15 01:02:56] INFO root fetch - processPackages [onebusaway]: Remove: archive file [/home/abi/fetcher/tmp/onebusaway-1.0.0.tar.gz]
+[2024-04-15 01:02:56] INFO root fetch - processPackages [onebusaway]: Remove: archive file [/home/abi/fetcher/tmp/onebusaway-1.0.1.tar.gz]
+[2024-04-15 01:02:56] INFO root fetch - main [MainThread]: End processing [onebusaway]: success
+[2024-04-15 01:02:56] INFO root fetch - processPackages [zettel-org]: Remove: archive file [/home/abi/fetcher/tmp/zettel-org-0.6.0.tar.gz]
+[2024-04-15 01:02:56] INFO root fetch - processPackages [zettel-org]: Remove: archive file [/home/abi/fetcher/tmp/zettel_org-0.6.1.tar.gz]
+[2024-04-15 01:02:56] INFO root fetch - main [MainThread]: End processing [zettel-org]: success
+[2024-04-15 01:02:56] INFO root fetch - main [MainThread]: Store serial: [22763195]
