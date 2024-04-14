@@ -452,3 +452,9 @@
 [2024-04-15 00:39:07] INFO root fetch - processPackages [pytplot-mpl-temp]: Remove: archive file [/home/abi/fetcher/tmp/pytplot-mpl-temp-2.2.9.tar.gz]
 [2024-04-15 00:39:07] INFO root fetch - main [MainThread]: End processing [pytplot-mpl-temp]: success
 [2024-04-15 00:39:07] INFO root fetch - main [MainThread]: Store serial: [22763057]
+[2024-04-15 00:41:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22763057]
+[2024-04-15 00:41:15] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-15 00:41:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: RandomPokemonLibrary
+[2024-04-15 00:41:15] WARNING root fetch - processPackages [RandomPokemonLibrary]: Skipping, unable to determine old version
+[2024-04-15 00:41:15] INFO root fetch - main [MainThread]: End processing [RandomPokemonLibrary] error
+[2024-04-15 00:41:15] INFO root fetch - main [MainThread]: Store serial: [22763063]
