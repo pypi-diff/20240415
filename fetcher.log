@@ -1403,3 +1403,9 @@
 [2024-04-15 01:55:17] INFO root fetch - processPackages [webscraperr]: Remove: archive file [/home/abi/fetcher/tmp/webscraperr-0.1.8.tar.gz]
 [2024-04-15 01:55:17] INFO root fetch - main [MainThread]: End processing [webscraperr]: success
 [2024-04-15 01:55:17] INFO root fetch - main [MainThread]: Store serial: [22763736]
+[2024-04-15 01:57:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22763736]
+[2024-04-15 01:57:26] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-15 01:57:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opencredit
+[2024-04-15 01:57:26] WARNING root fetch - processPackages [opencredit]: Skipping, unable to determine old version
+[2024-04-15 01:57:26] INFO root fetch - main [MainThread]: End processing [opencredit] error
+[2024-04-15 01:57:26] INFO root fetch - main [MainThread]: Store serial: [22763739]
