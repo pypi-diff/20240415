@@ -526,3 +526,21 @@
 [2024-04-15 00:47:46] INFO root fetch - processPackages [surquest-split-balancer]: Remove: archive file [/home/abi/fetcher/tmp/surquest_split_balancer-0.0.2.tar.gz]
 [2024-04-15 00:47:46] INFO root fetch - main [MainThread]: End processing [surquest-split-balancer]: success
 [2024-04-15 00:47:46] INFO root fetch - main [MainThread]: Store serial: [22763102]
+[2024-04-15 00:49:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22763102]
+[2024-04-15 00:49:54] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-15 00:49:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ttemtoolbox
+[2024-04-15 00:49:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ds18b20-datalogger
+[2024-04-15 00:49:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gammarer.aws-secure-bucket
+[2024-04-15 00:49:54] WARNING root fetch - processPackages [ttemtoolbox]: Skipping, unable to determine old version
+[2024-04-15 00:49:54] INFO root fetch - main [MainThread]: End processing [ttemtoolbox] error
+[2024-04-15 00:49:54] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-04-15 00:49:54] WARNING root fetch - processPackages [ds18b20-datalogger]: Skipping, unable to determine old version
+[2024-04-15 00:49:54] INFO root fetch - main [MainThread]: End processing [ds18b20-datalogger] error
+[2024-04-15 00:49:54] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: Downloading https://files.pythonhosted.org/packages/4e/ad/a8a9a5fe6985bc5913179da355a1cb9f3bbabae96a7f9ac6e83bc128eaf1/gammarer.aws-secure-bucket-1.2.1.tar.gz
+[2024-04-15 00:49:55] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: Downloading https://files.pythonhosted.org/packages/5e/69/ab868548ecac2416ff3b1973338d445b591dd3dcfec57a0a62c0481e4b1f/gammarer.aws-secure-bucket-1.2.2.tar.gz
+[2024-04-15 00:49:55] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: executing diffoscope
+[2024-04-15 00:49:55] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-secure-bucket-1.2.1.tar.gz tmp/gammarer.aws-secure-bucket-1.2.2.tar.gz --markdown 20240415/g/gammarer.aws-secure-bucket/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-04-15 00:49:55] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-bucket-1.2.1.tar.gz]
+[2024-04-15 00:49:55] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-bucket-1.2.2.tar.gz]
+[2024-04-15 00:49:55] INFO root fetch - main [MainThread]: End processing [gammarer.aws-secure-bucket]: success
+[2024-04-15 00:49:55] INFO root fetch - main [MainThread]: Store serial: [22763113]
