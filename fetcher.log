@@ -1030,3 +1030,27 @@
 [2024-04-15 01:18:13] INFO root fetch - processPackages [ttemtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/ttemtoolbox-4.14.2024.tar.gz]
 [2024-04-15 01:18:13] INFO root fetch - main [MainThread]: End processing [ttemtoolbox]: success
 [2024-04-15 01:18:13] INFO root fetch - main [MainThread]: Store serial: [22763547]
+[2024-04-15 01:20:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22763547]
+[2024-04-15 01:20:22] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-15 01:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autopipeline
+[2024-04-15 01:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alana
+[2024-04-15 01:20:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: minirl
+[2024-04-15 01:20:22] INFO root fetch - processPackages [alana]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-15 01:20:22] WARNING root fetch - processPackages [minirl]: Skipping, unable to determine old version
+[2024-04-15 01:20:22] INFO root fetch - main [MainThread]: End processing [minirl] error
+[2024-04-15 01:20:22] INFO root fetch - processPackages [autopipeline]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-15 01:20:22] INFO root fetch - processPackages [alana]: Downloading https://files.pythonhosted.org/packages/13/45/d08af142b1ced88bbe710afc4e8adf91e1373c23c692b55778a0440e441c/alana-0.0.3.tar.gz
+[2024-04-15 01:20:22] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/0f/9eaf209b6d540115afdc9ae31de828df0234756277bceae49a4d1a0ea8b3/autopipeline-0.1.98.tar.gz
+[2024-04-15 01:20:22] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/4a/f3df97d414e0a5e9120459fd5c7ab663092d540df59f7deacc45810deb41/autopipeline-0.1.99.tar.gz
+[2024-04-15 01:20:22] INFO root fetch - processPackages [alana]: Downloading https://files.pythonhosted.org/packages/9e/9a/9198d33549850df9508a311d04ddf332f99e6840988038d04d987a89f5e7/alana-0.0.4.tar.gz
+[2024-04-15 01:20:22] INFO root fetch - processPackages [autopipeline]: executing diffoscope
+[2024-04-15 01:20:22] INFO root fetch - processPackages [autopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopipeline-0.1.98.tar.gz tmp/autopipeline-0.1.99.tar.gz --markdown 20240415/a/autopipeline/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-15 01:20:22] INFO root fetch - processPackages [alana]: executing diffoscope
+[2024-04-15 01:20:22] INFO root fetch - processPackages [alana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alana-0.0.3.tar.gz tmp/alana-0.0.4.tar.gz --markdown 20240415/a/alana/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-15 01:20:23] INFO root fetch - processPackages [alana]: Remove: archive file [/home/abi/fetcher/tmp/alana-0.0.3.tar.gz]
+[2024-04-15 01:20:23] INFO root fetch - processPackages [alana]: Remove: archive file [/home/abi/fetcher/tmp/alana-0.0.4.tar.gz]
+[2024-04-15 01:20:23] INFO root fetch - main [MainThread]: End processing [alana]: success
+[2024-04-15 01:20:23] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.98.tar.gz]
+[2024-04-15 01:20:23] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.99.tar.gz]
+[2024-04-15 01:20:23] INFO root fetch - main [MainThread]: End processing [autopipeline]: success
+[2024-04-15 01:20:23] INFO root fetch - main [MainThread]: Store serial: [22763561]
