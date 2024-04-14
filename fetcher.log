@@ -662,3 +662,68 @@
 [2024-04-15 00:58:35] INFO root fetch - processPackages [py-irclib]: Remove: archive file [/home/abi/fetcher/tmp/py_irclib-0.4.0.tar.gz]
 [2024-04-15 00:58:35] INFO root fetch - main [MainThread]: End processing [py-irclib]: success
 [2024-04-15 00:58:35] INFO root fetch - main [MainThread]: Store serial: [22763156]
+[2024-04-15 01:00:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22763156]
+[2024-04-15 01:00:43] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-15 01:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chiasmodon
+[2024-04-15 01:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: amino.fix.fix
+[2024-04-15 01:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gammarer.aws-secure-vpc-bucket
+[2024-04-15 01:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RandomPokemon
+[2024-04-15 01:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gammarer.aws-secure-cloudfront-origin-bucket
+[2024-04-15 01:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gammarer.aws-secure-log-bucket
+[2024-04-15 01:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: class-singledispatch
+[2024-04-15 01:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gammarer.aws-secure-frontend-web-app-cloudfront-distribution
+[2024-04-15 01:00:43] INFO root fetch - processPackages [chiasmodon]: New version: [1.0.0] Old Version: [0.2.9]
+[2024-04-15 01:00:43] INFO root fetch - processPackages [amino.fix.fix]: New version: [1.0.8] Old Version: [1.0.7b4]
+[2024-04-15 01:00:43] INFO root fetch - processPackages [chiasmodon]: Downloading https://files.pythonhosted.org/packages/39/ca/9636306ddc925f952b12f92d304c1925cf1d547e4f6db9438dbeef079b20/chiasmodon-0.2.9.tar.gz
+[2024-04-15 01:00:43] INFO root fetch - processPackages [class-singledispatch]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-15 01:00:43] WARNING root fetch - processPackages [RandomPokemon]: Skipping, unable to determine old version
+[2024-04-15 01:00:43] INFO root fetch - main [MainThread]: End processing [RandomPokemon] error
+[2024-04-15 01:00:43] INFO root fetch - processPackages [gammarer.aws-secure-vpc-bucket]: New version: [1.2.5] Old Version: [1.2.4]
+[2024-04-15 01:00:43] INFO root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: New version: [1.4.3] Old Version: [1.4.2]
+[2024-04-15 01:00:43] INFO root fetch - processPackages [gammarer.aws-secure-log-bucket]: New version: [1.5.5] Old Version: [1.5.4]
+[2024-04-15 01:00:44] INFO root fetch - processPackages [gammarer.aws-secure-frontend-web-app-cloudfront-distribution]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-15 01:00:44] INFO root fetch - processPackages [amino.fix.fix]: Downloading https://files.pythonhosted.org/packages/b0/5b/1b9c5e59a41071122512723a4c13c9ad36bba44efc9721526c1051158977/amino.fix.fix-1.0.7b4.tar.gz
+[2024-04-15 01:00:44] INFO root fetch - processPackages [chiasmodon]: Downloading https://files.pythonhosted.org/packages/8c/19/b860eac44cc2fd3898d1a36c0c7b89ee3df2a34245c075a0cdf379869fc0/chiasmodon-1.0.0-py3-none-any.whl
+[2024-04-15 01:00:44] INFO root fetch - processPackages [gammarer.aws-secure-vpc-bucket]: Downloading https://files.pythonhosted.org/packages/da/74/f9ed5e575cba2432e8ddc13b6e401a8f18f1e0d7f73459a43b696d3017d0/gammarer.aws-secure-vpc-bucket-1.2.4.tar.gz
+[2024-04-15 01:00:44] INFO root fetch - processPackages [class-singledispatch]: Downloading https://files.pythonhosted.org/packages/cd/66/65f55410710bbc68569d04e3d336ed0d16077db5c354a40c00d68cb03a1e/class_singledispatch-1.1.0.tar.gz
+[2024-04-15 01:00:44] INFO root fetch - processPackages [gammarer.aws-secure-log-bucket]: Downloading https://files.pythonhosted.org/packages/59/bf/8c1961781e8f57fe6bd62ef73323d6203b7d1bd8478c8cafdb954021d5ae/gammarer.aws-secure-log-bucket-1.5.4.tar.gz
+[2024-04-15 01:00:44] INFO root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: Downloading https://files.pythonhosted.org/packages/23/b8/f1f0e92005ff6574acbaa6e0957af531b6c5f3f7806cab10adf188f9f7f3/gammarer.aws-secure-cloudfront-origin-bucket-1.4.2.tar.gz
+[2024-04-15 01:00:44] INFO root fetch - processPackages [chiasmodon]: executing diffoscope
+[2024-04-15 01:00:44] INFO root fetch - processPackages [chiasmodon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chiasmodon-0.2.9.tar.gz tmp/chiasmodon-1.0.0-py3-none-any.whl.zip --markdown 20240415/c/chiasmodon/0.2.9-1.0.0/README.md --exclude *.pyd
+[2024-04-15 01:00:44] INFO root fetch - processPackages [gammarer.aws-secure-frontend-web-app-cloudfront-distribution]: Downloading https://files.pythonhosted.org/packages/ee/e3/791ba251600d19294fcf9b04db1e7dcbc603b11f3f69fbb54be70667a527/gammarer.aws-secure-frontend-web-app-cloudfront-distribution-1.2.0.tar.gz
+[2024-04-15 01:00:44] INFO root fetch - processPackages [amino.fix.fix]: Downloading https://files.pythonhosted.org/packages/ad/bf/00915c16486ed6e62863b343f168d1378bbb7a210363afc83d748db5893f/amino_fix_fix-1.0.8.tar.gz
+[2024-04-15 01:00:44] ERROR root fetch - processPackages [class-singledispatch]: Unable to fetch info: No such project/version 'class-singledispatch' 1.1.1
+[2024-04-15 01:00:44] INFO root fetch - main [MainThread]: End processing [class-singledispatch] error
+[2024-04-15 01:00:44] INFO root fetch - processPackages [gammarer.aws-secure-vpc-bucket]: Downloading https://files.pythonhosted.org/packages/f3/18/aaaeb88f0d3be30d503d66788c35fd4a85d4b0755862be25a695ef844046/gammarer.aws-secure-vpc-bucket-1.2.5.tar.gz
+[2024-04-15 01:00:44] INFO root fetch - processPackages [gammarer.aws-secure-log-bucket]: Downloading https://files.pythonhosted.org/packages/16/16/e7001b145240958e90d48e0336ab6aa0c7cc79f8246b9ad4b693a9aec22f/gammarer.aws-secure-log-bucket-1.5.5.tar.gz
+[2024-04-15 01:00:44] INFO root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: Downloading https://files.pythonhosted.org/packages/d6/34/8a5c4b49b17e617f9f4a3258ff0a32a4a45102381af9fcb97f387a07a4e7/gammarer.aws-secure-cloudfront-origin-bucket-1.4.3.tar.gz
+[2024-04-15 01:00:44] INFO root fetch - processPackages [amino.fix.fix]: executing diffoscope
+[2024-04-15 01:00:44] INFO root fetch - processPackages [amino.fix.fix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amino.fix.fix-1.0.7b4.tar.gz tmp/amino_fix_fix-1.0.8.tar.gz --markdown 20240415/a/amino.fix.fix/1.0.7b4-1.0.8/README.md --exclude *.pyd
+[2024-04-15 01:00:44] INFO root fetch - processPackages [gammarer.aws-secure-vpc-bucket]: executing diffoscope
+[2024-04-15 01:00:44] INFO root fetch - processPackages [gammarer.aws-secure-vpc-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-secure-vpc-bucket-1.2.4.tar.gz tmp/gammarer.aws-secure-vpc-bucket-1.2.5.tar.gz --markdown 20240415/g/gammarer.aws-secure-vpc-bucket/1.2.4-1.2.5/README.md --exclude *.pyd
+[2024-04-15 01:00:44] INFO root fetch - processPackages [gammarer.aws-secure-frontend-web-app-cloudfront-distribution]: Downloading https://files.pythonhosted.org/packages/f8/1e/7afd8771d3ce21a1021eb33bb5e76048f8a2b6b5788cb5c95203c8307d54/gammarer.aws_secure_frontend_web_app_cloudfront_distribution-1.2.1-py3-none-any.whl
+[2024-04-15 01:00:44] INFO root fetch - processPackages [gammarer.aws-secure-log-bucket]: executing diffoscope
+[2024-04-15 01:00:44] INFO root fetch - processPackages [gammarer.aws-secure-log-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-secure-log-bucket-1.5.4.tar.gz tmp/gammarer.aws-secure-log-bucket-1.5.5.tar.gz --markdown 20240415/g/gammarer.aws-secure-log-bucket/1.5.4-1.5.5/README.md --exclude *.pyd
+[2024-04-15 01:00:44] INFO root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: executing diffoscope
+[2024-04-15 01:00:44] INFO root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-secure-cloudfront-origin-bucket-1.4.2.tar.gz tmp/gammarer.aws-secure-cloudfront-origin-bucket-1.4.3.tar.gz --markdown 20240415/g/gammarer.aws-secure-cloudfront-origin-bucket/1.4.2-1.4.3/README.md --exclude *.pyd
+[2024-04-15 01:00:44] INFO root fetch - processPackages [chiasmodon]: Remove: archive file [/home/abi/fetcher/tmp/chiasmodon-0.2.9.tar.gz]
+[2024-04-15 01:00:44] INFO root fetch - processPackages [chiasmodon]: Remove: archive file [/home/abi/fetcher/tmp/chiasmodon-1.0.0-py3-none-any.whl.zip]
+[2024-04-15 01:00:44] INFO root fetch - main [MainThread]: End processing [chiasmodon]: success
+[2024-04-15 01:00:45] INFO root fetch - processPackages [gammarer.aws-secure-vpc-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-vpc-bucket-1.2.4.tar.gz]
+[2024-04-15 01:00:45] INFO root fetch - processPackages [gammarer.aws-secure-vpc-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-vpc-bucket-1.2.5.tar.gz]
+[2024-04-15 01:00:45] INFO root fetch - main [MainThread]: End processing [gammarer.aws-secure-vpc-bucket]: success
+[2024-04-15 01:00:45] INFO root fetch - processPackages [gammarer.aws-secure-frontend-web-app-cloudfront-distribution]: executing diffoscope
+[2024-04-15 01:00:45] INFO root fetch - processPackages [gammarer.aws-secure-frontend-web-app-cloudfront-distribution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-secure-frontend-web-app-cloudfront-distribution-1.2.0.tar.gz tmp/gammarer.aws_secure_frontend_web_app_cloudfront_distribution-1.2.1-py3-none-any.whl.zip --markdown 20240415/g/gammarer.aws-secure-frontend-web-app-cloudfront-distribution/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-04-15 01:00:45] INFO root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-cloudfront-origin-bucket-1.4.2.tar.gz]
+[2024-04-15 01:00:45] INFO root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-cloudfront-origin-bucket-1.4.3.tar.gz]
+[2024-04-15 01:00:45] INFO root fetch - main [MainThread]: End processing [gammarer.aws-secure-cloudfront-origin-bucket]: success
+[2024-04-15 01:00:45] INFO root fetch - processPackages [amino.fix.fix]: Remove: archive file [/home/abi/fetcher/tmp/amino.fix.fix-1.0.7b4.tar.gz]
+[2024-04-15 01:00:45] INFO root fetch - processPackages [amino.fix.fix]: Remove: archive file [/home/abi/fetcher/tmp/amino_fix_fix-1.0.8.tar.gz]
+[2024-04-15 01:00:45] INFO root fetch - main [MainThread]: End processing [amino.fix.fix]: success
+[2024-04-15 01:00:45] INFO root fetch - processPackages [gammarer.aws-secure-log-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-log-bucket-1.5.4.tar.gz]
+[2024-04-15 01:00:45] INFO root fetch - processPackages [gammarer.aws-secure-log-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-log-bucket-1.5.5.tar.gz]
+[2024-04-15 01:00:45] INFO root fetch - main [MainThread]: End processing [gammarer.aws-secure-log-bucket]: success
+[2024-04-15 01:00:45] INFO root fetch - processPackages [gammarer.aws-secure-frontend-web-app-cloudfront-distribution]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-frontend-web-app-cloudfront-distribution-1.2.0.tar.gz]
+[2024-04-15 01:00:45] INFO root fetch - processPackages [gammarer.aws-secure-frontend-web-app-cloudfront-distribution]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws_secure_frontend_web_app_cloudfront_distribution-1.2.1-py3-none-any.whl.zip]
+[2024-04-15 01:00:45] INFO root fetch - main [MainThread]: End processing [gammarer.aws-secure-frontend-web-app-cloudfront-distribution]: success
+[2024-04-15 01:00:45] INFO root fetch - main [MainThread]: Store serial: [22763178]
