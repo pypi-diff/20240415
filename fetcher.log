@@ -398,3 +398,24 @@
 [2024-04-15 00:34:47] INFO root fetch - processPackages [labelle]: Remove: archive file [/home/abi/fetcher/tmp/labelle-1.1.0.tar.gz]
 [2024-04-15 00:34:47] INFO root fetch - main [MainThread]: End processing [labelle]: success
 [2024-04-15 00:34:47] INFO root fetch - main [MainThread]: Store serial: [22763035]
+[2024-04-15 00:36:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22763035]
+[2024-04-15 00:36:55] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-15 00:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: duplocloud-client
+[2024-04-15 00:36:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autopipeline
+[2024-04-15 00:36:55] INFO root fetch - processPackages [autopipeline]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-15 00:36:55] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/0f/9eaf209b6d540115afdc9ae31de828df0234756277bceae49a4d1a0ea8b3/autopipeline-0.1.98.tar.gz
+[2024-04-15 00:36:55] INFO root fetch - processPackages [duplocloud-client]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-15 00:36:56] INFO root fetch - processPackages [duplocloud-client]: Downloading https://files.pythonhosted.org/packages/64/0f/f0e4cb432dfe138a961e25d188529a8aba71feacc3de9b5cc75bdf4ba425/duplocloud-client-0.2.8.tar.gz
+[2024-04-15 00:36:56] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/4a/f3df97d414e0a5e9120459fd5c7ab663092d540df59f7deacc45810deb41/autopipeline-0.1.99.tar.gz
+[2024-04-15 00:36:56] INFO root fetch - processPackages [autopipeline]: executing diffoscope
+[2024-04-15 00:36:56] INFO root fetch - processPackages [autopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopipeline-0.1.98.tar.gz tmp/autopipeline-0.1.99.tar.gz --markdown 20240415/a/autopipeline/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-15 00:36:56] INFO root fetch - processPackages [duplocloud-client]: Downloading https://files.pythonhosted.org/packages/0c/31/a8708e76b68aa59189985ed13cb066f0d6af56d2928f45b56eaed3dcb105/duplocloud-client-0.2.9.tar.gz
+[2024-04-15 00:36:56] INFO root fetch - processPackages [duplocloud-client]: executing diffoscope
+[2024-04-15 00:36:56] INFO root fetch - processPackages [duplocloud-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duplocloud-client-0.2.8.tar.gz tmp/duplocloud-client-0.2.9.tar.gz --markdown 20240415/d/duplocloud-client/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-15 00:36:56] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.98.tar.gz]
+[2024-04-15 00:36:56] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.99.tar.gz]
+[2024-04-15 00:36:56] INFO root fetch - main [MainThread]: End processing [autopipeline]: success
+[2024-04-15 00:36:57] INFO root fetch - processPackages [duplocloud-client]: Remove: archive file [/home/abi/fetcher/tmp/duplocloud-client-0.2.8.tar.gz]
+[2024-04-15 00:36:57] INFO root fetch - processPackages [duplocloud-client]: Remove: archive file [/home/abi/fetcher/tmp/duplocloud-client-0.2.9.tar.gz]
+[2024-04-15 00:36:57] INFO root fetch - main [MainThread]: End processing [duplocloud-client]: success
+[2024-04-15 00:36:57] INFO root fetch - main [MainThread]: Store serial: [22763042]
