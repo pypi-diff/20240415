@@ -91,3 +91,42 @@
 [2024-04-15 00:04:24] INFO root fetch - processPackages [pystaleds]: Remove: archive file [/home/abi/fetcher/tmp/pystaleds-0.1.3-pp39-pypy39_pp73-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl.zip]
 [2024-04-15 00:04:24] INFO root fetch - main [MainThread]: End processing [pystaleds]: success
 [2024-04-15 00:04:24] INFO root fetch - main [MainThread]: Store serial: [22762823]
+[2024-04-15 00:06:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22762823]
+[2024-04-15 00:06:32] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-15 00:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: watson-poetry
+[2024-04-15 00:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dspy
+[2024-04-15 00:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dspy
+[2024-04-15 00:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dspy
+[2024-04-15 00:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: safe-store
+[2024-04-15 00:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pysilico-server
+[2024-04-15 00:06:32] INFO root fetch - processPackages [watson-poetry]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-15 00:06:32] WARNING root fetch - processPackages [dspy]: Skipping, unable to determine old version
+[2024-04-15 00:06:32] INFO root fetch - main [MainThread]: End processing [dspy] error
+[2024-04-15 00:06:32] WARNING root fetch - processPackages [dspy]: Skipping, unable to determine old version
+[2024-04-15 00:06:32] INFO root fetch - main [MainThread]: End processing [dspy] error
+[2024-04-15 00:06:32] WARNING root fetch - processPackages [dspy]: Skipping, unable to determine old version
+[2024-04-15 00:06:32] INFO root fetch - main [MainThread]: End processing [dspy] error
+[2024-04-15 00:06:32] INFO root fetch - processPackages [watson-poetry]: Downloading https://files.pythonhosted.org/packages/3d/ff/623033ba5bb48f1c92a0159a152efcf9abc60b07fb4bfd9a8388d3d7983b/watson_poetry-0.1.7.tar.gz
+[2024-04-15 00:06:32] INFO root fetch - processPackages [safe-store]: New version: [0.6.0] Old Version: [0.4.0]
+[2024-04-15 00:06:32] INFO root fetch - processPackages [pysilico-server]: New version: [0.21.0] Old Version: [0.20.0]
+[2024-04-15 00:06:33] INFO root fetch - processPackages [safe-store]: Downloading https://files.pythonhosted.org/packages/33/fb/d51ac8a5cd08df3944930e063d9be6a15ce1836539f57723f836ea0c5f29/safe_store-0.4.0.tar.gz
+[2024-04-15 00:06:33] INFO root fetch - processPackages [pysilico-server]: Downloading https://files.pythonhosted.org/packages/75/8e/4a09bc8c9e89214ffc1704d7f814cd6642b381ee921ff9e9c9e409da2764/pysilico-server-0.20.0.tar.gz
+[2024-04-15 00:06:33] INFO root fetch - processPackages [watson-poetry]: Downloading https://files.pythonhosted.org/packages/de/b8/b32a81d463bcef7505d40e5a7daaa80fd95fe68214d4e830108503a9b7db/watson_poetry-0.1.8.tar.gz
+[2024-04-15 00:06:33] INFO root fetch - processPackages [watson-poetry]: executing diffoscope
+[2024-04-15 00:06:33] INFO root fetch - processPackages [watson-poetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watson_poetry-0.1.7.tar.gz tmp/watson_poetry-0.1.8.tar.gz --markdown 20240415/w/watson-poetry/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-15 00:06:33] INFO root fetch - processPackages [pysilico-server]: Downloading https://files.pythonhosted.org/packages/25/8d/d5bf57be564b9fd61b97f6ec9942d9561a2f2733b92428218369b9c4c1e1/pysilico_server-0.21.0.tar.gz
+[2024-04-15 00:06:33] INFO root fetch - processPackages [safe-store]: Downloading https://files.pythonhosted.org/packages/eb/0c/0bb5fe0c008d856f6d1aec12968e77d7dc5b009f905dc6ab320cd72a8a81/safe_store-0.6.0.tar.gz
+[2024-04-15 00:06:33] INFO root fetch - processPackages [pysilico-server]: executing diffoscope
+[2024-04-15 00:06:33] INFO root fetch - processPackages [pysilico-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysilico-server-0.20.0.tar.gz tmp/pysilico_server-0.21.0.tar.gz --markdown 20240415/p/pysilico-server/0.20.0-0.21.0/README.md --exclude *.pyd
+[2024-04-15 00:06:33] INFO root fetch - processPackages [safe-store]: executing diffoscope
+[2024-04-15 00:06:33] INFO root fetch - processPackages [safe-store]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safe_store-0.4.0.tar.gz tmp/safe_store-0.6.0.tar.gz --markdown 20240415/s/safe-store/0.4.0-0.6.0/README.md --exclude *.pyd
+[2024-04-15 00:06:33] INFO root fetch - processPackages [watson-poetry]: Remove: archive file [/home/abi/fetcher/tmp/watson_poetry-0.1.7.tar.gz]
+[2024-04-15 00:06:33] INFO root fetch - processPackages [watson-poetry]: Remove: archive file [/home/abi/fetcher/tmp/watson_poetry-0.1.8.tar.gz]
+[2024-04-15 00:06:33] INFO root fetch - main [MainThread]: End processing [watson-poetry]: success
+[2024-04-15 00:06:34] INFO root fetch - processPackages [pysilico-server]: Remove: archive file [/home/abi/fetcher/tmp/pysilico-server-0.20.0.tar.gz]
+[2024-04-15 00:06:34] INFO root fetch - processPackages [pysilico-server]: Remove: archive file [/home/abi/fetcher/tmp/pysilico_server-0.21.0.tar.gz]
+[2024-04-15 00:06:34] INFO root fetch - main [MainThread]: End processing [pysilico-server]: success
+[2024-04-15 00:06:34] INFO root fetch - processPackages [safe-store]: Remove: archive file [/home/abi/fetcher/tmp/safe_store-0.4.0.tar.gz]
+[2024-04-15 00:06:34] INFO root fetch - processPackages [safe-store]: Remove: archive file [/home/abi/fetcher/tmp/safe_store-0.6.0.tar.gz]
+[2024-04-15 00:06:34] INFO root fetch - main [MainThread]: End processing [safe-store]: success
+[2024-04-15 00:06:34] INFO root fetch - main [MainThread]: Store serial: [22762876]
