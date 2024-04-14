@@ -1337,3 +1337,42 @@
 [2024-04-15 01:48:48] INFO root fetch - processPackages [MethodicConfigurator]: Remove: archive file [/home/abi/fetcher/tmp/methodicconfigurator-0.2.0.tar.gz]
 [2024-04-15 01:48:48] INFO root fetch - main [MainThread]: End processing [MethodicConfigurator]: success
 [2024-04-15 01:48:48] INFO root fetch - main [MainThread]: Store serial: [22763710]
+[2024-04-15 01:50:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22763710]
+[2024-04-15 01:50:57] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-15 01:50:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PokemonLibrary
+[2024-04-15 01:50:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sql-athame
+[2024-04-15 01:50:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: polars-ts
+[2024-04-15 01:50:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ypricemagic
+[2024-04-15 01:50:57] INFO root fetch - processPackages [sql-athame]: New version: [0.4.0a2] Old Version: [0.4.0a1]
+[2024-04-15 01:50:57] INFO root fetch - processPackages [ypricemagic]: New version: [3.4.7] Old Version: [3.4.6]
+[2024-04-15 01:50:57] INFO root fetch - processPackages [PokemonLibrary]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-15 01:50:57] INFO root fetch - processPackages [sql-athame]: Downloading https://files.pythonhosted.org/packages/2d/e7/8fcbffbe3ad69656b7dadfa1b8a2bf7d9c051b2b79fc78016509e07af62d/sql_athame-0.4.0a1.tar.gz
+[2024-04-15 01:50:57] INFO root fetch - processPackages [polars-ts]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-15 01:50:57] INFO root fetch - processPackages [ypricemagic]: Downloading https://files.pythonhosted.org/packages/d8/02/52dfde9ec544bf8b758ecf26b9d2aeab459fe1b887509319294164206300/ypricemagic-3.4.6.tar.gz
+[2024-04-15 01:50:57] INFO root fetch - processPackages [PokemonLibrary]: Downloading https://files.pythonhosted.org/packages/12/6b/a51afc61129c9b39e5eb2a3ad379066fb089b90a1b436fa01f9fe13b7147/PokemonLibrary-1.0.0.tar.gz
+[2024-04-15 01:50:57] INFO root fetch - processPackages [polars-ts]: Downloading https://files.pythonhosted.org/packages/d4/b0/898e8dce81b61d9fe5e3d260f3fb19b52449a62bf14d5a5e4c34a6063c60/polars_ts-0.0.2.tar.gz
+[2024-04-15 01:50:57] INFO root fetch - processPackages [sql-athame]: Downloading https://files.pythonhosted.org/packages/af/d9/830e45b8cba829412841456fb973ae20b9ec0908af8659272d4cc397284a/sql_athame-0.4.0a2.tar.gz
+[2024-04-15 01:50:57] INFO root fetch - processPackages [ypricemagic]: Downloading https://files.pythonhosted.org/packages/55/46/959f25d4d458f615175b5d514f695df62bdf9b6bda0b39537640512b7afc/ypricemagic-3.4.7.tar.gz
+[2024-04-15 01:50:57] INFO root fetch - processPackages [sql-athame]: executing diffoscope
+[2024-04-15 01:50:57] INFO root fetch - processPackages [sql-athame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sql_athame-0.4.0a1.tar.gz tmp/sql_athame-0.4.0a2.tar.gz --markdown 20240415/s/sql-athame/0.4.0a1-0.4.0a2/README.md --exclude *.pyd
+[2024-04-15 01:50:57] INFO root fetch - processPackages [ypricemagic]: executing diffoscope
+[2024-04-15 01:50:57] INFO root fetch - processPackages [ypricemagic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ypricemagic-3.4.6.tar.gz tmp/ypricemagic-3.4.7.tar.gz --markdown 20240415/y/ypricemagic/3.4.6-3.4.7/README.md --exclude *.pyd
+[2024-04-15 01:50:57] INFO root fetch - processPackages [PokemonLibrary]: Downloading https://files.pythonhosted.org/packages/46/2f/c844d9f1f98668143c9adb154bfd4eeb002a83be9fdadd7906ef0b1e3b05/PokemonLibrary-1.0.1.tar.gz
+[2024-04-15 01:50:58] INFO root fetch - processPackages [polars-ts]: Downloading https://files.pythonhosted.org/packages/5a/60/add90529c35d6638f29d314eb1e84f7661a0631e3399bd38373d9c448d22/polars_ts-0.0.3.tar.gz
+[2024-04-15 01:50:58] INFO root fetch - processPackages [PokemonLibrary]: executing diffoscope
+[2024-04-15 01:50:58] INFO root fetch - processPackages [PokemonLibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PokemonLibrary-1.0.0.tar.gz tmp/PokemonLibrary-1.0.1.tar.gz --markdown 20240415/P/PokemonLibrary/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-15 01:50:58] INFO root fetch - processPackages [polars-ts]: executing diffoscope
+[2024-04-15 01:50:58] INFO root fetch - processPackages [polars-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars_ts-0.0.2.tar.gz tmp/polars_ts-0.0.3.tar.gz --markdown 20240415/p/polars-ts/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-15 01:50:58] INFO root fetch - processPackages [sql-athame]: Remove: archive file [/home/abi/fetcher/tmp/sql_athame-0.4.0a1.tar.gz]
+[2024-04-15 01:50:58] INFO root fetch - processPackages [sql-athame]: Remove: archive file [/home/abi/fetcher/tmp/sql_athame-0.4.0a2.tar.gz]
+[2024-04-15 01:50:58] INFO root fetch - main [MainThread]: End processing [sql-athame]: success
+[2024-04-15 01:50:58] INFO root fetch - processPackages [PokemonLibrary]: Remove: archive file [/home/abi/fetcher/tmp/PokemonLibrary-1.0.0.tar.gz]
+[2024-04-15 01:50:58] INFO root fetch - processPackages [PokemonLibrary]: Remove: archive file [/home/abi/fetcher/tmp/PokemonLibrary-1.0.1.tar.gz]
+[2024-04-15 01:50:58] INFO root fetch - main [MainThread]: End processing [PokemonLibrary]: success
+[2024-04-15 01:50:58] INFO root fetch - processPackages [ypricemagic]: Remove: archive file [/home/abi/fetcher/tmp/ypricemagic-3.4.6.tar.gz]
+[2024-04-15 01:50:58] INFO root fetch - processPackages [ypricemagic]: Remove: archive file [/home/abi/fetcher/tmp/ypricemagic-3.4.7.tar.gz]
+[2024-04-15 01:50:58] INFO root fetch - main [MainThread]: End processing [ypricemagic]: success
+[2024-04-15 01:50:58] INFO root fetch - processPackages [polars-ts]: Remove: archive file [/home/abi/fetcher/tmp/polars_ts-0.0.2.tar.gz]
+[2024-04-15 01:50:58] INFO root fetch - processPackages [polars-ts]: Remove: archive file [/home/abi/fetcher/tmp/polars_ts-0.0.3.tar.gz]
+[2024-04-15 01:50:58] INFO root fetch - main [MainThread]: End processing [polars-ts]: success
+[2024-04-15 01:50:58] INFO root fetch - main [MainThread]: Store serial: [22763726]
