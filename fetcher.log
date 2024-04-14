@@ -230,3 +230,15 @@
 [2024-04-15 00:17:29] INFO root fetch - processPackages [aim]: Remove: archive file [/home/abi/fetcher/tmp/aim-4.0.3.tar.gz]
 [2024-04-15 00:17:29] INFO root fetch - main [MainThread]: End processing [aim]: success
 [2024-04-15 00:17:29] INFO root fetch - main [MainThread]: Store serial: [22762920]
+[2024-04-15 00:19:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22762920]
+[2024-04-15 00:19:37] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-15 00:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dspy
+[2024-04-15 00:19:37] INFO root fetch - processPackages [dspy]: New version: [0.1.3] Old Version: [0.0.3]
+[2024-04-15 00:19:37] INFO root fetch - processPackages [dspy]: Downloading https://files.pythonhosted.org/packages/78/8f/f3a5d1b44bedadff5e4e0c954db98d7a971e0f5c0ea26dc0b6ffe88439a2/dspy-0.0.3-py3-none-any.whl
+[2024-04-15 00:19:38] INFO root fetch - processPackages [dspy]: Downloading https://files.pythonhosted.org/packages/9c/0d/ba0b6d146016528d82a7438e41d5722e161741d3c425034ff5ec18a94647/dspy-0.1.3.tar.gz
+[2024-04-15 00:19:38] INFO root fetch - processPackages [dspy]: executing diffoscope
+[2024-04-15 00:19:38] INFO root fetch - processPackages [dspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dspy-0.0.3-py3-none-any.whl.zip tmp/dspy-0.1.3.tar.gz --markdown 20240415/d/dspy/0.0.3-0.1.3/README.md --exclude *.pyd
+[2024-04-15 00:19:38] INFO root fetch - processPackages [dspy]: Remove: archive file [/home/abi/fetcher/tmp/dspy-0.0.3-py3-none-any.whl.zip]
+[2024-04-15 00:19:38] INFO root fetch - processPackages [dspy]: Remove: archive file [/home/abi/fetcher/tmp/dspy-0.1.3.tar.gz]
+[2024-04-15 00:19:38] INFO root fetch - main [MainThread]: End processing [dspy]: success
+[2024-04-15 00:19:38] INFO root fetch - main [MainThread]: Store serial: [22762960]
