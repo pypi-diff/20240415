@@ -1,0 +1,51 @@
+[2024-04-15 00:02:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22762760]
+[2024-04-15 00:02:11] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-15 00:02:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ecs_composex
+[2024-04-15 00:02:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SecLoadSDK
+[2024-04-15 00:02:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: apstools
+[2024-04-15 00:02:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: watson-poetry
+[2024-04-15 00:02:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: whl2conda
+[2024-04-15 00:02:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sharepoint-crud
+[2024-04-15 00:02:11] INFO root fetch - processPackages [apstools]: New version: [1.6.9rc1] Old Version: [1.6.9]
+[2024-04-15 00:02:11] INFO root fetch - processPackages [SecLoadSDK]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-15 00:02:11] INFO root fetch - processPackages [watson-poetry]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-15 00:02:12] INFO root fetch - processPackages [whl2conda]: New version: [24.4.0] Old Version: [24.1.2]
+[2024-04-15 00:02:12] INFO root fetch - processPackages [apstools]: Downloading https://files.pythonhosted.org/packages/bb/e8/af2920d3a7fedda68a11081779a3935b639643858f29f2c5af211c0c8f6f/apstools-1.6.9.tar.gz
+[2024-04-15 00:02:12] WARNING root fetch - processPackages [sharepoint-crud]: Skipping, unable to determine old version
+[2024-04-15 00:02:12] INFO root fetch - main [MainThread]: End processing [sharepoint-crud] error
+[2024-04-15 00:02:12] INFO root fetch - processPackages [SecLoadSDK]: Downloading https://files.pythonhosted.org/packages/0e/72/02ac09e7f6eee1036ec34b45aa5f84eac3b62bb5586c6013ccc5d807ce3c/secloadsdk-0.0.4.tar.gz
+[2024-04-15 00:02:12] INFO root fetch - processPackages [ecs_composex]: New version: [1.1.0rc2] Old Version: [1.1.0rc1]
+[2024-04-15 00:02:12] INFO root fetch - processPackages [watson-poetry]: Downloading https://files.pythonhosted.org/packages/19/88/4f577eeab59641881ad8e533d4178790377ffb7692f3e04ee07003ad5815/watson_poetry-0.1.6.tar.gz
+[2024-04-15 00:02:12] INFO root fetch - processPackages [whl2conda]: Downloading https://files.pythonhosted.org/packages/a6/1e/b799aaeeeb4eafdd39e550c875b99050819a773c8aad01375ce0908b8cdc/whl2conda-24.1.2.tar.gz
+[2024-04-15 00:02:12] INFO root fetch - processPackages [ecs_composex]: Downloading https://files.pythonhosted.org/packages/e5/04/908a86972783d5c2c5c7f743f692fba76115eeeee0b00ef67a9895496aa0/ecs_composex-1.1.0rc1.tar.gz
+[2024-04-15 00:02:12] INFO root fetch - processPackages [apstools]: Downloading https://files.pythonhosted.org/packages/d4/ce/7740563ebafc7c2c86fb4241495a359ea6bc1dfda4e7084e39092b35f8ce/apstools-1.6.9rc1.tar.gz
+[2024-04-15 00:02:12] INFO root fetch - processPackages [watson-poetry]: Downloading https://files.pythonhosted.org/packages/3d/ff/623033ba5bb48f1c92a0159a152efcf9abc60b07fb4bfd9a8388d3d7983b/watson_poetry-0.1.7.tar.gz
+[2024-04-15 00:02:12] INFO root fetch - processPackages [SecLoadSDK]: Downloading https://files.pythonhosted.org/packages/76/99/308233ee4ec081f0cfe3b24e2bf746c3f90cd6955ccfeb83ced15d4bc4ba/secloadsdk-0.0.5.tar.gz
+[2024-04-15 00:02:12] INFO root fetch - processPackages [SecLoadSDK]: executing diffoscope
+[2024-04-15 00:02:12] INFO root fetch - processPackages [SecLoadSDK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secloadsdk-0.0.4.tar.gz tmp/secloadsdk-0.0.5.tar.gz --markdown 20240415/S/SecLoadSDK/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-15 00:02:12] INFO root fetch - processPackages [whl2conda]: Downloading https://files.pythonhosted.org/packages/51/fa/4eb2212829d01bab1c738c9ead8ad4b51377a1a7eba426c828e7acb75de7/whl2conda-24.4.0.tar.gz
+[2024-04-15 00:02:12] INFO root fetch - processPackages [watson-poetry]: executing diffoscope
+[2024-04-15 00:02:12] INFO root fetch - processPackages [watson-poetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watson_poetry-0.1.6.tar.gz tmp/watson_poetry-0.1.7.tar.gz --markdown 20240415/w/watson-poetry/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-15 00:02:12] INFO root fetch - processPackages [apstools]: executing diffoscope
+[2024-04-15 00:02:12] INFO root fetch - processPackages [apstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apstools-1.6.9.tar.gz tmp/apstools-1.6.9rc1.tar.gz --markdown 20240415/a/apstools/1.6.9-1.6.9rc1/README.md --exclude *.pyd
+[2024-04-15 00:02:12] INFO root fetch - processPackages [ecs_composex]: Downloading https://files.pythonhosted.org/packages/0d/17/23749088161e31ff4a4348acb05a8db65846bf16ad26181c12f40cd0a5f6/ecs_composex-1.1.0rc2.tar.gz
+[2024-04-15 00:02:12] INFO root fetch - processPackages [whl2conda]: executing diffoscope
+[2024-04-15 00:02:12] INFO root fetch - processPackages [whl2conda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whl2conda-24.1.2.tar.gz tmp/whl2conda-24.4.0.tar.gz --markdown 20240415/w/whl2conda/24.1.2-24.4.0/README.md --exclude *.pyd
+[2024-04-15 00:02:12] INFO root fetch - processPackages [ecs_composex]: executing diffoscope
+[2024-04-15 00:02:12] INFO root fetch - processPackages [ecs_composex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecs_composex-1.1.0rc1.tar.gz tmp/ecs_composex-1.1.0rc2.tar.gz --markdown 20240415/e/ecs_composex/1.1.0rc1-1.1.0rc2/README.md --exclude *.pyd
+[2024-04-15 00:02:13] INFO root fetch - processPackages [SecLoadSDK]: Remove: archive file [/home/abi/fetcher/tmp/secloadsdk-0.0.4.tar.gz]
+[2024-04-15 00:02:13] INFO root fetch - processPackages [SecLoadSDK]: Remove: archive file [/home/abi/fetcher/tmp/secloadsdk-0.0.5.tar.gz]
+[2024-04-15 00:02:13] INFO root fetch - main [MainThread]: End processing [SecLoadSDK]: success
+[2024-04-15 00:02:13] INFO root fetch - processPackages [watson-poetry]: Remove: archive file [/home/abi/fetcher/tmp/watson_poetry-0.1.6.tar.gz]
+[2024-04-15 00:02:13] INFO root fetch - processPackages [watson-poetry]: Remove: archive file [/home/abi/fetcher/tmp/watson_poetry-0.1.7.tar.gz]
+[2024-04-15 00:02:13] INFO root fetch - main [MainThread]: End processing [watson-poetry]: success
+[2024-04-15 00:02:13] INFO root fetch - processPackages [whl2conda]: Remove: archive file [/home/abi/fetcher/tmp/whl2conda-24.1.2.tar.gz]
+[2024-04-15 00:02:13] INFO root fetch - processPackages [whl2conda]: Remove: archive file [/home/abi/fetcher/tmp/whl2conda-24.4.0.tar.gz]
+[2024-04-15 00:02:13] INFO root fetch - main [MainThread]: End processing [whl2conda]: success
+[2024-04-15 00:02:13] INFO root fetch - processPackages [apstools]: Remove: archive file [/home/abi/fetcher/tmp/apstools-1.6.9.tar.gz]
+[2024-04-15 00:02:13] INFO root fetch - processPackages [apstools]: Remove: archive file [/home/abi/fetcher/tmp/apstools-1.6.9rc1.tar.gz]
+[2024-04-15 00:02:13] INFO root fetch - main [MainThread]: End processing [apstools]: success
+[2024-04-15 00:02:14] INFO root fetch - processPackages [ecs_composex]: Remove: archive file [/home/abi/fetcher/tmp/ecs_composex-1.1.0rc1.tar.gz]
+[2024-04-15 00:02:14] INFO root fetch - processPackages [ecs_composex]: Remove: archive file [/home/abi/fetcher/tmp/ecs_composex-1.1.0rc2.tar.gz]
+[2024-04-15 00:02:14] INFO root fetch - main [MainThread]: End processing [ecs_composex]: success
+[2024-04-15 00:02:14] INFO root fetch - main [MainThread]: Store serial: [22762781]
