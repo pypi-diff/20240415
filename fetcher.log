@@ -374,3 +374,27 @@
 [2024-04-15 00:32:37] INFO root fetch - processPackages [labelle]: Remove: archive file [/home/abi/fetcher/tmp/labelle-1.1.0.tar.gz]
 [2024-04-15 00:32:37] INFO root fetch - main [MainThread]: End processing [labelle]: success
 [2024-04-15 00:32:37] INFO root fetch - main [MainThread]: Store serial: [22763024]
+[2024-04-15 00:34:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22763024]
+[2024-04-15 00:34:45] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-15 00:34:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: labelle
+[2024-04-15 00:34:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: archyve
+[2024-04-15 00:34:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cloudben
+[2024-04-15 00:34:45] INFO root fetch - processPackages [labelle]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-15 00:34:45] INFO root fetch - processPackages [archyve]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-15 00:34:46] INFO root fetch - processPackages [labelle]: Downloading https://files.pythonhosted.org/packages/4c/f4/61d4dbc65d1de86eb5a3f369619aa8417573b4dc8e7d693e8a3b03399005/labelle-1.0.0.tar.gz
+[2024-04-15 00:34:46] WARNING root fetch - processPackages [cloudben]: Skipping, unable to determine old version
+[2024-04-15 00:34:46] INFO root fetch - main [MainThread]: End processing [cloudben] error
+[2024-04-15 00:34:46] INFO root fetch - processPackages [archyve]: Downloading https://files.pythonhosted.org/packages/4c/9d/9cc400e09b99fa84cb101550de69d3e0bcb5a24f02db271ca28f95c40cdf/archyve-0.2.0.tar.gz
+[2024-04-15 00:34:46] INFO root fetch - processPackages [archyve]: Downloading https://files.pythonhosted.org/packages/c5/bd/20b01e4472a4b4e8acd92b3d46663b167aa1867d6347c8305262993ce7b5/archyve-0.2.1.tar.gz
+[2024-04-15 00:34:46] INFO root fetch - processPackages [labelle]: Downloading https://files.pythonhosted.org/packages/df/ab/a4deb959c334726efacba06e20aa299b59b4b2ccadd767ae47d13ac2d9c4/labelle-1.1.0.tar.gz
+[2024-04-15 00:34:46] INFO root fetch - processPackages [archyve]: executing diffoscope
+[2024-04-15 00:34:46] INFO root fetch - processPackages [archyve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archyve-0.2.0.tar.gz tmp/archyve-0.2.1.tar.gz --markdown 20240415/a/archyve/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-15 00:34:46] INFO root fetch - processPackages [labelle]: executing diffoscope
+[2024-04-15 00:34:46] INFO root fetch - processPackages [labelle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labelle-1.0.0.tar.gz tmp/labelle-1.1.0.tar.gz --markdown 20240415/l/labelle/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-04-15 00:34:47] INFO root fetch - processPackages [archyve]: Remove: archive file [/home/abi/fetcher/tmp/archyve-0.2.0.tar.gz]
+[2024-04-15 00:34:47] INFO root fetch - processPackages [archyve]: Remove: archive file [/home/abi/fetcher/tmp/archyve-0.2.1.tar.gz]
+[2024-04-15 00:34:47] INFO root fetch - main [MainThread]: End processing [archyve]: success
+[2024-04-15 00:34:47] INFO root fetch - processPackages [labelle]: Remove: archive file [/home/abi/fetcher/tmp/labelle-1.0.0.tar.gz]
+[2024-04-15 00:34:47] INFO root fetch - processPackages [labelle]: Remove: archive file [/home/abi/fetcher/tmp/labelle-1.1.0.tar.gz]
+[2024-04-15 00:34:47] INFO root fetch - main [MainThread]: End processing [labelle]: success
+[2024-04-15 00:34:47] INFO root fetch - main [MainThread]: Store serial: [22763035]
