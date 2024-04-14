@@ -997,3 +997,36 @@
 [2024-04-15 01:16:03] INFO root fetch - processPackages [fudstop]: Remove: archive file [/home/abi/fetcher/tmp/fudstop-2.5.1.tar.gz]
 [2024-04-15 01:16:03] INFO root fetch - main [MainThread]: End processing [fudstop]: success
 [2024-04-15 01:16:03] INFO root fetch - main [MainThread]: Store serial: [22763473]
+[2024-04-15 01:18:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22763473]
+[2024-04-15 01:18:11] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-15 01:18:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: analysis-runner
+[2024-04-15 01:18:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: termpandas
+[2024-04-15 01:18:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gasflux
+[2024-04-15 01:18:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ttemtoolbox
+[2024-04-15 01:18:11] WARNING root fetch - processPackages [termpandas]: Skipping, unable to determine old version
+[2024-04-15 01:18:11] INFO root fetch - main [MainThread]: End processing [termpandas] error
+[2024-04-15 01:18:11] INFO root fetch - processPackages [gasflux]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-15 01:18:11] INFO root fetch - processPackages [ttemtoolbox]: New version: [4.14.2024] Old Version: [1.0.0]
+[2024-04-15 01:18:11] INFO root fetch - processPackages [analysis-runner]: New version: [3.0.0] Old Version: [2.44.0]
+[2024-04-15 01:18:12] INFO root fetch - processPackages [analysis-runner]: Downloading https://files.pythonhosted.org/packages/a0/21/dd13e701a1d266c5647df9a6813f6f0e3f05f397208037f2214de3924c01/analysis-runner-2.44.0.tar.gz
+[2024-04-15 01:18:12] INFO root fetch - processPackages [gasflux]: Downloading https://files.pythonhosted.org/packages/01/dd/3db8a58376381d670b8a1ed0d0e074a17b7594bb3539c7c5845f0c673aea/gasflux-0.1.2.tar.gz
+[2024-04-15 01:18:12] INFO root fetch - processPackages [ttemtoolbox]: Downloading https://files.pythonhosted.org/packages/fd/0c/aad50a35e1f20eecb4cf69f36b1f34905012a91f40939c7a719a6d69bad9/ttemtoolbox-1.0.0.tar.gz
+[2024-04-15 01:18:12] INFO root fetch - processPackages [analysis-runner]: Downloading https://files.pythonhosted.org/packages/8c/99/6666e3b241392d957ed626a5d3315874a3514303a53de02d40e450bffd23/analysis-runner-3.0.0.tar.gz
+[2024-04-15 01:18:12] INFO root fetch - processPackages [gasflux]: Downloading https://files.pythonhosted.org/packages/67/d5/e2866334d6fb1dd63a7338f96e0e58377a84acb8874c3bbed1d6718f9094/gasflux-0.1.3.tar.gz
+[2024-04-15 01:18:12] INFO root fetch - processPackages [analysis-runner]: executing diffoscope
+[2024-04-15 01:18:12] INFO root fetch - processPackages [analysis-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/analysis-runner-2.44.0.tar.gz tmp/analysis-runner-3.0.0.tar.gz --markdown 20240415/a/analysis-runner/2.44.0-3.0.0/README.md --exclude *.pyd
+[2024-04-15 01:18:12] INFO root fetch - processPackages [gasflux]: executing diffoscope
+[2024-04-15 01:18:12] INFO root fetch - processPackages [gasflux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gasflux-0.1.2.tar.gz tmp/gasflux-0.1.3.tar.gz --markdown 20240415/g/gasflux/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-15 01:18:13] INFO root fetch - processPackages [ttemtoolbox]: Downloading https://files.pythonhosted.org/packages/61/04/3d9f924fe23f142504e1988c4540a5c8fb379edfb1e54310c5dbd1af74be/ttemtoolbox-4.14.2024.tar.gz
+[2024-04-15 01:18:13] INFO root fetch - processPackages [analysis-runner]: Remove: archive file [/home/abi/fetcher/tmp/analysis-runner-2.44.0.tar.gz]
+[2024-04-15 01:18:13] INFO root fetch - processPackages [analysis-runner]: Remove: archive file [/home/abi/fetcher/tmp/analysis-runner-3.0.0.tar.gz]
+[2024-04-15 01:18:13] INFO root fetch - main [MainThread]: End processing [analysis-runner]: success
+[2024-04-15 01:18:13] INFO root fetch - processPackages [ttemtoolbox]: executing diffoscope
+[2024-04-15 01:18:13] INFO root fetch - processPackages [ttemtoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ttemtoolbox-1.0.0.tar.gz tmp/ttemtoolbox-4.14.2024.tar.gz --markdown 20240415/t/ttemtoolbox/1.0.0-4.14.2024/README.md --exclude *.pyd
+[2024-04-15 01:18:13] INFO root fetch - processPackages [gasflux]: Remove: archive file [/home/abi/fetcher/tmp/gasflux-0.1.2.tar.gz]
+[2024-04-15 01:18:13] INFO root fetch - processPackages [gasflux]: Remove: archive file [/home/abi/fetcher/tmp/gasflux-0.1.3.tar.gz]
+[2024-04-15 01:18:13] INFO root fetch - main [MainThread]: End processing [gasflux]: success
+[2024-04-15 01:18:13] INFO root fetch - processPackages [ttemtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/ttemtoolbox-1.0.0.tar.gz]
+[2024-04-15 01:18:13] INFO root fetch - processPackages [ttemtoolbox]: Remove: archive file [/home/abi/fetcher/tmp/ttemtoolbox-4.14.2024.tar.gz]
+[2024-04-15 01:18:13] INFO root fetch - main [MainThread]: End processing [ttemtoolbox]: success
+[2024-04-15 01:18:13] INFO root fetch - main [MainThread]: Store serial: [22763547]
