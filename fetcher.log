@@ -470,3 +470,47 @@
 [2024-04-15 00:43:24] INFO root fetch - processPackages [archyve]: Remove: archive file [/home/abi/fetcher/tmp/archyve-0.2.2.tar.gz]
 [2024-04-15 00:43:24] INFO root fetch - main [MainThread]: End processing [archyve]: success
 [2024-04-15 00:43:24] INFO root fetch - main [MainThread]: Store serial: [22763068]
+[2024-04-15 00:45:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22763068]
+[2024-04-15 00:45:33] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-15 00:45:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dsp-ifsc
+[2024-04-15 00:45:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Red-Web-Dashboard
+[2024-04-15 00:45:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: archyve
+[2024-04-15 00:45:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: feas
+[2024-04-15 00:45:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cloudben
+[2024-04-15 00:45:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ciscoconfparse2
+[2024-04-15 00:45:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pygeneconverter
+[2024-04-15 00:45:33] INFO root fetch - processPackages [dsp-ifsc]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-15 00:45:33] WARNING root fetch - processPackages [cloudben]: Skipping, unable to determine old version
+[2024-04-15 00:45:33] INFO root fetch - main [MainThread]: End processing [cloudben] error
+[2024-04-15 00:45:33] INFO root fetch - processPackages [archyve]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-15 00:45:33] INFO root fetch - processPackages [ciscoconfparse2]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-15 00:45:33] INFO root fetch - processPackages [dsp-ifsc]: Downloading https://files.pythonhosted.org/packages/70/7f/41b3bf8cba148f0df5ea77adbcc3b16f280311875a97c7f213c10e09d738/dsp_ifsc-0.0.3.tar.gz
+[2024-04-15 00:45:33] INFO root fetch - processPackages [archyve]: Downloading https://files.pythonhosted.org/packages/5a/7f/e13db59814c31a096ce65725a8f006b6c59755a1491806144addbb4eb2dc/archyve-0.2.2.tar.gz
+[2024-04-15 00:45:33] ERROR root fetch - processPackages [pygeneconverter]: Unable to get metadata: No such project 'pygeneconverter'
+[2024-04-15 00:45:33] INFO root fetch - main [MainThread]: End processing [pygeneconverter] error
+[2024-04-15 00:45:33] WARNING root fetch - processPackages [feas]: Skipping, unable to determine old version
+[2024-04-15 00:45:33] INFO root fetch - main [MainThread]: End processing [feas] error
+[2024-04-15 00:45:33] INFO root fetch - processPackages [Red-Web-Dashboard]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-15 00:45:33] INFO root fetch - processPackages [ciscoconfparse2]: Downloading https://files.pythonhosted.org/packages/26/c5/d7a1bbb15197a52ec641fb3455b2bad160571ef08bbb87f61c8e83e45163/ciscoconfparse2-0.7.8.tar.gz
+[2024-04-15 00:45:33] WARNING root fetch - processPackages [ciscoconfparse2]: Skipping package: exceeds size limit 12946892>=10485760
+[2024-04-15 00:45:33] INFO root fetch - main [MainThread]: End processing [ciscoconfparse2] error
+[2024-04-15 00:45:33] INFO root fetch - processPackages [Red-Web-Dashboard]: Downloading https://files.pythonhosted.org/packages/e9/31/551f536bab40a443600c2f3822875e9b0e55282d4919b2b76232b2ba3e98/red_web_dashboard-1.1.tar.gz
+[2024-04-15 00:45:33] INFO root fetch - processPackages [dsp-ifsc]: Downloading https://files.pythonhosted.org/packages/8c/6f/7269b23abaac6a9e256de7c8d498d6f49901d6feaa199d5eb426b84a6b68/dsp_ifsc-0.0.4.tar.gz
+[2024-04-15 00:45:33] INFO root fetch - processPackages [archyve]: Downloading https://files.pythonhosted.org/packages/99/37/f3b892cc31a498d8c05cd01e830f92f3affce5a5e09fe2fd4847a0a8898b/archyve-0.2.3.tar.gz
+[2024-04-15 00:45:33] INFO root fetch - processPackages [dsp-ifsc]: executing diffoscope
+[2024-04-15 00:45:33] INFO root fetch - processPackages [dsp-ifsc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsp_ifsc-0.0.3.tar.gz tmp/dsp_ifsc-0.0.4.tar.gz --markdown 20240415/d/dsp-ifsc/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-15 00:45:33] INFO root fetch - processPackages [archyve]: executing diffoscope
+[2024-04-15 00:45:33] INFO root fetch - processPackages [archyve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archyve-0.2.2.tar.gz tmp/archyve-0.2.3.tar.gz --markdown 20240415/a/archyve/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-15 00:45:33] INFO root fetch - processPackages [Red-Web-Dashboard]: Downloading https://files.pythonhosted.org/packages/ee/41/9808c736580154f6c75a089cca2229fced3e9d99f3bc076f4c1e652c1be0/red_web_dashboard-1.2.0.tar.gz
+[2024-04-15 00:45:34] INFO root fetch - processPackages [dsp-ifsc]: Remove: archive file [/home/abi/fetcher/tmp/dsp_ifsc-0.0.3.tar.gz]
+[2024-04-15 00:45:34] INFO root fetch - processPackages [dsp-ifsc]: Remove: archive file [/home/abi/fetcher/tmp/dsp_ifsc-0.0.4.tar.gz]
+[2024-04-15 00:45:34] INFO root fetch - main [MainThread]: End processing [dsp-ifsc]: success
+[2024-04-15 00:45:34] INFO root fetch - processPackages [archyve]: Remove: archive file [/home/abi/fetcher/tmp/archyve-0.2.2.tar.gz]
+[2024-04-15 00:45:34] INFO root fetch - processPackages [archyve]: Remove: archive file [/home/abi/fetcher/tmp/archyve-0.2.3.tar.gz]
+[2024-04-15 00:45:34] INFO root fetch - main [MainThread]: End processing [archyve]: success
+[2024-04-15 00:45:34] INFO root fetch - processPackages [Red-Web-Dashboard]: executing diffoscope
+[2024-04-15 00:45:34] INFO root fetch - processPackages [Red-Web-Dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/red_web_dashboard-1.1.tar.gz tmp/red_web_dashboard-1.2.0.tar.gz --markdown 20240415/R/Red-Web-Dashboard/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-04-15 00:45:36] INFO root fetch - processPackages [Red-Web-Dashboard]: Remove: archive file [/home/abi/fetcher/tmp/red_web_dashboard-1.1.tar.gz]
+[2024-04-15 00:45:36] INFO root fetch - processPackages [Red-Web-Dashboard]: Remove: archive file [/home/abi/fetcher/tmp/red_web_dashboard-1.2.0.tar.gz]
+[2024-04-15 00:45:36] INFO root fetch - main [MainThread]: End processing [Red-Web-Dashboard]: success
+[2024-04-15 00:45:36] INFO root fetch - main [MainThread]: Store serial: [22763098]
