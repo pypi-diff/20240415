@@ -793,3 +793,42 @@
 [2024-04-15 01:05:09] INFO root fetch - processPackages [oslili]: Remove: archive file [/home/abi/fetcher/tmp/oslili-0.8.tar.gz]
 [2024-04-15 01:05:09] INFO root fetch - main [MainThread]: End processing [oslili]: success
 [2024-04-15 01:05:09] INFO root fetch - main [MainThread]: Store serial: [22763213]
+[2024-04-15 01:07:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22763213]
+[2024-04-15 01:07:17] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-15 01:07:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rainbow-api
+[2024-04-15 01:07:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gammarer.aws-secure-flow-log-bucket
+[2024-04-15 01:07:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dsp-ifsc
+[2024-04-15 01:07:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fango
+[2024-04-15 01:07:17] INFO root fetch - processPackages [dsp-ifsc]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-15 01:07:17] INFO root fetch - processPackages [fango]: New version: [0.0.18] Old Version: [0.0.17]
+[2024-04-15 01:07:17] INFO root fetch - processPackages [dsp-ifsc]: Downloading https://files.pythonhosted.org/packages/8c/6f/7269b23abaac6a9e256de7c8d498d6f49901d6feaa199d5eb426b84a6b68/dsp_ifsc-0.0.4.tar.gz
+[2024-04-15 01:07:17] INFO root fetch - processPackages [fango]: Downloading https://files.pythonhosted.org/packages/f3/df/743ffc17c9a347deb6614cb6616aae34836c127a3b942ed4a5629e370cee/fango-0.0.17.tar.gz
+[2024-04-15 01:07:17] INFO root fetch - processPackages [rainbow-api]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-04-15 01:07:17] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: New version: [1.3.5] Old Version: [1.3.4]
+[2024-04-15 01:07:18] INFO root fetch - processPackages [rainbow-api]: Downloading https://files.pythonhosted.org/packages/1b/a0/9837e78c4d6b84d9054b7fdbeff8e349e25a599492e3103b260b85dcd159/rainbow-api-1.0.6.tar.gz
+[2024-04-15 01:07:18] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: Downloading https://files.pythonhosted.org/packages/d4/03/19b0217ea8d8c7674630440bbce11a1902fdc6e06fcf4cc50f107d34a84a/gammarer.aws-secure-flow-log-bucket-1.3.4.tar.gz
+[2024-04-15 01:07:18] INFO root fetch - processPackages [fango]: Downloading https://files.pythonhosted.org/packages/ac/36/a1496a8dcb8605fa4995ac5934b167d780a3515f631bbfef172bbe8ffb91/fango-0.0.18.tar.gz
+[2024-04-15 01:07:18] INFO root fetch - processPackages [dsp-ifsc]: Downloading https://files.pythonhosted.org/packages/eb/12/89683514a10862fd6277ab6bdce7ad2685c2850604a1bd621f3b41f54cf3/dsp_ifsc-0.0.5.tar.gz
+[2024-04-15 01:07:18] INFO root fetch - processPackages [fango]: executing diffoscope
+[2024-04-15 01:07:18] INFO root fetch - processPackages [fango]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fango-0.0.17.tar.gz tmp/fango-0.0.18.tar.gz --markdown 20240415/f/fango/0.0.17-0.0.18/README.md --exclude *.pyd
+[2024-04-15 01:07:18] INFO root fetch - processPackages [dsp-ifsc]: executing diffoscope
+[2024-04-15 01:07:18] INFO root fetch - processPackages [dsp-ifsc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsp_ifsc-0.0.4.tar.gz tmp/dsp_ifsc-0.0.5.tar.gz --markdown 20240415/d/dsp-ifsc/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-15 01:07:18] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: Downloading https://files.pythonhosted.org/packages/fd/99/95cd828e8f14e6eadaca6fb63a42642cb1a3d2d9ac28cc42d2f122a60c10/gammarer.aws-secure-flow-log-bucket-1.3.5.tar.gz
+[2024-04-15 01:07:18] INFO root fetch - processPackages [rainbow-api]: Downloading https://files.pythonhosted.org/packages/95/7e/88267cb256ccbf7c7c39d7df990255054aebbfca601dd7bc9fdeae29937e/rainbow_api-1.0.7.tar.gz
+[2024-04-15 01:07:18] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: executing diffoscope
+[2024-04-15 01:07:18] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-secure-flow-log-bucket-1.3.4.tar.gz tmp/gammarer.aws-secure-flow-log-bucket-1.3.5.tar.gz --markdown 20240415/g/gammarer.aws-secure-flow-log-bucket/1.3.4-1.3.5/README.md --exclude *.pyd
+[2024-04-15 01:07:18] INFO root fetch - processPackages [rainbow-api]: executing diffoscope
+[2024-04-15 01:07:18] INFO root fetch - processPackages [rainbow-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rainbow-api-1.0.6.tar.gz tmp/rainbow_api-1.0.7.tar.gz --markdown 20240415/r/rainbow-api/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-04-15 01:07:18] INFO root fetch - processPackages [dsp-ifsc]: Remove: archive file [/home/abi/fetcher/tmp/dsp_ifsc-0.0.4.tar.gz]
+[2024-04-15 01:07:18] INFO root fetch - processPackages [dsp-ifsc]: Remove: archive file [/home/abi/fetcher/tmp/dsp_ifsc-0.0.5.tar.gz]
+[2024-04-15 01:07:18] INFO root fetch - main [MainThread]: End processing [dsp-ifsc]: success
+[2024-04-15 01:07:18] INFO root fetch - processPackages [fango]: Remove: archive file [/home/abi/fetcher/tmp/fango-0.0.17.tar.gz]
+[2024-04-15 01:07:18] INFO root fetch - processPackages [fango]: Remove: archive file [/home/abi/fetcher/tmp/fango-0.0.18.tar.gz]
+[2024-04-15 01:07:18] INFO root fetch - main [MainThread]: End processing [fango]: success
+[2024-04-15 01:07:19] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-flow-log-bucket-1.3.4.tar.gz]
+[2024-04-15 01:07:19] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-flow-log-bucket-1.3.5.tar.gz]
+[2024-04-15 01:07:19] INFO root fetch - main [MainThread]: End processing [gammarer.aws-secure-flow-log-bucket]: success
+[2024-04-15 01:07:19] INFO root fetch - processPackages [rainbow-api]: Remove: archive file [/home/abi/fetcher/tmp/rainbow-api-1.0.6.tar.gz]
+[2024-04-15 01:07:19] INFO root fetch - processPackages [rainbow-api]: Remove: archive file [/home/abi/fetcher/tmp/rainbow_api-1.0.7.tar.gz]
+[2024-04-15 01:07:19] INFO root fetch - main [MainThread]: End processing [rainbow-api]: success
+[2024-04-15 01:07:19] INFO root fetch - main [MainThread]: Store serial: [22763284]
