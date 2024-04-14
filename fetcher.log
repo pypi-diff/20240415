@@ -599,3 +599,15 @@
 [2024-04-15 00:52:06] INFO root fetch - processPackages [gs-coordinator]: Remove: archive file [/home/abi/fetcher/tmp/gs_coordinator-0.28.0a20240414-py2.py3-none-any.whl.zip]
 [2024-04-15 00:52:06] INFO root fetch - main [MainThread]: End processing [gs-coordinator]: success
 [2024-04-15 00:52:06] INFO root fetch - main [MainThread]: Store serial: [22763135]
+[2024-04-15 00:54:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22763135]
+[2024-04-15 00:54:14] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-15 00:54:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yoto-api
+[2024-04-15 00:54:14] INFO root fetch - processPackages [yoto-api]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-15 00:54:14] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/de/f4/5ee0600af4a566d3f479406bf7395f04ea324d4c920e0a5443915f286413/yoto_api-1.0.8.tar.gz
+[2024-04-15 00:54:15] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/29/29/1b344cc343dfdd31eed135d8da17d3752522853f41f4af8843665d80102f/yoto_api-1.0.9.tar.gz
+[2024-04-15 00:54:15] INFO root fetch - processPackages [yoto-api]: executing diffoscope
+[2024-04-15 00:54:15] INFO root fetch - processPackages [yoto-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yoto_api-1.0.8.tar.gz tmp/yoto_api-1.0.9.tar.gz --markdown 20240415/y/yoto-api/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-15 00:54:15] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.0.8.tar.gz]
+[2024-04-15 00:54:15] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.0.9.tar.gz]
+[2024-04-15 00:54:15] INFO root fetch - main [MainThread]: End processing [yoto-api]: success
+[2024-04-15 00:54:15] INFO root fetch - main [MainThread]: Store serial: [22763142]
