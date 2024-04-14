@@ -1269,3 +1269,15 @@
 [2024-04-15 01:42:14] INFO root fetch - processPackages [prefixmaps]: Remove: archive file [/home/abi/fetcher/tmp/prefixmaps-0.2.4.tar.gz]
 [2024-04-15 01:42:14] INFO root fetch - main [MainThread]: End processing [prefixmaps]: success
 [2024-04-15 01:42:14] INFO root fetch - main [MainThread]: Store serial: [22763665]
+[2024-04-15 01:44:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22763665]
+[2024-04-15 01:44:27] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-15 01:44:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: safe-store
+[2024-04-15 01:44:27] INFO root fetch - processPackages [safe-store]: New version: [0.6.0] Old Version: [0.4.0]
+[2024-04-15 01:44:27] INFO root fetch - processPackages [safe-store]: Downloading https://files.pythonhosted.org/packages/33/fb/d51ac8a5cd08df3944930e063d9be6a15ce1836539f57723f836ea0c5f29/safe_store-0.4.0.tar.gz
+[2024-04-15 01:44:27] INFO root fetch - processPackages [safe-store]: Downloading https://files.pythonhosted.org/packages/eb/0c/0bb5fe0c008d856f6d1aec12968e77d7dc5b009f905dc6ab320cd72a8a81/safe_store-0.6.0.tar.gz
+[2024-04-15 01:44:27] INFO root fetch - processPackages [safe-store]: executing diffoscope
+[2024-04-15 01:44:27] INFO root fetch - processPackages [safe-store]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safe_store-0.4.0.tar.gz tmp/safe_store-0.6.0.tar.gz --markdown 20240415/s/safe-store/0.4.0-0.6.0/README.md --exclude *.pyd
+[2024-04-15 01:44:28] INFO root fetch - processPackages [safe-store]: Remove: archive file [/home/abi/fetcher/tmp/safe_store-0.4.0.tar.gz]
+[2024-04-15 01:44:28] INFO root fetch - processPackages [safe-store]: Remove: archive file [/home/abi/fetcher/tmp/safe_store-0.6.0.tar.gz]
+[2024-04-15 01:44:28] INFO root fetch - main [MainThread]: End processing [safe-store]: success
+[2024-04-15 01:44:28] INFO root fetch - main [MainThread]: Store serial: [22763671]
