@@ -544,3 +544,58 @@
 [2024-04-15 00:49:55] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-bucket-1.2.2.tar.gz]
 [2024-04-15 00:49:55] INFO root fetch - main [MainThread]: End processing [gammarer.aws-secure-bucket]: success
 [2024-04-15 00:49:55] INFO root fetch - main [MainThread]: Store serial: [22763113]
+[2024-04-15 00:51:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22763113]
+[2024-04-15 00:52:04] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-15 00:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: graphscope
+[2024-04-15 00:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: graphscope-client
+[2024-04-15 00:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ciscoconfparse2
+[2024-04-15 00:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gs-apps
+[2024-04-15 00:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gs-coordinator
+[2024-04-15 00:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gs-engine
+[2024-04-15 00:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gs-include
+[2024-04-15 00:52:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: detadoc
+[2024-04-15 00:52:04] INFO root fetch - processPackages [ciscoconfparse2]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-15 00:52:04] INFO root fetch - processPackages [gs-include]: New version: [0.28.0a20240414] Old Version: [0.28.0a20240413]
+[2024-04-15 00:52:04] INFO root fetch - processPackages [graphscope]: New version: [0.28.0a20240414] Old Version: [0.28.0a20240413]
+[2024-04-15 00:52:04] INFO root fetch - processPackages [ciscoconfparse2]: Downloading https://files.pythonhosted.org/packages/26/c5/d7a1bbb15197a52ec641fb3455b2bad160571ef08bbb87f61c8e83e45163/ciscoconfparse2-0.7.8.tar.gz
+[2024-04-15 00:52:04] INFO root fetch - processPackages [detadoc]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-04-15 00:52:04] INFO root fetch - processPackages [gs-coordinator]: New version: [0.28.0a20240414] Old Version: [0.28.0a20240413]
+[2024-04-15 00:52:04] INFO root fetch - processPackages [gs-apps]: New version: [0.28.0a20240414] Old Version: [0.28.0a20240413]
+[2024-04-15 00:52:04] INFO root fetch - processPackages [gs-engine]: New version: [0.28.0a20240414] Old Version: [0.28.0a20240413]
+[2024-04-15 00:52:04] INFO root fetch - processPackages [graphscope-client]: New version: [0.28.0a20240414] Old Version: [0.28.0a20240413]
+[2024-04-15 00:52:04] WARNING root fetch - processPackages [ciscoconfparse2]: Skipping package: exceeds size limit 12946892>=10485760
+[2024-04-15 00:52:04] INFO root fetch - main [MainThread]: End processing [ciscoconfparse2] error
+[2024-04-15 00:52:04] INFO root fetch - processPackages [gs-include]: Downloading https://files.pythonhosted.org/packages/9d/eb/358e140f25f48313f5a8208378393cb49ce9dd7c1810aa52bfc177637131/gs_include-0.28.0a20240413-py2.py3-none-any.whl
+[2024-04-15 00:52:04] INFO root fetch - processPackages [graphscope]: Downloading https://files.pythonhosted.org/packages/51/39/598c2281075d08d37a7a6a0cc62ca5f4ee6a8a53046030b40488f03d86b9/graphscope-0.28.0a20240413-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-15 00:52:04] INFO root fetch - processPackages [detadoc]: Downloading https://files.pythonhosted.org/packages/23/36/3fda7c3a6013d998c1d10d8d4a658e39af344da529ce0879cada15c4216f/detadoc-0.2.7.tar.gz
+[2024-04-15 00:52:04] WARNING root fetch - processPackages [gs-include]: Skipping package: exceeds size limit 28838525>=10485760
+[2024-04-15 00:52:04] INFO root fetch - main [MainThread]: End processing [gs-include] error
+[2024-04-15 00:52:04] INFO root fetch - processPackages [gs-apps]: Downloading https://files.pythonhosted.org/packages/dc/af/c8d7d618bb97645e2d7786083904386a9bb1e388393d50e7e0064e6941af/gs_apps-0.28.0a20240413-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-15 00:52:04] INFO root fetch - processPackages [gs-coordinator]: Downloading https://files.pythonhosted.org/packages/a6/a9/06f425e5381997179eb989d741b34033fa9e6c4bec3b7367b01c30c6feb5/gs_coordinator-0.28.0a20240413-py2.py3-none-any.whl
+[2024-04-15 00:52:04] INFO root fetch - processPackages [graphscope-client]: Downloading https://files.pythonhosted.org/packages/af/be/35d207b895deb7f168db134a614f2ae040f2e52cafd0240b4753b2dee171/graphscope_client-0.28.0a20240413-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-15 00:52:04] INFO root fetch - processPackages [gs-engine]: Downloading https://files.pythonhosted.org/packages/58/2c/cca90f6f634171f4e72676056673e76d486f65500c5f092bfa08728e9a5e/gs_engine-0.28.0a20240413-py2.py3-none-any.whl
+[2024-04-15 00:52:04] WARNING root fetch - processPackages [graphscope]: Skipping package: exceeds size limit 195955389>=10485760
+[2024-04-15 00:52:04] INFO root fetch - main [MainThread]: End processing [graphscope] error
+[2024-04-15 00:52:04] WARNING root fetch - processPackages [gs-apps]: Skipping package: exceeds size limit 47042283>=10485760
+[2024-04-15 00:52:04] INFO root fetch - main [MainThread]: End processing [gs-apps] error
+[2024-04-15 00:52:05] WARNING root fetch - processPackages [graphscope-client]: Skipping package: exceeds size limit 74672931>=10485760
+[2024-04-15 00:52:05] INFO root fetch - main [MainThread]: End processing [graphscope-client] error
+[2024-04-15 00:52:05] INFO root fetch - processPackages [detadoc]: Downloading https://files.pythonhosted.org/packages/1c/48/fc41e860671aa7d090dc48b79fe3bc6dcdfbe97d9bf1e7114236f78997eb/detadoc-0.2.8.tar.gz
+[2024-04-15 00:52:05] INFO root fetch - processPackages [gs-coordinator]: Downloading https://files.pythonhosted.org/packages/64/ae/6ae0a722e079afc1d07cf0d84f3c7e2a3d61ef79f5618c5288c7b39f42a0/gs_coordinator-0.28.0a20240414-py2.py3-none-any.whl
+[2024-04-15 00:52:05] INFO root fetch - processPackages [gs-engine]: Downloading https://files.pythonhosted.org/packages/44/91/44bc1ae402632d145c90cf3da198368e9b689f45238b0752c8edd21c8aec/gs_engine-0.28.0a20240414-py2.py3-none-any.whl
+[2024-04-15 00:52:05] INFO root fetch - processPackages [detadoc]: executing diffoscope
+[2024-04-15 00:52:05] INFO root fetch - processPackages [detadoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/detadoc-0.2.7.tar.gz tmp/detadoc-0.2.8.tar.gz --markdown 20240415/d/detadoc/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-04-15 00:52:05] INFO root fetch - processPackages [gs-engine]: executing diffoscope
+[2024-04-15 00:52:05] INFO root fetch - processPackages [gs-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs_engine-0.28.0a20240413-py2.py3-none-any.whl.zip tmp/gs_engine-0.28.0a20240414-py2.py3-none-any.whl.zip --markdown 20240415/g/gs-engine/0.28.0a20240413-0.28.0a20240414/README.md --exclude *.pyd
+[2024-04-15 00:52:05] INFO root fetch - processPackages [gs-coordinator]: executing diffoscope
+[2024-04-15 00:52:05] INFO root fetch - processPackages [gs-coordinator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs_coordinator-0.28.0a20240413-py2.py3-none-any.whl.zip tmp/gs_coordinator-0.28.0a20240414-py2.py3-none-any.whl.zip --markdown 20240415/g/gs-coordinator/0.28.0a20240413-0.28.0a20240414/README.md --exclude *.pyd
+[2024-04-15 00:52:05] INFO root fetch - processPackages [detadoc]: Remove: archive file [/home/abi/fetcher/tmp/detadoc-0.2.7.tar.gz]
+[2024-04-15 00:52:05] INFO root fetch - processPackages [detadoc]: Remove: archive file [/home/abi/fetcher/tmp/detadoc-0.2.8.tar.gz]
+[2024-04-15 00:52:05] INFO root fetch - main [MainThread]: End processing [detadoc]: success
+[2024-04-15 00:52:05] INFO root fetch - processPackages [gs-engine]: Remove: archive file [/home/abi/fetcher/tmp/gs_engine-0.28.0a20240413-py2.py3-none-any.whl.zip]
+[2024-04-15 00:52:05] INFO root fetch - processPackages [gs-engine]: Remove: archive file [/home/abi/fetcher/tmp/gs_engine-0.28.0a20240414-py2.py3-none-any.whl.zip]
+[2024-04-15 00:52:05] INFO root fetch - main [MainThread]: End processing [gs-engine]: success
+[2024-04-15 00:52:06] INFO root fetch - processPackages [gs-coordinator]: Remove: archive file [/home/abi/fetcher/tmp/gs_coordinator-0.28.0a20240413-py2.py3-none-any.whl.zip]
+[2024-04-15 00:52:06] INFO root fetch - processPackages [gs-coordinator]: Remove: archive file [/home/abi/fetcher/tmp/gs_coordinator-0.28.0a20240414-py2.py3-none-any.whl.zip]
+[2024-04-15 00:52:06] INFO root fetch - main [MainThread]: End processing [gs-coordinator]: success
+[2024-04-15 00:52:06] INFO root fetch - main [MainThread]: Store serial: [22763135]
