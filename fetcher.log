@@ -1072,3 +1072,24 @@
 [2024-04-15 01:22:32] INFO root fetch - processPackages [pyplotlib]: Remove: archive file [/home/abi/fetcher/tmp/pyplotlib-0.0.9.tar.gz]
 [2024-04-15 01:22:32] INFO root fetch - main [MainThread]: End processing [pyplotlib]: success
 [2024-04-15 01:22:32] INFO root fetch - main [MainThread]: Store serial: [22763574]
+[2024-04-15 01:24:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22763574]
+[2024-04-15 01:24:40] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-15 01:24:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dsp-ifsc
+[2024-04-15 01:24:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: JayttleProcess
+[2024-04-15 01:24:41] INFO root fetch - processPackages [dsp-ifsc]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-15 01:24:41] INFO root fetch - processPackages [dsp-ifsc]: Downloading https://files.pythonhosted.org/packages/eb/12/89683514a10862fd6277ab6bdce7ad2685c2850604a1bd621f3b41f54cf3/dsp_ifsc-0.0.5.tar.gz
+[2024-04-15 01:24:41] INFO root fetch - processPackages [JayttleProcess]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-15 01:24:41] INFO root fetch - processPackages [JayttleProcess]: Downloading https://files.pythonhosted.org/packages/28/ee/98e7b59109f851fe753f59b8099d473fe9d28eb95f8c426203f2db0c8c6d/JayttleProcess-0.1.6-py3-none-any.whl
+[2024-04-15 01:24:41] INFO root fetch - processPackages [dsp-ifsc]: Downloading https://files.pythonhosted.org/packages/80/0a/26986a2f5770f87506bd20a5e2151af3851c907041b873e8673fefee04be/dsp_ifsc-0.0.6.tar.gz
+[2024-04-15 01:24:41] INFO root fetch - processPackages [dsp-ifsc]: executing diffoscope
+[2024-04-15 01:24:41] INFO root fetch - processPackages [dsp-ifsc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsp_ifsc-0.0.5.tar.gz tmp/dsp_ifsc-0.0.6.tar.gz --markdown 20240415/d/dsp-ifsc/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-15 01:24:41] INFO root fetch - processPackages [JayttleProcess]: Downloading https://files.pythonhosted.org/packages/3d/4b/5e6f5200cbece9cb06d5bc08df69f8e6e8a34ea78f25d0af10feb1e22b6d/JayttleProcess-0.1.7-py3-none-any.whl
+[2024-04-15 01:24:41] INFO root fetch - processPackages [JayttleProcess]: executing diffoscope
+[2024-04-15 01:24:41] INFO root fetch - processPackages [JayttleProcess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JayttleProcess-0.1.6-py3-none-any.whl.zip tmp/JayttleProcess-0.1.7-py3-none-any.whl.zip --markdown 20240415/J/JayttleProcess/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-15 01:24:42] INFO root fetch - processPackages [dsp-ifsc]: Remove: archive file [/home/abi/fetcher/tmp/dsp_ifsc-0.0.5.tar.gz]
+[2024-04-15 01:24:42] INFO root fetch - processPackages [dsp-ifsc]: Remove: archive file [/home/abi/fetcher/tmp/dsp_ifsc-0.0.6.tar.gz]
+[2024-04-15 01:24:42] INFO root fetch - main [MainThread]: End processing [dsp-ifsc]: success
+[2024-04-15 01:24:42] INFO root fetch - processPackages [JayttleProcess]: Remove: archive file [/home/abi/fetcher/tmp/JayttleProcess-0.1.6-py3-none-any.whl.zip]
+[2024-04-15 01:24:42] INFO root fetch - processPackages [JayttleProcess]: Remove: archive file [/home/abi/fetcher/tmp/JayttleProcess-0.1.7-py3-none-any.whl.zip]
+[2024-04-15 01:24:42] INFO root fetch - main [MainThread]: End processing [JayttleProcess]: success
+[2024-04-15 01:24:42] INFO root fetch - main [MainThread]: Store serial: [22763588]
