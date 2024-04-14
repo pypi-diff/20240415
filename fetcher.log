@@ -294,3 +294,35 @@
 [2024-04-15 00:26:10] WARNING root fetch - processPackages [archyve]: Skipping, unable to determine old version
 [2024-04-15 00:26:10] INFO root fetch - main [MainThread]: End processing [archyve] error
 [2024-04-15 00:26:10] INFO root fetch - main [MainThread]: Store serial: [22762993]
+[2024-04-15 00:28:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22762993]
+[2024-04-15 00:28:18] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-15 00:30:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22763004]
+[2024-04-15 00:30:23] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-15 00:30:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyneevo
+[2024-04-15 00:30:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: freegenius
+[2024-04-15 00:30:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: clean-dotenv
+[2024-04-15 00:30:23] INFO root fetch - processPackages [freegenius]: New version: [0.0.9] Old Version: [0.0.85]
+[2024-04-15 00:30:23] INFO root fetch - processPackages [pyneevo]: New version: [1.0.6] Old Version: [1.0.4]
+[2024-04-15 00:30:23] INFO root fetch - processPackages [clean-dotenv]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-15 00:30:24] INFO root fetch - processPackages [freegenius]: Downloading https://files.pythonhosted.org/packages/bf/69/e9dd53ddcfc59a7fe47ed77ee0ad5eb81d52b3937c7304060a7bbdbe21d3/freegenius-0.0.85.tar.gz
+[2024-04-15 00:30:24] INFO root fetch - processPackages [pyneevo]: Downloading https://files.pythonhosted.org/packages/6d/8e/cdc4e3ba4e415ff144aab321fe2e5eb232266dd1400a6dcc8b7b86a2f61a/pyneevo-1.0.4.tar.gz
+[2024-04-15 00:30:24] INFO root fetch - processPackages [clean-dotenv]: Downloading https://files.pythonhosted.org/packages/64/ab/83232a692c842478287f9528adf763370bf1a31434d251aa3200aff8f773/clean_dotenv-0.0.6.tar.gz
+[2024-04-15 00:30:24] INFO root fetch - processPackages [clean-dotenv]: Downloading https://files.pythonhosted.org/packages/67/81/18b856af7427b304bf8ccc5c1dba4686ea407a84e08569432838dee62ac7/clean_dotenv-0.0.7.tar.gz
+[2024-04-15 00:30:24] INFO root fetch - processPackages [pyneevo]: Downloading https://files.pythonhosted.org/packages/d6/0f/d4cf09a66d63d770ded342aa52ad958a53dd10857b4fe31aefec113a35fa/pyneevo-1.0.6.tar.gz
+[2024-04-15 00:30:24] INFO root fetch - processPackages [freegenius]: Downloading https://files.pythonhosted.org/packages/64/a9/f3ae6b148a4bd786790a124582c069ff16ee88fb307a8ebff8181577bb4d/freegenius-0.0.9.tar.gz
+[2024-04-15 00:30:24] INFO root fetch - processPackages [clean-dotenv]: executing diffoscope
+[2024-04-15 00:30:24] INFO root fetch - processPackages [clean-dotenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clean_dotenv-0.0.6.tar.gz tmp/clean_dotenv-0.0.7.tar.gz --markdown 20240415/c/clean-dotenv/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-15 00:30:24] INFO root fetch - processPackages [pyneevo]: executing diffoscope
+[2024-04-15 00:30:24] INFO root fetch - processPackages [pyneevo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyneevo-1.0.4.tar.gz tmp/pyneevo-1.0.6.tar.gz --markdown 20240415/p/pyneevo/1.0.4-1.0.6/README.md --exclude *.pyd
+[2024-04-15 00:30:24] INFO root fetch - processPackages [freegenius]: executing diffoscope
+[2024-04-15 00:30:24] INFO root fetch - processPackages [freegenius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freegenius-0.0.85.tar.gz tmp/freegenius-0.0.9.tar.gz --markdown 20240415/f/freegenius/0.0.85-0.0.9/README.md --exclude *.pyd
+[2024-04-15 00:30:25] INFO root fetch - processPackages [pyneevo]: Remove: archive file [/home/abi/fetcher/tmp/pyneevo-1.0.4.tar.gz]
+[2024-04-15 00:30:25] INFO root fetch - processPackages [pyneevo]: Remove: archive file [/home/abi/fetcher/tmp/pyneevo-1.0.6.tar.gz]
+[2024-04-15 00:30:25] INFO root fetch - main [MainThread]: End processing [pyneevo]: success
+[2024-04-15 00:30:25] INFO root fetch - processPackages [clean-dotenv]: Remove: archive file [/home/abi/fetcher/tmp/clean_dotenv-0.0.6.tar.gz]
+[2024-04-15 00:30:25] INFO root fetch - processPackages [clean-dotenv]: Remove: archive file [/home/abi/fetcher/tmp/clean_dotenv-0.0.7.tar.gz]
+[2024-04-15 00:30:25] INFO root fetch - main [MainThread]: End processing [clean-dotenv]: success
+[2024-04-15 00:30:25] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.0.85.tar.gz]
+[2024-04-15 00:30:25] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.0.9.tar.gz]
+[2024-04-15 00:30:25] INFO root fetch - main [MainThread]: End processing [freegenius]: success
+[2024-04-15 00:30:25] INFO root fetch - main [MainThread]: Store serial: [22763013]
