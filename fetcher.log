@@ -769,3 +769,27 @@
 [2024-04-15 01:02:56] INFO root fetch - processPackages [zettel-org]: Remove: archive file [/home/abi/fetcher/tmp/zettel_org-0.6.1.tar.gz]
 [2024-04-15 01:02:56] INFO root fetch - main [MainThread]: End processing [zettel-org]: success
 [2024-04-15 01:02:56] INFO root fetch - main [MainThread]: Store serial: [22763195]
+[2024-04-15 01:05:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22763195]
+[2024-04-15 01:05:05] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-15 01:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: papers-dl
+[2024-04-15 01:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oslili
+[2024-04-15 01:05:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: clickhouse-connect
+[2024-04-15 01:05:05] WARNING root fetch - processPackages [papers-dl]: Skipping, unable to determine old version
+[2024-04-15 01:05:05] INFO root fetch - main [MainThread]: End processing [papers-dl] error
+[2024-04-15 01:05:05] INFO root fetch - processPackages [oslili]: New version: [0.8] Old Version: [0.7]
+[2024-04-15 01:05:05] INFO root fetch - processPackages [oslili]: Downloading https://files.pythonhosted.org/packages/62/ee/71c9aefdd319c6741a760c4332d9e28a63494aa556de965f72803cd86ad1/oslili-0.7.tar.gz
+[2024-04-15 01:05:05] INFO root fetch - processPackages [clickhouse-connect]: New version: [0.7.8] Old Version: [0.7.7]
+[2024-04-15 01:05:05] INFO root fetch - processPackages [oslili]: Downloading https://files.pythonhosted.org/packages/d6/16/83bff826f4da072f185d73330a5c376a0184abffaf881f9cd0fe3cf99c9d/oslili-0.8.tar.gz
+[2024-04-15 01:05:05] INFO root fetch - processPackages [clickhouse-connect]: Downloading https://files.pythonhosted.org/packages/08/95/06aa7028be4d34eeee4f5aae31c777540f2293183be4bd1e9e982fc7e724/clickhouse-connect-0.7.7.tar.gz
+[2024-04-15 01:05:05] INFO root fetch - processPackages [oslili]: executing diffoscope
+[2024-04-15 01:05:05] INFO root fetch - processPackages [oslili]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oslili-0.7.tar.gz tmp/oslili-0.8.tar.gz --markdown 20240415/o/oslili/0.7-0.8/README.md --exclude *.pyd
+[2024-04-15 01:05:06] INFO root fetch - processPackages [clickhouse-connect]: Downloading https://files.pythonhosted.org/packages/23/ec/37ffc811ae54ec65068567077809189cbfcfb4156c7d2d8861fc9fa2a8f8/clickhouse_connect-0.7.8-cp310-cp310-win32.whl
+[2024-04-15 01:05:07] INFO root fetch - processPackages [clickhouse-connect]: executing diffoscope
+[2024-04-15 01:05:07] INFO root fetch - processPackages [clickhouse-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickhouse-connect-0.7.7.tar.gz tmp/clickhouse_connect-0.7.8-cp310-cp310-win32.whl.zip --markdown 20240415/c/clickhouse-connect/0.7.7-0.7.8/README.md --exclude *.pyd
+[2024-04-15 01:05:07] INFO root fetch - processPackages [clickhouse-connect]: Remove: archive file [/home/abi/fetcher/tmp/clickhouse-connect-0.7.7.tar.gz]
+[2024-04-15 01:05:07] INFO root fetch - processPackages [clickhouse-connect]: Remove: archive file [/home/abi/fetcher/tmp/clickhouse_connect-0.7.8-cp310-cp310-win32.whl.zip]
+[2024-04-15 01:05:07] INFO root fetch - main [MainThread]: End processing [clickhouse-connect]: success
+[2024-04-15 01:05:09] INFO root fetch - processPackages [oslili]: Remove: archive file [/home/abi/fetcher/tmp/oslili-0.7.tar.gz]
+[2024-04-15 01:05:09] INFO root fetch - processPackages [oslili]: Remove: archive file [/home/abi/fetcher/tmp/oslili-0.8.tar.gz]
+[2024-04-15 01:05:09] INFO root fetch - main [MainThread]: End processing [oslili]: success
+[2024-04-15 01:05:09] INFO root fetch - main [MainThread]: Store serial: [22763213]
