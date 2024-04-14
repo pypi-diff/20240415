@@ -1382,3 +1382,24 @@
 [2024-04-15 01:53:07] WARNING root fetch - processPackages [jean-flores]: Skipping, unable to determine old version
 [2024-04-15 01:53:07] INFO root fetch - main [MainThread]: End processing [jean-flores] error
 [2024-04-15 01:53:07] INFO root fetch - main [MainThread]: Store serial: [22763730]
+[2024-04-15 01:55:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22763730]
+[2024-04-15 01:55:16] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-15 01:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: webscraperr
+[2024-04-15 01:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autopipeline
+[2024-04-15 01:55:16] INFO root fetch - processPackages [autopipeline]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-15 01:55:16] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/0f/9eaf209b6d540115afdc9ae31de828df0234756277bceae49a4d1a0ea8b3/autopipeline-0.1.98.tar.gz
+[2024-04-15 01:55:16] INFO root fetch - processPackages [webscraperr]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-15 01:55:16] INFO root fetch - processPackages [webscraperr]: Downloading https://files.pythonhosted.org/packages/1d/a6/495cf603b767d36ffc039be36384b0a30fd21f43866be23adb1e79e5a7d6/webscraperr-0.1.7.tar.gz
+[2024-04-15 01:55:16] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/4a/f3df97d414e0a5e9120459fd5c7ab663092d540df59f7deacc45810deb41/autopipeline-0.1.99.tar.gz
+[2024-04-15 01:55:16] INFO root fetch - processPackages [autopipeline]: executing diffoscope
+[2024-04-15 01:55:16] INFO root fetch - processPackages [autopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopipeline-0.1.98.tar.gz tmp/autopipeline-0.1.99.tar.gz --markdown 20240415/a/autopipeline/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-15 01:55:16] INFO root fetch - processPackages [webscraperr]: Downloading https://files.pythonhosted.org/packages/cc/cd/1d9a3f058f32a2eec977f87a64ae806c4563dc9483fb93cc61075451a8b1/webscraperr-0.1.8.tar.gz
+[2024-04-15 01:55:17] INFO root fetch - processPackages [webscraperr]: executing diffoscope
+[2024-04-15 01:55:17] INFO root fetch - processPackages [webscraperr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webscraperr-0.1.7.tar.gz tmp/webscraperr-0.1.8.tar.gz --markdown 20240415/w/webscraperr/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-15 01:55:17] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.98.tar.gz]
+[2024-04-15 01:55:17] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.99.tar.gz]
+[2024-04-15 01:55:17] INFO root fetch - main [MainThread]: End processing [autopipeline]: success
+[2024-04-15 01:55:17] INFO root fetch - processPackages [webscraperr]: Remove: archive file [/home/abi/fetcher/tmp/webscraperr-0.1.7.tar.gz]
+[2024-04-15 01:55:17] INFO root fetch - processPackages [webscraperr]: Remove: archive file [/home/abi/fetcher/tmp/webscraperr-0.1.8.tar.gz]
+[2024-04-15 01:55:17] INFO root fetch - main [MainThread]: End processing [webscraperr]: success
+[2024-04-15 01:55:17] INFO root fetch - main [MainThread]: Store serial: [22763736]
