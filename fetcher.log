@@ -189,3 +189,44 @@
 [2024-04-15 00:15:12] INFO root fetch - processPackages [hat-duktape]: Remove: archive file [/home/abi/fetcher/tmp/hat_duktape-0.5.8-cp310.cp311.cp312-cp310.cp311.cp312-win_amd64.whl.zip]
 [2024-04-15 00:15:12] INFO root fetch - main [MainThread]: End processing [hat-duktape]: success
 [2024-04-15 00:15:12] INFO root fetch - main [MainThread]: Store serial: [22762902]
+[2024-04-15 00:17:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22762902]
+[2024-04-15 00:17:23] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-15 00:17:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hat-controller
+[2024-04-15 00:17:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aim-ui
+[2024-04-15 00:17:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vrchatapi
+[2024-04-15 00:17:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: elapi
+[2024-04-15 00:17:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aim
+[2024-04-15 00:17:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pygeneconverter
+[2024-04-15 00:17:23] WARNING root fetch - processPackages [hat-controller]: Skipping, unable to determine old version
+[2024-04-15 00:17:23] INFO root fetch - main [MainThread]: End processing [hat-controller] error
+[2024-04-15 00:17:23] INFO root fetch - processPackages [aim]: New version: [4.0.3] Old Version: [4.0.2]
+[2024-04-15 00:17:23] INFO root fetch - processPackages [vrchatapi]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-15 00:17:23] WARNING root fetch - processPackages [pygeneconverter]: Skipping, unable to determine old version
+[2024-04-15 00:17:23] INFO root fetch - main [MainThread]: End processing [pygeneconverter] error
+[2024-04-15 00:17:23] INFO root fetch - processPackages [elapi]: New version: [1.0.7.dev2] Old Version: [1.0.7.dev1]
+[2024-04-15 00:17:23] INFO root fetch - processPackages [aim-ui]: New version: [4.1.0.dev20230930] Old Version: [4.1.0.dev20230929]
+[2024-04-15 00:17:23] INFO root fetch - processPackages [aim]: Downloading https://files.pythonhosted.org/packages/4a/00/f7e303a3bd0a6d75c08ccd60562a0c5f00fa9f4c16c945fbffa86d96ab7d/aim-4.0.2.tar.gz
+[2024-04-15 00:17:23] INFO root fetch - processPackages [vrchatapi]: Downloading https://files.pythonhosted.org/packages/ff/8b/88945a19e189b1baa0e126c157beab97590c6faf2c036b3fe1207854fd98/vrchatapi-1.9.0.tar.gz
+[2024-04-15 00:17:23] INFO root fetch - processPackages [aim-ui]: Downloading https://files.pythonhosted.org/packages/2a/05/f8c2e155a815903b692d80c9a1647ba25d4a1f119791eaeb671026bcfa33/aim-ui-4.1.0.dev20230929.tar.gz
+[2024-04-15 00:17:24] INFO root fetch - processPackages [elapi]: Downloading https://files.pythonhosted.org/packages/99/0b/a4624d3fba3b32a4b2bde04bfbaf51ab367feba3e1f6a5254c12e0a16e89/elapi-1.0.7.dev1.tar.gz
+[2024-04-15 00:17:24] WARNING root fetch - processPackages [aim-ui]: Skipping package: exceeds size limit 19246573>=10485760
+[2024-04-15 00:17:24] INFO root fetch - main [MainThread]: End processing [aim-ui] error
+[2024-04-15 00:17:24] INFO root fetch - processPackages [elapi]: Downloading https://files.pythonhosted.org/packages/b0/01/84a38b6d90be2d5925ad8c681f5a27d88271bf5930583d6f1935762cbdbc/elapi-1.0.7.dev2.tar.gz
+[2024-04-15 00:17:24] INFO root fetch - processPackages [vrchatapi]: Downloading https://files.pythonhosted.org/packages/4c/cc/4f4d3d2b865f5784be60e8ee4c993538bac9e5dde7647891cd68fee27fb3/vrchatapi-1.9.1.tar.gz
+[2024-04-15 00:17:24] INFO root fetch - processPackages [elapi]: executing diffoscope
+[2024-04-15 00:17:24] INFO root fetch - processPackages [elapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elapi-1.0.7.dev1.tar.gz tmp/elapi-1.0.7.dev2.tar.gz --markdown 20240415/e/elapi/1.0.7.dev1-1.0.7.dev2/README.md --exclude *.pyd
+[2024-04-15 00:17:24] INFO root fetch - processPackages [vrchatapi]: executing diffoscope
+[2024-04-15 00:17:24] INFO root fetch - processPackages [vrchatapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vrchatapi-1.9.0.tar.gz tmp/vrchatapi-1.9.1.tar.gz --markdown 20240415/v/vrchatapi/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-15 00:17:24] INFO root fetch - processPackages [aim]: Downloading https://files.pythonhosted.org/packages/50/12/a5a7bf25fd6105558d11afbd3f7500aa63283494e429296746c821354590/aim-4.0.3.tar.gz
+[2024-04-15 00:17:24] INFO root fetch - processPackages [aim]: executing diffoscope
+[2024-04-15 00:17:24] INFO root fetch - processPackages [aim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aim-4.0.2.tar.gz tmp/aim-4.0.3.tar.gz --markdown 20240415/a/aim/4.0.2-4.0.3/README.md --exclude *.pyd
+[2024-04-15 00:17:25] INFO root fetch - processPackages [elapi]: Remove: archive file [/home/abi/fetcher/tmp/elapi-1.0.7.dev1.tar.gz]
+[2024-04-15 00:17:25] INFO root fetch - processPackages [elapi]: Remove: archive file [/home/abi/fetcher/tmp/elapi-1.0.7.dev2.tar.gz]
+[2024-04-15 00:17:25] INFO root fetch - main [MainThread]: End processing [elapi]: success
+[2024-04-15 00:17:26] INFO root fetch - processPackages [vrchatapi]: Remove: archive file [/home/abi/fetcher/tmp/vrchatapi-1.9.0.tar.gz]
+[2024-04-15 00:17:26] INFO root fetch - processPackages [vrchatapi]: Remove: archive file [/home/abi/fetcher/tmp/vrchatapi-1.9.1.tar.gz]
+[2024-04-15 00:17:26] INFO root fetch - main [MainThread]: End processing [vrchatapi]: success
+[2024-04-15 00:17:29] INFO root fetch - processPackages [aim]: Remove: archive file [/home/abi/fetcher/tmp/aim-4.0.2.tar.gz]
+[2024-04-15 00:17:29] INFO root fetch - processPackages [aim]: Remove: archive file [/home/abi/fetcher/tmp/aim-4.0.3.tar.gz]
+[2024-04-15 00:17:29] INFO root fetch - main [MainThread]: End processing [aim]: success
+[2024-04-15 00:17:29] INFO root fetch - main [MainThread]: Store serial: [22762920]
