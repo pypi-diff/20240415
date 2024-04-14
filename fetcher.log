@@ -1146,3 +1146,15 @@
 [2024-04-15 01:31:11] INFO root fetch - processPackages [llm-structured-output]: Remove: archive file [/home/abi/fetcher/tmp/llm_structured_output-0.0.6.tar.gz]
 [2024-04-15 01:31:11] INFO root fetch - main [MainThread]: End processing [llm-structured-output]: success
 [2024-04-15 01:31:11] INFO root fetch - main [MainThread]: Store serial: [22763609]
+[2024-04-15 01:33:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22763609]
+[2024-04-15 01:33:19] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-15 01:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dsp-ifsc
+[2024-04-15 01:33:19] INFO root fetch - processPackages [dsp-ifsc]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-15 01:33:19] INFO root fetch - processPackages [dsp-ifsc]: Downloading https://files.pythonhosted.org/packages/80/0a/26986a2f5770f87506bd20a5e2151af3851c907041b873e8673fefee04be/dsp_ifsc-0.0.6.tar.gz
+[2024-04-15 01:33:20] INFO root fetch - processPackages [dsp-ifsc]: Downloading https://files.pythonhosted.org/packages/99/d1/920415318fdb82a0e36ceb10335bb78c647bc28a81a86501ed998adbaa29/dsp_ifsc-0.0.7.tar.gz
+[2024-04-15 01:33:20] INFO root fetch - processPackages [dsp-ifsc]: executing diffoscope
+[2024-04-15 01:33:20] INFO root fetch - processPackages [dsp-ifsc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsp_ifsc-0.0.6.tar.gz tmp/dsp_ifsc-0.0.7.tar.gz --markdown 20240415/d/dsp-ifsc/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-15 01:33:20] INFO root fetch - processPackages [dsp-ifsc]: Remove: archive file [/home/abi/fetcher/tmp/dsp_ifsc-0.0.6.tar.gz]
+[2024-04-15 01:33:20] INFO root fetch - processPackages [dsp-ifsc]: Remove: archive file [/home/abi/fetcher/tmp/dsp_ifsc-0.0.7.tar.gz]
+[2024-04-15 01:33:20] INFO root fetch - main [MainThread]: End processing [dsp-ifsc]: success
+[2024-04-15 01:33:20] INFO root fetch - main [MainThread]: Store serial: [22763612]
