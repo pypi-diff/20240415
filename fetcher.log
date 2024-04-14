@@ -952,3 +952,48 @@
 [2024-04-15 01:13:52] INFO root fetch - processPackages [pystaleds]: Remove: archive file [/home/abi/fetcher/tmp/pystaleds-0.1.4.tar.gz]
 [2024-04-15 01:13:52] INFO root fetch - main [MainThread]: End processing [pystaleds]: success
 [2024-04-15 01:13:52] INFO root fetch - main [MainThread]: Store serial: [22763429]
+[2024-04-15 01:15:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22763429]
+[2024-04-15 01:16:01] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-15 01:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: transformer-heads
+[2024-04-15 01:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datalab-api
+[2024-04-15 01:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fudstop
+[2024-04-15 01:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: termpandas
+[2024-04-15 01:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: archyve
+[2024-04-15 01:16:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pastream
+[2024-04-15 01:16:01] INFO root fetch - processPackages [transformer-heads]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-15 01:16:01] INFO root fetch - processPackages [pastream]: New version: [0.2.0.post1] Old Version: [0.2.0.post0]
+[2024-04-15 01:16:01] WARNING root fetch - processPackages [termpandas]: Skipping, unable to determine old version
+[2024-04-15 01:16:01] INFO root fetch - main [MainThread]: End processing [termpandas] error
+[2024-04-15 01:16:01] INFO root fetch - processPackages [archyve]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-04-15 01:16:01] INFO root fetch - processPackages [fudstop]: New version: [2.5.1] Old Version: [2.5.0]
+[2024-04-15 01:16:01] INFO root fetch - processPackages [pastream]: Downloading https://files.pythonhosted.org/packages/2b/78/cc698779a12d058d5bd3ff04dc21ff32c46a386fde7f052110145cc072c8/pastream-0.2.0.post0.tar.gz
+[2024-04-15 01:16:01] WARNING root fetch - processPackages [datalab-api]: Skipping, unable to determine old version
+[2024-04-15 01:16:01] INFO root fetch - main [MainThread]: End processing [datalab-api] error
+[2024-04-15 01:16:01] INFO root fetch - processPackages [transformer-heads]: Downloading https://files.pythonhosted.org/packages/c1/98/3eb2cf8b9e227fb23f445b79c46da2c3254dc70c0abd7f605353e484935c/transformer_heads-0.0.8.tar.gz
+[2024-04-15 01:16:01] INFO root fetch - processPackages [archyve]: Downloading https://files.pythonhosted.org/packages/97/5d/bb05563ea68ce8fd4f69100099c130b1f570eeff4af7dbd5322f300f6a89/archyve-0.2.6.tar.gz
+[2024-04-15 01:16:01] INFO root fetch - processPackages [fudstop]: Downloading https://files.pythonhosted.org/packages/83/24/c1a1421b2fe5e8c15f3f0e56e82df13938e8a0f8957ddbd5513fb6f97bac/fudstop-2.5.0.tar.gz
+[2024-04-15 01:16:01] INFO root fetch - processPackages [pastream]: Downloading https://files.pythonhosted.org/packages/d3/0e/8077845f80ed0c488609398e1ad5087e2d7a6f9708f5cb6a36b65756cd03/pastream-0.2.0.post1.tar.gz
+[2024-04-15 01:16:01] INFO root fetch - processPackages [transformer-heads]: Downloading https://files.pythonhosted.org/packages/d5/a8/2b2535a372521239690cc07d4307cf48e43e6e6655f100344f709660611e/transformer_heads-0.0.9.tar.gz
+[2024-04-15 01:16:01] INFO root fetch - processPackages [pastream]: executing diffoscope
+[2024-04-15 01:16:01] INFO root fetch - processPackages [pastream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pastream-0.2.0.post0.tar.gz tmp/pastream-0.2.0.post1.tar.gz --markdown 20240415/p/pastream/0.2.0.post0-0.2.0.post1/README.md --exclude *.pyd
+[2024-04-15 01:16:01] INFO root fetch - processPackages [transformer-heads]: executing diffoscope
+[2024-04-15 01:16:01] INFO root fetch - processPackages [transformer-heads]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transformer_heads-0.0.8.tar.gz tmp/transformer_heads-0.0.9.tar.gz --markdown 20240415/t/transformer-heads/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-15 01:16:01] INFO root fetch - processPackages [fudstop]: Downloading https://files.pythonhosted.org/packages/fe/66/d300f05d1d5b7221198a1e473a425eb9d2e251e45ec1f11477c8f07eedce/fudstop-2.5.1.tar.gz
+[2024-04-15 01:16:01] INFO root fetch - processPackages [archyve]: Downloading https://files.pythonhosted.org/packages/c5/5c/4f9cd04712ba98f3d4b13eb9041620189f0f0423d03e8d7871d033721abe/archyve-0.2.7.tar.gz
+[2024-04-15 01:16:02] INFO root fetch - processPackages [fudstop]: executing diffoscope
+[2024-04-15 01:16:02] INFO root fetch - processPackages [fudstop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fudstop-2.5.0.tar.gz tmp/fudstop-2.5.1.tar.gz --markdown 20240415/f/fudstop/2.5.0-2.5.1/README.md --exclude *.pyd
+[2024-04-15 01:16:02] INFO root fetch - processPackages [archyve]: executing diffoscope
+[2024-04-15 01:16:02] INFO root fetch - processPackages [archyve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archyve-0.2.6.tar.gz tmp/archyve-0.2.7.tar.gz --markdown 20240415/a/archyve/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-04-15 01:16:02] INFO root fetch - processPackages [pastream]: Remove: archive file [/home/abi/fetcher/tmp/pastream-0.2.0.post0.tar.gz]
+[2024-04-15 01:16:02] INFO root fetch - processPackages [pastream]: Remove: archive file [/home/abi/fetcher/tmp/pastream-0.2.0.post1.tar.gz]
+[2024-04-15 01:16:02] INFO root fetch - main [MainThread]: End processing [pastream]: success
+[2024-04-15 01:16:02] INFO root fetch - processPackages [transformer-heads]: Remove: archive file [/home/abi/fetcher/tmp/transformer_heads-0.0.8.tar.gz]
+[2024-04-15 01:16:02] INFO root fetch - processPackages [transformer-heads]: Remove: archive file [/home/abi/fetcher/tmp/transformer_heads-0.0.9.tar.gz]
+[2024-04-15 01:16:02] INFO root fetch - main [MainThread]: End processing [transformer-heads]: success
+[2024-04-15 01:16:02] INFO root fetch - processPackages [archyve]: Remove: archive file [/home/abi/fetcher/tmp/archyve-0.2.6.tar.gz]
+[2024-04-15 01:16:02] INFO root fetch - processPackages [archyve]: Remove: archive file [/home/abi/fetcher/tmp/archyve-0.2.7.tar.gz]
+[2024-04-15 01:16:02] INFO root fetch - main [MainThread]: End processing [archyve]: success
+[2024-04-15 01:16:03] INFO root fetch - processPackages [fudstop]: Remove: archive file [/home/abi/fetcher/tmp/fudstop-2.5.0.tar.gz]
+[2024-04-15 01:16:03] INFO root fetch - processPackages [fudstop]: Remove: archive file [/home/abi/fetcher/tmp/fudstop-2.5.1.tar.gz]
+[2024-04-15 01:16:03] INFO root fetch - main [MainThread]: End processing [fudstop]: success
+[2024-04-15 01:16:03] INFO root fetch - main [MainThread]: Store serial: [22763473]
