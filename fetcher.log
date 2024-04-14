@@ -514,3 +514,15 @@
 [2024-04-15 00:45:36] INFO root fetch - processPackages [Red-Web-Dashboard]: Remove: archive file [/home/abi/fetcher/tmp/red_web_dashboard-1.2.0.tar.gz]
 [2024-04-15 00:45:36] INFO root fetch - main [MainThread]: End processing [Red-Web-Dashboard]: success
 [2024-04-15 00:45:36] INFO root fetch - main [MainThread]: Store serial: [22763098]
+[2024-04-15 00:47:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22763098]
+[2024-04-15 00:47:45] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-15 00:47:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: surquest-split-balancer
+[2024-04-15 00:47:45] INFO root fetch - processPackages [surquest-split-balancer]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-15 00:47:45] INFO root fetch - processPackages [surquest-split-balancer]: Downloading https://files.pythonhosted.org/packages/eb/52/baa88d25a5aa43ae21c00ce8014ed99d3e6871fef8bac86cbdabfaa7f2ee/surquest_split_balancer-0.0.1.tar.gz
+[2024-04-15 00:47:45] INFO root fetch - processPackages [surquest-split-balancer]: Downloading https://files.pythonhosted.org/packages/eb/d0/92ec5c5c20c7bc3cb8010a435ea7c16805a743b3cee8469a958c07ae961e/surquest_split_balancer-0.0.2.tar.gz
+[2024-04-15 00:47:45] INFO root fetch - processPackages [surquest-split-balancer]: executing diffoscope
+[2024-04-15 00:47:45] INFO root fetch - processPackages [surquest-split-balancer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surquest_split_balancer-0.0.1.tar.gz tmp/surquest_split_balancer-0.0.2.tar.gz --markdown 20240415/s/surquest-split-balancer/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-15 00:47:46] INFO root fetch - processPackages [surquest-split-balancer]: Remove: archive file [/home/abi/fetcher/tmp/surquest_split_balancer-0.0.1.tar.gz]
+[2024-04-15 00:47:46] INFO root fetch - processPackages [surquest-split-balancer]: Remove: archive file [/home/abi/fetcher/tmp/surquest_split_balancer-0.0.2.tar.gz]
+[2024-04-15 00:47:46] INFO root fetch - main [MainThread]: End processing [surquest-split-balancer]: success
+[2024-04-15 00:47:46] INFO root fetch - main [MainThread]: Store serial: [22763102]
