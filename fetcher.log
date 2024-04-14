@@ -458,3 +458,15 @@
 [2024-04-15 00:41:15] WARNING root fetch - processPackages [RandomPokemonLibrary]: Skipping, unable to determine old version
 [2024-04-15 00:41:15] INFO root fetch - main [MainThread]: End processing [RandomPokemonLibrary] error
 [2024-04-15 00:41:15] INFO root fetch - main [MainThread]: Store serial: [22763063]
+[2024-04-15 00:43:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22763063]
+[2024-04-15 00:43:23] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-15 00:43:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: archyve
+[2024-04-15 00:43:23] INFO root fetch - processPackages [archyve]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-15 00:43:24] INFO root fetch - processPackages [archyve]: Downloading https://files.pythonhosted.org/packages/c5/bd/20b01e4472a4b4e8acd92b3d46663b167aa1867d6347c8305262993ce7b5/archyve-0.2.1.tar.gz
+[2024-04-15 00:43:24] INFO root fetch - processPackages [archyve]: Downloading https://files.pythonhosted.org/packages/5a/7f/e13db59814c31a096ce65725a8f006b6c59755a1491806144addbb4eb2dc/archyve-0.2.2.tar.gz
+[2024-04-15 00:43:24] INFO root fetch - processPackages [archyve]: executing diffoscope
+[2024-04-15 00:43:24] INFO root fetch - processPackages [archyve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archyve-0.2.1.tar.gz tmp/archyve-0.2.2.tar.gz --markdown 20240415/a/archyve/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-15 00:43:24] INFO root fetch - processPackages [archyve]: Remove: archive file [/home/abi/fetcher/tmp/archyve-0.2.1.tar.gz]
+[2024-04-15 00:43:24] INFO root fetch - processPackages [archyve]: Remove: archive file [/home/abi/fetcher/tmp/archyve-0.2.2.tar.gz]
+[2024-04-15 00:43:24] INFO root fetch - main [MainThread]: End processing [archyve]: success
+[2024-04-15 00:43:24] INFO root fetch - main [MainThread]: Store serial: [22763068]
