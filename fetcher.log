@@ -288,3 +288,9 @@
 [2024-04-15 00:24:01] INFO root fetch - processPackages [pyontoenv]: Remove: archive file [/home/abi/fetcher/tmp/pyontoenv-0.1.4a3.tar.gz]
 [2024-04-15 00:24:01] INFO root fetch - main [MainThread]: End processing [pyontoenv]: success
 [2024-04-15 00:24:01] INFO root fetch - main [MainThread]: Store serial: [22762987]
+[2024-04-15 00:26:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22762987]
+[2024-04-15 00:26:09] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-15 00:26:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: archyve
+[2024-04-15 00:26:10] WARNING root fetch - processPackages [archyve]: Skipping, unable to determine old version
+[2024-04-15 00:26:10] INFO root fetch - main [MainThread]: End processing [archyve] error
+[2024-04-15 00:26:10] INFO root fetch - main [MainThread]: Store serial: [22762993]
