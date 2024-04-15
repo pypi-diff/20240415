@@ -11479,3 +11479,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 10:26:33] INFO root fetch - processPackages [odoo14-addon-cooperator]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_cooperator-14.0.3.0.1.dev5-py3-none-any.whl.zip]
 [2024-04-15 10:26:33] INFO root fetch - main [MainThread]: End processing [odoo14-addon-cooperator]: success
 [2024-04-15 10:26:33] INFO root fetch - main [MainThread]: Store serial: [22767875]
+[2024-04-15 10:28:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22767875]
+[2024-04-15 10:28:42] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-15 10:28:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumiverse-grafana
+[2024-04-15 10:28:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tsk-monster
+[2024-04-15 10:28:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pycloudevents
+[2024-04-15 10:28:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: caroa04
+[2024-04-15 10:28:42] INFO root fetch - processPackages [pulumiverse-grafana]: New version: [0.4.2a1713167349] Old Version: [0.4.2a1713165727]
+[2024-04-15 10:28:42] INFO root fetch - processPackages [tsk-monster]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-15 10:28:42] INFO root fetch - processPackages [caroa04]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-15 10:28:42] INFO root fetch - processPackages [tsk-monster]: Downloading https://files.pythonhosted.org/packages/37/1d/909d8d90bce691193ba9c7cbab6edfe8ef434db7e5b38dd2520121d4e483/tsk_monster-0.0.8.tar.gz
+[2024-04-15 10:28:42] INFO root fetch - processPackages [pulumiverse-grafana]: Downloading https://files.pythonhosted.org/packages/da/f1/4c682df16f31ed0b47cda43f063cfca3e9312220644fe19cbd66618a7e59/pulumiverse_grafana-0.4.2a1713165727.tar.gz
+[2024-04-15 10:28:42] WARNING root fetch - processPackages [pycloudevents]: Skipping, unable to determine old version
+[2024-04-15 10:28:42] INFO root fetch - main [MainThread]: End processing [pycloudevents] error
+[2024-04-15 10:28:42] INFO root fetch - processPackages [caroa04]: Downloading https://files.pythonhosted.org/packages/17/2f/816a8924fc4418eaadb5af7eff80ed7e1cbcb0b79eab11cb10905f5f89cf/caroa04-0.1.0.tar.gz
+[2024-04-15 10:28:42] INFO root fetch - processPackages [tsk-monster]: Downloading https://files.pythonhosted.org/packages/bd/0d/76bc9f0c428722f67988b8db745d256aefb82e1f9e36269eee144c2705f1/tsk_monster-0.0.9.tar.gz
+[2024-04-15 10:28:42] INFO root fetch - processPackages [tsk-monster]: executing diffoscope
+[2024-04-15 10:28:42] INFO root fetch - processPackages [tsk-monster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsk_monster-0.0.8.tar.gz tmp/tsk_monster-0.0.9.tar.gz --markdown 20240415/t/tsk-monster/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-15 10:28:43] INFO root fetch - processPackages [pulumiverse-grafana]: Downloading https://files.pythonhosted.org/packages/c7/4f/b40630346b77e7fb52d366b18a5cb271025181d27d0eb7bd0f8318753fe9/pulumiverse_grafana-0.4.2a1713167349.tar.gz
+[2024-04-15 10:28:43] INFO root fetch - processPackages [caroa04]: Downloading https://files.pythonhosted.org/packages/ba/6b/d790b9aa83ed8b1df590d670d2aca30a5525573feffc5c10250105e9fd83/caroa04-0.1.1.tar.gz
+[2024-04-15 10:28:43] INFO root fetch - processPackages [pulumiverse-grafana]: executing diffoscope
+[2024-04-15 10:28:43] INFO root fetch - processPackages [pulumiverse-grafana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumiverse_grafana-0.4.2a1713165727.tar.gz tmp/pulumiverse_grafana-0.4.2a1713167349.tar.gz --markdown 20240415/p/pulumiverse-grafana/0.4.2a1713165727-0.4.2a1713167349/README.md --exclude *.pyd
+[2024-04-15 10:28:43] INFO root fetch - processPackages [caroa04]: executing diffoscope
+[2024-04-15 10:28:43] INFO root fetch - processPackages [caroa04]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caroa04-0.1.0.tar.gz tmp/caroa04-0.1.1.tar.gz --markdown 20240415/c/caroa04/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-15 10:28:43] INFO root fetch - processPackages [tsk-monster]: Remove: archive file [/home/abi/fetcher/tmp/tsk_monster-0.0.8.tar.gz]
+[2024-04-15 10:28:43] INFO root fetch - processPackages [tsk-monster]: Remove: archive file [/home/abi/fetcher/tmp/tsk_monster-0.0.9.tar.gz]
+[2024-04-15 10:28:43] INFO root fetch - main [MainThread]: End processing [tsk-monster]: success
+[2024-04-15 10:28:43] INFO root fetch - processPackages [caroa04]: Remove: archive file [/home/abi/fetcher/tmp/caroa04-0.1.0.tar.gz]
+[2024-04-15 10:28:43] INFO root fetch - processPackages [caroa04]: Remove: archive file [/home/abi/fetcher/tmp/caroa04-0.1.1.tar.gz]
+[2024-04-15 10:28:43] INFO root fetch - main [MainThread]: End processing [caroa04]: success
+[2024-04-15 10:28:45] INFO root fetch - processPackages [pulumiverse-grafana]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_grafana-0.4.2a1713165727.tar.gz]
+[2024-04-15 10:28:45] INFO root fetch - processPackages [pulumiverse-grafana]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_grafana-0.4.2a1713167349.tar.gz]
+[2024-04-15 10:28:45] INFO root fetch - main [MainThread]: End processing [pulumiverse-grafana]: success
+[2024-04-15 10:28:45] INFO root fetch - main [MainThread]: Store serial: [22767888]
