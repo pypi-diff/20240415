@@ -9578,3 +9578,52 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 09:06:14] INFO root fetch - processPackages [daliuge-translator]: Remove: archive file [/home/abi/fetcher/tmp/daliuge-translator-4.0.1.tar.gz]
 [2024-04-15 09:06:14] INFO root fetch - main [MainThread]: End processing [daliuge-translator]: success
 [2024-04-15 09:06:14] INFO root fetch - main [MainThread]: Store serial: [22767087]
+[2024-04-15 09:08:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22767087]
+[2024-04-15 09:08:24] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-15 09:08:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: easy-utils-dev
+[2024-04-15 09:08:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shadow-writer
+[2024-04-15 09:08:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fractal-tasks-core
+[2024-04-15 09:08:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-hub-nightly
+[2024-04-15 09:08:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: geney
+[2024-04-15 09:08:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: geney
+[2024-04-15 09:08:24] WARNING root fetch - processPackages [shadow-writer]: Skipping, unable to determine old version
+[2024-04-15 09:08:24] INFO root fetch - main [MainThread]: End processing [shadow-writer] error
+[2024-04-15 09:08:24] INFO root fetch - processPackages [easy-utils-dev]: New version: [2.9.1] Old Version: [2.9]
+[2024-04-15 09:08:24] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2024-04-15 09:08:24] INFO root fetch - processPackages [geney]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-15 09:08:24] INFO root fetch - processPackages [geney]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-15 09:08:24] INFO root fetch - processPackages [fractal-tasks-core]: New version: [1.0.0a1] Old Version: [1.0.0a0]
+[2024-04-15 09:08:24] INFO root fetch - processPackages [easy-utils-dev]: Downloading https://files.pythonhosted.org/packages/b1/41/949c545adcca86889ccc3d216767da8bc2fa4706f94522b0163f517f1626/easy_utils_dev-2.9.tar.gz
+[2024-04-15 09:08:24] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2024-04-15 09:08:24] INFO root fetch - processPackages [geney]: Downloading https://files.pythonhosted.org/packages/86/69/f454f5ac5f613df1df91f7d3810b657a32c755e5ebd5101a039113e99531/geney-1.0.8-py2.py3-none-any.whl
+[2024-04-15 09:08:24] INFO root fetch - processPackages [geney]: Downloading https://files.pythonhosted.org/packages/86/69/f454f5ac5f613df1df91f7d3810b657a32c755e5ebd5101a039113e99531/geney-1.0.8-py2.py3-none-any.whl
+[2024-04-15 09:08:24] INFO root fetch - processPackages [fractal-tasks-core]: Downloading https://files.pythonhosted.org/packages/1d/f7/4f8b1bf4a420301dd74f29d24d1b654c023224cd174cfcda9f50b722d5b3/fractal_tasks_core-1.0.0a0.tar.gz
+[2024-04-15 09:08:24] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2024-04-15 09:08:25] INFO root fetch - processPackages [easy-utils-dev]: Downloading https://files.pythonhosted.org/packages/47/70/aae6bb3dc89ebead7cdb35f19a03ab63eff82e4ad4f49824b0d20fadc6b1/easy_utils_dev-2.9.1.tar.gz
+[2024-04-15 09:08:25] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2024-04-15 09:08:25] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20240415/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/README.md --exclude *.pyd
+[2024-04-15 09:08:25] INFO root fetch - processPackages [easy-utils-dev]: executing diffoscope
+[2024-04-15 09:08:25] INFO root fetch - processPackages [easy-utils-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_utils_dev-2.9.tar.gz tmp/easy_utils_dev-2.9.1.tar.gz --markdown 20240415/e/easy-utils-dev/2.9-2.9.1/README.md --exclude *.pyd
+[2024-04-15 09:08:25] INFO root fetch - processPackages [fractal-tasks-core]: Downloading https://files.pythonhosted.org/packages/ff/1f/7a44bad1830aeb5c12f2deb071f7e81f8befc7283589899e1e44ad0099e7/fractal_tasks_core-1.0.0a1.tar.gz
+[2024-04-15 09:08:25] INFO root fetch - processPackages [fractal-tasks-core]: executing diffoscope
+[2024-04-15 09:08:25] INFO root fetch - processPackages [fractal-tasks-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractal_tasks_core-1.0.0a0.tar.gz tmp/fractal_tasks_core-1.0.0a1.tar.gz --markdown 20240415/f/fractal-tasks-core/1.0.0a0-1.0.0a1/README.md --exclude *.pyd
+[2024-04-15 09:08:25] INFO root fetch - processPackages [geney]: Downloading https://files.pythonhosted.org/packages/34/86/60fc17a2b2955b83e373a1f8ca2da5d0597a952d8898650ffcf62c408742/geney-1.0.9-py2.py3-none-any.whl
+[2024-04-15 09:08:25] INFO root fetch - processPackages [geney]: Downloading https://files.pythonhosted.org/packages/34/86/60fc17a2b2955b83e373a1f8ca2da5d0597a952d8898650ffcf62c408742/geney-1.0.9-py2.py3-none-any.whl
+[2024-04-15 09:08:25] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2024-04-15 09:08:25] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2024-04-15 09:08:25] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2024-04-15 09:08:25] INFO root fetch - processPackages [easy-utils-dev]: Remove: archive file [/home/abi/fetcher/tmp/easy_utils_dev-2.9.tar.gz]
+[2024-04-15 09:08:25] INFO root fetch - processPackages [easy-utils-dev]: Remove: archive file [/home/abi/fetcher/tmp/easy_utils_dev-2.9.1.tar.gz]
+[2024-04-15 09:08:25] INFO root fetch - main [MainThread]: End processing [easy-utils-dev]: success
+[2024-04-15 09:08:26] INFO root fetch - processPackages [geney]: executing diffoscope
+[2024-04-15 09:08:26] INFO root fetch - processPackages [geney]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geney-1.0.8-py2.py3-none-any.whl.zip tmp/geney-1.0.9-py2.py3-none-any.whl.zip --markdown 20240415/g/geney/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-15 09:08:26] INFO root fetch - processPackages [geney]: executing diffoscope
+[2024-04-15 09:08:26] INFO root fetch - processPackages [geney]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geney-1.0.8-py2.py3-none-any.whl.zip tmp/geney-1.0.9-py2.py3-none-any.whl.zip --markdown 20240415/g/geney/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-15 09:08:26] INFO root fetch - processPackages [fractal-tasks-core]: Remove: archive file [/home/abi/fetcher/tmp/fractal_tasks_core-1.0.0a0.tar.gz]
+[2024-04-15 09:08:26] INFO root fetch - processPackages [fractal-tasks-core]: Remove: archive file [/home/abi/fetcher/tmp/fractal_tasks_core-1.0.0a1.tar.gz]
+[2024-04-15 09:08:26] INFO root fetch - main [MainThread]: End processing [fractal-tasks-core]: success
+[2024-04-15 09:08:26] INFO root fetch - processPackages [geney]: Remove: archive file [/home/abi/fetcher/tmp/geney-1.0.8-py2.py3-none-any.whl.zip]
+[2024-04-15 09:08:26] INFO root fetch - processPackages [geney]: Remove: archive file [/home/abi/fetcher/tmp/geney-1.0.9-py2.py3-none-any.whl.zip]
+[2024-04-15 09:08:26] INFO root fetch - main [MainThread]: End processing [geney]: success
+[2024-04-15 09:08:26] INFO root fetch - main [MainThread]: End processing [geney]: success
+[2024-04-15 09:08:26] INFO root fetch - main [MainThread]: Store serial: [22767103]
