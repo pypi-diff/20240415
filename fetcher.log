@@ -7603,3 +7603,15 @@
 [2024-04-15 07:17:10] INFO root fetch - processPackages [zengin-code]: Remove: archive file [/home/abi/fetcher/tmp/zengin_code-1.1.0.20240415.tar.gz]
 [2024-04-15 07:17:10] INFO root fetch - main [MainThread]: End processing [zengin-code]: success
 [2024-04-15 07:17:10] INFO root fetch - main [MainThread]: Store serial: [22766245]
+[2024-04-15 07:19:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22766245]
+[2024-04-15 07:19:18] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-15 07:19:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yamlloader
+[2024-04-15 07:19:18] INFO root fetch - processPackages [yamlloader]: New version: [1.4.1] Old Version: [1.3.2]
+[2024-04-15 07:19:18] INFO root fetch - processPackages [yamlloader]: Downloading https://files.pythonhosted.org/packages/21/f1/1caf7b7d524aa7021f063509faf987e569f79394f343abadbdf79234667d/yamlloader-1.3.2.tar.gz
+[2024-04-15 07:19:19] INFO root fetch - processPackages [yamlloader]: Downloading https://files.pythonhosted.org/packages/ae/87/a689fcd4f9b0fa98d7def23099d68428ef19e427982d16e83dd788a69bd8/yamlloader-1.4.1.tar.gz
+[2024-04-15 07:19:19] INFO root fetch - processPackages [yamlloader]: executing diffoscope
+[2024-04-15 07:19:19] INFO root fetch - processPackages [yamlloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yamlloader-1.3.2.tar.gz tmp/yamlloader-1.4.1.tar.gz --markdown 20240415/y/yamlloader/1.3.2-1.4.1/README.md --exclude *.pyd
+[2024-04-15 07:19:19] INFO root fetch - processPackages [yamlloader]: Remove: archive file [/home/abi/fetcher/tmp/yamlloader-1.3.2.tar.gz]
+[2024-04-15 07:19:19] INFO root fetch - processPackages [yamlloader]: Remove: archive file [/home/abi/fetcher/tmp/yamlloader-1.4.1.tar.gz]
+[2024-04-15 07:19:19] INFO root fetch - main [MainThread]: End processing [yamlloader]: success
+[2024-04-15 07:19:19] INFO root fetch - main [MainThread]: Store serial: [22766248]
