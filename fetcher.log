@@ -12671,3 +12671,59 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 11:09:12] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.3.1.dev20240415090818.tar.gz]
 [2024-04-15 11:09:12] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-04-15 11:09:12] INFO root fetch - main [MainThread]: Store serial: [22768399]
+[2024-04-15 11:11:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22768399]
+[2024-04-15 11:11:23] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-15 11:11:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: codeframe
+[2024-04-15 11:11:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torch-featurelayer
+[2024-04-15 11:11:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pylogram
+[2024-04-15 11:11:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-genesiscloud
+[2024-04-15 11:11:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: c2cciutils
+[2024-04-15 11:11:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: diffCheck
+[2024-04-15 11:11:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mriqc
+[2024-04-15 11:11:23] INFO root fetch - processPackages [c2cciutils]: New version: [1.7.0.dev99] Old Version: [1.7.0.dev98]
+[2024-04-15 11:11:23] INFO root fetch - processPackages [codeframe]: New version: [0.5.4] Old Version: [0.5.3]
+[2024-04-15 11:11:23] WARNING root fetch - processPackages [torch-featurelayer]: Skipping, unable to determine old version
+[2024-04-15 11:11:23] INFO root fetch - main [MainThread]: End processing [torch-featurelayer] error
+[2024-04-15 11:11:23] INFO root fetch - processPackages [pylogram]: New version: [0.5.0] Old Version: [0.4.4]
+[2024-04-15 11:11:23] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/62/aa/080c37692bc6af730809e32f5cb82932c00c5513d164349ff96537069e82/c2cciutils-1.7.0.dev98.tar.gz
+[2024-04-15 11:11:23] INFO root fetch - processPackages [codeframe]: Downloading https://files.pythonhosted.org/packages/ee/32/05937f18280f3715584ba64cba1e9cc7e373b4a549ed9e6efaffeb20a92f/codeframe-0.5.3.tar.gz
+[2024-04-15 11:11:23] INFO root fetch - processPackages [diffCheck]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-15 11:11:23] INFO root fetch - processPackages [pulumi-genesiscloud]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-15 11:11:23] INFO root fetch - processPackages [mriqc]: New version: [24.0.0rc7] Old Version: [24.0.0rc6]
+[2024-04-15 11:11:23] INFO root fetch - processPackages [pylogram]: Downloading https://files.pythonhosted.org/packages/ff/8d/dff60368cd4c4c548ea1e6f076414c155839c27595dda1eb43495ae853de/pylogram-0.4.4.tar.gz
+[2024-04-15 11:11:23] INFO root fetch - processPackages [codeframe]: Downloading https://files.pythonhosted.org/packages/47/ce/631382e87391c2f20e104e143a96a1ef372f664b22cfe03993860beea314/codeframe-0.5.4.tar.gz
+[2024-04-15 11:11:23] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/0b/33/b4f2b2d1c9a7ae924ddcc8b7cbf69f1ed37a1a5f0faa155ac94becd05a90/c2cciutils-1.7.0.dev99.tar.gz
+[2024-04-15 11:11:23] INFO root fetch - processPackages [pulumi-genesiscloud]: Downloading https://files.pythonhosted.org/packages/7b/eb/c1987063b7330a56617c62d967ff70d44c2fde9e6c027effd7bd05f44cfc/pulumi_genesiscloud-0.0.8.tar.gz
+[2024-04-15 11:11:23] INFO root fetch - processPackages [diffCheck]: Downloading https://files.pythonhosted.org/packages/16/95/bc53d175860f7f641ddea4302594540405247d85f4ba41625bab5e63252f/diffCheck-0.0.7.tar.gz
+[2024-04-15 11:11:23] INFO root fetch - processPackages [mriqc]: Downloading https://files.pythonhosted.org/packages/47/bf/711bd7619671a5836a1b2497fb9a99747a80df0ea533154725b49a209883/mriqc-24.0.0rc6.tar.gz
+[2024-04-15 11:11:23] INFO root fetch - processPackages [pylogram]: Downloading https://files.pythonhosted.org/packages/e3/a5/667ae8dd28a53dcb2ede560d9c844fe79ea6d5ab9e4d9eb1f2e9cab1fc1f/pylogram-0.5.0.tar.gz
+[2024-04-15 11:11:23] WARNING root fetch - processPackages [mriqc]: Skipping package: exceeds size limit 45827774>=10485760
+[2024-04-15 11:11:23] INFO root fetch - main [MainThread]: End processing [mriqc] error
+[2024-04-15 11:11:23] INFO root fetch - processPackages [codeframe]: executing diffoscope
+[2024-04-15 11:11:23] INFO root fetch - processPackages [codeframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codeframe-0.5.3.tar.gz tmp/codeframe-0.5.4.tar.gz --markdown 20240415/c/codeframe/0.5.3-0.5.4/README.md --exclude *.pyd
+[2024-04-15 11:11:23] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2024-04-15 11:11:23] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.7.0.dev98.tar.gz tmp/c2cciutils-1.7.0.dev99.tar.gz --markdown 20240415/c/c2cciutils/1.7.0.dev98-1.7.0.dev99/README.md --exclude *.pyd
+[2024-04-15 11:11:23] INFO root fetch - processPackages [pylogram]: executing diffoscope
+[2024-04-15 11:11:23] INFO root fetch - processPackages [pylogram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylogram-0.4.4.tar.gz tmp/pylogram-0.5.0.tar.gz --markdown 20240415/p/pylogram/0.4.4-0.5.0/README.md --exclude *.pyd
+[2024-04-15 11:11:24] INFO root fetch - processPackages [diffCheck]: Downloading https://files.pythonhosted.org/packages/81/f0/a33e01075fdbbf7031db4952015fc40bff942fb358e13e39162ea29c4b12/diffCheck-0.0.8.tar.gz
+[2024-04-15 11:11:24] INFO root fetch - processPackages [pulumi-genesiscloud]: Downloading https://files.pythonhosted.org/packages/85/48/c33e3e8789275770f6ecf59b3f8ba30057d291ef8fff95f7d0077bb2638c/pulumi_genesiscloud-0.0.9.tar.gz
+[2024-04-15 11:11:24] INFO root fetch - processPackages [diffCheck]: executing diffoscope
+[2024-04-15 11:11:24] INFO root fetch - processPackages [diffCheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diffCheck-0.0.7.tar.gz tmp/diffCheck-0.0.8.tar.gz --markdown 20240415/d/diffCheck/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-15 11:11:24] INFO root fetch - processPackages [pulumi-genesiscloud]: executing diffoscope
+[2024-04-15 11:11:24] INFO root fetch - processPackages [pulumi-genesiscloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_genesiscloud-0.0.8.tar.gz tmp/pulumi_genesiscloud-0.0.9.tar.gz --markdown 20240415/p/pulumi-genesiscloud/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-15 11:11:24] INFO root fetch - processPackages [codeframe]: Remove: archive file [/home/abi/fetcher/tmp/codeframe-0.5.3.tar.gz]
+[2024-04-15 11:11:24] INFO root fetch - processPackages [codeframe]: Remove: archive file [/home/abi/fetcher/tmp/codeframe-0.5.4.tar.gz]
+[2024-04-15 11:11:24] INFO root fetch - main [MainThread]: End processing [codeframe]: success
+[2024-04-15 11:11:24] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.7.0.dev98.tar.gz]
+[2024-04-15 11:11:24] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.7.0.dev99.tar.gz]
+[2024-04-15 11:11:24] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2024-04-15 11:11:24] INFO root fetch - processPackages [diffCheck]: Remove: archive file [/home/abi/fetcher/tmp/diffCheck-0.0.7.tar.gz]
+[2024-04-15 11:11:24] INFO root fetch - processPackages [diffCheck]: Remove: archive file [/home/abi/fetcher/tmp/diffCheck-0.0.8.tar.gz]
+[2024-04-15 11:11:24] INFO root fetch - main [MainThread]: End processing [diffCheck]: success
+[2024-04-15 11:11:24] INFO root fetch - processPackages [pulumi-genesiscloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_genesiscloud-0.0.8.tar.gz]
+[2024-04-15 11:11:24] INFO root fetch - processPackages [pulumi-genesiscloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_genesiscloud-0.0.9.tar.gz]
+[2024-04-15 11:11:24] INFO root fetch - main [MainThread]: End processing [pulumi-genesiscloud]: success
+[2024-04-15 11:11:25] INFO root fetch - processPackages [pylogram]: Remove: archive file [/home/abi/fetcher/tmp/pylogram-0.4.4.tar.gz]
+[2024-04-15 11:11:25] INFO root fetch - processPackages [pylogram]: Remove: archive file [/home/abi/fetcher/tmp/pylogram-0.5.0.tar.gz]
+[2024-04-15 11:11:25] INFO root fetch - main [MainThread]: End processing [pylogram]: success
+[2024-04-15 11:11:25] INFO root fetch - main [MainThread]: Store serial: [22768414]
