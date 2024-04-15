@@ -8635,3 +8635,81 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 08:25:02] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2024-04-15 08:25:02] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2024-04-15 08:25:02] INFO root fetch - main [MainThread]: Store serial: [22766652]
+[2024-04-15 08:27:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22766652]
+[2024-04-15 08:27:11] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-15 08:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: 2404-segmentation-pipeline
+[2024-04-15 08:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: http-content-parser
+[2024-04-15 08:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: usearch
+[2024-04-15 08:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pih-mark
+[2024-04-15 08:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: facecrop-thumb
+[2024-04-15 08:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sembansurga
+[2024-04-15 08:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qpandalite
+[2024-04-15 08:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jiebanlp
+[2024-04-15 08:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jms-storage
+[2024-04-15 08:27:11] INFO root fetch - processPackages [http-content-parser]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-15 08:27:11] INFO root fetch - processPackages [pih-mark]: New version: [0.13] Old Version: [0.12]
+[2024-04-15 08:27:11] INFO root fetch - processPackages [facecrop-thumb]: New version: [1.0.5.post1] Old Version: [1.0.5]
+[2024-04-15 08:27:11] WARNING root fetch - processPackages [jiebanlp]: Skipping, unable to determine old version
+[2024-04-15 08:27:11] INFO root fetch - main [MainThread]: End processing [jiebanlp] error
+[2024-04-15 08:27:11] INFO root fetch - processPackages [sembansurga]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-04-15 08:27:11] INFO root fetch - processPackages [pih-mark]: Downloading https://files.pythonhosted.org/packages/95/ad/8867b6b604f03cba4672b50ccbd28931b15803cd59dbbf57a79440dd3079/pih_mark-0.13-py3-none-any.whl
+[2024-04-15 08:27:11] INFO root fetch - processPackages [2404-segmentation-pipeline]: New version: [1.0.0] Old Version: [0.1.2]
+[2024-04-15 08:27:11] INFO root fetch - processPackages [http-content-parser]: Downloading https://files.pythonhosted.org/packages/a2/cc/885103e89814521e1bcc3d5dafaa06f644ea86e2280970cfdb33025b7a16/http_content_parser-0.0.8.tar.gz
+[2024-04-15 08:27:11] INFO root fetch - processPackages [jms-storage]: New version: [0.0.9] Old Version: [0.0.57]
+[2024-04-15 08:27:11] INFO root fetch - processPackages [qpandalite]: New version: [0.2.1.post1] Old Version: [0.2.0]
+[2024-04-15 08:27:11] INFO root fetch - processPackages [facecrop-thumb]: Downloading https://files.pythonhosted.org/packages/1b/dd/d5f50b2c44d5db7d3d77a0d81a9e24a0e0dc0a8d4b87aa637629ab7e8ab0/facecrop-thumb-1.0.5.tar.gz
+[2024-04-15 08:27:11] INFO root fetch - processPackages [sembansurga]: Downloading https://files.pythonhosted.org/packages/46/44/f587a8d85d21746ce2e620e915529a8f99f6860e028d8bae5a7981ecd1b3/sembansurga-1.0.6.tar.gz
+[2024-04-15 08:27:11] INFO root fetch - processPackages [pih-mark]: Downloading https://files.pythonhosted.org/packages/04/8d/d262530868e701b9cde75598c5d944bd83663dadca54f7c652edb205a8fe/pih-mark-0.13.tar.gz
+[2024-04-15 08:27:11] INFO root fetch - processPackages [2404-segmentation-pipeline]: Downloading https://files.pythonhosted.org/packages/34/ba/7f91aedf4e11736fb033931bfd6c115ad2050d8edc614b8b43964c53b690/2404-segmentation-pipeline-0.1.2.tar.gz
+[2024-04-15 08:27:11] INFO root fetch - processPackages [http-content-parser]: Downloading https://files.pythonhosted.org/packages/93/f1/ff3cc57c7b828864894c6866ea5324f2d6683688f8a5a27a79fb472862f9/http_content_parser-0.0.9.tar.gz
+[2024-04-15 08:27:11] INFO root fetch - processPackages [jms-storage]: Downloading https://files.pythonhosted.org/packages/f8/a5/e82d25462a5a1e48c9c16ded6620d95a4f78273ceb8ba53a7caa7045a6d9/jms-storage-0.0.57.tar.gz
+[2024-04-15 08:27:11] INFO root fetch - processPackages [facecrop-thumb]: Downloading https://files.pythonhosted.org/packages/a8/df/fcb836461f1af3e34daaf1e50b23e896e6e6720eec891cddb209a8ef964c/facecrop-thumb-1.0.5.post1.tar.gz
+[2024-04-15 08:27:11] INFO root fetch - processPackages [qpandalite]: Downloading https://files.pythonhosted.org/packages/10/92/bd23ed00a576f3fce895f44c323449ae19d372202169842c532c1c5ecd7c/qpandalite-0.2.0-cp39-cp39-win_amd64.whl
+[2024-04-15 08:27:11] INFO root fetch - processPackages [pih-mark]: executing diffoscope
+[2024-04-15 08:27:11] INFO root fetch - processPackages [pih-mark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih_mark-0.13-py3-none-any.whl.zip tmp/pih-mark-0.13.tar.gz --markdown 20240415/p/pih-mark/0.12-0.13/README.md --exclude *.pyd
+[2024-04-15 08:27:11] INFO root fetch - processPackages [sembansurga]: Downloading https://files.pythonhosted.org/packages/44/e0/2605c8e752fe266195e7a57af99a6cdf89dc932f59cc38021bbb4a438262/sembansurga-1.0.7.tar.gz
+[2024-04-15 08:27:11] INFO root fetch - processPackages [facecrop-thumb]: executing diffoscope
+[2024-04-15 08:27:11] INFO root fetch - processPackages [facecrop-thumb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/facecrop-thumb-1.0.5.tar.gz tmp/facecrop-thumb-1.0.5.post1.tar.gz --markdown 20240415/f/facecrop-thumb/1.0.5-1.0.5.post1/README.md --exclude *.pyd
+[2024-04-15 08:27:11] INFO root fetch - processPackages [http-content-parser]: executing diffoscope
+[2024-04-15 08:27:11] INFO root fetch - processPackages [http-content-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/http_content_parser-0.0.8.tar.gz tmp/http_content_parser-0.0.9.tar.gz --markdown 20240415/h/http-content-parser/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-15 08:27:11] INFO root fetch - processPackages [sembansurga]: executing diffoscope
+[2024-04-15 08:27:11] INFO root fetch - processPackages [sembansurga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sembansurga-1.0.6.tar.gz tmp/sembansurga-1.0.7.tar.gz --markdown 20240415/s/sembansurga/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-04-15 08:27:12] INFO root fetch - processPackages [2404-segmentation-pipeline]: Downloading https://files.pythonhosted.org/packages/98/c5/04b6b9818b96d1c9e5656060d1cf571a7a66fd9be6b94e1fba21920c7735/2404-segmentation-pipeline-1.0.0.tar.gz
+[2024-04-15 08:27:12] INFO root fetch - processPackages [qpandalite]: Downloading https://files.pythonhosted.org/packages/6c/a9/ea4c6029d7d9d0079e090c1dbb829de39327c4975a85f56aa5920f8aba1a/qpandalite-0.2.1.post1-cp39-cp39-win_amd64.whl
+[2024-04-15 08:27:12] INFO root fetch - processPackages [usearch]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-04-15 08:27:12] INFO root fetch - processPackages [2404-segmentation-pipeline]: executing diffoscope
+[2024-04-15 08:27:12] INFO root fetch - processPackages [2404-segmentation-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/2404-segmentation-pipeline-0.1.2.tar.gz tmp/2404-segmentation-pipeline-1.0.0.tar.gz --markdown 20240415/2/2404-segmentation-pipeline/0.1.2-1.0.0/README.md --exclude *.pyd
+[2024-04-15 08:27:12] INFO root fetch - processPackages [jms-storage]: Downloading https://files.pythonhosted.org/packages/e5/fe/4fc0396d4a55b575307fcabe6631c50a2563cb2d9bd4af2ca7414c1dd1af/jms-storage-0.0.9.tar.gz
+[2024-04-15 08:27:12] INFO root fetch - processPackages [qpandalite]: executing diffoscope
+[2024-04-15 08:27:12] INFO root fetch - processPackages [qpandalite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qpandalite-0.2.0-cp39-cp39-win_amd64.whl.zip tmp/qpandalite-0.2.1.post1-cp39-cp39-win_amd64.whl.zip --markdown 20240415/q/qpandalite/0.2.0-0.2.1.post1/README.md --exclude *.pyd
+[2024-04-15 08:27:12] INFO root fetch - processPackages [jms-storage]: executing diffoscope
+[2024-04-15 08:27:12] INFO root fetch - processPackages [jms-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jms-storage-0.0.57.tar.gz tmp/jms-storage-0.0.9.tar.gz --markdown 20240415/j/jms-storage/0.0.57-0.0.9/README.md --exclude *.pyd
+[2024-04-15 08:27:12] INFO root fetch - processPackages [usearch]: Downloading https://files.pythonhosted.org/packages/8b/43/c2558bc9415bc56b51c565ab35e885b8daff8ba0b8e920a001aa71f9fa44/usearch-2.9.1-cp39-cp39-win_amd64.whl
+[2024-04-15 08:27:12] INFO root fetch - processPackages [pih-mark]: Remove: archive file [/home/abi/fetcher/tmp/pih_mark-0.13-py3-none-any.whl.zip]
+[2024-04-15 08:27:12] INFO root fetch - processPackages [pih-mark]: Remove: archive file [/home/abi/fetcher/tmp/pih-mark-0.13.tar.gz]
+[2024-04-15 08:27:12] INFO root fetch - main [MainThread]: End processing [pih-mark]: success
+[2024-04-15 08:27:12] INFO root fetch - processPackages [facecrop-thumb]: Remove: archive file [/home/abi/fetcher/tmp/facecrop-thumb-1.0.5.tar.gz]
+[2024-04-15 08:27:12] INFO root fetch - processPackages [facecrop-thumb]: Remove: archive file [/home/abi/fetcher/tmp/facecrop-thumb-1.0.5.post1.tar.gz]
+[2024-04-15 08:27:12] INFO root fetch - main [MainThread]: End processing [facecrop-thumb]: success
+[2024-04-15 08:27:12] INFO root fetch - processPackages [http-content-parser]: Remove: archive file [/home/abi/fetcher/tmp/http_content_parser-0.0.8.tar.gz]
+[2024-04-15 08:27:12] INFO root fetch - processPackages [http-content-parser]: Remove: archive file [/home/abi/fetcher/tmp/http_content_parser-0.0.9.tar.gz]
+[2024-04-15 08:27:12] INFO root fetch - main [MainThread]: End processing [http-content-parser]: success
+[2024-04-15 08:27:12] INFO root fetch - processPackages [sembansurga]: Remove: archive file [/home/abi/fetcher/tmp/sembansurga-1.0.6.tar.gz]
+[2024-04-15 08:27:12] INFO root fetch - processPackages [sembansurga]: Remove: archive file [/home/abi/fetcher/tmp/sembansurga-1.0.7.tar.gz]
+[2024-04-15 08:27:12] INFO root fetch - main [MainThread]: End processing [sembansurga]: success
+[2024-04-15 08:27:12] INFO root fetch - processPackages [2404-segmentation-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/2404-segmentation-pipeline-0.1.2.tar.gz]
+[2024-04-15 08:27:12] INFO root fetch - processPackages [2404-segmentation-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/2404-segmentation-pipeline-1.0.0.tar.gz]
+[2024-04-15 08:27:12] INFO root fetch - main [MainThread]: End processing [2404-segmentation-pipeline]: success
+[2024-04-15 08:27:13] INFO root fetch - processPackages [usearch]: Downloading https://files.pythonhosted.org/packages/d6/35/835356907691f8adc22f60e729aeeaeaef9b81bf07a96079c9ed33a94b4b/usearch-2.9.2-cp39-cp39-win_amd64.whl
+[2024-04-15 08:27:13] INFO root fetch - processPackages [jms-storage]: Remove: archive file [/home/abi/fetcher/tmp/jms-storage-0.0.57.tar.gz]
+[2024-04-15 08:27:13] INFO root fetch - processPackages [jms-storage]: Remove: archive file [/home/abi/fetcher/tmp/jms-storage-0.0.9.tar.gz]
+[2024-04-15 08:27:13] INFO root fetch - main [MainThread]: End processing [jms-storage]: success
+[2024-04-15 08:27:13] INFO root fetch - processPackages [qpandalite]: Remove: archive file [/home/abi/fetcher/tmp/qpandalite-0.2.0-cp39-cp39-win_amd64.whl.zip]
+[2024-04-15 08:27:13] INFO root fetch - processPackages [qpandalite]: Remove: archive file [/home/abi/fetcher/tmp/qpandalite-0.2.1.post1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-15 08:27:13] INFO root fetch - main [MainThread]: End processing [qpandalite]: success
+[2024-04-15 08:27:13] INFO root fetch - processPackages [usearch]: executing diffoscope
+[2024-04-15 08:27:13] INFO root fetch - processPackages [usearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usearch-2.9.1-cp39-cp39-win_amd64.whl.zip tmp/usearch-2.9.2-cp39-cp39-win_amd64.whl.zip --markdown 20240415/u/usearch/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-04-15 08:27:13] INFO root fetch - processPackages [usearch]: Remove: archive file [/home/abi/fetcher/tmp/usearch-2.9.1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-15 08:27:13] INFO root fetch - processPackages [usearch]: Remove: archive file [/home/abi/fetcher/tmp/usearch-2.9.2-cp39-cp39-win_amd64.whl.zip]
+[2024-04-15 08:27:13] INFO root fetch - main [MainThread]: End processing [usearch]: success
+[2024-04-15 08:27:13] INFO root fetch - main [MainThread]: Store serial: [22766718]
