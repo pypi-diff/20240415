@@ -17017,3 +17017,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 13:46:12] INFO root fetch - processPackages [widgetastic.patternfly5]: Remove: archive file [/home/abi/fetcher/tmp/widgetastic.patternfly5-24.4.15.0-py3-none-any.whl.zip]
 [2024-04-15 13:46:12] INFO root fetch - main [MainThread]: End processing [widgetastic.patternfly5]: success
 [2024-04-15 13:46:12] INFO root fetch - main [MainThread]: Store serial: [22770267]
+[2024-04-15 13:48:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22770267]
+[2024-04-15 13:48:21] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-15 13:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bridgecrew
+[2024-04-15 13:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arcticdb
+[2024-04-15 13:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: diffCheck
+[2024-04-15 13:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: libsegmenter
+[2024-04-15 13:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zorge
+[2024-04-15 13:48:21] INFO root fetch - processPackages [diffCheck]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-15 13:48:21] INFO root fetch - processPackages [bridgecrew]: New version: [3.2.9] Old Version: [3.2.8]
+[2024-04-15 13:48:21] INFO root fetch - processPackages [zorge]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-15 13:48:21] INFO root fetch - processPackages [diffCheck]: Downloading https://files.pythonhosted.org/packages/16/95/bc53d175860f7f641ddea4302594540405247d85f4ba41625bab5e63252f/diffCheck-0.0.7.tar.gz
+[2024-04-15 13:48:21] INFO root fetch - processPackages [arcticdb]: New version: [4.4.1] Old Version: [4.4.0rc2]
+[2024-04-15 13:48:21] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/10/ba/dce7980ff0b7c11c6b0d4933f275f376eb8a4c997f0527cc483ac2310c8b/bridgecrew-3.2.8.tar.gz
+[2024-04-15 13:48:22] INFO root fetch - processPackages [libsegmenter]: New version: [0.7] Old Version: [0.5]
+[2024-04-15 13:48:22] INFO root fetch - processPackages [arcticdb]: Downloading https://files.pythonhosted.org/packages/9a/d8/5503de77f9a74374e3cd3f7ca9e7212d13579516a13d6f31925d6296eb0f/arcticdb-4.4.0rc2-cp39-cp39-win_amd64.whl
+[2024-04-15 13:48:22] INFO root fetch - processPackages [zorge]: Downloading https://files.pythonhosted.org/packages/48/c3/c310c852479613f587301141d6d775a5dcb142ca38f8391a4d50d2bc8da1/zorge-1.1.0.tar.gz
+[2024-04-15 13:48:22] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/f5/cd/d4c4caa7926c87e041723a31e232e562f13e2fa83f05b7451436564fe03f/bridgecrew-3.2.9.tar.gz
+[2024-04-15 13:48:22] INFO root fetch - processPackages [diffCheck]: Downloading https://files.pythonhosted.org/packages/81/f0/a33e01075fdbbf7031db4952015fc40bff942fb358e13e39162ea29c4b12/diffCheck-0.0.8.tar.gz
+[2024-04-15 13:48:22] INFO root fetch - processPackages [libsegmenter]: Downloading https://files.pythonhosted.org/packages/bd/ad/ba0a18ea35b4ddb419adf4512e9ad00367e39e5963cc8638a11e30063fa9/libsegmenter-0.5-pp39-pypy39_pp73-win_amd64.whl
+[2024-04-15 13:48:22] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2024-04-15 13:48:22] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-3.2.8.tar.gz tmp/bridgecrew-3.2.9.tar.gz --markdown 20240415/b/bridgecrew/3.2.8-3.2.9/README.md --exclude *.pyd
+[2024-04-15 13:48:22] INFO root fetch - processPackages [diffCheck]: executing diffoscope
+[2024-04-15 13:48:22] INFO root fetch - processPackages [diffCheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diffCheck-0.0.7.tar.gz tmp/diffCheck-0.0.8.tar.gz --markdown 20240415/d/diffCheck/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-15 13:48:22] INFO root fetch - processPackages [zorge]: Downloading https://files.pythonhosted.org/packages/a8/a9/a308b897d82dc5fb70bf791ee1b03f3c4d6a867a150d8304094d33b2ae0b/zorge-1.1.1.tar.gz
+[2024-04-15 13:48:22] INFO root fetch - processPackages [libsegmenter]: Downloading https://files.pythonhosted.org/packages/4f/ae/9f72987157ba8652533cb426c76e683def9f4261e08f3ddca270590a8fae/libsegmenter-0.7-pp39-pypy39_pp73-macosx_11_0_arm64.whl
+[2024-04-15 13:48:22] INFO root fetch - processPackages [zorge]: executing diffoscope
+[2024-04-15 13:48:22] INFO root fetch - processPackages [zorge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zorge-1.1.0.tar.gz tmp/zorge-1.1.1.tar.gz --markdown 20240415/z/zorge/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-15 13:48:22] INFO root fetch - processPackages [libsegmenter]: executing diffoscope
+[2024-04-15 13:48:22] INFO root fetch - processPackages [libsegmenter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libsegmenter-0.5-pp39-pypy39_pp73-win_amd64.whl.zip tmp/libsegmenter-0.7-pp39-pypy39_pp73-macosx_11_0_arm64.whl.zip --markdown 20240415/l/libsegmenter/0.5-0.7/README.md --exclude *.pyd
+[2024-04-15 13:48:22] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-3.2.8.tar.gz]
+[2024-04-15 13:48:22] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-3.2.9.tar.gz]
+[2024-04-15 13:48:22] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2024-04-15 13:48:23] INFO root fetch - processPackages [diffCheck]: Remove: archive file [/home/abi/fetcher/tmp/diffCheck-0.0.7.tar.gz]
+[2024-04-15 13:48:23] INFO root fetch - processPackages [diffCheck]: Remove: archive file [/home/abi/fetcher/tmp/diffCheck-0.0.8.tar.gz]
+[2024-04-15 13:48:23] INFO root fetch - main [MainThread]: End processing [diffCheck]: success
+[2024-04-15 13:48:23] INFO root fetch - processPackages [zorge]: Remove: archive file [/home/abi/fetcher/tmp/zorge-1.1.0.tar.gz]
+[2024-04-15 13:48:23] INFO root fetch - processPackages [zorge]: Remove: archive file [/home/abi/fetcher/tmp/zorge-1.1.1.tar.gz]
+[2024-04-15 13:48:23] INFO root fetch - main [MainThread]: End processing [zorge]: success
+[2024-04-15 13:48:23] INFO root fetch - processPackages [libsegmenter]: Remove: archive file [/home/abi/fetcher/tmp/libsegmenter-0.5-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2024-04-15 13:48:23] INFO root fetch - processPackages [libsegmenter]: Remove: archive file [/home/abi/fetcher/tmp/libsegmenter-0.7-pp39-pypy39_pp73-macosx_11_0_arm64.whl.zip]
+[2024-04-15 13:48:23] INFO root fetch - main [MainThread]: End processing [libsegmenter]: success
+[2024-04-15 13:48:23] INFO root fetch - processPackages [arcticdb]: Downloading https://files.pythonhosted.org/packages/df/f0/35bfdab59bcc301422b15bbc68608113f8a62c4826cc3ba30d07f08959de/arcticdb-4.4.1-cp39-cp39-win_amd64.whl
+[2024-04-15 13:48:25] INFO root fetch - processPackages [arcticdb]: executing diffoscope
+[2024-04-15 13:48:25] INFO root fetch - processPackages [arcticdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arcticdb-4.4.0rc2-cp39-cp39-win_amd64.whl.zip tmp/arcticdb-4.4.1-cp39-cp39-win_amd64.whl.zip --markdown 20240415/a/arcticdb/4.4.0rc2-4.4.1/README.md --exclude *.pyd
+[2024-04-15 13:48:25] INFO root fetch - processPackages [arcticdb]: Remove: archive file [/home/abi/fetcher/tmp/arcticdb-4.4.0rc2-cp39-cp39-win_amd64.whl.zip]
+[2024-04-15 13:48:25] INFO root fetch - processPackages [arcticdb]: Remove: archive file [/home/abi/fetcher/tmp/arcticdb-4.4.1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-15 13:48:25] INFO root fetch - main [MainThread]: End processing [arcticdb]: success
+[2024-04-15 13:48:25] INFO root fetch - main [MainThread]: Store serial: [22770326]
