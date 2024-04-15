@@ -17834,3 +17834,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 14:19:22] INFO root fetch - main [MainThread]: End processing [psd2fabric]: success
 [2024-04-15 14:19:22] INFO root fetch - main [MainThread]: End processing [psd2fabric]: success
 [2024-04-15 14:19:22] INFO root fetch - main [MainThread]: Store serial: [22770653]
+[2024-04-15 14:21:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22770653]
+[2024-04-15 14:21:32] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-15 14:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bulletroulette
+[2024-04-15 14:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cmrsim
+[2024-04-15 14:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sampa
+[2024-04-15 14:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: few-shot-priming
+[2024-04-15 14:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: miuc
+[2024-04-15 14:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: objectbox
+[2024-04-15 14:21:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: prusek-spheroid
+[2024-04-15 14:21:32] INFO root fetch - processPackages [miuc]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-15 14:21:32] WARNING root fetch - processPackages [sampa]: Skipping, unable to determine old version
+[2024-04-15 14:21:32] INFO root fetch - processPackages [cmrsim]: New version: [0.30] Old Version: [0.29]
+[2024-04-15 14:21:32] INFO root fetch - main [MainThread]: End processing [sampa] error
+[2024-04-15 14:21:32] INFO root fetch - processPackages [bulletroulette]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-15 14:21:32] INFO root fetch - processPackages [objectbox]: New version: [0.7.0a1] Old Version: [0.6.1]
+[2024-04-15 14:21:32] INFO root fetch - processPackages [prusek-spheroid]: New version: [5.2] Old Version: [5.1]
+[2024-04-15 14:21:32] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-04-15 14:21:32] INFO root fetch - processPackages [miuc]: Downloading https://files.pythonhosted.org/packages/f4/67/fa126ce9c8462716aa151f8232b756b1d285606e7421e5f75f4e7e58f7c9/miuc-0.2.2.tar.gz
+[2024-04-15 14:21:32] INFO root fetch - processPackages [bulletroulette]: Downloading https://files.pythonhosted.org/packages/47/b7/95d5b3cdcce7adb1e4204faa6bea6834ab39da59bfebdac17d861a5bbdcb/bulletroulette-1.0.3.tar.gz
+[2024-04-15 14:21:32] INFO root fetch - processPackages [cmrsim]: Downloading https://files.pythonhosted.org/packages/8d/3c/e994e02b4fb8af52d9b649363128b1d0ea19574ae81240eac5ee5bf88ed2/cmrsim-0.29.tar.gz
+[2024-04-15 14:21:32] INFO root fetch - processPackages [objectbox]: Downloading https://files.pythonhosted.org/packages/66/dd/9f1149c034085b03bd79d35deb208c41876e070dc70f39998669775e30f3/objectbox-0.6.1-py3-none-any.whl
+[2024-04-15 14:21:32] INFO root fetch - processPackages [prusek-spheroid]: Downloading https://files.pythonhosted.org/packages/3f/d9/106727d77faadbda20694d26547b3bb2e733d77812ddac421a7d2e5e93d3/prusek_spheroid-5.1.tar.gz
+[2024-04-15 14:21:32] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-04-15 14:21:33] INFO root fetch - processPackages [miuc]: Downloading https://files.pythonhosted.org/packages/e1/e2/e1de4f71f4f538ba026da89cea96b2834b042f8511b796b63b6a2efd8221/miuc-0.2.3.tar.gz
+[2024-04-15 14:21:33] INFO root fetch - processPackages [prusek-spheroid]: Downloading https://files.pythonhosted.org/packages/3a/5f/d6a3d53108578c56c7cdf4af62407893f40353ae469e811b111b15e96190/prusek_spheroid-5.2.tar.gz
+[2024-04-15 14:21:33] INFO root fetch - processPackages [cmrsim]: Downloading https://files.pythonhosted.org/packages/1f/a0/bee1165a4c38264798c99109cf46cc628ad09a6ee8d6e07425cf0fddff1a/cmrsim-0.30.tar.gz
+[2024-04-15 14:21:33] INFO root fetch - processPackages [miuc]: executing diffoscope
+[2024-04-15 14:21:33] INFO root fetch - processPackages [miuc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miuc-0.2.2.tar.gz tmp/miuc-0.2.3.tar.gz --markdown 20240415/m/miuc/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-15 14:21:33] INFO root fetch - processPackages [prusek-spheroid]: executing diffoscope
+[2024-04-15 14:21:33] INFO root fetch - processPackages [prusek-spheroid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prusek_spheroid-5.1.tar.gz tmp/prusek_spheroid-5.2.tar.gz --markdown 20240415/p/prusek-spheroid/5.1-5.2/README.md --exclude *.pyd
+[2024-04-15 14:21:33] INFO root fetch - processPackages [objectbox]: Downloading https://files.pythonhosted.org/packages/af/d8/8361c8b1aef4f8c047a5de0221c3b34f94d964d15ee90bba631d751bece8/objectbox-0.7.0a1-py3-none-any.whl
+[2024-04-15 14:21:33] INFO root fetch - processPackages [cmrsim]: executing diffoscope
+[2024-04-15 14:21:33] INFO root fetch - processPackages [cmrsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmrsim-0.29.tar.gz tmp/cmrsim-0.30.tar.gz --markdown 20240415/c/cmrsim/0.29-0.30/README.md --exclude *.pyd
+[2024-04-15 14:21:33] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-04-15 14:21:33] INFO root fetch - processPackages [bulletroulette]: Downloading https://files.pythonhosted.org/packages/21/c5/5c18ba017ea902daa695391fbe7ac42e23ad3e0da3360393d0b786d4e3a0/bulletroulette-1.0.4.tar.gz
+[2024-04-15 14:21:33] INFO root fetch - processPackages [objectbox]: executing diffoscope
+[2024-04-15 14:21:33] INFO root fetch - processPackages [objectbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/objectbox-0.6.1-py3-none-any.whl.zip tmp/objectbox-0.7.0a1-py3-none-any.whl.zip --markdown 20240415/o/objectbox/0.6.1-0.7.0a1/README.md --exclude *.pyd
+[2024-04-15 14:21:34] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-04-15 14:21:34] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240415/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-04-15 14:21:34] INFO root fetch - processPackages [miuc]: Remove: archive file [/home/abi/fetcher/tmp/miuc-0.2.2.tar.gz]
+[2024-04-15 14:21:34] INFO root fetch - processPackages [miuc]: Remove: archive file [/home/abi/fetcher/tmp/miuc-0.2.3.tar.gz]
+[2024-04-15 14:21:34] INFO root fetch - main [MainThread]: End processing [miuc]: success
+[2024-04-15 14:21:34] INFO root fetch - processPackages [bulletroulette]: executing diffoscope
+[2024-04-15 14:21:34] INFO root fetch - processPackages [bulletroulette]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bulletroulette-1.0.3.tar.gz tmp/bulletroulette-1.0.4.tar.gz --markdown 20240415/b/bulletroulette/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-15 14:21:34] INFO root fetch - processPackages [prusek-spheroid]: Remove: archive file [/home/abi/fetcher/tmp/prusek_spheroid-5.1.tar.gz]
+[2024-04-15 14:21:34] INFO root fetch - processPackages [prusek-spheroid]: Remove: archive file [/home/abi/fetcher/tmp/prusek_spheroid-5.2.tar.gz]
+[2024-04-15 14:21:34] INFO root fetch - main [MainThread]: End processing [prusek-spheroid]: success
+[2024-04-15 14:21:34] INFO root fetch - processPackages [cmrsim]: Remove: archive file [/home/abi/fetcher/tmp/cmrsim-0.29.tar.gz]
+[2024-04-15 14:21:34] INFO root fetch - processPackages [cmrsim]: Remove: archive file [/home/abi/fetcher/tmp/cmrsim-0.30.tar.gz]
+[2024-04-15 14:21:34] INFO root fetch - main [MainThread]: End processing [cmrsim]: success
+[2024-04-15 14:21:35] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-04-15 14:21:35] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-04-15 14:21:35] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-04-15 14:21:35] INFO root fetch - processPackages [bulletroulette]: Remove: archive file [/home/abi/fetcher/tmp/bulletroulette-1.0.3.tar.gz]
+[2024-04-15 14:21:35] INFO root fetch - processPackages [bulletroulette]: Remove: archive file [/home/abi/fetcher/tmp/bulletroulette-1.0.4.tar.gz]
+[2024-04-15 14:21:35] INFO root fetch - main [MainThread]: End processing [bulletroulette]: success
+[2024-04-15 14:21:49] INFO root fetch - processPackages [objectbox]: Remove: archive file [/home/abi/fetcher/tmp/objectbox-0.6.1-py3-none-any.whl.zip]
+[2024-04-15 14:21:49] INFO root fetch - processPackages [objectbox]: Remove: archive file [/home/abi/fetcher/tmp/objectbox-0.7.0a1-py3-none-any.whl.zip]
+[2024-04-15 14:21:49] INFO root fetch - main [MainThread]: End processing [objectbox]: success
+[2024-04-15 14:21:49] INFO root fetch - main [MainThread]: Store serial: [22770677]
