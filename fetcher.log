@@ -4501,3 +4501,24 @@
 [2024-04-15 05:52:43] INFO root fetch - processPackages [easytl]: Remove: archive file [/home/abi/fetcher/tmp/easytl-0.1.1.tar.gz]
 [2024-04-15 05:52:43] INFO root fetch - main [MainThread]: End processing [easytl]: success
 [2024-04-15 05:52:43] INFO root fetch - main [MainThread]: Store serial: [22765193]
+[2024-04-15 05:54:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22765193]
+[2024-04-15 05:54:51] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-15 05:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: http-content-parser
+[2024-04-15 05:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: surfkit
+[2024-04-15 05:54:51] INFO root fetch - processPackages [surfkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-15 05:54:52] INFO root fetch - processPackages [http-content-parser]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-15 05:54:52] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/00/dc/343980c083ea4ae8ce963639c51b39c0b3ba7869e96ca748256ff1b67925/surfkit-0.1.8.tar.gz
+[2024-04-15 05:54:52] INFO root fetch - processPackages [http-content-parser]: Downloading https://files.pythonhosted.org/packages/a2/cc/885103e89814521e1bcc3d5dafaa06f644ea86e2280970cfdb33025b7a16/http_content_parser-0.0.8.tar.gz
+[2024-04-15 05:54:52] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/e2/bd/4b842eb12eca8c3a3ea5d2915b52f91a3259c7e0160d2a0a88aeb13ae4a7/surfkit-0.1.9.tar.gz
+[2024-04-15 05:54:52] INFO root fetch - processPackages [surfkit]: executing diffoscope
+[2024-04-15 05:54:52] INFO root fetch - processPackages [surfkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surfkit-0.1.8.tar.gz tmp/surfkit-0.1.9.tar.gz --markdown 20240415/s/surfkit/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-15 05:54:52] INFO root fetch - processPackages [http-content-parser]: Downloading https://files.pythonhosted.org/packages/93/f1/ff3cc57c7b828864894c6866ea5324f2d6683688f8a5a27a79fb472862f9/http_content_parser-0.0.9.tar.gz
+[2024-04-15 05:54:52] INFO root fetch - processPackages [http-content-parser]: executing diffoscope
+[2024-04-15 05:54:52] INFO root fetch - processPackages [http-content-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/http_content_parser-0.0.8.tar.gz tmp/http_content_parser-0.0.9.tar.gz --markdown 20240415/h/http-content-parser/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-15 05:54:52] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.8.tar.gz]
+[2024-04-15 05:54:52] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.9.tar.gz]
+[2024-04-15 05:54:52] INFO root fetch - main [MainThread]: End processing [surfkit]: success
+[2024-04-15 05:54:53] INFO root fetch - processPackages [http-content-parser]: Remove: archive file [/home/abi/fetcher/tmp/http_content_parser-0.0.8.tar.gz]
+[2024-04-15 05:54:53] INFO root fetch - processPackages [http-content-parser]: Remove: archive file [/home/abi/fetcher/tmp/http_content_parser-0.0.9.tar.gz]
+[2024-04-15 05:54:53] INFO root fetch - main [MainThread]: End processing [http-content-parser]: success
+[2024-04-15 05:54:53] INFO root fetch - main [MainThread]: Store serial: [22765199]
