@@ -3882,3 +3882,24 @@
 [2024-04-15 05:06:46] INFO root fetch - processPackages [moyopy]: Remove: archive file [/home/abi/fetcher/tmp/moyopy-0.1.2.tar.gz]
 [2024-04-15 05:06:46] INFO root fetch - main [MainThread]: End processing [moyopy]: success
 [2024-04-15 05:06:46] INFO root fetch - main [MainThread]: Store serial: [22764950]
+[2024-04-15 05:08:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22764950]
+[2024-04-15 05:08:55] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-15 05:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: markdownparser
+[2024-04-15 05:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-amcards
+[2024-04-15 05:08:55] INFO root fetch - processPackages [markdownparser]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-15 05:08:55] INFO root fetch - processPackages [python-amcards]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-15 05:08:55] INFO root fetch - processPackages [markdownparser]: Downloading https://files.pythonhosted.org/packages/a2/ca/3b8a00e2216242e12569908432df1327788a31452834b8d3d5632225a2ce/markdownparser-0.5.8.tar.gz
+[2024-04-15 05:08:55] INFO root fetch - processPackages [python-amcards]: Downloading https://files.pythonhosted.org/packages/2d/b6/9b87dbf33b87811a8f9ac6e1bf94aac65dcef8d727a8b65bb105369718b5/python-amcards-1.2.8.tar.gz
+[2024-04-15 05:08:56] INFO root fetch - processPackages [markdownparser]: Downloading https://files.pythonhosted.org/packages/f2/e1/5c72761a61c666df02be27b583c81d504a8adbda63a34318dda3bafe48a1/markdownparser-0.5.9.tar.gz
+[2024-04-15 05:08:56] INFO root fetch - processPackages [python-amcards]: Downloading https://files.pythonhosted.org/packages/8e/77/a7238e5324ac5a2b2e4005f67aa51330133e4c1255c267e828c5dfb45cf1/python-amcards-1.2.9.tar.gz
+[2024-04-15 05:08:56] INFO root fetch - processPackages [markdownparser]: executing diffoscope
+[2024-04-15 05:08:56] INFO root fetch - processPackages [markdownparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markdownparser-0.5.8.tar.gz tmp/markdownparser-0.5.9.tar.gz --markdown 20240415/m/markdownparser/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-04-15 05:08:56] INFO root fetch - processPackages [python-amcards]: executing diffoscope
+[2024-04-15 05:08:56] INFO root fetch - processPackages [python-amcards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-amcards-1.2.8.tar.gz tmp/python-amcards-1.2.9.tar.gz --markdown 20240415/p/python-amcards/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-04-15 05:08:56] INFO root fetch - processPackages [markdownparser]: Remove: archive file [/home/abi/fetcher/tmp/markdownparser-0.5.8.tar.gz]
+[2024-04-15 05:08:56] INFO root fetch - processPackages [markdownparser]: Remove: archive file [/home/abi/fetcher/tmp/markdownparser-0.5.9.tar.gz]
+[2024-04-15 05:08:56] INFO root fetch - main [MainThread]: End processing [markdownparser]: success
+[2024-04-15 05:08:56] INFO root fetch - processPackages [python-amcards]: Remove: archive file [/home/abi/fetcher/tmp/python-amcards-1.2.8.tar.gz]
+[2024-04-15 05:08:56] INFO root fetch - processPackages [python-amcards]: Remove: archive file [/home/abi/fetcher/tmp/python-amcards-1.2.9.tar.gz]
+[2024-04-15 05:08:56] INFO root fetch - main [MainThread]: End processing [python-amcards]: success
+[2024-04-15 05:08:56] INFO root fetch - main [MainThread]: Store serial: [22764956]
