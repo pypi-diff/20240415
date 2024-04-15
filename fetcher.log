@@ -3072,3 +3072,56 @@
 [2024-04-15 04:25:20] INFO root fetch - processPackages [BioSAK]: Remove: archive file [/home/abi/fetcher/tmp/BioSAK-1.84.0.tar.gz]
 [2024-04-15 04:25:20] INFO root fetch - main [MainThread]: End processing [BioSAK]: success
 [2024-04-15 04:25:20] INFO root fetch - main [MainThread]: Store serial: [22764629]
+[2024-04-15 04:27:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22764629]
+[2024-04-15 04:27:29] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-15 04:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moval
+[2024-04-15 04:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdktf-tf-module-stack
+[2024-04-15 04:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-huey
+[2024-04-15 04:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdktf-gitlab-runner
+[2024-04-15 04:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rust-contracts-builder
+[2024-04-15 04:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: onnx-weekly
+[2024-04-15 04:27:29] INFO root fetch - processPackages [moval]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-15 04:27:29] INFO root fetch - processPackages [moval]: Downloading https://files.pythonhosted.org/packages/2f/2a/fce64bfb12450128441844587623d883ace479e64f62685d578d0994f441/moval-0.2.8.tar.gz
+[2024-04-15 04:27:29] INFO root fetch - processPackages [django-huey]: New version: [1.2.0] Old Version: [1.1.2]
+[2024-04-15 04:27:29] INFO root fetch - processPackages [rust-contracts-builder]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-15 04:27:29] INFO root fetch - processPackages [onnx-weekly]: New version: [1.17.0.dev20240415] Old Version: [1.17.0.dev20240408]
+[2024-04-15 04:27:29] INFO root fetch - processPackages [cdktf-tf-module-stack]: New version: [5.0.9] Old Version: [5.0.8]
+[2024-04-15 04:27:29] INFO root fetch - processPackages [cdktf-gitlab-runner]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-15 04:27:29] INFO root fetch - processPackages [django-huey]: Downloading https://files.pythonhosted.org/packages/0e/cf/eaa552c61de222af517a23d5f4a9e5d5d9632eb97f69683c69ad92b85f61/django-huey-1.1.2.tar.gz
+[2024-04-15 04:27:29] INFO root fetch - processPackages [cdktf-tf-module-stack]: Downloading https://files.pythonhosted.org/packages/c1/d6/bcdb03cd6a1d878e00460831e6347159681b80373ee2f77adf41661e8719/cdktf-tf-module-stack-5.0.8.tar.gz
+[2024-04-15 04:27:29] INFO root fetch - processPackages [rust-contracts-builder]: Downloading https://files.pythonhosted.org/packages/b2/05/bddc5d4e0a4ad2be9c7888c222250fd4a9fbcaaf2da5f2f7dae10563e1a3/rust-contracts-builder-0.2.8.tar.gz
+[2024-04-15 04:27:29] INFO root fetch - processPackages [moval]: Downloading https://files.pythonhosted.org/packages/ad/4e/1ade376222c4151a24bb8a4462afedaa311f1595b592028fb7632f57e1ae/moval-0.2.9.tar.gz
+[2024-04-15 04:27:29] INFO root fetch - processPackages [onnx-weekly]: Downloading https://files.pythonhosted.org/packages/78/3b/9096570c5270197ed4c71ceeb5b3688efd71cbb6131d8680dd4ac7114145/onnx-weekly-1.17.0.dev20240408.tar.gz
+[2024-04-15 04:27:30] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/8a/6e/f1c520e407ce3adf90b51d2d1ca84d283a08c808fc00c9deeff4f4734d82/cdktf-gitlab-runner-0.0.98.tar.gz
+[2024-04-15 04:27:30] WARNING root fetch - processPackages [onnx-weekly]: Skipping package: exceeds size limit 12315975>=10485760
+[2024-04-15 04:27:30] INFO root fetch - main [MainThread]: End processing [onnx-weekly] error
+[2024-04-15 04:27:30] INFO root fetch - processPackages [moval]: executing diffoscope
+[2024-04-15 04:27:30] INFO root fetch - processPackages [moval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moval-0.2.8.tar.gz tmp/moval-0.2.9.tar.gz --markdown 20240415/m/moval/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-15 04:27:30] INFO root fetch - processPackages [django-huey]: Downloading https://files.pythonhosted.org/packages/82/f6/0ff14959bb6a87dde66e90580d0c4126cd961606232c938d264a4b64f012/django_huey-1.2.0-py3-none-any.whl
+[2024-04-15 04:27:30] INFO root fetch - processPackages [cdktf-tf-module-stack]: Downloading https://files.pythonhosted.org/packages/af/b7/75603d995d5224ba49ee11765e757fab2ecf9e2a28e00a542ad9d8669ba4/cdktf-tf-module-stack-5.0.9.tar.gz
+[2024-04-15 04:27:30] INFO root fetch - processPackages [django-huey]: executing diffoscope
+[2024-04-15 04:27:30] INFO root fetch - processPackages [django-huey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-huey-1.1.2.tar.gz tmp/django_huey-1.2.0-py3-none-any.whl.zip --markdown 20240415/d/django-huey/1.1.2-1.2.0/README.md --exclude *.pyd
+[2024-04-15 04:27:30] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/59/f2/0d7ab5ec05a2b43bd92c00fd237afddb1e2770c7edaf03b1f7ddef6c0793/cdktf-gitlab-runner-0.0.99.tar.gz
+[2024-04-15 04:27:30] INFO root fetch - processPackages [rust-contracts-builder]: Downloading https://files.pythonhosted.org/packages/a3/2b/014380dad5b9df8304838771a70226bb853433be2a916a635cc8a4f3b22e/rust-contracts-builder-0.2.9.tar.gz
+[2024-04-15 04:27:30] INFO root fetch - processPackages [cdktf-tf-module-stack]: executing diffoscope
+[2024-04-15 04:27:30] INFO root fetch - processPackages [cdktf-tf-module-stack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-tf-module-stack-5.0.8.tar.gz tmp/cdktf-tf-module-stack-5.0.9.tar.gz --markdown 20240415/c/cdktf-tf-module-stack/5.0.8-5.0.9/README.md --exclude *.pyd
+[2024-04-15 04:27:30] INFO root fetch - processPackages [cdktf-gitlab-runner]: executing diffoscope
+[2024-04-15 04:27:30] INFO root fetch - processPackages [cdktf-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-gitlab-runner-0.0.98.tar.gz tmp/cdktf-gitlab-runner-0.0.99.tar.gz --markdown 20240415/c/cdktf-gitlab-runner/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-15 04:27:30] INFO root fetch - processPackages [rust-contracts-builder]: executing diffoscope
+[2024-04-15 04:27:30] INFO root fetch - processPackages [rust-contracts-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rust-contracts-builder-0.2.8.tar.gz tmp/rust-contracts-builder-0.2.9.tar.gz --markdown 20240415/r/rust-contracts-builder/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-15 04:27:30] INFO root fetch - processPackages [moval]: Remove: archive file [/home/abi/fetcher/tmp/moval-0.2.8.tar.gz]
+[2024-04-15 04:27:30] INFO root fetch - processPackages [moval]: Remove: archive file [/home/abi/fetcher/tmp/moval-0.2.9.tar.gz]
+[2024-04-15 04:27:30] INFO root fetch - main [MainThread]: End processing [moval]: success
+[2024-04-15 04:27:30] INFO root fetch - processPackages [django-huey]: Remove: archive file [/home/abi/fetcher/tmp/django-huey-1.1.2.tar.gz]
+[2024-04-15 04:27:30] INFO root fetch - processPackages [django-huey]: Remove: archive file [/home/abi/fetcher/tmp/django_huey-1.2.0-py3-none-any.whl.zip]
+[2024-04-15 04:27:30] INFO root fetch - main [MainThread]: End processing [django-huey]: success
+[2024-04-15 04:27:31] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.98.tar.gz]
+[2024-04-15 04:27:31] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.99.tar.gz]
+[2024-04-15 04:27:31] INFO root fetch - main [MainThread]: End processing [cdktf-gitlab-runner]: success
+[2024-04-15 04:27:31] INFO root fetch - processPackages [cdktf-tf-module-stack]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-tf-module-stack-5.0.8.tar.gz]
+[2024-04-15 04:27:31] INFO root fetch - processPackages [cdktf-tf-module-stack]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-tf-module-stack-5.0.9.tar.gz]
+[2024-04-15 04:27:31] INFO root fetch - main [MainThread]: End processing [cdktf-tf-module-stack]: success
+[2024-04-15 04:27:31] INFO root fetch - processPackages [rust-contracts-builder]: Remove: archive file [/home/abi/fetcher/tmp/rust-contracts-builder-0.2.8.tar.gz]
+[2024-04-15 04:27:31] INFO root fetch - processPackages [rust-contracts-builder]: Remove: archive file [/home/abi/fetcher/tmp/rust-contracts-builder-0.2.9.tar.gz]
+[2024-04-15 04:27:31] INFO root fetch - main [MainThread]: End processing [rust-contracts-builder]: success
+[2024-04-15 04:27:31] INFO root fetch - main [MainThread]: Store serial: [22764646]
