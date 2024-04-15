@@ -13648,3 +13648,77 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 11:46:38] INFO root fetch - processPackages [fim-python]: Remove: archive file [/home/abi/fetcher/tmp/fim_python-1.2.2.tar.gz]
 [2024-04-15 11:46:38] INFO root fetch - main [MainThread]: End processing [fim-python]: success
 [2024-04-15 11:46:38] INFO root fetch - main [MainThread]: Store serial: [22768815]
+[2024-04-15 11:48:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22768815]
+[2024-04-15 11:48:47] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-15 11:48:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tomotwin-cryoet
+[2024-04-15 11:48:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tokeniser
+[2024-04-15 11:48:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: c2cwsgiutils
+[2024-04-15 11:48:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: atomrdf
+[2024-04-15 11:48:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rooms-shared-services
+[2024-04-15 11:48:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulearn
+[2024-04-15 11:48:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: radical.utils
+[2024-04-15 11:48:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: redturtle.bandi
+[2024-04-15 11:48:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: llonebot
+[2024-04-15 11:48:47] INFO root fetch - processPackages [radical.utils]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-15 11:48:47] INFO root fetch - processPackages [rooms-shared-services]: New version: [0.1.99] Old Version: [0.1.97]
+[2024-04-15 11:48:47] INFO root fetch - processPackages [tokeniser]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-15 11:48:47] INFO root fetch - processPackages [tomotwin-cryoet]: New version: [0.9.0b1] Old Version: [0.9.0]
+[2024-04-15 11:48:47] INFO root fetch - processPackages [llonebot]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-15 11:48:47] WARNING root fetch - processPackages [atomrdf]: Skipping, unable to determine old version
+[2024-04-15 11:48:47] INFO root fetch - main [MainThread]: End processing [atomrdf] error
+[2024-04-15 11:48:47] INFO root fetch - processPackages [pulearn]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-15 11:48:47] INFO root fetch - processPackages [redturtle.bandi]: New version: [1.4.5] Old Version: [1.4.4]
+[2024-04-15 11:48:47] INFO root fetch - processPackages [radical.utils]: Downloading https://files.pythonhosted.org/packages/1f/11/cff0051613a1687c77e09b3096568dfa01f96271c0c2a0040cafae59f52b/radical.utils-1.9.0.tar.gz
+[2024-04-15 11:48:47] INFO root fetch - processPackages [rooms-shared-services]: Downloading https://files.pythonhosted.org/packages/16/6e/7a35dabe25e96c04274cbd9f69a6e68b4f36dc149e22451fb099f79d153e/rooms_shared_services-0.1.97.tar.gz
+[2024-04-15 11:48:47] INFO root fetch - processPackages [c2cwsgiutils]: New version: [6.1.0.dev99] Old Version: [6.1.0.dev97]
+[2024-04-15 11:48:47] INFO root fetch - processPackages [tomotwin-cryoet]: Downloading https://files.pythonhosted.org/packages/55/2c/31c95cf15ee1e364f17b6b257ae8861bc2311488eebafab57dc470c6f1c5/tomotwin_cryoet-0.9.0.tar.gz
+[2024-04-15 11:48:47] INFO root fetch - processPackages [redturtle.bandi]: Downloading https://files.pythonhosted.org/packages/95/02/629e2baad3d5b29bfb55f6378dd8a62d417161f4e0c3fc74d89b90263fd3/redturtle.bandi-1.4.4.tar.gz
+[2024-04-15 11:48:47] WARNING root fetch - processPackages [tomotwin-cryoet]: Skipping package: exceeds size limit 59133673>=10485760
+[2024-04-15 11:48:47] INFO root fetch - main [MainThread]: End processing [tomotwin-cryoet] error
+[2024-04-15 11:48:47] INFO root fetch - processPackages [llonebot]: Downloading https://files.pythonhosted.org/packages/96/74/4e2b9f450e8d531c69cd9d9da5b43cad0a36c2c9504860a5f53d1fa7610e/llonebot-1.0.1-py3-none-any.whl
+[2024-04-15 11:48:47] INFO root fetch - processPackages [pulearn]: Downloading https://files.pythonhosted.org/packages/80/b8/ace79e244b29148cdae3c7179202d6eeddf1b9795dc51ac161a9545caa79/pulearn-0.0.8.tar.gz
+[2024-04-15 11:48:47] INFO root fetch - processPackages [radical.utils]: Downloading https://files.pythonhosted.org/packages/20/d0/1fdf2dbde27e3a8d85ba804e54707f9aae40ab8b524492de97c15a6d0fbf/radical.utils-1.9.1.tar.gz
+[2024-04-15 11:48:47] INFO root fetch - processPackages [rooms-shared-services]: Downloading https://files.pythonhosted.org/packages/69/d1/238526d33d58183ec73b9cb900a4aea16c13e7618af0394e6c55838d4395/rooms_shared_services-0.1.99.tar.gz
+[2024-04-15 11:48:47] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/70/82/1062250c5f8b684273f1f576ab49863eb71b99aedcf0e638b7d18af727dc/c2cwsgiutils-6.1.0.dev97.tar.gz
+[2024-04-15 11:48:47] INFO root fetch - processPackages [tokeniser]: Downloading https://files.pythonhosted.org/packages/47/db/8ea53027de9e84b5a45a36c3b8c73bc2b812b7daae9f628e61fb5be32831/tokeniser-0.0.2.tar.gz
+[2024-04-15 11:48:47] INFO root fetch - processPackages [radical.utils]: executing diffoscope
+[2024-04-15 11:48:47] INFO root fetch - processPackages [radical.utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radical.utils-1.9.0.tar.gz tmp/radical.utils-1.9.1.tar.gz --markdown 20240415/r/radical.utils/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-15 11:48:47] INFO root fetch - processPackages [rooms-shared-services]: executing diffoscope
+[2024-04-15 11:48:47] INFO root fetch - processPackages [rooms-shared-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rooms_shared_services-0.1.97.tar.gz tmp/rooms_shared_services-0.1.99.tar.gz --markdown 20240415/r/rooms-shared-services/0.1.97-0.1.99/README.md --exclude *.pyd
+[2024-04-15 11:48:47] INFO root fetch - processPackages [redturtle.bandi]: Downloading https://files.pythonhosted.org/packages/88/bc/a3f5d4c4f23a19d1cd1ca21bd4300384a53539d28e2c831c47a8ae6d9642/redturtle.bandi-1.4.5.tar.gz
+[2024-04-15 11:48:48] INFO root fetch - processPackages [llonebot]: Downloading https://files.pythonhosted.org/packages/34/a8/c1c46624a21a3284f4b3590cb9fd46b85e96883a43d730ea394e3a9a761e/llonebot-1.0.2-py3-none-any.whl
+[2024-04-15 11:48:48] INFO root fetch - processPackages [tokeniser]: Downloading https://files.pythonhosted.org/packages/07/ea/1548d27059f09987588d2a9dcf3fe75a9f058e59215d07a257ebc5d4386f/tokeniser-0.0.3.tar.gz
+[2024-04-15 11:48:48] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/ab/62/7a161c456f1828f37b18431d8f5cf1bbda9dfe8ef509b1c94d8dad7c8da1/c2cwsgiutils-6.1.0.dev99.tar.gz
+[2024-04-15 11:48:48] INFO root fetch - processPackages [pulearn]: Downloading https://files.pythonhosted.org/packages/f4/03/15420ca48178ba2a2ae57c397c667460a1c268a6206b920ad841891908fc/pulearn-0.0.9.tar.gz
+[2024-04-15 11:48:48] INFO root fetch - processPackages [tokeniser]: executing diffoscope
+[2024-04-15 11:48:48] INFO root fetch - processPackages [tokeniser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tokeniser-0.0.2.tar.gz tmp/tokeniser-0.0.3.tar.gz --markdown 20240415/t/tokeniser/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-15 11:48:48] INFO root fetch - processPackages [c2cwsgiutils]: executing diffoscope
+[2024-04-15 11:48:48] INFO root fetch - processPackages [c2cwsgiutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cwsgiutils-6.1.0.dev97.tar.gz tmp/c2cwsgiutils-6.1.0.dev99.tar.gz --markdown 20240415/c/c2cwsgiutils/6.1.0.dev97-6.1.0.dev99/README.md --exclude *.pyd
+[2024-04-15 11:48:48] INFO root fetch - processPackages [llonebot]: executing diffoscope
+[2024-04-15 11:48:48] INFO root fetch - processPackages [llonebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llonebot-1.0.1-py3-none-any.whl.zip tmp/llonebot-1.0.2-py3-none-any.whl.zip --markdown 20240415/l/llonebot/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-15 11:48:48] INFO root fetch - processPackages [pulearn]: executing diffoscope
+[2024-04-15 11:48:48] INFO root fetch - processPackages [pulearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulearn-0.0.8.tar.gz tmp/pulearn-0.0.9.tar.gz --markdown 20240415/p/pulearn/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-15 11:48:48] INFO root fetch - processPackages [rooms-shared-services]: Remove: archive file [/home/abi/fetcher/tmp/rooms_shared_services-0.1.97.tar.gz]
+[2024-04-15 11:48:48] INFO root fetch - processPackages [rooms-shared-services]: Remove: archive file [/home/abi/fetcher/tmp/rooms_shared_services-0.1.99.tar.gz]
+[2024-04-15 11:48:48] INFO root fetch - main [MainThread]: End processing [rooms-shared-services]: success
+[2024-04-15 11:48:48] INFO root fetch - processPackages [tokeniser]: Remove: archive file [/home/abi/fetcher/tmp/tokeniser-0.0.2.tar.gz]
+[2024-04-15 11:48:48] INFO root fetch - processPackages [tokeniser]: Remove: archive file [/home/abi/fetcher/tmp/tokeniser-0.0.3.tar.gz]
+[2024-04-15 11:48:48] INFO root fetch - main [MainThread]: End processing [tokeniser]: success
+[2024-04-15 11:48:48] INFO root fetch - processPackages [radical.utils]: Remove: archive file [/home/abi/fetcher/tmp/radical.utils-1.9.0.tar.gz]
+[2024-04-15 11:48:48] INFO root fetch - processPackages [radical.utils]: Remove: archive file [/home/abi/fetcher/tmp/radical.utils-1.9.1.tar.gz]
+[2024-04-15 11:48:48] INFO root fetch - main [MainThread]: End processing [radical.utils]: success
+[2024-04-15 11:48:49] INFO root fetch - processPackages [llonebot]: Remove: archive file [/home/abi/fetcher/tmp/llonebot-1.0.1-py3-none-any.whl.zip]
+[2024-04-15 11:48:49] INFO root fetch - processPackages [llonebot]: Remove: archive file [/home/abi/fetcher/tmp/llonebot-1.0.2-py3-none-any.whl.zip]
+[2024-04-15 11:48:49] INFO root fetch - main [MainThread]: End processing [llonebot]: success
+[2024-04-15 11:48:49] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.1.0.dev97.tar.gz]
+[2024-04-15 11:48:49] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.1.0.dev99.tar.gz]
+[2024-04-15 11:48:49] INFO root fetch - main [MainThread]: End processing [c2cwsgiutils]: success
+[2024-04-15 11:48:49] INFO root fetch - processPackages [pulearn]: Remove: archive file [/home/abi/fetcher/tmp/pulearn-0.0.8.tar.gz]
+[2024-04-15 11:48:49] INFO root fetch - processPackages [pulearn]: Remove: archive file [/home/abi/fetcher/tmp/pulearn-0.0.9.tar.gz]
+[2024-04-15 11:48:49] INFO root fetch - main [MainThread]: End processing [pulearn]: success
+[2024-04-15 11:48:52] INFO root fetch - processPackages [redturtle.bandi]: executing diffoscope
+[2024-04-15 11:48:52] INFO root fetch - processPackages [redturtle.bandi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redturtle.bandi-1.4.4.tar.gz tmp/redturtle.bandi-1.4.5.tar.gz --markdown 20240415/r/redturtle.bandi/1.4.4-1.4.5/README.md --exclude *.pyd
+[2024-04-15 11:48:52] INFO root fetch - processPackages [redturtle.bandi]: Remove: archive file [/home/abi/fetcher/tmp/redturtle.bandi-1.4.4.tar.gz]
+[2024-04-15 11:48:52] INFO root fetch - processPackages [redturtle.bandi]: Remove: archive file [/home/abi/fetcher/tmp/redturtle.bandi-1.4.5.tar.gz]
+[2024-04-15 11:48:52] INFO root fetch - main [MainThread]: End processing [redturtle.bandi]: success
+[2024-04-15 11:48:52] INFO root fetch - main [MainThread]: Store serial: [22768840]
