@@ -15313,3 +15313,48 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 12:46:27] INFO root fetch - processPackages [alibabacloud-dingtalk]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dingtalk-2.0.95.tar.gz]
 [2024-04-15 12:46:27] INFO root fetch - main [MainThread]: End processing [alibabacloud-dingtalk]: success
 [2024-04-15 12:46:27] INFO root fetch - main [MainThread]: Store serial: [22769593]
+[2024-04-15 12:48:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22769593]
+[2024-04-15 12:48:36] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-15 12:48:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lusid-sdk
+[2024-04-15 12:48:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: localstack-core
+[2024-04-15 12:48:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: asapo-producer
+[2024-04-15 12:48:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: uxsim
+[2024-04-15 12:48:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: leadguru-jobs
+[2024-04-15 12:48:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zimo-web-screenshot
+[2024-04-15 12:48:36] INFO root fetch - processPackages [localstack-core]: New version: [3.3.1.dev20240415090818] Old Version: [3.3.1.dev20240413111107]
+[2024-04-15 12:48:36] INFO root fetch - processPackages [lusid-sdk]: New version: [2.1.7] Old Version: [2.1.5]
+[2024-04-15 12:48:36] WARNING root fetch - processPackages [asapo-producer]: Skipping, unable to determine old version
+[2024-04-15 12:48:36] INFO root fetch - main [MainThread]: End processing [asapo-producer] error
+[2024-04-15 12:48:36] INFO root fetch - processPackages [uxsim]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-15 12:48:36] WARNING root fetch - processPackages [zimo-web-screenshot]: Skipping, unable to determine old version
+[2024-04-15 12:48:36] INFO root fetch - main [MainThread]: End processing [zimo-web-screenshot] error
+[2024-04-15 12:48:36] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-04-15 12:48:36] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/85/5d/959c5592aac1c1b1223eeb92892989ef568f8de50629d091b19ccf7fbc5d/localstack-core-3.3.1.dev20240413111107.tar.gz
+[2024-04-15 12:48:36] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/e9/95/c5e61f1b00407bb5a7d4b0af7d49bfd5fc9a82a95b330e57eac1f1130493/lusid_sdk-2.1.5.tar.gz
+[2024-04-15 12:48:36] INFO root fetch - processPackages [uxsim]: Downloading https://files.pythonhosted.org/packages/f5/02/3506ca9badff19a1307f7afd97f0441843cec0b68735ce66ce7040887724/uxsim-1.1.0.tar.gz
+[2024-04-15 12:48:37] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2024-04-15 12:48:37] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/82/eb/af9f2ba226a7412b5a33561dcb9243ad533a67b6a0583f9dda72db15a027/localstack_core-3.3.1.dev20240415090818.tar.gz
+[2024-04-15 12:48:37] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/ef/9e/cac4eb8acb9b4225644a8ecd621bda7df1f3ecf1d132898e9a3ec1ed6723/lusid_sdk-2.1.7.tar.gz
+[2024-04-15 12:48:37] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-04-15 12:48:37] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-3.3.1.dev20240413111107.tar.gz tmp/localstack_core-3.3.1.dev20240415090818.tar.gz --markdown 20240415/l/localstack-core/3.3.1.dev20240413111107-3.3.1.dev20240415090818/README.md --exclude *.pyd
+[2024-04-15 12:48:37] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2024-04-15 12:48:37] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_sdk-2.1.5.tar.gz tmp/lusid_sdk-2.1.7.tar.gz --markdown 20240415/l/lusid-sdk/2.1.5-2.1.7/README.md --exclude *.pyd
+[2024-04-15 12:48:37] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2024-04-15 12:48:37] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2024-04-15 12:48:37] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20240415/l/leadguru-jobs/0.98.0-0.99.0/README.md --exclude *.pyd
+[2024-04-15 12:48:37] INFO root fetch - processPackages [uxsim]: Downloading https://files.pythonhosted.org/packages/f0/47/6c33d78582a08e24e67f42ed3803f82392708a54d30b001ffbdd5034717a/uxsim-1.1.1.tar.gz
+[2024-04-15 12:48:38] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2024-04-15 12:48:38] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2024-04-15 12:48:38] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2024-04-15 12:48:38] INFO root fetch - processPackages [uxsim]: executing diffoscope
+[2024-04-15 12:48:38] INFO root fetch - processPackages [uxsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uxsim-1.1.0.tar.gz tmp/uxsim-1.1.1.tar.gz --markdown 20240415/u/uxsim/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-15 12:48:39] INFO root fetch - processPackages [uxsim]: Remove: archive file [/home/abi/fetcher/tmp/uxsim-1.1.0.tar.gz]
+[2024-04-15 12:48:39] INFO root fetch - processPackages [uxsim]: Remove: archive file [/home/abi/fetcher/tmp/uxsim-1.1.1.tar.gz]
+[2024-04-15 12:48:39] INFO root fetch - main [MainThread]: End processing [uxsim]: success
+[2024-04-15 12:48:41] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-3.3.1.dev20240413111107.tar.gz]
+[2024-04-15 12:48:41] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.3.1.dev20240415090818.tar.gz]
+[2024-04-15 12:48:41] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-04-15 12:48:41] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.5.tar.gz]
+[2024-04-15 12:48:41] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.7.tar.gz]
+[2024-04-15 12:48:41] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2024-04-15 12:48:41] INFO root fetch - main [MainThread]: Store serial: [22769614]
