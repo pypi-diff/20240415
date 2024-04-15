@@ -18784,3 +18784,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 14:50:41] INFO root fetch - processPackages [appsignal]: Remove: archive file [/home/abi/fetcher/tmp/appsignal-1.2.1-py3-none-musllinux_1_1_x86_64.whl.zip]
 [2024-04-15 14:50:41] INFO root fetch - main [MainThread]: End processing [appsignal]: success
 [2024-04-15 14:50:41] INFO root fetch - main [MainThread]: Store serial: [22771164]
+[2024-04-15 14:52:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22771164]
+[2024-04-15 14:52:56] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-15 14:52:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyslth
+[2024-04-15 14:52:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: discord-drive
+[2024-04-15 14:52:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qontract-reconcile
+[2024-04-15 14:52:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: clovers-apscheduler
+[2024-04-15 14:52:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: large-image
+[2024-04-15 14:52:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: girder-large-image
+[2024-04-15 14:52:56] WARNING root fetch - processPackages [clovers-apscheduler]: Skipping, unable to determine old version
+[2024-04-15 14:52:56] INFO root fetch - main [MainThread]: End processing [clovers-apscheduler] error
+[2024-04-15 14:52:56] INFO root fetch - processPackages [pyslth]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-15 14:52:56] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-04-15 14:52:56] INFO root fetch - processPackages [pyslth]: Downloading https://files.pythonhosted.org/packages/95/a8/643f2647a3b8d7f42bf16d954fe3cdf06dcddd7a306c9f0b7751d8a68119/pyslth-0.0.7.tar.gz
+[2024-04-15 14:52:56] INFO root fetch - processPackages [discord-drive]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-15 14:52:56] INFO root fetch - processPackages [girder-large-image]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-04-15 14:52:56] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-04-15 14:52:56] INFO root fetch - processPackages [large-image]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-04-15 14:52:57] INFO root fetch - processPackages [discord-drive]: Downloading https://files.pythonhosted.org/packages/cd/57/762e112ac483d3cf76d325918c8161ffb625a2561f70db01a4b46c23ff1b/discord_drive-0.0.1.tar.gz
+[2024-04-15 14:52:57] INFO root fetch - processPackages [girder-large-image]: Downloading https://files.pythonhosted.org/packages/a1/de/9259311e8ad31f3131b016ae68dbee28c3a85340a5611063ba07e130f4dd/girder-large-image-1.9.1.dev6.tar.gz
+[2024-04-15 14:52:57] INFO root fetch - processPackages [large-image]: Downloading https://files.pythonhosted.org/packages/0e/97/f50d98f73951f053a140a085b971b043dc16e80844122ca59d5c2feeab13/large-image-1.9.1.dev6.tar.gz
+[2024-04-15 14:52:57] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-04-15 14:52:57] INFO root fetch - processPackages [pyslth]: Downloading https://files.pythonhosted.org/packages/08/d2/b6b9219bd69d6bad20915b0713982f2947c4792cfb87717d659b87281792/pyslth-0.0.8.tar.gz
+[2024-04-15 14:52:57] INFO root fetch - processPackages [pyslth]: executing diffoscope
+[2024-04-15 14:52:57] INFO root fetch - processPackages [pyslth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyslth-0.0.7.tar.gz tmp/pyslth-0.0.8.tar.gz --markdown 20240415/p/pyslth/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-15 14:52:57] INFO root fetch - processPackages [discord-drive]: Downloading https://files.pythonhosted.org/packages/1b/3e/ced419e746b82d9c9e9a29d36c212fbf581907229ad6a5267dd19545fc9b/discord_drive-0.0.2.tar.gz
+[2024-04-15 14:52:57] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-04-15 14:52:57] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240415/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-04-15 14:52:57] INFO root fetch - processPackages [girder-large-image]: Downloading https://files.pythonhosted.org/packages/f9/12/4dfe66c1b3eae390e20ba6a8e5537d1e114e878fe6346c8b5dbb5b9efdcc/girder-large-image-1.9.1.dev8.tar.gz
+[2024-04-15 14:52:57] INFO root fetch - processPackages [discord-drive]: executing diffoscope
+[2024-04-15 14:52:57] INFO root fetch - processPackages [discord-drive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discord_drive-0.0.1.tar.gz tmp/discord_drive-0.0.2.tar.gz --markdown 20240415/d/discord-drive/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-15 14:52:57] INFO root fetch - processPackages [large-image]: Downloading https://files.pythonhosted.org/packages/22/c4/18264ad18d3664df703883e2fb520f69d307805c93779d26bdaab792bb0b/large-image-1.9.1.dev8.tar.gz
+[2024-04-15 14:52:57] INFO root fetch - processPackages [girder-large-image]: executing diffoscope
+[2024-04-15 14:52:57] INFO root fetch - processPackages [girder-large-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-large-image-1.9.1.dev6.tar.gz tmp/girder-large-image-1.9.1.dev8.tar.gz --markdown 20240415/g/girder-large-image/1.9.1.dev6-1.9.1.dev8/README.md --exclude *.pyd
+[2024-04-15 14:52:57] INFO root fetch - processPackages [large-image]: executing diffoscope
+[2024-04-15 14:52:57] INFO root fetch - processPackages [large-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-1.9.1.dev6.tar.gz tmp/large-image-1.9.1.dev8.tar.gz --markdown 20240415/l/large-image/1.9.1.dev6-1.9.1.dev8/README.md --exclude *.pyd
+[2024-04-15 14:52:58] INFO root fetch - processPackages [pyslth]: Remove: archive file [/home/abi/fetcher/tmp/pyslth-0.0.7.tar.gz]
+[2024-04-15 14:52:58] INFO root fetch - processPackages [pyslth]: Remove: archive file [/home/abi/fetcher/tmp/pyslth-0.0.8.tar.gz]
+[2024-04-15 14:52:58] INFO root fetch - main [MainThread]: End processing [pyslth]: success
+[2024-04-15 14:52:58] INFO root fetch - processPackages [discord-drive]: Remove: archive file [/home/abi/fetcher/tmp/discord_drive-0.0.1.tar.gz]
+[2024-04-15 14:52:58] INFO root fetch - processPackages [discord-drive]: Remove: archive file [/home/abi/fetcher/tmp/discord_drive-0.0.2.tar.gz]
+[2024-04-15 14:52:58] INFO root fetch - main [MainThread]: End processing [discord-drive]: success
+[2024-04-15 14:52:58] INFO root fetch - processPackages [girder-large-image]: Remove: archive file [/home/abi/fetcher/tmp/girder-large-image-1.9.1.dev6.tar.gz]
+[2024-04-15 14:52:58] INFO root fetch - processPackages [girder-large-image]: Remove: archive file [/home/abi/fetcher/tmp/girder-large-image-1.9.1.dev8.tar.gz]
+[2024-04-15 14:52:58] INFO root fetch - main [MainThread]: End processing [girder-large-image]: success
+[2024-04-15 14:52:58] INFO root fetch - processPackages [large-image]: Remove: archive file [/home/abi/fetcher/tmp/large-image-1.9.1.dev6.tar.gz]
+[2024-04-15 14:52:58] INFO root fetch - processPackages [large-image]: Remove: archive file [/home/abi/fetcher/tmp/large-image-1.9.1.dev8.tar.gz]
+[2024-04-15 14:52:58] INFO root fetch - main [MainThread]: End processing [large-image]: success
+[2024-04-15 14:52:59] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-04-15 14:52:59] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-04-15 14:52:59] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-04-15 14:52:59] INFO root fetch - main [MainThread]: Store serial: [22771204]
