@@ -9990,3 +9990,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 09:28:40] INFO root fetch - processPackages [mobio-license-sdk-test]: Remove: archive file [/home/abi/fetcher/tmp/mobio-license-sdk-test-1.0.20.tar.gz]
 [2024-04-15 09:28:40] INFO root fetch - main [MainThread]: End processing [mobio-license-sdk-test]: success
 [2024-04-15 09:28:40] INFO root fetch - main [MainThread]: Store serial: [22767258]
+[2024-04-15 09:30:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22767258]
+[2024-04-15 09:30:48] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-15 09:30:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: juery
+[2024-04-15 09:30:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: green-bit-llm
+[2024-04-15 09:30:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: collectiondict
+[2024-04-15 09:30:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: terminate-thread
+[2024-04-15 09:30:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: NetworkConfigDiff
+[2024-04-15 09:30:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cornershot
+[2024-04-15 09:30:49] INFO root fetch - processPackages [terminate-thread]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-15 09:30:49] WARNING root fetch - processPackages [juery]: Skipping, unable to determine old version
+[2024-04-15 09:30:49] INFO root fetch - main [MainThread]: End processing [juery] error
+[2024-04-15 09:30:49] WARNING root fetch - processPackages [green-bit-llm]: Skipping, unable to determine old version
+[2024-04-15 09:30:49] INFO root fetch - main [MainThread]: End processing [green-bit-llm] error
+[2024-04-15 09:30:49] WARNING root fetch - processPackages [NetworkConfigDiff]: Skipping, unable to determine old version
+[2024-04-15 09:30:49] INFO root fetch - main [MainThread]: End processing [NetworkConfigDiff] error
+[2024-04-15 09:30:49] INFO root fetch - processPackages [collectiondict]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-15 09:30:49] INFO root fetch - processPackages [cornershot]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-04-15 09:30:49] INFO root fetch - processPackages [terminate-thread]: Downloading https://files.pythonhosted.org/packages/b3/3f/994df175a6d09e2bbcf8704883c66bd0f7dc560a37756f95feefd5482f0b/terminate_thread-0.0.1.tar.gz
+[2024-04-15 09:30:49] INFO root fetch - processPackages [collectiondict]: Downloading https://files.pythonhosted.org/packages/35/18/a7b89968ae754aff2e17134e9f11195f500aad1d0cd07689640af18fad9f/collectiondict-0.2.0.tar.gz
+[2024-04-15 09:30:49] INFO root fetch - processPackages [cornershot]: Downloading https://files.pythonhosted.org/packages/f2/58/b2dcb10083c3861d4d882b6339518e12a535428999e8c4d407092729b9fe/cornershot-0.2.9.tar.gz
+[2024-04-15 09:30:49] INFO root fetch - processPackages [terminate-thread]: Downloading https://files.pythonhosted.org/packages/cd/77/dc08f391ead17df6f26c89425a90f6ac45ad403c20a6ae7cc54118a08c47/terminate_thread-0.0.2.tar.gz
+[2024-04-15 09:30:49] INFO root fetch - processPackages [collectiondict]: Downloading https://files.pythonhosted.org/packages/02/b6/1dbc7eb37fda8ef18b85819b7901a7b7698d32efe6f8617e7839c4f00cbe/collectiondict-0.3.0.tar.gz
+[2024-04-15 09:30:49] INFO root fetch - processPackages [terminate-thread]: executing diffoscope
+[2024-04-15 09:30:49] INFO root fetch - processPackages [terminate-thread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terminate_thread-0.0.1.tar.gz tmp/terminate_thread-0.0.2.tar.gz --markdown 20240415/t/terminate-thread/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-15 09:30:49] INFO root fetch - processPackages [collectiondict]: executing diffoscope
+[2024-04-15 09:30:49] INFO root fetch - processPackages [collectiondict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collectiondict-0.2.0.tar.gz tmp/collectiondict-0.3.0.tar.gz --markdown 20240415/c/collectiondict/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-04-15 09:30:49] INFO root fetch - processPackages [cornershot]: Downloading https://files.pythonhosted.org/packages/97/dd/4f7fe0144edfbba6d1226e3d8dc38613ac86de4ecce29e42113906f0baeb/cornershot-0.3.0.tar.gz
+[2024-04-15 09:30:50] INFO root fetch - processPackages [cornershot]: executing diffoscope
+[2024-04-15 09:30:50] INFO root fetch - processPackages [cornershot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cornershot-0.2.9.tar.gz tmp/cornershot-0.3.0.tar.gz --markdown 20240415/c/cornershot/0.2.9-0.3.0/README.md --exclude *.pyd
+[2024-04-15 09:30:50] INFO root fetch - processPackages [terminate-thread]: Remove: archive file [/home/abi/fetcher/tmp/terminate_thread-0.0.1.tar.gz]
+[2024-04-15 09:30:50] INFO root fetch - processPackages [terminate-thread]: Remove: archive file [/home/abi/fetcher/tmp/terminate_thread-0.0.2.tar.gz]
+[2024-04-15 09:30:50] INFO root fetch - main [MainThread]: End processing [terminate-thread]: success
+[2024-04-15 09:30:50] INFO root fetch - processPackages [collectiondict]: Remove: archive file [/home/abi/fetcher/tmp/collectiondict-0.2.0.tar.gz]
+[2024-04-15 09:30:50] INFO root fetch - processPackages [collectiondict]: Remove: archive file [/home/abi/fetcher/tmp/collectiondict-0.3.0.tar.gz]
+[2024-04-15 09:30:50] INFO root fetch - main [MainThread]: End processing [collectiondict]: success
+[2024-04-15 09:30:50] INFO root fetch - processPackages [cornershot]: Remove: archive file [/home/abi/fetcher/tmp/cornershot-0.2.9.tar.gz]
+[2024-04-15 09:30:50] INFO root fetch - processPackages [cornershot]: Remove: archive file [/home/abi/fetcher/tmp/cornershot-0.3.0.tar.gz]
+[2024-04-15 09:30:50] INFO root fetch - main [MainThread]: End processing [cornershot]: success
+[2024-04-15 09:30:50] INFO root fetch - main [MainThread]: Store serial: [22767281]
