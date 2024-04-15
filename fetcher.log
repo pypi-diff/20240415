@@ -7997,3 +7997,49 @@
 [2024-04-15 07:54:17] INFO root fetch - processPackages [bavisitter]: Remove: archive file [/home/abi/fetcher/tmp/bavisitter-0.0.1.tar.gz]
 [2024-04-15 07:54:17] INFO root fetch - main [MainThread]: End processing [bavisitter]: success
 [2024-04-15 07:54:17] INFO root fetch - main [MainThread]: Store serial: [22766431]
+[2024-04-15 07:56:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22766431]
+[2024-04-15 07:56:26] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-15 07:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: radical.gtod
+[2024-04-15 07:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: async-redis-uow
+[2024-04-15 07:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dysys
+[2024-04-15 07:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shinigami
+[2024-04-15 07:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: radical.gtod
+[2024-04-15 07:56:27] INFO root fetch - processPackages [radical.gtod]: New version: [1.6.7] Old Version: [1.5.0]
+[2024-04-15 07:56:27] INFO root fetch - processPackages [radical.gtod]: New version: [1.6.7] Old Version: [1.5.0]
+[2024-04-15 07:56:27] INFO root fetch - processPackages [async-redis-uow]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-15 07:56:27] INFO root fetch - processPackages [shinigami]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-15 07:56:27] INFO root fetch - processPackages [dysys]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-15 07:56:27] INFO root fetch - processPackages [radical.gtod]: Downloading https://files.pythonhosted.org/packages/79/10/f1a89928a077875824f44a6b09a26408148d8b18ca0639ae0a3782adb7f1/radical.gtod-1.5.0.tar.gz
+[2024-04-15 07:56:27] INFO root fetch - processPackages [radical.gtod]: Downloading https://files.pythonhosted.org/packages/79/10/f1a89928a077875824f44a6b09a26408148d8b18ca0639ae0a3782adb7f1/radical.gtod-1.5.0.tar.gz
+[2024-04-15 07:56:27] INFO root fetch - processPackages [shinigami]: Downloading https://files.pythonhosted.org/packages/93/00/2800d0ba28a3fae19dc5300c623ffe725c6792299821df6f8f410424fd20/shinigami-0.2.0.tar.gz
+[2024-04-15 07:56:27] INFO root fetch - processPackages [dysys]: Downloading https://files.pythonhosted.org/packages/79/f6/ce1c23a0ca5e8c6d4e9f386b3a15841075cfdbb4f6f0c873708641f6836d/dysys-0.1.5.tar.gz
+[2024-04-15 07:56:27] INFO root fetch - processPackages [async-redis-uow]: Downloading https://files.pythonhosted.org/packages/fb/9a/2240712759e637f69f8703e50f3b3515086a9f52d5636f27934ceebdc936/async_redis_uow-0.0.8.tar.gz
+[2024-04-15 07:56:27] INFO root fetch - processPackages [radical.gtod]: Downloading https://files.pythonhosted.org/packages/e7/99/b30606ef545cb7dd3965e4271424fac7ce5ea037377a5a165605efd5aced/radical.gtod-1.6.7.tar.gz
+[2024-04-15 07:56:27] INFO root fetch - processPackages [radical.gtod]: Downloading https://files.pythonhosted.org/packages/e7/99/b30606ef545cb7dd3965e4271424fac7ce5ea037377a5a165605efd5aced/radical.gtod-1.6.7.tar.gz
+[2024-04-15 07:56:27] INFO root fetch - processPackages [dysys]: Downloading https://files.pythonhosted.org/packages/4b/11/db78838a45a9a1e82657a70aa4c4400fc85ced77a2411b3c3a2e604f9b91/dysys-0.1.6.tar.gz
+[2024-04-15 07:56:27] INFO root fetch - processPackages [shinigami]: Downloading https://files.pythonhosted.org/packages/6e/d9/7c99b1bc6449bf4309e4e44d3f82de0a14e7a88ecc588f792e7b470a6206/shinigami-0.2.1.tar.gz
+[2024-04-15 07:56:27] INFO root fetch - processPackages [async-redis-uow]: Downloading https://files.pythonhosted.org/packages/c2/79/62365c781012de63460ed6eaf232d50c7e06198fc2c8e98e84d2568d8ec8/async_redis_uow-0.0.9.tar.gz
+[2024-04-15 07:56:27] INFO root fetch - processPackages [radical.gtod]: executing diffoscope
+[2024-04-15 07:56:27] INFO root fetch - processPackages [radical.gtod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radical.gtod-1.5.0.tar.gz tmp/radical.gtod-1.6.7.tar.gz --markdown 20240415/r/radical.gtod/1.5.0-1.6.7/README.md --exclude *.pyd
+[2024-04-15 07:56:27] INFO root fetch - processPackages [radical.gtod]: executing diffoscope
+[2024-04-15 07:56:27] INFO root fetch - processPackages [radical.gtod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radical.gtod-1.5.0.tar.gz tmp/radical.gtod-1.6.7.tar.gz --markdown 20240415/r/radical.gtod/1.5.0-1.6.7/README.md --exclude *.pyd
+[2024-04-15 07:56:27] INFO root fetch - processPackages [dysys]: executing diffoscope
+[2024-04-15 07:56:27] INFO root fetch - processPackages [dysys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dysys-0.1.5.tar.gz tmp/dysys-0.1.6.tar.gz --markdown 20240415/d/dysys/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-15 07:56:27] INFO root fetch - processPackages [shinigami]: executing diffoscope
+[2024-04-15 07:56:27] INFO root fetch - processPackages [shinigami]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shinigami-0.2.0.tar.gz tmp/shinigami-0.2.1.tar.gz --markdown 20240415/s/shinigami/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-15 07:56:27] INFO root fetch - processPackages [async-redis-uow]: executing diffoscope
+[2024-04-15 07:56:27] INFO root fetch - processPackages [async-redis-uow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_redis_uow-0.0.8.tar.gz tmp/async_redis_uow-0.0.9.tar.gz --markdown 20240415/a/async-redis-uow/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-15 07:56:28] INFO root fetch - processPackages [shinigami]: Remove: archive file [/home/abi/fetcher/tmp/shinigami-0.2.0.tar.gz]
+[2024-04-15 07:56:28] INFO root fetch - processPackages [shinigami]: Remove: archive file [/home/abi/fetcher/tmp/shinigami-0.2.1.tar.gz]
+[2024-04-15 07:56:28] INFO root fetch - main [MainThread]: End processing [shinigami]: success
+[2024-04-15 07:56:28] INFO root fetch - processPackages [dysys]: Remove: archive file [/home/abi/fetcher/tmp/dysys-0.1.5.tar.gz]
+[2024-04-15 07:56:28] INFO root fetch - processPackages [dysys]: Remove: archive file [/home/abi/fetcher/tmp/dysys-0.1.6.tar.gz]
+[2024-04-15 07:56:28] INFO root fetch - main [MainThread]: End processing [dysys]: success
+[2024-04-15 07:56:28] INFO root fetch - processPackages [radical.gtod]: Remove: archive file [/home/abi/fetcher/tmp/radical.gtod-1.5.0.tar.gz]
+[2024-04-15 07:56:28] INFO root fetch - processPackages [radical.gtod]: Remove: archive file [/home/abi/fetcher/tmp/radical.gtod-1.6.7.tar.gz]
+[2024-04-15 07:56:28] INFO root fetch - main [MainThread]: End processing [radical.gtod]: success
+[2024-04-15 07:56:28] INFO root fetch - main [MainThread]: End processing [radical.gtod]: success
+[2024-04-15 07:56:28] INFO root fetch - processPackages [async-redis-uow]: Remove: archive file [/home/abi/fetcher/tmp/async_redis_uow-0.0.8.tar.gz]
+[2024-04-15 07:56:28] INFO root fetch - processPackages [async-redis-uow]: Remove: archive file [/home/abi/fetcher/tmp/async_redis_uow-0.0.9.tar.gz]
+[2024-04-15 07:56:28] INFO root fetch - main [MainThread]: End processing [async-redis-uow]: success
+[2024-04-15 07:56:28] INFO root fetch - main [MainThread]: Store serial: [22766445]
