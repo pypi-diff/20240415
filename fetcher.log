@@ -13149,3 +13149,57 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 11:26:48] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-3.0.2.post427-py3-none-any.whl.zip]
 [2024-04-15 11:26:48] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
 [2024-04-15 11:26:48] INFO root fetch - main [MainThread]: Store serial: [22768572]
+[2024-04-15 11:28:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22768572]
+[2024-04-15 11:28:58] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-15 11:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nucliadb-telemetry
+[2024-04-15 11:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nucliadb-utils
+[2024-04-15 11:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: liah
+[2024-04-15 11:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dpnext
+[2024-04-15 11:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eyeGestures
+[2024-04-15 11:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: CveXplore
+[2024-04-15 11:28:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: refinitiv-data
+[2024-04-15 11:28:58] INFO root fetch - processPackages [nucliadb-telemetry]: New version: [3.0.2.post427] Old Version: [3.0.2.post426]
+[2024-04-15 11:28:58] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/89/bb/38745589493601c48da415d561f53d93e8f0c5e8f8d0b9301e284995a43c/nucliadb_telemetry-3.0.2.post426-py3-none-any.whl
+[2024-04-15 11:28:58] WARNING root fetch - processPackages [liah]: Skipping, unable to determine old version
+[2024-04-15 11:28:58] INFO root fetch - main [MainThread]: End processing [liah] error
+[2024-04-15 11:28:58] WARNING root fetch - processPackages [dpnext]: Skipping, unable to determine old version
+[2024-04-15 11:28:58] INFO root fetch - main [MainThread]: End processing [dpnext] error
+[2024-04-15 11:28:58] INFO root fetch - processPackages [eyeGestures]: New version: [1.3.4] Old Version: [1.3.3]
+[2024-04-15 11:28:58] INFO root fetch - processPackages [refinitiv-data]: New version: [1.6.1] Old Version: [1.6.0]
+[2024-04-15 11:28:58] INFO root fetch - processPackages [CveXplore]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-15 11:28:58] INFO root fetch - processPackages [nucliadb-utils]: New version: [3.0.2.post427] Old Version: [3.0.2.post426]
+[2024-04-15 11:28:59] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/1f/af/3610ac905b1f88214fbc0f0ff2cbd8f082cbdc0e6febfdb8ab95b01ca8b0/nucliadb_telemetry-3.0.2.post427-py3-none-any.whl
+[2024-04-15 11:28:59] INFO root fetch - processPackages [refinitiv-data]: Downloading https://files.pythonhosted.org/packages/2f/84/7b1cf07859f6ff632a5b1dff58803ad8764f490b46ac2281817ad65c1040/refinitiv-data-1.6.0.tar.gz
+[2024-04-15 11:28:59] INFO root fetch - processPackages [CveXplore]: Downloading https://files.pythonhosted.org/packages/54/6f/a9d31f1e1b7f6febe01e47a8e3a189a76f5f5b96c1353bbcdc038fa1ecb2/CveXplore-0.3.8.tar.gz
+[2024-04-15 11:28:59] INFO root fetch - processPackages [eyeGestures]: Downloading https://files.pythonhosted.org/packages/5b/7e/bf7c85210bcdff819afaa2e1cde83df968b76b4cfa4f43334d9ace45f7bf/eyegestures-1.3.3.tar.gz
+[2024-04-15 11:28:59] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/35/b0/c2107236dc986b8be79fbf4d2b7128f701bcd826323f736ccbe655498508/nucliadb_utils-3.0.2.post426-py3-none-any.whl
+[2024-04-15 11:28:59] INFO root fetch - processPackages [nucliadb-telemetry]: executing diffoscope
+[2024-04-15 11:28:59] INFO root fetch - processPackages [nucliadb-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_telemetry-3.0.2.post426-py3-none-any.whl.zip tmp/nucliadb_telemetry-3.0.2.post427-py3-none-any.whl.zip --markdown 20240415/n/nucliadb-telemetry/3.0.2.post426-3.0.2.post427/README.md --exclude *.pyd
+[2024-04-15 11:28:59] INFO root fetch - processPackages [eyeGestures]: Downloading https://files.pythonhosted.org/packages/0f/53/2fb43ae6e277c29585ee71e5b9238c75d68cacfcd69b498c50d5a5bc0241/eyegestures-1.3.4.tar.gz
+[2024-04-15 11:28:59] INFO root fetch - processPackages [refinitiv-data]: Downloading https://files.pythonhosted.org/packages/f4/f6/dd1160a333eac89a6033cb199fc4ff588c220f23ba4870af11a63e4fdc37/refinitiv-data-1.6.1.tar.gz
+[2024-04-15 11:28:59] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/29/6a/ac9037acdcd75311320837227b8490a205233de2f1a5727f3df9ffcee86d/nucliadb_utils-3.0.2.post427-py3-none-any.whl
+[2024-04-15 11:28:59] INFO root fetch - processPackages [CveXplore]: Downloading https://files.pythonhosted.org/packages/9e/d5/fa166da509758efadbb74a6d4a63feabe6b76f43a06332b9687e00af7aa2/CveXplore-0.3.9.tar.gz
+[2024-04-15 11:28:59] INFO root fetch - processPackages [eyeGestures]: executing diffoscope
+[2024-04-15 11:28:59] INFO root fetch - processPackages [eyeGestures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eyegestures-1.3.3.tar.gz tmp/eyegestures-1.3.4.tar.gz --markdown 20240415/e/eyeGestures/1.3.3-1.3.4/README.md --exclude *.pyd
+[2024-04-15 11:28:59] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2024-04-15 11:28:59] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-3.0.2.post426-py3-none-any.whl.zip tmp/nucliadb_utils-3.0.2.post427-py3-none-any.whl.zip --markdown 20240415/n/nucliadb-utils/3.0.2.post426-3.0.2.post427/README.md --exclude *.pyd
+[2024-04-15 11:28:59] INFO root fetch - processPackages [refinitiv-data]: executing diffoscope
+[2024-04-15 11:28:59] INFO root fetch - processPackages [refinitiv-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/refinitiv-data-1.6.0.tar.gz tmp/refinitiv-data-1.6.1.tar.gz --markdown 20240415/r/refinitiv-data/1.6.0-1.6.1/README.md --exclude *.pyd
+[2024-04-15 11:28:59] INFO root fetch - processPackages [CveXplore]: executing diffoscope
+[2024-04-15 11:28:59] INFO root fetch - processPackages [CveXplore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CveXplore-0.3.8.tar.gz tmp/CveXplore-0.3.9.tar.gz --markdown 20240415/C/CveXplore/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-15 11:29:00] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-3.0.2.post426-py3-none-any.whl.zip]
+[2024-04-15 11:29:00] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-3.0.2.post427-py3-none-any.whl.zip]
+[2024-04-15 11:29:00] INFO root fetch - main [MainThread]: End processing [nucliadb-telemetry]: success
+[2024-04-15 11:29:00] INFO root fetch - processPackages [eyeGestures]: Remove: archive file [/home/abi/fetcher/tmp/eyegestures-1.3.3.tar.gz]
+[2024-04-15 11:29:00] INFO root fetch - processPackages [eyeGestures]: Remove: archive file [/home/abi/fetcher/tmp/eyegestures-1.3.4.tar.gz]
+[2024-04-15 11:29:00] INFO root fetch - main [MainThread]: End processing [eyeGestures]: success
+[2024-04-15 11:29:00] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-3.0.2.post426-py3-none-any.whl.zip]
+[2024-04-15 11:29:00] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-3.0.2.post427-py3-none-any.whl.zip]
+[2024-04-15 11:29:00] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2024-04-15 11:29:00] INFO root fetch - processPackages [CveXplore]: Remove: archive file [/home/abi/fetcher/tmp/CveXplore-0.3.8.tar.gz]
+[2024-04-15 11:29:00] INFO root fetch - processPackages [CveXplore]: Remove: archive file [/home/abi/fetcher/tmp/CveXplore-0.3.9.tar.gz]
+[2024-04-15 11:29:00] INFO root fetch - main [MainThread]: End processing [CveXplore]: success
+[2024-04-15 11:29:02] INFO root fetch - processPackages [refinitiv-data]: Remove: archive file [/home/abi/fetcher/tmp/refinitiv-data-1.6.0.tar.gz]
+[2024-04-15 11:29:02] INFO root fetch - processPackages [refinitiv-data]: Remove: archive file [/home/abi/fetcher/tmp/refinitiv-data-1.6.1.tar.gz]
+[2024-04-15 11:29:02] INFO root fetch - main [MainThread]: End processing [refinitiv-data]: success
+[2024-04-15 11:29:02] INFO root fetch - main [MainThread]: Store serial: [22768594]
