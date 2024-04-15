@@ -19397,3 +19397,57 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 15:06:11] INFO root fetch - processPackages [psl]: Remove: archive file [/home/abi/fetcher/tmp/psl-2024.4.8.tar.gz]
 [2024-04-15 15:06:11] INFO root fetch - main [MainThread]: End processing [psl]: success
 [2024-04-15 15:06:11] INFO root fetch - main [MainThread]: Store serial: [22771461]
+[2024-04-15 15:08:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22771461]
+[2024-04-15 15:08:20] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-15 15:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ResearchTikPy
+[2024-04-15 15:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kiara
+[2024-04-15 15:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bluetti-mqtt-asyncio
+[2024-04-15 15:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tecton
+[2024-04-15 15:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: thetagang
+[2024-04-15 15:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ParendumLib
+[2024-04-15 15:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-clovers
+[2024-04-15 15:08:20] INFO root fetch - processPackages [ParendumLib]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-15 15:08:20] WARNING root fetch - processPackages [nonebot-plugin-clovers]: Skipping, unable to determine old version
+[2024-04-15 15:08:20] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-clovers] error
+[2024-04-15 15:08:20] INFO root fetch - processPackages [ParendumLib]: Downloading https://files.pythonhosted.org/packages/9e/57/9c5dcbd5ac51d99d65085c128e28d689340a94b8a348f9b3cd3fac3ff2a4/ParendumLib-0.1.8.tar.gz
+[2024-04-15 15:08:20] INFO root fetch - processPackages [ResearchTikPy]: New version: [0.1.6] Old Version: [0.1.4]
+[2024-04-15 15:08:20] INFO root fetch - processPackages [thetagang]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-04-15 15:08:20] INFO root fetch - processPackages [tecton]: New version: [0.9.0rc4] Old Version: [0.9.0rc3]
+[2024-04-15 15:08:20] WARNING root fetch - processPackages [bluetti-mqtt-asyncio]: Skipping, unable to determine old version
+[2024-04-15 15:08:20] INFO root fetch - main [MainThread]: End processing [bluetti-mqtt-asyncio] error
+[2024-04-15 15:08:20] INFO root fetch - processPackages [kiara]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-15 15:08:21] INFO root fetch - processPackages [ParendumLib]: Downloading https://files.pythonhosted.org/packages/8b/21/9a6aa3e314b67367ff0ab2ffea5277cff8e76cfc439396c9923c785355a6/ParendumLib-0.1.9.tar.gz
+[2024-04-15 15:08:21] INFO root fetch - processPackages [ResearchTikPy]: Downloading https://files.pythonhosted.org/packages/c5/99/659081542c6a023f07966c4effdb221665369440f311234656565ea394a1/researchtikpy-0.1.4.tar.gz
+[2024-04-15 15:08:21] INFO root fetch - processPackages [tecton]: Downloading https://files.pythonhosted.org/packages/56/67/d7d5672a602250dee16a33e4280e55d3be0c150a59371333cefcc171fab7/tecton-0.9.0rc3.tar.gz
+[2024-04-15 15:08:21] INFO root fetch - processPackages [thetagang]: Downloading https://files.pythonhosted.org/packages/c3/81/bed4ae5fe8c048927d8bf24dda2a12ac84424d502ed67789c32f3cd62652/thetagang-1.9.1.tar.gz
+[2024-04-15 15:08:21] INFO root fetch - processPackages [kiara]: Downloading https://files.pythonhosted.org/packages/1f/db/10494e32863f3695390a542bc62646288a1c8cdd42cac212122562d847df/kiara-0.5.8.tar.gz
+[2024-04-15 15:08:21] INFO root fetch - processPackages [ParendumLib]: executing diffoscope
+[2024-04-15 15:08:21] INFO root fetch - processPackages [ParendumLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ParendumLib-0.1.8.tar.gz tmp/ParendumLib-0.1.9.tar.gz --markdown 20240415/P/ParendumLib/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-15 15:08:21] INFO root fetch - processPackages [ResearchTikPy]: Downloading https://files.pythonhosted.org/packages/72/35/a15ceadc62e419cfd8874495125c5734ac597c02896892528e87b15c2107/researchtikpy-0.1.6.tar.gz
+[2024-04-15 15:08:21] INFO root fetch - processPackages [thetagang]: Downloading https://files.pythonhosted.org/packages/6f/75/13394ee5cfcc3962344a6d36db6277456f865084f8942bf7eb6e6aa95cce/thetagang-1.9.2.tar.gz
+[2024-04-15 15:08:21] INFO root fetch - processPackages [kiara]: Downloading https://files.pythonhosted.org/packages/0d/8d/03683bc8d1ea391f9eb521c6c3da0725b0f8397246e6fe734b47d7afa005/kiara-0.5.9.tar.gz
+[2024-04-15 15:08:21] INFO root fetch - processPackages [thetagang]: executing diffoscope
+[2024-04-15 15:08:21] INFO root fetch - processPackages [thetagang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thetagang-1.9.1.tar.gz tmp/thetagang-1.9.2.tar.gz --markdown 20240415/t/thetagang/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-04-15 15:08:21] INFO root fetch - processPackages [ResearchTikPy]: executing diffoscope
+[2024-04-15 15:08:21] INFO root fetch - processPackages [ResearchTikPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/researchtikpy-0.1.4.tar.gz tmp/researchtikpy-0.1.6.tar.gz --markdown 20240415/R/ResearchTikPy/0.1.4-0.1.6/README.md --exclude *.pyd
+[2024-04-15 15:08:21] INFO root fetch - processPackages [ParendumLib]: Remove: archive file [/home/abi/fetcher/tmp/ParendumLib-0.1.8.tar.gz]
+[2024-04-15 15:08:21] INFO root fetch - processPackages [ParendumLib]: Remove: archive file [/home/abi/fetcher/tmp/ParendumLib-0.1.9.tar.gz]
+[2024-04-15 15:08:21] INFO root fetch - main [MainThread]: End processing [ParendumLib]: success
+[2024-04-15 15:08:21] INFO root fetch - processPackages [kiara]: executing diffoscope
+[2024-04-15 15:08:21] INFO root fetch - processPackages [kiara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiara-0.5.8.tar.gz tmp/kiara-0.5.9.tar.gz --markdown 20240415/k/kiara/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-04-15 15:08:21] INFO root fetch - processPackages [tecton]: Downloading https://files.pythonhosted.org/packages/ee/f8/5fe3af4429cd4d8c6e3c285d58e482c6e4a15f2ffd28bd9c32075939d341/tecton-0.9.0rc4.tar.gz
+[2024-04-15 15:08:22] INFO root fetch - processPackages [tecton]: executing diffoscope
+[2024-04-15 15:08:22] INFO root fetch - processPackages [tecton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tecton-0.9.0rc3.tar.gz tmp/tecton-0.9.0rc4.tar.gz --markdown 20240415/t/tecton/0.9.0rc3-0.9.0rc4/README.md --exclude *.pyd
+[2024-04-15 15:08:22] INFO root fetch - processPackages [thetagang]: Remove: archive file [/home/abi/fetcher/tmp/thetagang-1.9.1.tar.gz]
+[2024-04-15 15:08:22] INFO root fetch - processPackages [thetagang]: Remove: archive file [/home/abi/fetcher/tmp/thetagang-1.9.2.tar.gz]
+[2024-04-15 15:08:22] INFO root fetch - main [MainThread]: End processing [thetagang]: success
+[2024-04-15 15:08:22] INFO root fetch - processPackages [ResearchTikPy]: Remove: archive file [/home/abi/fetcher/tmp/researchtikpy-0.1.4.tar.gz]
+[2024-04-15 15:08:22] INFO root fetch - processPackages [ResearchTikPy]: Remove: archive file [/home/abi/fetcher/tmp/researchtikpy-0.1.6.tar.gz]
+[2024-04-15 15:08:22] INFO root fetch - main [MainThread]: End processing [ResearchTikPy]: success
+[2024-04-15 15:08:23] INFO root fetch - processPackages [kiara]: Remove: archive file [/home/abi/fetcher/tmp/kiara-0.5.8.tar.gz]
+[2024-04-15 15:08:23] INFO root fetch - processPackages [kiara]: Remove: archive file [/home/abi/fetcher/tmp/kiara-0.5.9.tar.gz]
+[2024-04-15 15:08:23] INFO root fetch - main [MainThread]: End processing [kiara]: success
+[2024-04-15 15:08:24] INFO root fetch - processPackages [tecton]: Remove: archive file [/home/abi/fetcher/tmp/tecton-0.9.0rc3.tar.gz]
+[2024-04-15 15:08:24] INFO root fetch - processPackages [tecton]: Remove: archive file [/home/abi/fetcher/tmp/tecton-0.9.0rc4.tar.gz]
+[2024-04-15 15:08:24] INFO root fetch - main [MainThread]: End processing [tecton]: success
+[2024-04-15 15:08:24] INFO root fetch - main [MainThread]: Store serial: [22771490]
