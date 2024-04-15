@@ -3644,3 +3644,42 @@
 [2024-04-15 04:55:52] WARNING root fetch - processPackages [spu]: Skipping package: exceeds size limit 36398765>=10485760
 [2024-04-15 04:55:52] INFO root fetch - main [MainThread]: End processing [spu] error
 [2024-04-15 04:55:52] INFO root fetch - main [MainThread]: Store serial: [22764858]
+[2024-04-15 04:57:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22764858]
+[2024-04-15 04:58:01] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-15 04:58:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fancy-dataclass
+[2024-04-15 04:58:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FactScoreLite
+[2024-04-15 04:58:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mystring
+[2024-04-15 04:58:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: database-common-tools
+[2024-04-15 04:58:01] INFO root fetch - processPackages [mystring]: New version: [0.2.99] Old Version: [0.2.98]
+[2024-04-15 04:58:01] INFO root fetch - processPackages [fancy-dataclass]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-15 04:58:01] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/88/05/d0d140db04c0b270b7380359ce66dc3b26477e6b13a36cd8ced2e0442041/mystring-0.2.98-py3-none-any.whl
+[2024-04-15 04:58:01] INFO root fetch - processPackages [FactScoreLite]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-15 04:58:01] INFO root fetch - processPackages [database-common-tools]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-04-15 04:58:01] INFO root fetch - processPackages [fancy-dataclass]: Downloading https://files.pythonhosted.org/packages/23/1f/2ed2443326f8d676a801c3d51b95d85ad8640a316d06dfe62aa7ae5d63c8/fancy_dataclass-0.2.0.tar.gz
+[2024-04-15 04:58:01] INFO root fetch - processPackages [FactScoreLite]: Downloading https://files.pythonhosted.org/packages/42/5a/92cd0e51e82d1abf7945233647667bf258e6bb0fef03373d6b68dce4c280/factscorelite-1.0.0.tar.gz
+[2024-04-15 04:58:01] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/fa/f7/968c4dde1769f6b1b7f54bedafe67abf4ae2c5ff261eaed5f05032e85e87/mystring-0.2.99-py3-none-any.whl
+[2024-04-15 04:58:01] INFO root fetch - processPackages [database-common-tools]: Downloading https://files.pythonhosted.org/packages/67/e5/79f81765ddffc99d538e0c941bfff0c246a22a5f0272415d05cf9f362912/database-common-tools-1.0.6.tar.gz
+[2024-04-15 04:58:01] INFO root fetch - processPackages [mystring]: executing diffoscope
+[2024-04-15 04:58:01] INFO root fetch - processPackages [mystring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mystring-0.2.98-py3-none-any.whl.zip tmp/mystring-0.2.99-py3-none-any.whl.zip --markdown 20240415/m/mystring/0.2.98-0.2.99/README.md --exclude *.pyd
+[2024-04-15 04:58:01] INFO root fetch - processPackages [FactScoreLite]: Downloading https://files.pythonhosted.org/packages/9a/f5/535060dc1f9a1069a77a214d2e53ebd02b4ff20b6c83b4df0a8013ddd7da/factscorelite-1.0.1.tar.gz
+[2024-04-15 04:58:01] INFO root fetch - processPackages [database-common-tools]: Downloading https://files.pythonhosted.org/packages/2a/95/a024131efacb73e6db7d6f6a98d0e496389c27a5c51866ad4197129891ee/database-common-tools-1.0.7.tar.gz
+[2024-04-15 04:58:01] INFO root fetch - processPackages [fancy-dataclass]: Downloading https://files.pythonhosted.org/packages/76/39/4b57b2d64d89d9cb9f557d2641a5ce051e267edaa3a19af960d0ebdc777b/fancy_dataclass-0.3.0.tar.gz
+[2024-04-15 04:58:02] INFO root fetch - processPackages [FactScoreLite]: executing diffoscope
+[2024-04-15 04:58:02] INFO root fetch - processPackages [FactScoreLite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/factscorelite-1.0.0.tar.gz tmp/factscorelite-1.0.1.tar.gz --markdown 20240415/F/FactScoreLite/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-15 04:58:02] INFO root fetch - processPackages [database-common-tools]: executing diffoscope
+[2024-04-15 04:58:02] INFO root fetch - processPackages [database-common-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/database-common-tools-1.0.6.tar.gz tmp/database-common-tools-1.0.7.tar.gz --markdown 20240415/d/database-common-tools/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-04-15 04:58:02] INFO root fetch - processPackages [fancy-dataclass]: executing diffoscope
+[2024-04-15 04:58:02] INFO root fetch - processPackages [fancy-dataclass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fancy_dataclass-0.2.0.tar.gz tmp/fancy_dataclass-0.3.0.tar.gz --markdown 20240415/f/fancy-dataclass/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-04-15 04:58:02] INFO root fetch - processPackages [mystring]: Remove: archive file [/home/abi/fetcher/tmp/mystring-0.2.98-py3-none-any.whl.zip]
+[2024-04-15 04:58:02] INFO root fetch - processPackages [mystring]: Remove: archive file [/home/abi/fetcher/tmp/mystring-0.2.99-py3-none-any.whl.zip]
+[2024-04-15 04:58:02] INFO root fetch - main [MainThread]: End processing [mystring]: success
+[2024-04-15 04:58:02] INFO root fetch - processPackages [database-common-tools]: Remove: archive file [/home/abi/fetcher/tmp/database-common-tools-1.0.6.tar.gz]
+[2024-04-15 04:58:02] INFO root fetch - processPackages [database-common-tools]: Remove: archive file [/home/abi/fetcher/tmp/database-common-tools-1.0.7.tar.gz]
+[2024-04-15 04:58:02] INFO root fetch - main [MainThread]: End processing [database-common-tools]: success
+[2024-04-15 04:58:02] INFO root fetch - processPackages [FactScoreLite]: Remove: archive file [/home/abi/fetcher/tmp/factscorelite-1.0.0.tar.gz]
+[2024-04-15 04:58:02] INFO root fetch - processPackages [FactScoreLite]: Remove: archive file [/home/abi/fetcher/tmp/factscorelite-1.0.1.tar.gz]
+[2024-04-15 04:58:02] INFO root fetch - main [MainThread]: End processing [FactScoreLite]: success
+[2024-04-15 04:58:04] INFO root fetch - processPackages [fancy-dataclass]: Remove: archive file [/home/abi/fetcher/tmp/fancy_dataclass-0.2.0.tar.gz]
+[2024-04-15 04:58:04] INFO root fetch - processPackages [fancy-dataclass]: Remove: archive file [/home/abi/fetcher/tmp/fancy_dataclass-0.3.0.tar.gz]
+[2024-04-15 04:58:04] INFO root fetch - main [MainThread]: End processing [fancy-dataclass]: success
+[2024-04-15 04:58:04] INFO root fetch - main [MainThread]: Store serial: [22764868]
