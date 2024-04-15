@@ -7781,3 +7781,24 @@
 [2024-04-15 07:34:26] INFO root fetch - processPackages [finter]: Remove: archive file [/home/abi/fetcher/tmp/finter-0.2.0-py3-none-any.whl.zip]
 [2024-04-15 07:34:26] INFO root fetch - main [MainThread]: End processing [finter]: success
 [2024-04-15 07:34:26] INFO root fetch - main [MainThread]: Store serial: [22766334]
+[2024-04-15 07:36:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22766334]
+[2024-04-15 07:36:35] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-15 07:36:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flake8-no-else
+[2024-04-15 07:36:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scatter-append
+[2024-04-15 07:36:35] INFO root fetch - processPackages [flake8-no-else]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-15 07:36:35] INFO root fetch - processPackages [scatter-append]: New version: [0.2] Old Version: [0.1]
+[2024-04-15 07:36:35] INFO root fetch - processPackages [scatter-append]: Downloading https://files.pythonhosted.org/packages/ef/a5/c9fe118a0787d4b81d7ecfe0f467d2971af6176da631a52e34f969e72ea6/scatter_append-0.1.tar.gz
+[2024-04-15 07:36:35] INFO root fetch - processPackages [scatter-append]: Downloading https://files.pythonhosted.org/packages/4e/51/956a34e6e613d91b95419353b665159d66d25dbe2403b28dfbba8ab4cb28/scatter_append-0.2.tar.gz
+[2024-04-15 07:36:35] INFO root fetch - processPackages [flake8-no-else]: Downloading https://files.pythonhosted.org/packages/d7/2d/068a52c51d69fc47389492d65eb5fb55e069dabc4aaf545430a6f27568d1/flake8_no_else-0.1.0.tar.gz
+[2024-04-15 07:36:35] INFO root fetch - processPackages [scatter-append]: executing diffoscope
+[2024-04-15 07:36:35] INFO root fetch - processPackages [scatter-append]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scatter_append-0.1.tar.gz tmp/scatter_append-0.2.tar.gz --markdown 20240415/s/scatter-append/0.1-0.2/README.md --exclude *.pyd
+[2024-04-15 07:36:36] INFO root fetch - processPackages [flake8-no-else]: Downloading https://files.pythonhosted.org/packages/dc/55/2a3f795a280bcb8052dc0d61246fe435f8ef25ac8a93237a304bc4922918/flake8_no_else-0.1.1.tar.gz
+[2024-04-15 07:36:36] INFO root fetch - processPackages [flake8-no-else]: executing diffoscope
+[2024-04-15 07:36:36] INFO root fetch - processPackages [flake8-no-else]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flake8_no_else-0.1.0.tar.gz tmp/flake8_no_else-0.1.1.tar.gz --markdown 20240415/f/flake8-no-else/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-15 07:36:36] INFO root fetch - processPackages [scatter-append]: Remove: archive file [/home/abi/fetcher/tmp/scatter_append-0.1.tar.gz]
+[2024-04-15 07:36:36] INFO root fetch - processPackages [scatter-append]: Remove: archive file [/home/abi/fetcher/tmp/scatter_append-0.2.tar.gz]
+[2024-04-15 07:36:36] INFO root fetch - main [MainThread]: End processing [scatter-append]: success
+[2024-04-15 07:36:36] INFO root fetch - processPackages [flake8-no-else]: Remove: archive file [/home/abi/fetcher/tmp/flake8_no_else-0.1.0.tar.gz]
+[2024-04-15 07:36:36] INFO root fetch - processPackages [flake8-no-else]: Remove: archive file [/home/abi/fetcher/tmp/flake8_no_else-0.1.1.tar.gz]
+[2024-04-15 07:36:36] INFO root fetch - main [MainThread]: End processing [flake8-no-else]: success
+[2024-04-15 07:36:36] INFO root fetch - main [MainThread]: Store serial: [22766339]
