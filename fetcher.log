@@ -24451,3 +24451,63 @@ EOFError: EOF read where object expected
 [2024-04-15 17:20:03] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.89.9.tar.gz]
 [2024-04-15 17:20:03] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
 [2024-04-15 17:20:03] INFO root fetch - main [MainThread]: Store serial: [22773621]
+[2024-04-15 17:22:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22773621]
+[2024-04-15 17:22:13] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-15 17:22:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyguiadapter
+[2024-04-15 17:22:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyplotlib
+[2024-04-15 17:22:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nacl-middleware
+[2024-04-15 17:22:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: detoxio-dtx
+[2024-04-15 17:22:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kitetrader
+[2024-04-15 17:22:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jocv
+[2024-04-15 17:22:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pixpy
+[2024-04-15 17:22:14] INFO root fetch - processPackages [pyplotlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-15 17:22:14] INFO root fetch - processPackages [nacl-middleware]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-15 17:22:14] INFO root fetch - processPackages [detoxio-dtx]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-15 17:22:14] INFO root fetch - processPackages [pyguiadapter]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-15 17:22:14] WARNING root fetch - processPackages [jocv]: Skipping, unable to determine old version
+[2024-04-15 17:22:14] INFO root fetch - main [MainThread]: End processing [jocv] error
+[2024-04-15 17:22:14] INFO root fetch - processPackages [pyplotlib]: Downloading https://files.pythonhosted.org/packages/28/bb/58ba19c8fed8024ef2c0efd0523dded73560d64857fcd7916d35aa6aa8af/pyplotlib-0.0.8.tar.gz
+[2024-04-15 17:22:14] INFO root fetch - processPackages [kitetrader]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-04-15 17:22:14] INFO root fetch - processPackages [pixpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-15 17:22:14] INFO root fetch - processPackages [nacl-middleware]: Downloading https://files.pythonhosted.org/packages/41/cf/15a8833f5c166b886d70ae70d906dcffce99c256c748380b50083a6466c2/nacl_middleware-0.0.6.tar.gz
+[2024-04-15 17:22:14] INFO root fetch - processPackages [detoxio-dtx]: Downloading https://files.pythonhosted.org/packages/0d/fa/64a385d89adac70dafcd61e05ed4a532a2ab85647c8bb466585e83b0f7f2/detoxio_dtx-0.1.2.tar.gz
+[2024-04-15 17:22:14] INFO root fetch - processPackages [pyguiadapter]: Downloading https://files.pythonhosted.org/packages/63/70/e1d55956ecbc1c69b82b6b56ac1401fd0767a68b6719791fbc02a0c7f16e/pyguiadapter-0.2.8.tar.gz
+[2024-04-15 17:22:14] INFO root fetch - processPackages [kitetrader]: Downloading https://files.pythonhosted.org/packages/be/f6/af9ace559ccae88c4253599e34d311574e2557dbc5e484dc5b818ef390ba/kitetrader-2.0.0.tar.gz
+[2024-04-15 17:22:14] INFO root fetch - processPackages [pyplotlib]: Downloading https://files.pythonhosted.org/packages/8b/f8/1cec6ba77c9aee645ad1564c6fe928db135b36bec387a9574c6422edd191/pyplotlib-0.0.9.tar.gz
+[2024-04-15 17:22:14] INFO root fetch - processPackages [pyplotlib]: executing diffoscope
+[2024-04-15 17:22:14] INFO root fetch - processPackages [pyplotlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyplotlib-0.0.8.tar.gz tmp/pyplotlib-0.0.9.tar.gz --markdown 20240415/p/pyplotlib/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-15 17:22:14] INFO root fetch - processPackages [pixpy]: Downloading https://files.pythonhosted.org/packages/ba/88/b98d628a9be58e340a6c92a7060e4e6264a01c3c71e2c458129804183864/pixpy-0.1.8.tar.gz
+[2024-04-15 17:22:14] INFO root fetch - processPackages [detoxio-dtx]: Downloading https://files.pythonhosted.org/packages/a1/01/20c8fbb0a65e4a3f2b2d29794073eb6d1753f3d23ad015564cdd76667dc0/detoxio_dtx-0.1.3.tar.gz
+[2024-04-15 17:22:14] INFO root fetch - processPackages [nacl-middleware]: Downloading https://files.pythonhosted.org/packages/e6/2b/5318d573899098b79d44ff2cd9b2711dc5af437c661dd4c7c7efa53e32ee/nacl_middleware-0.0.7.tar.gz
+[2024-04-15 17:22:14] INFO root fetch - processPackages [pyguiadapter]: Downloading https://files.pythonhosted.org/packages/70/0c/139e08664e09a36f6be946b9da6bbd901fb3f580d61247274ec28cc5b2e9/pyguiadapter-0.2.9.tar.gz
+[2024-04-15 17:22:14] INFO root fetch - processPackages [kitetrader]: Downloading https://files.pythonhosted.org/packages/bf/3f/0e1233ee28a9797ab0fe5deaba0b2e57cdfb6cd947c5cfdeabb1ddf59cb9/kitetrader-2.1.0.tar.gz
+[2024-04-15 17:22:14] INFO root fetch - processPackages [detoxio-dtx]: executing diffoscope
+[2024-04-15 17:22:14] INFO root fetch - processPackages [detoxio-dtx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/detoxio_dtx-0.1.2.tar.gz tmp/detoxio_dtx-0.1.3.tar.gz --markdown 20240415/d/detoxio-dtx/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-15 17:22:14] INFO root fetch - processPackages [nacl-middleware]: executing diffoscope
+[2024-04-15 17:22:14] INFO root fetch - processPackages [nacl-middleware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nacl_middleware-0.0.6.tar.gz tmp/nacl_middleware-0.0.7.tar.gz --markdown 20240415/n/nacl-middleware/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-15 17:22:15] INFO root fetch - processPackages [pyguiadapter]: executing diffoscope
+[2024-04-15 17:22:15] INFO root fetch - processPackages [pyguiadapter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyguiadapter-0.2.8.tar.gz tmp/pyguiadapter-0.2.9.tar.gz --markdown 20240415/p/pyguiadapter/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-15 17:22:15] INFO root fetch - processPackages [kitetrader]: executing diffoscope
+[2024-04-15 17:22:15] INFO root fetch - processPackages [kitetrader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kitetrader-2.0.0.tar.gz tmp/kitetrader-2.1.0.tar.gz --markdown 20240415/k/kitetrader/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-04-15 17:22:15] INFO root fetch - processPackages [pixpy]: Downloading https://files.pythonhosted.org/packages/2a/13/45daae00c65f0dd96baebfbc12d0e2046349c51c9b20b8f38b1cbe9b3623/pixpy-0.1.9.tar.gz
+[2024-04-15 17:22:15] INFO root fetch - processPackages [pyplotlib]: Remove: archive file [/home/abi/fetcher/tmp/pyplotlib-0.0.8.tar.gz]
+[2024-04-15 17:22:15] INFO root fetch - processPackages [pyplotlib]: Remove: archive file [/home/abi/fetcher/tmp/pyplotlib-0.0.9.tar.gz]
+[2024-04-15 17:22:15] INFO root fetch - main [MainThread]: End processing [pyplotlib]: success
+[2024-04-15 17:22:15] INFO root fetch - processPackages [pixpy]: executing diffoscope
+[2024-04-15 17:22:15] INFO root fetch - processPackages [pixpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pixpy-0.1.8.tar.gz tmp/pixpy-0.1.9.tar.gz --markdown 20240415/p/pixpy/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-15 17:22:15] INFO root fetch - processPackages [detoxio-dtx]: Remove: archive file [/home/abi/fetcher/tmp/detoxio_dtx-0.1.2.tar.gz]
+[2024-04-15 17:22:15] INFO root fetch - processPackages [detoxio-dtx]: Remove: archive file [/home/abi/fetcher/tmp/detoxio_dtx-0.1.3.tar.gz]
+[2024-04-15 17:22:15] INFO root fetch - main [MainThread]: End processing [detoxio-dtx]: success
+[2024-04-15 17:22:15] INFO root fetch - processPackages [nacl-middleware]: Remove: archive file [/home/abi/fetcher/tmp/nacl_middleware-0.0.6.tar.gz]
+[2024-04-15 17:22:15] INFO root fetch - processPackages [nacl-middleware]: Remove: archive file [/home/abi/fetcher/tmp/nacl_middleware-0.0.7.tar.gz]
+[2024-04-15 17:22:15] INFO root fetch - main [MainThread]: End processing [nacl-middleware]: success
+[2024-04-15 17:22:15] INFO root fetch - processPackages [kitetrader]: Remove: archive file [/home/abi/fetcher/tmp/kitetrader-2.0.0.tar.gz]
+[2024-04-15 17:22:15] INFO root fetch - processPackages [kitetrader]: Remove: archive file [/home/abi/fetcher/tmp/kitetrader-2.1.0.tar.gz]
+[2024-04-15 17:22:15] INFO root fetch - main [MainThread]: End processing [kitetrader]: success
+[2024-04-15 17:22:16] INFO root fetch - processPackages [pyguiadapter]: Remove: archive file [/home/abi/fetcher/tmp/pyguiadapter-0.2.8.tar.gz]
+[2024-04-15 17:22:16] INFO root fetch - processPackages [pyguiadapter]: Remove: archive file [/home/abi/fetcher/tmp/pyguiadapter-0.2.9.tar.gz]
+[2024-04-15 17:22:16] INFO root fetch - main [MainThread]: End processing [pyguiadapter]: success
+[2024-04-15 17:22:16] INFO root fetch - processPackages [pixpy]: Remove: archive file [/home/abi/fetcher/tmp/pixpy-0.1.8.tar.gz]
+[2024-04-15 17:22:16] INFO root fetch - processPackages [pixpy]: Remove: archive file [/home/abi/fetcher/tmp/pixpy-0.1.9.tar.gz]
+[2024-04-15 17:22:16] INFO root fetch - main [MainThread]: End processing [pixpy]: success
+[2024-04-15 17:22:16] INFO root fetch - main [MainThread]: Store serial: [22773675]
