@@ -20630,3 +20630,51 @@ EOFError: EOF read where object expected
 [2024-04-15 15:44:17] INFO root fetch - processPackages [zrb-extras]: Remove: archive file [/home/abi/fetcher/tmp/zrb_extras-0.0.3.tar.gz]
 [2024-04-15 15:44:17] INFO root fetch - main [MainThread]: End processing [zrb-extras]: success
 [2024-04-15 15:44:17] INFO root fetch - main [MainThread]: Store serial: [22771948]
+[2024-04-15 15:46:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22771948]
+[2024-04-15 15:46:27] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-15 15:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dsp-ifsc
+[2024-04-15 15:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: anls-star
+[2024-04-15 15:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: matplotlib-inline
+[2024-04-15 15:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MindsDB
+[2024-04-15 15:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: updes
+[2024-04-15 15:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: danila-lib
+[2024-04-15 15:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: selfpkg
+[2024-04-15 15:46:27] INFO root fetch - processPackages [dsp-ifsc]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-15 15:46:27] INFO root fetch - processPackages [matplotlib-inline]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-15 15:46:27] ERROR root fetch - processPackages [selfpkg]: Unable to get metadata: No such project 'selfpkg'
+[2024-04-15 15:46:27] INFO root fetch - main [MainThread]: End processing [selfpkg] error
+[2024-04-15 15:46:27] INFO root fetch - processPackages [anls-star]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-15 15:46:27] WARNING root fetch - processPackages [danila-lib]: Skipping, unable to determine old version
+[2024-04-15 15:46:27] INFO root fetch - main [MainThread]: End processing [danila-lib] error
+[2024-04-15 15:46:27] WARNING root fetch - processPackages [updes]: Skipping, unable to determine old version
+[2024-04-15 15:46:27] INFO root fetch - main [MainThread]: End processing [updes] error
+[2024-04-15 15:46:27] INFO root fetch - processPackages [matplotlib-inline]: Downloading https://files.pythonhosted.org/packages/d9/50/3af8c0362f26108e54d58c7f38784a3bdae6b9a450bab48ee8482d737f44/matplotlib-inline-0.1.6.tar.gz
+[2024-04-15 15:46:27] INFO root fetch - processPackages [dsp-ifsc]: Downloading https://files.pythonhosted.org/packages/8b/f2/e6fcc71a976cf06664dcb193d0668105fef3f23881e4da1fbec2331de6e9/dsp_ifsc-0.0.8.tar.gz
+[2024-04-15 15:46:27] INFO root fetch - processPackages [MindsDB]: New version: [24.4.3.0] Old Version: [24.4.2.1]
+[2024-04-15 15:46:27] INFO root fetch - processPackages [anls-star]: Downloading https://files.pythonhosted.org/packages/71/e0/70bcb979a0d80ee4fe6c97255cdafeefbf4d2670f3eed3a93a3b83242048/anls_star-0.0.6.tar.gz
+[2024-04-15 15:46:27] INFO root fetch - processPackages [dsp-ifsc]: Downloading https://files.pythonhosted.org/packages/ed/49/f48cf94d0bbae49db47713e9af8d624ebe2c009f759a3643cd58d813a0c6/dsp_ifsc-0.0.9.tar.gz
+[2024-04-15 15:46:27] INFO root fetch - processPackages [MindsDB]: Downloading https://files.pythonhosted.org/packages/1d/6f/fade88c1bb3ff7ece6243ab79f019edff82377158744e9c87fd0e9c86e85/MindsDB-24.4.2.1.tar.gz
+[2024-04-15 15:46:27] INFO root fetch - processPackages [matplotlib-inline]: Downloading https://files.pythonhosted.org/packages/99/5b/a36a337438a14116b16480db471ad061c36c3694df7c2084a0da7ba538b7/matplotlib_inline-0.1.7.tar.gz
+[2024-04-15 15:46:27] INFO root fetch - processPackages [dsp-ifsc]: executing diffoscope
+[2024-04-15 15:46:27] INFO root fetch - processPackages [dsp-ifsc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsp_ifsc-0.0.8.tar.gz tmp/dsp_ifsc-0.0.9.tar.gz --markdown 20240415/d/dsp-ifsc/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-15 15:46:28] INFO root fetch - processPackages [anls-star]: Downloading https://files.pythonhosted.org/packages/9a/e3/df8227c813d9fb25806b3816e5d714542d7989a31c4eb9b874a78b292773/anls_star-0.0.7.tar.gz
+[2024-04-15 15:46:28] INFO root fetch - processPackages [matplotlib-inline]: executing diffoscope
+[2024-04-15 15:46:28] INFO root fetch - processPackages [matplotlib-inline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matplotlib-inline-0.1.6.tar.gz tmp/matplotlib_inline-0.1.7.tar.gz --markdown 20240415/m/matplotlib-inline/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-15 15:46:28] INFO root fetch - processPackages [anls-star]: executing diffoscope
+[2024-04-15 15:46:28] INFO root fetch - processPackages [anls-star]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anls_star-0.0.6.tar.gz tmp/anls_star-0.0.7.tar.gz --markdown 20240415/a/anls-star/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-15 15:46:28] INFO root fetch - processPackages [dsp-ifsc]: Remove: archive file [/home/abi/fetcher/tmp/dsp_ifsc-0.0.8.tar.gz]
+[2024-04-15 15:46:28] INFO root fetch - processPackages [dsp-ifsc]: Remove: archive file [/home/abi/fetcher/tmp/dsp_ifsc-0.0.9.tar.gz]
+[2024-04-15 15:46:28] INFO root fetch - main [MainThread]: End processing [dsp-ifsc]: success
+[2024-04-15 15:46:28] INFO root fetch - processPackages [MindsDB]: Downloading https://files.pythonhosted.org/packages/09/cd/6115da8dea77e2c43121f157990c2bae981cf10f4f3de7159c921919cad2/MindsDB-24.4.3.0.tar.gz
+[2024-04-15 15:46:28] INFO root fetch - processPackages [matplotlib-inline]: Remove: archive file [/home/abi/fetcher/tmp/matplotlib-inline-0.1.6.tar.gz]
+[2024-04-15 15:46:28] INFO root fetch - processPackages [matplotlib-inline]: Remove: archive file [/home/abi/fetcher/tmp/matplotlib_inline-0.1.7.tar.gz]
+[2024-04-15 15:46:28] INFO root fetch - main [MainThread]: End processing [matplotlib-inline]: success
+[2024-04-15 15:46:28] INFO root fetch - processPackages [anls-star]: Remove: archive file [/home/abi/fetcher/tmp/anls_star-0.0.6.tar.gz]
+[2024-04-15 15:46:28] INFO root fetch - processPackages [anls-star]: Remove: archive file [/home/abi/fetcher/tmp/anls_star-0.0.7.tar.gz]
+[2024-04-15 15:46:28] INFO root fetch - main [MainThread]: End processing [anls-star]: success
+[2024-04-15 15:46:29] INFO root fetch - processPackages [MindsDB]: executing diffoscope
+[2024-04-15 15:46:29] INFO root fetch - processPackages [MindsDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MindsDB-24.4.2.1.tar.gz tmp/MindsDB-24.4.3.0.tar.gz --markdown 20240415/M/MindsDB/24.4.2.1-24.4.3.0/README.md --exclude *.pyd
+[2024-04-15 15:46:34] INFO root fetch - processPackages [MindsDB]: Remove: archive file [/home/abi/fetcher/tmp/MindsDB-24.4.2.1.tar.gz]
+[2024-04-15 15:46:34] INFO root fetch - processPackages [MindsDB]: Remove: archive file [/home/abi/fetcher/tmp/MindsDB-24.4.3.0.tar.gz]
+[2024-04-15 15:46:34] INFO root fetch - main [MainThread]: End processing [MindsDB]: success
+[2024-04-15 15:46:34] INFO root fetch - main [MainThread]: Store serial: [22771975]
