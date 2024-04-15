@@ -2836,3 +2836,24 @@
 [2024-04-15 04:10:13] INFO root fetch - processPackages [soundtools]: Remove: archive file [/home/abi/fetcher/tmp/soundtools-0.2.0.1.tar.gz]
 [2024-04-15 04:10:13] INFO root fetch - main [MainThread]: End processing [soundtools]: success
 [2024-04-15 04:10:13] INFO root fetch - main [MainThread]: Store serial: [22764570]
+[2024-04-15 04:12:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22764570]
+[2024-04-15 04:12:21] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-15 04:12:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: s360tools
+[2024-04-15 04:12:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: telegram-collector
+[2024-04-15 04:12:21] INFO root fetch - processPackages [telegram-collector]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-04-15 04:12:21] INFO root fetch - processPackages [s360tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-15 04:12:21] INFO root fetch - processPackages [s360tools]: Downloading https://files.pythonhosted.org/packages/0d/7c/8be870f97f0339b8f2e7ace8fe106cac54ed02414402cee2c0b6a6752439/s360tools-0.1.8.tar.gz
+[2024-04-15 04:12:21] INFO root fetch - processPackages [telegram-collector]: Downloading https://files.pythonhosted.org/packages/3f/31/df0a84fc613d1db9c572264bd0d15f3479be0cdfe2c144ca003a96a049fc/telegram_collector-0.2.5.tar.gz
+[2024-04-15 04:12:22] INFO root fetch - processPackages [s360tools]: Downloading https://files.pythonhosted.org/packages/36/a7/b8ffea09fda00e3b858dd7c2d542c99922c6acee6cc2ab85d52ee832f477/s360tools-0.1.9.tar.gz
+[2024-04-15 04:12:22] INFO root fetch - processPackages [s360tools]: executing diffoscope
+[2024-04-15 04:12:22] INFO root fetch - processPackages [s360tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s360tools-0.1.8.tar.gz tmp/s360tools-0.1.9.tar.gz --markdown 20240415/s/s360tools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-15 04:12:22] INFO root fetch - processPackages [telegram-collector]: Downloading https://files.pythonhosted.org/packages/df/a4/936972ab71730558d650c99e63ac863e69353a396e996ccccaa2b08c5a70/telegram_collector-0.2.6.tar.gz
+[2024-04-15 04:12:22] INFO root fetch - processPackages [telegram-collector]: executing diffoscope
+[2024-04-15 04:12:22] INFO root fetch - processPackages [telegram-collector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegram_collector-0.2.5.tar.gz tmp/telegram_collector-0.2.6.tar.gz --markdown 20240415/t/telegram-collector/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-04-15 04:12:22] INFO root fetch - processPackages [s360tools]: Remove: archive file [/home/abi/fetcher/tmp/s360tools-0.1.8.tar.gz]
+[2024-04-15 04:12:22] INFO root fetch - processPackages [s360tools]: Remove: archive file [/home/abi/fetcher/tmp/s360tools-0.1.9.tar.gz]
+[2024-04-15 04:12:22] INFO root fetch - main [MainThread]: End processing [s360tools]: success
+[2024-04-15 04:12:22] INFO root fetch - processPackages [telegram-collector]: Remove: archive file [/home/abi/fetcher/tmp/telegram_collector-0.2.5.tar.gz]
+[2024-04-15 04:12:22] INFO root fetch - processPackages [telegram-collector]: Remove: archive file [/home/abi/fetcher/tmp/telegram_collector-0.2.6.tar.gz]
+[2024-04-15 04:12:22] INFO root fetch - main [MainThread]: End processing [telegram-collector]: success
+[2024-04-15 04:12:22] INFO root fetch - main [MainThread]: Store serial: [22764575]
