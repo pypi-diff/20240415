@@ -4390,3 +4390,33 @@
 [2024-04-15 05:44:03] INFO root fetch - processPackages [odoo-addon-fieldservice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice-17.0.1.1.0.5-py3-none-any.whl.zip]
 [2024-04-15 05:44:03] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice]: success
 [2024-04-15 05:44:03] INFO root fetch - main [MainThread]: Store serial: [22765149]
+[2024-04-15 05:46:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22765149]
+[2024-04-15 05:46:11] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-15 05:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: minitrade
+[2024-04-15 05:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: err-aprs-backend
+[2024-04-15 05:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: apexpro
+[2024-04-15 05:46:11] INFO root fetch - processPackages [err-aprs-backend]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-15 05:46:11] INFO root fetch - processPackages [minitrade]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-15 05:46:11] INFO root fetch - processPackages [apexpro]: New version: [1.2.0] Old Version: [1.1.9]
+[2024-04-15 05:46:12] INFO root fetch - processPackages [err-aprs-backend]: Downloading https://files.pythonhosted.org/packages/e6/01/b2e2de2e35f53e3cdb74ffc4b8295f2895556431fdd72ceb14a172e715ce/err_aprs_backend-0.1.0.tar.gz
+[2024-04-15 05:46:12] INFO root fetch - processPackages [minitrade]: Downloading https://files.pythonhosted.org/packages/5f/b2/f641ba28684c7fa8b23f530366cc52dff178045351134c33142d49317684/minitrade-0.1.8.tar.gz
+[2024-04-15 05:46:12] INFO root fetch - processPackages [apexpro]: Downloading https://files.pythonhosted.org/packages/29/59/3eda4f75d046a98a4dba322000752aadb7cb21900f0ff12dd1f1dc88fe33/apexpro-1.1.9.tar.gz
+[2024-04-15 05:46:12] INFO root fetch - processPackages [err-aprs-backend]: Downloading https://files.pythonhosted.org/packages/a2/36/654ea5dad7b6bc05b4317fd2a05816f47a19b704aabb4a71d19e61b26b22/err_aprs_backend-0.1.1.tar.gz
+[2024-04-15 05:46:12] INFO root fetch - processPackages [err-aprs-backend]: executing diffoscope
+[2024-04-15 05:46:12] INFO root fetch - processPackages [err-aprs-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/err_aprs_backend-0.1.0.tar.gz tmp/err_aprs_backend-0.1.1.tar.gz --markdown 20240415/e/err-aprs-backend/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-15 05:46:12] INFO root fetch - processPackages [apexpro]: Downloading https://files.pythonhosted.org/packages/c9/39/adb4d1427f85eb5f2144acf38672590d57a5eef39354bb3d80e4188e608b/apexpro-1.2.0.tar.gz
+[2024-04-15 05:46:12] INFO root fetch - processPackages [apexpro]: executing diffoscope
+[2024-04-15 05:46:12] INFO root fetch - processPackages [apexpro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apexpro-1.1.9.tar.gz tmp/apexpro-1.2.0.tar.gz --markdown 20240415/a/apexpro/1.1.9-1.2.0/README.md --exclude *.pyd
+[2024-04-15 05:46:13] INFO root fetch - processPackages [err-aprs-backend]: Remove: archive file [/home/abi/fetcher/tmp/err_aprs_backend-0.1.0.tar.gz]
+[2024-04-15 05:46:13] INFO root fetch - processPackages [err-aprs-backend]: Remove: archive file [/home/abi/fetcher/tmp/err_aprs_backend-0.1.1.tar.gz]
+[2024-04-15 05:46:13] INFO root fetch - main [MainThread]: End processing [err-aprs-backend]: success
+[2024-04-15 05:46:13] INFO root fetch - processPackages [minitrade]: Downloading https://files.pythonhosted.org/packages/8f/eb/d50633b35cb7154918ad47a8651b5cce6dbf62eaf0e1eabd97085addeae1/minitrade-0.1.9.tar.gz
+[2024-04-15 05:46:13] INFO root fetch - processPackages [apexpro]: Remove: archive file [/home/abi/fetcher/tmp/apexpro-1.1.9.tar.gz]
+[2024-04-15 05:46:13] INFO root fetch - processPackages [apexpro]: Remove: archive file [/home/abi/fetcher/tmp/apexpro-1.2.0.tar.gz]
+[2024-04-15 05:46:13] INFO root fetch - main [MainThread]: End processing [apexpro]: success
+[2024-04-15 05:46:13] INFO root fetch - processPackages [minitrade]: executing diffoscope
+[2024-04-15 05:46:13] INFO root fetch - processPackages [minitrade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minitrade-0.1.8.tar.gz tmp/minitrade-0.1.9.tar.gz --markdown 20240415/m/minitrade/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-15 05:46:14] INFO root fetch - processPackages [minitrade]: Remove: archive file [/home/abi/fetcher/tmp/minitrade-0.1.8.tar.gz]
+[2024-04-15 05:46:14] INFO root fetch - processPackages [minitrade]: Remove: archive file [/home/abi/fetcher/tmp/minitrade-0.1.9.tar.gz]
+[2024-04-15 05:46:14] INFO root fetch - main [MainThread]: End processing [minitrade]: success
+[2024-04-15 05:46:14] INFO root fetch - main [MainThread]: Store serial: [22765159]
