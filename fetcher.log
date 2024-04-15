@@ -10610,3 +10610,24 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 09:52:49] INFO root fetch - processPackages [radical.analytics]: Remove: archive file [/home/abi/fetcher/tmp/radical.analytics-1.6.7.tar.gz]
 [2024-04-15 09:52:49] INFO root fetch - main [MainThread]: End processing [radical.analytics]: success
 [2024-04-15 09:52:49] INFO root fetch - main [MainThread]: Store serial: [22767520]
+[2024-04-15 09:54:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22767520]
+[2024-04-15 09:54:57] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-15 09:54:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: radical.analytics
+[2024-04-15 09:54:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spetlr
+[2024-04-15 09:54:57] INFO root fetch - processPackages [radical.analytics]: New version: [1.6.7] Old Version: [1.5.0]
+[2024-04-15 09:54:57] INFO root fetch - processPackages [spetlr]: New version: [5.1.2] Old Version: [5.0.0]
+[2024-04-15 09:54:57] INFO root fetch - processPackages [radical.analytics]: Downloading https://files.pythonhosted.org/packages/7b/7c/1b8c292d299a1fb7d166102d20468f1201b41c673bc19d219d6c0b741b8c/radical.analytics-1.5.0.tar.gz
+[2024-04-15 09:54:58] INFO root fetch - processPackages [spetlr]: Downloading https://files.pythonhosted.org/packages/78/0b/f435d9125011b6581eefd3b6b3398578ae7490ffcdaa09df8a7f6e8471c4/spetlr-5.0.0.tar.gz
+[2024-04-15 09:54:58] INFO root fetch - processPackages [radical.analytics]: Downloading https://files.pythonhosted.org/packages/dd/ea/c60eeaf6b1275bfd4aa95f6d7e3b3969cfd767711c0f98183e5d86535c37/radical.analytics-1.6.7.tar.gz
+[2024-04-15 09:54:58] INFO root fetch - processPackages [radical.analytics]: executing diffoscope
+[2024-04-15 09:54:58] INFO root fetch - processPackages [radical.analytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radical.analytics-1.5.0.tar.gz tmp/radical.analytics-1.6.7.tar.gz --markdown 20240415/r/radical.analytics/1.5.0-1.6.7/README.md --exclude *.pyd
+[2024-04-15 09:54:58] INFO root fetch - processPackages [spetlr]: Downloading https://files.pythonhosted.org/packages/fc/99/8841bc6d1c6701608766b547a7ee915da3d37c4de4ac1698dfe2ecc8aa5c/spetlr-5.1.2.tar.gz
+[2024-04-15 09:54:58] INFO root fetch - processPackages [spetlr]: executing diffoscope
+[2024-04-15 09:54:58] INFO root fetch - processPackages [spetlr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spetlr-5.0.0.tar.gz tmp/spetlr-5.1.2.tar.gz --markdown 20240415/s/spetlr/5.0.0-5.1.2/README.md --exclude *.pyd
+[2024-04-15 09:54:59] INFO root fetch - processPackages [spetlr]: Remove: archive file [/home/abi/fetcher/tmp/spetlr-5.0.0.tar.gz]
+[2024-04-15 09:54:59] INFO root fetch - processPackages [spetlr]: Remove: archive file [/home/abi/fetcher/tmp/spetlr-5.1.2.tar.gz]
+[2024-04-15 09:54:59] INFO root fetch - main [MainThread]: End processing [spetlr]: success
+[2024-04-15 09:55:00] INFO root fetch - processPackages [radical.analytics]: Remove: archive file [/home/abi/fetcher/tmp/radical.analytics-1.5.0.tar.gz]
+[2024-04-15 09:55:00] INFO root fetch - processPackages [radical.analytics]: Remove: archive file [/home/abi/fetcher/tmp/radical.analytics-1.6.7.tar.gz]
+[2024-04-15 09:55:00] INFO root fetch - main [MainThread]: End processing [radical.analytics]: success
+[2024-04-15 09:55:00] INFO root fetch - main [MainThread]: Store serial: [22767525]
