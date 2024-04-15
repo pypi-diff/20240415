@@ -8572,3 +8572,66 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 08:22:49] WARNING root fetch - processPackages [cyzutils]: Skipping, unable to determine old version
 [2024-04-15 08:22:49] INFO root fetch - main [MainThread]: End processing [cyzutils] error
 [2024-04-15 08:22:49] INFO root fetch - main [MainThread]: Store serial: [22766626]
+[2024-04-15 08:24:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22766626]
+[2024-04-15 08:24:59] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-15 08:24:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sembansurga
+[2024-04-15 08:24:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pih-mark
+[2024-04-15 08:24:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bestnlp
+[2024-04-15 08:24:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sparrowApi
+[2024-04-15 08:24:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: remyxai
+[2024-04-15 08:24:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qontract-reconcile
+[2024-04-15 08:24:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fingerprintMatcher
+[2024-04-15 08:24:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sparrowDB
+[2024-04-15 08:24:59] INFO root fetch - processPackages [sembansurga]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-15 08:24:59] INFO root fetch - processPackages [fingerprintMatcher]: New version: [1.0.4] Old Version: [1.0.2]
+[2024-04-15 08:24:59] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-04-15 08:24:59] INFO root fetch - processPackages [fingerprintMatcher]: Downloading https://files.pythonhosted.org/packages/f0/bd/204aa070626e0434ceb4de73dbb03d7843b3254c1708637246c96bbab53a/fingerprintMatcher-1.0.2-py3-none-any.whl
+[2024-04-15 08:24:59] INFO root fetch - processPackages [pih-mark]: New version: [0.13] Old Version: [0.12]
+[2024-04-15 08:24:59] INFO root fetch - processPackages [bestnlp]: New version: [1.0.9] Old Version: [1.0.10]
+[2024-04-15 08:24:59] INFO root fetch - processPackages [remyxai]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-15 08:24:59] WARNING root fetch - processPackages [sparrowApi]: Skipping, unable to determine old version
+[2024-04-15 08:24:59] INFO root fetch - main [MainThread]: End processing [sparrowApi] error
+[2024-04-15 08:24:59] WARNING root fetch - processPackages [sparrowDB]: Skipping, unable to determine old version
+[2024-04-15 08:24:59] INFO root fetch - main [MainThread]: End processing [sparrowDB] error
+[2024-04-15 08:24:59] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-04-15 08:24:59] INFO root fetch - processPackages [sembansurga]: Downloading https://files.pythonhosted.org/packages/e0/58/b04adf5c23d495ea9745aa743d28565b223c5e82d58dd492f311b9e060b5/sembansurga-1.0.5.tar.gz
+[2024-04-15 08:25:00] INFO root fetch - processPackages [pih-mark]: Downloading https://files.pythonhosted.org/packages/95/ad/8867b6b604f03cba4672b50ccbd28931b15803cd59dbbf57a79440dd3079/pih_mark-0.13-py3-none-any.whl
+[2024-04-15 08:25:00] INFO root fetch - processPackages [bestnlp]: Downloading https://files.pythonhosted.org/packages/38/a1/fc3908a9e706e311262a58dc3b62a9906115ace1aad2b3314cf86ae6bee6/bestnlp-1.0.10-py3-none-any.whl
+[2024-04-15 08:25:00] INFO root fetch - processPackages [sembansurga]: Downloading https://files.pythonhosted.org/packages/46/44/f587a8d85d21746ce2e620e915529a8f99f6860e028d8bae5a7981ecd1b3/sembansurga-1.0.6.tar.gz
+[2024-04-15 08:25:00] INFO root fetch - processPackages [fingerprintMatcher]: Downloading https://files.pythonhosted.org/packages/74/b5/0649b86eb5e82fd450a46edf006c878e1f2e58ebb9107d7a7d6f4fecc6fc/fingerprintMatcher-1.0.4.tar.gz
+[2024-04-15 08:25:00] INFO root fetch - processPackages [sembansurga]: executing diffoscope
+[2024-04-15 08:25:00] INFO root fetch - processPackages [sembansurga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sembansurga-1.0.5.tar.gz tmp/sembansurga-1.0.6.tar.gz --markdown 20240415/s/sembansurga/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-04-15 08:25:00] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-04-15 08:25:00] INFO root fetch - processPackages [fingerprintMatcher]: executing diffoscope
+[2024-04-15 08:25:00] INFO root fetch - processPackages [fingerprintMatcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fingerprintMatcher-1.0.2-py3-none-any.whl.zip tmp/fingerprintMatcher-1.0.4.tar.gz --markdown 20240415/f/fingerprintMatcher/1.0.2-1.0.4/README.md --exclude *.pyd
+[2024-04-15 08:25:00] INFO root fetch - processPackages [remyxai]: Downloading https://files.pythonhosted.org/packages/a2/a0/387f52898e0584aca1d9df1f16ae963774350a7b8b27c468891597797344/remyxai-0.1.5-py3-none-any.whl
+[2024-04-15 08:25:00] INFO root fetch - processPackages [pih-mark]: Downloading https://files.pythonhosted.org/packages/04/8d/d262530868e701b9cde75598c5d944bd83663dadca54f7c652edb205a8fe/pih-mark-0.13.tar.gz
+[2024-04-15 08:25:00] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-04-15 08:25:00] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240415/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-04-15 08:25:00] INFO root fetch - processPackages [pih-mark]: executing diffoscope
+[2024-04-15 08:25:00] INFO root fetch - processPackages [pih-mark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih_mark-0.13-py3-none-any.whl.zip tmp/pih-mark-0.13.tar.gz --markdown 20240415/p/pih-mark/0.12-0.13/README.md --exclude *.pyd
+[2024-04-15 08:25:00] INFO root fetch - processPackages [remyxai]: Downloading https://files.pythonhosted.org/packages/a5/f7/82149fe19d0decc7803db17d2487e46fbc1f5f05aeac5488cbb0e9bd7b35/remyxai-0.1.6-py3-none-any.whl
+[2024-04-15 08:25:00] INFO root fetch - processPackages [bestnlp]: Downloading https://files.pythonhosted.org/packages/ef/e6/30f27d39bcb93de978ae18ba43e3e8dcbae798ac14077d4ae4d03ec12083/bestnlp-1.0.9-py3-none-any.whl
+[2024-04-15 08:25:00] INFO root fetch - processPackages [remyxai]: executing diffoscope
+[2024-04-15 08:25:00] INFO root fetch - processPackages [remyxai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remyxai-0.1.5-py3-none-any.whl.zip tmp/remyxai-0.1.6-py3-none-any.whl.zip --markdown 20240415/r/remyxai/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-15 08:25:00] INFO root fetch - processPackages [fingerprintMatcher]: Remove: archive file [/home/abi/fetcher/tmp/fingerprintMatcher-1.0.2-py3-none-any.whl.zip]
+[2024-04-15 08:25:00] INFO root fetch - processPackages [fingerprintMatcher]: Remove: archive file [/home/abi/fetcher/tmp/fingerprintMatcher-1.0.4.tar.gz]
+[2024-04-15 08:25:00] INFO root fetch - main [MainThread]: End processing [fingerprintMatcher]: success
+[2024-04-15 08:25:00] INFO root fetch - processPackages [bestnlp]: executing diffoscope
+[2024-04-15 08:25:00] INFO root fetch - processPackages [bestnlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bestnlp-1.0.10-py3-none-any.whl.zip tmp/bestnlp-1.0.9-py3-none-any.whl.zip --markdown 20240415/b/bestnlp/1.0.10-1.0.9/README.md --exclude *.pyd
+[2024-04-15 08:25:01] INFO root fetch - processPackages [sembansurga]: Remove: archive file [/home/abi/fetcher/tmp/sembansurga-1.0.5.tar.gz]
+[2024-04-15 08:25:01] INFO root fetch - processPackages [sembansurga]: Remove: archive file [/home/abi/fetcher/tmp/sembansurga-1.0.6.tar.gz]
+[2024-04-15 08:25:01] INFO root fetch - main [MainThread]: End processing [sembansurga]: success
+[2024-04-15 08:25:01] INFO root fetch - processPackages [pih-mark]: Remove: archive file [/home/abi/fetcher/tmp/pih_mark-0.13-py3-none-any.whl.zip]
+[2024-04-15 08:25:01] INFO root fetch - processPackages [pih-mark]: Remove: archive file [/home/abi/fetcher/tmp/pih-mark-0.13.tar.gz]
+[2024-04-15 08:25:01] INFO root fetch - main [MainThread]: End processing [pih-mark]: success
+[2024-04-15 08:25:01] INFO root fetch - processPackages [remyxai]: Remove: archive file [/home/abi/fetcher/tmp/remyxai-0.1.5-py3-none-any.whl.zip]
+[2024-04-15 08:25:01] INFO root fetch - processPackages [remyxai]: Remove: archive file [/home/abi/fetcher/tmp/remyxai-0.1.6-py3-none-any.whl.zip]
+[2024-04-15 08:25:01] INFO root fetch - main [MainThread]: End processing [remyxai]: success
+[2024-04-15 08:25:01] INFO root fetch - processPackages [bestnlp]: Remove: archive file [/home/abi/fetcher/tmp/bestnlp-1.0.10-py3-none-any.whl.zip]
+[2024-04-15 08:25:01] INFO root fetch - processPackages [bestnlp]: Remove: archive file [/home/abi/fetcher/tmp/bestnlp-1.0.9-py3-none-any.whl.zip]
+[2024-04-15 08:25:01] INFO root fetch - main [MainThread]: End processing [bestnlp]: success
+[2024-04-15 08:25:02] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-04-15 08:25:02] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-04-15 08:25:02] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-04-15 08:25:02] INFO root fetch - main [MainThread]: Store serial: [22766652]
