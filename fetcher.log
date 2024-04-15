@@ -17182,3 +17182,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 13:52:49] INFO root fetch - processPackages [eolymp]: Remove: archive file [/home/abi/fetcher/tmp/eolymp-0.9.9.tar.gz]
 [2024-04-15 13:52:49] INFO root fetch - main [MainThread]: End processing [eolymp]: success
 [2024-04-15 13:52:49] INFO root fetch - main [MainThread]: Store serial: [22770390]
+[2024-04-15 13:54:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22770390]
+[2024-04-15 13:54:58] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-15 13:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ixdat
+[2024-04-15 13:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zimo-web-screenshot
+[2024-04-15 13:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arion-library
+[2024-04-15 13:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datalad-cds
+[2024-04-15 13:54:58] INFO root fetch - processPackages [arion-library]: New version: [1.1rc57.dev57] Old Version: [1.1rc56.dev56]
+[2024-04-15 13:54:58] INFO root fetch - processPackages [zimo-web-screenshot]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-15 13:54:58] INFO root fetch - processPackages [datalad-cds]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-15 13:54:58] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/58/7e/b06c79d72286de727e2b80292738b962672dd8407c96d7f49568cc8983b7/arion_library-1.1rc56.dev56.tar.gz
+[2024-04-15 13:54:58] INFO root fetch - processPackages [ixdat]: New version: [0.2.9.dev3] Old Version: [0.2.9.dev2]
+[2024-04-15 13:54:58] INFO root fetch - processPackages [zimo-web-screenshot]: Downloading https://files.pythonhosted.org/packages/ee/3e/963e357c916192cf7e6a2893393e74f119d8d2d9b3492cdd45248e7c69d4/zimo_web_screenshot-0.1.1.tar.gz
+[2024-04-15 13:54:58] INFO root fetch - processPackages [datalad-cds]: Downloading https://files.pythonhosted.org/packages/dc/99/482fd4f0f2aa0853be7d9d42c6f2e0bba8edf42e66fa2858e89cfb5580d2/datalad-cds-0.0.3.tar.gz
+[2024-04-15 13:54:59] INFO root fetch - processPackages [ixdat]: Downloading https://files.pythonhosted.org/packages/20/63/41d061966caea5cea68b1a29d470aa2177fc58ecb48d0bf0d63156de8400/ixdat-0.2.9.dev2.tar.gz
+[2024-04-15 13:54:59] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/ef/80/ff39809dee5103796ed493acec7e910262538c2640e553cf796821b27978/arion_library-1.1rc57.dev57.tar.gz
+[2024-04-15 13:54:59] INFO root fetch - processPackages [datalad-cds]: Downloading https://files.pythonhosted.org/packages/12/92/45fc2b6e31267c16fb633e8b70fe25360cd8d0e6d5987ce9bba9f45a0826/datalad_cds-0.0.4.tar.gz
+[2024-04-15 13:54:59] INFO root fetch - processPackages [zimo-web-screenshot]: Downloading https://files.pythonhosted.org/packages/00/2e/50488c34c7e9beee4a9a72f566d364d1bdfa747ba520cf60d58645b391bf/zimo-web-screenshot-0.1.2.tar.gz
+[2024-04-15 13:54:59] INFO root fetch - processPackages [arion-library]: executing diffoscope
+[2024-04-15 13:54:59] INFO root fetch - processPackages [arion-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arion_library-1.1rc56.dev56.tar.gz tmp/arion_library-1.1rc57.dev57.tar.gz --markdown 20240415/a/arion-library/1.1rc56.dev56-1.1rc57.dev57/README.md --exclude *.pyd
+[2024-04-15 13:54:59] INFO root fetch - processPackages [datalad-cds]: executing diffoscope
+[2024-04-15 13:54:59] INFO root fetch - processPackages [datalad-cds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datalad-cds-0.0.3.tar.gz tmp/datalad_cds-0.0.4.tar.gz --markdown 20240415/d/datalad-cds/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-15 13:54:59] INFO root fetch - processPackages [zimo-web-screenshot]: executing diffoscope
+[2024-04-15 13:54:59] INFO root fetch - processPackages [zimo-web-screenshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zimo_web_screenshot-0.1.1.tar.gz tmp/zimo-web-screenshot-0.1.2.tar.gz --markdown 20240415/z/zimo-web-screenshot/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-15 13:54:59] INFO root fetch - processPackages [ixdat]: Downloading https://files.pythonhosted.org/packages/c4/96/eb005b5f5a99def9d9224c796b21fd730183993c025a893b291478ef7e85/ixdat-0.2.9.dev3.tar.gz
+[2024-04-15 13:54:59] INFO root fetch - processPackages [ixdat]: executing diffoscope
+[2024-04-15 13:54:59] INFO root fetch - processPackages [ixdat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ixdat-0.2.9.dev2.tar.gz tmp/ixdat-0.2.9.dev3.tar.gz --markdown 20240415/i/ixdat/0.2.9.dev2-0.2.9.dev3/README.md --exclude *.pyd
+[2024-04-15 13:55:00] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc56.dev56.tar.gz]
+[2024-04-15 13:55:00] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc57.dev57.tar.gz]
+[2024-04-15 13:55:00] INFO root fetch - main [MainThread]: End processing [arion-library]: success
+[2024-04-15 13:55:00] INFO root fetch - processPackages [datalad-cds]: Remove: archive file [/home/abi/fetcher/tmp/datalad-cds-0.0.3.tar.gz]
+[2024-04-15 13:55:00] INFO root fetch - processPackages [datalad-cds]: Remove: archive file [/home/abi/fetcher/tmp/datalad_cds-0.0.4.tar.gz]
+[2024-04-15 13:55:00] INFO root fetch - main [MainThread]: End processing [datalad-cds]: success
+[2024-04-15 13:55:00] INFO root fetch - processPackages [zimo-web-screenshot]: Remove: archive file [/home/abi/fetcher/tmp/zimo_web_screenshot-0.1.1.tar.gz]
+[2024-04-15 13:55:00] INFO root fetch - processPackages [zimo-web-screenshot]: Remove: archive file [/home/abi/fetcher/tmp/zimo-web-screenshot-0.1.2.tar.gz]
+[2024-04-15 13:55:00] INFO root fetch - main [MainThread]: End processing [zimo-web-screenshot]: success
+[2024-04-15 13:55:00] INFO root fetch - processPackages [ixdat]: Remove: archive file [/home/abi/fetcher/tmp/ixdat-0.2.9.dev2.tar.gz]
+[2024-04-15 13:55:00] INFO root fetch - processPackages [ixdat]: Remove: archive file [/home/abi/fetcher/tmp/ixdat-0.2.9.dev3.tar.gz]
+[2024-04-15 13:55:00] INFO root fetch - main [MainThread]: End processing [ixdat]: success
+[2024-04-15 13:55:00] INFO root fetch - main [MainThread]: Store serial: [22770404]
