@@ -8524,3 +8524,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 08:18:29] INFO root fetch - processPackages [sembansurga]: Remove: archive file [/home/abi/fetcher/tmp/sembansurga-1.0.6.tar.gz]
 [2024-04-15 08:18:29] INFO root fetch - main [MainThread]: End processing [sembansurga]: success
 [2024-04-15 08:18:29] INFO root fetch - main [MainThread]: Store serial: [22766603]
+[2024-04-15 08:20:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22766603]
+[2024-04-15 08:20:38] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-15 08:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coconut-develop
+[2024-04-15 08:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bttc
+[2024-04-15 08:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sparrowSql
+[2024-04-15 08:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gliner-finetune
+[2024-04-15 08:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pana
+[2024-04-15 08:20:39] WARNING root fetch - processPackages [sparrowSql]: Skipping, unable to determine old version
+[2024-04-15 08:20:39] INFO root fetch - main [MainThread]: End processing [sparrowSql] error
+[2024-04-15 08:20:39] INFO root fetch - processPackages [gliner-finetune]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-15 08:20:39] INFO root fetch - processPackages [pana]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-15 08:20:39] INFO root fetch - processPackages [bttc]: New version: [0.0.74] Old Version: [0.0.73.9]
+[2024-04-15 08:20:39] INFO root fetch - processPackages [coconut-develop]: New version: [3.1.0.post0.dev9] Old Version: [3.1.0.post0.dev8]
+[2024-04-15 08:20:39] INFO root fetch - processPackages [bttc]: Downloading https://files.pythonhosted.org/packages/f2/f1/06743ed185b36dc6a588af3f1791947e92a0b31acc0e0f40eb77eea5a2fe/bttc-0.0.73.9.tar.gz
+[2024-04-15 08:20:39] INFO root fetch - processPackages [gliner-finetune]: Downloading https://files.pythonhosted.org/packages/50/3b/bc5c57102a165cec0e614c6e893c8ff7a2d67695fcefcdf17104679d39d8/gliner-finetune-0.0.1.tar.gz
+[2024-04-15 08:20:39] INFO root fetch - processPackages [pana]: Downloading https://files.pythonhosted.org/packages/32/35/967f827b096bdd52dda0591121c8dd9144aa8bdbe40af77bf58075af5f4b/pana-0.2.0.tar.gz
+[2024-04-15 08:20:39] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/c9/52/852c50fb7afeae75f0f89a0a02001b8acadbf4ae78724b159a077190c1b0/coconut-develop-3.1.0.post0.dev8.tar.gz
+[2024-04-15 08:20:39] INFO root fetch - processPackages [gliner-finetune]: Downloading https://files.pythonhosted.org/packages/a0/97/92caaa6ae7637dcb05aa8ce9f2eff204eaf02e074cda5a5e84920f1641e7/gliner-finetune-0.0.2.tar.gz
+[2024-04-15 08:20:39] INFO root fetch - processPackages [bttc]: Downloading https://files.pythonhosted.org/packages/08/2e/58a2bf61f2063b7b0102355bd92fdb11573428ecc4a7ce440254d6ce0526/bttc-0.0.74.tar.gz
+[2024-04-15 08:20:39] INFO root fetch - processPackages [pana]: Downloading https://files.pythonhosted.org/packages/5d/44/c195a59b1d62fa741d15c45ffb0fd6bd7ebbb978f32587c87804f7795cdb/pana-0.2.1.tar.gz
+[2024-04-15 08:20:39] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/dd/01/30acfa4b7546ecb9a8f3194eae81fcf5daafdddebce842a4acd20d5231ff/coconut-develop-3.1.0.post0.dev9.tar.gz
+[2024-04-15 08:20:39] INFO root fetch - processPackages [bttc]: executing diffoscope
+[2024-04-15 08:20:39] INFO root fetch - processPackages [bttc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bttc-0.0.73.9.tar.gz tmp/bttc-0.0.74.tar.gz --markdown 20240415/b/bttc/0.0.73.9-0.0.74/README.md --exclude *.pyd
+[2024-04-15 08:20:39] INFO root fetch - processPackages [pana]: executing diffoscope
+[2024-04-15 08:20:39] INFO root fetch - processPackages [pana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pana-0.2.0.tar.gz tmp/pana-0.2.1.tar.gz --markdown 20240415/p/pana/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-15 08:20:39] INFO root fetch - processPackages [gliner-finetune]: executing diffoscope
+[2024-04-15 08:20:39] INFO root fetch - processPackages [gliner-finetune]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gliner-finetune-0.0.1.tar.gz tmp/gliner-finetune-0.0.2.tar.gz --markdown 20240415/g/gliner-finetune/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-15 08:20:39] INFO root fetch - processPackages [coconut-develop]: executing diffoscope
+[2024-04-15 08:20:39] INFO root fetch - processPackages [coconut-develop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coconut-develop-3.1.0.post0.dev8.tar.gz tmp/coconut-develop-3.1.0.post0.dev9.tar.gz --markdown 20240415/c/coconut-develop/3.1.0.post0.dev8-3.1.0.post0.dev9/README.md --exclude *.pyd
+[2024-04-15 08:20:40] INFO root fetch - processPackages [pana]: Remove: archive file [/home/abi/fetcher/tmp/pana-0.2.0.tar.gz]
+[2024-04-15 08:20:40] INFO root fetch - processPackages [pana]: Remove: archive file [/home/abi/fetcher/tmp/pana-0.2.1.tar.gz]
+[2024-04-15 08:20:40] INFO root fetch - main [MainThread]: End processing [pana]: success
+[2024-04-15 08:20:40] INFO root fetch - processPackages [gliner-finetune]: Remove: archive file [/home/abi/fetcher/tmp/gliner-finetune-0.0.1.tar.gz]
+[2024-04-15 08:20:40] INFO root fetch - processPackages [gliner-finetune]: Remove: archive file [/home/abi/fetcher/tmp/gliner-finetune-0.0.2.tar.gz]
+[2024-04-15 08:20:40] INFO root fetch - main [MainThread]: End processing [gliner-finetune]: success
+[2024-04-15 08:20:40] INFO root fetch - processPackages [bttc]: Remove: archive file [/home/abi/fetcher/tmp/bttc-0.0.73.9.tar.gz]
+[2024-04-15 08:20:40] INFO root fetch - processPackages [bttc]: Remove: archive file [/home/abi/fetcher/tmp/bttc-0.0.74.tar.gz]
+[2024-04-15 08:20:40] INFO root fetch - main [MainThread]: End processing [bttc]: success
+[2024-04-15 08:20:41] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.1.0.post0.dev8.tar.gz]
+[2024-04-15 08:20:41] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.1.0.post0.dev9.tar.gz]
+[2024-04-15 08:20:41] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
+[2024-04-15 08:20:41] INFO root fetch - main [MainThread]: Store serial: [22766621]
