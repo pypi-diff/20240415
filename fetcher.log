@@ -9627,3 +9627,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 09:08:26] INFO root fetch - main [MainThread]: End processing [geney]: success
 [2024-04-15 09:08:26] INFO root fetch - main [MainThread]: End processing [geney]: success
 [2024-04-15 09:08:26] INFO root fetch - main [MainThread]: Store serial: [22767103]
+[2024-04-15 09:10:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22767103]
+[2024-04-15 09:10:35] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-15 09:10:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quakephase
+[2024-04-15 09:10:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jy_lib
+[2024-04-15 09:10:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: avania
+[2024-04-15 09:10:35] INFO root fetch - processPackages [avania]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-15 09:10:35] INFO root fetch - processPackages [avania]: Downloading https://files.pythonhosted.org/packages/6c/1c/b89fa487a4404b6fd1f02044e4f07ce130bcfad33e2861565f606e451ed4/avania-0.1.1.tar.gz
+[2024-04-15 09:10:35] INFO root fetch - processPackages [quakephase]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-15 09:10:35] INFO root fetch - processPackages [jy_lib]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-15 09:10:35] INFO root fetch - processPackages [quakephase]: Downloading https://files.pythonhosted.org/packages/fa/f5/4941fde141f6c6e9ad86c4030b59a7db773d6b5cf6199faca87d5c2ebb18/quakephase-0.2.4.tar.gz
+[2024-04-15 09:10:35] INFO root fetch - processPackages [jy_lib]: Downloading https://files.pythonhosted.org/packages/04/94/59d30b2344a8c3a38c1f395c50860508cd0cde445ac3491fb35a5ec74a11/jy_lib-0.5.8.tar.gz
+[2024-04-15 09:10:35] INFO root fetch - processPackages [avania]: Downloading https://files.pythonhosted.org/packages/db/ab/15d0cd87de0cd997dde08270591b44341098b00d2d699a72d09adbb4e2c2/avania-0.1.2.tar.gz
+[2024-04-15 09:10:35] INFO root fetch - processPackages [avania]: executing diffoscope
+[2024-04-15 09:10:35] INFO root fetch - processPackages [avania]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avania-0.1.1.tar.gz tmp/avania-0.1.2.tar.gz --markdown 20240415/a/avania/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-15 09:10:35] INFO root fetch - processPackages [quakephase]: Downloading https://files.pythonhosted.org/packages/ca/55/9277218b2ba5ce5843efe67f967540916743e0d6dcdd41258fd083e477ce/quakephase-0.2.5.tar.gz
+[2024-04-15 09:10:35] INFO root fetch - processPackages [jy_lib]: Downloading https://files.pythonhosted.org/packages/50/b6/cd952cefe9d8adcfd79db113ecb06718902e510b0a8b30636a27e7a72ab4/jy_lib-0.5.9.tar.gz
+[2024-04-15 09:10:35] INFO root fetch - processPackages [jy_lib]: executing diffoscope
+[2024-04-15 09:10:35] INFO root fetch - processPackages [jy_lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jy_lib-0.5.8.tar.gz tmp/jy_lib-0.5.9.tar.gz --markdown 20240415/j/jy_lib/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-04-15 09:10:35] INFO root fetch - processPackages [quakephase]: executing diffoscope
+[2024-04-15 09:10:35] INFO root fetch - processPackages [quakephase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quakephase-0.2.4.tar.gz tmp/quakephase-0.2.5.tar.gz --markdown 20240415/q/quakephase/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-15 09:10:36] INFO root fetch - processPackages [avania]: Remove: archive file [/home/abi/fetcher/tmp/avania-0.1.1.tar.gz]
+[2024-04-15 09:10:36] INFO root fetch - processPackages [avania]: Remove: archive file [/home/abi/fetcher/tmp/avania-0.1.2.tar.gz]
+[2024-04-15 09:10:36] INFO root fetch - main [MainThread]: End processing [avania]: success
+[2024-04-15 09:10:36] INFO root fetch - processPackages [quakephase]: Remove: archive file [/home/abi/fetcher/tmp/quakephase-0.2.4.tar.gz]
+[2024-04-15 09:10:36] INFO root fetch - processPackages [quakephase]: Remove: archive file [/home/abi/fetcher/tmp/quakephase-0.2.5.tar.gz]
+[2024-04-15 09:10:36] INFO root fetch - main [MainThread]: End processing [quakephase]: success
+[2024-04-15 09:10:36] INFO root fetch - processPackages [jy_lib]: Remove: archive file [/home/abi/fetcher/tmp/jy_lib-0.5.8.tar.gz]
+[2024-04-15 09:10:36] INFO root fetch - processPackages [jy_lib]: Remove: archive file [/home/abi/fetcher/tmp/jy_lib-0.5.9.tar.gz]
+[2024-04-15 09:10:36] INFO root fetch - main [MainThread]: End processing [jy_lib]: success
+[2024-04-15 09:10:36] INFO root fetch - main [MainThread]: Store serial: [22767112]
