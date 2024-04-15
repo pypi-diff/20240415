@@ -24391,3 +24391,63 @@ EOFError: EOF read where object expected
 [2024-04-15 17:17:50] INFO root fetch - processPackages [haupt]: Remove: archive file [/home/abi/fetcher/tmp/haupt-2.1.7.tar.gz]
 [2024-04-15 17:17:50] INFO root fetch - main [MainThread]: End processing [haupt]: success
 [2024-04-15 17:17:50] INFO root fetch - main [MainThread]: Store serial: [22773590]
+[2024-04-15 17:19:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22773590]
+[2024-04-15 17:19:59] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-15 17:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: esac-juice-pyutils
+[2024-04-15 17:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: 3lc
+[2024-04-15 17:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: allphins-sdk
+[2024-04-15 17:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Simba-UW-tf-dev
+[2024-04-15 17:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SteamedBread-Uninstall
+[2024-04-15 17:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: limexhub
+[2024-04-15 17:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hazard-map
+[2024-04-15 17:19:59] INFO root fetch - processPackages [hazard-map]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-15 17:19:59] INFO root fetch - processPackages [limexhub]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-15 17:19:59] INFO root fetch - processPackages [Simba-UW-tf-dev]: New version: [1.89.9] Old Version: [1.89.8]
+[2024-04-15 17:19:59] INFO root fetch - processPackages [SteamedBread-Uninstall]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-15 17:19:59] INFO root fetch - processPackages [allphins-sdk]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-04-15 17:19:59] WARNING root fetch - processPackages [esac-juice-pyutils]: Skipping, unable to determine old version
+[2024-04-15 17:19:59] INFO root fetch - main [MainThread]: End processing [esac-juice-pyutils] error
+[2024-04-15 17:19:59] INFO root fetch - processPackages [3lc]: New version: [2.3.70] Old Version: [0.0.1]
+[2024-04-15 17:19:59] INFO root fetch - processPackages [hazard-map]: Downloading https://files.pythonhosted.org/packages/0a/ae/81d0c3b49dc7e6d109bb4dd5f810083c6f154f2d92b0fc66284df634b2f7/hazard_map-0.1.0.tar.gz
+[2024-04-15 17:19:59] INFO root fetch - processPackages [limexhub]: Downloading https://files.pythonhosted.org/packages/47/4a/cd1c8cc3ddd55d40f93beca272686ca0f40d322a450119a5287e9fb86f98/limexhub-0.1.8.tar.gz
+[2024-04-15 17:19:59] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/c6/fa/8f5e7b0977deb35052b496359217408c329c6d926327badce40ea98214ae/Simba-UW-tf-dev-1.89.8.tar.gz
+[2024-04-15 17:19:59] INFO root fetch - processPackages [SteamedBread-Uninstall]: Downloading https://files.pythonhosted.org/packages/32/8b/fad83de922696e4fda885192320caae0e132c73398e63e094e3d150ac006/SteamedBread-Uninstall-0.0.3.tar.gz
+[2024-04-15 17:19:59] INFO root fetch - processPackages [3lc]: Downloading https://files.pythonhosted.org/packages/7f/1b/d0f192bb95fde5dd62b2ed04558023aefbac18b03c8e0b03eaac1aa6b887/3lc-0.0.1.tar.gz
+[2024-04-15 17:19:59] INFO root fetch - processPackages [limexhub]: Downloading https://files.pythonhosted.org/packages/34/b1/087f4c17f3cd9425c33cd27043ff8f79129b61098fa9edf0db7b0df343d9/limexhub-0.1.9.tar.gz
+[2024-04-15 17:19:59] INFO root fetch - processPackages [hazard-map]: Downloading https://files.pythonhosted.org/packages/40/e1/9ff5136c414b90fd893b8ab0d159a2cc07acd2b4d23cbf4ece71fbbec92f/hazard_map-0.1.1.tar.gz
+[2024-04-15 17:19:59] INFO root fetch - processPackages [allphins-sdk]: Downloading https://files.pythonhosted.org/packages/8b/59/db9b148799134d79928918a2cc3a46b460e6344a45298bf2956e6ac51969/allphins_sdk-1.0.6.tar.gz
+[2024-04-15 17:20:00] INFO root fetch - processPackages [limexhub]: executing diffoscope
+[2024-04-15 17:20:00] INFO root fetch - processPackages [limexhub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/limexhub-0.1.8.tar.gz tmp/limexhub-0.1.9.tar.gz --markdown 20240415/l/limexhub/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-15 17:20:00] INFO root fetch - processPackages [hazard-map]: executing diffoscope
+[2024-04-15 17:20:00] INFO root fetch - processPackages [hazard-map]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hazard_map-0.1.0.tar.gz tmp/hazard_map-0.1.1.tar.gz --markdown 20240415/h/hazard-map/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-15 17:20:00] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/41/cb/d8a3d54aa30f0914eb516b78681093725e537976f6ef7fcfea76ffb2955a/Simba-UW-tf-dev-1.89.9.tar.gz
+[2024-04-15 17:20:00] INFO root fetch - processPackages [SteamedBread-Uninstall]: Downloading https://files.pythonhosted.org/packages/36/5e/5ebbee175fe0dd705b03f90804e544b9e7fbf897e189c2b6542e4e405cd0/SteamedBread-Uninstall-0.0.4.tar.gz
+[2024-04-15 17:20:00] INFO root fetch - processPackages [3lc]: Downloading https://files.pythonhosted.org/packages/61/e9/52208eaba96a139ea43698a65818effeea89e64f3da1ed32ec40d71edb16/3lc-2.3.70-0-cp39-cp39-win_amd64.whl
+[2024-04-15 17:20:00] INFO root fetch - processPackages [allphins-sdk]: Downloading https://files.pythonhosted.org/packages/bc/82/952532f01c9b820a85b2f00cdcf6799c77c04ea3b11ba0951079afe38271/allphins_sdk-1.0.7.tar.gz
+[2024-04-15 17:20:00] INFO root fetch - processPackages [SteamedBread-Uninstall]: executing diffoscope
+[2024-04-15 17:20:00] INFO root fetch - processPackages [SteamedBread-Uninstall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SteamedBread-Uninstall-0.0.3.tar.gz tmp/SteamedBread-Uninstall-0.0.4.tar.gz --markdown 20240415/S/SteamedBread-Uninstall/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-15 17:20:00] INFO root fetch - processPackages [allphins-sdk]: executing diffoscope
+[2024-04-15 17:20:00] INFO root fetch - processPackages [allphins-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/allphins_sdk-1.0.6.tar.gz tmp/allphins_sdk-1.0.7.tar.gz --markdown 20240415/a/allphins-sdk/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-04-15 17:20:00] INFO root fetch - processPackages [Simba-UW-tf-dev]: executing diffoscope
+[2024-04-15 17:20:00] INFO root fetch - processPackages [Simba-UW-tf-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Simba-UW-tf-dev-1.89.8.tar.gz tmp/Simba-UW-tf-dev-1.89.9.tar.gz --markdown 20240415/S/Simba-UW-tf-dev/1.89.8-1.89.9/README.md --exclude *.pyd
+[2024-04-15 17:20:00] INFO root fetch - processPackages [hazard-map]: Remove: archive file [/home/abi/fetcher/tmp/hazard_map-0.1.0.tar.gz]
+[2024-04-15 17:20:00] INFO root fetch - processPackages [hazard-map]: Remove: archive file [/home/abi/fetcher/tmp/hazard_map-0.1.1.tar.gz]
+[2024-04-15 17:20:00] INFO root fetch - main [MainThread]: End processing [hazard-map]: success
+[2024-04-15 17:20:00] INFO root fetch - processPackages [limexhub]: Remove: archive file [/home/abi/fetcher/tmp/limexhub-0.1.8.tar.gz]
+[2024-04-15 17:20:00] INFO root fetch - processPackages [limexhub]: Remove: archive file [/home/abi/fetcher/tmp/limexhub-0.1.9.tar.gz]
+[2024-04-15 17:20:00] INFO root fetch - main [MainThread]: End processing [limexhub]: success
+[2024-04-15 17:20:00] INFO root fetch - processPackages [3lc]: executing diffoscope
+[2024-04-15 17:20:00] INFO root fetch - processPackages [3lc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/3lc-0.0.1.tar.gz tmp/3lc-2.3.70-0-cp39-cp39-win_amd64.whl.zip --markdown 20240415/3/3lc/0.0.1-2.3.70/README.md --exclude *.pyd
+[2024-04-15 17:20:01] INFO root fetch - processPackages [SteamedBread-Uninstall]: Remove: archive file [/home/abi/fetcher/tmp/SteamedBread-Uninstall-0.0.3.tar.gz]
+[2024-04-15 17:20:01] INFO root fetch - processPackages [SteamedBread-Uninstall]: Remove: archive file [/home/abi/fetcher/tmp/SteamedBread-Uninstall-0.0.4.tar.gz]
+[2024-04-15 17:20:01] INFO root fetch - main [MainThread]: End processing [SteamedBread-Uninstall]: success
+[2024-04-15 17:20:01] INFO root fetch - processPackages [allphins-sdk]: Remove: archive file [/home/abi/fetcher/tmp/allphins_sdk-1.0.6.tar.gz]
+[2024-04-15 17:20:01] INFO root fetch - processPackages [allphins-sdk]: Remove: archive file [/home/abi/fetcher/tmp/allphins_sdk-1.0.7.tar.gz]
+[2024-04-15 17:20:01] INFO root fetch - main [MainThread]: End processing [allphins-sdk]: success
+[2024-04-15 17:20:01] INFO root fetch - processPackages [3lc]: Remove: archive file [/home/abi/fetcher/tmp/3lc-0.0.1.tar.gz]
+[2024-04-15 17:20:01] INFO root fetch - processPackages [3lc]: Remove: archive file [/home/abi/fetcher/tmp/3lc-2.3.70-0-cp39-cp39-win_amd64.whl.zip]
+[2024-04-15 17:20:01] INFO root fetch - main [MainThread]: End processing [3lc]: success
+[2024-04-15 17:20:03] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.89.8.tar.gz]
+[2024-04-15 17:20:03] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.89.9.tar.gz]
+[2024-04-15 17:20:03] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
+[2024-04-15 17:20:03] INFO root fetch - main [MainThread]: Store serial: [22773621]
