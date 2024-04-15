@@ -4291,3 +4291,42 @@
 [2024-04-15 05:37:32] INFO root fetch - processPackages [cns]: Remove: archive file [/home/abi/fetcher/tmp/cns-1.9.34-py3-none-any.whl.zip]
 [2024-04-15 05:37:32] INFO root fetch - main [MainThread]: End processing [cns]: success
 [2024-04-15 05:37:32] INFO root fetch - main [MainThread]: Store serial: [22765117]
+[2024-04-15 05:39:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22765117]
+[2024-04-15 05:39:40] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-15 05:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: visioncube
+[2024-04-15 05:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: substrate
+[2024-04-15 05:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: remindmail
+[2024-04-15 05:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sproject
+[2024-04-15 05:39:40] INFO root fetch - processPackages [substrate]: New version: [120240411.0.4] Old Version: [120240405.0.3]
+[2024-04-15 05:39:40] INFO root fetch - processPackages [remindmail]: New version: [2024.4.14.1] Old Version: [2024.3.15.1]
+[2024-04-15 05:39:40] INFO root fetch - processPackages [sproject]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-15 05:39:40] INFO root fetch - processPackages [substrate]: Downloading https://files.pythonhosted.org/packages/20/fb/4be5e0b302d34f53ea68882fed51ca88e14c31744dd827f1eeae6b78dfed/substrate-120240405.0.3.tar.gz
+[2024-04-15 05:39:40] INFO root fetch - processPackages [visioncube]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-04-15 05:39:40] INFO root fetch - processPackages [remindmail]: Downloading https://files.pythonhosted.org/packages/c0/90/79a9aaef0f1e3e98af7c0d45c3c6832b62701716e386faf16479b1d6b39d/remindmail-2024.3.15.1.tar.gz
+[2024-04-15 05:39:41] INFO root fetch - processPackages [sproject]: Downloading https://files.pythonhosted.org/packages/14/fa/01f2534b80d5943be5bac0f6462cc2eca087cbcc82c1442a2a88fcd3e52f/sproject-0.0.2.tar.gz
+[2024-04-15 05:39:41] INFO root fetch - processPackages [visioncube]: Downloading https://files.pythonhosted.org/packages/f0/d2/bb8a6d97c301a616212dbd71d1e1c1da93bdacb9c15479e045f9424ae7f5/visioncube-0.2.7.tar.gz
+[2024-04-15 05:39:41] INFO root fetch - processPackages [remindmail]: Downloading https://files.pythonhosted.org/packages/f6/ef/78970acf91424d9ec733bf5a8a3bc4faaf8a57480eec0148c1e7ad027597/remindmail-2024.4.14.1.tar.gz
+[2024-04-15 05:39:41] INFO root fetch - processPackages [substrate]: Downloading https://files.pythonhosted.org/packages/42/0f/fc33a2d81bf7f8ee75671c376020eb5a07783c2235d0856b76ba30a9bc40/substrate-120240411.0.4.tar.gz
+[2024-04-15 05:39:41] INFO root fetch - processPackages [remindmail]: executing diffoscope
+[2024-04-15 05:39:41] INFO root fetch - processPackages [remindmail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remindmail-2024.3.15.1.tar.gz tmp/remindmail-2024.4.14.1.tar.gz --markdown 20240415/r/remindmail/2024.3.15.1-2024.4.14.1/README.md --exclude *.pyd
+[2024-04-15 05:39:41] INFO root fetch - processPackages [substrate]: executing diffoscope
+[2024-04-15 05:39:41] INFO root fetch - processPackages [substrate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/substrate-120240405.0.3.tar.gz tmp/substrate-120240411.0.4.tar.gz --markdown 20240415/s/substrate/120240405.0.3-120240411.0.4/README.md --exclude *.pyd
+[2024-04-15 05:39:41] INFO root fetch - processPackages [sproject]: Downloading https://files.pythonhosted.org/packages/d7/6d/267d20a0c5907a3e7463c24cf60a67fb408be0e07b75b168a106486adb17/sproject-0.0.3.tar.gz
+[2024-04-15 05:39:41] INFO root fetch - processPackages [visioncube]: Downloading https://files.pythonhosted.org/packages/1b/90/494e4070658cb485d982cf108b96b6ac43c45df4f2237d28d4d06d591e7d/visioncube-0.2.8.tar.gz
+[2024-04-15 05:39:41] INFO root fetch - processPackages [sproject]: executing diffoscope
+[2024-04-15 05:39:41] INFO root fetch - processPackages [sproject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sproject-0.0.2.tar.gz tmp/sproject-0.0.3.tar.gz --markdown 20240415/s/sproject/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-15 05:39:41] INFO root fetch - processPackages [visioncube]: executing diffoscope
+[2024-04-15 05:39:41] INFO root fetch - processPackages [visioncube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visioncube-0.2.7.tar.gz tmp/visioncube-0.2.8.tar.gz --markdown 20240415/v/visioncube/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-04-15 05:39:41] INFO root fetch - processPackages [remindmail]: Remove: archive file [/home/abi/fetcher/tmp/remindmail-2024.3.15.1.tar.gz]
+[2024-04-15 05:39:41] INFO root fetch - processPackages [remindmail]: Remove: archive file [/home/abi/fetcher/tmp/remindmail-2024.4.14.1.tar.gz]
+[2024-04-15 05:39:41] INFO root fetch - main [MainThread]: End processing [remindmail]: success
+[2024-04-15 05:39:42] INFO root fetch - processPackages [sproject]: Remove: archive file [/home/abi/fetcher/tmp/sproject-0.0.2.tar.gz]
+[2024-04-15 05:39:42] INFO root fetch - processPackages [sproject]: Remove: archive file [/home/abi/fetcher/tmp/sproject-0.0.3.tar.gz]
+[2024-04-15 05:39:42] INFO root fetch - main [MainThread]: End processing [sproject]: success
+[2024-04-15 05:39:42] INFO root fetch - processPackages [substrate]: Remove: archive file [/home/abi/fetcher/tmp/substrate-120240405.0.3.tar.gz]
+[2024-04-15 05:39:42] INFO root fetch - processPackages [substrate]: Remove: archive file [/home/abi/fetcher/tmp/substrate-120240411.0.4.tar.gz]
+[2024-04-15 05:39:42] INFO root fetch - main [MainThread]: End processing [substrate]: success
+[2024-04-15 05:39:42] INFO root fetch - processPackages [visioncube]: Remove: archive file [/home/abi/fetcher/tmp/visioncube-0.2.7.tar.gz]
+[2024-04-15 05:39:42] INFO root fetch - processPackages [visioncube]: Remove: archive file [/home/abi/fetcher/tmp/visioncube-0.2.8.tar.gz]
+[2024-04-15 05:39:42] INFO root fetch - main [MainThread]: End processing [visioncube]: success
+[2024-04-15 05:39:42] INFO root fetch - main [MainThread]: Store serial: [22765133]
