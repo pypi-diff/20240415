@@ -17480,3 +17480,121 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 14:08:05] INFO root fetch - processPackages [fedn]: Remove: archive file [/home/abi/fetcher/tmp/fedn-0.9.0b1.tar.gz]
 [2024-04-15 14:08:05] INFO root fetch - main [MainThread]: End processing [fedn]: success
 [2024-04-15 14:08:05] INFO root fetch - main [MainThread]: Store serial: [22770518]
+[2024-04-15 14:10:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22770518]
+[2024-04-15 14:10:14] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-04-15 14:10:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: node-graph
+[2024-04-15 14:10:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: esiaccel
+[2024-04-15 14:10:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyslth
+[2024-04-15 14:10:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: testpack24
+[2024-04-15 14:10:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qleegss
+[2024-04-15 14:10:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-thingsdb
+[2024-04-15 14:10:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyE2
+[2024-04-15 14:10:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bigdl-core-xe-21
+[2024-04-15 14:10:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: avaris
+[2024-04-15 14:10:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: torcheval-nightly
+[2024-04-15 14:10:14] INFO root fetch - processPackages [pyslth]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-15 14:10:14] INFO root fetch - processPackages [esiaccel]: New version: [0.1.dev7955] Old Version: [0.1.dev7953]
+[2024-04-15 14:10:14] INFO root fetch - processPackages [torcheval-nightly]: New version: [2024.4.9] Old Version: [2024.4.8]
+[2024-04-15 14:10:14] INFO root fetch - processPackages [node-graph]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-15 14:10:14] INFO root fetch - processPackages [qleegss]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-15 14:10:14] INFO root fetch - processPackages [bigdl-core-xe-21]: New version: [2.5.0b20240415] Old Version: [2.5.0b20240414]
+[2024-04-15 14:10:14] WARNING root fetch - processPackages [testpack24]: Skipping, unable to determine old version
+[2024-04-15 14:10:14] INFO root fetch - processPackages [testpack24]: Start processing: tuduam
+[2024-04-15 14:10:14] INFO root fetch - main [MainThread]: End processing [testpack24] error
+[2024-04-15 14:10:14] INFO root fetch - processPackages [pyslth]: Downloading https://files.pythonhosted.org/packages/ca/12/31be654684bddd9e10e7de46857bc2994ff6e44986e73a54bafcdb293e7f/pyslth-0.0.4.tar.gz
+[2024-04-15 14:10:14] INFO root fetch - processPackages [avaris]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-15 14:10:14] INFO root fetch - processPackages [PyE2]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-15 14:10:14] INFO root fetch - processPackages [torcheval-nightly]: Downloading https://files.pythonhosted.org/packages/a3/6d/794af2087c6d670c1d6bd148a897d3a59b68e8d4b82c381b57d3e20ab544/torcheval-nightly-2024.4.8.tar.gz
+[2024-04-15 14:10:14] INFO root fetch - processPackages [esiaccel]: Downloading https://files.pythonhosted.org/packages/2e/de/81d617d5c53e44bd7eda6dfd9a7e7ceddd40a4e16641bd907db84d0c3733/esiaccel-0.1.dev7953-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-15 14:10:14] INFO root fetch - processPackages [bigdl-core-xe-21]: Downloading https://files.pythonhosted.org/packages/14/f1/68d7fdf01fcd850d74be3518dafe4e07bf480c67ecdafb7811bcabf7859b/bigdl_core_xe_21-2.5.0b20240414-cp39-cp39-win_amd64.whl
+[2024-04-15 14:10:14] INFO root fetch - processPackages [tuduam]: New version: [2024.9] Old Version: [2024.8]
+[2024-04-15 14:10:14] INFO root fetch - processPackages [python-thingsdb]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-15 14:10:14] INFO root fetch - processPackages [node-graph]: Downloading https://files.pythonhosted.org/packages/61/85/8cef165ecddfd9b1b7980e81ab4c27a60d4a562927afbce82b18d841fd20/node_graph-0.0.3.tar.gz
+[2024-04-15 14:10:14] INFO root fetch - processPackages [qleegss]: Downloading https://files.pythonhosted.org/packages/06/1e/3ca6e311e0a7d815c65771d58053745632e0a11ad74e83e01770fdf7c2f7/qleegss-0.0.8.tar.gz
+[2024-04-15 14:10:14] INFO root fetch - processPackages [avaris]: Downloading https://files.pythonhosted.org/packages/cc/5d/3ff78acb5ab038a9767c66b70752582ee323aef7e7a1db5ea46a8d0b889c/avaris-0.2.0.tar.gz
+[2024-04-15 14:10:14] INFO root fetch - processPackages [PyE2]: Downloading https://files.pythonhosted.org/packages/7c/1f/ddc8b7c8209074ff0d22a75a309898a450f3e9e4116be5a7194e75d33974/pye2-0.7.8.tar.gz
+[2024-04-15 14:10:15] INFO root fetch - processPackages [python-thingsdb]: Downloading https://files.pythonhosted.org/packages/47/bb/0de2b0d715e1150aefb1ec2e1505c1ff5642e0ba18cf43d35b5309063e80/python-thingsdb-1.1.0.tar.gz
+[2024-04-15 14:10:15] INFO root fetch - processPackages [tuduam]: Downloading https://files.pythonhosted.org/packages/ed/ee/0b2f04fe8cf7fa064aeb0eba649f0aaf41827aa73cd435fc42e02f13c31f/tuduam-2024.8-py3-none-any.whl
+[2024-04-15 14:10:15] INFO root fetch - processPackages [torcheval-nightly]: Downloading https://files.pythonhosted.org/packages/01/5f/5d3ae8fee972a25478395600694aa6da7aecdf0fdc15b5bb79b52a372737/torcheval-nightly-2024.4.9.tar.gz
+[2024-04-15 14:10:15] WARNING root fetch - processPackages [qleegss]: Skipping package: exceeds size limit 20058685>=10485760
+[2024-04-15 14:10:15] INFO root fetch - processPackages [qleegss]: Start processing: custom-horizontal-plot
+[2024-04-15 14:10:15] INFO root fetch - main [MainThread]: End processing [qleegss] error
+[2024-04-15 14:10:15] INFO root fetch - processPackages [pyslth]: Downloading https://files.pythonhosted.org/packages/16/9e/12ffb99db7934b471ac3d83bb9fc0c4257ac2ddb6b68ba42ff0b91045835/pyslth-0.0.5.tar.gz
+[2024-04-15 14:10:15] INFO root fetch - processPackages [pyslth]: executing diffoscope
+[2024-04-15 14:10:15] INFO root fetch - processPackages [pyslth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyslth-0.0.4.tar.gz tmp/pyslth-0.0.5.tar.gz --markdown 20240415/p/pyslth/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-15 14:10:15] INFO root fetch - processPackages [torcheval-nightly]: executing diffoscope
+[2024-04-15 14:10:15] INFO root fetch - processPackages [torcheval-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torcheval-nightly-2024.4.8.tar.gz tmp/torcheval-nightly-2024.4.9.tar.gz --markdown 20240415/t/torcheval-nightly/2024.4.8-2024.4.9/README.md --exclude *.pyd
+[2024-04-15 14:10:15] INFO root fetch - processPackages [node-graph]: Downloading https://files.pythonhosted.org/packages/01/59/a07d3c2d6ab1c67f903155ea1a67df0c698176a1f4da67abe7cfd970936d/node_graph-0.0.4.tar.gz
+[2024-04-15 14:10:15] INFO root fetch - processPackages [custom-horizontal-plot]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-15 14:10:15] WARNING root fetch - processPackages [bigdl-core-xe-21]: Skipping package: exceeds size limit 25708564>=10485760
+[2024-04-15 14:10:15] INFO root fetch - processPackages [bigdl-core-xe-21]: Start processing: lusid-sdk
+[2024-04-15 14:10:15] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-21] error
+[2024-04-15 14:10:15] INFO root fetch - processPackages [avaris]: Downloading https://files.pythonhosted.org/packages/de/c8/d52497d268765052135193ab56da0e44a4b83beae31017f5694df038584c/avaris-0.2.1.tar.gz
+[2024-04-15 14:10:15] INFO root fetch - processPackages [PyE2]: Downloading https://files.pythonhosted.org/packages/e9/40/83bee283c4c5388414ec9563877eaf42c60425426715578ebc136fe413cb/pye2-0.7.9.tar.gz
+[2024-04-15 14:10:15] INFO root fetch - processPackages [esiaccel]: Downloading https://files.pythonhosted.org/packages/61/ef/e4d47adfaf6fa6503a17330a1aa8a78880606fd81a789e39c648bef6c804/esiaccel-0.1.dev7955-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-15 14:10:15] INFO root fetch - processPackages [lusid-sdk]: New version: [2.1.7] Old Version: [2.1.5]
+[2024-04-15 14:10:15] INFO root fetch - processPackages [python-thingsdb]: Downloading https://files.pythonhosted.org/packages/fc/81/202adca5c921c7cebeacfdf07f68c9d0d7e9b2c6c01a98bfe7b9454117db/python-thingsdb-1.1.1.tar.gz
+[2024-04-15 14:10:15] INFO root fetch - processPackages [tuduam]: Downloading https://files.pythonhosted.org/packages/77/55/526cb4fec559195c211ec25dc0334250a59d9199e28b604ea45ae0a3c85d/tuduam-2024.9-py3-none-any.whl
+[2024-04-15 14:10:15] INFO root fetch - processPackages [avaris]: executing diffoscope
+[2024-04-15 14:10:15] INFO root fetch - processPackages [avaris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avaris-0.2.0.tar.gz tmp/avaris-0.2.1.tar.gz --markdown 20240415/a/avaris/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-15 14:10:15] INFO root fetch - processPackages [node-graph]: executing diffoscope
+[2024-04-15 14:10:15] INFO root fetch - processPackages [node-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/node_graph-0.0.3.tar.gz tmp/node_graph-0.0.4.tar.gz --markdown 20240415/n/node-graph/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-15 14:10:15] INFO root fetch - processPackages [custom-horizontal-plot]: Downloading https://files.pythonhosted.org/packages/6e/f5/4f74ab620e6895770eedd9a08469b0b775689e2be1741d3552a99a0b9a19/custom-horizontal-plot-0.0.6.tar.gz
+[2024-04-15 14:10:15] INFO root fetch - processPackages [PyE2]: executing diffoscope
+[2024-04-15 14:10:15] INFO root fetch - processPackages [PyE2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pye2-0.7.8.tar.gz tmp/pye2-0.7.9.tar.gz --markdown 20240415/P/PyE2/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-15 14:10:15] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/e9/95/c5e61f1b00407bb5a7d4b0af7d49bfd5fc9a82a95b330e57eac1f1130493/lusid_sdk-2.1.5.tar.gz
+[2024-04-15 14:10:15] INFO root fetch - processPackages [python-thingsdb]: executing diffoscope
+[2024-04-15 14:10:15] INFO root fetch - processPackages [python-thingsdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-thingsdb-1.1.0.tar.gz tmp/python-thingsdb-1.1.1.tar.gz --markdown 20240415/p/python-thingsdb/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-15 14:10:15] INFO root fetch - processPackages [tuduam]: executing diffoscope
+[2024-04-15 14:10:15] INFO root fetch - processPackages [tuduam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuduam-2024.8-py3-none-any.whl.zip tmp/tuduam-2024.9-py3-none-any.whl.zip --markdown 20240415/t/tuduam/2024.8-2024.9/README.md --exclude *.pyd
+[2024-04-15 14:10:15] INFO root fetch - processPackages [esiaccel]: executing diffoscope
+[2024-04-15 14:10:15] INFO root fetch - processPackages [esiaccel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esiaccel-0.1.dev7953-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/esiaccel-0.1.dev7955-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240415/e/esiaccel/0.1.dev7953-0.1.dev7955/README.md --exclude *.pyd
+[2024-04-15 14:10:16] INFO root fetch - processPackages [custom-horizontal-plot]: Downloading https://files.pythonhosted.org/packages/89/e3/e1fcba3e2cedd9ee714ce23dc3db6c60eb8b9a30c201fc7ab690fdd89316/custom-horizontal-plot-0.0.7.tar.gz
+[2024-04-15 14:10:16] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/ef/9e/cac4eb8acb9b4225644a8ecd621bda7df1f3ecf1d132898e9a3ec1ed6723/lusid_sdk-2.1.7.tar.gz
+[2024-04-15 14:10:16] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2024-04-15 14:10:16] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_sdk-2.1.5.tar.gz tmp/lusid_sdk-2.1.7.tar.gz --markdown 20240415/l/lusid-sdk/2.1.5-2.1.7/README.md --exclude *.pyd
+[2024-04-15 14:10:16] INFO root fetch - processPackages [custom-horizontal-plot]: executing diffoscope
+[2024-04-15 14:10:16] INFO root fetch - processPackages [custom-horizontal-plot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custom-horizontal-plot-0.0.6.tar.gz tmp/custom-horizontal-plot-0.0.7.tar.gz --markdown 20240415/c/custom-horizontal-plot/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-15 14:10:16] INFO root fetch - processPackages [pyslth]: Remove: archive file [/home/abi/fetcher/tmp/pyslth-0.0.4.tar.gz]
+[2024-04-15 14:10:16] INFO root fetch - processPackages [pyslth]: Remove: archive file [/home/abi/fetcher/tmp/pyslth-0.0.5.tar.gz]
+[2024-04-15 14:10:16] INFO root fetch - processPackages [pyslth]: Start processing: hydra-slurm-rich-launcher
+[2024-04-15 14:10:16] INFO root fetch - main [MainThread]: End processing [pyslth]: success
+[2024-04-15 14:10:17] WARNING root fetch - processPackages [hydra-slurm-rich-launcher]: Skipping, unable to determine old version
+[2024-04-15 14:10:17] INFO root fetch - processPackages [hydra-slurm-rich-launcher]: Start processing: arion-library
+[2024-04-15 14:10:17] INFO root fetch - main [MainThread]: End processing [hydra-slurm-rich-launcher] error
+[2024-04-15 14:10:17] INFO root fetch - processPackages [arion-library]: New version: [1.1rc60.dev60] Old Version: [1.1rc59.dev59]
+[2024-04-15 14:10:17] INFO root fetch - processPackages [avaris]: Remove: archive file [/home/abi/fetcher/tmp/avaris-0.2.0.tar.gz]
+[2024-04-15 14:10:17] INFO root fetch - processPackages [avaris]: Remove: archive file [/home/abi/fetcher/tmp/avaris-0.2.1.tar.gz]
+[2024-04-15 14:10:17] INFO root fetch - main [MainThread]: End processing [avaris]: success
+[2024-04-15 14:10:17] INFO root fetch - processPackages [python-thingsdb]: Remove: archive file [/home/abi/fetcher/tmp/python-thingsdb-1.1.0.tar.gz]
+[2024-04-15 14:10:17] INFO root fetch - processPackages [python-thingsdb]: Remove: archive file [/home/abi/fetcher/tmp/python-thingsdb-1.1.1.tar.gz]
+[2024-04-15 14:10:17] INFO root fetch - main [MainThread]: End processing [python-thingsdb]: success
+[2024-04-15 14:10:17] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/23/ba/b5f6c15a8fd4ca2b29ea4c6cb925e9a5906987f6426790436bd90f55f1c6/arion_library-1.1rc59.dev59.tar.gz
+[2024-04-15 14:10:17] INFO root fetch - processPackages [torcheval-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torcheval-nightly-2024.4.8.tar.gz]
+[2024-04-15 14:10:17] INFO root fetch - processPackages [torcheval-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torcheval-nightly-2024.4.9.tar.gz]
+[2024-04-15 14:10:17] INFO root fetch - processPackages [node-graph]: Remove: archive file [/home/abi/fetcher/tmp/node_graph-0.0.3.tar.gz]
+[2024-04-15 14:10:17] INFO root fetch - processPackages [node-graph]: Remove: archive file [/home/abi/fetcher/tmp/node_graph-0.0.4.tar.gz]
+[2024-04-15 14:10:17] INFO root fetch - main [MainThread]: End processing [torcheval-nightly]: success
+[2024-04-15 14:10:17] INFO root fetch - main [MainThread]: End processing [node-graph]: success
+[2024-04-15 14:10:17] INFO root fetch - processPackages [PyE2]: Remove: archive file [/home/abi/fetcher/tmp/pye2-0.7.8.tar.gz]
+[2024-04-15 14:10:17] INFO root fetch - processPackages [PyE2]: Remove: archive file [/home/abi/fetcher/tmp/pye2-0.7.9.tar.gz]
+[2024-04-15 14:10:17] INFO root fetch - main [MainThread]: End processing [PyE2]: success
+[2024-04-15 14:10:17] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/f3/0c/2b91510b84104fa6cfd6deae9096361d7e1d6e908756ce35fd7d81eb84c3/arion_library-1.1rc60.dev60.tar.gz
+[2024-04-15 14:10:17] INFO root fetch - processPackages [tuduam]: Remove: archive file [/home/abi/fetcher/tmp/tuduam-2024.8-py3-none-any.whl.zip]
+[2024-04-15 14:10:17] INFO root fetch - processPackages [tuduam]: Remove: archive file [/home/abi/fetcher/tmp/tuduam-2024.9-py3-none-any.whl.zip]
+[2024-04-15 14:10:17] INFO root fetch - main [MainThread]: End processing [tuduam]: success
+[2024-04-15 14:10:17] INFO root fetch - processPackages [arion-library]: executing diffoscope
+[2024-04-15 14:10:17] INFO root fetch - processPackages [arion-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arion_library-1.1rc59.dev59.tar.gz tmp/arion_library-1.1rc60.dev60.tar.gz --markdown 20240415/a/arion-library/1.1rc59.dev59-1.1rc60.dev60/README.md --exclude *.pyd
+[2024-04-15 14:10:18] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc59.dev59.tar.gz]
+[2024-04-15 14:10:18] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc60.dev60.tar.gz]
+[2024-04-15 14:10:18] INFO root fetch - main [MainThread]: End processing [arion-library]: success
+[2024-04-15 14:10:19] INFO root fetch - processPackages [esiaccel]: Remove: archive file [/home/abi/fetcher/tmp/esiaccel-0.1.dev7953-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-15 14:10:19] INFO root fetch - processPackages [esiaccel]: Remove: archive file [/home/abi/fetcher/tmp/esiaccel-0.1.dev7955-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-15 14:10:19] INFO root fetch - main [MainThread]: End processing [esiaccel]: success
+[2024-04-15 14:10:23] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.5.tar.gz]
+[2024-04-15 14:10:23] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.7.tar.gz]
+[2024-04-15 14:10:23] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2024-04-15 14:10:34] INFO root fetch - processPackages [custom-horizontal-plot]: Remove: archive file [/home/abi/fetcher/tmp/custom-horizontal-plot-0.0.6.tar.gz]
+[2024-04-15 14:10:34] INFO root fetch - processPackages [custom-horizontal-plot]: Remove: archive file [/home/abi/fetcher/tmp/custom-horizontal-plot-0.0.7.tar.gz]
+[2024-04-15 14:10:34] INFO root fetch - main [MainThread]: End processing [custom-horizontal-plot]: success
+[2024-04-15 14:10:34] INFO root fetch - main [MainThread]: Store serial: [22770568]
