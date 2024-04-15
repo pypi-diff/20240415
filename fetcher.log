@@ -16202,3 +16202,48 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 13:17:25] INFO root fetch - processPackages [oarepo-model-builder]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-4.0.9.tar.gz]
 [2024-04-15 13:17:25] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder]: success
 [2024-04-15 13:17:25] INFO root fetch - main [MainThread]: Store serial: [22769952]
+[2024-04-15 13:19:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22769952]
+[2024-04-15 13:19:35] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-15 13:19:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: miro-api
+[2024-04-15 13:19:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: atomicshop
+[2024-04-15 13:19:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qcloud-setup
+[2024-04-15 13:19:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tsk-monster
+[2024-04-15 13:19:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-web-ir-actions-close-wizard-refresh-view
+[2024-04-15 13:19:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: innertube-de
+[2024-04-15 13:19:35] INFO root fetch - processPackages [tsk-monster]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-15 13:19:35] INFO root fetch - processPackages [atomicshop]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-04-15 13:19:35] INFO root fetch - processPackages [miro-api]: New version: [2.1.2] Old Version: [2.1.1]
+[2024-04-15 13:19:35] WARNING root fetch - processPackages [odoo-addon-web-ir-actions-close-wizard-refresh-view]: Skipping, unable to determine old version
+[2024-04-15 13:19:35] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-ir-actions-close-wizard-refresh-view] error
+[2024-04-15 13:19:35] INFO root fetch - processPackages [qcloud-setup]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-15 13:19:35] WARNING root fetch - processPackages [innertube-de]: Skipping, unable to determine old version
+[2024-04-15 13:19:35] INFO root fetch - main [MainThread]: End processing [innertube-de] error
+[2024-04-15 13:19:35] INFO root fetch - processPackages [tsk-monster]: Downloading https://files.pythonhosted.org/packages/37/1d/909d8d90bce691193ba9c7cbab6edfe8ef434db7e5b38dd2520121d4e483/tsk_monster-0.0.8.tar.gz
+[2024-04-15 13:19:35] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/d2/21/28f2fa378fa9384a46ee0bb783f24dada88c68f21215a2f579c4546b4378/atomicshop-2.9.8-py3-none-any.whl
+[2024-04-15 13:19:35] INFO root fetch - processPackages [qcloud-setup]: Downloading https://files.pythonhosted.org/packages/fb/56/8c189806712495a41635c775527eb4b3952336d5b3f5b20c5b377c6adc66/qcloud_setup-1.0.8.tar.gz
+[2024-04-15 13:19:35] INFO root fetch - processPackages [miro-api]: Downloading https://files.pythonhosted.org/packages/d6/a4/37568a30ff0fdb5d467602b3a8c326db5d1d70831e7f5517eaf8f575444e/miro_api-2.1.1.tar.gz
+[2024-04-15 13:19:35] INFO root fetch - processPackages [tsk-monster]: Downloading https://files.pythonhosted.org/packages/bd/0d/76bc9f0c428722f67988b8db745d256aefb82e1f9e36269eee144c2705f1/tsk_monster-0.0.9.tar.gz
+[2024-04-15 13:19:35] INFO root fetch - processPackages [tsk-monster]: executing diffoscope
+[2024-04-15 13:19:35] INFO root fetch - processPackages [tsk-monster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsk_monster-0.0.8.tar.gz tmp/tsk_monster-0.0.9.tar.gz --markdown 20240415/t/tsk-monster/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-15 13:19:35] INFO root fetch - processPackages [qcloud-setup]: Downloading https://files.pythonhosted.org/packages/51/e3/46320aa18bcac027394c71063da5617b18d28d359fe1707f290f13c84ab5/qcloud_setup-1.0.9.tar.gz
+[2024-04-15 13:19:35] INFO root fetch - processPackages [miro-api]: Downloading https://files.pythonhosted.org/packages/c7/37/fbb5a4dc5e9b2e86b18e77ef6563e6b52ebd414f84ed5b4f6a6aef29de22/miro_api-2.1.2.tar.gz
+[2024-04-15 13:19:36] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/c7/eb/d8ab161ca5be5b103111d67161f5490ddfc3a3b3ed4b1862ad35a83e0846/atomicshop-2.9.9-py3-none-any.whl
+[2024-04-15 13:19:36] INFO root fetch - processPackages [qcloud-setup]: executing diffoscope
+[2024-04-15 13:19:36] INFO root fetch - processPackages [qcloud-setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcloud_setup-1.0.8.tar.gz tmp/qcloud_setup-1.0.9.tar.gz --markdown 20240415/q/qcloud-setup/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-15 13:19:36] INFO root fetch - processPackages [miro-api]: executing diffoscope
+[2024-04-15 13:19:36] INFO root fetch - processPackages [miro-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miro_api-2.1.1.tar.gz tmp/miro_api-2.1.2.tar.gz --markdown 20240415/m/miro-api/2.1.1-2.1.2/README.md --exclude *.pyd
+[2024-04-15 13:19:36] INFO root fetch - processPackages [atomicshop]: executing diffoscope
+[2024-04-15 13:19:36] INFO root fetch - processPackages [atomicshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomicshop-2.9.8-py3-none-any.whl.zip tmp/atomicshop-2.9.9-py3-none-any.whl.zip --markdown 20240415/a/atomicshop/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-04-15 13:19:36] INFO root fetch - processPackages [tsk-monster]: Remove: archive file [/home/abi/fetcher/tmp/tsk_monster-0.0.8.tar.gz]
+[2024-04-15 13:19:36] INFO root fetch - processPackages [tsk-monster]: Remove: archive file [/home/abi/fetcher/tmp/tsk_monster-0.0.9.tar.gz]
+[2024-04-15 13:19:36] INFO root fetch - main [MainThread]: End processing [tsk-monster]: success
+[2024-04-15 13:19:36] INFO root fetch - processPackages [qcloud-setup]: Remove: archive file [/home/abi/fetcher/tmp/qcloud_setup-1.0.8.tar.gz]
+[2024-04-15 13:19:36] INFO root fetch - processPackages [qcloud-setup]: Remove: archive file [/home/abi/fetcher/tmp/qcloud_setup-1.0.9.tar.gz]
+[2024-04-15 13:19:36] INFO root fetch - main [MainThread]: End processing [qcloud-setup]: success
+[2024-04-15 13:19:37] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.8-py3-none-any.whl.zip]
+[2024-04-15 13:19:37] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.9-py3-none-any.whl.zip]
+[2024-04-15 13:19:37] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
+[2024-04-15 13:19:39] INFO root fetch - processPackages [miro-api]: Remove: archive file [/home/abi/fetcher/tmp/miro_api-2.1.1.tar.gz]
+[2024-04-15 13:19:39] INFO root fetch - processPackages [miro-api]: Remove: archive file [/home/abi/fetcher/tmp/miro_api-2.1.2.tar.gz]
+[2024-04-15 13:19:39] INFO root fetch - main [MainThread]: End processing [miro-api]: success
+[2024-04-15 13:19:39] INFO root fetch - main [MainThread]: Store serial: [22769968]
