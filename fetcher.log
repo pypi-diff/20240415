@@ -21314,3 +21314,72 @@ EOFError: EOF read where object expected
 [2024-04-15 16:02:12] INFO root fetch - processPackages [redturtle.prenotazioni]: Remove: archive file [/home/abi/fetcher/tmp/redturtle.prenotazioni-2.6.3-py3-none-any.whl.zip]
 [2024-04-15 16:02:12] INFO root fetch - main [MainThread]: End processing [redturtle.prenotazioni]: success
 [2024-04-15 16:02:12] INFO root fetch - main [MainThread]: Store serial: [22772233]
+[2024-04-15 16:04:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22772233]
+[2024-04-15 16:04:22] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-15 16:04:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: redturtle.prenotazioni
+[2024-04-15 16:04:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nth-api
+[2024-04-15 16:04:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qontract-reconcile
+[2024-04-15 16:04:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gs-quant
+[2024-04-15 16:04:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scematk
+[2024-04-15 16:04:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: audioviz
+[2024-04-15 16:04:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pynumstim
+[2024-04-15 16:04:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wowicache
+[2024-04-15 16:04:22] WARNING root fetch - processPackages [nth-api]: Skipping, unable to determine old version
+[2024-04-15 16:04:22] INFO root fetch - main [MainThread]: End processing [nth-api] error
+[2024-04-15 16:04:22] INFO root fetch - processPackages [pynumstim]: New version: [0.3.dev0] Old Version: [0.2.2]
+[2024-04-15 16:04:22] INFO root fetch - processPackages [wowicache]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-15 16:04:22] INFO root fetch - processPackages [scematk]: New version: [0.0.2rc99.post1] Old Version: [0.0.2rc98.post1]
+[2024-04-15 16:04:22] INFO root fetch - processPackages [redturtle.prenotazioni]: New version: [2.6.3] Old Version: [2.6.2]
+[2024-04-15 16:04:22] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-04-15 16:04:22] INFO root fetch - processPackages [audioviz]: New version: [0.3.1] Old Version: [0.3]
+[2024-04-15 16:04:22] INFO root fetch - processPackages [wowicache]: Downloading https://files.pythonhosted.org/packages/6d/2a/10fd322fb6e96375c9bd3467399c6fb25522333925921b01b3d9fc4a65b3/wowicache-1.0.8.tar.gz
+[2024-04-15 16:04:22] INFO root fetch - processPackages [redturtle.prenotazioni]: Downloading https://files.pythonhosted.org/packages/c4/c3/a1230377c52e19bc0cf3ab3b80177841070e129674ab98c7d1388685ad4d/redturtle.prenotazioni-2.6.2.tar.gz
+[2024-04-15 16:04:22] INFO root fetch - processPackages [scematk]: Downloading https://files.pythonhosted.org/packages/74/b4/2c4bf9a440c6109c1526403bd63a1ad539bac9b025336ad220b4b533e7b7/scematk-0.0.2rc98.post1.tar.gz
+[2024-04-15 16:04:22] INFO root fetch - processPackages [gs-quant]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-15 16:04:22] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-04-15 16:04:23] INFO root fetch - processPackages [pynumstim]: Downloading https://files.pythonhosted.org/packages/64/11/5496f25bfe0ce0aace5b2b0e88ba831b2eacfa6626c1ce8e6714dba72ee8/pynumstim-0.2.2.tar.gz
+[2024-04-15 16:04:23] INFO root fetch - processPackages [audioviz]: Downloading https://files.pythonhosted.org/packages/f2/5d/25a37b16f4152fe893f69916708298eff1e8a0347c871780fbc1f6e6481d/audioviz-0.3.tar.gz
+[2024-04-15 16:04:23] INFO root fetch - processPackages [gs-quant]: Downloading https://files.pythonhosted.org/packages/a8/22/ccb70839873a816734ed7fe4a20a50658f4061e8379cdae45a21e643297a/gs_quant-1.0.8.tar.gz
+[2024-04-15 16:04:23] INFO root fetch - processPackages [scematk]: Downloading https://files.pythonhosted.org/packages/88/05/a551ffce29ada02c3b808f4d3523aefcebb95b513746d269b86d0d75e18b/scematk-0.0.2rc99.post1.tar.gz
+[2024-04-15 16:04:23] INFO root fetch - processPackages [wowicache]: Downloading https://files.pythonhosted.org/packages/f0/b8/ddf219ba6efa11cc020aa96133fa8a9496e36b3cb325588df560c6eb5340/wowicache-1.0.9.tar.gz
+[2024-04-15 16:04:23] INFO root fetch - processPackages [redturtle.prenotazioni]: Downloading https://files.pythonhosted.org/packages/15/95/d042e1dc838674103b249f9960508138d2abbd75e403842dd168942cb334/redturtle.prenotazioni-2.6.3-py3-none-any.whl
+[2024-04-15 16:04:23] INFO root fetch - processPackages [pynumstim]: Downloading https://files.pythonhosted.org/packages/5d/8d/c1684dd6f3cea74b806000baa2f8d52380aafc364ce1a5bdff2512d1c9f6/pynumstim-0.3.dev0.tar.gz
+[2024-04-15 16:04:23] INFO root fetch - processPackages [wowicache]: executing diffoscope
+[2024-04-15 16:04:23] INFO root fetch - processPackages [wowicache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wowicache-1.0.8.tar.gz tmp/wowicache-1.0.9.tar.gz --markdown 20240415/w/wowicache/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-15 16:04:23] INFO root fetch - processPackages [scematk]: executing diffoscope
+[2024-04-15 16:04:23] INFO root fetch - processPackages [scematk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scematk-0.0.2rc98.post1.tar.gz tmp/scematk-0.0.2rc99.post1.tar.gz --markdown 20240415/s/scematk/0.0.2rc98.post1-0.0.2rc99.post1/README.md --exclude *.pyd
+[2024-04-15 16:04:23] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-04-15 16:04:23] INFO root fetch - processPackages [pynumstim]: executing diffoscope
+[2024-04-15 16:04:23] INFO root fetch - processPackages [pynumstim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynumstim-0.2.2.tar.gz tmp/pynumstim-0.3.dev0.tar.gz --markdown 20240415/p/pynumstim/0.2.2-0.3.dev0/README.md --exclude *.pyd
+[2024-04-15 16:04:23] INFO root fetch - processPackages [redturtle.prenotazioni]: executing diffoscope
+[2024-04-15 16:04:23] INFO root fetch - processPackages [redturtle.prenotazioni]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redturtle.prenotazioni-2.6.2.tar.gz tmp/redturtle.prenotazioni-2.6.3-py3-none-any.whl.zip --markdown 20240415/r/redturtle.prenotazioni/2.6.2-2.6.3/README.md --exclude *.pyd
+[2024-04-15 16:04:23] INFO root fetch - processPackages [audioviz]: Downloading https://files.pythonhosted.org/packages/79/28/321be4528437bfe29c217183e05bffe225b3991cbbe54b64b573d27a654f/audioviz-0.3.1.tar.gz
+[2024-04-15 16:04:23] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-04-15 16:04:23] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240415/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-04-15 16:04:23] INFO root fetch - processPackages [audioviz]: executing diffoscope
+[2024-04-15 16:04:23] INFO root fetch - processPackages [audioviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audioviz-0.3.tar.gz tmp/audioviz-0.3.1.tar.gz --markdown 20240415/a/audioviz/0.3-0.3.1/README.md --exclude *.pyd
+[2024-04-15 16:04:23] INFO root fetch - processPackages [gs-quant]: Downloading https://files.pythonhosted.org/packages/36/ec/d3b4336a4612dcf07a05e896931bb06e76482967f438ed53953017d5c2fd/gs_quant-1.0.9.tar.gz
+[2024-04-15 16:04:24] INFO root fetch - processPackages [gs-quant]: executing diffoscope
+[2024-04-15 16:04:24] INFO root fetch - processPackages [gs-quant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs_quant-1.0.8.tar.gz tmp/gs_quant-1.0.9.tar.gz --markdown 20240415/g/gs-quant/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-15 16:04:24] INFO root fetch - processPackages [wowicache]: Remove: archive file [/home/abi/fetcher/tmp/wowicache-1.0.8.tar.gz]
+[2024-04-15 16:04:24] INFO root fetch - processPackages [wowicache]: Remove: archive file [/home/abi/fetcher/tmp/wowicache-1.0.9.tar.gz]
+[2024-04-15 16:04:24] INFO root fetch - main [MainThread]: End processing [wowicache]: success
+[2024-04-15 16:04:24] INFO root fetch - processPackages [redturtle.prenotazioni]: Remove: archive file [/home/abi/fetcher/tmp/redturtle.prenotazioni-2.6.2.tar.gz]
+[2024-04-15 16:04:24] INFO root fetch - processPackages [redturtle.prenotazioni]: Remove: archive file [/home/abi/fetcher/tmp/redturtle.prenotazioni-2.6.3-py3-none-any.whl.zip]
+[2024-04-15 16:04:24] INFO root fetch - main [MainThread]: End processing [redturtle.prenotazioni]: success
+[2024-04-15 16:04:24] INFO root fetch - processPackages [scematk]: Remove: archive file [/home/abi/fetcher/tmp/scematk-0.0.2rc98.post1.tar.gz]
+[2024-04-15 16:04:24] INFO root fetch - processPackages [scematk]: Remove: archive file [/home/abi/fetcher/tmp/scematk-0.0.2rc99.post1.tar.gz]
+[2024-04-15 16:04:24] INFO root fetch - main [MainThread]: End processing [scematk]: success
+[2024-04-15 16:04:24] INFO root fetch - processPackages [pynumstim]: Remove: archive file [/home/abi/fetcher/tmp/pynumstim-0.2.2.tar.gz]
+[2024-04-15 16:04:24] INFO root fetch - processPackages [pynumstim]: Remove: archive file [/home/abi/fetcher/tmp/pynumstim-0.3.dev0.tar.gz]
+[2024-04-15 16:04:24] INFO root fetch - main [MainThread]: End processing [pynumstim]: success
+[2024-04-15 16:04:24] INFO root fetch - processPackages [audioviz]: Remove: archive file [/home/abi/fetcher/tmp/audioviz-0.3.tar.gz]
+[2024-04-15 16:04:24] INFO root fetch - processPackages [audioviz]: Remove: archive file [/home/abi/fetcher/tmp/audioviz-0.3.1.tar.gz]
+[2024-04-15 16:04:24] INFO root fetch - main [MainThread]: End processing [audioviz]: success
+[2024-04-15 16:04:25] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-04-15 16:04:25] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-04-15 16:04:25] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-04-15 16:04:26] INFO root fetch - processPackages [gs-quant]: Remove: archive file [/home/abi/fetcher/tmp/gs_quant-1.0.8.tar.gz]
+[2024-04-15 16:04:26] INFO root fetch - processPackages [gs-quant]: Remove: archive file [/home/abi/fetcher/tmp/gs_quant-1.0.9.tar.gz]
+[2024-04-15 16:04:26] INFO root fetch - main [MainThread]: End processing [gs-quant]: success
+[2024-04-15 16:04:26] INFO root fetch - main [MainThread]: Store serial: [22772258]
