@@ -1840,3 +1840,45 @@
 [2024-04-15 02:39:05] INFO root fetch - processPackages [hypickle]: Remove: archive file [/home/abi/fetcher/tmp/hypickle-1.1.3.tar.gz]
 [2024-04-15 02:39:05] INFO root fetch - main [MainThread]: End processing [hypickle]: success
 [2024-04-15 02:39:05] INFO root fetch - main [MainThread]: Store serial: [22763968]
+[2024-04-15 02:41:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22763968]
+[2024-04-15 02:41:14] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-15 02:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prompthub
+[2024-04-15 02:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: toolfuse
+[2024-04-15 02:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: byzerllm
+[2024-04-15 02:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: infini-torch
+[2024-04-15 02:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: corkit
+[2024-04-15 02:41:14] INFO root fetch - processPackages [corkit]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-15 02:41:14] INFO root fetch - processPackages [prompthub]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-15 02:41:14] INFO root fetch - processPackages [byzerllm]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-15 02:41:14] WARNING root fetch - processPackages [infini-torch]: Skipping, unable to determine old version
+[2024-04-15 02:41:14] INFO root fetch - main [MainThread]: End processing [infini-torch] error
+[2024-04-15 02:41:14] INFO root fetch - processPackages [toolfuse]: New version: [0.1.16] Old Version: [0.1.15]
+[2024-04-15 02:41:14] INFO root fetch - processPackages [prompthub]: Downloading https://files.pythonhosted.org/packages/d4/cb/7864d2df46e1903b43f7e9d117c9fbe2b61fbdbbd8e52c3495d41f852e72/prompthub-0.1.8-py3-none-any.whl
+[2024-04-15 02:41:14] INFO root fetch - processPackages [byzerllm]: Downloading https://files.pythonhosted.org/packages/98/c6/1563f4025ee67d92445c7867c7ca1ad9c523055b4708ddd5ab2dab480c51/byzerllm-0.1.8.tar.gz
+[2024-04-15 02:41:14] INFO root fetch - processPackages [corkit]: Downloading https://files.pythonhosted.org/packages/a0/16/3cc43630238b33617ded07823e44296686f8036f2ae46076d4a31858aa91/corkit-1.0.3.tar.gz
+[2024-04-15 02:41:14] INFO root fetch - processPackages [toolfuse]: Downloading https://files.pythonhosted.org/packages/88/18/f1817ff257be507cdfbc3ef9fa17bb6ab8f1dcbe5eef6278f534e557e8a5/toolfuse-0.1.15.tar.gz
+[2024-04-15 02:41:14] INFO root fetch - processPackages [prompthub]: Downloading https://files.pythonhosted.org/packages/28/13/2ba8a34d32a36b1fbec69791faf871a1a85ee1e3136fe206bdeb0a29c2d8/prompthub-0.1.9-py3-none-any.whl
+[2024-04-15 02:41:15] INFO root fetch - processPackages [prompthub]: executing diffoscope
+[2024-04-15 02:41:15] INFO root fetch - processPackages [prompthub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prompthub-0.1.8-py3-none-any.whl.zip tmp/prompthub-0.1.9-py3-none-any.whl.zip --markdown 20240415/p/prompthub/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-15 02:41:15] INFO root fetch - processPackages [byzerllm]: Downloading https://files.pythonhosted.org/packages/a0/04/10289d36794dda29e2a889dcf2e412dcd39997cf2bc11d5af1bcc4670b3d/byzerllm-0.1.9.tar.gz
+[2024-04-15 02:41:15] INFO root fetch - processPackages [corkit]: Downloading https://files.pythonhosted.org/packages/94/d3/1d2e1c04094992256761922596c79406195d0d7dc7a94052584e4a0b7f2d/corkit-1.0.4.tar.gz
+[2024-04-15 02:41:15] INFO root fetch - processPackages [toolfuse]: Downloading https://files.pythonhosted.org/packages/37/76/a4d04680f6182ffc3faf73230d4636483d92c2c2bae1db4dc9ad3ae192dc/toolfuse-0.1.16.tar.gz
+[2024-04-15 02:41:15] INFO root fetch - processPackages [corkit]: executing diffoscope
+[2024-04-15 02:41:15] INFO root fetch - processPackages [corkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corkit-1.0.3.tar.gz tmp/corkit-1.0.4.tar.gz --markdown 20240415/c/corkit/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-15 02:41:15] INFO root fetch - processPackages [byzerllm]: executing diffoscope
+[2024-04-15 02:41:15] INFO root fetch - processPackages [byzerllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/byzerllm-0.1.8.tar.gz tmp/byzerllm-0.1.9.tar.gz --markdown 20240415/b/byzerllm/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-15 02:41:15] INFO root fetch - processPackages [toolfuse]: executing diffoscope
+[2024-04-15 02:41:15] INFO root fetch - processPackages [toolfuse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toolfuse-0.1.15.tar.gz tmp/toolfuse-0.1.16.tar.gz --markdown 20240415/t/toolfuse/0.1.15-0.1.16/README.md --exclude *.pyd
+[2024-04-15 02:41:15] INFO root fetch - processPackages [prompthub]: Remove: archive file [/home/abi/fetcher/tmp/prompthub-0.1.8-py3-none-any.whl.zip]
+[2024-04-15 02:41:15] INFO root fetch - processPackages [prompthub]: Remove: archive file [/home/abi/fetcher/tmp/prompthub-0.1.9-py3-none-any.whl.zip]
+[2024-04-15 02:41:15] INFO root fetch - main [MainThread]: End processing [prompthub]: success
+[2024-04-15 02:41:15] INFO root fetch - processPackages [toolfuse]: Remove: archive file [/home/abi/fetcher/tmp/toolfuse-0.1.15.tar.gz]
+[2024-04-15 02:41:15] INFO root fetch - processPackages [toolfuse]: Remove: archive file [/home/abi/fetcher/tmp/toolfuse-0.1.16.tar.gz]
+[2024-04-15 02:41:15] INFO root fetch - main [MainThread]: End processing [toolfuse]: success
+[2024-04-15 02:41:15] INFO root fetch - processPackages [corkit]: Remove: archive file [/home/abi/fetcher/tmp/corkit-1.0.3.tar.gz]
+[2024-04-15 02:41:15] INFO root fetch - processPackages [corkit]: Remove: archive file [/home/abi/fetcher/tmp/corkit-1.0.4.tar.gz]
+[2024-04-15 02:41:15] INFO root fetch - main [MainThread]: End processing [corkit]: success
+[2024-04-15 02:41:17] INFO root fetch - processPackages [byzerllm]: Remove: archive file [/home/abi/fetcher/tmp/byzerllm-0.1.8.tar.gz]
+[2024-04-15 02:41:17] INFO root fetch - processPackages [byzerllm]: Remove: archive file [/home/abi/fetcher/tmp/byzerllm-0.1.9.tar.gz]
+[2024-04-15 02:41:17] INFO root fetch - main [MainThread]: End processing [byzerllm]: success
+[2024-04-15 02:41:17] INFO root fetch - main [MainThread]: Store serial: [22763984]
