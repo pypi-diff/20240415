@@ -9118,3 +9118,92 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 08:49:01] INFO root fetch - processPackages [meshtastic]: Remove: archive file [/home/abi/fetcher/tmp/meshtastic-2.3.5.tar.gz]
 [2024-04-15 08:49:01] INFO root fetch - main [MainThread]: End processing [meshtastic]: success
 [2024-04-15 08:49:01] INFO root fetch - main [MainThread]: Store serial: [22766865]
+[2024-04-15 08:51:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22766865]
+[2024-04-15 08:51:09] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-15 08:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ezregex
+[2024-04-15 08:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ezregex
+[2024-04-15 08:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: c2cciutils
+[2024-04-15 08:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: krypper-tgstat
+[2024-04-15 08:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sageintacctsdk
+[2024-04-15 08:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: c2cciutils
+[2024-04-15 08:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tendril-auth
+[2024-04-15 08:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-account-banking-sepa-direct-debit
+[2024-04-15 08:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bavisitter
+[2024-04-15 08:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dsp-ifsc
+[2024-04-15 08:51:09] INFO root fetch - processPackages [bavisitter]: New version: [0.0.1a0] Old Version: [0.0.1]
+[2024-04-15 08:51:09] INFO root fetch - processPackages [krypper-tgstat]: New version: [0.1.6.3] Old Version: [0.1.6.1]
+[2024-04-15 08:51:09] INFO root fetch - processPackages [ezregex]: New version: [1.9.1] Old Version: [1.8.1]
+[2024-04-15 08:51:09] INFO root fetch - processPackages [ezregex]: New version: [1.9.1] Old Version: [1.8.1]
+[2024-04-15 08:51:09] INFO root fetch - processPackages [dsp-ifsc]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-15 08:51:09] INFO root fetch - processPackages [c2cciutils]: New version: [1.7.0.dev99] Old Version: [1.7.0.dev98]
+[2024-04-15 08:51:09] INFO root fetch - processPackages [tendril-auth]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-15 08:51:09] INFO root fetch - processPackages [c2cciutils]: New version: [1.7.0.dev99] Old Version: [1.7.0.dev98]
+[2024-04-15 08:51:09] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.2.0.1]
+[2024-04-15 08:51:09] INFO root fetch - processPackages [dsp-ifsc]: Downloading https://files.pythonhosted.org/packages/8b/f2/e6fcc71a976cf06664dcb193d0668105fef3f23881e4da1fbec2331de6e9/dsp_ifsc-0.0.8.tar.gz
+[2024-04-15 08:51:09] INFO root fetch - processPackages [bavisitter]: Downloading https://files.pythonhosted.org/packages/f7/15/d63706890da1aaf19abc062f3ab696090bd833c2987566f047f7d1a8cef3/bavisitter-0.0.1.tar.gz
+[2024-04-15 08:51:09] INFO root fetch - processPackages [sageintacctsdk]: New version: [1.9.6] Old Version: [1.9.5]
+[2024-04-15 08:51:09] INFO root fetch - processPackages [krypper-tgstat]: Downloading https://files.pythonhosted.org/packages/54/f6/b910713d7c9a94d4052de76a03aac243b38a4bbbb8eb48b17d9afe3584b4/krypper_tgstat-0.1.6.1.tar.gz
+[2024-04-15 08:51:09] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/62/aa/080c37692bc6af730809e32f5cb82932c00c5513d164349ff96537069e82/c2cciutils-1.7.0.dev98.tar.gz
+[2024-04-15 08:51:09] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/62/aa/080c37692bc6af730809e32f5cb82932c00c5513d164349ff96537069e82/c2cciutils-1.7.0.dev98.tar.gz
+[2024-04-15 08:51:09] INFO root fetch - processPackages [ezregex]: Downloading https://files.pythonhosted.org/packages/5e/91/f94359d7a00a5884c3e4183da3076ece2e097d1da34324394bd374dcdae2/ezregex-1.8.1.tar.gz
+[2024-04-15 08:51:09] INFO root fetch - processPackages [ezregex]: Downloading https://files.pythonhosted.org/packages/5e/91/f94359d7a00a5884c3e4183da3076ece2e097d1da34324394bd374dcdae2/ezregex-1.8.1.tar.gz
+[2024-04-15 08:51:10] INFO root fetch - processPackages [tendril-auth]: Downloading https://files.pythonhosted.org/packages/49/2d/997cc3ddfe34f7cfc9a009170b0d709d306b739c00b25a17c64ea6e01062/tendril-auth-0.4.0.tar.gz
+[2024-04-15 08:51:10] INFO root fetch - processPackages [sageintacctsdk]: Downloading https://files.pythonhosted.org/packages/01/4e/267ea24dd957a0411483147331cca87466764344d8e2b2cae5037f321ce3/sageintacctsdk-1.9.5.tar.gz
+[2024-04-15 08:51:10] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: Downloading https://files.pythonhosted.org/packages/ce/c8/26d5ee8e75f6508c5ac865d8dd9e60847caad7fde1747471a88bb23412a7/odoo_addon_account_banking_sepa_direct_debit-16.0.1.2.0.1-py3-none-any.whl
+[2024-04-15 08:51:10] INFO root fetch - processPackages [dsp-ifsc]: Downloading https://files.pythonhosted.org/packages/ed/49/f48cf94d0bbae49db47713e9af8d624ebe2c009f759a3643cd58d813a0c6/dsp_ifsc-0.0.9.tar.gz
+[2024-04-15 08:51:10] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/0b/33/b4f2b2d1c9a7ae924ddcc8b7cbf69f1ed37a1a5f0faa155ac94becd05a90/c2cciutils-1.7.0.dev99.tar.gz
+[2024-04-15 08:51:10] INFO root fetch - processPackages [krypper-tgstat]: Downloading https://files.pythonhosted.org/packages/bc/38/a5fa1aa57eaa15f0fc09f72a95eb11b7e379a8c77913a8509dad1024b2ad/krypper_tgstat-0.1.6.3.tar.gz
+[2024-04-15 08:51:10] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/0b/33/b4f2b2d1c9a7ae924ddcc8b7cbf69f1ed37a1a5f0faa155ac94becd05a90/c2cciutils-1.7.0.dev99.tar.gz
+[2024-04-15 08:51:10] INFO root fetch - processPackages [ezregex]: Downloading https://files.pythonhosted.org/packages/3c/34/9c70ad32742e0758bfabe54fb369ea33979403b07624606b637e4e7b6861/ezregex-1.9.1.tar.gz
+[2024-04-15 08:51:10] INFO root fetch - processPackages [ezregex]: Downloading https://files.pythonhosted.org/packages/3c/34/9c70ad32742e0758bfabe54fb369ea33979403b07624606b637e4e7b6861/ezregex-1.9.1.tar.gz
+[2024-04-15 08:51:10] INFO root fetch - processPackages [dsp-ifsc]: executing diffoscope
+[2024-04-15 08:51:10] INFO root fetch - processPackages [dsp-ifsc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsp_ifsc-0.0.8.tar.gz tmp/dsp_ifsc-0.0.9.tar.gz --markdown 20240415/d/dsp-ifsc/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-15 08:51:10] INFO root fetch - processPackages [tendril-auth]: Downloading https://files.pythonhosted.org/packages/3d/57/cb4c28e5138b5ba8bca61864935e1c6f22a613dc7274b54ff4309bc7e95f/tendril_auth-0.4.1.tar.gz
+[2024-04-15 08:51:10] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2024-04-15 08:51:10] INFO root fetch - processPackages [sageintacctsdk]: Downloading https://files.pythonhosted.org/packages/35/ff/573d6a77bb5debcc7d21e4ade0260e9eed23fda653497d686f8b60a44263/sageintacctsdk-1.9.6.tar.gz
+[2024-04-15 08:51:10] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.7.0.dev98.tar.gz tmp/c2cciutils-1.7.0.dev99.tar.gz --markdown 20240415/c/c2cciutils/1.7.0.dev98-1.7.0.dev99/README.md --exclude *.pyd
+[2024-04-15 08:51:10] INFO root fetch - processPackages [krypper-tgstat]: executing diffoscope
+[2024-04-15 08:51:10] INFO root fetch - processPackages [krypper-tgstat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krypper_tgstat-0.1.6.1.tar.gz tmp/krypper_tgstat-0.1.6.3.tar.gz --markdown 20240415/k/krypper-tgstat/0.1.6.1-0.1.6.3/README.md --exclude *.pyd
+[2024-04-15 08:51:10] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2024-04-15 08:51:10] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.7.0.dev98.tar.gz tmp/c2cciutils-1.7.0.dev99.tar.gz --markdown 20240415/c/c2cciutils/1.7.0.dev98-1.7.0.dev99/README.md --exclude *.pyd
+[2024-04-15 08:51:10] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: Downloading https://files.pythonhosted.org/packages/2f/a3/20fcd28f3e2e66d0e292bec51bce8d18248980e2da18a662c7fdb66e0944/odoo_addon_account_banking_sepa_direct_debit-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-15 08:51:10] INFO root fetch - processPackages [ezregex]: executing diffoscope
+[2024-04-15 08:51:10] INFO root fetch - processPackages [ezregex]: executing diffoscope
+[2024-04-15 08:51:10] INFO root fetch - processPackages [ezregex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezregex-1.8.1.tar.gz tmp/ezregex-1.9.1.tar.gz --markdown 20240415/e/ezregex/1.8.1-1.9.1/README.md --exclude *.pyd
+[2024-04-15 08:51:10] INFO root fetch - processPackages [ezregex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezregex-1.8.1.tar.gz tmp/ezregex-1.9.1.tar.gz --markdown 20240415/e/ezregex/1.8.1-1.9.1/README.md --exclude *.pyd
+[2024-04-15 08:51:10] INFO root fetch - processPackages [bavisitter]: Downloading https://files.pythonhosted.org/packages/b8/3b/913a70bb04abf077eead7a8a7de58e7957f6debc47cd7ccb2792bd29d2c0/bavisitter-0.0.1a0.tar.gz
+[2024-04-15 08:51:10] INFO root fetch - processPackages [tendril-auth]: executing diffoscope
+[2024-04-15 08:51:10] INFO root fetch - processPackages [tendril-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tendril-auth-0.4.0.tar.gz tmp/tendril_auth-0.4.1.tar.gz --markdown 20240415/t/tendril-auth/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-04-15 08:51:10] INFO root fetch - processPackages [sageintacctsdk]: executing diffoscope
+[2024-04-15 08:51:10] INFO root fetch - processPackages [sageintacctsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sageintacctsdk-1.9.5.tar.gz tmp/sageintacctsdk-1.9.6.tar.gz --markdown 20240415/s/sageintacctsdk/1.9.5-1.9.6/README.md --exclude *.pyd
+[2024-04-15 08:51:10] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: executing diffoscope
+[2024-04-15 08:51:10] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_banking_sepa_direct_debit-16.0.1.2.0.1-py3-none-any.whl.zip tmp/odoo_addon_account_banking_sepa_direct_debit-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240415/o/odoo-addon-account-banking-sepa-direct-debit/16.0.1.2.0.1-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-04-15 08:51:11] INFO root fetch - processPackages [bavisitter]: executing diffoscope
+[2024-04-15 08:51:11] INFO root fetch - processPackages [bavisitter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bavisitter-0.0.1.tar.gz tmp/bavisitter-0.0.1a0.tar.gz --markdown 20240415/b/bavisitter/0.0.1-0.0.1a0/README.md --exclude *.pyd
+[2024-04-15 08:51:11] INFO root fetch - processPackages [dsp-ifsc]: Remove: archive file [/home/abi/fetcher/tmp/dsp_ifsc-0.0.8.tar.gz]
+[2024-04-15 08:51:11] INFO root fetch - processPackages [dsp-ifsc]: Remove: archive file [/home/abi/fetcher/tmp/dsp_ifsc-0.0.9.tar.gz]
+[2024-04-15 08:51:11] INFO root fetch - main [MainThread]: End processing [dsp-ifsc]: success
+[2024-04-15 08:51:11] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.7.0.dev98.tar.gz]
+[2024-04-15 08:51:11] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.7.0.dev99.tar.gz]
+[2024-04-15 08:51:11] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2024-04-15 08:51:11] INFO root fetch - processPackages [krypper-tgstat]: Remove: archive file [/home/abi/fetcher/tmp/krypper_tgstat-0.1.6.1.tar.gz]
+[2024-04-15 08:51:11] INFO root fetch - processPackages [krypper-tgstat]: Remove: archive file [/home/abi/fetcher/tmp/krypper_tgstat-0.1.6.3.tar.gz]
+[2024-04-15 08:51:11] INFO root fetch - main [MainThread]: End processing [krypper-tgstat]: success
+[2024-04-15 08:51:11] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2024-04-15 08:51:12] INFO root fetch - processPackages [sageintacctsdk]: Remove: archive file [/home/abi/fetcher/tmp/sageintacctsdk-1.9.5.tar.gz]
+[2024-04-15 08:51:12] INFO root fetch - processPackages [sageintacctsdk]: Remove: archive file [/home/abi/fetcher/tmp/sageintacctsdk-1.9.6.tar.gz]
+[2024-04-15 08:51:12] INFO root fetch - main [MainThread]: End processing [sageintacctsdk]: success
+[2024-04-15 08:51:12] INFO root fetch - processPackages [tendril-auth]: Remove: archive file [/home/abi/fetcher/tmp/tendril-auth-0.4.0.tar.gz]
+[2024-04-15 08:51:12] INFO root fetch - processPackages [tendril-auth]: Remove: archive file [/home/abi/fetcher/tmp/tendril_auth-0.4.1.tar.gz]
+[2024-04-15 08:51:12] INFO root fetch - main [MainThread]: End processing [tendril-auth]: success
+[2024-04-15 08:51:12] INFO root fetch - processPackages [ezregex]: Remove: archive file [/home/abi/fetcher/tmp/ezregex-1.8.1.tar.gz]
+[2024-04-15 08:51:12] INFO root fetch - processPackages [ezregex]: Remove: archive file [/home/abi/fetcher/tmp/ezregex-1.9.1.tar.gz]
+[2024-04-15 08:51:12] INFO root fetch - main [MainThread]: End processing [ezregex]: success
+[2024-04-15 08:51:12] INFO root fetch - main [MainThread]: End processing [ezregex]: success
+[2024-04-15 08:51:12] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_sepa_direct_debit-16.0.1.2.0.1-py3-none-any.whl.zip]
+[2024-04-15 08:51:12] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_sepa_direct_debit-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-15 08:51:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-banking-sepa-direct-debit]: success
+[2024-04-15 08:51:34] INFO root fetch - processPackages [bavisitter]: Remove: archive file [/home/abi/fetcher/tmp/bavisitter-0.0.1.tar.gz]
+[2024-04-15 08:51:34] INFO root fetch - processPackages [bavisitter]: Remove: archive file [/home/abi/fetcher/tmp/bavisitter-0.0.1a0.tar.gz]
+[2024-04-15 08:51:34] INFO root fetch - main [MainThread]: End processing [bavisitter]: success
+[2024-04-15 08:51:34] INFO root fetch - main [MainThread]: Store serial: [22766892]
