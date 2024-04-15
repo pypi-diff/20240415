@@ -8434,3 +8434,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 08:14:04] INFO root fetch - processPackages [radical.analytics]: Remove: archive file [/home/abi/fetcher/tmp/radical.analytics-1.6.7.tar.gz]
 [2024-04-15 08:14:04] INFO root fetch - main [MainThread]: End processing [radical.analytics]: success
 [2024-04-15 08:14:04] INFO root fetch - main [MainThread]: Store serial: [22766574]
+[2024-04-15 08:16:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22766574]
+[2024-04-15 08:16:12] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-15 08:16:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: radical.repex
+[2024-04-15 08:16:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pretext
+[2024-04-15 08:16:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pymcdm
+[2024-04-15 08:16:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aixblock-ml
+[2024-04-15 08:16:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: radical.synapse
+[2024-04-15 08:16:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ehdg-pupil-detector
+[2024-04-15 08:16:12] INFO root fetch - processPackages [radical.repex]: New version: [1.47.0] Old Version: [1.46.0]
+[2024-04-15 08:16:12] INFO root fetch - processPackages [pretext]: New version: [2.3.9.dev20240302] Old Version: [2.3.9.dev20240229]
+[2024-04-15 08:16:12] INFO root fetch - processPackages [radical.synapse]: New version: [1.48.1] Old Version: [1.48.0]
+[2024-04-15 08:16:12] INFO root fetch - processPackages [aixblock-ml]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-15 08:16:12] INFO root fetch - processPackages [pymcdm]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-15 08:16:12] INFO root fetch - processPackages [ehdg-pupil-detector]: New version: [3.0.0] Old Version: [2.0.1]
+[2024-04-15 08:16:12] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/ce/64/85bc57578fbf3322df1cb4958d7c6cf0dda4d8184eb5611f8245cb5d98eb/pretext-2.3.9.dev20240229.tar.gz
+[2024-04-15 08:16:12] INFO root fetch - processPackages [radical.repex]: Downloading https://files.pythonhosted.org/packages/27/f7/396740c35dadbc15add821314780c5b2be1e5491d21a53ea45e7e8445acf/radical.repex-1.46.0.tar.gz
+[2024-04-15 08:16:12] INFO root fetch - processPackages [radical.synapse]: Downloading https://files.pythonhosted.org/packages/c7/e7/d67fe324bc63d640dce4fbba2b3e7744ea9e434638befb82b2a6a61a5b33/radical.synapse-1.48.0.tar.gz
+[2024-04-15 08:16:12] INFO root fetch - processPackages [aixblock-ml]: Downloading https://files.pythonhosted.org/packages/8b/2c/21336ce174696507d41b88973ef014f9aece226bc809f87bb214e8b29444/aixblock_ml-0.0.4.tar.gz
+[2024-04-15 08:16:12] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/3f/2d/22e687f1fb945aeb16176a4f9c25da1aab63664c88cd2966d7ad79f1b144/pretext-2.3.9.dev20240302.tar.gz
+[2024-04-15 08:16:12] INFO root fetch - processPackages [ehdg-pupil-detector]: Downloading https://files.pythonhosted.org/packages/bc/e1/eaddfcb57863f2404d420207c971db056608e3337d3a9092354f6e9f4d74/ehdg_pupil_detector-2.0.1.tar.gz
+[2024-04-15 08:16:12] INFO root fetch - processPackages [pymcdm]: Downloading https://files.pythonhosted.org/packages/ff/5f/050bd36194a000650d0f6660ef7d66e80864183abcf35ec0f2faf350e40c/pymcdm-1.2.0.tar.gz
+[2024-04-15 08:16:13] INFO root fetch - processPackages [radical.repex]: Downloading https://files.pythonhosted.org/packages/c8/a9/58c9eb44109f0e3f3e2ef8ea4b2971032f03ada3fd31f6030fe3906eaf66/radical.repex-1.47.0.tar.gz
+[2024-04-15 08:16:13] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2024-04-15 08:16:13] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-2.3.9.dev20240229.tar.gz tmp/pretext-2.3.9.dev20240302.tar.gz --markdown 20240415/p/pretext/2.3.9.dev20240229-2.3.9.dev20240302/README.md --exclude *.pyd
+[2024-04-15 08:16:13] INFO root fetch - processPackages [aixblock-ml]: Downloading https://files.pythonhosted.org/packages/85/67/2a59811f392cc51e11de672a1a17261a8b4a4e3dfe251613465f346e6b7f/aixblock_ml-0.0.5.tar.gz
+[2024-04-15 08:16:13] INFO root fetch - processPackages [radical.repex]: executing diffoscope
+[2024-04-15 08:16:13] INFO root fetch - processPackages [radical.repex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radical.repex-1.46.0.tar.gz tmp/radical.repex-1.47.0.tar.gz --markdown 20240415/r/radical.repex/1.46.0-1.47.0/README.md --exclude *.pyd
+[2024-04-15 08:16:13] INFO root fetch - processPackages [radical.synapse]: Downloading https://files.pythonhosted.org/packages/64/6b/6f64727d449402b14b5abb6efe5cdb98a0e8357884b9328804ccc22dd068/radical_synapse-1.48.1.tar.gz
+[2024-04-15 08:16:13] INFO root fetch - processPackages [ehdg-pupil-detector]: Downloading https://files.pythonhosted.org/packages/62/db/1bd7348f71b2e82aa8f1853c0231074e8d1cc5a8690de440c883caf7a1c3/ehdg_pupil_detector-3.0.0.tar.gz
+[2024-04-15 08:16:13] INFO root fetch - processPackages [pymcdm]: Downloading https://files.pythonhosted.org/packages/11/7c/750ac00626a085124942f545875d982aac5e9ff1e1e491914f05d5a1f943/pymcdm-1.2.1.tar.gz
+[2024-04-15 08:16:13] INFO root fetch - processPackages [aixblock-ml]: executing diffoscope
+[2024-04-15 08:16:13] INFO root fetch - processPackages [aixblock-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aixblock_ml-0.0.4.tar.gz tmp/aixblock_ml-0.0.5.tar.gz --markdown 20240415/a/aixblock-ml/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-15 08:16:13] INFO root fetch - processPackages [radical.synapse]: executing diffoscope
+[2024-04-15 08:16:13] INFO root fetch - processPackages [radical.synapse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radical.synapse-1.48.0.tar.gz tmp/radical_synapse-1.48.1.tar.gz --markdown 20240415/r/radical.synapse/1.48.0-1.48.1/README.md --exclude *.pyd
+[2024-04-15 08:16:13] INFO root fetch - processPackages [ehdg-pupil-detector]: executing diffoscope
+[2024-04-15 08:16:13] INFO root fetch - processPackages [ehdg-pupil-detector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ehdg_pupil_detector-2.0.1.tar.gz tmp/ehdg_pupil_detector-3.0.0.tar.gz --markdown 20240415/e/ehdg-pupil-detector/2.0.1-3.0.0/README.md --exclude *.pyd
+[2024-04-15 08:16:13] INFO root fetch - processPackages [pymcdm]: executing diffoscope
+[2024-04-15 08:16:13] INFO root fetch - processPackages [pymcdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymcdm-1.2.0.tar.gz tmp/pymcdm-1.2.1.tar.gz --markdown 20240415/p/pymcdm/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-04-15 08:16:14] INFO root fetch - processPackages [radical.repex]: Remove: archive file [/home/abi/fetcher/tmp/radical.repex-1.46.0.tar.gz]
+[2024-04-15 08:16:14] INFO root fetch - processPackages [radical.repex]: Remove: archive file [/home/abi/fetcher/tmp/radical.repex-1.47.0.tar.gz]
+[2024-04-15 08:16:14] INFO root fetch - main [MainThread]: End processing [radical.repex]: success
+[2024-04-15 08:16:14] INFO root fetch - processPackages [aixblock-ml]: Remove: archive file [/home/abi/fetcher/tmp/aixblock_ml-0.0.4.tar.gz]
+[2024-04-15 08:16:14] INFO root fetch - processPackages [aixblock-ml]: Remove: archive file [/home/abi/fetcher/tmp/aixblock_ml-0.0.5.tar.gz]
+[2024-04-15 08:16:14] INFO root fetch - main [MainThread]: End processing [aixblock-ml]: success
+[2024-04-15 08:16:14] INFO root fetch - processPackages [radical.synapse]: Remove: archive file [/home/abi/fetcher/tmp/radical.synapse-1.48.0.tar.gz]
+[2024-04-15 08:16:14] INFO root fetch - processPackages [radical.synapse]: Remove: archive file [/home/abi/fetcher/tmp/radical_synapse-1.48.1.tar.gz]
+[2024-04-15 08:16:14] INFO root fetch - main [MainThread]: End processing [radical.synapse]: success
+[2024-04-15 08:16:14] INFO root fetch - processPackages [ehdg-pupil-detector]: Remove: archive file [/home/abi/fetcher/tmp/ehdg_pupil_detector-2.0.1.tar.gz]
+[2024-04-15 08:16:14] INFO root fetch - processPackages [ehdg-pupil-detector]: Remove: archive file [/home/abi/fetcher/tmp/ehdg_pupil_detector-3.0.0.tar.gz]
+[2024-04-15 08:16:14] INFO root fetch - main [MainThread]: End processing [ehdg-pupil-detector]: success
+[2024-04-15 08:16:14] INFO root fetch - processPackages [pymcdm]: Remove: archive file [/home/abi/fetcher/tmp/pymcdm-1.2.0.tar.gz]
+[2024-04-15 08:16:14] INFO root fetch - processPackages [pymcdm]: Remove: archive file [/home/abi/fetcher/tmp/pymcdm-1.2.1.tar.gz]
+[2024-04-15 08:16:14] INFO root fetch - main [MainThread]: End processing [pymcdm]: success
+[2024-04-15 08:16:17] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-2.3.9.dev20240229.tar.gz]
+[2024-04-15 08:16:17] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-2.3.9.dev20240302.tar.gz]
+[2024-04-15 08:16:17] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2024-04-15 08:16:17] INFO root fetch - main [MainThread]: Store serial: [22766591]
