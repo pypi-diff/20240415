@@ -12384,3 +12384,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 11:02:14] INFO root fetch - processPackages [wechatpayv3]: Remove: archive file [/home/abi/fetcher/tmp/wechatpayv3-1.2.9.tar.gz]
 [2024-04-15 11:02:14] INFO root fetch - main [MainThread]: End processing [wechatpayv3]: success
 [2024-04-15 11:02:14] INFO root fetch - main [MainThread]: Store serial: [22768301]
+[2024-04-15 11:04:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22768301]
+[2024-04-15 11:04:23] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-15 11:04:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eirStru
+[2024-04-15 11:04:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: BasicLibrary.PY
+[2024-04-15 11:04:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autogluon.common
+[2024-04-15 11:04:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: legend-daq2lh5
+[2024-04-15 11:04:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autogluon.core
+[2024-04-15 11:04:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pylogram
+[2024-04-15 11:04:23] INFO root fetch - processPackages [eirStru]: New version: [0.2.96] Old Version: [0.2.95]
+[2024-04-15 11:04:23] INFO root fetch - processPackages [autogluon.core]: New version: [1.1.0b20240414] Old Version: [1.1.0b20240413]
+[2024-04-15 11:04:23] INFO root fetch - processPackages [autogluon.common]: New version: [1.1.0b20240414] Old Version: [1.1.0b20240413]
+[2024-04-15 11:04:23] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/c3/12/ef6d1b03b093fd22fcafe51bcb6873565911b57286ce693b0f17cebec97e/eirStru-0.2.95.tar.gz
+[2024-04-15 11:04:23] INFO root fetch - processPackages [legend-daq2lh5]: New version: [1.2.1] Old Version: [1.2.0a2]
+[2024-04-15 11:04:23] INFO root fetch - processPackages [BasicLibrary.PY]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-04-15 11:04:23] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/eb/90/6018a18a29eba810bc600fb1f4d7b6eab8eaea281a03dd479275435f4f9c/autogluon.core-1.1.0b20240413.tar.gz
+[2024-04-15 11:04:23] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/2f/bb/fd7bd13418befb4eb3c2c5d53fd521d9c555b006fc3ddfc1fb36e50beee2/autogluon.common-1.1.0b20240413.tar.gz
+[2024-04-15 11:04:23] INFO root fetch - processPackages [pylogram]: New version: [0.5.0] Old Version: [0.4.4]
+[2024-04-15 11:04:24] INFO root fetch - processPackages [BasicLibrary.PY]: Downloading https://files.pythonhosted.org/packages/7a/f7/9207417db62e1815b16945c6ef5928d33faefb4fbea25b73e296c7ef1b46/basiclibrary_py-0.6.8.tar.gz
+[2024-04-15 11:04:24] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/d7/3b/0d6f7bb0fdb0c5481e15ba1c8cbbde343fd4123c6aaff4ccc16be43b359e/autogluon.core-1.1.0b20240414.tar.gz
+[2024-04-15 11:04:24] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/dd/c4/89bac75c56114b1cdbc67b3124159f2db51b7216aaec194e5b35501cea62/autogluon.common-1.1.0b20240414.tar.gz
+[2024-04-15 11:04:24] INFO root fetch - processPackages [legend-daq2lh5]: Downloading https://files.pythonhosted.org/packages/5a/cc/5cac13db07eeb80bd245b57f236c4b4caa9387a07151702cbff85099c7c6/legend_daq2lh5-1.2.0a2.tar.gz
+[2024-04-15 11:04:24] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/ad/d9/326575b9e01b740620748db4cb34a631a6ebe043849698acd443e8853429/eirStru-0.2.96.tar.gz
+[2024-04-15 11:04:24] INFO root fetch - processPackages [pylogram]: Downloading https://files.pythonhosted.org/packages/ff/8d/dff60368cd4c4c548ea1e6f076414c155839c27595dda1eb43495ae853de/pylogram-0.4.4.tar.gz
+[2024-04-15 11:04:24] INFO root fetch - processPackages [autogluon.common]: executing diffoscope
+[2024-04-15 11:04:24] INFO root fetch - processPackages [autogluon.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.common-1.1.0b20240413.tar.gz tmp/autogluon.common-1.1.0b20240414.tar.gz --markdown 20240415/a/autogluon.common/1.1.0b20240413-1.1.0b20240414/README.md --exclude *.pyd
+[2024-04-15 11:04:24] INFO root fetch - processPackages [autogluon.core]: executing diffoscope
+[2024-04-15 11:04:24] INFO root fetch - processPackages [autogluon.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.core-1.1.0b20240413.tar.gz tmp/autogluon.core-1.1.0b20240414.tar.gz --markdown 20240415/a/autogluon.core/1.1.0b20240413-1.1.0b20240414/README.md --exclude *.pyd
+[2024-04-15 11:04:24] INFO root fetch - processPackages [eirStru]: executing diffoscope
+[2024-04-15 11:04:24] INFO root fetch - processPackages [eirStru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eirStru-0.2.95.tar.gz tmp/eirStru-0.2.96.tar.gz --markdown 20240415/e/eirStru/0.2.95-0.2.96/README.md --exclude *.pyd
+[2024-04-15 11:04:24] INFO root fetch - processPackages [BasicLibrary.PY]: Downloading https://files.pythonhosted.org/packages/8f/6c/23998dc6441d6989fa6035d0512666516901c034c6eb6a19c41ab50db950/basiclibrary_py-0.6.9.tar.gz
+[2024-04-15 11:04:24] INFO root fetch - processPackages [legend-daq2lh5]: Downloading https://files.pythonhosted.org/packages/19/d1/c5268455faef2822fe675aa116af55c1a96679b5a9cd2e96a7d45c31e03d/legend_daq2lh5-1.2.1.tar.gz
+[2024-04-15 11:04:24] INFO root fetch - processPackages [BasicLibrary.PY]: executing diffoscope
+[2024-04-15 11:04:24] INFO root fetch - processPackages [BasicLibrary.PY]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basiclibrary_py-0.6.8.tar.gz tmp/basiclibrary_py-0.6.9.tar.gz --markdown 20240415/B/BasicLibrary.PY/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-04-15 11:04:24] INFO root fetch - processPackages [pylogram]: Downloading https://files.pythonhosted.org/packages/e3/a5/667ae8dd28a53dcb2ede560d9c844fe79ea6d5ab9e4d9eb1f2e9cab1fc1f/pylogram-0.5.0.tar.gz
+[2024-04-15 11:04:24] INFO root fetch - processPackages [legend-daq2lh5]: executing diffoscope
+[2024-04-15 11:04:24] INFO root fetch - processPackages [legend-daq2lh5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/legend_daq2lh5-1.2.0a2.tar.gz tmp/legend_daq2lh5-1.2.1.tar.gz --markdown 20240415/l/legend-daq2lh5/1.2.0a2-1.2.1/README.md --exclude *.pyd
+[2024-04-15 11:04:24] INFO root fetch - processPackages [pylogram]: executing diffoscope
+[2024-04-15 11:04:24] INFO root fetch - processPackages [pylogram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylogram-0.4.4.tar.gz tmp/pylogram-0.5.0.tar.gz --markdown 20240415/p/pylogram/0.4.4-0.5.0/README.md --exclude *.pyd
+[2024-04-15 11:04:25] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.1.0b20240413.tar.gz]
+[2024-04-15 11:04:25] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.1.0b20240414.tar.gz]
+[2024-04-15 11:04:25] INFO root fetch - main [MainThread]: End processing [autogluon.common]: success
+[2024-04-15 11:04:25] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.2.95.tar.gz]
+[2024-04-15 11:04:25] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.2.96.tar.gz]
+[2024-04-15 11:04:25] INFO root fetch - main [MainThread]: End processing [eirStru]: success
+[2024-04-15 11:04:25] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.1.0b20240413.tar.gz]
+[2024-04-15 11:04:25] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.1.0b20240414.tar.gz]
+[2024-04-15 11:04:25] INFO root fetch - main [MainThread]: End processing [autogluon.core]: success
+[2024-04-15 11:04:25] INFO root fetch - processPackages [BasicLibrary.PY]: Remove: archive file [/home/abi/fetcher/tmp/basiclibrary_py-0.6.8.tar.gz]
+[2024-04-15 11:04:25] INFO root fetch - processPackages [BasicLibrary.PY]: Remove: archive file [/home/abi/fetcher/tmp/basiclibrary_py-0.6.9.tar.gz]
+[2024-04-15 11:04:25] INFO root fetch - main [MainThread]: End processing [BasicLibrary.PY]: success
+[2024-04-15 11:04:25] INFO root fetch - processPackages [legend-daq2lh5]: Remove: archive file [/home/abi/fetcher/tmp/legend_daq2lh5-1.2.0a2.tar.gz]
+[2024-04-15 11:04:25] INFO root fetch - processPackages [legend-daq2lh5]: Remove: archive file [/home/abi/fetcher/tmp/legend_daq2lh5-1.2.1.tar.gz]
+[2024-04-15 11:04:25] INFO root fetch - main [MainThread]: End processing [legend-daq2lh5]: success
+[2024-04-15 11:04:26] INFO root fetch - processPackages [pylogram]: Remove: archive file [/home/abi/fetcher/tmp/pylogram-0.4.4.tar.gz]
+[2024-04-15 11:04:26] INFO root fetch - processPackages [pylogram]: Remove: archive file [/home/abi/fetcher/tmp/pylogram-0.5.0.tar.gz]
+[2024-04-15 11:04:26] INFO root fetch - main [MainThread]: End processing [pylogram]: success
+[2024-04-15 11:04:26] INFO root fetch - main [MainThread]: Store serial: [22768317]
