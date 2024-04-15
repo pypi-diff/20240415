@@ -2707,3 +2707,33 @@
 [2024-04-15 03:59:17] INFO root fetch - processPackages [maling]: Remove: archive file [/home/abi/fetcher/tmp/maling-2.1.6.tar.gz]
 [2024-04-15 03:59:17] INFO root fetch - main [MainThread]: End processing [maling]: success
 [2024-04-15 03:59:17] INFO root fetch - main [MainThread]: Store serial: [22764492]
+[2024-04-15 04:01:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22764492]
+[2024-04-15 04:01:26] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-15 04:01:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xcsc-dataapi
+[2024-04-15 04:01:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tsugu
+[2024-04-15 04:01:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ansar-connect
+[2024-04-15 04:01:26] INFO root fetch - processPackages [tsugu]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-04-15 04:01:26] INFO root fetch - processPackages [ansar-connect]: New version: [0.1.162] Old Version: [0.1.161]
+[2024-04-15 04:01:26] INFO root fetch - processPackages [xcsc-dataapi]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-15 04:01:26] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/13/38/74b38cb3bc172da9b99c254e1ebf55454365482b9e020b12950d77d2e440/tsugu-0.3.5.tar.gz
+[2024-04-15 04:01:26] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/24/4e/f014465a2a230782f3fd8f56d28e5d6045153aa960188914171cc42b1b25/ansar_connect-0.1.161.tar.gz
+[2024-04-15 04:01:26] INFO root fetch - processPackages [xcsc-dataapi]: Downloading https://files.pythonhosted.org/packages/ac/9d/3ee1c05300cadc12719cb0d1b1ed0feccff7adae9897c43ff9d0a42dda81/xcsc_dataapi-1.0.3.tar.gz
+[2024-04-15 04:01:26] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/e1/65/b9faa0ae1ec38ed949ed29094888ddc9d3ea18d8815474f6e7212964afcc/tsugu-0.3.6.tar.gz
+[2024-04-15 04:01:26] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/cf/33/d816d8586d0733b8805959a04de3603076bf1ce272e737fc9074d6917fa0/ansar_connect-0.1.162.tar.gz
+[2024-04-15 04:01:26] INFO root fetch - processPackages [xcsc-dataapi]: Downloading https://files.pythonhosted.org/packages/2a/2f/34fde054288b1d5e51003c66852c46ac3c466c37ad0b1dfb46d8eded26a4/xcsc_dataapi-1.0.4.tar.gz
+[2024-04-15 04:01:26] INFO root fetch - processPackages [tsugu]: executing diffoscope
+[2024-04-15 04:01:26] INFO root fetch - processPackages [tsugu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsugu-0.3.5.tar.gz tmp/tsugu-0.3.6.tar.gz --markdown 20240415/t/tsugu/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-04-15 04:01:26] INFO root fetch - processPackages [ansar-connect]: executing diffoscope
+[2024-04-15 04:01:26] INFO root fetch - processPackages [ansar-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar_connect-0.1.161.tar.gz tmp/ansar_connect-0.1.162.tar.gz --markdown 20240415/a/ansar-connect/0.1.161-0.1.162/README.md --exclude *.pyd
+[2024-04-15 04:01:27] INFO root fetch - processPackages [xcsc-dataapi]: executing diffoscope
+[2024-04-15 04:01:27] INFO root fetch - processPackages [xcsc-dataapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xcsc_dataapi-1.0.3.tar.gz tmp/xcsc_dataapi-1.0.4.tar.gz --markdown 20240415/x/xcsc-dataapi/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-15 04:01:27] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.3.5.tar.gz]
+[2024-04-15 04:01:27] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.3.6.tar.gz]
+[2024-04-15 04:01:27] INFO root fetch - main [MainThread]: End processing [tsugu]: success
+[2024-04-15 04:01:27] INFO root fetch - processPackages [xcsc-dataapi]: Remove: archive file [/home/abi/fetcher/tmp/xcsc_dataapi-1.0.3.tar.gz]
+[2024-04-15 04:01:27] INFO root fetch - processPackages [xcsc-dataapi]: Remove: archive file [/home/abi/fetcher/tmp/xcsc_dataapi-1.0.4.tar.gz]
+[2024-04-15 04:01:27] INFO root fetch - main [MainThread]: End processing [xcsc-dataapi]: success
+[2024-04-15 04:01:27] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.161.tar.gz]
+[2024-04-15 04:01:27] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.162.tar.gz]
+[2024-04-15 04:01:27] INFO root fetch - main [MainThread]: End processing [ansar-connect]: success
+[2024-04-15 04:01:27] INFO root fetch - main [MainThread]: Store serial: [22764500]
