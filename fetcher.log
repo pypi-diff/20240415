@@ -14142,3 +14142,108 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 11:57:45] INFO root fetch - processPackages [mapel-elections]: Remove: archive file [/home/abi/fetcher/tmp/mapel_elections-2.1.9-cp312-cp312-musllinux_1_1_i686.whl.zip]
 [2024-04-15 11:57:45] INFO root fetch - main [MainThread]: End processing [mapel-elections]: success
 [2024-04-15 11:57:45] INFO root fetch - main [MainThread]: Store serial: [22769004]
+[2024-04-15 11:59:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22769004]
+[2024-04-15 11:59:53] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-15 11:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tkinterPdfViewer
+[2024-04-15 11:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: asyncstdlib
+[2024-04-15 11:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: c2cwsgiutils
+[2024-04-15 11:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zigzag-dse
+[2024-04-15 11:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mapel-marriages
+[2024-04-15 11:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mapel-roommates
+[2024-04-15 11:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: datanommer.models
+[2024-04-15 11:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: datanommer.consumer
+[2024-04-15 11:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: datanommer.commands
+[2024-04-15 11:59:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: waylay-sdk-resources-types
+[2024-04-15 11:59:54] INFO root fetch - processPackages [c2cwsgiutils]: New version: [6.1.0.dev99] Old Version: [6.1.0.dev97]
+[2024-04-15 11:59:54] INFO root fetch - processPackages [waylay-sdk-resources-types]: New version: [8.1.0a20240415] Old Version: [8.1.0.20240415]
+[2024-04-15 11:59:54] INFO root fetch - processPackages [mapel-roommates]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-15 11:59:54] INFO root fetch - processPackages [asyncstdlib]: New version: [3.9.2] Old Version: [3.9.1]
+[2024-04-15 11:59:54] WARNING root fetch - processPackages [tkinterPdfViewer]: Skipping, unable to determine old version
+[2024-04-15 11:59:54] INFO root fetch - processPackages [tkinterPdfViewer]: Start processing: waylay-sdk-resources
+[2024-04-15 11:59:54] INFO root fetch - main [MainThread]: End processing [tkinterPdfViewer] error
+[2024-04-15 11:59:54] INFO root fetch - processPackages [datanommer.consumer]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-15 11:59:54] INFO root fetch - processPackages [datanommer.commands]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-15 11:59:54] INFO root fetch - processPackages [mapel-marriages]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-15 11:59:54] INFO root fetch - processPackages [datanommer.models]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-15 11:59:54] INFO root fetch - processPackages [zigzag-dse]: New version: [3.1.0] Old Version: [3.0.0]
+[2024-04-15 11:59:54] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/70/82/1062250c5f8b684273f1f576ab49863eb71b99aedcf0e638b7d18af727dc/c2cwsgiutils-6.1.0.dev97.tar.gz
+[2024-04-15 11:59:54] INFO root fetch - processPackages [asyncstdlib]: Downloading https://files.pythonhosted.org/packages/ee/bb/ec85fdf9d8f4eaae05f9c567820a0252787fd3045aacf886008cb8945e80/asyncstdlib-3.9.1.tar.gz
+[2024-04-15 11:59:54] INFO root fetch - processPackages [waylay-sdk-resources-types]: Downloading https://files.pythonhosted.org/packages/24/4f/97c640aecab508070a35d80144dc6e54431439fa881e3612699625f11819/waylay_sdk_resources_types-8.1.0.20240415.tar.gz
+[2024-04-15 11:59:54] INFO root fetch - processPackages [waylay-sdk-resources]: New version: [8.1.0.20240415] Old Version: [8.1.0.20240328]
+[2024-04-15 11:59:54] INFO root fetch - processPackages [mapel-roommates]: Downloading https://files.pythonhosted.org/packages/57/26/308c1e4711754ed8f88f50ee00e9f0310f980e50934f948605ff3a2dc536/mapel-roommates-2.1.8.tar.gz
+[2024-04-15 11:59:54] INFO root fetch - processPackages [datanommer.models]: Downloading https://files.pythonhosted.org/packages/ab/bf/60bcbbd7dc9eef02aa293f594bc2af5aec3171934179aca50691c4234241/datanommer_models-1.1.0.tar.gz
+[2024-04-15 11:59:54] INFO root fetch - processPackages [datanommer.consumer]: Downloading https://files.pythonhosted.org/packages/3d/23/0e45b19187c263c15c1977d7f21025ce49be3a74a10df433fc73fab9a1e2/datanommer_consumer-1.1.0.tar.gz
+[2024-04-15 11:59:54] INFO root fetch - processPackages [datanommer.commands]: Downloading https://files.pythonhosted.org/packages/10/71/84c1b94afe0759ab8d01dd3e8eaa3318d7367b971f913a4ad299130e3528/datanommer_commands-1.1.0.tar.gz
+[2024-04-15 11:59:54] INFO root fetch - processPackages [zigzag-dse]: Downloading https://files.pythonhosted.org/packages/85/b1/d32d366c4bdf88eb41a9ce62702fd308db94db9ac089ab589d1186283ee2/zigzag-dse-3.0.0.tar.gz
+[2024-04-15 11:59:54] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/ab/62/7a161c456f1828f37b18431d8f5cf1bbda9dfe8ef509b1c94d8dad7c8da1/c2cwsgiutils-6.1.0.dev99.tar.gz
+[2024-04-15 11:59:54] INFO root fetch - processPackages [mapel-marriages]: Downloading https://files.pythonhosted.org/packages/7c/b6/b9e31b8593b48d6166357cd6822ecb8942f879f8b99bd2089d1cb58b9fe4/mapel-marriages-2.1.8.tar.gz
+[2024-04-15 11:59:54] INFO root fetch - processPackages [waylay-sdk-resources]: Downloading https://files.pythonhosted.org/packages/ac/9f/ad455482f935aedca9e3b83014ce6f6f497433407c7a7bb4b608ec8af742/waylay-sdk-resources-8.1.0.20240328.tar.gz
+[2024-04-15 11:59:54] INFO root fetch - processPackages [asyncstdlib]: Downloading https://files.pythonhosted.org/packages/39/1d/7299b0ede504cf80d5a7707a8899a75c05f821c2cdffd899ee8732fc1486/asyncstdlib-3.9.2.tar.gz
+[2024-04-15 11:59:54] INFO root fetch - processPackages [c2cwsgiutils]: executing diffoscope
+[2024-04-15 11:59:54] INFO root fetch - processPackages [c2cwsgiutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cwsgiutils-6.1.0.dev97.tar.gz tmp/c2cwsgiutils-6.1.0.dev99.tar.gz --markdown 20240415/c/c2cwsgiutils/6.1.0.dev97-6.1.0.dev99/README.md --exclude *.pyd
+[2024-04-15 11:59:54] INFO root fetch - processPackages [waylay-sdk-resources-types]: Downloading https://files.pythonhosted.org/packages/ee/62/2f171321877c27f4aaefbb1b1d5972d2eb5397e3ddf23d23ef14a66aa2c4/waylay_sdk_resources_types-8.1.0a20240415.tar.gz
+[2024-04-15 11:59:54] INFO root fetch - processPackages [asyncstdlib]: executing diffoscope
+[2024-04-15 11:59:54] INFO root fetch - processPackages [asyncstdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncstdlib-3.9.1.tar.gz tmp/asyncstdlib-3.9.2.tar.gz --markdown 20240415/a/asyncstdlib/3.9.1-3.9.2/README.md --exclude *.pyd
+[2024-04-15 11:59:55] INFO root fetch - processPackages [mapel-roommates]: Downloading https://files.pythonhosted.org/packages/da/78/68a4a7b1e75443e72847cb33052d9b08470717a3d0cccf01fe2211e9ec7d/mapel_roommates-2.1.9.tar.gz
+[2024-04-15 11:59:55] INFO root fetch - processPackages [datanommer.models]: Downloading https://files.pythonhosted.org/packages/7a/81/03d474fa8737999462166326ae851841a606831b67b1086cd74361b963aa/datanommer_models-1.2.0.tar.gz
+[2024-04-15 11:59:55] INFO root fetch - processPackages [waylay-sdk-resources-types]: executing diffoscope
+[2024-04-15 11:59:55] INFO root fetch - processPackages [waylay-sdk-resources-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waylay_sdk_resources_types-8.1.0.20240415.tar.gz tmp/waylay_sdk_resources_types-8.1.0a20240415.tar.gz --markdown 20240415/w/waylay-sdk-resources-types/8.1.0.20240415-8.1.0a20240415/README.md --exclude *.pyd
+[2024-04-15 11:59:55] INFO root fetch - processPackages [datanommer.commands]: Downloading https://files.pythonhosted.org/packages/87/a9/83e3231438e2da9ddcdd2980dce3fcb3d6b36bed1bc6e808f51c4b508350/datanommer_commands-1.2.0.tar.gz
+[2024-04-15 11:59:55] INFO root fetch - processPackages [datanommer.consumer]: Downloading https://files.pythonhosted.org/packages/36/27/45184ace905eea6bdbb63903a84b27b0617c554ce9e372d892c930f9ca52/datanommer_consumer-1.2.0.tar.gz
+[2024-04-15 11:59:55] INFO root fetch - processPackages [mapel-marriages]: Downloading https://files.pythonhosted.org/packages/26/5d/9dda2034a369356f7afbaac33c470e4ccbad16f0d5b29811167a81ac077c/mapel_marriages-2.1.9.tar.gz
+[2024-04-15 11:59:55] INFO root fetch - processPackages [mapel-roommates]: executing diffoscope
+[2024-04-15 11:59:55] INFO root fetch - processPackages [mapel-roommates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapel-roommates-2.1.8.tar.gz tmp/mapel_roommates-2.1.9.tar.gz --markdown 20240415/m/mapel-roommates/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-15 11:59:55] INFO root fetch - processPackages [datanommer.models]: executing diffoscope
+[2024-04-15 11:59:55] INFO root fetch - processPackages [datanommer.models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datanommer_models-1.1.0.tar.gz tmp/datanommer_models-1.2.0.tar.gz --markdown 20240415/d/datanommer.models/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-04-15 11:59:55] INFO root fetch - processPackages [datanommer.commands]: executing diffoscope
+[2024-04-15 11:59:55] INFO root fetch - processPackages [datanommer.commands]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datanommer_commands-1.1.0.tar.gz tmp/datanommer_commands-1.2.0.tar.gz --markdown 20240415/d/datanommer.commands/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-04-15 11:59:55] INFO root fetch - processPackages [datanommer.consumer]: executing diffoscope
+[2024-04-15 11:59:55] INFO root fetch - processPackages [datanommer.consumer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datanommer_consumer-1.1.0.tar.gz tmp/datanommer_consumer-1.2.0.tar.gz --markdown 20240415/d/datanommer.consumer/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-04-15 11:59:55] INFO root fetch - processPackages [waylay-sdk-resources]: Downloading https://files.pythonhosted.org/packages/fd/35/54b30753ef570da25e55f8df66b195980fbdb6156a36c6dcff80a88085a6/waylay_sdk_resources-8.1.0.20240415.tar.gz
+[2024-04-15 11:59:55] INFO root fetch - processPackages [zigzag-dse]: Downloading https://files.pythonhosted.org/packages/44/d6/c97b9dbb51a92f6c647010c5e6fe3d1c6e7b53cb440310aa4f08e0adfcf1/zigzag_dse-3.1.0.tar.gz
+[2024-04-15 11:59:55] INFO root fetch - processPackages [mapel-marriages]: executing diffoscope
+[2024-04-15 11:59:55] INFO root fetch - processPackages [mapel-marriages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapel-marriages-2.1.8.tar.gz tmp/mapel_marriages-2.1.9.tar.gz --markdown 20240415/m/mapel-marriages/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-15 11:59:55] INFO root fetch - processPackages [waylay-sdk-resources]: executing diffoscope
+[2024-04-15 11:59:55] INFO root fetch - processPackages [waylay-sdk-resources]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waylay-sdk-resources-8.1.0.20240328.tar.gz tmp/waylay_sdk_resources-8.1.0.20240415.tar.gz --markdown 20240415/w/waylay-sdk-resources/8.1.0.20240328-8.1.0.20240415/README.md --exclude *.pyd
+[2024-04-15 11:59:55] INFO root fetch - processPackages [zigzag-dse]: executing diffoscope
+[2024-04-15 11:59:55] INFO root fetch - processPackages [zigzag-dse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zigzag-dse-3.0.0.tar.gz tmp/zigzag_dse-3.1.0.tar.gz --markdown 20240415/z/zigzag-dse/3.0.0-3.1.0/README.md --exclude *.pyd
+[2024-04-15 11:59:56] INFO root fetch - processPackages [asyncstdlib]: Remove: archive file [/home/abi/fetcher/tmp/asyncstdlib-3.9.1.tar.gz]
+[2024-04-15 11:59:56] INFO root fetch - processPackages [asyncstdlib]: Remove: archive file [/home/abi/fetcher/tmp/asyncstdlib-3.9.2.tar.gz]
+[2024-04-15 11:59:56] INFO root fetch - processPackages [asyncstdlib]: Start processing: ppss-auth
+[2024-04-15 11:59:56] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.1.0.dev97.tar.gz]
+[2024-04-15 11:59:56] INFO root fetch - main [MainThread]: End processing [asyncstdlib]: success
+[2024-04-15 11:59:56] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.1.0.dev99.tar.gz]
+[2024-04-15 11:59:56] INFO root fetch - main [MainThread]: End processing [c2cwsgiutils]: success
+[2024-04-15 11:59:56] INFO root fetch - processPackages [ppss-auth]: New version: [0.9.5] Old Version: [0.9.4.4]
+[2024-04-15 11:59:56] INFO root fetch - processPackages [mapel-roommates]: Remove: archive file [/home/abi/fetcher/tmp/mapel-roommates-2.1.8.tar.gz]
+[2024-04-15 11:59:56] INFO root fetch - processPackages [mapel-roommates]: Remove: archive file [/home/abi/fetcher/tmp/mapel_roommates-2.1.9.tar.gz]
+[2024-04-15 11:59:56] INFO root fetch - main [MainThread]: End processing [mapel-roommates]: success
+[2024-04-15 11:59:56] INFO root fetch - processPackages [ppss-auth]: Downloading https://files.pythonhosted.org/packages/9f/4d/616ddc471de440735834fed4b7116556f0f72249ce6f4ac81e1b26e4f97b/ppss_auth-0.9.4.4.tar.gz
+[2024-04-15 11:59:56] INFO root fetch - processPackages [datanommer.commands]: Remove: archive file [/home/abi/fetcher/tmp/datanommer_commands-1.1.0.tar.gz]
+[2024-04-15 11:59:56] INFO root fetch - processPackages [datanommer.commands]: Remove: archive file [/home/abi/fetcher/tmp/datanommer_commands-1.2.0.tar.gz]
+[2024-04-15 11:59:56] INFO root fetch - main [MainThread]: End processing [datanommer.commands]: success
+[2024-04-15 11:59:56] INFO root fetch - processPackages [datanommer.models]: Remove: archive file [/home/abi/fetcher/tmp/datanommer_models-1.1.0.tar.gz]
+[2024-04-15 11:59:56] INFO root fetch - processPackages [datanommer.models]: Remove: archive file [/home/abi/fetcher/tmp/datanommer_models-1.2.0.tar.gz]
+[2024-04-15 11:59:56] INFO root fetch - main [MainThread]: End processing [datanommer.models]: success
+[2024-04-15 11:59:56] INFO root fetch - processPackages [waylay-sdk-resources-types]: Remove: archive file [/home/abi/fetcher/tmp/waylay_sdk_resources_types-8.1.0.20240415.tar.gz]
+[2024-04-15 11:59:56] INFO root fetch - processPackages [waylay-sdk-resources-types]: Remove: archive file [/home/abi/fetcher/tmp/waylay_sdk_resources_types-8.1.0a20240415.tar.gz]
+[2024-04-15 11:59:56] INFO root fetch - main [MainThread]: End processing [waylay-sdk-resources-types]: success
+[2024-04-15 11:59:56] INFO root fetch - processPackages [waylay-sdk-resources]: Remove: archive file [/home/abi/fetcher/tmp/waylay-sdk-resources-8.1.0.20240328.tar.gz]
+[2024-04-15 11:59:56] INFO root fetch - processPackages [waylay-sdk-resources]: Remove: archive file [/home/abi/fetcher/tmp/waylay_sdk_resources-8.1.0.20240415.tar.gz]
+[2024-04-15 11:59:56] INFO root fetch - main [MainThread]: End processing [waylay-sdk-resources]: success
+[2024-04-15 11:59:56] INFO root fetch - processPackages [datanommer.consumer]: Remove: archive file [/home/abi/fetcher/tmp/datanommer_consumer-1.1.0.tar.gz]
+[2024-04-15 11:59:56] INFO root fetch - processPackages [datanommer.consumer]: Remove: archive file [/home/abi/fetcher/tmp/datanommer_consumer-1.2.0.tar.gz]
+[2024-04-15 11:59:56] INFO root fetch - main [MainThread]: End processing [datanommer.consumer]: success
+[2024-04-15 11:59:56] INFO root fetch - processPackages [mapel-marriages]: Remove: archive file [/home/abi/fetcher/tmp/mapel-marriages-2.1.8.tar.gz]
+[2024-04-15 11:59:56] INFO root fetch - processPackages [mapel-marriages]: Remove: archive file [/home/abi/fetcher/tmp/mapel_marriages-2.1.9.tar.gz]
+[2024-04-15 11:59:56] INFO root fetch - main [MainThread]: End processing [mapel-marriages]: success
+[2024-04-15 11:59:56] INFO root fetch - processPackages [ppss-auth]: Downloading https://files.pythonhosted.org/packages/58/62/52b6eebcac0d22c560b582083e034d61f3f5954bc451c6bcf40e73e59400/ppss_auth-0.9.5.tar.gz
+[2024-04-15 11:59:56] INFO root fetch - processPackages [ppss-auth]: executing diffoscope
+[2024-04-15 11:59:56] INFO root fetch - processPackages [ppss-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ppss_auth-0.9.4.4.tar.gz tmp/ppss_auth-0.9.5.tar.gz --markdown 20240415/p/ppss-auth/0.9.4.4-0.9.5/README.md --exclude *.pyd
+[2024-04-15 11:59:57] INFO root fetch - processPackages [ppss-auth]: Remove: archive file [/home/abi/fetcher/tmp/ppss_auth-0.9.4.4.tar.gz]
+[2024-04-15 11:59:57] INFO root fetch - processPackages [ppss-auth]: Remove: archive file [/home/abi/fetcher/tmp/ppss_auth-0.9.5.tar.gz]
+[2024-04-15 11:59:57] INFO root fetch - main [MainThread]: End processing [ppss-auth]: success
+[2024-04-15 11:59:57] INFO root fetch - processPackages [zigzag-dse]: Remove: archive file [/home/abi/fetcher/tmp/zigzag-dse-3.0.0.tar.gz]
+[2024-04-15 11:59:57] INFO root fetch - processPackages [zigzag-dse]: Remove: archive file [/home/abi/fetcher/tmp/zigzag_dse-3.1.0.tar.gz]
+[2024-04-15 11:59:57] INFO root fetch - main [MainThread]: End processing [zigzag-dse]: success
+[2024-04-15 11:59:57] INFO root fetch - main [MainThread]: Store serial: [22769085]
