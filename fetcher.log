@@ -21656,3 +21656,111 @@ EOFError: EOF read where object expected
 [2024-04-15 16:10:06] INFO root fetch - processPackages [rk-extractor]: Remove: archive file [/home/abi/fetcher/tmp/rk_extractor-0.8.9.tar.gz]
 [2024-04-15 16:10:06] INFO root fetch - main [MainThread]: End processing [rk-extractor]: success
 [2024-04-15 16:10:06] INFO root fetch - main [MainThread]: Store serial: [22772379]
+[2024-04-15 16:12:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22772379]
+[2024-04-15 16:12:15] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-15 16:12:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-project-base
+[2024-04-15 16:12:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jinja2-async-environment
+[2024-04-15 16:12:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: schemaorg-lite
+[2024-04-15 16:12:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: finbourne-access-sdk
+[2024-04-15 16:12:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ghga-service-commons
+[2024-04-15 16:12:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kiara-plugin.tabular
+[2024-04-15 16:12:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sdmxthon
+[2024-04-15 16:12:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: la-coding-theory
+[2024-04-15 16:12:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: airbyte-source-shopify
+[2024-04-15 16:12:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: transformer-embeddings
+[2024-04-15 16:12:15] INFO root fetch - processPackages [django-project-base]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-15 16:12:15] INFO root fetch - processPackages [airbyte-source-shopify]: New version: [2.0.5.dev202404151411] Old Version: [2.0.5.dev202404132257]
+[2024-04-15 16:12:15] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-15 16:12:16] INFO root fetch - processPackages [schemaorg-lite]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-15 16:12:16] INFO root fetch - processPackages [kiara-plugin.tabular]: New version: [0.5.4rc1] Old Version: [0.5.3]
+[2024-04-15 16:12:16] INFO root fetch - processPackages [jinja2-async-environment]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-04-15 16:12:16] INFO root fetch - processPackages [sdmxthon]: New version: [2.6.5] Old Version: [2.6.4]
+[2024-04-15 16:12:16] INFO root fetch - processPackages [ghga-service-commons]: New version: [3.1.2] Old Version: [3.1.1]
+[2024-04-15 16:12:16] INFO root fetch - processPackages [django-project-base]: Downloading https://files.pythonhosted.org/packages/5e/80/79b654e965ab524a7a7100a2f70a50f2bb4f45f1d1ba3e84e7ae3304382a/django-project-base-0.4.8.tar.gz
+[2024-04-15 16:12:16] INFO root fetch - processPackages [transformer-embeddings]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-04-15 16:12:16] WARNING root fetch - processPackages [la-coding-theory]: Skipping, unable to determine old version
+[2024-04-15 16:12:16] INFO root fetch - processPackages [la-coding-theory]: Start processing: pyflexfloat
+[2024-04-15 16:12:16] INFO root fetch - main [MainThread]: End processing [la-coding-theory] error
+[2024-04-15 16:12:16] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/67/5a/2e8d70b51969063ac34619b9a07be19893b64107b4dab37e771b94bd1b03/finbourne_access_sdk-2.1.8.tar.gz
+[2024-04-15 16:12:16] INFO root fetch - processPackages [schemaorg-lite]: Downloading https://files.pythonhosted.org/packages/76/ea/f8da322ad9c463fb3674baa7f3cede2984ff76804d617531f29706753fe2/schemaorg_lite-0.1.8.tar.gz
+[2024-04-15 16:12:16] INFO root fetch - processPackages [kiara-plugin.tabular]: Downloading https://files.pythonhosted.org/packages/4c/30/49c28074d1534e457589f062ea06b495edf79906a5b80395fe952a2c3ca8/kiara_plugin.tabular-0.5.3.tar.gz
+[2024-04-15 16:12:16] INFO root fetch - processPackages [airbyte-source-shopify]: Downloading https://files.pythonhosted.org/packages/31/27/93f614c8af5998e25f6857e01dda0b3fd6375b1a5142905515a9a17978ca/airbyte_source_shopify-2.0.5.dev202404132257.tar.gz
+[2024-04-15 16:12:16] INFO root fetch - processPackages [jinja2-async-environment]: Downloading https://files.pythonhosted.org/packages/b6/6c/63b6f7a8257f6d03e6499865cfdc34b66aea97eafde88de44c1a8212fbeb/jinja2_async_environment-0.7.1.tar.gz
+[2024-04-15 16:12:16] INFO root fetch - processPackages [sdmxthon]: Downloading https://files.pythonhosted.org/packages/af/03/595d528967b33a91d4b5a627d28a91de6d15dbe5e8396b678bd328bde7ef/sdmxthon-2.6.4.tar.gz
+[2024-04-15 16:12:16] INFO root fetch - processPackages [pyflexfloat]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-15 16:12:16] INFO root fetch - processPackages [ghga-service-commons]: Downloading https://files.pythonhosted.org/packages/a1/92/3b63c8446ce4c9c0a44a0f13c9ff48c9f8a736afaac9e284f9e37013f4dc/ghga_service_commons-3.1.1.tar.gz
+[2024-04-15 16:12:16] INFO root fetch - processPackages [transformer-embeddings]: Downloading https://files.pythonhosted.org/packages/f3/fa/fcdc828303e60e94ae298288c647f853cafc3777b44761213784871af6c3/transformer_embeddings-4.0.8.tar.gz
+[2024-04-15 16:12:16] INFO root fetch - processPackages [django-project-base]: Downloading https://files.pythonhosted.org/packages/5f/7e/cb65b3d5c1084b92a5dc2d9e611005fede46a3436e8936d6efbbdef55efd/django-project-base-0.4.9.tar.gz
+[2024-04-15 16:12:16] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/2d/9e/be08614b45729ae547c5c8acd046e8c90ae89d6b812ee70666b6e24bcbe8/finbourne_access_sdk-2.1.9.tar.gz
+[2024-04-15 16:12:16] INFO root fetch - processPackages [django-project-base]: executing diffoscope
+[2024-04-15 16:12:16] INFO root fetch - processPackages [django-project-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-project-base-0.4.8.tar.gz tmp/django-project-base-0.4.9.tar.gz --markdown 20240415/d/django-project-base/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-15 16:12:16] INFO root fetch - processPackages [pyflexfloat]: Downloading https://files.pythonhosted.org/packages/d5/b3/6d033ef7ab335a4e111f39b9eaf57e6b08f6414307d55842015809c7e35a/pyflexfloat-0.1.1.tar.gz
+[2024-04-15 16:12:16] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2024-04-15 16:12:16] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_access_sdk-2.1.8.tar.gz tmp/finbourne_access_sdk-2.1.9.tar.gz --markdown 20240415/f/finbourne-access-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-15 16:12:16] INFO root fetch - processPackages [kiara-plugin.tabular]: Downloading https://files.pythonhosted.org/packages/2a/3e/0de5de1866f71b337c16437abab409766f54f80e04581a014d60bbe1bcef/kiara_plugin_tabular-0.5.4rc1.tar.gz
+[2024-04-15 16:12:16] INFO root fetch - processPackages [jinja2-async-environment]: Downloading https://files.pythonhosted.org/packages/25/52/c0570774518b4334620fe35fbcbcc06332334681dc3de9a0d017a2741cce/jinja2_async_environment-0.7.2.tar.gz
+[2024-04-15 16:12:16] INFO root fetch - processPackages [sdmxthon]: Downloading https://files.pythonhosted.org/packages/a3/ae/6f7dc2aa9e4bd2f6d284c1e1ea4022a01b2b4abfd696d44f11f192503dd3/sdmxthon-2.6.5.tar.gz
+[2024-04-15 16:12:16] INFO root fetch - processPackages [airbyte-source-shopify]: Downloading https://files.pythonhosted.org/packages/4a/6a/b9cf53abab42a9a80129dff107980d2e789581e9c83c6f02a4c2515c427f/airbyte_source_shopify-2.0.5.dev202404151411.tar.gz
+[2024-04-15 16:12:16] INFO root fetch - processPackages [ghga-service-commons]: Downloading https://files.pythonhosted.org/packages/14/ed/e8c13e26198626e6edd56e02be342d31c562417eb1a756ca7f768522ed80/ghga_service_commons-3.1.2.tar.gz
+[2024-04-15 16:12:16] INFO root fetch - processPackages [transformer-embeddings]: Downloading https://files.pythonhosted.org/packages/16/71/15ae0db9334711aad8ede7b3c3f05e39b5675b49c9088693de70ddc4a6e4/transformer_embeddings-4.0.9.tar.gz
+[2024-04-15 16:12:16] INFO root fetch - processPackages [jinja2-async-environment]: executing diffoscope
+[2024-04-15 16:12:16] INFO root fetch - processPackages [jinja2-async-environment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jinja2_async_environment-0.7.1.tar.gz tmp/jinja2_async_environment-0.7.2.tar.gz --markdown 20240415/j/jinja2-async-environment/0.7.1-0.7.2/README.md --exclude *.pyd
+[2024-04-15 16:12:16] INFO root fetch - processPackages [ghga-service-commons]: executing diffoscope
+[2024-04-15 16:12:16] INFO root fetch - processPackages [ghga-service-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghga_service_commons-3.1.1.tar.gz tmp/ghga_service_commons-3.1.2.tar.gz --markdown 20240415/g/ghga-service-commons/3.1.1-3.1.2/README.md --exclude *.pyd
+[2024-04-15 16:12:16] INFO root fetch - processPackages [kiara-plugin.tabular]: executing diffoscope
+[2024-04-15 16:12:16] INFO root fetch - processPackages [kiara-plugin.tabular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiara_plugin.tabular-0.5.3.tar.gz tmp/kiara_plugin_tabular-0.5.4rc1.tar.gz --markdown 20240415/k/kiara-plugin.tabular/0.5.3-0.5.4rc1/README.md --exclude *.pyd
+[2024-04-15 16:12:16] INFO root fetch - processPackages [transformer-embeddings]: executing diffoscope
+[2024-04-15 16:12:16] INFO root fetch - processPackages [transformer-embeddings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transformer_embeddings-4.0.8.tar.gz tmp/transformer_embeddings-4.0.9.tar.gz --markdown 20240415/t/transformer-embeddings/4.0.8-4.0.9/README.md --exclude *.pyd
+[2024-04-15 16:12:16] INFO root fetch - processPackages [airbyte-source-shopify]: executing diffoscope
+[2024-04-15 16:12:16] INFO root fetch - processPackages [airbyte-source-shopify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_shopify-2.0.5.dev202404132257.tar.gz tmp/airbyte_source_shopify-2.0.5.dev202404151411.tar.gz --markdown 20240415/a/airbyte-source-shopify/2.0.5.dev202404132257-2.0.5.dev202404151411/README.md --exclude *.pyd
+[2024-04-15 16:12:16] INFO root fetch - processPackages [sdmxthon]: executing diffoscope
+[2024-04-15 16:12:16] INFO root fetch - processPackages [sdmxthon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdmxthon-2.6.4.tar.gz tmp/sdmxthon-2.6.5.tar.gz --markdown 20240415/s/sdmxthon/2.6.4-2.6.5/README.md --exclude *.pyd
+[2024-04-15 16:12:16] INFO root fetch - processPackages [pyflexfloat]: Downloading https://files.pythonhosted.org/packages/4b/05/0c6ce6a196ef643d8ca784a101e9e7f93dc8944b6c32258d3ef65cee1e88/pyflexfloat-0.1.2-cp39-cp39-musllinux_1_1_x86_64.whl
+[2024-04-15 16:12:17] INFO root fetch - processPackages [pyflexfloat]: executing diffoscope
+[2024-04-15 16:12:17] INFO root fetch - processPackages [pyflexfloat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyflexfloat-0.1.1.tar.gz tmp/pyflexfloat-0.1.2-cp39-cp39-musllinux_1_1_x86_64.whl.zip --markdown 20240415/p/pyflexfloat/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-15 16:12:17] INFO root fetch - processPackages [jinja2-async-environment]: Remove: archive file [/home/abi/fetcher/tmp/jinja2_async_environment-0.7.1.tar.gz]
+[2024-04-15 16:12:17] INFO root fetch - processPackages [jinja2-async-environment]: Remove: archive file [/home/abi/fetcher/tmp/jinja2_async_environment-0.7.2.tar.gz]
+[2024-04-15 16:12:17] INFO root fetch - processPackages [jinja2-async-environment]: Start processing: transmux
+[2024-04-15 16:12:17] INFO root fetch - main [MainThread]: End processing [jinja2-async-environment]: success
+[2024-04-15 16:12:17] WARNING root fetch - processPackages [transmux]: Skipping, unable to determine old version
+[2024-04-15 16:12:17] INFO root fetch - processPackages [transmux]: Start processing: zhmiscellany
+[2024-04-15 16:12:17] INFO root fetch - main [MainThread]: End processing [transmux] error
+[2024-04-15 16:12:17] INFO root fetch - processPackages [zhmiscellany]: New version: [1.9.7] Old Version: [1.9.6]
+[2024-04-15 16:12:17] INFO root fetch - processPackages [django-project-base]: Remove: archive file [/home/abi/fetcher/tmp/django-project-base-0.4.8.tar.gz]
+[2024-04-15 16:12:17] INFO root fetch - processPackages [django-project-base]: Remove: archive file [/home/abi/fetcher/tmp/django-project-base-0.4.9.tar.gz]
+[2024-04-15 16:12:17] INFO root fetch - main [MainThread]: End processing [django-project-base]: success
+[2024-04-15 16:12:18] INFO root fetch - processPackages [transformer-embeddings]: Remove: archive file [/home/abi/fetcher/tmp/transformer_embeddings-4.0.8.tar.gz]
+[2024-04-15 16:12:18] INFO root fetch - processPackages [transformer-embeddings]: Remove: archive file [/home/abi/fetcher/tmp/transformer_embeddings-4.0.9.tar.gz]
+[2024-04-15 16:12:18] INFO root fetch - main [MainThread]: End processing [transformer-embeddings]: success
+[2024-04-15 16:12:18] INFO root fetch - processPackages [ghga-service-commons]: Remove: archive file [/home/abi/fetcher/tmp/ghga_service_commons-3.1.1.tar.gz]
+[2024-04-15 16:12:18] INFO root fetch - processPackages [ghga-service-commons]: Remove: archive file [/home/abi/fetcher/tmp/ghga_service_commons-3.1.2.tar.gz]
+[2024-04-15 16:12:18] INFO root fetch - main [MainThread]: End processing [ghga-service-commons]: success
+[2024-04-15 16:12:18] INFO root fetch - processPackages [zhmiscellany]: Downloading https://files.pythonhosted.org/packages/3d/a0/17fa05949da071a5fd956b81026aba818f76f886ab7cc66ab220b62eb1ac/zhmiscellany-1.9.6-py3-none-any.whl
+[2024-04-15 16:12:18] INFO root fetch - processPackages [airbyte-source-shopify]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_shopify-2.0.5.dev202404132257.tar.gz]
+[2024-04-15 16:12:18] INFO root fetch - processPackages [airbyte-source-shopify]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_shopify-2.0.5.dev202404151411.tar.gz]
+[2024-04-15 16:12:18] INFO root fetch - main [MainThread]: End processing [airbyte-source-shopify]: success
+[2024-04-15 16:12:18] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.8.tar.gz]
+[2024-04-15 16:12:18] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.9.tar.gz]
+[2024-04-15 16:12:18] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2024-04-15 16:12:18] INFO root fetch - processPackages [kiara-plugin.tabular]: Remove: archive file [/home/abi/fetcher/tmp/kiara_plugin.tabular-0.5.3.tar.gz]
+[2024-04-15 16:12:18] INFO root fetch - processPackages [kiara-plugin.tabular]: Remove: archive file [/home/abi/fetcher/tmp/kiara_plugin_tabular-0.5.4rc1.tar.gz]
+[2024-04-15 16:12:18] INFO root fetch - main [MainThread]: End processing [kiara-plugin.tabular]: success
+[2024-04-15 16:12:18] INFO root fetch - processPackages [zhmiscellany]: Downloading https://files.pythonhosted.org/packages/61/8d/e4febaaf0e29a62229df1f57bd99ad83ea54b0bda767a704244bcd6e2861/zhmiscellany-1.9.7-py3-none-any.whl
+[2024-04-15 16:12:18] INFO root fetch - processPackages [pyflexfloat]: Remove: archive file [/home/abi/fetcher/tmp/pyflexfloat-0.1.1.tar.gz]
+[2024-04-15 16:12:18] INFO root fetch - processPackages [pyflexfloat]: Remove: archive file [/home/abi/fetcher/tmp/pyflexfloat-0.1.2-cp39-cp39-musllinux_1_1_x86_64.whl.zip]
+[2024-04-15 16:12:18] INFO root fetch - main [MainThread]: End processing [pyflexfloat]: success
+[2024-04-15 16:12:18] INFO root fetch - processPackages [schemaorg-lite]: Downloading https://files.pythonhosted.org/packages/26/94/c9402d0a4004df79d009c2847989dbac719d94a77abfe79f8e1798c3f40a/schemaorg_lite-0.1.9.tar.gz
+[2024-04-15 16:12:18] INFO root fetch - processPackages [sdmxthon]: Remove: archive file [/home/abi/fetcher/tmp/sdmxthon-2.6.4.tar.gz]
+[2024-04-15 16:12:18] INFO root fetch - processPackages [sdmxthon]: Remove: archive file [/home/abi/fetcher/tmp/sdmxthon-2.6.5.tar.gz]
+[2024-04-15 16:12:18] INFO root fetch - main [MainThread]: End processing [sdmxthon]: success
+[2024-04-15 16:12:18] INFO root fetch - processPackages [zhmiscellany]: executing diffoscope
+[2024-04-15 16:12:18] INFO root fetch - processPackages [zhmiscellany]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhmiscellany-1.9.6-py3-none-any.whl.zip tmp/zhmiscellany-1.9.7-py3-none-any.whl.zip --markdown 20240415/z/zhmiscellany/1.9.6-1.9.7/README.md --exclude *.pyd
+[2024-04-15 16:12:19] INFO root fetch - processPackages [schemaorg-lite]: executing diffoscope
+[2024-04-15 16:12:19] INFO root fetch - processPackages [schemaorg-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schemaorg_lite-0.1.8.tar.gz tmp/schemaorg_lite-0.1.9.tar.gz --markdown 20240415/s/schemaorg-lite/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-15 16:12:19] INFO root fetch - processPackages [zhmiscellany]: Remove: archive file [/home/abi/fetcher/tmp/zhmiscellany-1.9.6-py3-none-any.whl.zip]
+[2024-04-15 16:12:19] INFO root fetch - processPackages [zhmiscellany]: Remove: archive file [/home/abi/fetcher/tmp/zhmiscellany-1.9.7-py3-none-any.whl.zip]
+[2024-04-15 16:12:19] INFO root fetch - main [MainThread]: End processing [zhmiscellany]: success
+[2024-04-15 16:12:27] INFO root fetch - processPackages [schemaorg-lite]: Remove: archive file [/home/abi/fetcher/tmp/schemaorg_lite-0.1.8.tar.gz]
+[2024-04-15 16:12:27] INFO root fetch - processPackages [schemaorg-lite]: Remove: archive file [/home/abi/fetcher/tmp/schemaorg_lite-0.1.9.tar.gz]
+[2024-04-15 16:12:27] INFO root fetch - main [MainThread]: End processing [schemaorg-lite]: success
+[2024-04-15 16:12:27] INFO root fetch - main [MainThread]: Store serial: [22772443]
