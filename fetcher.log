@@ -14848,3 +14848,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 12:26:26] INFO root fetch - processPackages [s2fft]: Remove: archive file [/home/abi/fetcher/tmp/s2fft-1.1.1.tar.gz]
 [2024-04-15 12:26:26] INFO root fetch - main [MainThread]: End processing [s2fft]: success
 [2024-04-15 12:26:26] INFO root fetch - main [MainThread]: Store serial: [22769317]
+[2024-04-15 12:28:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22769317]
+[2024-04-15 12:28:35] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-15 12:28:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ccxt
+[2024-04-15 12:28:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: multiqc-sgr
+[2024-04-15 12:28:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rtrafactor
+[2024-04-15 12:28:35] INFO root fetch - processPackages [ccxt]: New version: [4.2.97] Old Version: [4.2.96]
+[2024-04-15 12:28:35] INFO root fetch - processPackages [rtrafactor]: New version: [0.7] Old Version: [0.6]
+[2024-04-15 12:28:35] INFO root fetch - processPackages [multiqc-sgr]: New version: [1.22.post0] Old Version: [1.21.1]
+[2024-04-15 12:28:35] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/2b/d9/57d715f494eef16ed8965c1b1735266bdc8e680a10805868284e31babc8e/ccxt-4.2.96.tar.gz
+[2024-04-15 12:28:35] INFO root fetch - processPackages [rtrafactor]: Downloading https://files.pythonhosted.org/packages/fa/56/cee1972053fc9f60a1fc44e9a79ed7d8c465095a23210d22916326e36f28/rtrafactor-0.6.tar.gz
+[2024-04-15 12:28:35] INFO root fetch - processPackages [multiqc-sgr]: Downloading https://files.pythonhosted.org/packages/de/ca/86ee0d8a9aaabf4e457a23b706869d8938bccee3c8e6018fdd5ffef30bf6/multiqc_sgr-1.21.1.tar.gz
+[2024-04-15 12:28:35] INFO root fetch - processPackages [rtrafactor]: Downloading https://files.pythonhosted.org/packages/77/f6/c36a02582a2b3966608d6bd590e2eec60e5fb67922c8628633bb69d61c68/rtrafactor-0.7.tar.gz
+[2024-04-15 12:28:35] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/55/da/a713b62f3e1e29bdb1cfd111cc26b673e8b78a5632265717b3a2f82e9a4a/ccxt-4.2.97.tar.gz
+[2024-04-15 12:28:35] INFO root fetch - processPackages [rtrafactor]: executing diffoscope
+[2024-04-15 12:28:35] INFO root fetch - processPackages [rtrafactor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rtrafactor-0.6.tar.gz tmp/rtrafactor-0.7.tar.gz --markdown 20240415/r/rtrafactor/0.6-0.7/README.md --exclude *.pyd
+[2024-04-15 12:28:36] INFO root fetch - processPackages [multiqc-sgr]: Downloading https://files.pythonhosted.org/packages/7c/6e/d282fd34a6c142f910166e6132b8e59684ee95354c6b8da93c39a1d14b83/multiqc_sgr-1.22.post0.tar.gz
+[2024-04-15 12:28:36] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2024-04-15 12:28:36] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-4.2.96.tar.gz tmp/ccxt-4.2.97.tar.gz --markdown 20240415/c/ccxt/4.2.96-4.2.97/README.md --exclude *.pyd
+[2024-04-15 12:28:36] INFO root fetch - processPackages [multiqc-sgr]: executing diffoscope
+[2024-04-15 12:28:36] INFO root fetch - processPackages [multiqc-sgr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiqc_sgr-1.21.1.tar.gz tmp/multiqc_sgr-1.22.post0.tar.gz --markdown 20240415/m/multiqc-sgr/1.21.1-1.22.post0/README.md --exclude *.pyd
+[2024-04-15 12:28:36] INFO root fetch - processPackages [rtrafactor]: Remove: archive file [/home/abi/fetcher/tmp/rtrafactor-0.6.tar.gz]
+[2024-04-15 12:28:36] INFO root fetch - processPackages [rtrafactor]: Remove: archive file [/home/abi/fetcher/tmp/rtrafactor-0.7.tar.gz]
+[2024-04-15 12:28:36] INFO root fetch - main [MainThread]: End processing [rtrafactor]: success
+[2024-04-15 12:28:41] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.2.96.tar.gz]
+[2024-04-15 12:28:41] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.2.97.tar.gz]
+[2024-04-15 12:28:41] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2024-04-15 12:28:41] INFO root fetch - processPackages [multiqc-sgr]: Remove: archive file [/home/abi/fetcher/tmp/multiqc_sgr-1.21.1.tar.gz]
+[2024-04-15 12:28:41] INFO root fetch - processPackages [multiqc-sgr]: Remove: archive file [/home/abi/fetcher/tmp/multiqc_sgr-1.22.post0.tar.gz]
+[2024-04-15 12:28:41] INFO root fetch - main [MainThread]: End processing [multiqc-sgr]: success
+[2024-04-15 12:28:41] INFO root fetch - main [MainThread]: Store serial: [22769327]
