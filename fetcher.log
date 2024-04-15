@@ -17116,3 +17116,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 13:50:37] INFO root fetch - processPackages [fews-3di]: Remove: archive file [/home/abi/fetcher/tmp/fews_3di-3.5.tar.gz]
 [2024-04-15 13:50:37] INFO root fetch - main [MainThread]: End processing [fews-3di]: success
 [2024-04-15 13:50:37] INFO root fetch - main [MainThread]: Store serial: [22770371]
+[2024-04-15 13:52:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22770371]
+[2024-04-15 13:52:46] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-15 13:52:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eolymp
+[2024-04-15 13:52:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wansuite
+[2024-04-15 13:52:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dmfq
+[2024-04-15 13:52:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: arion-library
+[2024-04-15 13:52:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: streamlord
+[2024-04-15 13:52:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pythia-client
+[2024-04-15 13:52:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: news-signals
+[2024-04-15 13:52:46] INFO root fetch - processPackages [news-signals]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-04-15 13:52:46] INFO root fetch - processPackages [wansuite]: New version: [3.2] Old Version: [3.0]
+[2024-04-15 13:52:46] INFO root fetch - processPackages [arion-library]: New version: [1.1rc57.dev57] Old Version: [1.1rc56.dev56]
+[2024-04-15 13:52:46] INFO root fetch - processPackages [news-signals]: Downloading https://files.pythonhosted.org/packages/f3/58/dfb4d43bf65a1da293b5148c680a40104ec73138ab52245a95fd5c333d90/news-signals-0.5.0.tar.gz
+[2024-04-15 13:52:46] INFO root fetch - processPackages [pythia-client]: New version: [0.1.6] Old Version: [0.1.4]
+[2024-04-15 13:52:46] INFO root fetch - processPackages [dmfq]: New version: [0.0.3.1] Old Version: [0.0.3]
+[2024-04-15 13:52:46] INFO root fetch - processPackages [streamlord]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-15 13:52:46] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/58/7e/b06c79d72286de727e2b80292738b962672dd8407c96d7f49568cc8983b7/arion_library-1.1rc56.dev56.tar.gz
+[2024-04-15 13:52:46] INFO root fetch - processPackages [wansuite]: Downloading https://files.pythonhosted.org/packages/96/70/2f8c91eb3a4d85e8e2aa3c83f48fd956628ba63b2a83b08e3be8e68d91eb/wansuite-3.0.tar.gz
+[2024-04-15 13:52:46] INFO root fetch - processPackages [eolymp]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-15 13:52:46] INFO root fetch - processPackages [dmfq]: Downloading https://files.pythonhosted.org/packages/a7/a3/f45e3cf2d810082dbcada199621c8d772e2f10e50eaf565844eb1603858c/dmfq-0.0.3.tar.gz
+[2024-04-15 13:52:46] INFO root fetch - processPackages [pythia-client]: Downloading https://files.pythonhosted.org/packages/41/96/fed10f5a43ab06876e71eedf26de1656a828c13968a6c905d27b8bcee772/pythia_client-0.1.4.tar.gz
+[2024-04-15 13:52:46] INFO root fetch - processPackages [eolymp]: Downloading https://files.pythonhosted.org/packages/b4/7e/616d80edbba0ebc4de3d8b9e073268ed513845acc17f3f0c5687e2745d1d/eolymp-0.9.8.tar.gz
+[2024-04-15 13:52:46] INFO root fetch - processPackages [streamlord]: Downloading https://files.pythonhosted.org/packages/8b/50/651e4a7df969fdb0a8e7812d3575632b93a4f080ed78af5846fe73d0448c/streamlord-0.1.0.tar.gz
+[2024-04-15 13:52:47] INFO root fetch - processPackages [news-signals]: Downloading https://files.pythonhosted.org/packages/8b/d3/de23b159421fe6879f798f6df58943e82a653b41aa5d0fba2674df405cd8/news_signals-0.6.0.tar.gz
+[2024-04-15 13:52:47] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/ef/80/ff39809dee5103796ed493acec7e910262538c2640e553cf796821b27978/arion_library-1.1rc57.dev57.tar.gz
+[2024-04-15 13:52:47] INFO root fetch - processPackages [wansuite]: Downloading https://files.pythonhosted.org/packages/7c/fe/517834f053d7466e770ac277818891ba96c92db7f1be73d0941fb4c0ce78/wansuite-3.2.tar.gz
+[2024-04-15 13:52:47] INFO root fetch - processPackages [dmfq]: Downloading https://files.pythonhosted.org/packages/84/c6/c0b753dee74bbc63cd1781cc12ad16dbc262533b454c03ca7d66d4efe188/dmfq-0.0.3.1.tar.gz
+[2024-04-15 13:52:47] INFO root fetch - processPackages [wansuite]: executing diffoscope
+[2024-04-15 13:52:47] INFO root fetch - processPackages [wansuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wansuite-3.0.tar.gz tmp/wansuite-3.2.tar.gz --markdown 20240415/w/wansuite/3.0-3.2/README.md --exclude *.pyd
+[2024-04-15 13:52:47] INFO root fetch - processPackages [streamlord]: Downloading https://files.pythonhosted.org/packages/e5/5e/42d9b790cd7267d03c180a8af3b0d38ea9b0ca5d74988e0ab88138a8d49f/streamlord-0.1.1.tar.gz
+[2024-04-15 13:52:47] INFO root fetch - processPackages [eolymp]: Downloading https://files.pythonhosted.org/packages/b7/fe/df96d638fe0a51e45220154bf6bc8588f92805e80d6cf2e908d0226bf3c9/eolymp-0.9.9.tar.gz
+[2024-04-15 13:52:47] INFO root fetch - processPackages [news-signals]: executing diffoscope
+[2024-04-15 13:52:47] INFO root fetch - processPackages [news-signals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/news-signals-0.5.0.tar.gz tmp/news_signals-0.6.0.tar.gz --markdown 20240415/n/news-signals/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-04-15 13:52:47] INFO root fetch - processPackages [pythia-client]: Downloading https://files.pythonhosted.org/packages/bb/05/2977e1e29b4354a8fa7a349adb3ab82d5d6827b9356934b7992c8a77c08c/pythia_client-0.1.6.tar.gz
+[2024-04-15 13:52:47] INFO root fetch - processPackages [arion-library]: executing diffoscope
+[2024-04-15 13:52:47] INFO root fetch - processPackages [arion-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arion_library-1.1rc56.dev56.tar.gz tmp/arion_library-1.1rc57.dev57.tar.gz --markdown 20240415/a/arion-library/1.1rc56.dev56-1.1rc57.dev57/README.md --exclude *.pyd
+[2024-04-15 13:52:47] INFO root fetch - processPackages [dmfq]: executing diffoscope
+[2024-04-15 13:52:47] INFO root fetch - processPackages [dmfq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dmfq-0.0.3.tar.gz tmp/dmfq-0.0.3.1.tar.gz --markdown 20240415/d/dmfq/0.0.3-0.0.3.1/README.md --exclude *.pyd
+[2024-04-15 13:52:47] INFO root fetch - processPackages [streamlord]: executing diffoscope
+[2024-04-15 13:52:47] INFO root fetch - processPackages [streamlord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlord-0.1.0.tar.gz tmp/streamlord-0.1.1.tar.gz --markdown 20240415/s/streamlord/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-15 13:52:47] INFO root fetch - processPackages [eolymp]: executing diffoscope
+[2024-04-15 13:52:47] INFO root fetch - processPackages [eolymp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eolymp-0.9.8.tar.gz tmp/eolymp-0.9.9.tar.gz --markdown 20240415/e/eolymp/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-15 13:52:47] INFO root fetch - processPackages [pythia-client]: executing diffoscope
+[2024-04-15 13:52:47] INFO root fetch - processPackages [pythia-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythia_client-0.1.4.tar.gz tmp/pythia_client-0.1.6.tar.gz --markdown 20240415/p/pythia-client/0.1.4-0.1.6/README.md --exclude *.pyd
+[2024-04-15 13:52:48] INFO root fetch - processPackages [wansuite]: Remove: archive file [/home/abi/fetcher/tmp/wansuite-3.0.tar.gz]
+[2024-04-15 13:52:48] INFO root fetch - processPackages [wansuite]: Remove: archive file [/home/abi/fetcher/tmp/wansuite-3.2.tar.gz]
+[2024-04-15 13:52:48] INFO root fetch - main [MainThread]: End processing [wansuite]: success
+[2024-04-15 13:52:48] INFO root fetch - processPackages [dmfq]: Remove: archive file [/home/abi/fetcher/tmp/dmfq-0.0.3.tar.gz]
+[2024-04-15 13:52:48] INFO root fetch - processPackages [dmfq]: Remove: archive file [/home/abi/fetcher/tmp/dmfq-0.0.3.1.tar.gz]
+[2024-04-15 13:52:48] INFO root fetch - main [MainThread]: End processing [dmfq]: success
+[2024-04-15 13:52:48] INFO root fetch - processPackages [streamlord]: Remove: archive file [/home/abi/fetcher/tmp/streamlord-0.1.0.tar.gz]
+[2024-04-15 13:52:48] INFO root fetch - processPackages [streamlord]: Remove: archive file [/home/abi/fetcher/tmp/streamlord-0.1.1.tar.gz]
+[2024-04-15 13:52:48] INFO root fetch - main [MainThread]: End processing [streamlord]: success
+[2024-04-15 13:52:48] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc56.dev56.tar.gz]
+[2024-04-15 13:52:48] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc57.dev57.tar.gz]
+[2024-04-15 13:52:48] INFO root fetch - main [MainThread]: End processing [arion-library]: success
+[2024-04-15 13:52:48] INFO root fetch - processPackages [pythia-client]: Remove: archive file [/home/abi/fetcher/tmp/pythia_client-0.1.4.tar.gz]
+[2024-04-15 13:52:48] INFO root fetch - processPackages [pythia-client]: Remove: archive file [/home/abi/fetcher/tmp/pythia_client-0.1.6.tar.gz]
+[2024-04-15 13:52:48] INFO root fetch - main [MainThread]: End processing [pythia-client]: success
+[2024-04-15 13:52:48] INFO root fetch - processPackages [news-signals]: Remove: archive file [/home/abi/fetcher/tmp/news-signals-0.5.0.tar.gz]
+[2024-04-15 13:52:48] INFO root fetch - processPackages [news-signals]: Remove: archive file [/home/abi/fetcher/tmp/news_signals-0.6.0.tar.gz]
+[2024-04-15 13:52:48] INFO root fetch - main [MainThread]: End processing [news-signals]: success
+[2024-04-15 13:52:49] INFO root fetch - processPackages [eolymp]: Remove: archive file [/home/abi/fetcher/tmp/eolymp-0.9.8.tar.gz]
+[2024-04-15 13:52:49] INFO root fetch - processPackages [eolymp]: Remove: archive file [/home/abi/fetcher/tmp/eolymp-0.9.9.tar.gz]
+[2024-04-15 13:52:49] INFO root fetch - main [MainThread]: End processing [eolymp]: success
+[2024-04-15 13:52:49] INFO root fetch - main [MainThread]: Store serial: [22770390]
