@@ -10127,3 +10127,95 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 09:35:15] INFO root fetch - processPackages [pipez]: Remove: archive file [/home/abi/fetcher/tmp/pipez-0.0.9.tar.gz]
 [2024-04-15 09:35:15] INFO root fetch - main [MainThread]: End processing [pipez]: success
 [2024-04-15 09:35:15] INFO root fetch - main [MainThread]: Store serial: [22767354]
+[2024-04-15 09:37:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22767354]
+[2024-04-15 09:37:23] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-15 09:37:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coglib
+[2024-04-15 09:37:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rcquant-sdk
+[2024-04-15 09:37:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdktf
+[2024-04-15 09:37:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mqi-sspd-api
+[2024-04-15 09:37:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: udata
+[2024-04-15 09:37:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: moodyeth
+[2024-04-15 09:37:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumiverse-scaleway
+[2024-04-15 09:37:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: momotor-bundles
+[2024-04-15 09:37:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pylayout
+[2024-04-15 09:37:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qdls
+[2024-04-15 09:37:24] INFO root fetch - processPackages [coglib]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-15 09:37:24] INFO root fetch - processPackages [pulumiverse-scaleway]: New version: [1.13.0a1713162939] Old Version: [1.13.0a1712697355]
+[2024-04-15 09:37:24] INFO root fetch - processPackages [pylayout]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-04-15 09:37:24] INFO root fetch - processPackages [mqi-sspd-api]: New version: [0.1.10] Old Version: [0.0.9]
+[2024-04-15 09:37:24] INFO root fetch - processPackages [udata]: New version: [7.0.7.dev28628] Old Version: [7.0.7.dev28615]
+[2024-04-15 09:37:24] INFO root fetch - processPackages [coglib]: Downloading https://files.pythonhosted.org/packages/d8/81/9fa04dfefafad0f3a1b1946d4b1eabafccbd4c5ece02f4c41d18f289443e/coglib-0.1.1.tar.gz
+[2024-04-15 09:37:24] INFO root fetch - processPackages [pulumiverse-scaleway]: Downloading https://files.pythonhosted.org/packages/e4/82/fdb67456345de0b50bc36f704e114019594171fcb920b2805bc4dc4f1041/pulumiverse_scaleway-1.13.0a1712697355.tar.gz
+[2024-04-15 09:37:24] INFO root fetch - processPackages [moodyeth]: New version: [4.57] Old Version: [4.44]
+[2024-04-15 09:37:24] INFO root fetch - processPackages [qdls]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-15 09:37:24] INFO root fetch - processPackages [rcquant-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-15 09:37:24] INFO root fetch - processPackages [momotor-bundles]: New version: [8.0.0rc8] Old Version: [8.0.0rc6]
+[2024-04-15 09:37:24] INFO root fetch - processPackages [mqi-sspd-api]: Downloading https://files.pythonhosted.org/packages/ab/67/ba64b5d5f8a9a667443750438b3cbfd2dfad97b1577f6925f3f464dda595/mqi_sspd_api-0.0.9.tar.gz
+[2024-04-15 09:37:24] INFO root fetch - processPackages [pylayout]: Downloading https://files.pythonhosted.org/packages/50/7a/cf5ae9320b2425bd7ffc238818546fc594bc21856a0e99e423c740ed8fce/pylayout-0.0.9.tar.gz
+[2024-04-15 09:37:24] INFO root fetch - processPackages [cdktf]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-15 09:37:24] INFO root fetch - processPackages [udata]: Downloading https://files.pythonhosted.org/packages/ea/9b/c19fbcec1424f04d903b36878b98aeba8bb41fbe8bbfb723fa08019ee92d/udata-7.0.7.dev28615-py2.py3-none-any.whl
+[2024-04-15 09:37:24] WARNING root fetch - processPackages [udata]: Skipping package: exceeds size limit 19776750>=10485760
+[2024-04-15 09:37:24] INFO root fetch - processPackages [udata]: Start processing: sparrowSql
+[2024-04-15 09:37:24] INFO root fetch - main [MainThread]: End processing [udata] error
+[2024-04-15 09:37:24] WARNING root fetch - processPackages [sparrowSql]: Skipping, unable to determine old version
+[2024-04-15 09:37:24] INFO root fetch - main [MainThread]: End processing [sparrowSql] error
+[2024-04-15 09:37:24] INFO root fetch - processPackages [qdls]: Downloading https://files.pythonhosted.org/packages/6a/02/c8b01d1d04d144d1722db8088d203383f0555bbf80012b29017e32f6e088/qdls-0.1.3.tar.gz
+[2024-04-15 09:37:24] INFO root fetch - processPackages [rcquant-sdk]: Downloading https://files.pythonhosted.org/packages/3e/60/e0a243e196412d03158a2aff972fd0ac9db20838d3337b73106554a273df/rcquant_sdk-0.0.8.tar.gz
+[2024-04-15 09:37:24] INFO root fetch - processPackages [moodyeth]: Downloading https://files.pythonhosted.org/packages/48/4f/fea8650ead6e653937f28f3acc5fe7595a14bf72f52be755d10819f24f12/moodyeth-4.44.tar.gz
+[2024-04-15 09:37:24] INFO root fetch - processPackages [pylayout]: Downloading https://files.pythonhosted.org/packages/af/d4/45a08354767d327d53145a7576f64c6a83f76a6c97f2fd87a72665882767/pylayout-0.1.0.tar.gz
+[2024-04-15 09:37:24] INFO root fetch - processPackages [momotor-bundles]: Downloading https://files.pythonhosted.org/packages/b8/aa/a6e4e14b55fe1de21450d5ca8008cc32d45ec50c1cc5b2cb049422aaf62a/momotor-bundles-8.0.0rc6.tar.gz
+[2024-04-15 09:37:24] INFO root fetch - processPackages [cdktf]: Downloading https://files.pythonhosted.org/packages/87/b3/c146d54086d890741cc9d05c63504e1386b268ef8cbc52d9aa78c1080aa3/cdktf-0.9.3.tar.gz
+[2024-04-15 09:37:24] INFO root fetch - processPackages [coglib]: Downloading https://files.pythonhosted.org/packages/0f/1a/201f8f574b86385ab93a2d5476fb8a363f9e158efa0c19524a979741edf3/coglib-0.1.2.tar.gz
+[2024-04-15 09:37:24] INFO root fetch - processPackages [pulumiverse-scaleway]: Downloading https://files.pythonhosted.org/packages/7e/21/15ee16a4582c1971f7256c84716d7a6958c3ec858990304b4bb47098dc04/pulumiverse_scaleway-1.13.0a1713162939.tar.gz
+[2024-04-15 09:37:24] INFO root fetch - processPackages [mqi-sspd-api]: Downloading https://files.pythonhosted.org/packages/58/1d/f6abaf8e4a4243725482db72b0473fd17ef1cb6a137c9a64ed7131f68678/mqi_sspd_api-0.1.10.tar.gz
+[2024-04-15 09:37:24] INFO root fetch - processPackages [pylayout]: executing diffoscope
+[2024-04-15 09:37:24] INFO root fetch - processPackages [pylayout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylayout-0.0.9.tar.gz tmp/pylayout-0.1.0.tar.gz --markdown 20240415/p/pylayout/0.0.9-0.1.0/README.md --exclude *.pyd
+[2024-04-15 09:37:24] INFO root fetch - processPackages [coglib]: executing diffoscope
+[2024-04-15 09:37:24] INFO root fetch - processPackages [coglib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coglib-0.1.1.tar.gz tmp/coglib-0.1.2.tar.gz --markdown 20240415/c/coglib/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-15 09:37:24] INFO root fetch - processPackages [mqi-sspd-api]: executing diffoscope
+[2024-04-15 09:37:24] INFO root fetch - processPackages [mqi-sspd-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mqi_sspd_api-0.0.9.tar.gz tmp/mqi_sspd_api-0.1.10.tar.gz --markdown 20240415/m/mqi-sspd-api/0.0.9-0.1.10/README.md --exclude *.pyd
+[2024-04-15 09:37:24] INFO root fetch - processPackages [pulumiverse-scaleway]: executing diffoscope
+[2024-04-15 09:37:24] INFO root fetch - processPackages [pulumiverse-scaleway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumiverse_scaleway-1.13.0a1712697355.tar.gz tmp/pulumiverse_scaleway-1.13.0a1713162939.tar.gz --markdown 20240415/p/pulumiverse-scaleway/1.13.0a1712697355-1.13.0a1713162939/README.md --exclude *.pyd
+[2024-04-15 09:37:25] INFO root fetch - processPackages [qdls]: Downloading https://files.pythonhosted.org/packages/d8/c2/68e8ba74edf05a1d84968eac2d0c0b2bd2adb0b0e16e0c4a0fb84ff99687/qdls-0.1.4.tar.gz
+[2024-04-15 09:37:25] INFO root fetch - processPackages [rcquant-sdk]: Downloading https://files.pythonhosted.org/packages/ac/5d/0b8b494a5b28ddc4213217404a0c3be423df271aaf93c217f1058af73bf8/rcquant_sdk-0.0.9.tar.gz
+[2024-04-15 09:37:25] INFO root fetch - processPackages [momotor-bundles]: Downloading https://files.pythonhosted.org/packages/51/a4/5ec549f53555a9404216a7f8490fff4e237d2edfd8655e1f8339fe2ca250/momotor-bundles-8.0.0rc8.tar.gz
+[2024-04-15 09:37:25] INFO root fetch - processPackages [moodyeth]: Downloading https://files.pythonhosted.org/packages/e3/be/710381f0f06eb0efba2e29c346c85b53d4d5d4f557ca9bbaafbaa2ef70ee/moodyeth-4.57.tar.gz
+[2024-04-15 09:37:25] INFO root fetch - processPackages [rcquant-sdk]: executing diffoscope
+[2024-04-15 09:37:25] INFO root fetch - processPackages [rcquant-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rcquant_sdk-0.0.8.tar.gz tmp/rcquant_sdk-0.0.9.tar.gz --markdown 20240415/r/rcquant-sdk/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-15 09:37:25] INFO root fetch - processPackages [qdls]: executing diffoscope
+[2024-04-15 09:37:25] INFO root fetch - processPackages [qdls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qdls-0.1.3.tar.gz tmp/qdls-0.1.4.tar.gz --markdown 20240415/q/qdls/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-15 09:37:25] INFO root fetch - processPackages [momotor-bundles]: executing diffoscope
+[2024-04-15 09:37:25] INFO root fetch - processPackages [momotor-bundles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/momotor-bundles-8.0.0rc6.tar.gz tmp/momotor-bundles-8.0.0rc8.tar.gz --markdown 20240415/m/momotor-bundles/8.0.0rc6-8.0.0rc8/README.md --exclude *.pyd
+[2024-04-15 09:37:25] INFO root fetch - processPackages [moodyeth]: executing diffoscope
+[2024-04-15 09:37:25] INFO root fetch - processPackages [moodyeth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moodyeth-4.44.tar.gz tmp/moodyeth-4.57.tar.gz --markdown 20240415/m/moodyeth/4.44-4.57/README.md --exclude *.pyd
+[2024-04-15 09:37:25] INFO root fetch - processPackages [pylayout]: Remove: archive file [/home/abi/fetcher/tmp/pylayout-0.0.9.tar.gz]
+[2024-04-15 09:37:25] INFO root fetch - processPackages [pylayout]: Remove: archive file [/home/abi/fetcher/tmp/pylayout-0.1.0.tar.gz]
+[2024-04-15 09:37:25] INFO root fetch - main [MainThread]: End processing [pylayout]: success
+[2024-04-15 09:37:25] INFO root fetch - processPackages [coglib]: Remove: archive file [/home/abi/fetcher/tmp/coglib-0.1.1.tar.gz]
+[2024-04-15 09:37:25] INFO root fetch - processPackages [coglib]: Remove: archive file [/home/abi/fetcher/tmp/coglib-0.1.2.tar.gz]
+[2024-04-15 09:37:25] INFO root fetch - main [MainThread]: End processing [coglib]: success
+[2024-04-15 09:37:25] INFO root fetch - processPackages [mqi-sspd-api]: Remove: archive file [/home/abi/fetcher/tmp/mqi_sspd_api-0.0.9.tar.gz]
+[2024-04-15 09:37:25] INFO root fetch - processPackages [mqi-sspd-api]: Remove: archive file [/home/abi/fetcher/tmp/mqi_sspd_api-0.1.10.tar.gz]
+[2024-04-15 09:37:25] INFO root fetch - main [MainThread]: End processing [mqi-sspd-api]: success
+[2024-04-15 09:37:26] INFO root fetch - processPackages [rcquant-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rcquant_sdk-0.0.8.tar.gz]
+[2024-04-15 09:37:26] INFO root fetch - processPackages [rcquant-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rcquant_sdk-0.0.9.tar.gz]
+[2024-04-15 09:37:26] INFO root fetch - main [MainThread]: End processing [rcquant-sdk]: success
+[2024-04-15 09:37:26] INFO root fetch - processPackages [cdktf]: Downloading https://files.pythonhosted.org/packages/80/8d/cbc9ef418f046a8c17f614889aba72b6e668540a2966498bef6f1dbb3a10/cdktf-0.9.4.tar.gz
+[2024-04-15 09:37:26] INFO root fetch - processPackages [qdls]: Remove: archive file [/home/abi/fetcher/tmp/qdls-0.1.3.tar.gz]
+[2024-04-15 09:37:26] INFO root fetch - processPackages [qdls]: Remove: archive file [/home/abi/fetcher/tmp/qdls-0.1.4.tar.gz]
+[2024-04-15 09:37:26] INFO root fetch - main [MainThread]: End processing [qdls]: success
+[2024-04-15 09:37:26] INFO root fetch - processPackages [moodyeth]: Remove: archive file [/home/abi/fetcher/tmp/moodyeth-4.44.tar.gz]
+[2024-04-15 09:37:26] INFO root fetch - processPackages [moodyeth]: Remove: archive file [/home/abi/fetcher/tmp/moodyeth-4.57.tar.gz]
+[2024-04-15 09:37:26] INFO root fetch - main [MainThread]: End processing [moodyeth]: success
+[2024-04-15 09:37:26] INFO root fetch - processPackages [momotor-bundles]: Remove: archive file [/home/abi/fetcher/tmp/momotor-bundles-8.0.0rc6.tar.gz]
+[2024-04-15 09:37:26] INFO root fetch - processPackages [momotor-bundles]: Remove: archive file [/home/abi/fetcher/tmp/momotor-bundles-8.0.0rc8.tar.gz]
+[2024-04-15 09:37:26] INFO root fetch - main [MainThread]: End processing [momotor-bundles]: success
+[2024-04-15 09:37:26] INFO root fetch - processPackages [cdktf]: executing diffoscope
+[2024-04-15 09:37:26] INFO root fetch - processPackages [cdktf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-0.9.3.tar.gz tmp/cdktf-0.9.4.tar.gz --markdown 20240415/c/cdktf/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-04-15 09:37:26] INFO root fetch - processPackages [pulumiverse-scaleway]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_scaleway-1.13.0a1712697355.tar.gz]
+[2024-04-15 09:37:26] INFO root fetch - processPackages [pulumiverse-scaleway]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_scaleway-1.13.0a1713162939.tar.gz]
+[2024-04-15 09:37:26] INFO root fetch - main [MainThread]: End processing [pulumiverse-scaleway]: success
+[2024-04-15 09:37:27] INFO root fetch - processPackages [cdktf]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-0.9.3.tar.gz]
+[2024-04-15 09:37:27] INFO root fetch - processPackages [cdktf]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-0.9.4.tar.gz]
+[2024-04-15 09:37:27] INFO root fetch - main [MainThread]: End processing [cdktf]: success
+[2024-04-15 09:37:27] INFO root fetch - main [MainThread]: Store serial: [22767386]
