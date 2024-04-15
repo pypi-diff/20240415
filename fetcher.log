@@ -13540,3 +13540,18 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 11:40:03] INFO root fetch - processPackages [tomwer]: Remove: archive file [/home/abi/fetcher/tmp/tomwer-1.3.8.tar.gz]
 [2024-04-15 11:40:03] INFO root fetch - main [MainThread]: End processing [tomwer]: success
 [2024-04-15 11:40:03] INFO root fetch - main [MainThread]: Store serial: [22768772]
+[2024-04-15 11:42:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22768772]
+[2024-04-15 11:42:13] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-15 11:42:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: admap
+[2024-04-15 11:42:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cmem-cmempy
+[2024-04-15 11:42:13] WARNING root fetch - processPackages [admap]: Skipping, unable to determine old version
+[2024-04-15 11:42:13] INFO root fetch - main [MainThread]: End processing [admap] error
+[2024-04-15 11:42:13] INFO root fetch - processPackages [cmem-cmempy]: New version: [24.1.1] Old Version: [24.1.0]
+[2024-04-15 11:42:14] INFO root fetch - processPackages [cmem-cmempy]: Downloading https://files.pythonhosted.org/packages/bb/83/b5207ea676c7aa8c7ea63d7c2e5b2fbacfad839f9e89fb1e8b6167c3731d/cmem_cmempy-24.1.0.tar.gz
+[2024-04-15 11:42:14] INFO root fetch - processPackages [cmem-cmempy]: Downloading https://files.pythonhosted.org/packages/f0/40/b48eba408e1cf146b58035bc85234a6581151b4347ae5943f6ead1d5769d/cmem_cmempy-24.1.1.tar.gz
+[2024-04-15 11:42:14] INFO root fetch - processPackages [cmem-cmempy]: executing diffoscope
+[2024-04-15 11:42:14] INFO root fetch - processPackages [cmem-cmempy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmem_cmempy-24.1.0.tar.gz tmp/cmem_cmempy-24.1.1.tar.gz --markdown 20240415/c/cmem-cmempy/24.1.0-24.1.1/README.md --exclude *.pyd
+[2024-04-15 11:42:15] INFO root fetch - processPackages [cmem-cmempy]: Remove: archive file [/home/abi/fetcher/tmp/cmem_cmempy-24.1.0.tar.gz]
+[2024-04-15 11:42:15] INFO root fetch - processPackages [cmem-cmempy]: Remove: archive file [/home/abi/fetcher/tmp/cmem_cmempy-24.1.1.tar.gz]
+[2024-04-15 11:42:15] INFO root fetch - main [MainThread]: End processing [cmem-cmempy]: success
+[2024-04-15 11:42:15] INFO root fetch - main [MainThread]: Store serial: [22768780]
