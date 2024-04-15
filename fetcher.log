@@ -12176,3 +12176,77 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 10:53:23] INFO root fetch - processPackages [empire-platform-api-public-client]: Remove: archive file [/home/abi/fetcher/tmp/empire-platform-api-public-client-3.0.7.tar.gz]
 [2024-04-15 10:53:23] INFO root fetch - main [MainThread]: End processing [empire-platform-api-public-client]: success
 [2024-04-15 10:53:23] INFO root fetch - main [MainThread]: Store serial: [22768194]
+[2024-04-15 10:55:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22768194]
+[2024-04-15 10:55:32] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-15 10:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: piku
+[2024-04-15 10:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neos_common
+[2024-04-15 10:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torch-featurelayer
+[2024-04-15 10:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: upsonic
+[2024-04-15 10:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sonia
+[2024-04-15 10:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pasta-man
+[2024-04-15 10:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: holcstore
+[2024-04-15 10:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cloud-governance
+[2024-04-15 10:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dc-prometheus
+[2024-04-15 10:55:32] INFO root fetch - processPackages [upsonic]: New version: [0.9.0] Old Version: [0.8.4]
+[2024-04-15 10:55:32] INFO root fetch - processPackages [pasta-man]: New version: [1.0.1] Old Version: [1.0]
+[2024-04-15 10:55:32] INFO root fetch - processPackages [upsonic]: Downloading https://files.pythonhosted.org/packages/28/4f/e4de97c3853a38f0003dd35e31de9d8003b16d10fd76b190f4778626ce27/upsonic-0.8.4.tar.gz
+[2024-04-15 10:55:32] INFO root fetch - processPackages [dc-prometheus]: New version: [1.1] Old Version: [1.0]
+[2024-04-15 10:55:32] WARNING root fetch - processPackages [torch-featurelayer]: Skipping, unable to determine old version
+[2024-04-15 10:55:32] INFO root fetch - main [MainThread]: End processing [torch-featurelayer] error
+[2024-04-15 10:55:32] INFO root fetch - processPackages [piku]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-15 10:55:32] INFO root fetch - processPackages [holcstore]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-15 10:55:32] INFO root fetch - processPackages [neos_common]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-15 10:55:32] INFO root fetch - processPackages [sonia]: New version: [0.2.0] Old Version: [0.1.3]
+[2024-04-15 10:55:32] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-04-15 10:55:32] INFO root fetch - processPackages [pasta-man]: Downloading https://files.pythonhosted.org/packages/cf/cf/ec63d1b11db3ea605f8f04491f2284a122f3d3284c592f09dd097cebf470/pasta_man-1.0.tar.gz
+[2024-04-15 10:55:32] INFO root fetch - processPackages [upsonic]: Downloading https://files.pythonhosted.org/packages/e2/c6/1f2c73c8b576a9a13477f4177f58dce58e65a860c35204e42f53a5db8144/upsonic-0.9.0.tar.gz
+[2024-04-15 10:55:32] INFO root fetch - processPackages [holcstore]: Downloading https://files.pythonhosted.org/packages/36/08/bf6649aa4d6f105715a45ae774cbc7770ba7238922d807a77b3772a5e915/holcstore-0.1.6.tar.gz
+[2024-04-15 10:55:32] INFO root fetch - processPackages [dc-prometheus]: Downloading https://files.pythonhosted.org/packages/7e/8c/7e0ad0284ea36af066bb765546b112b84b113dd0b2ea8b7ad4ee8c6d765f/dc_prometheus-1.0.tar.gz
+[2024-04-15 10:55:32] INFO root fetch - processPackages [piku]: Downloading https://files.pythonhosted.org/packages/53/ee/00ce9c28b30f1eeb2d805ccff6dc3dfa9234091870e034f1e040830e685a/piku-0.2.3.tar.gz
+[2024-04-15 10:55:32] INFO root fetch - processPackages [neos_common]: Downloading https://files.pythonhosted.org/packages/b6/64/bf4700ed79a85fc259ef1fb72c98d9b30e4b8da075f59c67fd1e8eadf0b4/neos_common-0.9.2.tar.gz
+[2024-04-15 10:55:32] INFO root fetch - processPackages [sonia]: Downloading https://files.pythonhosted.org/packages/2a/5c/e4657ceefc6b30b7bc33652bddaf60f02f7828e5813ad4938bd7156084d5/sonia-0.1.3.tar.gz
+[2024-04-15 10:55:32] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/af/f8/db9bacb41ff13a7d3ae59369ae36809c3202232c910b932a09e42257b676/cloud-governance-1.1.98.tar.gz
+[2024-04-15 10:55:32] INFO root fetch - processPackages [upsonic]: executing diffoscope
+[2024-04-15 10:55:32] INFO root fetch - processPackages [upsonic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upsonic-0.8.4.tar.gz tmp/upsonic-0.9.0.tar.gz --markdown 20240415/u/upsonic/0.8.4-0.9.0/README.md --exclude *.pyd
+[2024-04-15 10:55:32] WARNING root fetch - processPackages [sonia]: Skipping package: exceeds size limit 11731051>=10485760
+[2024-04-15 10:55:32] INFO root fetch - main [MainThread]: End processing [sonia] error
+[2024-04-15 10:55:33] INFO root fetch - processPackages [pasta-man]: Downloading https://files.pythonhosted.org/packages/87/19/01b2cc427846b2cb2f517abd8c23a3e1a16c7d7e8ed36f1c477d1eafdfdf/pasta_man-1.0.1.tar.gz
+[2024-04-15 10:55:33] INFO root fetch - processPackages [dc-prometheus]: Downloading https://files.pythonhosted.org/packages/58/48/d1086ca9e584301881d6ebdbdd6abf8373d1c133d509d77dd327dabadd56/dc_prometheus-1.1.tar.gz
+[2024-04-15 10:55:33] INFO root fetch - processPackages [holcstore]: Downloading https://files.pythonhosted.org/packages/02/df/8453e87b66d1bab2dd798e1d1c01e873561d60e86581c593b03cacaacce3/holcstore-0.1.7.tar.gz
+[2024-04-15 10:55:33] INFO root fetch - processPackages [piku]: Downloading https://files.pythonhosted.org/packages/7f/3c/51d18f92a12c30b082d1f6f234bc6c0bcb5b24593a3e80f13f5763e3f13b/piku-0.2.4.tar.gz
+[2024-04-15 10:55:33] INFO root fetch - processPackages [pasta-man]: executing diffoscope
+[2024-04-15 10:55:33] INFO root fetch - processPackages [pasta-man]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pasta_man-1.0.tar.gz tmp/pasta_man-1.0.1.tar.gz --markdown 20240415/p/pasta-man/1.0-1.0.1/README.md --exclude *.pyd
+[2024-04-15 10:55:33] INFO root fetch - processPackages [neos_common]: Downloading https://files.pythonhosted.org/packages/51/dc/9c6235466878c3dda428c3afb030440cc6111554951a7527d67179eaf67b/neos_common-0.9.3.tar.gz
+[2024-04-15 10:55:33] INFO root fetch - processPackages [holcstore]: executing diffoscope
+[2024-04-15 10:55:33] INFO root fetch - processPackages [holcstore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/holcstore-0.1.6.tar.gz tmp/holcstore-0.1.7.tar.gz --markdown 20240415/h/holcstore/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-15 10:55:33] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/ec/3e/06dc6e6844d3033717858064a494efaaf4cdae01a0c58d2b2a38273075e2/cloud-governance-1.1.99.tar.gz
+[2024-04-15 10:55:33] INFO root fetch - processPackages [dc-prometheus]: executing diffoscope
+[2024-04-15 10:55:33] INFO root fetch - processPackages [dc-prometheus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dc_prometheus-1.0.tar.gz tmp/dc_prometheus-1.1.tar.gz --markdown 20240415/d/dc-prometheus/1.0-1.1/README.md --exclude *.pyd
+[2024-04-15 10:55:33] INFO root fetch - processPackages [piku]: executing diffoscope
+[2024-04-15 10:55:33] INFO root fetch - processPackages [piku]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piku-0.2.3.tar.gz tmp/piku-0.2.4.tar.gz --markdown 20240415/p/piku/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-15 10:55:33] INFO root fetch - processPackages [neos_common]: executing diffoscope
+[2024-04-15 10:55:33] INFO root fetch - processPackages [neos_common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neos_common-0.9.2.tar.gz tmp/neos_common-0.9.3.tar.gz --markdown 20240415/n/neos_common/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-15 10:55:33] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2024-04-15 10:55:33] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.98.tar.gz tmp/cloud-governance-1.1.99.tar.gz --markdown 20240415/c/cloud-governance/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-04-15 10:55:33] INFO root fetch - processPackages [upsonic]: Remove: archive file [/home/abi/fetcher/tmp/upsonic-0.8.4.tar.gz]
+[2024-04-15 10:55:33] INFO root fetch - processPackages [upsonic]: Remove: archive file [/home/abi/fetcher/tmp/upsonic-0.9.0.tar.gz]
+[2024-04-15 10:55:33] INFO root fetch - main [MainThread]: End processing [upsonic]: success
+[2024-04-15 10:55:33] INFO root fetch - processPackages [pasta-man]: Remove: archive file [/home/abi/fetcher/tmp/pasta_man-1.0.tar.gz]
+[2024-04-15 10:55:33] INFO root fetch - processPackages [pasta-man]: Remove: archive file [/home/abi/fetcher/tmp/pasta_man-1.0.1.tar.gz]
+[2024-04-15 10:55:33] INFO root fetch - main [MainThread]: End processing [pasta-man]: success
+[2024-04-15 10:55:34] INFO root fetch - processPackages [dc-prometheus]: Remove: archive file [/home/abi/fetcher/tmp/dc_prometheus-1.0.tar.gz]
+[2024-04-15 10:55:34] INFO root fetch - processPackages [dc-prometheus]: Remove: archive file [/home/abi/fetcher/tmp/dc_prometheus-1.1.tar.gz]
+[2024-04-15 10:55:34] INFO root fetch - main [MainThread]: End processing [dc-prometheus]: success
+[2024-04-15 10:55:34] INFO root fetch - processPackages [neos_common]: Remove: archive file [/home/abi/fetcher/tmp/neos_common-0.9.2.tar.gz]
+[2024-04-15 10:55:34] INFO root fetch - processPackages [neos_common]: Remove: archive file [/home/abi/fetcher/tmp/neos_common-0.9.3.tar.gz]
+[2024-04-15 10:55:34] INFO root fetch - main [MainThread]: End processing [neos_common]: success
+[2024-04-15 10:55:34] INFO root fetch - processPackages [piku]: Remove: archive file [/home/abi/fetcher/tmp/piku-0.2.3.tar.gz]
+[2024-04-15 10:55:34] INFO root fetch - processPackages [piku]: Remove: archive file [/home/abi/fetcher/tmp/piku-0.2.4.tar.gz]
+[2024-04-15 10:55:34] INFO root fetch - main [MainThread]: End processing [piku]: success
+[2024-04-15 10:55:34] INFO root fetch - processPackages [holcstore]: Remove: archive file [/home/abi/fetcher/tmp/holcstore-0.1.6.tar.gz]
+[2024-04-15 10:55:34] INFO root fetch - processPackages [holcstore]: Remove: archive file [/home/abi/fetcher/tmp/holcstore-0.1.7.tar.gz]
+[2024-04-15 10:55:34] INFO root fetch - main [MainThread]: End processing [holcstore]: success
+[2024-04-15 10:55:34] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.98.tar.gz]
+[2024-04-15 10:55:34] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.99.tar.gz]
+[2024-04-15 10:55:34] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2024-04-15 10:55:34] INFO root fetch - main [MainThread]: Store serial: [22768257]
