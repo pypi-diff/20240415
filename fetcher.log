@@ -20062,3 +20062,60 @@ EOFError: EOF read where object expected
 [2024-04-15 15:25:13] INFO root fetch - processPackages [t4gpd]: Remove: archive file [/home/abi/fetcher/tmp/t4gpd-0.9.0.tar.gz]
 [2024-04-15 15:25:13] INFO root fetch - main [MainThread]: End processing [t4gpd]: success
 [2024-04-15 15:25:13] INFO root fetch - main [MainThread]: Store serial: [22771744]
+[2024-04-15 15:27:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22771744]
+[2024-04-15 15:27:22] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-15 15:27:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypeec
+[2024-04-15 15:27:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ark-sdk-python
+[2024-04-15 15:27:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: finbourne-identity-sdk
+[2024-04-15 15:27:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pycotore
+[2024-04-15 15:27:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mri-nufft
+[2024-04-15 15:27:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zhmiscellany
+[2024-04-15 15:27:22] INFO root fetch - processPackages [pycotore]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-15 15:27:23] INFO root fetch - processPackages [mri-nufft]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-04-15 15:27:23] INFO root fetch - processPackages [pypeec]: New version: [4.9.0] Old Version: [4.8.0]
+[2024-04-15 15:27:23] INFO root fetch - processPackages [ark-sdk-python]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-15 15:27:23] INFO root fetch - processPackages [pycotore]: Downloading https://files.pythonhosted.org/packages/7b/25/ec4e70f70c7bb0ec4e80a6fd9ec2804502b39024d13e5a2c4c5a8cde3cc8/pycotore-0.2.1.tar.gz
+[2024-04-15 15:27:23] INFO root fetch - processPackages [zhmiscellany]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-15 15:27:23] INFO root fetch - processPackages [finbourne-identity-sdk]: New version: [2.1.3] Old Version: [2.1.2]
+[2024-04-15 15:27:23] INFO root fetch - processPackages [pypeec]: Downloading https://files.pythonhosted.org/packages/95/6a/11228d9ff2eeb1603e23a5f900331b83333564167ac0fe64584dfd27cf9d/pypeec-4.8.0.tar.gz
+[2024-04-15 15:27:23] INFO root fetch - processPackages [mri-nufft]: Downloading https://files.pythonhosted.org/packages/15/ff/26e1a4bd164eb84c28a62bffd032168bf58897e7cbb8d33457782e08eecb/mri-nufft-0.6.1.tar.gz
+[2024-04-15 15:27:23] INFO root fetch - processPackages [ark-sdk-python]: Downloading https://files.pythonhosted.org/packages/81/63/06e3043a9746b7836b3e6123756fac4f65520ca2e76baf2d5bb8bfc59252/ark_sdk_python-1.1.0-py3-none-any.whl
+[2024-04-15 15:27:23] INFO root fetch - processPackages [pycotore]: Downloading https://files.pythonhosted.org/packages/3d/e6/35746d6abcb694546061a9b2f1382bd5f85617e52cf8602226b6093306c1/pycotore-0.2.2.tar.gz
+[2024-04-15 15:27:23] INFO root fetch - processPackages [zhmiscellany]: Downloading https://files.pythonhosted.org/packages/69/67/5290f40fb6315b0ebf5fd7f1415d816664f2035dc97b0c6cac38f6077ad8/zhmiscellany-1.9.0-py3-none-any.whl
+[2024-04-15 15:27:23] INFO root fetch - processPackages [pycotore]: executing diffoscope
+[2024-04-15 15:27:23] INFO root fetch - processPackages [pycotore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycotore-0.2.1.tar.gz tmp/pycotore-0.2.2.tar.gz --markdown 20240415/p/pycotore/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-15 15:27:23] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/dd/3a/7b78848743dd7401742a58a8b6679fade2f5d8cc18f843117a54a3482981/finbourne_identity_sdk-2.1.2.tar.gz
+[2024-04-15 15:27:23] INFO root fetch - processPackages [ark-sdk-python]: Downloading https://files.pythonhosted.org/packages/ab/a8/3ee2a21806e254d933228c081066648f1fc6d55ab207c716c522222c42b4/ark_sdk_python-1.1.1-py3-none-any.whl
+[2024-04-15 15:27:23] INFO root fetch - processPackages [mri-nufft]: Downloading https://files.pythonhosted.org/packages/2c/56/665b1e95a29cf4e4137f2ccc2f66a234c2ed351eb7a75d0e762c2dde3626/mri_nufft-0.6.2.tar.gz
+[2024-04-15 15:27:23] INFO root fetch - processPackages [zhmiscellany]: Downloading https://files.pythonhosted.org/packages/c3/d6/838c9f940cb296c10a89c61c144d369472b87dcc6235d802f421da8ea318/zhmiscellany-1.9.1-py3-none-any.whl
+[2024-04-15 15:27:23] INFO root fetch - processPackages [ark-sdk-python]: executing diffoscope
+[2024-04-15 15:27:23] INFO root fetch - processPackages [ark-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ark_sdk_python-1.1.0-py3-none-any.whl.zip tmp/ark_sdk_python-1.1.1-py3-none-any.whl.zip --markdown 20240415/a/ark-sdk-python/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-15 15:27:23] INFO root fetch - processPackages [mri-nufft]: executing diffoscope
+[2024-04-15 15:27:23] INFO root fetch - processPackages [mri-nufft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mri-nufft-0.6.1.tar.gz tmp/mri_nufft-0.6.2.tar.gz --markdown 20240415/m/mri-nufft/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-04-15 15:27:23] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/85/15/0dcc4da173d511ca05fa469b8961f677946d0172288dbcc68d43321112e3/finbourne_identity_sdk-2.1.3.tar.gz
+[2024-04-15 15:27:23] INFO root fetch - processPackages [pypeec]: Downloading https://files.pythonhosted.org/packages/c0/ad/ffe32ac50a5f9ebe3d67d18282ad2f09ff2581e6987f65b40c7e9f5d4d64/pypeec-4.9.0.tar.gz
+[2024-04-15 15:27:24] INFO root fetch - processPackages [zhmiscellany]: executing diffoscope
+[2024-04-15 15:27:24] INFO root fetch - processPackages [zhmiscellany]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhmiscellany-1.9.0-py3-none-any.whl.zip tmp/zhmiscellany-1.9.1-py3-none-any.whl.zip --markdown 20240415/z/zhmiscellany/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-15 15:27:24] INFO root fetch - processPackages [finbourne-identity-sdk]: executing diffoscope
+[2024-04-15 15:27:24] INFO root fetch - processPackages [finbourne-identity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_identity_sdk-2.1.2.tar.gz tmp/finbourne_identity_sdk-2.1.3.tar.gz --markdown 20240415/f/finbourne-identity-sdk/2.1.2-2.1.3/README.md --exclude *.pyd
+[2024-04-15 15:27:24] INFO root fetch - processPackages [pycotore]: Remove: archive file [/home/abi/fetcher/tmp/pycotore-0.2.1.tar.gz]
+[2024-04-15 15:27:24] INFO root fetch - processPackages [pycotore]: Remove: archive file [/home/abi/fetcher/tmp/pycotore-0.2.2.tar.gz]
+[2024-04-15 15:27:24] INFO root fetch - main [MainThread]: End processing [pycotore]: success
+[2024-04-15 15:27:24] INFO root fetch - processPackages [pypeec]: executing diffoscope
+[2024-04-15 15:27:24] INFO root fetch - processPackages [pypeec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypeec-4.8.0.tar.gz tmp/pypeec-4.9.0.tar.gz --markdown 20240415/p/pypeec/4.8.0-4.9.0/README.md --exclude *.pyd
+[2024-04-15 15:27:24] INFO root fetch - processPackages [zhmiscellany]: Remove: archive file [/home/abi/fetcher/tmp/zhmiscellany-1.9.0-py3-none-any.whl.zip]
+[2024-04-15 15:27:24] INFO root fetch - processPackages [zhmiscellany]: Remove: archive file [/home/abi/fetcher/tmp/zhmiscellany-1.9.1-py3-none-any.whl.zip]
+[2024-04-15 15:27:24] INFO root fetch - main [MainThread]: End processing [zhmiscellany]: success
+[2024-04-15 15:27:24] INFO root fetch - processPackages [mri-nufft]: Remove: archive file [/home/abi/fetcher/tmp/mri-nufft-0.6.1.tar.gz]
+[2024-04-15 15:27:24] INFO root fetch - processPackages [mri-nufft]: Remove: archive file [/home/abi/fetcher/tmp/mri_nufft-0.6.2.tar.gz]
+[2024-04-15 15:27:24] INFO root fetch - main [MainThread]: End processing [mri-nufft]: success
+[2024-04-15 15:27:25] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_identity_sdk-2.1.2.tar.gz]
+[2024-04-15 15:27:25] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_identity_sdk-2.1.3.tar.gz]
+[2024-04-15 15:27:25] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
+[2024-04-15 15:27:25] INFO root fetch - processPackages [ark-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/ark_sdk_python-1.1.0-py3-none-any.whl.zip]
+[2024-04-15 15:27:25] INFO root fetch - processPackages [ark-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/ark_sdk_python-1.1.1-py3-none-any.whl.zip]
+[2024-04-15 15:27:25] INFO root fetch - main [MainThread]: End processing [ark-sdk-python]: success
+[2024-04-15 15:27:28] INFO root fetch - processPackages [pypeec]: Remove: archive file [/home/abi/fetcher/tmp/pypeec-4.8.0.tar.gz]
+[2024-04-15 15:27:28] INFO root fetch - processPackages [pypeec]: Remove: archive file [/home/abi/fetcher/tmp/pypeec-4.9.0.tar.gz]
+[2024-04-15 15:27:28] INFO root fetch - main [MainThread]: End processing [pypeec]: success
+[2024-04-15 15:27:28] INFO root fetch - main [MainThread]: Store serial: [22771763]
