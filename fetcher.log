@@ -2394,3 +2394,15 @@
 [2024-04-15 03:26:49] INFO root fetch - processPackages [hypickle]: Remove: archive file [/home/abi/fetcher/tmp/hypickle-1.1.33.tar.gz]
 [2024-04-15 03:26:49] INFO root fetch - main [MainThread]: End processing [hypickle]: success
 [2024-04-15 03:26:49] INFO root fetch - main [MainThread]: Store serial: [22764354]
+[2024-04-15 03:28:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22764354]
+[2024-04-15 03:28:57] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-15 03:28:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cloudben
+[2024-04-15 03:28:57] INFO root fetch - processPackages [cloudben]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-15 03:28:57] INFO root fetch - processPackages [cloudben]: Downloading https://files.pythonhosted.org/packages/6a/ca/391a8b46cc3ddb0b75071edae6ad6f0616d637ef420a53388d7f6e30f4bd/cloudben-0.1.1.tar.gz
+[2024-04-15 03:28:57] INFO root fetch - processPackages [cloudben]: Downloading https://files.pythonhosted.org/packages/43/97/9ef2a23d36de6ff3a74781252d11c3eebea3ba2ac0de5c5ffffb8b0a228d/cloudben-0.1.2.tar.gz
+[2024-04-15 03:28:57] INFO root fetch - processPackages [cloudben]: executing diffoscope
+[2024-04-15 03:28:57] INFO root fetch - processPackages [cloudben]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudben-0.1.1.tar.gz tmp/cloudben-0.1.2.tar.gz --markdown 20240415/c/cloudben/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-15 03:28:58] INFO root fetch - processPackages [cloudben]: Remove: archive file [/home/abi/fetcher/tmp/cloudben-0.1.1.tar.gz]
+[2024-04-15 03:28:58] INFO root fetch - processPackages [cloudben]: Remove: archive file [/home/abi/fetcher/tmp/cloudben-0.1.2.tar.gz]
+[2024-04-15 03:28:58] INFO root fetch - main [MainThread]: End processing [cloudben]: success
+[2024-04-15 03:28:58] INFO root fetch - main [MainThread]: Store serial: [22764357]
