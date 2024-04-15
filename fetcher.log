@@ -11422,3 +11422,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 10:24:22] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1488-py3-none-any.whl.zip]
 [2024-04-15 10:24:22] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
 [2024-04-15 10:24:22] INFO root fetch - main [MainThread]: Store serial: [22767860]
+[2024-04-15 10:26:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22767860]
+[2024-04-15 10:26:31] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-15 10:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyscsp
+[2024-04-15 10:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rats-apps
+[2024-04-15 10:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo12-addon-cooperator
+[2024-04-15 10:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-cooperator
+[2024-04-15 10:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: coglib
+[2024-04-15 10:26:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pydantic-changedetect
+[2024-04-15 10:26:31] INFO root fetch - processPackages [rats-apps]: New version: [0.1.2.dev9] Old Version: [0.1.2.dev8]
+[2024-04-15 10:26:31] INFO root fetch - processPackages [odoo12-addon-cooperator]: New version: [12.0.6.5.0] Old Version: [12.0.6.4.3.99.dev8]
+[2024-04-15 10:26:31] INFO root fetch - processPackages [odoo14-addon-cooperator]: New version: [14.0.3.0.1.dev5] Old Version: [14.0.3.0.1.dev4]
+[2024-04-15 10:26:31] INFO root fetch - processPackages [pydantic-changedetect]: New version: [0.6.6] Old Version: [0.6.5]
+[2024-04-15 10:26:31] INFO root fetch - processPackages [coglib]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-15 10:26:31] INFO root fetch - processPackages [pyscsp]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-15 10:26:31] INFO root fetch - processPackages [coglib]: Downloading https://files.pythonhosted.org/packages/0f/1a/201f8f574b86385ab93a2d5476fb8a363f9e158efa0c19524a979741edf3/coglib-0.1.2.tar.gz
+[2024-04-15 10:26:32] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/75/fa/bb66e052cb8be630a363579ebf75bc0e9f6af65552f35f7686e7ce9cedf8/rats_apps-0.1.2.dev8-py3-none-any.whl
+[2024-04-15 10:26:32] INFO root fetch - processPackages [pydantic-changedetect]: Downloading https://files.pythonhosted.org/packages/1f/11/967938c31ab74bf84e1ba1d860d8a78f24db27ce151d8c04ddaca4e07a3d/pydantic_changedetect-0.6.5.tar.gz
+[2024-04-15 10:26:32] INFO root fetch - processPackages [odoo12-addon-cooperator]: Downloading https://files.pythonhosted.org/packages/20/c8/7b02b8164307bd4d832d0c5f4f99e17d08c9d5377f88b60b1de32c7f979f/odoo12_addon_cooperator-12.0.6.4.3.99.dev8-py3-none-any.whl
+[2024-04-15 10:26:32] INFO root fetch - processPackages [pyscsp]: Downloading https://files.pythonhosted.org/packages/49/4e/965be3a5fb8a791e0ea3c8d90d48975dba796858c39626eed040a9187bcf/pyscsp-0.9.8.tar.gz
+[2024-04-15 10:26:32] INFO root fetch - processPackages [odoo14-addon-cooperator]: Downloading https://files.pythonhosted.org/packages/2c/e7/b8366eec335688e4be92e4e9de8d9d219a7f915f523877782047abd574f5/odoo14_addon_cooperator-14.0.3.0.1.dev4-py3-none-any.whl
+[2024-04-15 10:26:32] INFO root fetch - processPackages [coglib]: Downloading https://files.pythonhosted.org/packages/98/3d/d358ac8fc8ead47f0fd8922537db56addbb7a7284120dd236b6f6bd176b9/coglib-0.1.3.tar.gz
+[2024-04-15 10:26:32] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/c6/ef/123a368096a4d4dcec4671218e49b9d8aafdadad684dcaef1a28234060b0/rats_apps-0.1.2.dev9-py3-none-any.whl
+[2024-04-15 10:26:32] INFO root fetch - processPackages [pydantic-changedetect]: Downloading https://files.pythonhosted.org/packages/a0/fc/1db193e68d69d318c561efbd1912f49860b2298a2a0c30075ee7e6f2e141/pydantic_changedetect-0.6.6.tar.gz
+[2024-04-15 10:26:32] INFO root fetch - processPackages [coglib]: executing diffoscope
+[2024-04-15 10:26:32] INFO root fetch - processPackages [coglib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coglib-0.1.2.tar.gz tmp/coglib-0.1.3.tar.gz --markdown 20240415/c/coglib/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-15 10:26:32] INFO root fetch - processPackages [pyscsp]: Downloading https://files.pythonhosted.org/packages/eb/0a/f436ac5422bcd9c1c405d7ab90535f31f7aceae4a21b08418c32486d9266/pyscsp-0.9.9.tar.gz
+[2024-04-15 10:26:32] INFO root fetch - processPackages [odoo12-addon-cooperator]: Downloading https://files.pythonhosted.org/packages/23/39/90dc3d8a798821bce9705a8e794c10fb65384795269cd307c62efda517ab/odoo12_addon_cooperator-12.0.6.5.0-py3-none-any.whl
+[2024-04-15 10:26:32] INFO root fetch - processPackages [pyscsp]: executing diffoscope
+[2024-04-15 10:26:32] INFO root fetch - processPackages [pyscsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyscsp-0.9.8.tar.gz tmp/pyscsp-0.9.9.tar.gz --markdown 20240415/p/pyscsp/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-15 10:26:32] INFO root fetch - processPackages [rats-apps]: executing diffoscope
+[2024-04-15 10:26:32] INFO root fetch - processPackages [rats-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_apps-0.1.2.dev8-py3-none-any.whl.zip tmp/rats_apps-0.1.2.dev9-py3-none-any.whl.zip --markdown 20240415/r/rats-apps/0.1.2.dev8-0.1.2.dev9/README.md --exclude *.pyd
+[2024-04-15 10:26:32] INFO root fetch - processPackages [odoo14-addon-cooperator]: Downloading https://files.pythonhosted.org/packages/07/cb/b1d6b843987e3aaa049ec62d629471f874a37287d208949e99cac5a2de80/odoo14_addon_cooperator-14.0.3.0.1.dev5-py3-none-any.whl
+[2024-04-15 10:26:32] INFO root fetch - processPackages [pydantic-changedetect]: executing diffoscope
+[2024-04-15 10:26:32] INFO root fetch - processPackages [pydantic-changedetect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_changedetect-0.6.5.tar.gz tmp/pydantic_changedetect-0.6.6.tar.gz --markdown 20240415/p/pydantic-changedetect/0.6.5-0.6.6/README.md --exclude *.pyd
+[2024-04-15 10:26:32] INFO root fetch - processPackages [odoo12-addon-cooperator]: executing diffoscope
+[2024-04-15 10:26:32] INFO root fetch - processPackages [odoo12-addon-cooperator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_cooperator-12.0.6.4.3.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_cooperator-12.0.6.5.0-py3-none-any.whl.zip --markdown 20240415/o/odoo12-addon-cooperator/12.0.6.4.3.99.dev8-12.0.6.5.0/README.md --exclude *.pyd
+[2024-04-15 10:26:32] INFO root fetch - processPackages [odoo14-addon-cooperator]: executing diffoscope
+[2024-04-15 10:26:32] INFO root fetch - processPackages [odoo14-addon-cooperator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_cooperator-14.0.3.0.1.dev4-py3-none-any.whl.zip tmp/odoo14_addon_cooperator-14.0.3.0.1.dev5-py3-none-any.whl.zip --markdown 20240415/o/odoo14-addon-cooperator/14.0.3.0.1.dev4-14.0.3.0.1.dev5/README.md --exclude *.pyd
+[2024-04-15 10:26:33] INFO root fetch - processPackages [coglib]: Remove: archive file [/home/abi/fetcher/tmp/coglib-0.1.2.tar.gz]
+[2024-04-15 10:26:33] INFO root fetch - processPackages [coglib]: Remove: archive file [/home/abi/fetcher/tmp/coglib-0.1.3.tar.gz]
+[2024-04-15 10:26:33] INFO root fetch - main [MainThread]: End processing [coglib]: success
+[2024-04-15 10:26:33] INFO root fetch - processPackages [pyscsp]: Remove: archive file [/home/abi/fetcher/tmp/pyscsp-0.9.8.tar.gz]
+[2024-04-15 10:26:33] INFO root fetch - processPackages [pyscsp]: Remove: archive file [/home/abi/fetcher/tmp/pyscsp-0.9.9.tar.gz]
+[2024-04-15 10:26:33] INFO root fetch - main [MainThread]: End processing [pyscsp]: success
+[2024-04-15 10:26:33] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.2.dev8-py3-none-any.whl.zip]
+[2024-04-15 10:26:33] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.2.dev9-py3-none-any.whl.zip]
+[2024-04-15 10:26:33] INFO root fetch - main [MainThread]: End processing [rats-apps]: success
+[2024-04-15 10:26:33] INFO root fetch - processPackages [pydantic-changedetect]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_changedetect-0.6.5.tar.gz]
+[2024-04-15 10:26:33] INFO root fetch - processPackages [pydantic-changedetect]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_changedetect-0.6.6.tar.gz]
+[2024-04-15 10:26:33] INFO root fetch - main [MainThread]: End processing [pydantic-changedetect]: success
+[2024-04-15 10:26:33] INFO root fetch - processPackages [odoo12-addon-cooperator]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_cooperator-12.0.6.4.3.99.dev8-py3-none-any.whl.zip]
+[2024-04-15 10:26:33] INFO root fetch - processPackages [odoo12-addon-cooperator]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_cooperator-12.0.6.5.0-py3-none-any.whl.zip]
+[2024-04-15 10:26:33] INFO root fetch - main [MainThread]: End processing [odoo12-addon-cooperator]: success
+[2024-04-15 10:26:33] INFO root fetch - processPackages [odoo14-addon-cooperator]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_cooperator-14.0.3.0.1.dev4-py3-none-any.whl.zip]
+[2024-04-15 10:26:33] INFO root fetch - processPackages [odoo14-addon-cooperator]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_cooperator-14.0.3.0.1.dev5-py3-none-any.whl.zip]
+[2024-04-15 10:26:33] INFO root fetch - main [MainThread]: End processing [odoo14-addon-cooperator]: success
+[2024-04-15 10:26:33] INFO root fetch - main [MainThread]: Store serial: [22767875]
