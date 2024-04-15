@@ -2002,3 +2002,18 @@
 [2024-04-15 02:52:08] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240415.5018.tar.gz]
 [2024-04-15 02:52:08] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
 [2024-04-15 02:52:08] INFO root fetch - main [MainThread]: Store serial: [22764048]
+[2024-04-15 02:54:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22764048]
+[2024-04-15 02:54:17] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-15 02:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gqylpy-log
+[2024-04-15 02:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pih-plb-answ-auto
+[2024-04-15 02:54:17] INFO root fetch - processPackages [gqylpy-log]: New version: [2.0a1] Old Version: [1.2]
+[2024-04-15 02:54:17] WARNING root fetch - processPackages [pih-plb-answ-auto]: Skipping, unable to determine old version
+[2024-04-15 02:54:17] INFO root fetch - main [MainThread]: End processing [pih-plb-answ-auto] error
+[2024-04-15 02:54:17] INFO root fetch - processPackages [gqylpy-log]: Downloading https://files.pythonhosted.org/packages/75/26/63a0edea99733eeed49ae57f9d9e1612f10f189a27abb835b58a7c782653/gqylpy_log-1.2.tar.gz
+[2024-04-15 02:54:17] INFO root fetch - processPackages [gqylpy-log]: Downloading https://files.pythonhosted.org/packages/74/34/6d222bfd0d3ff2eb4f4bc46d981052be91b710ca31c13fd281f6064639cb/gqylpy_log-2.0a1.tar.gz
+[2024-04-15 02:54:18] INFO root fetch - processPackages [gqylpy-log]: executing diffoscope
+[2024-04-15 02:54:18] INFO root fetch - processPackages [gqylpy-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gqylpy_log-1.2.tar.gz tmp/gqylpy_log-2.0a1.tar.gz --markdown 20240415/g/gqylpy-log/1.2-2.0a1/README.md --exclude *.pyd
+[2024-04-15 02:54:18] INFO root fetch - processPackages [gqylpy-log]: Remove: archive file [/home/abi/fetcher/tmp/gqylpy_log-1.2.tar.gz]
+[2024-04-15 02:54:18] INFO root fetch - processPackages [gqylpy-log]: Remove: archive file [/home/abi/fetcher/tmp/gqylpy_log-2.0a1.tar.gz]
+[2024-04-15 02:54:18] INFO root fetch - main [MainThread]: End processing [gqylpy-log]: success
+[2024-04-15 02:54:18] INFO root fetch - main [MainThread]: Store serial: [22764140]
