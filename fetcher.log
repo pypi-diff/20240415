@@ -15998,3 +15998,159 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 13:13:00] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
 [2024-04-15 13:13:00] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
 [2024-04-15 13:13:00] INFO root fetch - main [MainThread]: Store serial: [22769894]
+[2024-04-15 13:15:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22769894]
+[2024-04-15 13:15:08] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2024-04-15 13:15:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dqc-toolkit
+[2024-04-15 13:15:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bitmat-tl
+[2024-04-15 13:15:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vzg.jconv
+[2024-04-15 13:15:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-support-branding
+[2024-04-15 13:15:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: open-retrievals
+[2024-04-15 13:15:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb
+[2024-04-15 13:15:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wikimedia-spicerack
+[2024-04-15 13:15:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: babelwidget
+[2024-04-15 13:15:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nucliadb-dataset
+[2024-04-15 13:15:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nucliadb-models
+[2024-04-15 13:15:09] INFO root fetch - processPackages [bitmat-tl]: New version: [0.3.3] Old Version: [0.3.1]
+[2024-04-15 13:15:09] INFO root fetch - processPackages [nucliadb-models]: New version: [3.0.2.post427] Old Version: [3.0.2.post426]
+[2024-04-15 13:15:09] INFO root fetch - processPackages [nucliadb]: New version: [3.0.2.post427] Old Version: [3.0.2.post426]
+[2024-04-15 13:15:09] INFO root fetch - processPackages [dqc-toolkit]: New version: [0.1.2b2] Old Version: [0.1.0b1]
+[2024-04-15 13:15:09] INFO root fetch - processPackages [open-retrievals]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-15 13:15:09] INFO root fetch - processPackages [nucliadb-dataset]: New version: [3.0.2.post427] Old Version: [3.0.2.post426]
+[2024-04-15 13:15:09] INFO root fetch - processPackages [odoo14-addon-support-branding]: New version: [14.0.1.2.0] Old Version: [14.0.1.1.0]
+[2024-04-15 13:15:09] INFO root fetch - processPackages [vzg.jconv]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-04-15 13:15:09] INFO root fetch - processPackages [wikimedia-spicerack]: New version: [8.5.0] Old Version: [8.4.1]
+[2024-04-15 13:15:09] INFO root fetch - processPackages [babelwidget]: New version: [2024.1] Old Version: [2023.9]
+[2024-04-15 13:15:09] INFO root fetch - processPackages [bitmat-tl]: Downloading https://files.pythonhosted.org/packages/69/e8/39e53ad120f4b666c49916dde8194af8839fc4297ca07f1032f8d2d82536/bitmat-tl-0.3.1.tar.gz
+[2024-04-15 13:15:09] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/ff/4f/419851aab5f3da6003a47d77aaf93934c09f738837fb6acf73e2791ba4c2/nucliadb-3.0.2.post426-py3-none-any.whl
+[2024-04-15 13:15:09] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/e0/8d/cda7817dfbd4fe81d72827821ffd43078a812e4398357a9d28570cb5950e/nucliadb_models-3.0.2.post426-py3-none-any.whl
+[2024-04-15 13:15:09] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/57/bc/94f8c176d0019519818979877950efebfe36f783c6046dcb4b871d9de695/nucliadb_dataset-3.0.2.post426-py3-none-any.whl
+[2024-04-15 13:15:09] INFO root fetch - processPackages [dqc-toolkit]: Downloading https://files.pythonhosted.org/packages/d4/ef/85983bafc6dabdd49227e81ccb1b322f474ef7901f9d4cc1eb0885cc60bf/dqc-toolkit-0.1.0b1.tar.gz
+[2024-04-15 13:15:09] INFO root fetch - processPackages [open-retrievals]: Downloading https://files.pythonhosted.org/packages/c9/43/e15a3ab0a8465d03a35cee3097064bc14d0beccd120ebe791b58008edd90/open-retrievals-0.0.1.tar.gz
+[2024-04-15 13:15:09] INFO root fetch - processPackages [vzg.jconv]: Downloading https://files.pythonhosted.org/packages/06/89/8ceb8c1f81b98a2a8a564d46df0b710e608166650feb4bae1193f4cd85c3/vzg.jconv-1.3.0.tar.gz
+[2024-04-15 13:15:09] INFO root fetch - processPackages [odoo14-addon-support-branding]: Downloading https://files.pythonhosted.org/packages/04/98/3b66e91ccf1ad3bb173d0cffa01f6acc664429f49f1634f1ad841bee5011/odoo14_addon_support_branding-14.0.1.1.0-py3-none-any.whl
+[2024-04-15 13:15:09] INFO root fetch - processPackages [babelwidget]: Downloading https://files.pythonhosted.org/packages/79/11/0ff5dafe59519e12f2002af15a330210d8e421c45ef8a8e111dff485692b/babelwidget-2023.9.tar.gz
+[2024-04-15 13:15:09] INFO root fetch - processPackages [wikimedia-spicerack]: Downloading https://files.pythonhosted.org/packages/9c/13/230421112781582c356e3f5c34bdbdaffb8300b54f7668c674895820a056/wikimedia-spicerack-8.4.1.tar.gz
+[2024-04-15 13:15:09] INFO root fetch - processPackages [bitmat-tl]: Downloading https://files.pythonhosted.org/packages/62/20/fa1366e7d56205877ffc80445f50b7b3e073f31034d839bd43265c21beb4/bitmat_tl-0.3.3.tar.gz
+[2024-04-15 13:15:09] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/7e/20/0d1f8d2a64eb5a9166a49065fb2bbe485c1051fe2ba4579aa443a1d69da8/nucliadb_models-3.0.2.post427-py3-none-any.whl
+[2024-04-15 13:15:09] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/e5/be/a729b938fa05a2f530846d48fedfbda6651331b04e81da7a5ef4a62ee07c/nucliadb_dataset-3.0.2.post427-py3-none-any.whl
+[2024-04-15 13:15:09] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/3b/4c/f6d3e8eea94c7e4720111db7194272345d3f0d88e7a55ba60eb8d44b5591/nucliadb-3.0.2.post427-py3-none-any.whl
+[2024-04-15 13:15:09] INFO root fetch - processPackages [bitmat-tl]: executing diffoscope
+[2024-04-15 13:15:09] INFO root fetch - processPackages [bitmat-tl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitmat-tl-0.3.1.tar.gz tmp/bitmat_tl-0.3.3.tar.gz --markdown 20240415/b/bitmat-tl/0.3.1-0.3.3/README.md --exclude *.pyd
+[2024-04-15 13:15:09] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2024-04-15 13:15:09] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-3.0.2.post426-py3-none-any.whl.zip tmp/nucliadb_dataset-3.0.2.post427-py3-none-any.whl.zip --markdown 20240415/n/nucliadb-dataset/3.0.2.post426-3.0.2.post427/README.md --exclude *.pyd
+[2024-04-15 13:15:10] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2024-04-15 13:15:10] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-3.0.2.post426-py3-none-any.whl.zip tmp/nucliadb_models-3.0.2.post427-py3-none-any.whl.zip --markdown 20240415/n/nucliadb-models/3.0.2.post426-3.0.2.post427/README.md --exclude *.pyd
+[2024-04-15 13:15:10] INFO root fetch - processPackages [dqc-toolkit]: Downloading https://files.pythonhosted.org/packages/7b/41/8f6346fae2266e9887bb614bcebcf591ef39b421b0a9c8255994ff4680ea/dqc_toolkit-0.1.2b2.tar.gz
+[2024-04-15 13:15:10] INFO root fetch - processPackages [open-retrievals]: Downloading https://files.pythonhosted.org/packages/53/ca/fdac8064d9cab4e846c64a5e9271867fe884f8c5dde33a8f5c10501d0a16/open-retrievals-0.0.2.tar.gz
+[2024-04-15 13:15:10] INFO root fetch - processPackages [wikimedia-spicerack]: Downloading https://files.pythonhosted.org/packages/6f/72/1b5c88c5efec284032511236bd32bf52dc5b0f6b45d967e7ac7cac240628/wikimedia_spicerack-8.5.0.tar.gz
+[2024-04-15 13:15:10] INFO root fetch - processPackages [babelwidget]: Downloading https://files.pythonhosted.org/packages/c8/c1/607b4fdf648f6a25387484c5b39d3e82c3835dfaa79e4d294407aa2d98a4/babelwidget-2024.1.tar.gz
+[2024-04-15 13:15:10] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2024-04-15 13:15:10] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-3.0.2.post426-py3-none-any.whl.zip tmp/nucliadb-3.0.2.post427-py3-none-any.whl.zip --markdown 20240415/n/nucliadb/3.0.2.post426-3.0.2.post427/README.md --exclude *.pyd
+[2024-04-15 13:15:10] INFO root fetch - processPackages [odoo14-addon-support-branding]: Downloading https://files.pythonhosted.org/packages/cd/84/5c9dbff6a73b10d84115b0e2d6a219de41a7fbddcd5081732139e2951a9c/odoo14_addon_support_branding-14.0.1.2.0-py3-none-any.whl
+[2024-04-15 13:15:10] INFO root fetch - processPackages [vzg.jconv]: Downloading https://files.pythonhosted.org/packages/e2/b9/0a8ea94ecb37f7ff23b4277ba2f211444c76af21b3a3cdb57860848e4bdb/vzg.jconv-1.4.0.tar.gz
+[2024-04-15 13:15:10] INFO root fetch - processPackages [dqc-toolkit]: executing diffoscope
+[2024-04-15 13:15:10] INFO root fetch - processPackages [dqc-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dqc-toolkit-0.1.0b1.tar.gz tmp/dqc_toolkit-0.1.2b2.tar.gz --markdown 20240415/d/dqc-toolkit/0.1.0b1-0.1.2b2/README.md --exclude *.pyd
+[2024-04-15 13:15:10] INFO root fetch - processPackages [open-retrievals]: executing diffoscope
+[2024-04-15 13:15:10] INFO root fetch - processPackages [open-retrievals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-retrievals-0.0.1.tar.gz tmp/open-retrievals-0.0.2.tar.gz --markdown 20240415/o/open-retrievals/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-15 13:15:10] INFO root fetch - processPackages [babelwidget]: executing diffoscope
+[2024-04-15 13:15:10] INFO root fetch - processPackages [babelwidget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/babelwidget-2023.9.tar.gz tmp/babelwidget-2024.1.tar.gz --markdown 20240415/b/babelwidget/2023.9-2024.1/README.md --exclude *.pyd
+[2024-04-15 13:15:10] INFO root fetch - processPackages [odoo14-addon-support-branding]: executing diffoscope
+[2024-04-15 13:15:10] INFO root fetch - processPackages [odoo14-addon-support-branding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_support_branding-14.0.1.1.0-py3-none-any.whl.zip tmp/odoo14_addon_support_branding-14.0.1.2.0-py3-none-any.whl.zip --markdown 20240415/o/odoo14-addon-support-branding/14.0.1.1.0-14.0.1.2.0/README.md --exclude *.pyd
+[2024-04-15 13:15:10] INFO root fetch - processPackages [wikimedia-spicerack]: executing diffoscope
+[2024-04-15 13:15:10] INFO root fetch - processPackages [wikimedia-spicerack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wikimedia-spicerack-8.4.1.tar.gz tmp/wikimedia_spicerack-8.5.0.tar.gz --markdown 20240415/w/wikimedia-spicerack/8.4.1-8.5.0/README.md --exclude *.pyd
+[2024-04-15 13:15:10] INFO root fetch - processPackages [vzg.jconv]: executing diffoscope
+[2024-04-15 13:15:10] INFO root fetch - processPackages [vzg.jconv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vzg.jconv-1.3.0.tar.gz tmp/vzg.jconv-1.4.0.tar.gz --markdown 20240415/v/vzg.jconv/1.3.0-1.4.0/README.md --exclude *.pyd
+[2024-04-15 13:15:10] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-3.0.2.post426-py3-none-any.whl.zip]
+[2024-04-15 13:15:10] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-3.0.2.post427-py3-none-any.whl.zip]
+[2024-04-15 13:15:10] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: nucliadb-protos
+[2024-04-15 13:15:10] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2024-04-15 13:15:11] INFO root fetch - processPackages [bitmat-tl]: Remove: archive file [/home/abi/fetcher/tmp/bitmat-tl-0.3.1.tar.gz]
+[2024-04-15 13:15:11] INFO root fetch - processPackages [bitmat-tl]: Remove: archive file [/home/abi/fetcher/tmp/bitmat_tl-0.3.3.tar.gz]
+[2024-04-15 13:15:11] INFO root fetch - processPackages [bitmat-tl]: Start processing: bdffont
+[2024-04-15 13:15:11] INFO root fetch - main [MainThread]: End processing [bitmat-tl]: success
+[2024-04-15 13:15:11] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-3.0.2.post426-py3-none-any.whl.zip]
+[2024-04-15 13:15:11] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-3.0.2.post427-py3-none-any.whl.zip]
+[2024-04-15 13:15:11] INFO root fetch - processPackages [nucliadb-models]: Start processing: nucliadb-sdk
+[2024-04-15 13:15:11] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2024-04-15 13:15:11] INFO root fetch - processPackages [nucliadb-protos]: New version: [3.0.2.post427] Old Version: [3.0.2.post426]
+[2024-04-15 13:15:11] INFO root fetch - processPackages [bdffont]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-15 13:15:11] INFO root fetch - processPackages [nucliadb-sdk]: New version: [3.0.2.post427] Old Version: [3.0.2.post426]
+[2024-04-15 13:15:11] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/b3/ee/828b364d4c5b8eaeaaa88245ba2aa193924a894bdfce160fb3ed85509084/nucliadb_protos-3.0.2.post426-py3-none-any.whl
+[2024-04-15 13:15:11] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/18/18/5b4a8d8907f9fa6991ef9df1a01293fe63f32726b876dbcd7f96280764b1/nucliadb_sdk-3.0.2.post426-py3-none-any.whl
+[2024-04-15 13:15:11] INFO root fetch - processPackages [dqc-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/dqc-toolkit-0.1.0b1.tar.gz]
+[2024-04-15 13:15:11] INFO root fetch - processPackages [dqc-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/dqc_toolkit-0.1.2b2.tar.gz]
+[2024-04-15 13:15:11] INFO root fetch - processPackages [dqc-toolkit]: Start processing: pcffont
+[2024-04-15 13:15:11] INFO root fetch - main [MainThread]: End processing [dqc-toolkit]: success
+[2024-04-15 13:15:11] INFO root fetch - processPackages [bdffont]: Downloading https://files.pythonhosted.org/packages/9f/78/c824af9f0c4c22da3a7b211d6acf4fcf5cc3738dae57d6eb3d860af0f5e6/bdffont-0.0.8.tar.gz
+[2024-04-15 13:15:11] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/bf/40/b9afbe8f7d70eef87582370951ba377f8b7760ee54b11555fd95ae6ef008/nucliadb_protos-3.0.2.post427-py3-none-any.whl
+[2024-04-15 13:15:11] INFO root fetch - processPackages [pcffont]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-15 13:15:11] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/14/47/4a9d63c650a33564f0225d866aa9ca54a9f6f5192342fbdc147c5f82dad6/nucliadb_sdk-3.0.2.post427-py3-none-any.whl
+[2024-04-15 13:15:11] INFO root fetch - processPackages [open-retrievals]: Remove: archive file [/home/abi/fetcher/tmp/open-retrievals-0.0.1.tar.gz]
+[2024-04-15 13:15:11] INFO root fetch - processPackages [open-retrievals]: Remove: archive file [/home/abi/fetcher/tmp/open-retrievals-0.0.2.tar.gz]
+[2024-04-15 13:15:11] INFO root fetch - processPackages [open-retrievals]: Start processing: nucliadb-telemetry
+[2024-04-15 13:15:11] INFO root fetch - main [MainThread]: End processing [open-retrievals]: success
+[2024-04-15 13:15:11] INFO root fetch - processPackages [vzg.jconv]: Remove: archive file [/home/abi/fetcher/tmp/vzg.jconv-1.3.0.tar.gz]
+[2024-04-15 13:15:11] INFO root fetch - processPackages [vzg.jconv]: Remove: archive file [/home/abi/fetcher/tmp/vzg.jconv-1.4.0.tar.gz]
+[2024-04-15 13:15:11] INFO root fetch - processPackages [vzg.jconv]: Start processing: nucliadb-utils
+[2024-04-15 13:15:11] INFO root fetch - main [MainThread]: End processing [vzg.jconv]: success
+[2024-04-15 13:15:11] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2024-04-15 13:15:11] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-3.0.2.post426-py3-none-any.whl.zip tmp/nucliadb_protos-3.0.2.post427-py3-none-any.whl.zip --markdown 20240415/n/nucliadb-protos/3.0.2.post426-3.0.2.post427/README.md --exclude *.pyd
+[2024-04-15 13:15:11] INFO root fetch - processPackages [nucliadb-telemetry]: New version: [3.0.2.post427] Old Version: [3.0.2.post426]
+[2024-04-15 13:15:11] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2024-04-15 13:15:11] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-3.0.2.post426-py3-none-any.whl.zip tmp/nucliadb_sdk-3.0.2.post427-py3-none-any.whl.zip --markdown 20240415/n/nucliadb-sdk/3.0.2.post426-3.0.2.post427/README.md --exclude *.pyd
+[2024-04-15 13:15:11] INFO root fetch - processPackages [nucliadb-utils]: New version: [3.0.2.post427] Old Version: [3.0.2.post426]
+[2024-04-15 13:15:11] INFO root fetch - processPackages [babelwidget]: Remove: archive file [/home/abi/fetcher/tmp/babelwidget-2023.9.tar.gz]
+[2024-04-15 13:15:11] INFO root fetch - processPackages [babelwidget]: Remove: archive file [/home/abi/fetcher/tmp/babelwidget-2024.1.tar.gz]
+[2024-04-15 13:15:11] INFO root fetch - processPackages [babelwidget]: Start processing: tsk-monster
+[2024-04-15 13:15:11] INFO root fetch - main [MainThread]: End processing [babelwidget]: success
+[2024-04-15 13:15:11] INFO root fetch - processPackages [pcffont]: Downloading https://files.pythonhosted.org/packages/0d/88/b02b2687367378ec214630507161615c724f8fb9601e5fb665ff1cabf067/pcffont-0.0.2.tar.gz
+[2024-04-15 13:15:11] INFO root fetch - processPackages [odoo14-addon-support-branding]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_support_branding-14.0.1.1.0-py3-none-any.whl.zip]
+[2024-04-15 13:15:11] INFO root fetch - processPackages [odoo14-addon-support-branding]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_support_branding-14.0.1.2.0-py3-none-any.whl.zip]
+[2024-04-15 13:15:11] INFO root fetch - main [MainThread]: End processing [odoo14-addon-support-branding]: success
+[2024-04-15 13:15:11] INFO root fetch - processPackages [tsk-monster]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-15 13:15:11] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/89/bb/38745589493601c48da415d561f53d93e8f0c5e8f8d0b9301e284995a43c/nucliadb_telemetry-3.0.2.post426-py3-none-any.whl
+[2024-04-15 13:15:11] INFO root fetch - processPackages [bdffont]: Downloading https://files.pythonhosted.org/packages/cb/1d/a43b84db5c4d3d9bdecfbaa4cbf25995eedcd5543266587876372fb4e338/bdffont-0.0.9.tar.gz
+[2024-04-15 13:15:11] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/35/b0/c2107236dc986b8be79fbf4d2b7128f701bcd826323f736ccbe655498508/nucliadb_utils-3.0.2.post426-py3-none-any.whl
+[2024-04-15 13:15:11] INFO root fetch - processPackages [tsk-monster]: Downloading https://files.pythonhosted.org/packages/37/1d/909d8d90bce691193ba9c7cbab6edfe8ef434db7e5b38dd2520121d4e483/tsk_monster-0.0.8.tar.gz
+[2024-04-15 13:15:11] INFO root fetch - processPackages [bdffont]: executing diffoscope
+[2024-04-15 13:15:11] INFO root fetch - processPackages [bdffont]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdffont-0.0.8.tar.gz tmp/bdffont-0.0.9.tar.gz --markdown 20240415/b/bdffont/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-15 13:15:12] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/1f/af/3610ac905b1f88214fbc0f0ff2cbd8f082cbdc0e6febfdb8ab95b01ca8b0/nucliadb_telemetry-3.0.2.post427-py3-none-any.whl
+[2024-04-15 13:15:12] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/29/6a/ac9037acdcd75311320837227b8490a205233de2f1a5727f3df9ffcee86d/nucliadb_utils-3.0.2.post427-py3-none-any.whl
+[2024-04-15 13:15:12] INFO root fetch - processPackages [tsk-monster]: Downloading https://files.pythonhosted.org/packages/bd/0d/76bc9f0c428722f67988b8db745d256aefb82e1f9e36269eee144c2705f1/tsk_monster-0.0.9.tar.gz
+[2024-04-15 13:15:12] INFO root fetch - processPackages [wikimedia-spicerack]: Remove: archive file [/home/abi/fetcher/tmp/wikimedia-spicerack-8.4.1.tar.gz]
+[2024-04-15 13:15:12] INFO root fetch - processPackages [wikimedia-spicerack]: Remove: archive file [/home/abi/fetcher/tmp/wikimedia_spicerack-8.5.0.tar.gz]
+[2024-04-15 13:15:12] INFO root fetch - main [MainThread]: End processing [wikimedia-spicerack]: success
+[2024-04-15 13:15:12] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2024-04-15 13:15:12] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-3.0.2.post426-py3-none-any.whl.zip tmp/nucliadb_utils-3.0.2.post427-py3-none-any.whl.zip --markdown 20240415/n/nucliadb-utils/3.0.2.post426-3.0.2.post427/README.md --exclude *.pyd
+[2024-04-15 13:15:12] INFO root fetch - processPackages [nucliadb-telemetry]: executing diffoscope
+[2024-04-15 13:15:12] INFO root fetch - processPackages [nucliadb-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_telemetry-3.0.2.post426-py3-none-any.whl.zip tmp/nucliadb_telemetry-3.0.2.post427-py3-none-any.whl.zip --markdown 20240415/n/nucliadb-telemetry/3.0.2.post426-3.0.2.post427/README.md --exclude *.pyd
+[2024-04-15 13:15:12] INFO root fetch - processPackages [pcffont]: Downloading https://files.pythonhosted.org/packages/ad/78/2a9a567045e6354786918c00cd19955229c9088c0af5e645a5a94639694c/pcffont-0.0.3.tar.gz
+[2024-04-15 13:15:12] INFO root fetch - processPackages [tsk-monster]: executing diffoscope
+[2024-04-15 13:15:12] INFO root fetch - processPackages [tsk-monster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsk_monster-0.0.8.tar.gz tmp/tsk_monster-0.0.9.tar.gz --markdown 20240415/t/tsk-monster/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-15 13:15:12] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-3.0.2.post426-py3-none-any.whl.zip]
+[2024-04-15 13:15:12] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-3.0.2.post427-py3-none-any.whl.zip]
+[2024-04-15 13:15:12] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2024-04-15 13:15:12] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-3.0.2.post426-py3-none-any.whl.zip]
+[2024-04-15 13:15:12] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-3.0.2.post427-py3-none-any.whl.zip]
+[2024-04-15 13:15:12] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2024-04-15 13:15:12] INFO root fetch - processPackages [bdffont]: Remove: archive file [/home/abi/fetcher/tmp/bdffont-0.0.8.tar.gz]
+[2024-04-15 13:15:12] INFO root fetch - processPackages [bdffont]: Remove: archive file [/home/abi/fetcher/tmp/bdffont-0.0.9.tar.gz]
+[2024-04-15 13:15:12] INFO root fetch - main [MainThread]: End processing [bdffont]: success
+[2024-04-15 13:15:12] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-3.0.2.post426-py3-none-any.whl.zip]
+[2024-04-15 13:15:12] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-3.0.2.post427-py3-none-any.whl.zip]
+[2024-04-15 13:15:12] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2024-04-15 13:15:12] INFO root fetch - processPackages [pcffont]: executing diffoscope
+[2024-04-15 13:15:12] INFO root fetch - processPackages [pcffont]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pcffont-0.0.2.tar.gz tmp/pcffont-0.0.3.tar.gz --markdown 20240415/p/pcffont/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-15 13:15:13] INFO root fetch - processPackages [tsk-monster]: Remove: archive file [/home/abi/fetcher/tmp/tsk_monster-0.0.8.tar.gz]
+[2024-04-15 13:15:13] INFO root fetch - processPackages [tsk-monster]: Remove: archive file [/home/abi/fetcher/tmp/tsk_monster-0.0.9.tar.gz]
+[2024-04-15 13:15:13] INFO root fetch - main [MainThread]: End processing [tsk-monster]: success
+[2024-04-15 13:15:13] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-3.0.2.post426-py3-none-any.whl.zip]
+[2024-04-15 13:15:13] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-3.0.2.post427-py3-none-any.whl.zip]
+[2024-04-15 13:15:13] INFO root fetch - main [MainThread]: End processing [nucliadb-telemetry]: success
+[2024-04-15 13:15:13] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-3.0.2.post426-py3-none-any.whl.zip]
+[2024-04-15 13:15:13] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-3.0.2.post427-py3-none-any.whl.zip]
+[2024-04-15 13:15:13] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2024-04-15 13:15:13] INFO root fetch - processPackages [pcffont]: Remove: archive file [/home/abi/fetcher/tmp/pcffont-0.0.2.tar.gz]
+[2024-04-15 13:15:13] INFO root fetch - processPackages [pcffont]: Remove: archive file [/home/abi/fetcher/tmp/pcffont-0.0.3.tar.gz]
+[2024-04-15 13:15:13] INFO root fetch - main [MainThread]: End processing [pcffont]: success
+[2024-04-15 13:15:13] INFO root fetch - main [MainThread]: Store serial: [22769938]
