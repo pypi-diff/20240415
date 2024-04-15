@@ -7663,3 +7663,18 @@
 [2024-04-15 07:23:40] INFO root fetch - processPackages [chik-rs]: Remove: archive file [/home/abi/fetcher/tmp/chik_rs-0.6.0.tar.gz]
 [2024-04-15 07:23:40] INFO root fetch - main [MainThread]: End processing [chik-rs]: success
 [2024-04-15 07:23:40] INFO root fetch - main [MainThread]: Store serial: [22766288]
+[2024-04-15 07:25:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22766288]
+[2024-04-15 07:25:49] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-15 07:25:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: libreppc
+[2024-04-15 07:25:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shiivalibrary
+[2024-04-15 07:25:49] INFO root fetch - processPackages [libreppc]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-15 07:25:49] INFO root fetch - processPackages [libreppc]: Downloading https://files.pythonhosted.org/packages/da/c2/030ecac3af2875fc29f3f9a43ad9b1019479c1ab97e681af2f2906931e16/libreppc-0.1.6.tar.gz
+[2024-04-15 07:25:49] WARNING root fetch - processPackages [shiivalibrary]: Skipping, unable to determine old version
+[2024-04-15 07:25:49] INFO root fetch - main [MainThread]: End processing [shiivalibrary] error
+[2024-04-15 07:25:49] INFO root fetch - processPackages [libreppc]: Downloading https://files.pythonhosted.org/packages/63/44/c9a923c67a34205a69b9b6890ad0f90ba61db13d8a99e461248a5b005629/libreppc-0.1.7.tar.gz
+[2024-04-15 07:25:49] INFO root fetch - processPackages [libreppc]: executing diffoscope
+[2024-04-15 07:25:49] INFO root fetch - processPackages [libreppc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libreppc-0.1.6.tar.gz tmp/libreppc-0.1.7.tar.gz --markdown 20240415/l/libreppc/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-15 07:25:50] INFO root fetch - processPackages [libreppc]: Remove: archive file [/home/abi/fetcher/tmp/libreppc-0.1.6.tar.gz]
+[2024-04-15 07:25:50] INFO root fetch - processPackages [libreppc]: Remove: archive file [/home/abi/fetcher/tmp/libreppc-0.1.7.tar.gz]
+[2024-04-15 07:25:50] INFO root fetch - main [MainThread]: End processing [libreppc]: success
+[2024-04-15 07:25:50] INFO root fetch - main [MainThread]: Store serial: [22766294]
