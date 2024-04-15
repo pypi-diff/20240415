@@ -24231,3 +24231,163 @@ AssertionError: tmp/pyblindrl-0.0.2rc57.post1.tar.gz does not exist
 [2024-04-15 17:15:18] INFO root fetch - processPackages [zou]: Remove: archive file [/home/abi/fetcher/tmp/zou-0.9.9-py2.py3-none-any.whl.zip]
 [2024-04-15 17:15:18] INFO root fetch - main [MainThread]: End processing [zou]: success
 [2024-04-15 17:15:18] INFO root fetch - main [MainThread]: Store serial: [22773528]
+[2024-04-15 17:17:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22773528]
+[2024-04-15 17:17:27] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-15 17:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: haupt
+[2024-04-15 17:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quantile-forest
+[2024-04-15 17:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: polyaxon
+[2024-04-15 17:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: polyaxon-sdk
+[2024-04-15 17:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: piwiPre
+[2024-04-15 17:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autocron
+[2024-04-15 17:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-game-collection
+[2024-04-15 17:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: agilicus
+[2024-04-15 17:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pynoesmartmeter
+[2024-04-15 17:17:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pynumstim
+[2024-04-15 17:17:27] INFO root fetch - processPackages [autocron]: New version: [0.9.5] Old Version: [0.9.2]
+[2024-04-15 17:17:27] INFO root fetch - processPackages [piwiPre]: New version: [0.8.5] Old Version: [0.8.4]
+[2024-04-15 17:17:27] INFO root fetch - processPackages [nonebot-plugin-game-collection]: New version: [3.0.0] Old Version: [2.4.9]
+[2024-04-15 17:17:27] INFO root fetch - processPackages [autocron]: Downloading https://files.pythonhosted.org/packages/c9/25/92ef86862cc063adbf7e9afa52f65e49e4c96910d84821c515ad0dd88d5e/autocron-0.9.2.tar.gz
+[2024-04-15 17:17:27] INFO root fetch - processPackages [piwiPre]: Downloading https://files.pythonhosted.org/packages/ad/fc/9cf4c3c37cd2895067bd93495f09c783b2a9d4650f43ea0506b7b50e1f67/piwiPre-0.8.4.tar.gz
+[2024-04-15 17:17:27] INFO root fetch - processPackages [pynoesmartmeter]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-15 17:17:27] INFO root fetch - processPackages [pynumstim]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-15 17:17:27] INFO root fetch - processPackages [polyaxon]: New version: [2.1.7] Old Version: [2.1.6rc0]
+[2024-04-15 17:17:27] INFO root fetch - processPackages [polyaxon-sdk]: New version: [2.1.7] Old Version: [2.1.6rc0]
+[2024-04-15 17:17:27] INFO root fetch - processPackages [haupt]: New version: [2.1.7] Old Version: [2.1.6rc0]
+[2024-04-15 17:17:27] INFO root fetch - processPackages [quantile-forest]: New version: [1.3.5] Old Version: [1.3.4]
+[2024-04-15 17:17:27] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/8c/0b/709693c079b664107969fc08b6e487c8e151eeb09953befd621996f22a69/nonebot_plugin_game_collection-2.4.9.tar.gz
+[2024-04-15 17:17:27] INFO root fetch - processPackages [agilicus]: New version: [1.99.0] Old Version: [1.98.9]
+[2024-04-15 17:17:28] INFO root fetch - processPackages [pynoesmartmeter]: Downloading https://files.pythonhosted.org/packages/6e/2b/6c620cc730311981300283ec9efba98aaa8352eb6781cf6c7ffa620f403e/pynoesmartmeter-0.2.0.tar.gz
+[2024-04-15 17:17:28] INFO root fetch - processPackages [autocron]: Downloading https://files.pythonhosted.org/packages/93/2a/b88a5f2f7f8773a8e631731425e2058b78fce571893bd449cd6762b85a2b/autocron-0.9.5.tar.gz
+[2024-04-15 17:17:28] INFO root fetch - processPackages [piwiPre]: Downloading https://files.pythonhosted.org/packages/e7/59/c5cfd3133f61e11e92c5834c1ac8dde4bd134a5d7fb13d632d1efa6ef294/piwiPre-0.8.5.tar.gz
+[2024-04-15 17:17:28] INFO root fetch - processPackages [polyaxon-sdk]: Downloading https://files.pythonhosted.org/packages/6d/ff/6c55daead18666071b7aa6435bd8dae5ecc7072daf780d9c81bf35060b80/polyaxon-sdk-2.1.6rc0.tar.gz
+[2024-04-15 17:17:28] INFO root fetch - processPackages [quantile-forest]: Downloading https://files.pythonhosted.org/packages/00/df/9abbee145c512841f43d7ef14fcc71a927009ab81e83f59ac95e160711e6/quantile-forest-1.3.4.tar.gz
+[2024-04-15 17:17:28] INFO root fetch - processPackages [haupt]: Downloading https://files.pythonhosted.org/packages/12/58/d40a9a775d40dc8d8f27e06deb7b4a51fa53e8a27432cb95b2ca39bb1b53/haupt-2.1.6rc0.tar.gz
+[2024-04-15 17:17:28] INFO root fetch - processPackages [polyaxon]: Downloading https://files.pythonhosted.org/packages/00/6a/4058b55900744059019c62453d2d98ba795c166c11e7921c71d35ca0513e/polyaxon-2.1.6rc0.tar.gz
+[2024-04-15 17:17:28] INFO root fetch - processPackages [pynumstim]: Downloading https://files.pythonhosted.org/packages/0d/18/a9f167ebff48f48d6cf3a92eb6156f926f6a9e862b7d450136d6c62b4b48/pynumstim-0.2.4.tar.gz
+[2024-04-15 17:17:28] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/41/fe/52dcc5ddf7bbd5da7fd4e415962792716f7544a09edd76c3fca9d734d3d2/nonebot_plugin_game_collection-3.0.0.tar.gz
+[2024-04-15 17:17:28] INFO root fetch - processPackages [autocron]: executing diffoscope
+[2024-04-15 17:17:28] INFO root fetch - processPackages [autocron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autocron-0.9.2.tar.gz tmp/autocron-0.9.5.tar.gz --markdown 20240415/a/autocron/0.9.2-0.9.5/README.md --exclude *.pyd
+[2024-04-15 17:17:28] INFO root fetch - processPackages [piwiPre]: executing diffoscope
+[2024-04-15 17:17:28] INFO root fetch - processPackages [piwiPre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piwiPre-0.8.4.tar.gz tmp/piwiPre-0.8.5.tar.gz --markdown 20240415/p/piwiPre/0.8.4-0.8.5/README.md --exclude *.pyd
+[2024-04-15 17:17:28] INFO root fetch - processPackages [nonebot-plugin-game-collection]: executing diffoscope
+[2024-04-15 17:17:28] INFO root fetch - processPackages [nonebot-plugin-game-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_game_collection-2.4.9.tar.gz tmp/nonebot_plugin_game_collection-3.0.0.tar.gz --markdown 20240415/n/nonebot-plugin-game-collection/2.4.9-3.0.0/README.md --exclude *.pyd
+[2024-04-15 17:17:28] INFO root fetch - processPackages [pynoesmartmeter]: Downloading https://files.pythonhosted.org/packages/1e/79/ab484660ad50e26506f399045b082af8481353bc881a4f56d3c848370192/pynoesmartmeter-0.3.0.tar.gz
+[2024-04-15 17:17:28] INFO root fetch - processPackages [agilicus]: executing diffoscope
+[2024-04-15 17:17:28] INFO root fetch - processPackages [agilicus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agilicus-1.98.9.tar.gz tmp/agilicus-1.99.0.tar.gz --markdown 20240415/a/agilicus/1.98.9-1.99.0/README.md --exclude *.pyd
+[2024-04-15 17:17:28] INFO root fetch - processPackages [pynoesmartmeter]: executing diffoscope
+[2024-04-15 17:17:28] INFO root fetch - processPackages [pynoesmartmeter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynoesmartmeter-0.2.0.tar.gz tmp/pynoesmartmeter-0.3.0.tar.gz --markdown 20240415/p/pynoesmartmeter/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-04-15 17:17:28] INFO root fetch - processPackages [polyaxon-sdk]: Downloading https://files.pythonhosted.org/packages/d3/62/7a8318f151d5ccb956de8005eadfa6c853dbb27e234467571608217d407e/polyaxon-sdk-2.1.7.tar.gz
+[2024-04-15 17:17:28] INFO root fetch - processPackages [polyaxon]: Downloading https://files.pythonhosted.org/packages/c9/34/fcc253aaa490a8935efc72a4697951f6850912e073fb67ebfa7b75cdca91/polyaxon-2.1.7.tar.gz
+[2024-04-15 17:17:28] INFO root fetch - processPackages [pynumstim]: Downloading https://files.pythonhosted.org/packages/4e/5f/513e1ab2ad2ca2113598ea40b46ffceb5879fa64028ce2d85f4f2d4a0286/pynumstim-0.2.5.tar.gz
+[2024-04-15 17:17:28] INFO root fetch - processPackages [quantile-forest]: Downloading https://files.pythonhosted.org/packages/6b/0f/d12099e1de462d841b7ea0012354d30d36294f615adf8ace2497ebb9b9de/quantile_forest-1.3.5.tar.gz
+[2024-04-15 17:17:28] INFO root fetch - processPackages [pynumstim]: executing diffoscope
+[2024-04-15 17:17:28] INFO root fetch - processPackages [pynumstim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynumstim-0.2.4.tar.gz tmp/pynumstim-0.2.5.tar.gz --markdown 20240415/p/pynumstim/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-15 17:17:28] INFO root fetch - processPackages [polyaxon-sdk]: executing diffoscope
+[2024-04-15 17:17:28] INFO root fetch - processPackages [polyaxon-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polyaxon-sdk-2.1.6rc0.tar.gz tmp/polyaxon-sdk-2.1.7.tar.gz --markdown 20240415/p/polyaxon-sdk/2.1.6rc0-2.1.7/README.md --exclude *.pyd
+[2024-04-15 17:17:28] INFO root fetch - processPackages [polyaxon]: executing diffoscope
+[2024-04-15 17:17:28] INFO root fetch - processPackages [polyaxon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polyaxon-2.1.6rc0.tar.gz tmp/polyaxon-2.1.7.tar.gz --markdown 20240415/p/polyaxon/2.1.6rc0-2.1.7/README.md --exclude *.pyd
+[2024-04-15 17:17:28] INFO root fetch - processPackages [quantile-forest]: executing diffoscope
+[2024-04-15 17:17:28] INFO root fetch - processPackages [quantile-forest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantile-forest-1.3.4.tar.gz tmp/quantile_forest-1.3.5.tar.gz --markdown 20240415/q/quantile-forest/1.3.4-1.3.5/README.md --exclude *.pyd
+[2024-04-15 17:17:29] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.4.9.tar.gz]
+[2024-04-15 17:17:29] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-3.0.0.tar.gz]
+[2024-04-15 17:17:29] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Start processing: napari-tomodl
+[2024-04-15 17:17:29] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-game-collection]: success
+[2024-04-15 17:17:29] INFO root fetch - processPackages [autocron]: Remove: archive file [/home/abi/fetcher/tmp/autocron-0.9.2.tar.gz]
+[2024-04-15 17:17:29] INFO root fetch - processPackages [autocron]: Remove: archive file [/home/abi/fetcher/tmp/autocron-0.9.5.tar.gz]
+[2024-04-15 17:17:29] INFO root fetch - processPackages [autocron]: Start processing: gitlabform
+[2024-04-15 17:17:29] INFO root fetch - main [MainThread]: End processing [autocron]: success
+[2024-04-15 17:17:29] INFO root fetch - processPackages [piwiPre]: Remove: archive file [/home/abi/fetcher/tmp/piwiPre-0.8.4.tar.gz]
+[2024-04-15 17:17:29] INFO root fetch - processPackages [piwiPre]: Remove: archive file [/home/abi/fetcher/tmp/piwiPre-0.8.5.tar.gz]
+[2024-04-15 17:17:29] INFO root fetch - main [MainThread]: End processing [piwiPre]: success
+[2024-04-15 17:17:29] INFO root fetch - processPackages [haupt]: Downloading https://files.pythonhosted.org/packages/cb/21/ade4dbbf06d6135a296e82d1a75b354446b7f28e908ffe01fe96d525b739/haupt-2.1.7.tar.gz
+[2024-04-15 17:17:29] INFO root fetch - processPackages [pynoesmartmeter]: Remove: archive file [/home/abi/fetcher/tmp/pynoesmartmeter-0.2.0.tar.gz]
+[2024-04-15 17:17:29] INFO root fetch - processPackages [pynoesmartmeter]: Remove: archive file [/home/abi/fetcher/tmp/pynoesmartmeter-0.3.0.tar.gz]
+[2024-04-15 17:17:29] INFO root fetch - main [MainThread]: End processing [pynoesmartmeter]: success
+[2024-04-15 17:17:29] INFO root fetch - processPackages [napari-tomodl]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-15 17:17:29] INFO root fetch - processPackages [gitlabform]: New version: [3.9.4] Old Version: [3.9.3]
+[2024-04-15 17:17:29] INFO root fetch - processPackages [pynumstim]: Remove: archive file [/home/abi/fetcher/tmp/pynumstim-0.2.4.tar.gz]
+[2024-04-15 17:17:29] INFO root fetch - processPackages [pynumstim]: Remove: archive file [/home/abi/fetcher/tmp/pynumstim-0.2.5.tar.gz]
+[2024-04-15 17:17:29] INFO root fetch - main [MainThread]: End processing [pynumstim]: success
+[2024-04-15 17:17:29] INFO root fetch - processPackages [napari-tomodl]: Downloading https://files.pythonhosted.org/packages/4c/77/7bde9674a1e9e0d482db250706995d2fa29c64ce1a10771414ccb21bcf3c/napari-tomodl-0.1.8.tar.gz
+[2024-04-15 17:17:29] INFO root fetch - processPackages [gitlabform]: Downloading https://files.pythonhosted.org/packages/ca/a9/50c540712cd74c56cdd43cd08dee2fd6e8f708ff574498bec97d7ab8c210/gitlabform-3.9.3.tar.gz
+[2024-04-15 17:17:29] INFO root fetch - processPackages [haupt]: executing diffoscope
+[2024-04-15 17:17:29] INFO root fetch - processPackages [haupt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haupt-2.1.6rc0.tar.gz tmp/haupt-2.1.7.tar.gz --markdown 20240415/h/haupt/2.1.6rc0-2.1.7/README.md --exclude *.pyd
+[2024-04-15 17:17:29] INFO root fetch - processPackages [quantile-forest]: Remove: archive file [/home/abi/fetcher/tmp/quantile-forest-1.3.4.tar.gz]
+[2024-04-15 17:17:29] INFO root fetch - processPackages [quantile-forest]: Remove: archive file [/home/abi/fetcher/tmp/quantile_forest-1.3.5.tar.gz]
+[2024-04-15 17:17:29] INFO root fetch - main [MainThread]: End processing [quantile-forest]: success
+[2024-04-15 17:17:30] INFO root fetch - processPackages [gitlabform]: Downloading https://files.pythonhosted.org/packages/93/b7/7d53af460a63c5cd1a85e649a9d1259deda6511020f48a237f9e774f2b9d/gitlabform-3.9.4.tar.gz
+[2024-04-15 17:17:30] INFO root fetch - processPackages [napari-tomodl]: Downloading https://files.pythonhosted.org/packages/e2/2e/43de317881dc880b247e2e9932e6a3cd83d995af7d2a6a19c08310439dbe/napari-tomodl-0.1.9.tar.gz
+[2024-04-15 17:17:30] INFO root fetch - processPackages [napari-tomodl]: executing diffoscope
+[2024-04-15 17:17:30] INFO root fetch - processPackages [napari-tomodl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-tomodl-0.1.8.tar.gz tmp/napari-tomodl-0.1.9.tar.gz --markdown 20240415/n/napari-tomodl/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-15 17:17:30] INFO root fetch - processPackages [gitlabform]: executing diffoscope
+[2024-04-15 17:17:30] INFO root fetch - processPackages [gitlabform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlabform-3.9.3.tar.gz tmp/gitlabform-3.9.4.tar.gz --markdown 20240415/g/gitlabform/3.9.3-3.9.4/README.md --exclude *.pyd
+[2024-04-15 17:17:30] ERROR root fetch - processPackages [agilicus]: Diffoscope failed: time="2024-04-15T17:17:28+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+EOFError: EOF read where object expected
+
+[2024-04-15 17:17:30] INFO root fetch - main [MainThread]: End processing [agilicus] error
+[2024-04-15 17:17:30] INFO root fetch - processPackages [napari-tomodl]: Remove: archive file [/home/abi/fetcher/tmp/napari-tomodl-0.1.8.tar.gz]
+[2024-04-15 17:17:30] INFO root fetch - processPackages [napari-tomodl]: Remove: archive file [/home/abi/fetcher/tmp/napari-tomodl-0.1.9.tar.gz]
+[2024-04-15 17:17:30] INFO root fetch - main [MainThread]: End processing [napari-tomodl]: success
+[2024-04-15 17:17:31] INFO root fetch - processPackages [gitlabform]: Remove: archive file [/home/abi/fetcher/tmp/gitlabform-3.9.3.tar.gz]
+[2024-04-15 17:17:31] INFO root fetch - processPackages [gitlabform]: Remove: archive file [/home/abi/fetcher/tmp/gitlabform-3.9.4.tar.gz]
+[2024-04-15 17:17:31] INFO root fetch - main [MainThread]: End processing [gitlabform]: success
+[2024-04-15 17:17:31] INFO root fetch - processPackages [polyaxon]: Remove: archive file [/home/abi/fetcher/tmp/polyaxon-2.1.6rc0.tar.gz]
+[2024-04-15 17:17:31] INFO root fetch - processPackages [polyaxon]: Remove: archive file [/home/abi/fetcher/tmp/polyaxon-2.1.7.tar.gz]
+[2024-04-15 17:17:31] INFO root fetch - main [MainThread]: End processing [polyaxon]: success
+[2024-04-15 17:17:32] INFO root fetch - processPackages [polyaxon-sdk]: Remove: archive file [/home/abi/fetcher/tmp/polyaxon-sdk-2.1.6rc0.tar.gz]
+[2024-04-15 17:17:32] INFO root fetch - processPackages [polyaxon-sdk]: Remove: archive file [/home/abi/fetcher/tmp/polyaxon-sdk-2.1.7.tar.gz]
+[2024-04-15 17:17:32] INFO root fetch - main [MainThread]: End processing [polyaxon-sdk]: success
+[2024-04-15 17:17:50] INFO root fetch - processPackages [haupt]: Remove: archive file [/home/abi/fetcher/tmp/haupt-2.1.6rc0.tar.gz]
+[2024-04-15 17:17:50] INFO root fetch - processPackages [haupt]: Remove: archive file [/home/abi/fetcher/tmp/haupt-2.1.7.tar.gz]
+[2024-04-15 17:17:50] INFO root fetch - main [MainThread]: End processing [haupt]: success
+[2024-04-15 17:17:50] INFO root fetch - main [MainThread]: Store serial: [22773590]
