@@ -4159,3 +4159,63 @@
 [2024-04-15 05:30:59] INFO root fetch - processPackages [djgentelella]: Remove: archive file [/home/abi/fetcher/tmp/djgentelella-0.3.9.tar.gz]
 [2024-04-15 05:30:59] INFO root fetch - main [MainThread]: End processing [djgentelella]: success
 [2024-04-15 05:30:59] INFO root fetch - main [MainThread]: Store serial: [22765066]
+[2024-04-15 05:33:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22765066]
+[2024-04-15 05:33:08] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-15 05:33:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coglib
+[2024-04-15 05:33:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xcloud-client
+[2024-04-15 05:33:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytplot-mpl-temp
+[2024-04-15 05:33:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xursparks
+[2024-04-15 05:33:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: surfkit
+[2024-04-15 05:33:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-ssi-hr-reimbursement
+[2024-04-15 05:33:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-ssi-hr-cash-advance
+[2024-04-15 05:33:08] INFO root fetch - processPackages [xcloud-client]: New version: [3.0] Old Version: [2.0]
+[2024-04-15 05:33:08] INFO root fetch - processPackages [surfkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-15 05:33:08] INFO root fetch - processPackages [pytplot-mpl-temp]: New version: [2.2.9] Old Version: [2.2.8]
+[2024-04-15 05:33:08] WARNING root fetch - processPackages [coglib]: Skipping, unable to determine old version
+[2024-04-15 05:33:08] INFO root fetch - main [MainThread]: End processing [coglib] error
+[2024-04-15 05:33:08] INFO root fetch - processPackages [xursparks]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-15 05:33:08] INFO root fetch - processPackages [xcloud-client]: Downloading https://files.pythonhosted.org/packages/ca/64/69d5b3b43c198442f590c4762a8781cd9e89b8944189bc26b4355f741cb4/xcloud_client-2.0.tar.gz
+[2024-04-15 05:33:08] INFO root fetch - processPackages [odoo14-addon-ssi-hr-reimbursement]: New version: [14.0.1.9.0] Old Version: [14.0.1.7.0]
+[2024-04-15 05:33:08] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/00/dc/343980c083ea4ae8ce963639c51b39c0b3ba7869e96ca748256ff1b67925/surfkit-0.1.8.tar.gz
+[2024-04-15 05:33:08] INFO root fetch - processPackages [odoo14-addon-ssi-hr-cash-advance]: New version: [14.0.1.9.0] Old Version: [14.0.1.8.0]
+[2024-04-15 05:33:08] INFO root fetch - processPackages [pytplot-mpl-temp]: Downloading https://files.pythonhosted.org/packages/4a/3e/a5a5f1bb38b468da3d376ee81f842f2f8433d02dd89bf1e410d1a15a98e0/pytplot-mpl-temp-2.2.8.tar.gz
+[2024-04-15 05:33:08] INFO root fetch - processPackages [xursparks]: Downloading https://files.pythonhosted.org/packages/c1/44/772ee39ecf78246c1dea72f36cde9689ecef863a154c25c7773c2af68a4e/xursparks-1.0.0.tar.gz
+[2024-04-15 05:33:08] INFO root fetch - processPackages [odoo14-addon-ssi-hr-reimbursement]: Downloading https://files.pythonhosted.org/packages/47/6f/8a032de8ebb925ab02875ff73f93f5792f2f0dfc694de86c2a8641ed3f83/odoo14_addon_ssi_hr_reimbursement-14.0.1.7.0-py3-none-any.whl
+[2024-04-15 05:33:08] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/e2/bd/4b842eb12eca8c3a3ea5d2915b52f91a3259c7e0160d2a0a88aeb13ae4a7/surfkit-0.1.9.tar.gz
+[2024-04-15 05:33:08] INFO root fetch - processPackages [odoo14-addon-ssi-hr-cash-advance]: Downloading https://files.pythonhosted.org/packages/2f/e0/edb65e6daf7a0e2742b4dabba2b6f2be7204483b3d09de4466c695dd1043/odoo14_addon_ssi_hr_cash_advance-14.0.1.8.0-py3-none-any.whl
+[2024-04-15 05:33:09] INFO root fetch - processPackages [pytplot-mpl-temp]: Downloading https://files.pythonhosted.org/packages/21/aa/38c2164a03950b9adf6f62c59343823fefd067961a6402ad1c2311ef1a3a/pytplot-mpl-temp-2.2.9.tar.gz
+[2024-04-15 05:33:09] INFO root fetch - processPackages [surfkit]: executing diffoscope
+[2024-04-15 05:33:09] INFO root fetch - processPackages [surfkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surfkit-0.1.8.tar.gz tmp/surfkit-0.1.9.tar.gz --markdown 20240415/s/surfkit/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-15 05:33:09] INFO root fetch - processPackages [xursparks]: Downloading https://files.pythonhosted.org/packages/23/b1/8d6f50284edfad9d4a00d1994e0dbb7656480561a805ad588d571632e7ff/xursparks-1.0.1.tar.gz
+[2024-04-15 05:33:09] INFO root fetch - processPackages [odoo14-addon-ssi-hr-reimbursement]: Downloading https://files.pythonhosted.org/packages/e7/37/a12e618edf412f6a40f78980e841f2b468db6310a5cfcef73a824385946d/odoo14_addon_ssi_hr_reimbursement-14.0.1.9.0-py3-none-any.whl
+[2024-04-15 05:33:09] INFO root fetch - processPackages [xcloud-client]: Downloading https://files.pythonhosted.org/packages/55/73/cea792030ed5a4945832cccdf852704a16ea524f8a61813ea5526ff209fb/xcloud_client-3.0.tar.gz
+[2024-04-15 05:33:09] INFO root fetch - processPackages [xursparks]: executing diffoscope
+[2024-04-15 05:33:09] INFO root fetch - processPackages [xursparks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xursparks-1.0.0.tar.gz tmp/xursparks-1.0.1.tar.gz --markdown 20240415/x/xursparks/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-15 05:33:09] INFO root fetch - processPackages [odoo14-addon-ssi-hr-cash-advance]: Downloading https://files.pythonhosted.org/packages/40/b6/a598f870f3beefc1538022814d34dd05b9ec98b5ebee0fdda4f975cfa7b8/odoo14_addon_ssi_hr_cash_advance-14.0.1.9.0-py3-none-any.whl
+[2024-04-15 05:33:09] INFO root fetch - processPackages [odoo14-addon-ssi-hr-reimbursement]: executing diffoscope
+[2024-04-15 05:33:09] INFO root fetch - processPackages [odoo14-addon-ssi-hr-reimbursement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_hr_reimbursement-14.0.1.7.0-py3-none-any.whl.zip tmp/odoo14_addon_ssi_hr_reimbursement-14.0.1.9.0-py3-none-any.whl.zip --markdown 20240415/o/odoo14-addon-ssi-hr-reimbursement/14.0.1.7.0-14.0.1.9.0/README.md --exclude *.pyd
+[2024-04-15 05:33:09] INFO root fetch - processPackages [pytplot-mpl-temp]: executing diffoscope
+[2024-04-15 05:33:09] INFO root fetch - processPackages [pytplot-mpl-temp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytplot-mpl-temp-2.2.8.tar.gz tmp/pytplot-mpl-temp-2.2.9.tar.gz --markdown 20240415/p/pytplot-mpl-temp/2.2.8-2.2.9/README.md --exclude *.pyd
+[2024-04-15 05:33:09] INFO root fetch - processPackages [odoo14-addon-ssi-hr-cash-advance]: executing diffoscope
+[2024-04-15 05:33:09] INFO root fetch - processPackages [odoo14-addon-ssi-hr-cash-advance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_hr_cash_advance-14.0.1.8.0-py3-none-any.whl.zip tmp/odoo14_addon_ssi_hr_cash_advance-14.0.1.9.0-py3-none-any.whl.zip --markdown 20240415/o/odoo14-addon-ssi-hr-cash-advance/14.0.1.8.0-14.0.1.9.0/README.md --exclude *.pyd
+[2024-04-15 05:33:09] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.8.tar.gz]
+[2024-04-15 05:33:09] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.9.tar.gz]
+[2024-04-15 05:33:09] INFO root fetch - main [MainThread]: End processing [surfkit]: success
+[2024-04-15 05:33:09] INFO root fetch - processPackages [xursparks]: Remove: archive file [/home/abi/fetcher/tmp/xursparks-1.0.0.tar.gz]
+[2024-04-15 05:33:09] INFO root fetch - processPackages [xursparks]: Remove: archive file [/home/abi/fetcher/tmp/xursparks-1.0.1.tar.gz]
+[2024-04-15 05:33:09] INFO root fetch - main [MainThread]: End processing [xursparks]: success
+[2024-04-15 05:33:10] INFO root fetch - processPackages [odoo14-addon-ssi-hr-reimbursement]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_hr_reimbursement-14.0.1.7.0-py3-none-any.whl.zip]
+[2024-04-15 05:33:10] INFO root fetch - processPackages [odoo14-addon-ssi-hr-reimbursement]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_hr_reimbursement-14.0.1.9.0-py3-none-any.whl.zip]
+[2024-04-15 05:33:10] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-hr-reimbursement]: success
+[2024-04-15 05:33:10] INFO root fetch - processPackages [odoo14-addon-ssi-hr-cash-advance]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_hr_cash_advance-14.0.1.8.0-py3-none-any.whl.zip]
+[2024-04-15 05:33:10] INFO root fetch - processPackages [odoo14-addon-ssi-hr-cash-advance]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_hr_cash_advance-14.0.1.9.0-py3-none-any.whl.zip]
+[2024-04-15 05:33:10] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-hr-cash-advance]: success
+[2024-04-15 05:33:10] INFO root fetch - processPackages [xcloud-client]: executing diffoscope
+[2024-04-15 05:33:10] INFO root fetch - processPackages [xcloud-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xcloud_client-2.0.tar.gz tmp/xcloud_client-3.0.tar.gz --markdown 20240415/x/xcloud-client/2.0-3.0/README.md --exclude *.pyd
+[2024-04-15 05:33:10] INFO root fetch - processPackages [pytplot-mpl-temp]: Remove: archive file [/home/abi/fetcher/tmp/pytplot-mpl-temp-2.2.8.tar.gz]
+[2024-04-15 05:33:10] INFO root fetch - processPackages [pytplot-mpl-temp]: Remove: archive file [/home/abi/fetcher/tmp/pytplot-mpl-temp-2.2.9.tar.gz]
+[2024-04-15 05:33:10] INFO root fetch - main [MainThread]: End processing [pytplot-mpl-temp]: success
+[2024-04-15 05:33:10] INFO root fetch - processPackages [xcloud-client]: Remove: archive file [/home/abi/fetcher/tmp/xcloud_client-2.0.tar.gz]
+[2024-04-15 05:33:10] INFO root fetch - processPackages [xcloud-client]: Remove: archive file [/home/abi/fetcher/tmp/xcloud_client-3.0.tar.gz]
+[2024-04-15 05:33:10] INFO root fetch - main [MainThread]: End processing [xcloud-client]: success
+[2024-04-15 05:33:10] INFO root fetch - main [MainThread]: Store serial: [22765090]
