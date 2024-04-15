@@ -2551,3 +2551,15 @@
 [2024-04-15 03:41:54] INFO root fetch - processPackages [llm-benchmark]: Remove: archive file [/home/abi/fetcher/tmp/llm_benchmark-0.3.9.tar.gz]
 [2024-04-15 03:41:54] INFO root fetch - main [MainThread]: End processing [llm-benchmark]: success
 [2024-04-15 03:41:54] INFO root fetch - main [MainThread]: Store serial: [22764437]
+[2024-04-15 03:43:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22764437]
+[2024-04-15 03:44:03] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-15 03:44:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: slurpit_nautobot
+[2024-04-15 03:44:03] INFO root fetch - processPackages [slurpit_nautobot]: New version: [0.8.67] Old Version: [0.8.66]
+[2024-04-15 03:44:03] INFO root fetch - processPackages [slurpit_nautobot]: Downloading https://files.pythonhosted.org/packages/65/f6/4c5c3e2cb9ee4dd3a8ef5aa31c426927e66140ac9d1114e6bfec5274a300/slurpit_nautobot-0.8.66.tar.gz
+[2024-04-15 03:44:03] INFO root fetch - processPackages [slurpit_nautobot]: Downloading https://files.pythonhosted.org/packages/a3/e3/d4916f8de83e1696e6b6215dfe6230772fb743402d9ff7503ad9ca227789/slurpit_nautobot-0.8.67.tar.gz
+[2024-04-15 03:44:03] INFO root fetch - processPackages [slurpit_nautobot]: executing diffoscope
+[2024-04-15 03:44:03] INFO root fetch - processPackages [slurpit_nautobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slurpit_nautobot-0.8.66.tar.gz tmp/slurpit_nautobot-0.8.67.tar.gz --markdown 20240415/s/slurpit_nautobot/0.8.66-0.8.67/README.md --exclude *.pyd
+[2024-04-15 03:44:04] INFO root fetch - processPackages [slurpit_nautobot]: Remove: archive file [/home/abi/fetcher/tmp/slurpit_nautobot-0.8.66.tar.gz]
+[2024-04-15 03:44:04] INFO root fetch - processPackages [slurpit_nautobot]: Remove: archive file [/home/abi/fetcher/tmp/slurpit_nautobot-0.8.67.tar.gz]
+[2024-04-15 03:44:04] INFO root fetch - main [MainThread]: End processing [slurpit_nautobot]: success
+[2024-04-15 03:44:04] INFO root fetch - main [MainThread]: Store serial: [22764440]
