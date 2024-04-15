@@ -14818,3 +14818,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 12:24:13] INFO root fetch - processPackages [odoo-addon-sale-commercial-partner]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_commercial_partner-17.0.1.0.0.2-py3-none-any.whl.zip]
 [2024-04-15 12:24:13] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-commercial-partner]: success
 [2024-04-15 12:24:13] INFO root fetch - main [MainThread]: Store serial: [22769304]
+[2024-04-15 12:26:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22769304]
+[2024-04-15 12:26:22] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-15 12:26:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: henryobj
+[2024-04-15 12:26:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zodchy-patterns
+[2024-04-15 12:26:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: s2fft
+[2024-04-15 12:26:22] INFO root fetch - processPackages [zodchy-patterns]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-15 12:26:22] INFO root fetch - processPackages [zodchy-patterns]: Downloading https://files.pythonhosted.org/packages/f4/11/dfef691783c44a80d1e34e6b9d6aa073bd4ed26eb73fc7d62cab164a5b44/zodchy_patterns-0.1.0.tar.gz
+[2024-04-15 12:26:22] INFO root fetch - processPackages [s2fft]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-15 12:26:22] INFO root fetch - processPackages [henryobj]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-04-15 12:26:23] INFO root fetch - processPackages [s2fft]: Downloading https://files.pythonhosted.org/packages/7d/41/697735f8f606ba49ae46c442212dfb0a0aba83d3398dd1afa1a69a46613c/s2fft-1.1.0.tar.gz
+[2024-04-15 12:26:23] INFO root fetch - processPackages [henryobj]: Downloading https://files.pythonhosted.org/packages/38/b8/2499d124b6b741e448ed595702bbed9411f1aa29ceebf47bdb99061dd648/henryobj-0.2.5.tar.gz
+[2024-04-15 12:26:23] INFO root fetch - processPackages [zodchy-patterns]: Downloading https://files.pythonhosted.org/packages/e2/74/56a3528d3c37592bda445fb26e3234d379de6f15bd691458aafdb92cf3f0/zodchy_patterns-0.1.1.tar.gz
+[2024-04-15 12:26:23] INFO root fetch - processPackages [zodchy-patterns]: executing diffoscope
+[2024-04-15 12:26:23] INFO root fetch - processPackages [zodchy-patterns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zodchy_patterns-0.1.0.tar.gz tmp/zodchy_patterns-0.1.1.tar.gz --markdown 20240415/z/zodchy-patterns/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-15 12:26:23] INFO root fetch - processPackages [henryobj]: Downloading https://files.pythonhosted.org/packages/fc/73/d9c2eca25a46e9fc976927c161241c8b7678f61dfb3a0dd6397e1e957ddb/henryobj-0.2.6.tar.gz
+[2024-04-15 12:26:23] INFO root fetch - processPackages [henryobj]: executing diffoscope
+[2024-04-15 12:26:23] INFO root fetch - processPackages [henryobj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/henryobj-0.2.5.tar.gz tmp/henryobj-0.2.6.tar.gz --markdown 20240415/h/henryobj/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-04-15 12:26:23] INFO root fetch - processPackages [zodchy-patterns]: Remove: archive file [/home/abi/fetcher/tmp/zodchy_patterns-0.1.0.tar.gz]
+[2024-04-15 12:26:23] INFO root fetch - processPackages [zodchy-patterns]: Remove: archive file [/home/abi/fetcher/tmp/zodchy_patterns-0.1.1.tar.gz]
+[2024-04-15 12:26:23] INFO root fetch - main [MainThread]: End processing [zodchy-patterns]: success
+[2024-04-15 12:26:24] INFO root fetch - processPackages [henryobj]: Remove: archive file [/home/abi/fetcher/tmp/henryobj-0.2.5.tar.gz]
+[2024-04-15 12:26:24] INFO root fetch - processPackages [henryobj]: Remove: archive file [/home/abi/fetcher/tmp/henryobj-0.2.6.tar.gz]
+[2024-04-15 12:26:24] INFO root fetch - main [MainThread]: End processing [henryobj]: success
+[2024-04-15 12:26:24] INFO root fetch - processPackages [s2fft]: Downloading https://files.pythonhosted.org/packages/f7/d9/064305b04e78dd54f7cc1ff234ff6f48b64fe1c0a28898aadf913590c4e9/s2fft-1.1.1.tar.gz
+[2024-04-15 12:26:25] INFO root fetch - processPackages [s2fft]: executing diffoscope
+[2024-04-15 12:26:25] INFO root fetch - processPackages [s2fft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s2fft-1.1.0.tar.gz tmp/s2fft-1.1.1.tar.gz --markdown 20240415/s/s2fft/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-15 12:26:26] INFO root fetch - processPackages [s2fft]: Remove: archive file [/home/abi/fetcher/tmp/s2fft-1.1.0.tar.gz]
+[2024-04-15 12:26:26] INFO root fetch - processPackages [s2fft]: Remove: archive file [/home/abi/fetcher/tmp/s2fft-1.1.1.tar.gz]
+[2024-04-15 12:26:26] INFO root fetch - main [MainThread]: End processing [s2fft]: success
+[2024-04-15 12:26:26] INFO root fetch - main [MainThread]: Store serial: [22769317]
