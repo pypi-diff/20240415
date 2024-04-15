@@ -1583,3 +1583,44 @@
 [2024-04-15 02:10:28] INFO root fetch - processPackages [pyCocos]: Remove: archive file [/home/abi/fetcher/tmp/pycocos-0.2.4.tar.gz]
 [2024-04-15 02:10:28] INFO root fetch - main [MainThread]: End processing [pyCocos]: success
 [2024-04-15 02:10:28] INFO root fetch - main [MainThread]: Store serial: [22763841]
+[2024-04-15 02:12:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22763841]
+[2024-04-15 02:12:36] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-15 02:14:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22763842]
+[2024-04-15 02:14:42] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-15 02:14:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: snakefmt
+[2024-04-15 02:14:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: partcad
+[2024-04-15 02:14:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: partcad-cli
+[2024-04-15 02:14:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: L7N
+[2024-04-15 02:14:42] INFO root fetch - processPackages [L7N]: New version: [1.1] Old Version: [0.5]
+[2024-04-15 02:14:42] INFO root fetch - processPackages [snakefmt]: New version: [0.9.0] Old Version: [0.8.5]
+[2024-04-15 02:14:42] INFO root fetch - processPackages [partcad]: New version: [0.5.8] Old Version: [0.5.6]
+[2024-04-15 02:14:42] INFO root fetch - processPackages [partcad-cli]: New version: [0.5.8] Old Version: [0.5.6]
+[2024-04-15 02:14:42] INFO root fetch - processPackages [snakefmt]: Downloading https://files.pythonhosted.org/packages/40/bd/86b3e22ada4ced9529739b6ec7004c3f5b3cadf31c83bb4ce3e9650b5a2e/snakefmt-0.8.5.tar.gz
+[2024-04-15 02:14:42] INFO root fetch - processPackages [partcad-cli]: Downloading https://files.pythonhosted.org/packages/4b/c1/3d7f9982d25cca95e10598ae983052a6594e92b6c67c06a477bc13f43e76/partcad-cli-0.5.6.tar.gz
+[2024-04-15 02:14:42] INFO root fetch - processPackages [L7N]: Downloading https://files.pythonhosted.org/packages/b2/36/e96305c10ecec7067211e0ad768dfd967c4e08e4b745d6212780e6d10d9e/L7N-0.5.tar.gz
+[2024-04-15 02:14:42] INFO root fetch - processPackages [partcad]: Downloading https://files.pythonhosted.org/packages/c6/3e/ab9894d660d45d5f2005cf32052abdc381f700b70cecb6b79ba0676a71d7/partcad-0.5.6.tar.gz
+[2024-04-15 02:14:43] INFO root fetch - processPackages [partcad-cli]: Downloading https://files.pythonhosted.org/packages/fc/da/0409b0611ae7809cbda68b32c5da75951860078381851ebb0a60e1fcbf6d/partcad-cli-0.5.8.tar.gz
+[2024-04-15 02:14:43] INFO root fetch - processPackages [L7N]: Downloading https://files.pythonhosted.org/packages/c3/19/e254c57ac33dc981eead6a2c8b7c23568e852bd6ec462526f9eb27441f46/L7N-1.1.tar.gz
+[2024-04-15 02:14:43] INFO root fetch - processPackages [partcad]: Downloading https://files.pythonhosted.org/packages/88/be/f5008156e17086647b954e66271a631a9462573bd4abc69004d5090406dd/partcad-0.5.8.tar.gz
+[2024-04-15 02:14:43] INFO root fetch - processPackages [partcad-cli]: executing diffoscope
+[2024-04-15 02:14:43] INFO root fetch - processPackages [partcad-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/partcad-cli-0.5.6.tar.gz tmp/partcad-cli-0.5.8.tar.gz --markdown 20240415/p/partcad-cli/0.5.6-0.5.8/README.md --exclude *.pyd
+[2024-04-15 02:14:43] INFO root fetch - processPackages [snakefmt]: Downloading https://files.pythonhosted.org/packages/e1/ca/ddd0028b2c65850f0e12ed91356a0677221e76ae914fa34382b7336b33a3/snakefmt-0.9.0.tar.gz
+[2024-04-15 02:14:43] INFO root fetch - processPackages [partcad]: executing diffoscope
+[2024-04-15 02:14:43] INFO root fetch - processPackages [partcad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/partcad-0.5.6.tar.gz tmp/partcad-0.5.8.tar.gz --markdown 20240415/p/partcad/0.5.6-0.5.8/README.md --exclude *.pyd
+[2024-04-15 02:14:43] INFO root fetch - processPackages [L7N]: executing diffoscope
+[2024-04-15 02:14:43] INFO root fetch - processPackages [L7N]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/L7N-0.5.tar.gz tmp/L7N-1.1.tar.gz --markdown 20240415/L/L7N/0.5-1.1/README.md --exclude *.pyd
+[2024-04-15 02:14:43] INFO root fetch - processPackages [snakefmt]: executing diffoscope
+[2024-04-15 02:14:43] INFO root fetch - processPackages [snakefmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snakefmt-0.8.5.tar.gz tmp/snakefmt-0.9.0.tar.gz --markdown 20240415/s/snakefmt/0.8.5-0.9.0/README.md --exclude *.pyd
+[2024-04-15 02:14:43] INFO root fetch - processPackages [partcad-cli]: Remove: archive file [/home/abi/fetcher/tmp/partcad-cli-0.5.6.tar.gz]
+[2024-04-15 02:14:43] INFO root fetch - processPackages [partcad-cli]: Remove: archive file [/home/abi/fetcher/tmp/partcad-cli-0.5.8.tar.gz]
+[2024-04-15 02:14:43] INFO root fetch - main [MainThread]: End processing [partcad-cli]: success
+[2024-04-15 02:14:43] INFO root fetch - processPackages [snakefmt]: Remove: archive file [/home/abi/fetcher/tmp/snakefmt-0.8.5.tar.gz]
+[2024-04-15 02:14:43] INFO root fetch - processPackages [snakefmt]: Remove: archive file [/home/abi/fetcher/tmp/snakefmt-0.9.0.tar.gz]
+[2024-04-15 02:14:43] INFO root fetch - main [MainThread]: End processing [snakefmt]: success
+[2024-04-15 02:14:43] INFO root fetch - processPackages [partcad]: Remove: archive file [/home/abi/fetcher/tmp/partcad-0.5.6.tar.gz]
+[2024-04-15 02:14:43] INFO root fetch - processPackages [partcad]: Remove: archive file [/home/abi/fetcher/tmp/partcad-0.5.8.tar.gz]
+[2024-04-15 02:14:43] INFO root fetch - main [MainThread]: End processing [partcad]: success
+[2024-04-15 02:14:43] INFO root fetch - processPackages [L7N]: Remove: archive file [/home/abi/fetcher/tmp/L7N-0.5.tar.gz]
+[2024-04-15 02:14:43] INFO root fetch - processPackages [L7N]: Remove: archive file [/home/abi/fetcher/tmp/L7N-1.1.tar.gz]
+[2024-04-15 02:14:43] INFO root fetch - main [MainThread]: End processing [L7N]: success
+[2024-04-15 02:14:43] INFO root fetch - main [MainThread]: Store serial: [22763856]
