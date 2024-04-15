@@ -7564,3 +7564,42 @@
 [2024-04-15 07:14:56] INFO root fetch - processPackages [cbpi4]: Remove: archive file [/home/abi/fetcher/tmp/cbpi4-4.4.0.tar.gz]
 [2024-04-15 07:14:56] INFO root fetch - main [MainThread]: End processing [cbpi4]: success
 [2024-04-15 07:14:56] INFO root fetch - main [MainThread]: Store serial: [22766232]
+[2024-04-15 07:17:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22766232]
+[2024-04-15 07:17:05] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-15 07:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zengin-code
+[2024-04-15 07:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unigradicon
+[2024-04-15 07:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streamlit-searchbox
+[2024-04-15 07:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: test-option-deps
+[2024-04-15 07:17:06] INFO root fetch - processPackages [test-option-deps]: New version: [2.0.0] Old Version: [1.1.1]
+[2024-04-15 07:17:06] INFO root fetch - processPackages [streamlit-searchbox]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-15 07:17:06] INFO root fetch - processPackages [unigradicon]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-15 07:17:06] INFO root fetch - processPackages [zengin-code]: New version: [1.1.0.20240415] Old Version: [1.1.0.20240313]
+[2024-04-15 07:17:06] INFO root fetch - processPackages [test-option-deps]: Downloading https://files.pythonhosted.org/packages/39/2b/ed0d4bfe0143aff7c213755af893c8893a37948993c3f0e98cbed19f394b/test_option_deps-1.1.1.tar.gz
+[2024-04-15 07:17:06] INFO root fetch - processPackages [unigradicon]: Downloading https://files.pythonhosted.org/packages/8a/5b/5c8440e3c5380c9883dfccd04b4cd0dde37cfc45385e1cb6bcdb328165ee/unigradicon-1.0.1-py3-none-any.whl
+[2024-04-15 07:17:06] INFO root fetch - processPackages [streamlit-searchbox]: Downloading https://files.pythonhosted.org/packages/03/05/d3b2298bad20f380da271265171fdd373da7cf0016ef0177ffe99f322864/streamlit-searchbox-0.1.8.tar.gz
+[2024-04-15 07:17:06] INFO root fetch - processPackages [zengin-code]: Downloading https://files.pythonhosted.org/packages/d9/04/0191760418f9524ebc734f28bc5fa069acc87135bc7614d43770149487c6/zengin_code-1.1.0.20240313.tar.gz
+[2024-04-15 07:17:06] INFO root fetch - processPackages [test-option-deps]: Downloading https://files.pythonhosted.org/packages/40/14/33aaaff733203c4cf221aead30c738c90c9b7b73392215cfdd04595257c9/test_option_deps-2.0.0.tar.gz
+[2024-04-15 07:17:06] INFO root fetch - processPackages [unigradicon]: Downloading https://files.pythonhosted.org/packages/7f/ba/999ad2e1ef33407bd64f9ab49edd2861abfec028723c64f2af021b038c92/unigradicon-1.0.2.tar.gz
+[2024-04-15 07:17:06] INFO root fetch - processPackages [test-option-deps]: executing diffoscope
+[2024-04-15 07:17:06] INFO root fetch - processPackages [test-option-deps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_option_deps-1.1.1.tar.gz tmp/test_option_deps-2.0.0.tar.gz --markdown 20240415/t/test-option-deps/1.1.1-2.0.0/README.md --exclude *.pyd
+[2024-04-15 07:17:06] INFO root fetch - processPackages [zengin-code]: Downloading https://files.pythonhosted.org/packages/40/0e/ba5aadf382c36a03dd78db5f09337d70c7fcc2684b220dc49cd8b54ec4d8/zengin_code-1.1.0.20240415.tar.gz
+[2024-04-15 07:17:06] INFO root fetch - processPackages [unigradicon]: executing diffoscope
+[2024-04-15 07:17:06] INFO root fetch - processPackages [unigradicon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unigradicon-1.0.1-py3-none-any.whl.zip tmp/unigradicon-1.0.2.tar.gz --markdown 20240415/u/unigradicon/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-15 07:17:06] INFO root fetch - processPackages [streamlit-searchbox]: Downloading https://files.pythonhosted.org/packages/d9/79/b7dc3794a3eed8a6353683d4234ea1df36db473b37ccb009e9508d7e8f84/streamlit-searchbox-0.1.9.tar.gz
+[2024-04-15 07:17:07] INFO root fetch - processPackages [streamlit-searchbox]: executing diffoscope
+[2024-04-15 07:17:07] INFO root fetch - processPackages [streamlit-searchbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-searchbox-0.1.8.tar.gz tmp/streamlit-searchbox-0.1.9.tar.gz --markdown 20240415/s/streamlit-searchbox/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-15 07:17:07] INFO root fetch - processPackages [zengin-code]: executing diffoscope
+[2024-04-15 07:17:07] INFO root fetch - processPackages [zengin-code]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zengin_code-1.1.0.20240313.tar.gz tmp/zengin_code-1.1.0.20240415.tar.gz --markdown 20240415/z/zengin-code/1.1.0.20240313-1.1.0.20240415/README.md --exclude *.pyd
+[2024-04-15 07:17:07] INFO root fetch - processPackages [test-option-deps]: Remove: archive file [/home/abi/fetcher/tmp/test_option_deps-1.1.1.tar.gz]
+[2024-04-15 07:17:07] INFO root fetch - processPackages [test-option-deps]: Remove: archive file [/home/abi/fetcher/tmp/test_option_deps-2.0.0.tar.gz]
+[2024-04-15 07:17:07] INFO root fetch - main [MainThread]: End processing [test-option-deps]: success
+[2024-04-15 07:17:07] INFO root fetch - processPackages [unigradicon]: Remove: archive file [/home/abi/fetcher/tmp/unigradicon-1.0.1-py3-none-any.whl.zip]
+[2024-04-15 07:17:07] INFO root fetch - processPackages [unigradicon]: Remove: archive file [/home/abi/fetcher/tmp/unigradicon-1.0.2.tar.gz]
+[2024-04-15 07:17:07] INFO root fetch - main [MainThread]: End processing [unigradicon]: success
+[2024-04-15 07:17:07] INFO root fetch - processPackages [streamlit-searchbox]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-searchbox-0.1.8.tar.gz]
+[2024-04-15 07:17:07] INFO root fetch - processPackages [streamlit-searchbox]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-searchbox-0.1.9.tar.gz]
+[2024-04-15 07:17:07] INFO root fetch - main [MainThread]: End processing [streamlit-searchbox]: success
+[2024-04-15 07:17:10] INFO root fetch - processPackages [zengin-code]: Remove: archive file [/home/abi/fetcher/tmp/zengin_code-1.1.0.20240313.tar.gz]
+[2024-04-15 07:17:10] INFO root fetch - processPackages [zengin-code]: Remove: archive file [/home/abi/fetcher/tmp/zengin_code-1.1.0.20240415.tar.gz]
+[2024-04-15 07:17:10] INFO root fetch - main [MainThread]: End processing [zengin-code]: success
+[2024-04-15 07:17:10] INFO root fetch - main [MainThread]: Store serial: [22766245]
