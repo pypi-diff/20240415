@@ -2095,3 +2095,42 @@
 [2024-04-15 03:02:56] INFO root fetch - processPackages [apollo-lunar]: Remove: archive file [/home/abi/fetcher/tmp/apollo_lunar-2024.4.4rc1.tar.gz]
 [2024-04-15 03:02:56] INFO root fetch - main [MainThread]: End processing [apollo-lunar]: success
 [2024-04-15 03:02:56] INFO root fetch - main [MainThread]: Store serial: [22764205]
+[2024-04-15 03:04:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22764205]
+[2024-04-15 03:05:04] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-15 03:05:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metasequoia-sql
+[2024-04-15 03:05:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mqt.qcec
+[2024-04-15 03:05:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: difai
+[2024-04-15 03:05:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: corkit
+[2024-04-15 03:05:04] INFO root fetch - processPackages [corkit]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-15 03:05:05] INFO root fetch - processPackages [corkit]: Downloading https://files.pythonhosted.org/packages/61/ce/7371e907b3be38818d0162d70eaac2fde03f053ea4dbc3187f52e89099f1/corkit-1.0.5.tar.gz
+[2024-04-15 03:05:05] INFO root fetch - processPackages [metasequoia-sql]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-15 03:05:05] INFO root fetch - processPackages [difai]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-15 03:05:05] INFO root fetch - processPackages [corkit]: Downloading https://files.pythonhosted.org/packages/8d/b7/1bdc140474657d33338bb6c651ac98450c1b2daede9d0057765d191bce2b/corkit-1.0.6.tar.gz
+[2024-04-15 03:05:05] INFO root fetch - processPackages [metasequoia-sql]: Downloading https://files.pythonhosted.org/packages/75/8b/5434bcf6c0be9a467a72add4a46e8480357586aa2baa306c1ca0ab31b06e/metasequoia-sql-0.2.0.tar.gz
+[2024-04-15 03:05:05] INFO root fetch - processPackages [difai]: Downloading https://files.pythonhosted.org/packages/28/11/c6881565febce439d43d58de2e2a17606319196ca25c3c27cef1c63d2daa/difai-0.9.8.tar.gz
+[2024-04-15 03:05:05] INFO root fetch - processPackages [mqt.qcec]: New version: [2.6.0] Old Version: [2.5.0]
+[2024-04-15 03:05:05] INFO root fetch - processPackages [corkit]: executing diffoscope
+[2024-04-15 03:05:05] INFO root fetch - processPackages [corkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corkit-1.0.5.tar.gz tmp/corkit-1.0.6.tar.gz --markdown 20240415/c/corkit/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-04-15 03:05:05] INFO root fetch - processPackages [mqt.qcec]: Downloading https://files.pythonhosted.org/packages/e6/6f/b1b9c67bf7f2bd29e8c9fe404051bb5a381198210f345831c70eae005892/mqt_qcec-2.5.0.tar.gz
+[2024-04-15 03:05:05] INFO root fetch - processPackages [difai]: Downloading https://files.pythonhosted.org/packages/f8/09/7d1db68c5c752de567fec30ef6c66715361c7a8ab440134667aaef9c87d1/difai-0.9.9.tar.gz
+[2024-04-15 03:05:05] INFO root fetch - processPackages [metasequoia-sql]: Downloading https://files.pythonhosted.org/packages/d4/86/c0d669ac9283e56b1850a47bb254211738a9607f198215097112c99bfe44/metasequoia-sql-0.3.0.tar.gz
+[2024-04-15 03:05:05] INFO root fetch - processPackages [difai]: executing diffoscope
+[2024-04-15 03:05:05] INFO root fetch - processPackages [difai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/difai-0.9.8.tar.gz tmp/difai-0.9.9.tar.gz --markdown 20240415/d/difai/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-15 03:05:05] INFO root fetch - processPackages [metasequoia-sql]: executing diffoscope
+[2024-04-15 03:05:05] INFO root fetch - processPackages [metasequoia-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metasequoia-sql-0.2.0.tar.gz tmp/metasequoia-sql-0.3.0.tar.gz --markdown 20240415/m/metasequoia-sql/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-04-15 03:05:05] INFO root fetch - processPackages [corkit]: Remove: archive file [/home/abi/fetcher/tmp/corkit-1.0.5.tar.gz]
+[2024-04-15 03:05:05] INFO root fetch - processPackages [corkit]: Remove: archive file [/home/abi/fetcher/tmp/corkit-1.0.6.tar.gz]
+[2024-04-15 03:05:05] INFO root fetch - main [MainThread]: End processing [corkit]: success
+[2024-04-15 03:05:05] INFO root fetch - processPackages [mqt.qcec]: Downloading https://files.pythonhosted.org/packages/1b/6f/fad16ad5a45ad4b80f7e79f215149ed98bdd328ea469b9570ce0aadd1560/mqt_qcec-2.6.0-cp38-cp38-manylinux_2_17_s390x.manylinux2014_s390x.whl
+[2024-04-15 03:05:06] INFO root fetch - processPackages [difai]: Remove: archive file [/home/abi/fetcher/tmp/difai-0.9.8.tar.gz]
+[2024-04-15 03:05:06] INFO root fetch - processPackages [difai]: Remove: archive file [/home/abi/fetcher/tmp/difai-0.9.9.tar.gz]
+[2024-04-15 03:05:06] INFO root fetch - main [MainThread]: End processing [difai]: success
+[2024-04-15 03:05:06] INFO root fetch - processPackages [mqt.qcec]: executing diffoscope
+[2024-04-15 03:05:06] INFO root fetch - processPackages [mqt.qcec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mqt_qcec-2.5.0.tar.gz tmp/mqt_qcec-2.6.0-cp38-cp38-manylinux_2_17_s390x.manylinux2014_s390x.whl.zip --markdown 20240415/m/mqt.qcec/2.5.0-2.6.0/README.md --exclude *.pyd
+[2024-04-15 03:05:06] INFO root fetch - processPackages [metasequoia-sql]: Remove: archive file [/home/abi/fetcher/tmp/metasequoia-sql-0.2.0.tar.gz]
+[2024-04-15 03:05:06] INFO root fetch - processPackages [metasequoia-sql]: Remove: archive file [/home/abi/fetcher/tmp/metasequoia-sql-0.3.0.tar.gz]
+[2024-04-15 03:05:06] INFO root fetch - main [MainThread]: End processing [metasequoia-sql]: success
+[2024-04-15 03:05:06] INFO root fetch - processPackages [mqt.qcec]: Remove: archive file [/home/abi/fetcher/tmp/mqt_qcec-2.5.0.tar.gz]
+[2024-04-15 03:05:06] INFO root fetch - processPackages [mqt.qcec]: Remove: archive file [/home/abi/fetcher/tmp/mqt_qcec-2.6.0-cp38-cp38-manylinux_2_17_s390x.manylinux2014_s390x.whl.zip]
+[2024-04-15 03:05:06] INFO root fetch - main [MainThread]: End processing [mqt.qcec]: success
+[2024-04-15 03:05:06] INFO root fetch - main [MainThread]: Store serial: [22764236]
