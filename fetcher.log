@@ -7856,3 +7856,33 @@
 [2024-04-15 07:40:58] INFO root fetch - processPackages [pillow-jxl-plugin]: Remove: archive file [/home/abi/fetcher/tmp/pillow_jxl_plugin-1.2.3.tar.gz]
 [2024-04-15 07:40:58] INFO root fetch - main [MainThread]: End processing [pillow-jxl-plugin]: success
 [2024-04-15 07:40:58] INFO root fetch - main [MainThread]: Store serial: [22766384]
+[2024-04-15 07:43:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22766384]
+[2024-04-15 07:43:06] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-15 07:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: uptick-datawarehouse
+[2024-04-15 07:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: emergingtrajectories
+[2024-04-15 07:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: awil-ft232h
+[2024-04-15 07:43:07] INFO root fetch - processPackages [awil-ft232h]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-15 07:43:07] INFO root fetch - processPackages [emergingtrajectories]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-15 07:43:07] INFO root fetch - processPackages [awil-ft232h]: Downloading https://files.pythonhosted.org/packages/a1/b3/4872b6c57927e44c5d9f4d39d5cb673b2e6d1a68d9c11e9ddb7f71f4d4cf/awil_ft232h-0.1.1.tar.gz
+[2024-04-15 07:43:07] INFO root fetch - processPackages [emergingtrajectories]: Downloading https://files.pythonhosted.org/packages/1f/3e/3229d6759c17920a1ecd3722791f03aed62c9a3f9ef850794188474c7fb5/emergingtrajectories-0.2.8.tar.gz
+[2024-04-15 07:43:07] INFO root fetch - processPackages [uptick-datawarehouse]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-15 07:43:07] INFO root fetch - processPackages [awil-ft232h]: Downloading https://files.pythonhosted.org/packages/a8/ba/480ecb13dbad4ced21dae62fd5cbfdb6c2a9708c1283a4fa125db4511987/awil_ft232h-0.1.2.tar.gz
+[2024-04-15 07:43:07] INFO root fetch - processPackages [emergingtrajectories]: Downloading https://files.pythonhosted.org/packages/44/2f/dc231c0377b6642a32797154e1fd951c910f0b0cd2dbf06a9b7ef5c3c3cc/emergingtrajectories-0.2.9.tar.gz
+[2024-04-15 07:43:07] INFO root fetch - processPackages [uptick-datawarehouse]: Downloading https://files.pythonhosted.org/packages/94/6f/2e6f989e3d65cf9c20879940b839ef1266addee1422690eda4600f9ec326/uptick_datawarehouse-0.2.8.tar.gz
+[2024-04-15 07:43:07] INFO root fetch - processPackages [awil-ft232h]: executing diffoscope
+[2024-04-15 07:43:07] INFO root fetch - processPackages [awil-ft232h]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awil_ft232h-0.1.1.tar.gz tmp/awil_ft232h-0.1.2.tar.gz --markdown 20240415/a/awil-ft232h/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-15 07:43:07] INFO root fetch - processPackages [emergingtrajectories]: executing diffoscope
+[2024-04-15 07:43:07] INFO root fetch - processPackages [emergingtrajectories]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emergingtrajectories-0.2.8.tar.gz tmp/emergingtrajectories-0.2.9.tar.gz --markdown 20240415/e/emergingtrajectories/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-15 07:43:07] INFO root fetch - processPackages [uptick-datawarehouse]: Downloading https://files.pythonhosted.org/packages/04/39/87b7b7a16e200d6866a84426eecb37fd51e30042b48f664e06a2c8b3ace8/uptick_datawarehouse-0.2.9.tar.gz
+[2024-04-15 07:43:07] INFO root fetch - processPackages [uptick-datawarehouse]: executing diffoscope
+[2024-04-15 07:43:07] INFO root fetch - processPackages [uptick-datawarehouse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uptick_datawarehouse-0.2.8.tar.gz tmp/uptick_datawarehouse-0.2.9.tar.gz --markdown 20240415/u/uptick-datawarehouse/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-15 07:43:08] INFO root fetch - processPackages [emergingtrajectories]: Remove: archive file [/home/abi/fetcher/tmp/emergingtrajectories-0.2.8.tar.gz]
+[2024-04-15 07:43:08] INFO root fetch - processPackages [emergingtrajectories]: Remove: archive file [/home/abi/fetcher/tmp/emergingtrajectories-0.2.9.tar.gz]
+[2024-04-15 07:43:08] INFO root fetch - main [MainThread]: End processing [emergingtrajectories]: success
+[2024-04-15 07:43:08] INFO root fetch - processPackages [awil-ft232h]: Remove: archive file [/home/abi/fetcher/tmp/awil_ft232h-0.1.1.tar.gz]
+[2024-04-15 07:43:08] INFO root fetch - processPackages [awil-ft232h]: Remove: archive file [/home/abi/fetcher/tmp/awil_ft232h-0.1.2.tar.gz]
+[2024-04-15 07:43:08] INFO root fetch - main [MainThread]: End processing [awil-ft232h]: success
+[2024-04-15 07:43:08] INFO root fetch - processPackages [uptick-datawarehouse]: Remove: archive file [/home/abi/fetcher/tmp/uptick_datawarehouse-0.2.8.tar.gz]
+[2024-04-15 07:43:08] INFO root fetch - processPackages [uptick-datawarehouse]: Remove: archive file [/home/abi/fetcher/tmp/uptick_datawarehouse-0.2.9.tar.gz]
+[2024-04-15 07:43:08] INFO root fetch - main [MainThread]: End processing [uptick-datawarehouse]: success
+[2024-04-15 07:43:08] INFO root fetch - main [MainThread]: Store serial: [22766395]
