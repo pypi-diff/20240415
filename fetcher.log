@@ -20678,3 +20678,108 @@ EOFError: EOF read where object expected
 [2024-04-15 15:46:34] INFO root fetch - processPackages [MindsDB]: Remove: archive file [/home/abi/fetcher/tmp/MindsDB-24.4.3.0.tar.gz]
 [2024-04-15 15:46:34] INFO root fetch - main [MainThread]: End processing [MindsDB]: success
 [2024-04-15 15:46:34] INFO root fetch - main [MainThread]: Store serial: [22771975]
+[2024-04-15 15:48:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22771975]
+[2024-04-15 15:48:43] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-15 15:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: khoj-assistant
+[2024-04-15 15:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sourceclass
+[2024-04-15 15:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hazard-map
+[2024-04-15 15:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wrapchain
+[2024-04-15 15:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kavasaki-maxondevelop
+[2024-04-15 15:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: setga
+[2024-04-15 15:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pldag
+[2024-04-15 15:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bpf4
+[2024-04-15 15:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sbcli-mig
+[2024-04-15 15:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: moodle-dl
+[2024-04-15 15:48:43] INFO root fetch - processPackages [sourceclass]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-15 15:48:43] INFO root fetch - processPackages [sbcli-mig]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-15 15:48:43] INFO root fetch - processPackages [setga]: New version: [1.3.4] Old Version: [1.3.2]
+[2024-04-15 15:48:43] INFO root fetch - processPackages [wrapchain]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-15 15:48:43] INFO root fetch - processPackages [pldag]: New version: [0.6.3] Old Version: [0.6.1]
+[2024-04-15 15:48:43] INFO root fetch - processPackages [khoj-assistant]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev74]
+[2024-04-15 15:48:43] INFO root fetch - processPackages [moodle-dl]: New version: [2.3.3] Old Version: [2.3.2.5]
+[2024-04-15 15:48:43] WARNING root fetch - processPackages [kavasaki-maxondevelop]: Skipping, unable to determine old version
+[2024-04-15 15:48:43] INFO root fetch - processPackages [kavasaki-maxondevelop]: Start processing: django-restit
+[2024-04-15 15:48:43] INFO root fetch - main [MainThread]: End processing [kavasaki-maxondevelop] error
+[2024-04-15 15:48:43] INFO root fetch - processPackages [bpf4]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-15 15:48:43] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/fc/89/bbf1c812c39a0f341fea130ae430c11fcdd5fdcc5ca61fbaed2682cc4df7/khoj_assistant-1.9.1.dev74.tar.gz
+[2024-04-15 15:48:43] INFO root fetch - processPackages [sourceclass]: Downloading https://files.pythonhosted.org/packages/db/ee/3fb5e65f3b420609be6889457fbaa6dbaa0270e1b5363e4f685f9a8ac4e9/sourceclass-0.1.4.tar.gz
+[2024-04-15 15:48:43] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/06/2f/2b2f1cfa7b91365cf5cd645c5967a8e8a8bd7f1c8e89f91d7e43e2aefc87/sbcli-mig-1.0.8.zip
+[2024-04-15 15:48:43] INFO root fetch - processPackages [setga]: Downloading https://files.pythonhosted.org/packages/c0/f7/c255ea5b6542fef7673912720a45ba1098255641045461247df9cefdecce/setga-1.3.2.tar.gz
+[2024-04-15 15:48:43] INFO root fetch - processPackages [pldag]: Downloading https://files.pythonhosted.org/packages/db/1a/a1be0ef5527bf9816d60a071ef5a3d8fabdf4d58f16d68a5538ca72f094b/pldag-0.6.1.tar.gz
+[2024-04-15 15:48:43] INFO root fetch - processPackages [hazard-map]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-15 15:48:43] INFO root fetch - processPackages [django-restit]: New version: [4.2.9] Old Version: [4.2.8]
+[2024-04-15 15:48:43] INFO root fetch - processPackages [moodle-dl]: Downloading https://files.pythonhosted.org/packages/9b/de/ba01dd34f5af8a8343defaa5b479dfb4e45fb3b8a6a0b1c895c2f7814a68/moodle-dl-2.3.2.5.tar.gz
+[2024-04-15 15:48:43] INFO root fetch - processPackages [wrapchain]: Downloading https://files.pythonhosted.org/packages/e7/5c/edad6bf328a494868a6ff8abd29d0e3d091ae98933a2cd8a39816304f40c/wrapchain-0.0.1.tar.gz
+[2024-04-15 15:48:43] INFO root fetch - processPackages [bpf4]: Downloading https://files.pythonhosted.org/packages/09/c5/6c8dca18684d1be3932ab25fb3015f7b79f36fb0b5a1836d338056622ae2/bpf4-1.9.0-cp39-cp39-win_amd64.whl
+[2024-04-15 15:48:43] INFO root fetch - processPackages [sourceclass]: Downloading https://files.pythonhosted.org/packages/40/1f/776f824c8f9d4ca2762de1bf6b6aabfa8330eec8bd77e5d117f44ac9fda4/sourceclass-0.1.5.tar.gz
+[2024-04-15 15:48:43] INFO root fetch - processPackages [pldag]: Downloading https://files.pythonhosted.org/packages/d6/41/e88913516fc274ad4a86f0f98e9f6e50ac246f8a0849a28f6b6e46093467/pldag-0.6.3.tar.gz
+[2024-04-15 15:48:43] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/4b/15/9c1afe915f08547ce582aeae079f597b2a173df003109bcd1d0f0bbf037e/sbcli-mig-1.0.9.zip
+[2024-04-15 15:48:43] INFO root fetch - processPackages [hazard-map]: Downloading https://files.pythonhosted.org/packages/0a/ae/81d0c3b49dc7e6d109bb4dd5f810083c6f154f2d92b0fc66284df634b2f7/hazard_map-0.1.0.tar.gz
+[2024-04-15 15:48:43] INFO root fetch - processPackages [django-restit]: Downloading https://files.pythonhosted.org/packages/c2/a7/9a624d19b03f5a2774d34ae27fa11ab51ecdc59b679adabd04219cc8b435/django_restit-4.2.8.tar.gz
+[2024-04-15 15:48:44] INFO root fetch - processPackages [moodle-dl]: Downloading https://files.pythonhosted.org/packages/31/c5/c53fd84e2e4e3d4aabb8728bd71c7cc3aba4bf5b26c40c7273396a67050c/moodle_dl-2.3.3.tar.gz
+[2024-04-15 15:48:44] INFO root fetch - processPackages [setga]: Downloading https://files.pythonhosted.org/packages/a5/3e/4b324b7ca0662aef4059dfd7e9b11572ec5d6c02d1da727ea097684b151c/setga-1.3.4.tar.gz
+[2024-04-15 15:48:44] INFO root fetch - processPackages [sourceclass]: executing diffoscope
+[2024-04-15 15:48:44] INFO root fetch - processPackages [sourceclass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sourceclass-0.1.4.tar.gz tmp/sourceclass-0.1.5.tar.gz --markdown 20240415/s/sourceclass/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-15 15:48:44] INFO root fetch - processPackages [pldag]: executing diffoscope
+[2024-04-15 15:48:44] INFO root fetch - processPackages [pldag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pldag-0.6.1.tar.gz tmp/pldag-0.6.3.tar.gz --markdown 20240415/p/pldag/0.6.1-0.6.3/README.md --exclude *.pyd
+[2024-04-15 15:48:44] INFO root fetch - processPackages [wrapchain]: Downloading https://files.pythonhosted.org/packages/55/48/7a9e8707d42245356d926710454ac7c899bf30271efbcb884908ebe901f5/wrapchain-0.0.2.tar.gz
+[2024-04-15 15:48:44] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/47/ae/446626ff585bb336b70b59402ea6a46bf52326a51b81fd9ead920cde4c8a/khoj_assistant-1.9.1.dev8.tar.gz
+[2024-04-15 15:48:44] INFO root fetch - processPackages [sbcli-mig]: executing diffoscope
+[2024-04-15 15:48:44] INFO root fetch - processPackages [sbcli-mig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli-mig-1.0.8.zip tmp/sbcli-mig-1.0.9.zip --markdown 20240415/s/sbcli-mig/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-15 15:48:44] INFO root fetch - processPackages [moodle-dl]: executing diffoscope
+[2024-04-15 15:48:44] INFO root fetch - processPackages [moodle-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moodle-dl-2.3.2.5.tar.gz tmp/moodle_dl-2.3.3.tar.gz --markdown 20240415/m/moodle-dl/2.3.2.5-2.3.3/README.md --exclude *.pyd
+[2024-04-15 15:48:44] INFO root fetch - processPackages [setga]: executing diffoscope
+[2024-04-15 15:48:44] INFO root fetch - processPackages [setga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/setga-1.3.2.tar.gz tmp/setga-1.3.4.tar.gz --markdown 20240415/s/setga/1.3.2-1.3.4/README.md --exclude *.pyd
+[2024-04-15 15:48:44] INFO root fetch - processPackages [hazard-map]: Downloading https://files.pythonhosted.org/packages/40/e1/9ff5136c414b90fd893b8ab0d159a2cc07acd2b4d23cbf4ece71fbbec92f/hazard_map-0.1.1.tar.gz
+[2024-04-15 15:48:44] INFO root fetch - processPackages [wrapchain]: executing diffoscope
+[2024-04-15 15:48:44] INFO root fetch - processPackages [wrapchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wrapchain-0.0.1.tar.gz tmp/wrapchain-0.0.2.tar.gz --markdown 20240415/w/wrapchain/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-15 15:48:44] INFO root fetch - processPackages [bpf4]: Downloading https://files.pythonhosted.org/packages/a5/55/639cc932f0b72fb88f1d220d056795efdf08aa72c910ee06df0832ae1f19/bpf4-1.9.1-cp39-cp39-win_amd64.whl
+[2024-04-15 15:48:44] INFO root fetch - processPackages [django-restit]: Downloading https://files.pythonhosted.org/packages/04/6a/4a0798142c60a6490ec67b5805d087bb35d3e9fc4b5da82c2af6c231a3d8/django_restit-4.2.9.tar.gz
+[2024-04-15 15:48:44] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-04-15 15:48:44] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.9.1.dev74.tar.gz tmp/khoj_assistant-1.9.1.dev8.tar.gz --markdown 20240415/k/khoj-assistant/1.9.1.dev74-1.9.1.dev8/README.md --exclude *.pyd
+[2024-04-15 15:48:44] INFO root fetch - processPackages [bpf4]: executing diffoscope
+[2024-04-15 15:48:44] INFO root fetch - processPackages [bpf4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpf4-1.9.0-cp39-cp39-win_amd64.whl.zip tmp/bpf4-1.9.1-cp39-cp39-win_amd64.whl.zip --markdown 20240415/b/bpf4/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-15 15:48:44] INFO root fetch - processPackages [hazard-map]: executing diffoscope
+[2024-04-15 15:48:44] INFO root fetch - processPackages [hazard-map]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hazard_map-0.1.0.tar.gz tmp/hazard_map-0.1.1.tar.gz --markdown 20240415/h/hazard-map/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-15 15:48:44] INFO root fetch - processPackages [django-restit]: executing diffoscope
+[2024-04-15 15:48:44] INFO root fetch - processPackages [django-restit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_restit-4.2.8.tar.gz tmp/django_restit-4.2.9.tar.gz --markdown 20240415/d/django-restit/4.2.8-4.2.9/README.md --exclude *.pyd
+[2024-04-15 15:48:44] INFO root fetch - processPackages [sourceclass]: Remove: archive file [/home/abi/fetcher/tmp/sourceclass-0.1.4.tar.gz]
+[2024-04-15 15:48:44] INFO root fetch - processPackages [sourceclass]: Remove: archive file [/home/abi/fetcher/tmp/sourceclass-0.1.5.tar.gz]
+[2024-04-15 15:48:44] INFO root fetch - processPackages [sourceclass]: Start processing: anylearn
+[2024-04-15 15:48:44] INFO root fetch - main [MainThread]: End processing [sourceclass]: success
+[2024-04-15 15:48:45] INFO root fetch - processPackages [pldag]: Remove: archive file [/home/abi/fetcher/tmp/pldag-0.6.1.tar.gz]
+[2024-04-15 15:48:45] INFO root fetch - processPackages [pldag]: Remove: archive file [/home/abi/fetcher/tmp/pldag-0.6.3.tar.gz]
+[2024-04-15 15:48:45] INFO root fetch - main [MainThread]: End processing [pldag]: success
+[2024-04-15 15:48:45] INFO root fetch - processPackages [anylearn]: New version: [0.20.2rc1] Old Version: [0.20.1rc1]
+[2024-04-15 15:48:45] INFO root fetch - processPackages [setga]: Remove: archive file [/home/abi/fetcher/tmp/setga-1.3.2.tar.gz]
+[2024-04-15 15:48:45] INFO root fetch - processPackages [setga]: Remove: archive file [/home/abi/fetcher/tmp/setga-1.3.4.tar.gz]
+[2024-04-15 15:48:45] INFO root fetch - main [MainThread]: End processing [setga]: success
+[2024-04-15 15:48:45] INFO root fetch - processPackages [wrapchain]: Remove: archive file [/home/abi/fetcher/tmp/wrapchain-0.0.1.tar.gz]
+[2024-04-15 15:48:45] INFO root fetch - processPackages [wrapchain]: Remove: archive file [/home/abi/fetcher/tmp/wrapchain-0.0.2.tar.gz]
+[2024-04-15 15:48:45] INFO root fetch - main [MainThread]: End processing [wrapchain]: success
+[2024-04-15 15:48:45] INFO root fetch - processPackages [anylearn]: Downloading https://files.pythonhosted.org/packages/9e/8a/d7c16ca63a2e43d978cfe9562f3e42b90ba141a1f3920cff474c16431fbd/anylearn-0.20.1rc1.tar.gz
+[2024-04-15 15:48:45] INFO root fetch - processPackages [bpf4]: Remove: archive file [/home/abi/fetcher/tmp/bpf4-1.9.0-cp39-cp39-win_amd64.whl.zip]
+[2024-04-15 15:48:45] INFO root fetch - processPackages [bpf4]: Remove: archive file [/home/abi/fetcher/tmp/bpf4-1.9.1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-15 15:48:45] INFO root fetch - main [MainThread]: End processing [bpf4]: success
+[2024-04-15 15:48:45] INFO root fetch - processPackages [moodle-dl]: Remove: archive file [/home/abi/fetcher/tmp/moodle-dl-2.3.2.5.tar.gz]
+[2024-04-15 15:48:45] INFO root fetch - processPackages [hazard-map]: Remove: archive file [/home/abi/fetcher/tmp/hazard_map-0.1.0.tar.gz]
+[2024-04-15 15:48:45] INFO root fetch - processPackages [moodle-dl]: Remove: archive file [/home/abi/fetcher/tmp/moodle_dl-2.3.3.tar.gz]
+[2024-04-15 15:48:45] INFO root fetch - processPackages [hazard-map]: Remove: archive file [/home/abi/fetcher/tmp/hazard_map-0.1.1.tar.gz]
+[2024-04-15 15:48:45] INFO root fetch - main [MainThread]: End processing [moodle-dl]: success
+[2024-04-15 15:48:45] INFO root fetch - main [MainThread]: End processing [hazard-map]: success
+[2024-04-15 15:48:45] INFO root fetch - processPackages [anylearn]: Downloading https://files.pythonhosted.org/packages/3e/52/984d6bada77751b470871843f5ac3f60b9c8a4fda8312040a9a03e3ca36b/anylearn-0.20.2rc1.tar.gz
+[2024-04-15 15:48:45] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-mig-1.0.8.zip]
+[2024-04-15 15:48:45] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-mig-1.0.9.zip]
+[2024-04-15 15:48:45] INFO root fetch - main [MainThread]: End processing [sbcli-mig]: success
+[2024-04-15 15:48:45] INFO root fetch - processPackages [anylearn]: executing diffoscope
+[2024-04-15 15:48:45] INFO root fetch - processPackages [anylearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anylearn-0.20.1rc1.tar.gz tmp/anylearn-0.20.2rc1.tar.gz --markdown 20240415/a/anylearn/0.20.1rc1-0.20.2rc1/README.md --exclude *.pyd
+[2024-04-15 15:48:46] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev74.tar.gz]
+[2024-04-15 15:48:46] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
+[2024-04-15 15:48:46] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-04-15 15:48:46] INFO root fetch - processPackages [anylearn]: Remove: archive file [/home/abi/fetcher/tmp/anylearn-0.20.1rc1.tar.gz]
+[2024-04-15 15:48:46] INFO root fetch - processPackages [anylearn]: Remove: archive file [/home/abi/fetcher/tmp/anylearn-0.20.2rc1.tar.gz]
+[2024-04-15 15:48:46] INFO root fetch - main [MainThread]: End processing [anylearn]: success
+[2024-04-15 15:48:46] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.2.8.tar.gz]
+[2024-04-15 15:48:46] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.2.9.tar.gz]
+[2024-04-15 15:48:46] INFO root fetch - main [MainThread]: End processing [django-restit]: success
+[2024-04-15 15:48:46] INFO root fetch - main [MainThread]: Store serial: [22772014]
