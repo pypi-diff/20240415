@@ -8725,3 +8725,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 08:29:23] INFO root fetch - processPackages [bttc]: Remove: archive file [/home/abi/fetcher/tmp/bttc-0.0.74.tar.gz]
 [2024-04-15 08:29:23] INFO root fetch - main [MainThread]: End processing [bttc]: success
 [2024-04-15 08:29:23] INFO root fetch - main [MainThread]: Store serial: [22766735]
+[2024-04-15 08:31:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22766735]
+[2024-04-15 08:31:31] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-15 08:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sembansurga
+[2024-04-15 08:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autopipeline
+[2024-04-15 08:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bestnlp
+[2024-04-15 08:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dapla-toolbelt-pseudo
+[2024-04-15 08:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: swarmauri
+[2024-04-15 08:31:32] INFO root fetch - processPackages [bestnlp]: New version: [1.0.9] Old Version: [1.0.10]
+[2024-04-15 08:31:32] INFO root fetch - processPackages [sembansurga]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-04-15 08:31:32] INFO root fetch - processPackages [bestnlp]: Downloading https://files.pythonhosted.org/packages/38/a1/fc3908a9e706e311262a58dc3b62a9906115ace1aad2b3314cf86ae6bee6/bestnlp-1.0.10-py3-none-any.whl
+[2024-04-15 08:31:32] INFO root fetch - processPackages [swarmauri]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-15 08:31:32] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: New version: [1.8.5] Old Version: [1.8.4]
+[2024-04-15 08:31:32] INFO root fetch - processPackages [autopipeline]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-15 08:31:32] INFO root fetch - processPackages [sembansurga]: Downloading https://files.pythonhosted.org/packages/44/e0/2605c8e752fe266195e7a57af99a6cdf89dc932f59cc38021bbb4a438262/sembansurga-1.0.7.tar.gz
+[2024-04-15 08:31:32] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/6f/f9/130aeeef865461afb5cc003721ceb7c3ebcd9ef2fe49fd812b8532fb5035/swarmauri-0.1.8.tar.gz
+[2024-04-15 08:31:32] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: Downloading https://files.pythonhosted.org/packages/0e/e7/16d035b6eb5adf7a0ad4d961b0416aaefc6fa3081b36def5b4ab2221da65/dapla_toolbelt_pseudo-1.8.4.tar.gz
+[2024-04-15 08:31:32] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/0f/9eaf209b6d540115afdc9ae31de828df0234756277bceae49a4d1a0ea8b3/autopipeline-0.1.98.tar.gz
+[2024-04-15 08:31:32] INFO root fetch - processPackages [sembansurga]: Downloading https://files.pythonhosted.org/packages/50/48/5241665ff4f2bc94e64cd5d3ee71c6a28cc315637f706f6a9b7a6d6a4330/sembansurga-1.0.8.tar.gz
+[2024-04-15 08:31:32] INFO root fetch - processPackages [bestnlp]: Downloading https://files.pythonhosted.org/packages/ef/e6/30f27d39bcb93de978ae18ba43e3e8dcbae798ac14077d4ae4d03ec12083/bestnlp-1.0.9-py3-none-any.whl
+[2024-04-15 08:31:32] INFO root fetch - processPackages [sembansurga]: executing diffoscope
+[2024-04-15 08:31:32] INFO root fetch - processPackages [sembansurga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sembansurga-1.0.7.tar.gz tmp/sembansurga-1.0.8.tar.gz --markdown 20240415/s/sembansurga/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-04-15 08:31:32] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: Downloading https://files.pythonhosted.org/packages/37/b0/8bce3152d2383570cf9d3ebc13948685c2b727443d3ec44603e00a2b3a48/dapla_toolbelt_pseudo-1.8.5.tar.gz
+[2024-04-15 08:31:32] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/c7/70/0b55d158ba42355a67cda5d200e3d5817bac0a8e9ce2da2bf294eb6b03ec/swarmauri-0.1.9.tar.gz
+[2024-04-15 08:31:32] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/4a/f3df97d414e0a5e9120459fd5c7ab663092d540df59f7deacc45810deb41/autopipeline-0.1.99.tar.gz
+[2024-04-15 08:31:32] INFO root fetch - processPackages [bestnlp]: executing diffoscope
+[2024-04-15 08:31:32] INFO root fetch - processPackages [bestnlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bestnlp-1.0.10-py3-none-any.whl.zip tmp/bestnlp-1.0.9-py3-none-any.whl.zip --markdown 20240415/b/bestnlp/1.0.10-1.0.9/README.md --exclude *.pyd
+[2024-04-15 08:31:33] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-04-15 08:31:33] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.8.tar.gz tmp/swarmauri-0.1.9.tar.gz --markdown 20240415/s/swarmauri/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-15 08:31:33] INFO root fetch - processPackages [autopipeline]: executing diffoscope
+[2024-04-15 08:31:33] INFO root fetch - processPackages [autopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopipeline-0.1.98.tar.gz tmp/autopipeline-0.1.99.tar.gz --markdown 20240415/a/autopipeline/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-15 08:31:33] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: executing diffoscope
+[2024-04-15 08:31:33] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapla_toolbelt_pseudo-1.8.4.tar.gz tmp/dapla_toolbelt_pseudo-1.8.5.tar.gz --markdown 20240415/d/dapla-toolbelt-pseudo/1.8.4-1.8.5/README.md --exclude *.pyd
+[2024-04-15 08:31:33] INFO root fetch - processPackages [sembansurga]: Remove: archive file [/home/abi/fetcher/tmp/sembansurga-1.0.7.tar.gz]
+[2024-04-15 08:31:33] INFO root fetch - processPackages [sembansurga]: Remove: archive file [/home/abi/fetcher/tmp/sembansurga-1.0.8.tar.gz]
+[2024-04-15 08:31:33] INFO root fetch - main [MainThread]: End processing [sembansurga]: success
+[2024-04-15 08:31:33] INFO root fetch - processPackages [bestnlp]: Remove: archive file [/home/abi/fetcher/tmp/bestnlp-1.0.10-py3-none-any.whl.zip]
+[2024-04-15 08:31:33] INFO root fetch - processPackages [bestnlp]: Remove: archive file [/home/abi/fetcher/tmp/bestnlp-1.0.9-py3-none-any.whl.zip]
+[2024-04-15 08:31:33] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.98.tar.gz]
+[2024-04-15 08:31:33] INFO root fetch - main [MainThread]: End processing [bestnlp]: success
+[2024-04-15 08:31:33] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.99.tar.gz]
+[2024-04-15 08:31:34] INFO root fetch - main [MainThread]: End processing [autopipeline]: success
+[2024-04-15 08:31:34] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: Remove: archive file [/home/abi/fetcher/tmp/dapla_toolbelt_pseudo-1.8.4.tar.gz]
+[2024-04-15 08:31:34] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: Remove: archive file [/home/abi/fetcher/tmp/dapla_toolbelt_pseudo-1.8.5.tar.gz]
+[2024-04-15 08:31:34] INFO root fetch - main [MainThread]: End processing [dapla-toolbelt-pseudo]: success
+[2024-04-15 08:31:34] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.8.tar.gz]
+[2024-04-15 08:31:34] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.9.tar.gz]
+[2024-04-15 08:31:34] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-04-15 08:31:34] INFO root fetch - main [MainThread]: Store serial: [22766749]
