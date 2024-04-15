@@ -22745,3 +22745,123 @@ AssertionError: tmp/pyblindrl-0.0.2rc57.post1.tar.gz does not exist
 [2024-04-15 16:38:09] INFO root fetch - processPackages [chainlit]: Remove: archive file [/home/abi/fetcher/tmp/chainlit-1.0.503.tar.gz]
 [2024-04-15 16:38:09] INFO root fetch - main [MainThread]: End processing [chainlit]: success
 [2024-04-15 16:38:09] INFO root fetch - main [MainThread]: Store serial: [22772808]
+[2024-04-15 16:40:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22772808]
+[2024-04-15 16:40:19] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-04-15 16:40:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: baseapp-core
+[2024-04-15 16:40:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: danila-lib
+[2024-04-15 16:40:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wikipedia-zh
+[2024-04-15 16:40:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hnt-nf-jira-library
+[2024-04-15 16:40:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: coveo-stew
+[2024-04-15 16:40:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: somnetics-seamless-utils
+[2024-04-15 16:40:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dagshub
+[2024-04-15 16:40:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: telegram-collector
+[2024-04-15 16:40:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: trapga
+[2024-04-15 16:40:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: piwiPre
+[2024-04-15 16:40:19] INFO root fetch - processPackages [hnt-nf-jira-library]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-15 16:40:19] WARNING root fetch - processPackages [danila-lib]: Skipping, unable to determine old version
+[2024-04-15 16:40:19] INFO root fetch - processPackages [danila-lib]: Start processing: viewser
+[2024-04-15 16:40:19] INFO root fetch - main [MainThread]: End processing [danila-lib] error
+[2024-04-15 16:40:19] INFO root fetch - processPackages [telegram-collector]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-15 16:40:19] INFO root fetch - processPackages [piwiPre]: New version: [0.8.5] Old Version: [0.8.4]
+[2024-04-15 16:40:19] INFO root fetch - processPackages [baseapp-core]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-15 16:40:19] INFO root fetch - processPackages [somnetics-seamless-utils]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-15 16:40:19] WARNING root fetch - processPackages [wikipedia-zh]: Skipping, unable to determine old version
+[2024-04-15 16:40:19] INFO root fetch - processPackages [wikipedia-zh]: Start processing: odoo-addon-sale-stock-restocking-fee-invoicing
+[2024-04-15 16:40:19] INFO root fetch - main [MainThread]: End processing [wikipedia-zh] error
+[2024-04-15 16:40:19] INFO root fetch - processPackages [coveo-stew]: New version: [3.0a5] Old Version: [3.0a4]
+[2024-04-15 16:40:19] INFO root fetch - processPackages [dagshub]: New version: [0.3.9] Old Version: [0.3.8.post2]
+[2024-04-15 16:40:19] INFO root fetch - processPackages [trapga]: New version: [1.0.1] Old Version: [0.3]
+[2024-04-15 16:40:19] INFO root fetch - processPackages [hnt-nf-jira-library]: Downloading https://files.pythonhosted.org/packages/b2/73/36118c7822a2e008eebc607bcf5138a3ebb306555a263663970461b64b78/hnt_nf_jira_library-0.3.2.tar.gz
+[2024-04-15 16:40:19] INFO root fetch - processPackages [telegram-collector]: Downloading https://files.pythonhosted.org/packages/26/79/c4c890517d308b5d636c920eba6837683bd2b6ccc8a3198e85972fe68399/telegram_collector-0.2.8.tar.gz
+[2024-04-15 16:40:19] INFO root fetch - processPackages [piwiPre]: Downloading https://files.pythonhosted.org/packages/ad/fc/9cf4c3c37cd2895067bd93495f09c783b2a9d4650f43ea0506b7b50e1f67/piwiPre-0.8.4.tar.gz
+[2024-04-15 16:40:19] INFO root fetch - processPackages [viewser]: New version: [6.3.1] Old Version: [6.3.0]
+[2024-04-15 16:40:19] WARNING root fetch - processPackages [odoo-addon-sale-stock-restocking-fee-invoicing]: Skipping, unable to determine old version
+[2024-04-15 16:40:19] INFO root fetch - processPackages [odoo-addon-sale-stock-restocking-fee-invoicing]: Start processing: fundamentals
+[2024-04-15 16:40:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-stock-restocking-fee-invoicing] error
+[2024-04-15 16:40:19] INFO root fetch - processPackages [somnetics-seamless-utils]: Downloading https://files.pythonhosted.org/packages/71/4c/f7987f01131777f28da7ec30dad8c3c0ed7875390ceae939e31636bc2b47/somnetics_seamless_utils-0.0.2.tar.gz
+[2024-04-15 16:40:19] INFO root fetch - processPackages [baseapp-core]: Downloading https://files.pythonhosted.org/packages/76/fc/4b3ce3effc0841a6cd51e3eae3a7c45dd1c7e6a1470cd8870a9b221472bb/baseapp-core-0.2.8.tar.gz
+[2024-04-15 16:40:20] INFO root fetch - processPackages [coveo-stew]: Downloading https://files.pythonhosted.org/packages/61/a4/fd829a40f8fe73f020fad0279fcc3f7dd987fde13462d2b273ca540a9c31/coveo-stew-3.0a4.tar.gz
+[2024-04-15 16:40:20] INFO root fetch - processPackages [fundamentals]: New version: [2.6.4] Old Version: [2.6.3]
+[2024-04-15 16:40:20] INFO root fetch - processPackages [trapga]: Downloading https://files.pythonhosted.org/packages/34/e2/b5512b8de7104636a1c696572385ff42dcb7357057ff83d0315f1e014dd9/trapga-0.3.tar.gz
+[2024-04-15 16:40:20] INFO root fetch - processPackages [dagshub]: Downloading https://files.pythonhosted.org/packages/48/89/8bb3a84ebd082889ed2dc85597e8954fec711589e17f0891e344b6e627a9/dagshub-0.3.8.post2.tar.gz
+[2024-04-15 16:40:20] INFO root fetch - processPackages [hnt-nf-jira-library]: Downloading https://files.pythonhosted.org/packages/d9/65/c3b816f85fbf40f1466581b3c6abead507e8444c388d84d96277fc40643e/hnt_nf_jira_library-0.3.3.tar.gz
+[2024-04-15 16:40:20] INFO root fetch - processPackages [telegram-collector]: Downloading https://files.pythonhosted.org/packages/0e/62/1828912e5e192f4be063b427eb3b26519d05a73fa112d81b9d661d767a26/telegram_collector-0.2.9.tar.gz
+[2024-04-15 16:40:20] INFO root fetch - processPackages [viewser]: Downloading https://files.pythonhosted.org/packages/3e/9b/ade75e0b0806669f7e3884231b3947f1cc22b2e734d47614c3aa7d68b52b/viewser-6.3.0.tar.gz
+[2024-04-15 16:40:20] INFO root fetch - processPackages [piwiPre]: Downloading https://files.pythonhosted.org/packages/e7/59/c5cfd3133f61e11e92c5834c1ac8dde4bd134a5d7fb13d632d1efa6ef294/piwiPre-0.8.5.tar.gz
+[2024-04-15 16:40:20] INFO root fetch - processPackages [baseapp-core]: Downloading https://files.pythonhosted.org/packages/19/94/ef32a737b7d47e6d25a273c5146405b192bb70ef0c51f44aa9490ba17d4f/baseapp-core-0.2.9.tar.gz
+[2024-04-15 16:40:20] INFO root fetch - processPackages [somnetics-seamless-utils]: Downloading https://files.pythonhosted.org/packages/0d/4c/8ead60cf5c12cfbbdf68f207995b98827bb5dd0b3ec69b379e3bd51e0f44/somnetics_seamless_utils-0.0.3.tar.gz
+[2024-04-15 16:40:20] INFO root fetch - processPackages [hnt-nf-jira-library]: executing diffoscope
+[2024-04-15 16:40:20] INFO root fetch - processPackages [hnt-nf-jira-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hnt_nf_jira_library-0.3.2.tar.gz tmp/hnt_nf_jira_library-0.3.3.tar.gz --markdown 20240415/h/hnt-nf-jira-library/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-04-15 16:40:20] INFO root fetch - processPackages [fundamentals]: Downloading https://files.pythonhosted.org/packages/b1/6c/ae62c468b9f501b85a0fc510feae06a1b8f112bbd93a22375b4d295184be/fundamentals-2.6.3.tar.gz
+[2024-04-15 16:40:20] INFO root fetch - processPackages [telegram-collector]: executing diffoscope
+[2024-04-15 16:40:20] INFO root fetch - processPackages [telegram-collector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegram_collector-0.2.8.tar.gz tmp/telegram_collector-0.2.9.tar.gz --markdown 20240415/t/telegram-collector/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-15 16:40:20] INFO root fetch - processPackages [piwiPre]: executing diffoscope
+[2024-04-15 16:40:20] INFO root fetch - processPackages [piwiPre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piwiPre-0.8.4.tar.gz tmp/piwiPre-0.8.5.tar.gz --markdown 20240415/p/piwiPre/0.8.4-0.8.5/README.md --exclude *.pyd
+[2024-04-15 16:40:20] INFO root fetch - processPackages [coveo-stew]: Downloading https://files.pythonhosted.org/packages/06/a0/86ca7ebc5d9dc96d7266e0b12e22162d63a712315d1cfc1b45e291b0282a/coveo-stew-3.0a5.tar.gz
+[2024-04-15 16:40:20] INFO root fetch - processPackages [baseapp-core]: executing diffoscope
+[2024-04-15 16:40:20] INFO root fetch - processPackages [baseapp-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baseapp-core-0.2.8.tar.gz tmp/baseapp-core-0.2.9.tar.gz --markdown 20240415/b/baseapp-core/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-15 16:40:20] INFO root fetch - processPackages [somnetics-seamless-utils]: executing diffoscope
+[2024-04-15 16:40:20] INFO root fetch - processPackages [somnetics-seamless-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/somnetics_seamless_utils-0.0.2.tar.gz tmp/somnetics_seamless_utils-0.0.3.tar.gz --markdown 20240415/s/somnetics-seamless-utils/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-15 16:40:20] INFO root fetch - processPackages [trapga]: Downloading https://files.pythonhosted.org/packages/c7/77/731f08b6b16cbf484ee45273e24f01b9f67a73e3bd98a524599ac49b753b/trapga-1.0.1.tar.gz
+[2024-04-15 16:40:20] INFO root fetch - processPackages [coveo-stew]: executing diffoscope
+[2024-04-15 16:40:20] INFO root fetch - processPackages [coveo-stew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coveo-stew-3.0a4.tar.gz tmp/coveo-stew-3.0a5.tar.gz --markdown 20240415/c/coveo-stew/3.0a4-3.0a5/README.md --exclude *.pyd
+[2024-04-15 16:40:20] INFO root fetch - processPackages [dagshub]: Downloading https://files.pythonhosted.org/packages/b6/58/bed17e869dd65b7d76ece8837800b97096849fcccf69372b6647a4f4ccd9/dagshub-0.3.9.tar.gz
+[2024-04-15 16:40:20] INFO root fetch - processPackages [viewser]: Downloading https://files.pythonhosted.org/packages/52/de/59f693e2471f2dae1ea07731d659ff564fd5a5ac70578544ced6c57e0ed2/viewser-6.3.1.tar.gz
+[2024-04-15 16:40:20] INFO root fetch - processPackages [trapga]: executing diffoscope
+[2024-04-15 16:40:20] INFO root fetch - processPackages [trapga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trapga-0.3.tar.gz tmp/trapga-1.0.1.tar.gz --markdown 20240415/t/trapga/0.3-1.0.1/README.md --exclude *.pyd
+[2024-04-15 16:40:20] INFO root fetch - processPackages [dagshub]: executing diffoscope
+[2024-04-15 16:40:20] INFO root fetch - processPackages [dagshub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagshub-0.3.8.post2.tar.gz tmp/dagshub-0.3.9.tar.gz --markdown 20240415/d/dagshub/0.3.8.post2-0.3.9/README.md --exclude *.pyd
+[2024-04-15 16:40:20] INFO root fetch - processPackages [fundamentals]: Downloading https://files.pythonhosted.org/packages/60/76/5b927acd2cd11dc8e57412d5cae9c9e4ea45cee45d7531b3a44d903ccccb/fundamentals-2.6.4.tar.gz
+[2024-04-15 16:40:20] INFO root fetch - processPackages [viewser]: executing diffoscope
+[2024-04-15 16:40:20] INFO root fetch - processPackages [viewser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viewser-6.3.0.tar.gz tmp/viewser-6.3.1.tar.gz --markdown 20240415/v/viewser/6.3.0-6.3.1/README.md --exclude *.pyd
+[2024-04-15 16:40:21] INFO root fetch - processPackages [fundamentals]: executing diffoscope
+[2024-04-15 16:40:21] INFO root fetch - processPackages [fundamentals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fundamentals-2.6.3.tar.gz tmp/fundamentals-2.6.4.tar.gz --markdown 20240415/f/fundamentals/2.6.3-2.6.4/README.md --exclude *.pyd
+[2024-04-15 16:40:21] INFO root fetch - processPackages [telegram-collector]: Remove: archive file [/home/abi/fetcher/tmp/telegram_collector-0.2.8.tar.gz]
+[2024-04-15 16:40:21] INFO root fetch - processPackages [telegram-collector]: Remove: archive file [/home/abi/fetcher/tmp/telegram_collector-0.2.9.tar.gz]
+[2024-04-15 16:40:21] INFO root fetch - processPackages [telegram-collector]: Start processing: splat64
+[2024-04-15 16:40:21] INFO root fetch - main [MainThread]: End processing [telegram-collector]: success
+[2024-04-15 16:40:21] INFO root fetch - processPackages [hnt-nf-jira-library]: Remove: archive file [/home/abi/fetcher/tmp/hnt_nf_jira_library-0.3.2.tar.gz]
+[2024-04-15 16:40:21] INFO root fetch - processPackages [hnt-nf-jira-library]: Remove: archive file [/home/abi/fetcher/tmp/hnt_nf_jira_library-0.3.3.tar.gz]
+[2024-04-15 16:40:21] INFO root fetch - processPackages [hnt-nf-jira-library]: Start processing: forecastmanager
+[2024-04-15 16:40:21] INFO root fetch - main [MainThread]: End processing [hnt-nf-jira-library]: success
+[2024-04-15 16:40:21] INFO root fetch - processPackages [splat64]: New version: [0.23.2] Old Version: [0.23.1]
+[2024-04-15 16:40:21] INFO root fetch - processPackages [somnetics-seamless-utils]: Remove: archive file [/home/abi/fetcher/tmp/somnetics_seamless_utils-0.0.2.tar.gz]
+[2024-04-15 16:40:21] INFO root fetch - processPackages [somnetics-seamless-utils]: Remove: archive file [/home/abi/fetcher/tmp/somnetics_seamless_utils-0.0.3.tar.gz]
+[2024-04-15 16:40:21] INFO root fetch - processPackages [forecastmanager]: New version: [0.4.8] Old Version: [0.4.7]
+[2024-04-15 16:40:21] INFO root fetch - main [MainThread]: End processing [somnetics-seamless-utils]: success
+[2024-04-15 16:40:21] INFO root fetch - processPackages [piwiPre]: Remove: archive file [/home/abi/fetcher/tmp/piwiPre-0.8.4.tar.gz]
+[2024-04-15 16:40:21] INFO root fetch - processPackages [piwiPre]: Remove: archive file [/home/abi/fetcher/tmp/piwiPre-0.8.5.tar.gz]
+[2024-04-15 16:40:21] INFO root fetch - main [MainThread]: End processing [piwiPre]: success
+[2024-04-15 16:40:21] INFO root fetch - processPackages [splat64]: Downloading https://files.pythonhosted.org/packages/a8/c1/7b8855908fec93c185ab1cd37cae696da87f0aabe2ec3e148aea624bc2fe/splat64-0.23.1.tar.gz
+[2024-04-15 16:40:21] INFO root fetch - processPackages [trapga]: Remove: archive file [/home/abi/fetcher/tmp/trapga-0.3.tar.gz]
+[2024-04-15 16:40:21] INFO root fetch - processPackages [trapga]: Remove: archive file [/home/abi/fetcher/tmp/trapga-1.0.1.tar.gz]
+[2024-04-15 16:40:21] INFO root fetch - main [MainThread]: End processing [trapga]: success
+[2024-04-15 16:40:21] INFO root fetch - processPackages [baseapp-core]: Remove: archive file [/home/abi/fetcher/tmp/baseapp-core-0.2.8.tar.gz]
+[2024-04-15 16:40:21] INFO root fetch - processPackages [baseapp-core]: Remove: archive file [/home/abi/fetcher/tmp/baseapp-core-0.2.9.tar.gz]
+[2024-04-15 16:40:21] INFO root fetch - main [MainThread]: End processing [baseapp-core]: success
+[2024-04-15 16:40:21] INFO root fetch - processPackages [forecastmanager]: Downloading https://files.pythonhosted.org/packages/74/47/b8c64b1cebf8545cd2bcfcbe220f705c1f4c72f50e2610dccfa56fb90dda/forecastmanager-0.4.7.tar.gz
+[2024-04-15 16:40:21] INFO root fetch - processPackages [coveo-stew]: Remove: archive file [/home/abi/fetcher/tmp/coveo-stew-3.0a4.tar.gz]
+[2024-04-15 16:40:21] INFO root fetch - processPackages [coveo-stew]: Remove: archive file [/home/abi/fetcher/tmp/coveo-stew-3.0a5.tar.gz]
+[2024-04-15 16:40:21] INFO root fetch - main [MainThread]: End processing [coveo-stew]: success
+[2024-04-15 16:40:21] INFO root fetch - processPackages [viewser]: Remove: archive file [/home/abi/fetcher/tmp/viewser-6.3.0.tar.gz]
+[2024-04-15 16:40:21] INFO root fetch - processPackages [viewser]: Remove: archive file [/home/abi/fetcher/tmp/viewser-6.3.1.tar.gz]
+[2024-04-15 16:40:21] INFO root fetch - main [MainThread]: End processing [viewser]: success
+[2024-04-15 16:40:21] INFO root fetch - processPackages [dagshub]: Remove: archive file [/home/abi/fetcher/tmp/dagshub-0.3.8.post2.tar.gz]
+[2024-04-15 16:40:21] INFO root fetch - processPackages [dagshub]: Remove: archive file [/home/abi/fetcher/tmp/dagshub-0.3.9.tar.gz]
+[2024-04-15 16:40:21] INFO root fetch - main [MainThread]: End processing [dagshub]: success
+[2024-04-15 16:40:21] INFO root fetch - processPackages [splat64]: Downloading https://files.pythonhosted.org/packages/7e/99/acaf8ddec7f0d68ff36245b0eac723cb0cdf0561aa30f597d88230830638/splat64-0.23.2.tar.gz
+[2024-04-15 16:40:22] INFO root fetch - processPackages [fundamentals]: Remove: archive file [/home/abi/fetcher/tmp/fundamentals-2.6.3.tar.gz]
+[2024-04-15 16:40:22] INFO root fetch - processPackages [fundamentals]: Remove: archive file [/home/abi/fetcher/tmp/fundamentals-2.6.4.tar.gz]
+[2024-04-15 16:40:22] INFO root fetch - main [MainThread]: End processing [fundamentals]: success
+[2024-04-15 16:40:22] INFO root fetch - processPackages [forecastmanager]: Downloading https://files.pythonhosted.org/packages/d7/5e/4b03d1ce186d3dbd832c2f44ab5279121b44d2efaac93df9c08d052ce947/forecastmanager-0.4.8.tar.gz
+[2024-04-15 16:40:22] INFO root fetch - processPackages [splat64]: executing diffoscope
+[2024-04-15 16:40:22] INFO root fetch - processPackages [splat64]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splat64-0.23.1.tar.gz tmp/splat64-0.23.2.tar.gz --markdown 20240415/s/splat64/0.23.1-0.23.2/README.md --exclude *.pyd
+[2024-04-15 16:40:22] INFO root fetch - processPackages [forecastmanager]: executing diffoscope
+[2024-04-15 16:40:22] INFO root fetch - processPackages [forecastmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forecastmanager-0.4.7.tar.gz tmp/forecastmanager-0.4.8.tar.gz --markdown 20240415/f/forecastmanager/0.4.7-0.4.8/README.md --exclude *.pyd
+[2024-04-15 16:40:22] INFO root fetch - processPackages [splat64]: Remove: archive file [/home/abi/fetcher/tmp/splat64-0.23.1.tar.gz]
+[2024-04-15 16:40:22] INFO root fetch - processPackages [splat64]: Remove: archive file [/home/abi/fetcher/tmp/splat64-0.23.2.tar.gz]
+[2024-04-15 16:40:22] INFO root fetch - main [MainThread]: End processing [splat64]: success
+[2024-04-15 16:40:23] INFO root fetch - processPackages [forecastmanager]: Remove: archive file [/home/abi/fetcher/tmp/forecastmanager-0.4.7.tar.gz]
+[2024-04-15 16:40:23] INFO root fetch - processPackages [forecastmanager]: Remove: archive file [/home/abi/fetcher/tmp/forecastmanager-0.4.8.tar.gz]
+[2024-04-15 16:40:23] INFO root fetch - main [MainThread]: End processing [forecastmanager]: success
+[2024-04-15 16:40:23] INFO root fetch - main [MainThread]: Store serial: [22772855]
