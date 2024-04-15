@@ -4593,3 +4593,50 @@
 [2024-04-15 05:59:14] INFO root fetch - processPackages [chik-rs]: Remove: archive file [/home/abi/fetcher/tmp/chik_rs-0.6.0.tar.gz]
 [2024-04-15 05:59:14] INFO root fetch - main [MainThread]: End processing [chik-rs]: success
 [2024-04-15 05:59:14] INFO root fetch - main [MainThread]: Store serial: [22765246]
+[2024-04-15 06:01:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22765246]
+[2024-04-15 06:01:22] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-15 06:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-04-15 06:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TkEasyGUI
+[2024-04-15 06:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: schwab-py
+[2024-04-15 06:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sangreal-wind
+[2024-04-15 06:01:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bigdl-core-xe-esimd-21
+[2024-04-15 06:01:22] INFO root fetch - processPackages [schwab-py]: New version: [0.0.0a9] Old Version: [0.0.0a8]
+[2024-04-15 06:01:22] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.14a1713152015] Old Version: [0.0.14a1713151548]
+[2024-04-15 06:01:22] INFO root fetch - processPackages [sangreal-wind]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-15 06:01:22] INFO root fetch - processPackages [schwab-py]: Downloading https://files.pythonhosted.org/packages/4a/97/d78b9c894adc5546c1464a6150bd183cffc758049f5f599b96df24c97f56/schwab-py-0.0.0a8.tar.gz
+[2024-04-15 06:01:22] INFO root fetch - processPackages [TkEasyGUI]: New version: [0.2.44] Old Version: [0.2.43]
+[2024-04-15 06:01:22] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: New version: [2.5.0b20240414] Old Version: [2.5.0b20240413]
+[2024-04-15 06:01:22] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/ec/0c/1d8dcd1e637018f42f205cbdbfb0f31ef651705302c35fe3a0ac769cd6a8/pulumi_kubernetes_the_hard_way-0.0.14a1713151548.tar.gz
+[2024-04-15 06:01:22] INFO root fetch - processPackages [sangreal-wind]: Downloading https://files.pythonhosted.org/packages/7d/5a/7bda4e2174cd831c263ff62e75435738e1b14e5a0f2720bdc223006b5966/sangreal-wind-0.0.8.tar.gz
+[2024-04-15 06:01:22] INFO root fetch - processPackages [TkEasyGUI]: Downloading https://files.pythonhosted.org/packages/b3/12/998be4a80381ebe1169223a2bcbfbbfe0d3e079fea9297f01b88007baa4e/TkEasyGUI-0.2.43.tar.gz
+[2024-04-15 06:01:22] INFO root fetch - processPackages [schwab-py]: Downloading https://files.pythonhosted.org/packages/f3/f1/efd2cf1baeff4d7f78477ad6df2d7f97c864c877ffd1d2e6a1425706ef14/schwab-py-0.0.0a9.tar.gz
+[2024-04-15 06:01:23] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/c7/e4/03d8e796a2df1a3a73115bbfda6c7a66e6ab0d6fd9350a8e721ee213ed89/pulumi_kubernetes_the_hard_way-0.0.14a1713152015.tar.gz
+[2024-04-15 06:01:23] INFO root fetch - processPackages [schwab-py]: executing diffoscope
+[2024-04-15 06:01:23] INFO root fetch - processPackages [schwab-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schwab-py-0.0.0a8.tar.gz tmp/schwab-py-0.0.0a9.tar.gz --markdown 20240415/s/schwab-py/0.0.0a8-0.0.0a9/README.md --exclude *.pyd
+[2024-04-15 06:01:23] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Downloading https://files.pythonhosted.org/packages/dd/30/5b4804f16cf4228e8cc18c5762d416169ce7926a9aabc9cc119080f4458c/bigdl_core_xe_esimd_21-2.5.0b20240414-cp39-cp39-win_amd64.whl
+[2024-04-15 06:01:23] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-04-15 06:01:23] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.14a1713151548.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.14a1713152015.tar.gz --markdown 20240415/p/pulumi-kubernetes-the-hard-way/0.0.14a1713151548-0.0.14a1713152015/README.md --exclude *.pyd
+[2024-04-15 06:01:23] INFO root fetch - processPackages [TkEasyGUI]: Downloading https://files.pythonhosted.org/packages/3b/f8/112f63ed3c0161ffebbad573e5184a64c141dcbc9f8ee9f2c33ee1878b3c/tkeasygui-0.2.44.tar.gz
+[2024-04-15 06:01:23] INFO root fetch - processPackages [sangreal-wind]: Downloading https://files.pythonhosted.org/packages/3d/6e/01ae1ecba83f1ecbffcd9e6a7bd19efdd771a3c129f715fe436c709fa0f7/sangreal-wind-0.0.9.tar.gz
+[2024-04-15 06:01:23] INFO root fetch - processPackages [TkEasyGUI]: executing diffoscope
+[2024-04-15 06:01:23] INFO root fetch - processPackages [TkEasyGUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TkEasyGUI-0.2.43.tar.gz tmp/tkeasygui-0.2.44.tar.gz --markdown 20240415/T/TkEasyGUI/0.2.43-0.2.44/README.md --exclude *.pyd
+[2024-04-15 06:01:23] INFO root fetch - processPackages [sangreal-wind]: executing diffoscope
+[2024-04-15 06:01:23] INFO root fetch - processPackages [sangreal-wind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sangreal-wind-0.0.8.tar.gz tmp/sangreal-wind-0.0.9.tar.gz --markdown 20240415/s/sangreal-wind/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-15 06:01:23] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: executing diffoscope
+[2024-04-15 06:01:23] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_core_xe_esimd_21-2.5.0b20240413-cp39-cp39-win_amd64.whl.zip tmp/bigdl_core_xe_esimd_21-2.5.0b20240414-cp39-cp39-win_amd64.whl.zip --markdown 20240415/b/bigdl-core-xe-esimd-21/2.5.0b20240413-2.5.0b20240414/README.md --exclude *.pyd
+[2024-04-15 06:01:23] INFO root fetch - processPackages [schwab-py]: Remove: archive file [/home/abi/fetcher/tmp/schwab-py-0.0.0a8.tar.gz]
+[2024-04-15 06:01:23] INFO root fetch - processPackages [schwab-py]: Remove: archive file [/home/abi/fetcher/tmp/schwab-py-0.0.0a9.tar.gz]
+[2024-04-15 06:01:23] INFO root fetch - main [MainThread]: End processing [schwab-py]: success
+[2024-04-15 06:01:23] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.14a1713151548.tar.gz]
+[2024-04-15 06:01:23] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.14a1713152015.tar.gz]
+[2024-04-15 06:01:23] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-04-15 06:01:23] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_core_xe_esimd_21-2.5.0b20240413-cp39-cp39-win_amd64.whl.zip]
+[2024-04-15 06:01:23] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_core_xe_esimd_21-2.5.0b20240414-cp39-cp39-win_amd64.whl.zip]
+[2024-04-15 06:01:23] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-esimd-21]: success
+[2024-04-15 06:01:24] INFO root fetch - processPackages [sangreal-wind]: Remove: archive file [/home/abi/fetcher/tmp/sangreal-wind-0.0.8.tar.gz]
+[2024-04-15 06:01:24] INFO root fetch - processPackages [sangreal-wind]: Remove: archive file [/home/abi/fetcher/tmp/sangreal-wind-0.0.9.tar.gz]
+[2024-04-15 06:01:24] INFO root fetch - main [MainThread]: End processing [sangreal-wind]: success
+[2024-04-15 06:01:24] INFO root fetch - processPackages [TkEasyGUI]: Remove: archive file [/home/abi/fetcher/tmp/TkEasyGUI-0.2.43.tar.gz]
+[2024-04-15 06:01:24] INFO root fetch - processPackages [TkEasyGUI]: Remove: archive file [/home/abi/fetcher/tmp/tkeasygui-0.2.44.tar.gz]
+[2024-04-15 06:01:24] INFO root fetch - main [MainThread]: End processing [TkEasyGUI]: success
+[2024-04-15 06:01:24] INFO root fetch - main [MainThread]: Store serial: [22765259]
