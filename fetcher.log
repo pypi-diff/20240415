@@ -23042,3 +23042,144 @@ AssertionError: tmp/pyblindrl-0.0.2rc57.post1.tar.gz does not exist
 [2024-04-15 16:44:48] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
 [2024-04-15 16:44:48] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2024-04-15 16:44:48] INFO root fetch - main [MainThread]: Store serial: [22772941]
+[2024-04-15 16:46:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22772941]
+[2024-04-15 16:46:57] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2024-04-15 16:46:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jax-sph
+[2024-04-15 16:46:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: exciton
+[2024-04-15 16:46:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: forecastmanager
+[2024-04-15 16:46:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigeye-sdk
+[2024-04-15 16:46:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pymysqls
+[2024-04-15 16:46:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: udata-front
+[2024-04-15 16:46:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mkdocs-table-of-figures
+[2024-04-15 16:46:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wikipedia-zh
+[2024-04-15 16:46:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: oost-demo-ssh-dc
+[2024-04-15 16:46:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gazu
+[2024-04-15 16:46:57] INFO root fetch - processPackages [pymysqls]: New version: [0.4] Old Version: [0.3]
+[2024-04-15 16:46:57] INFO root fetch - processPackages [forecastmanager]: New version: [0.4.8] Old Version: [0.4.7]
+[2024-04-15 16:46:57] WARNING root fetch - processPackages [oost-demo-ssh-dc]: Skipping, unable to determine old version
+[2024-04-15 16:46:57] INFO root fetch - processPackages [oost-demo-ssh-dc]: Start processing: nonebot-plugin-clovers
+[2024-04-15 16:46:57] INFO root fetch - main [MainThread]: End processing [oost-demo-ssh-dc] error
+[2024-04-15 16:46:57] INFO root fetch - processPackages [bigeye-sdk]: New version: [0.4.78] Old Version: [0.4.77]
+[2024-04-15 16:46:57] INFO root fetch - processPackages [udata-front]: New version: [3.5.5a117434] Old Version: [3.5.5a1]
+[2024-04-15 16:46:57] WARNING root fetch - processPackages [jax-sph]: Skipping, unable to determine old version
+[2024-04-15 16:46:57] INFO root fetch - processPackages [jax-sph]: Start processing: facialfinder
+[2024-04-15 16:46:57] INFO root fetch - main [MainThread]: End processing [jax-sph] error
+[2024-04-15 16:46:57] WARNING root fetch - processPackages [nonebot-plugin-clovers]: Skipping, unable to determine old version
+[2024-04-15 16:46:57] INFO root fetch - processPackages [nonebot-plugin-clovers]: Start processing: swarmauri
+[2024-04-15 16:46:57] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-clovers] error
+[2024-04-15 16:46:58] INFO root fetch - processPackages [gazu]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-15 16:46:58] INFO root fetch - processPackages [wikipedia-zh]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-15 16:46:58] INFO root fetch - processPackages [mkdocs-table-of-figures]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-15 16:46:58] INFO root fetch - processPackages [exciton]: New version: [2.4.9] Old Version: [2.4.8]
+[2024-04-15 16:46:58] INFO root fetch - processPackages [forecastmanager]: Downloading https://files.pythonhosted.org/packages/74/47/b8c64b1cebf8545cd2bcfcbe220f705c1f4c72f50e2610dccfa56fb90dda/forecastmanager-0.4.7.tar.gz
+[2024-04-15 16:46:58] INFO root fetch - processPackages [swarmauri]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-15 16:46:58] INFO root fetch - processPackages [bigeye-sdk]: Downloading https://files.pythonhosted.org/packages/d6/90/819a4189263728f19af7f7531776962e971ab67073dfc5c2a6a200d59f94/bigeye_sdk-0.4.77.tar.gz
+[2024-04-15 16:46:58] INFO root fetch - processPackages [facialfinder]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-15 16:46:58] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/2a/df/71cf652ec5903ada3c3748ff4148a28c0e5292e732c037b5a4e116924da0/udata_front-3.5.5a1-py2.py3-none-any.whl
+[2024-04-15 16:46:58] INFO root fetch - processPackages [pymysqls]: Downloading https://files.pythonhosted.org/packages/ad/16/18d29b6fb77d94c8404216bf5d87a969e938fa67065925f41320a6664d09/pymysqls-0.3.tar.gz
+[2024-04-15 16:46:58] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/6f/f9/130aeeef865461afb5cc003721ceb7c3ebcd9ef2fe49fd812b8532fb5035/swarmauri-0.1.8.tar.gz
+[2024-04-15 16:46:58] INFO root fetch - processPackages [facialfinder]: Downloading https://files.pythonhosted.org/packages/b8/c7/a347ab087631405a110214c8db0cbcce0d31779583feb267669e26e960b3/facialfinder-0.0.5.tar.gz
+[2024-04-15 16:46:58] INFO root fetch - processPackages [mkdocs-table-of-figures]: Downloading https://files.pythonhosted.org/packages/0a/1b/464c0d9c215fc0cf14c9aafc3948f95bb9d1fbc19906bfc92da90f483800/mkdocs-table-of-figures-0.1.4.tar.gz
+[2024-04-15 16:46:58] INFO root fetch - processPackages [wikipedia-zh]: Downloading https://files.pythonhosted.org/packages/8c/f1/da396f2e59ac3df0b0f8621b685421b632350fb1bbe384e249e4a14543da/wikipedia-zh-0.0.1.tar.gz
+[2024-04-15 16:46:58] INFO root fetch - processPackages [gazu]: Downloading https://files.pythonhosted.org/packages/29/33/8c9b7e610c9e437f6fdf01a3bbece8e17f30f46106ba710f48df55d0bcbb/gazu-0.9.8-py3-none-any.whl
+[2024-04-15 16:46:58] INFO root fetch - processPackages [exciton]: Downloading https://files.pythonhosted.org/packages/d2/a8/4d5270274eb5ea4e11aab74c4abf5e1cf6b418c592cc783ac6a7a10a44e1/exciton-2.4.8-py3-none-any.whl
+[2024-04-15 16:46:58] INFO root fetch - processPackages [pymysqls]: Downloading https://files.pythonhosted.org/packages/d9/f2/3982930be45debade65d818e7c240a10407b2f38e04390f5d7c70c01a82c/pymysqls-0.4.tar.gz
+[2024-04-15 16:46:58] INFO root fetch - processPackages [bigeye-sdk]: Downloading https://files.pythonhosted.org/packages/af/24/57a6f478b9d8ff87b1c3550aa5a39b0b0216a4827f443af10833b349fad2/bigeye_sdk-0.4.78.tar.gz
+[2024-04-15 16:46:58] INFO root fetch - processPackages [pymysqls]: executing diffoscope
+[2024-04-15 16:46:58] INFO root fetch - processPackages [pymysqls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymysqls-0.3.tar.gz tmp/pymysqls-0.4.tar.gz --markdown 20240415/p/pymysqls/0.3-0.4/README.md --exclude *.pyd
+[2024-04-15 16:46:58] INFO root fetch - processPackages [forecastmanager]: Downloading https://files.pythonhosted.org/packages/d7/5e/4b03d1ce186d3dbd832c2f44ab5279121b44d2efaac93df9c08d052ce947/forecastmanager-0.4.8.tar.gz
+[2024-04-15 16:46:58] INFO root fetch - processPackages [mkdocs-table-of-figures]: Downloading https://files.pythonhosted.org/packages/f2/cf/0cbbb43c55bf2008923a56dd1c309969a83ded2fb8c5555f0fcf306f0c5f/mkdocs-table-of-figures-0.1.5.tar.gz
+[2024-04-15 16:46:58] INFO root fetch - processPackages [bigeye-sdk]: executing diffoscope
+[2024-04-15 16:46:58] INFO root fetch - processPackages [bigeye-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigeye_sdk-0.4.77.tar.gz tmp/bigeye_sdk-0.4.78.tar.gz --markdown 20240415/b/bigeye-sdk/0.4.77-0.4.78/README.md --exclude *.pyd
+[2024-04-15 16:46:58] INFO root fetch - processPackages [wikipedia-zh]: Downloading https://files.pythonhosted.org/packages/36/df/ba1b7131929029d0af792fd7bbab833250c95d4a2017bef255dcb9b33ac8/wikipedia_zh-0.0.2.tar.gz
+[2024-04-15 16:46:58] INFO root fetch - processPackages [facialfinder]: Downloading https://files.pythonhosted.org/packages/93/ae/264126a89fadb0a0273f0b64cfb140e5386513c7c71b8db694ede3f76f72/facialfinder-0.0.6.tar.gz
+[2024-04-15 16:46:58] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/c7/70/0b55d158ba42355a67cda5d200e3d5817bac0a8e9ce2da2bf294eb6b03ec/swarmauri-0.1.9.tar.gz
+[2024-04-15 16:46:58] INFO root fetch - processPackages [exciton]: Downloading https://files.pythonhosted.org/packages/44/37/dcaf2ea69b4cdb9f5a3b1cf84a7775759ea1054599c82ace6a8fb37fcca2/exciton-2.4.9-py3-none-any.whl
+[2024-04-15 16:46:58] INFO root fetch - processPackages [mkdocs-table-of-figures]: executing diffoscope
+[2024-04-15 16:46:58] INFO root fetch - processPackages [mkdocs-table-of-figures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-table-of-figures-0.1.4.tar.gz tmp/mkdocs-table-of-figures-0.1.5.tar.gz --markdown 20240415/m/mkdocs-table-of-figures/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-15 16:46:58] INFO root fetch - processPackages [gazu]: Downloading https://files.pythonhosted.org/packages/23/76/7d89ec37540376959f78cc24b5b6cfdc121611c0bbb0cc6eeb7a932e9812/gazu-0.9.9-py3-none-any.whl
+[2024-04-15 16:46:58] INFO root fetch - processPackages [wikipedia-zh]: executing diffoscope
+[2024-04-15 16:46:58] INFO root fetch - processPackages [wikipedia-zh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wikipedia-zh-0.0.1.tar.gz tmp/wikipedia_zh-0.0.2.tar.gz --markdown 20240415/w/wikipedia-zh/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-15 16:46:58] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/8a/4f/2338fd0e7f0f41a6f5d398a333c15a5dc30d3f64808c77672efaae4d8eef/udata_front-3.5.5a117434-py2.py3-none-any.whl
+[2024-04-15 16:46:58] INFO root fetch - processPackages [facialfinder]: executing diffoscope
+[2024-04-15 16:46:58] INFO root fetch - processPackages [facialfinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/facialfinder-0.0.5.tar.gz tmp/facialfinder-0.0.6.tar.gz --markdown 20240415/f/facialfinder/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-15 16:46:58] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-04-15 16:46:58] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.8.tar.gz tmp/swarmauri-0.1.9.tar.gz --markdown 20240415/s/swarmauri/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-15 16:46:58] INFO root fetch - processPackages [exciton]: executing diffoscope
+[2024-04-15 16:46:58] INFO root fetch - processPackages [exciton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exciton-2.4.8-py3-none-any.whl.zip tmp/exciton-2.4.9-py3-none-any.whl.zip --markdown 20240415/e/exciton/2.4.8-2.4.9/README.md --exclude *.pyd
+[2024-04-15 16:46:58] INFO root fetch - processPackages [forecastmanager]: executing diffoscope
+[2024-04-15 16:46:58] INFO root fetch - processPackages [forecastmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forecastmanager-0.4.7.tar.gz tmp/forecastmanager-0.4.8.tar.gz --markdown 20240415/f/forecastmanager/0.4.7-0.4.8/README.md --exclude *.pyd
+[2024-04-15 16:46:59] INFO root fetch - processPackages [pymysqls]: Remove: archive file [/home/abi/fetcher/tmp/pymysqls-0.3.tar.gz]
+[2024-04-15 16:46:59] INFO root fetch - processPackages [pymysqls]: Remove: archive file [/home/abi/fetcher/tmp/pymysqls-0.4.tar.gz]
+[2024-04-15 16:46:59] INFO root fetch - processPackages [pymysqls]: Start processing: cg-devx-core
+[2024-04-15 16:46:59] INFO root fetch - main [MainThread]: End processing [pymysqls]: success
+[2024-04-15 16:46:59] INFO root fetch - processPackages [udata-front]: executing diffoscope
+[2024-04-15 16:46:59] INFO root fetch - processPackages [udata-front]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_front-3.5.5a1-py2.py3-none-any.whl.zip tmp/udata_front-3.5.5a117434-py2.py3-none-any.whl.zip --markdown 20240415/u/udata-front/3.5.5a1-3.5.5a117434/README.md --exclude *.pyd
+[2024-04-15 16:46:59] INFO root fetch - processPackages [gazu]: executing diffoscope
+[2024-04-15 16:46:59] INFO root fetch - processPackages [gazu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gazu-0.9.8-py3-none-any.whl.zip tmp/gazu-0.9.9-py3-none-any.whl.zip --markdown 20240415/g/gazu/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-15 16:46:59] WARNING root fetch - processPackages [cg-devx-core]: Skipping, unable to determine old version
+[2024-04-15 16:46:59] INFO root fetch - processPackages [cg-devx-core]: Start processing: chaturbate-poller
+[2024-04-15 16:46:59] INFO root fetch - main [MainThread]: End processing [cg-devx-core] error
+[2024-04-15 16:46:59] INFO root fetch - processPackages [chaturbate-poller]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-15 16:46:59] INFO root fetch - processPackages [bigeye-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bigeye_sdk-0.4.77.tar.gz]
+[2024-04-15 16:46:59] INFO root fetch - processPackages [bigeye-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bigeye_sdk-0.4.78.tar.gz]
+[2024-04-15 16:46:59] INFO root fetch - processPackages [bigeye-sdk]: Start processing: ParendumLib
+[2024-04-15 16:46:59] INFO root fetch - main [MainThread]: End processing [bigeye-sdk]: success
+[2024-04-15 16:46:59] INFO root fetch - processPackages [ParendumLib]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-15 16:46:59] INFO root fetch - processPackages [mkdocs-table-of-figures]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-table-of-figures-0.1.4.tar.gz]
+[2024-04-15 16:46:59] INFO root fetch - processPackages [mkdocs-table-of-figures]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-table-of-figures-0.1.5.tar.gz]
+[2024-04-15 16:46:59] INFO root fetch - processPackages [mkdocs-table-of-figures]: Start processing: dsp-ifsc
+[2024-04-15 16:46:59] INFO root fetch - main [MainThread]: End processing [mkdocs-table-of-figures]: success
+[2024-04-15 16:46:59] INFO root fetch - processPackages [ParendumLib]: Downloading https://files.pythonhosted.org/packages/9e/57/9c5dcbd5ac51d99d65085c128e28d689340a94b8a348f9b3cd3fac3ff2a4/ParendumLib-0.1.8.tar.gz
+[2024-04-15 16:46:59] INFO root fetch - processPackages [chaturbate-poller]: Downloading https://files.pythonhosted.org/packages/64/48/957a0df43412092e866e5e523b18cf75d4fa4b9d95a9a1f9a68879d3809e/chaturbate_poller-0.3.8.tar.gz
+[2024-04-15 16:46:59] INFO root fetch - processPackages [wikipedia-zh]: Remove: archive file [/home/abi/fetcher/tmp/wikipedia-zh-0.0.1.tar.gz]
+[2024-04-15 16:46:59] INFO root fetch - processPackages [wikipedia-zh]: Remove: archive file [/home/abi/fetcher/tmp/wikipedia_zh-0.0.2.tar.gz]
+[2024-04-15 16:46:59] INFO root fetch - processPackages [wikipedia-zh]: Start processing: mystring
+[2024-04-15 16:46:59] INFO root fetch - main [MainThread]: End processing [wikipedia-zh]: success
+[2024-04-15 16:46:59] INFO root fetch - processPackages [dsp-ifsc]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-15 16:46:59] INFO root fetch - processPackages [mystring]: New version: [0.2.99] Old Version: [0.2.98]
+[2024-04-15 16:47:00] INFO root fetch - processPackages [ParendumLib]: Downloading https://files.pythonhosted.org/packages/8b/21/9a6aa3e314b67367ff0ab2ffea5277cff8e76cfc439396c9923c785355a6/ParendumLib-0.1.9.tar.gz
+[2024-04-15 16:47:00] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/88/05/d0d140db04c0b270b7380359ce66dc3b26477e6b13a36cd8ced2e0442041/mystring-0.2.98-py3-none-any.whl
+[2024-04-15 16:47:00] INFO root fetch - processPackages [exciton]: Remove: archive file [/home/abi/fetcher/tmp/exciton-2.4.8-py3-none-any.whl.zip]
+[2024-04-15 16:47:00] INFO root fetch - processPackages [exciton]: Remove: archive file [/home/abi/fetcher/tmp/exciton-2.4.9-py3-none-any.whl.zip]
+[2024-04-15 16:47:00] INFO root fetch - main [MainThread]: End processing [exciton]: success
+[2024-04-15 16:47:00] INFO root fetch - processPackages [dsp-ifsc]: Downloading https://files.pythonhosted.org/packages/8b/f2/e6fcc71a976cf06664dcb193d0668105fef3f23881e4da1fbec2331de6e9/dsp_ifsc-0.0.8.tar.gz
+[2024-04-15 16:47:00] INFO root fetch - processPackages [ParendumLib]: executing diffoscope
+[2024-04-15 16:47:00] INFO root fetch - processPackages [ParendumLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ParendumLib-0.1.8.tar.gz tmp/ParendumLib-0.1.9.tar.gz --markdown 20240415/P/ParendumLib/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-15 16:47:00] INFO root fetch - processPackages [chaturbate-poller]: Downloading https://files.pythonhosted.org/packages/24/4c/4cbbefc73e5ac98d680f84b904f97d849a2d7561aed323b93c5501e0a78c/chaturbate_poller-0.3.9.tar.gz
+[2024-04-15 16:47:00] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/fa/f7/968c4dde1769f6b1b7f54bedafe67abf4ae2c5ff261eaed5f05032e85e87/mystring-0.2.99-py3-none-any.whl
+[2024-04-15 16:47:00] INFO root fetch - processPackages [gazu]: Remove: archive file [/home/abi/fetcher/tmp/gazu-0.9.8-py3-none-any.whl.zip]
+[2024-04-15 16:47:00] INFO root fetch - processPackages [gazu]: Remove: archive file [/home/abi/fetcher/tmp/gazu-0.9.9-py3-none-any.whl.zip]
+[2024-04-15 16:47:00] INFO root fetch - main [MainThread]: End processing [gazu]: success
+[2024-04-15 16:47:00] INFO root fetch - processPackages [chaturbate-poller]: executing diffoscope
+[2024-04-15 16:47:00] INFO root fetch - processPackages [chaturbate-poller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaturbate_poller-0.3.8.tar.gz tmp/chaturbate_poller-0.3.9.tar.gz --markdown 20240415/c/chaturbate-poller/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-15 16:47:00] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.8.tar.gz]
+[2024-04-15 16:47:00] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.9.tar.gz]
+[2024-04-15 16:47:00] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-04-15 16:47:00] INFO root fetch - processPackages [facialfinder]: Remove: archive file [/home/abi/fetcher/tmp/facialfinder-0.0.5.tar.gz]
+[2024-04-15 16:47:00] INFO root fetch - processPackages [facialfinder]: Remove: archive file [/home/abi/fetcher/tmp/facialfinder-0.0.6.tar.gz]
+[2024-04-15 16:47:00] INFO root fetch - main [MainThread]: End processing [facialfinder]: success
+[2024-04-15 16:47:00] INFO root fetch - processPackages [dsp-ifsc]: Downloading https://files.pythonhosted.org/packages/ed/49/f48cf94d0bbae49db47713e9af8d624ebe2c009f759a3643cd58d813a0c6/dsp_ifsc-0.0.9.tar.gz
+[2024-04-15 16:47:00] INFO root fetch - processPackages [mystring]: executing diffoscope
+[2024-04-15 16:47:00] INFO root fetch - processPackages [mystring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mystring-0.2.98-py3-none-any.whl.zip tmp/mystring-0.2.99-py3-none-any.whl.zip --markdown 20240415/m/mystring/0.2.98-0.2.99/README.md --exclude *.pyd
+[2024-04-15 16:47:00] INFO root fetch - processPackages [forecastmanager]: Remove: archive file [/home/abi/fetcher/tmp/forecastmanager-0.4.7.tar.gz]
+[2024-04-15 16:47:00] INFO root fetch - processPackages [forecastmanager]: Remove: archive file [/home/abi/fetcher/tmp/forecastmanager-0.4.8.tar.gz]
+[2024-04-15 16:47:00] INFO root fetch - main [MainThread]: End processing [forecastmanager]: success
+[2024-04-15 16:47:00] INFO root fetch - processPackages [dsp-ifsc]: executing diffoscope
+[2024-04-15 16:47:00] INFO root fetch - processPackages [dsp-ifsc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsp_ifsc-0.0.8.tar.gz tmp/dsp_ifsc-0.0.9.tar.gz --markdown 20240415/d/dsp-ifsc/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-15 16:47:00] INFO root fetch - processPackages [ParendumLib]: Remove: archive file [/home/abi/fetcher/tmp/ParendumLib-0.1.8.tar.gz]
+[2024-04-15 16:47:00] INFO root fetch - processPackages [ParendumLib]: Remove: archive file [/home/abi/fetcher/tmp/ParendumLib-0.1.9.tar.gz]
+[2024-04-15 16:47:00] INFO root fetch - main [MainThread]: End processing [ParendumLib]: success
+[2024-04-15 16:47:01] INFO root fetch - processPackages [chaturbate-poller]: Remove: archive file [/home/abi/fetcher/tmp/chaturbate_poller-0.3.8.tar.gz]
+[2024-04-15 16:47:01] INFO root fetch - processPackages [chaturbate-poller]: Remove: archive file [/home/abi/fetcher/tmp/chaturbate_poller-0.3.9.tar.gz]
+[2024-04-15 16:47:01] INFO root fetch - main [MainThread]: End processing [chaturbate-poller]: success
+[2024-04-15 16:47:01] INFO root fetch - processPackages [mystring]: Remove: archive file [/home/abi/fetcher/tmp/mystring-0.2.98-py3-none-any.whl.zip]
+[2024-04-15 16:47:01] INFO root fetch - processPackages [mystring]: Remove: archive file [/home/abi/fetcher/tmp/mystring-0.2.99-py3-none-any.whl.zip]
+[2024-04-15 16:47:01] INFO root fetch - main [MainThread]: End processing [mystring]: success
+[2024-04-15 16:47:01] INFO root fetch - processPackages [dsp-ifsc]: Remove: archive file [/home/abi/fetcher/tmp/dsp_ifsc-0.0.8.tar.gz]
+[2024-04-15 16:47:01] INFO root fetch - processPackages [dsp-ifsc]: Remove: archive file [/home/abi/fetcher/tmp/dsp_ifsc-0.0.9.tar.gz]
+[2024-04-15 16:47:01] INFO root fetch - main [MainThread]: End processing [dsp-ifsc]: success
+[2024-04-15 16:48:14] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.5.5a1-py2.py3-none-any.whl.zip]
+[2024-04-15 16:48:14] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.5.5a117434-py2.py3-none-any.whl.zip]
+[2024-04-15 16:48:14] INFO root fetch - main [MainThread]: End processing [udata-front]: success
+[2024-04-15 16:48:14] INFO root fetch - main [MainThread]: Store serial: [22772993]
