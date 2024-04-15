@@ -8181,3 +8181,18 @@
 [2024-04-15 08:05:17] INFO root fetch - processPackages [unitlab]: Remove: archive file [/home/abi/fetcher/tmp/unitlab-2.1.9.tar.gz]
 [2024-04-15 08:05:17] INFO root fetch - main [MainThread]: End processing [unitlab]: success
 [2024-04-15 08:05:17] INFO root fetch - main [MainThread]: Store serial: [22766495]
+[2024-04-15 08:07:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22766495]
+[2024-04-15 08:07:25] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-15 08:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: radical.utils
+[2024-04-15 08:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: danila
+[2024-04-15 08:07:25] INFO root fetch - processPackages [radical.utils]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-15 08:07:25] WARNING root fetch - processPackages [danila]: Skipping, unable to determine old version
+[2024-04-15 08:07:25] INFO root fetch - main [MainThread]: End processing [danila] error
+[2024-04-15 08:07:25] INFO root fetch - processPackages [radical.utils]: Downloading https://files.pythonhosted.org/packages/1f/11/cff0051613a1687c77e09b3096568dfa01f96271c0c2a0040cafae59f52b/radical.utils-1.9.0.tar.gz
+[2024-04-15 08:07:26] INFO root fetch - processPackages [radical.utils]: Downloading https://files.pythonhosted.org/packages/20/d0/1fdf2dbde27e3a8d85ba804e54707f9aae40ab8b524492de97c15a6d0fbf/radical.utils-1.9.1.tar.gz
+[2024-04-15 08:07:26] INFO root fetch - processPackages [radical.utils]: executing diffoscope
+[2024-04-15 08:07:26] INFO root fetch - processPackages [radical.utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radical.utils-1.9.0.tar.gz tmp/radical.utils-1.9.1.tar.gz --markdown 20240415/r/radical.utils/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-15 08:07:27] INFO root fetch - processPackages [radical.utils]: Remove: archive file [/home/abi/fetcher/tmp/radical.utils-1.9.0.tar.gz]
+[2024-04-15 08:07:27] INFO root fetch - processPackages [radical.utils]: Remove: archive file [/home/abi/fetcher/tmp/radical.utils-1.9.1.tar.gz]
+[2024-04-15 08:07:27] INFO root fetch - main [MainThread]: End processing [radical.utils]: success
+[2024-04-15 08:07:27] INFO root fetch - main [MainThread]: Store serial: [22766497]
