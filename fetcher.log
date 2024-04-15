@@ -14348,3 +14348,65 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 12:04:24] INFO root fetch - processPackages [efootprint]: Remove: archive file [/home/abi/fetcher/tmp/efootprint-2.0.2.tar.gz]
 [2024-04-15 12:04:25] INFO root fetch - main [MainThread]: End processing [efootprint]: success
 [2024-04-15 12:04:25] INFO root fetch - main [MainThread]: Store serial: [22769130]
+[2024-04-15 12:06:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22769130]
+[2024-04-15 12:06:33] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-15 12:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchenhanced
+[2024-04-15 12:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edwh-uptime-plugin
+[2024-04-15 12:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: detoxio
+[2024-04-15 12:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pop-cli
+[2024-04-15 12:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: libTSCANAPI
+[2024-04-15 12:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cython-lint
+[2024-04-15 12:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zodchy
+[2024-04-15 12:06:33] INFO root fetch - processPackages [zodchy]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-15 12:06:33] INFO root fetch - processPackages [edwh-uptime-plugin]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-04-15 12:06:33] INFO root fetch - processPackages [zodchy]: Downloading https://files.pythonhosted.org/packages/e2/9e/b6b127aaa4674e091dd7da0903a11e8e066b2bfab2ca8524b0a9d2c4f741/zodchy-0.1.2.tar.gz
+[2024-04-15 12:06:33] INFO root fetch - processPackages [cython-lint]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-15 12:06:33] INFO root fetch - processPackages [detoxio]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-15 12:06:33] INFO root fetch - processPackages [libTSCANAPI]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-04-15 12:06:33] INFO root fetch - processPackages [pop-cli]: New version: [4.0.0] Old Version: [3.0.1]
+[2024-04-15 12:06:33] INFO root fetch - processPackages [torchenhanced]: New version: [0.3.0b1] Old Version: [0.2.9]
+[2024-04-15 12:06:34] INFO root fetch - processPackages [libTSCANAPI]: Downloading https://files.pythonhosted.org/packages/ad/f3/0471d26d627d304c0b5f9bdcb6a74935f852f09c91991f180b69ecfd8871/libTSCANAPI-1.3.8.tar.gz
+[2024-04-15 12:06:34] INFO root fetch - processPackages [edwh-uptime-plugin]: Downloading https://files.pythonhosted.org/packages/30/0a/311a03ef823b821ba2ab8be1fe7b9082ef349d3332208b243d02b5828ac3/edwh_uptime_plugin-0.3.5.tar.gz
+[2024-04-15 12:06:34] INFO root fetch - processPackages [zodchy]: Downloading https://files.pythonhosted.org/packages/c9/cf/340440c031d73a6797d940728cc109f5ea44a038f09ec1ba181319b862f8/zodchy-0.1.3.tar.gz
+[2024-04-15 12:06:34] INFO root fetch - processPackages [detoxio]: Downloading https://files.pythonhosted.org/packages/7a/5e/2207f75fcd9c9e3eeb1f53ed18cb1468e5ecae5a0d5a386bc0a5eff17fc5/detoxio-0.1.8.tar.gz
+[2024-04-15 12:06:34] INFO root fetch - processPackages [torchenhanced]: Downloading https://files.pythonhosted.org/packages/59/58/8bca448d3ce3e5df2cba3c9d646da7bd8014fae7430011e37e91b018a87d/torchenhanced-0.2.9.tar.gz
+[2024-04-15 12:06:34] INFO root fetch - processPackages [cython-lint]: Downloading https://files.pythonhosted.org/packages/29/4c/be39dc3601bf055258180529db1d55def18a36c9a7fa543c69f9ea35837a/cython_lint-0.9.0.tar.gz
+[2024-04-15 12:06:34] INFO root fetch - processPackages [pop-cli]: Downloading https://files.pythonhosted.org/packages/f3/f7/3cd0e0d946f1344fb8ee43a7c58a5a88f8bc4ed60735920ea9c6bfd0412e/pop_cli-3.0.1.tar.gz
+[2024-04-15 12:06:34] INFO root fetch - processPackages [zodchy]: executing diffoscope
+[2024-04-15 12:06:34] INFO root fetch - processPackages [zodchy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zodchy-0.1.2.tar.gz tmp/zodchy-0.1.3.tar.gz --markdown 20240415/z/zodchy/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-15 12:06:34] INFO root fetch - processPackages [edwh-uptime-plugin]: Downloading https://files.pythonhosted.org/packages/41/43/051565a738b429cef0287f1d28ffb7b8deb7c21c5cec1f753790431a56f8/edwh_uptime_plugin-0.3.6.tar.gz
+[2024-04-15 12:06:34] INFO root fetch - processPackages [detoxio]: Downloading https://files.pythonhosted.org/packages/b9/f4/192d739051a1a272b5b9f8a3638bbb082ff6c329b0a59b2a9e0435bdc1e9/detoxio-0.1.9.tar.gz
+[2024-04-15 12:06:34] INFO root fetch - processPackages [pop-cli]: Downloading https://files.pythonhosted.org/packages/13/fb/66a18d3b41dd81cb138fc6f1ad0e88567295148b329ec9ced09355fc7d2f/pop_cli-4.0.0.tar.gz
+[2024-04-15 12:06:34] INFO root fetch - processPackages [torchenhanced]: Downloading https://files.pythonhosted.org/packages/53/fc/94d32e95c2b8e1710df6a4589f113030c3a196116388e4c2cec193ee8df8/torchenhanced-0.3.0b1.tar.gz
+[2024-04-15 12:06:34] INFO root fetch - processPackages [edwh-uptime-plugin]: executing diffoscope
+[2024-04-15 12:06:34] INFO root fetch - processPackages [edwh-uptime-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edwh_uptime_plugin-0.3.5.tar.gz tmp/edwh_uptime_plugin-0.3.6.tar.gz --markdown 20240415/e/edwh-uptime-plugin/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-04-15 12:06:34] WARNING root fetch - processPackages [libTSCANAPI]: Skipping package: exceeds size limit 19197850>=10485760
+[2024-04-15 12:06:34] INFO root fetch - main [MainThread]: End processing [libTSCANAPI] error
+[2024-04-15 12:06:34] INFO root fetch - processPackages [detoxio]: executing diffoscope
+[2024-04-15 12:06:34] INFO root fetch - processPackages [detoxio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/detoxio-0.1.8.tar.gz tmp/detoxio-0.1.9.tar.gz --markdown 20240415/d/detoxio/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-15 12:06:34] INFO root fetch - processPackages [cython-lint]: Downloading https://files.pythonhosted.org/packages/e6/7e/746be6992b936153ae92be43258f85a4ff097559fd2e44bf74f76307f6d7/cython_lint-0.9.1.tar.gz
+[2024-04-15 12:06:34] INFO root fetch - processPackages [torchenhanced]: executing diffoscope
+[2024-04-15 12:06:34] INFO root fetch - processPackages [torchenhanced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchenhanced-0.2.9.tar.gz tmp/torchenhanced-0.3.0b1.tar.gz --markdown 20240415/t/torchenhanced/0.2.9-0.3.0b1/README.md --exclude *.pyd
+[2024-04-15 12:06:34] INFO root fetch - processPackages [pop-cli]: executing diffoscope
+[2024-04-15 12:06:34] INFO root fetch - processPackages [pop-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pop_cli-3.0.1.tar.gz tmp/pop_cli-4.0.0.tar.gz --markdown 20240415/p/pop-cli/3.0.1-4.0.0/README.md --exclude *.pyd
+[2024-04-15 12:06:34] INFO root fetch - processPackages [cython-lint]: executing diffoscope
+[2024-04-15 12:06:34] INFO root fetch - processPackages [cython-lint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cython_lint-0.9.0.tar.gz tmp/cython_lint-0.9.1.tar.gz --markdown 20240415/c/cython-lint/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-15 12:06:34] INFO root fetch - processPackages [zodchy]: Remove: archive file [/home/abi/fetcher/tmp/zodchy-0.1.2.tar.gz]
+[2024-04-15 12:06:34] INFO root fetch - processPackages [zodchy]: Remove: archive file [/home/abi/fetcher/tmp/zodchy-0.1.3.tar.gz]
+[2024-04-15 12:06:34] INFO root fetch - main [MainThread]: End processing [zodchy]: success
+[2024-04-15 12:06:35] INFO root fetch - processPackages [edwh-uptime-plugin]: Remove: archive file [/home/abi/fetcher/tmp/edwh_uptime_plugin-0.3.5.tar.gz]
+[2024-04-15 12:06:35] INFO root fetch - processPackages [edwh-uptime-plugin]: Remove: archive file [/home/abi/fetcher/tmp/edwh_uptime_plugin-0.3.6.tar.gz]
+[2024-04-15 12:06:35] INFO root fetch - main [MainThread]: End processing [edwh-uptime-plugin]: success
+[2024-04-15 12:06:35] INFO root fetch - processPackages [detoxio]: Remove: archive file [/home/abi/fetcher/tmp/detoxio-0.1.8.tar.gz]
+[2024-04-15 12:06:35] INFO root fetch - processPackages [detoxio]: Remove: archive file [/home/abi/fetcher/tmp/detoxio-0.1.9.tar.gz]
+[2024-04-15 12:06:35] INFO root fetch - main [MainThread]: End processing [detoxio]: success
+[2024-04-15 12:06:35] INFO root fetch - processPackages [torchenhanced]: Remove: archive file [/home/abi/fetcher/tmp/torchenhanced-0.2.9.tar.gz]
+[2024-04-15 12:06:35] INFO root fetch - processPackages [torchenhanced]: Remove: archive file [/home/abi/fetcher/tmp/torchenhanced-0.3.0b1.tar.gz]
+[2024-04-15 12:06:35] INFO root fetch - main [MainThread]: End processing [torchenhanced]: success
+[2024-04-15 12:06:35] INFO root fetch - processPackages [pop-cli]: Remove: archive file [/home/abi/fetcher/tmp/pop_cli-3.0.1.tar.gz]
+[2024-04-15 12:06:35] INFO root fetch - processPackages [pop-cli]: Remove: archive file [/home/abi/fetcher/tmp/pop_cli-4.0.0.tar.gz]
+[2024-04-15 12:06:35] INFO root fetch - main [MainThread]: End processing [pop-cli]: success
+[2024-04-15 12:06:35] INFO root fetch - processPackages [cython-lint]: Remove: archive file [/home/abi/fetcher/tmp/cython_lint-0.9.0.tar.gz]
+[2024-04-15 12:06:35] INFO root fetch - processPackages [cython-lint]: Remove: archive file [/home/abi/fetcher/tmp/cython_lint-0.9.1.tar.gz]
+[2024-04-15 12:06:35] INFO root fetch - main [MainThread]: End processing [cython-lint]: success
+[2024-04-15 12:06:35] INFO root fetch - main [MainThread]: Store serial: [22769150]
