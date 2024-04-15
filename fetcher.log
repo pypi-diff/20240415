@@ -2737,3 +2737,45 @@
 [2024-04-15 04:01:27] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.162.tar.gz]
 [2024-04-15 04:01:27] INFO root fetch - main [MainThread]: End processing [ansar-connect]: success
 [2024-04-15 04:01:27] INFO root fetch - main [MainThread]: Store serial: [22764500]
+[2024-04-15 04:03:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22764500]
+[2024-04-15 04:03:35] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-15 04:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mqt.qmap
+[2024-04-15 04:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: facecam
+[2024-04-15 04:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dragons96-tools
+[2024-04-15 04:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: corkit
+[2024-04-15 04:03:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: deemon
+[2024-04-15 04:03:35] INFO root fetch - processPackages [dragons96-tools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-15 04:03:35] INFO root fetch - processPackages [corkit]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-04-15 04:03:35] INFO root fetch - processPackages [dragons96-tools]: Downloading https://files.pythonhosted.org/packages/a3/35/4f02f0f12780bf7b791989ab642ec21f06b9fd66e4025906bb9c6a5af6a4/dragons96_tools-0.0.8.tar.gz
+[2024-04-15 04:03:36] WARNING root fetch - processPackages [facecam]: Skipping, unable to determine old version
+[2024-04-15 04:03:36] INFO root fetch - main [MainThread]: End processing [facecam] error
+[2024-04-15 04:03:36] INFO root fetch - processPackages [deemon]: New version: [2.9.3] Old Version: [2.9.2]
+[2024-04-15 04:03:36] INFO root fetch - processPackages [mqt.qmap]: New version: [2.5.1] Old Version: [2.5.0]
+[2024-04-15 04:03:36] INFO root fetch - processPackages [corkit]: Downloading https://files.pythonhosted.org/packages/88/c0/84683b8f1511b181c41e38456cc133b69b76582780214c0fe1bdd3d13da2/corkit-1.0.7.tar.gz
+[2024-04-15 04:03:36] INFO root fetch - processPackages [deemon]: Downloading https://files.pythonhosted.org/packages/c4/4d/dcdb6b003c65ae95253d45cfcad694c5c9934cb8210b6175f3fddab79b12/deemon-2.9.2.tar.gz
+[2024-04-15 04:03:36] INFO root fetch - processPackages [dragons96-tools]: Downloading https://files.pythonhosted.org/packages/ac/7c/813105da4cb1a3a4e0403b37ea632347837dd95f4dabad1c6224360f1284/dragons96_tools-0.0.9.tar.gz
+[2024-04-15 04:03:36] INFO root fetch - processPackages [mqt.qmap]: Downloading https://files.pythonhosted.org/packages/17/d1/3f8accfc2fb1ef6bb291eb7d48bdb01059bae940f7b822bc0a07895805f5/mqt_qmap-2.5.0.tar.gz
+[2024-04-15 04:03:36] INFO root fetch - processPackages [dragons96-tools]: executing diffoscope
+[2024-04-15 04:03:36] INFO root fetch - processPackages [dragons96-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragons96_tools-0.0.8.tar.gz tmp/dragons96_tools-0.0.9.tar.gz --markdown 20240415/d/dragons96-tools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-15 04:03:36] INFO root fetch - processPackages [corkit]: Downloading https://files.pythonhosted.org/packages/1c/53/6707ff05fe0e51d52e52e039097c0bf48dc85f36f5264eb66c4a0e030844/corkit-1.0.8.tar.gz
+[2024-04-15 04:03:36] INFO root fetch - processPackages [corkit]: executing diffoscope
+[2024-04-15 04:03:36] INFO root fetch - processPackages [corkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corkit-1.0.7.tar.gz tmp/corkit-1.0.8.tar.gz --markdown 20240415/c/corkit/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-04-15 04:03:36] INFO root fetch - processPackages [deemon]: Downloading https://files.pythonhosted.org/packages/ce/76/0d02403eaaa45d10e2a5369d280b2cdd9d95ac096bce61a1005a25afb684/deemon-2.9.3.tar.gz
+[2024-04-15 04:03:36] INFO root fetch - processPackages [mqt.qmap]: Downloading https://files.pythonhosted.org/packages/64/ae/73035aa247507c5ba27f4c5a6eddbf666969165c4ea4644c01f15d98c948/mqt_qmap-2.5.1.tar.gz
+[2024-04-15 04:03:36] INFO root fetch - processPackages [deemon]: executing diffoscope
+[2024-04-15 04:03:36] INFO root fetch - processPackages [deemon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deemon-2.9.2.tar.gz tmp/deemon-2.9.3.tar.gz --markdown 20240415/d/deemon/2.9.2-2.9.3/README.md --exclude *.pyd
+[2024-04-15 04:03:36] INFO root fetch - processPackages [dragons96-tools]: Remove: archive file [/home/abi/fetcher/tmp/dragons96_tools-0.0.8.tar.gz]
+[2024-04-15 04:03:36] INFO root fetch - processPackages [dragons96-tools]: Remove: archive file [/home/abi/fetcher/tmp/dragons96_tools-0.0.9.tar.gz]
+[2024-04-15 04:03:37] INFO root fetch - main [MainThread]: End processing [dragons96-tools]: success
+[2024-04-15 04:03:37] INFO root fetch - processPackages [corkit]: Remove: archive file [/home/abi/fetcher/tmp/corkit-1.0.7.tar.gz]
+[2024-04-15 04:03:37] INFO root fetch - processPackages [corkit]: Remove: archive file [/home/abi/fetcher/tmp/corkit-1.0.8.tar.gz]
+[2024-04-15 04:03:37] INFO root fetch - main [MainThread]: End processing [corkit]: success
+[2024-04-15 04:03:37] INFO root fetch - processPackages [mqt.qmap]: executing diffoscope
+[2024-04-15 04:03:37] INFO root fetch - processPackages [mqt.qmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mqt_qmap-2.5.0.tar.gz tmp/mqt_qmap-2.5.1.tar.gz --markdown 20240415/m/mqt.qmap/2.5.0-2.5.1/README.md --exclude *.pyd
+[2024-04-15 04:03:37] INFO root fetch - processPackages [deemon]: Remove: archive file [/home/abi/fetcher/tmp/deemon-2.9.2.tar.gz]
+[2024-04-15 04:03:37] INFO root fetch - processPackages [deemon]: Remove: archive file [/home/abi/fetcher/tmp/deemon-2.9.3.tar.gz]
+[2024-04-15 04:03:37] INFO root fetch - main [MainThread]: End processing [deemon]: success
+[2024-04-15 04:03:41] INFO root fetch - processPackages [mqt.qmap]: Remove: archive file [/home/abi/fetcher/tmp/mqt_qmap-2.5.0.tar.gz]
+[2024-04-15 04:03:41] INFO root fetch - processPackages [mqt.qmap]: Remove: archive file [/home/abi/fetcher/tmp/mqt_qmap-2.5.1.tar.gz]
+[2024-04-15 04:03:41] INFO root fetch - main [MainThread]: End processing [mqt.qmap]: success
+[2024-04-15 04:03:41] INFO root fetch - main [MainThread]: Store serial: [22764552]
