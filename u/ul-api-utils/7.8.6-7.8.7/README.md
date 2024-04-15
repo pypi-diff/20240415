@@ -1,4 +1,4 @@
-# Comparing `tmp/ul-api-utils-7.8.6.tar.gz` & `tmp/ul_api_utils-7.8.7-py3-none-any.whl.zip`
+# Comparing `tmp/ul-api-utils-7.8.6.tar.gz` & `tmp/ul-api-utils-7.8.7.tar.gz`
 
 ## filetype from file(1)
 
