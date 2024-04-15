@@ -12548,3 +12548,126 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 11:06:52] INFO root fetch - processPackages [objectbox]: Remove: archive file [/home/abi/fetcher/tmp/objectbox-0.7.0a0-py3-none-any.whl.zip]
 [2024-04-15 11:06:52] INFO root fetch - main [MainThread]: End processing [objectbox]: success
 [2024-04-15 11:06:52] INFO root fetch - main [MainThread]: Store serial: [22768352]
+[2024-04-15 11:09:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22768352]
+[2024-04-15 11:09:05] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-04-15 11:09:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DXR-BJ
+[2024-04-15 11:09:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: composio-core
+[2024-04-15 11:09:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eirStru
+[2024-04-15 11:09:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: acceldata-sdk
+[2024-04-15 11:09:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: composio-langchain
+[2024-04-15 11:09:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: composio-crewai
+[2024-04-15 11:09:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdo-sdk-python
+[2024-04-15 11:09:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: composio-autogen
+[2024-04-15 11:09:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: faster-coco-eval
+[2024-04-15 11:09:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: composio-lyzr
+[2024-04-15 11:09:05] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.9] Old Version: [1.0.82]
+[2024-04-15 11:09:05] INFO root fetch - processPackages [eirStru]: New version: [0.2.97] Old Version: [0.2.96]
+[2024-04-15 11:09:05] INFO root fetch - processPackages [composio-crewai]: New version: [0.2.0] Old Version: [0.1.99]
+[2024-04-15 11:09:05] WARNING root fetch - processPackages [DXR-BJ]: Skipping, unable to determine old version
+[2024-04-15 11:09:05] INFO root fetch - processPackages [DXR-BJ]: Start processing: onyxpm
+[2024-04-15 11:09:05] INFO root fetch - main [MainThread]: End processing [DXR-BJ] error
+[2024-04-15 11:09:05] INFO root fetch - processPackages [faster-coco-eval]: New version: [1.5.2] Old Version: [1.5.1]
+[2024-04-15 11:09:05] INFO root fetch - processPackages [composio-autogen]: New version: [0.2.0] Old Version: [0.1.99]
+[2024-04-15 11:09:05] INFO root fetch - processPackages [acceldata-sdk]: New version: [3.3.0] Old Version: [3.2.0]
+[2024-04-15 11:09:05] INFO root fetch - processPackages [composio-langchain]: New version: [0.2.0] Old Version: [0.1.99]
+[2024-04-15 11:09:05] INFO root fetch - processPackages [composio-lyzr]: New version: [0.2.0] Old Version: [0.1.99]
+[2024-04-15 11:09:05] INFO root fetch - processPackages [composio-core]: New version: [0.2.0] Old Version: [0.1.99]
+[2024-04-15 11:09:05] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/90/5e/6c4ed4f519736eb7bdf0446052b9421e282f9c5193c20f631b0868dde7c2/cdo-sdk-python-1.0.82.tar.gz
+[2024-04-15 11:09:05] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/ad/d9/326575b9e01b740620748db4cb34a631a6ebe043849698acd443e8853429/eirStru-0.2.96.tar.gz
+[2024-04-15 11:09:05] INFO root fetch - processPackages [onyxpm]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-15 11:09:05] INFO root fetch - processPackages [composio-crewai]: Downloading https://files.pythonhosted.org/packages/c0/ab/fb5bb3ae47dc058796115d6e5c10db98d710c373c1e54e883a4ffef47dbc/composio_crewai-0.1.99.tar.gz
+[2024-04-15 11:09:05] INFO root fetch - processPackages [faster-coco-eval]: Downloading https://files.pythonhosted.org/packages/3f/7d/017927141f975669627722fd0d365212e6e7c84a2b5a9d6dde710eb7ba18/faster_coco_eval-1.5.1.tar.gz
+[2024-04-15 11:09:05] INFO root fetch - processPackages [composio-autogen]: Downloading https://files.pythonhosted.org/packages/1f/33/0941d1fbc8a5f759822a0b5881ea63ee93631968a77d8d469c51f0d6970e/composio_autogen-0.1.99.tar.gz
+[2024-04-15 11:09:05] INFO root fetch - processPackages [composio-langchain]: Downloading https://files.pythonhosted.org/packages/e3/1c/35e8ccd310f68865bf166af0da263e596288512b52bca97cdb2e87976219/composio_langchain-0.1.99.tar.gz
+[2024-04-15 11:09:05] INFO root fetch - processPackages [composio-lyzr]: Downloading https://files.pythonhosted.org/packages/56/2c/f376e3cb466b24f5cab368dbb01263ca28cf504d4808d9cd5de88732f568/composio_lyzr-0.1.99.tar.gz
+[2024-04-15 11:09:05] INFO root fetch - processPackages [acceldata-sdk]: Downloading https://files.pythonhosted.org/packages/82/7b/f45b660fe7485777fb7a874886c6f5d13184b5fdca8eb50a797ca318915d/acceldata_sdk-3.2.0.tar.gz
+[2024-04-15 11:09:05] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/3d/94/aa65f6f1771ce4c491b6d10ed243119b285e56b55a587b07a15c7f5bbd23/composio_core-0.1.99.tar.gz
+[2024-04-15 11:09:05] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/d1/4b/41dfe0ac58b980065766117bd4e1f6e5ff276f5ca45cfbcdaba7cc25a375/cdo-sdk-python-1.0.9.tar.gz
+[2024-04-15 11:09:06] INFO root fetch - processPackages [onyxpm]: Downloading https://files.pythonhosted.org/packages/9a/bc/44a2f1e696cbddd80a3ddc699a85e03ef5cd961b49041e930099210fabbd/onyxpm-0.0.2.tar.gz
+[2024-04-15 11:09:06] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/ef/41/919f89ec0f7f0eb9350c758958760a7b99d957d87dc6fe81702e27ec284d/eirStru-0.2.97.tar.gz
+[2024-04-15 11:09:06] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-04-15 11:09:06] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.82.tar.gz tmp/cdo-sdk-python-1.0.9.tar.gz --markdown 20240415/c/cdo-sdk-python/1.0.82-1.0.9/README.md --exclude *.pyd
+[2024-04-15 11:09:06] INFO root fetch - processPackages [eirStru]: executing diffoscope
+[2024-04-15 11:09:06] INFO root fetch - processPackages [eirStru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eirStru-0.2.96.tar.gz tmp/eirStru-0.2.97.tar.gz --markdown 20240415/e/eirStru/0.2.96-0.2.97/README.md --exclude *.pyd
+[2024-04-15 11:09:06] INFO root fetch - processPackages [composio-crewai]: Downloading https://files.pythonhosted.org/packages/ba/28/6b679f09370a28ee36b0a18dfa2ebcce426a4fd14214a28c7c66251fa963/composio_crewai-0.2.0.tar.gz
+[2024-04-15 11:09:06] INFO root fetch - processPackages [composio-autogen]: Downloading https://files.pythonhosted.org/packages/09/64/71d293818acc00fc744f53624f2848caa8c8a44f502bf5d44638f9a8764e/composio_autogen-0.2.0.tar.gz
+[2024-04-15 11:09:06] INFO root fetch - processPackages [faster-coco-eval]: Downloading https://files.pythonhosted.org/packages/09/d9/93af765d01a48769e14d5dfa443c8ca7a3b4186047e4cc70da2b519244af/faster_coco_eval-1.5.2.tar.gz
+[2024-04-15 11:09:06] INFO root fetch - processPackages [composio-langchain]: Downloading https://files.pythonhosted.org/packages/2c/99/94a615886e5bdd89a8ce9805de9dbb974f287db22ee6e0201c0465172142/composio_langchain-0.2.0.tar.gz
+[2024-04-15 11:09:06] INFO root fetch - processPackages [composio-lyzr]: Downloading https://files.pythonhosted.org/packages/ae/a2/b91058e5414924ab4b92acc37a611ad6abc33302e2b151647dcfc623d918/composio_lyzr-0.2.0.tar.gz
+[2024-04-15 11:09:06] INFO root fetch - processPackages [acceldata-sdk]: Downloading https://files.pythonhosted.org/packages/05/30/e7dddcf82b9c638bbf0768975eddfbc7fdc618932e24530ddad2143013dd/acceldata_sdk-3.3.0.tar.gz
+[2024-04-15 11:09:06] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/8e/7e/dd6a3645beb5e6746ca2e391339368789a54f0f685477f05c22f362cb648/composio_core-0.2.0.tar.gz
+[2024-04-15 11:09:06] INFO root fetch - processPackages [composio-crewai]: executing diffoscope
+[2024-04-15 11:09:06] INFO root fetch - processPackages [composio-crewai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_crewai-0.1.99.tar.gz tmp/composio_crewai-0.2.0.tar.gz --markdown 20240415/c/composio-crewai/0.1.99-0.2.0/README.md --exclude *.pyd
+[2024-04-15 11:09:06] INFO root fetch - processPackages [composio-autogen]: executing diffoscope
+[2024-04-15 11:09:06] INFO root fetch - processPackages [composio-autogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_autogen-0.1.99.tar.gz tmp/composio_autogen-0.2.0.tar.gz --markdown 20240415/c/composio-autogen/0.1.99-0.2.0/README.md --exclude *.pyd
+[2024-04-15 11:09:06] INFO root fetch - processPackages [onyxpm]: Downloading https://files.pythonhosted.org/packages/70/39/3e627e72ce3a1539f2605d0e819e74e2578954b530e2381a7a707d2d0a94/onyxpm-0.0.3.tar.gz
+[2024-04-15 11:09:06] INFO root fetch - processPackages [faster-coco-eval]: executing diffoscope
+[2024-04-15 11:09:06] INFO root fetch - processPackages [faster-coco-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faster_coco_eval-1.5.1.tar.gz tmp/faster_coco_eval-1.5.2.tar.gz --markdown 20240415/f/faster-coco-eval/1.5.1-1.5.2/README.md --exclude *.pyd
+[2024-04-15 11:09:06] INFO root fetch - processPackages [composio-lyzr]: executing diffoscope
+[2024-04-15 11:09:06] INFO root fetch - processPackages [composio-lyzr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_lyzr-0.1.99.tar.gz tmp/composio_lyzr-0.2.0.tar.gz --markdown 20240415/c/composio-lyzr/0.1.99-0.2.0/README.md --exclude *.pyd
+[2024-04-15 11:09:06] INFO root fetch - processPackages [composio-langchain]: executing diffoscope
+[2024-04-15 11:09:06] INFO root fetch - processPackages [composio-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_langchain-0.1.99.tar.gz tmp/composio_langchain-0.2.0.tar.gz --markdown 20240415/c/composio-langchain/0.1.99-0.2.0/README.md --exclude *.pyd
+[2024-04-15 11:09:06] INFO root fetch - processPackages [composio-core]: executing diffoscope
+[2024-04-15 11:09:06] INFO root fetch - processPackages [composio-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_core-0.1.99.tar.gz tmp/composio_core-0.2.0.tar.gz --markdown 20240415/c/composio-core/0.1.99-0.2.0/README.md --exclude *.pyd
+[2024-04-15 11:09:06] INFO root fetch - processPackages [acceldata-sdk]: executing diffoscope
+[2024-04-15 11:09:06] INFO root fetch - processPackages [acceldata-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acceldata_sdk-3.2.0.tar.gz tmp/acceldata_sdk-3.3.0.tar.gz --markdown 20240415/a/acceldata-sdk/3.2.0-3.3.0/README.md --exclude *.pyd
+[2024-04-15 11:09:06] INFO root fetch - processPackages [onyxpm]: executing diffoscope
+[2024-04-15 11:09:06] INFO root fetch - processPackages [onyxpm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onyxpm-0.0.2.tar.gz tmp/onyxpm-0.0.3.tar.gz --markdown 20240415/o/onyxpm/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-15 11:09:07] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.2.96.tar.gz]
+[2024-04-15 11:09:07] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.2.97.tar.gz]
+[2024-04-15 11:09:07] INFO root fetch - processPackages [eirStru]: Start processing: localstack-core
+[2024-04-15 11:09:07] INFO root fetch - main [MainThread]: End processing [eirStru]: success
+[2024-04-15 11:09:07] INFO root fetch - processPackages [localstack-core]: New version: [3.3.1.dev20240415090818] Old Version: [3.3.1.dev20240413111107]
+[2024-04-15 11:09:07] INFO root fetch - processPackages [composio-autogen]: Remove: archive file [/home/abi/fetcher/tmp/composio_autogen-0.1.99.tar.gz]
+[2024-04-15 11:09:07] INFO root fetch - processPackages [composio-autogen]: Remove: archive file [/home/abi/fetcher/tmp/composio_autogen-0.2.0.tar.gz]
+[2024-04-15 11:09:07] INFO root fetch - processPackages [composio-autogen]: Start processing: acceldata-airflow-sdk
+[2024-04-15 11:09:07] INFO root fetch - main [MainThread]: End processing [composio-autogen]: success
+[2024-04-15 11:09:07] INFO root fetch - processPackages [composio-crewai]: Remove: archive file [/home/abi/fetcher/tmp/composio_crewai-0.1.99.tar.gz]
+[2024-04-15 11:09:07] INFO root fetch - processPackages [composio-crewai]: Remove: archive file [/home/abi/fetcher/tmp/composio_crewai-0.2.0.tar.gz]
+[2024-04-15 11:09:07] INFO root fetch - processPackages [composio-crewai]: Start processing: seiscod
+[2024-04-15 11:09:07] INFO root fetch - main [MainThread]: End processing [composio-crewai]: success
+[2024-04-15 11:09:07] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.1.99.tar.gz]
+[2024-04-15 11:09:07] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.2.0.tar.gz]
+[2024-04-15 11:09:07] INFO root fetch - main [MainThread]: End processing [composio-core]: success
+[2024-04-15 11:09:07] INFO root fetch - processPackages [acceldata-airflow-sdk]: New version: [3.3.0] Old Version: [3.2.0]
+[2024-04-15 11:09:07] INFO root fetch - processPackages [faster-coco-eval]: Remove: archive file [/home/abi/fetcher/tmp/faster_coco_eval-1.5.1.tar.gz]
+[2024-04-15 11:09:07] INFO root fetch - processPackages [faster-coco-eval]: Remove: archive file [/home/abi/fetcher/tmp/faster_coco_eval-1.5.2.tar.gz]
+[2024-04-15 11:09:07] INFO root fetch - main [MainThread]: End processing [faster-coco-eval]: success
+[2024-04-15 11:09:07] INFO root fetch - processPackages [seiscod]: New version: [3.3.3] Old Version: [3.3.2]
+[2024-04-15 11:09:07] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/85/5d/959c5592aac1c1b1223eeb92892989ef568f8de50629d091b19ccf7fbc5d/localstack-core-3.3.1.dev20240413111107.tar.gz
+[2024-04-15 11:09:07] INFO root fetch - processPackages [composio-langchain]: Remove: archive file [/home/abi/fetcher/tmp/composio_langchain-0.1.99.tar.gz]
+[2024-04-15 11:09:07] INFO root fetch - processPackages [composio-langchain]: Remove: archive file [/home/abi/fetcher/tmp/composio_langchain-0.2.0.tar.gz]
+[2024-04-15 11:09:07] INFO root fetch - main [MainThread]: End processing [composio-langchain]: success
+[2024-04-15 11:09:07] INFO root fetch - processPackages [composio-lyzr]: Remove: archive file [/home/abi/fetcher/tmp/composio_lyzr-0.1.99.tar.gz]
+[2024-04-15 11:09:07] INFO root fetch - processPackages [composio-lyzr]: Remove: archive file [/home/abi/fetcher/tmp/composio_lyzr-0.2.0.tar.gz]
+[2024-04-15 11:09:07] INFO root fetch - main [MainThread]: End processing [composio-lyzr]: success
+[2024-04-15 11:09:07] INFO root fetch - processPackages [acceldata-airflow-sdk]: Downloading https://files.pythonhosted.org/packages/d3/d5/86fc99cfad5a07aa7bb3b8e243f5699d7e5f5d6038737cf58cf757a33954/acceldata_airflow_sdk-3.2.0.tar.gz
+[2024-04-15 11:09:07] INFO root fetch - processPackages [onyxpm]: Remove: archive file [/home/abi/fetcher/tmp/onyxpm-0.0.2.tar.gz]
+[2024-04-15 11:09:07] INFO root fetch - processPackages [onyxpm]: Remove: archive file [/home/abi/fetcher/tmp/onyxpm-0.0.3.tar.gz]
+[2024-04-15 11:09:07] INFO root fetch - main [MainThread]: End processing [onyxpm]: success
+[2024-04-15 11:09:07] INFO root fetch - processPackages [seiscod]: Downloading https://files.pythonhosted.org/packages/6e/9f/33300bf5de4d7bf00b3abbe2b40410a6d0513036d78440d1959935d1c38a/seiscod-3.3.2-py3-none-any.whl
+[2024-04-15 11:09:08] INFO root fetch - processPackages [acceldata-sdk]: Remove: archive file [/home/abi/fetcher/tmp/acceldata_sdk-3.2.0.tar.gz]
+[2024-04-15 11:09:08] INFO root fetch - processPackages [acceldata-sdk]: Remove: archive file [/home/abi/fetcher/tmp/acceldata_sdk-3.3.0.tar.gz]
+[2024-04-15 11:09:08] INFO root fetch - main [MainThread]: End processing [acceldata-sdk]: success
+[2024-04-15 11:09:08] INFO root fetch - processPackages [acceldata-airflow-sdk]: Downloading https://files.pythonhosted.org/packages/04/36/cc09b030ff60abe737569ed73141663bb1349566cbdb6b64b518a65dc831/acceldata_airflow_sdk-3.3.0.tar.gz
+[2024-04-15 11:09:08] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/82/eb/af9f2ba226a7412b5a33561dcb9243ad533a67b6a0583f9dda72db15a027/localstack_core-3.3.1.dev20240415090818.tar.gz
+[2024-04-15 11:09:08] INFO root fetch - processPackages [seiscod]: Downloading https://files.pythonhosted.org/packages/5e/92/30a41f3f39028e40d69dd65ec5c2e751f3af6504edb1ab2d2e7a2f0170bc/seiscod-3.3.3-py3-none-any.whl
+[2024-04-15 11:09:08] INFO root fetch - processPackages [acceldata-airflow-sdk]: executing diffoscope
+[2024-04-15 11:09:08] INFO root fetch - processPackages [acceldata-airflow-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acceldata_airflow_sdk-3.2.0.tar.gz tmp/acceldata_airflow_sdk-3.3.0.tar.gz --markdown 20240415/a/acceldata-airflow-sdk/3.2.0-3.3.0/README.md --exclude *.pyd
+[2024-04-15 11:09:08] INFO root fetch - processPackages [seiscod]: executing diffoscope
+[2024-04-15 11:09:08] INFO root fetch - processPackages [seiscod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seiscod-3.3.2-py3-none-any.whl.zip tmp/seiscod-3.3.3-py3-none-any.whl.zip --markdown 20240415/s/seiscod/3.3.2-3.3.3/README.md --exclude *.pyd
+[2024-04-15 11:09:08] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-04-15 11:09:08] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-3.3.1.dev20240413111107.tar.gz tmp/localstack_core-3.3.1.dev20240415090818.tar.gz --markdown 20240415/l/localstack-core/3.3.1.dev20240413111107-3.3.1.dev20240415090818/README.md --exclude *.pyd
+[2024-04-15 11:09:09] INFO root fetch - processPackages [acceldata-airflow-sdk]: Remove: archive file [/home/abi/fetcher/tmp/acceldata_airflow_sdk-3.2.0.tar.gz]
+[2024-04-15 11:09:09] INFO root fetch - processPackages [acceldata-airflow-sdk]: Remove: archive file [/home/abi/fetcher/tmp/acceldata_airflow_sdk-3.3.0.tar.gz]
+[2024-04-15 11:09:09] INFO root fetch - main [MainThread]: End processing [acceldata-airflow-sdk]: success
+[2024-04-15 11:09:09] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.82.tar.gz]
+[2024-04-15 11:09:09] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.9.tar.gz]
+[2024-04-15 11:09:09] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-04-15 11:09:09] INFO root fetch - processPackages [seiscod]: Remove: archive file [/home/abi/fetcher/tmp/seiscod-3.3.2-py3-none-any.whl.zip]
+[2024-04-15 11:09:09] INFO root fetch - processPackages [seiscod]: Remove: archive file [/home/abi/fetcher/tmp/seiscod-3.3.3-py3-none-any.whl.zip]
+[2024-04-15 11:09:09] INFO root fetch - main [MainThread]: End processing [seiscod]: success
+[2024-04-15 11:09:12] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-3.3.1.dev20240413111107.tar.gz]
+[2024-04-15 11:09:12] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.3.1.dev20240415090818.tar.gz]
+[2024-04-15 11:09:12] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-04-15 11:09:12] INFO root fetch - main [MainThread]: Store serial: [22768399]
