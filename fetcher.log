@@ -8043,3 +8043,33 @@
 [2024-04-15 07:56:28] INFO root fetch - processPackages [async-redis-uow]: Remove: archive file [/home/abi/fetcher/tmp/async_redis_uow-0.0.9.tar.gz]
 [2024-04-15 07:56:28] INFO root fetch - main [MainThread]: End processing [async-redis-uow]: success
 [2024-04-15 07:56:28] INFO root fetch - main [MainThread]: Store serial: [22766445]
+[2024-04-15 07:58:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22766445]
+[2024-04-15 07:58:38] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-15 07:58:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quantplay
+[2024-04-15 07:58:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: radical.gtod
+[2024-04-15 07:58:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crepex-django-util
+[2024-04-15 07:58:38] INFO root fetch - processPackages [radical.gtod]: New version: [1.6.7] Old Version: [1.5.0]
+[2024-04-15 07:58:38] INFO root fetch - processPackages [radical.gtod]: Downloading https://files.pythonhosted.org/packages/79/10/f1a89928a077875824f44a6b09a26408148d8b18ca0639ae0a3782adb7f1/radical.gtod-1.5.0.tar.gz
+[2024-04-15 07:58:38] INFO root fetch - processPackages [crepex-django-util]: New version: [0.8.0] Old Version: [0.7.4]
+[2024-04-15 07:58:38] INFO root fetch - processPackages [quantplay]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-04-15 07:58:38] INFO root fetch - processPackages [radical.gtod]: Downloading https://files.pythonhosted.org/packages/e7/99/b30606ef545cb7dd3965e4271424fac7ce5ea037377a5a165605efd5aced/radical.gtod-1.6.7.tar.gz
+[2024-04-15 07:58:38] INFO root fetch - processPackages [crepex-django-util]: Downloading https://files.pythonhosted.org/packages/60/4c/6eb0fec9df9e4293d718b44927b3875047c80f0037567179bc44651f6fa3/crepex_django_util-0.7.4.tar.gz
+[2024-04-15 07:58:38] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/71/23/85a802491d69beb714dd8831f123c9440301eb94caca43392e50be63fff6/quantplay-1.5.8.tar.gz
+[2024-04-15 07:58:39] INFO root fetch - processPackages [radical.gtod]: executing diffoscope
+[2024-04-15 07:58:39] INFO root fetch - processPackages [radical.gtod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radical.gtod-1.5.0.tar.gz tmp/radical.gtod-1.6.7.tar.gz --markdown 20240415/r/radical.gtod/1.5.0-1.6.7/README.md --exclude *.pyd
+[2024-04-15 07:58:39] INFO root fetch - processPackages [crepex-django-util]: Downloading https://files.pythonhosted.org/packages/bb/7a/bf06cdf247fb0768291964ea58a49363803a2085a5f628d9d6fa18406405/crepex_django_util-0.8.0.tar.gz
+[2024-04-15 07:58:39] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/29/44/bc619a0a4e2ecba52ee7f6eac8f51f600a1d90bb67f88a28638d7d9f9c62/quantplay-1.5.9.tar.gz
+[2024-04-15 07:58:39] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2024-04-15 07:58:39] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.5.8.tar.gz tmp/quantplay-1.5.9.tar.gz --markdown 20240415/q/quantplay/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-04-15 07:58:39] INFO root fetch - processPackages [crepex-django-util]: executing diffoscope
+[2024-04-15 07:58:39] INFO root fetch - processPackages [crepex-django-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crepex_django_util-0.7.4.tar.gz tmp/crepex_django_util-0.8.0.tar.gz --markdown 20240415/c/crepex-django-util/0.7.4-0.8.0/README.md --exclude *.pyd
+[2024-04-15 07:58:39] INFO root fetch - processPackages [radical.gtod]: Remove: archive file [/home/abi/fetcher/tmp/radical.gtod-1.5.0.tar.gz]
+[2024-04-15 07:58:39] INFO root fetch - processPackages [radical.gtod]: Remove: archive file [/home/abi/fetcher/tmp/radical.gtod-1.6.7.tar.gz]
+[2024-04-15 07:58:39] INFO root fetch - main [MainThread]: End processing [radical.gtod]: success
+[2024-04-15 07:58:40] INFO root fetch - processPackages [crepex-django-util]: Remove: archive file [/home/abi/fetcher/tmp/crepex_django_util-0.7.4.tar.gz]
+[2024-04-15 07:58:40] INFO root fetch - processPackages [crepex-django-util]: Remove: archive file [/home/abi/fetcher/tmp/crepex_django_util-0.8.0.tar.gz]
+[2024-04-15 07:58:40] INFO root fetch - main [MainThread]: End processing [crepex-django-util]: success
+[2024-04-15 07:58:40] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.8.tar.gz]
+[2024-04-15 07:58:40] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.9.tar.gz]
+[2024-04-15 07:58:40] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2024-04-15 07:58:40] INFO root fetch - main [MainThread]: Store serial: [22766453]
