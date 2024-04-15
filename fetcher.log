@@ -3789,3 +3789,33 @@
 [2024-04-15 05:02:25] INFO root fetch - processPackages [BioSAK]: Remove: archive file [/home/abi/fetcher/tmp/BioSAK-1.84.1.tar.gz]
 [2024-04-15 05:02:25] INFO root fetch - main [MainThread]: End processing [BioSAK]: success
 [2024-04-15 05:02:25] INFO root fetch - main [MainThread]: Store serial: [22764905]
+[2024-04-15 05:04:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22764905]
+[2024-04-15 05:04:33] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-15 05:04:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: specklia
+[2024-04-15 05:04:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ansar-connect
+[2024-04-15 05:04:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xcloud-client
+[2024-04-15 05:04:34] INFO root fetch - processPackages [xcloud-client]: New version: [2.0] Old Version: [1.0]
+[2024-04-15 05:04:34] INFO root fetch - processPackages [ansar-connect]: New version: [0.1.165] Old Version: [0.1.164]
+[2024-04-15 05:04:34] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/bc/29/280e61b51530a67e26d092606e508b2b7b025900fb60afbeceac89b111fd/ansar_connect-0.1.164.tar.gz
+[2024-04-15 05:04:34] INFO root fetch - processPackages [specklia]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-04-15 05:04:34] INFO root fetch - processPackages [xcloud-client]: Downloading https://files.pythonhosted.org/packages/58/7f/7e724d0fbf8d4af3cd059e96ebcb68f7ab6c90ec7389533ffd0faed2bc15/xcloud_client-1.0.tar.gz
+[2024-04-15 05:04:34] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/a7/9f/4720917cb05f5cbc2f231e1f8046c023fc1f91d4aaefdae32d0a739be648/specklia-1.8.8.tar.gz
+[2024-04-15 05:04:34] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/85/cd/111fea41631a87f77bccbd882f579a2fa8019cc389285ab0276f04cb0b75/ansar_connect-0.1.165.tar.gz
+[2024-04-15 05:04:34] INFO root fetch - processPackages [ansar-connect]: executing diffoscope
+[2024-04-15 05:04:34] INFO root fetch - processPackages [ansar-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar_connect-0.1.164.tar.gz tmp/ansar_connect-0.1.165.tar.gz --markdown 20240415/a/ansar-connect/0.1.164-0.1.165/README.md --exclude *.pyd
+[2024-04-15 05:04:34] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/0d/ec/3815cb2a18ad5b8029e09da92f85c68b28ffd5dbcf20be7c41214190aeaf/specklia-1.8.9.tar.gz
+[2024-04-15 05:04:34] INFO root fetch - processPackages [specklia]: executing diffoscope
+[2024-04-15 05:04:34] INFO root fetch - processPackages [specklia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specklia-1.8.8.tar.gz tmp/specklia-1.8.9.tar.gz --markdown 20240415/s/specklia/1.8.8-1.8.9/README.md --exclude *.pyd
+[2024-04-15 05:04:34] INFO root fetch - processPackages [xcloud-client]: Downloading https://files.pythonhosted.org/packages/ca/64/69d5b3b43c198442f590c4762a8781cd9e89b8944189bc26b4355f741cb4/xcloud_client-2.0.tar.gz
+[2024-04-15 05:04:35] INFO root fetch - processPackages [xcloud-client]: executing diffoscope
+[2024-04-15 05:04:35] INFO root fetch - processPackages [xcloud-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xcloud_client-1.0.tar.gz tmp/xcloud_client-2.0.tar.gz --markdown 20240415/x/xcloud-client/1.0-2.0/README.md --exclude *.pyd
+[2024-04-15 05:04:35] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.164.tar.gz]
+[2024-04-15 05:04:35] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.165.tar.gz]
+[2024-04-15 05:04:35] INFO root fetch - main [MainThread]: End processing [ansar-connect]: success
+[2024-04-15 05:04:35] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.8.tar.gz]
+[2024-04-15 05:04:35] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.9.tar.gz]
+[2024-04-15 05:04:35] INFO root fetch - main [MainThread]: End processing [specklia]: success
+[2024-04-15 05:04:35] INFO root fetch - processPackages [xcloud-client]: Remove: archive file [/home/abi/fetcher/tmp/xcloud_client-1.0.tar.gz]
+[2024-04-15 05:04:35] INFO root fetch - processPackages [xcloud-client]: Remove: archive file [/home/abi/fetcher/tmp/xcloud_client-2.0.tar.gz]
+[2024-04-15 05:04:35] INFO root fetch - main [MainThread]: End processing [xcloud-client]: success
+[2024-04-15 05:04:35] INFO root fetch - main [MainThread]: Store serial: [22764917]
