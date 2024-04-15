@@ -1553,3 +1553,33 @@
 [2024-04-15 02:08:18] INFO root fetch - processPackages [intellikit]: Remove: archive file [/home/abi/fetcher/tmp/intellikit-0.0.4.tar.gz]
 [2024-04-15 02:08:18] INFO root fetch - main [MainThread]: End processing [intellikit]: success
 [2024-04-15 02:08:18] INFO root fetch - main [MainThread]: Store serial: [22763820]
+[2024-04-15 02:10:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22763820]
+[2024-04-15 02:10:26] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-15 02:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: drakon
+[2024-04-15 02:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: surquest-split-balancer
+[2024-04-15 02:10:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyCocos
+[2024-04-15 02:10:27] INFO root fetch - processPackages [surquest-split-balancer]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-15 02:10:27] INFO root fetch - processPackages [surquest-split-balancer]: Downloading https://files.pythonhosted.org/packages/eb/d0/92ec5c5c20c7bc3cb8010a435ea7c16805a743b3cee8469a958c07ae961e/surquest_split_balancer-0.0.2.tar.gz
+[2024-04-15 02:10:27] INFO root fetch - processPackages [pyCocos]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-15 02:10:27] INFO root fetch - processPackages [drakon]: New version: [0.0.1.dev1] Old Version: [0.0.1.dev0]
+[2024-04-15 02:10:27] INFO root fetch - processPackages [drakon]: Downloading https://files.pythonhosted.org/packages/f7/1d/7b351c768dee14eb3f7517a5373194727999f0be64eaaf660cf659e86bcc/drakon-0.0.1.dev0-py3-none-any.whl
+[2024-04-15 02:10:27] INFO root fetch - processPackages [pyCocos]: Downloading https://files.pythonhosted.org/packages/f6/71/a48688044375de920ca47b072061ce0949d268de83d18eb5360ec2a4b0c4/pyCocos-0.2.3.tar.gz
+[2024-04-15 02:10:27] INFO root fetch - processPackages [surquest-split-balancer]: Downloading https://files.pythonhosted.org/packages/a2/11/5dc1cfd836425ff3ee62ab567c67627b27db831fae7e8d589cda255b88de/surquest_split_balancer-0.0.3.tar.gz
+[2024-04-15 02:10:27] INFO root fetch - processPackages [surquest-split-balancer]: executing diffoscope
+[2024-04-15 02:10:27] INFO root fetch - processPackages [surquest-split-balancer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surquest_split_balancer-0.0.2.tar.gz tmp/surquest_split_balancer-0.0.3.tar.gz --markdown 20240415/s/surquest-split-balancer/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-15 02:10:27] INFO root fetch - processPackages [drakon]: Downloading https://files.pythonhosted.org/packages/dc/e0/33bd835031653902c4f39bd08307ff04ee2991d427e0cc6587af39c45285/drakon-0.0.1.dev1-py3-none-any.whl
+[2024-04-15 02:10:27] INFO root fetch - processPackages [pyCocos]: Downloading https://files.pythonhosted.org/packages/66/bc/6c1cbfdc5b1169fa65162b30418e64ca3eec62a6fe7ae6e7e2813b30666d/pycocos-0.2.4.tar.gz
+[2024-04-15 02:10:27] INFO root fetch - processPackages [drakon]: executing diffoscope
+[2024-04-15 02:10:27] INFO root fetch - processPackages [drakon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drakon-0.0.1.dev0-py3-none-any.whl.zip tmp/drakon-0.0.1.dev1-py3-none-any.whl.zip --markdown 20240415/d/drakon/0.0.1.dev0-0.0.1.dev1/README.md --exclude *.pyd
+[2024-04-15 02:10:28] INFO root fetch - processPackages [pyCocos]: executing diffoscope
+[2024-04-15 02:10:28] INFO root fetch - processPackages [pyCocos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyCocos-0.2.3.tar.gz tmp/pycocos-0.2.4.tar.gz --markdown 20240415/p/pyCocos/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-15 02:10:28] INFO root fetch - processPackages [surquest-split-balancer]: Remove: archive file [/home/abi/fetcher/tmp/surquest_split_balancer-0.0.2.tar.gz]
+[2024-04-15 02:10:28] INFO root fetch - processPackages [surquest-split-balancer]: Remove: archive file [/home/abi/fetcher/tmp/surquest_split_balancer-0.0.3.tar.gz]
+[2024-04-15 02:10:28] INFO root fetch - main [MainThread]: End processing [surquest-split-balancer]: success
+[2024-04-15 02:10:28] INFO root fetch - processPackages [drakon]: Remove: archive file [/home/abi/fetcher/tmp/drakon-0.0.1.dev0-py3-none-any.whl.zip]
+[2024-04-15 02:10:28] INFO root fetch - processPackages [drakon]: Remove: archive file [/home/abi/fetcher/tmp/drakon-0.0.1.dev1-py3-none-any.whl.zip]
+[2024-04-15 02:10:28] INFO root fetch - main [MainThread]: End processing [drakon]: success
+[2024-04-15 02:10:28] INFO root fetch - processPackages [pyCocos]: Remove: archive file [/home/abi/fetcher/tmp/pyCocos-0.2.3.tar.gz]
+[2024-04-15 02:10:28] INFO root fetch - processPackages [pyCocos]: Remove: archive file [/home/abi/fetcher/tmp/pycocos-0.2.4.tar.gz]
+[2024-04-15 02:10:28] INFO root fetch - main [MainThread]: End processing [pyCocos]: success
+[2024-04-15 02:10:28] INFO root fetch - main [MainThread]: Store serial: [22763841]
