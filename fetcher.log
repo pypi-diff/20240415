@@ -10766,3 +10766,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 10:03:13] INFO root fetch - processPackages [waylay-sdk-registry]: Remove: archive file [/home/abi/fetcher/tmp/waylay-sdk-registry-2.13.0rc0.tar.gz]
 [2024-04-15 10:03:13] INFO root fetch - main [MainThread]: End processing [waylay-sdk-registry]: success
 [2024-04-15 10:03:13] INFO root fetch - main [MainThread]: Store serial: [22767572]
+[2024-04-15 10:05:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22767572]
+[2024-04-15 10:05:23] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-15 10:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langfun
+[2024-04-15 10:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: waylay-sdk-registry-types
+[2024-04-15 10:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lmcloud
+[2024-04-15 10:05:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: recce
+[2024-04-15 10:05:23] INFO root fetch - processPackages [langfun]: New version: [0.0.2.dev20240415] Old Version: [0.0.2.dev20240414]
+[2024-04-15 10:05:23] INFO root fetch - processPackages [waylay-sdk-registry-types]: New version: [2.13.0rc0] Old Version: [2.13.0b0.post0]
+[2024-04-15 10:05:23] INFO root fetch - processPackages [recce]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-04-15 10:05:23] INFO root fetch - processPackages [lmcloud]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-15 10:05:23] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/c8/2e/2e6502a7d8fe952bddff63cea89acf75fe984c1a5d172a55c9b0b86f86d8/langfun-0.0.2.dev20240414.tar.gz
+[2024-04-15 10:05:24] INFO root fetch - processPackages [recce]: Downloading https://files.pythonhosted.org/packages/21/df/adca101db9b99292c6610c06f9f9f9dba09307c59db7b48b0c3b9ecb4c47/recce-0.8.2.tar.gz
+[2024-04-15 10:05:24] INFO root fetch - processPackages [waylay-sdk-registry-types]: Downloading https://files.pythonhosted.org/packages/0d/e6/635cfd41c20ff6472c403cc8adf9b83972908ac980ffd38126e0b7411832/waylay-sdk-registry-types-2.13.0b0.post0.tar.gz
+[2024-04-15 10:05:24] INFO root fetch - processPackages [lmcloud]: Downloading https://files.pythonhosted.org/packages/aa/67/56cdfd48eb4a41af4c9c6780d13d214e1e51df75becd44b2453739e0dc26/lmcloud-1.1.8.tar.gz
+[2024-04-15 10:05:24] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/8f/5c/30fc071ee7d0b27d9874844cbab04a89641fb04098f86d4901919b6fdeab/langfun-0.0.2.dev20240415.tar.gz
+[2024-04-15 10:05:24] INFO root fetch - processPackages [langfun]: executing diffoscope
+[2024-04-15 10:05:24] INFO root fetch - processPackages [langfun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfun-0.0.2.dev20240414.tar.gz tmp/langfun-0.0.2.dev20240415.tar.gz --markdown 20240415/l/langfun/0.0.2.dev20240414-0.0.2.dev20240415/README.md --exclude *.pyd
+[2024-04-15 10:05:24] INFO root fetch - processPackages [waylay-sdk-registry-types]: Downloading https://files.pythonhosted.org/packages/8c/06/b1a4d3c4d75d8af05bcf634494d8eebbf4a58f581cb10b21b21d9e4ded76/waylay-sdk-registry-types-2.13.0rc0.tar.gz
+[2024-04-15 10:05:24] INFO root fetch - processPackages [lmcloud]: Downloading https://files.pythonhosted.org/packages/a1/9f/8cd9c4ee3f84c2f69480bdc54bbc5389d1a019f3dd94c2b4104fec07edaf/lmcloud-1.1.9.tar.gz
+[2024-04-15 10:05:24] INFO root fetch - processPackages [recce]: Downloading https://files.pythonhosted.org/packages/1f/7b/6a960c2015316c08df9c69a378c80579bd00ffa654316ef62781e6e4ac3c/recce-0.9.0.tar.gz
+[2024-04-15 10:05:24] INFO root fetch - processPackages [waylay-sdk-registry-types]: executing diffoscope
+[2024-04-15 10:05:24] INFO root fetch - processPackages [waylay-sdk-registry-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waylay-sdk-registry-types-2.13.0b0.post0.tar.gz tmp/waylay-sdk-registry-types-2.13.0rc0.tar.gz --markdown 20240415/w/waylay-sdk-registry-types/2.13.0b0.post0-2.13.0rc0/README.md --exclude *.pyd
+[2024-04-15 10:05:24] INFO root fetch - processPackages [lmcloud]: executing diffoscope
+[2024-04-15 10:05:24] INFO root fetch - processPackages [lmcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmcloud-1.1.8.tar.gz tmp/lmcloud-1.1.9.tar.gz --markdown 20240415/l/lmcloud/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-04-15 10:05:24] INFO root fetch - processPackages [recce]: executing diffoscope
+[2024-04-15 10:05:24] INFO root fetch - processPackages [recce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recce-0.8.2.tar.gz tmp/recce-0.9.0.tar.gz --markdown 20240415/r/recce/0.8.2-0.9.0/README.md --exclude *.pyd
+[2024-04-15 10:05:25] INFO root fetch - processPackages [lmcloud]: Remove: archive file [/home/abi/fetcher/tmp/lmcloud-1.1.8.tar.gz]
+[2024-04-15 10:05:25] INFO root fetch - processPackages [lmcloud]: Remove: archive file [/home/abi/fetcher/tmp/lmcloud-1.1.9.tar.gz]
+[2024-04-15 10:05:25] INFO root fetch - main [MainThread]: End processing [lmcloud]: success
+[2024-04-15 10:05:26] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240414.tar.gz]
+[2024-04-15 10:05:26] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240415.tar.gz]
+[2024-04-15 10:05:26] INFO root fetch - main [MainThread]: End processing [langfun]: success
+[2024-04-15 10:05:26] INFO root fetch - processPackages [waylay-sdk-registry-types]: Remove: archive file [/home/abi/fetcher/tmp/waylay-sdk-registry-types-2.13.0b0.post0.tar.gz]
+[2024-04-15 10:05:26] INFO root fetch - processPackages [waylay-sdk-registry-types]: Remove: archive file [/home/abi/fetcher/tmp/waylay-sdk-registry-types-2.13.0rc0.tar.gz]
+[2024-04-15 10:05:26] INFO root fetch - main [MainThread]: End processing [waylay-sdk-registry-types]: success
+[2024-04-15 10:05:38] INFO root fetch - processPackages [recce]: Remove: archive file [/home/abi/fetcher/tmp/recce-0.8.2.tar.gz]
+[2024-04-15 10:05:38] INFO root fetch - processPackages [recce]: Remove: archive file [/home/abi/fetcher/tmp/recce-0.9.0.tar.gz]
+[2024-04-15 10:05:38] INFO root fetch - main [MainThread]: End processing [recce]: success
+[2024-04-15 10:05:38] INFO root fetch - main [MainThread]: Store serial: [22767584]
