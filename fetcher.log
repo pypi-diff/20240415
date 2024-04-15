@@ -19245,3 +19245,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 14:59:38] INFO root fetch - processPackages [waylay-sdk]: Remove: archive file [/home/abi/fetcher/tmp/waylay_sdk-2024.4.15.tar.gz]
 [2024-04-15 14:59:38] INFO root fetch - main [MainThread]: End processing [waylay-sdk]: success
 [2024-04-15 14:59:38] INFO root fetch - main [MainThread]: Store serial: [22771381]
+[2024-04-15 15:01:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22771381]
+[2024-04-15 15:01:47] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-15 15:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: setga
+[2024-04-15 15:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: saucelabs-visual
+[2024-04-15 15:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: news-signals
+[2024-04-15 15:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: geo-skeletons
+[2024-04-15 15:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dotbackup
+[2024-04-15 15:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyrotgfork
+[2024-04-15 15:01:47] INFO root fetch - processPackages [news-signals]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-04-15 15:01:47] INFO root fetch - processPackages [dotbackup]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-15 15:01:47] INFO root fetch - processPackages [news-signals]: Downloading https://files.pythonhosted.org/packages/8b/d3/de23b159421fe6879f798f6df58943e82a653b41aa5d0fba2674df405cd8/news_signals-0.6.0.tar.gz
+[2024-04-15 15:01:47] WARNING root fetch - processPackages [pyrotgfork]: Skipping, unable to determine old version
+[2024-04-15 15:01:47] INFO root fetch - main [MainThread]: End processing [pyrotgfork] error
+[2024-04-15 15:01:47] INFO root fetch - processPackages [setga]: New version: [1.3.2] Old Version: [0.3]
+[2024-04-15 15:01:47] INFO root fetch - processPackages [geo-skeletons]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-15 15:01:47] INFO root fetch - processPackages [saucelabs-visual]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-15 15:01:47] INFO root fetch - processPackages [dotbackup]: Downloading https://files.pythonhosted.org/packages/af/6c/41176b61abf00a40736e9719e175de6515fc6d60b76d1536e6eaa8091c8f/dotbackup-1.2.0.tar.gz
+[2024-04-15 15:01:47] INFO root fetch - processPackages [setga]: Downloading https://files.pythonhosted.org/packages/26/aa/c5bfbd71dc74b888d133cea2e7c861821344b29bc6f0618504d14fc80d7c/setga-0.3.tar.gz
+[2024-04-15 15:01:47] INFO root fetch - processPackages [geo-skeletons]: Downloading https://files.pythonhosted.org/packages/ad/5b/464b09e20e64009ddb6226456859999ec5304ea0f62e9312887c08abf5c2/geo_skeletons-0.9.8.tar.gz
+[2024-04-15 15:01:47] INFO root fetch - processPackages [saucelabs-visual]: Downloading https://files.pythonhosted.org/packages/49/a4/b41c1ec8c659cc8ba8fa7afbe3ee61b48c35fabe1e875a21ea21b68852f0/saucelabs_visual-0.0.5.tar.gz
+[2024-04-15 15:01:48] INFO root fetch - processPackages [news-signals]: Downloading https://files.pythonhosted.org/packages/12/70/f456f31b943530ccfad743e546708e35b83989e1706cd28b9cd8875a781d/news_signals-0.6.1.tar.gz
+[2024-04-15 15:01:48] INFO root fetch - processPackages [dotbackup]: Downloading https://files.pythonhosted.org/packages/60/8e/54ef97a3b157918b1d0442317aa8bd5ba43b4e961e644b3423290ad8fc92/dotbackup-1.2.1.tar.gz
+[2024-04-15 15:01:48] INFO root fetch - processPackages [setga]: Downloading https://files.pythonhosted.org/packages/c0/f7/c255ea5b6542fef7673912720a45ba1098255641045461247df9cefdecce/setga-1.3.2.tar.gz
+[2024-04-15 15:01:48] INFO root fetch - processPackages [saucelabs-visual]: Downloading https://files.pythonhosted.org/packages/25/c0/6c9c0c1b25c59a6b349570d6138a096e7e5fa0527174b08186349301a717/saucelabs_visual-0.0.6.tar.gz
+[2024-04-15 15:01:48] INFO root fetch - processPackages [dotbackup]: executing diffoscope
+[2024-04-15 15:01:48] INFO root fetch - processPackages [dotbackup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dotbackup-1.2.0.tar.gz tmp/dotbackup-1.2.1.tar.gz --markdown 20240415/d/dotbackup/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-04-15 15:01:48] INFO root fetch - processPackages [setga]: executing diffoscope
+[2024-04-15 15:01:48] INFO root fetch - processPackages [setga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/setga-0.3.tar.gz tmp/setga-1.3.2.tar.gz --markdown 20240415/s/setga/0.3-1.3.2/README.md --exclude *.pyd
+[2024-04-15 15:01:48] INFO root fetch - processPackages [news-signals]: executing diffoscope
+[2024-04-15 15:01:48] INFO root fetch - processPackages [news-signals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/news_signals-0.6.0.tar.gz tmp/news_signals-0.6.1.tar.gz --markdown 20240415/n/news-signals/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-04-15 15:01:48] INFO root fetch - processPackages [geo-skeletons]: Downloading https://files.pythonhosted.org/packages/55/ff/33fdd2d486474894b7e573b7ff7e1c2c8a6cfe7bbc874b599da533e0acc2/geo_skeletons-0.9.9.tar.gz
+[2024-04-15 15:01:48] INFO root fetch - processPackages [saucelabs-visual]: executing diffoscope
+[2024-04-15 15:01:48] INFO root fetch - processPackages [saucelabs-visual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saucelabs_visual-0.0.5.tar.gz tmp/saucelabs_visual-0.0.6.tar.gz --markdown 20240415/s/saucelabs-visual/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-15 15:01:48] INFO root fetch - processPackages [geo-skeletons]: executing diffoscope
+[2024-04-15 15:01:48] INFO root fetch - processPackages [geo-skeletons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geo_skeletons-0.9.8.tar.gz tmp/geo_skeletons-0.9.9.tar.gz --markdown 20240415/g/geo-skeletons/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-15 15:01:48] INFO root fetch - processPackages [setga]: Remove: archive file [/home/abi/fetcher/tmp/setga-0.3.tar.gz]
+[2024-04-15 15:01:48] INFO root fetch - processPackages [setga]: Remove: archive file [/home/abi/fetcher/tmp/setga-1.3.2.tar.gz]
+[2024-04-15 15:01:48] INFO root fetch - main [MainThread]: End processing [setga]: success
+[2024-04-15 15:01:49] INFO root fetch - processPackages [dotbackup]: Remove: archive file [/home/abi/fetcher/tmp/dotbackup-1.2.0.tar.gz]
+[2024-04-15 15:01:49] INFO root fetch - processPackages [dotbackup]: Remove: archive file [/home/abi/fetcher/tmp/dotbackup-1.2.1.tar.gz]
+[2024-04-15 15:01:49] INFO root fetch - main [MainThread]: End processing [dotbackup]: success
+[2024-04-15 15:01:49] INFO root fetch - processPackages [saucelabs-visual]: Remove: archive file [/home/abi/fetcher/tmp/saucelabs_visual-0.0.5.tar.gz]
+[2024-04-15 15:01:49] INFO root fetch - processPackages [saucelabs-visual]: Remove: archive file [/home/abi/fetcher/tmp/saucelabs_visual-0.0.6.tar.gz]
+[2024-04-15 15:01:49] INFO root fetch - main [MainThread]: End processing [saucelabs-visual]: success
+[2024-04-15 15:01:49] INFO root fetch - processPackages [news-signals]: Remove: archive file [/home/abi/fetcher/tmp/news_signals-0.6.0.tar.gz]
+[2024-04-15 15:01:49] INFO root fetch - processPackages [news-signals]: Remove: archive file [/home/abi/fetcher/tmp/news_signals-0.6.1.tar.gz]
+[2024-04-15 15:01:49] INFO root fetch - main [MainThread]: End processing [news-signals]: success
+[2024-04-15 15:01:49] INFO root fetch - processPackages [geo-skeletons]: Remove: archive file [/home/abi/fetcher/tmp/geo_skeletons-0.9.8.tar.gz]
+[2024-04-15 15:01:49] INFO root fetch - processPackages [geo-skeletons]: Remove: archive file [/home/abi/fetcher/tmp/geo_skeletons-0.9.9.tar.gz]
+[2024-04-15 15:01:49] INFO root fetch - main [MainThread]: End processing [geo-skeletons]: success
+[2024-04-15 15:01:49] INFO root fetch - main [MainThread]: Store serial: [22771405]
