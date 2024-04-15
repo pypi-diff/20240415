@@ -7886,3 +7886,24 @@
 [2024-04-15 07:43:08] INFO root fetch - processPackages [uptick-datawarehouse]: Remove: archive file [/home/abi/fetcher/tmp/uptick_datawarehouse-0.2.9.tar.gz]
 [2024-04-15 07:43:08] INFO root fetch - main [MainThread]: End processing [uptick-datawarehouse]: success
 [2024-04-15 07:43:08] INFO root fetch - main [MainThread]: Store serial: [22766395]
+[2024-04-15 07:45:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22766395]
+[2024-04-15 07:45:17] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-15 07:45:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: finter
+[2024-04-15 07:45:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mypylib
+[2024-04-15 07:45:17] INFO root fetch - processPackages [finter]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-04-15 07:45:17] INFO root fetch - processPackages [finter]: Downloading https://files.pythonhosted.org/packages/99/4e/b7b67460b8509dcc7a2d1f24e5cffce8649a1b66a32a9a9cf096ea455aa4/finter-0.1.9-py3-none-any.whl
+[2024-04-15 07:45:17] INFO root fetch - processPackages [mypylib]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-15 07:45:17] INFO root fetch - processPackages [finter]: Downloading https://files.pythonhosted.org/packages/00/9b/09c3c8953264789250165f1077264d9c5da2736d261903b5c8e2cdfea995/finter-0.2.0-py3-none-any.whl
+[2024-04-15 07:45:17] INFO root fetch - processPackages [mypylib]: Downloading https://files.pythonhosted.org/packages/89/21/ec6c0a5206d17c37c923346b9b56fbaf242b1b7a80383e074d091fd32848/mypylib-0.2.1.tar.gz
+[2024-04-15 07:45:17] INFO root fetch - processPackages [finter]: executing diffoscope
+[2024-04-15 07:45:17] INFO root fetch - processPackages [finter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finter-0.1.9-py3-none-any.whl.zip tmp/finter-0.2.0-py3-none-any.whl.zip --markdown 20240415/f/finter/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-04-15 07:45:18] INFO root fetch - processPackages [mypylib]: Downloading https://files.pythonhosted.org/packages/3d/e4/489bfbd911884d65e44567a30f5619dad64fda245ecbfc9d18cd522d642c/mypylib-0.2.2.tar.gz
+[2024-04-15 07:45:18] INFO root fetch - processPackages [mypylib]: executing diffoscope
+[2024-04-15 07:45:18] INFO root fetch - processPackages [mypylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypylib-0.2.1.tar.gz tmp/mypylib-0.2.2.tar.gz --markdown 20240415/m/mypylib/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-15 07:45:18] INFO root fetch - processPackages [finter]: Remove: archive file [/home/abi/fetcher/tmp/finter-0.1.9-py3-none-any.whl.zip]
+[2024-04-15 07:45:18] INFO root fetch - processPackages [finter]: Remove: archive file [/home/abi/fetcher/tmp/finter-0.2.0-py3-none-any.whl.zip]
+[2024-04-15 07:45:18] INFO root fetch - main [MainThread]: End processing [finter]: success
+[2024-04-15 07:45:18] INFO root fetch - processPackages [mypylib]: Remove: archive file [/home/abi/fetcher/tmp/mypylib-0.2.1.tar.gz]
+[2024-04-15 07:45:18] INFO root fetch - processPackages [mypylib]: Remove: archive file [/home/abi/fetcher/tmp/mypylib-0.2.2.tar.gz]
+[2024-04-15 07:45:18] INFO root fetch - main [MainThread]: End processing [mypylib]: success
+[2024-04-15 07:45:18] INFO root fetch - main [MainThread]: Store serial: [22766400]
