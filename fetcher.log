@@ -18128,3 +18128,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 14:28:30] INFO root fetch - processPackages [facialfinder]: Remove: archive file [/home/abi/fetcher/tmp/facialfinder-0.0.5.tar.gz]
 [2024-04-15 14:28:30] INFO root fetch - main [MainThread]: End processing [facialfinder]: success
 [2024-04-15 14:28:30] INFO root fetch - main [MainThread]: Store serial: [22770825]
+[2024-04-15 14:30:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22770825]
+[2024-04-15 14:30:39] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-15 14:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: malevich-space
+[2024-04-15 14:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pynumstim
+[2024-04-15 14:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iop4
+[2024-04-15 14:30:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-socio-grpc
+[2024-04-15 14:30:39] INFO root fetch - processPackages [iop4]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-15 14:30:39] WARNING root fetch - processPackages [pynumstim]: Skipping, unable to determine old version
+[2024-04-15 14:30:39] INFO root fetch - main [MainThread]: End processing [pynumstim] error
+[2024-04-15 14:30:39] INFO root fetch - processPackages [iop4]: Downloading https://files.pythonhosted.org/packages/b0/ed/16b739c3f02ede3f1b86fa1d4e9e5ce89963462795c0901828da50ad886c/iop4-1.1.0.tar.gz
+[2024-04-15 14:30:39] INFO root fetch - processPackages [malevich-space]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-15 14:30:39] INFO root fetch - processPackages [django-socio-grpc]: New version: [0.9.0] Old Version: [0.8.9]
+[2024-04-15 14:30:39] INFO root fetch - processPackages [malevich-space]: Downloading https://files.pythonhosted.org/packages/3e/e8/4a3118e7e00fb6f4ee4717ac9f41c1f7d851c0d4827c6dcd036dc26325b1/malevich_space-0.4.8.tar.gz
+[2024-04-15 14:30:39] INFO root fetch - processPackages [iop4]: Downloading https://files.pythonhosted.org/packages/92/c7/4626fec1b92803a0415356b3fdb70c5851a9627b3beb3b02841e6b820ad4/iop4-1.1.1.tar.gz
+[2024-04-15 14:30:39] INFO root fetch - processPackages [django-socio-grpc]: Downloading https://files.pythonhosted.org/packages/7e/d6/0213129823e862591828fc556e6b339d32cd58621898f0696900155db751/django-socio-grpc-0.8.9.tar.gz
+[2024-04-15 14:30:39] INFO root fetch - processPackages [iop4]: executing diffoscope
+[2024-04-15 14:30:39] INFO root fetch - processPackages [iop4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iop4-1.1.0.tar.gz tmp/iop4-1.1.1.tar.gz --markdown 20240415/i/iop4/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-15 14:30:39] INFO root fetch - processPackages [malevich-space]: Downloading https://files.pythonhosted.org/packages/dc/ab/47d152787e634bfae81bae05d2fb910c21ab44dc32a6e6ee46e0596288b9/malevich_space-0.4.9.tar.gz
+[2024-04-15 14:30:39] INFO root fetch - processPackages [malevich-space]: executing diffoscope
+[2024-04-15 14:30:39] INFO root fetch - processPackages [malevich-space]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/malevich_space-0.4.8.tar.gz tmp/malevich_space-0.4.9.tar.gz --markdown 20240415/m/malevich-space/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-15 14:30:40] INFO root fetch - processPackages [django-socio-grpc]: Downloading https://files.pythonhosted.org/packages/7a/b0/8b962693ba3765edd0e0291489b777069cfb9989fddf435614a684afb60d/django-socio-grpc-0.9.0.tar.gz
+[2024-04-15 14:30:40] INFO root fetch - processPackages [django-socio-grpc]: executing diffoscope
+[2024-04-15 14:30:40] INFO root fetch - processPackages [django-socio-grpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-socio-grpc-0.8.9.tar.gz tmp/django-socio-grpc-0.9.0.tar.gz --markdown 20240415/d/django-socio-grpc/0.8.9-0.9.0/README.md --exclude *.pyd
+[2024-04-15 14:30:40] INFO root fetch - processPackages [malevich-space]: Remove: archive file [/home/abi/fetcher/tmp/malevich_space-0.4.8.tar.gz]
+[2024-04-15 14:30:40] INFO root fetch - processPackages [malevich-space]: Remove: archive file [/home/abi/fetcher/tmp/malevich_space-0.4.9.tar.gz]
+[2024-04-15 14:30:40] INFO root fetch - main [MainThread]: End processing [malevich-space]: success
+[2024-04-15 14:30:40] INFO root fetch - processPackages [iop4]: Remove: archive file [/home/abi/fetcher/tmp/iop4-1.1.0.tar.gz]
+[2024-04-15 14:30:40] INFO root fetch - processPackages [iop4]: Remove: archive file [/home/abi/fetcher/tmp/iop4-1.1.1.tar.gz]
+[2024-04-15 14:30:40] INFO root fetch - main [MainThread]: End processing [iop4]: success
+[2024-04-15 14:30:40] INFO root fetch - processPackages [django-socio-grpc]: Remove: archive file [/home/abi/fetcher/tmp/django-socio-grpc-0.8.9.tar.gz]
+[2024-04-15 14:30:40] INFO root fetch - processPackages [django-socio-grpc]: Remove: archive file [/home/abi/fetcher/tmp/django-socio-grpc-0.9.0.tar.gz]
+[2024-04-15 14:30:41] INFO root fetch - main [MainThread]: End processing [django-socio-grpc]: success
+[2024-04-15 14:30:41] INFO root fetch - main [MainThread]: Store serial: [22770841]
