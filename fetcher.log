@@ -6938,3 +6938,71 @@
 [2024-04-15 06:54:59] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz]
 [2024-04-15 06:54:59] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-intl-en]: success
 [2024-04-15 06:54:59] INFO root fetch - main [MainThread]: Store serial: [22766033]
+[2024-04-15 06:57:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22766033]
+[2024-04-15 06:57:08] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-15 06:59:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22766033]
+[2024-04-15 06:59:13] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-15 06:59:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xcloud-client
+[2024-04-15 06:59:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-tcaplusdb
+[2024-04-15 06:59:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-tcb
+[2024-04-15 06:59:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-tcbr
+[2024-04-15 06:59:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-tcex
+[2024-04-15 06:59:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tencentcloud-sdk-python-tchd
+[2024-04-15 06:59:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-openupgrade-scripts
+[2024-04-15 06:59:13] INFO root fetch - processPackages [xcloud-client]: New version: [3.1] Old Version: [3.0]
+[2024-04-15 06:59:13] INFO root fetch - processPackages [xcloud-client]: Downloading https://files.pythonhosted.org/packages/55/73/cea792030ed5a4945832cccdf852704a16ea524f8a61813ea5526ff209fb/xcloud_client-3.0.tar.gz
+[2024-04-15 06:59:13] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: New version: [17.0.1.0.1.2] Old Version: [17.0.1.0.1.1]
+[2024-04-15 06:59:13] INFO root fetch - processPackages [tencentcloud-sdk-python-tchd]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-15 06:59:13] INFO root fetch - processPackages [tencentcloud-sdk-python-tcbr]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-15 06:59:13] INFO root fetch - processPackages [tencentcloud-sdk-python-tcex]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-15 06:59:13] INFO root fetch - processPackages [tencentcloud-sdk-python-tcaplusdb]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-15 06:59:13] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/db/05/04688d4f82370e4bae4a14ef6020e82e09ade6c98c3acef20837d8590431/odoo_addon_openupgrade_scripts-17.0.1.0.1.1-py3-none-any.whl
+[2024-04-15 06:59:14] INFO root fetch - processPackages [tencentcloud-sdk-python-tcbr]: Downloading https://files.pythonhosted.org/packages/1e/ca/3a77920b5d015352c941caae0af0b9e47101e454af90349e7a00ee9d4f40/tencentcloud-sdk-python-tcbr-3.0.998.tar.gz
+[2024-04-15 06:59:14] INFO root fetch - processPackages [tencentcloud-sdk-python-tcex]: Downloading https://files.pythonhosted.org/packages/27/a7/c326c453e0c7d0a625b76b160e70327916f52648d1e12ddf5362a05fc032/tencentcloud-sdk-python-tcex-3.0.998.tar.gz
+[2024-04-15 06:59:14] INFO root fetch - processPackages [tencentcloud-sdk-python-tchd]: Downloading https://files.pythonhosted.org/packages/e7/dd/470496a8bc3644c6dc51ea7ae9f5294a97e04aa55d7cb6c13f9cdfbae504/tencentcloud-sdk-python-tchd-3.0.998.tar.gz
+[2024-04-15 06:59:14] INFO root fetch - processPackages [tencentcloud-sdk-python-tcb]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-15 06:59:14] INFO root fetch - processPackages [xcloud-client]: Downloading https://files.pythonhosted.org/packages/b0/51/46b7c20896209702931b390541ba9d7d6b0da6ad1b5bf5832d151362ea29/xcloud_client-3.1.tar.gz
+[2024-04-15 06:59:14] INFO root fetch - processPackages [tencentcloud-sdk-python-tcb]: Downloading https://files.pythonhosted.org/packages/b0/9f/9fae18b940ebf887508248e5cc5d4d6e5342f9d09f04f147fcc21cbccc5d/tencentcloud-sdk-python-tcb-3.0.998.tar.gz
+[2024-04-15 06:59:14] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/2e/07/cd2a4ed7796c54648aaa9877e518fbf9fbf32efb82f079e0a29a9bc2c6a8/odoo_addon_openupgrade_scripts-17.0.1.0.1.2-py3-none-any.whl
+[2024-04-15 06:59:14] INFO root fetch - processPackages [tencentcloud-sdk-python-tcaplusdb]: Downloading https://files.pythonhosted.org/packages/50/e2/802b374ee03e75e3b25b519e9e7571d6d9e93b3555264033c8b9793cf51d/tencentcloud-sdk-python-tcaplusdb-3.0.998.tar.gz
+[2024-04-15 06:59:14] INFO root fetch - processPackages [tencentcloud-sdk-python-tcex]: Downloading https://files.pythonhosted.org/packages/06/f0/bef7ea7199fb40b71edbd9e4bc7e430fba283576e0933a65bd66d32faa68/tencentcloud-sdk-python-tcex-3.0.999.tar.gz
+[2024-04-15 06:59:14] INFO root fetch - processPackages [tencentcloud-sdk-python-tcbr]: Downloading https://files.pythonhosted.org/packages/bc/ea/a72bf279ee2386a70d415d18ef8f8bd2e92f395a8d13c12deb5560030de2/tencentcloud-sdk-python-tcbr-3.0.999.tar.gz
+[2024-04-15 06:59:14] INFO root fetch - processPackages [tencentcloud-sdk-python-tchd]: Downloading https://files.pythonhosted.org/packages/ff/0d/a4657aff6a79429f541d57dd11f9f8250141378d3343253bf2a9e2191f28/tencentcloud-sdk-python-tchd-3.0.999.tar.gz
+[2024-04-15 06:59:14] INFO root fetch - processPackages [tencentcloud-sdk-python-tcex]: executing diffoscope
+[2024-04-15 06:59:14] INFO root fetch - processPackages [tencentcloud-sdk-python-tcex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tcex-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tcex-3.0.999.tar.gz --markdown 20240415/t/tencentcloud-sdk-python-tcex/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-15 06:59:14] INFO root fetch - processPackages [tencentcloud-sdk-python-tcbr]: executing diffoscope
+[2024-04-15 06:59:14] INFO root fetch - processPackages [tencentcloud-sdk-python-tcbr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tcbr-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tcbr-3.0.999.tar.gz --markdown 20240415/t/tencentcloud-sdk-python-tcbr/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-15 06:59:14] INFO root fetch - processPackages [tencentcloud-sdk-python-tchd]: executing diffoscope
+[2024-04-15 06:59:14] INFO root fetch - processPackages [tencentcloud-sdk-python-tchd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tchd-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tchd-3.0.999.tar.gz --markdown 20240415/t/tencentcloud-sdk-python-tchd/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-15 06:59:14] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: executing diffoscope
+[2024-04-15 06:59:14] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1.1-py3-none-any.whl.zip tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1.2-py3-none-any.whl.zip --markdown 20240415/o/odoo-addon-openupgrade-scripts/17.0.1.0.1.1-17.0.1.0.1.2/README.md --exclude *.pyd
+[2024-04-15 06:59:14] INFO root fetch - processPackages [xcloud-client]: executing diffoscope
+[2024-04-15 06:59:14] INFO root fetch - processPackages [xcloud-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xcloud_client-3.0.tar.gz tmp/xcloud_client-3.1.tar.gz --markdown 20240415/x/xcloud-client/3.0-3.1/README.md --exclude *.pyd
+[2024-04-15 06:59:14] INFO root fetch - processPackages [tencentcloud-sdk-python-tcb]: Downloading https://files.pythonhosted.org/packages/74/3b/942dca5f60c252fa151c186ac96d525e10206a4d5f0449ab92870990a428/tencentcloud-sdk-python-tcb-3.0.999.tar.gz
+[2024-04-15 06:59:14] INFO root fetch - processPackages [tencentcloud-sdk-python-tcaplusdb]: Downloading https://files.pythonhosted.org/packages/0c/90/657b8ab58c2086e77f45308e2a174018e0ea4c6fe5a36ba98d4d72caeb9f/tencentcloud-sdk-python-tcaplusdb-3.0.999.tar.gz
+[2024-04-15 06:59:14] INFO root fetch - processPackages [tencentcloud-sdk-python-tcb]: executing diffoscope
+[2024-04-15 06:59:14] INFO root fetch - processPackages [tencentcloud-sdk-python-tcb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tcb-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tcb-3.0.999.tar.gz --markdown 20240415/t/tencentcloud-sdk-python-tcb/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-15 06:59:14] INFO root fetch - processPackages [tencentcloud-sdk-python-tcaplusdb]: executing diffoscope
+[2024-04-15 06:59:14] INFO root fetch - processPackages [tencentcloud-sdk-python-tcaplusdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tcaplusdb-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tcaplusdb-3.0.999.tar.gz --markdown 20240415/t/tencentcloud-sdk-python-tcaplusdb/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-15 06:59:15] INFO root fetch - processPackages [tencentcloud-sdk-python-tcbr]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tcbr-3.0.998.tar.gz]
+[2024-04-15 06:59:15] INFO root fetch - processPackages [tencentcloud-sdk-python-tcbr]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tcbr-3.0.999.tar.gz]
+[2024-04-15 06:59:15] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tcbr]: success
+[2024-04-15 06:59:15] INFO root fetch - processPackages [tencentcloud-sdk-python-tcex]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tcex-3.0.998.tar.gz]
+[2024-04-15 06:59:15] INFO root fetch - processPackages [tencentcloud-sdk-python-tcex]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tcex-3.0.999.tar.gz]
+[2024-04-15 06:59:15] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tcex]: success
+[2024-04-15 06:59:15] INFO root fetch - processPackages [tencentcloud-sdk-python-tchd]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tchd-3.0.998.tar.gz]
+[2024-04-15 06:59:15] INFO root fetch - processPackages [tencentcloud-sdk-python-tchd]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tchd-3.0.999.tar.gz]
+[2024-04-15 06:59:15] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tchd]: success
+[2024-04-15 06:59:15] INFO root fetch - processPackages [tencentcloud-sdk-python-tcb]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tcb-3.0.998.tar.gz]
+[2024-04-15 06:59:15] INFO root fetch - processPackages [tencentcloud-sdk-python-tcb]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tcb-3.0.999.tar.gz]
+[2024-04-15 06:59:15] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tcb]: success
+[2024-04-15 06:59:15] INFO root fetch - processPackages [tencentcloud-sdk-python-tcaplusdb]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tcaplusdb-3.0.998.tar.gz]
+[2024-04-15 06:59:15] INFO root fetch - processPackages [tencentcloud-sdk-python-tcaplusdb]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tcaplusdb-3.0.999.tar.gz]
+[2024-04-15 06:59:15] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tcaplusdb]: success
+[2024-04-15 06:59:15] INFO root fetch - processPackages [xcloud-client]: Remove: archive file [/home/abi/fetcher/tmp/xcloud_client-3.0.tar.gz]
+[2024-04-15 06:59:15] INFO root fetch - processPackages [xcloud-client]: Remove: archive file [/home/abi/fetcher/tmp/xcloud_client-3.1.tar.gz]
+[2024-04-15 06:59:15] INFO root fetch - main [MainThread]: End processing [xcloud-client]: success
+[2024-04-15 06:59:16] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1.1-py3-none-any.whl.zip]
+[2024-04-15 06:59:16] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1.2-py3-none-any.whl.zip]
+[2024-04-15 06:59:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
+[2024-04-15 06:59:16] INFO root fetch - main [MainThread]: Store serial: [22766053]
