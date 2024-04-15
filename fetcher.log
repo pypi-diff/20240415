@@ -11620,3 +11620,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 10:33:10] INFO root fetch - processPackages [capellambse-context-diagrams]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-context-diagrams-0.2.9.tar.gz]
 [2024-04-15 10:33:10] INFO root fetch - main [MainThread]: End processing [capellambse-context-diagrams]: success
 [2024-04-15 10:33:10] INFO root fetch - main [MainThread]: Store serial: [22767920]
+[2024-04-15 10:35:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22767920]
+[2024-04-15 10:35:19] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-15 10:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: helyos_agent_sdk
+[2024-04-15 10:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumiverse-scaleway
+[2024-04-15 10:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: radical.gtod
+[2024-04-15 10:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mteb
+[2024-04-15 10:35:19] INFO root fetch - processPackages [radical.gtod]: New version: [1.6.7] Old Version: [1.51.0]
+[2024-04-15 10:35:19] INFO root fetch - processPackages [pulumiverse-scaleway]: New version: [1.13.0a1713167679] Old Version: [1.13.0a1713165540]
+[2024-04-15 10:35:19] INFO root fetch - processPackages [mteb]: New version: [1.6.5] Old Version: [1.6.4]
+[2024-04-15 10:35:19] INFO root fetch - processPackages [helyos_agent_sdk]: New version: [0.7.7] Old Version: [0.7.6]
+[2024-04-15 10:35:19] INFO root fetch - processPackages [pulumiverse-scaleway]: Downloading https://files.pythonhosted.org/packages/41/76/392c486af7b537a9972c169e0c2fe22969866fe15d6508539cc7f253105d/pulumiverse_scaleway-1.13.0a1713165540.tar.gz
+[2024-04-15 10:35:19] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/92/97/2235045fa08952e1355bfa54eb2ccaf3155d1435c43a46733d28f62ea68f/mteb-1.6.4.tar.gz
+[2024-04-15 10:35:19] INFO root fetch - processPackages [radical.gtod]: Downloading https://files.pythonhosted.org/packages/3b/84/37990d8e727a9b75b1fe37fb82335213ce8dc4f54bd8fb6fb130379b80e2/radical_gtod-1.51.0.tar.gz
+[2024-04-15 10:35:20] INFO root fetch - processPackages [helyos_agent_sdk]: Downloading https://files.pythonhosted.org/packages/49/65/59dd705752a15f354366cf9310f5c7029006a91463868131a1c671a05165/helyos_agent_sdk-0.7.6.tar.gz
+[2024-04-15 10:35:20] INFO root fetch - processPackages [radical.gtod]: Downloading https://files.pythonhosted.org/packages/e7/99/b30606ef545cb7dd3965e4271424fac7ce5ea037377a5a165605efd5aced/radical.gtod-1.6.7.tar.gz
+[2024-04-15 10:35:20] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/00/b1/465b85695badd736c6fc52fc94df829d74d1b1dda5c4086d8d9b87962a5e/mteb-1.6.5.tar.gz
+[2024-04-15 10:35:20] INFO root fetch - processPackages [pulumiverse-scaleway]: Downloading https://files.pythonhosted.org/packages/ad/cc/3984482933b27688af2d54b5813dd436895055bcc95b0a54281900cf95eb/pulumiverse_scaleway-1.13.0a1713167679.tar.gz
+[2024-04-15 10:35:20] INFO root fetch - processPackages [radical.gtod]: executing diffoscope
+[2024-04-15 10:35:20] INFO root fetch - processPackages [radical.gtod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radical_gtod-1.51.0.tar.gz tmp/radical.gtod-1.6.7.tar.gz --markdown 20240415/r/radical.gtod/1.51.0-1.6.7/README.md --exclude *.pyd
+[2024-04-15 10:35:20] INFO root fetch - processPackages [helyos_agent_sdk]: Downloading https://files.pythonhosted.org/packages/dd/14/0156745644c00cd58612e23a489cc9d8bf8219dcc1674463ba1a03ccb24a/helyos_agent_sdk-0.7.7.tar.gz
+[2024-04-15 10:35:20] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-04-15 10:35:20] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.6.4.tar.gz tmp/mteb-1.6.5.tar.gz --markdown 20240415/m/mteb/1.6.4-1.6.5/README.md --exclude *.pyd
+[2024-04-15 10:35:20] INFO root fetch - processPackages [pulumiverse-scaleway]: executing diffoscope
+[2024-04-15 10:35:20] INFO root fetch - processPackages [pulumiverse-scaleway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumiverse_scaleway-1.13.0a1713165540.tar.gz tmp/pulumiverse_scaleway-1.13.0a1713167679.tar.gz --markdown 20240415/p/pulumiverse-scaleway/1.13.0a1713165540-1.13.0a1713167679/README.md --exclude *.pyd
+[2024-04-15 10:35:20] INFO root fetch - processPackages [helyos_agent_sdk]: executing diffoscope
+[2024-04-15 10:35:20] INFO root fetch - processPackages [helyos_agent_sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helyos_agent_sdk-0.7.6.tar.gz tmp/helyos_agent_sdk-0.7.7.tar.gz --markdown 20240415/h/helyos_agent_sdk/0.7.6-0.7.7/README.md --exclude *.pyd
+[2024-04-15 10:35:20] INFO root fetch - processPackages [radical.gtod]: Remove: archive file [/home/abi/fetcher/tmp/radical_gtod-1.51.0.tar.gz]
+[2024-04-15 10:35:20] INFO root fetch - processPackages [radical.gtod]: Remove: archive file [/home/abi/fetcher/tmp/radical.gtod-1.6.7.tar.gz]
+[2024-04-15 10:35:20] INFO root fetch - main [MainThread]: End processing [radical.gtod]: success
+[2024-04-15 10:35:21] INFO root fetch - processPackages [helyos_agent_sdk]: Remove: archive file [/home/abi/fetcher/tmp/helyos_agent_sdk-0.7.6.tar.gz]
+[2024-04-15 10:35:21] INFO root fetch - processPackages [helyos_agent_sdk]: Remove: archive file [/home/abi/fetcher/tmp/helyos_agent_sdk-0.7.7.tar.gz]
+[2024-04-15 10:35:21] INFO root fetch - main [MainThread]: End processing [helyos_agent_sdk]: success
+[2024-04-15 10:35:21] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.6.4.tar.gz]
+[2024-04-15 10:35:21] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.6.5.tar.gz]
+[2024-04-15 10:35:21] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-04-15 10:35:21] INFO root fetch - processPackages [pulumiverse-scaleway]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_scaleway-1.13.0a1713165540.tar.gz]
+[2024-04-15 10:35:21] INFO root fetch - processPackages [pulumiverse-scaleway]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_scaleway-1.13.0a1713167679.tar.gz]
+[2024-04-15 10:35:21] INFO root fetch - main [MainThread]: End processing [pulumiverse-scaleway]: success
+[2024-04-15 10:35:21] INFO root fetch - main [MainThread]: Store serial: [22767930]
