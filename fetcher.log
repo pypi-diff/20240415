@@ -7919,3 +7919,24 @@
 [2024-04-15 07:47:27] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
 [2024-04-15 07:47:27] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
 [2024-04-15 07:47:27] INFO root fetch - main [MainThread]: Store serial: [22766403]
+[2024-04-15 07:49:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22766403]
+[2024-04-15 07:49:36] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-15 07:49:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autopipeline
+[2024-04-15 07:49:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eodc-faas-sen2like
+[2024-04-15 07:49:36] INFO root fetch - processPackages [autopipeline]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-15 07:49:36] INFO root fetch - processPackages [eodc-faas-sen2like]: New version: [2024.4.6] Old Version: [2024.4.5]
+[2024-04-15 07:49:36] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/0f/9eaf209b6d540115afdc9ae31de828df0234756277bceae49a4d1a0ea8b3/autopipeline-0.1.98.tar.gz
+[2024-04-15 07:49:36] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/4a/f3df97d414e0a5e9120459fd5c7ab663092d540df59f7deacc45810deb41/autopipeline-0.1.99.tar.gz
+[2024-04-15 07:49:36] INFO root fetch - processPackages [eodc-faas-sen2like]: Downloading https://files.pythonhosted.org/packages/a6/28/c10f9ce1fd5e73b36801602cc855bf8dc967fe5684a612809e47983d4f73/eodc_faas_sen2like-2024.4.5.tar.gz
+[2024-04-15 07:49:36] INFO root fetch - processPackages [autopipeline]: executing diffoscope
+[2024-04-15 07:49:36] INFO root fetch - processPackages [autopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopipeline-0.1.98.tar.gz tmp/autopipeline-0.1.99.tar.gz --markdown 20240415/a/autopipeline/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-15 07:49:37] INFO root fetch - processPackages [eodc-faas-sen2like]: Downloading https://files.pythonhosted.org/packages/11/91/e4363a58038b1d715c2cf5309fce5e42bd8268c365cb4ccc310dae69e448/eodc_faas_sen2like-2024.4.6.tar.gz
+[2024-04-15 07:49:37] INFO root fetch - processPackages [eodc-faas-sen2like]: executing diffoscope
+[2024-04-15 07:49:37] INFO root fetch - processPackages [eodc-faas-sen2like]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_sen2like-2024.4.5.tar.gz tmp/eodc_faas_sen2like-2024.4.6.tar.gz --markdown 20240415/e/eodc-faas-sen2like/2024.4.5-2024.4.6/README.md --exclude *.pyd
+[2024-04-15 07:49:37] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.98.tar.gz]
+[2024-04-15 07:49:37] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.99.tar.gz]
+[2024-04-15 07:49:37] INFO root fetch - main [MainThread]: End processing [autopipeline]: success
+[2024-04-15 07:49:37] INFO root fetch - processPackages [eodc-faas-sen2like]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_sen2like-2024.4.5.tar.gz]
+[2024-04-15 07:49:37] INFO root fetch - processPackages [eodc-faas-sen2like]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_sen2like-2024.4.6.tar.gz]
+[2024-04-15 07:49:37] INFO root fetch - main [MainThread]: End processing [eodc-faas-sen2like]: success
+[2024-04-15 07:49:37] INFO root fetch - main [MainThread]: Store serial: [22766409]
