@@ -15274,3 +15274,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 12:44:13] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-24.9.0.tar.gz]
 [2024-04-15 12:44:14] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
 [2024-04-15 12:44:14] INFO root fetch - main [MainThread]: Store serial: [22769582]
+[2024-04-15 12:46:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22769582]
+[2024-04-15 12:46:23] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-15 12:46:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gaboost
+[2024-04-15 12:46:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iommi
+[2024-04-15 12:46:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arion-library
+[2024-04-15 12:46:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-dingtalk
+[2024-04-15 12:46:23] INFO root fetch - processPackages [gaboost]: New version: [1.8.2] Old Version: [1.8.1]
+[2024-04-15 12:46:23] INFO root fetch - processPackages [arion-library]: New version: [1.1rc56.dev56] Old Version: [1.1rc53.dev53]
+[2024-04-15 12:46:23] INFO root fetch - processPackages [iommi]: New version: [7.0.0] Old Version: [6.8.0]
+[2024-04-15 12:46:23] INFO root fetch - processPackages [alibabacloud-dingtalk]: New version: [2.0.95] Old Version: [2.0.94]
+[2024-04-15 12:46:23] INFO root fetch - processPackages [gaboost]: Downloading https://files.pythonhosted.org/packages/57/26/fb5a2e413390dadf1f021fe975a26e83ae9967e9c7cf8233147546678e26/gaboost-1.8.1.tar.gz
+[2024-04-15 12:46:23] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/90/98/fc1be5c0bb121928915e6b86d9656c3608b7e80c7a0c5e5cfcae541ad440/arion_library-1.1rc53.dev53.tar.gz
+[2024-04-15 12:46:23] INFO root fetch - processPackages [iommi]: Downloading https://files.pythonhosted.org/packages/b1/06/5835c65fb762e4aaf767f61dcb1d64403cd484d5b367304661c8b4e6eafa/iommi-6.8.0.tar.gz
+[2024-04-15 12:46:23] INFO root fetch - processPackages [alibabacloud-dingtalk]: Downloading https://files.pythonhosted.org/packages/02/81/8669ac8bcbefbcf433e5a6958d78fd4cd3231bbbf1e7acecc4dbe6f21c33/alibabacloud_dingtalk-2.0.94.tar.gz
+[2024-04-15 12:46:23] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/58/7e/b06c79d72286de727e2b80292738b962672dd8407c96d7f49568cc8983b7/arion_library-1.1rc56.dev56.tar.gz
+[2024-04-15 12:46:23] INFO root fetch - processPackages [iommi]: Downloading https://files.pythonhosted.org/packages/e1/ba/3d144519565f94623c2cdf3740118f3e6b8b364e27fdaa861ec4fca349e7/iommi-7.0.0.tar.gz
+[2024-04-15 12:46:23] INFO root fetch - processPackages [gaboost]: Downloading https://files.pythonhosted.org/packages/a3/2e/b0864aede6fc85bd2c5e4e483da2c41b41c291b927dbb32e2935d5e3bdd5/gaboost-1.8.2.tar.gz
+[2024-04-15 12:46:23] INFO root fetch - processPackages [alibabacloud-dingtalk]: Downloading https://files.pythonhosted.org/packages/59/a2/3ab6feb38c7f2039d13ca97c468af70c4844af7853bfc8512a8500fe86bc/alibabacloud_dingtalk-2.0.95.tar.gz
+[2024-04-15 12:46:23] INFO root fetch - processPackages [arion-library]: executing diffoscope
+[2024-04-15 12:46:23] INFO root fetch - processPackages [arion-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arion_library-1.1rc53.dev53.tar.gz tmp/arion_library-1.1rc56.dev56.tar.gz --markdown 20240415/a/arion-library/1.1rc53.dev53-1.1rc56.dev56/README.md --exclude *.pyd
+[2024-04-15 12:46:24] INFO root fetch - processPackages [iommi]: executing diffoscope
+[2024-04-15 12:46:24] INFO root fetch - processPackages [iommi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iommi-6.8.0.tar.gz tmp/iommi-7.0.0.tar.gz --markdown 20240415/i/iommi/6.8.0-7.0.0/README.md --exclude *.pyd
+[2024-04-15 12:46:24] INFO root fetch - processPackages [gaboost]: executing diffoscope
+[2024-04-15 12:46:24] INFO root fetch - processPackages [gaboost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaboost-1.8.1.tar.gz tmp/gaboost-1.8.2.tar.gz --markdown 20240415/g/gaboost/1.8.1-1.8.2/README.md --exclude *.pyd
+[2024-04-15 12:46:24] INFO root fetch - processPackages [alibabacloud-dingtalk]: executing diffoscope
+[2024-04-15 12:46:24] INFO root fetch - processPackages [alibabacloud-dingtalk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dingtalk-2.0.94.tar.gz tmp/alibabacloud_dingtalk-2.0.95.tar.gz --markdown 20240415/a/alibabacloud-dingtalk/2.0.94-2.0.95/README.md --exclude *.pyd
+[2024-04-15 12:46:24] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc53.dev53.tar.gz]
+[2024-04-15 12:46:24] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc56.dev56.tar.gz]
+[2024-04-15 12:46:24] INFO root fetch - main [MainThread]: End processing [arion-library]: success
+[2024-04-15 12:46:25] INFO root fetch - processPackages [gaboost]: Remove: archive file [/home/abi/fetcher/tmp/gaboost-1.8.1.tar.gz]
+[2024-04-15 12:46:25] INFO root fetch - processPackages [gaboost]: Remove: archive file [/home/abi/fetcher/tmp/gaboost-1.8.2.tar.gz]
+[2024-04-15 12:46:25] INFO root fetch - main [MainThread]: End processing [gaboost]: success
+[2024-04-15 12:46:25] INFO root fetch - processPackages [iommi]: Remove: archive file [/home/abi/fetcher/tmp/iommi-6.8.0.tar.gz]
+[2024-04-15 12:46:25] INFO root fetch - processPackages [iommi]: Remove: archive file [/home/abi/fetcher/tmp/iommi-7.0.0.tar.gz]
+[2024-04-15 12:46:25] INFO root fetch - main [MainThread]: End processing [iommi]: success
+[2024-04-15 12:46:27] INFO root fetch - processPackages [alibabacloud-dingtalk]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dingtalk-2.0.94.tar.gz]
+[2024-04-15 12:46:27] INFO root fetch - processPackages [alibabacloud-dingtalk]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dingtalk-2.0.95.tar.gz]
+[2024-04-15 12:46:27] INFO root fetch - main [MainThread]: End processing [alibabacloud-dingtalk]: success
+[2024-04-15 12:46:27] INFO root fetch - main [MainThread]: Store serial: [22769593]
