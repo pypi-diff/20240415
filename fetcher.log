@@ -4099,3 +4099,27 @@
 [2024-04-15 05:26:32] WARNING root fetch - processPackages [heare-histograms]: Skipping, unable to determine old version
 [2024-04-15 05:26:32] INFO root fetch - main [MainThread]: End processing [heare-histograms] error
 [2024-04-15 05:26:32] INFO root fetch - main [MainThread]: Store serial: [22765037]
+[2024-04-15 05:28:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22765037]
+[2024-04-15 05:28:41] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-15 05:28:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moku
+[2024-04-15 05:28:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Lab93CryptographyAPI
+[2024-04-15 05:28:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-lambda-layer-curl
+[2024-04-15 05:28:41] INFO root fetch - processPackages [moku]: New version: [3.2.0] Old Version: [3.1.1]
+[2024-04-15 05:28:41] WARNING root fetch - processPackages [Lab93CryptographyAPI]: Skipping, unable to determine old version
+[2024-04-15 05:28:41] INFO root fetch - main [MainThread]: End processing [Lab93CryptographyAPI] error
+[2024-04-15 05:28:41] INFO root fetch - processPackages [moku]: Downloading https://files.pythonhosted.org/packages/d0/11/7b64dda353cd86a01e3f569509cae7f5cbe5d992ca8968c2a714dca9ae9d/moku-3.1.1.tar.gz
+[2024-04-15 05:28:41] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-15 05:28:41] INFO root fetch - processPackages [moku]: Downloading https://files.pythonhosted.org/packages/a2/01/d5d28600503e419d7ef7cfa3fa254b2ef69eaebfe65c24f88523062217f5/moku-3.2.0.tar.gz
+[2024-04-15 05:28:42] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2024-04-15 05:28:42] INFO root fetch - processPackages [moku]: executing diffoscope
+[2024-04-15 05:28:42] INFO root fetch - processPackages [moku]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moku-3.1.1.tar.gz tmp/moku-3.2.0.tar.gz --markdown 20240415/m/moku/3.1.1-3.2.0/README.md --exclude *.pyd
+[2024-04-15 05:28:42] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2024-04-15 05:28:42] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2024-04-15 05:28:42] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20240415/c/cdk-lambda-layer-curl/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-04-15 05:28:42] INFO root fetch - processPackages [moku]: Remove: archive file [/home/abi/fetcher/tmp/moku-3.1.1.tar.gz]
+[2024-04-15 05:28:42] INFO root fetch - processPackages [moku]: Remove: archive file [/home/abi/fetcher/tmp/moku-3.2.0.tar.gz]
+[2024-04-15 05:28:42] INFO root fetch - main [MainThread]: End processing [moku]: success
+[2024-04-15 05:28:43] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2024-04-15 05:28:43] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2024-04-15 05:28:43] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2024-04-15 05:28:43] INFO root fetch - main [MainThread]: Store serial: [22765050]
