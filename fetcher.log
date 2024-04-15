@@ -16652,3 +16652,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 13:30:48] INFO root fetch - processPackages [authentik-client]: Remove: archive file [/home/abi/fetcher/tmp/authentik_client-2024.2.2.post1713180519.tar.gz]
 [2024-04-15 13:30:48] INFO root fetch - main [MainThread]: End processing [authentik-client]: success
 [2024-04-15 13:30:48] INFO root fetch - main [MainThread]: Store serial: [22770132]
+[2024-04-15 13:32:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22770132]
+[2024-04-15 13:32:56] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-15 13:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-core-xe-esimd-21
+[2024-04-15 13:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gempy-viewer
+[2024-04-15 13:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gempy
+[2024-04-15 13:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sbcli-mig
+[2024-04-15 13:32:56] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: New version: [2.5.0b20240414] Old Version: [2.5.0b20240413]
+[2024-04-15 13:32:56] INFO root fetch - processPackages [gempy-viewer]: New version: [2023.2.0b1] Old Version: [2023.1.0b3]
+[2024-04-15 13:32:56] INFO root fetch - processPackages [gempy]: New version: [2023.2.0b1] Old Version: [2023.1.0b6]
+[2024-04-15 13:32:56] INFO root fetch - processPackages [sbcli-mig]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-15 13:32:56] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Downloading https://files.pythonhosted.org/packages/9d/84/2ed0d8fb387e8b5312fe40b37ad2a3c9d5ee58eb520deae655d986e1aad2/bigdl_core_xe_esimd_21-2.5.0b20240413-cp39-cp39-win_amd64.whl
+[2024-04-15 13:32:56] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/06/2f/2b2f1cfa7b91365cf5cd645c5967a8e8a8bd7f1c8e89f91d7e43e2aefc87/sbcli-mig-1.0.8.zip
+[2024-04-15 13:32:56] INFO root fetch - processPackages [gempy-viewer]: Downloading https://files.pythonhosted.org/packages/4f/ae/d711ecbe8e7e63afcbd508fce610939d08d7dd8a8c0e241ec6a41ad440ba/gempy_viewer-2023.1.0b3.tar.gz
+[2024-04-15 13:32:56] INFO root fetch - processPackages [gempy]: Downloading https://files.pythonhosted.org/packages/38/a7/e87ae9ccf8f4d0f4faedf5061c35a5b65d2de9b43d9b0e44322fe97447c4/gempy-2023.1.0b6.tar.gz
+[2024-04-15 13:32:57] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/4b/15/9c1afe915f08547ce582aeae079f597b2a173df003109bcd1d0f0bbf037e/sbcli-mig-1.0.9.zip
+[2024-04-15 13:32:57] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Downloading https://files.pythonhosted.org/packages/dd/30/5b4804f16cf4228e8cc18c5762d416169ce7926a9aabc9cc119080f4458c/bigdl_core_xe_esimd_21-2.5.0b20240414-cp39-cp39-win_amd64.whl
+[2024-04-15 13:32:57] INFO root fetch - processPackages [sbcli-mig]: executing diffoscope
+[2024-04-15 13:32:57] INFO root fetch - processPackages [sbcli-mig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli-mig-1.0.8.zip tmp/sbcli-mig-1.0.9.zip --markdown 20240415/s/sbcli-mig/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-15 13:32:57] INFO root fetch - processPackages [gempy-viewer]: Downloading https://files.pythonhosted.org/packages/fc/7e/b30eedf25efe3e8f8b3a10ad75a0089fcb4804fcb3933ce5a7fbadea3300/gempy_viewer-2023.2.0b1.tar.gz
+[2024-04-15 13:32:57] INFO root fetch - processPackages [gempy]: Downloading https://files.pythonhosted.org/packages/e5/f3/35abef553f531b32267f69d1a44bafd243eb4b3cd095563e5e42e304bff1/gempy-2023.2.0b1.tar.gz
+[2024-04-15 13:32:57] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: executing diffoscope
+[2024-04-15 13:32:57] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_core_xe_esimd_21-2.5.0b20240413-cp39-cp39-win_amd64.whl.zip tmp/bigdl_core_xe_esimd_21-2.5.0b20240414-cp39-cp39-win_amd64.whl.zip --markdown 20240415/b/bigdl-core-xe-esimd-21/2.5.0b20240413-2.5.0b20240414/README.md --exclude *.pyd
+[2024-04-15 13:32:57] INFO root fetch - processPackages [gempy-viewer]: executing diffoscope
+[2024-04-15 13:32:57] INFO root fetch - processPackages [gempy-viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gempy_viewer-2023.1.0b3.tar.gz tmp/gempy_viewer-2023.2.0b1.tar.gz --markdown 20240415/g/gempy-viewer/2023.1.0b3-2023.2.0b1/README.md --exclude *.pyd
+[2024-04-15 13:32:57] INFO root fetch - processPackages [gempy]: executing diffoscope
+[2024-04-15 13:32:57] INFO root fetch - processPackages [gempy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gempy-2023.1.0b6.tar.gz tmp/gempy-2023.2.0b1.tar.gz --markdown 20240415/g/gempy/2023.1.0b6-2023.2.0b1/README.md --exclude *.pyd
+[2024-04-15 13:32:58] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_core_xe_esimd_21-2.5.0b20240413-cp39-cp39-win_amd64.whl.zip]
+[2024-04-15 13:32:58] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_core_xe_esimd_21-2.5.0b20240414-cp39-cp39-win_amd64.whl.zip]
+[2024-04-15 13:32:58] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-esimd-21]: success
+[2024-04-15 13:32:58] INFO root fetch - processPackages [gempy-viewer]: Remove: archive file [/home/abi/fetcher/tmp/gempy_viewer-2023.1.0b3.tar.gz]
+[2024-04-15 13:32:58] INFO root fetch - processPackages [gempy-viewer]: Remove: archive file [/home/abi/fetcher/tmp/gempy_viewer-2023.2.0b1.tar.gz]
+[2024-04-15 13:32:58] INFO root fetch - main [MainThread]: End processing [gempy-viewer]: success
+[2024-04-15 13:32:58] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-mig-1.0.8.zip]
+[2024-04-15 13:32:58] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-mig-1.0.9.zip]
+[2024-04-15 13:32:58] INFO root fetch - main [MainThread]: End processing [sbcli-mig]: success
+[2024-04-15 13:32:58] INFO root fetch - processPackages [gempy]: Remove: archive file [/home/abi/fetcher/tmp/gempy-2023.1.0b6.tar.gz]
+[2024-04-15 13:32:58] INFO root fetch - processPackages [gempy]: Remove: archive file [/home/abi/fetcher/tmp/gempy-2023.2.0b1.tar.gz]
+[2024-04-15 13:32:58] INFO root fetch - main [MainThread]: End processing [gempy]: success
+[2024-04-15 13:32:58] INFO root fetch - main [MainThread]: Store serial: [22770142]
