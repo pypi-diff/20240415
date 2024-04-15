@@ -2980,3 +2980,15 @@
 [2024-04-15 04:16:44] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-terminate-mixin]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_transaction_terminate_mixin-14.0.1.9.0-py3-none-any.whl.zip]
 [2024-04-15 04:16:44] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-transaction-terminate-mixin]: success
 [2024-04-15 04:16:44] INFO root fetch - main [MainThread]: Store serial: [22764605]
+[2024-04-15 04:18:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22764605]
+[2024-04-15 04:18:53] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-15 04:18:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: corkit
+[2024-04-15 04:18:53] INFO root fetch - processPackages [corkit]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-15 04:18:53] INFO root fetch - processPackages [corkit]: Downloading https://files.pythonhosted.org/packages/1c/53/6707ff05fe0e51d52e52e039097c0bf48dc85f36f5264eb66c4a0e030844/corkit-1.0.8.tar.gz
+[2024-04-15 04:18:53] INFO root fetch - processPackages [corkit]: Downloading https://files.pythonhosted.org/packages/15/23/145b1c0d91876aa083f3c5c90d3f9f9fc65c9a822fb8790a6b5e66786676/corkit-1.0.9.tar.gz
+[2024-04-15 04:18:53] INFO root fetch - processPackages [corkit]: executing diffoscope
+[2024-04-15 04:18:53] INFO root fetch - processPackages [corkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corkit-1.0.8.tar.gz tmp/corkit-1.0.9.tar.gz --markdown 20240415/c/corkit/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-15 04:18:54] INFO root fetch - processPackages [corkit]: Remove: archive file [/home/abi/fetcher/tmp/corkit-1.0.8.tar.gz]
+[2024-04-15 04:18:54] INFO root fetch - processPackages [corkit]: Remove: archive file [/home/abi/fetcher/tmp/corkit-1.0.9.tar.gz]
+[2024-04-15 04:18:54] INFO root fetch - main [MainThread]: End processing [corkit]: success
+[2024-04-15 04:18:54] INFO root fetch - main [MainThread]: Store serial: [22764609]
