@@ -2352,3 +2352,30 @@
 [2024-04-15 03:22:29] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.98.tar.gz]
 [2024-04-15 03:22:29] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
 [2024-04-15 03:22:29] INFO root fetch - main [MainThread]: Store serial: [22764332]
+[2024-04-15 03:24:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22764332]
+[2024-04-15 03:24:38] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-15 03:24:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plugnparse
+[2024-04-15 03:24:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: grnm
+[2024-04-15 03:24:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mdformat_admon
+[2024-04-15 03:24:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: corkit
+[2024-04-15 03:24:38] INFO root fetch - processPackages [corkit]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-04-15 03:24:38] INFO root fetch - processPackages [corkit]: Downloading https://files.pythonhosted.org/packages/8d/b7/1bdc140474657d33338bb6c651ac98450c1b2daede9d0057765d191bce2b/corkit-1.0.6.tar.gz
+[2024-04-15 03:24:38] INFO root fetch - processPackages [mdformat_admon]: New version: [2.0.3] Old Version: [2.0.2]
+[2024-04-15 03:24:38] WARNING root fetch - processPackages [plugnparse]: Skipping, unable to determine old version
+[2024-04-15 03:24:38] INFO root fetch - main [MainThread]: End processing [plugnparse] error
+[2024-04-15 03:24:38] WARNING root fetch - processPackages [grnm]: Skipping, unable to determine old version
+[2024-04-15 03:24:38] INFO root fetch - main [MainThread]: End processing [grnm] error
+[2024-04-15 03:24:38] INFO root fetch - processPackages [corkit]: Downloading https://files.pythonhosted.org/packages/88/c0/84683b8f1511b181c41e38456cc133b69b76582780214c0fe1bdd3d13da2/corkit-1.0.7.tar.gz
+[2024-04-15 03:24:38] INFO root fetch - processPackages [mdformat_admon]: Downloading https://files.pythonhosted.org/packages/31/bc/7cc59c6c5d615e99a3d9da9c5fa32e40f4123f44d404a36f3c8a5d16346c/mdformat_admon-2.0.2.tar.gz
+[2024-04-15 03:24:38] INFO root fetch - processPackages [corkit]: executing diffoscope
+[2024-04-15 03:24:38] INFO root fetch - processPackages [corkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corkit-1.0.6.tar.gz tmp/corkit-1.0.7.tar.gz --markdown 20240415/c/corkit/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-04-15 03:24:38] INFO root fetch - processPackages [mdformat_admon]: Downloading https://files.pythonhosted.org/packages/7d/51/01054c5cede0b7796871f80a07f1fd78e26bcd2f195527b662349666c101/mdformat_admon-2.0.3.tar.gz
+[2024-04-15 03:24:38] INFO root fetch - processPackages [mdformat_admon]: executing diffoscope
+[2024-04-15 03:24:38] INFO root fetch - processPackages [mdformat_admon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdformat_admon-2.0.2.tar.gz tmp/mdformat_admon-2.0.3.tar.gz --markdown 20240415/m/mdformat_admon/2.0.2-2.0.3/README.md --exclude *.pyd
+[2024-04-15 03:24:39] INFO root fetch - processPackages [corkit]: Remove: archive file [/home/abi/fetcher/tmp/corkit-1.0.6.tar.gz]
+[2024-04-15 03:24:39] INFO root fetch - processPackages [corkit]: Remove: archive file [/home/abi/fetcher/tmp/corkit-1.0.7.tar.gz]
+[2024-04-15 03:24:39] INFO root fetch - main [MainThread]: End processing [corkit]: success
+[2024-04-15 03:24:39] INFO root fetch - processPackages [mdformat_admon]: Remove: archive file [/home/abi/fetcher/tmp/mdformat_admon-2.0.2.tar.gz]
+[2024-04-15 03:24:39] INFO root fetch - processPackages [mdformat_admon]: Remove: archive file [/home/abi/fetcher/tmp/mdformat_admon-2.0.3.tar.gz]
+[2024-04-15 03:24:39] INFO root fetch - main [MainThread]: End processing [mdformat_admon]: success
+[2024-04-15 03:24:39] INFO root fetch - main [MainThread]: Store serial: [22764347]
