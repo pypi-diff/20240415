@@ -17450,3 +17450,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 14:05:55] INFO root fetch - processPackages [infisical-python]: Remove: archive file [/home/abi/fetcher/tmp/infisical_python-2.1.9.tar.gz]
 [2024-04-15 14:05:55] INFO root fetch - main [MainThread]: End processing [infisical-python]: success
 [2024-04-15 14:05:55] INFO root fetch - main [MainThread]: Store serial: [22770512]
+[2024-04-15 14:07:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22770512]
+[2024-04-15 14:08:04] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-15 14:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fedn
+[2024-04-15 14:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lense
+[2024-04-15 14:08:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arion-library
+[2024-04-15 14:08:04] INFO root fetch - processPackages [arion-library]: New version: [1.1rc60.dev60] Old Version: [1.1rc59.dev59]
+[2024-04-15 14:08:04] INFO root fetch - processPackages [fedn]: New version: [0.9.0b1] Old Version: [0.8.0]
+[2024-04-15 14:08:04] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/23/ba/b5f6c15a8fd4ca2b29ea4c6cb925e9a5906987f6426790436bd90f55f1c6/arion_library-1.1rc59.dev59.tar.gz
+[2024-04-15 14:08:04] INFO root fetch - processPackages [fedn]: Downloading https://files.pythonhosted.org/packages/99/98/ad594a72847b982dfe1f1c09aeeeecf3f14939d4158cdee2663153abd0c2/fedn-0.8.0.tar.gz
+[2024-04-15 14:08:04] INFO root fetch - processPackages [lense]: New version: [0.0.21] Old Version: [0.0.1]
+[2024-04-15 14:08:04] INFO root fetch - processPackages [lense]: Downloading https://files.pythonhosted.org/packages/f1/e2/b4c47ff2e6ef1de6a4ae3650f4717d1ab53ba50052f5e59fb84cea08019f/lense-0.0.1-py3-none-any.whl
+[2024-04-15 14:08:04] INFO root fetch - processPackages [fedn]: Downloading https://files.pythonhosted.org/packages/a1/a7/08db803fce7c5419c0185ba01c35d8aa6afa627bc8fc55926213a6c3e540/fedn-0.9.0b1.tar.gz
+[2024-04-15 14:08:04] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/f3/0c/2b91510b84104fa6cfd6deae9096361d7e1d6e908756ce35fd7d81eb84c3/arion_library-1.1rc60.dev60.tar.gz
+[2024-04-15 14:08:04] INFO root fetch - processPackages [fedn]: executing diffoscope
+[2024-04-15 14:08:04] INFO root fetch - processPackages [fedn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedn-0.8.0.tar.gz tmp/fedn-0.9.0b1.tar.gz --markdown 20240415/f/fedn/0.8.0-0.9.0b1/README.md --exclude *.pyd
+[2024-04-15 14:08:04] INFO root fetch - processPackages [arion-library]: executing diffoscope
+[2024-04-15 14:08:04] INFO root fetch - processPackages [arion-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arion_library-1.1rc59.dev59.tar.gz tmp/arion_library-1.1rc60.dev60.tar.gz --markdown 20240415/a/arion-library/1.1rc59.dev59-1.1rc60.dev60/README.md --exclude *.pyd
+[2024-04-15 14:08:04] INFO root fetch - processPackages [lense]: Downloading https://files.pythonhosted.org/packages/ae/3f/97472fce0af02e51e14e0e70a982025f3d97c852d6b0122e1f0631b24680/lense-0.0.21-py3-none-any.whl
+[2024-04-15 14:08:05] INFO root fetch - processPackages [lense]: executing diffoscope
+[2024-04-15 14:08:05] INFO root fetch - processPackages [lense]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lense-0.0.1-py3-none-any.whl.zip tmp/lense-0.0.21-py3-none-any.whl.zip --markdown 20240415/l/lense/0.0.1-0.0.21/README.md --exclude *.pyd
+[2024-04-15 14:08:05] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc59.dev59.tar.gz]
+[2024-04-15 14:08:05] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc60.dev60.tar.gz]
+[2024-04-15 14:08:05] INFO root fetch - main [MainThread]: End processing [arion-library]: success
+[2024-04-15 14:08:05] INFO root fetch - processPackages [lense]: Remove: archive file [/home/abi/fetcher/tmp/lense-0.0.1-py3-none-any.whl.zip]
+[2024-04-15 14:08:05] INFO root fetch - processPackages [lense]: Remove: archive file [/home/abi/fetcher/tmp/lense-0.0.21-py3-none-any.whl.zip]
+[2024-04-15 14:08:05] INFO root fetch - main [MainThread]: End processing [lense]: success
+[2024-04-15 14:08:05] INFO root fetch - processPackages [fedn]: Remove: archive file [/home/abi/fetcher/tmp/fedn-0.8.0.tar.gz]
+[2024-04-15 14:08:05] INFO root fetch - processPackages [fedn]: Remove: archive file [/home/abi/fetcher/tmp/fedn-0.9.0b1.tar.gz]
+[2024-04-15 14:08:05] INFO root fetch - main [MainThread]: End processing [fedn]: success
+[2024-04-15 14:08:05] INFO root fetch - main [MainThread]: Store serial: [22770518]
