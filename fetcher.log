@@ -2932,3 +2932,51 @@
 [2024-04-15 04:14:33] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-0.0.99-py39-none-any.whl.zip]
 [2024-04-15 04:14:33] INFO root fetch - main [MainThread]: End processing [OZI]: success
 [2024-04-15 04:14:33] INFO root fetch - main [MainThread]: Store serial: [22764593]
+[2024-04-15 04:16:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22764593]
+[2024-04-15 04:16:42] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-15 04:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-ssi-transaction-win-lost-mixin
+[2024-04-15 04:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-ssi-transaction-mixin
+[2024-04-15 04:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-ssi-transaction-terminate-mixin
+[2024-04-15 04:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: telegram-collector
+[2024-04-15 04:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tsugu
+[2024-04-15 04:16:43] INFO root fetch - processPackages [telegram-collector]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-04-15 04:16:43] INFO root fetch - processPackages [tsugu]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-15 04:16:43] INFO root fetch - processPackages [telegram-collector]: Downloading https://files.pythonhosted.org/packages/df/a4/936972ab71730558d650c99e63ac863e69353a396e996ccccaa2b08c5a70/telegram_collector-0.2.6.tar.gz
+[2024-04-15 04:16:43] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/c3/df/31b5c7984c68864055fe18b988c5a4893ca1703f5c7903090079a1d92ef0/tsugu-0.4.0.tar.gz
+[2024-04-15 04:16:43] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-mixin]: New version: [14.0.4.9.0] Old Version: [14.0.4.8.0]
+[2024-04-15 04:16:43] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-terminate-mixin]: New version: [14.0.1.9.0] Old Version: [14.0.1.8.0]
+[2024-04-15 04:16:43] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-win-lost-mixin]: New version: [14.0.1.8.0] Old Version: [14.0.1.7.0]
+[2024-04-15 04:16:43] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-mixin]: Downloading https://files.pythonhosted.org/packages/35/16/45e72d7305922418af5571fd3a6dbf099ac752fd8c6fa602384f3b403ae6/odoo14_addon_ssi_transaction_mixin-14.0.4.8.0-py3-none-any.whl
+[2024-04-15 04:16:43] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-terminate-mixin]: Downloading https://files.pythonhosted.org/packages/94/f9/7a8abc482ca226e2ab5c0342830ba191363606839b753506346f96cbb05f/odoo14_addon_ssi_transaction_terminate_mixin-14.0.1.8.0-py3-none-any.whl
+[2024-04-15 04:16:43] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-win-lost-mixin]: Downloading https://files.pythonhosted.org/packages/43/fc/01ccda78aaa6d56fc10bfedb1f224a94c99ede839e1ad9a02c43dba92489/odoo14_addon_ssi_transaction_win_lost_mixin-14.0.1.7.0-py3-none-any.whl
+[2024-04-15 04:16:43] INFO root fetch - processPackages [telegram-collector]: Downloading https://files.pythonhosted.org/packages/74/0e/59611e7a15a30649b674dc65462605187447cf7bf6cd0a9e5329455ccb31/telegram_collector-0.2.7.tar.gz
+[2024-04-15 04:16:43] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/99/e1/5d6587a7634d0ec3b1c46259e6257f2dd641ecaa4d8903d72a6460651a21/tsugu-0.4.1.tar.gz
+[2024-04-15 04:16:43] INFO root fetch - processPackages [telegram-collector]: executing diffoscope
+[2024-04-15 04:16:43] INFO root fetch - processPackages [telegram-collector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegram_collector-0.2.6.tar.gz tmp/telegram_collector-0.2.7.tar.gz --markdown 20240415/t/telegram-collector/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-04-15 04:16:43] INFO root fetch - processPackages [tsugu]: executing diffoscope
+[2024-04-15 04:16:43] INFO root fetch - processPackages [tsugu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsugu-0.4.0.tar.gz tmp/tsugu-0.4.1.tar.gz --markdown 20240415/t/tsugu/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-04-15 04:16:43] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-mixin]: Downloading https://files.pythonhosted.org/packages/ff/77/95f6213104927351d23caa906784bbfdbf79ad62adda3e78ef215bc562b1/odoo14_addon_ssi_transaction_mixin-14.0.4.9.0-py3-none-any.whl
+[2024-04-15 04:16:43] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-terminate-mixin]: Downloading https://files.pythonhosted.org/packages/11/24/81d0414d4683b7ad2e3b4b13bbc5b2e98755ce98823239b085c79732fcbe/odoo14_addon_ssi_transaction_terminate_mixin-14.0.1.9.0-py3-none-any.whl
+[2024-04-15 04:16:43] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-win-lost-mixin]: Downloading https://files.pythonhosted.org/packages/a7/bd/ce1772e5d8b95df0e8a01efbb02f52384ecf240e4cb2cc6aded99eeed0f5/odoo14_addon_ssi_transaction_win_lost_mixin-14.0.1.8.0-py3-none-any.whl
+[2024-04-15 04:16:43] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-mixin]: executing diffoscope
+[2024-04-15 04:16:43] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-mixin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_transaction_mixin-14.0.4.8.0-py3-none-any.whl.zip tmp/odoo14_addon_ssi_transaction_mixin-14.0.4.9.0-py3-none-any.whl.zip --markdown 20240415/o/odoo14-addon-ssi-transaction-mixin/14.0.4.8.0-14.0.4.9.0/README.md --exclude *.pyd
+[2024-04-15 04:16:43] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-terminate-mixin]: executing diffoscope
+[2024-04-15 04:16:43] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-terminate-mixin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_transaction_terminate_mixin-14.0.1.8.0-py3-none-any.whl.zip tmp/odoo14_addon_ssi_transaction_terminate_mixin-14.0.1.9.0-py3-none-any.whl.zip --markdown 20240415/o/odoo14-addon-ssi-transaction-terminate-mixin/14.0.1.8.0-14.0.1.9.0/README.md --exclude *.pyd
+[2024-04-15 04:16:43] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-win-lost-mixin]: executing diffoscope
+[2024-04-15 04:16:43] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-win-lost-mixin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_transaction_win_lost_mixin-14.0.1.7.0-py3-none-any.whl.zip tmp/odoo14_addon_ssi_transaction_win_lost_mixin-14.0.1.8.0-py3-none-any.whl.zip --markdown 20240415/o/odoo14-addon-ssi-transaction-win-lost-mixin/14.0.1.7.0-14.0.1.8.0/README.md --exclude *.pyd
+[2024-04-15 04:16:44] INFO root fetch - processPackages [telegram-collector]: Remove: archive file [/home/abi/fetcher/tmp/telegram_collector-0.2.6.tar.gz]
+[2024-04-15 04:16:44] INFO root fetch - processPackages [telegram-collector]: Remove: archive file [/home/abi/fetcher/tmp/telegram_collector-0.2.7.tar.gz]
+[2024-04-15 04:16:44] INFO root fetch - main [MainThread]: End processing [telegram-collector]: success
+[2024-04-15 04:16:44] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.4.0.tar.gz]
+[2024-04-15 04:16:44] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.4.1.tar.gz]
+[2024-04-15 04:16:44] INFO root fetch - main [MainThread]: End processing [tsugu]: success
+[2024-04-15 04:16:44] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-mixin]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_transaction_mixin-14.0.4.8.0-py3-none-any.whl.zip]
+[2024-04-15 04:16:44] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-mixin]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_transaction_mixin-14.0.4.9.0-py3-none-any.whl.zip]
+[2024-04-15 04:16:44] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-transaction-mixin]: success
+[2024-04-15 04:16:44] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-win-lost-mixin]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_transaction_win_lost_mixin-14.0.1.7.0-py3-none-any.whl.zip]
+[2024-04-15 04:16:44] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-win-lost-mixin]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_transaction_win_lost_mixin-14.0.1.8.0-py3-none-any.whl.zip]
+[2024-04-15 04:16:44] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-transaction-win-lost-mixin]: success
+[2024-04-15 04:16:44] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-terminate-mixin]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_transaction_terminate_mixin-14.0.1.8.0-py3-none-any.whl.zip]
+[2024-04-15 04:16:44] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-terminate-mixin]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_transaction_terminate_mixin-14.0.1.9.0-py3-none-any.whl.zip]
+[2024-04-15 04:16:44] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-transaction-terminate-mixin]: success
+[2024-04-15 04:16:44] INFO root fetch - main [MainThread]: Store serial: [22764605]
