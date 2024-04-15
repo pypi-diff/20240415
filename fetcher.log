@@ -7733,3 +7733,51 @@
 [2024-04-15 07:32:16] INFO root fetch - processPackages [kink]: Remove: archive file [/home/abi/fetcher/tmp/kink-0.8.0.tar.gz]
 [2024-04-15 07:32:16] INFO root fetch - main [MainThread]: End processing [kink]: success
 [2024-04-15 07:32:16] INFO root fetch - main [MainThread]: Store serial: [22766313]
+[2024-04-15 07:34:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22766313]
+[2024-04-15 07:34:24] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-15 07:34:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scatter-append
+[2024-04-15 07:34:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tflite-runtime-nightly
+[2024-04-15 07:34:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: finter
+[2024-04-15 07:34:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: suql
+[2024-04-15 07:34:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aistudio-cognition
+[2024-04-15 07:34:24] INFO root fetch - processPackages [scatter-append]: New version: [0.2] Old Version: [0.1]
+[2024-04-15 07:34:24] INFO root fetch - processPackages [aistudio-cognition]: New version: [3.4.1.3] Old Version: [3.4.1.2]
+[2024-04-15 07:34:24] INFO root fetch - processPackages [suql]: New version: [1.1.2] Old Version: [1.1.1a0]
+[2024-04-15 07:34:24] INFO root fetch - processPackages [finter]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-04-15 07:34:24] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.17.0.dev20240414] Old Version: [2.17.0.dev20240413]
+[2024-04-15 07:34:24] INFO root fetch - processPackages [scatter-append]: Downloading https://files.pythonhosted.org/packages/ef/a5/c9fe118a0787d4b81d7ecfe0f467d2971af6176da631a52e34f969e72ea6/scatter_append-0.1.tar.gz
+[2024-04-15 07:34:24] INFO root fetch - processPackages [aistudio-cognition]: Downloading https://files.pythonhosted.org/packages/38/65/6a27485fdef158944d4f4da363f1b477787cd31da2b4eba49b124d37f1aa/aistudio_cognition-3.4.1.2.tar.gz
+[2024-04-15 07:34:24] INFO root fetch - processPackages [finter]: Downloading https://files.pythonhosted.org/packages/99/4e/b7b67460b8509dcc7a2d1f24e5cffce8649a1b66a32a9a9cf096ea455aa4/finter-0.1.9-py3-none-any.whl
+[2024-04-15 07:34:24] INFO root fetch - processPackages [suql]: Downloading https://files.pythonhosted.org/packages/5a/f0/abf43ae0381578f462e9daf55d816fc7ca8661ff9500dfcef7c3bfcabe73/suql-1.1.1a0.tar.gz
+[2024-04-15 07:34:24] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/a4/20/eb5dc915d99c3c2ebc86883d5d3bd04a98477f96bf4f3ea53217d6acbe33/tflite_runtime_nightly-2.17.0.dev20240413-cp39-cp39-manylinux_2_34_armv7l.whl
+[2024-04-15 07:34:25] INFO root fetch - processPackages [scatter-append]: Downloading https://files.pythonhosted.org/packages/4e/51/956a34e6e613d91b95419353b665159d66d25dbe2403b28dfbba8ab4cb28/scatter_append-0.2.tar.gz
+[2024-04-15 07:34:25] INFO root fetch - processPackages [aistudio-cognition]: Downloading https://files.pythonhosted.org/packages/15/12/126343e8919551db9bb77e456afd8170a86acf394a92f29193662516e9a4/aistudio_cognition-3.4.1.3.tar.gz
+[2024-04-15 07:34:25] INFO root fetch - processPackages [scatter-append]: executing diffoscope
+[2024-04-15 07:34:25] INFO root fetch - processPackages [scatter-append]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scatter_append-0.1.tar.gz tmp/scatter_append-0.2.tar.gz --markdown 20240415/s/scatter-append/0.1-0.2/README.md --exclude *.pyd
+[2024-04-15 07:34:25] INFO root fetch - processPackages [finter]: Downloading https://files.pythonhosted.org/packages/00/9b/09c3c8953264789250165f1077264d9c5da2736d261903b5c8e2cdfea995/finter-0.2.0-py3-none-any.whl
+[2024-04-15 07:34:25] INFO root fetch - processPackages [suql]: Downloading https://files.pythonhosted.org/packages/56/fc/c0d7f4a2e0620c1e824565c8b34ccdaedcdb11e189765a01f6b37d95f575/suql-1.1.2.tar.gz
+[2024-04-15 07:34:25] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/fb/06/f48fdbd2f7036847a18341b31d54a199a2881024679e67836a47992e5275/tflite_runtime_nightly-2.17.0.dev20240414-cp39-cp39-manylinux_2_34_armv7l.whl
+[2024-04-15 07:34:25] INFO root fetch - processPackages [aistudio-cognition]: executing diffoscope
+[2024-04-15 07:34:25] INFO root fetch - processPackages [aistudio-cognition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aistudio_cognition-3.4.1.2.tar.gz tmp/aistudio_cognition-3.4.1.3.tar.gz --markdown 20240415/a/aistudio-cognition/3.4.1.2-3.4.1.3/README.md --exclude *.pyd
+[2024-04-15 07:34:25] INFO root fetch - processPackages [suql]: executing diffoscope
+[2024-04-15 07:34:25] INFO root fetch - processPackages [suql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suql-1.1.1a0.tar.gz tmp/suql-1.1.2.tar.gz --markdown 20240415/s/suql/1.1.1a0-1.1.2/README.md --exclude *.pyd
+[2024-04-15 07:34:25] INFO root fetch - processPackages [finter]: executing diffoscope
+[2024-04-15 07:34:25] INFO root fetch - processPackages [finter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finter-0.1.9-py3-none-any.whl.zip tmp/finter-0.2.0-py3-none-any.whl.zip --markdown 20240415/f/finter/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-04-15 07:34:25] INFO root fetch - processPackages [scatter-append]: Remove: archive file [/home/abi/fetcher/tmp/scatter_append-0.1.tar.gz]
+[2024-04-15 07:34:25] INFO root fetch - processPackages [scatter-append]: Remove: archive file [/home/abi/fetcher/tmp/scatter_append-0.2.tar.gz]
+[2024-04-15 07:34:25] INFO root fetch - main [MainThread]: End processing [scatter-append]: success
+[2024-04-15 07:34:25] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2024-04-15 07:34:25] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.17.0.dev20240413-cp39-cp39-manylinux_2_34_armv7l.whl.zip tmp/tflite_runtime_nightly-2.17.0.dev20240414-cp39-cp39-manylinux_2_34_armv7l.whl.zip --markdown 20240415/t/tflite-runtime-nightly/2.17.0.dev20240413-2.17.0.dev20240414/README.md --exclude *.pyd
+[2024-04-15 07:34:25] INFO root fetch - processPackages [aistudio-cognition]: Remove: archive file [/home/abi/fetcher/tmp/aistudio_cognition-3.4.1.2.tar.gz]
+[2024-04-15 07:34:25] INFO root fetch - processPackages [aistudio-cognition]: Remove: archive file [/home/abi/fetcher/tmp/aistudio_cognition-3.4.1.3.tar.gz]
+[2024-04-15 07:34:25] INFO root fetch - main [MainThread]: End processing [aistudio-cognition]: success
+[2024-04-15 07:34:26] INFO root fetch - processPackages [suql]: Remove: archive file [/home/abi/fetcher/tmp/suql-1.1.1a0.tar.gz]
+[2024-04-15 07:34:26] INFO root fetch - processPackages [suql]: Remove: archive file [/home/abi/fetcher/tmp/suql-1.1.2.tar.gz]
+[2024-04-15 07:34:26] INFO root fetch - main [MainThread]: End processing [suql]: success
+[2024-04-15 07:34:26] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.17.0.dev20240413-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
+[2024-04-15 07:34:26] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.17.0.dev20240414-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
+[2024-04-15 07:34:26] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2024-04-15 07:34:26] INFO root fetch - processPackages [finter]: Remove: archive file [/home/abi/fetcher/tmp/finter-0.1.9-py3-none-any.whl.zip]
+[2024-04-15 07:34:26] INFO root fetch - processPackages [finter]: Remove: archive file [/home/abi/fetcher/tmp/finter-0.2.0-py3-none-any.whl.zip]
+[2024-04-15 07:34:26] INFO root fetch - main [MainThread]: End processing [finter]: success
+[2024-04-15 07:34:26] INFO root fetch - main [MainThread]: Store serial: [22766334]
