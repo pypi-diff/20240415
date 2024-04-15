@@ -4093,3 +4093,9 @@
 [2024-04-15 05:24:24] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev99.tar.gz]
 [2024-04-15 05:24:24] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
 [2024-04-15 05:24:24] INFO root fetch - main [MainThread]: Store serial: [22765033]
+[2024-04-15 05:26:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22765033]
+[2024-04-15 05:26:32] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-15 05:26:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: heare-histograms
+[2024-04-15 05:26:32] WARNING root fetch - processPackages [heare-histograms]: Skipping, unable to determine old version
+[2024-04-15 05:26:32] INFO root fetch - main [MainThread]: End processing [heare-histograms] error
+[2024-04-15 05:26:32] INFO root fetch - main [MainThread]: Store serial: [22765037]
