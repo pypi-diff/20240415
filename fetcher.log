@@ -8923,3 +8923,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 08:40:17] INFO root fetch - processPackages [dcaspt2-input-generator]: Remove: archive file [/home/abi/fetcher/tmp/dcaspt2_input_generator-0.6.0.tar.gz]
 [2024-04-15 08:40:17] INFO root fetch - main [MainThread]: End processing [dcaspt2-input-generator]: success
 [2024-04-15 08:40:17] INFO root fetch - main [MainThread]: Store serial: [22766804]
+[2024-04-15 08:42:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22766804]
+[2024-04-15 08:42:26] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-15 08:42:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: keelson
+[2024-04-15 08:42:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: acmetric-plotting
+[2024-04-15 08:42:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: satella
+[2024-04-15 08:42:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dsp-ifsc
+[2024-04-15 08:42:26] INFO root fetch - processPackages [dsp-ifsc]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-15 08:42:26] INFO root fetch - processPackages [dsp-ifsc]: Downloading https://files.pythonhosted.org/packages/99/d1/920415318fdb82a0e36ceb10335bb78c647bc28a81a86501ed998adbaa29/dsp_ifsc-0.0.7.tar.gz
+[2024-04-15 08:42:26] INFO root fetch - processPackages [keelson]: New version: [0.3.1rc4] Old Version: [0.3.1rc3]
+[2024-04-15 08:42:26] INFO root fetch - processPackages [acmetric-plotting]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-04-15 08:42:26] INFO root fetch - processPackages [satella]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-04-15 08:42:27] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/ec/75/203a4593c3415576f704ab9c1d9cc92d177dbf42c19edb07910e2683c4c3/keelson-0.3.1rc3-py3-none-any.whl
+[2024-04-15 08:42:27] INFO root fetch - processPackages [acmetric-plotting]: Downloading https://files.pythonhosted.org/packages/2c/91/69aaca1daf2dfd035d8bf8ee5c369fce85bfbf9eb11f0e2fe5bb96db714e/acmetric_plotting-1.3.1.tar.gz
+[2024-04-15 08:42:27] INFO root fetch - processPackages [satella]: Downloading https://files.pythonhosted.org/packages/74/56/f30ea8e653f033ca3d7985a63f407f587857f85bebdca42aabd1a52db3bd/satella-2.9.8-py2.py3-none-any.whl
+[2024-04-15 08:42:27] INFO root fetch - processPackages [dsp-ifsc]: Downloading https://files.pythonhosted.org/packages/8b/f2/e6fcc71a976cf06664dcb193d0668105fef3f23881e4da1fbec2331de6e9/dsp_ifsc-0.0.8.tar.gz
+[2024-04-15 08:42:27] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/28/e4/e8f87b64d3c9454722ff094a62c4e97b808326522f67cef6dcb43d0eed9e/keelson-0.3.1rc4-py3-none-any.whl
+[2024-04-15 08:42:27] INFO root fetch - processPackages [acmetric-plotting]: Downloading https://files.pythonhosted.org/packages/db/c3/387b93de126015342b192c09789c03dce2179de9c87e484d4fd54b78cb72/acmetric_plotting-1.3.2.tar.gz
+[2024-04-15 08:42:27] INFO root fetch - processPackages [dsp-ifsc]: executing diffoscope
+[2024-04-15 08:42:27] INFO root fetch - processPackages [dsp-ifsc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsp_ifsc-0.0.7.tar.gz tmp/dsp_ifsc-0.0.8.tar.gz --markdown 20240415/d/dsp-ifsc/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-15 08:42:27] INFO root fetch - processPackages [keelson]: executing diffoscope
+[2024-04-15 08:42:27] INFO root fetch - processPackages [keelson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keelson-0.3.1rc3-py3-none-any.whl.zip tmp/keelson-0.3.1rc4-py3-none-any.whl.zip --markdown 20240415/k/keelson/0.3.1rc3-0.3.1rc4/README.md --exclude *.pyd
+[2024-04-15 08:42:27] INFO root fetch - processPackages [acmetric-plotting]: executing diffoscope
+[2024-04-15 08:42:27] INFO root fetch - processPackages [acmetric-plotting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acmetric_plotting-1.3.1.tar.gz tmp/acmetric_plotting-1.3.2.tar.gz --markdown 20240415/a/acmetric-plotting/1.3.1-1.3.2/README.md --exclude *.pyd
+[2024-04-15 08:42:27] INFO root fetch - processPackages [satella]: Downloading https://files.pythonhosted.org/packages/12/ba/d56fda1238f9681db3f7dc04ec25b80e950a770ecacb518cb5c77cf2ccdc/satella-2.9.9-py2.py3-none-any.whl
+[2024-04-15 08:42:27] INFO root fetch - processPackages [satella]: executing diffoscope
+[2024-04-15 08:42:27] INFO root fetch - processPackages [satella]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satella-2.9.8-py2.py3-none-any.whl.zip tmp/satella-2.9.9-py2.py3-none-any.whl.zip --markdown 20240415/s/satella/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-04-15 08:42:28] INFO root fetch - processPackages [acmetric-plotting]: Remove: archive file [/home/abi/fetcher/tmp/acmetric_plotting-1.3.1.tar.gz]
+[2024-04-15 08:42:28] INFO root fetch - processPackages [acmetric-plotting]: Remove: archive file [/home/abi/fetcher/tmp/acmetric_plotting-1.3.2.tar.gz]
+[2024-04-15 08:42:28] INFO root fetch - main [MainThread]: End processing [acmetric-plotting]: success
+[2024-04-15 08:42:28] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.1rc3-py3-none-any.whl.zip]
+[2024-04-15 08:42:28] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.1rc4-py3-none-any.whl.zip]
+[2024-04-15 08:42:28] INFO root fetch - main [MainThread]: End processing [keelson]: success
+[2024-04-15 08:42:28] INFO root fetch - processPackages [dsp-ifsc]: Remove: archive file [/home/abi/fetcher/tmp/dsp_ifsc-0.0.7.tar.gz]
+[2024-04-15 08:42:28] INFO root fetch - processPackages [dsp-ifsc]: Remove: archive file [/home/abi/fetcher/tmp/dsp_ifsc-0.0.8.tar.gz]
+[2024-04-15 08:42:28] INFO root fetch - main [MainThread]: End processing [dsp-ifsc]: success
+[2024-04-15 08:42:28] INFO root fetch - processPackages [satella]: Remove: archive file [/home/abi/fetcher/tmp/satella-2.9.8-py2.py3-none-any.whl.zip]
+[2024-04-15 08:42:28] INFO root fetch - processPackages [satella]: Remove: archive file [/home/abi/fetcher/tmp/satella-2.9.9-py2.py3-none-any.whl.zip]
+[2024-04-15 08:42:28] INFO root fetch - main [MainThread]: End processing [satella]: success
+[2024-04-15 08:42:28] INFO root fetch - main [MainThread]: Store serial: [22766815]
