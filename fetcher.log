@@ -4563,3 +4563,33 @@
 [2024-04-15 05:57:03] INFO root fetch - processPackages [l3c]: Remove: archive file [/home/abi/fetcher/tmp/l3c-0.1.0.1.tar.gz]
 [2024-04-15 05:57:03] INFO root fetch - main [MainThread]: End processing [l3c]: success
 [2024-04-15 05:57:03] INFO root fetch - main [MainThread]: Store serial: [22765214]
+[2024-04-15 05:59:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22765214]
+[2024-04-15 05:59:11] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-15 05:59:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: finalsa-dynamo-client
+[2024-04-15 05:59:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chik-rs
+[2024-04-15 05:59:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: avocentdpdu
+[2024-04-15 05:59:11] INFO root fetch - processPackages [finalsa-dynamo-client]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-15 05:59:11] INFO root fetch - processPackages [avocentdpdu]: New version: [1.0.0] Old Version: [0.0.5]
+[2024-04-15 05:59:11] INFO root fetch - processPackages [chik-rs]: New version: [0.6.0] Old Version: [0.5.2]
+[2024-04-15 05:59:11] INFO root fetch - processPackages [avocentdpdu]: Downloading https://files.pythonhosted.org/packages/be/56/59f604f078fb3222e3139ccfbcdf14d65a1ad1708f73b58ca7cf70d7c3a9/avocentdpdu-0.0.5.tar.gz
+[2024-04-15 05:59:11] INFO root fetch - processPackages [chik-rs]: Downloading https://files.pythonhosted.org/packages/1f/e0/e108c2c989abf6665b99f50df946d571347bb5c1ac1090d9a8bcc61a45bb/chik_rs-0.5.2.tar.gz
+[2024-04-15 05:59:11] INFO root fetch - processPackages [finalsa-dynamo-client]: Downloading https://files.pythonhosted.org/packages/2d/12/05cb575c1993cb80cf1be61acfcc993eee74179c772218843ae32da2f6d9/finalsa-dynamo-client-0.0.6.tar.gz
+[2024-04-15 05:59:12] INFO root fetch - processPackages [avocentdpdu]: Downloading https://files.pythonhosted.org/packages/95/51/a8fba09d721530722fec9015f2c2bcc2540cf6727ba77c4ee1ea17573e91/avocentdpdu-1.0.0.tar.gz
+[2024-04-15 05:59:12] INFO root fetch - processPackages [finalsa-dynamo-client]: Downloading https://files.pythonhosted.org/packages/a6/a9/875503faf9044bb21c12463b79743c5e0e72602f935c3efb9f8028c34efd/finalsa_dynamo_client-0.0.7.tar.gz
+[2024-04-15 05:59:12] INFO root fetch - processPackages [finalsa-dynamo-client]: executing diffoscope
+[2024-04-15 05:59:12] INFO root fetch - processPackages [finalsa-dynamo-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finalsa-dynamo-client-0.0.6.tar.gz tmp/finalsa_dynamo_client-0.0.7.tar.gz --markdown 20240415/f/finalsa-dynamo-client/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-15 05:59:12] INFO root fetch - processPackages [chik-rs]: Downloading https://files.pythonhosted.org/packages/44/0a/e94ee01cd3fb81f30b060bdba8d1d258f717ce2433dd12446ac1cf5a66db/chik_rs-0.6.0.tar.gz
+[2024-04-15 05:59:12] INFO root fetch - processPackages [avocentdpdu]: executing diffoscope
+[2024-04-15 05:59:12] INFO root fetch - processPackages [avocentdpdu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avocentdpdu-0.0.5.tar.gz tmp/avocentdpdu-1.0.0.tar.gz --markdown 20240415/a/avocentdpdu/0.0.5-1.0.0/README.md --exclude *.pyd
+[2024-04-15 05:59:12] INFO root fetch - processPackages [chik-rs]: executing diffoscope
+[2024-04-15 05:59:12] INFO root fetch - processPackages [chik-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chik_rs-0.5.2.tar.gz tmp/chik_rs-0.6.0.tar.gz --markdown 20240415/c/chik-rs/0.5.2-0.6.0/README.md --exclude *.pyd
+[2024-04-15 05:59:12] INFO root fetch - processPackages [finalsa-dynamo-client]: Remove: archive file [/home/abi/fetcher/tmp/finalsa-dynamo-client-0.0.6.tar.gz]
+[2024-04-15 05:59:12] INFO root fetch - processPackages [finalsa-dynamo-client]: Remove: archive file [/home/abi/fetcher/tmp/finalsa_dynamo_client-0.0.7.tar.gz]
+[2024-04-15 05:59:12] INFO root fetch - main [MainThread]: End processing [finalsa-dynamo-client]: success
+[2024-04-15 05:59:12] INFO root fetch - processPackages [avocentdpdu]: Remove: archive file [/home/abi/fetcher/tmp/avocentdpdu-0.0.5.tar.gz]
+[2024-04-15 05:59:12] INFO root fetch - processPackages [avocentdpdu]: Remove: archive file [/home/abi/fetcher/tmp/avocentdpdu-1.0.0.tar.gz]
+[2024-04-15 05:59:12] INFO root fetch - main [MainThread]: End processing [avocentdpdu]: success
+[2024-04-15 05:59:14] INFO root fetch - processPackages [chik-rs]: Remove: archive file [/home/abi/fetcher/tmp/chik_rs-0.5.2.tar.gz]
+[2024-04-15 05:59:14] INFO root fetch - processPackages [chik-rs]: Remove: archive file [/home/abi/fetcher/tmp/chik_rs-0.6.0.tar.gz]
+[2024-04-15 05:59:14] INFO root fetch - main [MainThread]: End processing [chik-rs]: success
+[2024-04-15 05:59:14] INFO root fetch - main [MainThread]: Store serial: [22765246]
