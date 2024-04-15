@@ -18528,3 +18528,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 14:41:39] INFO root fetch - processPackages [CTADIRAC]: Remove: archive file [/home/abi/fetcher/tmp/CTADIRAC-2.2a3.tar.gz]
 [2024-04-15 14:41:39] INFO root fetch - main [MainThread]: End processing [CTADIRAC]: success
 [2024-04-15 14:41:39] INFO root fetch - main [MainThread]: Store serial: [22771018]
+[2024-04-15 14:43:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22771018]
+[2024-04-15 14:43:48] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-15 14:43:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: few-shot-priming
+[2024-04-15 14:43:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pynumstim
+[2024-04-15 14:43:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytvm
+[2024-04-15 14:43:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: policy-priority-inference
+[2024-04-15 14:43:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zaiclient
+[2024-04-15 14:43:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-azuread
+[2024-04-15 14:43:48] INFO root fetch - processPackages [pynumstim]: New version: [0.3.dev0] Old Version: [0.2]
+[2024-04-15 14:43:48] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-04-15 14:43:48] INFO root fetch - processPackages [pytvm]: New version: [0.0.9] Old Version: [0.0.5]
+[2024-04-15 14:43:48] INFO root fetch - processPackages [zaiclient]: New version: [4.2.0] Old Version: [4.1.1]
+[2024-04-15 14:43:48] INFO root fetch - processPackages [policy-priority-inference]: New version: [3.0.3] Old Version: [3.0.2]
+[2024-04-15 14:43:48] INFO root fetch - processPackages [pulumi-azuread]: New version: [5.9.0a1637590268] Old Version: [5.9.0]
+[2024-04-15 14:43:48] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-04-15 14:43:48] INFO root fetch - processPackages [pynumstim]: Downloading https://files.pythonhosted.org/packages/2c/87/34fdee608fdaec8be13c223d089ffddc01c22c24673468f1ba249ddb1204/pynumstim-0.2.tar.gz
+[2024-04-15 14:43:48] INFO root fetch - processPackages [pytvm]: Downloading https://files.pythonhosted.org/packages/be/23/fe7a8de3a191e24e4dc5d0f72135da8ee54ad220e5f5cf8fe794ddd13554/pytvm-0.0.5.tar.gz
+[2024-04-15 14:43:48] INFO root fetch - processPackages [zaiclient]: Downloading https://files.pythonhosted.org/packages/f1/fd/e00d16767b36aacee7f9c55565b9c937d3e1a3ae0b0ce150ccf877781de1/zaiclient-4.1.1-py3-none-any.whl
+[2024-04-15 14:43:48] INFO root fetch - processPackages [policy-priority-inference]: Downloading https://files.pythonhosted.org/packages/bc/1b/50d1711c41a9a9c24707c024bbc901d202dfdffcb9597bb23b0b2df788d6/policy_priority_inference-3.0.2.tar.gz
+[2024-04-15 14:43:48] INFO root fetch - processPackages [pulumi-azuread]: Downloading https://files.pythonhosted.org/packages/f4/f7/ac3012c15949ee976d13803f93ece9979adca66c4e8ad22f982d9ef2bd26/pulumi_azuread-5.9.0.tar.gz
+[2024-04-15 14:43:48] INFO root fetch - processPackages [pynumstim]: Downloading https://files.pythonhosted.org/packages/5d/8d/c1684dd6f3cea74b806000baa2f8d52380aafc364ce1a5bdff2512d1c9f6/pynumstim-0.3.dev0.tar.gz
+[2024-04-15 14:43:49] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-04-15 14:43:49] INFO root fetch - processPackages [pynumstim]: executing diffoscope
+[2024-04-15 14:43:49] INFO root fetch - processPackages [pynumstim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynumstim-0.2.tar.gz tmp/pynumstim-0.3.dev0.tar.gz --markdown 20240415/p/pynumstim/0.2-0.3.dev0/README.md --exclude *.pyd
+[2024-04-15 14:43:49] INFO root fetch - processPackages [zaiclient]: Downloading https://files.pythonhosted.org/packages/22/fc/c6b48c571880b29824ba3b832679150c6e540a542ee8d932d6b2883ecdd9/zaiclient-4.2.0-py3-none-any.whl
+[2024-04-15 14:43:49] INFO root fetch - processPackages [pytvm]: Downloading https://files.pythonhosted.org/packages/66/2b/403835fc61a674193b26dcac3f1278160a342a39ecb6564b51b38008ad9f/pytvm-0.0.9.tar.gz
+[2024-04-15 14:43:49] INFO root fetch - processPackages [policy-priority-inference]: Downloading https://files.pythonhosted.org/packages/3a/77/253302cc13b8b28590fe59b1da006bcca546e1fba396d764da9b11e4850e/policy_priority_inference-3.0.3.tar.gz
+[2024-04-15 14:43:49] INFO root fetch - processPackages [pulumi-azuread]: Downloading https://files.pythonhosted.org/packages/80/14/c6fa237dd848e602cd45db3de0b2cd017ce8857a3e21b8e9a3802d60ebbb/pulumi_azuread-5.9.0a1637590268.tar.gz
+[2024-04-15 14:43:49] INFO root fetch - processPackages [policy-priority-inference]: executing diffoscope
+[2024-04-15 14:43:49] INFO root fetch - processPackages [policy-priority-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policy_priority_inference-3.0.2.tar.gz tmp/policy_priority_inference-3.0.3.tar.gz --markdown 20240415/p/policy-priority-inference/3.0.2-3.0.3/README.md --exclude *.pyd
+[2024-04-15 14:43:49] INFO root fetch - processPackages [pulumi-azuread]: executing diffoscope
+[2024-04-15 14:43:49] INFO root fetch - processPackages [pulumi-azuread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azuread-5.9.0.tar.gz tmp/pulumi_azuread-5.9.0a1637590268.tar.gz --markdown 20240415/p/pulumi-azuread/5.9.0-5.9.0a1637590268/README.md --exclude *.pyd
+[2024-04-15 14:43:49] INFO root fetch - processPackages [pytvm]: executing diffoscope
+[2024-04-15 14:43:49] INFO root fetch - processPackages [pytvm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytvm-0.0.5.tar.gz tmp/pytvm-0.0.9.tar.gz --markdown 20240415/p/pytvm/0.0.5-0.0.9/README.md --exclude *.pyd
+[2024-04-15 14:43:49] INFO root fetch - processPackages [zaiclient]: executing diffoscope
+[2024-04-15 14:43:49] INFO root fetch - processPackages [zaiclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zaiclient-4.1.1-py3-none-any.whl.zip tmp/zaiclient-4.2.0-py3-none-any.whl.zip --markdown 20240415/z/zaiclient/4.1.1-4.2.0/README.md --exclude *.pyd
+[2024-04-15 14:43:49] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-04-15 14:43:49] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240415/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-04-15 14:43:49] INFO root fetch - processPackages [pynumstim]: Remove: archive file [/home/abi/fetcher/tmp/pynumstim-0.2.tar.gz]
+[2024-04-15 14:43:49] INFO root fetch - processPackages [pynumstim]: Remove: archive file [/home/abi/fetcher/tmp/pynumstim-0.3.dev0.tar.gz]
+[2024-04-15 14:43:49] INFO root fetch - main [MainThread]: End processing [pynumstim]: success
+[2024-04-15 14:43:50] INFO root fetch - processPackages [policy-priority-inference]: Remove: archive file [/home/abi/fetcher/tmp/policy_priority_inference-3.0.2.tar.gz]
+[2024-04-15 14:43:50] INFO root fetch - processPackages [policy-priority-inference]: Remove: archive file [/home/abi/fetcher/tmp/policy_priority_inference-3.0.3.tar.gz]
+[2024-04-15 14:43:50] INFO root fetch - main [MainThread]: End processing [policy-priority-inference]: success
+[2024-04-15 14:43:50] INFO root fetch - processPackages [pytvm]: Remove: archive file [/home/abi/fetcher/tmp/pytvm-0.0.5.tar.gz]
+[2024-04-15 14:43:50] INFO root fetch - processPackages [pytvm]: Remove: archive file [/home/abi/fetcher/tmp/pytvm-0.0.9.tar.gz]
+[2024-04-15 14:43:50] INFO root fetch - main [MainThread]: End processing [pytvm]: success
+[2024-04-15 14:43:50] INFO root fetch - processPackages [zaiclient]: Remove: archive file [/home/abi/fetcher/tmp/zaiclient-4.1.1-py3-none-any.whl.zip]
+[2024-04-15 14:43:50] INFO root fetch - processPackages [zaiclient]: Remove: archive file [/home/abi/fetcher/tmp/zaiclient-4.2.0-py3-none-any.whl.zip]
+[2024-04-15 14:43:50] INFO root fetch - main [MainThread]: End processing [zaiclient]: success
+[2024-04-15 14:43:50] INFO root fetch - processPackages [pulumi-azuread]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuread-5.9.0.tar.gz]
+[2024-04-15 14:43:50] INFO root fetch - processPackages [pulumi-azuread]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_azuread-5.9.0a1637590268.tar.gz]
+[2024-04-15 14:43:50] INFO root fetch - main [MainThread]: End processing [pulumi-azuread]: success
+[2024-04-15 14:43:50] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-04-15 14:43:50] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-04-15 14:43:50] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-04-15 14:43:50] INFO root fetch - main [MainThread]: Store serial: [22771058]
