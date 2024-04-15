@@ -15050,3 +15050,32 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 12:35:25] INFO root fetch - processPackages [modern-greek-inflexion]: Remove: archive file [/home/abi/fetcher/tmp/modern_greek_inflexion-2.0.3.tar.gz]
 [2024-04-15 12:35:25] INFO root fetch - main [MainThread]: End processing [modern-greek-inflexion]: success
 [2024-04-15 12:35:25] INFO root fetch - main [MainThread]: Store serial: [22769405]
+[2024-04-15 12:37:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22769405]
+[2024-04-15 12:37:36] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-15 12:37:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: badapple
+[2024-04-15 12:37:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pragma-sdk
+[2024-04-15 12:37:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: loops-diff
+[2024-04-15 12:37:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: botocore-stubs
+[2024-04-15 12:37:36] INFO root fetch - processPackages [botocore-stubs]: New version: [1.34.9] Old Version: [1.34.84]
+[2024-04-15 12:37:36] WARNING root fetch - processPackages [loops-diff]: Skipping, unable to determine old version
+[2024-04-15 12:37:36] INFO root fetch - processPackages [pragma-sdk]: New version: [1.3.0] Old Version: [1.2.9]
+[2024-04-15 12:37:36] INFO root fetch - main [MainThread]: End processing [loops-diff] error
+[2024-04-15 12:37:36] INFO root fetch - processPackages [pragma-sdk]: Downloading https://files.pythonhosted.org/packages/b4/73/d582b02991113a0f34b962a9e5bf0dfd105135e9db5aee79403521741234/pragma_sdk-1.2.9.tar.gz
+[2024-04-15 12:37:36] INFO root fetch - processPackages [badapple]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-15 12:37:36] INFO root fetch - processPackages [botocore-stubs]: Downloading https://files.pythonhosted.org/packages/02/59/cd9dc1545642497f1c70c0db2ecbc64a732d5be98cc91678102a24cd7c12/botocore_stubs-1.34.84.tar.gz
+[2024-04-15 12:37:36] INFO root fetch - processPackages [badapple]: Downloading https://files.pythonhosted.org/packages/84/d6/e7a8ebef27b385e90a0354e03d79a40713a2386b683e90a5248b0cd33c64/badapple-0.0.6.tar.gz
+[2024-04-15 12:37:36] WARNING root fetch - processPackages [badapple]: Skipping package: exceeds size limit 74223863>=10485760
+[2024-04-15 12:37:36] INFO root fetch - main [MainThread]: End processing [badapple] error
+[2024-04-15 12:37:36] INFO root fetch - processPackages [pragma-sdk]: Downloading https://files.pythonhosted.org/packages/3c/a2/c7ace02ddbfce894c57325fa0fc4d3d62f345ac36325aad3735148a223a6/pragma_sdk-1.3.0.tar.gz
+[2024-04-15 12:37:36] INFO root fetch - processPackages [botocore-stubs]: Downloading https://files.pythonhosted.org/packages/4d/d8/09cc972cd3e15c8b530959cdeef121157b123353cc1557c36e54e1eef673/botocore_stubs-1.34.9.tar.gz
+[2024-04-15 12:37:36] INFO root fetch - processPackages [pragma-sdk]: executing diffoscope
+[2024-04-15 12:37:36] INFO root fetch - processPackages [pragma-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pragma_sdk-1.2.9.tar.gz tmp/pragma_sdk-1.3.0.tar.gz --markdown 20240415/p/pragma-sdk/1.2.9-1.3.0/README.md --exclude *.pyd
+[2024-04-15 12:37:37] INFO root fetch - processPackages [botocore-stubs]: executing diffoscope
+[2024-04-15 12:37:37] INFO root fetch - processPackages [botocore-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore_stubs-1.34.84.tar.gz tmp/botocore_stubs-1.34.9.tar.gz --markdown 20240415/b/botocore-stubs/1.34.84-1.34.9/README.md --exclude *.pyd
+[2024-04-15 12:37:37] INFO root fetch - processPackages [botocore-stubs]: Remove: archive file [/home/abi/fetcher/tmp/botocore_stubs-1.34.84.tar.gz]
+[2024-04-15 12:37:37] INFO root fetch - processPackages [botocore-stubs]: Remove: archive file [/home/abi/fetcher/tmp/botocore_stubs-1.34.9.tar.gz]
+[2024-04-15 12:37:37] INFO root fetch - main [MainThread]: End processing [botocore-stubs]: success
+[2024-04-15 12:37:37] INFO root fetch - processPackages [pragma-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pragma_sdk-1.2.9.tar.gz]
+[2024-04-15 12:37:37] INFO root fetch - processPackages [pragma-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pragma_sdk-1.3.0.tar.gz]
+[2024-04-15 12:37:37] INFO root fetch - main [MainThread]: End processing [pragma-sdk]: success
+[2024-04-15 12:37:37] INFO root fetch - main [MainThread]: Store serial: [22769416]
