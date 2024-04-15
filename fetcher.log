@@ -9207,3 +9207,87 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 08:51:34] INFO root fetch - processPackages [bavisitter]: Remove: archive file [/home/abi/fetcher/tmp/bavisitter-0.0.1a0.tar.gz]
 [2024-04-15 08:51:34] INFO root fetch - main [MainThread]: End processing [bavisitter]: success
 [2024-04-15 08:51:34] INFO root fetch - main [MainThread]: Store serial: [22766892]
+[2024-04-15 08:53:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22766892]
+[2024-04-15 08:53:47] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-15 08:53:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ResearchTikPy
+[2024-04-15 08:53:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tendril-connector-grafana
+[2024-04-15 08:53:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oip-tracking-client
+[2024-04-15 08:53:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumiverse-grafana
+[2024-04-15 08:53:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: acetone-nnet
+[2024-04-15 08:53:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: remotivelabs-broker
+[2024-04-15 08:53:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ansar-connect
+[2024-04-15 08:53:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yplib
+[2024-04-15 08:53:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumiverse-scaleway
+[2024-04-15 08:53:47] INFO root fetch - processPackages [ansar-connect]: New version: [0.1.167] Old Version: [0.1.166]
+[2024-04-15 08:53:47] INFO root fetch - processPackages [tendril-connector-grafana]: New version: [0.2.3] Old Version: [0.1.1]
+[2024-04-15 08:53:47] INFO root fetch - processPackages [oip-tracking-client]: New version: [0.0.3.dev0] Old Version: [0.0.2]
+[2024-04-15 08:53:47] INFO root fetch - processPackages [yplib]: New version: [5.6.1] Old Version: [5.6.0]
+[2024-04-15 08:53:47] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/17/39/c08a8bcb4d6bada0f6e3cf6916f543e49b988417bb4da78d2d573fce3962/ansar_connect-0.1.166.tar.gz
+[2024-04-15 08:53:47] INFO root fetch - processPackages [ResearchTikPy]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-15 08:53:47] INFO root fetch - processPackages [acetone-nnet]: New version: [0.0.1.dev5] Old Version: [0.0.1.dev4]
+[2024-04-15 08:53:47] INFO root fetch - processPackages [tendril-connector-grafana]: Downloading https://files.pythonhosted.org/packages/25/73/dba01f0d521c525da34ab10e618771280ca17b6bd945ea9eb6c6c5876737/tendril-connector-grafana-0.1.1.tar.gz
+[2024-04-15 08:53:47] INFO root fetch - processPackages [pulumiverse-scaleway]: New version: [1.13.0a1713162939] Old Version: [1.13.0a1712697355]
+[2024-04-15 08:53:47] INFO root fetch - processPackages [pulumiverse-grafana]: New version: [0.4.2a1713162907] Old Version: [0.4.2a1712913962]
+[2024-04-15 08:53:47] INFO root fetch - processPackages [remotivelabs-broker]: New version: [0.2.0b9] Old Version: [0.2.0b8]
+[2024-04-15 08:53:47] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/89/0d/c7ece421ad17cfe66a61946043ca1975a79c3b84e184579ff1fca5ab4d2f/yplib-5.6.0.tar.gz
+[2024-04-15 08:53:47] INFO root fetch - processPackages [oip-tracking-client]: Downloading https://files.pythonhosted.org/packages/51/38/64cec21129a5539aabdde73b2e75673a15f8db2045635a38d262afece151/oip_tracking_client-0.0.2-py3-none-any.whl
+[2024-04-15 08:53:48] INFO root fetch - processPackages [pulumiverse-scaleway]: Downloading https://files.pythonhosted.org/packages/e4/82/fdb67456345de0b50bc36f704e114019594171fcb920b2805bc4dc4f1041/pulumiverse_scaleway-1.13.0a1712697355.tar.gz
+[2024-04-15 08:53:48] INFO root fetch - processPackages [ResearchTikPy]: Downloading https://files.pythonhosted.org/packages/bb/87/04aa1e84a52955df89bbc94d8ce805133568e7cca09edafa32ef9ab2df9e/researchtikpy-0.1.3.tar.gz
+[2024-04-15 08:53:48] INFO root fetch - processPackages [acetone-nnet]: Downloading https://files.pythonhosted.org/packages/cc/5e/e94d853ca5f0fb08ed0f14908bfc84a9c1263a690e88bd75aa26b4a97919/acetone-nnet-0.0.1.dev4.tar.gz
+[2024-04-15 08:53:48] INFO root fetch - processPackages [remotivelabs-broker]: Downloading https://files.pythonhosted.org/packages/de/20/2eb47129d613d1577b4543d5b1fea5b5b0b227f3da72609fa389cb1d8020/remotivelabs_broker-0.2.0b8.tar.gz
+[2024-04-15 08:53:48] INFO root fetch - processPackages [tendril-connector-grafana]: Downloading https://files.pythonhosted.org/packages/a0/3c/c0bdb773822482fc2f8dcc3b0e4234a64a772e63eaca57df659fde9bacdd/tendril_connector_grafana-0.2.3.tar.gz
+[2024-04-15 08:53:48] INFO root fetch - processPackages [pulumiverse-grafana]: Downloading https://files.pythonhosted.org/packages/f6/38/0406298c5587d4cb619546d213fa4a637e026af196ec11ba3697a2179a21/pulumiverse_grafana-0.4.2a1712913962.tar.gz
+[2024-04-15 08:53:48] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/6f/ae/5c924c2e3156cc25e98f1aadf382b9b0b41ecfebd73fe826523ff8fdad44/yplib-5.6.1.tar.gz
+[2024-04-15 08:53:48] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/47/0e/af8a44feebc63b56026da23b3778a7cd46234c98a103a9d4aab14e73d125/ansar_connect-0.1.167.tar.gz
+[2024-04-15 08:53:48] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2024-04-15 08:53:48] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-5.6.0.tar.gz tmp/yplib-5.6.1.tar.gz --markdown 20240415/y/yplib/5.6.0-5.6.1/README.md --exclude *.pyd
+[2024-04-15 08:53:48] INFO root fetch - processPackages [tendril-connector-grafana]: executing diffoscope
+[2024-04-15 08:53:48] INFO root fetch - processPackages [tendril-connector-grafana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tendril-connector-grafana-0.1.1.tar.gz tmp/tendril_connector_grafana-0.2.3.tar.gz --markdown 20240415/t/tendril-connector-grafana/0.1.1-0.2.3/README.md --exclude *.pyd
+[2024-04-15 08:53:48] INFO root fetch - processPackages [oip-tracking-client]: Downloading https://files.pythonhosted.org/packages/0f/16/ca24a8e26f44f35a08d86b00273a73374272aca3f564f476fc4befbf7d5f/oip_tracking_client-0.0.3.dev0-py3-none-any.whl
+[2024-04-15 08:53:48] INFO root fetch - processPackages [ansar-connect]: executing diffoscope
+[2024-04-15 08:53:48] INFO root fetch - processPackages [ansar-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar_connect-0.1.166.tar.gz tmp/ansar_connect-0.1.167.tar.gz --markdown 20240415/a/ansar-connect/0.1.166-0.1.167/README.md --exclude *.pyd
+[2024-04-15 08:53:48] INFO root fetch - processPackages [ResearchTikPy]: Downloading https://files.pythonhosted.org/packages/c5/99/659081542c6a023f07966c4effdb221665369440f311234656565ea394a1/researchtikpy-0.1.4.tar.gz
+[2024-04-15 08:53:48] INFO root fetch - processPackages [acetone-nnet]: Downloading https://files.pythonhosted.org/packages/bc/3f/f5245ded5bacd41038ba9cf3fd969ca2824fde00cf1821f1728ced5a43cd/acetone_nnet-0.0.1.dev5.tar.gz
+[2024-04-15 08:53:48] INFO root fetch - processPackages [pulumiverse-scaleway]: Downloading https://files.pythonhosted.org/packages/7e/21/15ee16a4582c1971f7256c84716d7a6958c3ec858990304b4bb47098dc04/pulumiverse_scaleway-1.13.0a1713162939.tar.gz
+[2024-04-15 08:53:48] INFO root fetch - processPackages [oip-tracking-client]: executing diffoscope
+[2024-04-15 08:53:48] INFO root fetch - processPackages [oip-tracking-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oip_tracking_client-0.0.2-py3-none-any.whl.zip tmp/oip_tracking_client-0.0.3.dev0-py3-none-any.whl.zip --markdown 20240415/o/oip-tracking-client/0.0.2-0.0.3.dev0/README.md --exclude *.pyd
+[2024-04-15 08:53:48] INFO root fetch - processPackages [pulumiverse-grafana]: Downloading https://files.pythonhosted.org/packages/ec/ff/2daf1e6d35279112814280c7ebc5b86b603c058f2839c60a356d634b46ec/pulumiverse_grafana-0.4.2a1713162907.tar.gz
+[2024-04-15 08:53:48] INFO root fetch - processPackages [remotivelabs-broker]: Downloading https://files.pythonhosted.org/packages/67/05/2deb03df2f5dac0994e3a7987a7603c11f8c1fc6ccf0375c8cb0faf0b41d/remotivelabs_broker-0.2.0b9.tar.gz
+[2024-04-15 08:53:48] INFO root fetch - processPackages [ResearchTikPy]: executing diffoscope
+[2024-04-15 08:53:48] INFO root fetch - processPackages [ResearchTikPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/researchtikpy-0.1.3.tar.gz tmp/researchtikpy-0.1.4.tar.gz --markdown 20240415/R/ResearchTikPy/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-15 08:53:48] INFO root fetch - processPackages [acetone-nnet]: executing diffoscope
+[2024-04-15 08:53:48] INFO root fetch - processPackages [acetone-nnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acetone-nnet-0.0.1.dev4.tar.gz tmp/acetone_nnet-0.0.1.dev5.tar.gz --markdown 20240415/a/acetone-nnet/0.0.1.dev4-0.0.1.dev5/README.md --exclude *.pyd
+[2024-04-15 08:53:48] INFO root fetch - processPackages [remotivelabs-broker]: executing diffoscope
+[2024-04-15 08:53:48] INFO root fetch - processPackages [remotivelabs-broker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotivelabs_broker-0.2.0b8.tar.gz tmp/remotivelabs_broker-0.2.0b9.tar.gz --markdown 20240415/r/remotivelabs-broker/0.2.0b8-0.2.0b9/README.md --exclude *.pyd
+[2024-04-15 08:53:48] INFO root fetch - processPackages [pulumiverse-grafana]: executing diffoscope
+[2024-04-15 08:53:48] INFO root fetch - processPackages [pulumiverse-grafana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumiverse_grafana-0.4.2a1712913962.tar.gz tmp/pulumiverse_grafana-0.4.2a1713162907.tar.gz --markdown 20240415/p/pulumiverse-grafana/0.4.2a1712913962-0.4.2a1713162907/README.md --exclude *.pyd
+[2024-04-15 08:53:48] INFO root fetch - processPackages [pulumiverse-scaleway]: executing diffoscope
+[2024-04-15 08:53:48] INFO root fetch - processPackages [pulumiverse-scaleway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumiverse_scaleway-1.13.0a1712697355.tar.gz tmp/pulumiverse_scaleway-1.13.0a1713162939.tar.gz --markdown 20240415/p/pulumiverse-scaleway/1.13.0a1712697355-1.13.0a1713162939/README.md --exclude *.pyd
+[2024-04-15 08:53:49] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-5.6.0.tar.gz]
+[2024-04-15 08:53:49] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-5.6.1.tar.gz]
+[2024-04-15 08:53:49] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2024-04-15 08:53:49] INFO root fetch - processPackages [tendril-connector-grafana]: Remove: archive file [/home/abi/fetcher/tmp/tendril-connector-grafana-0.1.1.tar.gz]
+[2024-04-15 08:53:49] INFO root fetch - processPackages [tendril-connector-grafana]: Remove: archive file [/home/abi/fetcher/tmp/tendril_connector_grafana-0.2.3.tar.gz]
+[2024-04-15 08:53:49] INFO root fetch - main [MainThread]: End processing [tendril-connector-grafana]: success
+[2024-04-15 08:53:50] INFO root fetch - processPackages [oip-tracking-client]: Remove: archive file [/home/abi/fetcher/tmp/oip_tracking_client-0.0.2-py3-none-any.whl.zip]
+[2024-04-15 08:53:50] INFO root fetch - processPackages [oip-tracking-client]: Remove: archive file [/home/abi/fetcher/tmp/oip_tracking_client-0.0.3.dev0-py3-none-any.whl.zip]
+[2024-04-15 08:53:50] INFO root fetch - main [MainThread]: End processing [oip-tracking-client]: success
+[2024-04-15 08:53:50] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.166.tar.gz]
+[2024-04-15 08:53:50] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.167.tar.gz]
+[2024-04-15 08:53:50] INFO root fetch - main [MainThread]: End processing [ansar-connect]: success
+[2024-04-15 08:53:50] INFO root fetch - processPackages [ResearchTikPy]: Remove: archive file [/home/abi/fetcher/tmp/researchtikpy-0.1.3.tar.gz]
+[2024-04-15 08:53:50] INFO root fetch - processPackages [ResearchTikPy]: Remove: archive file [/home/abi/fetcher/tmp/researchtikpy-0.1.4.tar.gz]
+[2024-04-15 08:53:50] INFO root fetch - main [MainThread]: End processing [ResearchTikPy]: success
+[2024-04-15 08:53:50] INFO root fetch - processPackages [remotivelabs-broker]: Remove: archive file [/home/abi/fetcher/tmp/remotivelabs_broker-0.2.0b8.tar.gz]
+[2024-04-15 08:53:50] INFO root fetch - processPackages [remotivelabs-broker]: Remove: archive file [/home/abi/fetcher/tmp/remotivelabs_broker-0.2.0b9.tar.gz]
+[2024-04-15 08:53:50] INFO root fetch - main [MainThread]: End processing [remotivelabs-broker]: success
+[2024-04-15 08:53:50] INFO root fetch - processPackages [acetone-nnet]: Remove: archive file [/home/abi/fetcher/tmp/acetone-nnet-0.0.1.dev4.tar.gz]
+[2024-04-15 08:53:50] INFO root fetch - processPackages [acetone-nnet]: Remove: archive file [/home/abi/fetcher/tmp/acetone_nnet-0.0.1.dev5.tar.gz]
+[2024-04-15 08:53:50] INFO root fetch - main [MainThread]: End processing [acetone-nnet]: success
+[2024-04-15 08:53:50] INFO root fetch - processPackages [pulumiverse-grafana]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_grafana-0.4.2a1712913962.tar.gz]
+[2024-04-15 08:53:50] INFO root fetch - processPackages [pulumiverse-grafana]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_grafana-0.4.2a1713162907.tar.gz]
+[2024-04-15 08:53:50] INFO root fetch - main [MainThread]: End processing [pulumiverse-grafana]: success
+[2024-04-15 08:53:51] INFO root fetch - processPackages [pulumiverse-scaleway]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_scaleway-1.13.0a1712697355.tar.gz]
+[2024-04-15 08:53:51] INFO root fetch - processPackages [pulumiverse-scaleway]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_scaleway-1.13.0a1713162939.tar.gz]
+[2024-04-15 08:53:51] INFO root fetch - main [MainThread]: End processing [pulumiverse-scaleway]: success
+[2024-04-15 08:53:51] INFO root fetch - main [MainThread]: Store serial: [22766967]
