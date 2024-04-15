@@ -7534,3 +7534,33 @@
 [2024-04-15 07:12:44] WARNING root fetch - processPackages [test-option-deps]: Skipping, unable to determine old version
 [2024-04-15 07:12:44] INFO root fetch - main [MainThread]: End processing [test-option-deps] error
 [2024-04-15 07:12:44] INFO root fetch - main [MainThread]: Store serial: [22766224]
+[2024-04-15 07:14:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22766224]
+[2024-04-15 07:14:52] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-15 07:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-yunsou
+[2024-04-15 07:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: witness-etl
+[2024-04-15 07:14:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cbpi4
+[2024-04-15 07:14:52] INFO root fetch - processPackages [cbpi4]: New version: [4.4.0] Old Version: [4.3.2]
+[2024-04-15 07:14:52] INFO root fetch - processPackages [witness-etl]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-15 07:14:53] INFO root fetch - processPackages [tencentcloud-sdk-python-yunsou]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-15 07:14:53] INFO root fetch - processPackages [cbpi4]: Downloading https://files.pythonhosted.org/packages/34/60/86354cca2127de32457edc4b66fe64c4bc5bcf9e87a9198cf02dade70139/cbpi4-4.3.2.tar.gz
+[2024-04-15 07:14:53] INFO root fetch - processPackages [witness-etl]: Downloading https://files.pythonhosted.org/packages/cb/1b/fe330988f73aab1f056d89152a63ff230a09f6f287a3fbce13d652fb8f13/witness-etl-0.0.8.tar.gz
+[2024-04-15 07:14:53] INFO root fetch - processPackages [tencentcloud-sdk-python-yunsou]: Downloading https://files.pythonhosted.org/packages/41/80/6c47aecff1245b820e2f29a01c3c685fb0812df647a635fcdd55a3bc2f14/tencentcloud-sdk-python-yunsou-3.0.998.tar.gz
+[2024-04-15 07:14:53] INFO root fetch - processPackages [witness-etl]: Downloading https://files.pythonhosted.org/packages/57/dc/620d2cdda92b41c6b18fc181235f2934d776d73a61039eabbcec7874c331/witness_etl-0.0.9.tar.gz
+[2024-04-15 07:14:53] INFO root fetch - processPackages [tencentcloud-sdk-python-yunsou]: Downloading https://files.pythonhosted.org/packages/5d/ec/fa0d9f1ac64f6da07ddfb6836ac624c21cd6ffdbc126f04c9ee27d806016/tencentcloud-sdk-python-yunsou-3.0.999.tar.gz
+[2024-04-15 07:14:53] INFO root fetch - processPackages [witness-etl]: executing diffoscope
+[2024-04-15 07:14:53] INFO root fetch - processPackages [witness-etl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/witness-etl-0.0.8.tar.gz tmp/witness_etl-0.0.9.tar.gz --markdown 20240415/w/witness-etl/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-15 07:14:53] INFO root fetch - processPackages [tencentcloud-sdk-python-yunsou]: executing diffoscope
+[2024-04-15 07:14:53] INFO root fetch - processPackages [tencentcloud-sdk-python-yunsou]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-yunsou-3.0.998.tar.gz tmp/tencentcloud-sdk-python-yunsou-3.0.999.tar.gz --markdown 20240415/t/tencentcloud-sdk-python-yunsou/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-15 07:14:53] INFO root fetch - processPackages [cbpi4]: Downloading https://files.pythonhosted.org/packages/65/3f/cde11542988fff2b1d0daf6efe727b78e9f25a331173af6cc41aae16a36e/cbpi4-4.4.0.tar.gz
+[2024-04-15 07:14:54] INFO root fetch - processPackages [tencentcloud-sdk-python-yunsou]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-yunsou-3.0.998.tar.gz]
+[2024-04-15 07:14:54] INFO root fetch - processPackages [tencentcloud-sdk-python-yunsou]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-yunsou-3.0.999.tar.gz]
+[2024-04-15 07:14:54] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-yunsou]: success
+[2024-04-15 07:14:54] INFO root fetch - processPackages [witness-etl]: Remove: archive file [/home/abi/fetcher/tmp/witness-etl-0.0.8.tar.gz]
+[2024-04-15 07:14:54] INFO root fetch - processPackages [witness-etl]: Remove: archive file [/home/abi/fetcher/tmp/witness_etl-0.0.9.tar.gz]
+[2024-04-15 07:14:54] INFO root fetch - main [MainThread]: End processing [witness-etl]: success
+[2024-04-15 07:14:54] INFO root fetch - processPackages [cbpi4]: executing diffoscope
+[2024-04-15 07:14:54] INFO root fetch - processPackages [cbpi4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbpi4-4.3.2.tar.gz tmp/cbpi4-4.4.0.tar.gz --markdown 20240415/c/cbpi4/4.3.2-4.4.0/README.md --exclude *.pyd
+[2024-04-15 07:14:56] INFO root fetch - processPackages [cbpi4]: Remove: archive file [/home/abi/fetcher/tmp/cbpi4-4.3.2.tar.gz]
+[2024-04-15 07:14:56] INFO root fetch - processPackages [cbpi4]: Remove: archive file [/home/abi/fetcher/tmp/cbpi4-4.4.0.tar.gz]
+[2024-04-15 07:14:56] INFO root fetch - main [MainThread]: End processing [cbpi4]: success
+[2024-04-15 07:14:56] INFO root fetch - main [MainThread]: Store serial: [22766232]
