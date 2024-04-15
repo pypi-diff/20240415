@@ -22072,3 +22072,111 @@ EOFError: EOF read where object expected
 [2024-04-15 16:21:22] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
 [2024-04-15 16:21:22] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
 [2024-04-15 16:21:22] INFO root fetch - main [MainThread]: Store serial: [22772579]
+[2024-04-15 16:23:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22772579]
+[2024-04-15 16:23:33] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-15 16:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wmill
+[2024-04-15 16:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: excel-graph-parser
+[2024-04-15 16:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wmill-pg
+[2024-04-15 16:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oost-demo-ssh-dc
+[2024-04-15 16:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zha
+[2024-04-15 16:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: magplan
+[2024-04-15 16:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ycv
+[2024-04-15 16:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: megicparc
+[2024-04-15 16:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: langbank
+[2024-04-15 16:23:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fasttrackpy
+[2024-04-15 16:23:33] INFO root fetch - processPackages [langbank]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-15 16:23:33] INFO root fetch - processPackages [wmill-pg]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-04-15 16:23:33] INFO root fetch - processPackages [wmill]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-04-15 16:23:33] INFO root fetch - processPackages [zha]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-15 16:23:33] WARNING root fetch - processPackages [megicparc]: Skipping, unable to determine old version
+[2024-04-15 16:23:33] INFO root fetch - processPackages [megicparc]: Start processing: pyiter
+[2024-04-15 16:23:33] INFO root fetch - main [MainThread]: End processing [megicparc] error
+[2024-04-15 16:23:33] INFO root fetch - processPackages [excel-graph-parser]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-15 16:23:33] INFO root fetch - processPackages [ycv]: New version: [0.0.dev9] Old Version: [0.0.dev8]
+[2024-04-15 16:23:33] INFO root fetch - processPackages [fasttrackpy]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-04-15 16:23:33] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/a1/22/f7655b5ea090afc59651b874c61bf7bea4694e3fa9720a46058fa34c71ef/wmill_pg-1.98.0.tar.gz
+[2024-04-15 16:23:33] INFO root fetch - processPackages [magplan]: New version: [3.1.1] Old Version: [3.1.0]
+[2024-04-15 16:23:33] WARNING root fetch - processPackages [oost-demo-ssh-dc]: Skipping, unable to determine old version
+[2024-04-15 16:23:33] INFO root fetch - processPackages [oost-demo-ssh-dc]: Start processing: rats-pipelines
+[2024-04-15 16:23:33] INFO root fetch - main [MainThread]: End processing [oost-demo-ssh-dc] error
+[2024-04-15 16:23:33] INFO root fetch - processPackages [langbank]: Downloading https://files.pythonhosted.org/packages/40/1a/f392c98511d0a08ff8c91d4be96b714675ecbe871c4e47f089911993fc4b/langbank-0.1.2.tar.gz
+[2024-04-15 16:23:33] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/6d/91/6b6052c80b8d367e051cc2905d1d921bf9a11f63e27a0f802b5c1277aa20/wmill-1.98.0.tar.gz
+[2024-04-15 16:23:33] INFO root fetch - processPackages [rats-pipelines]: New version: [0.1.2.dev9] Old Version: [0.1.2.dev8]
+[2024-04-15 16:23:33] INFO root fetch - processPackages [pyiter]: New version: [0.8.4] Old Version: [0.8.3]
+[2024-04-15 16:23:33] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/fd/3d/9ac7bf4f5a002f3c5e7d488eb9b7bc9788a85f0a2f9a7910cf6ff07bd2e5/rats_pipelines-0.1.2.dev8-py3-none-any.whl
+[2024-04-15 16:23:33] INFO root fetch - processPackages [zha]: Downloading https://files.pythonhosted.org/packages/47/7c/3c2410dd5e974a75ad7778731243c1ffafbf1160c21d19f0da3f78bbb9dd/zha-0.0.7.tar.gz
+[2024-04-15 16:23:33] INFO root fetch - processPackages [excel-graph-parser]: Downloading https://files.pythonhosted.org/packages/0a/b5/0b4436b36cd9cd64c79288aea5edbd79cf0cb059b96cec98d95fc246551d/excel_graph_parser-0.1.7.tar.gz
+[2024-04-15 16:23:33] INFO root fetch - processPackages [ycv]: Downloading https://files.pythonhosted.org/packages/0b/b9/553ce609d8a51fc0296351ff9e8f9ea13a438fd306d2280c4489f3d0ce4a/ycv-0.0.dev8.tar.gz
+[2024-04-15 16:23:33] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/26/ac/296bc5f7193d111c826ef99b60bf75fe1605158a73d728a5fad8aa771331/wmill_pg-1.99.0.tar.gz
+[2024-04-15 16:23:33] INFO root fetch - processPackages [fasttrackpy]: Downloading https://files.pythonhosted.org/packages/a9/6e/10809284ac21696ed5593cce81216d1ed6e701077a5de6c28d719d4780b2/fasttrackpy-0.4.2.tar.gz
+[2024-04-15 16:23:33] INFO root fetch - processPackages [magplan]: Downloading https://files.pythonhosted.org/packages/bb/fe/6d71951856eba2820dabc99a6d3646b786bcce3960fc73fdf424844f04b2/magplan-3.1.0.tar.gz
+[2024-04-15 16:23:34] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/f1/d1/eb5b4c7d25f969fc3603441c8e90a5a8e00688be43ce0631166287977a65/wmill-1.99.0.tar.gz
+[2024-04-15 16:23:34] INFO root fetch - processPackages [pyiter]: Downloading https://files.pythonhosted.org/packages/42/ae/8caca5d7ccfe298d80ad3222de158041c43cf411fd49791ebb8559463bb8/pyiter-0.8.3.tar.gz
+[2024-04-15 16:23:34] INFO root fetch - processPackages [langbank]: Downloading https://files.pythonhosted.org/packages/ea/97/b1662c64b1ae3dcfe01a7cb56472c28612cb4db555c5be17fe01f3d319a8/langbank-0.1.3.tar.gz
+[2024-04-15 16:23:34] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2024-04-15 16:23:34] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.98.0.tar.gz tmp/wmill_pg-1.99.0.tar.gz --markdown 20240415/w/wmill-pg/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-04-15 16:23:34] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/e2/8a/f408a3673d0e20732801e857a5f3a110cd2954b1891dc1928cd25b8852aa/rats_pipelines-0.1.2.dev9-py3-none-any.whl
+[2024-04-15 16:23:34] INFO root fetch - processPackages [wmill]: executing diffoscope
+[2024-04-15 16:23:34] INFO root fetch - processPackages [wmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill-1.98.0.tar.gz tmp/wmill-1.99.0.tar.gz --markdown 20240415/w/wmill/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-04-15 16:23:34] INFO root fetch - processPackages [langbank]: executing diffoscope
+[2024-04-15 16:23:34] INFO root fetch - processPackages [langbank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langbank-0.1.2.tar.gz tmp/langbank-0.1.3.tar.gz --markdown 20240415/l/langbank/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-15 16:23:34] INFO root fetch - processPackages [excel-graph-parser]: Downloading https://files.pythonhosted.org/packages/b4/59/cae2ac7cb54413d57958f7af49771b9dd89975233cc29397ea20171f28e9/excel_graph_parser-0.1.8.tar.gz
+[2024-04-15 16:23:34] INFO root fetch - processPackages [rats-pipelines]: executing diffoscope
+[2024-04-15 16:23:34] INFO root fetch - processPackages [rats-pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_pipelines-0.1.2.dev8-py3-none-any.whl.zip tmp/rats_pipelines-0.1.2.dev9-py3-none-any.whl.zip --markdown 20240415/r/rats-pipelines/0.1.2.dev8-0.1.2.dev9/README.md --exclude *.pyd
+[2024-04-15 16:23:34] INFO root fetch - processPackages [zha]: Downloading https://files.pythonhosted.org/packages/2c/00/72fa8ec1870c433ec3e23c00fd179ffc5634262ed63d6ea08d2685d13803/zha-0.0.8.tar.gz
+[2024-04-15 16:23:34] INFO root fetch - processPackages [fasttrackpy]: Downloading https://files.pythonhosted.org/packages/aa/b6/9377a1eeac93d4d8287440661de6c3e1394d806caa30f836aaa3d84a08f6/fasttrackpy-0.4.3.tar.gz
+[2024-04-15 16:23:34] INFO root fetch - processPackages [ycv]: Downloading https://files.pythonhosted.org/packages/a3/55/a2b03a111dd67f7b3ccef68d998c4900ad48310abf1636e6bc1f1d4e7553/ycv-0.0.dev9.tar.gz
+[2024-04-15 16:23:34] INFO root fetch - processPackages [pyiter]: Downloading https://files.pythonhosted.org/packages/24/0a/fef183a0363b55a06c7c95cb7f7955fd15b684f93c900b14148de8a61014/pyiter-0.8.4.tar.gz
+[2024-04-15 16:23:34] INFO root fetch - processPackages [excel-graph-parser]: executing diffoscope
+[2024-04-15 16:23:34] INFO root fetch - processPackages [excel-graph-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/excel_graph_parser-0.1.7.tar.gz tmp/excel_graph_parser-0.1.8.tar.gz --markdown 20240415/e/excel-graph-parser/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-15 16:23:34] INFO root fetch - processPackages [ycv]: executing diffoscope
+[2024-04-15 16:23:34] INFO root fetch - processPackages [ycv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ycv-0.0.dev8.tar.gz tmp/ycv-0.0.dev9.tar.gz --markdown 20240415/y/ycv/0.0.dev8-0.0.dev9/README.md --exclude *.pyd
+[2024-04-15 16:23:34] INFO root fetch - processPackages [zha]: executing diffoscope
+[2024-04-15 16:23:34] INFO root fetch - processPackages [zha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zha-0.0.7.tar.gz tmp/zha-0.0.8.tar.gz --markdown 20240415/z/zha/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-15 16:23:34] INFO root fetch - processPackages [fasttrackpy]: executing diffoscope
+[2024-04-15 16:23:34] INFO root fetch - processPackages [fasttrackpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fasttrackpy-0.4.2.tar.gz tmp/fasttrackpy-0.4.3.tar.gz --markdown 20240415/f/fasttrackpy/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-04-15 16:23:34] INFO root fetch - processPackages [magplan]: Downloading https://files.pythonhosted.org/packages/e7/67/c16aa406c3a44a48b1b35250b27bbebe7e66c9554fdc18f81f44ba01bdc5/magplan-3.1.1.tar.gz
+[2024-04-15 16:23:34] INFO root fetch - processPackages [pyiter]: executing diffoscope
+[2024-04-15 16:23:34] INFO root fetch - processPackages [pyiter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyiter-0.8.3.tar.gz tmp/pyiter-0.8.4.tar.gz --markdown 20240415/p/pyiter/0.8.3-0.8.4/README.md --exclude *.pyd
+[2024-04-15 16:23:34] INFO root fetch - processPackages [magplan]: executing diffoscope
+[2024-04-15 16:23:34] INFO root fetch - processPackages [magplan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magplan-3.1.0.tar.gz tmp/magplan-3.1.1.tar.gz --markdown 20240415/m/magplan/3.1.0-3.1.1/README.md --exclude *.pyd
+[2024-04-15 16:23:35] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.98.0.tar.gz]
+[2024-04-15 16:23:35] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.99.0.tar.gz]
+[2024-04-15 16:23:35] INFO root fetch - processPackages [wmill-pg]: Start processing: powerprofile
+[2024-04-15 16:23:35] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2024-04-15 16:23:35] INFO root fetch - processPackages [langbank]: Remove: archive file [/home/abi/fetcher/tmp/langbank-0.1.2.tar.gz]
+[2024-04-15 16:23:35] INFO root fetch - processPackages [langbank]: Remove: archive file [/home/abi/fetcher/tmp/langbank-0.1.3.tar.gz]
+[2024-04-15 16:23:35] INFO root fetch - main [MainThread]: End processing [langbank]: success
+[2024-04-15 16:23:35] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.98.0.tar.gz]
+[2024-04-15 16:23:35] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.99.0.tar.gz]
+[2024-04-15 16:23:35] INFO root fetch - main [MainThread]: End processing [wmill]: success
+[2024-04-15 16:23:35] INFO root fetch - processPackages [powerprofile]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-15 16:23:35] INFO root fetch - processPackages [excel-graph-parser]: Remove: archive file [/home/abi/fetcher/tmp/excel_graph_parser-0.1.7.tar.gz]
+[2024-04-15 16:23:35] INFO root fetch - processPackages [excel-graph-parser]: Remove: archive file [/home/abi/fetcher/tmp/excel_graph_parser-0.1.8.tar.gz]
+[2024-04-15 16:23:35] INFO root fetch - main [MainThread]: End processing [excel-graph-parser]: success
+[2024-04-15 16:23:35] INFO root fetch - processPackages [powerprofile]: Downloading https://files.pythonhosted.org/packages/04/61/d98da470d6d1433e1554ce5a277f060b8f168ec82c217456cf9234c33ef7/powerprofile-0.9.0.tar.gz
+[2024-04-15 16:23:35] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.2.dev8-py3-none-any.whl.zip]
+[2024-04-15 16:23:35] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.2.dev9-py3-none-any.whl.zip]
+[2024-04-15 16:23:35] INFO root fetch - main [MainThread]: End processing [rats-pipelines]: success
+[2024-04-15 16:23:35] INFO root fetch - processPackages [fasttrackpy]: Remove: archive file [/home/abi/fetcher/tmp/fasttrackpy-0.4.2.tar.gz]
+[2024-04-15 16:23:35] INFO root fetch - processPackages [fasttrackpy]: Remove: archive file [/home/abi/fetcher/tmp/fasttrackpy-0.4.3.tar.gz]
+[2024-04-15 16:23:35] INFO root fetch - main [MainThread]: End processing [fasttrackpy]: success
+[2024-04-15 16:23:35] INFO root fetch - processPackages [ycv]: Remove: archive file [/home/abi/fetcher/tmp/ycv-0.0.dev8.tar.gz]
+[2024-04-15 16:23:35] INFO root fetch - processPackages [ycv]: Remove: archive file [/home/abi/fetcher/tmp/ycv-0.0.dev9.tar.gz]
+[2024-04-15 16:23:35] INFO root fetch - main [MainThread]: End processing [ycv]: success
+[2024-04-15 16:23:35] INFO root fetch - processPackages [powerprofile]: Downloading https://files.pythonhosted.org/packages/5f/14/f1b21571d36de07031adf10a88c47f461287da3467138ba0f6b0f72121ec/powerprofile-0.9.1.tar.gz
+[2024-04-15 16:23:35] INFO root fetch - processPackages [pyiter]: Remove: archive file [/home/abi/fetcher/tmp/pyiter-0.8.3.tar.gz]
+[2024-04-15 16:23:35] INFO root fetch - processPackages [pyiter]: Remove: archive file [/home/abi/fetcher/tmp/pyiter-0.8.4.tar.gz]
+[2024-04-15 16:23:35] INFO root fetch - main [MainThread]: End processing [pyiter]: success
+[2024-04-15 16:23:35] INFO root fetch - processPackages [powerprofile]: executing diffoscope
+[2024-04-15 16:23:35] INFO root fetch - processPackages [powerprofile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/powerprofile-0.9.0.tar.gz tmp/powerprofile-0.9.1.tar.gz --markdown 20240415/p/powerprofile/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-15 16:23:36] INFO root fetch - processPackages [zha]: Remove: archive file [/home/abi/fetcher/tmp/zha-0.0.7.tar.gz]
+[2024-04-15 16:23:36] INFO root fetch - processPackages [zha]: Remove: archive file [/home/abi/fetcher/tmp/zha-0.0.8.tar.gz]
+[2024-04-15 16:23:36] INFO root fetch - main [MainThread]: End processing [zha]: success
+[2024-04-15 16:23:36] INFO root fetch - processPackages [magplan]: Remove: archive file [/home/abi/fetcher/tmp/magplan-3.1.0.tar.gz]
+[2024-04-15 16:23:36] INFO root fetch - processPackages [magplan]: Remove: archive file [/home/abi/fetcher/tmp/magplan-3.1.1.tar.gz]
+[2024-04-15 16:23:36] INFO root fetch - main [MainThread]: End processing [magplan]: success
+[2024-04-15 16:23:36] INFO root fetch - processPackages [powerprofile]: Remove: archive file [/home/abi/fetcher/tmp/powerprofile-0.9.0.tar.gz]
+[2024-04-15 16:23:36] INFO root fetch - processPackages [powerprofile]: Remove: archive file [/home/abi/fetcher/tmp/powerprofile-0.9.1.tar.gz]
+[2024-04-15 16:23:36] INFO root fetch - main [MainThread]: End processing [powerprofile]: success
+[2024-04-15 16:23:36] INFO root fetch - main [MainThread]: Store serial: [22772624]
