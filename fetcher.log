@@ -14776,3 +14776,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 12:22:01] INFO root fetch - processPackages [pybts]: Remove: archive file [/home/abi/fetcher/tmp/pybts-1.7.1.tar.gz]
 [2024-04-15 12:22:01] INFO root fetch - main [MainThread]: End processing [pybts]: success
 [2024-04-15 12:22:01] INFO root fetch - main [MainThread]: Store serial: [22769291]
+[2024-04-15 12:24:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22769291]
+[2024-04-15 12:24:11] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-15 12:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: github-custom-actions
+[2024-04-15 12:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: migoapiclient
+[2024-04-15 12:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pkscreener
+[2024-04-15 12:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-sale-commercial-partner
+[2024-04-15 12:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: types-awscrt
+[2024-04-15 12:24:11] INFO root fetch - processPackages [migoapiclient]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-04-15 12:24:11] WARNING root fetch - processPackages [github-custom-actions]: Skipping, unable to determine old version
+[2024-04-15 12:24:11] INFO root fetch - main [MainThread]: End processing [github-custom-actions] error
+[2024-04-15 12:24:12] INFO root fetch - processPackages [pkscreener]: New version: [0.44.20240414.262] Old Version: [0.44.20240414.261]
+[2024-04-15 12:24:12] INFO root fetch - processPackages [migoapiclient]: Downloading https://files.pythonhosted.org/packages/9f/eb/bd61f3e989c94cd98394aa76b2afb1641efb8eabea284de609423726e035/migoapiclient-1.1.5.tar.gz
+[2024-04-15 12:24:12] INFO root fetch - processPackages [odoo-addon-sale-commercial-partner]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.1.3]
+[2024-04-15 12:24:12] INFO root fetch - processPackages [types-awscrt]: New version: [0.20.7] Old Version: [0.20.5]
+[2024-04-15 12:24:12] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/11/9d/3ba22a5bdd9053d38a6d031a4b73de890363020db474148e10085d659bd0/pkscreener-0.44.20240414.261.tar.gz
+[2024-04-15 12:24:12] INFO root fetch - processPackages [odoo-addon-sale-commercial-partner]: Downloading https://files.pythonhosted.org/packages/16/6c/b35c8f83148c1dcf97b881984e647b395f3dd0383fda58dc11ae2d980e88/odoo_addon_sale_commercial_partner-16.0.1.0.1.3-py3-none-any.whl
+[2024-04-15 12:24:12] INFO root fetch - processPackages [types-awscrt]: Downloading https://files.pythonhosted.org/packages/32/b2/accbd6ead195853bd5c3a51dfb06c5438eaa1c49924c33bc877cf7062b55/types_awscrt-0.20.5.tar.gz
+[2024-04-15 12:24:12] INFO root fetch - processPackages [migoapiclient]: Downloading https://files.pythonhosted.org/packages/99/e2/4cbd3ac3e1ef527cee6a2a5bb13a4c44af9ab60f2d539098a0977bafb3ae/migoapiclient-1.1.6.tar.gz
+[2024-04-15 12:24:12] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/60/f5/0dc329958cf034601733db098ad8af929d201c6d283de96e3608233101ed/pkscreener-0.44.20240414.262.tar.gz
+[2024-04-15 12:24:12] INFO root fetch - processPackages [migoapiclient]: executing diffoscope
+[2024-04-15 12:24:12] INFO root fetch - processPackages [migoapiclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/migoapiclient-1.1.5.tar.gz tmp/migoapiclient-1.1.6.tar.gz --markdown 20240415/m/migoapiclient/1.1.5-1.1.6/README.md --exclude *.pyd
+[2024-04-15 12:24:12] INFO root fetch - processPackages [types-awscrt]: Downloading https://files.pythonhosted.org/packages/57/e2/fc313ae373273f2881a55d40b8469e7638922125324a740afc0b06a71b94/types_awscrt-0.20.7.tar.gz
+[2024-04-15 12:24:12] INFO root fetch - processPackages [odoo-addon-sale-commercial-partner]: Downloading https://files.pythonhosted.org/packages/70/e3/aeca8c058d7e5e388e76f00cbc79591b900b90d5cd03b9edf36337ca2429/odoo_addon_sale_commercial_partner-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-15 12:24:12] INFO root fetch - processPackages [pkscreener]: executing diffoscope
+[2024-04-15 12:24:12] INFO root fetch - processPackages [pkscreener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkscreener-0.44.20240414.261.tar.gz tmp/pkscreener-0.44.20240414.262.tar.gz --markdown 20240415/p/pkscreener/0.44.20240414.261-0.44.20240414.262/README.md --exclude *.pyd
+[2024-04-15 12:24:12] INFO root fetch - processPackages [odoo-addon-sale-commercial-partner]: executing diffoscope
+[2024-04-15 12:24:12] INFO root fetch - processPackages [odoo-addon-sale-commercial-partner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_commercial_partner-16.0.1.0.1.3-py3-none-any.whl.zip tmp/odoo_addon_sale_commercial_partner-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240415/o/odoo-addon-sale-commercial-partner/16.0.1.0.1.3-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-04-15 12:24:12] INFO root fetch - processPackages [types-awscrt]: executing diffoscope
+[2024-04-15 12:24:12] INFO root fetch - processPackages [types-awscrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types_awscrt-0.20.5.tar.gz tmp/types_awscrt-0.20.7.tar.gz --markdown 20240415/t/types-awscrt/0.20.5-0.20.7/README.md --exclude *.pyd
+[2024-04-15 12:24:13] INFO root fetch - processPackages [migoapiclient]: Remove: archive file [/home/abi/fetcher/tmp/migoapiclient-1.1.5.tar.gz]
+[2024-04-15 12:24:13] INFO root fetch - processPackages [migoapiclient]: Remove: archive file [/home/abi/fetcher/tmp/migoapiclient-1.1.6.tar.gz]
+[2024-04-15 12:24:13] INFO root fetch - main [MainThread]: End processing [migoapiclient]: success
+[2024-04-15 12:24:13] INFO root fetch - processPackages [types-awscrt]: Remove: archive file [/home/abi/fetcher/tmp/types_awscrt-0.20.5.tar.gz]
+[2024-04-15 12:24:13] INFO root fetch - processPackages [types-awscrt]: Remove: archive file [/home/abi/fetcher/tmp/types_awscrt-0.20.7.tar.gz]
+[2024-04-15 12:24:13] INFO root fetch - main [MainThread]: End processing [types-awscrt]: success
+[2024-04-15 12:24:13] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240414.261.tar.gz]
+[2024-04-15 12:24:13] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.44.20240414.262.tar.gz]
+[2024-04-15 12:24:13] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
+[2024-04-15 12:24:13] INFO root fetch - processPackages [odoo-addon-sale-commercial-partner]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_commercial_partner-16.0.1.0.1.3-py3-none-any.whl.zip]
+[2024-04-15 12:24:13] INFO root fetch - processPackages [odoo-addon-sale-commercial-partner]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_commercial_partner-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-15 12:24:13] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-commercial-partner]: success
+[2024-04-15 12:24:13] INFO root fetch - main [MainThread]: Store serial: [22769304]
