@@ -19839,3 +19839,115 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 15:18:37] INFO root fetch - processPackages [datumaro]: Remove: archive file [/home/abi/fetcher/tmp/datumaro-1.6.1rc1.tar.gz]
 [2024-04-15 15:18:37] INFO root fetch - main [MainThread]: End processing [datumaro]: success
 [2024-04-15 15:18:37] INFO root fetch - main [MainThread]: Store serial: [22771672]
+[2024-04-15 15:20:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22771672]
+[2024-04-15 15:20:46] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-15 15:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gps-building-blocks
+[2024-04-15 15:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arion-library
+[2024-04-15 15:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spine-segmentation
+[2024-04-15 15:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-account-move-base-import
+[2024-04-15 15:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gmsh-api
+[2024-04-15 15:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: moodle-dl
+[2024-04-15 15:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: slurpit_netbox
+[2024-04-15 15:20:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wansuite
+[2024-04-15 15:20:46] INFO root fetch - processPackages [spine-segmentation]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-15 15:20:46] INFO root fetch - processPackages [wansuite]: New version: [9.0] Old Version: [8.0]
+[2024-04-15 15:20:46] INFO root fetch - processPackages [slurpit_netbox]: New version: [0.8.63] Old Version: [0.8.46]
+[2024-04-15 15:20:46] INFO root fetch - processPackages [arion-library]: New version: [1.1rc61.dev61] Old Version: [1.1rc60.dev60]
+[2024-04-15 15:20:46] INFO root fetch - processPackages [odoo-addon-account-move-base-import]: New version: [16.0.1.0.1.9] Old Version: [16.0.1.0.1.8]
+[2024-04-15 15:20:46] INFO root fetch - processPackages [spine-segmentation]: Downloading https://files.pythonhosted.org/packages/e8/9a/b01a3427b9d97c9d05a440c1542efca07f0c412701baaccf70b0017cbe3d/spine_segmentation-0.2.2.tar.gz
+[2024-04-15 15:20:46] INFO root fetch - processPackages [gmsh-api]: New version: [4.13.0] Old Version: [0.1.6.484]
+[2024-04-15 15:20:46] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/f3/0c/2b91510b84104fa6cfd6deae9096361d7e1d6e908756ce35fd7d81eb84c3/arion_library-1.1rc60.dev60.tar.gz
+[2024-04-15 15:20:46] INFO root fetch - processPackages [gps-building-blocks]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-04-15 15:20:46] INFO root fetch - processPackages [wansuite]: Downloading https://files.pythonhosted.org/packages/d3/fa/eab6e310e7086430268379e8a9897466d745699cd46c24db24e5a93444cd/wansuite-8.0.tar.gz
+[2024-04-15 15:20:46] INFO root fetch - processPackages [slurpit_netbox]: Downloading https://files.pythonhosted.org/packages/50/40/d43aae3ca2d62d407ff05615c5bf1e0ca16c33fcb96fc2533231bff44acf/slurpit_netbox-0.8.46.tar.gz
+[2024-04-15 15:20:46] INFO root fetch - processPackages [moodle-dl]: New version: [2.3.3] Old Version: [2.3.2.5]
+[2024-04-15 15:20:46] INFO root fetch - processPackages [odoo-addon-account-move-base-import]: Downloading https://files.pythonhosted.org/packages/e9/0c/718c37d0c94ecbe2a810b92e8abc73eddb459f1faff2958fbcaf12449d61/odoo_addon_account_move_base_import-16.0.1.0.1.8-py3-none-any.whl
+[2024-04-15 15:20:46] INFO root fetch - processPackages [spine-segmentation]: Downloading https://files.pythonhosted.org/packages/ba/5a/ed0d03a7459445504a34d8ae01fd52529215c4cc3659bd0c496b3b5d340d/spine_segmentation-0.2.3.tar.gz
+[2024-04-15 15:20:46] INFO root fetch - processPackages [gmsh-api]: Downloading https://files.pythonhosted.org/packages/6d/fd/2a8d63b90bcd7d6485605f03ec1cf76b879058c4eda56799a0cdfa0ebeec/gmsh_api-0.1.6.484.tar.gz
+[2024-04-15 15:20:46] INFO root fetch - processPackages [wansuite]: Downloading https://files.pythonhosted.org/packages/37/74/7622080d878dd0cce7d00a1ed8852325164aa9d9158cc26a52f8caa9e235/wansuite-9.0.tar.gz
+[2024-04-15 15:20:46] INFO root fetch - processPackages [moodle-dl]: Downloading https://files.pythonhosted.org/packages/9b/de/ba01dd34f5af8a8343defaa5b479dfb4e45fb3b8a6a0b1c895c2f7814a68/moodle-dl-2.3.2.5.tar.gz
+[2024-04-15 15:20:46] INFO root fetch - processPackages [slurpit_netbox]: Downloading https://files.pythonhosted.org/packages/84/29/7ed9bbf09c5d7defeb3af6db6bb92960f15fcf04f3e8a9bc7f4c312c0e3b/slurpit_netbox-0.8.63.tar.gz
+[2024-04-15 15:20:46] WARNING root fetch - processPackages [gmsh-api]: Skipping package: exceeds size limit 36181573>=10485760
+[2024-04-15 15:20:46] INFO root fetch - main [MainThread]: End processing [gmsh-api] error
+[2024-04-15 15:20:46] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/e1/a4/5adde2d6f24c25a28bfa30be93d751cf2363161182aa0ebb4b9913c07aab/arion_library-1.1rc61.dev61.tar.gz
+[2024-04-15 15:20:46] INFO root fetch - processPackages [spine-segmentation]: executing diffoscope
+[2024-04-15 15:20:46] INFO root fetch - processPackages [spine-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spine_segmentation-0.2.2.tar.gz tmp/spine_segmentation-0.2.3.tar.gz --markdown 20240415/s/spine-segmentation/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-15 15:20:47] INFO root fetch - processPackages [wansuite]: executing diffoscope
+[2024-04-15 15:20:47] INFO root fetch - processPackages [wansuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wansuite-8.0.tar.gz tmp/wansuite-9.0.tar.gz --markdown 20240415/w/wansuite/8.0-9.0/README.md --exclude *.pyd
+[2024-04-15 15:20:47] INFO root fetch - processPackages [slurpit_netbox]: executing diffoscope
+[2024-04-15 15:20:47] INFO root fetch - processPackages [slurpit_netbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slurpit_netbox-0.8.46.tar.gz tmp/slurpit_netbox-0.8.63.tar.gz --markdown 20240415/s/slurpit_netbox/0.8.46-0.8.63/README.md --exclude *.pyd
+[2024-04-15 15:20:47] INFO root fetch - processPackages [gps-building-blocks]: executing diffoscope
+[2024-04-15 15:20:47] INFO root fetch - processPackages [gps-building-blocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gps_building_blocks-1.98.0-py3-none-any.whl.zip tmp/gps_building_blocks-1.99.0-py3-none-any.whl.zip --markdown 20240415/g/gps-building-blocks/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-04-15 15:20:47] INFO root fetch - processPackages [arion-library]: executing diffoscope
+[2024-04-15 15:20:47] INFO root fetch - processPackages [arion-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arion_library-1.1rc60.dev60.tar.gz tmp/arion_library-1.1rc61.dev61.tar.gz --markdown 20240415/a/arion-library/1.1rc60.dev60-1.1rc61.dev61/README.md --exclude *.pyd
+[2024-04-15 15:20:47] INFO root fetch - processPackages [odoo-addon-account-move-base-import]: Downloading https://files.pythonhosted.org/packages/4a/69/5efcd2e48f11ff30e7f159eb7bee37b1717bf7a8622c39acf7a474711650/odoo_addon_account_move_base_import-16.0.1.0.1.9-py3-none-any.whl
+[2024-04-15 15:20:47] INFO root fetch - processPackages [moodle-dl]: Downloading https://files.pythonhosted.org/packages/31/c5/c53fd84e2e4e3d4aabb8728bd71c7cc3aba4bf5b26c40c7273396a67050c/moodle_dl-2.3.3.tar.gz
+[2024-04-15 15:20:47] INFO root fetch - processPackages [odoo-addon-account-move-base-import]: executing diffoscope
+[2024-04-15 15:20:47] INFO root fetch - processPackages [odoo-addon-account-move-base-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_move_base_import-16.0.1.0.1.8-py3-none-any.whl.zip tmp/odoo_addon_account_move_base_import-16.0.1.0.1.9-py3-none-any.whl.zip --markdown 20240415/o/odoo-addon-account-move-base-import/16.0.1.0.1.8-16.0.1.0.1.9/README.md --exclude *.pyd
+[2024-04-15 15:20:47] INFO root fetch - processPackages [moodle-dl]: executing diffoscope
+[2024-04-15 15:20:47] INFO root fetch - processPackages [moodle-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moodle-dl-2.3.2.5.tar.gz tmp/moodle_dl-2.3.3.tar.gz --markdown 20240415/m/moodle-dl/2.3.2.5-2.3.3/README.md --exclude *.pyd
+[2024-04-15 15:20:47] INFO root fetch - processPackages [wansuite]: Remove: archive file [/home/abi/fetcher/tmp/wansuite-8.0.tar.gz]
+[2024-04-15 15:20:47] INFO root fetch - processPackages [wansuite]: Remove: archive file [/home/abi/fetcher/tmp/wansuite-9.0.tar.gz]
+[2024-04-15 15:20:47] INFO root fetch - main [MainThread]: End processing [wansuite]: success
+[2024-04-15 15:20:48] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc60.dev60.tar.gz]
+[2024-04-15 15:20:48] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc61.dev61.tar.gz]
+[2024-04-15 15:20:48] INFO root fetch - main [MainThread]: End processing [arion-library]: success
+[2024-04-15 15:20:48] INFO root fetch - processPackages [slurpit_netbox]: Remove: archive file [/home/abi/fetcher/tmp/slurpit_netbox-0.8.46.tar.gz]
+[2024-04-15 15:20:48] INFO root fetch - processPackages [slurpit_netbox]: Remove: archive file [/home/abi/fetcher/tmp/slurpit_netbox-0.8.63.tar.gz]
+[2024-04-15 15:20:48] INFO root fetch - main [MainThread]: End processing [slurpit_netbox]: success
+[2024-04-15 15:20:48] ERROR root fetch - processPackages [gps-building-blocks]: Diffoscope failed: time="2024-04-15T15:20:47+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+EOFError: EOF read where object expected
+
+[2024-04-15 15:20:48] INFO root fetch - main [MainThread]: End processing [gps-building-blocks] error
+[2024-04-15 15:20:48] INFO root fetch - processPackages [spine-segmentation]: Remove: archive file [/home/abi/fetcher/tmp/spine_segmentation-0.2.2.tar.gz]
+[2024-04-15 15:20:48] INFO root fetch - processPackages [spine-segmentation]: Remove: archive file [/home/abi/fetcher/tmp/spine_segmentation-0.2.3.tar.gz]
+[2024-04-15 15:20:48] INFO root fetch - main [MainThread]: End processing [spine-segmentation]: success
+[2024-04-15 15:20:48] INFO root fetch - processPackages [odoo-addon-account-move-base-import]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_move_base_import-16.0.1.0.1.8-py3-none-any.whl.zip]
+[2024-04-15 15:20:48] INFO root fetch - processPackages [odoo-addon-account-move-base-import]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_move_base_import-16.0.1.0.1.9-py3-none-any.whl.zip]
+[2024-04-15 15:20:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-move-base-import]: success
+[2024-04-15 15:20:48] INFO root fetch - processPackages [moodle-dl]: Remove: archive file [/home/abi/fetcher/tmp/moodle-dl-2.3.2.5.tar.gz]
+[2024-04-15 15:20:48] INFO root fetch - processPackages [moodle-dl]: Remove: archive file [/home/abi/fetcher/tmp/moodle_dl-2.3.3.tar.gz]
+[2024-04-15 15:20:48] INFO root fetch - main [MainThread]: End processing [moodle-dl]: success
+[2024-04-15 15:20:48] INFO root fetch - main [MainThread]: Store serial: [22771697]
