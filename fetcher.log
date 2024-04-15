@@ -9291,3 +9291,50 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 08:53:51] INFO root fetch - processPackages [pulumiverse-scaleway]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_scaleway-1.13.0a1713162939.tar.gz]
 [2024-04-15 08:53:51] INFO root fetch - main [MainThread]: End processing [pulumiverse-scaleway]: success
 [2024-04-15 08:53:51] INFO root fetch - main [MainThread]: Store serial: [22766967]
+[2024-04-15 08:55:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22766967]
+[2024-04-15 08:56:01] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-15 08:56:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mqi-sspd-api
+[2024-04-15 08:56:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tjax
+[2024-04-15 08:56:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-stock-release-channel-shipment-advice-toursolver
+[2024-04-15 08:56:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: acetone-nnet
+[2024-04-15 08:56:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PipeGraphPy
+[2024-04-15 08:56:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PyLoadAPI
+[2024-04-15 08:56:01] INFO root fetch - processPackages [acetone-nnet]: New version: [0.0.1.dev5] Old Version: [0.0.1.dev4]
+[2024-04-15 08:56:01] INFO root fetch - processPackages [mqi-sspd-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-15 08:56:01] WARNING root fetch - processPackages [odoo-addon-stock-release-channel-shipment-advice-toursolver]: Skipping, unable to determine old version
+[2024-04-15 08:56:01] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-release-channel-shipment-advice-toursolver] error
+[2024-04-15 08:56:01] INFO root fetch - processPackages [acetone-nnet]: Downloading https://files.pythonhosted.org/packages/cc/5e/e94d853ca5f0fb08ed0f14908bfc84a9c1263a690e88bd75aa26b4a97919/acetone-nnet-0.0.1.dev4.tar.gz
+[2024-04-15 08:56:01] INFO root fetch - processPackages [PyLoadAPI]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-15 08:56:01] INFO root fetch - processPackages [mqi-sspd-api]: Downloading https://files.pythonhosted.org/packages/ee/ae/4a3b6ddc3ca5c7fb26459aac3527bca5e6879ad9622cd590be6bc1a59884/mqi_sspd_api-0.0.8.tar.gz
+[2024-04-15 08:56:01] INFO root fetch - processPackages [PipeGraphPy]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-04-15 08:56:01] INFO root fetch - processPackages [tjax]: New version: [0.9.0] Old Version: [0.8.4]
+[2024-04-15 08:56:01] INFO root fetch - processPackages [acetone-nnet]: Downloading https://files.pythonhosted.org/packages/bc/3f/f5245ded5bacd41038ba9cf3fd969ca2824fde00cf1821f1728ced5a43cd/acetone_nnet-0.0.1.dev5.tar.gz
+[2024-04-15 08:56:01] INFO root fetch - processPackages [PyLoadAPI]: Downloading https://files.pythonhosted.org/packages/dd/8f/4d082cfd336fda473041b91200a9fcb26807b6dadf1c50f57756e2d1fd64/PyLoadAPI-1.0.2.tar.gz
+[2024-04-15 08:56:01] INFO root fetch - processPackages [PipeGraphPy]: Downloading https://files.pythonhosted.org/packages/27/a5/0a5c21b3773cfa097be174bfb1d1f66a5d094b2b17f924f41e96b3203f4f/PipeGraphPy-1.0.7.tar.gz
+[2024-04-15 08:56:01] INFO root fetch - processPackages [tjax]: Downloading https://files.pythonhosted.org/packages/0a/6a/2363c88006dd7f98956bcd37716a18eff3b3138599af4e6dbde76d22d085/tjax-0.8.4.tar.gz
+[2024-04-15 08:56:01] INFO root fetch - processPackages [mqi-sspd-api]: Downloading https://files.pythonhosted.org/packages/ab/67/ba64b5d5f8a9a667443750438b3cbfd2dfad97b1577f6925f3f464dda595/mqi_sspd_api-0.0.9.tar.gz
+[2024-04-15 08:56:01] WARNING root fetch - processPackages [PipeGraphPy]: Skipping package: exceeds size limit 14466165>=10485760
+[2024-04-15 08:56:01] INFO root fetch - main [MainThread]: End processing [PipeGraphPy] error
+[2024-04-15 08:56:01] INFO root fetch - processPackages [acetone-nnet]: executing diffoscope
+[2024-04-15 08:56:01] INFO root fetch - processPackages [acetone-nnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acetone-nnet-0.0.1.dev4.tar.gz tmp/acetone_nnet-0.0.1.dev5.tar.gz --markdown 20240415/a/acetone-nnet/0.0.1.dev4-0.0.1.dev5/README.md --exclude *.pyd
+[2024-04-15 08:56:01] INFO root fetch - processPackages [mqi-sspd-api]: executing diffoscope
+[2024-04-15 08:56:01] INFO root fetch - processPackages [mqi-sspd-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mqi_sspd_api-0.0.8.tar.gz tmp/mqi_sspd_api-0.0.9.tar.gz --markdown 20240415/m/mqi-sspd-api/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-15 08:56:02] INFO root fetch - processPackages [PyLoadAPI]: Downloading https://files.pythonhosted.org/packages/66/e7/2dff36245b70c9f2b58c4f806f4c0176a39130e3f1737841dfd7b0d7b877/pyloadapi-1.0.3.tar.gz
+[2024-04-15 08:56:02] INFO root fetch - processPackages [tjax]: Downloading https://files.pythonhosted.org/packages/be/f1/ce1970f050f673ae52c304257120a380736f531fee4d81b57ab0f24b506f/tjax-0.9.0.tar.gz
+[2024-04-15 08:56:02] INFO root fetch - processPackages [PyLoadAPI]: executing diffoscope
+[2024-04-15 08:56:02] INFO root fetch - processPackages [PyLoadAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyLoadAPI-1.0.2.tar.gz tmp/pyloadapi-1.0.3.tar.gz --markdown 20240415/P/PyLoadAPI/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-15 08:56:02] INFO root fetch - processPackages [tjax]: executing diffoscope
+[2024-04-15 08:56:02] INFO root fetch - processPackages [tjax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tjax-0.8.4.tar.gz tmp/tjax-0.9.0.tar.gz --markdown 20240415/t/tjax/0.8.4-0.9.0/README.md --exclude *.pyd
+[2024-04-15 08:56:02] INFO root fetch - processPackages [mqi-sspd-api]: Remove: archive file [/home/abi/fetcher/tmp/mqi_sspd_api-0.0.8.tar.gz]
+[2024-04-15 08:56:02] INFO root fetch - processPackages [mqi-sspd-api]: Remove: archive file [/home/abi/fetcher/tmp/mqi_sspd_api-0.0.9.tar.gz]
+[2024-04-15 08:56:02] INFO root fetch - main [MainThread]: End processing [mqi-sspd-api]: success
+[2024-04-15 08:56:02] INFO root fetch - processPackages [PyLoadAPI]: Remove: archive file [/home/abi/fetcher/tmp/PyLoadAPI-1.0.2.tar.gz]
+[2024-04-15 08:56:02] INFO root fetch - processPackages [PyLoadAPI]: Remove: archive file [/home/abi/fetcher/tmp/pyloadapi-1.0.3.tar.gz]
+[2024-04-15 08:56:02] INFO root fetch - main [MainThread]: End processing [PyLoadAPI]: success
+[2024-04-15 08:56:02] INFO root fetch - processPackages [acetone-nnet]: Remove: archive file [/home/abi/fetcher/tmp/acetone-nnet-0.0.1.dev4.tar.gz]
+[2024-04-15 08:56:02] INFO root fetch - processPackages [acetone-nnet]: Remove: archive file [/home/abi/fetcher/tmp/acetone_nnet-0.0.1.dev5.tar.gz]
+[2024-04-15 08:56:02] INFO root fetch - main [MainThread]: End processing [acetone-nnet]: success
+[2024-04-15 08:56:03] INFO root fetch - processPackages [tjax]: Remove: archive file [/home/abi/fetcher/tmp/tjax-0.8.4.tar.gz]
+[2024-04-15 08:56:03] INFO root fetch - processPackages [tjax]: Remove: archive file [/home/abi/fetcher/tmp/tjax-0.9.0.tar.gz]
+[2024-04-15 08:56:03] INFO root fetch - main [MainThread]: End processing [tjax]: success
+[2024-04-15 08:56:03] INFO root fetch - main [MainThread]: Store serial: [22766986]
