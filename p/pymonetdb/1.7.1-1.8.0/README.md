@@ -1,4 +1,4 @@
-# Comparing `tmp/pymonetdb-1.7.1.tar.gz` & `tmp/pymonetdb-1.8.0-py2.py3-none-any.whl.zip`
+# Comparing `tmp/pymonetdb-1.7.1.tar.gz` & `tmp/pymonetdb-1.8.0.tar.gz`
 
 ## filetype from file(1)
 

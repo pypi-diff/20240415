@@ -16400,3 +16400,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 13:24:07] INFO root fetch - processPackages [pymonetdb]: Remove: archive file [/home/abi/fetcher/tmp/pymonetdb-1.8.0-py2.py3-none-any.whl.zip]
 [2024-04-15 13:24:07] INFO root fetch - main [MainThread]: End processing [pymonetdb]: success
 [2024-04-15 13:24:07] INFO root fetch - main [MainThread]: Store serial: [22770035]
+[2024-04-15 13:26:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22770035]
+[2024-04-15 13:26:17] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-15 13:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymonetdb
+[2024-04-15 13:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gitbuilding
+[2024-04-15 13:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bio-volumentations
+[2024-04-15 13:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lazy-type-hint
+[2024-04-15 13:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qontract-reconcile
+[2024-04-15 13:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torchx-nightly
+[2024-04-15 13:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wansuite
+[2024-04-15 13:26:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: detect-advisor
+[2024-04-15 13:26:17] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-04-15 13:26:17] INFO root fetch - processPackages [pymonetdb]: New version: [1.8.0] Old Version: [1.7.1]
+[2024-04-15 13:26:17] INFO root fetch - processPackages [torchx-nightly]: New version: [2024.4.14] Old Version: [2024.4.13]
+[2024-04-15 13:26:17] INFO root fetch - processPackages [detect-advisor]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-15 13:26:17] INFO root fetch - processPackages [bio-volumentations]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-15 13:26:17] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-04-15 13:26:17] INFO root fetch - processPackages [pymonetdb]: Downloading https://files.pythonhosted.org/packages/fb/1c/3715170747559aac39b52f6df8f4c806833c265c35f6b051db5e45b979ff/pymonetdb-1.7.1.tar.gz
+[2024-04-15 13:26:17] INFO root fetch - processPackages [lazy-type-hint]: New version: [2.0.6] Old Version: [2.0.5]
+[2024-04-15 13:26:17] INFO root fetch - processPackages [wansuite]: New version: [3.0] Old Version: [2.5]
+[2024-04-15 13:26:17] INFO root fetch - processPackages [gitbuilding]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-15 13:26:17] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/56/d3/749c7c2d8c2f62dbd23ddeaaaf7fb7159233c337552ab42d02991ffdee8e/torchx_nightly-2024.4.13-py3-none-any.whl
+[2024-04-15 13:26:17] INFO root fetch - processPackages [bio-volumentations]: Downloading https://files.pythonhosted.org/packages/42/88/52f3bf716731f49698900e5bff6fbf600c12de9fe219b0e41232229ec136/bio_volumentations-1.1.0.tar.gz
+[2024-04-15 13:26:17] INFO root fetch - processPackages [lazy-type-hint]: Downloading https://files.pythonhosted.org/packages/81/7a/862330c9198cbe0898a190966433ff9b51fddcde00b74427e782a2e78d44/lazy_type_hint-2.0.5.tar.gz
+[2024-04-15 13:26:17] INFO root fetch - processPackages [detect-advisor]: Downloading https://files.pythonhosted.org/packages/ac/25/961b44446268f320c02f1e7c4ab0f1094a6c12cee7ce58029a67dede7615/detect_advisor-1.0.3.tar.gz
+[2024-04-15 13:26:17] INFO root fetch - processPackages [gitbuilding]: Downloading https://files.pythonhosted.org/packages/5d/02/d9c71baf1393f7e1fed92d62be7ad76d2d954368badcb806fac4afb5d257/gitbuilding-0.9.0.tar.gz
+[2024-04-15 13:26:17] INFO root fetch - processPackages [wansuite]: Downloading https://files.pythonhosted.org/packages/0f/cd/d7b8eef38cbd237cd84abbc4a6173f4f44a1827d70c7b90b0ba5ccd8dc20/wansuite-2.5.tar.gz
+[2024-04-15 13:26:18] INFO root fetch - processPackages [pymonetdb]: Downloading https://files.pythonhosted.org/packages/e3/ce/3a6cda4cb2f0182ebe71c5099a505dea5a914b0425d574e0cb4be0a5397a/pymonetdb-1.8.0-py2.py3-none-any.whl
+[2024-04-15 13:26:18] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-04-15 13:26:18] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/6d/2d/85f538390edafa6a09c9fb503470e52853df144f2ffa5d05bcb6d55ad89c/torchx_nightly-2024.4.14-py3-none-any.whl
+[2024-04-15 13:26:18] INFO root fetch - processPackages [pymonetdb]: executing diffoscope
+[2024-04-15 13:26:18] INFO root fetch - processPackages [pymonetdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymonetdb-1.7.1.tar.gz tmp/pymonetdb-1.8.0.tar.gz --markdown 20240415/p/pymonetdb/1.7.1-1.8.0/README.md --exclude *.pyd
+[2024-04-15 13:26:18] INFO root fetch - processPackages [bio-volumentations]: Downloading https://files.pythonhosted.org/packages/c7/4d/4c5ec76e224e274bd69141b2780e5ae785f8ae45ebf42b4326c3bf3ec181/bio_volumentations-1.1.1.tar.gz
+[2024-04-15 13:26:18] INFO root fetch - processPackages [torchx-nightly]: executing diffoscope
+[2024-04-15 13:26:18] INFO root fetch - processPackages [torchx-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchx_nightly-2024.4.13-py3-none-any.whl.zip tmp/torchx_nightly-2024.4.14-py3-none-any.whl.zip --markdown 20240415/t/torchx-nightly/2024.4.13-2024.4.14/README.md --exclude *.pyd
+[2024-04-15 13:26:18] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-04-15 13:26:18] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240415/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-04-15 13:26:18] INFO root fetch - processPackages [lazy-type-hint]: Downloading https://files.pythonhosted.org/packages/61/3c/0f559d87b24ee36ad6ac7c945ae29e777e71d6655ba6daa63593a35212a8/lazy_type_hint-2.0.6.tar.gz
+[2024-04-15 13:26:18] INFO root fetch - processPackages [wansuite]: Downloading https://files.pythonhosted.org/packages/96/70/2f8c91eb3a4d85e8e2aa3c83f48fd956628ba63b2a83b08e3be8e68d91eb/wansuite-3.0.tar.gz
+[2024-04-15 13:26:18] INFO root fetch - processPackages [detect-advisor]: Downloading https://files.pythonhosted.org/packages/0a/ff/a147c0b2efac9f1230f95fecc1005020f19bd9db63164ff6b4f512bf23cb/detect_advisor-1.0.4.tar.gz
+[2024-04-15 13:26:18] INFO root fetch - processPackages [bio-volumentations]: executing diffoscope
+[2024-04-15 13:26:18] INFO root fetch - processPackages [bio-volumentations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bio_volumentations-1.1.0.tar.gz tmp/bio_volumentations-1.1.1.tar.gz --markdown 20240415/b/bio-volumentations/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-15 13:26:18] INFO root fetch - processPackages [wansuite]: executing diffoscope
+[2024-04-15 13:26:18] INFO root fetch - processPackages [wansuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wansuite-2.5.tar.gz tmp/wansuite-3.0.tar.gz --markdown 20240415/w/wansuite/2.5-3.0/README.md --exclude *.pyd
+[2024-04-15 13:26:18] INFO root fetch - processPackages [lazy-type-hint]: executing diffoscope
+[2024-04-15 13:26:18] INFO root fetch - processPackages [lazy-type-hint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazy_type_hint-2.0.5.tar.gz tmp/lazy_type_hint-2.0.6.tar.gz --markdown 20240415/l/lazy-type-hint/2.0.5-2.0.6/README.md --exclude *.pyd
+[2024-04-15 13:26:18] INFO root fetch - processPackages [detect-advisor]: executing diffoscope
+[2024-04-15 13:26:18] INFO root fetch - processPackages [detect-advisor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/detect_advisor-1.0.3.tar.gz tmp/detect_advisor-1.0.4.tar.gz --markdown 20240415/d/detect-advisor/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-15 13:26:18] INFO root fetch - processPackages [gitbuilding]: Downloading https://files.pythonhosted.org/packages/15/ed/67289495ef2328366701013c075dc09429e3101a0d66d3f73ca280175e13/gitbuilding-0.9.1.tar.gz
+[2024-04-15 13:26:18] INFO root fetch - processPackages [pymonetdb]: Remove: archive file [/home/abi/fetcher/tmp/pymonetdb-1.7.1.tar.gz]
+[2024-04-15 13:26:18] INFO root fetch - processPackages [pymonetdb]: Remove: archive file [/home/abi/fetcher/tmp/pymonetdb-1.8.0.tar.gz]
+[2024-04-15 13:26:18] INFO root fetch - main [MainThread]: End processing [pymonetdb]: success
+[2024-04-15 13:26:19] INFO root fetch - processPackages [wansuite]: Remove: archive file [/home/abi/fetcher/tmp/wansuite-2.5.tar.gz]
+[2024-04-15 13:26:19] INFO root fetch - processPackages [wansuite]: Remove: archive file [/home/abi/fetcher/tmp/wansuite-3.0.tar.gz]
+[2024-04-15 13:26:19] INFO root fetch - main [MainThread]: End processing [wansuite]: success
+[2024-04-15 13:26:19] INFO root fetch - processPackages [bio-volumentations]: Remove: archive file [/home/abi/fetcher/tmp/bio_volumentations-1.1.0.tar.gz]
+[2024-04-15 13:26:19] INFO root fetch - processPackages [bio-volumentations]: Remove: archive file [/home/abi/fetcher/tmp/bio_volumentations-1.1.1.tar.gz]
+[2024-04-15 13:26:19] INFO root fetch - main [MainThread]: End processing [bio-volumentations]: success
+[2024-04-15 13:26:19] INFO root fetch - processPackages [gitbuilding]: executing diffoscope
+[2024-04-15 13:26:19] INFO root fetch - processPackages [gitbuilding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitbuilding-0.9.0.tar.gz tmp/gitbuilding-0.9.1.tar.gz --markdown 20240415/g/gitbuilding/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-15 13:26:19] INFO root fetch - processPackages [detect-advisor]: Remove: archive file [/home/abi/fetcher/tmp/detect_advisor-1.0.3.tar.gz]
+[2024-04-15 13:26:19] INFO root fetch - processPackages [detect-advisor]: Remove: archive file [/home/abi/fetcher/tmp/detect_advisor-1.0.4.tar.gz]
+[2024-04-15 13:26:19] INFO root fetch - main [MainThread]: End processing [detect-advisor]: success
+[2024-04-15 13:26:19] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2024.4.13-py3-none-any.whl.zip]
+[2024-04-15 13:26:19] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2024.4.14-py3-none-any.whl.zip]
+[2024-04-15 13:26:19] INFO root fetch - main [MainThread]: End processing [torchx-nightly]: success
+[2024-04-15 13:26:19] INFO root fetch - processPackages [lazy-type-hint]: Remove: archive file [/home/abi/fetcher/tmp/lazy_type_hint-2.0.5.tar.gz]
+[2024-04-15 13:26:19] INFO root fetch - processPackages [lazy-type-hint]: Remove: archive file [/home/abi/fetcher/tmp/lazy_type_hint-2.0.6.tar.gz]
+[2024-04-15 13:26:19] INFO root fetch - main [MainThread]: End processing [lazy-type-hint]: success
+[2024-04-15 13:26:20] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-04-15 13:26:20] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-04-15 13:26:20] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-04-15 13:26:20] INFO root fetch - processPackages [gitbuilding]: Remove: archive file [/home/abi/fetcher/tmp/gitbuilding-0.9.0.tar.gz]
+[2024-04-15 13:26:20] INFO root fetch - processPackages [gitbuilding]: Remove: archive file [/home/abi/fetcher/tmp/gitbuilding-0.9.1.tar.gz]
+[2024-04-15 13:26:20] INFO root fetch - main [MainThread]: End processing [gitbuilding]: success
+[2024-04-15 13:26:20] INFO root fetch - main [MainThread]: Store serial: [22770062]
