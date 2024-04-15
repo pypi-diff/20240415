@@ -16247,3 +16247,96 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 13:19:39] INFO root fetch - processPackages [miro-api]: Remove: archive file [/home/abi/fetcher/tmp/miro_api-2.1.2.tar.gz]
 [2024-04-15 13:19:39] INFO root fetch - main [MainThread]: End processing [miro-api]: success
 [2024-04-15 13:19:39] INFO root fetch - main [MainThread]: Store serial: [22769968]
+[2024-04-15 13:21:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22769968]
+[2024-04-15 13:21:49] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-15 13:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: innertube-de
+[2024-04-15 13:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyvispr
+[2024-04-15 13:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: faasmctl
+[2024-04-15 13:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: acetone-nnet
+[2024-04-15 13:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mypcremote
+[2024-04-15 13:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dip-coater
+[2024-04-15 13:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: private-assistant-commons
+[2024-04-15 13:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cg
+[2024-04-15 13:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: clovers-leafgame
+[2024-04-15 13:21:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: blue-prints
+[2024-04-15 13:21:49] WARNING root fetch - processPackages [innertube-de]: Skipping, unable to determine old version
+[2024-04-15 13:21:49] INFO root fetch - processPackages [innertube-de]: Start processing: octave-kernel
+[2024-04-15 13:21:49] INFO root fetch - main [MainThread]: End processing [innertube-de] error
+[2024-04-15 13:21:49] INFO root fetch - processPackages [cg]: New version: [59.9.1] Old Version: [59.9.0]
+[2024-04-15 13:21:49] INFO root fetch - processPackages [pyvispr]: New version: [2024.3] Old Version: [2024.2]
+[2024-04-15 13:21:49] WARNING root fetch - processPackages [private-assistant-commons]: Skipping, unable to determine old version
+[2024-04-15 13:21:49] INFO root fetch - processPackages [private-assistant-commons]: Start processing: ICONCLASS
+[2024-04-15 13:21:49] INFO root fetch - main [MainThread]: End processing [private-assistant-commons] error
+[2024-04-15 13:21:49] INFO root fetch - processPackages [blue-prints]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-15 13:21:49] INFO root fetch - processPackages [mypcremote]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-04-15 13:21:49] WARNING root fetch - processPackages [clovers-leafgame]: Skipping, unable to determine old version
+[2024-04-15 13:21:49] INFO root fetch - processPackages [acetone-nnet]: New version: [0.1.dev1] Old Version: [0.1]
+[2024-04-15 13:21:49] INFO root fetch - processPackages [dip-coater]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-15 13:21:49] INFO root fetch - main [MainThread]: End processing [clovers-leafgame] error
+[2024-04-15 13:21:49] INFO root fetch - processPackages [faasmctl]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-15 13:21:49] INFO root fetch - processPackages [octave-kernel]: New version: [0.9.1] Old Version: [0.9]
+[2024-04-15 13:21:49] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/a4/79/664dc1d5b463ee0406caa2e43f4dec36f68ff9a520e4d9d51666e6ea5021/cg-59.9.0.tar.gz
+[2024-04-15 13:21:49] INFO root fetch - processPackages [ICONCLASS]: New version: [0.9] Old Version: [0.7]
+[2024-04-15 13:21:49] INFO root fetch - processPackages [pyvispr]: Downloading https://files.pythonhosted.org/packages/00/cd/3a069f870ef1711d51c78158bc1c4015238a826f5a50ce61a0f0417cb1a8/pyvispr-2024.2.tar.gz
+[2024-04-15 13:21:49] INFO root fetch - processPackages [dip-coater]: Downloading https://files.pythonhosted.org/packages/12/8b/943168670e4c50a5c662eb848ab96de5fa33bb813f06e090934521650ee0/dip-coater-0.8.0.tar.gz
+[2024-04-15 13:21:49] INFO root fetch - processPackages [acetone-nnet]: Downloading https://files.pythonhosted.org/packages/e1/96/1dea5ff29c8df10d6890657502764d59b04f143b23b7f990c61260ad8590/acetone_nnet-0.1.tar.gz
+[2024-04-15 13:21:49] INFO root fetch - processPackages [mypcremote]: Downloading https://files.pythonhosted.org/packages/86/b7/c1850475af826f97a34748362d1c05cb8bf107c76dbf6215f218323fd098/mypcremote-0.5.1.tar.gz
+[2024-04-15 13:21:49] INFO root fetch - processPackages [faasmctl]: Downloading https://files.pythonhosted.org/packages/38/e4/dff09873a8761498bf090bc86a2364dfcd7753dd9bc74448aa6c71a828eb/faasmctl-0.9.0.tar.gz
+[2024-04-15 13:21:49] INFO root fetch - processPackages [blue-prints]: Downloading https://files.pythonhosted.org/packages/f3/09/1f3f192164749d899cc89838a49141b02495eea218cd95617e9012bcb1b8/blue-prints-0.0.4.tar.gz
+[2024-04-15 13:21:49] INFO root fetch - processPackages [octave-kernel]: Downloading https://files.pythonhosted.org/packages/c7/f6/32f908fe03b8a49016c4673937474e8ce3f7b4e3a1217c7d18444ff4937d/octave_kernel-0.9.zip
+[2024-04-15 13:21:49] INFO root fetch - processPackages [ICONCLASS]: Downloading https://files.pythonhosted.org/packages/96/06/b4361fdc783a309c057c0b0b7bc94c01209e7af2f7f03bcd32683912a8f5/ICONCLASS-0.7.tar.gz
+[2024-04-15 13:21:50] INFO root fetch - processPackages [pyvispr]: Downloading https://files.pythonhosted.org/packages/bf/e0/1d1e0643530790934365e99d4080e22e6894a19a9aa825bc98fe40e5e194/pyvispr-2024.3.tar.gz
+[2024-04-15 13:21:50] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/da/9f/c4869b003070cd94f090db42e1f076a49bf9c0b1856d209eeb540379d711/cg-59.9.1.tar.gz
+[2024-04-15 13:21:50] INFO root fetch - processPackages [acetone-nnet]: Downloading https://files.pythonhosted.org/packages/a4/76/05f0e2eba594527b0176f071837532f373a2012170a321645d46d99cc7b2/acetone_nnet-0.1.dev1.tar.gz
+[2024-04-15 13:21:50] INFO root fetch - processPackages [mypcremote]: Downloading https://files.pythonhosted.org/packages/aa/fe/efea7d94687b79a06255124291fb40a85f429b3746836026817b0800446d/mypcremote-0.5.2.tar.gz
+[2024-04-15 13:21:50] INFO root fetch - processPackages [dip-coater]: Downloading https://files.pythonhosted.org/packages/b5/cb/d744ee7c2d454e3a1367da2acf13654530ff52ff3288851dfc27d61e5814/dip-coater-0.9.0.tar.gz
+[2024-04-15 13:21:50] INFO root fetch - processPackages [faasmctl]: Downloading https://files.pythonhosted.org/packages/12/94/9638f501b93a4d5196fdc4cc2fabae586b16cd83dfce921eca78c2dec55f/faasmctl-0.9.1.tar.gz
+[2024-04-15 13:21:50] INFO root fetch - processPackages [blue-prints]: Downloading https://files.pythonhosted.org/packages/12/35/7074df2485485ce1c3ff374001d5484728989b92df35e2f9495c8c8100ab/blue_prints-0.0.5.tar.gz
+[2024-04-15 13:21:50] INFO root fetch - processPackages [pyvispr]: executing diffoscope
+[2024-04-15 13:21:50] INFO root fetch - processPackages [pyvispr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvispr-2024.2.tar.gz tmp/pyvispr-2024.3.tar.gz --markdown 20240415/p/pyvispr/2024.2-2024.3/README.md --exclude *.pyd
+[2024-04-15 13:21:50] INFO root fetch - processPackages [octave-kernel]: Downloading https://files.pythonhosted.org/packages/1c/29/5dbae1d110c315c3a8af4cea12f8e5c26f2c41217540ea855224bfe1c733/octave_kernel-0.9.1.zip
+[2024-04-15 13:21:50] INFO root fetch - processPackages [ICONCLASS]: Downloading https://files.pythonhosted.org/packages/bd/6e/3d28566fa2f683dc7e99a524bedcb37121799a8e720e8e4435b9bdaef0ec/ICONCLASS-0.9.tar.gz
+[2024-04-15 13:21:50] INFO root fetch - processPackages [acetone-nnet]: executing diffoscope
+[2024-04-15 13:21:50] INFO root fetch - processPackages [acetone-nnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acetone_nnet-0.1.tar.gz tmp/acetone_nnet-0.1.dev1.tar.gz --markdown 20240415/a/acetone-nnet/0.1-0.1.dev1/README.md --exclude *.pyd
+[2024-04-15 13:21:50] INFO root fetch - processPackages [mypcremote]: executing diffoscope
+[2024-04-15 13:21:50] INFO root fetch - processPackages [mypcremote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypcremote-0.5.1.tar.gz tmp/mypcremote-0.5.2.tar.gz --markdown 20240415/m/mypcremote/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-04-15 13:21:50] INFO root fetch - processPackages [dip-coater]: executing diffoscope
+[2024-04-15 13:21:50] INFO root fetch - processPackages [dip-coater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dip-coater-0.8.0.tar.gz tmp/dip-coater-0.9.0.tar.gz --markdown 20240415/d/dip-coater/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-15 13:21:50] INFO root fetch - processPackages [faasmctl]: executing diffoscope
+[2024-04-15 13:21:50] INFO root fetch - processPackages [faasmctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faasmctl-0.9.0.tar.gz tmp/faasmctl-0.9.1.tar.gz --markdown 20240415/f/faasmctl/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-15 13:21:50] INFO root fetch - processPackages [octave-kernel]: executing diffoscope
+[2024-04-15 13:21:50] INFO root fetch - processPackages [octave-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/octave_kernel-0.9.zip tmp/octave_kernel-0.9.1.zip --markdown 20240415/o/octave-kernel/0.9-0.9.1/README.md --exclude *.pyd
+[2024-04-15 13:21:50] INFO root fetch - processPackages [blue-prints]: executing diffoscope
+[2024-04-15 13:21:50] INFO root fetch - processPackages [blue-prints]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blue-prints-0.0.4.tar.gz tmp/blue_prints-0.0.5.tar.gz --markdown 20240415/b/blue-prints/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-15 13:21:50] INFO root fetch - processPackages [ICONCLASS]: executing diffoscope
+[2024-04-15 13:21:50] INFO root fetch - processPackages [ICONCLASS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ICONCLASS-0.7.tar.gz tmp/ICONCLASS-0.9.tar.gz --markdown 20240415/I/ICONCLASS/0.7-0.9/README.md --exclude *.pyd
+[2024-04-15 13:21:50] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-04-15 13:21:50] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-59.9.0.tar.gz tmp/cg-59.9.1.tar.gz --markdown 20240415/c/cg/59.9.0-59.9.1/README.md --exclude *.pyd
+[2024-04-15 13:21:51] INFO root fetch - processPackages [mypcremote]: Remove: archive file [/home/abi/fetcher/tmp/mypcremote-0.5.1.tar.gz]
+[2024-04-15 13:21:51] INFO root fetch - processPackages [mypcremote]: Remove: archive file [/home/abi/fetcher/tmp/mypcremote-0.5.2.tar.gz]
+[2024-04-15 13:21:51] INFO root fetch - main [MainThread]: End processing [mypcremote]: success
+[2024-04-15 13:21:51] INFO root fetch - processPackages [dip-coater]: Remove: archive file [/home/abi/fetcher/tmp/dip-coater-0.8.0.tar.gz]
+[2024-04-15 13:21:51] INFO root fetch - processPackages [dip-coater]: Remove: archive file [/home/abi/fetcher/tmp/dip-coater-0.9.0.tar.gz]
+[2024-04-15 13:21:51] INFO root fetch - processPackages [pyvispr]: Remove: archive file [/home/abi/fetcher/tmp/pyvispr-2024.2.tar.gz]
+[2024-04-15 13:21:51] INFO root fetch - processPackages [pyvispr]: Remove: archive file [/home/abi/fetcher/tmp/pyvispr-2024.3.tar.gz]
+[2024-04-15 13:21:51] INFO root fetch - main [MainThread]: End processing [dip-coater]: success
+[2024-04-15 13:21:51] INFO root fetch - main [MainThread]: End processing [pyvispr]: success
+[2024-04-15 13:21:51] INFO root fetch - processPackages [ICONCLASS]: Remove: archive file [/home/abi/fetcher/tmp/ICONCLASS-0.7.tar.gz]
+[2024-04-15 13:21:51] INFO root fetch - processPackages [ICONCLASS]: Remove: archive file [/home/abi/fetcher/tmp/ICONCLASS-0.9.tar.gz]
+[2024-04-15 13:21:51] INFO root fetch - main [MainThread]: End processing [ICONCLASS]: success
+[2024-04-15 13:21:51] INFO root fetch - processPackages [octave-kernel]: Remove: archive file [/home/abi/fetcher/tmp/octave_kernel-0.9.zip]
+[2024-04-15 13:21:51] INFO root fetch - processPackages [octave-kernel]: Remove: archive file [/home/abi/fetcher/tmp/octave_kernel-0.9.1.zip]
+[2024-04-15 13:21:51] INFO root fetch - main [MainThread]: End processing [octave-kernel]: success
+[2024-04-15 13:21:51] INFO root fetch - processPackages [faasmctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmctl-0.9.0.tar.gz]
+[2024-04-15 13:21:51] INFO root fetch - processPackages [faasmctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmctl-0.9.1.tar.gz]
+[2024-04-15 13:21:51] INFO root fetch - main [MainThread]: End processing [faasmctl]: success
+[2024-04-15 13:21:51] INFO root fetch - processPackages [acetone-nnet]: Remove: archive file [/home/abi/fetcher/tmp/acetone_nnet-0.1.tar.gz]
+[2024-04-15 13:21:51] INFO root fetch - processPackages [acetone-nnet]: Remove: archive file [/home/abi/fetcher/tmp/acetone_nnet-0.1.dev1.tar.gz]
+[2024-04-15 13:21:51] INFO root fetch - main [MainThread]: End processing [acetone-nnet]: success
+[2024-04-15 13:21:51] INFO root fetch - processPackages [blue-prints]: Remove: archive file [/home/abi/fetcher/tmp/blue-prints-0.0.4.tar.gz]
+[2024-04-15 13:21:51] INFO root fetch - processPackages [blue-prints]: Remove: archive file [/home/abi/fetcher/tmp/blue_prints-0.0.5.tar.gz]
+[2024-04-15 13:21:51] INFO root fetch - main [MainThread]: End processing [blue-prints]: success
+[2024-04-15 13:21:55] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-59.9.0.tar.gz]
+[2024-04-15 13:21:55] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-59.9.1.tar.gz]
+[2024-04-15 13:21:55] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-04-15 13:21:55] INFO root fetch - main [MainThread]: Store serial: [22770014]
