@@ -10308,3 +10308,59 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 09:41:47] INFO root fetch - processPackages [ultralytics-rknn]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics_rknn-8.0.152-py3-none-any.whl.zip]
 [2024-04-15 09:41:47] INFO root fetch - main [MainThread]: End processing [ultralytics-rknn]: success
 [2024-04-15 09:41:47] INFO root fetch - main [MainThread]: Store serial: [22767415]
+[2024-04-15 09:43:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22767415]
+[2024-04-15 09:43:56] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-15 09:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swarmauri
+[2024-04-15 09:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: NetworkConfigDiff
+[2024-04-15 09:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mobio-license-sdk
+[2024-04-15 09:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: udata
+[2024-04-15 09:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: terrajinja-sbp-vcd
+[2024-04-15 09:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: avania
+[2024-04-15 09:43:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eodc-faas-sen2like
+[2024-04-15 09:43:56] INFO root fetch - processPackages [swarmauri]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-15 09:43:56] WARNING root fetch - processPackages [NetworkConfigDiff]: Skipping, unable to determine old version
+[2024-04-15 09:43:56] INFO root fetch - processPackages [udata]: New version: [7.0.7.dev28634] Old Version: [7.0.7.dev28628]
+[2024-04-15 09:43:56] INFO root fetch - main [MainThread]: End processing [NetworkConfigDiff] error
+[2024-04-15 09:43:56] INFO root fetch - processPackages [eodc-faas-sen2like]: New version: [2024.4.6] Old Version: [2024.4.5]
+[2024-04-15 09:43:56] INFO root fetch - processPackages [avania]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-15 09:43:56] INFO root fetch - processPackages [mobio-license-sdk]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-15 09:43:56] INFO root fetch - processPackages [terrajinja-sbp-vcd]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-15 09:43:56] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/6f/f9/130aeeef865461afb5cc003721ceb7c3ebcd9ef2fe49fd812b8532fb5035/swarmauri-0.1.8.tar.gz
+[2024-04-15 09:43:56] INFO root fetch - processPackages [avania]: Downloading https://files.pythonhosted.org/packages/61/13/80a817f0ba00cff6f28ce3135fb521cb78f1fb29e759c4767670fccc66dd/avania-0.1.5.tar.gz
+[2024-04-15 09:43:56] INFO root fetch - processPackages [eodc-faas-sen2like]: Downloading https://files.pythonhosted.org/packages/a6/28/c10f9ce1fd5e73b36801602cc855bf8dc967fe5684a612809e47983d4f73/eodc_faas_sen2like-2024.4.5.tar.gz
+[2024-04-15 09:43:56] INFO root fetch - processPackages [mobio-license-sdk]: Downloading https://files.pythonhosted.org/packages/b4/5e/845db165aac3073a3b782969b3156d75c30623c0a1172467572242ac3d9f/mobio-license-sdk-1.0.8.tar.gz
+[2024-04-15 09:43:57] INFO root fetch - processPackages [terrajinja-sbp-vcd]: Downloading https://files.pythonhosted.org/packages/5f/d1/dd31512b37a1367f7dcfaeb6287ad9966876b8a7bd380318bb11be1e0ad3/terrajinja-sbp-vcd-0.1.8.tar.gz
+[2024-04-15 09:43:57] INFO root fetch - processPackages [udata]: Downloading https://files.pythonhosted.org/packages/04/7f/47e158626b8450ffe4cba14d9f8ed330e82285b76a51a9388d17ed5ab1d1/udata-7.0.7.dev28628-py2.py3-none-any.whl
+[2024-04-15 09:43:57] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/c7/70/0b55d158ba42355a67cda5d200e3d5817bac0a8e9ce2da2bf294eb6b03ec/swarmauri-0.1.9.tar.gz
+[2024-04-15 09:43:57] INFO root fetch - processPackages [eodc-faas-sen2like]: Downloading https://files.pythonhosted.org/packages/11/91/e4363a58038b1d715c2cf5309fce5e42bd8268c365cb4ccc310dae69e448/eodc_faas_sen2like-2024.4.6.tar.gz
+[2024-04-15 09:43:57] WARNING root fetch - processPackages [udata]: Skipping package: exceeds size limit 19776835>=10485760
+[2024-04-15 09:43:57] INFO root fetch - main [MainThread]: End processing [udata] error
+[2024-04-15 09:43:57] INFO root fetch - processPackages [avania]: Downloading https://files.pythonhosted.org/packages/91/e3/dc86a2a37f249ce6ab0423501617828ac03520ccd4cb3fb5712163aa8afe/avania-0.1.6.tar.gz
+[2024-04-15 09:43:57] INFO root fetch - processPackages [eodc-faas-sen2like]: executing diffoscope
+[2024-04-15 09:43:57] INFO root fetch - processPackages [eodc-faas-sen2like]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_sen2like-2024.4.5.tar.gz tmp/eodc_faas_sen2like-2024.4.6.tar.gz --markdown 20240415/e/eodc-faas-sen2like/2024.4.5-2024.4.6/README.md --exclude *.pyd
+[2024-04-15 09:43:57] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-04-15 09:43:57] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.8.tar.gz tmp/swarmauri-0.1.9.tar.gz --markdown 20240415/s/swarmauri/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-15 09:43:57] INFO root fetch - processPackages [avania]: executing diffoscope
+[2024-04-15 09:43:57] INFO root fetch - processPackages [avania]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avania-0.1.5.tar.gz tmp/avania-0.1.6.tar.gz --markdown 20240415/a/avania/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-15 09:43:57] INFO root fetch - processPackages [mobio-license-sdk]: Downloading https://files.pythonhosted.org/packages/e7/66/a0f1182b9242855d39994d5ef59e10ef151bb8ca842b431a51f5f1a73acf/mobio-license-sdk-1.0.9.tar.gz
+[2024-04-15 09:43:57] INFO root fetch - processPackages [terrajinja-sbp-vcd]: Downloading https://files.pythonhosted.org/packages/9c/63/bd804aadc142960421f5951228e82bc1158431eb00cac60ad599ce1f5e1b/terrajinja-sbp-vcd-0.1.9.tar.gz
+[2024-04-15 09:43:57] INFO root fetch - processPackages [mobio-license-sdk]: executing diffoscope
+[2024-04-15 09:43:57] INFO root fetch - processPackages [mobio-license-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mobio-license-sdk-1.0.8.tar.gz tmp/mobio-license-sdk-1.0.9.tar.gz --markdown 20240415/m/mobio-license-sdk/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-15 09:43:57] INFO root fetch - processPackages [terrajinja-sbp-vcd]: executing diffoscope
+[2024-04-15 09:43:57] INFO root fetch - processPackages [terrajinja-sbp-vcd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terrajinja-sbp-vcd-0.1.8.tar.gz tmp/terrajinja-sbp-vcd-0.1.9.tar.gz --markdown 20240415/t/terrajinja-sbp-vcd/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-15 09:43:58] INFO root fetch - processPackages [avania]: Remove: archive file [/home/abi/fetcher/tmp/avania-0.1.5.tar.gz]
+[2024-04-15 09:43:58] INFO root fetch - processPackages [avania]: Remove: archive file [/home/abi/fetcher/tmp/avania-0.1.6.tar.gz]
+[2024-04-15 09:43:58] INFO root fetch - main [MainThread]: End processing [avania]: success
+[2024-04-15 09:43:58] INFO root fetch - processPackages [eodc-faas-sen2like]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_sen2like-2024.4.5.tar.gz]
+[2024-04-15 09:43:58] INFO root fetch - processPackages [eodc-faas-sen2like]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_sen2like-2024.4.6.tar.gz]
+[2024-04-15 09:43:58] INFO root fetch - main [MainThread]: End processing [eodc-faas-sen2like]: success
+[2024-04-15 09:43:58] INFO root fetch - processPackages [mobio-license-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mobio-license-sdk-1.0.8.tar.gz]
+[2024-04-15 09:43:58] INFO root fetch - processPackages [mobio-license-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mobio-license-sdk-1.0.9.tar.gz]
+[2024-04-15 09:43:58] INFO root fetch - main [MainThread]: End processing [mobio-license-sdk]: success
+[2024-04-15 09:43:58] INFO root fetch - processPackages [terrajinja-sbp-vcd]: Remove: archive file [/home/abi/fetcher/tmp/terrajinja-sbp-vcd-0.1.8.tar.gz]
+[2024-04-15 09:43:58] INFO root fetch - processPackages [terrajinja-sbp-vcd]: Remove: archive file [/home/abi/fetcher/tmp/terrajinja-sbp-vcd-0.1.9.tar.gz]
+[2024-04-15 09:43:58] INFO root fetch - main [MainThread]: End processing [terrajinja-sbp-vcd]: success
+[2024-04-15 09:43:59] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.8.tar.gz]
+[2024-04-15 09:43:59] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.9.tar.gz]
+[2024-04-15 09:43:59] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-04-15 09:43:59] INFO root fetch - main [MainThread]: Store serial: [22767434]
