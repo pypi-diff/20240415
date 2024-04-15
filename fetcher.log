@@ -11560,3 +11560,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 10:30:58] INFO root fetch - processPackages [azure-mgmt-cdn]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-cdn-7.0.0.zip]
 [2024-04-15 10:30:58] INFO root fetch - main [MainThread]: End processing [azure-mgmt-cdn]: success
 [2024-04-15 10:30:58] INFO root fetch - main [MainThread]: Store serial: [22767902]
+[2024-04-15 10:33:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22767902]
+[2024-04-15 10:33:08] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-15 10:33:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ecs_composex
+[2024-04-15 10:33:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fdamages
+[2024-04-15 10:33:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fedn
+[2024-04-15 10:33:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fdamages
+[2024-04-15 10:33:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: capellambse-context-diagrams
+[2024-04-15 10:33:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: connectome-interpreter
+[2024-04-15 10:33:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vizro
+[2024-04-15 10:33:08] INFO root fetch - processPackages [fdamages]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-15 10:33:08] INFO root fetch - processPackages [fdamages]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-15 10:33:08] INFO root fetch - processPackages [connectome-interpreter]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-15 10:33:08] INFO root fetch - processPackages [ecs_composex]: New version: [1.1.0rc2] Old Version: [1.1.0rc1]
+[2024-04-15 10:33:08] INFO root fetch - processPackages [fdamages]: Downloading https://files.pythonhosted.org/packages/d4/cf/498b50f64f6c53f907b946ab9e9804ca29398afce21933bac3c248812cd8/fdamages-0.0.5.tar.gz
+[2024-04-15 10:33:08] INFO root fetch - processPackages [fedn]: New version: [0.9.0b1] Old Version: [0.8.0]
+[2024-04-15 10:33:08] INFO root fetch - processPackages [vizro]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-15 10:33:08] INFO root fetch - processPackages [capellambse-context-diagrams]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-15 10:33:08] INFO root fetch - processPackages [fdamages]: Downloading https://files.pythonhosted.org/packages/d4/cf/498b50f64f6c53f907b946ab9e9804ca29398afce21933bac3c248812cd8/fdamages-0.0.5.tar.gz
+[2024-04-15 10:33:08] INFO root fetch - processPackages [connectome-interpreter]: Downloading https://files.pythonhosted.org/packages/49/de/8d5fe1f18622f1a11d5ef381ae61b691c4b5efd50bb0194cbb880b2f02f7/connectome_interpreter-1.1.0.tar.gz
+[2024-04-15 10:33:08] INFO root fetch - processPackages [ecs_composex]: Downloading https://files.pythonhosted.org/packages/e5/04/908a86972783d5c2c5c7f743f692fba76115eeeee0b00ef67a9895496aa0/ecs_composex-1.1.0rc1.tar.gz
+[2024-04-15 10:33:08] INFO root fetch - processPackages [fedn]: Downloading https://files.pythonhosted.org/packages/99/98/ad594a72847b982dfe1f1c09aeeeecf3f14939d4158cdee2663153abd0c2/fedn-0.8.0.tar.gz
+[2024-04-15 10:33:08] INFO root fetch - processPackages [vizro]: Downloading https://files.pythonhosted.org/packages/40/1f/e243a91804fc5cbe48dd431daf8b1aed45aecc6fbe999b8ce1589a58c7c4/vizro-0.1.8.tar.gz
+[2024-04-15 10:33:08] INFO root fetch - processPackages [connectome-interpreter]: Downloading https://files.pythonhosted.org/packages/a8/e8/4b6d0845db21802710bc8be6ef39131b2018ca51e7fb798a1251458f03f1/connectome_interpreter-1.2.0.tar.gz
+[2024-04-15 10:33:08] INFO root fetch - processPackages [capellambse-context-diagrams]: Downloading https://files.pythonhosted.org/packages/3b/41/804ad513fea74424d89581faf8848991fbeaa741a869eb71749a5062fcb3/capellambse-context-diagrams-0.2.8.tar.gz
+[2024-04-15 10:33:08] WARNING root fetch - processPackages [vizro]: Skipping package: exceeds size limit 15712337>=10485760
+[2024-04-15 10:33:08] INFO root fetch - main [MainThread]: End processing [vizro] error
+[2024-04-15 10:33:08] INFO root fetch - processPackages [fdamages]: Downloading https://files.pythonhosted.org/packages/32/5d/0c04afdd43ff5073dbddc798ecefc29b5f89f41087d5eaef0b22614f09c8/fdamages-0.0.6.tar.gz
+[2024-04-15 10:33:08] INFO root fetch - processPackages [fdamages]: Downloading https://files.pythonhosted.org/packages/32/5d/0c04afdd43ff5073dbddc798ecefc29b5f89f41087d5eaef0b22614f09c8/fdamages-0.0.6.tar.gz
+[2024-04-15 10:33:08] INFO root fetch - processPackages [ecs_composex]: Downloading https://files.pythonhosted.org/packages/0d/17/23749088161e31ff4a4348acb05a8db65846bf16ad26181c12f40cd0a5f6/ecs_composex-1.1.0rc2.tar.gz
+[2024-04-15 10:33:08] INFO root fetch - processPackages [connectome-interpreter]: executing diffoscope
+[2024-04-15 10:33:08] INFO root fetch - processPackages [connectome-interpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/connectome_interpreter-1.1.0.tar.gz tmp/connectome_interpreter-1.2.0.tar.gz --markdown 20240415/c/connectome-interpreter/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-04-15 10:33:08] INFO root fetch - processPackages [fdamages]: executing diffoscope
+[2024-04-15 10:33:08] INFO root fetch - processPackages [fdamages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdamages-0.0.5.tar.gz tmp/fdamages-0.0.6.tar.gz --markdown 20240415/f/fdamages/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-15 10:33:08] INFO root fetch - processPackages [fdamages]: executing diffoscope
+[2024-04-15 10:33:08] INFO root fetch - processPackages [fdamages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdamages-0.0.5.tar.gz tmp/fdamages-0.0.6.tar.gz --markdown 20240415/f/fdamages/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-15 10:33:08] INFO root fetch - processPackages [ecs_composex]: executing diffoscope
+[2024-04-15 10:33:08] INFO root fetch - processPackages [ecs_composex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecs_composex-1.1.0rc1.tar.gz tmp/ecs_composex-1.1.0rc2.tar.gz --markdown 20240415/e/ecs_composex/1.1.0rc1-1.1.0rc2/README.md --exclude *.pyd
+[2024-04-15 10:33:09] INFO root fetch - processPackages [fedn]: Downloading https://files.pythonhosted.org/packages/a1/a7/08db803fce7c5419c0185ba01c35d8aa6afa627bc8fc55926213a6c3e540/fedn-0.9.0b1.tar.gz
+[2024-04-15 10:33:09] INFO root fetch - processPackages [fedn]: executing diffoscope
+[2024-04-15 10:33:09] INFO root fetch - processPackages [fedn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedn-0.8.0.tar.gz tmp/fedn-0.9.0b1.tar.gz --markdown 20240415/f/fedn/0.8.0-0.9.0b1/README.md --exclude *.pyd
+[2024-04-15 10:33:09] INFO root fetch - processPackages [capellambse-context-diagrams]: Downloading https://files.pythonhosted.org/packages/5f/e9/32a768c40571016e33ca421423e058e28d923820700a4e745c4546d21bdb/capellambse-context-diagrams-0.2.9.tar.gz
+[2024-04-15 10:33:09] INFO root fetch - processPackages [capellambse-context-diagrams]: executing diffoscope
+[2024-04-15 10:33:09] INFO root fetch - processPackages [capellambse-context-diagrams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capellambse-context-diagrams-0.2.8.tar.gz tmp/capellambse-context-diagrams-0.2.9.tar.gz --markdown 20240415/c/capellambse-context-diagrams/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-15 10:33:09] INFO root fetch - processPackages [fdamages]: Remove: archive file [/home/abi/fetcher/tmp/fdamages-0.0.5.tar.gz]
+[2024-04-15 10:33:09] INFO root fetch - processPackages [fdamages]: Remove: archive file [/home/abi/fetcher/tmp/fdamages-0.0.6.tar.gz]
+[2024-04-15 10:33:09] INFO root fetch - main [MainThread]: End processing [fdamages]: success
+[2024-04-15 10:33:09] INFO root fetch - processPackages [connectome-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/connectome_interpreter-1.1.0.tar.gz]
+[2024-04-15 10:33:09] INFO root fetch - processPackages [connectome-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/connectome_interpreter-1.2.0.tar.gz]
+[2024-04-15 10:33:09] INFO root fetch - main [MainThread]: End processing [connectome-interpreter]: success
+[2024-04-15 10:33:09] INFO root fetch - main [MainThread]: End processing [fdamages]: success
+[2024-04-15 10:33:10] INFO root fetch - processPackages [fedn]: Remove: archive file [/home/abi/fetcher/tmp/fedn-0.8.0.tar.gz]
+[2024-04-15 10:33:10] INFO root fetch - processPackages [fedn]: Remove: archive file [/home/abi/fetcher/tmp/fedn-0.9.0b1.tar.gz]
+[2024-04-15 10:33:10] INFO root fetch - main [MainThread]: End processing [fedn]: success
+[2024-04-15 10:33:10] INFO root fetch - processPackages [ecs_composex]: Remove: archive file [/home/abi/fetcher/tmp/ecs_composex-1.1.0rc1.tar.gz]
+[2024-04-15 10:33:10] INFO root fetch - processPackages [ecs_composex]: Remove: archive file [/home/abi/fetcher/tmp/ecs_composex-1.1.0rc2.tar.gz]
+[2024-04-15 10:33:10] INFO root fetch - main [MainThread]: End processing [ecs_composex]: success
+[2024-04-15 10:33:10] INFO root fetch - processPackages [capellambse-context-diagrams]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-context-diagrams-0.2.8.tar.gz]
+[2024-04-15 10:33:10] INFO root fetch - processPackages [capellambse-context-diagrams]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-context-diagrams-0.2.9.tar.gz]
+[2024-04-15 10:33:10] INFO root fetch - main [MainThread]: End processing [capellambse-context-diagrams]: success
+[2024-04-15 10:33:10] INFO root fetch - main [MainThread]: Store serial: [22767920]
