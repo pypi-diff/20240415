@@ -12116,3 +12116,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 10:51:07] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-59.9.1.tar.gz]
 [2024-04-15 10:51:07] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-04-15 10:51:07] INFO root fetch - main [MainThread]: Store serial: [22768128]
+[2024-04-15 10:53:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22768128]
+[2024-04-15 10:53:16] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-15 10:53:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: enhomie
+[2024-04-15 10:53:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: empire-platform-api-public-client
+[2024-04-15 10:53:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: clovers
+[2024-04-15 10:53:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: slurpit_netbox
+[2024-04-15 10:53:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tsk-monster
+[2024-04-15 10:53:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wechatpayv3
+[2024-04-15 10:53:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nldcsc
+[2024-04-15 10:53:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: questest
+[2024-04-15 10:53:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sparrowApi
+[2024-04-15 10:53:16] INFO root fetch - processPackages [tsk-monster]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-15 10:53:16] WARNING root fetch - processPackages [clovers]: Skipping, unable to determine old version
+[2024-04-15 10:53:16] INFO root fetch - main [MainThread]: End processing [clovers] error
+[2024-04-15 10:53:16] WARNING root fetch - processPackages [questest]: Skipping, unable to determine old version
+[2024-04-15 10:53:16] INFO root fetch - main [MainThread]: End processing [questest] error
+[2024-04-15 10:53:16] WARNING root fetch - processPackages [sparrowApi]: Skipping, unable to determine old version
+[2024-04-15 10:53:16] INFO root fetch - main [MainThread]: End processing [sparrowApi] error
+[2024-04-15 10:53:16] INFO root fetch - processPackages [tsk-monster]: Downloading https://files.pythonhosted.org/packages/37/1d/909d8d90bce691193ba9c7cbab6edfe8ef434db7e5b38dd2520121d4e483/tsk_monster-0.0.8.tar.gz
+[2024-04-15 10:53:16] INFO root fetch - processPackages [empire-platform-api-public-client]: New version: [3.0.7] Old Version: [3.0.6]
+[2024-04-15 10:53:16] WARNING root fetch - processPackages [enhomie]: Skipping, unable to determine old version
+[2024-04-15 10:53:16] INFO root fetch - main [MainThread]: End processing [enhomie] error
+[2024-04-15 10:53:16] INFO root fetch - processPackages [slurpit_netbox]: New version: [0.8.63] Old Version: [0.8.46]
+[2024-04-15 10:53:16] INFO root fetch - processPackages [wechatpayv3]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-15 10:53:16] INFO root fetch - processPackages [nldcsc]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-04-15 10:53:16] INFO root fetch - processPackages [tsk-monster]: Downloading https://files.pythonhosted.org/packages/bd/0d/76bc9f0c428722f67988b8db745d256aefb82e1f9e36269eee144c2705f1/tsk_monster-0.0.9.tar.gz
+[2024-04-15 10:53:16] INFO root fetch - processPackages [empire-platform-api-public-client]: Downloading https://files.pythonhosted.org/packages/0a/59/a6e5e1feee23233a08df2624c90841cbfca7467d93ad648191435afadc30/empire-platform-api-public-client-3.0.6.tar.gz
+[2024-04-15 10:53:16] INFO root fetch - processPackages [slurpit_netbox]: Downloading https://files.pythonhosted.org/packages/50/40/d43aae3ca2d62d407ff05615c5bf1e0ca16c33fcb96fc2533231bff44acf/slurpit_netbox-0.8.46.tar.gz
+[2024-04-15 10:53:16] INFO root fetch - processPackages [wechatpayv3]: Downloading https://files.pythonhosted.org/packages/71/83/3a10f7692ca833df60c2c13fc32dd494a1cd913a359f0ce0dbdba33164ea/wechatpayv3-1.2.8.tar.gz
+[2024-04-15 10:53:16] INFO root fetch - processPackages [tsk-monster]: executing diffoscope
+[2024-04-15 10:53:16] INFO root fetch - processPackages [tsk-monster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsk_monster-0.0.8.tar.gz tmp/tsk_monster-0.0.9.tar.gz --markdown 20240415/t/tsk-monster/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-15 10:53:16] INFO root fetch - processPackages [nldcsc]: Downloading https://files.pythonhosted.org/packages/7d/6b/df1d9f06e499a66a5d9330c82d02c2faa794c3acb63adf9b958a22860c87/nldcsc-0.2.7.tar.gz
+[2024-04-15 10:53:17] INFO root fetch - processPackages [empire-platform-api-public-client]: Downloading https://files.pythonhosted.org/packages/a4/80/e21cb3520052dbfffb93c54e13c798f857c7299b2dcf21ed8da5cf88d951/empire-platform-api-public-client-3.0.7.tar.gz
+[2024-04-15 10:53:17] INFO root fetch - processPackages [slurpit_netbox]: Downloading https://files.pythonhosted.org/packages/84/29/7ed9bbf09c5d7defeb3af6db6bb92960f15fcf04f3e8a9bc7f4c312c0e3b/slurpit_netbox-0.8.63.tar.gz
+[2024-04-15 10:53:17] INFO root fetch - processPackages [wechatpayv3]: Downloading https://files.pythonhosted.org/packages/da/ad/c24743b5be0d84cb9e06e1782533916efab40435177b65150d0773448361/wechatpayv3-1.2.9.tar.gz
+[2024-04-15 10:53:17] INFO root fetch - processPackages [nldcsc]: Downloading https://files.pythonhosted.org/packages/97/96/84810000fa139a12725b5a635330d5db38dbb4d670b491e9a8d7b60bbffb/nldcsc-0.2.8.tar.gz
+[2024-04-15 10:53:17] INFO root fetch - processPackages [empire-platform-api-public-client]: executing diffoscope
+[2024-04-15 10:53:17] INFO root fetch - processPackages [empire-platform-api-public-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/empire-platform-api-public-client-3.0.6.tar.gz tmp/empire-platform-api-public-client-3.0.7.tar.gz --markdown 20240415/e/empire-platform-api-public-client/3.0.6-3.0.7/README.md --exclude *.pyd
+[2024-04-15 10:53:17] INFO root fetch - processPackages [slurpit_netbox]: executing diffoscope
+[2024-04-15 10:53:17] INFO root fetch - processPackages [slurpit_netbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slurpit_netbox-0.8.46.tar.gz tmp/slurpit_netbox-0.8.63.tar.gz --markdown 20240415/s/slurpit_netbox/0.8.46-0.8.63/README.md --exclude *.pyd
+[2024-04-15 10:53:17] INFO root fetch - processPackages [wechatpayv3]: executing diffoscope
+[2024-04-15 10:53:17] INFO root fetch - processPackages [wechatpayv3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wechatpayv3-1.2.8.tar.gz tmp/wechatpayv3-1.2.9.tar.gz --markdown 20240415/w/wechatpayv3/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-04-15 10:53:17] INFO root fetch - processPackages [tsk-monster]: Remove: archive file [/home/abi/fetcher/tmp/tsk_monster-0.0.8.tar.gz]
+[2024-04-15 10:53:17] INFO root fetch - processPackages [tsk-monster]: Remove: archive file [/home/abi/fetcher/tmp/tsk_monster-0.0.9.tar.gz]
+[2024-04-15 10:53:17] INFO root fetch - main [MainThread]: End processing [tsk-monster]: success
+[2024-04-15 10:53:17] INFO root fetch - processPackages [nldcsc]: executing diffoscope
+[2024-04-15 10:53:17] INFO root fetch - processPackages [nldcsc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nldcsc-0.2.7.tar.gz tmp/nldcsc-0.2.8.tar.gz --markdown 20240415/n/nldcsc/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-04-15 10:53:18] INFO root fetch - processPackages [nldcsc]: Remove: archive file [/home/abi/fetcher/tmp/nldcsc-0.2.7.tar.gz]
+[2024-04-15 10:53:18] INFO root fetch - processPackages [nldcsc]: Remove: archive file [/home/abi/fetcher/tmp/nldcsc-0.2.8.tar.gz]
+[2024-04-15 10:53:18] INFO root fetch - main [MainThread]: End processing [nldcsc]: success
+[2024-04-15 10:53:18] INFO root fetch - processPackages [slurpit_netbox]: Remove: archive file [/home/abi/fetcher/tmp/slurpit_netbox-0.8.46.tar.gz]
+[2024-04-15 10:53:18] INFO root fetch - processPackages [wechatpayv3]: Remove: archive file [/home/abi/fetcher/tmp/wechatpayv3-1.2.8.tar.gz]
+[2024-04-15 10:53:18] INFO root fetch - processPackages [wechatpayv3]: Remove: archive file [/home/abi/fetcher/tmp/wechatpayv3-1.2.9.tar.gz]
+[2024-04-15 10:53:18] INFO root fetch - processPackages [slurpit_netbox]: Remove: archive file [/home/abi/fetcher/tmp/slurpit_netbox-0.8.63.tar.gz]
+[2024-04-15 10:53:18] INFO root fetch - main [MainThread]: End processing [wechatpayv3]: success
+[2024-04-15 10:53:18] INFO root fetch - main [MainThread]: End processing [slurpit_netbox]: success
+[2024-04-15 10:53:23] INFO root fetch - processPackages [empire-platform-api-public-client]: Remove: archive file [/home/abi/fetcher/tmp/empire-platform-api-public-client-3.0.6.tar.gz]
+[2024-04-15 10:53:23] INFO root fetch - processPackages [empire-platform-api-public-client]: Remove: archive file [/home/abi/fetcher/tmp/empire-platform-api-public-client-3.0.7.tar.gz]
+[2024-04-15 10:53:23] INFO root fetch - main [MainThread]: End processing [empire-platform-api-public-client]: success
+[2024-04-15 10:53:23] INFO root fetch - main [MainThread]: Store serial: [22768194]
