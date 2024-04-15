@@ -4219,3 +4219,33 @@
 [2024-04-15 05:33:10] INFO root fetch - processPackages [xcloud-client]: Remove: archive file [/home/abi/fetcher/tmp/xcloud_client-3.0.tar.gz]
 [2024-04-15 05:33:10] INFO root fetch - main [MainThread]: End processing [xcloud-client]: success
 [2024-04-15 05:33:10] INFO root fetch - main [MainThread]: Store serial: [22765090]
+[2024-04-15 05:35:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22765090]
+[2024-04-15 05:35:19] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-15 05:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: volstreet
+[2024-04-15 05:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: keymap-drawer
+[2024-04-15 05:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-wordpress
+[2024-04-15 05:35:19] INFO root fetch - processPackages [keymap-drawer]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-15 05:35:19] INFO root fetch - processPackages [volstreet]: New version: [7.1.6] Old Version: [7.1.4]
+[2024-04-15 05:35:19] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/2a/48/380ba800fd090b3d40aa5f906a3e47f979c32426b9a64b1830b5e9741c2b/volstreet-7.1.4.tar.gz
+[2024-04-15 05:35:19] INFO root fetch - processPackages [keymap-drawer]: Downloading https://files.pythonhosted.org/packages/02/c1/342feaefb755c72190f1b94b8460bf874850f06f8f1afe572b15600ce1eb/keymap_drawer-0.8.0-py3-none-any.whl
+[2024-04-15 05:35:20] INFO root fetch - processPackages [cdk-wordpress]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-15 05:35:20] INFO root fetch - processPackages [keymap-drawer]: Downloading https://files.pythonhosted.org/packages/ab/01/dd63e69388a7661d3d81d7c06be238627021a9165bb755783bbbcb693d74/keymap_drawer-0.9.0-py3-none-any.whl
+[2024-04-15 05:35:20] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/0c/b7/a6147a1c99e2a351a516cb826d8588345db1ad4edfbed1d79a174cdd9230/volstreet-7.1.6.tar.gz
+[2024-04-15 05:35:20] INFO root fetch - processPackages [keymap-drawer]: executing diffoscope
+[2024-04-15 05:35:20] INFO root fetch - processPackages [keymap-drawer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keymap_drawer-0.8.0-py3-none-any.whl.zip tmp/keymap_drawer-0.9.0-py3-none-any.whl.zip --markdown 20240415/k/keymap-drawer/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-15 05:35:20] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/95/5a/46730445b7c8db7cad33c0b319cbd75004ba42b6cbe2f00628d2191c5516/cdk-wordpress-0.0.98.tar.gz
+[2024-04-15 05:35:20] INFO root fetch - processPackages [volstreet]: executing diffoscope
+[2024-04-15 05:35:20] INFO root fetch - processPackages [volstreet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volstreet-7.1.4.tar.gz tmp/volstreet-7.1.6.tar.gz --markdown 20240415/v/volstreet/7.1.4-7.1.6/README.md --exclude *.pyd
+[2024-04-15 05:35:20] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/f5/33/8bc435266e926cea52eb7df452e54c2c0657beef07580a86eae44236d88b/cdk-wordpress-0.0.99.tar.gz
+[2024-04-15 05:35:20] INFO root fetch - processPackages [cdk-wordpress]: executing diffoscope
+[2024-04-15 05:35:20] INFO root fetch - processPackages [cdk-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-wordpress-0.0.98.tar.gz tmp/cdk-wordpress-0.0.99.tar.gz --markdown 20240415/c/cdk-wordpress/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-15 05:35:21] INFO root fetch - processPackages [keymap-drawer]: Remove: archive file [/home/abi/fetcher/tmp/keymap_drawer-0.8.0-py3-none-any.whl.zip]
+[2024-04-15 05:35:21] INFO root fetch - processPackages [keymap-drawer]: Remove: archive file [/home/abi/fetcher/tmp/keymap_drawer-0.9.0-py3-none-any.whl.zip]
+[2024-04-15 05:35:21] INFO root fetch - main [MainThread]: End processing [keymap-drawer]: success
+[2024-04-15 05:35:21] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-7.1.4.tar.gz]
+[2024-04-15 05:35:21] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-7.1.6.tar.gz]
+[2024-04-15 05:35:21] INFO root fetch - main [MainThread]: End processing [volstreet]: success
+[2024-04-15 05:35:21] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.98.tar.gz]
+[2024-04-15 05:35:21] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.99.tar.gz]
+[2024-04-15 05:35:21] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
+[2024-04-15 05:35:21] INFO root fetch - main [MainThread]: Store serial: [22765100]
