@@ -23380,3 +23380,129 @@ AssertionError: tmp/pyblindrl-0.0.2rc57.post1.tar.gz does not exist
 [2024-04-15 16:52:39] INFO root fetch - processPackages [votable-cli]: Remove: archive file [/home/abi/fetcher/tmp/votable_cli-0.6.1.tar.gz]
 [2024-04-15 16:52:39] INFO root fetch - main [MainThread]: End processing [votable-cli]: success
 [2024-04-15 16:52:39] INFO root fetch - main [MainThread]: Store serial: [22773082]
+[2024-04-15 16:54:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22773082]
+[2024-04-15 16:54:50] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2024-04-15 16:54:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: limexhub
+[2024-04-15 16:54:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: twikit
+[2024-04-15 16:54:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alas-ce0-client
+[2024-04-15 16:54:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyprjbtsttsting
+[2024-04-15 16:54:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qiskit-alice-bob-provider
+[2024-04-15 16:54:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-master
+[2024-04-15 16:54:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: blockflow
+[2024-04-15 16:54:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: khoj-assistant
+[2024-04-15 16:54:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sae-lens
+[2024-04-15 16:54:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: resens
+[2024-04-15 16:54:50] INFO root fetch - processPackages [khoj-assistant]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev74]
+[2024-04-15 16:54:50] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240415.14.25.48596] Old Version: [20240415.13.59.503294]
+[2024-04-15 16:54:50] INFO root fetch - processPackages [alas-ce0-client]: New version: [5.0.78] Old Version: [4.0.9]
+[2024-04-15 16:54:50] INFO root fetch - processPackages [twikit]: New version: [1.5.0] Old Version: [1.4.9]
+[2024-04-15 16:54:50] INFO root fetch - processPackages [limexhub]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-15 16:54:50] INFO root fetch - processPackages [qiskit-alice-bob-provider]: New version: [0.5.4] Old Version: [0.5.3]
+[2024-04-15 16:54:50] WARNING root fetch - processPackages [pyprjbtsttsting]: Skipping, unable to determine old version
+[2024-04-15 16:54:50] INFO root fetch - processPackages [pyprjbtsttsting]: Start processing: rats-apps
+[2024-04-15 16:54:50] INFO root fetch - main [MainThread]: End processing [pyprjbtsttsting] error
+[2024-04-15 16:54:50] INFO root fetch - processPackages [resens]: New version: [0.4.3.9] Old Version: [0.4.3.8]
+[2024-04-15 16:54:50] WARNING root fetch - processPackages [blockflow]: Skipping, unable to determine old version
+[2024-04-15 16:54:50] INFO root fetch - processPackages [blockflow]: Start processing: djazz-cc
+[2024-04-15 16:54:50] INFO root fetch - main [MainThread]: End processing [blockflow] error
+[2024-04-15 16:54:50] INFO root fetch - processPackages [sae-lens]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-15 16:54:50] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/fc/89/bbf1c812c39a0f341fea130ae430c11fcdd5fdcc5ca61fbaed2682cc4df7/khoj_assistant-1.9.1.dev74.tar.gz
+[2024-04-15 16:54:50] INFO root fetch - processPackages [alas-ce0-client]: Downloading https://files.pythonhosted.org/packages/a0/15/77351f4f5e9646f6cf6c8190140b46c7cbdc3282b903dd85a4da03e46df1/alas-ce0-client-4.0.9.tar.gz
+[2024-04-15 16:54:50] INFO root fetch - processPackages [rats-apps]: New version: [0.1.2.dev9] Old Version: [0.1.2.dev8]
+[2024-04-15 16:54:51] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/75/fa/bb66e052cb8be630a363579ebf75bc0e9f6af65552f35f7686e7ce9cedf8/rats_apps-0.1.2.dev8-py3-none-any.whl
+[2024-04-15 16:54:51] WARNING root fetch - processPackages [djazz-cc]: Skipping, unable to determine old version
+[2024-04-15 16:54:51] INFO root fetch - processPackages [djazz-cc]: Start processing: bec-client
+[2024-04-15 16:54:51] INFO root fetch - main [MainThread]: End processing [djazz-cc] error
+[2024-04-15 16:54:51] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/56/6a/513c8d4f214565170fe868f6e62f926ab19a18d9192130cbf7319c1b881e/certora-cli-alpha-master-20240415.13.59.503294.tar.gz
+[2024-04-15 16:54:51] INFO root fetch - processPackages [twikit]: Downloading https://files.pythonhosted.org/packages/df/34/c8893dd5cb68466a4161e56f547b711dab9eeb091cf664b39612f941adda/twikit-1.4.9.tar.gz
+[2024-04-15 16:54:51] INFO root fetch - processPackages [limexhub]: Downloading https://files.pythonhosted.org/packages/47/4a/cd1c8cc3ddd55d40f93beca272686ca0f40d322a450119a5287e9fb86f98/limexhub-0.1.8.tar.gz
+[2024-04-15 16:54:51] INFO root fetch - processPackages [qiskit-alice-bob-provider]: Downloading https://files.pythonhosted.org/packages/12/cb/23b2da8c4d3a41d8a3e482c146e90f3455ade73e15fb4ea9c075823af6e0/qiskit_alice_bob_provider-0.5.3.tar.gz
+[2024-04-15 16:54:51] INFO root fetch - processPackages [resens]: Downloading https://files.pythonhosted.org/packages/78/8d/2c81a0aeeac93180cadbe7d37a03eaeea8b1ffb2ca988b8f898989f70b23/resens-0.4.3.8.tar.gz
+[2024-04-15 16:54:51] INFO root fetch - processPackages [sae-lens]: Downloading https://files.pythonhosted.org/packages/fb/bf/7e3e66cf927955e1ff966f4c606ebd6ffe1a799a6efbff9f50155a22016d/sae_lens-0.2.1.tar.gz
+[2024-04-15 16:54:51] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14499459>=10485760
+[2024-04-15 16:54:51] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: bec-lib
+[2024-04-15 16:54:51] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-04-15 16:54:51] INFO root fetch - processPackages [bec-client]: New version: [2.4.0] Old Version: [2.3.0]
+[2024-04-15 16:54:51] INFO root fetch - processPackages [alas-ce0-client]: Downloading https://files.pythonhosted.org/packages/91/80/65355680388269809ebda517c877bfbde9f1dd114bafa09c2674ec867245/alas-ce0-client-5.0.78.tar.gz
+[2024-04-15 16:54:51] INFO root fetch - processPackages [bec-lib]: New version: [2.4.0] Old Version: [2.3.0]
+[2024-04-15 16:54:51] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/c6/ef/123a368096a4d4dcec4671218e49b9d8aafdadad684dcaef1a28234060b0/rats_apps-0.1.2.dev9-py3-none-any.whl
+[2024-04-15 16:54:51] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/47/ae/446626ff585bb336b70b59402ea6a46bf52326a51b81fd9ead920cde4c8a/khoj_assistant-1.9.1.dev8.tar.gz
+[2024-04-15 16:54:51] INFO root fetch - processPackages [alas-ce0-client]: executing diffoscope
+[2024-04-15 16:54:51] INFO root fetch - processPackages [alas-ce0-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alas-ce0-client-4.0.9.tar.gz tmp/alas-ce0-client-5.0.78.tar.gz --markdown 20240415/a/alas-ce0-client/4.0.9-5.0.78/README.md --exclude *.pyd
+[2024-04-15 16:54:51] INFO root fetch - processPackages [twikit]: Downloading https://files.pythonhosted.org/packages/15/df/dd5c727889f092013ac62bd4bc28ffd7439aa01fbb374dae9cb2f010e38d/twikit-1.5.0.tar.gz
+[2024-04-15 16:54:51] INFO root fetch - processPackages [bec-client]: Downloading https://files.pythonhosted.org/packages/07/a1/f192d0935e2c6576c593b3636be61e0b72d7a347f5777ebe3abaf2cb673b/bec_client-2.3.0.tar.gz
+[2024-04-15 16:54:51] INFO root fetch - processPackages [limexhub]: Downloading https://files.pythonhosted.org/packages/34/b1/087f4c17f3cd9425c33cd27043ff8f79129b61098fa9edf0db7b0df343d9/limexhub-0.1.9.tar.gz
+[2024-04-15 16:54:51] INFO root fetch - processPackages [qiskit-alice-bob-provider]: Downloading https://files.pythonhosted.org/packages/56/d6/74323d541e4904205e89ec705f29e5efae4f236553c3b8a3920f7f1999e7/qiskit_alice_bob_provider-0.5.4.tar.gz
+[2024-04-15 16:54:51] INFO root fetch - processPackages [rats-apps]: executing diffoscope
+[2024-04-15 16:54:51] INFO root fetch - processPackages [rats-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_apps-0.1.2.dev8-py3-none-any.whl.zip tmp/rats_apps-0.1.2.dev9-py3-none-any.whl.zip --markdown 20240415/r/rats-apps/0.1.2.dev8-0.1.2.dev9/README.md --exclude *.pyd
+[2024-04-15 16:54:51] INFO root fetch - processPackages [resens]: Downloading https://files.pythonhosted.org/packages/af/9b/52bc24a7120be87db13eb8d719b4d4a62530a1658af08fb09e196fab1c0d/resens-0.4.3.9.tar.gz
+[2024-04-15 16:54:51] INFO root fetch - processPackages [sae-lens]: Downloading https://files.pythonhosted.org/packages/c2/d0/2c3e3e3b7263cdc52b521c5175b490f852e03384992f82ca399ffb78c6c8/sae_lens-0.2.2.tar.gz
+[2024-04-15 16:54:51] INFO root fetch - processPackages [bec-lib]: Downloading https://files.pythonhosted.org/packages/07/42/dcbb4ed98589a99f0ee675a044779f23878ba12a266861a5eb61e5df4cec/bec_lib-2.3.0.tar.gz
+[2024-04-15 16:54:51] INFO root fetch - processPackages [twikit]: executing diffoscope
+[2024-04-15 16:54:51] INFO root fetch - processPackages [twikit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twikit-1.4.9.tar.gz tmp/twikit-1.5.0.tar.gz --markdown 20240415/t/twikit/1.4.9-1.5.0/README.md --exclude *.pyd
+[2024-04-15 16:54:51] INFO root fetch - processPackages [limexhub]: executing diffoscope
+[2024-04-15 16:54:51] INFO root fetch - processPackages [limexhub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/limexhub-0.1.8.tar.gz tmp/limexhub-0.1.9.tar.gz --markdown 20240415/l/limexhub/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-15 16:54:51] INFO root fetch - processPackages [qiskit-alice-bob-provider]: executing diffoscope
+[2024-04-15 16:54:51] INFO root fetch - processPackages [qiskit-alice-bob-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit_alice_bob_provider-0.5.3.tar.gz tmp/qiskit_alice_bob_provider-0.5.4.tar.gz --markdown 20240415/q/qiskit-alice-bob-provider/0.5.3-0.5.4/README.md --exclude *.pyd
+[2024-04-15 16:54:51] INFO root fetch - processPackages [resens]: executing diffoscope
+[2024-04-15 16:54:51] INFO root fetch - processPackages [resens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resens-0.4.3.8.tar.gz tmp/resens-0.4.3.9.tar.gz --markdown 20240415/r/resens/0.4.3.8-0.4.3.9/README.md --exclude *.pyd
+[2024-04-15 16:54:51] INFO root fetch - processPackages [sae-lens]: executing diffoscope
+[2024-04-15 16:54:51] INFO root fetch - processPackages [sae-lens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sae_lens-0.2.1.tar.gz tmp/sae_lens-0.2.2.tar.gz --markdown 20240415/s/sae-lens/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-15 16:54:51] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-04-15 16:54:51] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.9.1.dev74.tar.gz tmp/khoj_assistant-1.9.1.dev8.tar.gz --markdown 20240415/k/khoj-assistant/1.9.1.dev74-1.9.1.dev8/README.md --exclude *.pyd
+[2024-04-15 16:54:51] INFO root fetch - processPackages [bec-client]: Downloading https://files.pythonhosted.org/packages/40/e3/a4ee1395fc2051dd46061d82374d1c774a082d406215354ed9bbfd7e035b/bec_client-2.4.0.tar.gz
+[2024-04-15 16:54:52] INFO root fetch - processPackages [bec-lib]: Downloading https://files.pythonhosted.org/packages/d1/88/4820c37a582760264244b886a1d4fea3ee476793efc5686a6936a62bb606/bec_lib-2.4.0.tar.gz
+[2024-04-15 16:54:52] INFO root fetch - processPackages [bec-lib]: executing diffoscope
+[2024-04-15 16:54:52] INFO root fetch - processPackages [bec-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_lib-2.3.0.tar.gz tmp/bec_lib-2.4.0.tar.gz --markdown 20240415/b/bec-lib/2.3.0-2.4.0/README.md --exclude *.pyd
+[2024-04-15 16:54:52] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.2.dev8-py3-none-any.whl.zip]
+[2024-04-15 16:54:52] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.2.dev9-py3-none-any.whl.zip]
+[2024-04-15 16:54:52] INFO root fetch - processPackages [rats-apps]: Start processing: pytket
+[2024-04-15 16:54:52] INFO root fetch - main [MainThread]: End processing [rats-apps]: success
+[2024-04-15 16:54:52] INFO root fetch - processPackages [alas-ce0-client]: Remove: archive file [/home/abi/fetcher/tmp/alas-ce0-client-4.0.9.tar.gz]
+[2024-04-15 16:54:52] INFO root fetch - processPackages [alas-ce0-client]: Remove: archive file [/home/abi/fetcher/tmp/alas-ce0-client-5.0.78.tar.gz]
+[2024-04-15 16:54:52] INFO root fetch - processPackages [alas-ce0-client]: Start processing: bec-server
+[2024-04-15 16:54:52] INFO root fetch - main [MainThread]: End processing [alas-ce0-client]: success
+[2024-04-15 16:54:52] INFO root fetch - processPackages [bec-client]: executing diffoscope
+[2024-04-15 16:54:52] INFO root fetch - processPackages [bec-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec_client-2.3.0.tar.gz tmp/bec_client-2.4.0.tar.gz --markdown 20240415/b/bec-client/2.3.0-2.4.0/README.md --exclude *.pyd
+[2024-04-15 16:54:52] INFO root fetch - processPackages [resens]: Remove: archive file [/home/abi/fetcher/tmp/resens-0.4.3.8.tar.gz]
+[2024-04-15 16:54:52] INFO root fetch - processPackages [resens]: Remove: archive file [/home/abi/fetcher/tmp/resens-0.4.3.9.tar.gz]
+[2024-04-15 16:54:52] INFO root fetch - processPackages [resens]: Start processing: sling-linux-amd64
+[2024-04-15 16:54:52] INFO root fetch - main [MainThread]: End processing [resens]: success
+[2024-04-15 16:54:52] INFO root fetch - processPackages [limexhub]: Remove: archive file [/home/abi/fetcher/tmp/limexhub-0.1.8.tar.gz]
+[2024-04-15 16:54:52] INFO root fetch - processPackages [limexhub]: Remove: archive file [/home/abi/fetcher/tmp/limexhub-0.1.9.tar.gz]
+[2024-04-15 16:54:52] INFO root fetch - main [MainThread]: End processing [limexhub]: success
+[2024-04-15 16:54:52] INFO root fetch - processPackages [bec-server]: New version: [2.4.0] Old Version: [2.3.0]
+[2024-04-15 16:54:52] INFO root fetch - processPackages [sling-linux-amd64]: New version: [1.2.4.post1] Old Version: [1.2.4]
+[2024-04-15 16:54:52] INFO root fetch - processPackages [qiskit-alice-bob-provider]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_alice_bob_provider-0.5.3.tar.gz]
+[2024-04-15 16:54:52] INFO root fetch - processPackages [qiskit-alice-bob-provider]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_alice_bob_provider-0.5.4.tar.gz]
+[2024-04-15 16:54:52] INFO root fetch - main [MainThread]: End processing [qiskit-alice-bob-provider]: success
+[2024-04-15 16:54:52] INFO root fetch - processPackages [twikit]: Remove: archive file [/home/abi/fetcher/tmp/twikit-1.4.9.tar.gz]
+[2024-04-15 16:54:52] INFO root fetch - processPackages [twikit]: Remove: archive file [/home/abi/fetcher/tmp/twikit-1.5.0.tar.gz]
+[2024-04-15 16:54:52] INFO root fetch - main [MainThread]: End processing [twikit]: success
+[2024-04-15 16:54:52] INFO root fetch - processPackages [sling-linux-amd64]: Downloading https://files.pythonhosted.org/packages/b0/bb/b62ff34fb186774b41a8e2c89e947b9cd53b9cf49bee60773f99b97c04f5/sling-linux-amd64-1.2.4.tar.gz
+[2024-04-15 16:54:52] INFO root fetch - processPackages [pytket]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-15 16:54:52] INFO root fetch - processPackages [sae-lens]: Remove: archive file [/home/abi/fetcher/tmp/sae_lens-0.2.1.tar.gz]
+[2024-04-15 16:54:52] INFO root fetch - processPackages [sae-lens]: Remove: archive file [/home/abi/fetcher/tmp/sae_lens-0.2.2.tar.gz]
+[2024-04-15 16:54:52] INFO root fetch - main [MainThread]: End processing [sae-lens]: success
+[2024-04-15 16:54:52] WARNING root fetch - processPackages [sling-linux-amd64]: Skipping package: exceeds size limit 49109674>=10485760
+[2024-04-15 16:54:52] INFO root fetch - main [MainThread]: End processing [sling-linux-amd64] error
+[2024-04-15 16:54:52] INFO root fetch - processPackages [bec-server]: Downloading https://files.pythonhosted.org/packages/38/c9/2d000ccfaa3083a5b705db0d955e2e40251560f46e838145b77d55d1bc13/bec-server-2.3.0.tar.gz
+[2024-04-15 16:54:53] INFO root fetch - processPackages [pytket]: Downloading https://files.pythonhosted.org/packages/87/71/8e2aacad13dbd41170b8621d384ddc3a72b889ece814228b18aeef84611e/pytket-1.9.0-cp39-cp39-win_amd64.whl
+[2024-04-15 16:54:53] INFO root fetch - processPackages [bec-lib]: Remove: archive file [/home/abi/fetcher/tmp/bec_lib-2.3.0.tar.gz]
+[2024-04-15 16:54:53] INFO root fetch - processPackages [bec-lib]: Remove: archive file [/home/abi/fetcher/tmp/bec_lib-2.4.0.tar.gz]
+[2024-04-15 16:54:53] INFO root fetch - main [MainThread]: End processing [bec-lib]: success
+[2024-04-15 16:54:53] INFO root fetch - processPackages [bec-server]: Downloading https://files.pythonhosted.org/packages/e6/09/65ae23177f501cbff2119ceaa39608af3495ec9c01819b63d6bdc27799e5/bec-server-2.4.0.tar.gz
+[2024-04-15 16:54:53] INFO root fetch - processPackages [bec-client]: Remove: archive file [/home/abi/fetcher/tmp/bec_client-2.3.0.tar.gz]
+[2024-04-15 16:54:53] INFO root fetch - processPackages [bec-client]: Remove: archive file [/home/abi/fetcher/tmp/bec_client-2.4.0.tar.gz]
+[2024-04-15 16:54:53] INFO root fetch - main [MainThread]: End processing [bec-client]: success
+[2024-04-15 16:54:53] INFO root fetch - processPackages [bec-server]: executing diffoscope
+[2024-04-15 16:54:53] INFO root fetch - processPackages [bec-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bec-server-2.3.0.tar.gz tmp/bec-server-2.4.0.tar.gz --markdown 20240415/b/bec-server/2.3.0-2.4.0/README.md --exclude *.pyd
+[2024-04-15 16:54:53] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev74.tar.gz]
+[2024-04-15 16:54:53] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
+[2024-04-15 16:54:53] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-04-15 16:54:54] WARNING root fetch - processPackages [pytket]: Skipping package: exceeds size limit 10514285>=10485760
+[2024-04-15 16:54:54] INFO root fetch - main [MainThread]: End processing [pytket] error
+[2024-04-15 16:54:54] INFO root fetch - processPackages [bec-server]: Remove: archive file [/home/abi/fetcher/tmp/bec-server-2.3.0.tar.gz]
+[2024-04-15 16:54:54] INFO root fetch - processPackages [bec-server]: Remove: archive file [/home/abi/fetcher/tmp/bec-server-2.4.0.tar.gz]
+[2024-04-15 16:54:54] INFO root fetch - main [MainThread]: End processing [bec-server]: success
+[2024-04-15 16:54:54] INFO root fetch - main [MainThread]: Store serial: [22773153]
