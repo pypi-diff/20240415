@@ -4465,3 +4465,39 @@
 [2024-04-15 05:50:33] INFO root fetch - processPackages [serverjars-api]: Remove: archive file [/home/abi/fetcher/tmp/serverjars-api-1.3.0.tar.gz]
 [2024-04-15 05:50:33] INFO root fetch - main [MainThread]: End processing [serverjars-api]: success
 [2024-04-15 05:50:33] INFO root fetch - main [MainThread]: Store serial: [22765176]
+[2024-04-15 05:52:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22765176]
+[2024-04-15 05:52:42] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-15 05:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: whiterose
+[2024-04-15 05:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: easytl
+[2024-04-15 05:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: migoapiclient
+[2024-04-15 05:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fun-things
+[2024-04-15 05:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xgw
+[2024-04-15 05:52:42] INFO root fetch - processPackages [migoapiclient]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-04-15 05:52:42] WARNING root fetch - processPackages [fun-things]: Skipping, unable to determine old version
+[2024-04-15 05:52:42] INFO root fetch - main [MainThread]: End processing [fun-things] error
+[2024-04-15 05:52:42] INFO root fetch - processPackages [whiterose]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-15 05:52:42] WARNING root fetch - processPackages [xgw]: Skipping, unable to determine old version
+[2024-04-15 05:52:42] INFO root fetch - main [MainThread]: End processing [xgw] error
+[2024-04-15 05:52:42] INFO root fetch - processPackages [easytl]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-15 05:52:42] INFO root fetch - processPackages [whiterose]: Downloading https://files.pythonhosted.org/packages/8f/d8/4e4933e560311b58866ddf640c102f7d88fa8256392ee464193167fb8872/whiterose-0.1.6.tar.gz
+[2024-04-15 05:52:42] INFO root fetch - processPackages [migoapiclient]: Downloading https://files.pythonhosted.org/packages/0e/db/966a415463866863aee7da619292b2e66b49ff7a397fad405b22eb89c4cc/migoapiclient-1.1.4.tar.gz
+[2024-04-15 05:52:42] INFO root fetch - processPackages [easytl]: Downloading https://files.pythonhosted.org/packages/ed/f5/44dec3bdbd9c54fd71b5cc26f829f5cb993bad6c2a388143f4c45b474e0b/easytl-0.1.0.tar.gz
+[2024-04-15 05:52:43] INFO root fetch - processPackages [whiterose]: Downloading https://files.pythonhosted.org/packages/fc/29/d574ea4a319eb191bff2d763b0fbc8f97a57a0db6b9e37029d5d3f8cbbeb/whiterose-0.1.7.tar.gz
+[2024-04-15 05:52:43] INFO root fetch - processPackages [easytl]: Downloading https://files.pythonhosted.org/packages/a1/26/e3aff856b436a7758a0f69a37b783fd3dcc9399ffda545c7e7f6d9b9c15c/easytl-0.1.1.tar.gz
+[2024-04-15 05:52:43] INFO root fetch - processPackages [migoapiclient]: Downloading https://files.pythonhosted.org/packages/9f/eb/bd61f3e989c94cd98394aa76b2afb1641efb8eabea284de609423726e035/migoapiclient-1.1.5.tar.gz
+[2024-04-15 05:52:43] INFO root fetch - processPackages [whiterose]: executing diffoscope
+[2024-04-15 05:52:43] INFO root fetch - processPackages [whiterose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whiterose-0.1.6.tar.gz tmp/whiterose-0.1.7.tar.gz --markdown 20240415/w/whiterose/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-15 05:52:43] INFO root fetch - processPackages [easytl]: executing diffoscope
+[2024-04-15 05:52:43] INFO root fetch - processPackages [easytl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easytl-0.1.0.tar.gz tmp/easytl-0.1.1.tar.gz --markdown 20240415/e/easytl/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-15 05:52:43] INFO root fetch - processPackages [migoapiclient]: executing diffoscope
+[2024-04-15 05:52:43] INFO root fetch - processPackages [migoapiclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/migoapiclient-1.1.4.tar.gz tmp/migoapiclient-1.1.5.tar.gz --markdown 20240415/m/migoapiclient/1.1.4-1.1.5/README.md --exclude *.pyd
+[2024-04-15 05:52:43] INFO root fetch - processPackages [whiterose]: Remove: archive file [/home/abi/fetcher/tmp/whiterose-0.1.6.tar.gz]
+[2024-04-15 05:52:43] INFO root fetch - processPackages [whiterose]: Remove: archive file [/home/abi/fetcher/tmp/whiterose-0.1.7.tar.gz]
+[2024-04-15 05:52:43] INFO root fetch - main [MainThread]: End processing [whiterose]: success
+[2024-04-15 05:52:43] INFO root fetch - processPackages [migoapiclient]: Remove: archive file [/home/abi/fetcher/tmp/migoapiclient-1.1.4.tar.gz]
+[2024-04-15 05:52:43] INFO root fetch - processPackages [migoapiclient]: Remove: archive file [/home/abi/fetcher/tmp/migoapiclient-1.1.5.tar.gz]
+[2024-04-15 05:52:43] INFO root fetch - main [MainThread]: End processing [migoapiclient]: success
+[2024-04-15 05:52:43] INFO root fetch - processPackages [easytl]: Remove: archive file [/home/abi/fetcher/tmp/easytl-0.1.0.tar.gz]
+[2024-04-15 05:52:43] INFO root fetch - processPackages [easytl]: Remove: archive file [/home/abi/fetcher/tmp/easytl-0.1.1.tar.gz]
+[2024-04-15 05:52:43] INFO root fetch - main [MainThread]: End processing [easytl]: success
+[2024-04-15 05:52:43] INFO root fetch - main [MainThread]: Store serial: [22765193]
