@@ -22013,3 +22013,62 @@ EOFError: EOF read where object expected
 [2024-04-15 16:19:07] INFO root fetch - processPackages [ResSimpy]: Remove: archive file [/home/abi/fetcher/tmp/ressimpy-2.1.0.tar.gz]
 [2024-04-15 16:19:07] INFO root fetch - main [MainThread]: End processing [ResSimpy]: success
 [2024-04-15 16:19:07] INFO root fetch - main [MainThread]: Store serial: [22772553]
+[2024-04-15 16:21:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22772553]
+[2024-04-15 16:21:17] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-15 16:21:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mxcubecore
+[2024-04-15 16:21:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-stock-picking-delivery-link
+[2024-04-15 16:21:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: icloudpy
+[2024-04-15 16:21:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: arta
+[2024-04-15 16:21:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: linktest
+[2024-04-15 16:21:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ps1-short
+[2024-04-15 16:21:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pynumstim
+[2024-04-15 16:21:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: windmill-api
+[2024-04-15 16:21:17] INFO root fetch - processPackages [mxcubecore]: New version: [1.93.0] Old Version: [1.92.0]
+[2024-04-15 16:21:17] INFO root fetch - processPackages [pynumstim]: New version: [0.2.3] Old Version: [0.2.2b0]
+[2024-04-15 16:21:17] INFO root fetch - processPackages [linktest]: New version: [2.4.4] Old Version: [2.4.3]
+[2024-04-15 16:21:17] INFO root fetch - processPackages [windmill-api]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-04-15 16:21:17] INFO root fetch - processPackages [icloudpy]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-04-15 16:21:17] INFO root fetch - processPackages [odoo-addon-stock-picking-delivery-link]: New version: [16.0.1.1.1] Old Version: [16.0.1.1.0.3]
+[2024-04-15 16:21:18] WARNING root fetch - processPackages [arta]: Skipping, unable to determine old version
+[2024-04-15 16:21:18] INFO root fetch - main [MainThread]: End processing [arta] error
+[2024-04-15 16:21:18] WARNING root fetch - processPackages [ps1-short]: Skipping, unable to determine old version
+[2024-04-15 16:21:18] INFO root fetch - processPackages [mxcubecore]: Downloading https://files.pythonhosted.org/packages/74/45/0f00df99b008f52071d5a998d6945955756ba3465b46cbe40126af2c8fbd/mxcubecore-1.92.0.tar.gz
+[2024-04-15 16:21:18] INFO root fetch - main [MainThread]: End processing [ps1-short] error
+[2024-04-15 16:21:18] INFO root fetch - processPackages [linktest]: Downloading https://files.pythonhosted.org/packages/97/2f/36618255fbe2aacee65f8f1f0c1a6e2136ef4441acd6e31f90bec43f24c0/linktest-2.4.3.tar.gz
+[2024-04-15 16:21:18] INFO root fetch - processPackages [pynumstim]: Downloading https://files.pythonhosted.org/packages/ef/a0/23681b5468e467ddb3f9bfce14db6f5b0fcd81e160fb743ce92befea3482/pynumstim-0.2.2b0.tar.gz
+[2024-04-15 16:21:18] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/bd/de/5d29ca258adee967295dbf926ab306c480527c234336f0725d4c2bc1d718/windmill_api-1.98.0.tar.gz
+[2024-04-15 16:21:18] WARNING root fetch - processPackages [mxcubecore]: Skipping package: exceeds size limit 30976174>=10485760
+[2024-04-15 16:21:18] INFO root fetch - main [MainThread]: End processing [mxcubecore] error
+[2024-04-15 16:21:18] INFO root fetch - processPackages [odoo-addon-stock-picking-delivery-link]: Downloading https://files.pythonhosted.org/packages/56/48/214221cd2ab372694df0c3c46c38727e15b1b2f0c7c3264a172bdb8d86b0/odoo_addon_stock_picking_delivery_link-16.0.1.1.0.3-py3-none-any.whl
+[2024-04-15 16:21:18] INFO root fetch - processPackages [icloudpy]: Downloading https://files.pythonhosted.org/packages/ef/08/75eda77aa78e0109557f6acab605e54d963aaeb9356f8da80ed5d2a8a176/icloudpy-0.5.0.tar.gz
+[2024-04-15 16:21:18] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/32/94/9431b41ce6b9c2670fbc125624f7ebc3d186482c80c271e3d7acde511319/windmill_api-1.99.0.tar.gz
+[2024-04-15 16:21:18] INFO root fetch - processPackages [pynumstim]: Downloading https://files.pythonhosted.org/packages/c6/32/8439b980c12fba937300fa5a4c4bc372e02984f0b2655735cc3ef41d8d1f/pynumstim-0.2.3.tar.gz
+[2024-04-15 16:21:18] INFO root fetch - processPackages [linktest]: Downloading https://files.pythonhosted.org/packages/13/ab/623de1693fd20e90f4ad37aa3bbc983f4c8fe4d6da5f25279cf8c190336e/linktest-2.4.4.tar.gz
+[2024-04-15 16:21:18] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2024-04-15 16:21:18] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.98.0.tar.gz tmp/windmill_api-1.99.0.tar.gz --markdown 20240415/w/windmill-api/1.98.0-1.99.0/README.md --exclude *.pyd
+[2024-04-15 16:21:18] INFO root fetch - processPackages [odoo-addon-stock-picking-delivery-link]: Downloading https://files.pythonhosted.org/packages/7d/22/754f1e1e13b2d893a777d474e31266c274999c23246fa950fd69c43e6340/odoo_addon_stock_picking_delivery_link-16.0.1.1.1-py3-none-any.whl
+[2024-04-15 16:21:18] INFO root fetch - processPackages [pynumstim]: executing diffoscope
+[2024-04-15 16:21:18] INFO root fetch - processPackages [pynumstim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynumstim-0.2.2b0.tar.gz tmp/pynumstim-0.2.3.tar.gz --markdown 20240415/p/pynumstim/0.2.2b0-0.2.3/README.md --exclude *.pyd
+[2024-04-15 16:21:18] INFO root fetch - processPackages [linktest]: executing diffoscope
+[2024-04-15 16:21:18] INFO root fetch - processPackages [linktest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linktest-2.4.3.tar.gz tmp/linktest-2.4.4.tar.gz --markdown 20240415/l/linktest/2.4.3-2.4.4/README.md --exclude *.pyd
+[2024-04-15 16:21:18] INFO root fetch - processPackages [icloudpy]: Downloading https://files.pythonhosted.org/packages/66/16/7a8468b0ea0e1a49dccded90347eba6a892608d9e492d6872a4b9b2c54b6/icloudpy-0.5.1.tar.gz
+[2024-04-15 16:21:18] INFO root fetch - processPackages [odoo-addon-stock-picking-delivery-link]: executing diffoscope
+[2024-04-15 16:21:18] INFO root fetch - processPackages [odoo-addon-stock-picking-delivery-link]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_picking_delivery_link-16.0.1.1.0.3-py3-none-any.whl.zip tmp/odoo_addon_stock_picking_delivery_link-16.0.1.1.1-py3-none-any.whl.zip --markdown 20240415/o/odoo-addon-stock-picking-delivery-link/16.0.1.1.0.3-16.0.1.1.1/README.md --exclude *.pyd
+[2024-04-15 16:21:18] INFO root fetch - processPackages [icloudpy]: executing diffoscope
+[2024-04-15 16:21:18] INFO root fetch - processPackages [icloudpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icloudpy-0.5.0.tar.gz tmp/icloudpy-0.5.1.tar.gz --markdown 20240415/i/icloudpy/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-04-15 16:21:19] INFO root fetch - processPackages [pynumstim]: Remove: archive file [/home/abi/fetcher/tmp/pynumstim-0.2.2b0.tar.gz]
+[2024-04-15 16:21:19] INFO root fetch - processPackages [pynumstim]: Remove: archive file [/home/abi/fetcher/tmp/pynumstim-0.2.3.tar.gz]
+[2024-04-15 16:21:19] INFO root fetch - main [MainThread]: End processing [pynumstim]: success
+[2024-04-15 16:21:19] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.4.3.tar.gz]
+[2024-04-15 16:21:19] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.4.4.tar.gz]
+[2024-04-15 16:21:19] INFO root fetch - main [MainThread]: End processing [linktest]: success
+[2024-04-15 16:21:19] INFO root fetch - processPackages [odoo-addon-stock-picking-delivery-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_delivery_link-16.0.1.1.0.3-py3-none-any.whl.zip]
+[2024-04-15 16:21:19] INFO root fetch - processPackages [odoo-addon-stock-picking-delivery-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_delivery_link-16.0.1.1.1-py3-none-any.whl.zip]
+[2024-04-15 16:21:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-picking-delivery-link]: success
+[2024-04-15 16:21:19] INFO root fetch - processPackages [icloudpy]: Remove: archive file [/home/abi/fetcher/tmp/icloudpy-0.5.0.tar.gz]
+[2024-04-15 16:21:19] INFO root fetch - processPackages [icloudpy]: Remove: archive file [/home/abi/fetcher/tmp/icloudpy-0.5.1.tar.gz]
+[2024-04-15 16:21:19] INFO root fetch - main [MainThread]: End processing [icloudpy]: success
+[2024-04-15 16:21:22] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.98.0.tar.gz]
+[2024-04-15 16:21:22] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
+[2024-04-15 16:21:22] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2024-04-15 16:21:22] INFO root fetch - main [MainThread]: Store serial: [22772579]
