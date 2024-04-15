@@ -2498,3 +2498,24 @@
 [2024-04-15 03:35:29] INFO root fetch - processPackages [encoders]: Remove: archive file [/home/abi/fetcher/tmp/encoders-0.0.4.tar.gz]
 [2024-04-15 03:35:29] INFO root fetch - main [MainThread]: End processing [encoders]: success
 [2024-04-15 03:35:29] INFO root fetch - main [MainThread]: Store serial: [22764423]
+[2024-04-15 03:37:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22764423]
+[2024-04-15 03:37:37] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-15 03:37:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: awil-ft232h
+[2024-04-15 03:37:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: DeFiPy
+[2024-04-15 03:37:38] INFO root fetch - processPackages [awil-ft232h]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-15 03:37:38] INFO root fetch - processPackages [DeFiPy]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-15 03:37:38] INFO root fetch - processPackages [awil-ft232h]: Downloading https://files.pythonhosted.org/packages/a1/b3/4872b6c57927e44c5d9f4d39d5cb673b2e6d1a68d9c11e9ddb7f71f4d4cf/awil_ft232h-0.1.1.tar.gz
+[2024-04-15 03:37:38] INFO root fetch - processPackages [DeFiPy]: Downloading https://files.pythonhosted.org/packages/dc/9b/4b3c802e4dae071394ba27afe644534c7343d192519c932d9f47c592db64/DeFiPy-0.0.8.tar.gz
+[2024-04-15 03:37:38] INFO root fetch - processPackages [awil-ft232h]: Downloading https://files.pythonhosted.org/packages/a8/ba/480ecb13dbad4ced21dae62fd5cbfdb6c2a9708c1283a4fa125db4511987/awil_ft232h-0.1.2.tar.gz
+[2024-04-15 03:37:38] INFO root fetch - processPackages [awil-ft232h]: executing diffoscope
+[2024-04-15 03:37:38] INFO root fetch - processPackages [awil-ft232h]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awil_ft232h-0.1.1.tar.gz tmp/awil_ft232h-0.1.2.tar.gz --markdown 20240415/a/awil-ft232h/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-15 03:37:38] INFO root fetch - processPackages [DeFiPy]: Downloading https://files.pythonhosted.org/packages/c6/4a/9e5e65acc4c127e8cc615783ca5a1d8a5a658e0d6a8cfe61a1d50f8ed7db/DeFiPy-0.0.9.tar.gz
+[2024-04-15 03:37:38] INFO root fetch - processPackages [DeFiPy]: executing diffoscope
+[2024-04-15 03:37:38] INFO root fetch - processPackages [DeFiPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DeFiPy-0.0.8.tar.gz tmp/DeFiPy-0.0.9.tar.gz --markdown 20240415/D/DeFiPy/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-15 03:37:39] INFO root fetch - processPackages [awil-ft232h]: Remove: archive file [/home/abi/fetcher/tmp/awil_ft232h-0.1.1.tar.gz]
+[2024-04-15 03:37:39] INFO root fetch - processPackages [awil-ft232h]: Remove: archive file [/home/abi/fetcher/tmp/awil_ft232h-0.1.2.tar.gz]
+[2024-04-15 03:37:39] INFO root fetch - main [MainThread]: End processing [awil-ft232h]: success
+[2024-04-15 03:37:39] INFO root fetch - processPackages [DeFiPy]: Remove: archive file [/home/abi/fetcher/tmp/DeFiPy-0.0.8.tar.gz]
+[2024-04-15 03:37:39] INFO root fetch - processPackages [DeFiPy]: Remove: archive file [/home/abi/fetcher/tmp/DeFiPy-0.0.9.tar.gz]
+[2024-04-15 03:37:39] INFO root fetch - main [MainThread]: End processing [DeFiPy]: success
+[2024-04-15 03:37:39] INFO root fetch - main [MainThread]: Store serial: [22764428]
