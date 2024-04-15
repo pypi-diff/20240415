@@ -14636,3 +14636,50 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 12:15:28] INFO root fetch - processPackages [datumaro]: Remove: archive file [/home/abi/fetcher/tmp/datumaro-1.6.1rc1.tar.gz]
 [2024-04-15 12:15:28] INFO root fetch - main [MainThread]: End processing [datumaro]: success
 [2024-04-15 12:15:28] INFO root fetch - main [MainThread]: Store serial: [22769239]
+[2024-04-15 12:17:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22769239]
+[2024-04-15 12:17:37] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-15 12:17:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-ffmpeg
+[2024-04-15 12:17:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: finbourne-access-sdk
+[2024-04-15 12:17:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-base-user-role-company
+[2024-04-15 12:17:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zodchy-patterns
+[2024-04-15 12:17:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: optrabot
+[2024-04-15 12:17:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-hr-timesheet-sheet-attendance
+[2024-04-15 12:17:37] INFO root fetch - processPackages [optrabot]: New version: [0.9.0a0] Old Version: [0.8.2a3]
+[2024-04-15 12:17:37] INFO root fetch - processPackages [odoo-addon-base-user-role-company]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.2.0]
+[2024-04-15 12:17:37] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-15 12:17:37] INFO root fetch - processPackages [optrabot]: Downloading https://files.pythonhosted.org/packages/39/a5/21bc356da8a46875c8c5c0b1d0186829892fb9a81ddb5c6c6b2f6400d848/optrabot-0.8.2a3.tar.gz
+[2024-04-15 12:17:37] INFO root fetch - processPackages [odoo-addon-base-user-role-company]: Downloading https://files.pythonhosted.org/packages/21/f8/3ba0ffa8d36f95aa88131fbd451387a6fc0fe4cc06ffbd8a9b8a43209f19/odoo_addon_base_user_role_company-16.0.1.2.0-py3-none-any.whl
+[2024-04-15 12:17:37] INFO root fetch - processPackages [python-ffmpeg]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-15 12:17:37] INFO root fetch - processPackages [zodchy-patterns]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-15 12:17:37] WARNING root fetch - processPackages [odoo-addon-hr-timesheet-sheet-attendance]: Skipping, unable to determine old version
+[2024-04-15 12:17:37] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-timesheet-sheet-attendance] error
+[2024-04-15 12:17:37] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/67/5a/2e8d70b51969063ac34619b9a07be19893b64107b4dab37e771b94bd1b03/finbourne_access_sdk-2.1.8.tar.gz
+[2024-04-15 12:17:37] INFO root fetch - processPackages [zodchy-patterns]: Downloading https://files.pythonhosted.org/packages/f4/11/dfef691783c44a80d1e34e6b9d6aa073bd4ed26eb73fc7d62cab164a5b44/zodchy_patterns-0.1.0.tar.gz
+[2024-04-15 12:17:37] INFO root fetch - processPackages [python-ffmpeg]: Downloading https://files.pythonhosted.org/packages/79/bc/4d920c847ee0925b0b89cd90f27fa479f50321d3a16414a9407574f7d37a/python-ffmpeg-2.0.8.tar.gz
+[2024-04-15 12:17:37] INFO root fetch - processPackages [odoo-addon-base-user-role-company]: Downloading https://files.pythonhosted.org/packages/28/2b/a26ce3031cdc50dd31c01755872c23a6f2efae6f6c1a1b7e2a7230cbca73/odoo_addon_base_user_role_company-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-15 12:17:37] INFO root fetch - processPackages [optrabot]: Downloading https://files.pythonhosted.org/packages/4e/17/373a3afb23c995690c704daec11a4dd7599c27e6a606493c4cb888b29a56/optrabot-0.9.0a0.tar.gz
+[2024-04-15 12:17:38] INFO root fetch - processPackages [odoo-addon-base-user-role-company]: executing diffoscope
+[2024-04-15 12:17:38] INFO root fetch - processPackages [odoo-addon-base-user-role-company]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_user_role_company-16.0.1.2.0-py3-none-any.whl.zip tmp/odoo_addon_base_user_role_company-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240415/o/odoo-addon-base-user-role-company/16.0.1.2.0-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-04-15 12:17:38] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/2d/9e/be08614b45729ae547c5c8acd046e8c90ae89d6b812ee70666b6e24bcbe8/finbourne_access_sdk-2.1.9.tar.gz
+[2024-04-15 12:17:38] INFO root fetch - processPackages [optrabot]: executing diffoscope
+[2024-04-15 12:17:38] INFO root fetch - processPackages [optrabot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optrabot-0.8.2a3.tar.gz tmp/optrabot-0.9.0a0.tar.gz --markdown 20240415/o/optrabot/0.8.2a3-0.9.0a0/README.md --exclude *.pyd
+[2024-04-15 12:17:38] INFO root fetch - processPackages [zodchy-patterns]: Downloading https://files.pythonhosted.org/packages/e2/74/56a3528d3c37592bda445fb26e3234d379de6f15bd691458aafdb92cf3f0/zodchy_patterns-0.1.1.tar.gz
+[2024-04-15 12:17:38] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2024-04-15 12:17:38] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_access_sdk-2.1.8.tar.gz tmp/finbourne_access_sdk-2.1.9.tar.gz --markdown 20240415/f/finbourne-access-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-15 12:17:38] INFO root fetch - processPackages [zodchy-patterns]: executing diffoscope
+[2024-04-15 12:17:38] INFO root fetch - processPackages [zodchy-patterns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zodchy_patterns-0.1.0.tar.gz tmp/zodchy_patterns-0.1.1.tar.gz --markdown 20240415/z/zodchy-patterns/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-15 12:17:38] WARNING root fetch - processPackages [python-ffmpeg]: Skipping package: exceeds size limit 14125329>=10485760
+[2024-04-15 12:17:38] INFO root fetch - main [MainThread]: End processing [python-ffmpeg] error
+[2024-04-15 12:17:38] INFO root fetch - processPackages [odoo-addon-base-user-role-company]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_user_role_company-16.0.1.2.0-py3-none-any.whl.zip]
+[2024-04-15 12:17:38] INFO root fetch - processPackages [odoo-addon-base-user-role-company]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_user_role_company-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-15 12:17:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-user-role-company]: success
+[2024-04-15 12:17:38] INFO root fetch - processPackages [optrabot]: Remove: archive file [/home/abi/fetcher/tmp/optrabot-0.8.2a3.tar.gz]
+[2024-04-15 12:17:38] INFO root fetch - processPackages [optrabot]: Remove: archive file [/home/abi/fetcher/tmp/optrabot-0.9.0a0.tar.gz]
+[2024-04-15 12:17:38] INFO root fetch - main [MainThread]: End processing [optrabot]: success
+[2024-04-15 12:17:38] INFO root fetch - processPackages [zodchy-patterns]: Remove: archive file [/home/abi/fetcher/tmp/zodchy_patterns-0.1.0.tar.gz]
+[2024-04-15 12:17:38] INFO root fetch - processPackages [zodchy-patterns]: Remove: archive file [/home/abi/fetcher/tmp/zodchy_patterns-0.1.1.tar.gz]
+[2024-04-15 12:17:38] INFO root fetch - main [MainThread]: End processing [zodchy-patterns]: success
+[2024-04-15 12:17:39] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.8.tar.gz]
+[2024-04-15 12:17:39] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.9.tar.gz]
+[2024-04-15 12:17:39] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2024-04-15 12:17:39] INFO root fetch - main [MainThread]: Store serial: [22769257]
