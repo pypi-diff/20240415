@@ -7615,3 +7615,30 @@
 [2024-04-15 07:19:19] INFO root fetch - processPackages [yamlloader]: Remove: archive file [/home/abi/fetcher/tmp/yamlloader-1.4.1.tar.gz]
 [2024-04-15 07:19:19] INFO root fetch - main [MainThread]: End processing [yamlloader]: success
 [2024-04-15 07:19:19] INFO root fetch - main [MainThread]: Store serial: [22766248]
+[2024-04-15 07:21:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22766248]
+[2024-04-15 07:21:28] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-15 07:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flake8-no-else
+[2024-04-15 07:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: awil-ad9833
+[2024-04-15 07:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: emergingtrajectories
+[2024-04-15 07:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fingerprintMatcher
+[2024-04-15 07:21:28] INFO root fetch - processPackages [fingerprintMatcher]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-15 07:21:28] WARNING root fetch - processPackages [flake8-no-else]: Skipping, unable to determine old version
+[2024-04-15 07:21:28] INFO root fetch - processPackages [emergingtrajectories]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-15 07:21:28] INFO root fetch - main [MainThread]: End processing [flake8-no-else] error
+[2024-04-15 07:21:28] WARNING root fetch - processPackages [awil-ad9833]: Skipping, unable to determine old version
+[2024-04-15 07:21:28] INFO root fetch - main [MainThread]: End processing [awil-ad9833] error
+[2024-04-15 07:21:28] INFO root fetch - processPackages [emergingtrajectories]: Downloading https://files.pythonhosted.org/packages/1f/3e/3229d6759c17920a1ecd3722791f03aed62c9a3f9ef850794188474c7fb5/emergingtrajectories-0.2.8.tar.gz
+[2024-04-15 07:21:28] INFO root fetch - processPackages [fingerprintMatcher]: Downloading https://files.pythonhosted.org/packages/9c/07/a9d16f5cad0280cdfe6b3ed1fdd9485a50943317508833dee7fc4c332f3d/fingerprintMatcher-1.0.1-py3-none-any.whl
+[2024-04-15 07:21:29] INFO root fetch - processPackages [emergingtrajectories]: Downloading https://files.pythonhosted.org/packages/44/2f/dc231c0377b6642a32797154e1fd951c910f0b0cd2dbf06a9b7ef5c3c3cc/emergingtrajectories-0.2.9.tar.gz
+[2024-04-15 07:21:29] INFO root fetch - processPackages [emergingtrajectories]: executing diffoscope
+[2024-04-15 07:21:29] INFO root fetch - processPackages [emergingtrajectories]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emergingtrajectories-0.2.8.tar.gz tmp/emergingtrajectories-0.2.9.tar.gz --markdown 20240415/e/emergingtrajectories/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-15 07:21:29] INFO root fetch - processPackages [fingerprintMatcher]: Downloading https://files.pythonhosted.org/packages/f0/bd/204aa070626e0434ceb4de73dbb03d7843b3254c1708637246c96bbab53a/fingerprintMatcher-1.0.2-py3-none-any.whl
+[2024-04-15 07:21:29] INFO root fetch - processPackages [fingerprintMatcher]: executing diffoscope
+[2024-04-15 07:21:29] INFO root fetch - processPackages [fingerprintMatcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fingerprintMatcher-1.0.1-py3-none-any.whl.zip tmp/fingerprintMatcher-1.0.2-py3-none-any.whl.zip --markdown 20240415/f/fingerprintMatcher/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-15 07:21:29] INFO root fetch - processPackages [fingerprintMatcher]: Remove: archive file [/home/abi/fetcher/tmp/fingerprintMatcher-1.0.1-py3-none-any.whl.zip]
+[2024-04-15 07:21:29] INFO root fetch - processPackages [fingerprintMatcher]: Remove: archive file [/home/abi/fetcher/tmp/fingerprintMatcher-1.0.2-py3-none-any.whl.zip]
+[2024-04-15 07:21:29] INFO root fetch - main [MainThread]: End processing [fingerprintMatcher]: success
+[2024-04-15 07:21:29] INFO root fetch - processPackages [emergingtrajectories]: Remove: archive file [/home/abi/fetcher/tmp/emergingtrajectories-0.2.8.tar.gz]
+[2024-04-15 07:21:29] INFO root fetch - processPackages [emergingtrajectories]: Remove: archive file [/home/abi/fetcher/tmp/emergingtrajectories-0.2.9.tar.gz]
+[2024-04-15 07:21:29] INFO root fetch - main [MainThread]: End processing [emergingtrajectories]: success
+[2024-04-15 07:21:29] INFO root fetch - main [MainThread]: Store serial: [22766262]
