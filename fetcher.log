@@ -13722,3 +13722,122 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 11:48:52] INFO root fetch - processPackages [redturtle.bandi]: Remove: archive file [/home/abi/fetcher/tmp/redturtle.bandi-1.4.5.tar.gz]
 [2024-04-15 11:48:52] INFO root fetch - main [MainThread]: End processing [redturtle.bandi]: success
 [2024-04-15 11:48:52] INFO root fetch - main [MainThread]: Store serial: [22768840]
+[2024-04-15 11:50:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22768840]
+[2024-04-15 11:51:02] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2024-04-15 11:51:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbacoordinationclient
+[2024-04-15 11:51:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fta
+[2024-04-15 11:51:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sampa
+[2024-04-15 11:51:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: npsam
+[2024-04-15 11:51:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hestia-earth-earth-engine
+[2024-04-15 11:51:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: finbourne-access-sdk
+[2024-04-15 11:51:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dataclass_io
+[2024-04-15 11:51:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openeo-processes-dask
+[2024-04-15 11:51:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: restx
+[2024-04-15 11:51:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: elgas
+[2024-04-15 11:51:02] INFO root fetch - processPackages [restx]: New version: [0.1.9] Old Version: [0.1.7]
+[2024-04-15 11:51:02] INFO root fetch - processPackages [npsam]: New version: [1.4.9.3] Old Version: [1.4.9.2]
+[2024-04-15 11:51:02] INFO root fetch - processPackages [elgas]: New version: [24.1.0b3] Old Version: [24.1.0b2]
+[2024-04-15 11:51:02] INFO root fetch - processPackages [openeo-processes-dask]: New version: [2024.4.0] Old Version: [2024.3.0]
+[2024-04-15 11:51:02] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [2.1.8] Old Version: [2.1.7]
+[2024-04-15 11:51:02] INFO root fetch - processPackages [fta]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-15 11:51:02] WARNING root fetch - processPackages [dbacoordinationclient]: Skipping, unable to determine old version
+[2024-04-15 11:51:02] INFO root fetch - processPackages [dbacoordinationclient]: Start processing: byzerllm
+[2024-04-15 11:51:02] INFO root fetch - main [MainThread]: End processing [dbacoordinationclient] error
+[2024-04-15 11:51:03] WARNING root fetch - processPackages [dataclass_io]: Skipping, unable to determine old version
+[2024-04-15 11:51:03] INFO root fetch - processPackages [hestia-earth-earth-engine]: New version: [0.4.7] Old Version: [0.4.6]
+[2024-04-15 11:51:03] INFO root fetch - processPackages [dataclass_io]: Start processing: nicegui
+[2024-04-15 11:51:03] INFO root fetch - main [MainThread]: End processing [dataclass_io] error
+[2024-04-15 11:51:03] WARNING root fetch - processPackages [sampa]: Skipping, unable to determine old version
+[2024-04-15 11:51:03] INFO root fetch - processPackages [sampa]: Start processing: c2cwsgiutils
+[2024-04-15 11:51:03] INFO root fetch - main [MainThread]: End processing [sampa] error
+[2024-04-15 11:51:03] INFO root fetch - processPackages [restx]: Downloading https://files.pythonhosted.org/packages/74/78/0edabe8e2ff1ac413755e17d404df324d46be0902879aceaa247af9fc57c/restx-0.1.7.tar.gz
+[2024-04-15 11:51:03] INFO root fetch - processPackages [elgas]: Downloading https://files.pythonhosted.org/packages/ec/f3/1dc8a16b89a5c17b085d4438ee5e9e0260c0b63dde389a9a97602b64f0dc/elgas-24.1.0b2.tar.gz
+[2024-04-15 11:51:03] INFO root fetch - processPackages [npsam]: Downloading https://files.pythonhosted.org/packages/17/2b/4975ca9b56fc4a9e318a252c83a9a31760af44e2e7905cad0edb49540e65/npsam-1.4.9.2.tar.gz
+[2024-04-15 11:51:03] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/33/d8/195fe3df0a3b157589e93a9634d3357085b04c0ed0811ac424c127eb5ffb/finbourne_access_sdk-2.1.7.tar.gz
+[2024-04-15 11:51:03] INFO root fetch - processPackages [c2cwsgiutils]: New version: [6.1.0.dev99] Old Version: [6.1.0.dev97]
+[2024-04-15 11:51:03] INFO root fetch - processPackages [byzerllm]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-15 11:51:03] INFO root fetch - processPackages [openeo-processes-dask]: Downloading https://files.pythonhosted.org/packages/19/83/619d9554302c91ff466549287fa5fb0f12c8da7104539f7ee19a3ef75bfb/openeo_processes_dask-2024.3.0.tar.gz
+[2024-04-15 11:51:03] INFO root fetch - processPackages [nicegui]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-04-15 11:51:03] INFO root fetch - processPackages [fta]: Downloading https://files.pythonhosted.org/packages/a9/65/b395b1e69e18f12c00816cb1cf58186caada443314c392ec6037c777e267/fta-0.0.1.tar.gz
+[2024-04-15 11:51:03] INFO root fetch - processPackages [hestia-earth-earth-engine]: Downloading https://files.pythonhosted.org/packages/69/cb/9a3986106269ef27f7ee4f07867c0cecf321f54519eb02666faaa9d24261/hestia-earth-earth-engine-0.4.6.tar.gz
+[2024-04-15 11:51:03] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/70/82/1062250c5f8b684273f1f576ab49863eb71b99aedcf0e638b7d18af727dc/c2cwsgiutils-6.1.0.dev97.tar.gz
+[2024-04-15 11:51:03] INFO root fetch - processPackages [byzerllm]: Downloading https://files.pythonhosted.org/packages/98/c6/1563f4025ee67d92445c7867c7ca1ad9c523055b4708ddd5ab2dab480c51/byzerllm-0.1.8.tar.gz
+[2024-04-15 11:51:03] INFO root fetch - processPackages [restx]: Downloading https://files.pythonhosted.org/packages/50/be/eeaee4b1a491f3d99a5235b025d0d4e2bf9ba752b92905e22f10be31fd8e/restx-0.1.9.tar.gz
+[2024-04-15 11:51:03] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/67/5a/2e8d70b51969063ac34619b9a07be19893b64107b4dab37e771b94bd1b03/finbourne_access_sdk-2.1.8.tar.gz
+[2024-04-15 11:51:03] INFO root fetch - processPackages [npsam]: Downloading https://files.pythonhosted.org/packages/64/be/291803aafc1f17836ac9c7ee82bed6cd40796a23f67830b3de2b0c6d68fb/npsam-1.4.9.3.tar.gz
+[2024-04-15 11:51:03] INFO root fetch - processPackages [nicegui]: Downloading https://files.pythonhosted.org/packages/b5/39/c7b7adc94d9d6b669f397911cd99054027767adce81267e5db28f98947f2/nicegui-1.4.8.tar.gz
+[2024-04-15 11:51:03] INFO root fetch - processPackages [elgas]: Downloading https://files.pythonhosted.org/packages/b1/67/15a5f14a57b0d1a792378699ddeaa6b0f3e0f1cf62deb70a7e424f5075f5/elgas-24.1.0b3.tar.gz
+[2024-04-15 11:51:03] INFO root fetch - processPackages [restx]: executing diffoscope
+[2024-04-15 11:51:03] INFO root fetch - processPackages [restx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/restx-0.1.7.tar.gz tmp/restx-0.1.9.tar.gz --markdown 20240415/r/restx/0.1.7-0.1.9/README.md --exclude *.pyd
+[2024-04-15 11:51:03] INFO root fetch - processPackages [openeo-processes-dask]: Downloading https://files.pythonhosted.org/packages/c2/51/5fe572a69bfe2cddf74644ee301df877a728518ffe960a7282a64a82e930/openeo_processes_dask-2024.4.0.tar.gz
+[2024-04-15 11:51:03] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2024-04-15 11:51:03] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_access_sdk-2.1.7.tar.gz tmp/finbourne_access_sdk-2.1.8.tar.gz --markdown 20240415/f/finbourne-access-sdk/2.1.7-2.1.8/README.md --exclude *.pyd
+[2024-04-15 11:51:03] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/ab/62/7a161c456f1828f37b18431d8f5cf1bbda9dfe8ef509b1c94d8dad7c8da1/c2cwsgiutils-6.1.0.dev99.tar.gz
+[2024-04-15 11:51:03] INFO root fetch - processPackages [npsam]: executing diffoscope
+[2024-04-15 11:51:03] INFO root fetch - processPackages [npsam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/npsam-1.4.9.2.tar.gz tmp/npsam-1.4.9.3.tar.gz --markdown 20240415/n/npsam/1.4.9.2-1.4.9.3/README.md --exclude *.pyd
+[2024-04-15 11:51:03] INFO root fetch - processPackages [hestia-earth-earth-engine]: Downloading https://files.pythonhosted.org/packages/7d/61/a1b55bdb4e47e8b34d068624b985c7a88032cf1745b2a0cb86207035147d/hestia-earth-earth-engine-0.4.7.tar.gz
+[2024-04-15 11:51:03] WARNING root fetch - processPackages [nicegui]: Skipping package: exceeds size limit 14257908>=10485760
+[2024-04-15 11:51:03] INFO root fetch - processPackages [nicegui]: Start processing: nipyapi
+[2024-04-15 11:51:03] INFO root fetch - main [MainThread]: End processing [nicegui] error
+[2024-04-15 11:51:03] INFO root fetch - processPackages [fta]: Downloading https://files.pythonhosted.org/packages/f6/0f/1a186de175e6d97c4771461c00484b6f381f30989140c912a96ade66a860/fta-0.0.2.tar.gz
+[2024-04-15 11:51:03] INFO root fetch - processPackages [elgas]: executing diffoscope
+[2024-04-15 11:51:03] INFO root fetch - processPackages [elgas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elgas-24.1.0b2.tar.gz tmp/elgas-24.1.0b3.tar.gz --markdown 20240415/e/elgas/24.1.0b2-24.1.0b3/README.md --exclude *.pyd
+[2024-04-15 11:51:03] INFO root fetch - processPackages [openeo-processes-dask]: executing diffoscope
+[2024-04-15 11:51:03] INFO root fetch - processPackages [openeo-processes-dask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openeo_processes_dask-2024.3.0.tar.gz tmp/openeo_processes_dask-2024.4.0.tar.gz --markdown 20240415/o/openeo-processes-dask/2024.3.0-2024.4.0/README.md --exclude *.pyd
+[2024-04-15 11:51:03] INFO root fetch - processPackages [c2cwsgiutils]: executing diffoscope
+[2024-04-15 11:51:03] INFO root fetch - processPackages [c2cwsgiutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cwsgiutils-6.1.0.dev97.tar.gz tmp/c2cwsgiutils-6.1.0.dev99.tar.gz --markdown 20240415/c/c2cwsgiutils/6.1.0.dev97-6.1.0.dev99/README.md --exclude *.pyd
+[2024-04-15 11:51:03] INFO root fetch - processPackages [hestia-earth-earth-engine]: executing diffoscope
+[2024-04-15 11:51:03] INFO root fetch - processPackages [hestia-earth-earth-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hestia-earth-earth-engine-0.4.6.tar.gz tmp/hestia-earth-earth-engine-0.4.7.tar.gz --markdown 20240415/h/hestia-earth-earth-engine/0.4.6-0.4.7/README.md --exclude *.pyd
+[2024-04-15 11:51:03] INFO root fetch - processPackages [byzerllm]: Downloading https://files.pythonhosted.org/packages/a0/04/10289d36794dda29e2a889dcf2e412dcd39997cf2bc11d5af1bcc4670b3d/byzerllm-0.1.9.tar.gz
+[2024-04-15 11:51:03] INFO root fetch - processPackages [fta]: executing diffoscope
+[2024-04-15 11:51:03] INFO root fetch - processPackages [fta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fta-0.0.1.tar.gz tmp/fta-0.0.2.tar.gz --markdown 20240415/f/fta/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-15 11:51:03] INFO root fetch - processPackages [nipyapi]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-15 11:51:04] INFO root fetch - processPackages [nipyapi]: Downloading https://files.pythonhosted.org/packages/7d/9d/99bc9a08002478194ca93c3de487d6d3c7c90145e45ac3ac603b6a8cc29e/nipyapi-0.9.0.tar.gz
+[2024-04-15 11:51:04] INFO root fetch - processPackages [byzerllm]: executing diffoscope
+[2024-04-15 11:51:04] INFO root fetch - processPackages [byzerllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/byzerllm-0.1.8.tar.gz tmp/byzerllm-0.1.9.tar.gz --markdown 20240415/b/byzerllm/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-15 11:51:04] INFO root fetch - processPackages [restx]: Remove: archive file [/home/abi/fetcher/tmp/restx-0.1.7.tar.gz]
+[2024-04-15 11:51:04] INFO root fetch - processPackages [restx]: Remove: archive file [/home/abi/fetcher/tmp/restx-0.1.9.tar.gz]
+[2024-04-15 11:51:04] INFO root fetch - processPackages [restx]: Start processing: tkinterPdfViewer
+[2024-04-15 11:51:04] INFO root fetch - main [MainThread]: End processing [restx]: success
+[2024-04-15 11:51:04] WARNING root fetch - processPackages [tkinterPdfViewer]: Skipping, unable to determine old version
+[2024-04-15 11:51:04] INFO root fetch - processPackages [tkinterPdfViewer]: Start processing: finbourne-insights-sdk-preview
+[2024-04-15 11:51:04] INFO root fetch - main [MainThread]: End processing [tkinterPdfViewer] error
+[2024-04-15 11:51:04] INFO root fetch - processPackages [npsam]: Remove: archive file [/home/abi/fetcher/tmp/npsam-1.4.9.2.tar.gz]
+[2024-04-15 11:51:04] INFO root fetch - processPackages [npsam]: Remove: archive file [/home/abi/fetcher/tmp/npsam-1.4.9.3.tar.gz]
+[2024-04-15 11:51:04] INFO root fetch - main [MainThread]: End processing [npsam]: success
+[2024-04-15 11:51:04] INFO root fetch - processPackages [nipyapi]: Downloading https://files.pythonhosted.org/packages/32/b3/ff8f7482996027425a8d9e1bcc0d2b23f6bb562c05d9a5a263a668685dd8/nipyapi-0.9.1.tar.gz
+[2024-04-15 11:51:04] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: New version: [0.0.765] Old Version: [0.0.764]
+[2024-04-15 11:51:04] INFO root fetch - processPackages [hestia-earth-earth-engine]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-earth-engine-0.4.6.tar.gz]
+[2024-04-15 11:51:04] INFO root fetch - processPackages [hestia-earth-earth-engine]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-earth-engine-0.4.7.tar.gz]
+[2024-04-15 11:51:04] INFO root fetch - main [MainThread]: End processing [hestia-earth-earth-engine]: success
+[2024-04-15 11:51:04] INFO root fetch - processPackages [elgas]: Remove: archive file [/home/abi/fetcher/tmp/elgas-24.1.0b2.tar.gz]
+[2024-04-15 11:51:04] INFO root fetch - processPackages [elgas]: Remove: archive file [/home/abi/fetcher/tmp/elgas-24.1.0b3.tar.gz]
+[2024-04-15 11:51:04] INFO root fetch - main [MainThread]: End processing [elgas]: success
+[2024-04-15 11:51:05] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.7.tar.gz]
+[2024-04-15 11:51:05] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.8.tar.gz]
+[2024-04-15 11:51:05] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2024-04-15 11:51:05] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.1.0.dev97.tar.gz]
+[2024-04-15 11:51:05] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.1.0.dev99.tar.gz]
+[2024-04-15 11:51:05] INFO root fetch - main [MainThread]: End processing [c2cwsgiutils]: success
+[2024-04-15 11:51:05] INFO root fetch - processPackages [nipyapi]: executing diffoscope
+[2024-04-15 11:51:05] INFO root fetch - processPackages [nipyapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nipyapi-0.9.0.tar.gz tmp/nipyapi-0.9.1.tar.gz --markdown 20240415/n/nipyapi/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-15 11:51:05] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: Downloading https://files.pythonhosted.org/packages/9a/a9/faca781191be5c1bcee11ca9dc02068520c556116aeb0ab9043afc3d970c/finbourne-insights-sdk-preview-0.0.764.tar.gz
+[2024-04-15 11:51:05] INFO root fetch - processPackages [openeo-processes-dask]: Remove: archive file [/home/abi/fetcher/tmp/openeo_processes_dask-2024.3.0.tar.gz]
+[2024-04-15 11:51:05] INFO root fetch - processPackages [openeo-processes-dask]: Remove: archive file [/home/abi/fetcher/tmp/openeo_processes_dask-2024.4.0.tar.gz]
+[2024-04-15 11:51:05] INFO root fetch - main [MainThread]: End processing [openeo-processes-dask]: success
+[2024-04-15 11:51:05] INFO root fetch - processPackages [fta]: Remove: archive file [/home/abi/fetcher/tmp/fta-0.0.1.tar.gz]
+[2024-04-15 11:51:05] INFO root fetch - processPackages [fta]: Remove: archive file [/home/abi/fetcher/tmp/fta-0.0.2.tar.gz]
+[2024-04-15 11:51:05] INFO root fetch - main [MainThread]: End processing [fta]: success
+[2024-04-15 11:51:05] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: Downloading https://files.pythonhosted.org/packages/8a/80/738ee3cb8650ce361890173845111a2e631ca7074fbca9bd9b9e12e2b956/finbourne-insights-sdk-preview-0.0.765.tar.gz
+[2024-04-15 11:51:05] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: executing diffoscope
+[2024-04-15 11:51:05] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-insights-sdk-preview-0.0.764.tar.gz tmp/finbourne-insights-sdk-preview-0.0.765.tar.gz --markdown 20240415/f/finbourne-insights-sdk-preview/0.0.764-0.0.765/README.md --exclude *.pyd
+[2024-04-15 11:51:06] INFO root fetch - processPackages [byzerllm]: Remove: archive file [/home/abi/fetcher/tmp/byzerllm-0.1.8.tar.gz]
+[2024-04-15 11:51:06] INFO root fetch - processPackages [byzerllm]: Remove: archive file [/home/abi/fetcher/tmp/byzerllm-0.1.9.tar.gz]
+[2024-04-15 11:51:06] INFO root fetch - main [MainThread]: End processing [byzerllm]: success
+[2024-04-15 11:51:06] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-insights-sdk-preview-0.0.764.tar.gz]
+[2024-04-15 11:51:06] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-insights-sdk-preview-0.0.765.tar.gz]
+[2024-04-15 11:51:06] INFO root fetch - main [MainThread]: End processing [finbourne-insights-sdk-preview]: success
+[2024-04-15 11:51:07] INFO root fetch - processPackages [nipyapi]: Remove: archive file [/home/abi/fetcher/tmp/nipyapi-0.9.0.tar.gz]
+[2024-04-15 11:51:07] INFO root fetch - processPackages [nipyapi]: Remove: archive file [/home/abi/fetcher/tmp/nipyapi-0.9.1.tar.gz]
+[2024-04-15 11:51:07] INFO root fetch - main [MainThread]: End processing [nipyapi]: success
+[2024-04-15 11:51:07] INFO root fetch - main [MainThread]: Store serial: [22768894]
