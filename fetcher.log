@@ -21764,3 +21764,94 @@ EOFError: EOF read where object expected
 [2024-04-15 16:12:27] INFO root fetch - processPackages [schemaorg-lite]: Remove: archive file [/home/abi/fetcher/tmp/schemaorg_lite-0.1.9.tar.gz]
 [2024-04-15 16:12:27] INFO root fetch - main [MainThread]: End processing [schemaorg-lite]: success
 [2024-04-15 16:12:27] INFO root fetch - main [MainThread]: Store serial: [22772443]
+[2024-04-15 16:14:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22772443]
+[2024-04-15 16:14:36] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-15 16:14:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: strawberry-graphql
+[2024-04-15 16:14:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: starlette-async-jinja
+[2024-04-15 16:14:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: multiview-stitcher
+[2024-04-15 16:14:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spanishconjugator
+[2024-04-15 16:14:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyvsnr
+[2024-04-15 16:14:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bellek
+[2024-04-15 16:14:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spanishconjugator
+[2024-04-15 16:14:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nth-api
+[2024-04-15 16:14:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tool-use
+[2024-04-15 16:14:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: premai
+[2024-04-15 16:14:36] INFO root fetch - processPackages [strawberry-graphql]: New version: [0.99.3] Old Version: [0.99.2]
+[2024-04-15 16:14:36] INFO root fetch - processPackages [nth-api]: New version: [1.3.3] Old Version: [1.3]
+[2024-04-15 16:14:36] INFO root fetch - processPackages [tool-use]: New version: [0.1.1rc3] Old Version: [0.1.1rc2]
+[2024-04-15 16:14:36] INFO root fetch - processPackages [bellek]: New version: [0.9.0] Old Version: [0.83.0]
+[2024-04-15 16:14:36] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-04-15 16:14:36] INFO root fetch - processPackages [pyvsnr]: New version: [2.0.5] Old Version: [2.0.0]
+[2024-04-15 16:14:36] INFO root fetch - processPackages [starlette-async-jinja]: New version: [1.7.3] Old Version: [1.7.2]
+[2024-04-15 16:14:36] INFO root fetch - processPackages [multiview-stitcher]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-15 16:14:36] INFO root fetch - processPackages [strawberry-graphql]: Downloading https://files.pythonhosted.org/packages/dd/38/4efb20ccf1f04c0901e6d5de6eb222b8a9e74692ae34f6f4618b0f0cc8b3/strawberry-graphql-0.99.2.tar.gz
+[2024-04-15 16:14:36] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-04-15 16:14:36] INFO root fetch - processPackages [nth-api]: Downloading https://files.pythonhosted.org/packages/ce/77/8bec3b49758627fede34df80f22311370a7e763d26147487e630860fcc83/nth_api-1.3.tar.gz
+[2024-04-15 16:14:36] INFO root fetch - processPackages [tool-use]: Downloading https://files.pythonhosted.org/packages/01/bc/209c1b535a60a6c4ba4c526f6d294e8feb3b84630fbfab82f2a74bfdd567/tool_use-0.1.1rc2.tar.gz
+[2024-04-15 16:14:36] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-04-15 16:14:36] INFO root fetch - processPackages [bellek]: Downloading https://files.pythonhosted.org/packages/63/24/357797fc2282127c9803a61d8ea73ea958295969d7d0edb5284066dde979/bellek-0.83.0.tar.gz
+[2024-04-15 16:14:36] INFO root fetch - processPackages [pyvsnr]: Downloading https://files.pythonhosted.org/packages/00/70/4d64582c9aeff3b4f1dfb2e2395ce1bd23bca786ac97f88517456c7bca5f/pyvsnr-2.0.0.tar.gz
+[2024-04-15 16:14:36] INFO root fetch - processPackages [premai]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-15 16:14:36] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-04-15 16:14:36] INFO root fetch - processPackages [starlette-async-jinja]: Downloading https://files.pythonhosted.org/packages/79/e6/193d8f3e95455417cc1e99ad7e17fe9ef5d71b87ed53ca77ab50ec88daf8/starlette_async_jinja-1.7.2.tar.gz
+[2024-04-15 16:14:36] INFO root fetch - processPackages [multiview-stitcher]: Downloading https://files.pythonhosted.org/packages/e8/93/2f0afd5486dec75c3d22fde87879eb8b462202dcae40c7f4e3bc9870a4d8/multiview-stitcher-0.1.4.tar.gz
+[2024-04-15 16:14:36] INFO root fetch - processPackages [strawberry-graphql]: Downloading https://files.pythonhosted.org/packages/e8/62/3a58fe3751e9dc961f72fbe825e32f12e9cd544dafd44bc5fdddb290b881/strawberry-graphql-0.99.3.tar.gz
+[2024-04-15 16:14:36] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-04-15 16:14:36] INFO root fetch - processPackages [premai]: Downloading https://files.pythonhosted.org/packages/90/02/d89b51bd360f45b6152f4d376a25e60d5c80d337608fe8882ffb2a5aef48/premai-0.3.8.tar.gz
+[2024-04-15 16:14:36] INFO root fetch - processPackages [bellek]: Downloading https://files.pythonhosted.org/packages/ec/cb/2e453e973c51c52f57d3533e8d2f7192b8c626e0078fe08fb907191e69fb/bellek-0.9.0.tar.gz
+[2024-04-15 16:14:36] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-04-15 16:14:37] INFO root fetch - processPackages [strawberry-graphql]: executing diffoscope
+[2024-04-15 16:14:37] INFO root fetch - processPackages [strawberry-graphql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strawberry-graphql-0.99.2.tar.gz tmp/strawberry-graphql-0.99.3.tar.gz --markdown 20240415/s/strawberry-graphql/0.99.2-0.99.3/README.md --exclude *.pyd
+[2024-04-15 16:14:37] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-04-15 16:14:37] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240415/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-04-15 16:14:37] INFO root fetch - processPackages [nth-api]: Downloading https://files.pythonhosted.org/packages/89/15/a879419a232a7d1dead499bb53bc5f7bed5efc9803a5a03304653b639b3b/nth_api-1.3.3.tar.gz
+[2024-04-15 16:14:37] INFO root fetch - processPackages [bellek]: executing diffoscope
+[2024-04-15 16:14:37] INFO root fetch - processPackages [bellek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bellek-0.83.0.tar.gz tmp/bellek-0.9.0.tar.gz --markdown 20240415/b/bellek/0.83.0-0.9.0/README.md --exclude *.pyd
+[2024-04-15 16:14:37] INFO root fetch - processPackages [tool-use]: Downloading https://files.pythonhosted.org/packages/2a/16/d663c8efa7d06e51539c79ae091d05048cfe34e8e247c3d1af88e7ef3af3/tool_use-0.1.1rc3.tar.gz
+[2024-04-15 16:14:37] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-04-15 16:14:37] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240415/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-04-15 16:14:37] INFO root fetch - processPackages [nth-api]: executing diffoscope
+[2024-04-15 16:14:37] INFO root fetch - processPackages [nth-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nth_api-1.3.tar.gz tmp/nth_api-1.3.3.tar.gz --markdown 20240415/n/nth-api/1.3-1.3.3/README.md --exclude *.pyd
+[2024-04-15 16:14:37] INFO root fetch - processPackages [pyvsnr]: Downloading https://files.pythonhosted.org/packages/e7/2b/301f240cd4cd3eab6766b05bf1dfe65f55c7166dd9384253ba6d4246477e/pyvsnr-2.0.5-py3-none-any.whl
+[2024-04-15 16:14:37] INFO root fetch - processPackages [tool-use]: executing diffoscope
+[2024-04-15 16:14:37] INFO root fetch - processPackages [tool-use]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tool_use-0.1.1rc2.tar.gz tmp/tool_use-0.1.1rc3.tar.gz --markdown 20240415/t/tool-use/0.1.1rc2-0.1.1rc3/README.md --exclude *.pyd
+[2024-04-15 16:14:37] INFO root fetch - processPackages [premai]: Downloading https://files.pythonhosted.org/packages/d1/d0/af59c2d96c54194570ba5b21d45f1fa947b7767402b22b0218398dd7de22/premai-0.3.9.tar.gz
+[2024-04-15 16:14:37] INFO root fetch - processPackages [pyvsnr]: executing diffoscope
+[2024-04-15 16:14:37] INFO root fetch - processPackages [pyvsnr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvsnr-2.0.0.tar.gz tmp/pyvsnr-2.0.5-py3-none-any.whl.zip --markdown 20240415/p/pyvsnr/2.0.0-2.0.5/README.md --exclude *.pyd
+[2024-04-15 16:14:37] INFO root fetch - processPackages [starlette-async-jinja]: Downloading https://files.pythonhosted.org/packages/d8/09/d165dd14b48bc35a6c2f1c7ccf619521ff529f1db811992664e87aae65d8/starlette_async_jinja-1.7.3.tar.gz
+[2024-04-15 16:14:37] INFO root fetch - processPackages [premai]: executing diffoscope
+[2024-04-15 16:14:37] INFO root fetch - processPackages [premai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/premai-0.3.8.tar.gz tmp/premai-0.3.9.tar.gz --markdown 20240415/p/premai/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-15 16:14:37] INFO root fetch - processPackages [starlette-async-jinja]: executing diffoscope
+[2024-04-15 16:14:37] INFO root fetch - processPackages [starlette-async-jinja]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starlette_async_jinja-1.7.2.tar.gz tmp/starlette_async_jinja-1.7.3.tar.gz --markdown 20240415/s/starlette-async-jinja/1.7.2-1.7.3/README.md --exclude *.pyd
+[2024-04-15 16:14:38] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2024-04-15 16:14:38] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2024-04-15 16:14:38] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-04-15 16:14:38] INFO root fetch - processPackages [nth-api]: Remove: archive file [/home/abi/fetcher/tmp/nth_api-1.3.tar.gz]
+[2024-04-15 16:14:38] INFO root fetch - processPackages [nth-api]: Remove: archive file [/home/abi/fetcher/tmp/nth_api-1.3.3.tar.gz]
+[2024-04-15 16:14:38] INFO root fetch - main [MainThread]: End processing [nth-api]: success
+[2024-04-15 16:14:38] INFO root fetch - processPackages [starlette-async-jinja]: Remove: archive file [/home/abi/fetcher/tmp/starlette_async_jinja-1.7.2.tar.gz]
+[2024-04-15 16:14:38] INFO root fetch - processPackages [starlette-async-jinja]: Remove: archive file [/home/abi/fetcher/tmp/starlette_async_jinja-1.7.3.tar.gz]
+[2024-04-15 16:14:38] INFO root fetch - main [MainThread]: End processing [starlette-async-jinja]: success
+[2024-04-15 16:14:38] INFO root fetch - processPackages [tool-use]: Remove: archive file [/home/abi/fetcher/tmp/tool_use-0.1.1rc2.tar.gz]
+[2024-04-15 16:14:38] INFO root fetch - processPackages [tool-use]: Remove: archive file [/home/abi/fetcher/tmp/tool_use-0.1.1rc3.tar.gz]
+[2024-04-15 16:14:38] INFO root fetch - main [MainThread]: End processing [tool-use]: success
+[2024-04-15 16:14:38] INFO root fetch - processPackages [strawberry-graphql]: Remove: archive file [/home/abi/fetcher/tmp/strawberry-graphql-0.99.2.tar.gz]
+[2024-04-15 16:14:38] INFO root fetch - processPackages [strawberry-graphql]: Remove: archive file [/home/abi/fetcher/tmp/strawberry-graphql-0.99.3.tar.gz]
+[2024-04-15 16:14:38] INFO root fetch - main [MainThread]: End processing [strawberry-graphql]: success
+[2024-04-15 16:14:38] INFO root fetch - processPackages [pyvsnr]: Remove: archive file [/home/abi/fetcher/tmp/pyvsnr-2.0.0.tar.gz]
+[2024-04-15 16:14:38] INFO root fetch - processPackages [pyvsnr]: Remove: archive file [/home/abi/fetcher/tmp/pyvsnr-2.0.5-py3-none-any.whl.zip]
+[2024-04-15 16:14:38] INFO root fetch - main [MainThread]: End processing [pyvsnr]: success
+[2024-04-15 16:14:38] INFO root fetch - processPackages [bellek]: Remove: archive file [/home/abi/fetcher/tmp/bellek-0.83.0.tar.gz]
+[2024-04-15 16:14:38] INFO root fetch - processPackages [bellek]: Remove: archive file [/home/abi/fetcher/tmp/bellek-0.9.0.tar.gz]
+[2024-04-15 16:14:38] INFO root fetch - main [MainThread]: End processing [bellek]: success
+[2024-04-15 16:14:38] INFO root fetch - processPackages [premai]: Remove: archive file [/home/abi/fetcher/tmp/premai-0.3.8.tar.gz]
+[2024-04-15 16:14:38] INFO root fetch - processPackages [premai]: Remove: archive file [/home/abi/fetcher/tmp/premai-0.3.9.tar.gz]
+[2024-04-15 16:14:38] INFO root fetch - main [MainThread]: End processing [premai]: success
+[2024-04-15 16:14:38] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-04-15 16:14:39] INFO root fetch - processPackages [multiview-stitcher]: Downloading https://files.pythonhosted.org/packages/d3/cc/0fd79a5f8b1aa87b743d29cfe10567e9da95e8c212935ea349878da0a6c6/multiview_stitcher-0.1.5.tar.gz
+[2024-04-15 16:14:39] INFO root fetch - processPackages [multiview-stitcher]: executing diffoscope
+[2024-04-15 16:14:39] INFO root fetch - processPackages [multiview-stitcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiview-stitcher-0.1.4.tar.gz tmp/multiview_stitcher-0.1.5.tar.gz --markdown 20240415/m/multiview-stitcher/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-15 16:14:40] INFO root fetch - processPackages [multiview-stitcher]: Remove: archive file [/home/abi/fetcher/tmp/multiview-stitcher-0.1.4.tar.gz]
+[2024-04-15 16:14:40] INFO root fetch - processPackages [multiview-stitcher]: Remove: archive file [/home/abi/fetcher/tmp/multiview_stitcher-0.1.5.tar.gz]
+[2024-04-15 16:14:40] INFO root fetch - main [MainThread]: End processing [multiview-stitcher]: success
+[2024-04-15 16:14:40] INFO root fetch - main [MainThread]: Store serial: [22772486]
