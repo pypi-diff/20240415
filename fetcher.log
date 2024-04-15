@@ -3166,3 +3166,45 @@
 [2024-04-15 04:29:43] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.6.dev202404150227.tar.gz]
 [2024-04-15 04:29:43] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
 [2024-04-15 04:29:43] INFO root fetch - main [MainThread]: Store serial: [22764672]
+[2024-04-15 04:31:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22764672]
+[2024-04-15 04:31:52] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-15 04:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wcpan-logging
+[2024-04-15 04:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-events-notify
+[2024-04-15 04:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pylazypdfcore
+[2024-04-15 04:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-common
+[2024-04-15 04:31:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytorch-ignite
+[2024-04-15 04:31:52] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-15 04:31:52] WARNING root fetch - processPackages [pylazypdfcore]: Skipping, unable to determine old version
+[2024-04-15 04:31:52] INFO root fetch - main [MainThread]: End processing [pylazypdfcore] error
+[2024-04-15 04:31:52] INFO root fetch - processPackages [wcpan-logging]: New version: [2.1.0] Old Version: [2.0.3]
+[2024-04-15 04:31:52] INFO root fetch - processPackages [pytorch-ignite]: New version: [0.6.0.dev20240415] Old Version: [0.6.0.dev20240414]
+[2024-04-15 04:31:52] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2024-04-15 04:31:52] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.2.98] Old Version: [2.2.97]
+[2024-04-15 04:31:52] INFO root fetch - processPackages [wcpan-logging]: Downloading https://files.pythonhosted.org/packages/58/4e/44bdecd13feb356f26fc106fd5b45a594962a73b7a43294278576430801b/wcpan_logging-2.0.3.tar.gz
+[2024-04-15 04:31:52] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/1d/1f/64cd64b1d993b6532e232b33fc500b99a5ea8f77b68a4e6687b6c31d1907/cdk-events-notify-2.2.97.tar.gz
+[2024-04-15 04:31:52] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/78/d4/be7feafab43dccc838ae5b2529e18717d0135d401ea625fb2d575aff43d7/pytorch-ignite-0.6.0.dev20240414.tar.gz
+[2024-04-15 04:31:52] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b7/7d/50ca1bff3db85ede28826faf2d11bb449770cac87fe89483636e0fe57d94/cdk-events-notify-2.2.98.tar.gz
+[2024-04-15 04:31:52] INFO root fetch - processPackages [wcpan-logging]: Downloading https://files.pythonhosted.org/packages/9a/5a/a39fab2964b5df24a620a2f0449617e4133f43b388496e7daa46812d976e/wcpan_logging-2.1.0.tar.gz
+[2024-04-15 04:31:52] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2024-04-15 04:31:52] INFO root fetch - processPackages [wcpan-logging]: executing diffoscope
+[2024-04-15 04:31:52] INFO root fetch - processPackages [wcpan-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wcpan_logging-2.0.3.tar.gz tmp/wcpan_logging-2.1.0.tar.gz --markdown 20240415/w/wcpan-logging/2.0.3-2.1.0/README.md --exclude *.pyd
+[2024-04-15 04:31:52] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2024-04-15 04:31:52] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.2.97.tar.gz tmp/cdk-events-notify-2.2.98.tar.gz --markdown 20240415/c/cdk-events-notify/2.2.97-2.2.98/README.md --exclude *.pyd
+[2024-04-15 04:31:52] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/fe/de/8aab5e752b7241a1ba2747c5b64baf37b9aa0379269e54021a25d9aa43c5/pytorch-ignite-0.6.0.dev20240415.tar.gz
+[2024-04-15 04:31:53] INFO root fetch - processPackages [pytorch-ignite]: executing diffoscope
+[2024-04-15 04:31:53] INFO root fetch - processPackages [pytorch-ignite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-ignite-0.6.0.dev20240414.tar.gz tmp/pytorch-ignite-0.6.0.dev20240415.tar.gz --markdown 20240415/p/pytorch-ignite/0.6.0.dev20240414-0.6.0.dev20240415/README.md --exclude *.pyd
+[2024-04-15 04:31:53] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2024-04-15 04:31:53] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20240415/c/cdk-common/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-04-15 04:31:53] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.97.tar.gz]
+[2024-04-15 04:31:53] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.98.tar.gz]
+[2024-04-15 04:31:53] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2024-04-15 04:31:53] INFO root fetch - processPackages [wcpan-logging]: Remove: archive file [/home/abi/fetcher/tmp/wcpan_logging-2.0.3.tar.gz]
+[2024-04-15 04:31:53] INFO root fetch - processPackages [wcpan-logging]: Remove: archive file [/home/abi/fetcher/tmp/wcpan_logging-2.1.0.tar.gz]
+[2024-04-15 04:31:53] INFO root fetch - main [MainThread]: End processing [wcpan-logging]: success
+[2024-04-15 04:31:53] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2024-04-15 04:31:53] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2024-04-15 04:31:53] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2024-04-15 04:31:54] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ignite-0.6.0.dev20240414.tar.gz]
+[2024-04-15 04:31:54] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ignite-0.6.0.dev20240415.tar.gz]
+[2024-04-15 04:31:54] INFO root fetch - main [MainThread]: End processing [pytorch-ignite]: success
+[2024-04-15 04:31:54] INFO root fetch - main [MainThread]: Store serial: [22764689]
