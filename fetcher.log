@@ -23317,3 +23317,66 @@ AssertionError: tmp/pyblindrl-0.0.2rc57.post1.tar.gz does not exist
 [2024-04-15 16:50:28] INFO root fetch - processPackages [pdfminer.rtl]: Remove: archive file [/home/abi/fetcher/tmp/pdfminer_rtl-0.0.2.dev5.tar.gz]
 [2024-04-15 16:50:28] INFO root fetch - main [MainThread]: End processing [pdfminer.rtl]: success
 [2024-04-15 16:50:28] INFO root fetch - main [MainThread]: Store serial: [22773053]
+[2024-04-15 16:52:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22773053]
+[2024-04-15 16:52:37] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-15 16:52:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: utube-dl
+[2024-04-15 16:52:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pygfx
+[2024-04-15 16:52:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: votable-cli
+[2024-04-15 16:52:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: iceberg-diag
+[2024-04-15 16:52:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alas-ce0-client
+[2024-04-15 16:52:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openst
+[2024-04-15 16:52:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: browserbase
+[2024-04-15 16:52:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pymysqls
+[2024-04-15 16:52:37] INFO root fetch - processPackages [pymysqls]: New version: [5.1.0] Old Version: [0.5]
+[2024-04-15 16:52:37] INFO root fetch - processPackages [pymysqls]: Downloading https://files.pythonhosted.org/packages/3a/d7/35bd10cbd4ea051e1a117e13fe853df959aacbce226b4540a4de5cca0f17/pymysqls-0.5.tar.gz
+[2024-04-15 16:52:37] INFO root fetch - processPackages [pygfx]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-04-15 16:52:37] INFO root fetch - processPackages [votable-cli]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-04-15 16:52:37] WARNING root fetch - processPackages [utube-dl]: Skipping, unable to determine old version
+[2024-04-15 16:52:37] WARNING root fetch - processPackages [browserbase]: Skipping, unable to determine old version
+[2024-04-15 16:52:37] INFO root fetch - main [MainThread]: End processing [utube-dl] error
+[2024-04-15 16:52:37] INFO root fetch - main [MainThread]: End processing [browserbase] error
+[2024-04-15 16:52:37] INFO root fetch - processPackages [openst]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-15 16:52:37] INFO root fetch - processPackages [iceberg-diag]: New version: [0.1.3] Old Version: [0.1.1]
+[2024-04-15 16:52:37] INFO root fetch - processPackages [alas-ce0-client]: New version: [5.0.78] Old Version: [4.0.9]
+[2024-04-15 16:52:37] INFO root fetch - processPackages [votable-cli]: Downloading https://files.pythonhosted.org/packages/aa/4e/b777c386917ad5e9274ba88e543f6d061a9efc5b0080935fc711b1acbdfc/votable_cli-0.6.0.tar.gz
+[2024-04-15 16:52:37] INFO root fetch - processPackages [alas-ce0-client]: Downloading https://files.pythonhosted.org/packages/a0/15/77351f4f5e9646f6cf6c8190140b46c7cbdc3282b903dd85a4da03e46df1/alas-ce0-client-4.0.9.tar.gz
+[2024-04-15 16:52:37] INFO root fetch - processPackages [pygfx]: Downloading https://files.pythonhosted.org/packages/44/13/beb5bbb77dd5d689dff8ef54e49647e4aa5582f23a27060bac5548f0e02f/pygfx-0.1.9.tar.gz
+[2024-04-15 16:52:37] INFO root fetch - processPackages [iceberg-diag]: Downloading https://files.pythonhosted.org/packages/a9/55/116e3855ecbb76b3a2df2c416cc6d2656f46df90fc9604773b0ca9cb5945/iceberg_diag-0.1.1.tar.gz
+[2024-04-15 16:52:37] INFO root fetch - processPackages [openst]: Downloading https://files.pythonhosted.org/packages/28/1f/6cb411c246cf53b7025aee8793ac1663078b72e800900bc86d63a4540c96/openst-0.0.7.tar.gz
+[2024-04-15 16:52:37] INFO root fetch - processPackages [pymysqls]: Downloading https://files.pythonhosted.org/packages/1e/12/1198bde8cd80f87eac68b2e50ac0042190e9dc27d7e26bdedac2d46e2c03/pymysqls-5.1.0.tar.gz
+[2024-04-15 16:52:38] INFO root fetch - processPackages [pymysqls]: executing diffoscope
+[2024-04-15 16:52:38] INFO root fetch - processPackages [pymysqls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymysqls-0.5.tar.gz tmp/pymysqls-5.1.0.tar.gz --markdown 20240415/p/pymysqls/0.5-5.1.0/README.md --exclude *.pyd
+[2024-04-15 16:52:38] INFO root fetch - processPackages [votable-cli]: Downloading https://files.pythonhosted.org/packages/7c/85/85dcfeee6f08e373080556cbeadc3479a1d3758b273bc221130b519e3b87/votable_cli-0.6.1.tar.gz
+[2024-04-15 16:52:38] INFO root fetch - processPackages [pygfx]: Downloading https://files.pythonhosted.org/packages/9f/79/7037b2b8946f26d531c1286262e4ba0613a1ba9f95c41eed7cbe0df910a7/pygfx-0.2.0.tar.gz
+[2024-04-15 16:52:38] INFO root fetch - processPackages [iceberg-diag]: Downloading https://files.pythonhosted.org/packages/e7/ce/8381a54c4454d4077d84ebfa094ba616f177c1fdf1b75ae100b65ed4fc2e/iceberg_diag-0.1.3.tar.gz
+[2024-04-15 16:52:38] INFO root fetch - processPackages [openst]: Downloading https://files.pythonhosted.org/packages/fe/99/d584e8de52a334c5c8c7ca44594aef3cfb3f71f9f3f75fd02e29ce233100/openst-0.0.8.tar.gz
+[2024-04-15 16:52:38] INFO root fetch - processPackages [alas-ce0-client]: Downloading https://files.pythonhosted.org/packages/91/80/65355680388269809ebda517c877bfbde9f1dd114bafa09c2674ec867245/alas-ce0-client-5.0.78.tar.gz
+[2024-04-15 16:52:38] INFO root fetch - processPackages [votable-cli]: executing diffoscope
+[2024-04-15 16:52:38] INFO root fetch - processPackages [votable-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/votable_cli-0.6.0.tar.gz tmp/votable_cli-0.6.1.tar.gz --markdown 20240415/v/votable-cli/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-04-15 16:52:38] INFO root fetch - processPackages [iceberg-diag]: executing diffoscope
+[2024-04-15 16:52:38] INFO root fetch - processPackages [iceberg-diag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iceberg_diag-0.1.1.tar.gz tmp/iceberg_diag-0.1.3.tar.gz --markdown 20240415/i/iceberg-diag/0.1.1-0.1.3/README.md --exclude *.pyd
+[2024-04-15 16:52:38] INFO root fetch - processPackages [alas-ce0-client]: executing diffoscope
+[2024-04-15 16:52:38] INFO root fetch - processPackages [alas-ce0-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alas-ce0-client-4.0.9.tar.gz tmp/alas-ce0-client-5.0.78.tar.gz --markdown 20240415/a/alas-ce0-client/4.0.9-5.0.78/README.md --exclude *.pyd
+[2024-04-15 16:52:38] INFO root fetch - processPackages [pygfx]: executing diffoscope
+[2024-04-15 16:52:38] INFO root fetch - processPackages [pygfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygfx-0.1.9.tar.gz tmp/pygfx-0.2.0.tar.gz --markdown 20240415/p/pygfx/0.1.9-0.2.0/README.md --exclude *.pyd
+[2024-04-15 16:52:38] INFO root fetch - processPackages [openst]: executing diffoscope
+[2024-04-15 16:52:38] INFO root fetch - processPackages [openst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openst-0.0.7.tar.gz tmp/openst-0.0.8.tar.gz --markdown 20240415/o/openst/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-15 16:52:38] INFO root fetch - processPackages [pymysqls]: Remove: archive file [/home/abi/fetcher/tmp/pymysqls-0.5.tar.gz]
+[2024-04-15 16:52:38] INFO root fetch - processPackages [pymysqls]: Remove: archive file [/home/abi/fetcher/tmp/pymysqls-5.1.0.tar.gz]
+[2024-04-15 16:52:38] INFO root fetch - main [MainThread]: End processing [pymysqls]: success
+[2024-04-15 16:52:39] INFO root fetch - processPackages [iceberg-diag]: Remove: archive file [/home/abi/fetcher/tmp/iceberg_diag-0.1.1.tar.gz]
+[2024-04-15 16:52:39] INFO root fetch - processPackages [iceberg-diag]: Remove: archive file [/home/abi/fetcher/tmp/iceberg_diag-0.1.3.tar.gz]
+[2024-04-15 16:52:39] INFO root fetch - main [MainThread]: End processing [iceberg-diag]: success
+[2024-04-15 16:52:39] INFO root fetch - processPackages [alas-ce0-client]: Remove: archive file [/home/abi/fetcher/tmp/alas-ce0-client-4.0.9.tar.gz]
+[2024-04-15 16:52:39] INFO root fetch - processPackages [alas-ce0-client]: Remove: archive file [/home/abi/fetcher/tmp/alas-ce0-client-5.0.78.tar.gz]
+[2024-04-15 16:52:39] INFO root fetch - main [MainThread]: End processing [alas-ce0-client]: success
+[2024-04-15 16:52:39] INFO root fetch - processPackages [openst]: Remove: archive file [/home/abi/fetcher/tmp/openst-0.0.7.tar.gz]
+[2024-04-15 16:52:39] INFO root fetch - processPackages [openst]: Remove: archive file [/home/abi/fetcher/tmp/openst-0.0.8.tar.gz]
+[2024-04-15 16:52:39] INFO root fetch - main [MainThread]: End processing [openst]: success
+[2024-04-15 16:52:39] INFO root fetch - processPackages [pygfx]: Remove: archive file [/home/abi/fetcher/tmp/pygfx-0.1.9.tar.gz]
+[2024-04-15 16:52:39] INFO root fetch - processPackages [pygfx]: Remove: archive file [/home/abi/fetcher/tmp/pygfx-0.2.0.tar.gz]
+[2024-04-15 16:52:39] INFO root fetch - main [MainThread]: End processing [pygfx]: success
+[2024-04-15 16:52:39] INFO root fetch - processPackages [votable-cli]: Remove: archive file [/home/abi/fetcher/tmp/votable_cli-0.6.0.tar.gz]
+[2024-04-15 16:52:39] INFO root fetch - processPackages [votable-cli]: Remove: archive file [/home/abi/fetcher/tmp/votable_cli-0.6.1.tar.gz]
+[2024-04-15 16:52:39] INFO root fetch - main [MainThread]: End processing [votable-cli]: success
+[2024-04-15 16:52:39] INFO root fetch - main [MainThread]: Store serial: [22773082]
