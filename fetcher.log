@@ -18633,3 +18633,61 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 14:46:01] INFO root fetch - processPackages [bbot]: Remove: archive file [/home/abi/fetcher/tmp/bbot-1.1.7.7rc0.tar.gz]
 [2024-04-15 14:46:01] INFO root fetch - main [MainThread]: End processing [bbot]: success
 [2024-04-15 14:46:01] INFO root fetch - main [MainThread]: Store serial: [22771092]
+[2024-04-15 14:48:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22771092]
+[2024-04-15 14:48:10] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-15 14:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rustfrecord
+[2024-04-15 14:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: testpack24
+[2024-04-15 14:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: carbin
+[2024-04-15 14:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vive-tracker-apiserver
+[2024-04-15 14:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: testpack24
+[2024-04-15 14:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fugashi
+[2024-04-15 14:48:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: whaox-wconfig
+[2024-04-15 14:48:10] INFO root fetch - processPackages [testpack24]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-15 14:48:10] INFO root fetch - processPackages [whaox-wconfig]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-15 14:48:10] INFO root fetch - processPackages [testpack24]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-15 14:48:10] INFO root fetch - processPackages [testpack24]: Downloading https://files.pythonhosted.org/packages/9f/f2/9ecab1708a7ad8765b83295752cd65fba0dc43edeff3af8f61b76e77dafb/testpack24-0.0.7.tar.gz
+[2024-04-15 14:48:10] INFO root fetch - processPackages [whaox-wconfig]: Downloading https://files.pythonhosted.org/packages/f8/d4/fe031f4259f32d40ba7717eca34fb42bc885624fffa476e5c4d181f699d4/whaox-wconfig-1.0.0.tar.gz
+[2024-04-15 14:48:10] WARNING root fetch - processPackages [rustfrecord]: Skipping, unable to determine old version
+[2024-04-15 14:48:10] INFO root fetch - main [MainThread]: End processing [rustfrecord] error
+[2024-04-15 14:48:10] INFO root fetch - processPackages [testpack24]: Downloading https://files.pythonhosted.org/packages/9f/f2/9ecab1708a7ad8765b83295752cd65fba0dc43edeff3af8f61b76e77dafb/testpack24-0.0.7.tar.gz
+[2024-04-15 14:48:10] INFO root fetch - processPackages [vive-tracker-apiserver]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-15 14:48:10] INFO root fetch - processPackages [fugashi]: New version: [1.3.2.dev0] Old Version: [1.3.2]
+[2024-04-15 14:48:10] INFO root fetch - processPackages [carbin]: New version: [0.5.0] Old Version: [0.3.4]
+[2024-04-15 14:48:10] INFO root fetch - processPackages [fugashi]: Downloading https://files.pythonhosted.org/packages/8e/73/5e160668189cb4d7fa671eb589886fd8afaa2fbf4c257ca77743e39dc9a9/fugashi-1.3.2.tar.gz
+[2024-04-15 14:48:10] INFO root fetch - processPackages [whaox-wconfig]: Downloading https://files.pythonhosted.org/packages/e0/5f/e35f15f71bc7cf2e59792e74d17bce51f748a2bb8ed7ecd92f18f7bc7c97/whaox-wconfig-1.0.1.tar.gz
+[2024-04-15 14:48:10] INFO root fetch - processPackages [vive-tracker-apiserver]: Downloading https://files.pythonhosted.org/packages/c7/50/c52baf24f6d3e0a7ec84dca5f535de8201bdbc2e186f4a396b2dd3e484ef/vive-tracker-apiserver-0.0.6.tar.gz
+[2024-04-15 14:48:10] INFO root fetch - processPackages [carbin]: Downloading https://files.pythonhosted.org/packages/1d/23/3a404f812a8eee46c7e585a656974b6cff122b595456da9837ecb73d8946/carbin-0.3.4-py3-none-any.whl
+[2024-04-15 14:48:11] INFO root fetch - processPackages [whaox-wconfig]: executing diffoscope
+[2024-04-15 14:48:11] INFO root fetch - processPackages [whaox-wconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whaox-wconfig-1.0.0.tar.gz tmp/whaox-wconfig-1.0.1.tar.gz --markdown 20240415/w/whaox-wconfig/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-15 14:48:11] INFO root fetch - processPackages [testpack24]: Downloading https://files.pythonhosted.org/packages/92/45/458298e443b2c56f342c17056f360636ff4307895dad7cde821a1293d2dd/testpack24-0.0.8.tar.gz
+[2024-04-15 14:48:11] INFO root fetch - processPackages [testpack24]: Downloading https://files.pythonhosted.org/packages/92/45/458298e443b2c56f342c17056f360636ff4307895dad7cde821a1293d2dd/testpack24-0.0.8.tar.gz
+[2024-04-15 14:48:11] INFO root fetch - processPackages [testpack24]: executing diffoscope
+[2024-04-15 14:48:11] INFO root fetch - processPackages [testpack24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testpack24-0.0.7.tar.gz tmp/testpack24-0.0.8.tar.gz --markdown 20240415/t/testpack24/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-15 14:48:11] INFO root fetch - processPackages [testpack24]: executing diffoscope
+[2024-04-15 14:48:11] INFO root fetch - processPackages [testpack24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testpack24-0.0.7.tar.gz tmp/testpack24-0.0.8.tar.gz --markdown 20240415/t/testpack24/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-15 14:48:11] INFO root fetch - processPackages [vive-tracker-apiserver]: Downloading https://files.pythonhosted.org/packages/d9/bd/429d0bd13f222cde80c7dde82d2c8549cffdc676f981d01ddc4c70f8f02e/vive-tracker-apiserver-0.0.7.tar.gz
+[2024-04-15 14:48:11] INFO root fetch - processPackages [fugashi]: Downloading https://files.pythonhosted.org/packages/9c/32/06b164ddfa42cd639a998be507ce9bb294cc3d448c6a1ef443f1da658025/fugashi-1.3.2.dev0.tar.gz
+[2024-04-15 14:48:11] INFO root fetch - processPackages [carbin]: Downloading https://files.pythonhosted.org/packages/2d/a1/fd708886c7cb4f95244609d9e606288a3b300965705e7f064bb79903c058/carbin-0.5.0-py3-none-any.whl
+[2024-04-15 14:48:11] INFO root fetch - processPackages [vive-tracker-apiserver]: executing diffoscope
+[2024-04-15 14:48:11] INFO root fetch - processPackages [vive-tracker-apiserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vive-tracker-apiserver-0.0.6.tar.gz tmp/vive-tracker-apiserver-0.0.7.tar.gz --markdown 20240415/v/vive-tracker-apiserver/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-15 14:48:11] INFO root fetch - processPackages [fugashi]: executing diffoscope
+[2024-04-15 14:48:11] INFO root fetch - processPackages [fugashi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fugashi-1.3.2.tar.gz tmp/fugashi-1.3.2.dev0.tar.gz --markdown 20240415/f/fugashi/1.3.2-1.3.2.dev0/README.md --exclude *.pyd
+[2024-04-15 14:48:11] INFO root fetch - processPackages [carbin]: executing diffoscope
+[2024-04-15 14:48:11] INFO root fetch - processPackages [carbin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carbin-0.3.4-py3-none-any.whl.zip tmp/carbin-0.5.0-py3-none-any.whl.zip --markdown 20240415/c/carbin/0.3.4-0.5.0/README.md --exclude *.pyd
+[2024-04-15 14:48:11] INFO root fetch - processPackages [whaox-wconfig]: Remove: archive file [/home/abi/fetcher/tmp/whaox-wconfig-1.0.0.tar.gz]
+[2024-04-15 14:48:11] INFO root fetch - processPackages [whaox-wconfig]: Remove: archive file [/home/abi/fetcher/tmp/whaox-wconfig-1.0.1.tar.gz]
+[2024-04-15 14:48:11] INFO root fetch - main [MainThread]: End processing [whaox-wconfig]: success
+[2024-04-15 14:48:11] INFO root fetch - processPackages [testpack24]: Remove: archive file [/home/abi/fetcher/tmp/testpack24-0.0.7.tar.gz]
+[2024-04-15 14:48:11] INFO root fetch - processPackages [testpack24]: Remove: archive file [/home/abi/fetcher/tmp/testpack24-0.0.8.tar.gz]
+[2024-04-15 14:48:11] INFO root fetch - main [MainThread]: End processing [testpack24]: success
+[2024-04-15 14:48:11] INFO root fetch - main [MainThread]: End processing [testpack24]: success
+[2024-04-15 14:48:12] INFO root fetch - processPackages [vive-tracker-apiserver]: Remove: archive file [/home/abi/fetcher/tmp/vive-tracker-apiserver-0.0.6.tar.gz]
+[2024-04-15 14:48:12] INFO root fetch - processPackages [vive-tracker-apiserver]: Remove: archive file [/home/abi/fetcher/tmp/vive-tracker-apiserver-0.0.7.tar.gz]
+[2024-04-15 14:48:12] INFO root fetch - main [MainThread]: End processing [vive-tracker-apiserver]: success
+[2024-04-15 14:48:12] INFO root fetch - processPackages [fugashi]: Remove: archive file [/home/abi/fetcher/tmp/fugashi-1.3.2.tar.gz]
+[2024-04-15 14:48:12] INFO root fetch - processPackages [fugashi]: Remove: archive file [/home/abi/fetcher/tmp/fugashi-1.3.2.dev0.tar.gz]
+[2024-04-15 14:48:12] INFO root fetch - main [MainThread]: End processing [fugashi]: success
+[2024-04-15 14:48:12] INFO root fetch - processPackages [carbin]: Remove: archive file [/home/abi/fetcher/tmp/carbin-0.3.4-py3-none-any.whl.zip]
+[2024-04-15 14:48:12] INFO root fetch - processPackages [carbin]: Remove: archive file [/home/abi/fetcher/tmp/carbin-0.5.0-py3-none-any.whl.zip]
+[2024-04-15 14:48:12] INFO root fetch - main [MainThread]: End processing [carbin]: success
+[2024-04-15 14:48:12] INFO root fetch - main [MainThread]: Store serial: [22771121]
