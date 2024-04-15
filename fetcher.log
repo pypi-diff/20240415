@@ -2242,3 +2242,24 @@
 [2024-04-15 03:11:38] INFO root fetch - processPackages [netspresso-trainer]: Remove: archive file [/home/abi/fetcher/tmp/netspresso_trainer-0.2.0.tar.gz]
 [2024-04-15 03:11:38] INFO root fetch - main [MainThread]: End processing [netspresso-trainer]: success
 [2024-04-15 03:11:38] INFO root fetch - main [MainThread]: Store serial: [22764279]
+[2024-04-15 03:13:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22764279]
+[2024-04-15 03:13:47] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-15 03:13:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pycpio
+[2024-04-15 03:13:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nvremap
+[2024-04-15 03:13:47] INFO root fetch - processPackages [pycpio]: New version: [0.9.2] Old Version: [0.8.4]
+[2024-04-15 03:13:47] INFO root fetch - processPackages [nvremap]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-15 03:13:47] INFO root fetch - processPackages [pycpio]: Downloading https://files.pythonhosted.org/packages/17/7d/01d88e6bedf0e25a9f12f0da7bae1e37a67d26dc85358fa0901770316d9f/pycpio-0.8.4.tar.gz
+[2024-04-15 03:13:47] INFO root fetch - processPackages [nvremap]: Downloading https://files.pythonhosted.org/packages/19/99/47a52f79f65b930d1d92750e0ddc713dfa530fd728d51f8588556a9543fc/nvremap-0.1.3-cp39-cp39-manylinux1_x86_64.whl
+[2024-04-15 03:13:47] INFO root fetch - processPackages [nvremap]: Downloading https://files.pythonhosted.org/packages/4e/10/6f357b77d52ed80650f57d2c55cc8a3dbb34ca7fb0915e38e53f78cda1a4/nvremap-0.1.4-cp39-cp39-manylinux1_x86_64.whl
+[2024-04-15 03:13:47] INFO root fetch - processPackages [pycpio]: Downloading https://files.pythonhosted.org/packages/39/5e/2aa39543deb01438e085aac2d9487cc25403fe375021e61f678e2ab55223/pycpio-0.9.2.tar.gz
+[2024-04-15 03:13:47] INFO root fetch - processPackages [pycpio]: executing diffoscope
+[2024-04-15 03:13:47] INFO root fetch - processPackages [pycpio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycpio-0.8.4.tar.gz tmp/pycpio-0.9.2.tar.gz --markdown 20240415/p/pycpio/0.8.4-0.9.2/README.md --exclude *.pyd
+[2024-04-15 03:13:48] INFO root fetch - processPackages [nvremap]: executing diffoscope
+[2024-04-15 03:13:48] INFO root fetch - processPackages [nvremap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvremap-0.1.3-cp39-cp39-manylinux1_x86_64.whl.zip tmp/nvremap-0.1.4-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20240415/n/nvremap/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-15 03:13:48] INFO root fetch - processPackages [pycpio]: Remove: archive file [/home/abi/fetcher/tmp/pycpio-0.8.4.tar.gz]
+[2024-04-15 03:13:48] INFO root fetch - processPackages [pycpio]: Remove: archive file [/home/abi/fetcher/tmp/pycpio-0.9.2.tar.gz]
+[2024-04-15 03:13:48] INFO root fetch - main [MainThread]: End processing [pycpio]: success
+[2024-04-15 03:13:49] INFO root fetch - processPackages [nvremap]: Remove: archive file [/home/abi/fetcher/tmp/nvremap-0.1.3-cp39-cp39-manylinux1_x86_64.whl.zip]
+[2024-04-15 03:13:49] INFO root fetch - processPackages [nvremap]: Remove: archive file [/home/abi/fetcher/tmp/nvremap-0.1.4-cp39-cp39-manylinux1_x86_64.whl.zip]
+[2024-04-15 03:13:49] INFO root fetch - main [MainThread]: End processing [nvremap]: success
+[2024-04-15 03:13:49] INFO root fetch - main [MainThread]: Store serial: [22764292]
