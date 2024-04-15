@@ -7802,3 +7802,18 @@
 [2024-04-15 07:36:36] INFO root fetch - processPackages [flake8-no-else]: Remove: archive file [/home/abi/fetcher/tmp/flake8_no_else-0.1.1.tar.gz]
 [2024-04-15 07:36:36] INFO root fetch - main [MainThread]: End processing [flake8-no-else]: success
 [2024-04-15 07:36:36] INFO root fetch - main [MainThread]: Store serial: [22766339]
+[2024-04-15 07:38:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22766339]
+[2024-04-15 07:38:45] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-15 07:38:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deepctools
+[2024-04-15 07:38:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: biofkit
+[2024-04-15 07:38:45] WARNING root fetch - processPackages [deepctools]: Skipping, unable to determine old version
+[2024-04-15 07:38:45] INFO root fetch - main [MainThread]: End processing [deepctools] error
+[2024-04-15 07:38:45] INFO root fetch - processPackages [biofkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-15 07:38:45] INFO root fetch - processPackages [biofkit]: Downloading https://files.pythonhosted.org/packages/51/fd/6c8e2eca1021b9bd8841a2f7fb3339310ca80e5090f0b50825b0dc066994/biofkit-0.1.8.tar.gz
+[2024-04-15 07:38:46] INFO root fetch - processPackages [biofkit]: Downloading https://files.pythonhosted.org/packages/e2/9b/117766fe4f98405e7e050a7432a3f4ca2c910edc7942844acd8d086f8dac/biofkit-0.1.9.tar.gz
+[2024-04-15 07:38:46] INFO root fetch - processPackages [biofkit]: executing diffoscope
+[2024-04-15 07:38:46] INFO root fetch - processPackages [biofkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biofkit-0.1.8.tar.gz tmp/biofkit-0.1.9.tar.gz --markdown 20240415/b/biofkit/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-15 07:38:46] INFO root fetch - processPackages [biofkit]: Remove: archive file [/home/abi/fetcher/tmp/biofkit-0.1.8.tar.gz]
+[2024-04-15 07:38:46] INFO root fetch - processPackages [biofkit]: Remove: archive file [/home/abi/fetcher/tmp/biofkit-0.1.9.tar.gz]
+[2024-04-15 07:38:46] INFO root fetch - main [MainThread]: End processing [biofkit]: success
+[2024-04-15 07:38:46] INFO root fetch - main [MainThread]: Store serial: [22766348]
