@@ -17894,3 +17894,117 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 14:21:49] INFO root fetch - processPackages [objectbox]: Remove: archive file [/home/abi/fetcher/tmp/objectbox-0.7.0a1-py3-none-any.whl.zip]
 [2024-04-15 14:21:49] INFO root fetch - main [MainThread]: End processing [objectbox]: success
 [2024-04-15 14:21:49] INFO root fetch - main [MainThread]: Store serial: [22770677]
+[2024-04-15 14:23:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22770677]
+[2024-04-15 14:24:00] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-15 14:24:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plainhtml
+[2024-04-15 14:24:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: psd2fabric
+[2024-04-15 14:24:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyslth
+[2024-04-15 14:24:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastlane-bot
+[2024-04-15 14:24:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: testpack24
+[2024-04-15 14:24:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: whaox-wconfig
+[2024-04-15 14:24:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: objx
+[2024-04-15 14:24:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: arion-library
+[2024-04-15 14:24:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: esbuild-py
+[2024-04-15 14:24:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: miuc
+[2024-04-15 14:24:00] INFO root fetch - processPackages [pyslth]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-15 14:24:00] INFO root fetch - processPackages [arion-library]: New version: [1.1rc60.dev60] Old Version: [1.1rc59.dev59]
+[2024-04-15 14:24:00] INFO root fetch - processPackages [testpack24]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-15 14:24:00] INFO root fetch - processPackages [miuc]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-15 14:24:00] INFO root fetch - processPackages [psd2fabric]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-15 14:24:00] INFO root fetch - processPackages [whaox-wconfig]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-15 14:24:00] INFO root fetch - processPackages [objx]: New version: [80] Old Version: [70]
+[2024-04-15 14:24:00] INFO root fetch - processPackages [pyslth]: Downloading https://files.pythonhosted.org/packages/16/9e/12ffb99db7934b471ac3d83bb9fc0c4257ac2ddb6b68ba42ff0b91045835/pyslth-0.0.5.tar.gz
+[2024-04-15 14:24:00] INFO root fetch - processPackages [plainhtml]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-15 14:24:01] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/23/ba/b5f6c15a8fd4ca2b29ea4c6cb925e9a5906987f6426790436bd90f55f1c6/arion_library-1.1rc59.dev59.tar.gz
+[2024-04-15 14:24:01] INFO root fetch - processPackages [miuc]: Downloading https://files.pythonhosted.org/packages/f4/67/fa126ce9c8462716aa151f8232b756b1d285606e7421e5f75f4e7e58f7c9/miuc-0.2.2.tar.gz
+[2024-04-15 14:24:01] INFO root fetch - processPackages [fastlane-bot]: New version: [3.1.9] Old Version: [3.1.8]
+[2024-04-15 14:24:01] INFO root fetch - processPackages [esbuild-py]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-15 14:24:01] INFO root fetch - processPackages [psd2fabric]: Downloading https://files.pythonhosted.org/packages/19/c3/8d0e94034cd9bd8769a51d3d797844d2f53a6f9f823edf8c1ea4326c356a/psd2fabric-0.1.3.tar.gz
+[2024-04-15 14:24:01] INFO root fetch - processPackages [testpack24]: Downloading https://files.pythonhosted.org/packages/51/cb/cfe5ab6f3fc7339b710a8df2de52841bb0a78a41e6313de44ac8eee3e6fb/testpack24-0.0.1.tar.gz
+[2024-04-15 14:24:01] INFO root fetch - processPackages [whaox-wconfig]: Downloading https://files.pythonhosted.org/packages/f8/d4/fe031f4259f32d40ba7717eca34fb42bc885624fffa476e5c4d181f699d4/whaox-wconfig-1.0.0.tar.gz
+[2024-04-15 14:24:01] INFO root fetch - processPackages [objx]: Downloading https://files.pythonhosted.org/packages/3f/f5/31d37f78383f1974e9f8b60abd58f5bf9f75f5c789218b68ce0725e63565/objx-70.tar.gz
+[2024-04-15 14:24:01] INFO root fetch - processPackages [plainhtml]: Downloading https://files.pythonhosted.org/packages/9e/da/e61a00f4598b609edd143bdacca5b478e12c2fb50c9349499f9771a3134e/plainhtml-0.2.1.tar.gz
+[2024-04-15 14:24:01] INFO root fetch - processPackages [fastlane-bot]: Downloading https://files.pythonhosted.org/packages/b1/b1/c895475c0b15c9d665e02918a2edf2bca5d89da75115651ebb7fb543c713/fastlane_bot-3.1.8-py3-none-any.whl
+[2024-04-15 14:24:01] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/f3/0c/2b91510b84104fa6cfd6deae9096361d7e1d6e908756ce35fd7d81eb84c3/arion_library-1.1rc60.dev60.tar.gz
+[2024-04-15 14:24:01] INFO root fetch - processPackages [miuc]: Downloading https://files.pythonhosted.org/packages/e1/e2/e1de4f71f4f538ba026da89cea96b2834b042f8511b796b63b6a2efd8221/miuc-0.2.3.tar.gz
+[2024-04-15 14:24:01] INFO root fetch - processPackages [esbuild-py]: Downloading https://files.pythonhosted.org/packages/7f/dc/78a964b227d387d7a2f65009047b573df086b10e415d21451d72acb40fab/esbuild_py-0.1.2.tar.gz
+[2024-04-15 14:24:01] INFO root fetch - processPackages [pyslth]: Downloading https://files.pythonhosted.org/packages/c2/fb/584a5ec86a12bac0c8033f044581990292ffb2f5561bb4456c236a600557/pyslth-0.0.6.tar.gz
+[2024-04-15 14:24:01] INFO root fetch - processPackages [arion-library]: executing diffoscope
+[2024-04-15 14:24:01] INFO root fetch - processPackages [arion-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arion_library-1.1rc59.dev59.tar.gz tmp/arion_library-1.1rc60.dev60.tar.gz --markdown 20240415/a/arion-library/1.1rc59.dev59-1.1rc60.dev60/README.md --exclude *.pyd
+[2024-04-15 14:24:01] INFO root fetch - processPackages [miuc]: executing diffoscope
+[2024-04-15 14:24:01] INFO root fetch - processPackages [miuc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miuc-0.2.2.tar.gz tmp/miuc-0.2.3.tar.gz --markdown 20240415/m/miuc/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-15 14:24:01] INFO root fetch - processPackages [pyslth]: executing diffoscope
+[2024-04-15 14:24:01] INFO root fetch - processPackages [psd2fabric]: Downloading https://files.pythonhosted.org/packages/2e/2d/3a1e856640f5f9dd57c4b47ef6487f6060817817fbe339152940f0ad2d8a/psd2fabric-0.1.4.tar.gz
+[2024-04-15 14:24:01] INFO root fetch - processPackages [pyslth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyslth-0.0.5.tar.gz tmp/pyslth-0.0.6.tar.gz --markdown 20240415/p/pyslth/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-15 14:24:01] INFO root fetch - processPackages [whaox-wconfig]: Downloading https://files.pythonhosted.org/packages/e0/5f/e35f15f71bc7cf2e59792e74d17bce51f748a2bb8ed7ecd92f18f7bc7c97/whaox-wconfig-1.0.1.tar.gz
+[2024-04-15 14:24:01] INFO root fetch - processPackages [testpack24]: Downloading https://files.pythonhosted.org/packages/ff/0e/a8a4c4e1de4889332975d29077f10edfc689dc3b6296ba4285c1fd20e9a0/testpack24-0.0.2.tar.gz
+[2024-04-15 14:24:01] INFO root fetch - processPackages [objx]: Downloading https://files.pythonhosted.org/packages/f4/a2/7a2e9ac980d1d86849c8ca4f0a59eef5a250d6e6b31aad4e6ead90ba5391/objx-80.tar.gz
+[2024-04-15 14:24:01] INFO root fetch - processPackages [plainhtml]: Downloading https://files.pythonhosted.org/packages/30/a5/c7cb3ddb877a0253abc1f6f1ebb34996b1c6e408bfddf939c3decd3c3e8e/plainhtml-0.2.2.tar.gz
+[2024-04-15 14:24:01] INFO root fetch - processPackages [psd2fabric]: executing diffoscope
+[2024-04-15 14:24:01] INFO root fetch - processPackages [psd2fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psd2fabric-0.1.3.tar.gz tmp/psd2fabric-0.1.4.tar.gz --markdown 20240415/p/psd2fabric/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-15 14:24:01] INFO root fetch - processPackages [esbuild-py]: Downloading https://files.pythonhosted.org/packages/6a/28/5b5b646a178abf06e3ef9e37339a3a2ee783b9a12ecb7be797e57b9a580b/esbuild_py-0.1.3-cp37-cp37m-musllinux_1_1_i686.whl
+[2024-04-15 14:24:01] INFO root fetch - processPackages [whaox-wconfig]: executing diffoscope
+[2024-04-15 14:24:01] INFO root fetch - processPackages [whaox-wconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whaox-wconfig-1.0.0.tar.gz tmp/whaox-wconfig-1.0.1.tar.gz --markdown 20240415/w/whaox-wconfig/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-15 14:24:01] INFO root fetch - processPackages [fastlane-bot]: Downloading https://files.pythonhosted.org/packages/f3/88/9d893b88a9c4aa8a084a626bc69d1fcf76b43bcec6744de187d0e547621e/fastlane_bot-3.1.9-py3-none-any.whl
+[2024-04-15 14:24:01] INFO root fetch - processPackages [testpack24]: executing diffoscope
+[2024-04-15 14:24:01] INFO root fetch - processPackages [testpack24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testpack24-0.0.1.tar.gz tmp/testpack24-0.0.2.tar.gz --markdown 20240415/t/testpack24/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-15 14:24:01] INFO root fetch - processPackages [objx]: executing diffoscope
+[2024-04-15 14:24:01] INFO root fetch - processPackages [objx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/objx-70.tar.gz tmp/objx-80.tar.gz --markdown 20240415/o/objx/70-80/README.md --exclude *.pyd
+[2024-04-15 14:24:01] INFO root fetch - processPackages [plainhtml]: executing diffoscope
+[2024-04-15 14:24:01] INFO root fetch - processPackages [plainhtml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plainhtml-0.2.1.tar.gz tmp/plainhtml-0.2.2.tar.gz --markdown 20240415/p/plainhtml/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-15 14:24:02] INFO root fetch - processPackages [fastlane-bot]: executing diffoscope
+[2024-04-15 14:24:02] INFO root fetch - processPackages [fastlane-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastlane_bot-3.1.8-py3-none-any.whl.zip tmp/fastlane_bot-3.1.9-py3-none-any.whl.zip --markdown 20240415/f/fastlane-bot/3.1.8-3.1.9/README.md --exclude *.pyd
+[2024-04-15 14:24:02] INFO root fetch - processPackages [miuc]: Remove: archive file [/home/abi/fetcher/tmp/miuc-0.2.2.tar.gz]
+[2024-04-15 14:24:02] INFO root fetch - processPackages [miuc]: Remove: archive file [/home/abi/fetcher/tmp/miuc-0.2.3.tar.gz]
+[2024-04-15 14:24:02] INFO root fetch - processPackages [miuc]: Start processing: close-dot-io
+[2024-04-15 14:24:02] INFO root fetch - main [MainThread]: End processing [miuc]: success
+[2024-04-15 14:24:02] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc59.dev59.tar.gz]
+[2024-04-15 14:24:02] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc60.dev60.tar.gz]
+[2024-04-15 14:24:02] INFO root fetch - processPackages [arion-library]: Start processing: avassa-client
+[2024-04-15 14:24:02] INFO root fetch - main [MainThread]: End processing [arion-library]: success
+[2024-04-15 14:24:02] WARNING root fetch - processPackages [close-dot-io]: Skipping, unable to determine old version
+[2024-04-15 14:24:02] INFO root fetch - processPackages [close-dot-io]: Start processing: whaox-wconfig
+[2024-04-15 14:24:02] INFO root fetch - main [MainThread]: End processing [close-dot-io] error
+[2024-04-15 14:24:02] INFO root fetch - processPackages [whaox-wconfig]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-15 14:24:02] INFO root fetch - processPackages [avassa-client]: New version: [2024.4.1] Old Version: [2024.4.0]
+[2024-04-15 14:24:02] INFO root fetch - processPackages [testpack24]: Remove: archive file [/home/abi/fetcher/tmp/testpack24-0.0.1.tar.gz]
+[2024-04-15 14:24:02] INFO root fetch - processPackages [testpack24]: Remove: archive file [/home/abi/fetcher/tmp/testpack24-0.0.2.tar.gz]
+[2024-04-15 14:24:02] INFO root fetch - main [MainThread]: End processing [testpack24]: success
+[2024-04-15 14:24:02] INFO root fetch - processPackages [plainhtml]: Remove: archive file [/home/abi/fetcher/tmp/plainhtml-0.2.1.tar.gz]
+[2024-04-15 14:24:02] INFO root fetch - processPackages [plainhtml]: Remove: archive file [/home/abi/fetcher/tmp/plainhtml-0.2.2.tar.gz]
+[2024-04-15 14:24:02] INFO root fetch - main [MainThread]: End processing [plainhtml]: success
+[2024-04-15 14:24:03] INFO root fetch - processPackages [whaox-wconfig]: executing diffoscope
+[2024-04-15 14:24:03] INFO root fetch - processPackages [whaox-wconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whaox-wconfig-1.0.0.tar.gz tmp/whaox-wconfig-1.0.1.tar.gz --markdown 20240415/w/whaox-wconfig/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-15 14:24:03] INFO root fetch - processPackages [objx]: Remove: archive file [/home/abi/fetcher/tmp/objx-70.tar.gz]
+[2024-04-15 14:24:03] INFO root fetch - processPackages [objx]: Remove: archive file [/home/abi/fetcher/tmp/objx-80.tar.gz]
+[2024-04-15 14:24:03] INFO root fetch - main [MainThread]: End processing [objx]: success
+[2024-04-15 14:24:03] INFO root fetch - processPackages [avassa-client]: Downloading https://files.pythonhosted.org/packages/ea/7a/6d1d05ae0c9598427f2139ed94d1f7b13ba5d3aec06e3ca64d263d451011/avassa-client-2024.4.0.tar.gz
+[2024-04-15 14:24:03] INFO root fetch - processPackages [pyslth]: Remove: archive file [/home/abi/fetcher/tmp/pyslth-0.0.5.tar.gz]
+[2024-04-15 14:24:03] INFO root fetch - processPackages [pyslth]: Remove: archive file [/home/abi/fetcher/tmp/pyslth-0.0.6.tar.gz]
+[2024-04-15 14:24:03] INFO root fetch - main [MainThread]: End processing [pyslth]: success
+[2024-04-15 14:24:03] INFO root fetch - processPackages [whaox-wconfig]: Remove: archive file [/home/abi/fetcher/tmp/whaox-wconfig-1.0.0.tar.gz]
+[2024-04-15 14:24:03] INFO root fetch - processPackages [whaox-wconfig]: Remove: archive file [/home/abi/fetcher/tmp/whaox-wconfig-1.0.1.tar.gz]
+[2024-04-15 14:24:03] INFO root fetch - main [MainThread]: End processing [whaox-wconfig]: success
+[2024-04-15 14:24:03] INFO root fetch - processPackages [psd2fabric]: Remove: archive file [/home/abi/fetcher/tmp/psd2fabric-0.1.3.tar.gz]
+[2024-04-15 14:24:03] INFO root fetch - processPackages [psd2fabric]: Remove: archive file [/home/abi/fetcher/tmp/psd2fabric-0.1.4.tar.gz]
+[2024-04-15 14:24:03] INFO root fetch - main [MainThread]: End processing [psd2fabric]: success
+[2024-04-15 14:24:03] INFO root fetch - processPackages [avassa-client]: Downloading https://files.pythonhosted.org/packages/cf/76/764ed1b0905315ce3a58711913953e750b2cd14b3994d26ef7c06ddfad02/avassa_client-2024.4.1.tar.gz
+[2024-04-15 14:24:03] ERROR root fetch - processPackages [whaox-wconfig]: Diffoscope failed: time="2024-04-15T14:24:03+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/whaox-wconfig-1.0.0.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/whaox-wconfig-1.0.1.tar.gz: No such file or directory
+
+[2024-04-15 14:24:03] INFO root fetch - main [MainThread]: End processing [whaox-wconfig] error
+[2024-04-15 14:24:03] INFO root fetch - processPackages [avassa-client]: executing diffoscope
+[2024-04-15 14:24:03] INFO root fetch - processPackages [avassa-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avassa-client-2024.4.0.tar.gz tmp/avassa_client-2024.4.1.tar.gz --markdown 20240415/a/avassa-client/2024.4.0-2024.4.1/README.md --exclude *.pyd
+[2024-04-15 14:24:03] INFO root fetch - processPackages [fastlane-bot]: Remove: archive file [/home/abi/fetcher/tmp/fastlane_bot-3.1.8-py3-none-any.whl.zip]
+[2024-04-15 14:24:03] INFO root fetch - processPackages [fastlane-bot]: Remove: archive file [/home/abi/fetcher/tmp/fastlane_bot-3.1.9-py3-none-any.whl.zip]
+[2024-04-15 14:24:03] INFO root fetch - main [MainThread]: End processing [fastlane-bot]: success
+[2024-04-15 14:24:04] INFO root fetch - processPackages [avassa-client]: Remove: archive file [/home/abi/fetcher/tmp/avassa-client-2024.4.0.tar.gz]
+[2024-04-15 14:24:04] INFO root fetch - processPackages [avassa-client]: Remove: archive file [/home/abi/fetcher/tmp/avassa_client-2024.4.1.tar.gz]
+[2024-04-15 14:24:04] INFO root fetch - main [MainThread]: End processing [avassa-client]: success
+[2024-04-15 14:24:04] INFO root fetch - processPackages [esbuild-py]: executing diffoscope
+[2024-04-15 14:24:04] INFO root fetch - processPackages [esbuild-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esbuild_py-0.1.2.tar.gz tmp/esbuild_py-0.1.3-cp37-cp37m-musllinux_1_1_i686.whl.zip --markdown 20240415/e/esbuild-py/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-15 14:24:05] INFO root fetch - processPackages [esbuild-py]: Remove: archive file [/home/abi/fetcher/tmp/esbuild_py-0.1.2.tar.gz]
+[2024-04-15 14:24:05] INFO root fetch - processPackages [esbuild-py]: Remove: archive file [/home/abi/fetcher/tmp/esbuild_py-0.1.3-cp37-cp37m-musllinux_1_1_i686.whl.zip]
+[2024-04-15 14:24:05] INFO root fetch - main [MainThread]: End processing [esbuild-py]: success
+[2024-04-15 14:24:05] INFO root fetch - main [MainThread]: Store serial: [22770738]
