@@ -9870,3 +9870,39 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 09:22:03] INFO root fetch - processPackages [dataforseo-client]: Remove: archive file [/home/abi/fetcher/tmp/dataforseo-client-1.0.9.tar.gz]
 [2024-04-15 09:22:03] INFO root fetch - main [MainThread]: End processing [dataforseo-client]: success
 [2024-04-15 09:22:03] INFO root fetch - main [MainThread]: Store serial: [22767195]
+[2024-04-15 09:24:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22767195]
+[2024-04-15 09:24:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-15 09:24:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-product-attachment-zipped-download
+[2024-04-15 09:24:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: izihawa-trident-client
+[2024-04-15 09:24:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shmessy
+[2024-04-15 09:24:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CoreStart
+[2024-04-15 09:24:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cg
+[2024-04-15 09:24:12] INFO root fetch - processPackages [izihawa-trident-client]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-15 09:24:12] WARNING root fetch - processPackages [odoo-addon-product-attachment-zipped-download]: Skipping, unable to determine old version
+[2024-04-15 09:24:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-attachment-zipped-download] error
+[2024-04-15 09:24:12] INFO root fetch - processPackages [izihawa-trident-client]: Downloading https://files.pythonhosted.org/packages/b5/be/3ecd8999ed41f16c5993b9e4165badf156d72ce1a57c768003b00ab4f028/izihawa_trident_client-1.2.0.tar.gz
+[2024-04-15 09:24:12] INFO root fetch - processPackages [shmessy]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-04-15 09:24:12] WARNING root fetch - processPackages [CoreStart]: Skipping, unable to determine old version
+[2024-04-15 09:24:12] INFO root fetch - main [MainThread]: End processing [CoreStart] error
+[2024-04-15 09:24:12] INFO root fetch - processPackages [cg]: New version: [59.9.1] Old Version: [59.9.0]
+[2024-04-15 09:24:12] INFO root fetch - processPackages [shmessy]: Downloading https://files.pythonhosted.org/packages/4c/53/6a543e16cff2e61399e87baadd9eed9d8721280f565bb60e2bfd6af8d287/shmessy-1.3.0.tar.gz
+[2024-04-15 09:24:12] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/a4/79/664dc1d5b463ee0406caa2e43f4dec36f68ff9a520e4d9d51666e6ea5021/cg-59.9.0.tar.gz
+[2024-04-15 09:24:12] INFO root fetch - processPackages [izihawa-trident-client]: Downloading https://files.pythonhosted.org/packages/35/26/5cde9c82ca4c99935bc46785216a66159d4b075cafbd4d3ce1219570f74a/izihawa_trident_client-1.2.1.tar.gz
+[2024-04-15 09:24:12] INFO root fetch - processPackages [izihawa-trident-client]: executing diffoscope
+[2024-04-15 09:24:12] INFO root fetch - processPackages [izihawa-trident-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/izihawa_trident_client-1.2.0.tar.gz tmp/izihawa_trident_client-1.2.1.tar.gz --markdown 20240415/i/izihawa-trident-client/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-04-15 09:24:12] INFO root fetch - processPackages [shmessy]: Downloading https://files.pythonhosted.org/packages/38/0b/97af038c84905443639ff84f48ad31e47e9ec43a12c312b07b9dab11fead/shmessy-1.3.1.tar.gz
+[2024-04-15 09:24:12] INFO root fetch - processPackages [shmessy]: executing diffoscope
+[2024-04-15 09:24:12] INFO root fetch - processPackages [shmessy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shmessy-1.3.0.tar.gz tmp/shmessy-1.3.1.tar.gz --markdown 20240415/s/shmessy/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-04-15 09:24:13] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/da/9f/c4869b003070cd94f090db42e1f076a49bf9c0b1856d209eeb540379d711/cg-59.9.1.tar.gz
+[2024-04-15 09:24:13] INFO root fetch - processPackages [izihawa-trident-client]: Remove: archive file [/home/abi/fetcher/tmp/izihawa_trident_client-1.2.0.tar.gz]
+[2024-04-15 09:24:13] INFO root fetch - processPackages [izihawa-trident-client]: Remove: archive file [/home/abi/fetcher/tmp/izihawa_trident_client-1.2.1.tar.gz]
+[2024-04-15 09:24:13] INFO root fetch - main [MainThread]: End processing [izihawa-trident-client]: success
+[2024-04-15 09:24:13] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-04-15 09:24:13] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-59.9.0.tar.gz tmp/cg-59.9.1.tar.gz --markdown 20240415/c/cg/59.9.0-59.9.1/README.md --exclude *.pyd
+[2024-04-15 09:24:13] INFO root fetch - processPackages [shmessy]: Remove: archive file [/home/abi/fetcher/tmp/shmessy-1.3.0.tar.gz]
+[2024-04-15 09:24:13] INFO root fetch - processPackages [shmessy]: Remove: archive file [/home/abi/fetcher/tmp/shmessy-1.3.1.tar.gz]
+[2024-04-15 09:24:13] INFO root fetch - main [MainThread]: End processing [shmessy]: success
+[2024-04-15 09:24:18] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-59.9.0.tar.gz]
+[2024-04-15 09:24:18] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-59.9.1.tar.gz]
+[2024-04-15 09:24:18] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-04-15 09:24:18] INFO root fetch - main [MainThread]: Store serial: [22767216]
