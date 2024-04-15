@@ -22865,3 +22865,81 @@ AssertionError: tmp/pyblindrl-0.0.2rc57.post1.tar.gz does not exist
 [2024-04-15 16:40:23] INFO root fetch - processPackages [forecastmanager]: Remove: archive file [/home/abi/fetcher/tmp/forecastmanager-0.4.8.tar.gz]
 [2024-04-15 16:40:23] INFO root fetch - main [MainThread]: End processing [forecastmanager]: success
 [2024-04-15 16:40:23] INFO root fetch - main [MainThread]: Store serial: [22772855]
+[2024-04-15 16:42:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22772855]
+[2024-04-15 16:42:32] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-15 16:42:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stigg-api-client
+[2024-04-15 16:42:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gremlinpython
+[2024-04-15 16:42:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CryptoTracker
+[2024-04-15 16:42:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stigg-api-client-v2
+[2024-04-15 16:42:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: url-matcher
+[2024-04-15 16:42:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: arion-library
+[2024-04-15 16:42:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ilcdlib
+[2024-04-15 16:42:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xcai
+[2024-04-15 16:42:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bqskit
+[2024-04-15 16:42:32] INFO root fetch - processPackages [stigg-api-client-v2]: New version: [1.98.1] Old Version: [1.98.0]
+[2024-04-15 16:42:32] INFO root fetch - processPackages [arion-library]: New version: [1.1rc61.dev61] Old Version: [1.1rc60.dev60]
+[2024-04-15 16:42:32] INFO root fetch - processPackages [stigg-api-client]: New version: [1.98.1] Old Version: [1.98.0]
+[2024-04-15 16:42:32] INFO root fetch - processPackages [bqskit]: New version: [1.1.1] Old Version: [1.1.0rc1]
+[2024-04-15 16:42:32] INFO root fetch - processPackages [ilcdlib]: New version: [4.0.0] Old Version: [3.0.0]
+[2024-04-15 16:42:32] INFO root fetch - processPackages [xcai]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-15 16:42:32] INFO root fetch - processPackages [gremlinpython]: New version: [3.7.1] Old Version: [3.7.0]
+[2024-04-15 16:42:32] WARNING root fetch - processPackages [CryptoTracker]: Skipping, unable to determine old version
+[2024-04-15 16:42:32] INFO root fetch - main [MainThread]: End processing [CryptoTracker] error
+[2024-04-15 16:42:32] INFO root fetch - processPackages [url-matcher]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-04-15 16:42:32] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/f3/0c/2b91510b84104fa6cfd6deae9096361d7e1d6e908756ce35fd7d81eb84c3/arion_library-1.1rc60.dev60.tar.gz
+[2024-04-15 16:42:32] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/9e/ad/1fefc56e33c405d4aa0b5a382414f77d27efc7861a1cedce255c72c8f7d7/stigg_api_client_v2-1.98.0.tar.gz
+[2024-04-15 16:42:32] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/98/38/1422eb2135687adff8e0844dc4afcdcdd3c44140b3b89335819f7a678037/stigg_api_client-1.98.0.tar.gz
+[2024-04-15 16:42:32] INFO root fetch - processPackages [bqskit]: Downloading https://files.pythonhosted.org/packages/20/80/5133bc08275639c33796e10bb90b19f5476536020d7de745d53bda7428b4/bqskit-1.1.0rc1.tar.gz
+[2024-04-15 16:42:32] INFO root fetch - processPackages [ilcdlib]: Downloading https://files.pythonhosted.org/packages/a9/ff/579ac5e7883772f0de44dfd7e457533633989a7e5cad82117e6a0c66ec6a/ilcdlib-3.0.0.tar.gz
+[2024-04-15 16:42:32] INFO root fetch - processPackages [xcai]: Downloading https://files.pythonhosted.org/packages/76/97/8834653ced7525f99552f4e0b37b8fdda459d322b8787357fe5ecba4bcc8/xcai-0.1.6.tar.gz
+[2024-04-15 16:42:33] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/e1/a4/5adde2d6f24c25a28bfa30be93d751cf2363161182aa0ebb4b9913c07aab/arion_library-1.1rc61.dev61.tar.gz
+[2024-04-15 16:42:33] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/e4/6e/6806296621be882a70042a1d47ba321aad0c99c69b0e1a5f16346a41b4b5/stigg_api_client_v2-1.98.1.tar.gz
+[2024-04-15 16:42:33] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/da/d2/6b7a0c4e4205896d09042773fe56913ad646e6493900cc11613eabb26e05/stigg_api_client-1.98.1.tar.gz
+[2024-04-15 16:42:33] INFO root fetch - processPackages [arion-library]: executing diffoscope
+[2024-04-15 16:42:33] INFO root fetch - processPackages [arion-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arion_library-1.1rc60.dev60.tar.gz tmp/arion_library-1.1rc61.dev61.tar.gz --markdown 20240415/a/arion-library/1.1rc60.dev60-1.1rc61.dev61/README.md --exclude *.pyd
+[2024-04-15 16:42:33] INFO root fetch - processPackages [url-matcher]: Downloading https://files.pythonhosted.org/packages/10/06/e954e37f93a2c296e314399f8d87ea034c2bc6773b5c5063126a339c7348/url-matcher-0.4.0.tar.gz
+[2024-04-15 16:42:33] INFO root fetch - processPackages [gremlinpython]: Downloading https://files.pythonhosted.org/packages/12/9e/9fb3c1b1f0ade49a6c25dc518a29003085e781634ea24cb1ef02859922ac/gremlinpython-3.7.0.tar.gz
+[2024-04-15 16:42:33] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2024-04-15 16:42:33] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-1.98.0.tar.gz tmp/stigg_api_client-1.98.1.tar.gz --markdown 20240415/s/stigg-api-client/1.98.0-1.98.1/README.md --exclude *.pyd
+[2024-04-15 16:42:33] INFO root fetch - processPackages [stigg-api-client-v2]: executing diffoscope
+[2024-04-15 16:42:33] INFO root fetch - processPackages [stigg-api-client-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client_v2-1.98.0.tar.gz tmp/stigg_api_client_v2-1.98.1.tar.gz --markdown 20240415/s/stigg-api-client-v2/1.98.0-1.98.1/README.md --exclude *.pyd
+[2024-04-15 16:42:33] INFO root fetch - processPackages [xcai]: Downloading https://files.pythonhosted.org/packages/4f/7a/0028a9f36c10e892f2a00d8fcf089b2b35171cec21c7f90568b78319c77d/xcai-0.1.7.tar.gz
+[2024-04-15 16:42:33] INFO root fetch - processPackages [bqskit]: Downloading https://files.pythonhosted.org/packages/f0/55/aac2d5f7f0f8fef3022398fb32cfb915475a39e8e7bd5af9da07a3e07cd6/bqskit-1.1.1.tar.gz
+[2024-04-15 16:42:33] INFO root fetch - processPackages [url-matcher]: Downloading https://files.pythonhosted.org/packages/50/cb/c3fa38158e34a6e9d8034b3c084e6855ec1ed18672d8c6b9d1ce877c7090/url_matcher-0.5.0.tar.gz
+[2024-04-15 16:42:33] INFO root fetch - processPackages [ilcdlib]: Downloading https://files.pythonhosted.org/packages/88/b5/7e6a98c6cdd5f56a3253a0e7b492cff3881da6a0b3645c552517cedff53e/ilcdlib-4.0.0.tar.gz
+[2024-04-15 16:42:33] INFO root fetch - processPackages [gremlinpython]: Downloading https://files.pythonhosted.org/packages/4a/99/29c60180d85ed3da3c8eaaca20f613a895ed2208ac9974f897952b696b87/gremlinpython-3.7.1.tar.gz
+[2024-04-15 16:42:33] INFO root fetch - processPackages [bqskit]: executing diffoscope
+[2024-04-15 16:42:33] INFO root fetch - processPackages [bqskit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bqskit-1.1.0rc1.tar.gz tmp/bqskit-1.1.1.tar.gz --markdown 20240415/b/bqskit/1.1.0rc1-1.1.1/README.md --exclude *.pyd
+[2024-04-15 16:42:33] INFO root fetch - processPackages [xcai]: executing diffoscope
+[2024-04-15 16:42:33] INFO root fetch - processPackages [xcai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xcai-0.1.6.tar.gz tmp/xcai-0.1.7.tar.gz --markdown 20240415/x/xcai/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-15 16:42:33] INFO root fetch - processPackages [gremlinpython]: executing diffoscope
+[2024-04-15 16:42:33] INFO root fetch - processPackages [url-matcher]: executing diffoscope
+[2024-04-15 16:42:33] INFO root fetch - processPackages [url-matcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/url-matcher-0.4.0.tar.gz tmp/url_matcher-0.5.0.tar.gz --markdown 20240415/u/url-matcher/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-04-15 16:42:33] INFO root fetch - processPackages [gremlinpython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gremlinpython-3.7.0.tar.gz tmp/gremlinpython-3.7.1.tar.gz --markdown 20240415/g/gremlinpython/3.7.0-3.7.1/README.md --exclude *.pyd
+[2024-04-15 16:42:33] INFO root fetch - processPackages [ilcdlib]: executing diffoscope
+[2024-04-15 16:42:33] INFO root fetch - processPackages [ilcdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ilcdlib-3.0.0.tar.gz tmp/ilcdlib-4.0.0.tar.gz --markdown 20240415/i/ilcdlib/3.0.0-4.0.0/README.md --exclude *.pyd
+[2024-04-15 16:42:33] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc60.dev60.tar.gz]
+[2024-04-15 16:42:33] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc61.dev61.tar.gz]
+[2024-04-15 16:42:33] INFO root fetch - main [MainThread]: End processing [arion-library]: success
+[2024-04-15 16:42:34] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-1.98.0.tar.gz]
+[2024-04-15 16:42:34] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-1.98.1.tar.gz]
+[2024-04-15 16:42:34] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2024-04-15 16:42:34] INFO root fetch - processPackages [xcai]: Remove: archive file [/home/abi/fetcher/tmp/xcai-0.1.6.tar.gz]
+[2024-04-15 16:42:34] INFO root fetch - processPackages [xcai]: Remove: archive file [/home/abi/fetcher/tmp/xcai-0.1.7.tar.gz]
+[2024-04-15 16:42:34] INFO root fetch - main [MainThread]: End processing [xcai]: success
+[2024-04-15 16:42:34] INFO root fetch - processPackages [url-matcher]: Remove: archive file [/home/abi/fetcher/tmp/url-matcher-0.4.0.tar.gz]
+[2024-04-15 16:42:34] INFO root fetch - processPackages [url-matcher]: Remove: archive file [/home/abi/fetcher/tmp/url_matcher-0.5.0.tar.gz]
+[2024-04-15 16:42:34] INFO root fetch - main [MainThread]: End processing [url-matcher]: success
+[2024-04-15 16:42:34] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.0.tar.gz]
+[2024-04-15 16:42:34] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.1.tar.gz]
+[2024-04-15 16:42:34] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
+[2024-04-15 16:42:34] INFO root fetch - processPackages [ilcdlib]: Remove: archive file [/home/abi/fetcher/tmp/ilcdlib-3.0.0.tar.gz]
+[2024-04-15 16:42:34] INFO root fetch - processPackages [ilcdlib]: Remove: archive file [/home/abi/fetcher/tmp/ilcdlib-4.0.0.tar.gz]
+[2024-04-15 16:42:34] INFO root fetch - main [MainThread]: End processing [ilcdlib]: success
+[2024-04-15 16:42:34] INFO root fetch - processPackages [gremlinpython]: Remove: archive file [/home/abi/fetcher/tmp/gremlinpython-3.7.0.tar.gz]
+[2024-04-15 16:42:34] INFO root fetch - processPackages [gremlinpython]: Remove: archive file [/home/abi/fetcher/tmp/gremlinpython-3.7.1.tar.gz]
+[2024-04-15 16:42:34] INFO root fetch - main [MainThread]: End processing [gremlinpython]: success
+[2024-04-15 16:42:35] INFO root fetch - processPackages [bqskit]: Remove: archive file [/home/abi/fetcher/tmp/bqskit-1.1.0rc1.tar.gz]
+[2024-04-15 16:42:35] INFO root fetch - processPackages [bqskit]: Remove: archive file [/home/abi/fetcher/tmp/bqskit-1.1.1.tar.gz]
+[2024-04-15 16:42:35] INFO root fetch - main [MainThread]: End processing [bqskit]: success
+[2024-04-15 16:42:35] INFO root fetch - main [MainThread]: Store serial: [22772883]
