@@ -10631,3 +10631,24 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 09:55:00] INFO root fetch - processPackages [radical.analytics]: Remove: archive file [/home/abi/fetcher/tmp/radical.analytics-1.6.7.tar.gz]
 [2024-04-15 09:55:00] INFO root fetch - main [MainThread]: End processing [radical.analytics]: success
 [2024-04-15 09:55:00] INFO root fetch - main [MainThread]: Store serial: [22767525]
+[2024-04-15 09:57:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22767525]
+[2024-04-15 09:57:09] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-15 09:57:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: udata-front
+[2024-04-15 09:57:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fdamages
+[2024-04-15 09:57:09] INFO root fetch - processPackages [fdamages]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-15 09:57:09] INFO root fetch - processPackages [fdamages]: Downloading https://files.pythonhosted.org/packages/a2/44/c3ebe7e709f0ef6d29da670e374f92b41dcb2a9408959af4986eea3e18e6/fdamages-0.0.4.tar.gz
+[2024-04-15 09:57:09] INFO root fetch - processPackages [udata-front]: New version: [3.5.5a117434] Old Version: [3.5.5a1]
+[2024-04-15 09:57:09] INFO root fetch - processPackages [fdamages]: Downloading https://files.pythonhosted.org/packages/d4/cf/498b50f64f6c53f907b946ab9e9804ca29398afce21933bac3c248812cd8/fdamages-0.0.5.tar.gz
+[2024-04-15 09:57:09] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/2a/df/71cf652ec5903ada3c3748ff4148a28c0e5292e732c037b5a4e116924da0/udata_front-3.5.5a1-py2.py3-none-any.whl
+[2024-04-15 09:57:09] INFO root fetch - processPackages [fdamages]: executing diffoscope
+[2024-04-15 09:57:09] INFO root fetch - processPackages [fdamages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdamages-0.0.4.tar.gz tmp/fdamages-0.0.5.tar.gz --markdown 20240415/f/fdamages/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-15 09:57:10] INFO root fetch - processPackages [fdamages]: Remove: archive file [/home/abi/fetcher/tmp/fdamages-0.0.4.tar.gz]
+[2024-04-15 09:57:10] INFO root fetch - processPackages [fdamages]: Remove: archive file [/home/abi/fetcher/tmp/fdamages-0.0.5.tar.gz]
+[2024-04-15 09:57:10] INFO root fetch - main [MainThread]: End processing [fdamages]: success
+[2024-04-15 09:57:11] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/8a/4f/2338fd0e7f0f41a6f5d398a333c15a5dc30d3f64808c77672efaae4d8eef/udata_front-3.5.5a117434-py2.py3-none-any.whl
+[2024-04-15 09:57:18] INFO root fetch - processPackages [udata-front]: executing diffoscope
+[2024-04-15 09:57:18] INFO root fetch - processPackages [udata-front]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_front-3.5.5a1-py2.py3-none-any.whl.zip tmp/udata_front-3.5.5a117434-py2.py3-none-any.whl.zip --markdown 20240415/u/udata-front/3.5.5a1-3.5.5a117434/README.md --exclude *.pyd
+[2024-04-15 09:58:47] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.5.5a1-py2.py3-none-any.whl.zip]
+[2024-04-15 09:58:47] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.5.5a117434-py2.py3-none-any.whl.zip]
+[2024-04-15 09:58:47] INFO root fetch - main [MainThread]: End processing [udata-front]: success
+[2024-04-15 09:58:47] INFO root fetch - main [MainThread]: Store serial: [22767536]
