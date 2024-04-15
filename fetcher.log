@@ -22316,3 +22316,57 @@ AssertionError: tmp/pyblindrl-0.0.2rc57.post1.tar.gz does not exist
 [2024-04-15 16:25:51] INFO root fetch - processPackages [tq42-grpc-client]: Remove: archive file [/home/abi/fetcher/tmp/tq42_grpc_client-1.0.96.tar.gz]
 [2024-04-15 16:25:51] INFO root fetch - main [MainThread]: End processing [tq42-grpc-client]: success
 [2024-04-15 16:25:51] INFO root fetch - main [MainThread]: Store serial: [22772666]
+[2024-04-15 16:27:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22772666]
+[2024-04-15 16:28:01] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-15 16:28:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oedialect
+[2024-04-15 16:28:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: free-verify-proxy
+[2024-04-15 16:28:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bps-fbi-sp-ecoli
+[2024-04-15 16:28:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-stock-location-orderpoint
+[2024-04-15 16:28:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: netswitcher
+[2024-04-15 16:28:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: policyengine-us
+[2024-04-15 16:28:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: geo-skeletons
+[2024-04-15 16:28:01] INFO root fetch - processPackages [geo-skeletons]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-15 16:28:01] INFO root fetch - processPackages [oedialect]: New version: [0.1.1.dev0] Old Version: [0.0.9.dev0]
+[2024-04-15 16:28:01] WARNING root fetch - processPackages [netswitcher]: Skipping, unable to determine old version
+[2024-04-15 16:28:01] INFO root fetch - main [MainThread]: End processing [netswitcher] error
+[2024-04-15 16:28:01] INFO root fetch - processPackages [policyengine-us]: New version: [0.736.0] Old Version: [0.735.0]
+[2024-04-15 16:28:01] INFO root fetch - processPackages [geo-skeletons]: Downloading https://files.pythonhosted.org/packages/ad/5b/464b09e20e64009ddb6226456859999ec5304ea0f62e9312887c08abf5c2/geo_skeletons-0.9.8.tar.gz
+[2024-04-15 16:28:01] INFO root fetch - processPackages [odoo-addon-stock-location-orderpoint]: New version: [16.0.2.0.0] Old Version: [16.0.1.1.2]
+[2024-04-15 16:28:01] INFO root fetch - processPackages [oedialect]: Downloading https://files.pythonhosted.org/packages/05/09/5c6ee2486bd65a0968fd5027d86e3f6af080a99d677625f4feda9020d965/oedialect-0.0.9.dev0.tar.gz
+[2024-04-15 16:28:01] INFO root fetch - processPackages [free-verify-proxy]: New version: [1.1.7] Old Version: [1.1.6]
+[2024-04-15 16:28:01] WARNING root fetch - processPackages [bps-fbi-sp-ecoli]: Skipping, unable to determine old version
+[2024-04-15 16:28:01] INFO root fetch - main [MainThread]: End processing [bps-fbi-sp-ecoli] error
+[2024-04-15 16:28:01] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/d2/82/ca92a0a705cc22d003f0e096960a31825911bd9a312e1222cd7e8afc3f4d/policyengine-us-0.735.0.tar.gz
+[2024-04-15 16:28:01] INFO root fetch - processPackages [oedialect]: Downloading https://files.pythonhosted.org/packages/2c/28/aa138af44a1ed555d398028ff4931e1c37810521cf58c302d233d891ef69/oedialect-0.1.1.dev0.tar.gz
+[2024-04-15 16:28:01] INFO root fetch - processPackages [geo-skeletons]: Downloading https://files.pythonhosted.org/packages/55/ff/33fdd2d486474894b7e573b7ff7e1c2c8a6cfe7bbc874b599da533e0acc2/geo_skeletons-0.9.9.tar.gz
+[2024-04-15 16:28:01] INFO root fetch - processPackages [free-verify-proxy]: Downloading https://files.pythonhosted.org/packages/f8/4c/57e171aec2c12da3076173482f0c08cb41023519a52c22599f5dfd2778e4/free_verify_proxy-1.1.6.tar.gz
+[2024-04-15 16:28:01] INFO root fetch - processPackages [odoo-addon-stock-location-orderpoint]: Downloading https://files.pythonhosted.org/packages/7f/c4/7c557e4ee8cff267eb9758c4d63f3a538a2b89f639c53cecf1516285f32a/odoo_addon_stock_location_orderpoint-16.0.1.1.2-py3-none-any.whl
+[2024-04-15 16:28:01] INFO root fetch - processPackages [oedialect]: executing diffoscope
+[2024-04-15 16:28:01] INFO root fetch - processPackages [oedialect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oedialect-0.0.9.dev0.tar.gz tmp/oedialect-0.1.1.dev0.tar.gz --markdown 20240415/o/oedialect/0.0.9.dev0-0.1.1.dev0/README.md --exclude *.pyd
+[2024-04-15 16:28:01] INFO root fetch - processPackages [geo-skeletons]: executing diffoscope
+[2024-04-15 16:28:01] INFO root fetch - processPackages [geo-skeletons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geo_skeletons-0.9.8.tar.gz tmp/geo_skeletons-0.9.9.tar.gz --markdown 20240415/g/geo-skeletons/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-15 16:28:02] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/aa/40/7f8e760c6086bb51f54cd751cf9a063c37ae60a980c0a76a3da490ae09f4/policyengine-us-0.736.0.tar.gz
+[2024-04-15 16:28:02] INFO root fetch - processPackages [free-verify-proxy]: Downloading https://files.pythonhosted.org/packages/ab/60/073d70e4da7125ab5f8def91a58d1581dd23c6e9f9288de51d119fd84899/free_verify_proxy-1.1.7.tar.gz
+[2024-04-15 16:28:02] INFO root fetch - processPackages [odoo-addon-stock-location-orderpoint]: Downloading https://files.pythonhosted.org/packages/20/21/532cfe950b94cfe165eb579bb9cc382725e1570d9c4eb507c4d0ecda311d/odoo_addon_stock_location_orderpoint-16.0.2.0.0-py3-none-any.whl
+[2024-04-15 16:28:02] INFO root fetch - processPackages [free-verify-proxy]: executing diffoscope
+[2024-04-15 16:28:02] INFO root fetch - processPackages [free-verify-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/free_verify_proxy-1.1.6.tar.gz tmp/free_verify_proxy-1.1.7.tar.gz --markdown 20240415/f/free-verify-proxy/1.1.6-1.1.7/README.md --exclude *.pyd
+[2024-04-15 16:28:02] INFO root fetch - processPackages [odoo-addon-stock-location-orderpoint]: executing diffoscope
+[2024-04-15 16:28:02] INFO root fetch - processPackages [odoo-addon-stock-location-orderpoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_location_orderpoint-16.0.1.1.2-py3-none-any.whl.zip tmp/odoo_addon_stock_location_orderpoint-16.0.2.0.0-py3-none-any.whl.zip --markdown 20240415/o/odoo-addon-stock-location-orderpoint/16.0.1.1.2-16.0.2.0.0/README.md --exclude *.pyd
+[2024-04-15 16:28:02] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2024-04-15 16:28:02] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.735.0.tar.gz tmp/policyengine-us-0.736.0.tar.gz --markdown 20240415/p/policyengine-us/0.735.0-0.736.0/README.md --exclude *.pyd
+[2024-04-15 16:28:02] INFO root fetch - processPackages [oedialect]: Remove: archive file [/home/abi/fetcher/tmp/oedialect-0.0.9.dev0.tar.gz]
+[2024-04-15 16:28:02] INFO root fetch - processPackages [oedialect]: Remove: archive file [/home/abi/fetcher/tmp/oedialect-0.1.1.dev0.tar.gz]
+[2024-04-15 16:28:02] INFO root fetch - main [MainThread]: End processing [oedialect]: success
+[2024-04-15 16:28:02] INFO root fetch - processPackages [geo-skeletons]: Remove: archive file [/home/abi/fetcher/tmp/geo_skeletons-0.9.8.tar.gz]
+[2024-04-15 16:28:02] INFO root fetch - processPackages [geo-skeletons]: Remove: archive file [/home/abi/fetcher/tmp/geo_skeletons-0.9.9.tar.gz]
+[2024-04-15 16:28:02] INFO root fetch - main [MainThread]: End processing [geo-skeletons]: success
+[2024-04-15 16:28:02] INFO root fetch - processPackages [free-verify-proxy]: Remove: archive file [/home/abi/fetcher/tmp/free_verify_proxy-1.1.6.tar.gz]
+[2024-04-15 16:28:02] INFO root fetch - processPackages [free-verify-proxy]: Remove: archive file [/home/abi/fetcher/tmp/free_verify_proxy-1.1.7.tar.gz]
+[2024-04-15 16:28:02] INFO root fetch - main [MainThread]: End processing [free-verify-proxy]: success
+[2024-04-15 16:28:03] INFO root fetch - processPackages [odoo-addon-stock-location-orderpoint]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_location_orderpoint-16.0.1.1.2-py3-none-any.whl.zip]
+[2024-04-15 16:28:03] INFO root fetch - processPackages [odoo-addon-stock-location-orderpoint]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_location_orderpoint-16.0.2.0.0-py3-none-any.whl.zip]
+[2024-04-15 16:28:03] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-location-orderpoint]: success
+[2024-04-15 16:28:40] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.735.0.tar.gz]
+[2024-04-15 16:28:40] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.736.0.tar.gz]
+[2024-04-15 16:28:40] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2024-04-15 16:28:40] INFO root fetch - main [MainThread]: Store serial: [22772686]
