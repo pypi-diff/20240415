@@ -12762,3 +12762,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 11:13:36] INFO root fetch - processPackages [pymc]: Remove: archive file [/home/abi/fetcher/tmp/pymc-5.9.2.tar.gz]
 [2024-04-15 11:13:36] INFO root fetch - main [MainThread]: End processing [pymc]: success
 [2024-04-15 11:13:36] INFO root fetch - main [MainThread]: Store serial: [22768427]
+[2024-04-15 11:15:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22768427]
+[2024-04-15 11:15:45] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-15 11:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spanishconjugator
+[2024-04-15 11:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sonia
+[2024-04-15 11:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mxcubeweb
+[2024-04-15 11:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ocf-datapipes
+[2024-04-15 11:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spanishconjugator
+[2024-04-15 11:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eldpy
+[2024-04-15 11:15:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: osm-fieldwork
+[2024-04-15 11:15:45] INFO root fetch - processPackages [mxcubeweb]: New version: [4.9.0] Old Version: [4.8.0]
+[2024-04-15 11:15:45] INFO root fetch - processPackages [sonia]: New version: [0.2.0] Old Version: [0.1.3]
+[2024-04-15 11:15:45] INFO root fetch - processPackages [ocf-datapipes]: New version: [3.3.9] Old Version: [3.3.8]
+[2024-04-15 11:15:45] INFO root fetch - processPackages [eldpy]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-15 11:15:45] INFO root fetch - processPackages [mxcubeweb]: Downloading https://files.pythonhosted.org/packages/e9/9e/c4f610f4b2e24f0448292119c5697d9e6dfdefa4d71a8b7089d4a6953107/mxcubeweb-4.8.0.tar.gz
+[2024-04-15 11:15:45] INFO root fetch - processPackages [osm-fieldwork]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-04-15 11:15:45] INFO root fetch - processPackages [sonia]: Downloading https://files.pythonhosted.org/packages/2a/5c/e4657ceefc6b30b7bc33652bddaf60f02f7828e5813ad4938bd7156084d5/sonia-0.1.3.tar.gz
+[2024-04-15 11:15:45] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-04-15 11:15:45] WARNING root fetch - processPackages [sonia]: Skipping package: exceeds size limit 11731051>=10485760
+[2024-04-15 11:15:45] INFO root fetch - main [MainThread]: End processing [sonia] error
+[2024-04-15 11:15:45] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-04-15 11:15:46] INFO root fetch - processPackages [eldpy]: Downloading https://files.pythonhosted.org/packages/e7/54/17e3519fa44a1f347b2d0c03f1e0b83d2ffdd01bd926bcf8487e3bd9781c/eldpy-0.0.8.tar.gz
+[2024-04-15 11:15:46] INFO root fetch - processPackages [ocf-datapipes]: Downloading https://files.pythonhosted.org/packages/15/c1/a7b606f36344fabf944e15a0797bc3247212355d28ff2a63eef5077883b8/ocf_datapipes-3.3.8.tar.gz
+[2024-04-15 11:15:46] INFO root fetch - processPackages [osm-fieldwork]: Downloading https://files.pythonhosted.org/packages/9f/21/1a6b5a005f34f8694e3edbdd6a234d990847e214f872acd5a92b967a2e7d/osm-fieldwork-0.8.0.tar.gz
+[2024-04-15 11:15:46] INFO root fetch - processPackages [mxcubeweb]: Downloading https://files.pythonhosted.org/packages/70/0a/11c323a9a6ce9c93c1b0707df775fe6f1e768b7bab1fef02a49855813397/mxcubeweb-4.9.0.tar.gz
+[2024-04-15 11:15:46] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-04-15 11:15:46] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-04-15 11:15:46] INFO root fetch - processPackages [mxcubeweb]: executing diffoscope
+[2024-04-15 11:15:46] INFO root fetch - processPackages [mxcubeweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mxcubeweb-4.8.0.tar.gz tmp/mxcubeweb-4.9.0.tar.gz --markdown 20240415/m/mxcubeweb/4.8.0-4.9.0/README.md --exclude *.pyd
+[2024-04-15 11:15:46] INFO root fetch - processPackages [ocf-datapipes]: Downloading https://files.pythonhosted.org/packages/55/0a/5970538e840540313fb117c6e1f7bad44ee3f3749d076d0440485cc60a89/ocf_datapipes-3.3.9.tar.gz
+[2024-04-15 11:15:46] INFO root fetch - processPackages [eldpy]: Downloading https://files.pythonhosted.org/packages/1b/0d/5c2b7c44e35dad53481699dfdaef6e31fcdb6a2eaea28f3daf5277a62b01/eldpy-0.0.9.tar.gz
+[2024-04-15 11:15:46] INFO root fetch - processPackages [osm-fieldwork]: Downloading https://files.pythonhosted.org/packages/8c/6f/08e90e02c40a28a71f0046f5f7692f09cfecfe35844400967aa3fe80e1d6/osm-fieldwork-0.8.1.tar.gz
+[2024-04-15 11:15:46] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-04-15 11:15:46] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-04-15 11:15:46] INFO root fetch - processPackages [eldpy]: executing diffoscope
+[2024-04-15 11:15:46] INFO root fetch - processPackages [eldpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eldpy-0.0.8.tar.gz tmp/eldpy-0.0.9.tar.gz --markdown 20240415/e/eldpy/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-15 11:15:46] INFO root fetch - processPackages [ocf-datapipes]: executing diffoscope
+[2024-04-15 11:15:46] INFO root fetch - processPackages [ocf-datapipes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocf_datapipes-3.3.8.tar.gz tmp/ocf_datapipes-3.3.9.tar.gz --markdown 20240415/o/ocf-datapipes/3.3.8-3.3.9/README.md --exclude *.pyd
+[2024-04-15 11:15:46] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-04-15 11:15:46] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240415/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-04-15 11:15:46] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-04-15 11:15:46] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240415/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-04-15 11:15:46] INFO root fetch - processPackages [osm-fieldwork]: executing diffoscope
+[2024-04-15 11:15:46] INFO root fetch - processPackages [osm-fieldwork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osm-fieldwork-0.8.0.tar.gz tmp/osm-fieldwork-0.8.1.tar.gz --markdown 20240415/o/osm-fieldwork/0.8.0-0.8.1/README.md --exclude *.pyd
+[2024-04-15 11:15:47] INFO root fetch - processPackages [mxcubeweb]: Remove: archive file [/home/abi/fetcher/tmp/mxcubeweb-4.8.0.tar.gz]
+[2024-04-15 11:15:47] INFO root fetch - processPackages [mxcubeweb]: Remove: archive file [/home/abi/fetcher/tmp/mxcubeweb-4.9.0.tar.gz]
+[2024-04-15 11:15:47] INFO root fetch - main [MainThread]: End processing [mxcubeweb]: success
+[2024-04-15 11:15:47] INFO root fetch - processPackages [eldpy]: Remove: archive file [/home/abi/fetcher/tmp/eldpy-0.0.8.tar.gz]
+[2024-04-15 11:15:47] INFO root fetch - processPackages [eldpy]: Remove: archive file [/home/abi/fetcher/tmp/eldpy-0.0.9.tar.gz]
+[2024-04-15 11:15:47] INFO root fetch - main [MainThread]: End processing [eldpy]: success
+[2024-04-15 11:15:47] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2024-04-15 11:15:47] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2024-04-15 11:15:47] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-04-15 11:15:47] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-04-15 11:15:47] INFO root fetch - processPackages [ocf-datapipes]: Remove: archive file [/home/abi/fetcher/tmp/ocf_datapipes-3.3.8.tar.gz]
+[2024-04-15 11:15:47] INFO root fetch - processPackages [ocf-datapipes]: Remove: archive file [/home/abi/fetcher/tmp/ocf_datapipes-3.3.9.tar.gz]
+[2024-04-15 11:15:47] INFO root fetch - main [MainThread]: End processing [ocf-datapipes]: success
+[2024-04-15 11:15:48] INFO root fetch - processPackages [osm-fieldwork]: Remove: archive file [/home/abi/fetcher/tmp/osm-fieldwork-0.8.0.tar.gz]
+[2024-04-15 11:15:48] INFO root fetch - processPackages [osm-fieldwork]: Remove: archive file [/home/abi/fetcher/tmp/osm-fieldwork-0.8.1.tar.gz]
+[2024-04-15 11:15:48] INFO root fetch - main [MainThread]: End processing [osm-fieldwork]: success
+[2024-04-15 11:15:48] INFO root fetch - main [MainThread]: Store serial: [22768448]
