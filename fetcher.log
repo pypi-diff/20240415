@@ -22370,3 +22370,132 @@ AssertionError: tmp/pyblindrl-0.0.2rc57.post1.tar.gz does not exist
 [2024-04-15 16:28:40] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.736.0.tar.gz]
 [2024-04-15 16:28:40] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2024-04-15 16:28:40] INFO root fetch - main [MainThread]: Store serial: [22772686]
+[2024-04-15 16:30:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22772686]
+[2024-04-15 16:30:50] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2024-04-15 16:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-website-sale-hide-price
+[2024-04-15 16:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openapiopenai
+[2024-04-15 16:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyaoponto-toolkit
+[2024-04-15 16:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: celery-streaming-result
+[2024-04-15 16:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mkdocs-rtd
+[2024-04-15 16:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ps1-short
+[2024-04-15 16:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: datajunction-server
+[2024-04-15 16:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mango-pycore
+[2024-04-15 16:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vantage6-common
+[2024-04-15 16:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mango-pycore
+[2024-04-15 16:30:51] WARNING root fetch - processPackages [ps1-short]: Skipping, unable to determine old version
+[2024-04-15 16:30:51] INFO root fetch - processPackages [ps1-short]: Start processing: vantage6-client
+[2024-04-15 16:30:51] INFO root fetch - main [MainThread]: End processing [ps1-short] error
+[2024-04-15 16:30:51] INFO root fetch - processPackages [vantage6-common]: New version: [4.4.0rc3] Old Version: [4.3.4rc3]
+[2024-04-15 16:30:51] INFO root fetch - processPackages [vantage6-client]: New version: [4.4.0rc3] Old Version: [4.3.4rc3]
+[2024-04-15 16:30:51] INFO root fetch - processPackages [mango-pycore]: New version: [0.1.9] Old Version: [0.1.8a0]
+[2024-04-15 16:30:51] INFO root fetch - processPackages [mango-pycore]: New version: [0.1.9] Old Version: [0.1.8a0]
+[2024-04-15 16:30:51] INFO root fetch - processPackages [celery-streaming-result]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-15 16:30:51] INFO root fetch - processPackages [mkdocs-rtd]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-15 16:30:51] INFO root fetch - processPackages [openapiopenai]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-15 16:30:51] INFO root fetch - processPackages [datajunction-server]: New version: [0.0.1a8] Old Version: [0.0.1a7]
+[2024-04-15 16:30:51] WARNING root fetch - processPackages [pyaoponto-toolkit]: Skipping, unable to determine old version
+[2024-04-15 16:30:51] INFO root fetch - processPackages [pyaoponto-toolkit]: Start processing: iceberg-diag
+[2024-04-15 16:30:51] INFO root fetch - main [MainThread]: End processing [pyaoponto-toolkit] error
+[2024-04-15 16:30:51] INFO root fetch - processPackages [odoo-addon-website-sale-hide-price]: New version: [17.0.1.0.0.2] Old Version: [16.0.2.0.0.3]
+[2024-04-15 16:30:51] INFO root fetch - processPackages [vantage6-common]: Downloading https://files.pythonhosted.org/packages/23/da/2c4f483ccc9aa140f0c6084614daf6509f7f164567c8564424d0abb941ff/vantage6-common-4.3.4rc3.tar.gz
+[2024-04-15 16:30:51] INFO root fetch - processPackages [vantage6-client]: Downloading https://files.pythonhosted.org/packages/4a/f8/cd94c9528c72c6dc5803de79ee9deb83929f939d683bfe80af770516777c/vantage6-client-4.3.4rc3.tar.gz
+[2024-04-15 16:30:51] INFO root fetch - processPackages [iceberg-diag]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-15 16:30:51] INFO root fetch - processPackages [celery-streaming-result]: Downloading https://files.pythonhosted.org/packages/47/a9/37a6aecf6c03484b3116a8766da5f163d8cae607f3187e62f2bf743ea340/celery_streaming_result-0.1.0.tar.gz
+[2024-04-15 16:30:51] INFO root fetch - processPackages [mango-pycore]: Downloading https://files.pythonhosted.org/packages/dd/2e/14c38e4e5d34f2b3bf8390eba2f36cf232f84cc4d17c7dd53d504489fd94/mango_pycore-0.1.8a0.tar.gz
+[2024-04-15 16:30:51] INFO root fetch - processPackages [mango-pycore]: Downloading https://files.pythonhosted.org/packages/dd/2e/14c38e4e5d34f2b3bf8390eba2f36cf232f84cc4d17c7dd53d504489fd94/mango_pycore-0.1.8a0.tar.gz
+[2024-04-15 16:30:51] INFO root fetch - processPackages [mkdocs-rtd]: Downloading https://files.pythonhosted.org/packages/2b/e2/6a417995bfedb9897b475699e84f2ac39883afe39d5b4b4d9420e180a845/mkdocs_rtd-0.0.8.tar.gz
+[2024-04-15 16:30:51] INFO root fetch - processPackages [openapiopenai]: Downloading https://files.pythonhosted.org/packages/d8/61/99deb3bc8243513d6724e0e0209df03d8fffcd4e31eb272e84540955cc9c/openapiopenai-1.0.0-py3-none-any.whl
+[2024-04-15 16:30:51] INFO root fetch - processPackages [odoo-addon-website-sale-hide-price]: Downloading https://files.pythonhosted.org/packages/57/9e/e3e25859febaf360683780f9e2f0d77f00f958598c9f5ca0f4cf83c6c03e/odoo_addon_website_sale_hide_price-16.0.2.0.0.3-py3-none-any.whl
+[2024-04-15 16:30:51] INFO root fetch - processPackages [vantage6-client]: Downloading https://files.pythonhosted.org/packages/84/df/b92d6fdd29a6e1b81b8e8559e572291634926b2511794707df4e896b80f9/vantage6-client-4.4.0rc3.tar.gz
+[2024-04-15 16:30:51] INFO root fetch - processPackages [vantage6-common]: Downloading https://files.pythonhosted.org/packages/3a/72/734df2c20ad720f94245bd81c903e5dffcf113ba8476eab157fc530cc31b/vantage6-common-4.4.0rc3.tar.gz
+[2024-04-15 16:30:51] INFO root fetch - processPackages [iceberg-diag]: Downloading https://files.pythonhosted.org/packages/a9/55/116e3855ecbb76b3a2df2c416cc6d2656f46df90fc9604773b0ca9cb5945/iceberg_diag-0.1.1.tar.gz
+[2024-04-15 16:30:51] INFO root fetch - processPackages [datajunction-server]: Downloading https://files.pythonhosted.org/packages/5e/74/837b55d32da7e6b69cec7b2da69fbb3dcc2a71dc1ee1e0d3dd407363f091/datajunction_server-0.0.1a8.tar.gz
+[2024-04-15 16:30:51] INFO root fetch - processPackages [celery-streaming-result]: Downloading https://files.pythonhosted.org/packages/96/05/b4da58ce02ffca4ac198cec15d54f2f465fa887a70f8ca35292cd303d302/celery_streaming_result-0.1.1.tar.gz
+[2024-04-15 16:30:51] INFO root fetch - processPackages [vantage6-client]: executing diffoscope
+[2024-04-15 16:30:51] INFO root fetch - processPackages [vantage6-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-client-4.3.4rc3.tar.gz tmp/vantage6-client-4.4.0rc3.tar.gz --markdown 20240415/v/vantage6-client/4.3.4rc3-4.4.0rc3/README.md --exclude *.pyd
+[2024-04-15 16:30:51] INFO root fetch - processPackages [vantage6-common]: executing diffoscope
+[2024-04-15 16:30:51] INFO root fetch - processPackages [vantage6-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-common-4.3.4rc3.tar.gz tmp/vantage6-common-4.4.0rc3.tar.gz --markdown 20240415/v/vantage6-common/4.3.4rc3-4.4.0rc3/README.md --exclude *.pyd
+[2024-04-15 16:30:52] WARNING root fetch - processPackages [datajunction-server]: Skipping package: exceeds size limit 25698763>=10485760
+[2024-04-15 16:30:52] INFO root fetch - processPackages [datajunction-server]: Start processing: vantage6-algorithm-tools
+[2024-04-15 16:30:52] INFO root fetch - main [MainThread]: End processing [datajunction-server] error
+[2024-04-15 16:30:52] INFO root fetch - processPackages [mango-pycore]: Downloading https://files.pythonhosted.org/packages/ac/cf/ba57e180bead82b37d573f26a56c3d72b3aa5b398d123e0538e8f9fcfded/mango_pycore-0.1.9.tar.gz
+[2024-04-15 16:30:52] INFO root fetch - processPackages [mango-pycore]: Downloading https://files.pythonhosted.org/packages/ac/cf/ba57e180bead82b37d573f26a56c3d72b3aa5b398d123e0538e8f9fcfded/mango_pycore-0.1.9.tar.gz
+[2024-04-15 16:30:52] INFO root fetch - processPackages [vantage6-algorithm-tools]: New version: [4.4.0rc3] Old Version: [4.3.4rc3]
+[2024-04-15 16:30:52] INFO root fetch - processPackages [celery-streaming-result]: executing diffoscope
+[2024-04-15 16:30:52] INFO root fetch - processPackages [celery-streaming-result]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celery_streaming_result-0.1.0.tar.gz tmp/celery_streaming_result-0.1.1.tar.gz --markdown 20240415/c/celery-streaming-result/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-15 16:30:52] INFO root fetch - processPackages [openapiopenai]: Downloading https://files.pythonhosted.org/packages/d2/f0/de9dfbba4dc334df555c013a94b5b09bad6f3e56c3aa265cebdfcbcca796/openapiopenai-1.1.0-py3-none-any.whl
+[2024-04-15 16:30:52] INFO root fetch - processPackages [odoo-addon-website-sale-hide-price]: Downloading https://files.pythonhosted.org/packages/9c/fe/2edfaef51ffa063dec21acc3bfdc7e22472ce0b69c0c97861ea7610af3cc/odoo_addon_website_sale_hide_price-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-15 16:30:52] INFO root fetch - processPackages [mango-pycore]: executing diffoscope
+[2024-04-15 16:30:52] INFO root fetch - processPackages [mango-pycore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mango_pycore-0.1.8a0.tar.gz tmp/mango_pycore-0.1.9.tar.gz --markdown 20240415/m/mango-pycore/0.1.8a0-0.1.9/README.md --exclude *.pyd
+[2024-04-15 16:30:52] INFO root fetch - processPackages [mango-pycore]: executing diffoscope
+[2024-04-15 16:30:52] INFO root fetch - processPackages [mango-pycore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mango_pycore-0.1.8a0.tar.gz tmp/mango_pycore-0.1.9.tar.gz --markdown 20240415/m/mango-pycore/0.1.8a0-0.1.9/README.md --exclude *.pyd
+[2024-04-15 16:30:52] INFO root fetch - processPackages [openapiopenai]: executing diffoscope
+[2024-04-15 16:30:52] INFO root fetch - processPackages [openapiopenai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openapiopenai-1.0.0-py3-none-any.whl.zip tmp/openapiopenai-1.1.0-py3-none-any.whl.zip --markdown 20240415/o/openapiopenai/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-04-15 16:30:52] INFO root fetch - processPackages [iceberg-diag]: Downloading https://files.pythonhosted.org/packages/ed/3d/f9e98d19f5e27a46937643bcd96d173b12e37259b866ed8ea96818db89ed/iceberg_diag-0.1.2.tar.gz
+[2024-04-15 16:30:52] INFO root fetch - processPackages [vantage6-algorithm-tools]: Downloading https://files.pythonhosted.org/packages/69/ce/3e015ccaeb43af17fdec4e9feec93a2461c4c1539e9024796bc2fa3e4aa0/vantage6-algorithm-tools-4.3.4rc3.tar.gz
+[2024-04-15 16:30:52] INFO root fetch - processPackages [iceberg-diag]: executing diffoscope
+[2024-04-15 16:30:52] INFO root fetch - processPackages [iceberg-diag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iceberg_diag-0.1.1.tar.gz tmp/iceberg_diag-0.1.2.tar.gz --markdown 20240415/i/iceberg-diag/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-15 16:30:52] INFO root fetch - processPackages [vantage6-algorithm-tools]: Downloading https://files.pythonhosted.org/packages/3f/29/f506f2a2f6a10779b4cf44cc3b6a497529ff0b8cfe9fc671d93479de7924/vantage6-algorithm-tools-4.4.0rc3.tar.gz
+[2024-04-15 16:30:52] INFO root fetch - processPackages [odoo-addon-website-sale-hide-price]: executing diffoscope
+[2024-04-15 16:30:52] INFO root fetch - processPackages [odoo-addon-website-sale-hide-price]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_website_sale_hide_price-16.0.2.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_website_sale_hide_price-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240415/o/odoo-addon-website-sale-hide-price/16.0.2.0.0.3-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-04-15 16:30:52] INFO root fetch - processPackages [vantage6-algorithm-tools]: executing diffoscope
+[2024-04-15 16:30:52] INFO root fetch - processPackages [vantage6-algorithm-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-algorithm-tools-4.3.4rc3.tar.gz tmp/vantage6-algorithm-tools-4.4.0rc3.tar.gz --markdown 20240415/v/vantage6-algorithm-tools/4.3.4rc3-4.4.0rc3/README.md --exclude *.pyd
+[2024-04-15 16:30:52] INFO root fetch - processPackages [mkdocs-rtd]: Downloading https://files.pythonhosted.org/packages/96/9d/c9b69917daefaa83457c1375afef39105029d13d5211622d94a8781a0d90/mkdocs_rtd-0.0.9.tar.gz
+[2024-04-15 16:30:53] INFO root fetch - processPackages [celery-streaming-result]: Remove: archive file [/home/abi/fetcher/tmp/celery_streaming_result-0.1.0.tar.gz]
+[2024-04-15 16:30:53] INFO root fetch - processPackages [celery-streaming-result]: Remove: archive file [/home/abi/fetcher/tmp/celery_streaming_result-0.1.1.tar.gz]
+[2024-04-15 16:30:53] INFO root fetch - processPackages [celery-streaming-result]: Start processing: vantage6
+[2024-04-15 16:30:53] INFO root fetch - main [MainThread]: End processing [celery-streaming-result]: success
+[2024-04-15 16:30:53] INFO root fetch - processPackages [vantage6]: New version: [4.4.0rc3] Old Version: [4.3.4rc3]
+[2024-04-15 16:30:53] INFO root fetch - processPackages [vantage6]: Downloading https://files.pythonhosted.org/packages/66/5c/3021a8befdbca24be4833abec2bfc1c76320cfaadebe3caaba38e22ef107/vantage6-4.3.4rc3.tar.gz
+[2024-04-15 16:30:53] INFO root fetch - processPackages [vantage6-client]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-client-4.3.4rc3.tar.gz]
+[2024-04-15 16:30:53] INFO root fetch - processPackages [vantage6-client]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-client-4.4.0rc3.tar.gz]
+[2024-04-15 16:30:53] INFO root fetch - processPackages [vantage6-client]: Start processing: vantage6-node
+[2024-04-15 16:30:53] INFO root fetch - main [MainThread]: End processing [vantage6-client]: success
+[2024-04-15 16:30:53] INFO root fetch - processPackages [vantage6-common]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-common-4.3.4rc3.tar.gz]
+[2024-04-15 16:30:53] INFO root fetch - processPackages [vantage6-common]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-common-4.4.0rc3.tar.gz]
+[2024-04-15 16:30:53] INFO root fetch - processPackages [vantage6-common]: Start processing: vantage6-backend-common
+[2024-04-15 16:30:53] INFO root fetch - main [MainThread]: End processing [vantage6-common]: success
+[2024-04-15 16:30:53] INFO root fetch - processPackages [vantage6-node]: New version: [4.4.0rc3] Old Version: [4.3.4rc3]
+[2024-04-15 16:30:53] INFO root fetch - processPackages [vantage6-backend-common]: New version: [4.4.0rc3] Old Version: [4.3.4rc3]
+[2024-04-15 16:30:53] INFO root fetch - processPackages [mango-pycore]: Remove: archive file [/home/abi/fetcher/tmp/mango_pycore-0.1.8a0.tar.gz]
+[2024-04-15 16:30:53] INFO root fetch - processPackages [mango-pycore]: Remove: archive file [/home/abi/fetcher/tmp/mango_pycore-0.1.9.tar.gz]
+[2024-04-15 16:30:53] INFO root fetch - main [MainThread]: End processing [mango-pycore]: success
+[2024-04-15 16:30:53] INFO root fetch - main [MainThread]: End processing [mango-pycore]: success
+[2024-04-15 16:30:53] INFO root fetch - processPackages [vantage6-node]: Downloading https://files.pythonhosted.org/packages/c6/06/a5892f7dff64498fd138a674195ba475af19fb09da20266695e2d85b787a/vantage6-node-4.3.4rc3.tar.gz
+[2024-04-15 16:30:53] INFO root fetch - processPackages [vantage6-backend-common]: Downloading https://files.pythonhosted.org/packages/85/81/0f22a9c7a45672c058b49c86719b587c650dd9151317a28dd2fc6160c485/vantage6-backend-common-4.3.4rc3.tar.gz
+[2024-04-15 16:30:53] INFO root fetch - processPackages [iceberg-diag]: Remove: archive file [/home/abi/fetcher/tmp/iceberg_diag-0.1.1.tar.gz]
+[2024-04-15 16:30:53] INFO root fetch - processPackages [iceberg-diag]: Remove: archive file [/home/abi/fetcher/tmp/iceberg_diag-0.1.2.tar.gz]
+[2024-04-15 16:30:53] INFO root fetch - main [MainThread]: End processing [iceberg-diag]: success
+[2024-04-15 16:30:53] INFO root fetch - processPackages [vantage6]: Downloading https://files.pythonhosted.org/packages/c9/6f/c5c983de321f64ac36b92261addb1ef6d6761632da43c385123ae7349a01/vantage6-4.4.0rc3.tar.gz
+[2024-04-15 16:30:53] INFO root fetch - processPackages [vantage6]: executing diffoscope
+[2024-04-15 16:30:53] INFO root fetch - processPackages [vantage6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-4.3.4rc3.tar.gz tmp/vantage6-4.4.0rc3.tar.gz --markdown 20240415/v/vantage6/4.3.4rc3-4.4.0rc3/README.md --exclude *.pyd
+[2024-04-15 16:30:53] INFO root fetch - processPackages [vantage6-backend-common]: Downloading https://files.pythonhosted.org/packages/b3/7f/b8d18f26afaf29257287e882fd38d60e320a06bebbd3e9f25546ed08ad92/vantage6-backend-common-4.4.0rc3.tar.gz
+[2024-04-15 16:30:53] INFO root fetch - processPackages [vantage6-node]: Downloading https://files.pythonhosted.org/packages/b7/b7/ac9ad851e1e53caf194edccaa860e596f4c6c645a589c4a30e208a4e7fcb/vantage6-node-4.4.0rc3.tar.gz
+[2024-04-15 16:30:53] INFO root fetch - processPackages [vantage6-backend-common]: executing diffoscope
+[2024-04-15 16:30:53] INFO root fetch - processPackages [vantage6-backend-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-backend-common-4.3.4rc3.tar.gz tmp/vantage6-backend-common-4.4.0rc3.tar.gz --markdown 20240415/v/vantage6-backend-common/4.3.4rc3-4.4.0rc3/README.md --exclude *.pyd
+[2024-04-15 16:30:53] INFO root fetch - processPackages [vantage6-node]: executing diffoscope
+[2024-04-15 16:30:53] INFO root fetch - processPackages [vantage6-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-node-4.3.4rc3.tar.gz tmp/vantage6-node-4.4.0rc3.tar.gz --markdown 20240415/v/vantage6-node/4.3.4rc3-4.4.0rc3/README.md --exclude *.pyd
+[2024-04-15 16:30:53] INFO root fetch - processPackages [vantage6-algorithm-tools]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-algorithm-tools-4.3.4rc3.tar.gz]
+[2024-04-15 16:30:53] INFO root fetch - processPackages [vantage6-algorithm-tools]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-algorithm-tools-4.4.0rc3.tar.gz]
+[2024-04-15 16:30:53] INFO root fetch - main [MainThread]: End processing [vantage6-algorithm-tools]: success
+[2024-04-15 16:30:53] INFO root fetch - processPackages [odoo-addon-website-sale-hide-price]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_sale_hide_price-16.0.2.0.0.3-py3-none-any.whl.zip]
+[2024-04-15 16:30:53] INFO root fetch - processPackages [odoo-addon-website-sale-hide-price]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_sale_hide_price-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-15 16:30:53] INFO root fetch - main [MainThread]: End processing [odoo-addon-website-sale-hide-price]: success
+[2024-04-15 16:30:54] INFO root fetch - processPackages [mkdocs-rtd]: executing diffoscope
+[2024-04-15 16:30:54] INFO root fetch - processPackages [mkdocs-rtd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_rtd-0.0.8.tar.gz tmp/mkdocs_rtd-0.0.9.tar.gz --markdown 20240415/m/mkdocs-rtd/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-15 16:30:54] INFO root fetch - processPackages [openapiopenai]: Remove: archive file [/home/abi/fetcher/tmp/openapiopenai-1.0.0-py3-none-any.whl.zip]
+[2024-04-15 16:30:54] INFO root fetch - processPackages [openapiopenai]: Remove: archive file [/home/abi/fetcher/tmp/openapiopenai-1.1.0-py3-none-any.whl.zip]
+[2024-04-15 16:30:54] INFO root fetch - main [MainThread]: End processing [openapiopenai]: success
+[2024-04-15 16:30:54] INFO root fetch - processPackages [vantage6-backend-common]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-backend-common-4.3.4rc3.tar.gz]
+[2024-04-15 16:30:54] INFO root fetch - processPackages [vantage6-backend-common]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-backend-common-4.4.0rc3.tar.gz]
+[2024-04-15 16:30:54] INFO root fetch - main [MainThread]: End processing [vantage6-backend-common]: success
+[2024-04-15 16:30:54] INFO root fetch - processPackages [vantage6-node]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-node-4.3.4rc3.tar.gz]
+[2024-04-15 16:30:54] INFO root fetch - processPackages [vantage6-node]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-node-4.4.0rc3.tar.gz]
+[2024-04-15 16:30:54] INFO root fetch - main [MainThread]: End processing [vantage6-node]: success
+[2024-04-15 16:30:54] INFO root fetch - processPackages [vantage6]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-4.3.4rc3.tar.gz]
+[2024-04-15 16:30:54] INFO root fetch - processPackages [vantage6]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-4.4.0rc3.tar.gz]
+[2024-04-15 16:30:54] INFO root fetch - main [MainThread]: End processing [vantage6]: success
+[2024-04-15 16:30:55] INFO root fetch - processPackages [mkdocs-rtd]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_rtd-0.0.8.tar.gz]
+[2024-04-15 16:30:55] INFO root fetch - processPackages [mkdocs-rtd]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_rtd-0.0.9.tar.gz]
+[2024-04-15 16:30:55] INFO root fetch - main [MainThread]: End processing [mkdocs-rtd]: success
+[2024-04-15 16:30:55] INFO root fetch - main [MainThread]: Store serial: [22772734]
