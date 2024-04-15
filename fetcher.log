@@ -10029,3 +10029,65 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 09:30:50] INFO root fetch - processPackages [cornershot]: Remove: archive file [/home/abi/fetcher/tmp/cornershot-0.3.0.tar.gz]
 [2024-04-15 09:30:50] INFO root fetch - main [MainThread]: End processing [cornershot]: success
 [2024-04-15 09:30:50] INFO root fetch - main [MainThread]: Store serial: [22767281]
+[2024-04-15 09:32:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22767281]
+[2024-04-15 09:33:00] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-15 09:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: udata
+[2024-04-15 09:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: longport
+[2024-04-15 09:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: defog
+[2024-04-15 09:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: memory-gym
+[2024-04-15 09:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: synrbl
+[2024-04-15 09:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ssb-dash-components
+[2024-04-15 09:33:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: npsam
+[2024-04-15 09:33:00] INFO root fetch - processPackages [npsam]: New version: [1.4.7] Old Version: [1.4.6]
+[2024-04-15 09:33:00] INFO root fetch - processPackages [memory-gym]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-15 09:33:00] INFO root fetch - processPackages [npsam]: Downloading https://files.pythonhosted.org/packages/38/a2/e4996f0154785aef1edc6f4a5a4786413d19a16c936872f69c382961b0eb/npsam-1.4.6.tar.gz
+[2024-04-15 09:33:00] INFO root fetch - processPackages [ssb-dash-components]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-04-15 09:33:00] INFO root fetch - processPackages [synrbl]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-15 09:33:00] INFO root fetch - processPackages [defog]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-04-15 09:33:00] INFO root fetch - processPackages [longport]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-15 09:33:00] INFO root fetch - processPackages [udata]: New version: [7.0.7.dev28628] Old Version: [7.0.7.dev28615]
+[2024-04-15 09:33:01] INFO root fetch - processPackages [memory-gym]: Downloading https://files.pythonhosted.org/packages/2f/c6/d0a97811f9cde167f868be97d057d552db364bc9e5234638555468b1280c/memory-gym-1.0.0.tar.gz
+[2024-04-15 09:33:01] INFO root fetch - processPackages [defog]: Downloading https://files.pythonhosted.org/packages/87/e8/5a15d483ae5d3383ccd70078fae7b28d2522217766e59237dbf84b7b20b8/defog-0.9.1.tar.gz
+[2024-04-15 09:33:01] INFO root fetch - processPackages [synrbl]: Downloading https://files.pythonhosted.org/packages/30/1b/57d709e4df2dc55fdcb737915113a92c534f0d5c379fdb1d9862aab214a8/synrbl-0.0.5.tar.gz
+[2024-04-15 09:33:01] INFO root fetch - processPackages [ssb-dash-components]: Downloading https://files.pythonhosted.org/packages/61/a4/d7df52f196a859295334ff8d20596a41096ce030e5153169230ed089df4a/ssb_dash_components-0.7.1.tar.gz
+[2024-04-15 09:33:01] INFO root fetch - processPackages [longport]: Downloading https://files.pythonhosted.org/packages/a8/d8/56cdd8d715e4b07343d1f38a8f39c316d9a41ef8a16b04ac9ccfb685fd44/longport-1.0.8.tar.gz
+[2024-04-15 09:33:01] INFO root fetch - processPackages [udata]: Downloading https://files.pythonhosted.org/packages/ea/9b/c19fbcec1424f04d903b36878b98aeba8bb41fbe8bbfb723fa08019ee92d/udata-7.0.7.dev28615-py2.py3-none-any.whl
+[2024-04-15 09:33:01] INFO root fetch - processPackages [npsam]: Downloading https://files.pythonhosted.org/packages/16/33/785cc929b69ae4f620a2a5bce6321581cea669f9d832c08ca9a7f2d876e8/npsam-1.4.7.tar.gz
+[2024-04-15 09:33:01] WARNING root fetch - processPackages [udata]: Skipping package: exceeds size limit 19776750>=10485760
+[2024-04-15 09:33:01] INFO root fetch - main [MainThread]: End processing [udata] error
+[2024-04-15 09:33:01] INFO root fetch - processPackages [npsam]: executing diffoscope
+[2024-04-15 09:33:01] INFO root fetch - processPackages [npsam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/npsam-1.4.6.tar.gz tmp/npsam-1.4.7.tar.gz --markdown 20240415/n/npsam/1.4.6-1.4.7/README.md --exclude *.pyd
+[2024-04-15 09:33:01] INFO root fetch - processPackages [defog]: Downloading https://files.pythonhosted.org/packages/a7/30/76e85c431f8a525f9d7ea55f0f7acc629a6284f97ce86075abfb2019d42c/defog-0.9.2.tar.gz
+[2024-04-15 09:33:01] INFO root fetch - processPackages [memory-gym]: Downloading https://files.pythonhosted.org/packages/72/77/67dc1a3434ffd3858ce1e2bf85cffdddaa886cfb2570d105a55c5bc2e229/memory_gym-1.0.1.tar.gz
+[2024-04-15 09:33:01] INFO root fetch - processPackages [ssb-dash-components]: Downloading https://files.pythonhosted.org/packages/84/07/019ac8f11cb5c557182ec56c95b847e8307e9ac7c27ada54dbd328bad1c4/ssb_dash_components-0.7.2.tar.gz
+[2024-04-15 09:33:01] INFO root fetch - processPackages [defog]: executing diffoscope
+[2024-04-15 09:33:01] INFO root fetch - processPackages [defog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/defog-0.9.1.tar.gz tmp/defog-0.9.2.tar.gz --markdown 20240415/d/defog/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-04-15 09:33:01] INFO root fetch - processPackages [longport]: Downloading https://files.pythonhosted.org/packages/36/fa/25c45854f4cc739ef801f581c0cf5186fa2fd4928be5a85bf9dba778d99e/longport-1.0.9.tar.gz
+[2024-04-15 09:33:01] INFO root fetch - processPackages [memory-gym]: executing diffoscope
+[2024-04-15 09:33:01] INFO root fetch - processPackages [memory-gym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memory-gym-1.0.0.tar.gz tmp/memory_gym-1.0.1.tar.gz --markdown 20240415/m/memory-gym/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-15 09:33:01] INFO root fetch - processPackages [synrbl]: Downloading https://files.pythonhosted.org/packages/15/b7/6547dd1377ede81d5f3442572095403788d8e9236a61f79a105e19382c04/synrbl-0.0.6.tar.gz
+[2024-04-15 09:33:01] INFO root fetch - processPackages [ssb-dash-components]: executing diffoscope
+[2024-04-15 09:33:01] INFO root fetch - processPackages [ssb-dash-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssb_dash_components-0.7.1.tar.gz tmp/ssb_dash_components-0.7.2.tar.gz --markdown 20240415/s/ssb-dash-components/0.7.1-0.7.2/README.md --exclude *.pyd
+[2024-04-15 09:33:01] INFO root fetch - processPackages [longport]: executing diffoscope
+[2024-04-15 09:33:01] INFO root fetch - processPackages [longport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/longport-1.0.8.tar.gz tmp/longport-1.0.9.tar.gz --markdown 20240415/l/longport/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-15 09:33:02] INFO root fetch - processPackages [defog]: Remove: archive file [/home/abi/fetcher/tmp/defog-0.9.1.tar.gz]
+[2024-04-15 09:33:02] INFO root fetch - processPackages [defog]: Remove: archive file [/home/abi/fetcher/tmp/defog-0.9.2.tar.gz]
+[2024-04-15 09:33:02] INFO root fetch - main [MainThread]: End processing [defog]: success
+[2024-04-15 09:33:02] INFO root fetch - processPackages [npsam]: Remove: archive file [/home/abi/fetcher/tmp/npsam-1.4.6.tar.gz]
+[2024-04-15 09:33:02] INFO root fetch - processPackages [npsam]: Remove: archive file [/home/abi/fetcher/tmp/npsam-1.4.7.tar.gz]
+[2024-04-15 09:33:02] INFO root fetch - main [MainThread]: End processing [npsam]: success
+[2024-04-15 09:33:02] INFO root fetch - processPackages [synrbl]: executing diffoscope
+[2024-04-15 09:33:02] INFO root fetch - processPackages [synrbl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synrbl-0.0.5.tar.gz tmp/synrbl-0.0.6.tar.gz --markdown 20240415/s/synrbl/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-15 09:33:02] INFO root fetch - processPackages [memory-gym]: Remove: archive file [/home/abi/fetcher/tmp/memory-gym-1.0.0.tar.gz]
+[2024-04-15 09:33:02] INFO root fetch - processPackages [memory-gym]: Remove: archive file [/home/abi/fetcher/tmp/memory_gym-1.0.1.tar.gz]
+[2024-04-15 09:33:02] INFO root fetch - main [MainThread]: End processing [memory-gym]: success
+[2024-04-15 09:33:03] INFO root fetch - processPackages [longport]: Remove: archive file [/home/abi/fetcher/tmp/longport-1.0.8.tar.gz]
+[2024-04-15 09:33:03] INFO root fetch - processPackages [longport]: Remove: archive file [/home/abi/fetcher/tmp/longport-1.0.9.tar.gz]
+[2024-04-15 09:33:03] INFO root fetch - main [MainThread]: End processing [longport]: success
+[2024-04-15 09:33:04] INFO root fetch - processPackages [ssb-dash-components]: Remove: archive file [/home/abi/fetcher/tmp/ssb_dash_components-0.7.1.tar.gz]
+[2024-04-15 09:33:04] INFO root fetch - processPackages [ssb-dash-components]: Remove: archive file [/home/abi/fetcher/tmp/ssb_dash_components-0.7.2.tar.gz]
+[2024-04-15 09:33:04] INFO root fetch - main [MainThread]: End processing [ssb-dash-components]: success
+[2024-04-15 09:33:05] INFO root fetch - processPackages [synrbl]: Remove: archive file [/home/abi/fetcher/tmp/synrbl-0.0.5.tar.gz]
+[2024-04-15 09:33:05] INFO root fetch - processPackages [synrbl]: Remove: archive file [/home/abi/fetcher/tmp/synrbl-0.0.6.tar.gz]
+[2024-04-15 09:33:05] INFO root fetch - main [MainThread]: End processing [synrbl]: success
+[2024-04-15 09:33:05] INFO root fetch - main [MainThread]: Store serial: [22767339]
