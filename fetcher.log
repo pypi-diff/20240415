@@ -20324,3 +20324,66 @@ EOFError: EOF read where object expected
 [2024-04-15 15:34:11] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-59.9.1.tar.gz]
 [2024-04-15 15:34:11] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-04-15 15:34:11] INFO root fetch - main [MainThread]: Store serial: [22771844]
+[2024-04-15 15:36:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22771844]
+[2024-04-15 15:36:20] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-15 15:36:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quartz-solar-forecast
+[2024-04-15 15:36:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hyper-sdk
+[2024-04-15 15:36:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wrapchain
+[2024-04-15 15:36:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: naas-models
+[2024-04-15 15:36:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yaml-plugin
+[2024-04-15 15:36:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyprjbtstrptst
+[2024-04-15 15:36:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: b2sdk
+[2024-04-15 15:36:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zrb-extras
+[2024-04-15 15:36:20] WARNING root fetch - processPackages [wrapchain]: Skipping, unable to determine old version
+[2024-04-15 15:36:20] INFO root fetch - main [MainThread]: End processing [wrapchain] error
+[2024-04-15 15:36:20] INFO root fetch - processPackages [quartz-solar-forecast]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-15 15:36:20] WARNING root fetch - processPackages [yaml-plugin]: Skipping, unable to determine old version
+[2024-04-15 15:36:20] INFO root fetch - main [MainThread]: End processing [yaml-plugin] error
+[2024-04-15 15:36:20] INFO root fetch - processPackages [zrb-extras]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-15 15:36:20] INFO root fetch - processPackages [hyper-sdk]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-15 15:36:20] INFO root fetch - processPackages [quartz-solar-forecast]: Downloading https://files.pythonhosted.org/packages/0d/a8/ee147294e81be2e9274d941b626981b0df1b12acfaf2ae02d8331d025398/quartz_solar_forecast-1.0.8.tar.gz
+[2024-04-15 15:36:20] INFO root fetch - processPackages [naas-models]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-15 15:36:20] INFO root fetch - processPackages [b2sdk]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-04-15 15:36:20] INFO root fetch - processPackages [pyprjbtstrptst]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-15 15:36:20] INFO root fetch - processPackages [zrb-extras]: Downloading https://files.pythonhosted.org/packages/c6/94/c0bee65bc68868912c2039a41c62f0517b519621352385232cda2474dfc3/zrb_extras-0.0.2.tar.gz
+[2024-04-15 15:36:20] INFO root fetch - processPackages [b2sdk]: Downloading https://files.pythonhosted.org/packages/af/35/475a0c87f351bcd6bc3724b9bd41d1d7304aeefdb10d2e9bcdd079c78d69/b2sdk-2.0.0.tar.gz
+[2024-04-15 15:36:20] INFO root fetch - processPackages [naas-models]: Downloading https://files.pythonhosted.org/packages/73/62/46ceb1ecf9fc4b1125b9222d91bd37235b1fa9be3cc047e322b14cf1fc95/naas_models-1.8.0.tar.gz
+[2024-04-15 15:36:20] INFO root fetch - processPackages [hyper-sdk]: Downloading https://files.pythonhosted.org/packages/ad/3a/ddd544a1d472f941cb1589a9c89f3f68f31eb9f3a38ec70c6c77bdee1cf1/hyper_sdk-0.1.0.tar.gz
+[2024-04-15 15:36:20] INFO root fetch - processPackages [quartz-solar-forecast]: Downloading https://files.pythonhosted.org/packages/0e/b9/7ccd44f74671069cbf95adc294da069634730309a62687625a2d685c17e7/quartz_solar_forecast-1.0.9.tar.gz
+[2024-04-15 15:36:20] INFO root fetch - processPackages [pyprjbtstrptst]: Downloading https://files.pythonhosted.org/packages/64/f3/78ff5f9650001f7f3e00916eb51926b5e88a8fce46c222170fc84562a35f/pyprjbtstrptst-0.1.7-py3-none-any.whl
+[2024-04-15 15:36:21] INFO root fetch - processPackages [quartz-solar-forecast]: executing diffoscope
+[2024-04-15 15:36:21] INFO root fetch - processPackages [quartz-solar-forecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quartz_solar_forecast-1.0.8.tar.gz tmp/quartz_solar_forecast-1.0.9.tar.gz --markdown 20240415/q/quartz-solar-forecast/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-15 15:36:21] INFO root fetch - processPackages [zrb-extras]: Downloading https://files.pythonhosted.org/packages/5a/fb/f7288c1f91450281cf23597dcda1b88b65fb573ade34da8cd6f2c736586f/zrb_extras-0.0.3.tar.gz
+[2024-04-15 15:36:21] INFO root fetch - processPackages [hyper-sdk]: Downloading https://files.pythonhosted.org/packages/66/13/6e696cd6e7ca877cd5542c4282c8e6ef9d88ba3ff398a6d8cc770bf64134/hyper_sdk-0.1.1.tar.gz
+[2024-04-15 15:36:21] INFO root fetch - processPackages [b2sdk]: Downloading https://files.pythonhosted.org/packages/1e/c2/4ce1b1424e2d03b61fd153cf71933e5260f6b738bd4f2e0537708a91a23e/b2sdk-2.1.0.tar.gz
+[2024-04-15 15:36:21] INFO root fetch - processPackages [pyprjbtstrptst]: Downloading https://files.pythonhosted.org/packages/0c/31/dff0ed90d8e4c6ea16ec57482717a9ffd1124fd65af4c38f8bf8bc027e1c/pyprjbtstrptst-0.1.8-py3-none-any.whl
+[2024-04-15 15:36:21] INFO root fetch - processPackages [naas-models]: Downloading https://files.pythonhosted.org/packages/74/7d/68867962369ecf3c2ccc7aaa1d77332921f642b0f4b12889a39fd04a02e8/naas_models-1.9.0.tar.gz
+[2024-04-15 15:36:21] INFO root fetch - processPackages [pyprjbtstrptst]: executing diffoscope
+[2024-04-15 15:36:21] INFO root fetch - processPackages [pyprjbtstrptst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyprjbtstrptst-0.1.7-py3-none-any.whl.zip tmp/pyprjbtstrptst-0.1.8-py3-none-any.whl.zip --markdown 20240415/p/pyprjbtstrptst/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-15 15:36:21] INFO root fetch - processPackages [naas-models]: executing diffoscope
+[2024-04-15 15:36:21] INFO root fetch - processPackages [naas-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naas_models-1.8.0.tar.gz tmp/naas_models-1.9.0.tar.gz --markdown 20240415/n/naas-models/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-15 15:36:21] INFO root fetch - processPackages [b2sdk]: executing diffoscope
+[2024-04-15 15:36:21] INFO root fetch - processPackages [b2sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/b2sdk-2.0.0.tar.gz tmp/b2sdk-2.1.0.tar.gz --markdown 20240415/b/b2sdk/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-04-15 15:36:21] INFO root fetch - processPackages [zrb-extras]: executing diffoscope
+[2024-04-15 15:36:21] INFO root fetch - processPackages [zrb-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zrb_extras-0.0.2.tar.gz tmp/zrb_extras-0.0.3.tar.gz --markdown 20240415/z/zrb-extras/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-15 15:36:21] INFO root fetch - processPackages [hyper-sdk]: executing diffoscope
+[2024-04-15 15:36:21] INFO root fetch - processPackages [hyper-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyper_sdk-0.1.0.tar.gz tmp/hyper_sdk-0.1.1.tar.gz --markdown 20240415/h/hyper-sdk/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-15 15:36:21] INFO root fetch - processPackages [quartz-solar-forecast]: Remove: archive file [/home/abi/fetcher/tmp/quartz_solar_forecast-1.0.8.tar.gz]
+[2024-04-15 15:36:21] INFO root fetch - processPackages [quartz-solar-forecast]: Remove: archive file [/home/abi/fetcher/tmp/quartz_solar_forecast-1.0.9.tar.gz]
+[2024-04-15 15:36:21] INFO root fetch - main [MainThread]: End processing [quartz-solar-forecast]: success
+[2024-04-15 15:36:22] INFO root fetch - processPackages [pyprjbtstrptst]: Remove: archive file [/home/abi/fetcher/tmp/pyprjbtstrptst-0.1.7-py3-none-any.whl.zip]
+[2024-04-15 15:36:22] INFO root fetch - processPackages [pyprjbtstrptst]: Remove: archive file [/home/abi/fetcher/tmp/pyprjbtstrptst-0.1.8-py3-none-any.whl.zip]
+[2024-04-15 15:36:22] INFO root fetch - main [MainThread]: End processing [pyprjbtstrptst]: success
+[2024-04-15 15:36:22] INFO root fetch - processPackages [naas-models]: Remove: archive file [/home/abi/fetcher/tmp/naas_models-1.8.0.tar.gz]
+[2024-04-15 15:36:22] INFO root fetch - processPackages [naas-models]: Remove: archive file [/home/abi/fetcher/tmp/naas_models-1.9.0.tar.gz]
+[2024-04-15 15:36:22] INFO root fetch - main [MainThread]: End processing [naas-models]: success
+[2024-04-15 15:36:22] INFO root fetch - processPackages [hyper-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyper_sdk-0.1.0.tar.gz]
+[2024-04-15 15:36:22] INFO root fetch - processPackages [hyper-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyper_sdk-0.1.1.tar.gz]
+[2024-04-15 15:36:22] INFO root fetch - main [MainThread]: End processing [hyper-sdk]: success
+[2024-04-15 15:36:22] INFO root fetch - processPackages [b2sdk]: Remove: archive file [/home/abi/fetcher/tmp/b2sdk-2.0.0.tar.gz]
+[2024-04-15 15:36:22] INFO root fetch - processPackages [b2sdk]: Remove: archive file [/home/abi/fetcher/tmp/b2sdk-2.1.0.tar.gz]
+[2024-04-15 15:36:22] INFO root fetch - main [MainThread]: End processing [b2sdk]: success
+[2024-04-15 15:36:23] INFO root fetch - processPackages [zrb-extras]: Remove: archive file [/home/abi/fetcher/tmp/zrb_extras-0.0.2.tar.gz]
+[2024-04-15 15:36:23] INFO root fetch - processPackages [zrb-extras]: Remove: archive file [/home/abi/fetcher/tmp/zrb_extras-0.0.3.tar.gz]
+[2024-04-15 15:36:23] INFO root fetch - main [MainThread]: End processing [zrb-extras]: success
+[2024-04-15 15:36:23] INFO root fetch - main [MainThread]: Store serial: [22771869]
