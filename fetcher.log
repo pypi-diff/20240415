@@ -18585,3 +18585,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 14:43:50] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
 [2024-04-15 14:43:50] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
 [2024-04-15 14:43:50] INFO root fetch - main [MainThread]: Store serial: [22771058]
+[2024-04-15 14:45:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22771058]
+[2024-04-15 14:45:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-15 14:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bbot
+[2024-04-15 14:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-timeout
+[2024-04-15 14:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: touch-sdk
+[2024-04-15 14:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fgutils
+[2024-04-15 14:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mecab-python3
+[2024-04-15 14:45:59] INFO root fetch - processPackages [bbot]: New version: [1.1.7.7rc0] Old Version: [1.1.7.6rc0]
+[2024-04-15 14:45:59] INFO root fetch - processPackages [fgutils]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-15 14:45:59] INFO root fetch - processPackages [python-timeout]: New version: [5.6] Old Version: [5.5]
+[2024-04-15 14:45:59] INFO root fetch - processPackages [touch-sdk]: New version: [0.7.0] Old Version: [0.6.7]
+[2024-04-15 14:45:59] INFO root fetch - processPackages [bbot]: Downloading https://files.pythonhosted.org/packages/0e/89/05677f40d2885a5aa8306d6e691a9c8e8bde59b2659d8c45e30c01a31b74/bbot-1.1.7.6rc0.tar.gz
+[2024-04-15 14:45:59] INFO root fetch - processPackages [mecab-python3]: New version: [1.0.9.dev7] Old Version: [1.0.9.dev6]
+[2024-04-15 14:45:59] INFO root fetch - processPackages [python-timeout]: Downloading https://files.pythonhosted.org/packages/80/87/ca6daa5ee624cbf6f256694dc1bb10ed72a8a589776101c1a8eb680e7adb/python-timeout-5.5.tar.gz
+[2024-04-15 14:45:59] INFO root fetch - processPackages [touch-sdk]: Downloading https://files.pythonhosted.org/packages/59/a1/0441156a6eff59fe42964a1c867e3dc1e43840abc36a614d1652cfc5ea03/touch_sdk-0.6.7.tar.gz
+[2024-04-15 14:45:59] INFO root fetch - processPackages [fgutils]: Downloading https://files.pythonhosted.org/packages/0b/a9/7ce8b275be4ea5a9f0e5820bea1855139384aeddb7626d29263973c32113/fgutils-0.0.7.tar.gz
+[2024-04-15 14:45:59] INFO root fetch - processPackages [mecab-python3]: Downloading https://files.pythonhosted.org/packages/fc/0c/7654c11de2ac0aaa7e387c7add25594a88f37276a237a92cac80531cac80/mecab_python3-1.0.9.dev6.tar.gz
+[2024-04-15 14:45:59] INFO root fetch - processPackages [bbot]: Downloading https://files.pythonhosted.org/packages/84/41/8580d0cea5bf01417fb7b7db4ce6c0bc6617c939c9859c98790d2121b508/bbot-1.1.7.7rc0.tar.gz
+[2024-04-15 14:45:59] INFO root fetch - processPackages [python-timeout]: Downloading https://files.pythonhosted.org/packages/a7/1e/2936981dc164d46528189a68eb7be4a93dea0397b3e2cb742b2412325074/python-timeout-5.6.tar.gz
+[2024-04-15 14:45:59] INFO root fetch - processPackages [fgutils]: Downloading https://files.pythonhosted.org/packages/80/18/26339678181e627e22509518537c67d0c0d10a3c6840dd8a434b091ea0c0/fgutils-0.0.8.tar.gz
+[2024-04-15 14:45:59] INFO root fetch - processPackages [touch-sdk]: Downloading https://files.pythonhosted.org/packages/db/e0/6ef7666af48feae4e4203403d8a3cb3afcec5a02bf702cd45789261fff53/touch_sdk-0.7.0.tar.gz
+[2024-04-15 14:46:00] INFO root fetch - processPackages [bbot]: executing diffoscope
+[2024-04-15 14:46:00] INFO root fetch - processPackages [bbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbot-1.1.7.6rc0.tar.gz tmp/bbot-1.1.7.7rc0.tar.gz --markdown 20240415/b/bbot/1.1.7.6rc0-1.1.7.7rc0/README.md --exclude *.pyd
+[2024-04-15 14:46:00] INFO root fetch - processPackages [mecab-python3]: Downloading https://files.pythonhosted.org/packages/78/24/918953eda9510a2a26e20a20b448b019b47f57512d6fe6db149b9e3e4f9f/mecab_python3-1.0.9.dev7.tar.gz
+[2024-04-15 14:46:00] INFO root fetch - processPackages [python-timeout]: executing diffoscope
+[2024-04-15 14:46:00] INFO root fetch - processPackages [python-timeout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-timeout-5.5.tar.gz tmp/python-timeout-5.6.tar.gz --markdown 20240415/p/python-timeout/5.5-5.6/README.md --exclude *.pyd
+[2024-04-15 14:46:00] INFO root fetch - processPackages [mecab-python3]: executing diffoscope
+[2024-04-15 14:46:00] INFO root fetch - processPackages [mecab-python3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecab_python3-1.0.9.dev6.tar.gz tmp/mecab_python3-1.0.9.dev7.tar.gz --markdown 20240415/m/mecab-python3/1.0.9.dev6-1.0.9.dev7/README.md --exclude *.pyd
+[2024-04-15 14:46:00] INFO root fetch - processPackages [fgutils]: executing diffoscope
+[2024-04-15 14:46:00] INFO root fetch - processPackages [fgutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fgutils-0.0.7.tar.gz tmp/fgutils-0.0.8.tar.gz --markdown 20240415/f/fgutils/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-15 14:46:00] INFO root fetch - processPackages [touch-sdk]: executing diffoscope
+[2024-04-15 14:46:00] INFO root fetch - processPackages [touch-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/touch_sdk-0.6.7.tar.gz tmp/touch_sdk-0.7.0.tar.gz --markdown 20240415/t/touch-sdk/0.6.7-0.7.0/README.md --exclude *.pyd
+[2024-04-15 14:46:00] INFO root fetch - processPackages [python-timeout]: Remove: archive file [/home/abi/fetcher/tmp/python-timeout-5.5.tar.gz]
+[2024-04-15 14:46:00] INFO root fetch - processPackages [python-timeout]: Remove: archive file [/home/abi/fetcher/tmp/python-timeout-5.6.tar.gz]
+[2024-04-15 14:46:00] INFO root fetch - main [MainThread]: End processing [python-timeout]: success
+[2024-04-15 14:46:00] INFO root fetch - processPackages [fgutils]: Remove: archive file [/home/abi/fetcher/tmp/fgutils-0.0.7.tar.gz]
+[2024-04-15 14:46:00] INFO root fetch - processPackages [fgutils]: Remove: archive file [/home/abi/fetcher/tmp/fgutils-0.0.8.tar.gz]
+[2024-04-15 14:46:00] INFO root fetch - main [MainThread]: End processing [fgutils]: success
+[2024-04-15 14:46:01] INFO root fetch - processPackages [touch-sdk]: Remove: archive file [/home/abi/fetcher/tmp/touch_sdk-0.6.7.tar.gz]
+[2024-04-15 14:46:01] INFO root fetch - processPackages [touch-sdk]: Remove: archive file [/home/abi/fetcher/tmp/touch_sdk-0.7.0.tar.gz]
+[2024-04-15 14:46:01] INFO root fetch - main [MainThread]: End processing [touch-sdk]: success
+[2024-04-15 14:46:01] INFO root fetch - processPackages [mecab-python3]: Remove: archive file [/home/abi/fetcher/tmp/mecab_python3-1.0.9.dev6.tar.gz]
+[2024-04-15 14:46:01] INFO root fetch - processPackages [mecab-python3]: Remove: archive file [/home/abi/fetcher/tmp/mecab_python3-1.0.9.dev7.tar.gz]
+[2024-04-15 14:46:01] INFO root fetch - main [MainThread]: End processing [mecab-python3]: success
+[2024-04-15 14:46:01] INFO root fetch - processPackages [bbot]: Remove: archive file [/home/abi/fetcher/tmp/bbot-1.1.7.6rc0.tar.gz]
+[2024-04-15 14:46:01] INFO root fetch - processPackages [bbot]: Remove: archive file [/home/abi/fetcher/tmp/bbot-1.1.7.7rc0.tar.gz]
+[2024-04-15 14:46:01] INFO root fetch - main [MainThread]: End processing [bbot]: success
+[2024-04-15 14:46:01] INFO root fetch - main [MainThread]: Store serial: [22771092]
