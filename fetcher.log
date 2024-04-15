@@ -4435,3 +4435,33 @@
 [2024-04-15 05:48:24] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.95.tar.gz]
 [2024-04-15 05:48:24] INFO root fetch - main [MainThread]: End processing [ccdt]: success
 [2024-04-15 05:48:24] INFO root fetch - main [MainThread]: Store serial: [22765168]
+[2024-04-15 05:50:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22765168]
+[2024-04-15 05:50:32] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-15 05:50:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: caustic.lexer
+[2024-04-15 05:50:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: remindmail
+[2024-04-15 05:50:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: serverjars-api
+[2024-04-15 05:50:32] INFO root fetch - processPackages [caustic.lexer]: New version: [1.2.1] Old Version: [1.2.0.post1]
+[2024-04-15 05:50:32] INFO root fetch - processPackages [remindmail]: New version: [2024.4.14.2] Old Version: [2024.4.14.1]
+[2024-04-15 05:50:32] INFO root fetch - processPackages [serverjars-api]: New version: [1.3.0] Old Version: [1.2.0]
+[2024-04-15 05:50:32] INFO root fetch - processPackages [caustic.lexer]: Downloading https://files.pythonhosted.org/packages/65/b0/fda5ce9897320362db2b68c58112c847e8f010d57b5ca36acf6190d10bf0/caustic.lexer-1.2.0.post1.tar.gz
+[2024-04-15 05:50:32] INFO root fetch - processPackages [remindmail]: Downloading https://files.pythonhosted.org/packages/f6/ef/78970acf91424d9ec733bf5a8a3bc4faaf8a57480eec0148c1e7ad027597/remindmail-2024.4.14.1.tar.gz
+[2024-04-15 05:50:32] INFO root fetch - processPackages [serverjars-api]: Downloading https://files.pythonhosted.org/packages/ff/7b/3154e6b3f656b0716fb836731b151226bf8726c0704f856f88bb9fb297d5/serverjars-api-1.2.0.tar.gz
+[2024-04-15 05:50:32] INFO root fetch - processPackages [caustic.lexer]: Downloading https://files.pythonhosted.org/packages/9c/70/3b27ee3584fca24c6dd4133e357029c18a5080ab89ee2a70f55f4a6e8e46/caustic.lexer-1.2.1.tar.gz
+[2024-04-15 05:50:32] INFO root fetch - processPackages [remindmail]: Downloading https://files.pythonhosted.org/packages/37/1a/3a99862b9324d5a53a3b01c4c519858ac9e5ec94c235390bd99389059c95/remindmail-2024.4.14.2.tar.gz
+[2024-04-15 05:50:32] INFO root fetch - processPackages [caustic.lexer]: executing diffoscope
+[2024-04-15 05:50:32] INFO root fetch - processPackages [caustic.lexer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caustic.lexer-1.2.0.post1.tar.gz tmp/caustic.lexer-1.2.1.tar.gz --markdown 20240415/c/caustic.lexer/1.2.0.post1-1.2.1/README.md --exclude *.pyd
+[2024-04-15 05:50:33] INFO root fetch - processPackages [remindmail]: executing diffoscope
+[2024-04-15 05:50:33] INFO root fetch - processPackages [remindmail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remindmail-2024.4.14.1.tar.gz tmp/remindmail-2024.4.14.2.tar.gz --markdown 20240415/r/remindmail/2024.4.14.1-2024.4.14.2/README.md --exclude *.pyd
+[2024-04-15 05:50:33] INFO root fetch - processPackages [serverjars-api]: Downloading https://files.pythonhosted.org/packages/ae/0b/d63bcc73048cc2ddce8cfc53911217d01cfca39fed54ef90d20247d8c4fe/serverjars-api-1.3.0.tar.gz
+[2024-04-15 05:50:33] INFO root fetch - processPackages [serverjars-api]: executing diffoscope
+[2024-04-15 05:50:33] INFO root fetch - processPackages [serverjars-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serverjars-api-1.2.0.tar.gz tmp/serverjars-api-1.3.0.tar.gz --markdown 20240415/s/serverjars-api/1.2.0-1.3.0/README.md --exclude *.pyd
+[2024-04-15 05:50:33] INFO root fetch - processPackages [remindmail]: Remove: archive file [/home/abi/fetcher/tmp/remindmail-2024.4.14.1.tar.gz]
+[2024-04-15 05:50:33] INFO root fetch - processPackages [remindmail]: Remove: archive file [/home/abi/fetcher/tmp/remindmail-2024.4.14.2.tar.gz]
+[2024-04-15 05:50:33] INFO root fetch - main [MainThread]: End processing [remindmail]: success
+[2024-04-15 05:50:33] INFO root fetch - processPackages [caustic.lexer]: Remove: archive file [/home/abi/fetcher/tmp/caustic.lexer-1.2.0.post1.tar.gz]
+[2024-04-15 05:50:33] INFO root fetch - processPackages [caustic.lexer]: Remove: archive file [/home/abi/fetcher/tmp/caustic.lexer-1.2.1.tar.gz]
+[2024-04-15 05:50:33] INFO root fetch - main [MainThread]: End processing [caustic.lexer]: success
+[2024-04-15 05:50:33] INFO root fetch - processPackages [serverjars-api]: Remove: archive file [/home/abi/fetcher/tmp/serverjars-api-1.2.0.tar.gz]
+[2024-04-15 05:50:33] INFO root fetch - processPackages [serverjars-api]: Remove: archive file [/home/abi/fetcher/tmp/serverjars-api-1.3.0.tar.gz]
+[2024-04-15 05:50:33] INFO root fetch - main [MainThread]: End processing [serverjars-api]: success
+[2024-04-15 05:50:33] INFO root fetch - main [MainThread]: Store serial: [22765176]
