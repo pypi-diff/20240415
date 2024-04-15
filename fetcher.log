@@ -15882,3 +15882,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 13:06:25] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-59.9.1.tar.gz]
 [2024-04-15 13:06:25] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-04-15 13:06:25] INFO root fetch - main [MainThread]: Store serial: [22769861]
+[2024-04-15 13:08:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22769861]
+[2024-04-15 13:08:36] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-15 13:08:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shopware-api-client
+[2024-04-15 13:08:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-web-field-tooltip
+[2024-04-15 13:08:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zodchy-security
+[2024-04-15 13:08:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moonstreamdb
+[2024-04-15 13:08:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: itakello-logging
+[2024-04-15 13:08:36] INFO root fetch - processPackages [shopware-api-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-15 13:08:36] INFO root fetch - processPackages [itakello-logging]: New version: [0.2.0] Old Version: [0.1.8]
+[2024-04-15 13:08:36] INFO root fetch - processPackages [zodchy-security]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-15 13:08:36] INFO root fetch - processPackages [shopware-api-client]: Downloading https://files.pythonhosted.org/packages/b7/0f/6c9dc02510fb7785f1be2822ab641b54bf44cf6cb4df1763cdba560cc69b/shopware_api_client-1.0.8.tar.gz
+[2024-04-15 13:08:36] INFO root fetch - processPackages [moonstreamdb]: New version: [0.4.1] Old Version: [0.3.9]
+[2024-04-15 13:08:36] WARNING root fetch - processPackages [odoo-addon-web-field-tooltip]: Skipping, unable to determine old version
+[2024-04-15 13:08:36] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-field-tooltip] error
+[2024-04-15 13:08:36] INFO root fetch - processPackages [itakello-logging]: Downloading https://files.pythonhosted.org/packages/99/db/7323e7e0ec505a22a3f4ef80b70766b44cbdfd85fa2b49232a116d36c1a8/itakello_logging-0.1.8.tar.gz
+[2024-04-15 13:08:36] INFO root fetch - processPackages [zodchy-security]: Downloading https://files.pythonhosted.org/packages/28/63/047bf20aeed0412ebe199c1cce85e25c42c497bbde97f7c477a995390958/zodchy_security-0.1.0.tar.gz
+[2024-04-15 13:08:36] INFO root fetch - processPackages [moonstreamdb]: Downloading https://files.pythonhosted.org/packages/1e/62/461691e87077f3969afaa756ab875aa88beb7c4a8738965f3375f46ebbe1/moonstreamdb-0.3.9.tar.gz
+[2024-04-15 13:08:36] INFO root fetch - processPackages [shopware-api-client]: Downloading https://files.pythonhosted.org/packages/71/6c/c42b67ee3d6f04c8e4203f50b963d759982a0c08ac17865980b8cf805393/shopware_api_client-1.0.9.tar.gz
+[2024-04-15 13:08:36] INFO root fetch - processPackages [shopware-api-client]: executing diffoscope
+[2024-04-15 13:08:36] INFO root fetch - processPackages [shopware-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shopware_api_client-1.0.8.tar.gz tmp/shopware_api_client-1.0.9.tar.gz --markdown 20240415/s/shopware-api-client/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-15 13:08:37] INFO root fetch - processPackages [zodchy-security]: Downloading https://files.pythonhosted.org/packages/3f/54/2b1144d307a2c792a54d3852e714ea75b7469fdefe4d9519cfe5694f4b84/zodchy_security-0.1.1.tar.gz
+[2024-04-15 13:08:37] INFO root fetch - processPackages [moonstreamdb]: Downloading https://files.pythonhosted.org/packages/eb/3d/2ec8d14fb5a5fd342f8793cc4f8d12fd70fa0266cd3b72f9f5ecfbfdffa2/moonstreamdb-0.4.1.tar.gz
+[2024-04-15 13:08:37] INFO root fetch - processPackages [itakello-logging]: Downloading https://files.pythonhosted.org/packages/d9/0e/1d45004d08519825d9db51a7884760e1a6982bab091b743d675df1ea47dc/itakello_logging-0.2.0.tar.gz
+[2024-04-15 13:08:37] INFO root fetch - processPackages [zodchy-security]: executing diffoscope
+[2024-04-15 13:08:37] INFO root fetch - processPackages [zodchy-security]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zodchy_security-0.1.0.tar.gz tmp/zodchy_security-0.1.1.tar.gz --markdown 20240415/z/zodchy-security/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-15 13:08:37] INFO root fetch - processPackages [moonstreamdb]: executing diffoscope
+[2024-04-15 13:08:37] INFO root fetch - processPackages [moonstreamdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moonstreamdb-0.3.9.tar.gz tmp/moonstreamdb-0.4.1.tar.gz --markdown 20240415/m/moonstreamdb/0.3.9-0.4.1/README.md --exclude *.pyd
+[2024-04-15 13:08:37] INFO root fetch - processPackages [itakello-logging]: executing diffoscope
+[2024-04-15 13:08:37] INFO root fetch - processPackages [itakello-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itakello_logging-0.1.8.tar.gz tmp/itakello_logging-0.2.0.tar.gz --markdown 20240415/i/itakello-logging/0.1.8-0.2.0/README.md --exclude *.pyd
+[2024-04-15 13:08:37] INFO root fetch - processPackages [shopware-api-client]: Remove: archive file [/home/abi/fetcher/tmp/shopware_api_client-1.0.8.tar.gz]
+[2024-04-15 13:08:37] INFO root fetch - processPackages [shopware-api-client]: Remove: archive file [/home/abi/fetcher/tmp/shopware_api_client-1.0.9.tar.gz]
+[2024-04-15 13:08:37] INFO root fetch - main [MainThread]: End processing [shopware-api-client]: success
+[2024-04-15 13:08:37] INFO root fetch - processPackages [zodchy-security]: Remove: archive file [/home/abi/fetcher/tmp/zodchy_security-0.1.0.tar.gz]
+[2024-04-15 13:08:37] INFO root fetch - processPackages [zodchy-security]: Remove: archive file [/home/abi/fetcher/tmp/zodchy_security-0.1.1.tar.gz]
+[2024-04-15 13:08:37] INFO root fetch - main [MainThread]: End processing [zodchy-security]: success
+[2024-04-15 13:08:37] INFO root fetch - processPackages [itakello-logging]: Remove: archive file [/home/abi/fetcher/tmp/itakello_logging-0.1.8.tar.gz]
+[2024-04-15 13:08:37] INFO root fetch - processPackages [itakello-logging]: Remove: archive file [/home/abi/fetcher/tmp/itakello_logging-0.2.0.tar.gz]
+[2024-04-15 13:08:37] INFO root fetch - main [MainThread]: End processing [itakello-logging]: success
+[2024-04-15 13:08:37] INFO root fetch - processPackages [moonstreamdb]: Remove: archive file [/home/abi/fetcher/tmp/moonstreamdb-0.3.9.tar.gz]
+[2024-04-15 13:08:37] INFO root fetch - processPackages [moonstreamdb]: Remove: archive file [/home/abi/fetcher/tmp/moonstreamdb-0.4.1.tar.gz]
+[2024-04-15 13:08:37] INFO root fetch - main [MainThread]: End processing [moonstreamdb]: success
+[2024-04-15 13:08:37] INFO root fetch - main [MainThread]: Store serial: [22769877]
