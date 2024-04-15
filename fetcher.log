@@ -3208,3 +3208,31 @@
 [2024-04-15 04:31:54] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ignite-0.6.0.dev20240415.tar.gz]
 [2024-04-15 04:31:54] INFO root fetch - main [MainThread]: End processing [pytorch-ignite]: success
 [2024-04-15 04:31:54] INFO root fetch - main [MainThread]: Store serial: [22764689]
+[2024-04-15 04:33:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22764689]
+[2024-04-15 04:34:02] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-15 04:34:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: schwab-py
+[2024-04-15 04:34:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moval
+[2024-04-15 04:34:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: schwab-py
+[2024-04-15 04:34:02] INFO root fetch - processPackages [schwab-py]: New version: [0.0.0a9] Old Version: [0.0.0a8]
+[2024-04-15 04:34:02] INFO root fetch - processPackages [schwab-py]: New version: [0.0.0a9] Old Version: [0.0.0a8]
+[2024-04-15 04:34:02] INFO root fetch - processPackages [moval]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-15 04:34:02] INFO root fetch - processPackages [schwab-py]: Downloading https://files.pythonhosted.org/packages/4a/97/d78b9c894adc5546c1464a6150bd183cffc758049f5f599b96df24c97f56/schwab-py-0.0.0a8.tar.gz
+[2024-04-15 04:34:02] INFO root fetch - processPackages [schwab-py]: Downloading https://files.pythonhosted.org/packages/4a/97/d78b9c894adc5546c1464a6150bd183cffc758049f5f599b96df24c97f56/schwab-py-0.0.0a8.tar.gz
+[2024-04-15 04:34:02] INFO root fetch - processPackages [moval]: Downloading https://files.pythonhosted.org/packages/2f/2a/fce64bfb12450128441844587623d883ace479e64f62685d578d0994f441/moval-0.2.8.tar.gz
+[2024-04-15 04:34:02] INFO root fetch - processPackages [moval]: Downloading https://files.pythonhosted.org/packages/ad/4e/1ade376222c4151a24bb8a4462afedaa311f1595b592028fb7632f57e1ae/moval-0.2.9.tar.gz
+[2024-04-15 04:34:03] INFO root fetch - processPackages [moval]: executing diffoscope
+[2024-04-15 04:34:03] INFO root fetch - processPackages [moval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moval-0.2.8.tar.gz tmp/moval-0.2.9.tar.gz --markdown 20240415/m/moval/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-15 04:34:03] INFO root fetch - processPackages [schwab-py]: Downloading https://files.pythonhosted.org/packages/f3/f1/efd2cf1baeff4d7f78477ad6df2d7f97c864c877ffd1d2e6a1425706ef14/schwab-py-0.0.0a9.tar.gz
+[2024-04-15 04:34:03] INFO root fetch - processPackages [schwab-py]: Downloading https://files.pythonhosted.org/packages/f3/f1/efd2cf1baeff4d7f78477ad6df2d7f97c864c877ffd1d2e6a1425706ef14/schwab-py-0.0.0a9.tar.gz
+[2024-04-15 04:34:03] INFO root fetch - processPackages [schwab-py]: executing diffoscope
+[2024-04-15 04:34:03] INFO root fetch - processPackages [schwab-py]: executing diffoscope
+[2024-04-15 04:34:03] INFO root fetch - processPackages [schwab-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schwab-py-0.0.0a8.tar.gz tmp/schwab-py-0.0.0a9.tar.gz --markdown 20240415/s/schwab-py/0.0.0a8-0.0.0a9/README.md --exclude *.pyd
+[2024-04-15 04:34:03] INFO root fetch - processPackages [schwab-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schwab-py-0.0.0a8.tar.gz tmp/schwab-py-0.0.0a9.tar.gz --markdown 20240415/s/schwab-py/0.0.0a8-0.0.0a9/README.md --exclude *.pyd
+[2024-04-15 04:34:03] INFO root fetch - processPackages [moval]: Remove: archive file [/home/abi/fetcher/tmp/moval-0.2.8.tar.gz]
+[2024-04-15 04:34:03] INFO root fetch - processPackages [moval]: Remove: archive file [/home/abi/fetcher/tmp/moval-0.2.9.tar.gz]
+[2024-04-15 04:34:03] INFO root fetch - main [MainThread]: End processing [moval]: success
+[2024-04-15 04:34:03] INFO root fetch - processPackages [schwab-py]: Remove: archive file [/home/abi/fetcher/tmp/schwab-py-0.0.0a8.tar.gz]
+[2024-04-15 04:34:03] INFO root fetch - processPackages [schwab-py]: Remove: archive file [/home/abi/fetcher/tmp/schwab-py-0.0.0a9.tar.gz]
+[2024-04-15 04:34:03] INFO root fetch - main [MainThread]: End processing [schwab-py]: success
+[2024-04-15 04:34:03] INFO root fetch - main [MainThread]: End processing [schwab-py]: success
+[2024-04-15 04:34:03] INFO root fetch - main [MainThread]: Store serial: [22764703]
