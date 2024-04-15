@@ -9690,3 +9690,24 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 09:12:47] INFO root fetch - processPackages [daktari]: Remove: archive file [/home/abi/fetcher/tmp/daktari-0.0.99.tar.gz]
 [2024-04-15 09:12:47] INFO root fetch - main [MainThread]: End processing [daktari]: success
 [2024-04-15 09:12:47] INFO root fetch - main [MainThread]: Store serial: [22767126]
+[2024-04-15 09:14:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22767126]
+[2024-04-15 09:14:56] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-15 09:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tjax
+[2024-04-15 09:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sembansurga
+[2024-04-15 09:14:56] INFO root fetch - processPackages [sembansurga]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-15 09:14:56] INFO root fetch - processPackages [tjax]: New version: [0.9.0] Old Version: [0.8.4]
+[2024-04-15 09:14:56] INFO root fetch - processPackages [sembansurga]: Downloading https://files.pythonhosted.org/packages/50/48/5241665ff4f2bc94e64cd5d3ee71c6a28cc315637f706f6a9b7a6d6a4330/sembansurga-1.0.8.tar.gz
+[2024-04-15 09:14:56] INFO root fetch - processPackages [tjax]: Downloading https://files.pythonhosted.org/packages/0a/6a/2363c88006dd7f98956bcd37716a18eff3b3138599af4e6dbde76d22d085/tjax-0.8.4.tar.gz
+[2024-04-15 09:14:57] INFO root fetch - processPackages [tjax]: Downloading https://files.pythonhosted.org/packages/be/f1/ce1970f050f673ae52c304257120a380736f531fee4d81b57ab0f24b506f/tjax-0.9.0.tar.gz
+[2024-04-15 09:14:57] INFO root fetch - processPackages [sembansurga]: Downloading https://files.pythonhosted.org/packages/19/22/e98f1c57bfceda061bf2ac254e7f1e792b0f7fa8599caea8701d09f3bef9/sembansurga-1.0.9.tar.gz
+[2024-04-15 09:14:57] INFO root fetch - processPackages [tjax]: executing diffoscope
+[2024-04-15 09:14:57] INFO root fetch - processPackages [tjax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tjax-0.8.4.tar.gz tmp/tjax-0.9.0.tar.gz --markdown 20240415/t/tjax/0.8.4-0.9.0/README.md --exclude *.pyd
+[2024-04-15 09:14:57] INFO root fetch - processPackages [sembansurga]: executing diffoscope
+[2024-04-15 09:14:57] INFO root fetch - processPackages [sembansurga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sembansurga-1.0.8.tar.gz tmp/sembansurga-1.0.9.tar.gz --markdown 20240415/s/sembansurga/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-15 09:14:58] INFO root fetch - processPackages [sembansurga]: Remove: archive file [/home/abi/fetcher/tmp/sembansurga-1.0.8.tar.gz]
+[2024-04-15 09:14:58] INFO root fetch - processPackages [sembansurga]: Remove: archive file [/home/abi/fetcher/tmp/sembansurga-1.0.9.tar.gz]
+[2024-04-15 09:14:58] INFO root fetch - main [MainThread]: End processing [sembansurga]: success
+[2024-04-15 09:14:58] INFO root fetch - processPackages [tjax]: Remove: archive file [/home/abi/fetcher/tmp/tjax-0.8.4.tar.gz]
+[2024-04-15 09:14:58] INFO root fetch - processPackages [tjax]: Remove: archive file [/home/abi/fetcher/tmp/tjax-0.9.0.tar.gz]
+[2024-04-15 09:14:58] INFO root fetch - main [MainThread]: End processing [tjax]: success
+[2024-04-15 09:14:58] INFO root fetch - main [MainThread]: Store serial: [22767133]
