@@ -16154,3 +16154,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 13:15:13] INFO root fetch - processPackages [pcffont]: Remove: archive file [/home/abi/fetcher/tmp/pcffont-0.0.3.tar.gz]
 [2024-04-15 13:15:13] INFO root fetch - main [MainThread]: End processing [pcffont]: success
 [2024-04-15 13:15:13] INFO root fetch - main [MainThread]: Store serial: [22769938]
+[2024-04-15 13:17:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22769938]
+[2024-04-15 13:17:23] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-15 13:17:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pre5g
+[2024-04-15 13:17:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyuftp
+[2024-04-15 13:17:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oarepo-model-builder
+[2024-04-15 13:17:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytorch-ood
+[2024-04-15 13:17:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: conf-ini-g
+[2024-04-15 13:17:23] INFO root fetch - processPackages [pre5g]: New version: [3.0] Old Version: [2.9]
+[2024-04-15 13:17:23] INFO root fetch - processPackages [pytorch-ood]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-15 13:17:23] INFO root fetch - processPackages [pyuftp]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-15 13:17:23] INFO root fetch - processPackages [conf-ini-g]: New version: [2024.1] Old Version: [2023.9]
+[2024-04-15 13:17:23] INFO root fetch - processPackages [oarepo-model-builder]: New version: [4.0.9] Old Version: [4.0.84]
+[2024-04-15 13:17:23] INFO root fetch - processPackages [pre5g]: Downloading https://files.pythonhosted.org/packages/63/47/361c781837564b1d95f2c3f2ed2e12205703a14b23c8a6ab16f90abbd062/pre5g-2.9.tar.gz
+[2024-04-15 13:17:23] INFO root fetch - processPackages [oarepo-model-builder]: Downloading https://files.pythonhosted.org/packages/51/20/99d28ad2c2f72275ab320751f7184c29074cc1343a97d5ba3dcbf7e16fe1/oarepo_model_builder-4.0.84.tar.gz
+[2024-04-15 13:17:23] INFO root fetch - processPackages [pytorch-ood]: Downloading https://files.pythonhosted.org/packages/7a/ef/2d21105b7ab3f88bfabd38601c5214d40364b07063800d04f51ec2a4b1f4/pytorch_ood-0.1.7-py3-none-any.whl
+[2024-04-15 13:17:23] INFO root fetch - processPackages [pyuftp]: Downloading https://files.pythonhosted.org/packages/b9/cc/de01dcae54f9382b18a49e00295fb3ce0a6bb0b5e47c1f03bc6eb07badef/pyuftp-1.0.0.tar.gz
+[2024-04-15 13:17:23] INFO root fetch - processPackages [conf-ini-g]: Downloading https://files.pythonhosted.org/packages/51/f2/1456ae1b80acc3a9ea530d269c63354a04824f71f7f031526666c5c9f1e4/conf-ini-g-2023.9.tar.gz
+[2024-04-15 13:17:23] INFO root fetch - processPackages [pre5g]: Downloading https://files.pythonhosted.org/packages/0d/f7/248905e16f5840afe1d27da94e1f5e6b1159f87f7b64175f0da540b60173/pre5g-3.0.tar.gz
+[2024-04-15 13:17:23] INFO root fetch - processPackages [pre5g]: executing diffoscope
+[2024-04-15 13:17:23] INFO root fetch - processPackages [pre5g]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pre5g-2.9.tar.gz tmp/pre5g-3.0.tar.gz --markdown 20240415/p/pre5g/2.9-3.0/README.md --exclude *.pyd
+[2024-04-15 13:17:23] INFO root fetch - processPackages [pyuftp]: Downloading https://files.pythonhosted.org/packages/5f/4a/63376fdf4445189618b9035873cb74c275f7b6205074ce41782f4abd42a8/pyuftp-1.0.1.tar.gz
+[2024-04-15 13:17:23] INFO root fetch - processPackages [pytorch-ood]: Downloading https://files.pythonhosted.org/packages/a3/4f/bd8f3194bba0576677c0e680af3ac1d8fda25bd838d1f37dc018ce0a0047/pytorch_ood-0.1.8-py3-none-any.whl
+[2024-04-15 13:17:24] INFO root fetch - processPackages [oarepo-model-builder]: Downloading https://files.pythonhosted.org/packages/d0/c0/f88cc77e087d52084596bac94c3c439ecf68e7ef6b2b2efa8058d91454f9/oarepo-model-builder-4.0.9.tar.gz
+[2024-04-15 13:17:24] INFO root fetch - processPackages [conf-ini-g]: Downloading https://files.pythonhosted.org/packages/81/fb/a81bce1dab9760d54764168b5dfd4a3edfd12791e8ae0517587a5c6c3f28/conf_ini_g-2024.1.tar.gz
+[2024-04-15 13:17:24] INFO root fetch - processPackages [pyuftp]: executing diffoscope
+[2024-04-15 13:17:24] INFO root fetch - processPackages [pyuftp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyuftp-1.0.0.tar.gz tmp/pyuftp-1.0.1.tar.gz --markdown 20240415/p/pyuftp/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-15 13:17:24] INFO root fetch - processPackages [pytorch-ood]: executing diffoscope
+[2024-04-15 13:17:24] INFO root fetch - processPackages [pytorch-ood]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch_ood-0.1.7-py3-none-any.whl.zip tmp/pytorch_ood-0.1.8-py3-none-any.whl.zip --markdown 20240415/p/pytorch-ood/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-15 13:17:24] INFO root fetch - processPackages [oarepo-model-builder]: executing diffoscope
+[2024-04-15 13:17:24] INFO root fetch - processPackages [oarepo-model-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo_model_builder-4.0.84.tar.gz tmp/oarepo-model-builder-4.0.9.tar.gz --markdown 20240415/o/oarepo-model-builder/4.0.84-4.0.9/README.md --exclude *.pyd
+[2024-04-15 13:17:24] INFO root fetch - processPackages [conf-ini-g]: executing diffoscope
+[2024-04-15 13:17:24] INFO root fetch - processPackages [conf-ini-g]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conf-ini-g-2023.9.tar.gz tmp/conf_ini_g-2024.1.tar.gz --markdown 20240415/c/conf-ini-g/2023.9-2024.1/README.md --exclude *.pyd
+[2024-04-15 13:17:24] INFO root fetch - processPackages [pre5g]: Remove: archive file [/home/abi/fetcher/tmp/pre5g-2.9.tar.gz]
+[2024-04-15 13:17:24] INFO root fetch - processPackages [pre5g]: Remove: archive file [/home/abi/fetcher/tmp/pre5g-3.0.tar.gz]
+[2024-04-15 13:17:24] INFO root fetch - main [MainThread]: End processing [pre5g]: success
+[2024-04-15 13:17:24] INFO root fetch - processPackages [pyuftp]: Remove: archive file [/home/abi/fetcher/tmp/pyuftp-1.0.0.tar.gz]
+[2024-04-15 13:17:24] INFO root fetch - processPackages [pyuftp]: Remove: archive file [/home/abi/fetcher/tmp/pyuftp-1.0.1.tar.gz]
+[2024-04-15 13:17:24] INFO root fetch - main [MainThread]: End processing [pyuftp]: success
+[2024-04-15 13:17:25] INFO root fetch - processPackages [pytorch-ood]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_ood-0.1.7-py3-none-any.whl.zip]
+[2024-04-15 13:17:25] INFO root fetch - processPackages [pytorch-ood]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_ood-0.1.8-py3-none-any.whl.zip]
+[2024-04-15 13:17:25] INFO root fetch - main [MainThread]: End processing [pytorch-ood]: success
+[2024-04-15 13:17:25] INFO root fetch - processPackages [conf-ini-g]: Remove: archive file [/home/abi/fetcher/tmp/conf-ini-g-2023.9.tar.gz]
+[2024-04-15 13:17:25] INFO root fetch - processPackages [conf-ini-g]: Remove: archive file [/home/abi/fetcher/tmp/conf_ini_g-2024.1.tar.gz]
+[2024-04-15 13:17:25] INFO root fetch - main [MainThread]: End processing [conf-ini-g]: success
+[2024-04-15 13:17:25] INFO root fetch - processPackages [oarepo-model-builder]: Remove: archive file [/home/abi/fetcher/tmp/oarepo_model_builder-4.0.84.tar.gz]
+[2024-04-15 13:17:25] INFO root fetch - processPackages [oarepo-model-builder]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-4.0.9.tar.gz]
+[2024-04-15 13:17:25] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder]: success
+[2024-04-15 13:17:25] INFO root fetch - main [MainThread]: Store serial: [22769952]
