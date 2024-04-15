@@ -10219,3 +10219,44 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 09:37:27] INFO root fetch - processPackages [cdktf]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-0.9.4.tar.gz]
 [2024-04-15 09:37:27] INFO root fetch - main [MainThread]: End processing [cdktf]: success
 [2024-04-15 09:37:27] INFO root fetch - main [MainThread]: Store serial: [22767386]
+[2024-04-15 09:39:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22767386]
+[2024-04-15 09:39:35] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-15 09:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumiverse-grafana
+[2024-04-15 09:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shtwopy
+[2024-04-15 09:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CoreStart
+[2024-04-15 09:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: numerous
+[2024-04-15 09:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-ssi-sequence-mixin
+[2024-04-15 09:39:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-ssi-master-data-mixin
+[2024-04-15 09:39:35] WARNING root fetch - processPackages [CoreStart]: Skipping, unable to determine old version
+[2024-04-15 09:39:35] INFO root fetch - main [MainThread]: End processing [CoreStart] error
+[2024-04-15 09:39:35] INFO root fetch - processPackages [pulumiverse-grafana]: New version: [0.4.2a1713164959] Old Version: [0.4.2a1713162907]
+[2024-04-15 09:39:36] INFO root fetch - processPackages [pulumiverse-grafana]: Downloading https://files.pythonhosted.org/packages/ec/ff/2daf1e6d35279112814280c7ebc5b86b603c058f2839c60a356d634b46ec/pulumiverse_grafana-0.4.2a1713162907.tar.gz
+[2024-04-15 09:39:36] INFO root fetch - processPackages [odoo14-addon-ssi-sequence-mixin]: New version: [14.0.2.0.0] Old Version: [14.0.1.2.0]
+[2024-04-15 09:39:36] WARNING root fetch - processPackages [shtwopy]: Skipping, unable to determine old version
+[2024-04-15 09:39:36] INFO root fetch - main [MainThread]: End processing [shtwopy] error
+[2024-04-15 09:39:36] INFO root fetch - processPackages [numerous]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-15 09:39:36] INFO root fetch - processPackages [odoo14-addon-ssi-master-data-mixin]: New version: [14.0.4.0.0] Old Version: [14.0.3.1.1]
+[2024-04-15 09:39:36] INFO root fetch - processPackages [odoo14-addon-ssi-sequence-mixin]: Downloading https://files.pythonhosted.org/packages/ab/46/44bddda91cdd1bd6c5dce0e7b4b3b7d6b4f7d71c8e696206d4d330e1fea3/odoo14_addon_ssi_sequence_mixin-14.0.1.2.0-py3-none-any.whl
+[2024-04-15 09:39:36] INFO root fetch - processPackages [numerous]: Downloading https://files.pythonhosted.org/packages/77/6b/96d48ee9e315541e9d856fc6a93ffd7c7a217dc9f817f2da1ff2f37c5d0f/numerous-0.0.8.tar.gz
+[2024-04-15 09:39:36] INFO root fetch - processPackages [odoo14-addon-ssi-master-data-mixin]: Downloading https://files.pythonhosted.org/packages/f3/b8/c75a3891676ce211d887e5a2cba721e358d9b3f8c54814cd82cbf438a1e2/odoo14_addon_ssi_master_data_mixin-14.0.3.1.1-py3-none-any.whl
+[2024-04-15 09:39:36] INFO root fetch - processPackages [pulumiverse-grafana]: Downloading https://files.pythonhosted.org/packages/e0/1a/b16ce2655dc77d30984de5b7441404fc253485e320811689ba7f8a77ee5b/pulumiverse_grafana-0.4.2a1713164959.tar.gz
+[2024-04-15 09:39:36] WARNING root fetch - processPackages [numerous]: Skipping package: exceeds size limit 34528401>=10485760
+[2024-04-15 09:39:36] INFO root fetch - main [MainThread]: End processing [numerous] error
+[2024-04-15 09:39:36] INFO root fetch - processPackages [pulumiverse-grafana]: executing diffoscope
+[2024-04-15 09:39:36] INFO root fetch - processPackages [pulumiverse-grafana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumiverse_grafana-0.4.2a1713162907.tar.gz tmp/pulumiverse_grafana-0.4.2a1713164959.tar.gz --markdown 20240415/p/pulumiverse-grafana/0.4.2a1713162907-0.4.2a1713164959/README.md --exclude *.pyd
+[2024-04-15 09:39:36] INFO root fetch - processPackages [odoo14-addon-ssi-sequence-mixin]: Downloading https://files.pythonhosted.org/packages/ea/66/0e65a2f70ae929499436c6f770f02d8418608c7a753ebc71971d7c0eeacd/odoo14_addon_ssi_sequence_mixin-14.0.2.0.0-py3-none-any.whl
+[2024-04-15 09:39:36] INFO root fetch - processPackages [odoo14-addon-ssi-master-data-mixin]: Downloading https://files.pythonhosted.org/packages/1c/03/df4a969b153214ee284804c91b396ed1d76ea62c27a0fdddfffe3e2180ff/odoo14_addon_ssi_master_data_mixin-14.0.4.0.0-py3-none-any.whl
+[2024-04-15 09:39:36] INFO root fetch - processPackages [odoo14-addon-ssi-sequence-mixin]: executing diffoscope
+[2024-04-15 09:39:36] INFO root fetch - processPackages [odoo14-addon-ssi-sequence-mixin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_sequence_mixin-14.0.1.2.0-py3-none-any.whl.zip tmp/odoo14_addon_ssi_sequence_mixin-14.0.2.0.0-py3-none-any.whl.zip --markdown 20240415/o/odoo14-addon-ssi-sequence-mixin/14.0.1.2.0-14.0.2.0.0/README.md --exclude *.pyd
+[2024-04-15 09:39:36] INFO root fetch - processPackages [odoo14-addon-ssi-master-data-mixin]: executing diffoscope
+[2024-04-15 09:39:36] INFO root fetch - processPackages [odoo14-addon-ssi-master-data-mixin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_master_data_mixin-14.0.3.1.1-py3-none-any.whl.zip tmp/odoo14_addon_ssi_master_data_mixin-14.0.4.0.0-py3-none-any.whl.zip --markdown 20240415/o/odoo14-addon-ssi-master-data-mixin/14.0.3.1.1-14.0.4.0.0/README.md --exclude *.pyd
+[2024-04-15 09:39:37] INFO root fetch - processPackages [odoo14-addon-ssi-sequence-mixin]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_sequence_mixin-14.0.1.2.0-py3-none-any.whl.zip]
+[2024-04-15 09:39:37] INFO root fetch - processPackages [odoo14-addon-ssi-sequence-mixin]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_sequence_mixin-14.0.2.0.0-py3-none-any.whl.zip]
+[2024-04-15 09:39:37] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-sequence-mixin]: success
+[2024-04-15 09:39:37] INFO root fetch - processPackages [odoo14-addon-ssi-master-data-mixin]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_master_data_mixin-14.0.3.1.1-py3-none-any.whl.zip]
+[2024-04-15 09:39:37] INFO root fetch - processPackages [odoo14-addon-ssi-master-data-mixin]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_master_data_mixin-14.0.4.0.0-py3-none-any.whl.zip]
+[2024-04-15 09:39:37] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-master-data-mixin]: success
+[2024-04-15 09:39:37] INFO root fetch - processPackages [pulumiverse-grafana]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_grafana-0.4.2a1713162907.tar.gz]
+[2024-04-15 09:39:37] INFO root fetch - processPackages [pulumiverse-grafana]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_grafana-0.4.2a1713164959.tar.gz]
+[2024-04-15 09:39:37] INFO root fetch - main [MainThread]: End processing [pulumiverse-grafana]: success
+[2024-04-15 09:39:37] INFO root fetch - main [MainThread]: Store serial: [22767400]
