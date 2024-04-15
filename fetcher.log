@@ -3727,3 +3727,65 @@
 [2024-04-15 05:00:14] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.8.3.1b7.tar.gz]
 [2024-04-15 05:00:14] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
 [2024-04-15 05:00:14] INFO root fetch - main [MainThread]: Store serial: [22764882]
+[2024-04-15 05:02:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22764882]
+[2024-04-15 05:02:23] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-15 05:02:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aliyun-python-sdk-csas
+[2024-04-15 05:02:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: BioSAK
+[2024-04-15 05:02:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mns-scheduler
+[2024-04-15 05:02:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: surfkit
+[2024-04-15 05:02:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alibabacloud-csas20230120-py2
+[2024-04-15 05:02:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alibabacloud-csas20230120
+[2024-04-15 05:02:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nm-magic-wand-nightly
+[2024-04-15 05:02:23] INFO root fetch - processPackages [surfkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-15 05:02:23] INFO root fetch - processPackages [BioSAK]: New version: [1.84.1] Old Version: [1.84.0]
+[2024-04-15 05:02:23] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/00/dc/343980c083ea4ae8ce963639c51b39c0b3ba7869e96ca748256ff1b67925/surfkit-0.1.8.tar.gz
+[2024-04-15 05:02:23] INFO root fetch - processPackages [alibabacloud-csas20230120]: New version: [1.3.0] Old Version: [1.2.1]
+[2024-04-15 05:02:23] INFO root fetch - processPackages [mns-scheduler]: New version: [1.0.2.4] Old Version: [1.0.2.3]
+[2024-04-15 05:02:23] INFO root fetch - processPackages [alibabacloud-csas20230120-py2]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-04-15 05:02:23] INFO root fetch - processPackages [aliyun-python-sdk-csas]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-15 05:02:23] INFO root fetch - processPackages [BioSAK]: Downloading https://files.pythonhosted.org/packages/d2/a5/852601ad07caa8dec9172e9dda1519cf3234002ef3fa5043c8265bf5045c/BioSAK-1.84.0.tar.gz
+[2024-04-15 05:02:23] INFO root fetch - processPackages [nm-magic-wand-nightly]: New version: [0.2.2.20240415] Old Version: [0.2.2.20240414]
+[2024-04-15 05:02:23] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/e2/bd/4b842eb12eca8c3a3ea5d2915b52f91a3259c7e0160d2a0a88aeb13ae4a7/surfkit-0.1.9.tar.gz
+[2024-04-15 05:02:23] INFO root fetch - processPackages [mns-scheduler]: Downloading https://files.pythonhosted.org/packages/4a/30/c0d3df942bb8be549397d6668801c85e19997f1f568fabe090384e6d21b6/mns-scheduler-1.0.2.3.tar.gz
+[2024-04-15 05:02:23] INFO root fetch - processPackages [alibabacloud-csas20230120-py2]: Downloading https://files.pythonhosted.org/packages/47/9c/f40c3682358e46180ec52cbfceceed8d4719ac187352785c4f863718e91c/alibabacloud_csas20230120_py2-1.3.0.tar.gz
+[2024-04-15 05:02:23] INFO root fetch - processPackages [alibabacloud-csas20230120]: Downloading https://files.pythonhosted.org/packages/3e/63/78dee9dd318ce3eaffe3e2e66c6e344ce6c94d66f53f85411e37de38a19b/alibabacloud_csas20230120-1.2.1.tar.gz
+[2024-04-15 05:02:23] INFO root fetch - processPackages [nm-magic-wand-nightly]: Downloading https://files.pythonhosted.org/packages/ff/8f/da761e573ebe4b0906badda7210bea29386c3470ae00d1607d04aed73b6f/nm_magic_wand_nightly-0.2.2.20240414-cp39-cp39-manylinux_2_17_x86_64.whl
+[2024-04-15 05:02:23] INFO root fetch - processPackages [aliyun-python-sdk-csas]: Downloading https://files.pythonhosted.org/packages/9b/58/09465815a5222cadb41b682de7bd9bb48279471bb34c139afd8602c93083/aliyun-python-sdk-csas-1.0.3.tar.gz
+[2024-04-15 05:02:23] INFO root fetch - processPackages [surfkit]: executing diffoscope
+[2024-04-15 05:02:23] INFO root fetch - processPackages [surfkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surfkit-0.1.8.tar.gz tmp/surfkit-0.1.9.tar.gz --markdown 20240415/s/surfkit/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-15 05:02:23] WARNING root fetch - processPackages [nm-magic-wand-nightly]: Skipping package: exceeds size limit 78349543>=10485760
+[2024-04-15 05:02:23] INFO root fetch - main [MainThread]: End processing [nm-magic-wand-nightly] error
+[2024-04-15 05:02:23] INFO root fetch - processPackages [BioSAK]: Downloading https://files.pythonhosted.org/packages/4c/a1/eadd78721fb6ba48c064d27eb2b8932c232eb72a6ee5c854f3848d01f52d/BioSAK-1.84.1.tar.gz
+[2024-04-15 05:02:24] INFO root fetch - processPackages [mns-scheduler]: Downloading https://files.pythonhosted.org/packages/59/9a/75a642c18e75e13de93b59670c9d75763d9693e5a3500f98e99e1b753e10/mns-scheduler-1.0.2.4.tar.gz
+[2024-04-15 05:02:24] INFO root fetch - processPackages [alibabacloud-csas20230120-py2]: Downloading https://files.pythonhosted.org/packages/c7/48/4a836fb1763dbbe0045963c9d322ea13de02e4d4e78515c90d4564be625f/alibabacloud_csas20230120_py2-1.4.0.tar.gz
+[2024-04-15 05:02:24] INFO root fetch - processPackages [aliyun-python-sdk-csas]: Downloading https://files.pythonhosted.org/packages/0f/da/0e4eabbf161b3c18aef2ab676c12ea4d9c71413d057d122964c8a9c3a2a2/aliyun-python-sdk-csas-1.0.4.tar.gz
+[2024-04-15 05:02:24] INFO root fetch - processPackages [alibabacloud-csas20230120]: Downloading https://files.pythonhosted.org/packages/92/8f/971d428bfabefea5a39bc3c32aa70744c96ccedac76c9d295cbbbfc10336/alibabacloud_csas20230120-1.3.0.tar.gz
+[2024-04-15 05:02:24] INFO root fetch - processPackages [alibabacloud-csas20230120-py2]: executing diffoscope
+[2024-04-15 05:02:24] INFO root fetch - processPackages [alibabacloud-csas20230120-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_csas20230120_py2-1.3.0.tar.gz tmp/alibabacloud_csas20230120_py2-1.4.0.tar.gz --markdown 20240415/a/alibabacloud-csas20230120-py2/1.3.0-1.4.0/README.md --exclude *.pyd
+[2024-04-15 05:02:24] INFO root fetch - processPackages [aliyun-python-sdk-csas]: executing diffoscope
+[2024-04-15 05:02:24] INFO root fetch - processPackages [aliyun-python-sdk-csas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-csas-1.0.3.tar.gz tmp/aliyun-python-sdk-csas-1.0.4.tar.gz --markdown 20240415/a/aliyun-python-sdk-csas/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-15 05:02:24] INFO root fetch - processPackages [BioSAK]: executing diffoscope
+[2024-04-15 05:02:24] INFO root fetch - processPackages [BioSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BioSAK-1.84.0.tar.gz tmp/BioSAK-1.84.1.tar.gz --markdown 20240415/B/BioSAK/1.84.0-1.84.1/README.md --exclude *.pyd
+[2024-04-15 05:02:24] INFO root fetch - processPackages [mns-scheduler]: executing diffoscope
+[2024-04-15 05:02:24] INFO root fetch - processPackages [mns-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mns-scheduler-1.0.2.3.tar.gz tmp/mns-scheduler-1.0.2.4.tar.gz --markdown 20240415/m/mns-scheduler/1.0.2.3-1.0.2.4/README.md --exclude *.pyd
+[2024-04-15 05:02:24] INFO root fetch - processPackages [alibabacloud-csas20230120]: executing diffoscope
+[2024-04-15 05:02:24] INFO root fetch - processPackages [alibabacloud-csas20230120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_csas20230120-1.2.1.tar.gz tmp/alibabacloud_csas20230120-1.3.0.tar.gz --markdown 20240415/a/alibabacloud-csas20230120/1.2.1-1.3.0/README.md --exclude *.pyd
+[2024-04-15 05:02:24] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.8.tar.gz]
+[2024-04-15 05:02:24] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.9.tar.gz]
+[2024-04-15 05:02:24] INFO root fetch - main [MainThread]: End processing [surfkit]: success
+[2024-04-15 05:02:24] INFO root fetch - processPackages [mns-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/mns-scheduler-1.0.2.3.tar.gz]
+[2024-04-15 05:02:24] INFO root fetch - processPackages [mns-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/mns-scheduler-1.0.2.4.tar.gz]
+[2024-04-15 05:02:24] INFO root fetch - main [MainThread]: End processing [mns-scheduler]: success
+[2024-04-15 05:02:25] INFO root fetch - processPackages [alibabacloud-csas20230120]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_csas20230120-1.2.1.tar.gz]
+[2024-04-15 05:02:25] INFO root fetch - processPackages [alibabacloud-csas20230120]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_csas20230120-1.3.0.tar.gz]
+[2024-04-15 05:02:25] INFO root fetch - main [MainThread]: End processing [alibabacloud-csas20230120]: success
+[2024-04-15 05:02:25] INFO root fetch - processPackages [aliyun-python-sdk-csas]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-csas-1.0.3.tar.gz]
+[2024-04-15 05:02:25] INFO root fetch - processPackages [aliyun-python-sdk-csas]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-csas-1.0.4.tar.gz]
+[2024-04-15 05:02:25] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-csas]: success
+[2024-04-15 05:02:25] INFO root fetch - processPackages [alibabacloud-csas20230120-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_csas20230120_py2-1.3.0.tar.gz]
+[2024-04-15 05:02:25] INFO root fetch - processPackages [alibabacloud-csas20230120-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_csas20230120_py2-1.4.0.tar.gz]
+[2024-04-15 05:02:25] INFO root fetch - main [MainThread]: End processing [alibabacloud-csas20230120-py2]: success
+[2024-04-15 05:02:25] INFO root fetch - processPackages [BioSAK]: Remove: archive file [/home/abi/fetcher/tmp/BioSAK-1.84.0.tar.gz]
+[2024-04-15 05:02:25] INFO root fetch - processPackages [BioSAK]: Remove: archive file [/home/abi/fetcher/tmp/BioSAK-1.84.1.tar.gz]
+[2024-04-15 05:02:25] INFO root fetch - main [MainThread]: End processing [BioSAK]: success
+[2024-04-15 05:02:25] INFO root fetch - main [MainThread]: Store serial: [22764905]
