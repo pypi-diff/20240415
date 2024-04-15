@@ -2436,3 +2436,30 @@
 [2024-04-15 03:31:07] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.9.tar.gz]
 [2024-04-15 03:31:07] INFO root fetch - main [MainThread]: End processing [surfkit]: success
 [2024-04-15 03:31:07] INFO root fetch - main [MainThread]: Store serial: [22764366]
+[2024-04-15 03:33:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22764366]
+[2024-04-15 03:33:16] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-15 03:33:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OZI
+[2024-04-15 03:33:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zdot
+[2024-04-15 03:33:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pasta-man
+[2024-04-15 03:33:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spaceone-api
+[2024-04-15 03:33:16] WARNING root fetch - processPackages [pasta-man]: Skipping, unable to determine old version
+[2024-04-15 03:33:16] INFO root fetch - main [MainThread]: End processing [pasta-man] error
+[2024-04-15 03:33:16] WARNING root fetch - processPackages [zdot]: Skipping, unable to determine old version
+[2024-04-15 03:33:16] INFO root fetch - main [MainThread]: End processing [zdot] error
+[2024-04-15 03:33:16] INFO root fetch - processPackages [OZI]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-15 03:33:16] INFO root fetch - processPackages [spaceone-api]: New version: [2.0.dev89] Old Version: [2.0.dev78]
+[2024-04-15 03:33:16] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/38/2b/d8f8ce2f774ca66b1e32e65068783b15ac56715cbfa1ab1faef6d2c91a13/OZI-0.0.98-py39-none-any.whl
+[2024-04-15 03:33:17] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/63/38/896ca815cd9f0d4be5040377b88a5b629fee8eedad29b468c7a50e063060/spaceone-api-2.0.dev78.tar.gz
+[2024-04-15 03:33:17] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/4c/bb/b5eaa9984b59532639030a4989b508e0252f662844d9a3e3f9a3d9aeef2c/OZI-0.0.99-py39-none-any.whl
+[2024-04-15 03:33:17] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/c0/ea/4a6c8347250e808ffcceef19de666ffee1c045761343985127f39a05bc13/spaceone-api-2.0.dev89.tar.gz
+[2024-04-15 03:33:17] INFO root fetch - processPackages [OZI]: executing diffoscope
+[2024-04-15 03:33:17] INFO root fetch - processPackages [OZI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OZI-0.0.98-py39-none-any.whl.zip tmp/OZI-0.0.99-py39-none-any.whl.zip --markdown 20240415/O/OZI/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-15 03:33:17] INFO root fetch - processPackages [spaceone-api]: executing diffoscope
+[2024-04-15 03:33:17] INFO root fetch - processPackages [spaceone-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-api-2.0.dev78.tar.gz tmp/spaceone-api-2.0.dev89.tar.gz --markdown 20240415/s/spaceone-api/2.0.dev78-2.0.dev89/README.md --exclude *.pyd
+[2024-04-15 03:33:18] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-0.0.98-py39-none-any.whl.zip]
+[2024-04-15 03:33:18] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-0.0.99-py39-none-any.whl.zip]
+[2024-04-15 03:33:18] INFO root fetch - main [MainThread]: End processing [OZI]: success
+[2024-04-15 03:33:18] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev78.tar.gz]
+[2024-04-15 03:33:18] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev89.tar.gz]
+[2024-04-15 03:33:18] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
+[2024-04-15 03:33:18] INFO root fetch - main [MainThread]: Store serial: [22764382]
