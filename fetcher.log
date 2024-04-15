@@ -3337,3 +3337,31 @@
 [2024-04-15 04:38:24] INFO root fetch - processPackages [opentelemetry_wrapper]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_wrapper-0.1.9.tar.gz]
 [2024-04-15 04:38:24] INFO root fetch - main [MainThread]: End processing [opentelemetry_wrapper]: success
 [2024-04-15 04:38:24] INFO root fetch - main [MainThread]: Store serial: [22764739]
+[2024-04-15 04:40:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22764739]
+[2024-04-15 04:40:32] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-15 04:40:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdktf-local-exec
+[2024-04-15 04:40:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-irclib
+[2024-04-15 04:40:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-irclib
+[2024-04-15 04:40:32] INFO root fetch - processPackages [py-irclib]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-15 04:40:32] INFO root fetch - processPackages [py-irclib]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-15 04:40:32] INFO root fetch - processPackages [py-irclib]: Downloading https://files.pythonhosted.org/packages/8d/50/75866f6e58c96f4d2bfac0e0511407f05196616608ca352e4926e6748469/py-irclib-0.3.0.tar.gz
+[2024-04-15 04:40:32] INFO root fetch - processPackages [py-irclib]: Downloading https://files.pythonhosted.org/packages/8d/50/75866f6e58c96f4d2bfac0e0511407f05196616608ca352e4926e6748469/py-irclib-0.3.0.tar.gz
+[2024-04-15 04:40:32] INFO root fetch - processPackages [cdktf-local-exec]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-15 04:40:33] INFO root fetch - processPackages [py-irclib]: Downloading https://files.pythonhosted.org/packages/9d/6d/55ea957a105a09a38bd2bb90a74133d9944b8b7464e04bb8bfcd29d8a810/py_irclib-0.4.0.tar.gz
+[2024-04-15 04:40:33] INFO root fetch - processPackages [py-irclib]: Downloading https://files.pythonhosted.org/packages/9d/6d/55ea957a105a09a38bd2bb90a74133d9944b8b7464e04bb8bfcd29d8a810/py_irclib-0.4.0.tar.gz
+[2024-04-15 04:40:33] INFO root fetch - processPackages [cdktf-local-exec]: Downloading https://files.pythonhosted.org/packages/2e/c5/c7466186e123ce498250d5bcf9a74d6fb62a4d7add3b345da0ce48901c49/cdktf-local-exec-0.5.8.tar.gz
+[2024-04-15 04:40:33] INFO root fetch - processPackages [py-irclib]: executing diffoscope
+[2024-04-15 04:40:33] INFO root fetch - processPackages [py-irclib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-irclib-0.3.0.tar.gz tmp/py_irclib-0.4.0.tar.gz --markdown 20240415/p/py-irclib/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-04-15 04:40:33] INFO root fetch - processPackages [py-irclib]: executing diffoscope
+[2024-04-15 04:40:33] INFO root fetch - processPackages [py-irclib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-irclib-0.3.0.tar.gz tmp/py_irclib-0.4.0.tar.gz --markdown 20240415/p/py-irclib/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-04-15 04:40:33] INFO root fetch - processPackages [cdktf-local-exec]: Downloading https://files.pythonhosted.org/packages/74/2d/a8a976a3354f955288422458b23352fe0a12f11928fcc3369a6d8a2254a1/cdktf-local-exec-0.5.9.tar.gz
+[2024-04-15 04:40:33] INFO root fetch - processPackages [cdktf-local-exec]: executing diffoscope
+[2024-04-15 04:40:33] INFO root fetch - processPackages [cdktf-local-exec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-local-exec-0.5.8.tar.gz tmp/cdktf-local-exec-0.5.9.tar.gz --markdown 20240415/c/cdktf-local-exec/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-04-15 04:40:33] INFO root fetch - processPackages [py-irclib]: Remove: archive file [/home/abi/fetcher/tmp/py-irclib-0.3.0.tar.gz]
+[2024-04-15 04:40:33] INFO root fetch - processPackages [py-irclib]: Remove: archive file [/home/abi/fetcher/tmp/py_irclib-0.4.0.tar.gz]
+[2024-04-15 04:40:33] INFO root fetch - main [MainThread]: End processing [py-irclib]: success
+[2024-04-15 04:40:33] INFO root fetch - main [MainThread]: End processing [py-irclib]: success
+[2024-04-15 04:40:34] INFO root fetch - processPackages [cdktf-local-exec]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-local-exec-0.5.8.tar.gz]
+[2024-04-15 04:40:34] INFO root fetch - processPackages [cdktf-local-exec]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-local-exec-0.5.9.tar.gz]
+[2024-04-15 04:40:34] INFO root fetch - main [MainThread]: End processing [cdktf-local-exec]: success
+[2024-04-15 04:40:34] INFO root fetch - main [MainThread]: Store serial: [22764754]
