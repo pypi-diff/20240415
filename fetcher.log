@@ -2173,3 +2173,15 @@
 [2024-04-15 03:07:17] INFO root fetch - processPackages [hue-sunrise]: Remove: archive file [/home/abi/fetcher/tmp/hue_sunrise-0.6.9.tar.gz]
 [2024-04-15 03:07:17] INFO root fetch - main [MainThread]: End processing [hue-sunrise]: success
 [2024-04-15 03:07:17] INFO root fetch - main [MainThread]: Store serial: [22764259]
+[2024-04-15 03:09:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22764259]
+[2024-04-15 03:09:26] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-15 03:09:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modelbase2
+[2024-04-15 03:09:26] INFO root fetch - processPackages [modelbase2]: New version: [0.1.8] Old Version: [0.1.71]
+[2024-04-15 03:09:26] INFO root fetch - processPackages [modelbase2]: Downloading https://files.pythonhosted.org/packages/5b/ce/775a87693065393a2c09a2c4ace19edb537fdece9549a5dd9a9f67320204/modelbase2-0.1.71.tar.gz
+[2024-04-15 03:09:26] INFO root fetch - processPackages [modelbase2]: Downloading https://files.pythonhosted.org/packages/c7/a5/defd22a8fa0611c0f23090b874a5fec8cad7478e893dcd17bc4edea068d4/modelbase2-0.1.8.tar.gz
+[2024-04-15 03:09:26] INFO root fetch - processPackages [modelbase2]: executing diffoscope
+[2024-04-15 03:09:26] INFO root fetch - processPackages [modelbase2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbase2-0.1.71.tar.gz tmp/modelbase2-0.1.8.tar.gz --markdown 20240415/m/modelbase2/0.1.71-0.1.8/README.md --exclude *.pyd
+[2024-04-15 03:09:27] INFO root fetch - processPackages [modelbase2]: Remove: archive file [/home/abi/fetcher/tmp/modelbase2-0.1.71.tar.gz]
+[2024-04-15 03:09:27] INFO root fetch - processPackages [modelbase2]: Remove: archive file [/home/abi/fetcher/tmp/modelbase2-0.1.8.tar.gz]
+[2024-04-15 03:09:27] INFO root fetch - main [MainThread]: End processing [modelbase2]: success
+[2024-04-15 03:09:27] INFO root fetch - main [MainThread]: Store serial: [22764262]
