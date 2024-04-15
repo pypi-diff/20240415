@@ -16914,3 +16914,56 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 13:41:50] INFO root fetch - processPackages [odoo-addon-sale-shipping-info-helper]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_shipping_info_helper-17.0.1.0.0.2-py3-none-any.whl.zip]
 [2024-04-15 13:41:50] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-shipping-info-helper]: success
 [2024-04-15 13:41:50] INFO root fetch - main [MainThread]: Store serial: [22770228]
+[2024-04-15 13:43:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22770228]
+[2024-04-15 13:44:00] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-15 13:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-sale-shipping-info-helper
+[2024-04-15 13:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bigdl-core-xe
+[2024-04-15 13:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dvtag
+[2024-04-15 13:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hermitage-alchemy
+[2024-04-15 13:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wansuite
+[2024-04-15 13:44:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lbt-grasshopper
+[2024-04-15 13:44:00] INFO root fetch - processPackages [wansuite]: New version: [3.0] Old Version: [2.5]
+[2024-04-15 13:44:00] INFO root fetch - processPackages [odoo-addon-sale-shipping-info-helper]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.0.3]
+[2024-04-15 13:44:00] INFO root fetch - processPackages [bigdl-core-xe]: New version: [2.5.0b20240414] Old Version: [2.5.0b20240413]
+[2024-04-15 13:44:00] INFO root fetch - processPackages [dvtag]: New version: [0.6.4] Old Version: [0.6.3]
+[2024-04-15 13:44:00] INFO root fetch - processPackages [wansuite]: Downloading https://files.pythonhosted.org/packages/0f/cd/d7b8eef38cbd237cd84abbc4a6173f4f44a1827d70c7b90b0ba5ccd8dc20/wansuite-2.5.tar.gz
+[2024-04-15 13:44:00] INFO root fetch - processPackages [hermitage-alchemy]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-15 13:44:00] INFO root fetch - processPackages [odoo-addon-sale-shipping-info-helper]: Downloading https://files.pythonhosted.org/packages/b3/3e/c38bf320e6fb7832ef2d81a833e5875ee1d5c89dfaac261cf9052dcaa049/odoo_addon_sale_shipping_info_helper-16.0.1.0.0.3-py3-none-any.whl
+[2024-04-15 13:44:00] INFO root fetch - processPackages [bigdl-core-xe]: Downloading https://files.pythonhosted.org/packages/78/a9/58a15278f7a53d8baf356296e8a31ffd3a22f2ac051c5aa851b5d02fd972/bigdl_core_xe-2.5.0b20240413-cp39-cp39-manylinux2010_x86_64.whl
+[2024-04-15 13:44:00] INFO root fetch - processPackages [lbt-grasshopper]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-04-15 13:44:00] WARNING root fetch - processPackages [bigdl-core-xe]: Skipping package: exceeds size limit 95125456>=10485760
+[2024-04-15 13:44:00] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe] error
+[2024-04-15 13:44:00] INFO root fetch - processPackages [dvtag]: Downloading https://files.pythonhosted.org/packages/7d/ef/a58d8b2bb177b80299e45d60f730649f13261c577a5b0404b571564eceee/dvtag-0.6.3.tar.gz
+[2024-04-15 13:44:00] INFO root fetch - processPackages [hermitage-alchemy]: Downloading https://files.pythonhosted.org/packages/05/11/7db1859453a4a7eb23aba31dfcbbb5d45b59d77bfa9394146dbeee1f725c/hermitage_alchemy-0.1.1.tar.gz
+[2024-04-15 13:44:00] INFO root fetch - processPackages [wansuite]: Downloading https://files.pythonhosted.org/packages/96/70/2f8c91eb3a4d85e8e2aa3c83f48fd956628ba63b2a83b08e3be8e68d91eb/wansuite-3.0.tar.gz
+[2024-04-15 13:44:00] INFO root fetch - processPackages [lbt-grasshopper]: Downloading https://files.pythonhosted.org/packages/85/4b/b7b2a31765980f121c7dca9cd1353afc8fd947ace9f87b8f902620819061/lbt-grasshopper-1.8.8.tar.gz
+[2024-04-15 13:44:00] INFO root fetch - processPackages [odoo-addon-sale-shipping-info-helper]: Downloading https://files.pythonhosted.org/packages/13/a9/44fa93ded2d866abfbfd74abfd6d90e2c2a5e7cccc93c7457c35a9875d39/odoo_addon_sale_shipping_info_helper-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-15 13:44:00] INFO root fetch - processPackages [wansuite]: executing diffoscope
+[2024-04-15 13:44:00] INFO root fetch - processPackages [wansuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wansuite-2.5.tar.gz tmp/wansuite-3.0.tar.gz --markdown 20240415/w/wansuite/2.5-3.0/README.md --exclude *.pyd
+[2024-04-15 13:44:00] INFO root fetch - processPackages [odoo-addon-sale-shipping-info-helper]: executing diffoscope
+[2024-04-15 13:44:00] INFO root fetch - processPackages [odoo-addon-sale-shipping-info-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_shipping_info_helper-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_sale_shipping_info_helper-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240415/o/odoo-addon-sale-shipping-info-helper/16.0.1.0.0.3-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-04-15 13:44:00] INFO root fetch - processPackages [dvtag]: Downloading https://files.pythonhosted.org/packages/b0/e9/1a9f962366d2e846ec21e213d7cb85356a9abdd197f521019887f44fd798/dvtag-0.6.4-py3-none-any.whl
+[2024-04-15 13:44:00] INFO root fetch - processPackages [hermitage-alchemy]: Downloading https://files.pythonhosted.org/packages/23/5b/6e920015724150cc268de8fb41c1edee9b68ef157aeffbd8a08ebaf74baf/hermitage_alchemy-0.1.2.tar.gz
+[2024-04-15 13:44:01] INFO root fetch - processPackages [dvtag]: executing diffoscope
+[2024-04-15 13:44:01] INFO root fetch - processPackages [dvtag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvtag-0.6.3.tar.gz tmp/dvtag-0.6.4-py3-none-any.whl.zip --markdown 20240415/d/dvtag/0.6.3-0.6.4/README.md --exclude *.pyd
+[2024-04-15 13:44:01] INFO root fetch - processPackages [hermitage-alchemy]: executing diffoscope
+[2024-04-15 13:44:01] INFO root fetch - processPackages [hermitage-alchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hermitage_alchemy-0.1.1.tar.gz tmp/hermitage_alchemy-0.1.2.tar.gz --markdown 20240415/h/hermitage-alchemy/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-15 13:44:01] INFO root fetch - processPackages [lbt-grasshopper]: Downloading https://files.pythonhosted.org/packages/8f/43/14eede1d5162f900e97c330a2f83ad3cef64b06f36216364f0012886cf75/lbt-grasshopper-1.8.9.tar.gz
+[2024-04-15 13:44:01] INFO root fetch - processPackages [lbt-grasshopper]: executing diffoscope
+[2024-04-15 13:44:01] INFO root fetch - processPackages [lbt-grasshopper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-grasshopper-1.8.8.tar.gz tmp/lbt-grasshopper-1.8.9.tar.gz --markdown 20240415/l/lbt-grasshopper/1.8.8-1.8.9/README.md --exclude *.pyd
+[2024-04-15 13:44:01] INFO root fetch - processPackages [wansuite]: Remove: archive file [/home/abi/fetcher/tmp/wansuite-2.5.tar.gz]
+[2024-04-15 13:44:01] INFO root fetch - processPackages [wansuite]: Remove: archive file [/home/abi/fetcher/tmp/wansuite-3.0.tar.gz]
+[2024-04-15 13:44:01] INFO root fetch - main [MainThread]: End processing [wansuite]: success
+[2024-04-15 13:44:01] INFO root fetch - processPackages [dvtag]: Remove: archive file [/home/abi/fetcher/tmp/dvtag-0.6.3.tar.gz]
+[2024-04-15 13:44:01] INFO root fetch - processPackages [dvtag]: Remove: archive file [/home/abi/fetcher/tmp/dvtag-0.6.4-py3-none-any.whl.zip]
+[2024-04-15 13:44:01] INFO root fetch - main [MainThread]: End processing [dvtag]: success
+[2024-04-15 13:44:01] INFO root fetch - processPackages [odoo-addon-sale-shipping-info-helper]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_shipping_info_helper-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-15 13:44:01] INFO root fetch - processPackages [odoo-addon-sale-shipping-info-helper]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_shipping_info_helper-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-15 13:44:01] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-shipping-info-helper]: success
+[2024-04-15 13:44:01] INFO root fetch - processPackages [hermitage-alchemy]: Remove: archive file [/home/abi/fetcher/tmp/hermitage_alchemy-0.1.1.tar.gz]
+[2024-04-15 13:44:01] INFO root fetch - processPackages [hermitage-alchemy]: Remove: archive file [/home/abi/fetcher/tmp/hermitage_alchemy-0.1.2.tar.gz]
+[2024-04-15 13:44:01] INFO root fetch - main [MainThread]: End processing [hermitage-alchemy]: success
+[2024-04-15 13:44:01] INFO root fetch - processPackages [lbt-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/lbt-grasshopper-1.8.8.tar.gz]
+[2024-04-15 13:44:01] INFO root fetch - processPackages [lbt-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/lbt-grasshopper-1.8.9.tar.gz]
+[2024-04-15 13:44:01] INFO root fetch - main [MainThread]: End processing [lbt-grasshopper]: success
+[2024-04-15 13:44:01] INFO root fetch - main [MainThread]: Store serial: [22770242]
