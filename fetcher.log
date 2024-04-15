@@ -8866,3 +8866,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 08:38:07] INFO root fetch - processPackages [ragdaemon]: Remove: archive file [/home/abi/fetcher/tmp/ragdaemon-0.1.6.tar.gz]
 [2024-04-15 08:38:07] INFO root fetch - main [MainThread]: End processing [ragdaemon]: success
 [2024-04-15 08:38:07] INFO root fetch - main [MainThread]: Store serial: [22766785]
+[2024-04-15 08:40:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22766785]
+[2024-04-15 08:40:15] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-15 08:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qdx-py
+[2024-04-15 08:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-nai3
+[2024-04-15 08:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: monisha
+[2024-04-15 08:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aixblock-ml
+[2024-04-15 08:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dcaspt2-input-generator
+[2024-04-15 08:40:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cyz
+[2024-04-15 08:40:16] INFO root fetch - processPackages [qdx-py]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-04-15 08:40:16] INFO root fetch - processPackages [aixblock-ml]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-15 08:40:16] INFO root fetch - processPackages [nonebot-plugin-nai3]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-15 08:40:16] INFO root fetch - processPackages [monisha]: New version: [0.0.46] Old Version: [0.0.45]
+[2024-04-15 08:40:16] INFO root fetch - processPackages [qdx-py]: Downloading https://files.pythonhosted.org/packages/d6/76/2e9ed5e871f61d2cf0f2752298072ffd87643605382378de43271acd8bbc/qdx_py-0.8.2.tar.gz
+[2024-04-15 08:40:16] INFO root fetch - processPackages [dcaspt2-input-generator]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-04-15 08:40:16] INFO root fetch - processPackages [cyz]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-15 08:40:16] INFO root fetch - processPackages [monisha]: Downloading https://files.pythonhosted.org/packages/1a/54/d70cab679f372e927065d9e851287c13ec136bb26ba13ad15a3f4be876f1/monisha-0.0.45.tar.gz
+[2024-04-15 08:40:16] INFO root fetch - processPackages [aixblock-ml]: Downloading https://files.pythonhosted.org/packages/8b/2c/21336ce174696507d41b88973ef014f9aece226bc809f87bb214e8b29444/aixblock_ml-0.0.4.tar.gz
+[2024-04-15 08:40:16] INFO root fetch - processPackages [nonebot-plugin-nai3]: Downloading https://files.pythonhosted.org/packages/f9/95/0459aff8505e07ff28b104c8959b10b6b00c9aff91a27a9798c8909a7de8/nonebot_plugin_nai3-0.1.1.tar.gz
+[2024-04-15 08:40:16] INFO root fetch - processPackages [dcaspt2-input-generator]: Downloading https://files.pythonhosted.org/packages/10/79/fbbacdfe4e5d75d50cfb1082c64f26e87cd30361f833b951cecc878e4b47/dcaspt2_input_generator-0.5.0.tar.gz
+[2024-04-15 08:40:16] INFO root fetch - processPackages [qdx-py]: Downloading https://files.pythonhosted.org/packages/6e/53/5bec16abb314f49846c0caad1d0a98b442946a8bfb2395363035240a6f4d/qdx_py-0.9.0.tar.gz
+[2024-04-15 08:40:16] INFO root fetch - processPackages [cyz]: Downloading https://files.pythonhosted.org/packages/c7/d0/fca2445eaf5cc167dc2af8dc62e36bbb8ee8177983b114c719eb765cf0a0/cyz-0.0.4.tar.gz
+[2024-04-15 08:40:16] INFO root fetch - processPackages [aixblock-ml]: Downloading https://files.pythonhosted.org/packages/85/67/2a59811f392cc51e11de672a1a17261a8b4a4e3dfe251613465f346e6b7f/aixblock_ml-0.0.5.tar.gz
+[2024-04-15 08:40:16] INFO root fetch - processPackages [monisha]: Downloading https://files.pythonhosted.org/packages/44/24/82e182a147cfea1cfeea68651275a7e990f3ae4b59753a411e383123a2e5/monisha-0.0.46.tar.gz
+[2024-04-15 08:40:16] INFO root fetch - processPackages [nonebot-plugin-nai3]: Downloading https://files.pythonhosted.org/packages/2c/09/5fec0cca428e80b7f93b808e903385ba928a15f2d8d1ad091cde494ff7f4/nonebot_plugin_nai3-0.1.2.tar.gz
+[2024-04-15 08:40:16] INFO root fetch - processPackages [qdx-py]: executing diffoscope
+[2024-04-15 08:40:16] INFO root fetch - processPackages [qdx-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qdx_py-0.8.2.tar.gz tmp/qdx_py-0.9.0.tar.gz --markdown 20240415/q/qdx-py/0.8.2-0.9.0/README.md --exclude *.pyd
+[2024-04-15 08:40:16] INFO root fetch - processPackages [aixblock-ml]: executing diffoscope
+[2024-04-15 08:40:16] INFO root fetch - processPackages [aixblock-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aixblock_ml-0.0.4.tar.gz tmp/aixblock_ml-0.0.5.tar.gz --markdown 20240415/a/aixblock-ml/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-15 08:40:16] INFO root fetch - processPackages [monisha]: executing diffoscope
+[2024-04-15 08:40:16] INFO root fetch - processPackages [monisha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monisha-0.0.45.tar.gz tmp/monisha-0.0.46.tar.gz --markdown 20240415/m/monisha/0.0.45-0.0.46/README.md --exclude *.pyd
+[2024-04-15 08:40:16] INFO root fetch - processPackages [nonebot-plugin-nai3]: executing diffoscope
+[2024-04-15 08:40:16] INFO root fetch - processPackages [nonebot-plugin-nai3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_nai3-0.1.1.tar.gz tmp/nonebot_plugin_nai3-0.1.2.tar.gz --markdown 20240415/n/nonebot-plugin-nai3/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-15 08:40:16] INFO root fetch - processPackages [dcaspt2-input-generator]: Downloading https://files.pythonhosted.org/packages/ec/af/bd0fd88f4c750136bf64c531d16625c8e959a0e6480adbf9585c3ea592d5/dcaspt2_input_generator-0.6.0.tar.gz
+[2024-04-15 08:40:16] INFO root fetch - processPackages [cyz]: Downloading https://files.pythonhosted.org/packages/56/ba/e3dbba63db738441bf41a8c00885bc73da122a636942ef9ecd78fb8b96d7/cyz-0.0.5.tar.gz
+[2024-04-15 08:40:16] INFO root fetch - processPackages [dcaspt2-input-generator]: executing diffoscope
+[2024-04-15 08:40:16] INFO root fetch - processPackages [dcaspt2-input-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcaspt2_input_generator-0.5.0.tar.gz tmp/dcaspt2_input_generator-0.6.0.tar.gz --markdown 20240415/d/dcaspt2-input-generator/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-04-15 08:40:16] INFO root fetch - processPackages [cyz]: executing diffoscope
+[2024-04-15 08:40:16] INFO root fetch - processPackages [cyz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyz-0.0.4.tar.gz tmp/cyz-0.0.5.tar.gz --markdown 20240415/c/cyz/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-15 08:40:17] INFO root fetch - processPackages [monisha]: Remove: archive file [/home/abi/fetcher/tmp/monisha-0.0.45.tar.gz]
+[2024-04-15 08:40:17] INFO root fetch - processPackages [monisha]: Remove: archive file [/home/abi/fetcher/tmp/monisha-0.0.46.tar.gz]
+[2024-04-15 08:40:17] INFO root fetch - main [MainThread]: End processing [monisha]: success
+[2024-04-15 08:40:17] INFO root fetch - processPackages [qdx-py]: Remove: archive file [/home/abi/fetcher/tmp/qdx_py-0.8.2.tar.gz]
+[2024-04-15 08:40:17] INFO root fetch - processPackages [qdx-py]: Remove: archive file [/home/abi/fetcher/tmp/qdx_py-0.9.0.tar.gz]
+[2024-04-15 08:40:17] INFO root fetch - main [MainThread]: End processing [qdx-py]: success
+[2024-04-15 08:40:17] INFO root fetch - processPackages [aixblock-ml]: Remove: archive file [/home/abi/fetcher/tmp/aixblock_ml-0.0.4.tar.gz]
+[2024-04-15 08:40:17] INFO root fetch - processPackages [aixblock-ml]: Remove: archive file [/home/abi/fetcher/tmp/aixblock_ml-0.0.5.tar.gz]
+[2024-04-15 08:40:17] INFO root fetch - main [MainThread]: End processing [aixblock-ml]: success
+[2024-04-15 08:40:17] INFO root fetch - processPackages [nonebot-plugin-nai3]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_nai3-0.1.1.tar.gz]
+[2024-04-15 08:40:17] INFO root fetch - processPackages [nonebot-plugin-nai3]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_nai3-0.1.2.tar.gz]
+[2024-04-15 08:40:17] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-nai3]: success
+[2024-04-15 08:40:17] INFO root fetch - processPackages [cyz]: Remove: archive file [/home/abi/fetcher/tmp/cyz-0.0.4.tar.gz]
+[2024-04-15 08:40:17] INFO root fetch - processPackages [cyz]: Remove: archive file [/home/abi/fetcher/tmp/cyz-0.0.5.tar.gz]
+[2024-04-15 08:40:17] INFO root fetch - main [MainThread]: End processing [cyz]: success
+[2024-04-15 08:40:17] INFO root fetch - processPackages [dcaspt2-input-generator]: Remove: archive file [/home/abi/fetcher/tmp/dcaspt2_input_generator-0.5.0.tar.gz]
+[2024-04-15 08:40:17] INFO root fetch - processPackages [dcaspt2-input-generator]: Remove: archive file [/home/abi/fetcher/tmp/dcaspt2_input_generator-0.6.0.tar.gz]
+[2024-04-15 08:40:17] INFO root fetch - main [MainThread]: End processing [dcaspt2-input-generator]: success
+[2024-04-15 08:40:17] INFO root fetch - main [MainThread]: Store serial: [22766804]
