@@ -16475,3 +16475,81 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 13:26:20] INFO root fetch - processPackages [gitbuilding]: Remove: archive file [/home/abi/fetcher/tmp/gitbuilding-0.9.1.tar.gz]
 [2024-04-15 13:26:20] INFO root fetch - main [MainThread]: End processing [gitbuilding]: success
 [2024-04-15 13:26:20] INFO root fetch - main [MainThread]: Store serial: [22770062]
+[2024-04-15 13:28:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22770062]
+[2024-04-15 13:28:31] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-15 13:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pre5g
+[2024-04-15 13:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: s2wav
+[2024-04-15 13:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: soildx-fastapi-jwt-auth
+[2024-04-15 13:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tradedangerous
+[2024-04-15 13:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: misleep
+[2024-04-15 13:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vectice
+[2024-04-15 13:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: esp-idf-size
+[2024-04-15 13:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sonnia
+[2024-04-15 13:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pdfminer.rtl
+[2024-04-15 13:28:31] INFO root fetch - processPackages [pre5g]: New version: [3.1] Old Version: [3.0]
+[2024-04-15 13:28:31] INFO root fetch - processPackages [misleep]: New version: [0.1.6b0] Old Version: [0.1.5b0]
+[2024-04-15 13:28:31] INFO root fetch - processPackages [soildx-fastapi-jwt-auth]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-15 13:28:31] INFO root fetch - processPackages [sonnia]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-15 13:28:31] INFO root fetch - processPackages [esp-idf-size]: New version: [1.3.0] Old Version: [1.2.0]
+[2024-04-15 13:28:31] INFO root fetch - processPackages [pre5g]: Downloading https://files.pythonhosted.org/packages/0d/f7/248905e16f5840afe1d27da94e1f5e6b1159f87f7b64175f0da540b60173/pre5g-3.0.tar.gz
+[2024-04-15 13:28:31] INFO root fetch - processPackages [misleep]: Downloading https://files.pythonhosted.org/packages/b6/16/fdd6c668f86a9c4de319b9b8881cec7eeee4b3e3313fd0314109730517b0/misleep-0.1.5b0.tar.gz
+[2024-04-15 13:28:31] WARNING root fetch - processPackages [pdfminer.rtl]: Skipping, unable to determine old version
+[2024-04-15 13:28:31] INFO root fetch - main [MainThread]: End processing [pdfminer.rtl] error
+[2024-04-15 13:28:31] INFO root fetch - processPackages [tradedangerous]: New version: [10.9.8] Old Version: [10.9.7]
+[2024-04-15 13:28:31] INFO root fetch - processPackages [s2wav]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-15 13:28:31] INFO root fetch - processPackages [soildx-fastapi-jwt-auth]: Downloading https://files.pythonhosted.org/packages/c9/1e/cceecc332c107443643dc44ffc24b6cd1283dfe3b05ef05c0921f6f23599/soildx_fastapi_jwt_auth-0.0.3.tar.gz
+[2024-04-15 13:28:31] INFO root fetch - processPackages [sonnia]: Downloading https://files.pythonhosted.org/packages/9a/6e/ac1b3e42a4c9d1bbe04d278fb7aa54c3fd20aa6a32eb6e2592dcc07f9157/sonnia-0.2.0.tar.gz
+[2024-04-15 13:28:31] INFO root fetch - processPackages [vectice]: New version: [24.2.1.0] Old Version: [24.1.9.0]
+[2024-04-15 13:28:31] INFO root fetch - processPackages [esp-idf-size]: Downloading https://files.pythonhosted.org/packages/d0/10/c15406617f0d310f64841047dadf938d2631ce600d6c93442a25fb6189a7/esp-idf-size-1.2.0.tar.gz
+[2024-04-15 13:28:31] INFO root fetch - processPackages [tradedangerous]: Downloading https://files.pythonhosted.org/packages/f0/71/5c26485ec7d39c61db0e0eff321b9fcd6656ad98bae9dd80db18336dc73d/tradedangerous-10.9.7.tar.gz
+[2024-04-15 13:28:31] INFO root fetch - processPackages [s2wav]: Downloading https://files.pythonhosted.org/packages/99/e7/cbab335e7009cf6e6e2e4f2339b6b19716599086068c7ca2d5d5d10431dd/s2wav-1.0.3.tar.gz
+[2024-04-15 13:28:31] INFO root fetch - processPackages [vectice]: Downloading https://files.pythonhosted.org/packages/3c/94/621dffb163df1e2950957407abf243350e8439199409ff40afbed4ef1267/vectice-24.1.9.0.tar.gz
+[2024-04-15 13:28:31] INFO root fetch - processPackages [misleep]: Downloading https://files.pythonhosted.org/packages/db/66/554345e09eb4ebdb5f9895c4d4273de824255eae58d4f1963d7e3df9b3ae/misleep-0.1.6b0.tar.gz
+[2024-04-15 13:28:31] INFO root fetch - processPackages [soildx-fastapi-jwt-auth]: Downloading https://files.pythonhosted.org/packages/38/67/b09a20bb95ba52b20953aecd2974706f67d21c2f5ef8bd88eb57d2ef84a9/soildx_fastapi_jwt_auth-0.0.4.tar.gz
+[2024-04-15 13:28:31] INFO root fetch - processPackages [pre5g]: Downloading https://files.pythonhosted.org/packages/2c/3b/e6a19698b948118f96145dd347697e2b0324fe2b4f0bf1c02eea0bda934e/pre5g-3.1.tar.gz
+[2024-04-15 13:28:31] INFO root fetch - processPackages [sonnia]: Downloading https://files.pythonhosted.org/packages/c3/fc/38ebecf2cb1f884d892965324239a54325b18fe57e8aab18b101c17dfe41/sonnia-0.2.1.tar.gz
+[2024-04-15 13:28:31] INFO root fetch - processPackages [misleep]: executing diffoscope
+[2024-04-15 13:28:31] INFO root fetch - processPackages [misleep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/misleep-0.1.5b0.tar.gz tmp/misleep-0.1.6b0.tar.gz --markdown 20240415/m/misleep/0.1.5b0-0.1.6b0/README.md --exclude *.pyd
+[2024-04-15 13:28:31] INFO root fetch - processPackages [soildx-fastapi-jwt-auth]: executing diffoscope
+[2024-04-15 13:28:31] INFO root fetch - processPackages [soildx-fastapi-jwt-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soildx_fastapi_jwt_auth-0.0.3.tar.gz tmp/soildx_fastapi_jwt_auth-0.0.4.tar.gz --markdown 20240415/s/soildx-fastapi-jwt-auth/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-15 13:28:31] INFO root fetch - processPackages [pre5g]: executing diffoscope
+[2024-04-15 13:28:31] INFO root fetch - processPackages [pre5g]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pre5g-3.0.tar.gz tmp/pre5g-3.1.tar.gz --markdown 20240415/p/pre5g/3.0-3.1/README.md --exclude *.pyd
+[2024-04-15 13:28:32] INFO root fetch - processPackages [esp-idf-size]: Downloading https://files.pythonhosted.org/packages/83/34/220716a12de812cd6c4d278fd2f978f99c9b5777283b38e74a662701ab37/esp-idf-size-1.3.0.tar.gz
+[2024-04-15 13:28:32] INFO root fetch - processPackages [s2wav]: Downloading https://files.pythonhosted.org/packages/27/97/61ddff691f172eecd917407e2e6151d99a8c92e6d6b7cdc20aad1dc2753d/s2wav-1.0.4.tar.gz
+[2024-04-15 13:28:32] INFO root fetch - processPackages [vectice]: Downloading https://files.pythonhosted.org/packages/f2/2e/22ed75344a0e6ea27f2c80d4c330aedf711ea8c80abcec88bee05af630ea/vectice-24.2.1.0.tar.gz
+[2024-04-15 13:28:32] INFO root fetch - processPackages [sonnia]: executing diffoscope
+[2024-04-15 13:28:32] INFO root fetch - processPackages [sonnia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sonnia-0.2.0.tar.gz tmp/sonnia-0.2.1.tar.gz --markdown 20240415/s/sonnia/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-15 13:28:32] INFO root fetch - processPackages [esp-idf-size]: executing diffoscope
+[2024-04-15 13:28:32] INFO root fetch - processPackages [esp-idf-size]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esp-idf-size-1.2.0.tar.gz tmp/esp-idf-size-1.3.0.tar.gz --markdown 20240415/e/esp-idf-size/1.2.0-1.3.0/README.md --exclude *.pyd
+[2024-04-15 13:28:32] INFO root fetch - processPackages [tradedangerous]: Downloading https://files.pythonhosted.org/packages/d9/11/d9ffad5dfc88cd5ec054cd2e82b8477ba81df779f293f62a341c1dbd90cd/tradedangerous-10.9.8.tar.gz
+[2024-04-15 13:28:32] INFO root fetch - processPackages [s2wav]: executing diffoscope
+[2024-04-15 13:28:32] INFO root fetch - processPackages [s2wav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s2wav-1.0.3.tar.gz tmp/s2wav-1.0.4.tar.gz --markdown 20240415/s/s2wav/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-15 13:28:32] INFO root fetch - processPackages [vectice]: executing diffoscope
+[2024-04-15 13:28:32] INFO root fetch - processPackages [vectice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectice-24.1.9.0.tar.gz tmp/vectice-24.2.1.0.tar.gz --markdown 20240415/v/vectice/24.1.9.0-24.2.1.0/README.md --exclude *.pyd
+[2024-04-15 13:28:32] INFO root fetch - processPackages [tradedangerous]: executing diffoscope
+[2024-04-15 13:28:32] INFO root fetch - processPackages [tradedangerous]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tradedangerous-10.9.7.tar.gz tmp/tradedangerous-10.9.8.tar.gz --markdown 20240415/t/tradedangerous/10.9.7-10.9.8/README.md --exclude *.pyd
+[2024-04-15 13:28:32] INFO root fetch - processPackages [pre5g]: Remove: archive file [/home/abi/fetcher/tmp/pre5g-3.0.tar.gz]
+[2024-04-15 13:28:32] INFO root fetch - processPackages [pre5g]: Remove: archive file [/home/abi/fetcher/tmp/pre5g-3.1.tar.gz]
+[2024-04-15 13:28:32] INFO root fetch - main [MainThread]: End processing [pre5g]: success
+[2024-04-15 13:28:32] INFO root fetch - processPackages [soildx-fastapi-jwt-auth]: Remove: archive file [/home/abi/fetcher/tmp/soildx_fastapi_jwt_auth-0.0.3.tar.gz]
+[2024-04-15 13:28:32] INFO root fetch - processPackages [soildx-fastapi-jwt-auth]: Remove: archive file [/home/abi/fetcher/tmp/soildx_fastapi_jwt_auth-0.0.4.tar.gz]
+[2024-04-15 13:28:32] INFO root fetch - main [MainThread]: End processing [soildx-fastapi-jwt-auth]: success
+[2024-04-15 13:28:33] INFO root fetch - processPackages [misleep]: Remove: archive file [/home/abi/fetcher/tmp/misleep-0.1.5b0.tar.gz]
+[2024-04-15 13:28:33] INFO root fetch - processPackages [misleep]: Remove: archive file [/home/abi/fetcher/tmp/misleep-0.1.6b0.tar.gz]
+[2024-04-15 13:28:33] INFO root fetch - main [MainThread]: End processing [misleep]: success
+[2024-04-15 13:28:33] INFO root fetch - processPackages [sonnia]: Remove: archive file [/home/abi/fetcher/tmp/sonnia-0.2.0.tar.gz]
+[2024-04-15 13:28:33] INFO root fetch - processPackages [sonnia]: Remove: archive file [/home/abi/fetcher/tmp/sonnia-0.2.1.tar.gz]
+[2024-04-15 13:28:33] INFO root fetch - main [MainThread]: End processing [sonnia]: success
+[2024-04-15 13:28:33] INFO root fetch - processPackages [s2wav]: Remove: archive file [/home/abi/fetcher/tmp/s2wav-1.0.3.tar.gz]
+[2024-04-15 13:28:33] INFO root fetch - processPackages [s2wav]: Remove: archive file [/home/abi/fetcher/tmp/s2wav-1.0.4.tar.gz]
+[2024-04-15 13:28:33] INFO root fetch - main [MainThread]: End processing [s2wav]: success
+[2024-04-15 13:28:33] INFO root fetch - processPackages [esp-idf-size]: Remove: archive file [/home/abi/fetcher/tmp/esp-idf-size-1.2.0.tar.gz]
+[2024-04-15 13:28:33] INFO root fetch - processPackages [esp-idf-size]: Remove: archive file [/home/abi/fetcher/tmp/esp-idf-size-1.3.0.tar.gz]
+[2024-04-15 13:28:33] INFO root fetch - main [MainThread]: End processing [esp-idf-size]: success
+[2024-04-15 13:28:33] INFO root fetch - processPackages [vectice]: Remove: archive file [/home/abi/fetcher/tmp/vectice-24.1.9.0.tar.gz]
+[2024-04-15 13:28:33] INFO root fetch - processPackages [vectice]: Remove: archive file [/home/abi/fetcher/tmp/vectice-24.2.1.0.tar.gz]
+[2024-04-15 13:28:33] INFO root fetch - main [MainThread]: End processing [vectice]: success
+[2024-04-15 13:28:33] INFO root fetch - processPackages [tradedangerous]: Remove: archive file [/home/abi/fetcher/tmp/tradedangerous-10.9.7.tar.gz]
+[2024-04-15 13:28:33] INFO root fetch - processPackages [tradedangerous]: Remove: archive file [/home/abi/fetcher/tmp/tradedangerous-10.9.8.tar.gz]
+[2024-04-15 13:28:33] INFO root fetch - main [MainThread]: End processing [tradedangerous]: success
+[2024-04-15 13:28:33] INFO root fetch - main [MainThread]: Store serial: [22770091]
