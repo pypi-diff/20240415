@@ -10424,3 +10424,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 09:46:09] INFO root fetch - processPackages [msanic]: Remove: archive file [/home/abi/fetcher/tmp/msanic-1.0.9-py3-none-any.whl.zip]
 [2024-04-15 09:46:09] INFO root fetch - main [MainThread]: End processing [msanic]: success
 [2024-04-15 09:46:09] INFO root fetch - main [MainThread]: Store serial: [22767450]
+[2024-04-15 09:48:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22767450]
+[2024-04-15 09:48:18] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-15 09:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pipez
+[2024-04-15 09:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: npsam
+[2024-04-15 09:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: radical.saga
+[2024-04-15 09:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: terrajinja-imports-vcd
+[2024-04-15 09:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fbnconfig
+[2024-04-15 09:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: waylay-sdk-core
+[2024-04-15 09:48:18] INFO root fetch - processPackages [radical.saga]: New version: [1.8.0] Old Version: [1.6.9]
+[2024-04-15 09:48:18] INFO root fetch - processPackages [npsam]: New version: [1.4.9.1] Old Version: [1.4.7]
+[2024-04-15 09:48:18] INFO root fetch - processPackages [pipez]: New version: [0.0.90] Old Version: [0.0.9]
+[2024-04-15 09:48:18] INFO root fetch - processPackages [terrajinja-imports-vcd]: New version: [3.12.0] Old Version: [3.11.0]
+[2024-04-15 09:48:18] INFO root fetch - processPackages [fbnconfig]: New version: [0.0.40] Old Version: [0.0.38]
+[2024-04-15 09:48:19] INFO root fetch - processPackages [radical.saga]: Downloading https://files.pythonhosted.org/packages/3b/69/eb760e93f8f0646aff6eb1902e3568f7defd688b92a4e0c67d8b3d349496/radical.saga-1.6.9.tar.gz
+[2024-04-15 09:48:19] INFO root fetch - processPackages [waylay-sdk-core]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-15 09:48:19] INFO root fetch - processPackages [pipez]: Downloading https://files.pythonhosted.org/packages/a3/7b/b75e90898c1b52cbcd0b17ad4595e5ed0f6d4554e94be045c641282bc131/pipez-0.0.9.tar.gz
+[2024-04-15 09:48:19] INFO root fetch - processPackages [npsam]: Downloading https://files.pythonhosted.org/packages/16/33/785cc929b69ae4f620a2a5bce6321581cea669f9d832c08ca9a7f2d876e8/npsam-1.4.7.tar.gz
+[2024-04-15 09:48:19] INFO root fetch - processPackages [terrajinja-imports-vcd]: Downloading https://files.pythonhosted.org/packages/d8/32/b193380d64b8d90f780f9de6e1de4d4683080d6000467577d3ceb97aab84/terrajinja-imports-vcd-3.11.0.tar.gz
+[2024-04-15 09:48:19] INFO root fetch - processPackages [fbnconfig]: Downloading https://files.pythonhosted.org/packages/33/a2/d4dc52e728863c19437bce9e0d41de53a0108afab86b63919ce2c5cb09e5/fbnconfig-0.0.38.tar.gz
+[2024-04-15 09:48:19] INFO root fetch - processPackages [waylay-sdk-core]: Downloading https://files.pythonhosted.org/packages/08/91/561c19596498709f860e39f5e5622647f9abdae90a3e6dca9b7420071356/waylay-sdk-core-0.1.0.tar.gz
+[2024-04-15 09:48:19] INFO root fetch - processPackages [radical.saga]: Downloading https://files.pythonhosted.org/packages/4f/4b/15452082443a7cc86d52bcb6ff568b457eed3d787d65d867942840f1d52c/radical.saga-1.8.0.tar.gz
+[2024-04-15 09:48:19] INFO root fetch - processPackages [pipez]: Downloading https://files.pythonhosted.org/packages/b5/18/4771dfd14429fe73da8b3939664129e5945014cf84b86ee724664ed35388/pipez-0.0.90.tar.gz
+[2024-04-15 09:48:19] INFO root fetch - processPackages [npsam]: Downloading https://files.pythonhosted.org/packages/9d/a6/2abcac9b9d7710294db02b74d2d2a6cdc02c51c152a0890eab9da6e8be39/npsam-1.4.9.1.tar.gz
+[2024-04-15 09:48:19] INFO root fetch - processPackages [radical.saga]: executing diffoscope
+[2024-04-15 09:48:19] INFO root fetch - processPackages [radical.saga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radical.saga-1.6.9.tar.gz tmp/radical.saga-1.8.0.tar.gz --markdown 20240415/r/radical.saga/1.6.9-1.8.0/README.md --exclude *.pyd
+[2024-04-15 09:48:19] INFO root fetch - processPackages [npsam]: executing diffoscope
+[2024-04-15 09:48:19] INFO root fetch - processPackages [npsam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/npsam-1.4.7.tar.gz tmp/npsam-1.4.9.1.tar.gz --markdown 20240415/n/npsam/1.4.7-1.4.9.1/README.md --exclude *.pyd
+[2024-04-15 09:48:19] INFO root fetch - processPackages [fbnconfig]: Downloading https://files.pythonhosted.org/packages/12/37/9df022d02ffee5744c76e6f513a19b4588a5556b79356cc8e1c1fa8f89f4/fbnconfig-0.0.40.tar.gz
+[2024-04-15 09:48:19] INFO root fetch - processPackages [pipez]: executing diffoscope
+[2024-04-15 09:48:19] INFO root fetch - processPackages [pipez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipez-0.0.9.tar.gz tmp/pipez-0.0.90.tar.gz --markdown 20240415/p/pipez/0.0.9-0.0.90/README.md --exclude *.pyd
+[2024-04-15 09:48:19] INFO root fetch - processPackages [waylay-sdk-core]: Downloading https://files.pythonhosted.org/packages/7a/c0/15e538136a462980e6a1033cb876f9fee6c8f736007fcfde130f8f7bce6a/waylay_sdk_core-0.2.0.tar.gz
+[2024-04-15 09:48:19] INFO root fetch - processPackages [fbnconfig]: executing diffoscope
+[2024-04-15 09:48:19] INFO root fetch - processPackages [fbnconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbnconfig-0.0.38.tar.gz tmp/fbnconfig-0.0.40.tar.gz --markdown 20240415/f/fbnconfig/0.0.38-0.0.40/README.md --exclude *.pyd
+[2024-04-15 09:48:19] INFO root fetch - processPackages [terrajinja-imports-vcd]: Downloading https://files.pythonhosted.org/packages/a3/29/75024189b6591e46735848e9d6a4eab63ba29b1da3cd826820303f25dddb/terrajinja-imports-vcd-3.12.0.tar.gz
+[2024-04-15 09:48:19] INFO root fetch - processPackages [waylay-sdk-core]: executing diffoscope
+[2024-04-15 09:48:19] INFO root fetch - processPackages [waylay-sdk-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waylay-sdk-core-0.1.0.tar.gz tmp/waylay_sdk_core-0.2.0.tar.gz --markdown 20240415/w/waylay-sdk-core/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-15 09:48:20] INFO root fetch - processPackages [terrajinja-imports-vcd]: executing diffoscope
+[2024-04-15 09:48:20] INFO root fetch - processPackages [terrajinja-imports-vcd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terrajinja-imports-vcd-3.11.0.tar.gz tmp/terrajinja-imports-vcd-3.12.0.tar.gz --markdown 20240415/t/terrajinja-imports-vcd/3.11.0-3.12.0/README.md --exclude *.pyd
+[2024-04-15 09:48:20] INFO root fetch - processPackages [fbnconfig]: Remove: archive file [/home/abi/fetcher/tmp/fbnconfig-0.0.38.tar.gz]
+[2024-04-15 09:48:20] INFO root fetch - processPackages [fbnconfig]: Remove: archive file [/home/abi/fetcher/tmp/fbnconfig-0.0.40.tar.gz]
+[2024-04-15 09:48:20] INFO root fetch - main [MainThread]: End processing [fbnconfig]: success
+[2024-04-15 09:48:20] INFO root fetch - processPackages [npsam]: Remove: archive file [/home/abi/fetcher/tmp/npsam-1.4.7.tar.gz]
+[2024-04-15 09:48:20] INFO root fetch - processPackages [npsam]: Remove: archive file [/home/abi/fetcher/tmp/npsam-1.4.9.1.tar.gz]
+[2024-04-15 09:48:20] INFO root fetch - main [MainThread]: End processing [npsam]: success
+[2024-04-15 09:48:20] INFO root fetch - processPackages [pipez]: Remove: archive file [/home/abi/fetcher/tmp/pipez-0.0.9.tar.gz]
+[2024-04-15 09:48:20] INFO root fetch - processPackages [pipez]: Remove: archive file [/home/abi/fetcher/tmp/pipez-0.0.90.tar.gz]
+[2024-04-15 09:48:20] INFO root fetch - main [MainThread]: End processing [pipez]: success
+[2024-04-15 09:48:20] INFO root fetch - processPackages [waylay-sdk-core]: Remove: archive file [/home/abi/fetcher/tmp/waylay-sdk-core-0.1.0.tar.gz]
+[2024-04-15 09:48:20] INFO root fetch - processPackages [waylay-sdk-core]: Remove: archive file [/home/abi/fetcher/tmp/waylay_sdk_core-0.2.0.tar.gz]
+[2024-04-15 09:48:20] INFO root fetch - main [MainThread]: End processing [waylay-sdk-core]: success
+[2024-04-15 09:48:20] INFO root fetch - processPackages [radical.saga]: Remove: archive file [/home/abi/fetcher/tmp/radical.saga-1.6.9.tar.gz]
+[2024-04-15 09:48:20] INFO root fetch - processPackages [radical.saga]: Remove: archive file [/home/abi/fetcher/tmp/radical.saga-1.8.0.tar.gz]
+[2024-04-15 09:48:20] INFO root fetch - main [MainThread]: End processing [radical.saga]: success
+[2024-04-15 09:48:26] INFO root fetch - processPackages [terrajinja-imports-vcd]: Remove: archive file [/home/abi/fetcher/tmp/terrajinja-imports-vcd-3.11.0.tar.gz]
+[2024-04-15 09:48:26] INFO root fetch - processPackages [terrajinja-imports-vcd]: Remove: archive file [/home/abi/fetcher/tmp/terrajinja-imports-vcd-3.12.0.tar.gz]
+[2024-04-15 09:48:26] INFO root fetch - main [MainThread]: End processing [terrajinja-imports-vcd]: success
+[2024-04-15 09:48:26] INFO root fetch - main [MainThread]: Store serial: [22767468]
