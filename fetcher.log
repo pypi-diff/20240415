@@ -21517,3 +21517,142 @@ EOFError: EOF read where object expected
 [2024-04-15 16:07:53] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.5.5a117434-py2.py3-none-any.whl.zip]
 [2024-04-15 16:07:53] INFO root fetch - main [MainThread]: End processing [udata-front]: success
 [2024-04-15 16:07:53] INFO root fetch - main [MainThread]: Store serial: [22772303]
+[2024-04-15 16:09:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22772303]
+[2024-04-15 16:10:02] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2024-04-15 16:10:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zhmiscellany
+[2024-04-15 16:10:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-web-pivot-computed-measure
+[2024-04-15 16:10:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: acb
+[2024-04-15 16:10:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: finbourne-access-sdk
+[2024-04-15 16:10:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: netbox-docker-plugin
+[2024-04-15 16:10:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bluecellulab
+[2024-04-15 16:10:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: anemoi-utils
+[2024-04-15 16:10:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-stock-lot-is-archived
+[2024-04-15 16:10:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pynumstim
+[2024-04-15 16:10:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: easys-ordermanager
+[2024-04-15 16:10:03] WARNING root fetch - processPackages [anemoi-utils]: Skipping, unable to determine old version
+[2024-04-15 16:10:03] INFO root fetch - processPackages [anemoi-utils]: Start processing: alamos
+[2024-04-15 16:10:03] INFO root fetch - main [MainThread]: End processing [anemoi-utils] error
+[2024-04-15 16:10:03] INFO root fetch - processPackages [pynumstim]: New version: [0.3.dev0] Old Version: [0.2.2b0]
+[2024-04-15 16:10:03] INFO root fetch - processPackages [zhmiscellany]: New version: [1.9.6] Old Version: [1.9.5]
+[2024-04-15 16:10:03] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-15 16:10:03] INFO root fetch - processPackages [alamos]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-04-15 16:10:03] INFO root fetch - processPackages [acb]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-15 16:10:03] INFO root fetch - processPackages [odoo-addon-web-pivot-computed-measure]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.1]
+[2024-04-15 16:10:03] WARNING root fetch - processPackages [odoo-addon-stock-lot-is-archived]: Skipping, unable to determine old version
+[2024-04-15 16:10:03] INFO root fetch - processPackages [odoo-addon-stock-lot-is-archived]: Start processing: tool-use
+[2024-04-15 16:10:03] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-lot-is-archived] error
+[2024-04-15 16:10:03] INFO root fetch - processPackages [netbox-docker-plugin]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-04-15 16:10:03] INFO root fetch - processPackages [tool-use]: New version: [0.1.1rc2] Old Version: [0.1.1rc1]
+[2024-04-15 16:10:03] INFO root fetch - processPackages [easys-ordermanager]: New version: [2.8.0] Old Version: [2.7.0]
+[2024-04-15 16:10:03] INFO root fetch - processPackages [bluecellulab]: New version: [2.5.8] Old Version: [2.5.7]
+[2024-04-15 16:10:03] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/67/5a/2e8d70b51969063ac34619b9a07be19893b64107b4dab37e771b94bd1b03/finbourne_access_sdk-2.1.8.tar.gz
+[2024-04-15 16:10:03] INFO root fetch - processPackages [tool-use]: Downloading https://files.pythonhosted.org/packages/8f/a0/e285d9c39178dc36d6f789ecc5906a7fba97a7d33a9d132d98775aab38d2/tool_use-0.1.1rc1.tar.gz
+[2024-04-15 16:10:03] INFO root fetch - processPackages [alamos]: Downloading https://files.pythonhosted.org/packages/c7/af/aa0a689256583f2fbbb92b25ab0a2e07ca51633c64d4687f919969295cad/alamos-0.3.5.tar.gz
+[2024-04-15 16:10:03] INFO root fetch - processPackages [pynumstim]: Downloading https://files.pythonhosted.org/packages/ef/a0/23681b5468e467ddb3f9bfce14db6f5b0fcd81e160fb743ce92befea3482/pynumstim-0.2.2b0.tar.gz
+[2024-04-15 16:10:03] INFO root fetch - processPackages [zhmiscellany]: Downloading https://files.pythonhosted.org/packages/b6/16/f021b8d81ecb83cddc3d2dd46b077e9cdf5b2f2423d35d509fb7adb19acc/zhmiscellany-1.9.5-py3-none-any.whl
+[2024-04-15 16:10:03] INFO root fetch - processPackages [acb]: Downloading https://files.pythonhosted.org/packages/80/d5/4ecbfa2d8ee11286912872c85e41a0fde450de103f538e155a883656ef15/acb-0.5.8.tar.gz
+[2024-04-15 16:10:03] INFO root fetch - processPackages [odoo-addon-web-pivot-computed-measure]: Downloading https://files.pythonhosted.org/packages/51/7f/797a461200c11e619b7b2eccc36222b3718077b5f3414b43e96ee27cacdd/odoo_addon_web_pivot_computed_measure-16.0.1.0.0.1-py3-none-any.whl
+[2024-04-15 16:10:03] INFO root fetch - processPackages [easys-ordermanager]: Downloading https://files.pythonhosted.org/packages/96/55/8d1c3fa94ec49e27a6ca9c6a141160a5411de71aea6ff6e31dc19d3d2228/easys-ordermanager-2.7.0.tar.gz
+[2024-04-15 16:10:03] INFO root fetch - processPackages [netbox-docker-plugin]: Downloading https://files.pythonhosted.org/packages/ba/4c/4027223a3862a8039e31caa68e75f611a04789fa7b857ca40fbd4e3f4840/netbox-docker-plugin-1.5.0.tar.gz
+[2024-04-15 16:10:03] INFO root fetch - processPackages [bluecellulab]: Downloading https://files.pythonhosted.org/packages/f1/6a/b8a74ef597a22279e10423f1ade064b4fd7f71e0e67a4bff5d7b8523ea8f/bluecellulab-2.5.7.tar.gz
+[2024-04-15 16:10:03] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/2d/9e/be08614b45729ae547c5c8acd046e8c90ae89d6b812ee70666b6e24bcbe8/finbourne_access_sdk-2.1.9.tar.gz
+[2024-04-15 16:10:03] INFO root fetch - processPackages [alamos]: Downloading https://files.pythonhosted.org/packages/7b/9f/41468b442f2f80403ca2622efc2e405b1d58d714cd063d9273af4eef55df/alamos-0.3.6.tar.gz
+[2024-04-15 16:10:03] WARNING root fetch - processPackages [bluecellulab]: Skipping package: exceeds size limit 16241252>=10485760
+[2024-04-15 16:10:03] INFO root fetch - processPackages [bluecellulab]: Start processing: fbgemm-gpu-nightly
+[2024-04-15 16:10:03] INFO root fetch - main [MainThread]: End processing [bluecellulab] error
+[2024-04-15 16:10:03] INFO root fetch - processPackages [tool-use]: Downloading https://files.pythonhosted.org/packages/01/bc/209c1b535a60a6c4ba4c526f6d294e8feb3b84630fbfab82f2a74bfdd567/tool_use-0.1.1rc2.tar.gz
+[2024-04-15 16:10:03] INFO root fetch - processPackages [pynumstim]: Downloading https://files.pythonhosted.org/packages/5d/8d/c1684dd6f3cea74b806000baa2f8d52380aafc364ce1a5bdff2512d1c9f6/pynumstim-0.3.dev0.tar.gz
+[2024-04-15 16:10:03] INFO root fetch - processPackages [acb]: Downloading https://files.pythonhosted.org/packages/b5/f5/39ede17ab765abc34045bfa50de2b3f0e5623063ab516cc694299140ef50/acb-0.5.9.tar.gz
+[2024-04-15 16:10:03] INFO root fetch - processPackages [zhmiscellany]: Downloading https://files.pythonhosted.org/packages/3d/a0/17fa05949da071a5fd956b81026aba818f76f886ab7cc66ab220b62eb1ac/zhmiscellany-1.9.6-py3-none-any.whl
+[2024-04-15 16:10:03] INFO root fetch - processPackages [fbgemm-gpu-nightly]: New version: [2024.4.15] Old Version: [2024.4.14]
+[2024-04-15 16:10:03] INFO root fetch - processPackages [tool-use]: executing diffoscope
+[2024-04-15 16:10:03] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2024-04-15 16:10:03] INFO root fetch - processPackages [alamos]: executing diffoscope
+[2024-04-15 16:10:03] INFO root fetch - processPackages [tool-use]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tool_use-0.1.1rc1.tar.gz tmp/tool_use-0.1.1rc2.tar.gz --markdown 20240415/t/tool-use/0.1.1rc1-0.1.1rc2/README.md --exclude *.pyd
+[2024-04-15 16:10:03] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_access_sdk-2.1.8.tar.gz tmp/finbourne_access_sdk-2.1.9.tar.gz --markdown 20240415/f/finbourne-access-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-15 16:10:03] INFO root fetch - processPackages [alamos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alamos-0.3.5.tar.gz tmp/alamos-0.3.6.tar.gz --markdown 20240415/a/alamos/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-04-15 16:10:03] INFO root fetch - processPackages [pynumstim]: executing diffoscope
+[2024-04-15 16:10:03] INFO root fetch - processPackages [pynumstim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynumstim-0.2.2b0.tar.gz tmp/pynumstim-0.3.dev0.tar.gz --markdown 20240415/p/pynumstim/0.2.2b0-0.3.dev0/README.md --exclude *.pyd
+[2024-04-15 16:10:03] INFO root fetch - processPackages [easys-ordermanager]: Downloading https://files.pythonhosted.org/packages/42/bb/f75975f0ed6d6f5ed6ebdb676c41857d241e87f2600aae6fa19843d6d04b/easys_ordermanager-2.8.0.tar.gz
+[2024-04-15 16:10:03] INFO root fetch - processPackages [odoo-addon-web-pivot-computed-measure]: Downloading https://files.pythonhosted.org/packages/3d/87/9ce490764d90237286fbaafa48110adfa51dffa12c2f5c9e5153d366f3bf/odoo_addon_web_pivot_computed_measure-16.0.1.0.0.3-py3-none-any.whl
+[2024-04-15 16:10:03] INFO root fetch - processPackages [netbox-docker-plugin]: Downloading https://files.pythonhosted.org/packages/81/f3/f1db3395a9913b8953c2d039fd2bb086399e448f021fba0d93601a6dcff5/netbox_docker_plugin-1.5.1.tar.gz
+[2024-04-15 16:10:04] INFO root fetch - processPackages [acb]: executing diffoscope
+[2024-04-15 16:10:04] INFO root fetch - processPackages [acb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acb-0.5.8.tar.gz tmp/acb-0.5.9.tar.gz --markdown 20240415/a/acb/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-04-15 16:10:04] INFO root fetch - processPackages [zhmiscellany]: executing diffoscope
+[2024-04-15 16:10:04] INFO root fetch - processPackages [zhmiscellany]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhmiscellany-1.9.5-py3-none-any.whl.zip tmp/zhmiscellany-1.9.6-py3-none-any.whl.zip --markdown 20240415/z/zhmiscellany/1.9.5-1.9.6/README.md --exclude *.pyd
+[2024-04-15 16:10:04] INFO root fetch - processPackages [easys-ordermanager]: executing diffoscope
+[2024-04-15 16:10:04] INFO root fetch - processPackages [easys-ordermanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easys-ordermanager-2.7.0.tar.gz tmp/easys_ordermanager-2.8.0.tar.gz --markdown 20240415/e/easys-ordermanager/2.7.0-2.8.0/README.md --exclude *.pyd
+[2024-04-15 16:10:04] INFO root fetch - processPackages [odoo-addon-web-pivot-computed-measure]: executing diffoscope
+[2024-04-15 16:10:04] INFO root fetch - processPackages [odoo-addon-web-pivot-computed-measure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_web_pivot_computed_measure-16.0.1.0.0.1-py3-none-any.whl.zip tmp/odoo_addon_web_pivot_computed_measure-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240415/o/odoo-addon-web-pivot-computed-measure/16.0.1.0.0.1-16.0.1.0.0.3/README.md --exclude *.pyd
+[2024-04-15 16:10:04] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Downloading https://files.pythonhosted.org/packages/bd/cf/7787933bcdec29c7983a0c26948eb5d20c12b521ef30e99b5993dcf131b1/fbgemm_gpu_nightly-2024.4.14-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-15 16:10:04] WARNING root fetch - processPackages [fbgemm-gpu-nightly]: Skipping package: exceeds size limit 196330183>=10485760
+[2024-04-15 16:10:04] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Start processing: synnax-freighter
+[2024-04-15 16:10:04] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly] error
+[2024-04-15 16:10:04] INFO root fetch - processPackages [netbox-docker-plugin]: executing diffoscope
+[2024-04-15 16:10:04] INFO root fetch - processPackages [netbox-docker-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-docker-plugin-1.5.0.tar.gz tmp/netbox_docker_plugin-1.5.1.tar.gz --markdown 20240415/n/netbox-docker-plugin/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-04-15 16:10:04] INFO root fetch - processPackages [synnax-freighter]: New version: [0.6.6] Old Version: [0.6.5]
+[2024-04-15 16:10:04] INFO root fetch - processPackages [synnax-freighter]: Downloading https://files.pythonhosted.org/packages/ff/27/10ccdd7fe6528f9b2e5b90ed27f1dd0f0adf282f0d6dd6269797b3680f4c/synnax_freighter-0.6.5.tar.gz
+[2024-04-15 16:10:04] INFO root fetch - processPackages [synnax-freighter]: Downloading https://files.pythonhosted.org/packages/48/33/7bd2a2f90af925dd032b757fb65f5015a80c39c76a696636dc7a07fe0528/synnax_freighter-0.6.6.tar.gz
+[2024-04-15 16:10:04] INFO root fetch - processPackages [synnax-freighter]: executing diffoscope
+[2024-04-15 16:10:04] INFO root fetch - processPackages [synnax-freighter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synnax_freighter-0.6.5.tar.gz tmp/synnax_freighter-0.6.6.tar.gz --markdown 20240415/s/synnax-freighter/0.6.5-0.6.6/README.md --exclude *.pyd
+[2024-04-15 16:10:04] INFO root fetch - processPackages [alamos]: Remove: archive file [/home/abi/fetcher/tmp/alamos-0.3.5.tar.gz]
+[2024-04-15 16:10:04] INFO root fetch - processPackages [alamos]: Remove: archive file [/home/abi/fetcher/tmp/alamos-0.3.6.tar.gz]
+[2024-04-15 16:10:04] INFO root fetch - processPackages [alamos]: Start processing: vbr-devkit
+[2024-04-15 16:10:04] INFO root fetch - main [MainThread]: End processing [alamos]: success
+[2024-04-15 16:10:04] INFO root fetch - processPackages [tool-use]: Remove: archive file [/home/abi/fetcher/tmp/tool_use-0.1.1rc1.tar.gz]
+[2024-04-15 16:10:04] INFO root fetch - processPackages [tool-use]: Remove: archive file [/home/abi/fetcher/tmp/tool_use-0.1.1rc2.tar.gz]
+[2024-04-15 16:10:04] INFO root fetch - processPackages [tool-use]: Start processing: cosmix-launcher
+[2024-04-15 16:10:04] INFO root fetch - main [MainThread]: End processing [tool-use]: success
+[2024-04-15 16:10:05] INFO root fetch - processPackages [zhmiscellany]: Remove: archive file [/home/abi/fetcher/tmp/zhmiscellany-1.9.5-py3-none-any.whl.zip]
+[2024-04-15 16:10:05] INFO root fetch - processPackages [zhmiscellany]: Remove: archive file [/home/abi/fetcher/tmp/zhmiscellany-1.9.6-py3-none-any.whl.zip]
+[2024-04-15 16:10:05] INFO root fetch - processPackages [zhmiscellany]: Start processing: synnax
+[2024-04-15 16:10:05] INFO root fetch - main [MainThread]: End processing [zhmiscellany]: success
+[2024-04-15 16:10:05] INFO root fetch - processPackages [pynumstim]: Remove: archive file [/home/abi/fetcher/tmp/pynumstim-0.2.2b0.tar.gz]
+[2024-04-15 16:10:05] INFO root fetch - processPackages [pynumstim]: Remove: archive file [/home/abi/fetcher/tmp/pynumstim-0.3.dev0.tar.gz]
+[2024-04-15 16:10:05] INFO root fetch - processPackages [pynumstim]: Start processing: rk-extractor
+[2024-04-15 16:10:05] INFO root fetch - main [MainThread]: End processing [pynumstim]: success
+[2024-04-15 16:10:05] WARNING root fetch - processPackages [vbr-devkit]: Skipping, unable to determine old version
+[2024-04-15 16:10:05] INFO root fetch - main [MainThread]: End processing [vbr-devkit] error
+[2024-04-15 16:10:05] INFO root fetch - processPackages [cosmix-launcher]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-15 16:10:05] INFO root fetch - processPackages [synnax]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-15 16:10:05] INFO root fetch - processPackages [synnax]: Downloading https://files.pythonhosted.org/packages/89/a1/f0d76d0706e47ba3dcdbf0fe8c7b2e90c98bd073d40a3c4c7c1c1025aab8/synnax-0.8.0.tar.gz
+[2024-04-15 16:10:05] INFO root fetch - processPackages [rk-extractor]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-15 16:10:05] INFO root fetch - processPackages [easys-ordermanager]: Remove: archive file [/home/abi/fetcher/tmp/easys-ordermanager-2.7.0.tar.gz]
+[2024-04-15 16:10:05] INFO root fetch - processPackages [acb]: Remove: archive file [/home/abi/fetcher/tmp/acb-0.5.8.tar.gz]
+[2024-04-15 16:10:05] INFO root fetch - processPackages [easys-ordermanager]: Remove: archive file [/home/abi/fetcher/tmp/easys_ordermanager-2.8.0.tar.gz]
+[2024-04-15 16:10:05] INFO root fetch - processPackages [acb]: Remove: archive file [/home/abi/fetcher/tmp/acb-0.5.9.tar.gz]
+[2024-04-15 16:10:05] INFO root fetch - main [MainThread]: End processing [easys-ordermanager]: success
+[2024-04-15 16:10:05] INFO root fetch - main [MainThread]: End processing [acb]: success
+[2024-04-15 16:10:05] INFO root fetch - processPackages [cosmix-launcher]: Downloading https://files.pythonhosted.org/packages/7d/ab/9ce2b405757fd74c5147e17251fdf7578273be43fff7d2bb804578f8990d/cosmix_launcher-1.0.4.tar.gz
+[2024-04-15 16:10:05] INFO root fetch - processPackages [synnax]: Downloading https://files.pythonhosted.org/packages/b3/bc/76e9b03b96c7ab72f4b39e5e03c396b86efd6fb650bedcff8a7118679e9b/synnax-0.9.0.tar.gz
+[2024-04-15 16:10:05] INFO root fetch - processPackages [odoo-addon-web-pivot-computed-measure]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_pivot_computed_measure-16.0.1.0.0.1-py3-none-any.whl.zip]
+[2024-04-15 16:10:05] INFO root fetch - processPackages [odoo-addon-web-pivot-computed-measure]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_pivot_computed_measure-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-15 16:10:05] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-pivot-computed-measure]: success
+[2024-04-15 16:10:05] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.8.tar.gz]
+[2024-04-15 16:10:05] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.9.tar.gz]
+[2024-04-15 16:10:05] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2024-04-15 16:10:05] INFO root fetch - processPackages [rk-extractor]: Downloading https://files.pythonhosted.org/packages/99/0a/dfa8f40199c70582e0d06a9b379aae86654fc7f4f3c353e25fdb604e0933/rk_extractor-0.8.8.tar.gz
+[2024-04-15 16:10:05] INFO root fetch - processPackages [netbox-docker-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox-docker-plugin-1.5.0.tar.gz]
+[2024-04-15 16:10:05] INFO root fetch - processPackages [netbox-docker-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox_docker_plugin-1.5.1.tar.gz]
+[2024-04-15 16:10:05] INFO root fetch - main [MainThread]: End processing [netbox-docker-plugin]: success
+[2024-04-15 16:10:05] INFO root fetch - processPackages [synnax]: executing diffoscope
+[2024-04-15 16:10:05] INFO root fetch - processPackages [synnax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synnax-0.8.0.tar.gz tmp/synnax-0.9.0.tar.gz --markdown 20240415/s/synnax/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-15 16:10:05] INFO root fetch - processPackages [cosmix-launcher]: Downloading https://files.pythonhosted.org/packages/54/26/d94a38b68f124cb6240a99134c27d50b400ebb7d502291e577495924a8dc/cosmix_launcher-1.0.5.tar.gz
+[2024-04-15 16:10:05] INFO root fetch - processPackages [synnax-freighter]: Remove: archive file [/home/abi/fetcher/tmp/synnax_freighter-0.6.5.tar.gz]
+[2024-04-15 16:10:05] INFO root fetch - processPackages [synnax-freighter]: Remove: archive file [/home/abi/fetcher/tmp/synnax_freighter-0.6.6.tar.gz]
+[2024-04-15 16:10:05] INFO root fetch - main [MainThread]: End processing [synnax-freighter]: success
+[2024-04-15 16:10:05] INFO root fetch - processPackages [rk-extractor]: Downloading https://files.pythonhosted.org/packages/c4/5d/e02576684edf30cdb8f5d9f15ae876592900a74db282a485fd154a17934e/rk_extractor-0.8.9.tar.gz
+[2024-04-15 16:10:05] INFO root fetch - processPackages [cosmix-launcher]: executing diffoscope
+[2024-04-15 16:10:05] INFO root fetch - processPackages [cosmix-launcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cosmix_launcher-1.0.4.tar.gz tmp/cosmix_launcher-1.0.5.tar.gz --markdown 20240415/c/cosmix-launcher/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-04-15 16:10:06] INFO root fetch - processPackages [rk-extractor]: executing diffoscope
+[2024-04-15 16:10:06] INFO root fetch - processPackages [rk-extractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rk_extractor-0.8.8.tar.gz tmp/rk_extractor-0.8.9.tar.gz --markdown 20240415/r/rk-extractor/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-04-15 16:10:06] INFO root fetch - processPackages [synnax]: Remove: archive file [/home/abi/fetcher/tmp/synnax-0.8.0.tar.gz]
+[2024-04-15 16:10:06] INFO root fetch - processPackages [synnax]: Remove: archive file [/home/abi/fetcher/tmp/synnax-0.9.0.tar.gz]
+[2024-04-15 16:10:06] INFO root fetch - main [MainThread]: End processing [synnax]: success
+[2024-04-15 16:10:06] INFO root fetch - processPackages [cosmix-launcher]: Remove: archive file [/home/abi/fetcher/tmp/cosmix_launcher-1.0.4.tar.gz]
+[2024-04-15 16:10:06] INFO root fetch - processPackages [cosmix-launcher]: Remove: archive file [/home/abi/fetcher/tmp/cosmix_launcher-1.0.5.tar.gz]
+[2024-04-15 16:10:06] INFO root fetch - main [MainThread]: End processing [cosmix-launcher]: success
+[2024-04-15 16:10:06] INFO root fetch - processPackages [rk-extractor]: Remove: archive file [/home/abi/fetcher/tmp/rk_extractor-0.8.8.tar.gz]
+[2024-04-15 16:10:06] INFO root fetch - processPackages [rk-extractor]: Remove: archive file [/home/abi/fetcher/tmp/rk_extractor-0.8.9.tar.gz]
+[2024-04-15 16:10:06] INFO root fetch - main [MainThread]: End processing [rk-extractor]: success
+[2024-04-15 16:10:06] INFO root fetch - main [MainThread]: Store serial: [22772379]
