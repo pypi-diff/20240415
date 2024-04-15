@@ -23759,3 +23759,74 @@ AssertionError: tmp/pyblindrl-0.0.2rc57.post1.tar.gz does not exist
 [2024-04-15 16:59:22] INFO root fetch - processPackages [phidata]: Remove: archive file [/home/abi/fetcher/tmp/phidata-2.3.9.tar.gz]
 [2024-04-15 16:59:22] INFO root fetch - main [MainThread]: End processing [phidata]: success
 [2024-04-15 16:59:22] INFO root fetch - main [MainThread]: Store serial: [22773289]
+[2024-04-15 17:01:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22773289]
+[2024-04-15 17:01:32] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-15 17:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zhmiscellany
+[2024-04-15 17:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stigg-api-client
+[2024-04-15 17:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: piwiPre
+[2024-04-15 17:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: botasaurus2
+[2024-04-15 17:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: p-template-generator
+[2024-04-15 17:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stigg-api-client-v2
+[2024-04-15 17:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rgb-lib
+[2024-04-15 17:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ert
+[2024-04-15 17:01:32] INFO root fetch - processPackages [piwiPre]: New version: [0.8.5] Old Version: [0.8.4]
+[2024-04-15 17:01:32] INFO root fetch - processPackages [zhmiscellany]: New version: [1.9.8] Old Version: [1.9.7]
+[2024-04-15 17:01:32] INFO root fetch - processPackages [stigg-api-client]: New version: [1.98.1] Old Version: [1.98.0]
+[2024-04-15 17:01:32] INFO root fetch - processPackages [stigg-api-client-v2]: New version: [1.98.1] Old Version: [1.98.0]
+[2024-04-15 17:01:32] INFO root fetch - processPackages [ert]: New version: [9.0.8] Old Version: [9.0.7]
+[2024-04-15 17:01:32] INFO root fetch - processPackages [rgb-lib]: New version: [0.3.0a1] Old Version: [0.2.0a6]
+[2024-04-15 17:01:32] INFO root fetch - processPackages [p-template-generator]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-15 17:01:32] INFO root fetch - processPackages [botasaurus2]: New version: [1.4.0] Old Version: [1.3.1]
+[2024-04-15 17:01:32] INFO root fetch - processPackages [zhmiscellany]: Downloading https://files.pythonhosted.org/packages/61/8d/e4febaaf0e29a62229df1f57bd99ad83ea54b0bda767a704244bcd6e2861/zhmiscellany-1.9.7-py3-none-any.whl
+[2024-04-15 17:01:32] INFO root fetch - processPackages [piwiPre]: Downloading https://files.pythonhosted.org/packages/ad/fc/9cf4c3c37cd2895067bd93495f09c783b2a9d4650f43ea0506b7b50e1f67/piwiPre-0.8.4.tar.gz
+[2024-04-15 17:01:32] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/98/38/1422eb2135687adff8e0844dc4afcdcdd3c44140b3b89335819f7a678037/stigg_api_client-1.98.0.tar.gz
+[2024-04-15 17:01:32] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/fc/3c/bd159b62281534daae61670e2a0db22983b9c128dda9fcd2593e4eaf66f6/ert-9.0.7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-15 17:01:33] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/9e/ad/1fefc56e33c405d4aa0b5a382414f77d27efc7861a1cedce255c72c8f7d7/stigg_api_client_v2-1.98.0.tar.gz
+[2024-04-15 17:01:33] INFO root fetch - processPackages [rgb-lib]: Downloading https://files.pythonhosted.org/packages/13/a0/0ee0382f5a321c2c770224993950bd7b8ae19aae833a569785ee1aba6bed/rgb_lib-0.2.0a6.tar.gz
+[2024-04-15 17:01:33] INFO root fetch - processPackages [p-template-generator]: Downloading https://files.pythonhosted.org/packages/5c/a2/02f0b3cf41b76949deb937b95c8970f032447d82aa090fc0b68084fc59df/p-template-generator-0.1.98.tar.gz
+[2024-04-15 17:01:33] INFO root fetch - processPackages [botasaurus2]: Downloading https://files.pythonhosted.org/packages/44/bf/54807f05d42b3d3c4ede7df9d17a6039c5538f91372d8d96d9ad51bf18c2/botasaurus2-1.3.1.tar.gz
+[2024-04-15 17:01:33] INFO root fetch - processPackages [piwiPre]: Downloading https://files.pythonhosted.org/packages/e7/59/c5cfd3133f61e11e92c5834c1ac8dde4bd134a5d7fb13d632d1efa6ef294/piwiPre-0.8.5.tar.gz
+[2024-04-15 17:01:33] WARNING root fetch - processPackages [rgb-lib]: Skipping package: exceeds size limit 124550092>=10485760
+[2024-04-15 17:01:33] INFO root fetch - main [MainThread]: End processing [rgb-lib] error
+[2024-04-15 17:01:33] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/da/d2/6b7a0c4e4205896d09042773fe56913ad646e6493900cc11613eabb26e05/stigg_api_client-1.98.1.tar.gz
+[2024-04-15 17:01:33] INFO root fetch - processPackages [zhmiscellany]: Downloading https://files.pythonhosted.org/packages/26/40/8d3db9c842c67334f819cfe9c6bee692b0a8bb4c6e5e95f8e636a24041c5/zhmiscellany-1.9.8-py3-none-any.whl
+[2024-04-15 17:01:33] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/d3/ed/1b32adc2b0f34e25ca508b858069a0b7e840006670aad8f9c91899cfb57e/ert-9.0.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-15 17:01:33] INFO root fetch - processPackages [piwiPre]: executing diffoscope
+[2024-04-15 17:01:33] INFO root fetch - processPackages [piwiPre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piwiPre-0.8.4.tar.gz tmp/piwiPre-0.8.5.tar.gz --markdown 20240415/p/piwiPre/0.8.4-0.8.5/README.md --exclude *.pyd
+[2024-04-15 17:01:33] INFO root fetch - processPackages [zhmiscellany]: executing diffoscope
+[2024-04-15 17:01:33] INFO root fetch - processPackages [zhmiscellany]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhmiscellany-1.9.7-py3-none-any.whl.zip tmp/zhmiscellany-1.9.8-py3-none-any.whl.zip --markdown 20240415/z/zhmiscellany/1.9.7-1.9.8/README.md --exclude *.pyd
+[2024-04-15 17:01:33] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2024-04-15 17:01:33] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-1.98.0.tar.gz tmp/stigg_api_client-1.98.1.tar.gz --markdown 20240415/s/stigg-api-client/1.98.0-1.98.1/README.md --exclude *.pyd
+[2024-04-15 17:01:33] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/e4/6e/6806296621be882a70042a1d47ba321aad0c99c69b0e1a5f16346a41b4b5/stigg_api_client_v2-1.98.1.tar.gz
+[2024-04-15 17:01:33] INFO root fetch - processPackages [botasaurus2]: Downloading https://files.pythonhosted.org/packages/fa/52/47c55abd6e9146384d74ac77f621ad980b763d84b043f15d9a1b42e3731b/botasaurus2-1.4.0.tar.gz
+[2024-04-15 17:01:33] INFO root fetch - processPackages [ert]: executing diffoscope
+[2024-04-15 17:01:33] INFO root fetch - processPackages [ert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ert-9.0.7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/ert-9.0.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240415/e/ert/9.0.7-9.0.8/README.md --exclude *.pyd
+[2024-04-15 17:01:33] INFO root fetch - processPackages [stigg-api-client-v2]: executing diffoscope
+[2024-04-15 17:01:33] INFO root fetch - processPackages [stigg-api-client-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client_v2-1.98.0.tar.gz tmp/stigg_api_client_v2-1.98.1.tar.gz --markdown 20240415/s/stigg-api-client-v2/1.98.0-1.98.1/README.md --exclude *.pyd
+[2024-04-15 17:01:33] INFO root fetch - processPackages [botasaurus2]: executing diffoscope
+[2024-04-15 17:01:33] INFO root fetch - processPackages [botasaurus2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botasaurus2-1.3.1.tar.gz tmp/botasaurus2-1.4.0.tar.gz --markdown 20240415/b/botasaurus2/1.3.1-1.4.0/README.md --exclude *.pyd
+[2024-04-15 17:01:33] INFO root fetch - processPackages [p-template-generator]: Downloading https://files.pythonhosted.org/packages/f6/11/746908384a91b5aacce7afb9782527293e24c5740c72a201daffb937e988/p-template-generator-0.1.99.tar.gz
+[2024-04-15 17:01:34] INFO root fetch - processPackages [piwiPre]: Remove: archive file [/home/abi/fetcher/tmp/piwiPre-0.8.4.tar.gz]
+[2024-04-15 17:01:34] INFO root fetch - processPackages [piwiPre]: Remove: archive file [/home/abi/fetcher/tmp/piwiPre-0.8.5.tar.gz]
+[2024-04-15 17:01:34] INFO root fetch - main [MainThread]: End processing [piwiPre]: success
+[2024-04-15 17:01:34] INFO root fetch - processPackages [zhmiscellany]: Remove: archive file [/home/abi/fetcher/tmp/zhmiscellany-1.9.7-py3-none-any.whl.zip]
+[2024-04-15 17:01:34] INFO root fetch - processPackages [zhmiscellany]: Remove: archive file [/home/abi/fetcher/tmp/zhmiscellany-1.9.8-py3-none-any.whl.zip]
+[2024-04-15 17:01:34] INFO root fetch - main [MainThread]: End processing [zhmiscellany]: success
+[2024-04-15 17:01:34] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-1.98.0.tar.gz]
+[2024-04-15 17:01:34] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-1.98.1.tar.gz]
+[2024-04-15 17:01:34] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2024-04-15 17:01:34] INFO root fetch - processPackages [p-template-generator]: executing diffoscope
+[2024-04-15 17:01:34] INFO root fetch - processPackages [p-template-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-template-generator-0.1.98.tar.gz tmp/p-template-generator-0.1.99.tar.gz --markdown 20240415/p/p-template-generator/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-15 17:01:34] INFO root fetch - processPackages [botasaurus2]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus2-1.3.1.tar.gz]
+[2024-04-15 17:01:34] INFO root fetch - processPackages [botasaurus2]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus2-1.4.0.tar.gz]
+[2024-04-15 17:01:34] INFO root fetch - main [MainThread]: End processing [botasaurus2]: success
+[2024-04-15 17:01:34] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.0.tar.gz]
+[2024-04-15 17:01:34] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.1.tar.gz]
+[2024-04-15 17:01:34] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
+[2024-04-15 17:01:35] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-9.0.7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-15 17:01:35] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-9.0.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-15 17:01:35] INFO root fetch - main [MainThread]: End processing [ert]: success
+[2024-04-15 17:01:35] INFO root fetch - processPackages [p-template-generator]: Remove: archive file [/home/abi/fetcher/tmp/p-template-generator-0.1.98.tar.gz]
+[2024-04-15 17:01:35] INFO root fetch - processPackages [p-template-generator]: Remove: archive file [/home/abi/fetcher/tmp/p-template-generator-0.1.99.tar.gz]
+[2024-04-15 17:01:35] INFO root fetch - main [MainThread]: End processing [p-template-generator]: success
+[2024-04-15 17:01:35] INFO root fetch - main [MainThread]: Store serial: [22773327]
