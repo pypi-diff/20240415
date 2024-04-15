@@ -3625,3 +3625,22 @@
 [2024-04-15 04:51:37] INFO root fetch - processPackages [budgetize]: Remove: archive file [/home/abi/fetcher/tmp/budgetize-0.1.0.tar.gz]
 [2024-04-15 04:51:37] INFO root fetch - main [MainThread]: End processing [budgetize]: success
 [2024-04-15 04:51:37] INFO root fetch - main [MainThread]: Store serial: [22764851]
+[2024-04-15 04:53:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22764851]
+[2024-04-15 04:53:45] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-15 04:55:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22764853]
+[2024-04-15 04:55:51] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-15 04:55:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spu
+[2024-04-15 04:55:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyplotlib
+[2024-04-15 04:55:51] INFO root fetch - processPackages [pyplotlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-15 04:55:51] INFO root fetch - processPackages [pyplotlib]: Downloading https://files.pythonhosted.org/packages/28/bb/58ba19c8fed8024ef2c0efd0523dded73560d64857fcd7916d35aa6aa8af/pyplotlib-0.0.8.tar.gz
+[2024-04-15 04:55:51] INFO root fetch - processPackages [spu]: New version: [0.9.0.dev20240415] Old Version: [0.9.0.dev20240402]
+[2024-04-15 04:55:51] INFO root fetch - processPackages [pyplotlib]: Downloading https://files.pythonhosted.org/packages/8b/f8/1cec6ba77c9aee645ad1564c6fe928db135b36bec387a9574c6422edd191/pyplotlib-0.0.9.tar.gz
+[2024-04-15 04:55:51] INFO root fetch - processPackages [spu]: Downloading https://files.pythonhosted.org/packages/09/83/d17ac10584351b02d9ff0a69c4fd984acc762bb2c0bdcc0704c0a21df6b5/spu-0.9.0.dev20240402-cp310-cp310-manylinux_2_28_aarch64.whl
+[2024-04-15 04:55:52] INFO root fetch - processPackages [pyplotlib]: executing diffoscope
+[2024-04-15 04:55:52] INFO root fetch - processPackages [pyplotlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyplotlib-0.0.8.tar.gz tmp/pyplotlib-0.0.9.tar.gz --markdown 20240415/p/pyplotlib/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-15 04:55:52] INFO root fetch - processPackages [pyplotlib]: Remove: archive file [/home/abi/fetcher/tmp/pyplotlib-0.0.8.tar.gz]
+[2024-04-15 04:55:52] INFO root fetch - processPackages [pyplotlib]: Remove: archive file [/home/abi/fetcher/tmp/pyplotlib-0.0.9.tar.gz]
+[2024-04-15 04:55:52] INFO root fetch - main [MainThread]: End processing [pyplotlib]: success
+[2024-04-15 04:55:52] WARNING root fetch - processPackages [spu]: Skipping package: exceeds size limit 36398765>=10485760
+[2024-04-15 04:55:52] INFO root fetch - main [MainThread]: End processing [spu] error
+[2024-04-15 04:55:52] INFO root fetch - main [MainThread]: Store serial: [22764858]
