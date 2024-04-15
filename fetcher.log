@@ -17269,3 +17269,58 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 13:57:12] INFO root fetch - processPackages [nkululeko]: Remove: archive file [/home/abi/fetcher/tmp/nkululeko-0.81.2.tar.gz]
 [2024-04-15 13:57:12] INFO root fetch - main [MainThread]: End processing [nkululeko]: success
 [2024-04-15 13:57:12] INFO root fetch - main [MainThread]: Store serial: [22770421]
+[2024-04-15 13:59:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22770421]
+[2024-04-15 13:59:20] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-15 13:59:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: caluma-alexandria
+[2024-04-15 13:59:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-base-wamas-ubl
+[2024-04-15 13:59:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: biftest
+[2024-04-15 13:59:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dqc-toolkit
+[2024-04-15 13:59:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wansuite
+[2024-04-15 13:59:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: iqrfpy
+[2024-04-15 13:59:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-clovers
+[2024-04-15 13:59:20] INFO root fetch - processPackages [wansuite]: New version: [6.0] Old Version: [3.2]
+[2024-04-15 13:59:20] INFO root fetch - processPackages [dqc-toolkit]: New version: [0.1.2b2] Old Version: [0.1.0b3]
+[2024-04-15 13:59:20] INFO root fetch - processPackages [iqrfpy]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-15 13:59:20] INFO root fetch - processPackages [biftest]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-15 13:59:20] INFO root fetch - processPackages [caluma-alexandria]: New version: [4.0.1] Old Version: [4.0.0]
+[2024-04-15 13:59:20] WARNING root fetch - processPackages [nonebot-plugin-clovers]: Skipping, unable to determine old version
+[2024-04-15 13:59:20] INFO root fetch - processPackages [odoo-addon-base-wamas-ubl]: New version: [16.0.1.9.0] Old Version: [16.0.1.8.0.2]
+[2024-04-15 13:59:20] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-clovers] error
+[2024-04-15 13:59:20] INFO root fetch - processPackages [wansuite]: Downloading https://files.pythonhosted.org/packages/7c/fe/517834f053d7466e770ac277818891ba96c92db7f1be73d0941fb4c0ce78/wansuite-3.2.tar.gz
+[2024-04-15 13:59:20] INFO root fetch - processPackages [iqrfpy]: Downloading https://files.pythonhosted.org/packages/f9/27/90c78c8be6388ecc0addef8c654d9cb8d7045045b2f7c8ea0c95c0f3381d/iqrfpy-0.2.0.tar.gz
+[2024-04-15 13:59:21] ERROR root fetch - processPackages [dqc-toolkit]: Unable to fetch info: No such project/version 'dqc-toolkit' 0.1.0b3
+[2024-04-15 13:59:21] INFO root fetch - main [MainThread]: End processing [dqc-toolkit] error
+[2024-04-15 13:59:21] INFO root fetch - processPackages [biftest]: Downloading https://files.pythonhosted.org/packages/be/d7/1bfb8530d2f271a3aeaf0fb0cbb0fcffdf0b2a9f2e1855f50f98ab591088/biftest-0.0.1.tar.gz
+[2024-04-15 13:59:21] INFO root fetch - processPackages [caluma-alexandria]: Downloading https://files.pythonhosted.org/packages/41/8a/177b1e3f45ce4e7da5691d198facf9c983cb1eab4ff380353916dea6c0a9/caluma_alexandria-4.0.0.tar.gz
+[2024-04-15 13:59:21] INFO root fetch - processPackages [odoo-addon-base-wamas-ubl]: Downloading https://files.pythonhosted.org/packages/ce/c7/ecbe4fafda4a1a84cb3a87377835976c977746fbd44e2d31952557d4838c/odoo_addon_base_wamas_ubl-16.0.1.8.0.2-py3-none-any.whl
+[2024-04-15 13:59:21] INFO root fetch - processPackages [iqrfpy]: Downloading https://files.pythonhosted.org/packages/4b/7b/be6c0be8530f2b6c9022d5ac6d7a68e507ab894314976f9341070ffd7a34/iqrfpy-0.2.1.tar.gz
+[2024-04-15 13:59:21] INFO root fetch - processPackages [wansuite]: Downloading https://files.pythonhosted.org/packages/4b/79/e857a55a44e08d11b5ad33661e96fef7943d332e32ad61fc6d8d46c54bc8/wansuite-6.0.tar.gz
+[2024-04-15 13:59:21] INFO root fetch - processPackages [iqrfpy]: executing diffoscope
+[2024-04-15 13:59:21] INFO root fetch - processPackages [iqrfpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iqrfpy-0.2.0.tar.gz tmp/iqrfpy-0.2.1.tar.gz --markdown 20240415/i/iqrfpy/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-15 13:59:21] INFO root fetch - processPackages [wansuite]: executing diffoscope
+[2024-04-15 13:59:21] INFO root fetch - processPackages [wansuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wansuite-3.2.tar.gz tmp/wansuite-6.0.tar.gz --markdown 20240415/w/wansuite/3.2-6.0/README.md --exclude *.pyd
+[2024-04-15 13:59:21] INFO root fetch - processPackages [biftest]: Downloading https://files.pythonhosted.org/packages/8f/68/765ebc46d15e9ad48b2c1fc019f15d299909a84477f57e00e2ed81cfe9c1/biftest-0.0.2.tar.gz
+[2024-04-15 13:59:21] INFO root fetch - processPackages [caluma-alexandria]: Downloading https://files.pythonhosted.org/packages/09/00/c93b3bcfc9092db66f901d42157347a4e42e5446085db90e42bb32a3c5ba/caluma_alexandria-4.0.1.tar.gz
+[2024-04-15 13:59:21] INFO root fetch - processPackages [odoo-addon-base-wamas-ubl]: Downloading https://files.pythonhosted.org/packages/a2/bf/a9e568e374dc99ea82f5acdfa3e0a70c1b94a8b50eec85d1946cff535526/odoo_addon_base_wamas_ubl-16.0.1.9.0-py3-none-any.whl
+[2024-04-15 13:59:21] INFO root fetch - processPackages [biftest]: executing diffoscope
+[2024-04-15 13:59:21] INFO root fetch - processPackages [biftest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biftest-0.0.1.tar.gz tmp/biftest-0.0.2.tar.gz --markdown 20240415/b/biftest/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-15 13:59:21] INFO root fetch - processPackages [caluma-alexandria]: executing diffoscope
+[2024-04-15 13:59:21] INFO root fetch - processPackages [caluma-alexandria]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caluma_alexandria-4.0.0.tar.gz tmp/caluma_alexandria-4.0.1.tar.gz --markdown 20240415/c/caluma-alexandria/4.0.0-4.0.1/README.md --exclude *.pyd
+[2024-04-15 13:59:21] INFO root fetch - processPackages [odoo-addon-base-wamas-ubl]: executing diffoscope
+[2024-04-15 13:59:21] INFO root fetch - processPackages [odoo-addon-base-wamas-ubl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_wamas_ubl-16.0.1.8.0.2-py3-none-any.whl.zip tmp/odoo_addon_base_wamas_ubl-16.0.1.9.0-py3-none-any.whl.zip --markdown 20240415/o/odoo-addon-base-wamas-ubl/16.0.1.8.0.2-16.0.1.9.0/README.md --exclude *.pyd
+[2024-04-15 13:59:22] INFO root fetch - processPackages [wansuite]: Remove: archive file [/home/abi/fetcher/tmp/wansuite-3.2.tar.gz]
+[2024-04-15 13:59:22] INFO root fetch - processPackages [wansuite]: Remove: archive file [/home/abi/fetcher/tmp/wansuite-6.0.tar.gz]
+[2024-04-15 13:59:22] INFO root fetch - main [MainThread]: End processing [wansuite]: success
+[2024-04-15 13:59:22] INFO root fetch - processPackages [biftest]: Remove: archive file [/home/abi/fetcher/tmp/biftest-0.0.1.tar.gz]
+[2024-04-15 13:59:22] INFO root fetch - processPackages [biftest]: Remove: archive file [/home/abi/fetcher/tmp/biftest-0.0.2.tar.gz]
+[2024-04-15 13:59:22] INFO root fetch - main [MainThread]: End processing [biftest]: success
+[2024-04-15 13:59:22] INFO root fetch - processPackages [caluma-alexandria]: Remove: archive file [/home/abi/fetcher/tmp/caluma_alexandria-4.0.0.tar.gz]
+[2024-04-15 13:59:22] INFO root fetch - processPackages [caluma-alexandria]: Remove: archive file [/home/abi/fetcher/tmp/caluma_alexandria-4.0.1.tar.gz]
+[2024-04-15 13:59:22] INFO root fetch - main [MainThread]: End processing [caluma-alexandria]: success
+[2024-04-15 13:59:22] INFO root fetch - processPackages [odoo-addon-base-wamas-ubl]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_wamas_ubl-16.0.1.8.0.2-py3-none-any.whl.zip]
+[2024-04-15 13:59:22] INFO root fetch - processPackages [odoo-addon-base-wamas-ubl]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_wamas_ubl-16.0.1.9.0-py3-none-any.whl.zip]
+[2024-04-15 13:59:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-wamas-ubl]: success
+[2024-04-15 13:59:23] INFO root fetch - processPackages [iqrfpy]: Remove: archive file [/home/abi/fetcher/tmp/iqrfpy-0.2.0.tar.gz]
+[2024-04-15 13:59:23] INFO root fetch - processPackages [iqrfpy]: Remove: archive file [/home/abi/fetcher/tmp/iqrfpy-0.2.1.tar.gz]
+[2024-04-15 13:59:23] INFO root fetch - main [MainThread]: End processing [iqrfpy]: success
+[2024-04-15 13:59:23] INFO root fetch - main [MainThread]: Store serial: [22770443]
