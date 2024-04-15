@@ -13932,3 +13932,75 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 11:53:19] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.9.tar.gz]
 [2024-04-15 11:53:19] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
 [2024-04-15 11:53:19] INFO root fetch - main [MainThread]: Store serial: [22768922]
+[2024-04-15 11:55:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22768922]
+[2024-04-15 11:55:29] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-15 11:55:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fta
+[2024-04-15 11:55:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: radical.pilot
+[2024-04-15 11:55:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: opentelemetry_wrapper
+[2024-04-15 11:55:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: libreppc
+[2024-04-15 11:55:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: earthdaily
+[2024-04-15 11:55:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: x256offline
+[2024-04-15 11:55:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pista-core
+[2024-04-15 11:55:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: radical.entk
+[2024-04-15 11:55:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: python-tgpt
+[2024-04-15 11:55:29] INFO root fetch - processPackages [fta]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-15 11:55:29] WARNING root fetch - processPackages [pista-core]: Skipping, unable to determine old version
+[2024-04-15 11:55:29] INFO root fetch - main [MainThread]: End processing [pista-core] error
+[2024-04-15 11:55:29] INFO root fetch - processPackages [libreppc]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-15 11:55:29] INFO root fetch - processPackages [earthdaily]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-15 11:55:29] INFO root fetch - processPackages [radical.entk]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-15 11:55:29] INFO root fetch - processPackages [opentelemetry_wrapper]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-15 11:55:29] INFO root fetch - processPackages [radical.pilot]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-04-15 11:55:29] INFO root fetch - processPackages [python-tgpt]: New version: [0.6.3] Old Version: [0.6.2]
+[2024-04-15 11:55:29] WARNING root fetch - processPackages [x256offline]: Skipping, unable to determine old version
+[2024-04-15 11:55:29] INFO root fetch - main [MainThread]: End processing [x256offline] error
+[2024-04-15 11:55:29] INFO root fetch - processPackages [radical.entk]: Downloading https://files.pythonhosted.org/packages/f0/b7/2f841b0cf71c08e32f44c0bfe2d3ccaa9afc6aae30c7ea71a13f5d2ea88e/radical.entk-1.8.0.tar.gz
+[2024-04-15 11:55:29] INFO root fetch - processPackages [libreppc]: Downloading https://files.pythonhosted.org/packages/cc/dc/b117805623dfc2354cd0418fab5b49cc67628de42e822934f83784b30d94/libreppc-0.1.8.tar.gz
+[2024-04-15 11:55:29] INFO root fetch - processPackages [radical.pilot]: Downloading https://files.pythonhosted.org/packages/c3/7c/d31f91fe541d7d29492a0ea8cfa2445f16b9148c03c1d86fd84515a50a24/radical.pilot-1.9.1.tar.gz
+[2024-04-15 11:55:29] INFO root fetch - processPackages [earthdaily]: Downloading https://files.pythonhosted.org/packages/79/51/423677ab39b3c52375d916217503215c12821a29429b60564e775d6483d3/earthdaily-0.0.8.tar.gz
+[2024-04-15 11:55:29] INFO root fetch - processPackages [fta]: Downloading https://files.pythonhosted.org/packages/fd/4c/a5841c65eda701a87ae3cfaf29c74b93639ceebb69edcd12d5ed3fa70d6d/fta-0.0.3.tar.gz
+[2024-04-15 11:55:29] INFO root fetch - processPackages [opentelemetry_wrapper]: Downloading https://files.pythonhosted.org/packages/67/47/b25363c3514656a1f2a3e2d8c2cfa5afcf6bfa4deb213d3d91e82021d38a/opentelemetry_wrapper-0.1.8.tar.gz
+[2024-04-15 11:55:29] INFO root fetch - processPackages [python-tgpt]: Downloading https://files.pythonhosted.org/packages/24/9b/5a5a908f5bffb9b0bdce3d3b435cfcfc97e0ba2f2ad53e28f1bdf77228d3/python_tgpt-0.6.2.tar.gz
+[2024-04-15 11:55:29] INFO root fetch - processPackages [radical.entk]: Downloading https://files.pythonhosted.org/packages/d4/3b/7bac551fce4718ea1bf65083bb8a42bf6743a370057fd5dffa604a8c2364/radical.entk-1.9.0.tar.gz
+[2024-04-15 11:55:29] INFO root fetch - processPackages [earthdaily]: Downloading https://files.pythonhosted.org/packages/4b/21/df13f6092a2e0f689bc910ce342279aa27ee13014981169df975257aeec6/earthdaily-0.0.9.tar.gz
+[2024-04-15 11:55:29] INFO root fetch - processPackages [opentelemetry_wrapper]: Downloading https://files.pythonhosted.org/packages/44/2d/d79416f9137147e37a623eac99872df22539e5421c40885476bb41ae2d3f/opentelemetry_wrapper-0.1.9.tar.gz
+[2024-04-15 11:55:29] INFO root fetch - processPackages [radical.pilot]: Downloading https://files.pythonhosted.org/packages/40/26/f7f501f7fba04c9d801b429736b04dcf8fe30e907caf6f1ff0bb543bf31b/radical.pilot-1.9.2.tar.gz
+[2024-04-15 11:55:29] INFO root fetch - processPackages [libreppc]: Downloading https://files.pythonhosted.org/packages/23/3c/04096de828e004b63bb9e9de3bab571d9891e5f573f3d2291a77f3bacd43/libreppc-0.1.9.tar.gz
+[2024-04-15 11:55:29] INFO root fetch - processPackages [radical.entk]: executing diffoscope
+[2024-04-15 11:55:29] INFO root fetch - processPackages [radical.entk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radical.entk-1.8.0.tar.gz tmp/radical.entk-1.9.0.tar.gz --markdown 20240415/r/radical.entk/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-15 11:55:30] INFO root fetch - processPackages [earthdaily]: executing diffoscope
+[2024-04-15 11:55:30] INFO root fetch - processPackages [earthdaily]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/earthdaily-0.0.8.tar.gz tmp/earthdaily-0.0.9.tar.gz --markdown 20240415/e/earthdaily/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-15 11:55:30] INFO root fetch - processPackages [libreppc]: executing diffoscope
+[2024-04-15 11:55:30] INFO root fetch - processPackages [libreppc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libreppc-0.1.8.tar.gz tmp/libreppc-0.1.9.tar.gz --markdown 20240415/l/libreppc/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-15 11:55:30] INFO root fetch - processPackages [opentelemetry_wrapper]: executing diffoscope
+[2024-04-15 11:55:30] INFO root fetch - processPackages [opentelemetry_wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentelemetry_wrapper-0.1.8.tar.gz tmp/opentelemetry_wrapper-0.1.9.tar.gz --markdown 20240415/o/opentelemetry_wrapper/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-15 11:55:30] INFO root fetch - processPackages [radical.pilot]: executing diffoscope
+[2024-04-15 11:55:30] INFO root fetch - processPackages [radical.pilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radical.pilot-1.9.1.tar.gz tmp/radical.pilot-1.9.2.tar.gz --markdown 20240415/r/radical.pilot/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-04-15 11:55:30] INFO root fetch - processPackages [python-tgpt]: Downloading https://files.pythonhosted.org/packages/30/11/2e93369f76983519a5977c075eba5aeab31a026d8e8b42a307725b603066/python_tgpt-0.6.3.tar.gz
+[2024-04-15 11:55:30] INFO root fetch - processPackages [fta]: Downloading https://files.pythonhosted.org/packages/95/d1/e7feb10ba77c99473c49a3c9b9ffcab8ffa80360262d06d4663f018ede8a/fta-0.0.4.tar.gz
+[2024-04-15 11:55:30] INFO root fetch - processPackages [fta]: executing diffoscope
+[2024-04-15 11:55:30] INFO root fetch - processPackages [fta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fta-0.0.3.tar.gz tmp/fta-0.0.4.tar.gz --markdown 20240415/f/fta/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-15 11:55:30] INFO root fetch - processPackages [python-tgpt]: executing diffoscope
+[2024-04-15 11:55:30] INFO root fetch - processPackages [python-tgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_tgpt-0.6.2.tar.gz tmp/python_tgpt-0.6.3.tar.gz --markdown 20240415/p/python-tgpt/0.6.2-0.6.3/README.md --exclude *.pyd
+[2024-04-15 11:55:31] INFO root fetch - processPackages [earthdaily]: Remove: archive file [/home/abi/fetcher/tmp/earthdaily-0.0.8.tar.gz]
+[2024-04-15 11:55:31] INFO root fetch - processPackages [earthdaily]: Remove: archive file [/home/abi/fetcher/tmp/earthdaily-0.0.9.tar.gz]
+[2024-04-15 11:55:31] INFO root fetch - main [MainThread]: End processing [earthdaily]: success
+[2024-04-15 11:55:31] INFO root fetch - processPackages [libreppc]: Remove: archive file [/home/abi/fetcher/tmp/libreppc-0.1.8.tar.gz]
+[2024-04-15 11:55:31] INFO root fetch - processPackages [libreppc]: Remove: archive file [/home/abi/fetcher/tmp/libreppc-0.1.9.tar.gz]
+[2024-04-15 11:55:31] INFO root fetch - main [MainThread]: End processing [libreppc]: success
+[2024-04-15 11:55:31] INFO root fetch - processPackages [radical.entk]: Remove: archive file [/home/abi/fetcher/tmp/radical.entk-1.8.0.tar.gz]
+[2024-04-15 11:55:31] INFO root fetch - processPackages [radical.entk]: Remove: archive file [/home/abi/fetcher/tmp/radical.entk-1.9.0.tar.gz]
+[2024-04-15 11:55:31] INFO root fetch - main [MainThread]: End processing [radical.entk]: success
+[2024-04-15 11:55:31] INFO root fetch - processPackages [opentelemetry_wrapper]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_wrapper-0.1.8.tar.gz]
+[2024-04-15 11:55:31] INFO root fetch - processPackages [opentelemetry_wrapper]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_wrapper-0.1.9.tar.gz]
+[2024-04-15 11:55:31] INFO root fetch - main [MainThread]: End processing [opentelemetry_wrapper]: success
+[2024-04-15 11:55:31] INFO root fetch - processPackages [fta]: Remove: archive file [/home/abi/fetcher/tmp/fta-0.0.3.tar.gz]
+[2024-04-15 11:55:31] INFO root fetch - processPackages [fta]: Remove: archive file [/home/abi/fetcher/tmp/fta-0.0.4.tar.gz]
+[2024-04-15 11:55:31] INFO root fetch - main [MainThread]: End processing [fta]: success
+[2024-04-15 11:55:31] INFO root fetch - processPackages [python-tgpt]: Remove: archive file [/home/abi/fetcher/tmp/python_tgpt-0.6.2.tar.gz]
+[2024-04-15 11:55:31] INFO root fetch - processPackages [python-tgpt]: Remove: archive file [/home/abi/fetcher/tmp/python_tgpt-0.6.3.tar.gz]
+[2024-04-15 11:55:31] INFO root fetch - main [MainThread]: End processing [python-tgpt]: success
+[2024-04-15 11:55:31] INFO root fetch - processPackages [radical.pilot]: Remove: archive file [/home/abi/fetcher/tmp/radical.pilot-1.9.1.tar.gz]
+[2024-04-15 11:55:31] INFO root fetch - processPackages [radical.pilot]: Remove: archive file [/home/abi/fetcher/tmp/radical.pilot-1.9.2.tar.gz]
+[2024-04-15 11:55:31] INFO root fetch - main [MainThread]: End processing [radical.pilot]: success
+[2024-04-15 11:55:31] INFO root fetch - main [MainThread]: Store serial: [22768948]
