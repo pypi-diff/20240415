@@ -142,7 +142,7 @@
 
  * *Command `'zipinfo {}'` failed with exit code 9. Standard output:*
 
- * *    Archive:  /tmp/diffoscope_brslm8ic_/tmp13hjydo__ZipContainer/builtin_app.zip*
+ * *    Archive:  /tmp/diffoscope_vs9cl3hd_/tmp62lzvxzf_ZipContainer/builtin_app.zip*
 
  * *    […]*
 
