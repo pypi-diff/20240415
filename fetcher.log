@@ -2263,3 +2263,38 @@
 [2024-04-15 03:13:49] INFO root fetch - processPackages [nvremap]: Remove: archive file [/home/abi/fetcher/tmp/nvremap-0.1.4-cp39-cp39-manylinux1_x86_64.whl.zip]
 [2024-04-15 03:13:49] INFO root fetch - main [MainThread]: End processing [nvremap]: success
 [2024-04-15 03:13:49] INFO root fetch - main [MainThread]: Store serial: [22764292]
+[2024-04-15 03:15:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22764292]
+[2024-04-15 03:15:58] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-15 03:15:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: funccache
+[2024-04-15 03:15:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unifyai
+[2024-04-15 03:15:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: catalystcoop.ferc-xbrl-extractor
+[2024-04-15 03:15:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hypickle
+[2024-04-15 03:15:58] INFO root fetch - processPackages [funccache]: New version: [2.0a1] Old Version: [2.0.1]
+[2024-04-15 03:15:58] INFO root fetch - processPackages [unifyai]: New version: [0.8.0] Old Version: [0.7.2]
+[2024-04-15 03:15:58] INFO root fetch - processPackages [catalystcoop.ferc-xbrl-extractor]: New version: [1.4.0] Old Version: [1.3.3]
+[2024-04-15 03:15:58] INFO root fetch - processPackages [hypickle]: New version: [1.1.33] Old Version: [1.1.3]
+[2024-04-15 03:15:58] INFO root fetch - processPackages [funccache]: Downloading https://files.pythonhosted.org/packages/1b/0d/ef5a09035f2fd0d631a04cf960be59fc460abae7236e16ec219d79f5a92f/funccache-2.0.1.tar.gz
+[2024-04-15 03:15:58] INFO root fetch - processPackages [unifyai]: Downloading https://files.pythonhosted.org/packages/73/2f/306092abdcfaf19a2f64ed6f2513a343b0c2866e06ecca7624f714995bef/unifyai-0.7.2.tar.gz
+[2024-04-15 03:15:58] INFO root fetch - processPackages [hypickle]: Downloading https://files.pythonhosted.org/packages/54/50/ce1ee4de82e2152e00f118c31fd0021440f15f2a91849c9ad5edaee9c84f/hypickle-1.1.3.tar.gz
+[2024-04-15 03:15:58] INFO root fetch - processPackages [catalystcoop.ferc-xbrl-extractor]: Downloading https://files.pythonhosted.org/packages/f3/7c/a9dd1d0160147f3d1f77c71c3558a730920c23c9d6dc0e5a93d017e27979/catalystcoop.ferc_xbrl_extractor-1.3.3.tar.gz
+[2024-04-15 03:15:58] WARNING root fetch - processPackages [catalystcoop.ferc-xbrl-extractor]: Skipping package: exceeds size limit 19974547>=10485760
+[2024-04-15 03:15:58] INFO root fetch - main [MainThread]: End processing [catalystcoop.ferc-xbrl-extractor] error
+[2024-04-15 03:15:58] INFO root fetch - processPackages [funccache]: Downloading https://files.pythonhosted.org/packages/d8/5f/590115bb19a10a21dc04a3b3e1a95cab46b0fc89b345cc0dcb3ceb348ffd/funccache-2.0a1.tar.gz
+[2024-04-15 03:15:58] INFO root fetch - processPackages [unifyai]: Downloading https://files.pythonhosted.org/packages/4b/39/113fe491b66bb6ba542a55a2a13aadc5738e4e3014b6778bd0f951bdf12a/unifyai-0.8.0.tar.gz
+[2024-04-15 03:15:58] INFO root fetch - processPackages [hypickle]: Downloading https://files.pythonhosted.org/packages/b8/1a/178404bc553b3cf90d0bf3a24f08bdcad19dd6aa617dc42148c2bfa0a12f/hypickle-1.1.33.tar.gz
+[2024-04-15 03:15:58] INFO root fetch - processPackages [unifyai]: executing diffoscope
+[2024-04-15 03:15:58] INFO root fetch - processPackages [unifyai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unifyai-0.7.2.tar.gz tmp/unifyai-0.8.0.tar.gz --markdown 20240415/u/unifyai/0.7.2-0.8.0/README.md --exclude *.pyd
+[2024-04-15 03:15:59] INFO root fetch - processPackages [funccache]: executing diffoscope
+[2024-04-15 03:15:59] INFO root fetch - processPackages [funccache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funccache-2.0.1.tar.gz tmp/funccache-2.0a1.tar.gz --markdown 20240415/f/funccache/2.0.1-2.0a1/README.md --exclude *.pyd
+[2024-04-15 03:15:59] INFO root fetch - processPackages [hypickle]: executing diffoscope
+[2024-04-15 03:15:59] INFO root fetch - processPackages [hypickle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypickle-1.1.3.tar.gz tmp/hypickle-1.1.33.tar.gz --markdown 20240415/h/hypickle/1.1.3-1.1.33/README.md --exclude *.pyd
+[2024-04-15 03:15:59] INFO root fetch - processPackages [unifyai]: Remove: archive file [/home/abi/fetcher/tmp/unifyai-0.7.2.tar.gz]
+[2024-04-15 03:15:59] INFO root fetch - processPackages [unifyai]: Remove: archive file [/home/abi/fetcher/tmp/unifyai-0.8.0.tar.gz]
+[2024-04-15 03:15:59] INFO root fetch - main [MainThread]: End processing [unifyai]: success
+[2024-04-15 03:15:59] INFO root fetch - processPackages [funccache]: Remove: archive file [/home/abi/fetcher/tmp/funccache-2.0.1.tar.gz]
+[2024-04-15 03:15:59] INFO root fetch - processPackages [funccache]: Remove: archive file [/home/abi/fetcher/tmp/funccache-2.0a1.tar.gz]
+[2024-04-15 03:15:59] INFO root fetch - main [MainThread]: End processing [funccache]: success
+[2024-04-15 03:15:59] INFO root fetch - processPackages [hypickle]: Remove: archive file [/home/abi/fetcher/tmp/hypickle-1.1.3.tar.gz]
+[2024-04-15 03:15:59] INFO root fetch - processPackages [hypickle]: Remove: archive file [/home/abi/fetcher/tmp/hypickle-1.1.33.tar.gz]
+[2024-04-15 03:15:59] INFO root fetch - main [MainThread]: End processing [hypickle]: success
+[2024-04-15 03:15:59] INFO root fetch - main [MainThread]: Store serial: [22764305]
