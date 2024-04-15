@@ -9807,3 +9807,66 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 09:19:19] INFO root fetch - processPackages [qianfan]: Remove: archive file [/home/abi/fetcher/tmp/qianfan-0.3.8.1.tar.gz]
 [2024-04-15 09:19:19] INFO root fetch - main [MainThread]: End processing [qianfan]: success
 [2024-04-15 09:19:19] INFO root fetch - main [MainThread]: Store serial: [22767163]
+[2024-04-15 09:21:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22767163]
+[2024-04-15 09:21:28] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-15 09:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lookout-cli
+[2024-04-15 09:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lookout-config
+[2024-04-15 09:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: avania
+[2024-04-15 09:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yplib
+[2024-04-15 09:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mqi-sspd-api
+[2024-04-15 09:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: snakeyaml-plugin
+[2024-04-15 09:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: NetworkConfigDiff
+[2024-04-15 09:21:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dataforseo-client
+[2024-04-15 09:21:28] INFO root fetch - processPackages [lookout-config]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-15 09:21:28] INFO root fetch - processPackages [mqi-sspd-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-15 09:21:28] INFO root fetch - processPackages [avania]: New version: [0.1.4] Old Version: [0.1.2]
+[2024-04-15 09:21:28] INFO root fetch - processPackages [lookout-cli]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-15 09:21:28] INFO root fetch - processPackages [yplib]: New version: [5.6.2] Old Version: [5.6.1]
+[2024-04-15 09:21:28] WARNING root fetch - processPackages [NetworkConfigDiff]: Skipping, unable to determine old version
+[2024-04-15 09:21:28] INFO root fetch - main [MainThread]: End processing [NetworkConfigDiff] error
+[2024-04-15 09:21:28] INFO root fetch - processPackages [mqi-sspd-api]: Downloading https://files.pythonhosted.org/packages/ee/ae/4a3b6ddc3ca5c7fb26459aac3527bca5e6879ad9622cd590be6bc1a59884/mqi_sspd_api-0.0.8.tar.gz
+[2024-04-15 09:21:28] WARNING root fetch - processPackages [snakeyaml-plugin]: Skipping, unable to determine old version
+[2024-04-15 09:21:28] INFO root fetch - main [MainThread]: End processing [snakeyaml-plugin] error
+[2024-04-15 09:21:28] INFO root fetch - processPackages [lookout-config]: Downloading https://files.pythonhosted.org/packages/e2/1a/ff52cdada1161316a1f23018d07b97f4e206690b27dd05b8be9cfd0d8b16/lookout_config-1.1.0.tar.gz
+[2024-04-15 09:21:28] INFO root fetch - processPackages [dataforseo-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-15 09:21:28] INFO root fetch - processPackages [lookout-cli]: Downloading https://files.pythonhosted.org/packages/f8/49/e4832a13fd0ec4389e10ca61f57c74e07836679ab0093ad6989cec536988/lookout_cli-1.1.0.tar.gz
+[2024-04-15 09:21:28] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/6f/ae/5c924c2e3156cc25e98f1aadf382b9b0b41ecfebd73fe826523ff8fdad44/yplib-5.6.1.tar.gz
+[2024-04-15 09:21:29] INFO root fetch - processPackages [avania]: Downloading https://files.pythonhosted.org/packages/db/ab/15d0cd87de0cd997dde08270591b44341098b00d2d699a72d09adbb4e2c2/avania-0.1.2.tar.gz
+[2024-04-15 09:21:29] INFO root fetch - processPackages [mqi-sspd-api]: Downloading https://files.pythonhosted.org/packages/ab/67/ba64b5d5f8a9a667443750438b3cbfd2dfad97b1577f6925f3f464dda595/mqi_sspd_api-0.0.9.tar.gz
+[2024-04-15 09:21:29] INFO root fetch - processPackages [dataforseo-client]: Downloading https://files.pythonhosted.org/packages/d2/68/84689fba81cb3c59fee0e9b14ee4e226f70268905547fed46e29a9c67acd/dataforseo-client-1.0.8.tar.gz
+[2024-04-15 09:21:29] INFO root fetch - processPackages [lookout-config]: Downloading https://files.pythonhosted.org/packages/88/7c/e594a5f71def5fce399c6d5d51a29ecf202798420b221c3fac33c3643aae/lookout_config-1.1.1.tar.gz
+[2024-04-15 09:21:29] INFO root fetch - processPackages [mqi-sspd-api]: executing diffoscope
+[2024-04-15 09:21:29] INFO root fetch - processPackages [mqi-sspd-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mqi_sspd_api-0.0.8.tar.gz tmp/mqi_sspd_api-0.0.9.tar.gz --markdown 20240415/m/mqi-sspd-api/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-15 09:21:29] INFO root fetch - processPackages [lookout-cli]: Downloading https://files.pythonhosted.org/packages/de/6a/8964af61b3d97046a9eede4f30ab17945724574c4b65e7d038fdbe2bc784/lookout_cli-1.1.1.tar.gz
+[2024-04-15 09:21:29] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/3f/14/b49210537de411ace4ed2ea2e2233175c613debafa74467a0efd02d0f67f/yplib-5.6.2.tar.gz
+[2024-04-15 09:21:29] INFO root fetch - processPackages [avania]: Downloading https://files.pythonhosted.org/packages/80/73/ebe74336733d6e6ba2a0bdaf405d61c3c962bd69493622087772f0d2ede7/avania-0.1.4.tar.gz
+[2024-04-15 09:21:29] INFO root fetch - processPackages [lookout-cli]: executing diffoscope
+[2024-04-15 09:21:29] INFO root fetch - processPackages [lookout-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lookout_cli-1.1.0.tar.gz tmp/lookout_cli-1.1.1.tar.gz --markdown 20240415/l/lookout-cli/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-15 09:21:29] INFO root fetch - processPackages [lookout-config]: executing diffoscope
+[2024-04-15 09:21:29] INFO root fetch - processPackages [lookout-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lookout_config-1.1.0.tar.gz tmp/lookout_config-1.1.1.tar.gz --markdown 20240415/l/lookout-config/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-15 09:21:29] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2024-04-15 09:21:29] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-5.6.1.tar.gz tmp/yplib-5.6.2.tar.gz --markdown 20240415/y/yplib/5.6.1-5.6.2/README.md --exclude *.pyd
+[2024-04-15 09:21:29] INFO root fetch - processPackages [avania]: executing diffoscope
+[2024-04-15 09:21:29] INFO root fetch - processPackages [avania]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avania-0.1.2.tar.gz tmp/avania-0.1.4.tar.gz --markdown 20240415/a/avania/0.1.2-0.1.4/README.md --exclude *.pyd
+[2024-04-15 09:21:29] INFO root fetch - processPackages [dataforseo-client]: Downloading https://files.pythonhosted.org/packages/8d/04/47b191652bf6e54ee50a87ce1cdfc88a53f79dafe06782858d8b4d892246/dataforseo-client-1.0.9.tar.gz
+[2024-04-15 09:21:30] INFO root fetch - processPackages [dataforseo-client]: executing diffoscope
+[2024-04-15 09:21:30] INFO root fetch - processPackages [dataforseo-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataforseo-client-1.0.8.tar.gz tmp/dataforseo-client-1.0.9.tar.gz --markdown 20240415/d/dataforseo-client/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-15 09:21:30] INFO root fetch - processPackages [mqi-sspd-api]: Remove: archive file [/home/abi/fetcher/tmp/mqi_sspd_api-0.0.8.tar.gz]
+[2024-04-15 09:21:30] INFO root fetch - processPackages [mqi-sspd-api]: Remove: archive file [/home/abi/fetcher/tmp/mqi_sspd_api-0.0.9.tar.gz]
+[2024-04-15 09:21:30] INFO root fetch - main [MainThread]: End processing [mqi-sspd-api]: success
+[2024-04-15 09:21:30] INFO root fetch - processPackages [avania]: Remove: archive file [/home/abi/fetcher/tmp/avania-0.1.2.tar.gz]
+[2024-04-15 09:21:30] INFO root fetch - processPackages [lookout-cli]: Remove: archive file [/home/abi/fetcher/tmp/lookout_cli-1.1.0.tar.gz]
+[2024-04-15 09:21:30] INFO root fetch - processPackages [lookout-cli]: Remove: archive file [/home/abi/fetcher/tmp/lookout_cli-1.1.1.tar.gz]
+[2024-04-15 09:21:30] INFO root fetch - processPackages [avania]: Remove: archive file [/home/abi/fetcher/tmp/avania-0.1.4.tar.gz]
+[2024-04-15 09:21:30] INFO root fetch - main [MainThread]: End processing [lookout-cli]: success
+[2024-04-15 09:21:30] INFO root fetch - main [MainThread]: End processing [avania]: success
+[2024-04-15 09:21:30] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-5.6.1.tar.gz]
+[2024-04-15 09:21:30] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-5.6.2.tar.gz]
+[2024-04-15 09:21:30] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2024-04-15 09:21:30] INFO root fetch - processPackages [lookout-config]: Remove: archive file [/home/abi/fetcher/tmp/lookout_config-1.1.0.tar.gz]
+[2024-04-15 09:21:30] INFO root fetch - processPackages [lookout-config]: Remove: archive file [/home/abi/fetcher/tmp/lookout_config-1.1.1.tar.gz]
+[2024-04-15 09:21:30] INFO root fetch - main [MainThread]: End processing [lookout-config]: success
+[2024-04-15 09:22:03] INFO root fetch - processPackages [dataforseo-client]: Remove: archive file [/home/abi/fetcher/tmp/dataforseo-client-1.0.8.tar.gz]
+[2024-04-15 09:22:03] INFO root fetch - processPackages [dataforseo-client]: Remove: archive file [/home/abi/fetcher/tmp/dataforseo-client-1.0.9.tar.gz]
+[2024-04-15 09:22:03] INFO root fetch - main [MainThread]: End processing [dataforseo-client]: success
+[2024-04-15 09:22:03] INFO root fetch - main [MainThread]: Store serial: [22767195]
