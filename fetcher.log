@@ -8112,3 +8112,33 @@
 [2024-04-15 08:00:50] INFO root fetch - processPackages [accrete]: Remove: archive file [/home/abi/fetcher/tmp/accrete-0.0.9.tar.gz]
 [2024-04-15 08:00:50] INFO root fetch - main [MainThread]: End processing [accrete]: success
 [2024-04-15 08:00:50] INFO root fetch - main [MainThread]: Store serial: [22766464]
+[2024-04-15 08:02:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22766464]
+[2024-04-15 08:03:00] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-15 08:03:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bbot
+[2024-04-15 08:03:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qdx-py
+[2024-04-15 08:03:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flask-tabler-icons
+[2024-04-15 08:03:00] INFO root fetch - processPackages [bbot]: New version: [1.1.7.7rc0] Old Version: [1.1.7.6rc0]
+[2024-04-15 08:03:00] INFO root fetch - processPackages [flask-tabler-icons]: New version: [3.2.0] Old Version: [3.1.0]
+[2024-04-15 08:03:00] INFO root fetch - processPackages [bbot]: Downloading https://files.pythonhosted.org/packages/0e/89/05677f40d2885a5aa8306d6e691a9c8e8bde59b2659d8c45e30c01a31b74/bbot-1.1.7.6rc0.tar.gz
+[2024-04-15 08:03:00] INFO root fetch - processPackages [qdx-py]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-04-15 08:03:01] INFO root fetch - processPackages [flask-tabler-icons]: Downloading https://files.pythonhosted.org/packages/0c/2c/3adc1f55fa9c75a418a02ddf5ce7b41f31ca408ad78c6f502806d5ee0c62/flask-tabler-icons-3.1.0.tar.gz
+[2024-04-15 08:03:01] INFO root fetch - processPackages [qdx-py]: Downloading https://files.pythonhosted.org/packages/d6/76/2e9ed5e871f61d2cf0f2752298072ffd87643605382378de43271acd8bbc/qdx_py-0.8.2.tar.gz
+[2024-04-15 08:03:02] INFO root fetch - processPackages [bbot]: Downloading https://files.pythonhosted.org/packages/84/41/8580d0cea5bf01417fb7b7db4ce6c0bc6617c939c9859c98790d2121b508/bbot-1.1.7.7rc0.tar.gz
+[2024-04-15 08:03:02] INFO root fetch - processPackages [qdx-py]: Downloading https://files.pythonhosted.org/packages/6e/53/5bec16abb314f49846c0caad1d0a98b442946a8bfb2395363035240a6f4d/qdx_py-0.9.0.tar.gz
+[2024-04-15 08:03:02] INFO root fetch - processPackages [flask-tabler-icons]: Downloading https://files.pythonhosted.org/packages/06/b0/1b22944bd6173c65db8398e3430f4d07a63d2e6d8ce4fc952db251e87b3e/flask_tabler_icons-3.2.0.tar.gz
+[2024-04-15 08:03:02] INFO root fetch - processPackages [bbot]: executing diffoscope
+[2024-04-15 08:03:02] INFO root fetch - processPackages [bbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbot-1.1.7.6rc0.tar.gz tmp/bbot-1.1.7.7rc0.tar.gz --markdown 20240415/b/bbot/1.1.7.6rc0-1.1.7.7rc0/README.md --exclude *.pyd
+[2024-04-15 08:03:02] INFO root fetch - processPackages [qdx-py]: executing diffoscope
+[2024-04-15 08:03:02] INFO root fetch - processPackages [qdx-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qdx_py-0.8.2.tar.gz tmp/qdx_py-0.9.0.tar.gz --markdown 20240415/q/qdx-py/0.8.2-0.9.0/README.md --exclude *.pyd
+[2024-04-15 08:03:02] INFO root fetch - processPackages [flask-tabler-icons]: executing diffoscope
+[2024-04-15 08:03:02] INFO root fetch - processPackages [flask-tabler-icons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-tabler-icons-3.1.0.tar.gz tmp/flask_tabler_icons-3.2.0.tar.gz --markdown 20240415/f/flask-tabler-icons/3.1.0-3.2.0/README.md --exclude *.pyd
+[2024-04-15 08:03:03] INFO root fetch - processPackages [qdx-py]: Remove: archive file [/home/abi/fetcher/tmp/qdx_py-0.8.2.tar.gz]
+[2024-04-15 08:03:03] INFO root fetch - processPackages [qdx-py]: Remove: archive file [/home/abi/fetcher/tmp/qdx_py-0.9.0.tar.gz]
+[2024-04-15 08:03:03] INFO root fetch - main [MainThread]: End processing [qdx-py]: success
+[2024-04-15 08:03:03] INFO root fetch - processPackages [bbot]: Remove: archive file [/home/abi/fetcher/tmp/bbot-1.1.7.6rc0.tar.gz]
+[2024-04-15 08:03:03] INFO root fetch - processPackages [bbot]: Remove: archive file [/home/abi/fetcher/tmp/bbot-1.1.7.7rc0.tar.gz]
+[2024-04-15 08:03:03] INFO root fetch - main [MainThread]: End processing [bbot]: success
+[2024-04-15 08:03:04] INFO root fetch - processPackages [flask-tabler-icons]: Remove: archive file [/home/abi/fetcher/tmp/flask-tabler-icons-3.1.0.tar.gz]
+[2024-04-15 08:03:04] INFO root fetch - processPackages [flask-tabler-icons]: Remove: archive file [/home/abi/fetcher/tmp/flask_tabler_icons-3.2.0.tar.gz]
+[2024-04-15 08:03:04] INFO root fetch - main [MainThread]: End processing [flask-tabler-icons]: success
+[2024-04-15 08:03:04] INFO root fetch - main [MainThread]: Store serial: [22766477]
