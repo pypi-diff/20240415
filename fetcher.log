@@ -1469,3 +1469,15 @@
 [2024-04-15 02:01:48] INFO root fetch - processPackages [pygpt-net]: Remove: archive file [/home/abi/fetcher/tmp/pygpt_net-2.1.9.tar.gz]
 [2024-04-15 02:01:48] INFO root fetch - main [MainThread]: End processing [pygpt-net]: success
 [2024-04-15 02:01:48] INFO root fetch - main [MainThread]: Store serial: [22763756]
+[2024-04-15 02:03:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22763756]
+[2024-04-15 02:03:56] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-15 02:03:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sql-athame
+[2024-04-15 02:03:56] INFO root fetch - processPackages [sql-athame]: New version: [0.4.0a3] Old Version: [0.4.0a2]
+[2024-04-15 02:03:56] INFO root fetch - processPackages [sql-athame]: Downloading https://files.pythonhosted.org/packages/af/d9/830e45b8cba829412841456fb973ae20b9ec0908af8659272d4cc397284a/sql_athame-0.4.0a2.tar.gz
+[2024-04-15 02:03:57] INFO root fetch - processPackages [sql-athame]: Downloading https://files.pythonhosted.org/packages/81/12/b031f8ac31d96b05bfc149953b35203d95b5078e9ba0ac4f4713fe57dca3/sql_athame-0.4.0a3.tar.gz
+[2024-04-15 02:03:57] INFO root fetch - processPackages [sql-athame]: executing diffoscope
+[2024-04-15 02:03:57] INFO root fetch - processPackages [sql-athame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sql_athame-0.4.0a2.tar.gz tmp/sql_athame-0.4.0a3.tar.gz --markdown 20240415/s/sql-athame/0.4.0a2-0.4.0a3/README.md --exclude *.pyd
+[2024-04-15 02:03:57] INFO root fetch - processPackages [sql-athame]: Remove: archive file [/home/abi/fetcher/tmp/sql_athame-0.4.0a2.tar.gz]
+[2024-04-15 02:03:57] INFO root fetch - processPackages [sql-athame]: Remove: archive file [/home/abi/fetcher/tmp/sql_athame-0.4.0a3.tar.gz]
+[2024-04-15 02:03:57] INFO root fetch - main [MainThread]: End processing [sql-athame]: success
+[2024-04-15 02:03:57] INFO root fetch - main [MainThread]: Store serial: [22763794]
