@@ -1481,3 +1481,42 @@
 [2024-04-15 02:03:57] INFO root fetch - processPackages [sql-athame]: Remove: archive file [/home/abi/fetcher/tmp/sql_athame-0.4.0a3.tar.gz]
 [2024-04-15 02:03:57] INFO root fetch - main [MainThread]: End processing [sql-athame]: success
 [2024-04-15 02:03:57] INFO root fetch - main [MainThread]: Store serial: [22763794]
+[2024-04-15 02:06:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22763794]
+[2024-04-15 02:06:06] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-15 02:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ubo-gui
+[2024-04-15 02:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autopipeline
+[2024-04-15 02:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jaxkern-nightly
+[2024-04-15 02:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fango
+[2024-04-15 02:06:06] INFO root fetch - processPackages [fango]: New version: [0.0.19] Old Version: [0.0.18]
+[2024-04-15 02:06:06] INFO root fetch - processPackages [autopipeline]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-15 02:06:06] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2024-04-15 02:06:06] INFO root fetch - processPackages [fango]: Downloading https://files.pythonhosted.org/packages/ac/36/a1496a8dcb8605fa4995ac5934b167d780a3515f631bbfef172bbe8ffb91/fango-0.0.18.tar.gz
+[2024-04-15 02:06:06] INFO root fetch - processPackages [ubo-gui]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-15 02:06:06] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2024-04-15 02:06:06] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/0f/9eaf209b6d540115afdc9ae31de828df0234756277bceae49a4d1a0ea8b3/autopipeline-0.1.98.tar.gz
+[2024-04-15 02:06:06] INFO root fetch - processPackages [ubo-gui]: Downloading https://files.pythonhosted.org/packages/52/ff/3d11671b088eea21a50272125230db635fc5cebc64b0112631f2264aa075/ubo_gui-0.9.8.tar.gz
+[2024-04-15 02:06:06] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2024-04-15 02:06:06] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/4a/f3df97d414e0a5e9120459fd5c7ab663092d540df59f7deacc45810deb41/autopipeline-0.1.99.tar.gz
+[2024-04-15 02:06:06] INFO root fetch - processPackages [fango]: Downloading https://files.pythonhosted.org/packages/bd/eb/ca8ee602967ee1c18d3d82a611908bd9edf214f89e3b816c773bff68d7b0/fango-0.0.19.tar.gz
+[2024-04-15 02:06:06] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2024-04-15 02:06:06] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20240415/j/jaxkern-nightly/0.dev20221221-0.dev20221222/README.md --exclude *.pyd
+[2024-04-15 02:06:06] INFO root fetch - processPackages [autopipeline]: executing diffoscope
+[2024-04-15 02:06:06] INFO root fetch - processPackages [autopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopipeline-0.1.98.tar.gz tmp/autopipeline-0.1.99.tar.gz --markdown 20240415/a/autopipeline/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-15 02:06:06] INFO root fetch - processPackages [fango]: executing diffoscope
+[2024-04-15 02:06:06] INFO root fetch - processPackages [fango]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fango-0.0.18.tar.gz tmp/fango-0.0.19.tar.gz --markdown 20240415/f/fango/0.0.18-0.0.19/README.md --exclude *.pyd
+[2024-04-15 02:06:07] INFO root fetch - processPackages [ubo-gui]: Downloading https://files.pythonhosted.org/packages/49/be/d5e94619625fa02651110d759ce75c827dbed83a0a373d6609eabcdde8af/ubo_gui-0.9.9.tar.gz
+[2024-04-15 02:06:07] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2024-04-15 02:06:07] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2024-04-15 02:06:07] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2024-04-15 02:06:07] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.98.tar.gz]
+[2024-04-15 02:06:07] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.99.tar.gz]
+[2024-04-15 02:06:07] INFO root fetch - main [MainThread]: End processing [autopipeline]: success
+[2024-04-15 02:06:07] INFO root fetch - processPackages [ubo-gui]: executing diffoscope
+[2024-04-15 02:06:07] INFO root fetch - processPackages [ubo-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ubo_gui-0.9.8.tar.gz tmp/ubo_gui-0.9.9.tar.gz --markdown 20240415/u/ubo-gui/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-15 02:06:07] INFO root fetch - processPackages [fango]: Remove: archive file [/home/abi/fetcher/tmp/fango-0.0.18.tar.gz]
+[2024-04-15 02:06:07] INFO root fetch - processPackages [fango]: Remove: archive file [/home/abi/fetcher/tmp/fango-0.0.19.tar.gz]
+[2024-04-15 02:06:07] INFO root fetch - main [MainThread]: End processing [fango]: success
+[2024-04-15 02:06:08] INFO root fetch - processPackages [ubo-gui]: Remove: archive file [/home/abi/fetcher/tmp/ubo_gui-0.9.8.tar.gz]
+[2024-04-15 02:06:08] INFO root fetch - processPackages [ubo-gui]: Remove: archive file [/home/abi/fetcher/tmp/ubo_gui-0.9.9.tar.gz]
+[2024-04-15 02:06:08] INFO root fetch - main [MainThread]: End processing [ubo-gui]: success
+[2024-04-15 02:06:08] INFO root fetch - main [MainThread]: Store serial: [22763808]
