@@ -21383,3 +21383,137 @@ EOFError: EOF read where object expected
 [2024-04-15 16:04:26] INFO root fetch - processPackages [gs-quant]: Remove: archive file [/home/abi/fetcher/tmp/gs_quant-1.0.9.tar.gz]
 [2024-04-15 16:04:26] INFO root fetch - main [MainThread]: End processing [gs-quant]: success
 [2024-04-15 16:04:26] INFO root fetch - main [MainThread]: Store serial: [22772258]
+[2024-04-15 16:06:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22772258]
+[2024-04-15 16:06:34] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-04-15 16:06:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alamos
+[2024-04-15 16:06:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vectorshift
+[2024-04-15 16:06:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytonapi
+[2024-04-15 16:06:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: synnax-freighter
+[2024-04-15 16:06:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: synnax
+[2024-04-15 16:06:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: facialfinder
+[2024-04-15 16:06:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nox
+[2024-04-15 16:06:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hnt-nf-jira-library
+[2024-04-15 16:06:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spu
+[2024-04-15 16:06:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: btcs-crypto-systems
+[2024-04-15 16:06:34] INFO root fetch - processPackages [btcs-crypto-systems]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-15 16:06:34] INFO root fetch - processPackages [facialfinder]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-15 16:06:34] INFO root fetch - processPackages [btcs-crypto-systems]: Downloading https://files.pythonhosted.org/packages/d0/52/825c523da9e5751d66102f5ad1a28387836af898d37157d586121e00b4e1/btcs_crypto_systems-0.0.8.tar.gz
+[2024-04-15 16:06:34] INFO root fetch - processPackages [facialfinder]: Downloading https://files.pythonhosted.org/packages/b7/e5/f93e6e128ad01dff5d45a3cad8ab732cf6c60d043137eccfbaefb63411db/facialfinder-0.0.4.tar.gz
+[2024-04-15 16:06:35] INFO root fetch - processPackages [alamos]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-04-15 16:06:35] INFO root fetch - processPackages [hnt-nf-jira-library]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-15 16:06:35] INFO root fetch - processPackages [pytonapi]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-15 16:06:35] INFO root fetch - processPackages [vectorshift]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-15 16:06:35] INFO root fetch - processPackages [nox]: New version: [2024.4.15] Old Version: [2024.3.2]
+[2024-04-15 16:06:35] INFO root fetch - processPackages [synnax-freighter]: New version: [0.6.6] Old Version: [0.6.5]
+[2024-04-15 16:06:35] INFO root fetch - processPackages [synnax]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-15 16:06:35] INFO root fetch - processPackages [spu]: New version: [0.9.0b0] Old Version: [0.9.0.dev20240415]
+[2024-04-15 16:06:35] INFO root fetch - processPackages [pytonapi]: Downloading https://files.pythonhosted.org/packages/6e/c6/12837ae3258eeff2dde265b2d621b162cd00c39f0d3fcd994d68e60722d6/pytonapi-0.2.2.tar.gz
+[2024-04-15 16:06:35] INFO root fetch - processPackages [alamos]: Downloading https://files.pythonhosted.org/packages/c7/af/aa0a689256583f2fbbb92b25ab0a2e07ca51633c64d4687f919969295cad/alamos-0.3.5.tar.gz
+[2024-04-15 16:06:35] INFO root fetch - processPackages [hnt-nf-jira-library]: Downloading https://files.pythonhosted.org/packages/b2/73/36118c7822a2e008eebc607bcf5138a3ebb306555a263663970461b64b78/hnt_nf_jira_library-0.3.2.tar.gz
+[2024-04-15 16:06:35] INFO root fetch - processPackages [btcs-crypto-systems]: Downloading https://files.pythonhosted.org/packages/2f/bb/c85a6de36a6477d33e1444efd2a328c4a29a7e9918a901fd0f6404d3ddb2/btcs_crypto_systems-0.0.9.tar.gz
+[2024-04-15 16:06:35] INFO root fetch - processPackages [vectorshift]: Downloading https://files.pythonhosted.org/packages/c9/8f/f3dfa446c0a69a88b8afeb8d895b5f4a1f9eb45544103dba9bf9d7d0def2/vectorshift-0.0.8.tar.gz
+[2024-04-15 16:06:35] INFO root fetch - processPackages [synnax-freighter]: Downloading https://files.pythonhosted.org/packages/ff/27/10ccdd7fe6528f9b2e5b90ed27f1dd0f0adf282f0d6dd6269797b3680f4c/synnax_freighter-0.6.5.tar.gz
+[2024-04-15 16:06:35] INFO root fetch - processPackages [spu]: Downloading https://files.pythonhosted.org/packages/8d/1c/03bc85948e952b225951c0b3b2a48f0848dbd6407530c8431f1aa8b58407/spu-0.9.0.dev20240415-cp310-cp310-manylinux_2_28_aarch64.whl
+[2024-04-15 16:06:35] INFO root fetch - processPackages [synnax]: Downloading https://files.pythonhosted.org/packages/89/a1/f0d76d0706e47ba3dcdbf0fe8c7b2e90c98bd073d40a3c4c7c1c1025aab8/synnax-0.8.0.tar.gz
+[2024-04-15 16:06:35] INFO root fetch - processPackages [facialfinder]: Downloading https://files.pythonhosted.org/packages/b8/c7/a347ab087631405a110214c8db0cbcce0d31779583feb267669e26e960b3/facialfinder-0.0.5.tar.gz
+[2024-04-15 16:06:35] INFO root fetch - processPackages [nox]: Downloading https://files.pythonhosted.org/packages/8a/6b/2c02879d29704b74586a89900c48d9744780a5aad771f1d182c7394cfd57/nox-2024.3.2.tar.gz
+[2024-04-15 16:06:35] INFO root fetch - processPackages [btcs-crypto-systems]: executing diffoscope
+[2024-04-15 16:06:35] INFO root fetch - processPackages [btcs-crypto-systems]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btcs_crypto_systems-0.0.8.tar.gz tmp/btcs_crypto_systems-0.0.9.tar.gz --markdown 20240415/b/btcs-crypto-systems/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-15 16:06:35] INFO root fetch - processPackages [facialfinder]: executing diffoscope
+[2024-04-15 16:06:35] INFO root fetch - processPackages [facialfinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/facialfinder-0.0.4.tar.gz tmp/facialfinder-0.0.5.tar.gz --markdown 20240415/f/facialfinder/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-15 16:06:35] INFO root fetch - processPackages [pytonapi]: Downloading https://files.pythonhosted.org/packages/d7/e9/11ef2cb2f531fb13607094a8b7c5f87c671c047725727f50639a0cfac3ea/pytonapi-0.2.3.tar.gz
+[2024-04-15 16:06:35] INFO root fetch - processPackages [alamos]: Downloading https://files.pythonhosted.org/packages/7b/9f/41468b442f2f80403ca2622efc2e405b1d58d714cd063d9273af4eef55df/alamos-0.3.6.tar.gz
+[2024-04-15 16:06:35] INFO root fetch - processPackages [hnt-nf-jira-library]: Downloading https://files.pythonhosted.org/packages/d9/65/c3b816f85fbf40f1466581b3c6abead507e8444c388d84d96277fc40643e/hnt_nf_jira_library-0.3.3.tar.gz
+[2024-04-15 16:06:35] INFO root fetch - processPackages [vectorshift]: Downloading https://files.pythonhosted.org/packages/22/49/d9b196a4c957dc9d7e0fbd696a923b98e05debc749ebc6b4e0218171f751/vectorshift-0.0.9.tar.gz
+[2024-04-15 16:06:35] INFO root fetch - processPackages [synnax-freighter]: Downloading https://files.pythonhosted.org/packages/48/33/7bd2a2f90af925dd032b757fb65f5015a80c39c76a696636dc7a07fe0528/synnax_freighter-0.6.6.tar.gz
+[2024-04-15 16:06:35] INFO root fetch - processPackages [synnax]: Downloading https://files.pythonhosted.org/packages/b3/bc/76e9b03b96c7ab72f4b39e5e03c396b86efd6fb650bedcff8a7118679e9b/synnax-0.9.0.tar.gz
+[2024-04-15 16:06:35] INFO root fetch - processPackages [pytonapi]: executing diffoscope
+[2024-04-15 16:06:35] INFO root fetch - processPackages [pytonapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytonapi-0.2.2.tar.gz tmp/pytonapi-0.2.3.tar.gz --markdown 20240415/p/pytonapi/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-15 16:06:35] INFO root fetch - processPackages [alamos]: executing diffoscope
+[2024-04-15 16:06:35] INFO root fetch - processPackages [alamos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alamos-0.3.5.tar.gz tmp/alamos-0.3.6.tar.gz --markdown 20240415/a/alamos/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-04-15 16:06:35] INFO root fetch - processPackages [vectorshift]: executing diffoscope
+[2024-04-15 16:06:35] INFO root fetch - processPackages [vectorshift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectorshift-0.0.8.tar.gz tmp/vectorshift-0.0.9.tar.gz --markdown 20240415/v/vectorshift/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-15 16:06:35] INFO root fetch - processPackages [synnax-freighter]: executing diffoscope
+[2024-04-15 16:06:35] INFO root fetch - processPackages [synnax-freighter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synnax_freighter-0.6.5.tar.gz tmp/synnax_freighter-0.6.6.tar.gz --markdown 20240415/s/synnax-freighter/0.6.5-0.6.6/README.md --exclude *.pyd
+[2024-04-15 16:06:35] INFO root fetch - processPackages [synnax]: executing diffoscope
+[2024-04-15 16:06:35] INFO root fetch - processPackages [synnax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synnax-0.8.0.tar.gz tmp/synnax-0.9.0.tar.gz --markdown 20240415/s/synnax/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-15 16:06:35] INFO root fetch - processPackages [hnt-nf-jira-library]: executing diffoscope
+[2024-04-15 16:06:35] INFO root fetch - processPackages [hnt-nf-jira-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hnt_nf_jira_library-0.3.2.tar.gz tmp/hnt_nf_jira_library-0.3.3.tar.gz --markdown 20240415/h/hnt-nf-jira-library/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-04-15 16:06:36] INFO root fetch - processPackages [nox]: Downloading https://files.pythonhosted.org/packages/1e/86/b86fc26784d2f63d038b4efc9e18d4d807ec025569da66c6d032b8f717df/nox-2024.4.15.tar.gz
+[2024-04-15 16:06:36] INFO root fetch - processPackages [btcs-crypto-systems]: Remove: archive file [/home/abi/fetcher/tmp/btcs_crypto_systems-0.0.8.tar.gz]
+[2024-04-15 16:06:36] INFO root fetch - processPackages [btcs-crypto-systems]: Remove: archive file [/home/abi/fetcher/tmp/btcs_crypto_systems-0.0.9.tar.gz]
+[2024-04-15 16:06:36] INFO root fetch - processPackages [btcs-crypto-systems]: Start processing: bellek
+[2024-04-15 16:06:36] INFO root fetch - main [MainThread]: End processing [btcs-crypto-systems]: success
+[2024-04-15 16:06:36] INFO root fetch - processPackages [bellek]: New version: [0.9.0] Old Version: [0.83.0]
+[2024-04-15 16:06:36] INFO root fetch - processPackages [nox]: executing diffoscope
+[2024-04-15 16:06:36] INFO root fetch - processPackages [nox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nox-2024.3.2.tar.gz tmp/nox-2024.4.15.tar.gz --markdown 20240415/n/nox/2024.3.2-2024.4.15/README.md --exclude *.pyd
+[2024-04-15 16:06:36] INFO root fetch - processPackages [bellek]: Downloading https://files.pythonhosted.org/packages/63/24/357797fc2282127c9803a61d8ea73ea958295969d7d0edb5284066dde979/bellek-0.83.0.tar.gz
+[2024-04-15 16:06:36] INFO root fetch - processPackages [synnax-freighter]: Remove: archive file [/home/abi/fetcher/tmp/synnax_freighter-0.6.5.tar.gz]
+[2024-04-15 16:06:36] INFO root fetch - processPackages [synnax-freighter]: Remove: archive file [/home/abi/fetcher/tmp/synnax_freighter-0.6.6.tar.gz]
+[2024-04-15 16:06:36] INFO root fetch - processPackages [synnax-freighter]: Start processing: schubmult
+[2024-04-15 16:06:36] INFO root fetch - main [MainThread]: End processing [synnax-freighter]: success
+[2024-04-15 16:06:36] INFO root fetch - processPackages [schubmult]: New version: [1.3.4] Old Version: [1.3.3]
+[2024-04-15 16:06:36] WARNING root fetch - processPackages [spu]: Skipping package: exceeds size limit 36454748>=10485760
+[2024-04-15 16:06:36] INFO root fetch - processPackages [spu]: Start processing: udata-front
+[2024-04-15 16:06:36] INFO root fetch - main [MainThread]: End processing [spu] error
+[2024-04-15 16:06:36] INFO root fetch - processPackages [facialfinder]: Remove: archive file [/home/abi/fetcher/tmp/facialfinder-0.0.4.tar.gz]
+[2024-04-15 16:06:36] INFO root fetch - processPackages [facialfinder]: Remove: archive file [/home/abi/fetcher/tmp/facialfinder-0.0.5.tar.gz]
+[2024-04-15 16:06:36] INFO root fetch - processPackages [facialfinder]: Start processing: mloggers
+[2024-04-15 16:06:36] INFO root fetch - main [MainThread]: End processing [facialfinder]: success
+[2024-04-15 16:06:36] INFO root fetch - processPackages [alamos]: Remove: archive file [/home/abi/fetcher/tmp/alamos-0.3.5.tar.gz]
+[2024-04-15 16:06:36] INFO root fetch - processPackages [alamos]: Remove: archive file [/home/abi/fetcher/tmp/alamos-0.3.6.tar.gz]
+[2024-04-15 16:06:36] INFO root fetch - processPackages [alamos]: Start processing: ibm-platform-services
+[2024-04-15 16:06:36] INFO root fetch - main [MainThread]: End processing [alamos]: success
+[2024-04-15 16:06:36] INFO root fetch - processPackages [pytonapi]: Remove: archive file [/home/abi/fetcher/tmp/pytonapi-0.2.2.tar.gz]
+[2024-04-15 16:06:36] INFO root fetch - processPackages [pytonapi]: Remove: archive file [/home/abi/fetcher/tmp/pytonapi-0.2.3.tar.gz]
+[2024-04-15 16:06:36] INFO root fetch - main [MainThread]: End processing [pytonapi]: success
+[2024-04-15 16:06:36] INFO root fetch - processPackages [udata-front]: New version: [3.5.5a117434] Old Version: [3.5.5a1]
+[2024-04-15 16:06:36] INFO root fetch - processPackages [bellek]: Downloading https://files.pythonhosted.org/packages/ec/cb/2e453e973c51c52f57d3533e8d2f7192b8c626e0078fe08fb907191e69fb/bellek-0.9.0.tar.gz
+[2024-04-15 16:06:36] INFO root fetch - processPackages [vectorshift]: Remove: archive file [/home/abi/fetcher/tmp/vectorshift-0.0.8.tar.gz]
+[2024-04-15 16:06:36] INFO root fetch - processPackages [vectorshift]: Remove: archive file [/home/abi/fetcher/tmp/vectorshift-0.0.9.tar.gz]
+[2024-04-15 16:06:36] INFO root fetch - main [MainThread]: End processing [vectorshift]: success
+[2024-04-15 16:06:36] INFO root fetch - processPackages [synnax]: Remove: archive file [/home/abi/fetcher/tmp/synnax-0.8.0.tar.gz]
+[2024-04-15 16:06:36] INFO root fetch - processPackages [synnax]: Remove: archive file [/home/abi/fetcher/tmp/synnax-0.9.0.tar.gz]
+[2024-04-15 16:06:36] INFO root fetch - main [MainThread]: End processing [synnax]: success
+[2024-04-15 16:06:37] INFO root fetch - processPackages [hnt-nf-jira-library]: Remove: archive file [/home/abi/fetcher/tmp/hnt_nf_jira_library-0.3.2.tar.gz]
+[2024-04-15 16:06:37] INFO root fetch - processPackages [hnt-nf-jira-library]: Remove: archive file [/home/abi/fetcher/tmp/hnt_nf_jira_library-0.3.3.tar.gz]
+[2024-04-15 16:06:37] INFO root fetch - main [MainThread]: End processing [hnt-nf-jira-library]: success
+[2024-04-15 16:06:37] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/2a/df/71cf652ec5903ada3c3748ff4148a28c0e5292e732c037b5a4e116924da0/udata_front-3.5.5a1-py2.py3-none-any.whl
+[2024-04-15 16:06:37] INFO root fetch - processPackages [schubmult]: Downloading https://files.pythonhosted.org/packages/8e/b3/25acf97699310f3003b17f3ba24e4321971a2b8e406fc2d1024addb7a6e8/schubmult-1.3.3.tar.gz
+[2024-04-15 16:06:37] INFO root fetch - processPackages [mloggers]: New version: [1.1.7] Old Version: [1.1.6]
+[2024-04-15 16:06:37] INFO root fetch - processPackages [bellek]: executing diffoscope
+[2024-04-15 16:06:37] INFO root fetch - processPackages [bellek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bellek-0.83.0.tar.gz tmp/bellek-0.9.0.tar.gz --markdown 20240415/b/bellek/0.83.0-0.9.0/README.md --exclude *.pyd
+[2024-04-15 16:06:37] INFO root fetch - processPackages [ibm-platform-services]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-15 16:06:37] INFO root fetch - processPackages [mloggers]: Downloading https://files.pythonhosted.org/packages/8c/d7/73f6670062328762bf2719638ae61262e2e14fd0dc7e54a37693892e4bbd/mloggers-1.1.6.tar.gz
+[2024-04-15 16:06:37] INFO root fetch - processPackages [schubmult]: Downloading https://files.pythonhosted.org/packages/54/2c/857e7238525911d460c081172813d95148c91241d84328d56a8b91721327/schubmult-1.3.4.tar.gz
+[2024-04-15 16:06:37] INFO root fetch - processPackages [ibm-platform-services]: Downloading https://files.pythonhosted.org/packages/86/fd/38a583c4bf3803a477a17b9be43e72b393cf8decd9dab05982dda03bd356/ibm-platform-services-0.9.2.tar.gz
+[2024-04-15 16:06:37] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/8a/4f/2338fd0e7f0f41a6f5d398a333c15a5dc30d3f64808c77672efaae4d8eef/udata_front-3.5.5a117434-py2.py3-none-any.whl
+[2024-04-15 16:06:37] INFO root fetch - processPackages [mloggers]: Downloading https://files.pythonhosted.org/packages/d7/9c/0d08bf3b83d6802d6658566107b8d9276c60d8906a0222c932a9300aa5c4/mloggers-1.1.7.tar.gz
+[2024-04-15 16:06:37] INFO root fetch - processPackages [bellek]: Remove: archive file [/home/abi/fetcher/tmp/bellek-0.83.0.tar.gz]
+[2024-04-15 16:06:37] INFO root fetch - processPackages [bellek]: Remove: archive file [/home/abi/fetcher/tmp/bellek-0.9.0.tar.gz]
+[2024-04-15 16:06:37] INFO root fetch - main [MainThread]: End processing [bellek]: success
+[2024-04-15 16:06:37] INFO root fetch - processPackages [schubmult]: executing diffoscope
+[2024-04-15 16:06:37] INFO root fetch - processPackages [schubmult]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schubmult-1.3.3.tar.gz tmp/schubmult-1.3.4.tar.gz --markdown 20240415/s/schubmult/1.3.3-1.3.4/README.md --exclude *.pyd
+[2024-04-15 16:06:37] INFO root fetch - processPackages [mloggers]: executing diffoscope
+[2024-04-15 16:06:37] INFO root fetch - processPackages [mloggers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mloggers-1.1.6.tar.gz tmp/mloggers-1.1.7.tar.gz --markdown 20240415/m/mloggers/1.1.6-1.1.7/README.md --exclude *.pyd
+[2024-04-15 16:06:37] INFO root fetch - processPackages [ibm-platform-services]: Downloading https://files.pythonhosted.org/packages/eb/cd/ec1224c39d96300a991247d2c33d28366f0f7eb4674391683396e51aa651/ibm-platform-services-0.9.3.tar.gz
+[2024-04-15 16:06:38] INFO root fetch - processPackages [ibm-platform-services]: executing diffoscope
+[2024-04-15 16:06:38] INFO root fetch - processPackages [ibm-platform-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibm-platform-services-0.9.2.tar.gz tmp/ibm-platform-services-0.9.3.tar.gz --markdown 20240415/i/ibm-platform-services/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-15 16:06:38] INFO root fetch - processPackages [udata-front]: executing diffoscope
+[2024-04-15 16:06:38] INFO root fetch - processPackages [udata-front]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_front-3.5.5a1-py2.py3-none-any.whl.zip tmp/udata_front-3.5.5a117434-py2.py3-none-any.whl.zip --markdown 20240415/u/udata-front/3.5.5a1-3.5.5a117434/README.md --exclude *.pyd
+[2024-04-15 16:06:38] INFO root fetch - processPackages [nox]: Remove: archive file [/home/abi/fetcher/tmp/nox-2024.3.2.tar.gz]
+[2024-04-15 16:06:38] INFO root fetch - processPackages [nox]: Remove: archive file [/home/abi/fetcher/tmp/nox-2024.4.15.tar.gz]
+[2024-04-15 16:06:38] INFO root fetch - main [MainThread]: End processing [nox]: success
+[2024-04-15 16:06:38] INFO root fetch - processPackages [mloggers]: Remove: archive file [/home/abi/fetcher/tmp/mloggers-1.1.6.tar.gz]
+[2024-04-15 16:06:38] INFO root fetch - processPackages [mloggers]: Remove: archive file [/home/abi/fetcher/tmp/mloggers-1.1.7.tar.gz]
+[2024-04-15 16:06:38] INFO root fetch - main [MainThread]: End processing [mloggers]: success
+[2024-04-15 16:06:38] INFO root fetch - processPackages [schubmult]: Remove: archive file [/home/abi/fetcher/tmp/schubmult-1.3.3.tar.gz]
+[2024-04-15 16:06:38] INFO root fetch - processPackages [schubmult]: Remove: archive file [/home/abi/fetcher/tmp/schubmult-1.3.4.tar.gz]
+[2024-04-15 16:06:38] INFO root fetch - main [MainThread]: End processing [schubmult]: success
+[2024-04-15 16:06:39] INFO root fetch - processPackages [ibm-platform-services]: Remove: archive file [/home/abi/fetcher/tmp/ibm-platform-services-0.9.2.tar.gz]
+[2024-04-15 16:06:39] INFO root fetch - processPackages [ibm-platform-services]: Remove: archive file [/home/abi/fetcher/tmp/ibm-platform-services-0.9.3.tar.gz]
+[2024-04-15 16:06:39] INFO root fetch - main [MainThread]: End processing [ibm-platform-services]: success
+[2024-04-15 16:07:53] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.5.5a1-py2.py3-none-any.whl.zip]
+[2024-04-15 16:07:53] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.5.5a117434-py2.py3-none-any.whl.zip]
+[2024-04-15 16:07:53] INFO root fetch - main [MainThread]: End processing [udata-front]: success
+[2024-04-15 16:07:53] INFO root fetch - main [MainThread]: Store serial: [22772303]
