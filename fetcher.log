@@ -3125,3 +3125,44 @@
 [2024-04-15 04:27:31] INFO root fetch - processPackages [rust-contracts-builder]: Remove: archive file [/home/abi/fetcher/tmp/rust-contracts-builder-0.2.9.tar.gz]
 [2024-04-15 04:27:31] INFO root fetch - main [MainThread]: End processing [rust-contracts-builder]: success
 [2024-04-15 04:27:31] INFO root fetch - main [MainThread]: Store serial: [22764646]
+[2024-04-15 04:29:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22764646]
+[2024-04-15 04:29:39] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-15 04:29:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: classnotation
+[2024-04-15 04:29:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openbb-nightly
+[2024-04-15 04:29:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyreportjasper
+[2024-04-15 04:29:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: AIWatchTower
+[2024-04-15 04:29:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mct-quantizers-nightly
+[2024-04-15 04:29:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ansar-connect
+[2024-04-15 04:29:39] WARNING root fetch - processPackages [AIWatchTower]: Skipping, unable to determine old version
+[2024-04-15 04:29:39] INFO root fetch - main [MainThread]: End processing [AIWatchTower] error
+[2024-04-15 04:29:39] INFO root fetch - processPackages [pyreportjasper]: New version: [2.1.4] Old Version: [2.1.3]
+[2024-04-15 04:29:39] INFO root fetch - processPackages [openbb-nightly]: New version: [4.1.6.dev202404150227] Old Version: [4.1.6.dev202404140013]
+[2024-04-15 04:29:39] WARNING root fetch - processPackages [classnotation]: Skipping, unable to determine old version
+[2024-04-15 04:29:39] INFO root fetch - main [MainThread]: End processing [classnotation] error
+[2024-04-15 04:29:39] INFO root fetch - processPackages [ansar-connect]: New version: [0.1.165] Old Version: [0.1.164]
+[2024-04-15 04:29:40] INFO root fetch - processPackages [pyreportjasper]: Downloading https://files.pythonhosted.org/packages/51/15/d43c82d10f73056d9c4bfa7e0553c6986e9b84a99fcc06ffcd58a7cc83cf/pyreportjasper-2.1.3.tar.gz
+[2024-04-15 04:29:40] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/83/06/0202e4e8ba2118a2a4a617ad52caadc937f089e138c96eff76cd4281a793/openbb_nightly-4.1.6.dev202404140013.tar.gz
+[2024-04-15 04:29:40] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/bc/29/280e61b51530a67e26d092606e508b2b7b025900fb60afbeceac89b111fd/ansar_connect-0.1.164.tar.gz
+[2024-04-15 04:29:40] INFO root fetch - processPackages [mct-quantizers-nightly]: New version: [1.5.0.20240415.post22835] Old Version: [1.5.0.20240414.post1433]
+[2024-04-15 04:29:40] WARNING root fetch - processPackages [pyreportjasper]: Skipping package: exceeds size limit 108230978>=10485760
+[2024-04-15 04:29:40] INFO root fetch - main [MainThread]: End processing [pyreportjasper] error
+[2024-04-15 04:29:40] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/45/6c/b66002742fc88057799733a509a47fe3bf1c34cd06648dd65ba1d2046cfc/mct-quantizers-nightly-1.5.0.20240414.post1433.tar.gz
+[2024-04-15 04:29:40] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/85/cd/111fea41631a87f77bccbd882f579a2fa8019cc389285ab0276f04cb0b75/ansar_connect-0.1.165.tar.gz
+[2024-04-15 04:29:40] INFO root fetch - processPackages [ansar-connect]: executing diffoscope
+[2024-04-15 04:29:40] INFO root fetch - processPackages [ansar-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar_connect-0.1.164.tar.gz tmp/ansar_connect-0.1.165.tar.gz --markdown 20240415/a/ansar-connect/0.1.164-0.1.165/README.md --exclude *.pyd
+[2024-04-15 04:29:40] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/81/8f/f6115fd41942f6e1b38f2e5d6e486fffcb5cdc0336249bfeab72417c475f/openbb_nightly-4.1.6.dev202404150227.tar.gz
+[2024-04-15 04:29:40] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/2c/5f/bfa1a7ff5f6f438c4e68fa659640b0e41e42888a6ff0d6ec75f10296f820/mct-quantizers-nightly-1.5.0.20240415.post22835.tar.gz
+[2024-04-15 04:29:40] INFO root fetch - processPackages [mct-quantizers-nightly]: executing diffoscope
+[2024-04-15 04:29:40] INFO root fetch - processPackages [mct-quantizers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-quantizers-nightly-1.5.0.20240414.post1433.tar.gz tmp/mct-quantizers-nightly-1.5.0.20240415.post22835.tar.gz --markdown 20240415/m/mct-quantizers-nightly/1.5.0.20240414.post1433-1.5.0.20240415.post22835/README.md --exclude *.pyd
+[2024-04-15 04:29:40] INFO root fetch - processPackages [openbb-nightly]: executing diffoscope
+[2024-04-15 04:29:40] INFO root fetch - processPackages [openbb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_nightly-4.1.6.dev202404140013.tar.gz tmp/openbb_nightly-4.1.6.dev202404150227.tar.gz --markdown 20240415/o/openbb-nightly/4.1.6.dev202404140013-4.1.6.dev202404150227/README.md --exclude *.pyd
+[2024-04-15 04:29:41] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.164.tar.gz]
+[2024-04-15 04:29:41] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.165.tar.gz]
+[2024-04-15 04:29:41] INFO root fetch - main [MainThread]: End processing [ansar-connect]: success
+[2024-04-15 04:29:41] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240414.post1433.tar.gz]
+[2024-04-15 04:29:41] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240415.post22835.tar.gz]
+[2024-04-15 04:29:41] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
+[2024-04-15 04:29:43] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.6.dev202404140013.tar.gz]
+[2024-04-15 04:29:43] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.6.dev202404150227.tar.gz]
+[2024-04-15 04:29:43] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
+[2024-04-15 04:29:43] INFO root fetch - main [MainThread]: Store serial: [22764672]
