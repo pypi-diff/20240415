@@ -2406,3 +2406,33 @@
 [2024-04-15 03:28:58] INFO root fetch - processPackages [cloudben]: Remove: archive file [/home/abi/fetcher/tmp/cloudben-0.1.2.tar.gz]
 [2024-04-15 03:28:58] INFO root fetch - main [MainThread]: End processing [cloudben]: success
 [2024-04-15 03:28:58] INFO root fetch - main [MainThread]: Store serial: [22764357]
+[2024-04-15 03:31:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22764357]
+[2024-04-15 03:31:06] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-15 03:31:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: music-util
+[2024-04-15 03:31:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: surfkit
+[2024-04-15 03:31:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyvk
+[2024-04-15 03:31:06] INFO root fetch - processPackages [pyvk]: New version: [0.2.1] Old Version: [0.1.2]
+[2024-04-15 03:31:06] INFO root fetch - processPackages [pyvk]: Downloading https://files.pythonhosted.org/packages/e4/f2/6fdabf12fc4a6106c668945883ceb08b08a16a03fa8a74b23d42e01af757/pyvk-0.1.2-py2.py3-none-any.whl
+[2024-04-15 03:31:06] INFO root fetch - processPackages [music-util]: New version: [3.0.20] Old Version: [3.0.16]
+[2024-04-15 03:31:06] INFO root fetch - processPackages [surfkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-15 03:31:06] INFO root fetch - processPackages [music-util]: Downloading https://files.pythonhosted.org/packages/59/03/acf40c833c2fcd7e135a974257d12d0355a9f6c0841b9478bd753e8922ae/music_util-3.0.16.tar.gz
+[2024-04-15 03:31:06] INFO root fetch - processPackages [pyvk]: Downloading https://files.pythonhosted.org/packages/f3/33/d0d82dd63cc7f8fc87e9ccf122a1d39a6d702a9ef2133b6a3fc693fe88b9/pyvk-0.2.1.tar.gz
+[2024-04-15 03:31:06] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/00/dc/343980c083ea4ae8ce963639c51b39c0b3ba7869e96ca748256ff1b67925/surfkit-0.1.8.tar.gz
+[2024-04-15 03:31:07] INFO root fetch - processPackages [pyvk]: executing diffoscope
+[2024-04-15 03:31:07] INFO root fetch - processPackages [pyvk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvk-0.1.2-py2.py3-none-any.whl.zip tmp/pyvk-0.2.1.tar.gz --markdown 20240415/p/pyvk/0.1.2-0.2.1/README.md --exclude *.pyd
+[2024-04-15 03:31:07] INFO root fetch - processPackages [music-util]: Downloading https://files.pythonhosted.org/packages/3a/29/13057f0389a6d613900034fd94d9db24079ef41bbff66d5a34a46bf7f756/music_util-3.0.20.tar.gz
+[2024-04-15 03:31:07] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/e2/bd/4b842eb12eca8c3a3ea5d2915b52f91a3259c7e0160d2a0a88aeb13ae4a7/surfkit-0.1.9.tar.gz
+[2024-04-15 03:31:07] INFO root fetch - processPackages [music-util]: executing diffoscope
+[2024-04-15 03:31:07] INFO root fetch - processPackages [music-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/music_util-3.0.16.tar.gz tmp/music_util-3.0.20.tar.gz --markdown 20240415/m/music-util/3.0.16-3.0.20/README.md --exclude *.pyd
+[2024-04-15 03:31:07] INFO root fetch - processPackages [surfkit]: executing diffoscope
+[2024-04-15 03:31:07] INFO root fetch - processPackages [surfkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surfkit-0.1.8.tar.gz tmp/surfkit-0.1.9.tar.gz --markdown 20240415/s/surfkit/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-15 03:31:07] INFO root fetch - processPackages [pyvk]: Remove: archive file [/home/abi/fetcher/tmp/pyvk-0.1.2-py2.py3-none-any.whl.zip]
+[2024-04-15 03:31:07] INFO root fetch - processPackages [pyvk]: Remove: archive file [/home/abi/fetcher/tmp/pyvk-0.2.1.tar.gz]
+[2024-04-15 03:31:07] INFO root fetch - main [MainThread]: End processing [pyvk]: success
+[2024-04-15 03:31:07] INFO root fetch - processPackages [music-util]: Remove: archive file [/home/abi/fetcher/tmp/music_util-3.0.16.tar.gz]
+[2024-04-15 03:31:07] INFO root fetch - processPackages [music-util]: Remove: archive file [/home/abi/fetcher/tmp/music_util-3.0.20.tar.gz]
+[2024-04-15 03:31:07] INFO root fetch - main [MainThread]: End processing [music-util]: success
+[2024-04-15 03:31:07] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.8.tar.gz]
+[2024-04-15 03:31:07] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.9.tar.gz]
+[2024-04-15 03:31:07] INFO root fetch - main [MainThread]: End processing [surfkit]: success
+[2024-04-15 03:31:07] INFO root fetch - main [MainThread]: Store serial: [22764366]
