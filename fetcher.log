@@ -17065,3 +17065,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 13:48:25] INFO root fetch - processPackages [arcticdb]: Remove: archive file [/home/abi/fetcher/tmp/arcticdb-4.4.1-cp39-cp39-win_amd64.whl.zip]
 [2024-04-15 13:48:25] INFO root fetch - main [MainThread]: End processing [arcticdb]: success
 [2024-04-15 13:48:25] INFO root fetch - main [MainThread]: Store serial: [22770326]
+[2024-04-15 13:50:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22770326]
+[2024-04-15 13:50:34] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-15 13:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sampa
+[2024-04-15 13:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: literalai
+[2024-04-15 13:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: somnetics-seamless-utils
+[2024-04-15 13:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: arrlio
+[2024-04-15 13:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: misleep
+[2024-04-15 13:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fews-3di
+[2024-04-15 13:50:34] INFO root fetch - processPackages [misleep]: New version: [0.2.0b0] Old Version: [0.1.7b0]
+[2024-04-15 13:50:34] WARNING root fetch - processPackages [sampa]: Skipping, unable to determine old version
+[2024-04-15 13:50:34] INFO root fetch - main [MainThread]: End processing [sampa] error
+[2024-04-15 13:50:34] INFO root fetch - processPackages [arrlio]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-15 13:50:34] INFO root fetch - processPackages [misleep]: Downloading https://files.pythonhosted.org/packages/9c/d4/4c1fcb631d24107084cee7bb5983606f4f8360270cd9b8093590852683f0/misleep-0.1.7b0.tar.gz
+[2024-04-15 13:50:34] INFO root fetch - processPackages [fews-3di]: New version: [3.5] Old Version: [3.4.3]
+[2024-04-15 13:50:34] INFO root fetch - processPackages [somnetics-seamless-utils]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-15 13:50:34] INFO root fetch - processPackages [arrlio]: Downloading https://files.pythonhosted.org/packages/81/d8/6c42f081cd00cb49462f25e81a0de0a22435dfffb7ea0599c08fac7cf484/arrlio-0.8.0.tar.gz
+[2024-04-15 13:50:34] INFO root fetch - processPackages [literalai]: New version: [0.0.502] Old Version: [0.0.501]
+[2024-04-15 13:50:34] INFO root fetch - processPackages [somnetics-seamless-utils]: Downloading https://files.pythonhosted.org/packages/71/4c/f7987f01131777f28da7ec30dad8c3c0ed7875390ceae939e31636bc2b47/somnetics_seamless_utils-0.0.2.tar.gz
+[2024-04-15 13:50:34] INFO root fetch - processPackages [literalai]: Downloading https://files.pythonhosted.org/packages/a4/60/b1394f9d4c79579ba576078d643f7d582109c037c6c6fa317e202e90ebc1/literalai-0.0.501.tar.gz
+[2024-04-15 13:50:34] INFO root fetch - processPackages [fews-3di]: Downloading https://files.pythonhosted.org/packages/b7/40/4dfd1c8b8c2905ae685940beb83a37685bbefeafa996d3562fb1e24b00ed/fews-3di-3.4.3.tar.gz
+[2024-04-15 13:50:34] INFO root fetch - processPackages [arrlio]: Downloading https://files.pythonhosted.org/packages/75/ab/00e6d9e5834a37b99fddb9f192c46e0a8669d040fb0ad1403cc67ac38322/arrlio-0.9.0.tar.gz
+[2024-04-15 13:50:34] INFO root fetch - processPackages [misleep]: Downloading https://files.pythonhosted.org/packages/a2/53/408d8f152e62eb9cda680f8309c423005a4a7f33cc1e3c308fe7dc431ba0/misleep-0.2.0b0.tar.gz
+[2024-04-15 13:50:35] INFO root fetch - processPackages [arrlio]: executing diffoscope
+[2024-04-15 13:50:35] INFO root fetch - processPackages [arrlio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arrlio-0.8.0.tar.gz tmp/arrlio-0.9.0.tar.gz --markdown 20240415/a/arrlio/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-15 13:50:35] INFO root fetch - processPackages [somnetics-seamless-utils]: Downloading https://files.pythonhosted.org/packages/0d/4c/8ead60cf5c12cfbbdf68f207995b98827bb5dd0b3ec69b379e3bd51e0f44/somnetics_seamless_utils-0.0.3.tar.gz
+[2024-04-15 13:50:35] INFO root fetch - processPackages [misleep]: executing diffoscope
+[2024-04-15 13:50:35] INFO root fetch - processPackages [misleep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/misleep-0.1.7b0.tar.gz tmp/misleep-0.2.0b0.tar.gz --markdown 20240415/m/misleep/0.1.7b0-0.2.0b0/README.md --exclude *.pyd
+[2024-04-15 13:50:35] INFO root fetch - processPackages [literalai]: Downloading https://files.pythonhosted.org/packages/16/4c/afc6575c16ff25ae8071d12b4495b4da403e55ee52be17f53a2eb8488995/literalai-0.0.502.tar.gz
+[2024-04-15 13:50:35] INFO root fetch - processPackages [somnetics-seamless-utils]: executing diffoscope
+[2024-04-15 13:50:35] INFO root fetch - processPackages [somnetics-seamless-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/somnetics_seamless_utils-0.0.2.tar.gz tmp/somnetics_seamless_utils-0.0.3.tar.gz --markdown 20240415/s/somnetics-seamless-utils/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-15 13:50:35] INFO root fetch - processPackages [fews-3di]: Downloading https://files.pythonhosted.org/packages/18/65/1970265665bcc74ee95be9d9204c61edd38a2eac53a4015b22398433a4eb/fews_3di-3.5.tar.gz
+[2024-04-15 13:50:35] INFO root fetch - processPackages [literalai]: executing diffoscope
+[2024-04-15 13:50:35] INFO root fetch - processPackages [literalai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/literalai-0.0.501.tar.gz tmp/literalai-0.0.502.tar.gz --markdown 20240415/l/literalai/0.0.501-0.0.502/README.md --exclude *.pyd
+[2024-04-15 13:50:35] INFO root fetch - processPackages [arrlio]: Remove: archive file [/home/abi/fetcher/tmp/arrlio-0.8.0.tar.gz]
+[2024-04-15 13:50:35] INFO root fetch - processPackages [arrlio]: Remove: archive file [/home/abi/fetcher/tmp/arrlio-0.9.0.tar.gz]
+[2024-04-15 13:50:35] INFO root fetch - main [MainThread]: End processing [arrlio]: success
+[2024-04-15 13:50:35] INFO root fetch - processPackages [misleep]: Remove: archive file [/home/abi/fetcher/tmp/misleep-0.1.7b0.tar.gz]
+[2024-04-15 13:50:35] INFO root fetch - processPackages [misleep]: Remove: archive file [/home/abi/fetcher/tmp/misleep-0.2.0b0.tar.gz]
+[2024-04-15 13:50:35] INFO root fetch - main [MainThread]: End processing [misleep]: success
+[2024-04-15 13:50:35] INFO root fetch - processPackages [fews-3di]: executing diffoscope
+[2024-04-15 13:50:35] INFO root fetch - processPackages [fews-3di]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fews-3di-3.4.3.tar.gz tmp/fews_3di-3.5.tar.gz --markdown 20240415/f/fews-3di/3.4.3-3.5/README.md --exclude *.pyd
+[2024-04-15 13:50:35] INFO root fetch - processPackages [somnetics-seamless-utils]: Remove: archive file [/home/abi/fetcher/tmp/somnetics_seamless_utils-0.0.2.tar.gz]
+[2024-04-15 13:50:35] INFO root fetch - processPackages [somnetics-seamless-utils]: Remove: archive file [/home/abi/fetcher/tmp/somnetics_seamless_utils-0.0.3.tar.gz]
+[2024-04-15 13:50:35] INFO root fetch - main [MainThread]: End processing [somnetics-seamless-utils]: success
+[2024-04-15 13:50:36] INFO root fetch - processPackages [literalai]: Remove: archive file [/home/abi/fetcher/tmp/literalai-0.0.501.tar.gz]
+[2024-04-15 13:50:36] INFO root fetch - processPackages [literalai]: Remove: archive file [/home/abi/fetcher/tmp/literalai-0.0.502.tar.gz]
+[2024-04-15 13:50:36] INFO root fetch - main [MainThread]: End processing [literalai]: success
+[2024-04-15 13:50:37] INFO root fetch - processPackages [fews-3di]: Remove: archive file [/home/abi/fetcher/tmp/fews-3di-3.4.3.tar.gz]
+[2024-04-15 13:50:37] INFO root fetch - processPackages [fews-3di]: Remove: archive file [/home/abi/fetcher/tmp/fews_3di-3.5.tar.gz]
+[2024-04-15 13:50:37] INFO root fetch - main [MainThread]: End processing [fews-3di]: success
+[2024-04-15 13:50:37] INFO root fetch - main [MainThread]: Store serial: [22770371]
