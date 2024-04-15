@@ -18230,3 +18230,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 14:32:51] INFO root fetch - processPackages [mecab-python3]: Remove: archive file [/home/abi/fetcher/tmp/mecab_python3-1.0.9.dev6.tar.gz]
 [2024-04-15 14:32:51] INFO root fetch - main [MainThread]: End processing [mecab-python3]: success
 [2024-04-15 14:32:51] INFO root fetch - main [MainThread]: Store serial: [22770871]
+[2024-04-15 14:34:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22770871]
+[2024-04-15 14:35:00] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-15 14:35:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: testpack24
+[2024-04-15 14:35:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fugashi
+[2024-04-15 14:35:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Xdcheckin
+[2024-04-15 14:35:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: psd2fabric
+[2024-04-15 14:35:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: RacksDB
+[2024-04-15 14:35:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: terrajinja-cli
+[2024-04-15 14:35:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hestia-earth-models
+[2024-04-15 14:35:00] INFO root fetch - processPackages [Xdcheckin]: New version: [2.0.6] Old Version: [2.0.5]
+[2024-04-15 14:35:00] INFO root fetch - processPackages [testpack24]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-15 14:35:00] INFO root fetch - processPackages [psd2fabric]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-15 14:35:00] INFO root fetch - processPackages [RacksDB]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-15 14:35:00] INFO root fetch - processPackages [terrajinja-cli]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-15 14:35:00] INFO root fetch - processPackages [Xdcheckin]: Downloading https://files.pythonhosted.org/packages/4d/fe/b83b3763a37b7c5cac9542cf9d35674a5fee821b0e409ed82557d09ec470/xdcheckin-2.0.5.tar.gz
+[2024-04-15 14:35:00] INFO root fetch - processPackages [testpack24]: Downloading https://files.pythonhosted.org/packages/31/94/ce2db4c5a88bc88d9b204313cd28aba8407683cad957a6ac452aadbb0bc7/testpack24-0.0.5.tar.gz
+[2024-04-15 14:35:00] INFO root fetch - processPackages [psd2fabric]: Downloading https://files.pythonhosted.org/packages/ff/fc/fc3d1a6dbb4b24f725d69908ac19d0767e004323880cd3ed41e1f2e3a6f1/psd2fabric-0.1.5.tar.gz
+[2024-04-15 14:35:00] INFO root fetch - processPackages [hestia-earth-models]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-15 14:35:01] INFO root fetch - processPackages [fugashi]: New version: [1.3.2.dev0] Old Version: [1.3.1.dev0]
+[2024-04-15 14:35:01] INFO root fetch - processPackages [RacksDB]: Downloading https://files.pythonhosted.org/packages/d7/c0/132fc6072f662b31cfe1bc777857301eb67a32bd7c393dcbff89dd5c5265/RacksDB-0.3.0.tar.gz
+[2024-04-15 14:35:01] INFO root fetch - processPackages [terrajinja-cli]: Downloading https://files.pythonhosted.org/packages/10/12/c5428decc91ecedfb518014daba6f7c7064220a9ad622c273bbff6e4b198/terrajinja-cli-0.2.3.tar.gz
+[2024-04-15 14:35:01] INFO root fetch - processPackages [hestia-earth-models]: Downloading https://files.pythonhosted.org/packages/a2/61/d19a2d7e01e8a5e0035eea49d6f5bdd2e224d17d89fe9ef0012f7ff05723/hestia-earth-models-0.9.0.tar.gz
+[2024-04-15 14:35:01] INFO root fetch - processPackages [psd2fabric]: Downloading https://files.pythonhosted.org/packages/99/d0/da7a0171ee147ba0999fa2c10576a9b0bd0552db7a69deee59f87a87f565/psd2fabric-0.1.6.tar.gz
+[2024-04-15 14:35:01] INFO root fetch - processPackages [Xdcheckin]: Downloading https://files.pythonhosted.org/packages/08/04/89bd30f3efb741fdca40cd5c6691ef9944bb92bc8b73b59ec202d8d61b15/xdcheckin-2.0.6.tar.gz
+[2024-04-15 14:35:01] INFO root fetch - processPackages [testpack24]: Downloading https://files.pythonhosted.org/packages/e4/18/b2356da70a404a3b2d6c32e537690e23954f28fc7113a3f0e957d7297cdc/testpack24-0.0.6.tar.gz
+[2024-04-15 14:35:01] INFO root fetch - processPackages [fugashi]: Downloading https://files.pythonhosted.org/packages/b4/45/d91c9dc12f0df219ecc34646fe95896173c4b14a25bab9475d249c5b3537/fugashi-1.3.1.dev0.tar.gz
+[2024-04-15 14:35:01] INFO root fetch - processPackages [psd2fabric]: executing diffoscope
+[2024-04-15 14:35:01] INFO root fetch - processPackages [psd2fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psd2fabric-0.1.5.tar.gz tmp/psd2fabric-0.1.6.tar.gz --markdown 20240415/p/psd2fabric/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-15 14:35:01] INFO root fetch - processPackages [testpack24]: executing diffoscope
+[2024-04-15 14:35:01] INFO root fetch - processPackages [testpack24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testpack24-0.0.5.tar.gz tmp/testpack24-0.0.6.tar.gz --markdown 20240415/t/testpack24/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-15 14:35:01] INFO root fetch - processPackages [Xdcheckin]: executing diffoscope
+[2024-04-15 14:35:01] INFO root fetch - processPackages [Xdcheckin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xdcheckin-2.0.5.tar.gz tmp/xdcheckin-2.0.6.tar.gz --markdown 20240415/X/Xdcheckin/2.0.5-2.0.6/README.md --exclude *.pyd
+[2024-04-15 14:35:01] INFO root fetch - processPackages [RacksDB]: Downloading https://files.pythonhosted.org/packages/40/68/20c831845e16695eb8eb0942a72435cace288e56293bc6ba014ca3366013/racksdb-0.4.0.tar.gz
+[2024-04-15 14:35:01] INFO root fetch - processPackages [terrajinja-cli]: Downloading https://files.pythonhosted.org/packages/c6/97/01e32d24478575ad836469665526e1bfd04ea4a4b9f60e99b726ac8e85c1/terrajinja-cli-0.2.4.tar.gz
+[2024-04-15 14:35:01] INFO root fetch - processPackages [hestia-earth-models]: Downloading https://files.pythonhosted.org/packages/59/94/5b9b4317f8ae747ccffceb5debddd5d4f68a8aac6d6d53afb2ade6dbdfdb/hestia-earth-models-0.9.1.tar.gz
+[2024-04-15 14:35:01] INFO root fetch - processPackages [terrajinja-cli]: executing diffoscope
+[2024-04-15 14:35:01] INFO root fetch - processPackages [terrajinja-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terrajinja-cli-0.2.3.tar.gz tmp/terrajinja-cli-0.2.4.tar.gz --markdown 20240415/t/terrajinja-cli/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-15 14:35:01] INFO root fetch - processPackages [RacksDB]: executing diffoscope
+[2024-04-15 14:35:01] INFO root fetch - processPackages [RacksDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RacksDB-0.3.0.tar.gz tmp/racksdb-0.4.0.tar.gz --markdown 20240415/R/RacksDB/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-04-15 14:35:01] INFO root fetch - processPackages [fugashi]: Downloading https://files.pythonhosted.org/packages/1d/14/d929d7d1a58abbb9c576525b2cf4ae0c11d3f48dced8fa390dd0d5d0be2c/fugashi-1.3.2.dev0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-15 14:35:01] INFO root fetch - processPackages [hestia-earth-models]: executing diffoscope
+[2024-04-15 14:35:01] INFO root fetch - processPackages [hestia-earth-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hestia-earth-models-0.9.0.tar.gz tmp/hestia-earth-models-0.9.1.tar.gz --markdown 20240415/h/hestia-earth-models/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-15 14:35:02] INFO root fetch - processPackages [fugashi]: executing diffoscope
+[2024-04-15 14:35:02] INFO root fetch - processPackages [fugashi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fugashi-1.3.1.dev0.tar.gz tmp/fugashi-1.3.2.dev0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240415/f/fugashi/1.3.1.dev0-1.3.2.dev0/README.md --exclude *.pyd
+[2024-04-15 14:35:02] INFO root fetch - processPackages [psd2fabric]: Remove: archive file [/home/abi/fetcher/tmp/psd2fabric-0.1.5.tar.gz]
+[2024-04-15 14:35:02] INFO root fetch - processPackages [psd2fabric]: Remove: archive file [/home/abi/fetcher/tmp/psd2fabric-0.1.6.tar.gz]
+[2024-04-15 14:35:02] INFO root fetch - main [MainThread]: End processing [psd2fabric]: success
+[2024-04-15 14:35:02] INFO root fetch - processPackages [testpack24]: Remove: archive file [/home/abi/fetcher/tmp/testpack24-0.0.5.tar.gz]
+[2024-04-15 14:35:02] INFO root fetch - processPackages [testpack24]: Remove: archive file [/home/abi/fetcher/tmp/testpack24-0.0.6.tar.gz]
+[2024-04-15 14:35:02] INFO root fetch - main [MainThread]: End processing [testpack24]: success
+[2024-04-15 14:35:02] INFO root fetch - processPackages [Xdcheckin]: Remove: archive file [/home/abi/fetcher/tmp/xdcheckin-2.0.5.tar.gz]
+[2024-04-15 14:35:02] INFO root fetch - processPackages [Xdcheckin]: Remove: archive file [/home/abi/fetcher/tmp/xdcheckin-2.0.6.tar.gz]
+[2024-04-15 14:35:02] INFO root fetch - main [MainThread]: End processing [Xdcheckin]: success
+[2024-04-15 14:35:02] INFO root fetch - processPackages [terrajinja-cli]: Remove: archive file [/home/abi/fetcher/tmp/terrajinja-cli-0.2.3.tar.gz]
+[2024-04-15 14:35:02] INFO root fetch - processPackages [terrajinja-cli]: Remove: archive file [/home/abi/fetcher/tmp/terrajinja-cli-0.2.4.tar.gz]
+[2024-04-15 14:35:02] INFO root fetch - main [MainThread]: End processing [terrajinja-cli]: success
+[2024-04-15 14:35:02] INFO root fetch - processPackages [RacksDB]: Remove: archive file [/home/abi/fetcher/tmp/RacksDB-0.3.0.tar.gz]
+[2024-04-15 14:35:02] INFO root fetch - processPackages [RacksDB]: Remove: archive file [/home/abi/fetcher/tmp/racksdb-0.4.0.tar.gz]
+[2024-04-15 14:35:02] INFO root fetch - main [MainThread]: End processing [RacksDB]: success
+[2024-04-15 14:35:02] INFO root fetch - processPackages [fugashi]: Remove: archive file [/home/abi/fetcher/tmp/fugashi-1.3.1.dev0.tar.gz]
+[2024-04-15 14:35:02] INFO root fetch - processPackages [fugashi]: Remove: archive file [/home/abi/fetcher/tmp/fugashi-1.3.2.dev0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-15 14:35:02] INFO root fetch - main [MainThread]: End processing [fugashi]: success
+[2024-04-15 14:35:03] INFO root fetch - processPackages [hestia-earth-models]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-models-0.9.0.tar.gz]
+[2024-04-15 14:35:03] INFO root fetch - processPackages [hestia-earth-models]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-models-0.9.1.tar.gz]
+[2024-04-15 14:35:03] INFO root fetch - main [MainThread]: End processing [hestia-earth-models]: success
+[2024-04-15 14:35:03] INFO root fetch - main [MainThread]: Store serial: [22770907]
