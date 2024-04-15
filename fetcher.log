@@ -22943,3 +22943,102 @@ AssertionError: tmp/pyblindrl-0.0.2rc57.post1.tar.gz does not exist
 [2024-04-15 16:42:35] INFO root fetch - processPackages [bqskit]: Remove: archive file [/home/abi/fetcher/tmp/bqskit-1.1.1.tar.gz]
 [2024-04-15 16:42:35] INFO root fetch - main [MainThread]: End processing [bqskit]: success
 [2024-04-15 16:42:35] INFO root fetch - main [MainThread]: Store serial: [22772883]
+[2024-04-15 16:44:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22772883]
+[2024-04-15 16:44:44] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-15 16:44:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qrkey
+[2024-04-15 16:44:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SGBench
+[2024-04-15 16:44:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nucliadb-node-binding
+[2024-04-15 16:44:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: KiMoPack
+[2024-04-15 16:44:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: KiMoPack
+[2024-04-15 16:44:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: noteshrunk
+[2024-04-15 16:44:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pymysqls
+[2024-04-15 16:44:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: akshare
+[2024-04-15 16:44:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: piwiPre
+[2024-04-15 16:44:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: arion-library
+[2024-04-15 16:44:44] INFO root fetch - processPackages [piwiPre]: New version: [0.8.5] Old Version: [0.8.4]
+[2024-04-15 16:44:44] INFO root fetch - processPackages [arion-library]: New version: [1.1rc61.dev61] Old Version: [1.1rc60.dev60]
+[2024-04-15 16:44:44] INFO root fetch - processPackages [pymysqls]: New version: [0.4] Old Version: [0.3]
+[2024-04-15 16:44:44] WARNING root fetch - processPackages [SGBench]: Skipping, unable to determine old version
+[2024-04-15 16:44:44] INFO root fetch - processPackages [SGBench]: Start processing: k8s
+[2024-04-15 16:44:44] INFO root fetch - main [MainThread]: End processing [SGBench] error
+[2024-04-15 16:44:44] INFO root fetch - processPackages [piwiPre]: Downloading https://files.pythonhosted.org/packages/ad/fc/9cf4c3c37cd2895067bd93495f09c783b2a9d4650f43ea0506b7b50e1f67/piwiPre-0.8.4.tar.gz
+[2024-04-15 16:44:44] INFO root fetch - processPackages [qrkey]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-15 16:44:44] INFO root fetch - processPackages [noteshrunk]: New version: [1.3.0] Old Version: [1.2.0]
+[2024-04-15 16:44:44] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/f3/0c/2b91510b84104fa6cfd6deae9096361d7e1d6e908756ce35fd7d81eb84c3/arion_library-1.1rc60.dev60.tar.gz
+[2024-04-15 16:44:44] INFO root fetch - processPackages [nucliadb-node-binding]: New version: [3.0.2.post1151] Old Version: [3.0.2.post1145]
+[2024-04-15 16:44:44] INFO root fetch - processPackages [KiMoPack]: New version: [7.4.9] Old Version: [7.4.8]
+[2024-04-15 16:44:44] INFO root fetch - processPackages [KiMoPack]: New version: [7.4.9] Old Version: [7.4.8]
+[2024-04-15 16:44:45] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2024-04-15 16:44:45] INFO root fetch - processPackages [k8s]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-15 16:44:45] INFO root fetch - processPackages [pymysqls]: Downloading https://files.pythonhosted.org/packages/ad/16/18d29b6fb77d94c8404216bf5d87a969e938fa67065925f41320a6664d09/pymysqls-0.3.tar.gz
+[2024-04-15 16:44:45] INFO root fetch - processPackages [qrkey]: Downloading https://files.pythonhosted.org/packages/52/a7/eb0f3974aca3b2a2cfdcc4b057ec8db8809e48aa25360ec5219fdd3546e2/qrkey-0.3.0.tar.gz
+[2024-04-15 16:44:45] INFO root fetch - processPackages [piwiPre]: Downloading https://files.pythonhosted.org/packages/e7/59/c5cfd3133f61e11e92c5834c1ac8dde4bd134a5d7fb13d632d1efa6ef294/piwiPre-0.8.5.tar.gz
+[2024-04-15 16:44:45] INFO root fetch - processPackages [noteshrunk]: Downloading https://files.pythonhosted.org/packages/e8/e0/b0f840d78e4d626268a500f4a51d8f4fa239650cc900d1c07edef04fd920/noteshrunk-1.2.0.tar.gz
+[2024-04-15 16:44:45] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/e1/a4/5adde2d6f24c25a28bfa30be93d751cf2363161182aa0ebb4b9913c07aab/arion_library-1.1rc61.dev61.tar.gz
+[2024-04-15 16:44:45] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/a7/92/af75b6b23cdbf1f2a48a282e85c263d5bd84046355324e1ceeff128f1562/nucliadb_node_binding-3.0.2.post1145.tar.gz
+[2024-04-15 16:44:45] INFO root fetch - processPackages [KiMoPack]: Downloading https://files.pythonhosted.org/packages/69/d7/fbe5854ed26074b794c73e9ef0507d4ec955eac79ac3aac7ee5a8ddf5d5a/KiMoPack-7.4.8-py3-none-any.whl
+[2024-04-15 16:44:45] INFO root fetch - processPackages [KiMoPack]: Downloading https://files.pythonhosted.org/packages/69/d7/fbe5854ed26074b794c73e9ef0507d4ec955eac79ac3aac7ee5a8ddf5d5a/KiMoPack-7.4.8-py3-none-any.whl
+[2024-04-15 16:44:45] INFO root fetch - processPackages [k8s]: Downloading https://files.pythonhosted.org/packages/f6/bd/7a14603192a3cb677b31da548f01036794698cfdd3d2209f719e0d23e138/k8s-0.8.0.tar.gz
+[2024-04-15 16:44:45] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2024-04-15 16:44:45] INFO root fetch - processPackages [piwiPre]: executing diffoscope
+[2024-04-15 16:44:45] INFO root fetch - processPackages [piwiPre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piwiPre-0.8.4.tar.gz tmp/piwiPre-0.8.5.tar.gz --markdown 20240415/p/piwiPre/0.8.4-0.8.5/README.md --exclude *.pyd
+[2024-04-15 16:44:45] INFO root fetch - processPackages [arion-library]: executing diffoscope
+[2024-04-15 16:44:45] INFO root fetch - processPackages [arion-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arion_library-1.1rc60.dev60.tar.gz tmp/arion_library-1.1rc61.dev61.tar.gz --markdown 20240415/a/arion-library/1.1rc60.dev60-1.1rc61.dev61/README.md --exclude *.pyd
+[2024-04-15 16:44:45] INFO root fetch - processPackages [pymysqls]: Downloading https://files.pythonhosted.org/packages/d9/f2/3982930be45debade65d818e7c240a10407b2f38e04390f5d7c70c01a82c/pymysqls-0.4.tar.gz
+[2024-04-15 16:44:45] INFO root fetch - processPackages [noteshrunk]: Downloading https://files.pythonhosted.org/packages/6d/99/3a276d605ae0464d1eaddeb4fb330b7b87c19fd5c5bcdade35ef3d9d88b0/noteshrunk-1.3.0.tar.gz
+[2024-04-15 16:44:45] INFO root fetch - processPackages [KiMoPack]: Downloading https://files.pythonhosted.org/packages/fc/ee/266b6dce46143ebf37aa12545e25fc5d5245f202d6977f23855e4dcb1949/KiMoPack-7.4.9.tar.gz
+[2024-04-15 16:44:45] INFO root fetch - processPackages [KiMoPack]: Downloading https://files.pythonhosted.org/packages/fc/ee/266b6dce46143ebf37aa12545e25fc5d5245f202d6977f23855e4dcb1949/KiMoPack-7.4.9.tar.gz
+[2024-04-15 16:44:45] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/17/cb/339b55c875b43b004c5991195045098ca23dac2bd9c89a4c5b7a2d4ee863/nucliadb_node_binding-3.0.2.post1151.tar.gz
+[2024-04-15 16:44:45] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2024-04-15 16:44:45] INFO root fetch - processPackages [pymysqls]: executing diffoscope
+[2024-04-15 16:44:45] INFO root fetch - processPackages [pymysqls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymysqls-0.3.tar.gz tmp/pymysqls-0.4.tar.gz --markdown 20240415/p/pymysqls/0.3-0.4/README.md --exclude *.pyd
+[2024-04-15 16:44:45] INFO root fetch - processPackages [k8s]: Downloading https://files.pythonhosted.org/packages/22/6b/1fabdacf5dd8c7691b914a6e818c7f61af231545fe88942ba0ea5d42b2cc/k8s-0.9.0.tar.gz
+[2024-04-15 16:44:45] INFO root fetch - processPackages [noteshrunk]: executing diffoscope
+[2024-04-15 16:44:45] INFO root fetch - processPackages [noteshrunk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noteshrunk-1.2.0.tar.gz tmp/noteshrunk-1.3.0.tar.gz --markdown 20240415/n/noteshrunk/1.2.0-1.3.0/README.md --exclude *.pyd
+[2024-04-15 16:44:45] INFO root fetch - processPackages [nucliadb-node-binding]: executing diffoscope
+[2024-04-15 16:44:45] INFO root fetch - processPackages [nucliadb-node-binding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_node_binding-3.0.2.post1145.tar.gz tmp/nucliadb_node_binding-3.0.2.post1151.tar.gz --markdown 20240415/n/nucliadb-node-binding/3.0.2.post1145-3.0.2.post1151/README.md --exclude *.pyd
+[2024-04-15 16:44:45] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2024-04-15 16:44:45] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20240415/a/akshare/1.9.98-1.9.99/README.md --exclude *.pyd
+[2024-04-15 16:44:46] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc60.dev60.tar.gz]
+[2024-04-15 16:44:46] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc61.dev61.tar.gz]
+[2024-04-15 16:44:46] INFO root fetch - processPackages [arion-library]: Start processing: bridgeobjects
+[2024-04-15 16:44:46] INFO root fetch - main [MainThread]: End processing [arion-library]: success
+[2024-04-15 16:44:46] INFO root fetch - processPackages [piwiPre]: Remove: archive file [/home/abi/fetcher/tmp/piwiPre-0.8.4.tar.gz]
+[2024-04-15 16:44:46] INFO root fetch - processPackages [piwiPre]: Remove: archive file [/home/abi/fetcher/tmp/piwiPre-0.8.5.tar.gz]
+[2024-04-15 16:44:46] INFO root fetch - main [MainThread]: End processing [piwiPre]: success
+[2024-04-15 16:44:46] INFO root fetch - processPackages [bridgeobjects]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-15 16:44:46] INFO root fetch - processPackages [k8s]: executing diffoscope
+[2024-04-15 16:44:46] INFO root fetch - processPackages [k8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/k8s-0.8.0.tar.gz tmp/k8s-0.9.0.tar.gz --markdown 20240415/k/k8s/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-15 16:44:46] WARNING root fetch - processPackages [KiMoPack]: Skipping package: exceeds size limit 103201187>=10485760
+[2024-04-15 16:44:46] WARNING root fetch - processPackages [KiMoPack]: Skipping package: exceeds size limit 103201187>=10485760
+[2024-04-15 16:44:46] INFO root fetch - main [MainThread]: End processing [KiMoPack] error
+[2024-04-15 16:44:46] INFO root fetch - main [MainThread]: End processing [KiMoPack] error
+[2024-04-15 16:44:46] INFO root fetch - processPackages [pymysqls]: Remove: archive file [/home/abi/fetcher/tmp/pymysqls-0.3.tar.gz]
+[2024-04-15 16:44:46] INFO root fetch - processPackages [pymysqls]: Remove: archive file [/home/abi/fetcher/tmp/pymysqls-0.4.tar.gz]
+[2024-04-15 16:44:46] INFO root fetch - main [MainThread]: End processing [pymysqls]: success
+[2024-04-15 16:44:46] INFO root fetch - processPackages [bridgeobjects]: Downloading https://files.pythonhosted.org/packages/fd/6a/0c207f0ded01e7a40f725f054939cf230697a9698c97059317f2a46db05c/bridgeobjects-0.1.8.tar.gz
+[2024-04-15 16:44:46] INFO root fetch - processPackages [noteshrunk]: Remove: archive file [/home/abi/fetcher/tmp/noteshrunk-1.2.0.tar.gz]
+[2024-04-15 16:44:46] INFO root fetch - processPackages [noteshrunk]: Remove: archive file [/home/abi/fetcher/tmp/noteshrunk-1.3.0.tar.gz]
+[2024-04-15 16:44:46] INFO root fetch - main [MainThread]: End processing [noteshrunk]: success
+[2024-04-15 16:44:46] INFO root fetch - processPackages [bridgeobjects]: Downloading https://files.pythonhosted.org/packages/38/2f/5b27e39a9ed23770138c49305229e8819df09644dc9ad82aebc0cceeb86c/bridgeobjects-0.1.9.tar.gz
+[2024-04-15 16:44:46] INFO root fetch - processPackages [bridgeobjects]: executing diffoscope
+[2024-04-15 16:44:46] INFO root fetch - processPackages [bridgeobjects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgeobjects-0.1.8.tar.gz tmp/bridgeobjects-0.1.9.tar.gz --markdown 20240415/b/bridgeobjects/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-15 16:44:46] INFO root fetch - processPackages [k8s]: Remove: archive file [/home/abi/fetcher/tmp/k8s-0.8.0.tar.gz]
+[2024-04-15 16:44:46] INFO root fetch - processPackages [k8s]: Remove: archive file [/home/abi/fetcher/tmp/k8s-0.9.0.tar.gz]
+[2024-04-15 16:44:46] INFO root fetch - main [MainThread]: End processing [k8s]: success
+[2024-04-15 16:44:46] INFO root fetch - processPackages [qrkey]: Downloading https://files.pythonhosted.org/packages/bf/11/be52b81c9b742a01b8885a67762fff1c208592fd033c769351780945d1bd/qrkey-0.4.0.tar.gz
+[2024-04-15 16:44:47] INFO root fetch - processPackages [qrkey]: executing diffoscope
+[2024-04-15 16:44:47] INFO root fetch - processPackages [qrkey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qrkey-0.3.0.tar.gz tmp/qrkey-0.4.0.tar.gz --markdown 20240415/q/qrkey/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-04-15 16:44:47] INFO root fetch - processPackages [bridgeobjects]: Remove: archive file [/home/abi/fetcher/tmp/bridgeobjects-0.1.8.tar.gz]
+[2024-04-15 16:44:47] INFO root fetch - processPackages [bridgeobjects]: Remove: archive file [/home/abi/fetcher/tmp/bridgeobjects-0.1.9.tar.gz]
+[2024-04-15 16:44:47] INFO root fetch - main [MainThread]: End processing [bridgeobjects]: success
+[2024-04-15 16:44:47] INFO root fetch - processPackages [qrkey]: Remove: archive file [/home/abi/fetcher/tmp/qrkey-0.3.0.tar.gz]
+[2024-04-15 16:44:47] INFO root fetch - processPackages [qrkey]: Remove: archive file [/home/abi/fetcher/tmp/qrkey-0.4.0.tar.gz]
+[2024-04-15 16:44:47] INFO root fetch - main [MainThread]: End processing [qrkey]: success
+[2024-04-15 16:44:48] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-3.0.2.post1145.tar.gz]
+[2024-04-15 16:44:48] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-3.0.2.post1151.tar.gz]
+[2024-04-15 16:44:48] INFO root fetch - main [MainThread]: End processing [nucliadb-node-binding]: success
+[2024-04-15 16:44:48] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2024-04-15 16:44:48] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2024-04-15 16:44:48] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2024-04-15 16:44:48] INFO root fetch - main [MainThread]: Store serial: [22772941]
