@@ -2563,3 +2563,15 @@
 [2024-04-15 03:44:04] INFO root fetch - processPackages [slurpit_nautobot]: Remove: archive file [/home/abi/fetcher/tmp/slurpit_nautobot-0.8.67.tar.gz]
 [2024-04-15 03:44:04] INFO root fetch - main [MainThread]: End processing [slurpit_nautobot]: success
 [2024-04-15 03:44:04] INFO root fetch - main [MainThread]: Store serial: [22764440]
+[2024-04-15 03:46:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22764440]
+[2024-04-15 03:46:13] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-15 03:46:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tree-sitter-cpp
+[2024-04-15 03:46:13] INFO root fetch - processPackages [tree-sitter-cpp]: New version: [0.22.0] Old Version: [0.21.0]
+[2024-04-15 03:46:13] INFO root fetch - processPackages [tree-sitter-cpp]: Downloading https://files.pythonhosted.org/packages/35/6a/169425bbd60c079c0fc76c0edbf3ded7d3ad61439a3a26a4c278c24b2576/tree_sitter_cpp-0.21.0-cp38-abi3-win_amd64.whl
+[2024-04-15 03:46:13] INFO root fetch - processPackages [tree-sitter-cpp]: Downloading https://files.pythonhosted.org/packages/36/5c/e3bf31b364bf2a06782c88c110a477506e53856bd520815d81deafa5b589/tree_sitter_cpp-0.22.0-cp38-abi3-win_amd64.whl
+[2024-04-15 03:46:14] INFO root fetch - processPackages [tree-sitter-cpp]: executing diffoscope
+[2024-04-15 03:46:14] INFO root fetch - processPackages [tree-sitter-cpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tree_sitter_cpp-0.21.0-cp38-abi3-win_amd64.whl.zip tmp/tree_sitter_cpp-0.22.0-cp38-abi3-win_amd64.whl.zip --markdown 20240415/t/tree-sitter-cpp/0.21.0-0.22.0/README.md --exclude *.pyd
+[2024-04-15 03:46:14] INFO root fetch - processPackages [tree-sitter-cpp]: Remove: archive file [/home/abi/fetcher/tmp/tree_sitter_cpp-0.21.0-cp38-abi3-win_amd64.whl.zip]
+[2024-04-15 03:46:14] INFO root fetch - processPackages [tree-sitter-cpp]: Remove: archive file [/home/abi/fetcher/tmp/tree_sitter_cpp-0.22.0-cp38-abi3-win_amd64.whl.zip]
+[2024-04-15 03:46:14] INFO root fetch - main [MainThread]: End processing [tree-sitter-cpp]: success
+[2024-04-15 03:46:14] INFO root fetch - main [MainThread]: Store serial: [22764448]
