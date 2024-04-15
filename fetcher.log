@@ -14994,3 +14994,59 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 12:33:10] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-59.9.1.tar.gz]
 [2024-04-15 12:33:10] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-04-15 12:33:10] INFO root fetch - main [MainThread]: Store serial: [22769379]
+[2024-04-15 12:35:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22769379]
+[2024-04-15 12:35:20] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-15 12:35:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AltTester-Driver
+[2024-04-15 12:35:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: removable-package
+[2024-04-15 12:35:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alttester-robotframework-library
+[2024-04-15 12:35:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: atomrdf
+[2024-04-15 12:35:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdktf
+[2024-04-15 12:35:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: modern-greek-inflexion
+[2024-04-15 12:35:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ciscoconfparse2
+[2024-04-15 12:35:20] INFO root fetch - processPackages [atomrdf]: New version: [0.4.2] Old Version: [0.4.0]
+[2024-04-15 12:35:20] INFO root fetch - processPackages [cdktf]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-15 12:35:20] INFO root fetch - processPackages [ciscoconfparse2]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-15 12:35:20] INFO root fetch - processPackages [AltTester-Driver]: New version: [2.1.0] Old Version: [2.0.3]
+[2024-04-15 12:35:20] WARNING root fetch - processPackages [removable-package]: Skipping, unable to determine old version
+[2024-04-15 12:35:20] INFO root fetch - main [MainThread]: End processing [removable-package] error
+[2024-04-15 12:35:20] INFO root fetch - processPackages [alttester-robotframework-library]: New version: [2.1.0] Old Version: [0.0.1]
+[2024-04-15 12:35:20] INFO root fetch - processPackages [modern-greek-inflexion]: New version: [2.0.3] Old Version: [2.0.2]
+[2024-04-15 12:35:20] INFO root fetch - processPackages [ciscoconfparse2]: Downloading https://files.pythonhosted.org/packages/26/c5/d7a1bbb15197a52ec641fb3455b2bad160571ef08bbb87f61c8e83e45163/ciscoconfparse2-0.7.8.tar.gz
+[2024-04-15 12:35:20] INFO root fetch - processPackages [cdktf]: Downloading https://files.pythonhosted.org/packages/87/b3/c146d54086d890741cc9d05c63504e1386b268ef8cbc52d9aa78c1080aa3/cdktf-0.9.3.tar.gz
+[2024-04-15 12:35:20] INFO root fetch - processPackages [atomrdf]: Downloading https://files.pythonhosted.org/packages/a3/9a/0c2bebf003e5b20fa325edd612281507718bad640c4d6513b72d4fffa6fa/atomrdf-0.4.0.tar.gz
+[2024-04-15 12:35:20] WARNING root fetch - processPackages [ciscoconfparse2]: Skipping package: exceeds size limit 12946892>=10485760
+[2024-04-15 12:35:20] INFO root fetch - main [MainThread]: End processing [ciscoconfparse2] error
+[2024-04-15 12:35:20] INFO root fetch - processPackages [AltTester-Driver]: Downloading https://files.pythonhosted.org/packages/44/15/30737e9f5a67bf88527782e0ee522ca1a8a0403a842ab050bebd4cde9cdc/AltTester-Driver-2.0.3.tar.gz
+[2024-04-15 12:35:20] INFO root fetch - processPackages [alttester-robotframework-library]: Downloading https://files.pythonhosted.org/packages/2a/30/4f673ca18acefaab8a4a814f606fa84cacec6513ca5e19d085a173acefb0/alttester-robotframework-library-0.0.1.tar.gz
+[2024-04-15 12:35:20] INFO root fetch - processPackages [modern-greek-inflexion]: Downloading https://files.pythonhosted.org/packages/3a/1e/2ba001cc7ae13f56c39180eba1c83753464d309e62a603c3bac8e4c1ae66/modern-greek-inflexion-2.0.2.tar.gz
+[2024-04-15 12:35:21] INFO root fetch - processPackages [cdktf]: Downloading https://files.pythonhosted.org/packages/80/8d/cbc9ef418f046a8c17f614889aba72b6e668540a2966498bef6f1dbb3a10/cdktf-0.9.4.tar.gz
+[2024-04-15 12:35:21] INFO root fetch - processPackages [atomrdf]: Downloading https://files.pythonhosted.org/packages/0f/ea/0c1488c0e0e725e169c69389c0f7a912a8e78e921fa5d8e34f6e407b3864/atomrdf-0.4.2.tar.gz
+[2024-04-15 12:35:21] INFO root fetch - processPackages [AltTester-Driver]: Downloading https://files.pythonhosted.org/packages/c6/87/79f9316270fb56c1f6c49b995be64268d82ab46cd959378a747874c2b60c/alttester_driver-2.1.0.tar.gz
+[2024-04-15 12:35:21] INFO root fetch - processPackages [atomrdf]: executing diffoscope
+[2024-04-15 12:35:21] INFO root fetch - processPackages [atomrdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomrdf-0.4.0.tar.gz tmp/atomrdf-0.4.2.tar.gz --markdown 20240415/a/atomrdf/0.4.0-0.4.2/README.md --exclude *.pyd
+[2024-04-15 12:35:21] INFO root fetch - processPackages [alttester-robotframework-library]: Downloading https://files.pythonhosted.org/packages/f1/03/ef147641658b4b5371acb67ad64f63d2bf226831edd21eaf00b862991389/alttester_robotframework_library-2.1.0.tar.gz
+[2024-04-15 12:35:21] INFO root fetch - processPackages [cdktf]: executing diffoscope
+[2024-04-15 12:35:21] INFO root fetch - processPackages [cdktf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-0.9.3.tar.gz tmp/cdktf-0.9.4.tar.gz --markdown 20240415/c/cdktf/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-04-15 12:35:21] INFO root fetch - processPackages [AltTester-Driver]: executing diffoscope
+[2024-04-15 12:35:21] INFO root fetch - processPackages [AltTester-Driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AltTester-Driver-2.0.3.tar.gz tmp/alttester_driver-2.1.0.tar.gz --markdown 20240415/A/AltTester-Driver/2.0.3-2.1.0/README.md --exclude *.pyd
+[2024-04-15 12:35:21] INFO root fetch - processPackages [alttester-robotframework-library]: executing diffoscope
+[2024-04-15 12:35:21] INFO root fetch - processPackages [alttester-robotframework-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alttester-robotframework-library-0.0.1.tar.gz tmp/alttester_robotframework_library-2.1.0.tar.gz --markdown 20240415/a/alttester-robotframework-library/0.0.1-2.1.0/README.md --exclude *.pyd
+[2024-04-15 12:35:21] INFO root fetch - processPackages [cdktf]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-0.9.3.tar.gz]
+[2024-04-15 12:35:21] INFO root fetch - processPackages [cdktf]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-0.9.4.tar.gz]
+[2024-04-15 12:35:21] INFO root fetch - main [MainThread]: End processing [cdktf]: success
+[2024-04-15 12:35:22] INFO root fetch - processPackages [alttester-robotframework-library]: Remove: archive file [/home/abi/fetcher/tmp/alttester-robotframework-library-0.0.1.tar.gz]
+[2024-04-15 12:35:22] INFO root fetch - processPackages [alttester-robotframework-library]: Remove: archive file [/home/abi/fetcher/tmp/alttester_robotframework_library-2.1.0.tar.gz]
+[2024-04-15 12:35:22] INFO root fetch - main [MainThread]: End processing [alttester-robotframework-library]: success
+[2024-04-15 12:35:22] INFO root fetch - processPackages [modern-greek-inflexion]: Downloading https://files.pythonhosted.org/packages/d6/f1/9c7a025d79137ba2f85d965a6d2b7535b7f76c4397a72b3397a7d9603ab2/modern_greek_inflexion-2.0.3.tar.gz
+[2024-04-15 12:35:22] INFO root fetch - processPackages [atomrdf]: Remove: archive file [/home/abi/fetcher/tmp/atomrdf-0.4.0.tar.gz]
+[2024-04-15 12:35:22] INFO root fetch - processPackages [atomrdf]: Remove: archive file [/home/abi/fetcher/tmp/atomrdf-0.4.2.tar.gz]
+[2024-04-15 12:35:22] INFO root fetch - main [MainThread]: End processing [atomrdf]: success
+[2024-04-15 12:35:22] INFO root fetch - processPackages [AltTester-Driver]: Remove: archive file [/home/abi/fetcher/tmp/AltTester-Driver-2.0.3.tar.gz]
+[2024-04-15 12:35:22] INFO root fetch - processPackages [AltTester-Driver]: Remove: archive file [/home/abi/fetcher/tmp/alttester_driver-2.1.0.tar.gz]
+[2024-04-15 12:35:22] INFO root fetch - main [MainThread]: End processing [AltTester-Driver]: success
+[2024-04-15 12:35:23] INFO root fetch - processPackages [modern-greek-inflexion]: executing diffoscope
+[2024-04-15 12:35:23] INFO root fetch - processPackages [modern-greek-inflexion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modern-greek-inflexion-2.0.2.tar.gz tmp/modern_greek_inflexion-2.0.3.tar.gz --markdown 20240415/m/modern-greek-inflexion/2.0.2-2.0.3/README.md --exclude *.pyd
+[2024-04-15 12:35:25] INFO root fetch - processPackages [modern-greek-inflexion]: Remove: archive file [/home/abi/fetcher/tmp/modern-greek-inflexion-2.0.2.tar.gz]
+[2024-04-15 12:35:25] INFO root fetch - processPackages [modern-greek-inflexion]: Remove: archive file [/home/abi/fetcher/tmp/modern_greek_inflexion-2.0.3.tar.gz]
+[2024-04-15 12:35:25] INFO root fetch - main [MainThread]: End processing [modern-greek-inflexion]: success
+[2024-04-15 12:35:25] INFO root fetch - main [MainThread]: Store serial: [22769405]
