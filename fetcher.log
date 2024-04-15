@@ -7642,3 +7642,24 @@
 [2024-04-15 07:21:29] INFO root fetch - processPackages [emergingtrajectories]: Remove: archive file [/home/abi/fetcher/tmp/emergingtrajectories-0.2.9.tar.gz]
 [2024-04-15 07:21:29] INFO root fetch - main [MainThread]: End processing [emergingtrajectories]: success
 [2024-04-15 07:21:29] INFO root fetch - main [MainThread]: Store serial: [22766262]
+[2024-04-15 07:23:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22766262]
+[2024-04-15 07:23:38] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-15 07:23:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MinVectorDB
+[2024-04-15 07:23:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chik-rs
+[2024-04-15 07:23:38] INFO root fetch - processPackages [chik-rs]: New version: [0.6.0] Old Version: [0.5.2]
+[2024-04-15 07:23:38] INFO root fetch - processPackages [chik-rs]: Downloading https://files.pythonhosted.org/packages/1f/e0/e108c2c989abf6665b99f50df946d571347bb5c1ac1090d9a8bcc61a45bb/chik_rs-0.5.2.tar.gz
+[2024-04-15 07:23:38] INFO root fetch - processPackages [MinVectorDB]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-15 07:23:38] INFO root fetch - processPackages [MinVectorDB]: Downloading https://files.pythonhosted.org/packages/19/96/4ba1294ee4931e6a818aa7b940dca46098d017678bfcfe98809587291a1b/MinVectorDB-0.2.4.tar.gz
+[2024-04-15 07:23:38] INFO root fetch - processPackages [chik-rs]: Downloading https://files.pythonhosted.org/packages/44/0a/e94ee01cd3fb81f30b060bdba8d1d258f717ce2433dd12446ac1cf5a66db/chik_rs-0.6.0.tar.gz
+[2024-04-15 07:23:38] INFO root fetch - processPackages [chik-rs]: executing diffoscope
+[2024-04-15 07:23:38] INFO root fetch - processPackages [chik-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chik_rs-0.5.2.tar.gz tmp/chik_rs-0.6.0.tar.gz --markdown 20240415/c/chik-rs/0.5.2-0.6.0/README.md --exclude *.pyd
+[2024-04-15 07:23:39] INFO root fetch - processPackages [MinVectorDB]: Downloading https://files.pythonhosted.org/packages/f6/d7/b0e3a002e18f69c92bcb5025bcd9015d9341202c99c259307f5e9d30f9af/minvectordb-0.2.5.tar.gz
+[2024-04-15 07:23:39] INFO root fetch - processPackages [MinVectorDB]: executing diffoscope
+[2024-04-15 07:23:39] INFO root fetch - processPackages [MinVectorDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MinVectorDB-0.2.4.tar.gz tmp/minvectordb-0.2.5.tar.gz --markdown 20240415/M/MinVectorDB/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-15 07:23:39] INFO root fetch - processPackages [MinVectorDB]: Remove: archive file [/home/abi/fetcher/tmp/MinVectorDB-0.2.4.tar.gz]
+[2024-04-15 07:23:39] INFO root fetch - processPackages [MinVectorDB]: Remove: archive file [/home/abi/fetcher/tmp/minvectordb-0.2.5.tar.gz]
+[2024-04-15 07:23:39] INFO root fetch - main [MainThread]: End processing [MinVectorDB]: success
+[2024-04-15 07:23:40] INFO root fetch - processPackages [chik-rs]: Remove: archive file [/home/abi/fetcher/tmp/chik_rs-0.5.2.tar.gz]
+[2024-04-15 07:23:40] INFO root fetch - processPackages [chik-rs]: Remove: archive file [/home/abi/fetcher/tmp/chik_rs-0.6.0.tar.gz]
+[2024-04-15 07:23:40] INFO root fetch - main [MainThread]: End processing [chik-rs]: success
+[2024-04-15 07:23:40] INFO root fetch - main [MainThread]: Store serial: [22766288]
