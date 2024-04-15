@@ -8073,3 +8073,42 @@
 [2024-04-15 07:58:40] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.9.tar.gz]
 [2024-04-15 07:58:40] INFO root fetch - main [MainThread]: End processing [quantplay]: success
 [2024-04-15 07:58:40] INFO root fetch - main [MainThread]: Store serial: [22766453]
+[2024-04-15 08:00:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22766453]
+[2024-04-15 08:00:48] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-15 08:00:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ragtime
+[2024-04-15 08:00:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: accrete
+[2024-04-15 08:00:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: radical.gtod
+[2024-04-15 08:00:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: efriser
+[2024-04-15 08:00:48] INFO root fetch - processPackages [ragtime]: New version: [0.0.27] Old Version: [0.0.26]
+[2024-04-15 08:00:48] INFO root fetch - processPackages [radical.gtod]: New version: [1.6.7] Old Version: [1.5.0]
+[2024-04-15 08:00:48] INFO root fetch - processPackages [efriser]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-15 08:00:48] INFO root fetch - processPackages [radical.gtod]: Downloading https://files.pythonhosted.org/packages/79/10/f1a89928a077875824f44a6b09a26408148d8b18ca0639ae0a3782adb7f1/radical.gtod-1.5.0.tar.gz
+[2024-04-15 08:00:48] INFO root fetch - processPackages [ragtime]: Downloading https://files.pythonhosted.org/packages/58/93/cd429a1d3f17186618b9ccf65c2bcaaf57a665590eacb8ab3463f1bd423e/ragtime-0.0.26.tar.gz
+[2024-04-15 08:00:48] INFO root fetch - processPackages [accrete]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-15 08:00:49] INFO root fetch - processPackages [radical.gtod]: Downloading https://files.pythonhosted.org/packages/e7/99/b30606ef545cb7dd3965e4271424fac7ce5ea037377a5a165605efd5aced/radical.gtod-1.6.7.tar.gz
+[2024-04-15 08:00:49] INFO root fetch - processPackages [efriser]: Downloading https://files.pythonhosted.org/packages/06/d3/5ec4bd4d9560fd7c2261f471a191ed6282914c865182c1b03b74e6ffd245/efriser-0.1.6.tar.gz
+[2024-04-15 08:00:49] INFO root fetch - processPackages [ragtime]: Downloading https://files.pythonhosted.org/packages/b3/d4/abd5c4fa75d1174126739413b35963fe9f60305af1038f2db0be7c4d0c1d/ragtime-0.0.27.tar.gz
+[2024-04-15 08:00:49] INFO root fetch - processPackages [accrete]: Downloading https://files.pythonhosted.org/packages/c7/6b/bb8d5185d210f8b0d8e6ac0336ae032b68cb3978dc98b99ef1f24c45a27c/accrete-0.0.8.tar.gz
+[2024-04-15 08:00:49] INFO root fetch - processPackages [radical.gtod]: executing diffoscope
+[2024-04-15 08:00:49] INFO root fetch - processPackages [radical.gtod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radical.gtod-1.5.0.tar.gz tmp/radical.gtod-1.6.7.tar.gz --markdown 20240415/r/radical.gtod/1.5.0-1.6.7/README.md --exclude *.pyd
+[2024-04-15 08:00:49] INFO root fetch - processPackages [ragtime]: executing diffoscope
+[2024-04-15 08:00:49] INFO root fetch - processPackages [ragtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragtime-0.0.26.tar.gz tmp/ragtime-0.0.27.tar.gz --markdown 20240415/r/ragtime/0.0.26-0.0.27/README.md --exclude *.pyd
+[2024-04-15 08:00:49] INFO root fetch - processPackages [efriser]: Downloading https://files.pythonhosted.org/packages/84/0c/85ce8d55f51c82158920b27df6c45fb212d3a55d102cf0ff3bf2aac14950/efriser-0.1.7.tar.gz
+[2024-04-15 08:00:49] INFO root fetch - processPackages [efriser]: executing diffoscope
+[2024-04-15 08:00:49] INFO root fetch - processPackages [efriser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/efriser-0.1.6.tar.gz tmp/efriser-0.1.7.tar.gz --markdown 20240415/e/efriser/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-15 08:00:49] INFO root fetch - processPackages [accrete]: Downloading https://files.pythonhosted.org/packages/34/70/23319991d3f107729ecb81b81c0d5503a07b3d69a6c7fa9bf91d83fbd569/accrete-0.0.9.tar.gz
+[2024-04-15 08:00:49] INFO root fetch - processPackages [radical.gtod]: Remove: archive file [/home/abi/fetcher/tmp/radical.gtod-1.5.0.tar.gz]
+[2024-04-15 08:00:49] INFO root fetch - processPackages [radical.gtod]: Remove: archive file [/home/abi/fetcher/tmp/radical.gtod-1.6.7.tar.gz]
+[2024-04-15 08:00:49] INFO root fetch - processPackages [accrete]: executing diffoscope
+[2024-04-15 08:00:49] INFO root fetch - processPackages [accrete]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accrete-0.0.8.tar.gz tmp/accrete-0.0.9.tar.gz --markdown 20240415/a/accrete/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-15 08:00:49] INFO root fetch - main [MainThread]: End processing [radical.gtod]: success
+[2024-04-15 08:00:49] INFO root fetch - processPackages [ragtime]: Remove: archive file [/home/abi/fetcher/tmp/ragtime-0.0.26.tar.gz]
+[2024-04-15 08:00:49] INFO root fetch - processPackages [ragtime]: Remove: archive file [/home/abi/fetcher/tmp/ragtime-0.0.27.tar.gz]
+[2024-04-15 08:00:49] INFO root fetch - main [MainThread]: End processing [ragtime]: success
+[2024-04-15 08:00:50] INFO root fetch - processPackages [efriser]: Remove: archive file [/home/abi/fetcher/tmp/efriser-0.1.6.tar.gz]
+[2024-04-15 08:00:50] INFO root fetch - processPackages [efriser]: Remove: archive file [/home/abi/fetcher/tmp/efriser-0.1.7.tar.gz]
+[2024-04-15 08:00:50] INFO root fetch - main [MainThread]: End processing [efriser]: success
+[2024-04-15 08:00:50] INFO root fetch - processPackages [accrete]: Remove: archive file [/home/abi/fetcher/tmp/accrete-0.0.8.tar.gz]
+[2024-04-15 08:00:50] INFO root fetch - processPackages [accrete]: Remove: archive file [/home/abi/fetcher/tmp/accrete-0.0.9.tar.gz]
+[2024-04-15 08:00:50] INFO root fetch - main [MainThread]: End processing [accrete]: success
+[2024-04-15 08:00:50] INFO root fetch - main [MainThread]: Store serial: [22766464]
