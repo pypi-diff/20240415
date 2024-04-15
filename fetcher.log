@@ -16340,3 +16340,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 13:21:55] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-59.9.1.tar.gz]
 [2024-04-15 13:21:55] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-04-15 13:21:55] INFO root fetch - main [MainThread]: Store serial: [22770014]
+[2024-04-15 13:24:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22770014]
+[2024-04-15 13:24:05] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-15 13:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: codeframe
+[2024-04-15 13:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: palworld_admin
+[2024-04-15 13:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pluthon
+[2024-04-15 13:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: foxesscloud
+[2024-04-15 13:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pista-core
+[2024-04-15 13:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: somnetics-seamless-utils
+[2024-04-15 13:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pymonetdb
+[2024-04-15 13:24:05] INFO root fetch - processPackages [pista-core]: New version: [0.0.0a14] Old Version: [0.0.0a12]
+[2024-04-15 13:24:05] INFO root fetch - processPackages [codeframe]: New version: [0.5.7] Old Version: [0.5.5]
+[2024-04-15 13:24:05] INFO root fetch - processPackages [foxesscloud]: New version: [2.2.1] Old Version: [2.2.0]
+[2024-04-15 13:24:05] ERROR root fetch - processPackages [somnetics-seamless-utils]: Unable to get metadata: No such project 'somnetics-seamless-utils'
+[2024-04-15 13:24:05] INFO root fetch - main [MainThread]: End processing [somnetics-seamless-utils] error
+[2024-04-15 13:24:05] INFO root fetch - processPackages [codeframe]: Downloading https://files.pythonhosted.org/packages/f3/21/cdedee69d4692bb9b4c515c386afc9b4e28282efe1f898d48a8f8f1f19d3/codeframe-0.5.5.tar.gz
+[2024-04-15 13:24:05] INFO root fetch - processPackages [palworld_admin]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-15 13:24:05] INFO root fetch - processPackages [pluthon]: New version: [0.5.4] Old Version: [0.5.3]
+[2024-04-15 13:24:05] INFO root fetch - processPackages [pymonetdb]: New version: [1.8.0] Old Version: [1.7.1]
+[2024-04-15 13:24:05] INFO root fetch - processPackages [pista-core]: Downloading https://files.pythonhosted.org/packages/38/dd/52202931d32ae7bb7c8244c5bd596254701a4e094f8b09be9ce98e4eb8d1/pista_core-0.0.0a12-py3-none-any.whl
+[2024-04-15 13:24:05] INFO root fetch - processPackages [foxesscloud]: Downloading https://files.pythonhosted.org/packages/6d/49/9a6e0427326595e9f5bf33d2e88a4d30116d806b3619970efde8888219b0/foxesscloud-2.2.0.tar.gz
+[2024-04-15 13:24:05] INFO root fetch - processPackages [palworld_admin]: Downloading https://files.pythonhosted.org/packages/ab/cf/e80a364ea8bcd959d0e75c0f7c7bb0b7bc9fd2ed5d2893a01d10ab9edb84/palworld_admin-0.9.8.tar.gz
+[2024-04-15 13:24:05] INFO root fetch - processPackages [pluthon]: Downloading https://files.pythonhosted.org/packages/4f/5e/2eceb90663770d1130943d05ef98fa44659c1e247cbfd9527f490640da5e/pluthon-0.5.3.tar.gz
+[2024-04-15 13:24:05] INFO root fetch - processPackages [pymonetdb]: Downloading https://files.pythonhosted.org/packages/fb/1c/3715170747559aac39b52f6df8f4c806833c265c35f6b051db5e45b979ff/pymonetdb-1.7.1.tar.gz
+[2024-04-15 13:24:05] INFO root fetch - processPackages [codeframe]: Downloading https://files.pythonhosted.org/packages/a2/17/d44b2ca4c8f262af8381ce3c512326ed991ff74f739e685effaaec2cf698/codeframe-0.5.7.tar.gz
+[2024-04-15 13:24:05] INFO root fetch - processPackages [pista-core]: Downloading https://files.pythonhosted.org/packages/b2/af/ead45c1c20e12132bca14d5b4e28c95e29a051b49c7d8d7662ed0b9df84a/pista_core-0.0.0a14-py3-none-any.whl
+[2024-04-15 13:24:05] INFO root fetch - processPackages [codeframe]: executing diffoscope
+[2024-04-15 13:24:05] INFO root fetch - processPackages [codeframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codeframe-0.5.5.tar.gz tmp/codeframe-0.5.7.tar.gz --markdown 20240415/c/codeframe/0.5.5-0.5.7/README.md --exclude *.pyd
+[2024-04-15 13:24:06] INFO root fetch - processPackages [foxesscloud]: Downloading https://files.pythonhosted.org/packages/16/c6/5fa5507101ea8c1a974200859e3d5277ab6c028c53459fedd18410435a57/foxesscloud-2.2.1.tar.gz
+[2024-04-15 13:24:06] INFO root fetch - processPackages [pista-core]: executing diffoscope
+[2024-04-15 13:24:06] INFO root fetch - processPackages [pista-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pista_core-0.0.0a12-py3-none-any.whl.zip tmp/pista_core-0.0.0a14-py3-none-any.whl.zip --markdown 20240415/p/pista-core/0.0.0a12-0.0.0a14/README.md --exclude *.pyd
+[2024-04-15 13:24:06] INFO root fetch - processPackages [pluthon]: Downloading https://files.pythonhosted.org/packages/6b/18/0859bfbddfb79c7ade549e69a6be559196a927d46683f69d905797308df3/pluthon-0.5.4.tar.gz
+[2024-04-15 13:24:06] INFO root fetch - processPackages [palworld_admin]: Downloading https://files.pythonhosted.org/packages/28/40/9b8e815430a13a702589802b28e9f0baa6a3ad1f495182d371eae5272666/palworld_admin-0.9.9.tar.gz
+[2024-04-15 13:24:06] INFO root fetch - processPackages [foxesscloud]: executing diffoscope
+[2024-04-15 13:24:06] INFO root fetch - processPackages [foxesscloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foxesscloud-2.2.0.tar.gz tmp/foxesscloud-2.2.1.tar.gz --markdown 20240415/f/foxesscloud/2.2.0-2.2.1/README.md --exclude *.pyd
+[2024-04-15 13:24:06] INFO root fetch - processPackages [pluthon]: executing diffoscope
+[2024-04-15 13:24:06] INFO root fetch - processPackages [pluthon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pluthon-0.5.3.tar.gz tmp/pluthon-0.5.4.tar.gz --markdown 20240415/p/pluthon/0.5.3-0.5.4/README.md --exclude *.pyd
+[2024-04-15 13:24:06] INFO root fetch - processPackages [pymonetdb]: Downloading https://files.pythonhosted.org/packages/e3/ce/3a6cda4cb2f0182ebe71c5099a505dea5a914b0425d574e0cb4be0a5397a/pymonetdb-1.8.0-py2.py3-none-any.whl
+[2024-04-15 13:24:06] INFO root fetch - processPackages [palworld_admin]: executing diffoscope
+[2024-04-15 13:24:06] INFO root fetch - processPackages [palworld_admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/palworld_admin-0.9.8.tar.gz tmp/palworld_admin-0.9.9.tar.gz --markdown 20240415/p/palworld_admin/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-15 13:24:06] INFO root fetch - processPackages [codeframe]: Remove: archive file [/home/abi/fetcher/tmp/codeframe-0.5.5.tar.gz]
+[2024-04-15 13:24:06] INFO root fetch - processPackages [codeframe]: Remove: archive file [/home/abi/fetcher/tmp/codeframe-0.5.7.tar.gz]
+[2024-04-15 13:24:06] INFO root fetch - main [MainThread]: End processing [codeframe]: success
+[2024-04-15 13:24:06] INFO root fetch - processPackages [pista-core]: Remove: archive file [/home/abi/fetcher/tmp/pista_core-0.0.0a12-py3-none-any.whl.zip]
+[2024-04-15 13:24:06] INFO root fetch - processPackages [pista-core]: Remove: archive file [/home/abi/fetcher/tmp/pista_core-0.0.0a14-py3-none-any.whl.zip]
+[2024-04-15 13:24:06] INFO root fetch - main [MainThread]: End processing [pista-core]: success
+[2024-04-15 13:24:07] INFO root fetch - processPackages [pluthon]: Remove: archive file [/home/abi/fetcher/tmp/pluthon-0.5.3.tar.gz]
+[2024-04-15 13:24:07] INFO root fetch - processPackages [pluthon]: Remove: archive file [/home/abi/fetcher/tmp/pluthon-0.5.4.tar.gz]
+[2024-04-15 13:24:07] INFO root fetch - main [MainThread]: End processing [pluthon]: success
+[2024-04-15 13:24:07] INFO root fetch - processPackages [pymonetdb]: executing diffoscope
+[2024-04-15 13:24:07] INFO root fetch - processPackages [pymonetdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymonetdb-1.7.1.tar.gz tmp/pymonetdb-1.8.0-py2.py3-none-any.whl.zip --markdown 20240415/p/pymonetdb/1.7.1-1.8.0/README.md --exclude *.pyd
+[2024-04-15 13:24:07] INFO root fetch - processPackages [foxesscloud]: Remove: archive file [/home/abi/fetcher/tmp/foxesscloud-2.2.0.tar.gz]
+[2024-04-15 13:24:07] INFO root fetch - processPackages [foxesscloud]: Remove: archive file [/home/abi/fetcher/tmp/foxesscloud-2.2.1.tar.gz]
+[2024-04-15 13:24:07] INFO root fetch - main [MainThread]: End processing [foxesscloud]: success
+[2024-04-15 13:24:07] INFO root fetch - processPackages [palworld_admin]: Remove: archive file [/home/abi/fetcher/tmp/palworld_admin-0.9.8.tar.gz]
+[2024-04-15 13:24:07] INFO root fetch - processPackages [palworld_admin]: Remove: archive file [/home/abi/fetcher/tmp/palworld_admin-0.9.9.tar.gz]
+[2024-04-15 13:24:07] INFO root fetch - main [MainThread]: End processing [palworld_admin]: success
+[2024-04-15 13:24:07] INFO root fetch - processPackages [pymonetdb]: Remove: archive file [/home/abi/fetcher/tmp/pymonetdb-1.7.1.tar.gz]
+[2024-04-15 13:24:07] INFO root fetch - processPackages [pymonetdb]: Remove: archive file [/home/abi/fetcher/tmp/pymonetdb-1.8.0-py2.py3-none-any.whl.zip]
+[2024-04-15 13:24:07] INFO root fetch - main [MainThread]: End processing [pymonetdb]: success
+[2024-04-15 13:24:07] INFO root fetch - main [MainThread]: Store serial: [22770035]
