@@ -12888,3 +12888,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 11:17:59] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
 [2024-04-15 11:17:59] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
 [2024-04-15 11:17:59] INFO root fetch - main [MainThread]: Store serial: [22768488]
+[2024-04-15 11:20:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22768488]
+[2024-04-15 11:20:08] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-15 11:20:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: snakemake-executor-plugin-slurm
+[2024-04-15 11:20:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bblib
+[2024-04-15 11:20:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iredis
+[2024-04-15 11:20:08] INFO root fetch - processPackages [snakemake-executor-plugin-slurm]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-04-15 11:20:08] INFO root fetch - processPackages [bblib]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-15 11:20:09] INFO root fetch - processPackages [iredis]: New version: [1.9.4] Old Version: [1.9.3]
+[2024-04-15 11:20:09] INFO root fetch - processPackages [snakemake-executor-plugin-slurm]: Downloading https://files.pythonhosted.org/packages/bf/20/f4a6fa0920b1aecf3d2b844726f3bce15efaf6f1f88c59c8002e029a8569/snakemake_executor_plugin_slurm-0.4.3.tar.gz
+[2024-04-15 11:20:09] INFO root fetch - processPackages [bblib]: Downloading https://files.pythonhosted.org/packages/b6/93/d3ff2e73e5bd387d20c187a245f75da7829e9a156773f069706e29aa9a1b/bblib-1.2.0.tar.gz
+[2024-04-15 11:20:09] INFO root fetch - processPackages [iredis]: Downloading https://files.pythonhosted.org/packages/36/3e/2c62f35fc2d0cd8be9921ff32a797c84bbd368c0ebebc1539d97cfb363f0/iredis-1.9.3.tar.gz
+[2024-04-15 11:20:09] INFO root fetch - processPackages [snakemake-executor-plugin-slurm]: Downloading https://files.pythonhosted.org/packages/d0/9d/a2c4bf3c82d416b00a761b1a13c076de6313fcedd993b31e7657e021b314/snakemake_executor_plugin_slurm-0.4.4.tar.gz
+[2024-04-15 11:20:09] INFO root fetch - processPackages [bblib]: Downloading https://files.pythonhosted.org/packages/88/a6/1c64b62c2042af23fe0dda728f466acad7d8f435d0a32a8ade8e251ccac2/bblib-1.2.1.tar.gz
+[2024-04-15 11:20:09] INFO root fetch - processPackages [snakemake-executor-plugin-slurm]: executing diffoscope
+[2024-04-15 11:20:09] INFO root fetch - processPackages [snakemake-executor-plugin-slurm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snakemake_executor_plugin_slurm-0.4.3.tar.gz tmp/snakemake_executor_plugin_slurm-0.4.4.tar.gz --markdown 20240415/s/snakemake-executor-plugin-slurm/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-04-15 11:20:09] INFO root fetch - processPackages [bblib]: executing diffoscope
+[2024-04-15 11:20:09] INFO root fetch - processPackages [bblib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bblib-1.2.0.tar.gz tmp/bblib-1.2.1.tar.gz --markdown 20240415/b/bblib/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-04-15 11:20:10] INFO root fetch - processPackages [snakemake-executor-plugin-slurm]: Remove: archive file [/home/abi/fetcher/tmp/snakemake_executor_plugin_slurm-0.4.3.tar.gz]
+[2024-04-15 11:20:10] INFO root fetch - processPackages [snakemake-executor-plugin-slurm]: Remove: archive file [/home/abi/fetcher/tmp/snakemake_executor_plugin_slurm-0.4.4.tar.gz]
+[2024-04-15 11:20:10] INFO root fetch - main [MainThread]: End processing [snakemake-executor-plugin-slurm]: success
+[2024-04-15 11:20:10] INFO root fetch - processPackages [bblib]: Remove: archive file [/home/abi/fetcher/tmp/bblib-1.2.0.tar.gz]
+[2024-04-15 11:20:10] INFO root fetch - processPackages [bblib]: Remove: archive file [/home/abi/fetcher/tmp/bblib-1.2.1.tar.gz]
+[2024-04-15 11:20:10] INFO root fetch - main [MainThread]: End processing [bblib]: success
+[2024-04-15 11:20:10] INFO root fetch - processPackages [iredis]: Downloading https://files.pythonhosted.org/packages/06/b1/4294b56961a422ba6936af5c3a68e0551ee0bba4069cae2d8d2639cd2526/iredis-1.9.4.tar.gz
+[2024-04-15 11:20:10] INFO root fetch - processPackages [iredis]: executing diffoscope
+[2024-04-15 11:20:10] INFO root fetch - processPackages [iredis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iredis-1.9.3.tar.gz tmp/iredis-1.9.4.tar.gz --markdown 20240415/i/iredis/1.9.3-1.9.4/README.md --exclude *.pyd
+[2024-04-15 11:20:12] INFO root fetch - processPackages [iredis]: Remove: archive file [/home/abi/fetcher/tmp/iredis-1.9.3.tar.gz]
+[2024-04-15 11:20:12] INFO root fetch - processPackages [iredis]: Remove: archive file [/home/abi/fetcher/tmp/iredis-1.9.4.tar.gz]
+[2024-04-15 11:20:12] INFO root fetch - main [MainThread]: End processing [iredis]: success
+[2024-04-15 11:20:12] INFO root fetch - main [MainThread]: Store serial: [22768497]
