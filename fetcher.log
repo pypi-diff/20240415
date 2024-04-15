@@ -14004,3 +14004,141 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 11:55:31] INFO root fetch - processPackages [radical.pilot]: Remove: archive file [/home/abi/fetcher/tmp/radical.pilot-1.9.2.tar.gz]
 [2024-04-15 11:55:31] INFO root fetch - main [MainThread]: End processing [radical.pilot]: success
 [2024-04-15 11:55:31] INFO root fetch - main [MainThread]: Store serial: [22768948]
+[2024-04-15 11:57:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22768948]
+[2024-04-15 11:57:40] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2024-04-15 11:57:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: radical.repex
+[2024-04-15 11:57:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-tetris-stats
+[2024-04-15 11:57:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pragma-sdk
+[2024-04-15 11:57:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: finbourne-insights-sdk
+[2024-04-15 11:57:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: radical.analytics
+[2024-04-15 11:57:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fta
+[2024-04-15 11:57:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mxcubeweb
+[2024-04-15 11:57:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: e2enetworks
+[2024-04-15 11:57:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fta
+[2024-04-15 11:57:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: radical.synapse
+[2024-04-15 11:57:40] INFO root fetch - processPackages [radical.analytics]: New version: [1.6.7] Old Version: [1.51.0]
+[2024-04-15 11:57:40] INFO root fetch - processPackages [fta]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-15 11:57:40] INFO root fetch - processPackages [radical.synapse]: New version: [1.51.0] Old Version: [1.50.0]
+[2024-04-15 11:57:40] INFO root fetch - processPackages [fta]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-15 11:57:40] INFO root fetch - processPackages [e2enetworks]: New version: [1.2.0] Old Version: [1.1.9]
+[2024-04-15 11:57:40] INFO root fetch - processPackages [mxcubeweb]: New version: [4.9.0] Old Version: [4.8.0]
+[2024-04-15 11:57:40] INFO root fetch - processPackages [radical.repex]: New version: [1.52.0] Old Version: [1.51.0]
+[2024-04-15 11:57:40] INFO root fetch - processPackages [pragma-sdk]: New version: [1.3.0] Old Version: [1.2.9]
+[2024-04-15 11:57:40] INFO root fetch - processPackages [finbourne-insights-sdk]: New version: [2.1.2] Old Version: [2.1.1]
+[2024-04-15 11:57:40] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2024-04-15 11:57:40] INFO root fetch - processPackages [radical.synapse]: Downloading https://files.pythonhosted.org/packages/d2/ec/e809b75e76fb122f36fc24155d18da7e6a4ab3d76ac1ed2f77aa998d28d7/radical_synapse-1.50.0.tar.gz
+[2024-04-15 11:57:40] INFO root fetch - processPackages [fta]: Downloading https://files.pythonhosted.org/packages/fd/4c/a5841c65eda701a87ae3cfaf29c74b93639ceebb69edcd12d5ed3fa70d6d/fta-0.0.3.tar.gz
+[2024-04-15 11:57:40] INFO root fetch - processPackages [fta]: Downloading https://files.pythonhosted.org/packages/fd/4c/a5841c65eda701a87ae3cfaf29c74b93639ceebb69edcd12d5ed3fa70d6d/fta-0.0.3.tar.gz
+[2024-04-15 11:57:40] INFO root fetch - processPackages [mxcubeweb]: Downloading https://files.pythonhosted.org/packages/e9/9e/c4f610f4b2e24f0448292119c5697d9e6dfdefa4d71a8b7089d4a6953107/mxcubeweb-4.8.0.tar.gz
+[2024-04-15 11:57:40] INFO root fetch - processPackages [e2enetworks]: Downloading https://files.pythonhosted.org/packages/68/53/72c1e6dd4992c678c2895d0aadd14309195deec8e3ef1bdb421609092595/e2enetworks-1.1.9.tar.gz
+[2024-04-15 11:57:40] INFO root fetch - processPackages [radical.analytics]: Downloading https://files.pythonhosted.org/packages/fd/89/251e6fee0c6f098ee0699ea13029a0572d6cfc680288b7d2fe0993709ec5/radical_analytics-1.51.0.tar.gz
+[2024-04-15 11:57:40] INFO root fetch - processPackages [pragma-sdk]: Downloading https://files.pythonhosted.org/packages/b4/73/d582b02991113a0f34b962a9e5bf0dfd105135e9db5aee79403521741234/pragma_sdk-1.2.9.tar.gz
+[2024-04-15 11:57:40] INFO root fetch - processPackages [radical.repex]: Downloading https://files.pythonhosted.org/packages/d3/df/7b81bc093cfcdbaaa8baba8a18a5b05c91bebca70de83af7d03f3476b193/radical_repex-1.51.0.tar.gz
+[2024-04-15 11:57:40] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: Downloading https://files.pythonhosted.org/packages/d7/71/107c36f745965284a8ce6a9f51694704f080c72efc8fcf2d0275d6bb6383/nonebot_plugin_tetris_stats-1.0.0a8.tar.gz
+[2024-04-15 11:57:40] INFO root fetch - processPackages [finbourne-insights-sdk]: Downloading https://files.pythonhosted.org/packages/cd/c4/ab6aac44edb6e2c63975ada66e7835575e5b1c10379c4674a42ea1875771/finbourne_insights_sdk-2.1.1.tar.gz
+[2024-04-15 11:57:40] INFO root fetch - processPackages [fta]: Downloading https://files.pythonhosted.org/packages/95/d1/e7feb10ba77c99473c49a3c9b9ffcab8ffa80360262d06d4663f018ede8a/fta-0.0.4.tar.gz
+[2024-04-15 11:57:41] INFO root fetch - processPackages [mxcubeweb]: Downloading https://files.pythonhosted.org/packages/70/0a/11c323a9a6ce9c93c1b0707df775fe6f1e768b7bab1fef02a49855813397/mxcubeweb-4.9.0.tar.gz
+[2024-04-15 11:57:41] INFO root fetch - processPackages [radical.analytics]: Downloading https://files.pythonhosted.org/packages/dd/ea/c60eeaf6b1275bfd4aa95f6d7e3b3969cfd767711c0f98183e5d86535c37/radical.analytics-1.6.7.tar.gz
+[2024-04-15 11:57:41] INFO root fetch - processPackages [fta]: Downloading https://files.pythonhosted.org/packages/95/d1/e7feb10ba77c99473c49a3c9b9ffcab8ffa80360262d06d4663f018ede8a/fta-0.0.4.tar.gz
+[2024-04-15 11:57:41] INFO root fetch - processPackages [e2enetworks]: Downloading https://files.pythonhosted.org/packages/85/0a/785124554fc76e0e7ad13114346c6000cfb6e874f75035d7757833854747/e2enetworks-1.2.0.tar.gz
+[2024-04-15 11:57:41] INFO root fetch - processPackages [radical.synapse]: Downloading https://files.pythonhosted.org/packages/ed/0b/24404549d10af191485a39a5f984753841b0c8459e0286fefa54c80ca8ce/radical_synapse-1.51.0.tar.gz
+[2024-04-15 11:57:41] INFO root fetch - processPackages [fta]: executing diffoscope
+[2024-04-15 11:57:41] INFO root fetch - processPackages [fta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fta-0.0.3.tar.gz tmp/fta-0.0.4.tar.gz --markdown 20240415/f/fta/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-15 11:57:41] INFO root fetch - processPackages [fta]: executing diffoscope
+[2024-04-15 11:57:41] INFO root fetch - processPackages [fta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fta-0.0.3.tar.gz tmp/fta-0.0.4.tar.gz --markdown 20240415/f/fta/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-15 11:57:41] INFO root fetch - processPackages [mxcubeweb]: executing diffoscope
+[2024-04-15 11:57:41] INFO root fetch - processPackages [mxcubeweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mxcubeweb-4.8.0.tar.gz tmp/mxcubeweb-4.9.0.tar.gz --markdown 20240415/m/mxcubeweb/4.8.0-4.9.0/README.md --exclude *.pyd
+[2024-04-15 11:57:41] INFO root fetch - processPackages [e2enetworks]: executing diffoscope
+[2024-04-15 11:57:41] INFO root fetch - processPackages [e2enetworks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2enetworks-1.1.9.tar.gz tmp/e2enetworks-1.2.0.tar.gz --markdown 20240415/e/e2enetworks/1.1.9-1.2.0/README.md --exclude *.pyd
+[2024-04-15 11:57:41] INFO root fetch - processPackages [radical.synapse]: executing diffoscope
+[2024-04-15 11:57:41] INFO root fetch - processPackages [radical.synapse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radical_synapse-1.50.0.tar.gz tmp/radical_synapse-1.51.0.tar.gz --markdown 20240415/r/radical.synapse/1.50.0-1.51.0/README.md --exclude *.pyd
+[2024-04-15 11:57:41] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: Downloading https://files.pythonhosted.org/packages/7e/11/b4ca4dc842c04eac5b47b20f80a08e20d52d805cceb9e1059c5d42d20875/nonebot_plugin_tetris_stats-1.0.0a9.tar.gz
+[2024-04-15 11:57:41] INFO root fetch - processPackages [finbourne-insights-sdk]: Downloading https://files.pythonhosted.org/packages/12/e8/01621aeceb866b3a02dde3dabe17814a59fe82ca9a55f40051849a150be3/finbourne_insights_sdk-2.1.2.tar.gz
+[2024-04-15 11:57:41] INFO root fetch - processPackages [radical.analytics]: executing diffoscope
+[2024-04-15 11:57:41] INFO root fetch - processPackages [radical.analytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radical_analytics-1.51.0.tar.gz tmp/radical.analytics-1.6.7.tar.gz --markdown 20240415/r/radical.analytics/1.51.0-1.6.7/README.md --exclude *.pyd
+[2024-04-15 11:57:41] INFO root fetch - processPackages [radical.repex]: Downloading https://files.pythonhosted.org/packages/e5/4d/02f769081fee5d79400ffc8b485a1ea124bb348160e26578fc8ccea5c4a4/radical_repex-1.52.0.tar.gz
+[2024-04-15 11:57:41] INFO root fetch - processPackages [pragma-sdk]: Downloading https://files.pythonhosted.org/packages/3c/a2/c7ace02ddbfce894c57325fa0fc4d3d62f345ac36325aad3735148a223a6/pragma_sdk-1.3.0.tar.gz
+[2024-04-15 11:57:41] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: executing diffoscope
+[2024-04-15 11:57:41] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_tetris_stats-1.0.0a8.tar.gz tmp/nonebot_plugin_tetris_stats-1.0.0a9.tar.gz --markdown 20240415/n/nonebot-plugin-tetris-stats/1.0.0a8-1.0.0a9/README.md --exclude *.pyd
+[2024-04-15 11:57:41] INFO root fetch - processPackages [finbourne-insights-sdk]: executing diffoscope
+[2024-04-15 11:57:41] INFO root fetch - processPackages [finbourne-insights-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_insights_sdk-2.1.1.tar.gz tmp/finbourne_insights_sdk-2.1.2.tar.gz --markdown 20240415/f/finbourne-insights-sdk/2.1.1-2.1.2/README.md --exclude *.pyd
+[2024-04-15 11:57:41] INFO root fetch - processPackages [radical.repex]: executing diffoscope
+[2024-04-15 11:57:41] INFO root fetch - processPackages [radical.repex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radical_repex-1.51.0.tar.gz tmp/radical_repex-1.52.0.tar.gz --markdown 20240415/r/radical.repex/1.51.0-1.52.0/README.md --exclude *.pyd
+[2024-04-15 11:57:41] INFO root fetch - processPackages [pragma-sdk]: executing diffoscope
+[2024-04-15 11:57:41] INFO root fetch - processPackages [pragma-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pragma_sdk-1.2.9.tar.gz tmp/pragma_sdk-1.3.0.tar.gz --markdown 20240415/p/pragma-sdk/1.2.9-1.3.0/README.md --exclude *.pyd
+[2024-04-15 11:57:42] INFO root fetch - processPackages [fta]: Remove: archive file [/home/abi/fetcher/tmp/fta-0.0.3.tar.gz]
+[2024-04-15 11:57:42] INFO root fetch - processPackages [fta]: Remove: archive file [/home/abi/fetcher/tmp/fta-0.0.4.tar.gz]
+[2024-04-15 11:57:42] INFO root fetch - processPackages [fta]: Start processing: mapel
+[2024-04-15 11:57:42] INFO root fetch - main [MainThread]: End processing [fta]: success
+[2024-04-15 11:57:42] INFO root fetch - processPackages [fta]: Start processing: mapel-core
+[2024-04-15 11:57:42] INFO root fetch - main [MainThread]: End processing [fta]: success
+[2024-04-15 11:57:42] INFO root fetch - processPackages [mapel]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-15 11:57:42] INFO root fetch - processPackages [e2enetworks]: Remove: archive file [/home/abi/fetcher/tmp/e2enetworks-1.1.9.tar.gz]
+[2024-04-15 11:57:42] INFO root fetch - processPackages [e2enetworks]: Remove: archive file [/home/abi/fetcher/tmp/e2enetworks-1.2.0.tar.gz]
+[2024-04-15 11:57:42] INFO root fetch - processPackages [e2enetworks]: Start processing: mapel-elections
+[2024-04-15 11:57:42] INFO root fetch - main [MainThread]: End processing [e2enetworks]: success
+[2024-04-15 11:57:42] INFO root fetch - processPackages [mxcubeweb]: Remove: archive file [/home/abi/fetcher/tmp/mxcubeweb-4.8.0.tar.gz]
+[2024-04-15 11:57:42] INFO root fetch - processPackages [mxcubeweb]: Remove: archive file [/home/abi/fetcher/tmp/mxcubeweb-4.9.0.tar.gz]
+[2024-04-15 11:57:42] INFO root fetch - processPackages [mxcubeweb]: Start processing: edwh
+[2024-04-15 11:57:42] INFO root fetch - main [MainThread]: End processing [mxcubeweb]: success
+[2024-04-15 11:57:42] INFO root fetch - processPackages [mapel-core]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-15 11:57:42] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_tetris_stats-1.0.0a8.tar.gz]
+[2024-04-15 11:57:42] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_tetris_stats-1.0.0a9.tar.gz]
+[2024-04-15 11:57:42] INFO root fetch - processPackages [nonebot-plugin-tetris-stats]: Start processing: odoo-addon-survey-result-mail
+[2024-04-15 11:57:42] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-tetris-stats]: success
+[2024-04-15 11:57:42] INFO root fetch - processPackages [radical.repex]: Remove: archive file [/home/abi/fetcher/tmp/radical_repex-1.51.0.tar.gz]
+[2024-04-15 11:57:42] INFO root fetch - processPackages [radical.repex]: Remove: archive file [/home/abi/fetcher/tmp/radical_repex-1.52.0.tar.gz]
+[2024-04-15 11:57:42] INFO root fetch - processPackages [radical.repex]: Start processing: llonebot
+[2024-04-15 11:57:42] INFO root fetch - main [MainThread]: End processing [radical.repex]: success
+[2024-04-15 11:57:42] INFO root fetch - processPackages [edwh]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-15 11:57:42] INFO root fetch - processPackages [radical.synapse]: Remove: archive file [/home/abi/fetcher/tmp/radical_synapse-1.50.0.tar.gz]
+[2024-04-15 11:57:42] INFO root fetch - processPackages [radical.synapse]: Remove: archive file [/home/abi/fetcher/tmp/radical_synapse-1.51.0.tar.gz]
+[2024-04-15 11:57:42] INFO root fetch - processPackages [radical.synapse]: Start processing: tkinterPdfViewer
+[2024-04-15 11:57:42] INFO root fetch - main [MainThread]: End processing [radical.synapse]: success
+[2024-04-15 11:57:42] INFO root fetch - processPackages [mapel]: Downloading https://files.pythonhosted.org/packages/11/f4/3a305a53750aa47351d118c4146fb08db6ebf2645db74dac25fe06793af7/mapel-2.1.8.tar.gz
+[2024-04-15 11:57:42] INFO root fetch - processPackages [odoo-addon-survey-result-mail]: New version: [15.0.1.1.1] Old Version: [15.0.1.1.0]
+[2024-04-15 11:57:42] INFO root fetch - processPackages [finbourne-insights-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_insights_sdk-2.1.1.tar.gz]
+[2024-04-15 11:57:42] INFO root fetch - processPackages [finbourne-insights-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_insights_sdk-2.1.2.tar.gz]
+[2024-04-15 11:57:42] INFO root fetch - main [MainThread]: End processing [finbourne-insights-sdk]: success
+[2024-04-15 11:57:42] WARNING root fetch - processPackages [llonebot]: Skipping, unable to determine old version
+[2024-04-15 11:57:42] INFO root fetch - main [MainThread]: End processing [llonebot] error
+[2024-04-15 11:57:42] INFO root fetch - processPackages [mapel-core]: Downloading https://files.pythonhosted.org/packages/f0/e8/351b7d562729255d7c27f1000d49755fc123a0fcf9b86ea2961ea93b1ab9/mapel-core-2.1.8.tar.gz
+[2024-04-15 11:57:42] ERROR root fetch - processPackages [tkinterPdfViewer]: Unable to get metadata: No such project 'tkinterPdfViewer'
+[2024-04-15 11:57:42] INFO root fetch - main [MainThread]: End processing [tkinterPdfViewer] error
+[2024-04-15 11:57:42] INFO root fetch - processPackages [mapel-elections]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-15 11:57:42] INFO root fetch - processPackages [odoo-addon-survey-result-mail]: Downloading https://files.pythonhosted.org/packages/35/d7/f5d3bb191ed1bf48510b4ba09858208d26315fc59ec2193cdbfba51b79f9/odoo_addon_survey_result_mail-15.0.1.1.0-py3-none-any.whl
+[2024-04-15 11:57:42] INFO root fetch - processPackages [radical.analytics]: Remove: archive file [/home/abi/fetcher/tmp/radical_analytics-1.51.0.tar.gz]
+[2024-04-15 11:57:42] INFO root fetch - processPackages [radical.analytics]: Remove: archive file [/home/abi/fetcher/tmp/radical.analytics-1.6.7.tar.gz]
+[2024-04-15 11:57:42] INFO root fetch - main [MainThread]: End processing [radical.analytics]: success
+[2024-04-15 11:57:43] INFO root fetch - processPackages [pragma-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pragma_sdk-1.2.9.tar.gz]
+[2024-04-15 11:57:43] INFO root fetch - processPackages [pragma-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pragma_sdk-1.3.0.tar.gz]
+[2024-04-15 11:57:43] INFO root fetch - main [MainThread]: End processing [pragma-sdk]: success
+[2024-04-15 11:57:43] INFO root fetch - processPackages [mapel]: Downloading https://files.pythonhosted.org/packages/0c/38/f762648fa9e06cd48423be424264c0b54680073bda0ade646ad608bbf3b3/mapel-2.1.9-py3-none-any.whl
+[2024-04-15 11:57:43] INFO root fetch - processPackages [edwh]: Downloading https://files.pythonhosted.org/packages/a1/b2/ffc583af9d774bfd7b622dbed69ea2357b3a1f9096658cf1202307626113/edwh-0.9.1.tar.gz
+[2024-04-15 11:57:43] INFO root fetch - processPackages [mapel-elections]: Downloading https://files.pythonhosted.org/packages/7a/f6/0fbac789eb1a0665e0996696dd8831b020c928eaf4c5c32f57dadcd4686a/mapel-elections-2.1.8.tar.gz
+[2024-04-15 11:57:43] INFO root fetch - processPackages [mapel-core]: Downloading https://files.pythonhosted.org/packages/1d/5b/8caae61074dbf8da5f313a54862eb0f35b9343dd519e066de3ed300e154a/mapel_core-2.1.9-py3-none-any.whl
+[2024-04-15 11:57:43] INFO root fetch - processPackages [mapel]: executing diffoscope
+[2024-04-15 11:57:43] INFO root fetch - processPackages [mapel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapel-2.1.8.tar.gz tmp/mapel-2.1.9-py3-none-any.whl.zip --markdown 20240415/m/mapel/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-15 11:57:43] INFO root fetch - processPackages [odoo-addon-survey-result-mail]: Downloading https://files.pythonhosted.org/packages/89/cd/57d0686edc93c608a88a0ed0573366e1ea2f76399bd7989e58e700c200bd/odoo_addon_survey_result_mail-15.0.1.1.1-py3-none-any.whl
+[2024-04-15 11:57:43] INFO root fetch - processPackages [mapel-core]: executing diffoscope
+[2024-04-15 11:57:43] INFO root fetch - processPackages [mapel-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapel-core-2.1.8.tar.gz tmp/mapel_core-2.1.9-py3-none-any.whl.zip --markdown 20240415/m/mapel-core/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-15 11:57:43] INFO root fetch - processPackages [odoo-addon-survey-result-mail]: executing diffoscope
+[2024-04-15 11:57:43] INFO root fetch - processPackages [odoo-addon-survey-result-mail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_survey_result_mail-15.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_survey_result_mail-15.0.1.1.1-py3-none-any.whl.zip --markdown 20240415/o/odoo-addon-survey-result-mail/15.0.1.1.0-15.0.1.1.1/README.md --exclude *.pyd
+[2024-04-15 11:57:43] INFO root fetch - processPackages [mapel-elections]: Downloading https://files.pythonhosted.org/packages/7a/d6/c57d708c92bee2a1aee3012c04ffed1b001ba847534d65d94f916ebb65e3/mapel_elections-2.1.9-cp312-cp312-musllinux_1_1_i686.whl
+[2024-04-15 11:57:43] WARNING root fetch - processPackages [edwh]: Skipping package: exceeds size limit 32547749>=10485760
+[2024-04-15 11:57:43] INFO root fetch - main [MainThread]: End processing [edwh] error
+[2024-04-15 11:57:43] INFO root fetch - processPackages [mapel]: Remove: archive file [/home/abi/fetcher/tmp/mapel-2.1.8.tar.gz]
+[2024-04-15 11:57:43] INFO root fetch - processPackages [mapel]: Remove: archive file [/home/abi/fetcher/tmp/mapel-2.1.9-py3-none-any.whl.zip]
+[2024-04-15 11:57:43] INFO root fetch - main [MainThread]: End processing [mapel]: success
+[2024-04-15 11:57:43] INFO root fetch - processPackages [mapel-core]: Remove: archive file [/home/abi/fetcher/tmp/mapel-core-2.1.8.tar.gz]
+[2024-04-15 11:57:43] INFO root fetch - processPackages [mapel-core]: Remove: archive file [/home/abi/fetcher/tmp/mapel_core-2.1.9-py3-none-any.whl.zip]
+[2024-04-15 11:57:43] INFO root fetch - main [MainThread]: End processing [mapel-core]: success
+[2024-04-15 11:57:44] INFO root fetch - processPackages [odoo-addon-survey-result-mail]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_survey_result_mail-15.0.1.1.0-py3-none-any.whl.zip]
+[2024-04-15 11:57:44] INFO root fetch - processPackages [odoo-addon-survey-result-mail]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_survey_result_mail-15.0.1.1.1-py3-none-any.whl.zip]
+[2024-04-15 11:57:44] INFO root fetch - main [MainThread]: End processing [odoo-addon-survey-result-mail]: success
+[2024-04-15 11:57:44] INFO root fetch - processPackages [mapel-elections]: executing diffoscope
+[2024-04-15 11:57:44] INFO root fetch - processPackages [mapel-elections]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapel-elections-2.1.8.tar.gz tmp/mapel_elections-2.1.9-cp312-cp312-musllinux_1_1_i686.whl.zip --markdown 20240415/m/mapel-elections/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-15 11:57:45] INFO root fetch - processPackages [mapel-elections]: Remove: archive file [/home/abi/fetcher/tmp/mapel-elections-2.1.8.tar.gz]
+[2024-04-15 11:57:45] INFO root fetch - processPackages [mapel-elections]: Remove: archive file [/home/abi/fetcher/tmp/mapel_elections-2.1.9-cp312-cp312-musllinux_1_1_i686.whl.zip]
+[2024-04-15 11:57:45] INFO root fetch - main [MainThread]: End processing [mapel-elections]: success
+[2024-04-15 11:57:45] INFO root fetch - main [MainThread]: Store serial: [22769004]
