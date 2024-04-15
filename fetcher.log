@@ -13014,3 +13014,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 11:22:24] INFO root fetch - processPackages [iredis]: Remove: archive file [/home/abi/fetcher/tmp/iredis-1.9.4.tar.gz]
 [2024-04-15 11:22:24] INFO root fetch - main [MainThread]: End processing [iredis]: success
 [2024-04-15 11:22:24] INFO root fetch - main [MainThread]: Store serial: [22768532]
+[2024-04-15 11:24:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22768532]
+[2024-04-15 11:24:33] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-15 11:24:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pycloudevents
+[2024-04-15 11:24:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: telegram-collector
+[2024-04-15 11:24:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cz-kpn
+[2024-04-15 11:24:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dgenerate
+[2024-04-15 11:24:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zfs-replicate
+[2024-04-15 11:24:33] WARNING root fetch - processPackages [pycloudevents]: Skipping, unable to determine old version
+[2024-04-15 11:24:33] INFO root fetch - main [MainThread]: End processing [pycloudevents] error
+[2024-04-15 11:24:33] INFO root fetch - processPackages [telegram-collector]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-15 11:24:33] INFO root fetch - processPackages [dgenerate]: New version: [3.4.3] Old Version: [3.4.2]
+[2024-04-15 11:24:34] INFO root fetch - processPackages [cz-kpn]: New version: [3.2.5] Old Version: [3.2.4]
+[2024-04-15 11:24:34] INFO root fetch - processPackages [zfs-replicate]: New version: [3.2.9] Old Version: [3.2.8]
+[2024-04-15 11:24:34] INFO root fetch - processPackages [telegram-collector]: Downloading https://files.pythonhosted.org/packages/26/79/c4c890517d308b5d636c920eba6837683bd2b6ccc8a3198e85972fe68399/telegram_collector-0.2.8.tar.gz
+[2024-04-15 11:24:34] INFO root fetch - processPackages [dgenerate]: Downloading https://files.pythonhosted.org/packages/ea/d4/1843b387d914c916a542849786178c7d2d3cf99441143b7f6fea027a3eb6/dgenerate-3.4.2.tar.gz
+[2024-04-15 11:24:34] INFO root fetch - processPackages [cz-kpn]: Downloading https://files.pythonhosted.org/packages/19/22/d74bc9a829bd2f912085618d81ff263efad94b2be821569889059bbae4a7/cz_kpn-3.2.4.tar.gz
+[2024-04-15 11:24:34] INFO root fetch - processPackages [telegram-collector]: Downloading https://files.pythonhosted.org/packages/0e/62/1828912e5e192f4be063b427eb3b26519d05a73fa112d81b9d661d767a26/telegram_collector-0.2.9.tar.gz
+[2024-04-15 11:24:34] INFO root fetch - processPackages [zfs-replicate]: Downloading https://files.pythonhosted.org/packages/26/02/c590ddd7f941d3477bfae765d8b529371abce68c2275ef804bbb5f358c9a/zfs_replicate-3.2.8.tar.gz
+[2024-04-15 11:24:34] INFO root fetch - processPackages [dgenerate]: Downloading https://files.pythonhosted.org/packages/92/38/572228c92bce04d1fb5225f917eb9c4e3aaaaa4d8bd790ef32b4a8111bb3/dgenerate-3.4.3.tar.gz
+[2024-04-15 11:24:34] INFO root fetch - processPackages [telegram-collector]: executing diffoscope
+[2024-04-15 11:24:34] INFO root fetch - processPackages [telegram-collector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegram_collector-0.2.8.tar.gz tmp/telegram_collector-0.2.9.tar.gz --markdown 20240415/t/telegram-collector/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-15 11:24:34] INFO root fetch - processPackages [dgenerate]: executing diffoscope
+[2024-04-15 11:24:34] INFO root fetch - processPackages [dgenerate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dgenerate-3.4.2.tar.gz tmp/dgenerate-3.4.3.tar.gz --markdown 20240415/d/dgenerate/3.4.2-3.4.3/README.md --exclude *.pyd
+[2024-04-15 11:24:34] INFO root fetch - processPackages [zfs-replicate]: Downloading https://files.pythonhosted.org/packages/39/63/07154a2c7fc23dd79beadced05558781c6aeac1a9e8509e7e9dd87301238/zfs_replicate-3.2.9.tar.gz
+[2024-04-15 11:24:34] INFO root fetch - processPackages [cz-kpn]: Downloading https://files.pythonhosted.org/packages/62/5b/4413ad9522cf05780b78d88ed5f70f099254d44536cceff764305f6ec18a/cz_kpn-3.2.5.tar.gz
+[2024-04-15 11:24:34] INFO root fetch - processPackages [zfs-replicate]: executing diffoscope
+[2024-04-15 11:24:34] INFO root fetch - processPackages [zfs-replicate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfs_replicate-3.2.8.tar.gz tmp/zfs_replicate-3.2.9.tar.gz --markdown 20240415/z/zfs-replicate/3.2.8-3.2.9/README.md --exclude *.pyd
+[2024-04-15 11:24:34] INFO root fetch - processPackages [cz-kpn]: executing diffoscope
+[2024-04-15 11:24:34] INFO root fetch - processPackages [cz-kpn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cz_kpn-3.2.4.tar.gz tmp/cz_kpn-3.2.5.tar.gz --markdown 20240415/c/cz-kpn/3.2.4-3.2.5/README.md --exclude *.pyd
+[2024-04-15 11:24:35] INFO root fetch - processPackages [telegram-collector]: Remove: archive file [/home/abi/fetcher/tmp/telegram_collector-0.2.8.tar.gz]
+[2024-04-15 11:24:35] INFO root fetch - processPackages [telegram-collector]: Remove: archive file [/home/abi/fetcher/tmp/telegram_collector-0.2.9.tar.gz]
+[2024-04-15 11:24:35] INFO root fetch - main [MainThread]: End processing [telegram-collector]: success
+[2024-04-15 11:24:35] INFO root fetch - processPackages [zfs-replicate]: Remove: archive file [/home/abi/fetcher/tmp/zfs_replicate-3.2.8.tar.gz]
+[2024-04-15 11:24:35] INFO root fetch - processPackages [zfs-replicate]: Remove: archive file [/home/abi/fetcher/tmp/zfs_replicate-3.2.9.tar.gz]
+[2024-04-15 11:24:35] INFO root fetch - main [MainThread]: End processing [zfs-replicate]: success
+[2024-04-15 11:24:35] INFO root fetch - processPackages [cz-kpn]: Remove: archive file [/home/abi/fetcher/tmp/cz_kpn-3.2.4.tar.gz]
+[2024-04-15 11:24:35] INFO root fetch - processPackages [cz-kpn]: Remove: archive file [/home/abi/fetcher/tmp/cz_kpn-3.2.5.tar.gz]
+[2024-04-15 11:24:35] INFO root fetch - main [MainThread]: End processing [cz-kpn]: success
+[2024-04-15 11:24:36] INFO root fetch - processPackages [dgenerate]: Remove: archive file [/home/abi/fetcher/tmp/dgenerate-3.4.2.tar.gz]
+[2024-04-15 11:24:36] INFO root fetch - processPackages [dgenerate]: Remove: archive file [/home/abi/fetcher/tmp/dgenerate-3.4.3.tar.gz]
+[2024-04-15 11:24:36] INFO root fetch - main [MainThread]: End processing [dgenerate]: success
+[2024-04-15 11:24:36] INFO root fetch - main [MainThread]: Store serial: [22768549]
