@@ -6860,3 +6860,33 @@
 [2024-04-15 06:50:12] INFO root fetch - processPackages [tencentcloud-sdk-python-tat]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tat-3.0.999.tar.gz]
 [2024-04-15 06:50:12] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tat]: success
 [2024-04-15 06:50:12] INFO root fetch - main [MainThread]: Store serial: [22766010]
+[2024-04-15 06:52:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22766010]
+[2024-04-15 06:52:21] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-15 06:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cltk
+[2024-04-15 06:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bavisitter
+[2024-04-15 06:52:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quickstart-vdk
+[2024-04-15 06:52:21] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.999091100.dev13356] Old Version: [0.2.998635022.dev13355]
+[2024-04-15 06:52:21] INFO root fetch - processPackages [bavisitter]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-04-15 06:52:21] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/e3/a6/b7424a3be777980068df32f41ef9085422b79289fef725cba5cabf2b502e/quickstart-vdk-0.2.998635022.dev13355.tar.gz
+[2024-04-15 06:52:21] INFO root fetch - processPackages [cltk]: New version: [1.2.4] Old Version: [1.2.3]
+[2024-04-15 06:52:21] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/fa/72/2a48eb94b876fa0c01eda0450a3e80c80101dd5fdfe10124d5474b64f5fd/quickstart-vdk-0.2.999091100.dev13356.tar.gz
+[2024-04-15 06:52:21] INFO root fetch - processPackages [bavisitter]: Downloading https://files.pythonhosted.org/packages/f0/5a/e4964ce1837be6a022d5a407a468af86fd590949114eb8fbeec4628abff6/bavisitter-0.0.0.tar.gz
+[2024-04-15 06:52:21] INFO root fetch - processPackages [cltk]: Downloading https://files.pythonhosted.org/packages/62/35/912ee7695e4e25939c14d714127c9f91f112aebb7b70e9f78bf2f3c59f84/cltk-1.2.3.tar.gz
+[2024-04-15 06:52:21] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2024-04-15 06:52:21] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz --markdown 20240415/q/quickstart-vdk/0.2.998635022.dev13355-0.2.999091100.dev13356/README.md --exclude *.pyd
+[2024-04-15 06:52:22] INFO root fetch - processPackages [bavisitter]: Downloading https://files.pythonhosted.org/packages/f7/15/d63706890da1aaf19abc062f3ab696090bd833c2987566f047f7d1a8cef3/bavisitter-0.0.1.tar.gz
+[2024-04-15 06:52:22] INFO root fetch - processPackages [cltk]: Downloading https://files.pythonhosted.org/packages/be/95/90cd16a9dfadda0af41a78af46372fbabd90d73bafd3e772d1232b7d7d0b/cltk-1.2.4.tar.gz
+[2024-04-15 06:52:22] INFO root fetch - processPackages [cltk]: executing diffoscope
+[2024-04-15 06:52:22] INFO root fetch - processPackages [cltk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cltk-1.2.3.tar.gz tmp/cltk-1.2.4.tar.gz --markdown 20240415/c/cltk/1.2.3-1.2.4/README.md --exclude *.pyd
+[2024-04-15 06:52:22] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz]
+[2024-04-15 06:52:22] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
+[2024-04-15 06:52:22] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2024-04-15 06:52:22] INFO root fetch - processPackages [bavisitter]: executing diffoscope
+[2024-04-15 06:52:22] INFO root fetch - processPackages [bavisitter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bavisitter-0.0.0.tar.gz tmp/bavisitter-0.0.1.tar.gz --markdown 20240415/b/bavisitter/0.0.0-0.0.1/README.md --exclude *.pyd
+[2024-04-15 06:52:23] INFO root fetch - processPackages [cltk]: Remove: archive file [/home/abi/fetcher/tmp/cltk-1.2.3.tar.gz]
+[2024-04-15 06:52:23] INFO root fetch - processPackages [cltk]: Remove: archive file [/home/abi/fetcher/tmp/cltk-1.2.4.tar.gz]
+[2024-04-15 06:52:23] INFO root fetch - main [MainThread]: End processing [cltk]: success
+[2024-04-15 06:52:42] INFO root fetch - processPackages [bavisitter]: Remove: archive file [/home/abi/fetcher/tmp/bavisitter-0.0.0.tar.gz]
+[2024-04-15 06:52:42] INFO root fetch - processPackages [bavisitter]: Remove: archive file [/home/abi/fetcher/tmp/bavisitter-0.0.1.tar.gz]
+[2024-04-15 06:52:42] INFO root fetch - main [MainThread]: End processing [bavisitter]: success
+[2024-04-15 06:52:42] INFO root fetch - main [MainThread]: Store serial: [22766018]
