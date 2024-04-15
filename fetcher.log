@@ -20387,3 +20387,81 @@ EOFError: EOF read where object expected
 [2024-04-15 15:36:23] INFO root fetch - processPackages [zrb-extras]: Remove: archive file [/home/abi/fetcher/tmp/zrb_extras-0.0.3.tar.gz]
 [2024-04-15 15:36:23] INFO root fetch - main [MainThread]: End processing [zrb-extras]: success
 [2024-04-15 15:36:23] INFO root fetch - main [MainThread]: Store serial: [22771869]
+[2024-04-15 15:38:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22771869]
+[2024-04-15 15:38:31] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-15 15:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datapools
+[2024-04-15 15:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: objectcrawler
+[2024-04-15 15:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sourceclass
+[2024-04-15 15:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: liba
+[2024-04-15 15:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ansar-connect
+[2024-04-15 15:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rats-pipelines
+[2024-04-15 15:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rats-apps
+[2024-04-15 15:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: c2c.template
+[2024-04-15 15:38:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zhmiscellany
+[2024-04-15 15:38:31] INFO root fetch - processPackages [datapools]: New version: [1.0.41] Old Version: [0.1.9]
+[2024-04-15 15:38:31] INFO root fetch - processPackages [rats-apps]: New version: [0.1.2.dev9] Old Version: [0.1.2.dev8]
+[2024-04-15 15:38:31] INFO root fetch - processPackages [rats-pipelines]: New version: [0.1.2.dev9] Old Version: [0.1.2.dev8]
+[2024-04-15 15:38:31] INFO root fetch - processPackages [ansar-connect]: New version: [0.1.168] Old Version: [0.1.167]
+[2024-04-15 15:38:32] WARNING root fetch - processPackages [objectcrawler]: Skipping, unable to determine old version
+[2024-04-15 15:38:32] INFO root fetch - main [MainThread]: End processing [objectcrawler] error
+[2024-04-15 15:38:32] INFO root fetch - processPackages [zhmiscellany]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-04-15 15:38:32] INFO root fetch - processPackages [liba]: New version: [0.1.9.post1] Old Version: [0.1.9]
+[2024-04-15 15:38:32] INFO root fetch - processPackages [c2c.template]: New version: [2.4.2] Old Version: [2.4.1]
+[2024-04-15 15:38:32] INFO root fetch - processPackages [sourceclass]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-15 15:38:32] INFO root fetch - processPackages [datapools]: Downloading https://files.pythonhosted.org/packages/30/7e/dfd5322700483ff73670243a8add54c437ca32442f85e5d5f8c64a090feb/datapools-0.1.9.tar.gz
+[2024-04-15 15:38:32] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/75/fa/bb66e052cb8be630a363579ebf75bc0e9f6af65552f35f7686e7ce9cedf8/rats_apps-0.1.2.dev8-py3-none-any.whl
+[2024-04-15 15:38:32] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/47/0e/af8a44feebc63b56026da23b3778a7cd46234c98a103a9d4aab14e73d125/ansar_connect-0.1.167.tar.gz
+[2024-04-15 15:38:32] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/fd/3d/9ac7bf4f5a002f3c5e7d488eb9b7bc9788a85f0a2f9a7910cf6ff07bd2e5/rats_pipelines-0.1.2.dev8-py3-none-any.whl
+[2024-04-15 15:38:32] INFO root fetch - processPackages [zhmiscellany]: Downloading https://files.pythonhosted.org/packages/c3/d6/838c9f940cb296c10a89c61c144d369472b87dcc6235d802f421da8ea318/zhmiscellany-1.9.1-py3-none-any.whl
+[2024-04-15 15:38:32] INFO root fetch - processPackages [sourceclass]: Downloading https://files.pythonhosted.org/packages/db/ee/3fb5e65f3b420609be6889457fbaa6dbaa0270e1b5363e4f685f9a8ac4e9/sourceclass-0.1.4.tar.gz
+[2024-04-15 15:38:32] INFO root fetch - processPackages [c2c.template]: Downloading https://files.pythonhosted.org/packages/10/56/1948fdee232bee25be5ca0fe4e45490cf7ea5204aaa3696ded66e35b2f76/c2c_template-2.4.1.tar.gz
+[2024-04-15 15:38:32] INFO root fetch - processPackages [liba]: Downloading https://files.pythonhosted.org/packages/ac/bc/368c264d046489a2f3d130ea00f13e593a4374d9341b69f551aacaa485ef/liba-0.1.9.tar.gz
+[2024-04-15 15:38:32] INFO root fetch - processPackages [datapools]: Downloading https://files.pythonhosted.org/packages/3a/69/26e4984b07d860abb54d26ab67672c33caf7b926fff997a4beaa482447ee/datapools-1.0.41.tar.gz
+[2024-04-15 15:38:32] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/e2/8a/f408a3673d0e20732801e857a5f3a110cd2954b1891dc1928cd25b8852aa/rats_pipelines-0.1.2.dev9-py3-none-any.whl
+[2024-04-15 15:38:32] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/c6/ef/123a368096a4d4dcec4671218e49b9d8aafdadad684dcaef1a28234060b0/rats_apps-0.1.2.dev9-py3-none-any.whl
+[2024-04-15 15:38:32] INFO root fetch - processPackages [zhmiscellany]: Downloading https://files.pythonhosted.org/packages/fd/6f/676e18714ef1ba8916d770c252cf2f4ca76c9ec0c917f9e653511eab5db2/zhmiscellany-1.9.2-py3-none-any.whl
+[2024-04-15 15:38:32] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/d1/c5/cfee591b14e59565d26d437723385c4188eb33d14d27cf639a61426cbe80/ansar_connect-0.1.168.tar.gz
+[2024-04-15 15:38:32] INFO root fetch - processPackages [datapools]: executing diffoscope
+[2024-04-15 15:38:32] INFO root fetch - processPackages [datapools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datapools-0.1.9.tar.gz tmp/datapools-1.0.41.tar.gz --markdown 20240415/d/datapools/0.1.9-1.0.41/README.md --exclude *.pyd
+[2024-04-15 15:38:32] INFO root fetch - processPackages [rats-pipelines]: executing diffoscope
+[2024-04-15 15:38:32] INFO root fetch - processPackages [rats-pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_pipelines-0.1.2.dev8-py3-none-any.whl.zip tmp/rats_pipelines-0.1.2.dev9-py3-none-any.whl.zip --markdown 20240415/r/rats-pipelines/0.1.2.dev8-0.1.2.dev9/README.md --exclude *.pyd
+[2024-04-15 15:38:32] INFO root fetch - processPackages [rats-apps]: executing diffoscope
+[2024-04-15 15:38:32] INFO root fetch - processPackages [rats-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_apps-0.1.2.dev8-py3-none-any.whl.zip tmp/rats_apps-0.1.2.dev9-py3-none-any.whl.zip --markdown 20240415/r/rats-apps/0.1.2.dev8-0.1.2.dev9/README.md --exclude *.pyd
+[2024-04-15 15:38:32] INFO root fetch - processPackages [zhmiscellany]: executing diffoscope
+[2024-04-15 15:38:32] INFO root fetch - processPackages [zhmiscellany]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhmiscellany-1.9.1-py3-none-any.whl.zip tmp/zhmiscellany-1.9.2-py3-none-any.whl.zip --markdown 20240415/z/zhmiscellany/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-04-15 15:38:32] INFO root fetch - processPackages [ansar-connect]: executing diffoscope
+[2024-04-15 15:38:32] INFO root fetch - processPackages [ansar-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar_connect-0.1.167.tar.gz tmp/ansar_connect-0.1.168.tar.gz --markdown 20240415/a/ansar-connect/0.1.167-0.1.168/README.md --exclude *.pyd
+[2024-04-15 15:38:32] INFO root fetch - processPackages [sourceclass]: Downloading https://files.pythonhosted.org/packages/40/1f/776f824c8f9d4ca2762de1bf6b6aabfa8330eec8bd77e5d117f44ac9fda4/sourceclass-0.1.5.tar.gz
+[2024-04-15 15:38:32] INFO root fetch - processPackages [c2c.template]: Downloading https://files.pythonhosted.org/packages/88/38/00337d81d556659ac4a3b881281ab4929a5300956518f43ab38586107560/c2c_template-2.4.2.tar.gz
+[2024-04-15 15:38:32] INFO root fetch - processPackages [liba]: Downloading https://files.pythonhosted.org/packages/91/13/60d567762a089ae949d6ad871f2c80a524299fb9d19fae52567a70d6657d/liba-0.1.9.post1.tar.gz
+[2024-04-15 15:38:32] INFO root fetch - processPackages [c2c.template]: executing diffoscope
+[2024-04-15 15:38:32] INFO root fetch - processPackages [c2c.template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2c_template-2.4.1.tar.gz tmp/c2c_template-2.4.2.tar.gz --markdown 20240415/c/c2c.template/2.4.1-2.4.2/README.md --exclude *.pyd
+[2024-04-15 15:38:32] INFO root fetch - processPackages [sourceclass]: executing diffoscope
+[2024-04-15 15:38:32] INFO root fetch - processPackages [sourceclass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sourceclass-0.1.4.tar.gz tmp/sourceclass-0.1.5.tar.gz --markdown 20240415/s/sourceclass/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-15 15:38:33] INFO root fetch - processPackages [liba]: executing diffoscope
+[2024-04-15 15:38:33] INFO root fetch - processPackages [liba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liba-0.1.9.tar.gz tmp/liba-0.1.9.post1.tar.gz --markdown 20240415/l/liba/0.1.9-0.1.9.post1/README.md --exclude *.pyd
+[2024-04-15 15:38:33] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.2.dev8-py3-none-any.whl.zip]
+[2024-04-15 15:38:33] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.2.dev9-py3-none-any.whl.zip]
+[2024-04-15 15:38:33] INFO root fetch - main [MainThread]: End processing [rats-apps]: success
+[2024-04-15 15:38:33] INFO root fetch - processPackages [datapools]: Remove: archive file [/home/abi/fetcher/tmp/datapools-0.1.9.tar.gz]
+[2024-04-15 15:38:33] INFO root fetch - processPackages [datapools]: Remove: archive file [/home/abi/fetcher/tmp/datapools-1.0.41.tar.gz]
+[2024-04-15 15:38:33] INFO root fetch - main [MainThread]: End processing [datapools]: success
+[2024-04-15 15:38:33] INFO root fetch - processPackages [zhmiscellany]: Remove: archive file [/home/abi/fetcher/tmp/zhmiscellany-1.9.1-py3-none-any.whl.zip]
+[2024-04-15 15:38:33] INFO root fetch - processPackages [zhmiscellany]: Remove: archive file [/home/abi/fetcher/tmp/zhmiscellany-1.9.2-py3-none-any.whl.zip]
+[2024-04-15 15:38:33] INFO root fetch - main [MainThread]: End processing [zhmiscellany]: success
+[2024-04-15 15:38:33] INFO root fetch - processPackages [c2c.template]: Remove: archive file [/home/abi/fetcher/tmp/c2c_template-2.4.1.tar.gz]
+[2024-04-15 15:38:33] INFO root fetch - processPackages [c2c.template]: Remove: archive file [/home/abi/fetcher/tmp/c2c_template-2.4.2.tar.gz]
+[2024-04-15 15:38:33] INFO root fetch - main [MainThread]: End processing [c2c.template]: success
+[2024-04-15 15:38:33] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.167.tar.gz]
+[2024-04-15 15:38:33] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar_connect-0.1.168.tar.gz]
+[2024-04-15 15:38:33] INFO root fetch - main [MainThread]: End processing [ansar-connect]: success
+[2024-04-15 15:38:33] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.2.dev8-py3-none-any.whl.zip]
+[2024-04-15 15:38:33] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.2.dev9-py3-none-any.whl.zip]
+[2024-04-15 15:38:33] INFO root fetch - main [MainThread]: End processing [rats-pipelines]: success
+[2024-04-15 15:38:33] INFO root fetch - processPackages [sourceclass]: Remove: archive file [/home/abi/fetcher/tmp/sourceclass-0.1.4.tar.gz]
+[2024-04-15 15:38:33] INFO root fetch - processPackages [sourceclass]: Remove: archive file [/home/abi/fetcher/tmp/sourceclass-0.1.5.tar.gz]
+[2024-04-15 15:38:33] INFO root fetch - main [MainThread]: End processing [sourceclass]: success
+[2024-04-15 15:38:34] INFO root fetch - processPackages [liba]: Remove: archive file [/home/abi/fetcher/tmp/liba-0.1.9.tar.gz]
+[2024-04-15 15:38:34] INFO root fetch - processPackages [liba]: Remove: archive file [/home/abi/fetcher/tmp/liba-0.1.9.post1.tar.gz]
+[2024-04-15 15:38:34] INFO root fetch - main [MainThread]: End processing [liba]: success
+[2024-04-15 15:38:34] INFO root fetch - main [MainThread]: Store serial: [22771892]
