@@ -3998,3 +3998,18 @@
 [2024-04-15 05:17:51] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2024-04-15 05:17:51] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2024-04-15 05:17:51] INFO root fetch - main [MainThread]: Store serial: [22764985]
+[2024-04-15 05:19:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22764985]
+[2024-04-15 05:20:02] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-15 05:20:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pinjected-openai
+[2024-04-15 05:20:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: git-repository-review
+[2024-04-15 05:20:02] INFO root fetch - processPackages [pinjected-openai]: New version: [0.4.6] Old Version: [0.4.5]
+[2024-04-15 05:20:02] WARNING root fetch - processPackages [git-repository-review]: Skipping, unable to determine old version
+[2024-04-15 05:20:02] INFO root fetch - main [MainThread]: End processing [git-repository-review] error
+[2024-04-15 05:20:03] INFO root fetch - processPackages [pinjected-openai]: Downloading https://files.pythonhosted.org/packages/d2/31/d337914a5ff7c1658d46b1f7179a44f5cc39e9983e96387eb58f0d773a5e/pinjected_openai-0.4.5.tar.gz
+[2024-04-15 05:20:03] INFO root fetch - processPackages [pinjected-openai]: Downloading https://files.pythonhosted.org/packages/3a/de/aa2cc9ebc3c0445769708b3c468e5757235ab6c4f1e72e109d224658160a/pinjected_openai-0.4.6.tar.gz
+[2024-04-15 05:20:03] INFO root fetch - processPackages [pinjected-openai]: executing diffoscope
+[2024-04-15 05:20:03] INFO root fetch - processPackages [pinjected-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinjected_openai-0.4.5.tar.gz tmp/pinjected_openai-0.4.6.tar.gz --markdown 20240415/p/pinjected-openai/0.4.5-0.4.6/README.md --exclude *.pyd
+[2024-04-15 05:20:04] INFO root fetch - processPackages [pinjected-openai]: Remove: archive file [/home/abi/fetcher/tmp/pinjected_openai-0.4.5.tar.gz]
+[2024-04-15 05:20:04] INFO root fetch - processPackages [pinjected-openai]: Remove: archive file [/home/abi/fetcher/tmp/pinjected_openai-0.4.6.tar.gz]
+[2024-04-15 05:20:04] INFO root fetch - main [MainThread]: End processing [pinjected-openai]: success
+[2024-04-15 05:20:04] INFO root fetch - main [MainThread]: Store serial: [22764994]
