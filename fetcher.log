@@ -4249,3 +4249,45 @@
 [2024-04-15 05:35:21] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.99.tar.gz]
 [2024-04-15 05:35:21] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
 [2024-04-15 05:35:21] INFO root fetch - main [MainThread]: Store serial: [22765100]
+[2024-04-15 05:37:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22765100]
+[2024-04-15 05:37:30] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-15 05:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ActiveCollab
+[2024-04-15 05:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: specklia
+[2024-04-15 05:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-04-15 05:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: err-aprs-backend
+[2024-04-15 05:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cns
+[2024-04-15 05:37:30] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.13a1713150524] Old Version: [0.0.13a1713149286]
+[2024-04-15 05:37:30] INFO root fetch - processPackages [specklia]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-04-15 05:37:30] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/7b/f4/1c08aa23e49e4a0afea012a40c2b8d6a1f9c30427d365ac7448b05974f76/pulumi_kubernetes_the_hard_way-0.0.13a1713149286.tar.gz
+[2024-04-15 05:37:30] INFO root fetch - processPackages [cns]: New version: [1.9.34] Old Version: [1.8.33]
+[2024-04-15 05:37:30] ERROR root fetch - processPackages [err-aprs-backend]: Unable to get metadata: No such project 'err-aprs-backend'
+[2024-04-15 05:37:30] INFO root fetch - main [MainThread]: End processing [err-aprs-backend] error
+[2024-04-15 05:37:30] INFO root fetch - processPackages [ActiveCollab]: New version: [2.1] Old Version: [2]
+[2024-04-15 05:37:30] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/a7/9f/4720917cb05f5cbc2f231e1f8046c023fc1f91d4aaefdae32d0a739be648/specklia-1.8.8.tar.gz
+[2024-04-15 05:37:31] INFO root fetch - processPackages [cns]: Downloading https://files.pythonhosted.org/packages/f6/eb/1f226f7c4543ecaccac282e1b9b8b5c1acb531b04205e9812bc47d243435/cns-1.8.33-py3-none-any.whl
+[2024-04-15 05:37:31] INFO root fetch - processPackages [ActiveCollab]: Downloading https://files.pythonhosted.org/packages/19/7f/be2a113dc1137a50148dbc50a5a787e8df8f188bcb4bbeca3f19701d0f3a/ActiveCollab-2.tar.gz
+[2024-04-15 05:37:31] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/de/45/44459a5a28b07930eaf51f05c454bfa600403ff97010511cc60864b862e7/pulumi_kubernetes_the_hard_way-0.0.13a1713150524.tar.gz
+[2024-04-15 05:37:31] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/0d/ec/3815cb2a18ad5b8029e09da92f85c68b28ffd5dbcf20be7c41214190aeaf/specklia-1.8.9.tar.gz
+[2024-04-15 05:37:31] INFO root fetch - processPackages [specklia]: executing diffoscope
+[2024-04-15 05:37:31] INFO root fetch - processPackages [specklia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specklia-1.8.8.tar.gz tmp/specklia-1.8.9.tar.gz --markdown 20240415/s/specklia/1.8.8-1.8.9/README.md --exclude *.pyd
+[2024-04-15 05:37:31] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-04-15 05:37:31] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.13a1713149286.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.13a1713150524.tar.gz --markdown 20240415/p/pulumi-kubernetes-the-hard-way/0.0.13a1713149286-0.0.13a1713150524/README.md --exclude *.pyd
+[2024-04-15 05:37:31] INFO root fetch - processPackages [ActiveCollab]: Downloading https://files.pythonhosted.org/packages/1a/9d/46079422ef05f348ae150a637f2f52753eb1146e5c5a664fc955df39cb35/activecollab-2.1.tar.gz
+[2024-04-15 05:37:31] INFO root fetch - processPackages [cns]: Downloading https://files.pythonhosted.org/packages/9e/21/52a1a6fb50a3d4a5c41a99b086e37ccaf17c85a2d566a7149a4eef2ec213/cns-1.9.34-py3-none-any.whl
+[2024-04-15 05:37:31] INFO root fetch - processPackages [ActiveCollab]: executing diffoscope
+[2024-04-15 05:37:31] INFO root fetch - processPackages [ActiveCollab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ActiveCollab-2.tar.gz tmp/activecollab-2.1.tar.gz --markdown 20240415/A/ActiveCollab/2-2.1/README.md --exclude *.pyd
+[2024-04-15 05:37:31] INFO root fetch - processPackages [cns]: executing diffoscope
+[2024-04-15 05:37:31] INFO root fetch - processPackages [cns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cns-1.8.33-py3-none-any.whl.zip tmp/cns-1.9.34-py3-none-any.whl.zip --markdown 20240415/c/cns/1.8.33-1.9.34/README.md --exclude *.pyd
+[2024-04-15 05:37:31] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.8.tar.gz]
+[2024-04-15 05:37:31] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.9.tar.gz]
+[2024-04-15 05:37:31] INFO root fetch - main [MainThread]: End processing [specklia]: success
+[2024-04-15 05:37:32] INFO root fetch - processPackages [ActiveCollab]: Remove: archive file [/home/abi/fetcher/tmp/ActiveCollab-2.tar.gz]
+[2024-04-15 05:37:32] INFO root fetch - processPackages [ActiveCollab]: Remove: archive file [/home/abi/fetcher/tmp/activecollab-2.1.tar.gz]
+[2024-04-15 05:37:32] INFO root fetch - main [MainThread]: End processing [ActiveCollab]: success
+[2024-04-15 05:37:32] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.13a1713149286.tar.gz]
+[2024-04-15 05:37:32] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.13a1713150524.tar.gz]
+[2024-04-15 05:37:32] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-04-15 05:37:32] INFO root fetch - processPackages [cns]: Remove: archive file [/home/abi/fetcher/tmp/cns-1.8.33-py3-none-any.whl.zip]
+[2024-04-15 05:37:32] INFO root fetch - processPackages [cns]: Remove: archive file [/home/abi/fetcher/tmp/cns-1.9.34-py3-none-any.whl.zip]
+[2024-04-15 05:37:32] INFO root fetch - main [MainThread]: End processing [cns]: success
+[2024-04-15 05:37:32] INFO root fetch - main [MainThread]: Store serial: [22765117]
