@@ -20465,3 +20465,51 @@ EOFError: EOF read where object expected
 [2024-04-15 15:38:34] INFO root fetch - processPackages [liba]: Remove: archive file [/home/abi/fetcher/tmp/liba-0.1.9.post1.tar.gz]
 [2024-04-15 15:38:34] INFO root fetch - main [MainThread]: End processing [liba]: success
 [2024-04-15 15:38:34] INFO root fetch - main [MainThread]: Store serial: [22771892]
+[2024-04-15 15:40:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22771892]
+[2024-04-15 15:40:43] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-15 15:40:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: udata-front
+[2024-04-15 15:40:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sysrev
+[2024-04-15 15:40:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebug
+[2024-04-15 15:40:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: symbolica
+[2024-04-15 15:40:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spine-segmentation
+[2024-04-15 15:40:43] INFO root fetch - processPackages [sysrev]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-04-15 15:40:43] INFO root fetch - processPackages [spine-segmentation]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-15 15:40:43] INFO root fetch - processPackages [udata-front]: New version: [3.5.5a117434] Old Version: [3.5.5a1]
+[2024-04-15 15:40:43] INFO root fetch - processPackages [nonebug]: New version: [0.3.7] Old Version: [0.3.6]
+[2024-04-15 15:40:43] INFO root fetch - processPackages [sysrev]: Downloading https://files.pythonhosted.org/packages/d3/17/5de1365afdf6b298af54df1b723e7e1c3843fa422a4824408e66f2ec3acf/sysrev-1.2.1.tar.gz
+[2024-04-15 15:40:43] INFO root fetch - processPackages [spine-segmentation]: Downloading https://files.pythonhosted.org/packages/53/cc/632dc91b28f6e8a47949980ca811107022ad3b0c0c34771054cb80e7d8cd/spine_segmentation-0.2.4.tar.gz
+[2024-04-15 15:40:43] INFO root fetch - processPackages [symbolica]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-15 15:40:43] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/2a/df/71cf652ec5903ada3c3748ff4148a28c0e5292e732c037b5a4e116924da0/udata_front-3.5.5a1-py2.py3-none-any.whl
+[2024-04-15 15:40:43] INFO root fetch - processPackages [nonebug]: Downloading https://files.pythonhosted.org/packages/50/92/22d144f2299dcc166c30b58f62fd7a72a48bfad2c1f8be8ccd105414d566/nonebug-0.3.6.tar.gz
+[2024-04-15 15:40:43] INFO root fetch - processPackages [symbolica]: Downloading https://files.pythonhosted.org/packages/a1/ae/5d10ddb19d1034ba768a2dc9659cd5f5159a645a55f2bc322de14e53ee1c/symbolica-0.3.0.tar.gz
+[2024-04-15 15:40:43] INFO root fetch - processPackages [sysrev]: Downloading https://files.pythonhosted.org/packages/e1/16/319ae268e2a32ecd51e8f5d68dfb9fc235bee43d12fcb34e25c3c931cb99/sysrev-1.2.2.tar.gz
+[2024-04-15 15:40:43] INFO root fetch - processPackages [sysrev]: executing diffoscope
+[2024-04-15 15:40:43] INFO root fetch - processPackages [sysrev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sysrev-1.2.1.tar.gz tmp/sysrev-1.2.2.tar.gz --markdown 20240415/s/sysrev/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-04-15 15:40:44] INFO root fetch - processPackages [spine-segmentation]: Downloading https://files.pythonhosted.org/packages/07/97/2284c23754635745865c439151af8f820125b8ca62a78142f03ee8ac2fa8/spine_segmentation-0.2.5.tar.gz
+[2024-04-15 15:40:44] INFO root fetch - processPackages [nonebug]: Downloading https://files.pythonhosted.org/packages/eb/db/8169185d55bfbdfcc4c5757de2829aa8998c4ebd2ccb9c0a93194ae19c3b/nonebug-0.3.7.tar.gz
+[2024-04-15 15:40:44] INFO root fetch - processPackages [spine-segmentation]: executing diffoscope
+[2024-04-15 15:40:44] INFO root fetch - processPackages [spine-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spine_segmentation-0.2.4.tar.gz tmp/spine_segmentation-0.2.5.tar.gz --markdown 20240415/s/spine-segmentation/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-15 15:40:44] INFO root fetch - processPackages [symbolica]: Downloading https://files.pythonhosted.org/packages/34/ca/e2b134d11c3dc7abbf4c6de9cedb6b7a3e5dc646f680e9de188890888742/symbolica-0.4.0.tar.gz
+[2024-04-15 15:40:44] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/8a/4f/2338fd0e7f0f41a6f5d398a333c15a5dc30d3f64808c77672efaae4d8eef/udata_front-3.5.5a117434-py2.py3-none-any.whl
+[2024-04-15 15:40:44] INFO root fetch - processPackages [nonebug]: executing diffoscope
+[2024-04-15 15:40:44] INFO root fetch - processPackages [nonebug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebug-0.3.6.tar.gz tmp/nonebug-0.3.7.tar.gz --markdown 20240415/n/nonebug/0.3.6-0.3.7/README.md --exclude *.pyd
+[2024-04-15 15:40:44] INFO root fetch - processPackages [symbolica]: executing diffoscope
+[2024-04-15 15:40:44] INFO root fetch - processPackages [symbolica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symbolica-0.3.0.tar.gz tmp/symbolica-0.4.0.tar.gz --markdown 20240415/s/symbolica/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-04-15 15:40:44] INFO root fetch - processPackages [sysrev]: Remove: archive file [/home/abi/fetcher/tmp/sysrev-1.2.1.tar.gz]
+[2024-04-15 15:40:44] INFO root fetch - processPackages [sysrev]: Remove: archive file [/home/abi/fetcher/tmp/sysrev-1.2.2.tar.gz]
+[2024-04-15 15:40:44] INFO root fetch - main [MainThread]: End processing [sysrev]: success
+[2024-04-15 15:40:44] INFO root fetch - processPackages [udata-front]: executing diffoscope
+[2024-04-15 15:40:44] INFO root fetch - processPackages [udata-front]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_front-3.5.5a1-py2.py3-none-any.whl.zip tmp/udata_front-3.5.5a117434-py2.py3-none-any.whl.zip --markdown 20240415/u/udata-front/3.5.5a1-3.5.5a117434/README.md --exclude *.pyd
+[2024-04-15 15:40:44] INFO root fetch - processPackages [nonebug]: Remove: archive file [/home/abi/fetcher/tmp/nonebug-0.3.6.tar.gz]
+[2024-04-15 15:40:44] INFO root fetch - processPackages [nonebug]: Remove: archive file [/home/abi/fetcher/tmp/nonebug-0.3.7.tar.gz]
+[2024-04-15 15:40:44] INFO root fetch - main [MainThread]: End processing [nonebug]: success
+[2024-04-15 15:40:45] INFO root fetch - processPackages [spine-segmentation]: Remove: archive file [/home/abi/fetcher/tmp/spine_segmentation-0.2.4.tar.gz]
+[2024-04-15 15:40:45] INFO root fetch - processPackages [spine-segmentation]: Remove: archive file [/home/abi/fetcher/tmp/spine_segmentation-0.2.5.tar.gz]
+[2024-04-15 15:40:45] INFO root fetch - main [MainThread]: End processing [spine-segmentation]: success
+[2024-04-15 15:40:46] INFO root fetch - processPackages [symbolica]: Remove: archive file [/home/abi/fetcher/tmp/symbolica-0.3.0.tar.gz]
+[2024-04-15 15:40:46] INFO root fetch - processPackages [symbolica]: Remove: archive file [/home/abi/fetcher/tmp/symbolica-0.4.0.tar.gz]
+[2024-04-15 15:40:46] INFO root fetch - main [MainThread]: End processing [symbolica]: success
+[2024-04-15 15:42:02] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.5.5a1-py2.py3-none-any.whl.zip]
+[2024-04-15 15:42:02] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.5.5a117434-py2.py3-none-any.whl.zip]
+[2024-04-15 15:42:02] INFO root fetch - main [MainThread]: End processing [udata-front]: success
+[2024-04-15 15:42:02] INFO root fetch - main [MainThread]: Store serial: [22771906]
