@@ -18008,3 +18008,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 14:24:05] INFO root fetch - processPackages [esbuild-py]: Remove: archive file [/home/abi/fetcher/tmp/esbuild_py-0.1.3-cp37-cp37m-musllinux_1_1_i686.whl.zip]
 [2024-04-15 14:24:05] INFO root fetch - main [MainThread]: End processing [esbuild-py]: success
 [2024-04-15 14:24:05] INFO root fetch - main [MainThread]: Store serial: [22770738]
+[2024-04-15 14:26:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22770738]
+[2024-04-15 14:26:13] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-15 14:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: isagog-ai
+[2024-04-15 14:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: thingsprompt
+[2024-04-15 14:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-purchase-sale-inter-company
+[2024-04-15 14:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: testpack24
+[2024-04-15 14:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: authentik-client
+[2024-04-15 14:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: supervisely
+[2024-04-15 14:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pretix-ldap
+[2024-04-15 14:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pynumstim
+[2024-04-15 14:26:13] INFO root fetch - processPackages [testpack24]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-15 14:26:13] INFO root fetch - processPackages [authentik-client]: New version: [2024.2.2.post1713180519] Old Version: [2024.2.2.post1712922614]
+[2024-04-15 14:26:13] INFO root fetch - processPackages [isagog-ai]: New version: [0.8.3] Old Version: [0.8.2]
+[2024-04-15 14:26:13] INFO root fetch - processPackages [thingsprompt]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-15 14:26:13] WARNING root fetch - processPackages [pynumstim]: Skipping, unable to determine old version
+[2024-04-15 14:26:13] INFO root fetch - main [MainThread]: End processing [pynumstim] error
+[2024-04-15 14:26:13] INFO root fetch - processPackages [pretix-ldap]: New version: [0.2.5] Old Version: [0.1.2]
+[2024-04-15 14:26:13] INFO root fetch - processPackages [odoo-addon-purchase-sale-inter-company]: New version: [16.0.1.1.2] Old Version: [16.0.1.1.1.2]
+[2024-04-15 14:26:13] INFO root fetch - processPackages [testpack24]: Downloading https://files.pythonhosted.org/packages/ff/0e/a8a4c4e1de4889332975d29077f10edfc689dc3b6296ba4285c1fd20e9a0/testpack24-0.0.2.tar.gz
+[2024-04-15 14:26:13] INFO root fetch - processPackages [supervisely]: New version: [6.9.2] Old Version: [6.9.1]
+[2024-04-15 14:26:13] INFO root fetch - processPackages [authentik-client]: Downloading https://files.pythonhosted.org/packages/c0/0f/c73e5f562cecb835c49e5a92f827ed07e85d42e3eaeb86e6d6df5a5c8376/authentik_client-2024.2.2.post1712922614.tar.gz
+[2024-04-15 14:26:13] INFO root fetch - processPackages [isagog-ai]: Downloading https://files.pythonhosted.org/packages/15/c3/141dea28d204d486e346877f7bdbdd3cd6653ed102982cd0696d03aac6aa/isagog_ai-0.8.2.tar.gz
+[2024-04-15 14:26:13] INFO root fetch - processPackages [thingsprompt]: Downloading https://files.pythonhosted.org/packages/34/00/8b8867b2af26f08a12d04a9f579838162e97582aa291f5ea338f2b9f6d97/thingsprompt-1.0.8.tar.gz
+[2024-04-15 14:26:14] INFO root fetch - processPackages [odoo-addon-purchase-sale-inter-company]: Downloading https://files.pythonhosted.org/packages/a9/0b/57bcc58f291b87dbdbb4557c7d649655c8502bb9b73c8d0d392f907e53fe/odoo_addon_purchase_sale_inter_company-16.0.1.1.1.2-py3-none-any.whl
+[2024-04-15 14:26:14] INFO root fetch - processPackages [pretix-ldap]: Downloading https://files.pythonhosted.org/packages/af/37/7f3d4fca4c24aa0153c1cec0f59cb7227c649e1482da536bf557ad03eadf/pretix-ldap-0.1.2.tar.gz
+[2024-04-15 14:26:14] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/5a/d1c5e1830d747d899ac781f368bbd65eb9c02eaf0faf98d318a7dd8cce53/supervisely-6.9.1.tar.gz
+[2024-04-15 14:26:14] INFO root fetch - processPackages [authentik-client]: Downloading https://files.pythonhosted.org/packages/70/97/f6aaf5e02e8ac25338b21dc0020c9bf833eb94477447bb879b3bc936d931/authentik_client-2024.2.2.post1713180519.tar.gz
+[2024-04-15 14:26:14] INFO root fetch - processPackages [testpack24]: Downloading https://files.pythonhosted.org/packages/b1/14/835a4f8f691067c344c65ce4ed9e02880ff69e4ce79132dbe3d5402c8bab/testpack24-0.0.3.tar.gz
+[2024-04-15 14:26:14] INFO root fetch - processPackages [isagog-ai]: Downloading https://files.pythonhosted.org/packages/1f/dc/c4eeda9f0f0c6f381ad8d976802d5622f3e34f334ee2b57653ef54f92efc/isagog_ai-0.8.3.tar.gz
+[2024-04-15 14:26:14] INFO root fetch - processPackages [thingsprompt]: Downloading https://files.pythonhosted.org/packages/f8/54/a0dbed769398eb50b4d60d05f7773a0f947d46cbbddec6fb5fc992fb03ae/thingsprompt-1.0.9.tar.gz
+[2024-04-15 14:26:14] INFO root fetch - processPackages [testpack24]: executing diffoscope
+[2024-04-15 14:26:14] INFO root fetch - processPackages [testpack24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testpack24-0.0.2.tar.gz tmp/testpack24-0.0.3.tar.gz --markdown 20240415/t/testpack24/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-15 14:26:14] INFO root fetch - processPackages [authentik-client]: executing diffoscope
+[2024-04-15 14:26:14] INFO root fetch - processPackages [authentik-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authentik_client-2024.2.2.post1712922614.tar.gz tmp/authentik_client-2024.2.2.post1713180519.tar.gz --markdown 20240415/a/authentik-client/2024.2.2.post1712922614-2024.2.2.post1713180519/README.md --exclude *.pyd
+[2024-04-15 14:26:14] INFO root fetch - processPackages [odoo-addon-purchase-sale-inter-company]: Downloading https://files.pythonhosted.org/packages/50/c0/85474c43a7962b863088b594c0c13477cae87ce90d1f544d82b1d7646f28/odoo_addon_purchase_sale_inter_company-16.0.1.1.2-py3-none-any.whl
+[2024-04-15 14:26:14] INFO root fetch - processPackages [thingsprompt]: executing diffoscope
+[2024-04-15 14:26:14] INFO root fetch - processPackages [thingsprompt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thingsprompt-1.0.8.tar.gz tmp/thingsprompt-1.0.9.tar.gz --markdown 20240415/t/thingsprompt/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-15 14:26:14] INFO root fetch - processPackages [pretix-ldap]: Downloading https://files.pythonhosted.org/packages/74/ae/3ea8fdca205eb01279dabd73071a91ea698b24564a0862c5999ae5ccd0f4/pretix_ldap-0.2.5.tar.gz
+[2024-04-15 14:26:14] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/56/78987e56220fcb935013105de97143fb9371ba9732a7dcdcb9451350a28f/supervisely-6.9.2.tar.gz
+[2024-04-15 14:26:14] INFO root fetch - processPackages [isagog-ai]: executing diffoscope
+[2024-04-15 14:26:14] INFO root fetch - processPackages [isagog-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isagog_ai-0.8.2.tar.gz tmp/isagog_ai-0.8.3.tar.gz --markdown 20240415/i/isagog-ai/0.8.2-0.8.3/README.md --exclude *.pyd
+[2024-04-15 14:26:14] INFO root fetch - processPackages [odoo-addon-purchase-sale-inter-company]: executing diffoscope
+[2024-04-15 14:26:14] INFO root fetch - processPackages [odoo-addon-purchase-sale-inter-company]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_sale_inter_company-16.0.1.1.1.2-py3-none-any.whl.zip tmp/odoo_addon_purchase_sale_inter_company-16.0.1.1.2-py3-none-any.whl.zip --markdown 20240415/o/odoo-addon-purchase-sale-inter-company/16.0.1.1.1.2-16.0.1.1.2/README.md --exclude *.pyd
+[2024-04-15 14:26:14] INFO root fetch - processPackages [supervisely]: executing diffoscope
+[2024-04-15 14:26:14] INFO root fetch - processPackages [supervisely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervisely-6.9.1.tar.gz tmp/supervisely-6.9.2.tar.gz --markdown 20240415/s/supervisely/6.9.1-6.9.2/README.md --exclude *.pyd
+[2024-04-15 14:26:14] INFO root fetch - processPackages [pretix-ldap]: executing diffoscope
+[2024-04-15 14:26:14] INFO root fetch - processPackages [pretix-ldap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretix-ldap-0.1.2.tar.gz tmp/pretix_ldap-0.2.5.tar.gz --markdown 20240415/p/pretix-ldap/0.1.2-0.2.5/README.md --exclude *.pyd
+[2024-04-15 14:26:15] INFO root fetch - processPackages [testpack24]: Remove: archive file [/home/abi/fetcher/tmp/testpack24-0.0.2.tar.gz]
+[2024-04-15 14:26:15] INFO root fetch - processPackages [testpack24]: Remove: archive file [/home/abi/fetcher/tmp/testpack24-0.0.3.tar.gz]
+[2024-04-15 14:26:15] INFO root fetch - main [MainThread]: End processing [testpack24]: success
+[2024-04-15 14:26:15] INFO root fetch - processPackages [thingsprompt]: Remove: archive file [/home/abi/fetcher/tmp/thingsprompt-1.0.8.tar.gz]
+[2024-04-15 14:26:15] INFO root fetch - processPackages [thingsprompt]: Remove: archive file [/home/abi/fetcher/tmp/thingsprompt-1.0.9.tar.gz]
+[2024-04-15 14:26:15] INFO root fetch - main [MainThread]: End processing [thingsprompt]: success
+[2024-04-15 14:26:15] INFO root fetch - processPackages [isagog-ai]: Remove: archive file [/home/abi/fetcher/tmp/isagog_ai-0.8.2.tar.gz]
+[2024-04-15 14:26:15] INFO root fetch - processPackages [isagog-ai]: Remove: archive file [/home/abi/fetcher/tmp/isagog_ai-0.8.3.tar.gz]
+[2024-04-15 14:26:15] INFO root fetch - main [MainThread]: End processing [isagog-ai]: success
+[2024-04-15 14:26:15] INFO root fetch - processPackages [pretix-ldap]: Remove: archive file [/home/abi/fetcher/tmp/pretix-ldap-0.1.2.tar.gz]
+[2024-04-15 14:26:15] INFO root fetch - processPackages [pretix-ldap]: Remove: archive file [/home/abi/fetcher/tmp/pretix_ldap-0.2.5.tar.gz]
+[2024-04-15 14:26:15] INFO root fetch - main [MainThread]: End processing [pretix-ldap]: success
+[2024-04-15 14:26:15] INFO root fetch - processPackages [odoo-addon-purchase-sale-inter-company]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_sale_inter_company-16.0.1.1.1.2-py3-none-any.whl.zip]
+[2024-04-15 14:26:15] INFO root fetch - processPackages [odoo-addon-purchase-sale-inter-company]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_sale_inter_company-16.0.1.1.2-py3-none-any.whl.zip]
+[2024-04-15 14:26:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-sale-inter-company]: success
+[2024-04-15 14:26:16] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.1.tar.gz]
+[2024-04-15 14:26:16] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.2.tar.gz]
+[2024-04-15 14:26:16] INFO root fetch - main [MainThread]: End processing [supervisely]: success
+[2024-04-15 14:26:17] INFO root fetch - processPackages [authentik-client]: Remove: archive file [/home/abi/fetcher/tmp/authentik_client-2024.2.2.post1712922614.tar.gz]
+[2024-04-15 14:26:17] INFO root fetch - processPackages [authentik-client]: Remove: archive file [/home/abi/fetcher/tmp/authentik_client-2024.2.2.post1713180519.tar.gz]
+[2024-04-15 14:26:17] INFO root fetch - main [MainThread]: End processing [authentik-client]: success
+[2024-04-15 14:26:17] INFO root fetch - main [MainThread]: Store serial: [22770805]
