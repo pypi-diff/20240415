@@ -14247,3 +14247,56 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 11:59:57] INFO root fetch - processPackages [zigzag-dse]: Remove: archive file [/home/abi/fetcher/tmp/zigzag_dse-3.1.0.tar.gz]
 [2024-04-15 11:59:57] INFO root fetch - main [MainThread]: End processing [zigzag-dse]: success
 [2024-04-15 11:59:57] INFO root fetch - main [MainThread]: Store serial: [22769085]
+[2024-04-15 12:02:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22769085]
+[2024-04-15 12:02:07] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-15 12:02:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edwh
+[2024-04-15 12:02:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ayeaye-fossa
+[2024-04-15 12:02:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cg
+[2024-04-15 12:02:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tap-linkedin-ads
+[2024-04-15 12:02:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cpop
+[2024-04-15 12:02:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: InstagramReelDownloader
+[2024-04-15 12:02:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo12-addon-cooperator-api
+[2024-04-15 12:02:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo12-addon-cooperator-api-logs
+[2024-04-15 12:02:08] INFO root fetch - processPackages [cpop]: New version: [34.1.0] Old Version: [34.0.0]
+[2024-04-15 12:02:08] INFO root fetch - processPackages [edwh]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-15 12:02:08] INFO root fetch - processPackages [cg]: New version: [59.9.1] Old Version: [59.9.0]
+[2024-04-15 12:02:08] INFO root fetch - processPackages [ayeaye-fossa]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-15 12:02:08] INFO root fetch - processPackages [tap-linkedin-ads]: New version: [2.3.0] Old Version: [2.2.0]
+[2024-04-15 12:02:08] WARNING root fetch - processPackages [odoo12-addon-cooperator-api]: Skipping, unable to determine old version
+[2024-04-15 12:02:08] WARNING root fetch - processPackages [InstagramReelDownloader]: Skipping, unable to determine old version
+[2024-04-15 12:02:08] INFO root fetch - main [MainThread]: End processing [odoo12-addon-cooperator-api] error
+[2024-04-15 12:02:08] INFO root fetch - main [MainThread]: End processing [InstagramReelDownloader] error
+[2024-04-15 12:02:08] WARNING root fetch - processPackages [odoo12-addon-cooperator-api-logs]: Skipping, unable to determine old version
+[2024-04-15 12:02:08] INFO root fetch - main [MainThread]: End processing [odoo12-addon-cooperator-api-logs] error
+[2024-04-15 12:02:08] INFO root fetch - processPackages [cpop]: Downloading https://files.pythonhosted.org/packages/6b/60/cc78eccb95fe25dfb413308b5a2e70bc3ebe4a6854d1abb2f0617b48fb40/cpop-34.0.0.tar.gz
+[2024-04-15 12:02:08] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/a4/79/664dc1d5b463ee0406caa2e43f4dec36f68ff9a520e4d9d51666e6ea5021/cg-59.9.0.tar.gz
+[2024-04-15 12:02:08] INFO root fetch - processPackages [edwh]: Downloading https://files.pythonhosted.org/packages/a1/b2/ffc583af9d774bfd7b622dbed69ea2357b3a1f9096658cf1202307626113/edwh-0.9.1.tar.gz
+[2024-04-15 12:02:08] INFO root fetch - processPackages [ayeaye-fossa]: Downloading https://files.pythonhosted.org/packages/d8/a1/912b7eb7c2ec90821727eeae723c737b6fccd8c7d43b5b88035f69062531/ayeaye-fossa-0.0.8.tar.gz
+[2024-04-15 12:02:08] WARNING root fetch - processPackages [edwh]: Skipping package: exceeds size limit 32547749>=10485760
+[2024-04-15 12:02:08] INFO root fetch - main [MainThread]: End processing [edwh] error
+[2024-04-15 12:02:08] INFO root fetch - processPackages [tap-linkedin-ads]: Downloading https://files.pythonhosted.org/packages/ec/08/4b1afbed90f503c569f1d5de88212961ec01b4d3bace88e1cbd511a4fbaf/tap-linkedin-ads-2.2.0.tar.gz
+[2024-04-15 12:02:08] INFO root fetch - processPackages [cpop]: Downloading https://files.pythonhosted.org/packages/71/cd/1dd65f1a86d73f2e792991b96431e3645b0ebec9e11caac869541f1a0998/cpop-34.1.0.tar.gz
+[2024-04-15 12:02:08] INFO root fetch - processPackages [cpop]: executing diffoscope
+[2024-04-15 12:02:08] INFO root fetch - processPackages [cpop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpop-34.0.0.tar.gz tmp/cpop-34.1.0.tar.gz --markdown 20240415/c/cpop/34.0.0-34.1.0/README.md --exclude *.pyd
+[2024-04-15 12:02:08] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/da/9f/c4869b003070cd94f090db42e1f076a49bf9c0b1856d209eeb540379d711/cg-59.9.1.tar.gz
+[2024-04-15 12:02:08] INFO root fetch - processPackages [ayeaye-fossa]: Downloading https://files.pythonhosted.org/packages/3f/3a/f0d0d26d68a1d713e3a4fd112bc9c5730bf2ffb87570f006537da13a4e41/ayeaye-fossa-0.0.9.tar.gz
+[2024-04-15 12:02:08] INFO root fetch - processPackages [tap-linkedin-ads]: Downloading https://files.pythonhosted.org/packages/3c/a9/7b695022f212b8360d3c11fb4d0b12be79a36bd55b81942172d334d8c9a8/tap-linkedin-ads-2.3.0.tar.gz
+[2024-04-15 12:02:08] INFO root fetch - processPackages [ayeaye-fossa]: executing diffoscope
+[2024-04-15 12:02:08] INFO root fetch - processPackages [ayeaye-fossa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ayeaye-fossa-0.0.8.tar.gz tmp/ayeaye-fossa-0.0.9.tar.gz --markdown 20240415/a/ayeaye-fossa/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-15 12:02:08] INFO root fetch - processPackages [tap-linkedin-ads]: executing diffoscope
+[2024-04-15 12:02:08] INFO root fetch - processPackages [tap-linkedin-ads]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap-linkedin-ads-2.2.0.tar.gz tmp/tap-linkedin-ads-2.3.0.tar.gz --markdown 20240415/t/tap-linkedin-ads/2.2.0-2.3.0/README.md --exclude *.pyd
+[2024-04-15 12:02:08] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-04-15 12:02:08] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-59.9.0.tar.gz tmp/cg-59.9.1.tar.gz --markdown 20240415/c/cg/59.9.0-59.9.1/README.md --exclude *.pyd
+[2024-04-15 12:02:09] INFO root fetch - processPackages [tap-linkedin-ads]: Remove: archive file [/home/abi/fetcher/tmp/tap-linkedin-ads-2.2.0.tar.gz]
+[2024-04-15 12:02:09] INFO root fetch - processPackages [tap-linkedin-ads]: Remove: archive file [/home/abi/fetcher/tmp/tap-linkedin-ads-2.3.0.tar.gz]
+[2024-04-15 12:02:09] INFO root fetch - main [MainThread]: End processing [tap-linkedin-ads]: success
+[2024-04-15 12:02:09] INFO root fetch - processPackages [ayeaye-fossa]: Remove: archive file [/home/abi/fetcher/tmp/ayeaye-fossa-0.0.8.tar.gz]
+[2024-04-15 12:02:09] INFO root fetch - processPackages [ayeaye-fossa]: Remove: archive file [/home/abi/fetcher/tmp/ayeaye-fossa-0.0.9.tar.gz]
+[2024-04-15 12:02:09] INFO root fetch - main [MainThread]: End processing [ayeaye-fossa]: success
+[2024-04-15 12:02:09] INFO root fetch - processPackages [cpop]: Remove: archive file [/home/abi/fetcher/tmp/cpop-34.0.0.tar.gz]
+[2024-04-15 12:02:09] INFO root fetch - processPackages [cpop]: Remove: archive file [/home/abi/fetcher/tmp/cpop-34.1.0.tar.gz]
+[2024-04-15 12:02:09] INFO root fetch - main [MainThread]: End processing [cpop]: success
+[2024-04-15 12:02:13] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-59.9.0.tar.gz]
+[2024-04-15 12:02:13] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-59.9.1.tar.gz]
+[2024-04-15 12:02:13] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-04-15 12:02:13] INFO root fetch - main [MainThread]: Store serial: [22769116]
