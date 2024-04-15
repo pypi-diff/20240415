@@ -8142,3 +8142,42 @@
 [2024-04-15 08:03:04] INFO root fetch - processPackages [flask-tabler-icons]: Remove: archive file [/home/abi/fetcher/tmp/flask_tabler_icons-3.2.0.tar.gz]
 [2024-04-15 08:03:04] INFO root fetch - main [MainThread]: End processing [flask-tabler-icons]: success
 [2024-04-15 08:03:04] INFO root fetch - main [MainThread]: Store serial: [22766477]
+[2024-04-15 08:05:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22766477]
+[2024-04-15 08:05:15] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-15 08:05:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: classnotation
+[2024-04-15 08:05:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xiaogpt
+[2024-04-15 08:05:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk8s-plus-29
+[2024-04-15 08:05:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xnatuploader
+[2024-04-15 08:05:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: step-kit
+[2024-04-15 08:05:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: unitlab
+[2024-04-15 08:05:15] WARNING root fetch - processPackages [classnotation]: Skipping, unable to determine old version
+[2024-04-15 08:05:15] INFO root fetch - main [MainThread]: End processing [classnotation] error
+[2024-04-15 08:05:15] WARNING root fetch - processPackages [step-kit]: Skipping, unable to determine old version
+[2024-04-15 08:05:15] INFO root fetch - main [MainThread]: End processing [step-kit] error
+[2024-04-15 08:05:15] INFO root fetch - processPackages [xiaogpt]: New version: [2.41] Old Version: [2.40]
+[2024-04-15 08:05:15] INFO root fetch - processPackages [xnatuploader]: New version: [1.1.7] Old Version: [1.1.6]
+[2024-04-15 08:05:15] ERROR root fetch - processPackages [cdk8s-plus-29]: Unable to get metadata: No such project 'cdk8s-plus-29'
+[2024-04-15 08:05:15] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-29] error
+[2024-04-15 08:05:15] INFO root fetch - processPackages [xiaogpt]: Downloading https://files.pythonhosted.org/packages/be/8d/698566424d7911f5c6ee47a3ace97cb1d46b709a028dce5259a423fcd9dd/xiaogpt-2.40.tar.gz
+[2024-04-15 08:05:15] INFO root fetch - processPackages [unitlab]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-15 08:05:16] INFO root fetch - processPackages [xiaogpt]: Downloading https://files.pythonhosted.org/packages/04/8e/b5d525a724c917f912dc3d9cd58dc8375cb8ea2baed81fa8d9fa71b4f30d/xiaogpt-2.41.tar.gz
+[2024-04-15 08:05:16] INFO root fetch - processPackages [xnatuploader]: Downloading https://files.pythonhosted.org/packages/d0/01/1a683201a024bf71f07ed31f7ccf99444893aac1beb410802346e4d8d706/xnatuploader-1.1.6.tar.gz
+[2024-04-15 08:05:16] INFO root fetch - processPackages [xiaogpt]: executing diffoscope
+[2024-04-15 08:05:16] INFO root fetch - processPackages [xiaogpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xiaogpt-2.40.tar.gz tmp/xiaogpt-2.41.tar.gz --markdown 20240415/x/xiaogpt/2.40-2.41/README.md --exclude *.pyd
+[2024-04-15 08:05:16] INFO root fetch - processPackages [unitlab]: Downloading https://files.pythonhosted.org/packages/4e/fd/6eacb5db89a14b283a56c157612952430ef0c1b64a621e47a0dc61b8408b/unitlab-2.1.8.tar.gz
+[2024-04-15 08:05:16] INFO root fetch - processPackages [xnatuploader]: Downloading https://files.pythonhosted.org/packages/66/41/0f0a0baa41d6bb73fbf2c9e3076165551ac2954def96d2ab0a8b26f1b901/xnatuploader-1.1.7.tar.gz
+[2024-04-15 08:05:16] INFO root fetch - processPackages [xnatuploader]: executing diffoscope
+[2024-04-15 08:05:16] INFO root fetch - processPackages [xnatuploader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xnatuploader-1.1.6.tar.gz tmp/xnatuploader-1.1.7.tar.gz --markdown 20240415/x/xnatuploader/1.1.6-1.1.7/README.md --exclude *.pyd
+[2024-04-15 08:05:16] INFO root fetch - processPackages [unitlab]: Downloading https://files.pythonhosted.org/packages/6f/a4/f6b5b9058332751a708826db61ca2204a370723f66a4a8dda9caa0a05641/unitlab-2.1.9.tar.gz
+[2024-04-15 08:05:16] INFO root fetch - processPackages [xiaogpt]: Remove: archive file [/home/abi/fetcher/tmp/xiaogpt-2.40.tar.gz]
+[2024-04-15 08:05:16] INFO root fetch - processPackages [xiaogpt]: Remove: archive file [/home/abi/fetcher/tmp/xiaogpt-2.41.tar.gz]
+[2024-04-15 08:05:16] INFO root fetch - main [MainThread]: End processing [xiaogpt]: success
+[2024-04-15 08:05:16] INFO root fetch - processPackages [unitlab]: executing diffoscope
+[2024-04-15 08:05:16] INFO root fetch - processPackages [unitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitlab-2.1.8.tar.gz tmp/unitlab-2.1.9.tar.gz --markdown 20240415/u/unitlab/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-15 08:05:17] INFO root fetch - processPackages [xnatuploader]: Remove: archive file [/home/abi/fetcher/tmp/xnatuploader-1.1.6.tar.gz]
+[2024-04-15 08:05:17] INFO root fetch - processPackages [xnatuploader]: Remove: archive file [/home/abi/fetcher/tmp/xnatuploader-1.1.7.tar.gz]
+[2024-04-15 08:05:17] INFO root fetch - main [MainThread]: End processing [xnatuploader]: success
+[2024-04-15 08:05:17] INFO root fetch - processPackages [unitlab]: Remove: archive file [/home/abi/fetcher/tmp/unitlab-2.1.8.tar.gz]
+[2024-04-15 08:05:17] INFO root fetch - processPackages [unitlab]: Remove: archive file [/home/abi/fetcher/tmp/unitlab-2.1.9.tar.gz]
+[2024-04-15 08:05:17] INFO root fetch - main [MainThread]: End processing [unitlab]: success
+[2024-04-15 08:05:17] INFO root fetch - main [MainThread]: Store serial: [22766495]
