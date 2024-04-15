@@ -3443,3 +3443,87 @@
 [2024-04-15 04:42:46] INFO root fetch - processPackages [mojo-interop]: Remove: archive file [/home/abi/fetcher/tmp/mojo_interop-1.3.9.tar.gz]
 [2024-04-15 04:42:46] INFO root fetch - main [MainThread]: End processing [mojo-interop]: success
 [2024-04-15 04:42:46] INFO root fetch - main [MainThread]: Store serial: [22764786]
+[2024-04-15 04:44:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22764786]
+[2024-04-15 04:44:54] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-15 04:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-04-15 04:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: blue-krill
+[2024-04-15 04:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tfds-nightly
+[2024-04-15 04:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-gitlab-runner
+[2024-04-15 04:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: VASP2KP
+[2024-04-15 04:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-aurora-globaldatabase
+[2024-04-15 04:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-certbot-dns-route53
+[2024-04-15 04:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lookout-cli
+[2024-04-15 04:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lookout-config
+[2024-04-15 04:44:54] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-04-15 04:44:54] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-04-15 04:44:54] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.13a1713148341] Old Version: [0.0.13a1712973417]
+[2024-04-15 04:44:54] INFO root fetch - processPackages [VASP2KP]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-15 04:44:54] INFO root fetch - processPackages [lookout-config]: New version: [1.1.0] Old Version: [1.0.3]
+[2024-04-15 04:44:54] INFO root fetch - processPackages [lookout-cli]: New version: [1.1.0] Old Version: [1.0.3]
+[2024-04-15 04:44:54] INFO root fetch - processPackages [blue-krill]: New version: [2.0.4] Old Version: [2.0.3]
+[2024-04-15 04:44:54] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.4.99] Old Version: [2.4.98]
+[2024-04-15 04:44:55] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-04-15 04:44:55] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/07/29/9f2cc8590770873b6073743e94ff15a2a7913eb0de3e6a4d2fc133008f62/cdk-gitlab-runner-2.2.98.tar.gz
+[2024-04-15 04:44:55] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/7d/4d/b1cb6c8586d736f490cc5099e0220282aadb28d3aefc028cf88e6a183b06/cdk-certbot-dns-route53-2.4.98.tar.gz
+[2024-04-15 04:44:55] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.4.dev202404150242] Old Version: [4.9.4.dev202404140044]
+[2024-04-15 04:44:55] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/11/0d/23e8a080b49d2e9d5350d3b6f5a9040a8f44930be9bc2fa3d6852b78db10/pulumi_kubernetes_the_hard_way-0.0.13a1712973417.tar.gz
+[2024-04-15 04:44:55] INFO root fetch - processPackages [VASP2KP]: Downloading https://files.pythonhosted.org/packages/f0/bb/6acef252e9d1f7783cf97da9345d0c1dd9b93a5fe2ae3636cfe373213753/VASP2KP-1.1.1.tar.gz
+[2024-04-15 04:44:55] INFO root fetch - processPackages [lookout-config]: Downloading https://files.pythonhosted.org/packages/88/91/717788a75ea11f0aacfbcf17f27235450af7abead963da19871e318183d7/lookout_config-1.0.3.tar.gz
+[2024-04-15 04:44:55] INFO root fetch - processPackages [blue-krill]: Downloading https://files.pythonhosted.org/packages/63/61/397ebfd783f1074887a0736e382d0b112fa7f00a99ecc85e61d7b7e9578e/blue_krill-2.0.3.tar.gz
+[2024-04-15 04:44:55] INFO root fetch - processPackages [lookout-cli]: Downloading https://files.pythonhosted.org/packages/31/48/0ba462b8d5aeb2f519544b745768610e038677577293f9ec1e84f4e16eb4/lookout_cli-1.0.3.tar.gz
+[2024-04-15 04:44:55] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/16/61/e9f00b4e877a6352bd641de360f7577c27548fbcedc3aab19b1cf3852b9a/cdk-gitlab-runner-2.2.99.tar.gz
+[2024-04-15 04:44:55] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-04-15 04:44:55] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/28/81/76f66486f9d6f5aee6f787bb13f11ab8012414fd95d10756b575fd69b909/cdk-certbot-dns-route53-2.4.99.tar.gz
+[2024-04-15 04:44:55] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/6b/ef/a8df3ee18cb34c4d7fd007503c7c4c736dac46cac6327446e753a3a74dbd/tfds-nightly-4.9.4.dev202404140044.tar.gz
+[2024-04-15 04:44:55] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2024-04-15 04:44:55] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.2.98.tar.gz tmp/cdk-gitlab-runner-2.2.99.tar.gz --markdown 20240415/c/cdk-gitlab-runner/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-04-15 04:44:55] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2024-04-15 04:44:55] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.4.98.tar.gz tmp/cdk-certbot-dns-route53-2.4.99.tar.gz --markdown 20240415/c/cdk-certbot-dns-route53/2.4.98-2.4.99/README.md --exclude *.pyd
+[2024-04-15 04:44:55] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-04-15 04:44:55] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240415/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/README.md --exclude *.pyd
+[2024-04-15 04:44:55] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/69/73/979bd0b5155d0b8f959bedfccd936db278711bdefc2f8026ca02aecc6b1e/pulumi_kubernetes_the_hard_way-0.0.13a1713148341.tar.gz
+[2024-04-15 04:44:55] INFO root fetch - processPackages [lookout-config]: Downloading https://files.pythonhosted.org/packages/e2/1a/ff52cdada1161316a1f23018d07b97f4e206690b27dd05b8be9cfd0d8b16/lookout_config-1.1.0.tar.gz
+[2024-04-15 04:44:55] INFO root fetch - processPackages [lookout-cli]: Downloading https://files.pythonhosted.org/packages/f8/49/e4832a13fd0ec4389e10ca61f57c74e07836679ab0093ad6989cec536988/lookout_cli-1.1.0.tar.gz
+[2024-04-15 04:44:55] INFO root fetch - processPackages [VASP2KP]: Downloading https://files.pythonhosted.org/packages/c2/5f/fd088b07ce7f7a0d134aeb16d3eb364822486828edb1e0f853f67adb0218/VASP2KP-1.1.2.tar.gz
+[2024-04-15 04:44:55] INFO root fetch - processPackages [blue-krill]: Downloading https://files.pythonhosted.org/packages/a7/3f/ea12a3d8e4c2e83a50f1a53acf60050ac66bc0e78f0a3bf4170c66e0e762/blue_krill-2.0.4.tar.gz
+[2024-04-15 04:44:55] INFO root fetch - processPackages [lookout-config]: executing diffoscope
+[2024-04-15 04:44:55] INFO root fetch - processPackages [lookout-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lookout_config-1.0.3.tar.gz tmp/lookout_config-1.1.0.tar.gz --markdown 20240415/l/lookout-config/1.0.3-1.1.0/README.md --exclude *.pyd
+[2024-04-15 04:44:55] INFO root fetch - processPackages [lookout-cli]: executing diffoscope
+[2024-04-15 04:44:55] INFO root fetch - processPackages [lookout-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lookout_cli-1.0.3.tar.gz tmp/lookout_cli-1.1.0.tar.gz --markdown 20240415/l/lookout-cli/1.0.3-1.1.0/README.md --exclude *.pyd
+[2024-04-15 04:44:55] INFO root fetch - processPackages [VASP2KP]: executing diffoscope
+[2024-04-15 04:44:55] INFO root fetch - processPackages [VASP2KP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VASP2KP-1.1.1.tar.gz tmp/VASP2KP-1.1.2.tar.gz --markdown 20240415/V/VASP2KP/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-04-15 04:44:55] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-04-15 04:44:55] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.13a1712973417.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.13a1713148341.tar.gz --markdown 20240415/p/pulumi-kubernetes-the-hard-way/0.0.13a1712973417-0.0.13a1713148341/README.md --exclude *.pyd
+[2024-04-15 04:44:55] INFO root fetch - processPackages [blue-krill]: executing diffoscope
+[2024-04-15 04:44:55] INFO root fetch - processPackages [blue-krill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blue_krill-2.0.3.tar.gz tmp/blue_krill-2.0.4.tar.gz --markdown 20240415/b/blue-krill/2.0.3-2.0.4/README.md --exclude *.pyd
+[2024-04-15 04:44:56] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/f2/03/00fa8f9b2118b48557883261594a6abe8f7cfbd672d5cd9774466c6a9eab/tfds-nightly-4.9.4.dev202404150242.tar.gz
+[2024-04-15 04:44:56] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.98.tar.gz]
+[2024-04-15 04:44:56] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.99.tar.gz]
+[2024-04-15 04:44:56] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2024-04-15 04:44:56] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-04-15 04:44:56] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-04-15 04:44:56] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-04-15 04:44:56] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.98.tar.gz]
+[2024-04-15 04:44:56] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.99.tar.gz]
+[2024-04-15 04:44:56] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2024-04-15 04:44:56] INFO root fetch - processPackages [lookout-config]: Remove: archive file [/home/abi/fetcher/tmp/lookout_config-1.0.3.tar.gz]
+[2024-04-15 04:44:56] INFO root fetch - processPackages [lookout-config]: Remove: archive file [/home/abi/fetcher/tmp/lookout_config-1.1.0.tar.gz]
+[2024-04-15 04:44:56] INFO root fetch - main [MainThread]: End processing [lookout-config]: success
+[2024-04-15 04:44:56] INFO root fetch - processPackages [lookout-cli]: Remove: archive file [/home/abi/fetcher/tmp/lookout_cli-1.0.3.tar.gz]
+[2024-04-15 04:44:56] INFO root fetch - processPackages [lookout-cli]: Remove: archive file [/home/abi/fetcher/tmp/lookout_cli-1.1.0.tar.gz]
+[2024-04-15 04:44:56] INFO root fetch - main [MainThread]: End processing [lookout-cli]: success
+[2024-04-15 04:44:56] INFO root fetch - processPackages [VASP2KP]: Remove: archive file [/home/abi/fetcher/tmp/VASP2KP-1.1.1.tar.gz]
+[2024-04-15 04:44:56] INFO root fetch - processPackages [VASP2KP]: Remove: archive file [/home/abi/fetcher/tmp/VASP2KP-1.1.2.tar.gz]
+[2024-04-15 04:44:56] INFO root fetch - main [MainThread]: End processing [VASP2KP]: success
+[2024-04-15 04:44:56] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2024-04-15 04:44:56] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.4.dev202404140044.tar.gz tmp/tfds-nightly-4.9.4.dev202404150242.tar.gz --markdown 20240415/t/tfds-nightly/4.9.4.dev202404140044-4.9.4.dev202404150242/README.md --exclude *.pyd
+[2024-04-15 04:44:56] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.13a1712973417.tar.gz]
+[2024-04-15 04:44:56] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.13a1713148341.tar.gz]
+[2024-04-15 04:44:56] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-04-15 04:44:56] INFO root fetch - processPackages [blue-krill]: Remove: archive file [/home/abi/fetcher/tmp/blue_krill-2.0.3.tar.gz]
+[2024-04-15 04:44:56] INFO root fetch - processPackages [blue-krill]: Remove: archive file [/home/abi/fetcher/tmp/blue_krill-2.0.4.tar.gz]
+[2024-04-15 04:44:56] INFO root fetch - main [MainThread]: End processing [blue-krill]: success
+[2024-04-15 04:45:05] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202404140044.tar.gz]
+[2024-04-15 04:45:05] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202404150242.tar.gz]
+[2024-04-15 04:45:05] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2024-04-15 04:45:05] INFO root fetch - main [MainThread]: Store serial: [22764817]
