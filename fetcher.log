@@ -13615,3 +13615,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 11:44:25] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.8.tar.gz]
 [2024-04-15 11:44:25] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
 [2024-04-15 11:44:25] INFO root fetch - main [MainThread]: Store serial: [22768802]
+[2024-04-15 11:46:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22768802]
+[2024-04-15 11:46:35] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-15 11:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mypcremote
+[2024-04-15 11:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyqqq
+[2024-04-15 11:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: beatrica
+[2024-04-15 11:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fim-python
+[2024-04-15 11:46:36] INFO root fetch - processPackages [beatrica]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-15 11:46:36] INFO root fetch - processPackages [fim-python]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-04-15 11:46:36] WARNING root fetch - processPackages [mypcremote]: Skipping, unable to determine old version
+[2024-04-15 11:46:36] INFO root fetch - main [MainThread]: End processing [mypcremote] error
+[2024-04-15 11:46:36] INFO root fetch - processPackages [pyqqq]: New version: [0.7.6] Old Version: [0.7.5]
+[2024-04-15 11:46:36] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/fc/8c/d034edf18d3482af79502fa5297ae5c79cacb6553e58fafd785db6a608d8/pyqqq-0.7.5.tar.gz
+[2024-04-15 11:46:36] INFO root fetch - processPackages [fim-python]: Downloading https://files.pythonhosted.org/packages/f8/55/6086eb6d7cf513fc9222ebecae7fd0b2ba7960ba65bee66d4586ca2f31e6/fim-python-1.2.1.tar.gz
+[2024-04-15 11:46:36] INFO root fetch - processPackages [beatrica]: Downloading https://files.pythonhosted.org/packages/c7/f6/86bd3cb3e7abf4209662a74acda0ef5235962eaafbfa94400ac2eca2351a/beatrica-0.0.8.tar.gz
+[2024-04-15 11:46:36] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/bf/3c/078a0dbd8778e58241cedba5eeaf8a303b0c320c9447cfbdde86ac7b4d11/pyqqq-0.7.6.tar.gz
+[2024-04-15 11:46:36] INFO root fetch - processPackages [fim-python]: Downloading https://files.pythonhosted.org/packages/a2/bc/fd9c2808fe9b80c73b3c6ef62e0eb2fc2d57482f8a4bc9686fec2ef25c66/fim_python-1.2.2.tar.gz
+[2024-04-15 11:46:36] INFO root fetch - processPackages [pyqqq]: executing diffoscope
+[2024-04-15 11:46:36] INFO root fetch - processPackages [pyqqq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqqq-0.7.5.tar.gz tmp/pyqqq-0.7.6.tar.gz --markdown 20240415/p/pyqqq/0.7.5-0.7.6/README.md --exclude *.pyd
+[2024-04-15 11:46:36] INFO root fetch - processPackages [beatrica]: Downloading https://files.pythonhosted.org/packages/5c/d8/c639628df03d41466a72c8b2b260f57059017b4306a94b30a0f7935b84fb/beatrica-0.0.9.tar.gz
+[2024-04-15 11:46:36] INFO root fetch - processPackages [beatrica]: executing diffoscope
+[2024-04-15 11:46:36] INFO root fetch - processPackages [beatrica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beatrica-0.0.8.tar.gz tmp/beatrica-0.0.9.tar.gz --markdown 20240415/b/beatrica/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-15 11:46:36] INFO root fetch - processPackages [fim-python]: executing diffoscope
+[2024-04-15 11:46:36] INFO root fetch - processPackages [fim-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fim-python-1.2.1.tar.gz tmp/fim_python-1.2.2.tar.gz --markdown 20240415/f/fim-python/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-04-15 11:46:37] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.7.5.tar.gz]
+[2024-04-15 11:46:37] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.7.6.tar.gz]
+[2024-04-15 11:46:37] INFO root fetch - main [MainThread]: End processing [pyqqq]: success
+[2024-04-15 11:46:37] INFO root fetch - processPackages [beatrica]: Remove: archive file [/home/abi/fetcher/tmp/beatrica-0.0.8.tar.gz]
+[2024-04-15 11:46:37] INFO root fetch - processPackages [beatrica]: Remove: archive file [/home/abi/fetcher/tmp/beatrica-0.0.9.tar.gz]
+[2024-04-15 11:46:37] INFO root fetch - main [MainThread]: End processing [beatrica]: success
+[2024-04-15 11:46:38] INFO root fetch - processPackages [fim-python]: Remove: archive file [/home/abi/fetcher/tmp/fim-python-1.2.1.tar.gz]
+[2024-04-15 11:46:38] INFO root fetch - processPackages [fim-python]: Remove: archive file [/home/abi/fetcher/tmp/fim_python-1.2.2.tar.gz]
+[2024-04-15 11:46:38] INFO root fetch - main [MainThread]: End processing [fim-python]: success
+[2024-04-15 11:46:38] INFO root fetch - main [MainThread]: Store serial: [22768815]
