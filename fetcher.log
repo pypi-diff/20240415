@@ -16863,3 +16863,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 13:39:39] INFO root fetch - processPackages [django-project-base]: Remove: archive file [/home/abi/fetcher/tmp/django-project-base-0.4.9.tar.gz]
 [2024-04-15 13:39:39] INFO root fetch - main [MainThread]: End processing [django-project-base]: success
 [2024-04-15 13:39:39] INFO root fetch - main [MainThread]: Store serial: [22770208]
+[2024-04-15 13:41:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22770208]
+[2024-04-15 13:41:48] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-15 13:41:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CopaData
+[2024-04-15 13:41:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: honeybee-grasshopper-radiance
+[2024-04-15 13:41:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: asapo-consumer
+[2024-04-15 13:41:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: arion-library
+[2024-04-15 13:41:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sqlrepo
+[2024-04-15 13:41:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-sale-shipping-info-helper
+[2024-04-15 13:41:48] INFO root fetch - processPackages [arion-library]: New version: [1.1rc56.dev56] Old Version: [1.1rc53.dev53]
+[2024-04-15 13:41:48] INFO root fetch - processPackages [sqlrepo]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-04-15 13:41:48] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/90/98/fc1be5c0bb121928915e6b86d9656c3608b7e80c7a0c5e5cfcae541ad440/arion_library-1.1rc53.dev53.tar.gz
+[2024-04-15 13:41:48] WARNING root fetch - processPackages [asapo-consumer]: Skipping, unable to determine old version
+[2024-04-15 13:41:48] INFO root fetch - main [MainThread]: End processing [asapo-consumer] error
+[2024-04-15 13:41:48] INFO root fetch - processPackages [sqlrepo]: Downloading https://files.pythonhosted.org/packages/df/09/ef10c229a822bfc9bb3e1a0e598910f940ebcb92ea2d92b711234240e6c3/sqlrepo-0.1.1.tar.gz
+[2024-04-15 13:41:48] INFO root fetch - processPackages [CopaData]: New version: [3.40.3] Old Version: [3.40.2]
+[2024-04-15 13:41:48] INFO root fetch - processPackages [honeybee-grasshopper-radiance]: New version: [1.9.5] Old Version: [1.9.4]
+[2024-04-15 13:41:48] INFO root fetch - processPackages [odoo-addon-sale-shipping-info-helper]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.0.3]
+[2024-04-15 13:41:48] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/58/7e/b06c79d72286de727e2b80292738b962672dd8407c96d7f49568cc8983b7/arion_library-1.1rc56.dev56.tar.gz
+[2024-04-15 13:41:48] INFO root fetch - processPackages [CopaData]: Downloading https://files.pythonhosted.org/packages/c0/3d/5bb221cc42489eb23c654466a5ec3ecc4cad0fdc5486f2d3451ec1ec9695/CopaData-3.40.2.tar.gz
+[2024-04-15 13:41:48] INFO root fetch - processPackages [sqlrepo]: Downloading https://files.pythonhosted.org/packages/f8/54/b74faf13acfba0174476cc191e62b07269b3acaa2fb24cdf232375f15aaf/sqlrepo-0.2.0.tar.gz
+[2024-04-15 13:41:48] INFO root fetch - processPackages [honeybee-grasshopper-radiance]: Downloading https://files.pythonhosted.org/packages/c5/57/e62f02310363fe5e170d0080379047075c89078b9a0f26010d29334fc7a7/honeybee-grasshopper-radiance-1.9.4.tar.gz
+[2024-04-15 13:41:48] INFO root fetch - processPackages [arion-library]: executing diffoscope
+[2024-04-15 13:41:48] INFO root fetch - processPackages [arion-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arion_library-1.1rc53.dev53.tar.gz tmp/arion_library-1.1rc56.dev56.tar.gz --markdown 20240415/a/arion-library/1.1rc53.dev53-1.1rc56.dev56/README.md --exclude *.pyd
+[2024-04-15 13:41:48] INFO root fetch - processPackages [sqlrepo]: executing diffoscope
+[2024-04-15 13:41:48] INFO root fetch - processPackages [sqlrepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlrepo-0.1.1.tar.gz tmp/sqlrepo-0.2.0.tar.gz --markdown 20240415/s/sqlrepo/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-04-15 13:41:48] INFO root fetch - processPackages [odoo-addon-sale-shipping-info-helper]: Downloading https://files.pythonhosted.org/packages/b3/3e/c38bf320e6fb7832ef2d81a833e5875ee1d5c89dfaac261cf9052dcaa049/odoo_addon_sale_shipping_info_helper-16.0.1.0.0.3-py3-none-any.whl
+[2024-04-15 13:41:48] INFO root fetch - processPackages [honeybee-grasshopper-radiance]: Downloading https://files.pythonhosted.org/packages/98/2b/58d14159864fadd0311230f7a15bbc845650cf115c191c0830bfe73c4035/honeybee-grasshopper-radiance-1.9.5.tar.gz
+[2024-04-15 13:41:48] INFO root fetch - processPackages [CopaData]: Downloading https://files.pythonhosted.org/packages/5e/a1/03a92c8054c5da1ab476d03fd5c1c5ce44976e20ad73eb76f96edcc5e8aa/CopaData-3.40.3.tar.gz
+[2024-04-15 13:41:48] INFO root fetch - processPackages [odoo-addon-sale-shipping-info-helper]: Downloading https://files.pythonhosted.org/packages/13/a9/44fa93ded2d866abfbfd74abfd6d90e2c2a5e7cccc93c7457c35a9875d39/odoo_addon_sale_shipping_info_helper-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-15 13:41:49] INFO root fetch - processPackages [honeybee-grasshopper-radiance]: executing diffoscope
+[2024-04-15 13:41:49] INFO root fetch - processPackages [honeybee-grasshopper-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-grasshopper-radiance-1.9.4.tar.gz tmp/honeybee-grasshopper-radiance-1.9.5.tar.gz --markdown 20240415/h/honeybee-grasshopper-radiance/1.9.4-1.9.5/README.md --exclude *.pyd
+[2024-04-15 13:41:49] INFO root fetch - processPackages [CopaData]: executing diffoscope
+[2024-04-15 13:41:49] INFO root fetch - processPackages [CopaData]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CopaData-3.40.2.tar.gz tmp/CopaData-3.40.3.tar.gz --markdown 20240415/C/CopaData/3.40.2-3.40.3/README.md --exclude *.pyd
+[2024-04-15 13:41:49] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc53.dev53.tar.gz]
+[2024-04-15 13:41:49] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc56.dev56.tar.gz]
+[2024-04-15 13:41:49] INFO root fetch - main [MainThread]: End processing [arion-library]: success
+[2024-04-15 13:41:49] INFO root fetch - processPackages [sqlrepo]: Remove: archive file [/home/abi/fetcher/tmp/sqlrepo-0.1.1.tar.gz]
+[2024-04-15 13:41:49] INFO root fetch - processPackages [sqlrepo]: Remove: archive file [/home/abi/fetcher/tmp/sqlrepo-0.2.0.tar.gz]
+[2024-04-15 13:41:49] INFO root fetch - main [MainThread]: End processing [sqlrepo]: success
+[2024-04-15 13:41:49] INFO root fetch - processPackages [odoo-addon-sale-shipping-info-helper]: executing diffoscope
+[2024-04-15 13:41:49] INFO root fetch - processPackages [odoo-addon-sale-shipping-info-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_shipping_info_helper-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_sale_shipping_info_helper-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240415/o/odoo-addon-sale-shipping-info-helper/16.0.1.0.0.3-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-04-15 13:41:49] INFO root fetch - processPackages [CopaData]: Remove: archive file [/home/abi/fetcher/tmp/CopaData-3.40.2.tar.gz]
+[2024-04-15 13:41:49] INFO root fetch - processPackages [CopaData]: Remove: archive file [/home/abi/fetcher/tmp/CopaData-3.40.3.tar.gz]
+[2024-04-15 13:41:49] INFO root fetch - main [MainThread]: End processing [CopaData]: success
+[2024-04-15 13:41:50] INFO root fetch - processPackages [honeybee-grasshopper-radiance]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-grasshopper-radiance-1.9.4.tar.gz]
+[2024-04-15 13:41:50] INFO root fetch - processPackages [honeybee-grasshopper-radiance]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-grasshopper-radiance-1.9.5.tar.gz]
+[2024-04-15 13:41:50] INFO root fetch - main [MainThread]: End processing [honeybee-grasshopper-radiance]: success
+[2024-04-15 13:41:50] INFO root fetch - processPackages [odoo-addon-sale-shipping-info-helper]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_shipping_info_helper-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-15 13:41:50] INFO root fetch - processPackages [odoo-addon-sale-shipping-info-helper]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_shipping_info_helper-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-15 13:41:50] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-shipping-info-helper]: success
+[2024-04-15 13:41:50] INFO root fetch - main [MainThread]: Store serial: [22770228]
