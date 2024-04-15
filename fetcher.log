@@ -19451,3 +19451,100 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 15:08:24] INFO root fetch - processPackages [tecton]: Remove: archive file [/home/abi/fetcher/tmp/tecton-0.9.0rc4.tar.gz]
 [2024-04-15 15:08:24] INFO root fetch - main [MainThread]: End processing [tecton]: success
 [2024-04-15 15:08:24] INFO root fetch - main [MainThread]: Store serial: [22771490]
+[2024-04-15 15:10:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22771490]
+[2024-04-15 15:10:34] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-15 15:10:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: microsoft-kiota-serialization-json
+[2024-04-15 15:10:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bigdl-core-xe-esimd
+[2024-04-15 15:10:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: policy-priority-inference
+[2024-04-15 15:10:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cyg-mnt-point
+[2024-04-15 15:10:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: monai
+[2024-04-15 15:10:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dig-ass-ep-protos
+[2024-04-15 15:10:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dig-ass-chat-protos
+[2024-04-15 15:10:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dig-ass-critic-protos
+[2024-04-15 15:10:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: phreeqpython
+[2024-04-15 15:10:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: BioTEMPy
+[2024-04-15 15:10:34] INFO root fetch - processPackages [policy-priority-inference]: New version: [3.0.3] Old Version: [3.0.2]
+[2024-04-15 15:10:34] WARNING root fetch - processPackages [cyg-mnt-point]: Skipping, unable to determine old version
+[2024-04-15 15:10:34] INFO root fetch - processPackages [cyg-mnt-point]: Start processing: dig-ass-text-protos
+[2024-04-15 15:10:34] INFO root fetch - main [MainThread]: End processing [cyg-mnt-point] error
+[2024-04-15 15:10:34] INFO root fetch - processPackages [policy-priority-inference]: Downloading https://files.pythonhosted.org/packages/bc/1b/50d1711c41a9a9c24707c024bbc901d202dfdffcb9597bb23b0b2df788d6/policy_priority_inference-3.0.2.tar.gz
+[2024-04-15 15:10:34] INFO root fetch - processPackages [phreeqpython]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-04-15 15:10:34] INFO root fetch - processPackages [microsoft-kiota-serialization-json]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-15 15:10:34] INFO root fetch - processPackages [monai]: New version: [1.3.1rc3] Old Version: [1.3.1rc2]
+[2024-04-15 15:10:34] INFO root fetch - processPackages [dig-ass-critic-protos]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-15 15:10:34] INFO root fetch - processPackages [dig-ass-ep-protos]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-15 15:10:34] INFO root fetch - processPackages [dig-ass-chat-protos]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-15 15:10:34] INFO root fetch - processPackages [bigdl-core-xe-esimd]: New version: [2.5.0b20240415] Old Version: [2.5.0b20240414]
+[2024-04-15 15:10:34] INFO root fetch - processPackages [BioTEMPy]: New version: [2.2.0a1] Old Version: [2.2.0a0]
+[2024-04-15 15:10:34] INFO root fetch - processPackages [dig-ass-text-protos]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-15 15:10:34] INFO root fetch - processPackages [microsoft-kiota-serialization-json]: Downloading https://files.pythonhosted.org/packages/d8/b7/fadead43cfb806ecd7eeeb8a725e333903810ff34621b93f8180051acacd/microsoft_kiota_serialization_json-1.1.0.tar.gz
+[2024-04-15 15:10:34] INFO root fetch - processPackages [policy-priority-inference]: Downloading https://files.pythonhosted.org/packages/3a/77/253302cc13b8b28590fe59b1da006bcca546e1fba396d764da9b11e4850e/policy_priority_inference-3.0.3.tar.gz
+[2024-04-15 15:10:34] INFO root fetch - processPackages [bigdl-core-xe-esimd]: Downloading https://files.pythonhosted.org/packages/0d/a2/f61a091a7a657505bec55ef68428ea37a8200fbecd087090b2f8cfd2e2b0/bigdl_core_xe_esimd-2.5.0b20240414-cp39-cp39-manylinux2010_x86_64.whl
+[2024-04-15 15:10:34] INFO root fetch - processPackages [phreeqpython]: Downloading https://files.pythonhosted.org/packages/2e/43/e4ea12d518436d5b9d804aab232c1c4c9b925aa016922117c05c619f7167/phreeqpython-1.5.0.tar.gz
+[2024-04-15 15:10:34] INFO root fetch - processPackages [dig-ass-critic-protos]: Downloading https://files.pythonhosted.org/packages/cc/bb/2678cf9089816e840b44f95fd5f735d270179bc63939872a5b9aab9d8c73/dig_ass_critic_protos-0.0.4.tar.gz
+[2024-04-15 15:10:34] INFO root fetch - processPackages [dig-ass-chat-protos]: Downloading https://files.pythonhosted.org/packages/ee/77/003d33d20f8fac3bdfb746b696103e4c1a0184229031275f40998fbff919/dig_ass_chat_protos-0.0.7.tar.gz
+[2024-04-15 15:10:34] INFO root fetch - processPackages [dig-ass-ep-protos]: Downloading https://files.pythonhosted.org/packages/58/e1/6783b80ed82991aa05989deeb56f7c2097935d1bf55dce187aa2b954d523/dig_ass_ep_protos-0.0.6.tar.gz
+[2024-04-15 15:10:34] WARNING root fetch - processPackages [phreeqpython]: Skipping package: exceeds size limit 15043660>=10485760
+[2024-04-15 15:10:34] INFO root fetch - processPackages [phreeqpython]: Start processing: codde-protocol
+[2024-04-15 15:10:34] INFO root fetch - main [MainThread]: End processing [phreeqpython] error
+[2024-04-15 15:10:34] INFO root fetch - processPackages [monai]: Downloading https://files.pythonhosted.org/packages/7c/04/8776a75a4344d47c5afab99afd078b5e7bf2421dc111facdaa689953c755/monai-1.3.1rc2.tar.gz
+[2024-04-15 15:10:34] INFO root fetch - processPackages [dig-ass-text-protos]: Downloading https://files.pythonhosted.org/packages/97/bb/af7b3974af5a60f44e8b83355074961eb44c0c768f66eb924d20a0a1e627/dig_ass_text_protos-0.0.4.tar.gz
+[2024-04-15 15:10:34] INFO root fetch - processPackages [BioTEMPy]: Downloading https://files.pythonhosted.org/packages/06/aa/2a894570f74dd3d7c1f2e2ffe566eaecd67aa9482e86afebf8ccd844e4bd/BioTEMPy-2.2.0a0.tar.gz
+[2024-04-15 15:10:34] INFO root fetch - processPackages [policy-priority-inference]: executing diffoscope
+[2024-04-15 15:10:34] INFO root fetch - processPackages [policy-priority-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policy_priority_inference-3.0.2.tar.gz tmp/policy_priority_inference-3.0.3.tar.gz --markdown 20240415/p/policy-priority-inference/3.0.2-3.0.3/README.md --exclude *.pyd
+[2024-04-15 15:10:35] INFO root fetch - processPackages [codde-protocol]: New version: [0.1.4] Old Version: [0.1.1]
+[2024-04-15 15:10:35] INFO root fetch - processPackages [microsoft-kiota-serialization-json]: Downloading https://files.pythonhosted.org/packages/4d/8a/d49702369bd82995b14898ca0041869670cf3b2fcb48a15cced6c72c3da4/microsoft_kiota_serialization_json-1.2.0.tar.gz
+[2024-04-15 15:10:35] INFO root fetch - processPackages [dig-ass-ep-protos]: Downloading https://files.pythonhosted.org/packages/c8/3e/1f514326c4b2ab10512112cf6ed801ec842f3fc3915f83746feb580ef888/dig_ass_ep_protos-0.0.7.tar.gz
+[2024-04-15 15:10:35] INFO root fetch - processPackages [dig-ass-chat-protos]: Downloading https://files.pythonhosted.org/packages/cc/ac/8b5ad15d803e1075430a98127bd9795deca99f9452c2481be81e019733ec/dig_ass_chat_protos-0.0.8.tar.gz
+[2024-04-15 15:10:35] INFO root fetch - processPackages [dig-ass-critic-protos]: Downloading https://files.pythonhosted.org/packages/88/7f/34f6ff4a4f30ae6aad7bcfebf89398262ee2d0dac5925338f51efc9cf992/dig_ass_critic_protos-0.0.5.tar.gz
+[2024-04-15 15:10:35] WARNING root fetch - processPackages [bigdl-core-xe-esimd]: Skipping package: exceeds size limit 61865775>=10485760
+[2024-04-15 15:10:35] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-esimd] error
+[2024-04-15 15:10:35] INFO root fetch - processPackages [microsoft-kiota-serialization-json]: executing diffoscope
+[2024-04-15 15:10:35] INFO root fetch - processPackages [microsoft-kiota-serialization-json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microsoft_kiota_serialization_json-1.1.0.tar.gz tmp/microsoft_kiota_serialization_json-1.2.0.tar.gz --markdown 20240415/m/microsoft-kiota-serialization-json/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-04-15 15:10:35] INFO root fetch - processPackages [dig-ass-text-protos]: Downloading https://files.pythonhosted.org/packages/d9/8f/5ea8383dfb1f512b3e329e637552e5a095fc0a620c12817e9155206295a6/dig_ass_text_protos-0.0.5.tar.gz
+[2024-04-15 15:10:35] INFO root fetch - processPackages [codde-protocol]: Downloading https://files.pythonhosted.org/packages/32/b5/c112f1e43b4f0957288e30c929c38b572c77d32981b3dfb7ebf07654d7c4/codde_protocol-0.1.1-cp311-cp311-manylinux_2_34_x86_64.whl
+[2024-04-15 15:10:35] INFO root fetch - processPackages [BioTEMPy]: Downloading https://files.pythonhosted.org/packages/26/5b/3c1507e06c74e2b1b2beacab6677016ac5ab1086084d027ed0dbaf91c436/BioTEMPy-2.2.0a1.tar.gz
+[2024-04-15 15:10:35] INFO root fetch - processPackages [monai]: Downloading https://files.pythonhosted.org/packages/87/aa/bf47cbdf21c217b39874d67d8c9eac6a28a01382e985c96dfa245511b4f6/monai-1.3.1rc3.tar.gz
+[2024-04-15 15:10:35] INFO root fetch - processPackages [dig-ass-ep-protos]: executing diffoscope
+[2024-04-15 15:10:35] INFO root fetch - processPackages [dig-ass-ep-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dig_ass_ep_protos-0.0.6.tar.gz tmp/dig_ass_ep_protos-0.0.7.tar.gz --markdown 20240415/d/dig-ass-ep-protos/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-15 15:10:35] INFO root fetch - processPackages [dig-ass-critic-protos]: executing diffoscope
+[2024-04-15 15:10:35] INFO root fetch - processPackages [dig-ass-critic-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dig_ass_critic_protos-0.0.4.tar.gz tmp/dig_ass_critic_protos-0.0.5.tar.gz --markdown 20240415/d/dig-ass-critic-protos/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-15 15:10:35] INFO root fetch - processPackages [dig-ass-chat-protos]: executing diffoscope
+[2024-04-15 15:10:35] INFO root fetch - processPackages [dig-ass-chat-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dig_ass_chat_protos-0.0.7.tar.gz tmp/dig_ass_chat_protos-0.0.8.tar.gz --markdown 20240415/d/dig-ass-chat-protos/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-15 15:10:35] INFO root fetch - processPackages [dig-ass-text-protos]: executing diffoscope
+[2024-04-15 15:10:35] INFO root fetch - processPackages [dig-ass-text-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dig_ass_text_protos-0.0.4.tar.gz tmp/dig_ass_text_protos-0.0.5.tar.gz --markdown 20240415/d/dig-ass-text-protos/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-15 15:10:35] INFO root fetch - processPackages [policy-priority-inference]: Remove: archive file [/home/abi/fetcher/tmp/policy_priority_inference-3.0.2.tar.gz]
+[2024-04-15 15:10:35] INFO root fetch - processPackages [policy-priority-inference]: Remove: archive file [/home/abi/fetcher/tmp/policy_priority_inference-3.0.3.tar.gz]
+[2024-04-15 15:10:35] INFO root fetch - main [MainThread]: End processing [policy-priority-inference]: success
+[2024-04-15 15:10:35] INFO root fetch - processPackages [BioTEMPy]: executing diffoscope
+[2024-04-15 15:10:35] INFO root fetch - processPackages [BioTEMPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BioTEMPy-2.2.0a0.tar.gz tmp/BioTEMPy-2.2.0a1.tar.gz --markdown 20240415/B/BioTEMPy/2.2.0a0-2.2.0a1/README.md --exclude *.pyd
+[2024-04-15 15:10:35] INFO root fetch - processPackages [monai]: executing diffoscope
+[2024-04-15 15:10:35] INFO root fetch - processPackages [monai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monai-1.3.1rc2.tar.gz tmp/monai-1.3.1rc3.tar.gz --markdown 20240415/m/monai/1.3.1rc2-1.3.1rc3/README.md --exclude *.pyd
+[2024-04-15 15:10:35] INFO root fetch - processPackages [codde-protocol]: Downloading https://files.pythonhosted.org/packages/9b/ad/127aff3a55e0e6bb5efc3e936b5bbaee71dcbf4078aff17f7097542e0b04/codde_protocol-0.1.4.tar.gz
+[2024-04-15 15:10:36] INFO root fetch - processPackages [microsoft-kiota-serialization-json]: Remove: archive file [/home/abi/fetcher/tmp/microsoft_kiota_serialization_json-1.1.0.tar.gz]
+[2024-04-15 15:10:36] INFO root fetch - processPackages [microsoft-kiota-serialization-json]: Remove: archive file [/home/abi/fetcher/tmp/microsoft_kiota_serialization_json-1.2.0.tar.gz]
+[2024-04-15 15:10:36] INFO root fetch - main [MainThread]: End processing [microsoft-kiota-serialization-json]: success
+[2024-04-15 15:10:36] INFO root fetch - processPackages [dig-ass-critic-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_critic_protos-0.0.4.tar.gz]
+[2024-04-15 15:10:36] INFO root fetch - processPackages [dig-ass-critic-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_critic_protos-0.0.5.tar.gz]
+[2024-04-15 15:10:36] INFO root fetch - main [MainThread]: End processing [dig-ass-critic-protos]: success
+[2024-04-15 15:10:36] INFO root fetch - processPackages [dig-ass-chat-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_chat_protos-0.0.7.tar.gz]
+[2024-04-15 15:10:36] INFO root fetch - processPackages [dig-ass-chat-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_chat_protos-0.0.8.tar.gz]
+[2024-04-15 15:10:36] INFO root fetch - main [MainThread]: End processing [dig-ass-chat-protos]: success
+[2024-04-15 15:10:36] INFO root fetch - processPackages [dig-ass-text-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_text_protos-0.0.4.tar.gz]
+[2024-04-15 15:10:36] INFO root fetch - processPackages [dig-ass-text-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_text_protos-0.0.5.tar.gz]
+[2024-04-15 15:10:36] INFO root fetch - main [MainThread]: End processing [dig-ass-text-protos]: success
+[2024-04-15 15:10:36] INFO root fetch - processPackages [dig-ass-ep-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_ep_protos-0.0.6.tar.gz]
+[2024-04-15 15:10:36] INFO root fetch - processPackages [dig-ass-ep-protos]: Remove: archive file [/home/abi/fetcher/tmp/dig_ass_ep_protos-0.0.7.tar.gz]
+[2024-04-15 15:10:36] INFO root fetch - main [MainThread]: End processing [dig-ass-ep-protos]: success
+[2024-04-15 15:10:36] INFO root fetch - processPackages [codde-protocol]: executing diffoscope
+[2024-04-15 15:10:36] INFO root fetch - processPackages [codde-protocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codde_protocol-0.1.1-cp311-cp311-manylinux_2_34_x86_64.whl.zip tmp/codde_protocol-0.1.4.tar.gz --markdown 20240415/c/codde-protocol/0.1.1-0.1.4/README.md --exclude *.pyd
+[2024-04-15 15:10:37] INFO root fetch - processPackages [BioTEMPy]: Remove: archive file [/home/abi/fetcher/tmp/BioTEMPy-2.2.0a0.tar.gz]
+[2024-04-15 15:10:37] INFO root fetch - processPackages [BioTEMPy]: Remove: archive file [/home/abi/fetcher/tmp/BioTEMPy-2.2.0a1.tar.gz]
+[2024-04-15 15:10:37] INFO root fetch - main [MainThread]: End processing [BioTEMPy]: success
+[2024-04-15 15:10:38] INFO root fetch - processPackages [codde-protocol]: Remove: archive file [/home/abi/fetcher/tmp/codde_protocol-0.1.1-cp311-cp311-manylinux_2_34_x86_64.whl.zip]
+[2024-04-15 15:10:38] INFO root fetch - processPackages [codde-protocol]: Remove: archive file [/home/abi/fetcher/tmp/codde_protocol-0.1.4.tar.gz]
+[2024-04-15 15:10:38] INFO root fetch - main [MainThread]: End processing [codde-protocol]: success
+[2024-04-15 15:10:41] INFO root fetch - processPackages [monai]: Remove: archive file [/home/abi/fetcher/tmp/monai-1.3.1rc2.tar.gz]
+[2024-04-15 15:10:41] INFO root fetch - processPackages [monai]: Remove: archive file [/home/abi/fetcher/tmp/monai-1.3.1rc3.tar.gz]
+[2024-04-15 15:10:41] INFO root fetch - main [MainThread]: End processing [monai]: success
+[2024-04-15 15:10:41] INFO root fetch - main [MainThread]: Store serial: [22771533]
