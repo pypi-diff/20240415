@@ -14946,3 +14946,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 12:30:55] INFO root fetch - processPackages [DLMS-Firmware-updater]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_Firmware_updater-0.2.1.tar.gz]
 [2024-04-15 12:30:55] INFO root fetch - main [MainThread]: End processing [DLMS-Firmware-updater]: success
 [2024-04-15 12:30:55] INFO root fetch - main [MainThread]: Store serial: [22769363]
+[2024-04-15 12:33:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22769363]
+[2024-04-15 12:33:05] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-15 12:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytest-jtr
+[2024-04-15 12:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cg
+[2024-04-15 12:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fta
+[2024-04-15 12:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mxq-data-science-db
+[2024-04-15 12:33:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bbb-dl
+[2024-04-15 12:33:05] INFO root fetch - processPackages [fta]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-15 12:33:05] INFO root fetch - processPackages [pytest-jtr]: New version: [1.2.0] Old Version: [1.1.1]
+[2024-04-15 12:33:05] INFO root fetch - processPackages [mxq-data-science-db]: New version: [1.2.8] Old Version: [1.2.7]
+[2024-04-15 12:33:05] INFO root fetch - processPackages [cg]: New version: [59.9.1] Old Version: [59.9.0]
+[2024-04-15 12:33:05] INFO root fetch - processPackages [fta]: Downloading https://files.pythonhosted.org/packages/d5/a5/df4ef2dc453ad808bd3baf44f572177df2baf5ef4ac0abf34e729fcf6df9/fta-0.0.5.tar.gz
+[2024-04-15 12:33:05] INFO root fetch - processPackages [bbb-dl]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-15 12:33:05] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/a4/79/664dc1d5b463ee0406caa2e43f4dec36f68ff9a520e4d9d51666e6ea5021/cg-59.9.0.tar.gz
+[2024-04-15 12:33:05] INFO root fetch - processPackages [pytest-jtr]: Downloading https://files.pythonhosted.org/packages/52/de/fe09dfda40a40afff186a5ea1fa3857a4077cb07a663c4b2478b66451a39/pytest-jtr-1.1.1.tar.gz
+[2024-04-15 12:33:05] INFO root fetch - processPackages [mxq-data-science-db]: Downloading https://files.pythonhosted.org/packages/7d/8f/5c683ddcd855f34aadab447e0eabeae8412a7029720823de7df463e1921c/mxq_data_science_db-1.2.7.tar.gz
+[2024-04-15 12:33:05] INFO root fetch - processPackages [bbb-dl]: Downloading https://files.pythonhosted.org/packages/f2/89/f2d8618b61cbac35cf5b6de4621137814497d7adc1c0e8244e8f31b32c09/bbb-dl-1.0.8.tar.gz
+[2024-04-15 12:33:05] INFO root fetch - processPackages [fta]: Downloading https://files.pythonhosted.org/packages/8e/88/89fa686f35739445919d37c789c698d5e1f9f17007acacde638c2efdfe81/fta-0.0.6.tar.gz
+[2024-04-15 12:33:05] INFO root fetch - processPackages [pytest-jtr]: Downloading https://files.pythonhosted.org/packages/9d/1c/c4fdd3cd5f6750fc24e51bd0e4a2f0fe53ca6d989f5d8cbb89a7576b9fdb/pytest_jtr-1.2.0.tar.gz
+[2024-04-15 12:33:05] INFO root fetch - processPackages [fta]: executing diffoscope
+[2024-04-15 12:33:05] INFO root fetch - processPackages [fta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fta-0.0.5.tar.gz tmp/fta-0.0.6.tar.gz --markdown 20240415/f/fta/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-15 12:33:05] INFO root fetch - processPackages [mxq-data-science-db]: Downloading https://files.pythonhosted.org/packages/3c/7d/0dfa9481dd6e53e73fa842dbf9aed4403bd2f011971bd31d469c706ff946/mxq_data_science_db-1.2.8.tar.gz
+[2024-04-15 12:33:05] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/da/9f/c4869b003070cd94f090db42e1f076a49bf9c0b1856d209eeb540379d711/cg-59.9.1.tar.gz
+[2024-04-15 12:33:06] INFO root fetch - processPackages [pytest-jtr]: executing diffoscope
+[2024-04-15 12:33:06] INFO root fetch - processPackages [pytest-jtr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-jtr-1.1.1.tar.gz tmp/pytest_jtr-1.2.0.tar.gz --markdown 20240415/p/pytest-jtr/1.1.1-1.2.0/README.md --exclude *.pyd
+[2024-04-15 12:33:06] INFO root fetch - processPackages [bbb-dl]: Downloading https://files.pythonhosted.org/packages/ad/1b/421d4d54aa306dc05377bb0d67a2c444254bd9e0f4e23685e8250341ddd6/bbb-dl-1.0.9.tar.gz
+[2024-04-15 12:33:06] INFO root fetch - processPackages [mxq-data-science-db]: executing diffoscope
+[2024-04-15 12:33:06] INFO root fetch - processPackages [mxq-data-science-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mxq_data_science_db-1.2.7.tar.gz tmp/mxq_data_science_db-1.2.8.tar.gz --markdown 20240415/m/mxq-data-science-db/1.2.7-1.2.8/README.md --exclude *.pyd
+[2024-04-15 12:33:06] INFO root fetch - processPackages [bbb-dl]: executing diffoscope
+[2024-04-15 12:33:06] INFO root fetch - processPackages [bbb-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbb-dl-1.0.8.tar.gz tmp/bbb-dl-1.0.9.tar.gz --markdown 20240415/b/bbb-dl/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-15 12:33:06] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-04-15 12:33:06] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-59.9.0.tar.gz tmp/cg-59.9.1.tar.gz --markdown 20240415/c/cg/59.9.0-59.9.1/README.md --exclude *.pyd
+[2024-04-15 12:33:06] INFO root fetch - processPackages [fta]: Remove: archive file [/home/abi/fetcher/tmp/fta-0.0.5.tar.gz]
+[2024-04-15 12:33:06] INFO root fetch - processPackages [fta]: Remove: archive file [/home/abi/fetcher/tmp/fta-0.0.6.tar.gz]
+[2024-04-15 12:33:06] INFO root fetch - main [MainThread]: End processing [fta]: success
+[2024-04-15 12:33:06] INFO root fetch - processPackages [pytest-jtr]: Remove: archive file [/home/abi/fetcher/tmp/pytest-jtr-1.1.1.tar.gz]
+[2024-04-15 12:33:06] INFO root fetch - processPackages [pytest-jtr]: Remove: archive file [/home/abi/fetcher/tmp/pytest_jtr-1.2.0.tar.gz]
+[2024-04-15 12:33:06] INFO root fetch - main [MainThread]: End processing [pytest-jtr]: success
+[2024-04-15 12:33:06] INFO root fetch - processPackages [mxq-data-science-db]: Remove: archive file [/home/abi/fetcher/tmp/mxq_data_science_db-1.2.7.tar.gz]
+[2024-04-15 12:33:06] INFO root fetch - processPackages [mxq-data-science-db]: Remove: archive file [/home/abi/fetcher/tmp/mxq_data_science_db-1.2.8.tar.gz]
+[2024-04-15 12:33:06] INFO root fetch - main [MainThread]: End processing [mxq-data-science-db]: success
+[2024-04-15 12:33:06] INFO root fetch - processPackages [bbb-dl]: Remove: archive file [/home/abi/fetcher/tmp/bbb-dl-1.0.8.tar.gz]
+[2024-04-15 12:33:06] INFO root fetch - processPackages [bbb-dl]: Remove: archive file [/home/abi/fetcher/tmp/bbb-dl-1.0.9.tar.gz]
+[2024-04-15 12:33:06] INFO root fetch - main [MainThread]: End processing [bbb-dl]: success
+[2024-04-15 12:33:10] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-59.9.0.tar.gz]
+[2024-04-15 12:33:10] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-59.9.1.tar.gz]
+[2024-04-15 12:33:10] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-04-15 12:33:10] INFO root fetch - main [MainThread]: Store serial: [22769379]
