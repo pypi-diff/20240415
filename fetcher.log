@@ -4123,3 +4123,39 @@
 [2024-04-15 05:28:43] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
 [2024-04-15 05:28:43] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
 [2024-04-15 05:28:43] INFO root fetch - main [MainThread]: Store serial: [22765050]
+[2024-04-15 05:30:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22765050]
+[2024-04-15 05:30:52] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-15 05:30:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: remindmail
+[2024-04-15 05:30:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: funtoo-ramdisk
+[2024-04-15 05:30:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: djgentelella
+[2024-04-15 05:30:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gma
+[2024-04-15 05:30:52] INFO root fetch - processPackages [funtoo-ramdisk]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-04-15 05:30:52] INFO root fetch - processPackages [djgentelella]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-15 05:30:52] INFO root fetch - processPackages [gma]: New version: [2.0.9a1] Old Version: [2.0.8]
+[2024-04-15 05:30:52] INFO root fetch - processPackages [remindmail]: New version: [2024.4.14.1] Old Version: [2024.3.15.1]
+[2024-04-15 05:30:52] INFO root fetch - processPackages [funtoo-ramdisk]: Downloading https://files.pythonhosted.org/packages/ae/7d/97e4fb2652319c7a1d66b54f0145546d9a76d8955041931bc78fba6d6ab9/funtoo-ramdisk-1.1.5.tar.gz
+[2024-04-15 05:30:52] INFO root fetch - processPackages [djgentelella]: Downloading https://files.pythonhosted.org/packages/78/23/cd69bdc751c84c852bedb27a96954a637b3e392467582c5a2be8cf72f4d0/djgentelella-0.3.8.tar.gz
+[2024-04-15 05:30:52] INFO root fetch - processPackages [remindmail]: Downloading https://files.pythonhosted.org/packages/c0/90/79a9aaef0f1e3e98af7c0d45c3c6832b62701716e386faf16479b1d6b39d/remindmail-2024.3.15.1.tar.gz
+[2024-04-15 05:30:52] INFO root fetch - processPackages [gma]: Downloading https://files.pythonhosted.org/packages/28/79/686f3aaf5d3465981fa3ab6dd199ef43afbd61e22464db5a8b6aba9c8a02/gma-2.0.8-cp39-cp39-win_amd64.whl
+[2024-04-15 05:30:52] INFO root fetch - processPackages [remindmail]: Downloading https://files.pythonhosted.org/packages/f6/ef/78970acf91424d9ec733bf5a8a3bc4faaf8a57480eec0148c1e7ad027597/remindmail-2024.4.14.1.tar.gz
+[2024-04-15 05:30:53] INFO root fetch - processPackages [funtoo-ramdisk]: Downloading https://files.pythonhosted.org/packages/f3/67/b3bf3836d65feca182c4912891b0536f85915d62dc8ac4cd26ddb1504c08/funtoo_ramdisk-1.1.6.tar.gz
+[2024-04-15 05:30:53] INFO root fetch - processPackages [remindmail]: executing diffoscope
+[2024-04-15 05:30:53] INFO root fetch - processPackages [remindmail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remindmail-2024.3.15.1.tar.gz tmp/remindmail-2024.4.14.1.tar.gz --markdown 20240415/r/remindmail/2024.3.15.1-2024.4.14.1/README.md --exclude *.pyd
+[2024-04-15 05:30:53] INFO root fetch - processPackages [gma]: Downloading https://files.pythonhosted.org/packages/c8/61/e6fb7fa82e1d1997a5e3824712d99007903fee25bca675d76bdd7e93e906/gma-2.0.9a1-cp38-cp38-win_amd64.whl
+[2024-04-15 05:30:53] INFO root fetch - processPackages [funtoo-ramdisk]: executing diffoscope
+[2024-04-15 05:30:53] INFO root fetch - processPackages [funtoo-ramdisk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funtoo-ramdisk-1.1.5.tar.gz tmp/funtoo_ramdisk-1.1.6.tar.gz --markdown 20240415/f/funtoo-ramdisk/1.1.5-1.1.6/README.md --exclude *.pyd
+[2024-04-15 05:30:53] INFO root fetch - processPackages [remindmail]: Remove: archive file [/home/abi/fetcher/tmp/remindmail-2024.3.15.1.tar.gz]
+[2024-04-15 05:30:53] INFO root fetch - processPackages [remindmail]: Remove: archive file [/home/abi/fetcher/tmp/remindmail-2024.4.14.1.tar.gz]
+[2024-04-15 05:30:53] INFO root fetch - main [MainThread]: End processing [remindmail]: success
+[2024-04-15 05:30:53] WARNING root fetch - processPackages [gma]: Skipping package: exceeds size limit 31114129>=10485760
+[2024-04-15 05:30:53] INFO root fetch - main [MainThread]: End processing [gma] error
+[2024-04-15 05:30:53] INFO root fetch - processPackages [funtoo-ramdisk]: Remove: archive file [/home/abi/fetcher/tmp/funtoo-ramdisk-1.1.5.tar.gz]
+[2024-04-15 05:30:53] INFO root fetch - processPackages [funtoo-ramdisk]: Remove: archive file [/home/abi/fetcher/tmp/funtoo_ramdisk-1.1.6.tar.gz]
+[2024-04-15 05:30:53] INFO root fetch - main [MainThread]: End processing [funtoo-ramdisk]: success
+[2024-04-15 05:30:54] INFO root fetch - processPackages [djgentelella]: Downloading https://files.pythonhosted.org/packages/cd/46/48a51d1b5c178a3a4eb29ebff1b94c3ec4b1903fbb7ea2f63343ec0686b3/djgentelella-0.3.9.tar.gz
+[2024-04-15 05:30:54] INFO root fetch - processPackages [djgentelella]: executing diffoscope
+[2024-04-15 05:30:54] INFO root fetch - processPackages [djgentelella]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djgentelella-0.3.8.tar.gz tmp/djgentelella-0.3.9.tar.gz --markdown 20240415/d/djgentelella/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-15 05:30:59] INFO root fetch - processPackages [djgentelella]: Remove: archive file [/home/abi/fetcher/tmp/djgentelella-0.3.8.tar.gz]
+[2024-04-15 05:30:59] INFO root fetch - processPackages [djgentelella]: Remove: archive file [/home/abi/fetcher/tmp/djgentelella-0.3.9.tar.gz]
+[2024-04-15 05:30:59] INFO root fetch - main [MainThread]: End processing [djgentelella]: success
+[2024-04-15 05:30:59] INFO root fetch - main [MainThread]: Store serial: [22765066]
