@@ -1736,3 +1736,42 @@
 [2024-04-15 02:28:18] INFO root fetch - processPackages [byzerllm]: Remove: archive file [/home/abi/fetcher/tmp/byzerllm-0.1.9.tar.gz]
 [2024-04-15 02:28:18] INFO root fetch - main [MainThread]: End processing [byzerllm]: success
 [2024-04-15 02:28:18] INFO root fetch - main [MainThread]: Store serial: [22763902]
+[2024-04-15 02:30:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22763902]
+[2024-04-15 02:30:26] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-15 02:30:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: privates.py
+[2024-04-15 02:30:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mqt-core
+[2024-04-15 02:30:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pih-plb-rw-ntf
+[2024-04-15 02:30:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tosspay
+[2024-04-15 02:30:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yoto-api
+[2024-04-15 02:30:26] INFO root fetch - processPackages [yoto-api]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-15 02:30:26] WARNING root fetch - processPackages [tosspay]: Skipping, unable to determine old version
+[2024-04-15 02:30:26] INFO root fetch - main [MainThread]: End processing [tosspay] error
+[2024-04-15 02:30:26] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/de/f4/5ee0600af4a566d3f479406bf7395f04ea324d4c920e0a5443915f286413/yoto_api-1.0.8.tar.gz
+[2024-04-15 02:30:26] INFO root fetch - processPackages [pih-plb-rw-ntf]: New version: [0.14] Old Version: [0.13]
+[2024-04-15 02:30:26] INFO root fetch - processPackages [privates.py]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-15 02:30:26] INFO root fetch - processPackages [mqt-core]: New version: [2.4.0] Old Version: [2.3.0]
+[2024-04-15 02:30:26] INFO root fetch - processPackages [pih-plb-rw-ntf]: Downloading https://files.pythonhosted.org/packages/13/82/372103dbf953aa0ebe78d7712e065ca8243bc41d3464f78ccbf329ad60b1/pih-plb_rw_ntf-0.13.tar.gz
+[2024-04-15 02:30:26] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/29/29/1b344cc343dfdd31eed135d8da17d3752522853f41f4af8843665d80102f/yoto_api-1.0.9.tar.gz
+[2024-04-15 02:30:26] INFO root fetch - processPackages [privates.py]: Downloading https://files.pythonhosted.org/packages/d4/b2/029abd712bed6002924f6d1bc27e612e950263fa173557e8cf3f02c2fc63/privates_py-0.1.0.tar.gz
+[2024-04-15 02:30:26] INFO root fetch - processPackages [mqt-core]: Downloading https://files.pythonhosted.org/packages/15/8f/ea4d446a991c6698c4e062198db0f2c484853e3604132117c5dadc7c8d8e/mqt_core-2.3.0.tar.gz
+[2024-04-15 02:30:26] INFO root fetch - processPackages [yoto-api]: executing diffoscope
+[2024-04-15 02:30:26] INFO root fetch - processPackages [yoto-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yoto_api-1.0.8.tar.gz tmp/yoto_api-1.0.9.tar.gz --markdown 20240415/y/yoto-api/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-15 02:30:26] INFO root fetch - processPackages [pih-plb-rw-ntf]: Downloading https://files.pythonhosted.org/packages/9a/ad/0f31162df384bddc227b9362f46e1c95281a8d108d8c5aaffb5a24d27a39/pih-plb_rw_ntf-0.14.tar.gz
+[2024-04-15 02:30:26] INFO root fetch - processPackages [privates.py]: Downloading https://files.pythonhosted.org/packages/97/00/8425694320baa8cf0d62f5d2f20d439c83252951bdc14e0f0261c8802b9f/privates_py-0.2.0.tar.gz
+[2024-04-15 02:30:27] INFO root fetch - processPackages [mqt-core]: Downloading https://files.pythonhosted.org/packages/28/54/2a5f6a1b03014f81d43ad9c2d062e043e8f49139fb465cb0980d1582be8e/mqt_core-2.4.0-cp312-cp312-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl
+[2024-04-15 02:30:27] INFO root fetch - processPackages [privates.py]: executing diffoscope
+[2024-04-15 02:30:27] INFO root fetch - processPackages [privates.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/privates_py-0.1.0.tar.gz tmp/privates_py-0.2.0.tar.gz --markdown 20240415/p/privates.py/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-15 02:30:27] INFO root fetch - processPackages [pih-plb-rw-ntf]: executing diffoscope
+[2024-04-15 02:30:27] INFO root fetch - processPackages [pih-plb-rw-ntf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-plb_rw_ntf-0.13.tar.gz tmp/pih-plb_rw_ntf-0.14.tar.gz --markdown 20240415/p/pih-plb-rw-ntf/0.13-0.14/README.md --exclude *.pyd
+[2024-04-15 02:30:27] WARNING root fetch - processPackages [mqt-core]: Skipping package: exceeds size limit 44921382>=10485760
+[2024-04-15 02:30:27] INFO root fetch - main [MainThread]: End processing [mqt-core] error
+[2024-04-15 02:30:27] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.0.8.tar.gz]
+[2024-04-15 02:30:27] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.0.9.tar.gz]
+[2024-04-15 02:30:27] INFO root fetch - main [MainThread]: End processing [yoto-api]: success
+[2024-04-15 02:30:27] INFO root fetch - processPackages [privates.py]: Remove: archive file [/home/abi/fetcher/tmp/privates_py-0.1.0.tar.gz]
+[2024-04-15 02:30:27] INFO root fetch - processPackages [privates.py]: Remove: archive file [/home/abi/fetcher/tmp/privates_py-0.2.0.tar.gz]
+[2024-04-15 02:30:27] INFO root fetch - main [MainThread]: End processing [privates.py]: success
+[2024-04-15 02:30:27] INFO root fetch - processPackages [pih-plb-rw-ntf]: Remove: archive file [/home/abi/fetcher/tmp/pih-plb_rw_ntf-0.13.tar.gz]
+[2024-04-15 02:30:27] INFO root fetch - processPackages [pih-plb-rw-ntf]: Remove: archive file [/home/abi/fetcher/tmp/pih-plb_rw_ntf-0.14.tar.gz]
+[2024-04-15 02:30:27] INFO root fetch - main [MainThread]: End processing [pih-plb-rw-ntf]: success
+[2024-04-15 02:30:27] INFO root fetch - main [MainThread]: Store serial: [22763933]
