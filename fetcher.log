@@ -20783,3 +20783,67 @@ EOFError: EOF read where object expected
 [2024-04-15 15:48:46] INFO root fetch - processPackages [django-restit]: Remove: archive file [/home/abi/fetcher/tmp/django_restit-4.2.9.tar.gz]
 [2024-04-15 15:48:46] INFO root fetch - main [MainThread]: End processing [django-restit]: success
 [2024-04-15 15:48:46] INFO root fetch - main [MainThread]: Store serial: [22772014]
+[2024-04-15 15:50:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22772014]
+[2024-04-15 15:50:55] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-15 15:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cloudfloordns
+[2024-04-15 15:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cogflow
+[2024-04-15 15:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arrlio
+[2024-04-15 15:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sysrev
+[2024-04-15 15:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tsk-monster
+[2024-04-15 15:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: imio.webspellchecker
+[2024-04-15 15:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tsk-monster
+[2024-04-15 15:50:56] INFO root fetch - processPackages [arrlio]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-15 15:50:56] INFO root fetch - processPackages [tsk-monster]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-15 15:50:56] INFO root fetch - processPackages [sysrev]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-04-15 15:50:56] INFO root fetch - processPackages [cloudfloordns]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-15 15:50:56] INFO root fetch - processPackages [tsk-monster]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-15 15:50:56] INFO root fetch - processPackages [cogflow]: New version: [1.8.0] Old Version: [1.6.0]
+[2024-04-15 15:50:56] INFO root fetch - processPackages [arrlio]: Downloading https://files.pythonhosted.org/packages/81/d8/6c42f081cd00cb49462f25e81a0de0a22435dfffb7ea0599c08fac7cf484/arrlio-0.8.0.tar.gz
+[2024-04-15 15:50:56] INFO root fetch - processPackages [imio.webspellchecker]: New version: [1.0b7] Old Version: [1.0b6]
+[2024-04-15 15:50:56] INFO root fetch - processPackages [sysrev]: Downloading https://files.pythonhosted.org/packages/e1/16/319ae268e2a32ecd51e8f5d68dfb9fc235bee43d12fcb34e25c3c931cb99/sysrev-1.2.2.tar.gz
+[2024-04-15 15:50:56] INFO root fetch - processPackages [tsk-monster]: Downloading https://files.pythonhosted.org/packages/37/1d/909d8d90bce691193ba9c7cbab6edfe8ef434db7e5b38dd2520121d4e483/tsk_monster-0.0.8.tar.gz
+[2024-04-15 15:50:56] INFO root fetch - processPackages [tsk-monster]: Downloading https://files.pythonhosted.org/packages/37/1d/909d8d90bce691193ba9c7cbab6edfe8ef434db7e5b38dd2520121d4e483/tsk_monster-0.0.8.tar.gz
+[2024-04-15 15:50:56] INFO root fetch - processPackages [cloudfloordns]: Downloading https://files.pythonhosted.org/packages/43/ab/98f8e80254f4531cd82b13d1bcba2b65346d574fdcc59c1f8aa868cf4421/cloudfloordns-0.1.2.tar.gz
+[2024-04-15 15:50:56] INFO root fetch - processPackages [cogflow]: Downloading https://files.pythonhosted.org/packages/44/bf/26c8f3e2378d1fdac30334792c350cdb9989f241360cd8df63afc74ab25d/cogflow-1.6.0.tar.gz
+[2024-04-15 15:50:56] INFO root fetch - processPackages [tsk-monster]: Downloading https://files.pythonhosted.org/packages/bd/0d/76bc9f0c428722f67988b8db745d256aefb82e1f9e36269eee144c2705f1/tsk_monster-0.0.9.tar.gz
+[2024-04-15 15:50:56] INFO root fetch - processPackages [imio.webspellchecker]: Downloading https://files.pythonhosted.org/packages/7f/b6/eed4d7145843ad359249dd02bf6bdad60a8b582648a421057459b20d0c1f/imio.webspellchecker-1.0b6.tar.gz
+[2024-04-15 15:50:56] INFO root fetch - processPackages [tsk-monster]: Downloading https://files.pythonhosted.org/packages/bd/0d/76bc9f0c428722f67988b8db745d256aefb82e1f9e36269eee144c2705f1/tsk_monster-0.0.9.tar.gz
+[2024-04-15 15:50:56] INFO root fetch - processPackages [arrlio]: Downloading https://files.pythonhosted.org/packages/75/ab/00e6d9e5834a37b99fddb9f192c46e0a8669d040fb0ad1403cc67ac38322/arrlio-0.9.0.tar.gz
+[2024-04-15 15:50:56] INFO root fetch - processPackages [cloudfloordns]: Downloading https://files.pythonhosted.org/packages/a2/76/d5e4bc363e1893c610d94fe4b4abec25b9915265da8042d40cee876f209a/cloudfloordns-0.1.3.tar.gz
+[2024-04-15 15:50:56] INFO root fetch - processPackages [tsk-monster]: executing diffoscope
+[2024-04-15 15:50:56] INFO root fetch - processPackages [tsk-monster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsk_monster-0.0.8.tar.gz tmp/tsk_monster-0.0.9.tar.gz --markdown 20240415/t/tsk-monster/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-15 15:50:56] INFO root fetch - processPackages [sysrev]: Downloading https://files.pythonhosted.org/packages/93/0f/8fb40b4875219622d93103a627fd42faa08cb6817be896d5d34d12fe04ff/sysrev-1.2.3.tar.gz
+[2024-04-15 15:50:56] INFO root fetch - processPackages [arrlio]: executing diffoscope
+[2024-04-15 15:50:56] INFO root fetch - processPackages [arrlio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arrlio-0.8.0.tar.gz tmp/arrlio-0.9.0.tar.gz --markdown 20240415/a/arrlio/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-15 15:50:56] INFO root fetch - processPackages [tsk-monster]: executing diffoscope
+[2024-04-15 15:50:56] INFO root fetch - processPackages [tsk-monster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsk_monster-0.0.8.tar.gz tmp/tsk_monster-0.0.9.tar.gz --markdown 20240415/t/tsk-monster/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-15 15:50:56] INFO root fetch - processPackages [cloudfloordns]: executing diffoscope
+[2024-04-15 15:50:56] INFO root fetch - processPackages [cloudfloordns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudfloordns-0.1.2.tar.gz tmp/cloudfloordns-0.1.3.tar.gz --markdown 20240415/c/cloudfloordns/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-15 15:50:56] INFO root fetch - processPackages [sysrev]: executing diffoscope
+[2024-04-15 15:50:56] INFO root fetch - processPackages [sysrev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sysrev-1.2.2.tar.gz tmp/sysrev-1.2.3.tar.gz --markdown 20240415/s/sysrev/1.2.2-1.2.3/README.md --exclude *.pyd
+[2024-04-15 15:50:56] INFO root fetch - processPackages [cogflow]: Downloading https://files.pythonhosted.org/packages/fd/19/7765cb0dcf5318c0a6ea7b98203147461fc86633a3dc0f2301a2c4103697/cogflow-1.8.0.tar.gz
+[2024-04-15 15:50:56] INFO root fetch - processPackages [imio.webspellchecker]: Downloading https://files.pythonhosted.org/packages/96/cf/b4c2dc7dd53cbea3056ccee191b67d90a17a60fdda43f488b0ea2c609165/imio.webspellchecker-1.0b7.tar.gz
+[2024-04-15 15:50:56] INFO root fetch - processPackages [cogflow]: executing diffoscope
+[2024-04-15 15:50:56] INFO root fetch - processPackages [cogflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cogflow-1.6.0.tar.gz tmp/cogflow-1.8.0.tar.gz --markdown 20240415/c/cogflow/1.6.0-1.8.0/README.md --exclude *.pyd
+[2024-04-15 15:50:57] INFO root fetch - processPackages [imio.webspellchecker]: executing diffoscope
+[2024-04-15 15:50:57] INFO root fetch - processPackages [imio.webspellchecker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.webspellchecker-1.0b6.tar.gz tmp/imio.webspellchecker-1.0b7.tar.gz --markdown 20240415/i/imio.webspellchecker/1.0b6-1.0b7/README.md --exclude *.pyd
+[2024-04-15 15:50:57] INFO root fetch - processPackages [tsk-monster]: Remove: archive file [/home/abi/fetcher/tmp/tsk_monster-0.0.8.tar.gz]
+[2024-04-15 15:50:57] INFO root fetch - processPackages [tsk-monster]: Remove: archive file [/home/abi/fetcher/tmp/tsk_monster-0.0.9.tar.gz]
+[2024-04-15 15:50:57] INFO root fetch - main [MainThread]: End processing [tsk-monster]: success
+[2024-04-15 15:50:57] INFO root fetch - processPackages [cloudfloordns]: Remove: archive file [/home/abi/fetcher/tmp/cloudfloordns-0.1.2.tar.gz]
+[2024-04-15 15:50:57] INFO root fetch - processPackages [cloudfloordns]: Remove: archive file [/home/abi/fetcher/tmp/cloudfloordns-0.1.3.tar.gz]
+[2024-04-15 15:50:57] INFO root fetch - main [MainThread]: End processing [cloudfloordns]: success
+[2024-04-15 15:50:57] INFO root fetch - processPackages [arrlio]: Remove: archive file [/home/abi/fetcher/tmp/arrlio-0.8.0.tar.gz]
+[2024-04-15 15:50:57] INFO root fetch - processPackages [arrlio]: Remove: archive file [/home/abi/fetcher/tmp/arrlio-0.9.0.tar.gz]
+[2024-04-15 15:50:57] INFO root fetch - main [MainThread]: End processing [arrlio]: success
+[2024-04-15 15:50:57] INFO root fetch - main [MainThread]: End processing [tsk-monster]: success
+[2024-04-15 15:50:57] INFO root fetch - processPackages [cogflow]: Remove: archive file [/home/abi/fetcher/tmp/cogflow-1.6.0.tar.gz]
+[2024-04-15 15:50:57] INFO root fetch - processPackages [cogflow]: Remove: archive file [/home/abi/fetcher/tmp/cogflow-1.8.0.tar.gz]
+[2024-04-15 15:50:57] INFO root fetch - main [MainThread]: End processing [cogflow]: success
+[2024-04-15 15:50:57] INFO root fetch - processPackages [sysrev]: Remove: archive file [/home/abi/fetcher/tmp/sysrev-1.2.2.tar.gz]
+[2024-04-15 15:50:57] INFO root fetch - processPackages [sysrev]: Remove: archive file [/home/abi/fetcher/tmp/sysrev-1.2.3.tar.gz]
+[2024-04-15 15:50:57] INFO root fetch - main [MainThread]: End processing [sysrev]: success
+[2024-04-15 15:50:57] INFO root fetch - processPackages [imio.webspellchecker]: Remove: archive file [/home/abi/fetcher/tmp/imio.webspellchecker-1.0b6.tar.gz]
+[2024-04-15 15:50:57] INFO root fetch - processPackages [imio.webspellchecker]: Remove: archive file [/home/abi/fetcher/tmp/imio.webspellchecker-1.0b7.tar.gz]
+[2024-04-15 15:50:57] INFO root fetch - main [MainThread]: End processing [imio.webspellchecker]: success
+[2024-04-15 15:50:57] INFO root fetch - main [MainThread]: Store serial: [22772034]
