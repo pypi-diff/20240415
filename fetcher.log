@@ -11141,3 +11141,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 10:15:06] INFO root fetch - processPackages [dgenerate]: Remove: archive file [/home/abi/fetcher/tmp/dgenerate-3.4.3.tar.gz]
 [2024-04-15 10:15:06] INFO root fetch - main [MainThread]: End processing [dgenerate]: success
 [2024-04-15 10:15:06] INFO root fetch - main [MainThread]: Store serial: [22767739]
+[2024-04-15 10:17:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22767739]
+[2024-04-15 10:17:14] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-15 10:17:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pongo-python
+[2024-04-15 10:17:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: waylay-sdk-rules
+[2024-04-15 10:17:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gref4hsi
+[2024-04-15 10:17:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyromongo
+[2024-04-15 10:17:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dm-aiomodbus
+[2024-04-15 10:17:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: waylay-sdk-rules-types
+[2024-04-15 10:17:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: up-tamer
+[2024-04-15 10:17:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: paper-forms
+[2024-04-15 10:17:15] INFO root fetch - processPackages [dm-aiomodbus]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-15 10:17:15] INFO root fetch - processPackages [dm-aiomodbus]: Downloading https://files.pythonhosted.org/packages/7d/5e/f62c7890a8cb44e5a7655a68a8f6cfa7ab49eadd3961807d9f7d60a6c984/dm-aiomodbus-0.1.5.tar.gz
+[2024-04-15 10:17:15] INFO root fetch - processPackages [gref4hsi]: New version: [0.1.9] Old Version: [0.1.5]
+[2024-04-15 10:17:15] INFO root fetch - processPackages [pongo-python]: New version: [3.0.0] Old Version: [2.0.3]
+[2024-04-15 10:17:15] INFO root fetch - processPackages [up-tamer]: New version: [1.1.3] Old Version: [1.1.2.1.dev1]
+[2024-04-15 10:17:15] INFO root fetch - processPackages [waylay-sdk-rules]: New version: [6.5.0rc1] Old Version: [6.5.0.20240415]
+[2024-04-15 10:17:15] INFO root fetch - processPackages [pyromongo]: New version: [0.0.7a0] Old Version: [0.0.6]
+[2024-04-15 10:17:15] INFO root fetch - processPackages [paper-forms]: New version: [0.5.3] Old Version: [0.5.2]
+[2024-04-15 10:17:15] INFO root fetch - processPackages [up-tamer]: Downloading https://files.pythonhosted.org/packages/67/0c/da5b748cbf86fe6bb8c8260d82190a023e866ff032b4cef5acb782f07a21/up_tamer-1.1.2.1.dev1.tar.gz
+[2024-04-15 10:17:15] INFO root fetch - processPackages [waylay-sdk-rules-types]: New version: [6.5.0rc1] Old Version: [6.5.0.20240415]
+[2024-04-15 10:17:15] INFO root fetch - processPackages [gref4hsi]: Downloading https://files.pythonhosted.org/packages/96/b2/34dde24cb7cba06a57f3fb5f2e6a958c16bd2bcd4ee3eec73e5c2d373d11/gref4hsi-0.1.5.tar.gz
+[2024-04-15 10:17:15] INFO root fetch - processPackages [dm-aiomodbus]: Downloading https://files.pythonhosted.org/packages/9e/bd/284bbcbe1641dd24601ebf440fe9ac88d18b6828002fddc3bcd71cdb57c3/dm_aiomodbus-0.1.6.tar.gz
+[2024-04-15 10:17:15] INFO root fetch - processPackages [waylay-sdk-rules]: Downloading https://files.pythonhosted.org/packages/64/c4/fb2c0afc8d54608f64aae9c96194db0fb77b153c34a46349ef0f0668fd6a/waylay_sdk_rules-6.5.0.20240415.tar.gz
+[2024-04-15 10:17:15] INFO root fetch - processPackages [pongo-python]: Downloading https://files.pythonhosted.org/packages/b6/f8/f9d28d24af2e49720ddde6fae0cf91c89d4c435296629f75481909b711f3/pongo-python-2.0.3.tar.gz
+[2024-04-15 10:17:15] INFO root fetch - processPackages [paper-forms]: Downloading https://files.pythonhosted.org/packages/d9/bc/9ad44db8f40775993ffac7c611887a174f36b5c3326905bec30e91040427/paper-forms-0.5.2.tar.gz
+[2024-04-15 10:17:15] INFO root fetch - processPackages [pyromongo]: Downloading https://files.pythonhosted.org/packages/66/c3/22fac07897aa2637840653d8e9141ba1a2b65541b1940e1f0b65cef35bde/pyromongo-0.0.6.tar.gz
+[2024-04-15 10:17:15] INFO root fetch - processPackages [waylay-sdk-rules-types]: Downloading https://files.pythonhosted.org/packages/11/0f/57709559ae24a675e88ae763e64ca6c2585d3d0761e64ba207896a96a6ec/waylay_sdk_rules_types-6.5.0.20240415.tar.gz
+[2024-04-15 10:17:15] INFO root fetch - processPackages [dm-aiomodbus]: executing diffoscope
+[2024-04-15 10:17:15] INFO root fetch - processPackages [dm-aiomodbus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm-aiomodbus-0.1.5.tar.gz tmp/dm_aiomodbus-0.1.6.tar.gz --markdown 20240415/d/dm-aiomodbus/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-15 10:17:15] INFO root fetch - processPackages [up-tamer]: Downloading https://files.pythonhosted.org/packages/28/39/837a803f23c558ee6a612d9ac7f2c981a7f5849da073ecd6fc14dec8215d/up_tamer-1.1.3.tar.gz
+[2024-04-15 10:17:15] INFO root fetch - processPackages [pongo-python]: Downloading https://files.pythonhosted.org/packages/7a/71/d47ba56318559f49f8c66843b446bb20ad3d95795665c4d3cb446ecb81aa/pongo-python-3.0.0.tar.gz
+[2024-04-15 10:17:15] INFO root fetch - processPackages [pyromongo]: Downloading https://files.pythonhosted.org/packages/5f/ac/830e47501401cdae494a99a069c3379155912711dedcf4e9e5391e882dd5/pyromongo-0.0.7a0.tar.gz
+[2024-04-15 10:17:15] INFO root fetch - processPackages [paper-forms]: Downloading https://files.pythonhosted.org/packages/64/01/50a62e8ac86c3bb72cb1291a9ac97a455d7d2b61612ab5c16cf8108c62f3/paper_forms-0.5.3.tar.gz
+[2024-04-15 10:17:15] INFO root fetch - processPackages [up-tamer]: executing diffoscope
+[2024-04-15 10:17:15] INFO root fetch - processPackages [waylay-sdk-rules]: Downloading https://files.pythonhosted.org/packages/27/7d/60aff7e6544eef34fc5158b464cc5d6f6324741ffb07ebd76ab2517d69dc/waylay-sdk-rules-6.5.0rc1.tar.gz
+[2024-04-15 10:17:15] INFO root fetch - processPackages [up-tamer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/up_tamer-1.1.2.1.dev1.tar.gz tmp/up_tamer-1.1.3.tar.gz --markdown 20240415/u/up-tamer/1.1.2.1.dev1-1.1.3/README.md --exclude *.pyd
+[2024-04-15 10:17:15] INFO root fetch - processPackages [gref4hsi]: Downloading https://files.pythonhosted.org/packages/fc/15/98463226a9236dd2907e0546e39570a0d15c293b077c48a44d68c6fb9869/gref4hsi-0.1.9.tar.gz
+[2024-04-15 10:17:16] INFO root fetch - processPackages [pyromongo]: executing diffoscope
+[2024-04-15 10:17:16] INFO root fetch - processPackages [pyromongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyromongo-0.0.6.tar.gz tmp/pyromongo-0.0.7a0.tar.gz --markdown 20240415/p/pyromongo/0.0.6-0.0.7a0/README.md --exclude *.pyd
+[2024-04-15 10:17:16] INFO root fetch - processPackages [waylay-sdk-rules-types]: Downloading https://files.pythonhosted.org/packages/53/eb/17c422cfef4ae128e4ad50e8fde2248da4930d8eeea27fd263a79070c034/waylay-sdk-rules-types-6.5.0rc1.tar.gz
+[2024-04-15 10:17:16] INFO root fetch - processPackages [pongo-python]: executing diffoscope
+[2024-04-15 10:17:16] INFO root fetch - processPackages [pongo-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pongo-python-2.0.3.tar.gz tmp/pongo-python-3.0.0.tar.gz --markdown 20240415/p/pongo-python/2.0.3-3.0.0/README.md --exclude *.pyd
+[2024-04-15 10:17:16] INFO root fetch - processPackages [paper-forms]: executing diffoscope
+[2024-04-15 10:17:16] INFO root fetch - processPackages [paper-forms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paper-forms-0.5.2.tar.gz tmp/paper_forms-0.5.3.tar.gz --markdown 20240415/p/paper-forms/0.5.2-0.5.3/README.md --exclude *.pyd
+[2024-04-15 10:17:16] INFO root fetch - processPackages [gref4hsi]: executing diffoscope
+[2024-04-15 10:17:16] INFO root fetch - processPackages [gref4hsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gref4hsi-0.1.5.tar.gz tmp/gref4hsi-0.1.9.tar.gz --markdown 20240415/g/gref4hsi/0.1.5-0.1.9/README.md --exclude *.pyd
+[2024-04-15 10:17:16] INFO root fetch - processPackages [waylay-sdk-rules]: executing diffoscope
+[2024-04-15 10:17:16] INFO root fetch - processPackages [waylay-sdk-rules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waylay_sdk_rules-6.5.0.20240415.tar.gz tmp/waylay-sdk-rules-6.5.0rc1.tar.gz --markdown 20240415/w/waylay-sdk-rules/6.5.0.20240415-6.5.0rc1/README.md --exclude *.pyd
+[2024-04-15 10:17:16] INFO root fetch - processPackages [dm-aiomodbus]: Remove: archive file [/home/abi/fetcher/tmp/dm-aiomodbus-0.1.5.tar.gz]
+[2024-04-15 10:17:16] INFO root fetch - processPackages [dm-aiomodbus]: Remove: archive file [/home/abi/fetcher/tmp/dm_aiomodbus-0.1.6.tar.gz]
+[2024-04-15 10:17:16] INFO root fetch - main [MainThread]: End processing [dm-aiomodbus]: success
+[2024-04-15 10:17:16] INFO root fetch - processPackages [waylay-sdk-rules-types]: executing diffoscope
+[2024-04-15 10:17:16] INFO root fetch - processPackages [waylay-sdk-rules-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waylay_sdk_rules_types-6.5.0.20240415.tar.gz tmp/waylay-sdk-rules-types-6.5.0rc1.tar.gz --markdown 20240415/w/waylay-sdk-rules-types/6.5.0.20240415-6.5.0rc1/README.md --exclude *.pyd
+[2024-04-15 10:17:16] INFO root fetch - processPackages [up-tamer]: Remove: archive file [/home/abi/fetcher/tmp/up_tamer-1.1.2.1.dev1.tar.gz]
+[2024-04-15 10:17:16] INFO root fetch - processPackages [up-tamer]: Remove: archive file [/home/abi/fetcher/tmp/up_tamer-1.1.3.tar.gz]
+[2024-04-15 10:17:16] INFO root fetch - main [MainThread]: End processing [up-tamer]: success
+[2024-04-15 10:17:16] INFO root fetch - processPackages [pyromongo]: Remove: archive file [/home/abi/fetcher/tmp/pyromongo-0.0.6.tar.gz]
+[2024-04-15 10:17:16] INFO root fetch - processPackages [pyromongo]: Remove: archive file [/home/abi/fetcher/tmp/pyromongo-0.0.7a0.tar.gz]
+[2024-04-15 10:17:16] INFO root fetch - main [MainThread]: End processing [pyromongo]: success
+[2024-04-15 10:17:16] INFO root fetch - processPackages [paper-forms]: Remove: archive file [/home/abi/fetcher/tmp/paper-forms-0.5.2.tar.gz]
+[2024-04-15 10:17:16] INFO root fetch - processPackages [paper-forms]: Remove: archive file [/home/abi/fetcher/tmp/paper_forms-0.5.3.tar.gz]
+[2024-04-15 10:17:16] INFO root fetch - main [MainThread]: End processing [paper-forms]: success
+[2024-04-15 10:17:16] INFO root fetch - processPackages [pongo-python]: Remove: archive file [/home/abi/fetcher/tmp/pongo-python-2.0.3.tar.gz]
+[2024-04-15 10:17:16] INFO root fetch - processPackages [pongo-python]: Remove: archive file [/home/abi/fetcher/tmp/pongo-python-3.0.0.tar.gz]
+[2024-04-15 10:17:16] INFO root fetch - main [MainThread]: End processing [pongo-python]: success
+[2024-04-15 10:17:16] INFO root fetch - processPackages [waylay-sdk-rules]: Remove: archive file [/home/abi/fetcher/tmp/waylay_sdk_rules-6.5.0.20240415.tar.gz]
+[2024-04-15 10:17:16] INFO root fetch - processPackages [waylay-sdk-rules]: Remove: archive file [/home/abi/fetcher/tmp/waylay-sdk-rules-6.5.0rc1.tar.gz]
+[2024-04-15 10:17:16] INFO root fetch - main [MainThread]: End processing [waylay-sdk-rules]: success
+[2024-04-15 10:17:16] INFO root fetch - processPackages [gref4hsi]: Remove: archive file [/home/abi/fetcher/tmp/gref4hsi-0.1.5.tar.gz]
+[2024-04-15 10:17:16] INFO root fetch - processPackages [gref4hsi]: Remove: archive file [/home/abi/fetcher/tmp/gref4hsi-0.1.9.tar.gz]
+[2024-04-15 10:17:16] INFO root fetch - main [MainThread]: End processing [gref4hsi]: success
+[2024-04-15 10:17:17] INFO root fetch - processPackages [waylay-sdk-rules-types]: Remove: archive file [/home/abi/fetcher/tmp/waylay_sdk_rules_types-6.5.0.20240415.tar.gz]
+[2024-04-15 10:17:17] INFO root fetch - processPackages [waylay-sdk-rules-types]: Remove: archive file [/home/abi/fetcher/tmp/waylay-sdk-rules-types-6.5.0rc1.tar.gz]
+[2024-04-15 10:17:17] INFO root fetch - main [MainThread]: End processing [waylay-sdk-rules-types]: success
+[2024-04-15 10:17:17] INFO root fetch - main [MainThread]: Store serial: [22767764]
