@@ -2992,3 +2992,44 @@
 [2024-04-15 04:18:54] INFO root fetch - processPackages [corkit]: Remove: archive file [/home/abi/fetcher/tmp/corkit-1.0.9.tar.gz]
 [2024-04-15 04:18:54] INFO root fetch - main [MainThread]: End processing [corkit]: success
 [2024-04-15 04:18:54] INFO root fetch - main [MainThread]: Store serial: [22764609]
+[2024-04-15 04:20:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22764609]
+[2024-04-15 04:21:02] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-15 04:23:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22764609]
+[2024-04-15 04:23:08] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-15 04:23:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: etl-pipeline-ggn1-ase-g5
+[2024-04-15 04:23:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qtlink
+[2024-04-15 04:23:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vtjson
+[2024-04-15 04:23:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tsugu
+[2024-04-15 04:23:08] INFO root fetch - processPackages [etl-pipeline-ggn1-ase-g5]: New version: [4.0] Old Version: [3]
+[2024-04-15 04:23:08] INFO root fetch - processPackages [tsugu]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-15 04:23:08] INFO root fetch - processPackages [vtjson]: New version: [1.7.3] Old Version: [1.7.2]
+[2024-04-15 04:23:08] INFO root fetch - processPackages [etl-pipeline-ggn1-ase-g5]: Downloading https://files.pythonhosted.org/packages/3c/e7/86ecd32eade50843522c7970175ce80d5f0b3c831ad9dd90feadaaeccec7/etl_pipeline_ggn1_ase_g5-3.tar.gz
+[2024-04-15 04:23:08] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/99/e1/5d6587a7634d0ec3b1c46259e6257f2dd641ecaa4d8903d72a6460651a21/tsugu-0.4.1.tar.gz
+[2024-04-15 04:23:08] INFO root fetch - processPackages [qtlink]: New version: [1.2.0] Old Version: [1.1.4]
+[2024-04-15 04:23:08] INFO root fetch - processPackages [vtjson]: Downloading https://files.pythonhosted.org/packages/aa/53/24f60cd13b52e01c9875a55a8ef7dbdda1b34e7d5cb93826602168ea94a9/vtjson-1.7.2.tar.gz
+[2024-04-15 04:23:08] INFO root fetch - processPackages [qtlink]: Downloading https://files.pythonhosted.org/packages/46/9c/4a86ebf68817a408973810d60a83ba6cf5adfac0630aeb9a0f3fa5982073/qtlink-1.1.4.tar.gz
+[2024-04-15 04:23:08] INFO root fetch - processPackages [vtjson]: Downloading https://files.pythonhosted.org/packages/58/cb/7a636635f2ac3779b9fb7cbf72a810c1c92bb3481ab207f492ea7d87902e/vtjson-1.7.3.tar.gz
+[2024-04-15 04:23:08] INFO root fetch - processPackages [etl-pipeline-ggn1-ase-g5]: Downloading https://files.pythonhosted.org/packages/ce/98/c203e5df69bd6300206986bfb3a7b8b36f68274c6eb5a6946fa42a52d592/etl_pipeline_ggn1_ase_g5-4.0.tar.gz
+[2024-04-15 04:23:09] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/d6/9e/7717366e09f7da04e539d0f0087840937e5bcfbc0cdbcd76f05d1fe1bafb/tsugu-0.4.2.tar.gz
+[2024-04-15 04:23:09] INFO root fetch - processPackages [etl-pipeline-ggn1-ase-g5]: executing diffoscope
+[2024-04-15 04:23:09] INFO root fetch - processPackages [etl-pipeline-ggn1-ase-g5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etl_pipeline_ggn1_ase_g5-3.tar.gz tmp/etl_pipeline_ggn1_ase_g5-4.0.tar.gz --markdown 20240415/e/etl-pipeline-ggn1-ase-g5/3-4.0/README.md --exclude *.pyd
+[2024-04-15 04:23:09] INFO root fetch - processPackages [vtjson]: executing diffoscope
+[2024-04-15 04:23:09] INFO root fetch - processPackages [vtjson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vtjson-1.7.2.tar.gz tmp/vtjson-1.7.3.tar.gz --markdown 20240415/v/vtjson/1.7.2-1.7.3/README.md --exclude *.pyd
+[2024-04-15 04:23:09] INFO root fetch - processPackages [tsugu]: executing diffoscope
+[2024-04-15 04:23:09] INFO root fetch - processPackages [tsugu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsugu-0.4.1.tar.gz tmp/tsugu-0.4.2.tar.gz --markdown 20240415/t/tsugu/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-04-15 04:23:09] INFO root fetch - processPackages [qtlink]: Downloading https://files.pythonhosted.org/packages/ff/85/5e2abaf2044334539132f89ef5cd6b699ad2f478797033254d58a0ce6b4a/qtlink-1.2.0.tar.gz
+[2024-04-15 04:23:09] INFO root fetch - processPackages [qtlink]: executing diffoscope
+[2024-04-15 04:23:09] INFO root fetch - processPackages [qtlink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtlink-1.1.4.tar.gz tmp/qtlink-1.2.0.tar.gz --markdown 20240415/q/qtlink/1.1.4-1.2.0/README.md --exclude *.pyd
+[2024-04-15 04:23:09] INFO root fetch - processPackages [etl-pipeline-ggn1-ase-g5]: Remove: archive file [/home/abi/fetcher/tmp/etl_pipeline_ggn1_ase_g5-3.tar.gz]
+[2024-04-15 04:23:09] INFO root fetch - processPackages [etl-pipeline-ggn1-ase-g5]: Remove: archive file [/home/abi/fetcher/tmp/etl_pipeline_ggn1_ase_g5-4.0.tar.gz]
+[2024-04-15 04:23:09] INFO root fetch - main [MainThread]: End processing [etl-pipeline-ggn1-ase-g5]: success
+[2024-04-15 04:23:09] INFO root fetch - processPackages [vtjson]: Remove: archive file [/home/abi/fetcher/tmp/vtjson-1.7.2.tar.gz]
+[2024-04-15 04:23:09] INFO root fetch - processPackages [vtjson]: Remove: archive file [/home/abi/fetcher/tmp/vtjson-1.7.3.tar.gz]
+[2024-04-15 04:23:09] INFO root fetch - main [MainThread]: End processing [vtjson]: success
+[2024-04-15 04:23:09] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.4.1.tar.gz]
+[2024-04-15 04:23:09] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.4.2.tar.gz]
+[2024-04-15 04:23:09] INFO root fetch - main [MainThread]: End processing [tsugu]: success
+[2024-04-15 04:23:09] INFO root fetch - processPackages [qtlink]: Remove: archive file [/home/abi/fetcher/tmp/qtlink-1.1.4.tar.gz]
+[2024-04-15 04:23:09] INFO root fetch - processPackages [qtlink]: Remove: archive file [/home/abi/fetcher/tmp/qtlink-1.2.0.tar.gz]
+[2024-04-15 04:23:09] INFO root fetch - main [MainThread]: End processing [qtlink]: success
+[2024-04-15 04:23:09] INFO root fetch - main [MainThread]: Store serial: [22764621]
