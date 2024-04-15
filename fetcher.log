@@ -15079,3 +15079,66 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 12:37:37] INFO root fetch - processPackages [pragma-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pragma_sdk-1.3.0.tar.gz]
 [2024-04-15 12:37:37] INFO root fetch - main [MainThread]: End processing [pragma-sdk]: success
 [2024-04-15 12:37:37] INFO root fetch - main [MainThread]: Store serial: [22769416]
+[2024-04-15 12:39:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22769416]
+[2024-04-15 12:39:46] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-15 12:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: atomrdf
+[2024-04-15 12:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: skypilot-nightly
+[2024-04-15 12:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pozalabs-miditoolkit
+[2024-04-15 12:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: safetensors
+[2024-04-15 12:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langbank
+[2024-04-15 12:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pymemgpt-nightly
+[2024-04-15 12:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eth-interface
+[2024-04-15 12:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ligo-softioc
+[2024-04-15 12:39:46] WARNING root fetch - processPackages [ligo-softioc]: Skipping, unable to determine old version
+[2024-04-15 12:39:46] INFO root fetch - main [MainThread]: End processing [ligo-softioc] error
+[2024-04-15 12:39:46] INFO root fetch - processPackages [safetensors]: New version: [0.4.2rc0] Old Version: [0.4.2]
+[2024-04-15 12:39:46] WARNING root fetch - processPackages [langbank]: Skipping, unable to determine old version
+[2024-04-15 12:39:46] INFO root fetch - main [MainThread]: End processing [langbank] error
+[2024-04-15 12:39:46] INFO root fetch - processPackages [atomrdf]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-04-15 12:39:46] INFO root fetch - processPackages [pymemgpt-nightly]: New version: [0.3.9.dev20240412103904] Old Version: [0.3.9.dev20240411103902]
+[2024-04-15 12:39:46] INFO root fetch - processPackages [skypilot-nightly]: New version: [1.0.0.dev20240414] Old Version: [1.0.0.dev20240413]
+[2024-04-15 12:39:46] INFO root fetch - processPackages [safetensors]: Downloading https://files.pythonhosted.org/packages/32/b4/24d2855f668c2fbee5855cc6551684bdd3f7b935af324c9c8b20290d8443/safetensors-0.4.2.tar.gz
+[2024-04-15 12:39:46] INFO root fetch - processPackages [eth-interface]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-04-15 12:39:46] INFO root fetch - processPackages [pozalabs-miditoolkit]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-15 12:39:46] INFO root fetch - processPackages [atomrdf]: Downloading https://files.pythonhosted.org/packages/0f/ea/0c1488c0e0e725e169c69389c0f7a912a8e78e921fa5d8e34f6e407b3864/atomrdf-0.4.2.tar.gz
+[2024-04-15 12:39:46] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/28/e7/e8c0c970c21e3670e810627cef085bbbbac1f9e994540354838d7781a0ac/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz
+[2024-04-15 12:39:46] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/d5/dc/d31d2f80a303bd425a430f4d5059be6c5635c5adc33bac631a6f48170e67/skypilot-nightly-1.0.0.dev20240413.tar.gz
+[2024-04-15 12:39:46] INFO root fetch - processPackages [eth-interface]: Downloading https://files.pythonhosted.org/packages/cf/82/cc59fa72b4e80f8499d352b38beab7abc908d5f99441abe112e54c082360/eth-interface-0.1.2.tar.gz
+[2024-04-15 12:39:46] INFO root fetch - processPackages [pozalabs-miditoolkit]: Downloading https://files.pythonhosted.org/packages/dc/c6/8913a40ae0e0ec8e513c64764dcb96c0ec5a4cd0bc7bf0eae879a0c73cd0/pozalabs-miditoolkit-1.1.1.tar.gz
+[2024-04-15 12:39:46] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/50/4a/4c9c1fb70a7ee971f3c8697cc6dedb251e3b10cafdd23be4d035ece0f2ec/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz
+[2024-04-15 12:39:46] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/3e/a0/197f41ab52591ce841c1bd327472fb06c8a977a5134864ddcf7d6a3009fb/skypilot_nightly-1.0.0.dev20240414.tar.gz
+[2024-04-15 12:39:46] INFO root fetch - processPackages [atomrdf]: Downloading https://files.pythonhosted.org/packages/ba/fb/bf60aebc5f63424741057e491b8752fbf9b2d1bd05af4ed3d331a83ad659/atomrdf-0.4.3.tar.gz
+[2024-04-15 12:39:46] INFO root fetch - processPackages [safetensors]: Downloading https://files.pythonhosted.org/packages/35/0b/5169b0b1f5d7fecfbbac946df7dd70b5504bf7fbd4d4c368641503f4829c/safetensors-0.4.2rc0.tar.gz
+[2024-04-15 12:39:47] INFO root fetch - processPackages [pymemgpt-nightly]: executing diffoscope
+[2024-04-15 12:39:47] INFO root fetch - processPackages [pymemgpt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz --markdown 20240415/p/pymemgpt-nightly/0.3.9.dev20240411103902-0.3.9.dev20240412103904/README.md --exclude *.pyd
+[2024-04-15 12:39:47] INFO root fetch - processPackages [skypilot-nightly]: executing diffoscope
+[2024-04-15 12:39:47] INFO root fetch - processPackages [skypilot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot-nightly-1.0.0.dev20240413.tar.gz tmp/skypilot_nightly-1.0.0.dev20240414.tar.gz --markdown 20240415/s/skypilot-nightly/1.0.0.dev20240413-1.0.0.dev20240414/README.md --exclude *.pyd
+[2024-04-15 12:39:47] INFO root fetch - processPackages [atomrdf]: executing diffoscope
+[2024-04-15 12:39:47] INFO root fetch - processPackages [atomrdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomrdf-0.4.2.tar.gz tmp/atomrdf-0.4.3.tar.gz --markdown 20240415/a/atomrdf/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-04-15 12:39:47] INFO root fetch - processPackages [safetensors]: executing diffoscope
+[2024-04-15 12:39:47] INFO root fetch - processPackages [safetensors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safetensors-0.4.2.tar.gz tmp/safetensors-0.4.2rc0.tar.gz --markdown 20240415/s/safetensors/0.4.2-0.4.2rc0/README.md --exclude *.pyd
+[2024-04-15 12:39:47] INFO root fetch - processPackages [pozalabs-miditoolkit]: Downloading https://files.pythonhosted.org/packages/ad/f5/95febd7a04175d7556b75ede6d8af296b29190f05a3e017f7c3592b2cde6/pozalabs-miditoolkit-1.1.2.tar.gz
+[2024-04-15 12:39:47] INFO root fetch - processPackages [eth-interface]: Downloading https://files.pythonhosted.org/packages/f5/f0/d4d0d4563a3a5295711c91ed749b5de4a6adc6485542fb35bd674a21081d/eth-interface-0.2.0.tar.gz
+[2024-04-15 12:39:47] INFO root fetch - processPackages [pozalabs-miditoolkit]: executing diffoscope
+[2024-04-15 12:39:47] INFO root fetch - processPackages [pozalabs-miditoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pozalabs-miditoolkit-1.1.1.tar.gz tmp/pozalabs-miditoolkit-1.1.2.tar.gz --markdown 20240415/p/pozalabs-miditoolkit/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-04-15 12:39:47] INFO root fetch - processPackages [eth-interface]: executing diffoscope
+[2024-04-15 12:39:47] INFO root fetch - processPackages [eth-interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eth-interface-0.1.2.tar.gz tmp/eth-interface-0.2.0.tar.gz --markdown 20240415/e/eth-interface/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-04-15 12:39:47] INFO root fetch - processPackages [safetensors]: Remove: archive file [/home/abi/fetcher/tmp/safetensors-0.4.2.tar.gz]
+[2024-04-15 12:39:47] INFO root fetch - processPackages [safetensors]: Remove: archive file [/home/abi/fetcher/tmp/safetensors-0.4.2rc0.tar.gz]
+[2024-04-15 12:39:47] INFO root fetch - main [MainThread]: End processing [safetensors]: success
+[2024-04-15 12:39:47] INFO root fetch - processPackages [pozalabs-miditoolkit]: Remove: archive file [/home/abi/fetcher/tmp/pozalabs-miditoolkit-1.1.1.tar.gz]
+[2024-04-15 12:39:47] INFO root fetch - processPackages [pozalabs-miditoolkit]: Remove: archive file [/home/abi/fetcher/tmp/pozalabs-miditoolkit-1.1.2.tar.gz]
+[2024-04-15 12:39:47] INFO root fetch - main [MainThread]: End processing [pozalabs-miditoolkit]: success
+[2024-04-15 12:39:48] INFO root fetch - processPackages [atomrdf]: Remove: archive file [/home/abi/fetcher/tmp/atomrdf-0.4.2.tar.gz]
+[2024-04-15 12:39:48] INFO root fetch - processPackages [atomrdf]: Remove: archive file [/home/abi/fetcher/tmp/atomrdf-0.4.3.tar.gz]
+[2024-04-15 12:39:48] INFO root fetch - main [MainThread]: End processing [atomrdf]: success
+[2024-04-15 12:39:48] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz]
+[2024-04-15 12:39:48] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz]
+[2024-04-15 12:39:48] INFO root fetch - main [MainThread]: End processing [pymemgpt-nightly]: success
+[2024-04-15 12:39:48] INFO root fetch - processPackages [eth-interface]: Remove: archive file [/home/abi/fetcher/tmp/eth-interface-0.1.2.tar.gz]
+[2024-04-15 12:39:48] INFO root fetch - processPackages [eth-interface]: Remove: archive file [/home/abi/fetcher/tmp/eth-interface-0.2.0.tar.gz]
+[2024-04-15 12:39:48] INFO root fetch - main [MainThread]: End processing [eth-interface]: success
+[2024-04-15 12:39:48] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20240413.tar.gz]
+[2024-04-15 12:39:48] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240414.tar.gz]
+[2024-04-15 12:39:48] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
+[2024-04-15 12:39:48] INFO root fetch - main [MainThread]: Store serial: [22769471]
