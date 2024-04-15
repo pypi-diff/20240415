@@ -7699,3 +7699,37 @@
 [2024-04-15 07:28:00] INFO root fetch - processPackages [mms-client]: Remove: archive file [/home/abi/fetcher/tmp/mms_client-1.3.0.tar.gz]
 [2024-04-15 07:28:00] INFO root fetch - main [MainThread]: End processing [mms-client]: success
 [2024-04-15 07:28:00] INFO root fetch - main [MainThread]: Store serial: [22766300]
+[2024-04-15 07:30:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22766300]
+[2024-04-15 07:30:08] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-15 07:32:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22766300]
+[2024-04-15 07:32:14] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-15 07:32:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kink
+[2024-04-15 07:32:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: terminate-thread
+[2024-04-15 07:32:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: monisha
+[2024-04-15 07:32:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ailia
+[2024-04-15 07:32:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scatter-append
+[2024-04-15 07:32:14] WARNING root fetch - processPackages [scatter-append]: Skipping, unable to determine old version
+[2024-04-15 07:32:14] INFO root fetch - main [MainThread]: End processing [scatter-append] error
+[2024-04-15 07:32:14] INFO root fetch - processPackages [monisha]: New version: [0.0.45] Old Version: [0.0.44]
+[2024-04-15 07:32:14] INFO root fetch - processPackages [monisha]: Downloading https://files.pythonhosted.org/packages/23/53/ea78dce949e98fa36391972a82de53aa1e42266351896453b964c3f3207b/monisha-0.0.44.tar.gz
+[2024-04-15 07:32:14] INFO root fetch - processPackages [ailia]: New version: [1.3.0.5] Old Version: [1.3.0.4]
+[2024-04-15 07:32:14] WARNING root fetch - processPackages [terminate-thread]: Skipping, unable to determine old version
+[2024-04-15 07:32:14] INFO root fetch - main [MainThread]: End processing [terminate-thread] error
+[2024-04-15 07:32:14] INFO root fetch - processPackages [kink]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-04-15 07:32:14] INFO root fetch - processPackages [ailia]: Downloading https://files.pythonhosted.org/packages/1c/7d/b1e1e5056e3b3fc797f87c71e611b3ef51f5ab8d2f84b42c931db369f88e/ailia-1.3.0.4-py3-none-any.whl
+[2024-04-15 07:32:15] INFO root fetch - processPackages [kink]: Downloading https://files.pythonhosted.org/packages/36/a0/5e2baae59037730e655dd61aa35f6bedf332b237d5cb4f6a6a77b03b23f4/kink-0.7.0.tar.gz
+[2024-04-15 07:32:15] WARNING root fetch - processPackages [ailia]: Skipping package: exceeds size limit 47687839>=10485760
+[2024-04-15 07:32:15] INFO root fetch - main [MainThread]: End processing [ailia] error
+[2024-04-15 07:32:15] INFO root fetch - processPackages [monisha]: Downloading https://files.pythonhosted.org/packages/1a/54/d70cab679f372e927065d9e851287c13ec136bb26ba13ad15a3f4be876f1/monisha-0.0.45.tar.gz
+[2024-04-15 07:32:15] INFO root fetch - processPackages [monisha]: executing diffoscope
+[2024-04-15 07:32:15] INFO root fetch - processPackages [monisha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monisha-0.0.44.tar.gz tmp/monisha-0.0.45.tar.gz --markdown 20240415/m/monisha/0.0.44-0.0.45/README.md --exclude *.pyd
+[2024-04-15 07:32:15] INFO root fetch - processPackages [kink]: Downloading https://files.pythonhosted.org/packages/29/e9/9a05eaa4eba7d68d6d81a1a5b1f373a1475f51acf85a0884d81d1994661a/kink-0.8.0.tar.gz
+[2024-04-15 07:32:15] INFO root fetch - processPackages [kink]: executing diffoscope
+[2024-04-15 07:32:15] INFO root fetch - processPackages [kink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kink-0.7.0.tar.gz tmp/kink-0.8.0.tar.gz --markdown 20240415/k/kink/0.7.0-0.8.0/README.md --exclude *.pyd
+[2024-04-15 07:32:15] INFO root fetch - processPackages [monisha]: Remove: archive file [/home/abi/fetcher/tmp/monisha-0.0.44.tar.gz]
+[2024-04-15 07:32:15] INFO root fetch - processPackages [monisha]: Remove: archive file [/home/abi/fetcher/tmp/monisha-0.0.45.tar.gz]
+[2024-04-15 07:32:15] INFO root fetch - main [MainThread]: End processing [monisha]: success
+[2024-04-15 07:32:16] INFO root fetch - processPackages [kink]: Remove: archive file [/home/abi/fetcher/tmp/kink-0.7.0.tar.gz]
+[2024-04-15 07:32:16] INFO root fetch - processPackages [kink]: Remove: archive file [/home/abi/fetcher/tmp/kink-0.8.0.tar.gz]
+[2024-04-15 07:32:16] INFO root fetch - main [MainThread]: End processing [kink]: success
+[2024-04-15 07:32:16] INFO root fetch - main [MainThread]: Store serial: [22766313]
