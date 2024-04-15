@@ -3683,3 +3683,47 @@
 [2024-04-15 04:58:04] INFO root fetch - processPackages [fancy-dataclass]: Remove: archive file [/home/abi/fetcher/tmp/fancy_dataclass-0.3.0.tar.gz]
 [2024-04-15 04:58:04] INFO root fetch - main [MainThread]: End processing [fancy-dataclass]: success
 [2024-04-15 04:58:04] INFO root fetch - main [MainThread]: Store serial: [22764868]
+[2024-04-15 05:00:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22764868]
+[2024-04-15 05:00:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-15 05:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-04-15 05:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dcicutils
+[2024-04-15 05:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libbash
+[2024-04-15 05:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aeppl-nightly
+[2024-04-15 05:00:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dsplus
+[2024-04-15 05:00:12] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.13a1713148341] Old Version: [0.0.13a1712973417]
+[2024-04-15 05:00:12] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/11/0d/23e8a080b49d2e9d5350d3b6f5a9040a8f44930be9bc2fa3d6852b78db10/pulumi_kubernetes_the_hard_way-0.0.13a1712973417.tar.gz
+[2024-04-15 05:00:12] INFO root fetch - processPackages [dsplus]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-15 05:00:12] INFO root fetch - processPackages [libbash]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-15 05:00:12] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.5.dev20240415] Old Version: [0.1.5.dev20240414]
+[2024-04-15 05:00:12] INFO root fetch - processPackages [dcicutils]: New version: [8.8.3.1b7] Old Version: [8.8.3.1b5]
+[2024-04-15 05:00:13] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/69/73/979bd0b5155d0b8f959bedfccd936db278711bdefc2f8026ca02aecc6b1e/pulumi_kubernetes_the_hard_way-0.0.13a1713148341.tar.gz
+[2024-04-15 05:00:13] INFO root fetch - processPackages [dsplus]: Downloading https://files.pythonhosted.org/packages/58/27/54f22e4cd0ecf8ad68125f96429b3275ffabf2d5edbc2d37038d24e7960e/dsplus-0.4.0.tar.gz
+[2024-04-15 05:00:13] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/b9/31/49034ab64400410124fa078013bb8f140bb3971d1206b7562b372b872631/aeppl_nightly-0.1.5.dev20240414.tar.gz
+[2024-04-15 05:00:13] INFO root fetch - processPackages [libbash]: Downloading https://files.pythonhosted.org/packages/89/8e/690a7173cab2d398ad0993e9fcb42fbbc02bec29830c82d8f729f1ddee26/libbash-0.1.8.tar.gz
+[2024-04-15 05:00:13] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/42/aa/ae3114b59e96cbdadff7f61fafa6396c89abb04872250c521d704e1819f5/dcicutils-8.8.3.1b5.tar.gz
+[2024-04-15 05:00:13] WARNING root fetch - processPackages [libbash]: Skipping package: exceeds size limit 11008009>=10485760
+[2024-04-15 05:00:13] INFO root fetch - main [MainThread]: End processing [libbash] error
+[2024-04-15 05:00:13] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-04-15 05:00:13] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.13a1712973417.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.13a1713148341.tar.gz --markdown 20240415/p/pulumi-kubernetes-the-hard-way/0.0.13a1712973417-0.0.13a1713148341/README.md --exclude *.pyd
+[2024-04-15 05:00:13] INFO root fetch - processPackages [dsplus]: Downloading https://files.pythonhosted.org/packages/59/0e/46f1d3a53921d739ea0d5a9522a6e9b3e08c74017a54625bcea1a86a416a/dsplus-0.4.1.tar.gz
+[2024-04-15 05:00:13] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/ad/69/73ddae6320dda1cf4ddf23f44f2fa5b82d7166355d09cc18efec2b8379cd/aeppl_nightly-0.1.5.dev20240415.tar.gz
+[2024-04-15 05:00:13] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/8a/82/51be2968cc6c82e3f0e1628c5140e59aefc469846472c744a69cbc82558e/dcicutils-8.8.3.1b7.tar.gz
+[2024-04-15 05:00:13] INFO root fetch - processPackages [dsplus]: executing diffoscope
+[2024-04-15 05:00:13] INFO root fetch - processPackages [dsplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsplus-0.4.0.tar.gz tmp/dsplus-0.4.1.tar.gz --markdown 20240415/d/dsplus/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-04-15 05:00:13] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2024-04-15 05:00:13] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl_nightly-0.1.5.dev20240414.tar.gz tmp/aeppl_nightly-0.1.5.dev20240415.tar.gz --markdown 20240415/a/aeppl-nightly/0.1.5.dev20240414-0.1.5.dev20240415/README.md --exclude *.pyd
+[2024-04-15 05:00:13] INFO root fetch - processPackages [dcicutils]: executing diffoscope
+[2024-04-15 05:00:13] INFO root fetch - processPackages [dcicutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicutils-8.8.3.1b5.tar.gz tmp/dcicutils-8.8.3.1b7.tar.gz --markdown 20240415/d/dcicutils/8.8.3.1b5-8.8.3.1b7/README.md --exclude *.pyd
+[2024-04-15 05:00:13] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.13a1712973417.tar.gz]
+[2024-04-15 05:00:13] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.13a1713148341.tar.gz]
+[2024-04-15 05:00:13] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-04-15 05:00:14] INFO root fetch - processPackages [dsplus]: Remove: archive file [/home/abi/fetcher/tmp/dsplus-0.4.0.tar.gz]
+[2024-04-15 05:00:14] INFO root fetch - processPackages [dsplus]: Remove: archive file [/home/abi/fetcher/tmp/dsplus-0.4.1.tar.gz]
+[2024-04-15 05:00:14] INFO root fetch - main [MainThread]: End processing [dsplus]: success
+[2024-04-15 05:00:14] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl_nightly-0.1.5.dev20240414.tar.gz]
+[2024-04-15 05:00:14] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl_nightly-0.1.5.dev20240415.tar.gz]
+[2024-04-15 05:00:14] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2024-04-15 05:00:14] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.8.3.1b5.tar.gz]
+[2024-04-15 05:00:14] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.8.3.1b7.tar.gz]
+[2024-04-15 05:00:14] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
+[2024-04-15 05:00:14] INFO root fetch - main [MainThread]: Store serial: [22764882]
