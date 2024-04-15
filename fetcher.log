@@ -20119,3 +20119,63 @@ EOFError: EOF read where object expected
 [2024-04-15 15:27:28] INFO root fetch - processPackages [pypeec]: Remove: archive file [/home/abi/fetcher/tmp/pypeec-4.9.0.tar.gz]
 [2024-04-15 15:27:28] INFO root fetch - main [MainThread]: End processing [pypeec]: success
 [2024-04-15 15:27:28] INFO root fetch - main [MainThread]: Store serial: [22771763]
+[2024-04-15 15:29:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22771763]
+[2024-04-15 15:29:39] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-15 15:29:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: finbourne-identity-sdk
+[2024-04-15 15:29:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: BPS-FBI-sp-ecoli
+[2024-04-15 15:29:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: discord-drive
+[2024-04-15 15:29:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bib-lookup
+[2024-04-15 15:29:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fir1
+[2024-04-15 15:29:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mode-streaming
+[2024-04-15 15:29:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: policy-priority-inference
+[2024-04-15 15:29:39] INFO root fetch - processPackages [discord-drive]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-15 15:29:39] INFO root fetch - processPackages [finbourne-identity-sdk]: New version: [2.1.3] Old Version: [2.1.2]
+[2024-04-15 15:29:39] INFO root fetch - processPackages [policy-priority-inference]: New version: [3.0.5] Old Version: [3.0.4]
+[2024-04-15 15:29:39] WARNING root fetch - processPackages [BPS-FBI-sp-ecoli]: Skipping, unable to determine old version
+[2024-04-15 15:29:39] INFO root fetch - main [MainThread]: End processing [BPS-FBI-sp-ecoli] error
+[2024-04-15 15:29:39] INFO root fetch - processPackages [fir1]: New version: [1.8.0.0] Old Version: [1.7.1.1]
+[2024-04-15 15:29:39] INFO root fetch - processPackages [bib-lookup]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-15 15:29:39] INFO root fetch - processPackages [mode-streaming]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-15 15:29:39] INFO root fetch - processPackages [discord-drive]: Downloading https://files.pythonhosted.org/packages/1b/3e/ced419e746b82d9c9e9a29d36c212fbf581907229ad6a5267dd19545fc9b/discord_drive-0.0.2.tar.gz
+[2024-04-15 15:29:39] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/dd/3a/7b78848743dd7401742a58a8b6679fade2f5d8cc18f843117a54a3482981/finbourne_identity_sdk-2.1.2.tar.gz
+[2024-04-15 15:29:39] INFO root fetch - processPackages [mode-streaming]: Downloading https://files.pythonhosted.org/packages/1d/a5/10b021b35a3d5754e2e4a68ac10765efa4d6413c4ad7cacae501b06044e8/mode_streaming-0.4.0-py2.py3-none-any.whl
+[2024-04-15 15:29:40] INFO root fetch - processPackages [fir1]: Downloading https://files.pythonhosted.org/packages/d7/17/88d5e9dab6e1b635bc80877277feaece28af5a4aafe9487a974dbb8ea3a7/fir1-1.7.1.1.tar.gz
+[2024-04-15 15:29:40] INFO root fetch - processPackages [policy-priority-inference]: Downloading https://files.pythonhosted.org/packages/50/a6/db29e45b279942d945b94a866d7c4896533b896c1ebcb5bbe7eb221bd18c/policy_priority_inference-3.0.4.tar.gz
+[2024-04-15 15:29:40] INFO root fetch - processPackages [bib-lookup]: Downloading https://files.pythonhosted.org/packages/0f/db/ae7f5e8a73500fe8ac5540463e623b35839deec1a0fdadef666ff5b4a251/bib_lookup-0.0.8.tar.gz
+[2024-04-15 15:29:40] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/85/15/0dcc4da173d511ca05fa469b8961f677946d0172288dbcc68d43321112e3/finbourne_identity_sdk-2.1.3.tar.gz
+[2024-04-15 15:29:40] INFO root fetch - processPackages [discord-drive]: Downloading https://files.pythonhosted.org/packages/e2/e3/ff3d9e79ec887bc9a9064b63e67e85ff26789d7f43f79f8e931c8eae38ea/discord_drive-0.0.3.tar.gz
+[2024-04-15 15:29:40] INFO root fetch - processPackages [finbourne-identity-sdk]: executing diffoscope
+[2024-04-15 15:29:40] INFO root fetch - processPackages [finbourne-identity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_identity_sdk-2.1.2.tar.gz tmp/finbourne_identity_sdk-2.1.3.tar.gz --markdown 20240415/f/finbourne-identity-sdk/2.1.2-2.1.3/README.md --exclude *.pyd
+[2024-04-15 15:29:40] INFO root fetch - processPackages [mode-streaming]: Downloading https://files.pythonhosted.org/packages/bc/e2/6cbe2bd0b41bf71ef6f574237d26642798ff58ba7d52c43d72a605969a73/mode_streaming-0.4.1-py2.py3-none-any.whl
+[2024-04-15 15:29:40] INFO root fetch - processPackages [discord-drive]: executing diffoscope
+[2024-04-15 15:29:40] INFO root fetch - processPackages [discord-drive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discord_drive-0.0.2.tar.gz tmp/discord_drive-0.0.3.tar.gz --markdown 20240415/d/discord-drive/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-15 15:29:40] INFO root fetch - processPackages [policy-priority-inference]: Downloading https://files.pythonhosted.org/packages/28/c1/1dcc8b95d3c70c0a8ba2a4f507ccc53b64941d4ca127e3183ef134862591/policy_priority_inference-3.0.5.tar.gz
+[2024-04-15 15:29:40] INFO root fetch - processPackages [fir1]: Downloading https://files.pythonhosted.org/packages/7a/f8/9e486eaf25676efe30639d1aad11c30d245c47f4ca4b8aaaa2a0facf222d/fir1-1.8.0.0.tar.gz
+[2024-04-15 15:29:40] INFO root fetch - processPackages [bib-lookup]: Downloading https://files.pythonhosted.org/packages/74/6e/58229fb30ce6858166ce4b442e213e199a7c9291e3621cadc06878f3421d/bib_lookup-0.0.9.tar.gz
+[2024-04-15 15:29:40] INFO root fetch - processPackages [fir1]: executing diffoscope
+[2024-04-15 15:29:40] INFO root fetch - processPackages [fir1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fir1-1.7.1.1.tar.gz tmp/fir1-1.8.0.0.tar.gz --markdown 20240415/f/fir1/1.7.1.1-1.8.0.0/README.md --exclude *.pyd
+[2024-04-15 15:29:40] INFO root fetch - processPackages [bib-lookup]: executing diffoscope
+[2024-04-15 15:29:40] INFO root fetch - processPackages [bib-lookup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bib_lookup-0.0.8.tar.gz tmp/bib_lookup-0.0.9.tar.gz --markdown 20240415/b/bib-lookup/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-15 15:29:40] INFO root fetch - processPackages [mode-streaming]: executing diffoscope
+[2024-04-15 15:29:40] INFO root fetch - processPackages [mode-streaming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mode_streaming-0.4.0-py2.py3-none-any.whl.zip tmp/mode_streaming-0.4.1-py2.py3-none-any.whl.zip --markdown 20240415/m/mode-streaming/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-04-15 15:29:40] INFO root fetch - processPackages [policy-priority-inference]: executing diffoscope
+[2024-04-15 15:29:40] INFO root fetch - processPackages [policy-priority-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policy_priority_inference-3.0.4.tar.gz tmp/policy_priority_inference-3.0.5.tar.gz --markdown 20240415/p/policy-priority-inference/3.0.4-3.0.5/README.md --exclude *.pyd
+[2024-04-15 15:29:41] INFO root fetch - processPackages [discord-drive]: Remove: archive file [/home/abi/fetcher/tmp/discord_drive-0.0.2.tar.gz]
+[2024-04-15 15:29:41] INFO root fetch - processPackages [discord-drive]: Remove: archive file [/home/abi/fetcher/tmp/discord_drive-0.0.3.tar.gz]
+[2024-04-15 15:29:41] INFO root fetch - main [MainThread]: End processing [discord-drive]: success
+[2024-04-15 15:29:41] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_identity_sdk-2.1.2.tar.gz]
+[2024-04-15 15:29:41] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_identity_sdk-2.1.3.tar.gz]
+[2024-04-15 15:29:41] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
+[2024-04-15 15:29:41] INFO root fetch - processPackages [fir1]: Remove: archive file [/home/abi/fetcher/tmp/fir1-1.7.1.1.tar.gz]
+[2024-04-15 15:29:41] INFO root fetch - processPackages [fir1]: Remove: archive file [/home/abi/fetcher/tmp/fir1-1.8.0.0.tar.gz]
+[2024-04-15 15:29:41] INFO root fetch - main [MainThread]: End processing [fir1]: success
+[2024-04-15 15:29:41] INFO root fetch - processPackages [policy-priority-inference]: Remove: archive file [/home/abi/fetcher/tmp/policy_priority_inference-3.0.4.tar.gz]
+[2024-04-15 15:29:41] INFO root fetch - processPackages [policy-priority-inference]: Remove: archive file [/home/abi/fetcher/tmp/policy_priority_inference-3.0.5.tar.gz]
+[2024-04-15 15:29:41] INFO root fetch - main [MainThread]: End processing [policy-priority-inference]: success
+[2024-04-15 15:29:41] INFO root fetch - processPackages [bib-lookup]: Remove: archive file [/home/abi/fetcher/tmp/bib_lookup-0.0.8.tar.gz]
+[2024-04-15 15:29:41] INFO root fetch - processPackages [bib-lookup]: Remove: archive file [/home/abi/fetcher/tmp/bib_lookup-0.0.9.tar.gz]
+[2024-04-15 15:29:41] INFO root fetch - main [MainThread]: End processing [bib-lookup]: success
+[2024-04-15 15:29:41] INFO root fetch - processPackages [mode-streaming]: Remove: archive file [/home/abi/fetcher/tmp/mode_streaming-0.4.0-py2.py3-none-any.whl.zip]
+[2024-04-15 15:29:41] INFO root fetch - processPackages [mode-streaming]: Remove: archive file [/home/abi/fetcher/tmp/mode_streaming-0.4.1-py2.py3-none-any.whl.zip]
+[2024-04-15 15:29:41] INFO root fetch - main [MainThread]: End processing [mode-streaming]: success
+[2024-04-15 15:29:41] INFO root fetch - main [MainThread]: Store serial: [22771786]
