@@ -2185,3 +2185,60 @@
 [2024-04-15 03:09:27] INFO root fetch - processPackages [modelbase2]: Remove: archive file [/home/abi/fetcher/tmp/modelbase2-0.1.8.tar.gz]
 [2024-04-15 03:09:27] INFO root fetch - main [MainThread]: End processing [modelbase2]: success
 [2024-04-15 03:09:27] INFO root fetch - main [MainThread]: Store serial: [22764262]
+[2024-04-15 03:11:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22764262]
+[2024-04-15 03:11:35] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-15 03:11:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tweet-capture
+[2024-04-15 03:11:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zhijiang
+[2024-04-15 03:11:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: netspresso-trainer
+[2024-04-15 03:11:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: modelbase
+[2024-04-15 03:11:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyCocos
+[2024-04-15 03:11:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: citation-crawler
+[2024-04-15 03:11:36] INFO root fetch - processPackages [zhijiang]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-15 03:11:36] INFO root fetch - processPackages [pyCocos]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-15 03:11:36] INFO root fetch - processPackages [zhijiang]: Downloading https://files.pythonhosted.org/packages/26/2b/3b52e8f559267bad8b17821e8e89f41e2252b1ce785ab75849cedf0c7646/zhijiang-0.7.8-py3-none-any.whl
+[2024-04-15 03:11:36] INFO root fetch - processPackages [pyCocos]: Downloading https://files.pythonhosted.org/packages/f6/71/a48688044375de920ca47b072061ce0949d268de83d18eb5360ec2a4b0c4/pyCocos-0.2.3.tar.gz
+[2024-04-15 03:11:36] INFO root fetch - processPackages [tweet-capture]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-15 03:11:36] INFO root fetch - processPackages [citation-crawler]: New version: [2.8.3] Old Version: [2.8.2]
+[2024-04-15 03:11:36] INFO root fetch - processPackages [netspresso-trainer]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-04-15 03:11:36] INFO root fetch - processPackages [modelbase]: New version: [1rc2] Old Version: [1.9.3]
+[2024-04-15 03:11:36] INFO root fetch - processPackages [tweet-capture]: Downloading https://files.pythonhosted.org/packages/1a/50/a8112ed6382cf3c10e7b5f401943fe5fce30eacbd494830b9f3924cf7f98/tweet-capture-0.2.4.tar.gz
+[2024-04-15 03:11:36] INFO root fetch - processPackages [netspresso-trainer]: Downloading https://files.pythonhosted.org/packages/92/1d/2a232c4b20491b37b8f0627ba0c564fa15407e4246885f3548b7e922a836/netspresso_trainer-0.1.2.tar.gz
+[2024-04-15 03:11:36] INFO root fetch - processPackages [pyCocos]: Downloading https://files.pythonhosted.org/packages/66/bc/6c1cbfdc5b1169fa65162b30418e64ca3eec62a6fe7ae6e7e2813b30666d/pycocos-0.2.4.tar.gz
+[2024-04-15 03:11:36] INFO root fetch - processPackages [citation-crawler]: Downloading https://files.pythonhosted.org/packages/f3/67/e3200ae13b65b1c47ff030529a5d89c007f3971aae4e643f863fda186c6e/citation_crawler-2.8.2.tar.gz
+[2024-04-15 03:11:36] INFO root fetch - processPackages [modelbase]: Downloading https://files.pythonhosted.org/packages/2d/60/61225a94c9e33f3d21366aefd4cdf1945c8805e3540a30f2fd1c5d8faa06/modelbase-1.9.3.tar.gz
+[2024-04-15 03:11:36] INFO root fetch - processPackages [zhijiang]: Downloading https://files.pythonhosted.org/packages/05/cf/ace85687f35b8c78491564744658a0392ee9c2b6187d7bd6d001fcc18b2c/zhijiang-0.7.9-py3-none-any.whl
+[2024-04-15 03:11:36] INFO root fetch - processPackages [pyCocos]: executing diffoscope
+[2024-04-15 03:11:36] INFO root fetch - processPackages [pyCocos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyCocos-0.2.3.tar.gz tmp/pycocos-0.2.4.tar.gz --markdown 20240415/p/pyCocos/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-15 03:11:36] INFO root fetch - processPackages [tweet-capture]: Downloading https://files.pythonhosted.org/packages/2c/68/02a9f9d0d66e9352f7137ab31da000a97560092d5e1e77b29733a6405039/tweet-capture-0.2.5.tar.gz
+[2024-04-15 03:11:36] INFO root fetch - processPackages [zhijiang]: executing diffoscope
+[2024-04-15 03:11:36] INFO root fetch - processPackages [zhijiang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhijiang-0.7.8-py3-none-any.whl.zip tmp/zhijiang-0.7.9-py3-none-any.whl.zip --markdown 20240415/z/zhijiang/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-15 03:11:36] INFO root fetch - processPackages [citation-crawler]: Downloading https://files.pythonhosted.org/packages/86/6f/4b2e87600c71dba2be219f149edbbc5ef5a48d2fcff073cffdb854e5cf16/citation_crawler-2.8.3.tar.gz
+[2024-04-15 03:11:36] INFO root fetch - processPackages [netspresso-trainer]: Downloading https://files.pythonhosted.org/packages/80/e8/533cfad10a42f4b523127203954ca537e44717b65362da688e3203e0de1b/netspresso_trainer-0.2.0.tar.gz
+[2024-04-15 03:11:36] INFO root fetch - processPackages [tweet-capture]: executing diffoscope
+[2024-04-15 03:11:36] INFO root fetch - processPackages [tweet-capture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tweet-capture-0.2.4.tar.gz tmp/tweet-capture-0.2.5.tar.gz --markdown 20240415/t/tweet-capture/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-15 03:11:36] INFO root fetch - processPackages [modelbase]: Downloading https://files.pythonhosted.org/packages/50/e2/d6e4b5bb8eda18f7221f3af4d4f295ef693f37fbafe88e68574e7e39c29f/modelbase-1rc2.tar.gz
+[2024-04-15 03:11:36] INFO root fetch - processPackages [citation-crawler]: executing diffoscope
+[2024-04-15 03:11:36] INFO root fetch - processPackages [citation-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citation_crawler-2.8.2.tar.gz tmp/citation_crawler-2.8.3.tar.gz --markdown 20240415/c/citation-crawler/2.8.2-2.8.3/README.md --exclude *.pyd
+[2024-04-15 03:11:36] INFO root fetch - processPackages [modelbase]: executing diffoscope
+[2024-04-15 03:11:36] INFO root fetch - processPackages [modelbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbase-1.9.3.tar.gz tmp/modelbase-1rc2.tar.gz --markdown 20240415/m/modelbase/1.9.3-1rc2/README.md --exclude *.pyd
+[2024-04-15 03:11:37] INFO root fetch - processPackages [netspresso-trainer]: executing diffoscope
+[2024-04-15 03:11:37] INFO root fetch - processPackages [netspresso-trainer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netspresso_trainer-0.1.2.tar.gz tmp/netspresso_trainer-0.2.0.tar.gz --markdown 20240415/n/netspresso-trainer/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-04-15 03:11:37] INFO root fetch - processPackages [pyCocos]: Remove: archive file [/home/abi/fetcher/tmp/pyCocos-0.2.3.tar.gz]
+[2024-04-15 03:11:37] INFO root fetch - processPackages [pyCocos]: Remove: archive file [/home/abi/fetcher/tmp/pycocos-0.2.4.tar.gz]
+[2024-04-15 03:11:37] INFO root fetch - main [MainThread]: End processing [pyCocos]: success
+[2024-04-15 03:11:37] INFO root fetch - processPackages [tweet-capture]: Remove: archive file [/home/abi/fetcher/tmp/tweet-capture-0.2.4.tar.gz]
+[2024-04-15 03:11:37] INFO root fetch - processPackages [tweet-capture]: Remove: archive file [/home/abi/fetcher/tmp/tweet-capture-0.2.5.tar.gz]
+[2024-04-15 03:11:37] INFO root fetch - main [MainThread]: End processing [tweet-capture]: success
+[2024-04-15 03:11:37] INFO root fetch - processPackages [modelbase]: Remove: archive file [/home/abi/fetcher/tmp/modelbase-1.9.3.tar.gz]
+[2024-04-15 03:11:37] INFO root fetch - processPackages [modelbase]: Remove: archive file [/home/abi/fetcher/tmp/modelbase-1rc2.tar.gz]
+[2024-04-15 03:11:37] INFO root fetch - main [MainThread]: End processing [modelbase]: success
+[2024-04-15 03:11:37] INFO root fetch - processPackages [citation-crawler]: Remove: archive file [/home/abi/fetcher/tmp/citation_crawler-2.8.2.tar.gz]
+[2024-04-15 03:11:37] INFO root fetch - processPackages [citation-crawler]: Remove: archive file [/home/abi/fetcher/tmp/citation_crawler-2.8.3.tar.gz]
+[2024-04-15 03:11:37] INFO root fetch - main [MainThread]: End processing [citation-crawler]: success
+[2024-04-15 03:11:38] INFO root fetch - processPackages [zhijiang]: Remove: archive file [/home/abi/fetcher/tmp/zhijiang-0.7.8-py3-none-any.whl.zip]
+[2024-04-15 03:11:38] INFO root fetch - processPackages [zhijiang]: Remove: archive file [/home/abi/fetcher/tmp/zhijiang-0.7.9-py3-none-any.whl.zip]
+[2024-04-15 03:11:38] INFO root fetch - main [MainThread]: End processing [zhijiang]: success
+[2024-04-15 03:11:38] INFO root fetch - processPackages [netspresso-trainer]: Remove: archive file [/home/abi/fetcher/tmp/netspresso_trainer-0.1.2.tar.gz]
+[2024-04-15 03:11:38] INFO root fetch - processPackages [netspresso-trainer]: Remove: archive file [/home/abi/fetcher/tmp/netspresso_trainer-0.2.0.tar.gz]
+[2024-04-15 03:11:38] INFO root fetch - main [MainThread]: End processing [netspresso-trainer]: success
+[2024-04-15 03:11:38] INFO root fetch - main [MainThread]: Store serial: [22764279]
