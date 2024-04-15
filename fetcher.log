@@ -1775,3 +1775,35 @@
 [2024-04-15 02:30:27] INFO root fetch - processPackages [pih-plb-rw-ntf]: Remove: archive file [/home/abi/fetcher/tmp/pih-plb_rw_ntf-0.14.tar.gz]
 [2024-04-15 02:30:27] INFO root fetch - main [MainThread]: End processing [pih-plb-rw-ntf]: success
 [2024-04-15 02:30:27] INFO root fetch - main [MainThread]: Store serial: [22763933]
+[2024-04-15 02:32:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22763933]
+[2024-04-15 02:32:36] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-15 02:34:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22763951]
+[2024-04-15 02:34:41] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-15 02:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zhijiang
+[2024-04-15 02:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lite-sandbox
+[2024-04-15 02:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trinnov-altitude
+[2024-04-15 02:34:41] INFO root fetch - processPackages [zhijiang]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-15 02:34:41] INFO root fetch - processPackages [trinnov-altitude]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-04-15 02:34:41] INFO root fetch - processPackages [zhijiang]: Downloading https://files.pythonhosted.org/packages/26/2b/3b52e8f559267bad8b17821e8e89f41e2252b1ce785ab75849cedf0c7646/zhijiang-0.7.8-py3-none-any.whl
+[2024-04-15 02:34:41] INFO root fetch - processPackages [lite-sandbox]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-15 02:34:41] INFO root fetch - processPackages [trinnov-altitude]: Downloading https://files.pythonhosted.org/packages/4f/20/946760fa232e1c25d758d62cd569bb1567fa4b9614328a4dc166afab03e9/trinnov_altitude-1.2.2.tar.gz
+[2024-04-15 02:34:41] INFO root fetch - processPackages [lite-sandbox]: Downloading https://files.pythonhosted.org/packages/ab/6e/479bbdbc731d8a73007a255d9f21e6dbd6c51ec1ae1d6be28a3e504ef481/lite-sandbox-0.0.1.tar.gz
+[2024-04-15 02:34:41] INFO root fetch - processPackages [zhijiang]: Downloading https://files.pythonhosted.org/packages/05/cf/ace85687f35b8c78491564744658a0392ee9c2b6187d7bd6d001fcc18b2c/zhijiang-0.7.9-py3-none-any.whl
+[2024-04-15 02:34:41] INFO root fetch - processPackages [trinnov-altitude]: Downloading https://files.pythonhosted.org/packages/9c/b9/02a084c65db540f472c50c5410130aeade63fd32ed706977109c450d8ee1/trinnov_altitude-1.2.3.tar.gz
+[2024-04-15 02:34:42] INFO root fetch - processPackages [trinnov-altitude]: executing diffoscope
+[2024-04-15 02:34:42] INFO root fetch - processPackages [trinnov-altitude]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trinnov_altitude-1.2.2.tar.gz tmp/trinnov_altitude-1.2.3.tar.gz --markdown 20240415/t/trinnov-altitude/1.2.2-1.2.3/README.md --exclude *.pyd
+[2024-04-15 02:34:42] INFO root fetch - processPackages [zhijiang]: executing diffoscope
+[2024-04-15 02:34:42] INFO root fetch - processPackages [zhijiang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhijiang-0.7.8-py3-none-any.whl.zip tmp/zhijiang-0.7.9-py3-none-any.whl.zip --markdown 20240415/z/zhijiang/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-15 02:34:42] INFO root fetch - processPackages [lite-sandbox]: Downloading https://files.pythonhosted.org/packages/78/db/0f098853b88a548da8b901b96cd260e92a304b9a51b795f7ae526042f370/lite-sandbox-0.0.2.zip
+[2024-04-15 02:34:42] INFO root fetch - processPackages [lite-sandbox]: executing diffoscope
+[2024-04-15 02:34:42] INFO root fetch - processPackages [lite-sandbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lite-sandbox-0.0.1.tar.gz tmp/lite-sandbox-0.0.2.zip --markdown 20240415/l/lite-sandbox/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-15 02:34:42] INFO root fetch - processPackages [lite-sandbox]: Remove: archive file [/home/abi/fetcher/tmp/lite-sandbox-0.0.1.tar.gz]
+[2024-04-15 02:34:42] INFO root fetch - processPackages [lite-sandbox]: Remove: archive file [/home/abi/fetcher/tmp/lite-sandbox-0.0.2.zip]
+[2024-04-15 02:34:42] INFO root fetch - main [MainThread]: End processing [lite-sandbox]: success
+[2024-04-15 02:34:42] INFO root fetch - processPackages [trinnov-altitude]: Remove: archive file [/home/abi/fetcher/tmp/trinnov_altitude-1.2.2.tar.gz]
+[2024-04-15 02:34:42] INFO root fetch - processPackages [trinnov-altitude]: Remove: archive file [/home/abi/fetcher/tmp/trinnov_altitude-1.2.3.tar.gz]
+[2024-04-15 02:34:42] INFO root fetch - main [MainThread]: End processing [trinnov-altitude]: success
+[2024-04-15 02:34:43] INFO root fetch - processPackages [zhijiang]: Remove: archive file [/home/abi/fetcher/tmp/zhijiang-0.7.8-py3-none-any.whl.zip]
+[2024-04-15 02:34:43] INFO root fetch - processPackages [zhijiang]: Remove: archive file [/home/abi/fetcher/tmp/zhijiang-0.7.9-py3-none-any.whl.zip]
+[2024-04-15 02:34:43] INFO root fetch - main [MainThread]: End processing [zhijiang]: success
+[2024-04-15 02:34:43] INFO root fetch - main [MainThread]: Store serial: [22763959]
