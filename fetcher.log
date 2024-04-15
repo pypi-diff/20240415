@@ -16691,3 +16691,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 13:32:58] INFO root fetch - processPackages [gempy]: Remove: archive file [/home/abi/fetcher/tmp/gempy-2023.2.0b1.tar.gz]
 [2024-04-15 13:32:58] INFO root fetch - main [MainThread]: End processing [gempy]: success
 [2024-04-15 13:32:58] INFO root fetch - main [MainThread]: Store serial: [22770142]
+[2024-04-15 13:35:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22770142]
+[2024-04-15 13:35:07] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-15 13:35:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zimo-web-screenshot
+[2024-04-15 13:35:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prosperity2bt
+[2024-04-15 13:35:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dqc-toolkit
+[2024-04-15 13:35:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spine-segmentation
+[2024-04-15 13:35:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bio-volumentations
+[2024-04-15 13:35:07] WARNING root fetch - processPackages [zimo-web-screenshot]: Skipping, unable to determine old version
+[2024-04-15 13:35:07] INFO root fetch - main [MainThread]: End processing [zimo-web-screenshot] error
+[2024-04-15 13:35:07] INFO root fetch - processPackages [bio-volumentations]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-15 13:35:07] INFO root fetch - processPackages [dqc-toolkit]: New version: [0.1.2b2] Old Version: [0.1.0b1]
+[2024-04-15 13:35:07] INFO root fetch - processPackages [spine-segmentation]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-15 13:35:07] INFO root fetch - processPackages [dqc-toolkit]: Downloading https://files.pythonhosted.org/packages/d4/ef/85983bafc6dabdd49227e81ccb1b322f474ef7901f9d4cc1eb0885cc60bf/dqc-toolkit-0.1.0b1.tar.gz
+[2024-04-15 13:35:07] INFO root fetch - processPackages [bio-volumentations]: Downloading https://files.pythonhosted.org/packages/42/88/52f3bf716731f49698900e5bff6fbf600c12de9fe219b0e41232229ec136/bio_volumentations-1.1.0.tar.gz
+[2024-04-15 13:35:07] INFO root fetch - processPackages [prosperity2bt]: New version: [0.5.0] Old Version: [0.4.4]
+[2024-04-15 13:35:07] INFO root fetch - processPackages [prosperity2bt]: Downloading https://files.pythonhosted.org/packages/3f/a8/b38e5ecec2a0a354a5b768e035e18d721626c2401ad6b977c73676baf2fa/prosperity2bt-0.4.4.tar.gz
+[2024-04-15 13:35:07] INFO root fetch - processPackages [spine-segmentation]: Downloading https://files.pythonhosted.org/packages/e8/9a/b01a3427b9d97c9d05a440c1542efca07f0c412701baaccf70b0017cbe3d/spine_segmentation-0.2.2.tar.gz
+[2024-04-15 13:35:07] INFO root fetch - processPackages [dqc-toolkit]: Downloading https://files.pythonhosted.org/packages/7b/41/8f6346fae2266e9887bb614bcebcf591ef39b421b0a9c8255994ff4680ea/dqc_toolkit-0.1.2b2.tar.gz
+[2024-04-15 13:35:08] INFO root fetch - processPackages [bio-volumentations]: Downloading https://files.pythonhosted.org/packages/c7/4d/4c5ec76e224e274bd69141b2780e5ae785f8ae45ebf42b4326c3bf3ec181/bio_volumentations-1.1.1.tar.gz
+[2024-04-15 13:35:08] INFO root fetch - processPackages [dqc-toolkit]: executing diffoscope
+[2024-04-15 13:35:08] INFO root fetch - processPackages [dqc-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dqc-toolkit-0.1.0b1.tar.gz tmp/dqc_toolkit-0.1.2b2.tar.gz --markdown 20240415/d/dqc-toolkit/0.1.0b1-0.1.2b2/README.md --exclude *.pyd
+[2024-04-15 13:35:08] INFO root fetch - processPackages [bio-volumentations]: executing diffoscope
+[2024-04-15 13:35:08] INFO root fetch - processPackages [bio-volumentations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bio_volumentations-1.1.0.tar.gz tmp/bio_volumentations-1.1.1.tar.gz --markdown 20240415/b/bio-volumentations/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-15 13:35:08] INFO root fetch - processPackages [spine-segmentation]: Downloading https://files.pythonhosted.org/packages/ba/5a/ed0d03a7459445504a34d8ae01fd52529215c4cc3659bd0c496b3b5d340d/spine_segmentation-0.2.3.tar.gz
+[2024-04-15 13:35:08] INFO root fetch - processPackages [prosperity2bt]: Downloading https://files.pythonhosted.org/packages/c6/7b/5140476a9d652829febf6d7866034eb1c067b3f0020c39549678153ab77f/prosperity2bt-0.5.0.tar.gz
+[2024-04-15 13:35:08] INFO root fetch - processPackages [spine-segmentation]: executing diffoscope
+[2024-04-15 13:35:08] INFO root fetch - processPackages [spine-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spine_segmentation-0.2.2.tar.gz tmp/spine_segmentation-0.2.3.tar.gz --markdown 20240415/s/spine-segmentation/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-04-15 13:35:08] INFO root fetch - processPackages [prosperity2bt]: executing diffoscope
+[2024-04-15 13:35:08] INFO root fetch - processPackages [prosperity2bt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prosperity2bt-0.4.4.tar.gz tmp/prosperity2bt-0.5.0.tar.gz --markdown 20240415/p/prosperity2bt/0.4.4-0.5.0/README.md --exclude *.pyd
+[2024-04-15 13:35:08] INFO root fetch - processPackages [dqc-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/dqc-toolkit-0.1.0b1.tar.gz]
+[2024-04-15 13:35:08] INFO root fetch - processPackages [dqc-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/dqc_toolkit-0.1.2b2.tar.gz]
+[2024-04-15 13:35:08] INFO root fetch - main [MainThread]: End processing [dqc-toolkit]: success
+[2024-04-15 13:35:08] INFO root fetch - processPackages [bio-volumentations]: Remove: archive file [/home/abi/fetcher/tmp/bio_volumentations-1.1.0.tar.gz]
+[2024-04-15 13:35:08] INFO root fetch - processPackages [bio-volumentations]: Remove: archive file [/home/abi/fetcher/tmp/bio_volumentations-1.1.1.tar.gz]
+[2024-04-15 13:35:08] INFO root fetch - main [MainThread]: End processing [bio-volumentations]: success
+[2024-04-15 13:35:09] INFO root fetch - processPackages [spine-segmentation]: Remove: archive file [/home/abi/fetcher/tmp/spine_segmentation-0.2.2.tar.gz]
+[2024-04-15 13:35:09] INFO root fetch - processPackages [spine-segmentation]: Remove: archive file [/home/abi/fetcher/tmp/spine_segmentation-0.2.3.tar.gz]
+[2024-04-15 13:35:09] INFO root fetch - main [MainThread]: End processing [spine-segmentation]: success
+[2024-04-15 13:35:10] INFO root fetch - processPackages [prosperity2bt]: Remove: archive file [/home/abi/fetcher/tmp/prosperity2bt-0.4.4.tar.gz]
+[2024-04-15 13:35:10] INFO root fetch - processPackages [prosperity2bt]: Remove: archive file [/home/abi/fetcher/tmp/prosperity2bt-0.5.0.tar.gz]
+[2024-04-15 13:35:10] INFO root fetch - main [MainThread]: End processing [prosperity2bt]: success
+[2024-04-15 13:35:10] INFO root fetch - main [MainThread]: Store serial: [22770157]
