@@ -3527,3 +3527,60 @@
 [2024-04-15 04:45:05] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202404150242.tar.gz]
 [2024-04-15 04:45:05] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2024-04-15 04:45:05] INFO root fetch - main [MainThread]: Store serial: [22764817]
+[2024-04-15 04:47:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22764817]
+[2024-04-15 04:47:14] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-15 04:47:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ai-characters
+[2024-04-15 04:47:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ceotr-config
+[2024-04-15 04:47:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bacpypes3
+[2024-04-15 04:47:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: onediff
+[2024-04-15 04:47:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: onediffx
+[2024-04-15 04:47:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: astropy-iers-data
+[2024-04-15 04:47:14] INFO root fetch - processPackages [astropy-iers-data]: New version: [0.2024.4.8.0.32.4] Old Version: [0.2024.4.15.2.45.49]
+[2024-04-15 04:47:14] INFO root fetch - processPackages [onediff]: New version: [1.0.0.dev202404150245] Old Version: [1.0.0.dev202404140132]
+[2024-04-15 04:47:14] INFO root fetch - processPackages [ai-characters]: New version: [1.6.0] Old Version: [1.5.0]
+[2024-04-15 04:47:14] INFO root fetch - processPackages [bacpypes3]: New version: [0.0.93] Old Version: [0.0.92]
+[2024-04-15 04:47:14] INFO root fetch - processPackages [ceotr-config]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-15 04:47:14] INFO root fetch - processPackages [onediffx]: New version: [1.0.0.dev202404150245] Old Version: [1.0.0.dev202404140132]
+[2024-04-15 04:47:14] INFO root fetch - processPackages [ai-characters]: Downloading https://files.pythonhosted.org/packages/21/fb/1a54b086528046139f6d11bc2a0e808b29dc58f3ed3baf75b0b87098c805/ai_characters-1.5.0.tar.gz
+[2024-04-15 04:47:14] INFO root fetch - processPackages [astropy-iers-data]: Downloading https://files.pythonhosted.org/packages/60/81/83b3fc3d8a9aa9c72dcbf7310e3c9d76262982a53f5227cea4ff334e997b/astropy_iers_data-0.2024.4.15.2.45.49.tar.gz
+[2024-04-15 04:47:14] INFO root fetch - processPackages [ceotr-config]: Downloading https://files.pythonhosted.org/packages/18/b2/b174df6f3578ebce7ee86ade88cd7eae19d130ef41461dab6fff67912526/ceotr_config-1.0.8.tar.gz
+[2024-04-15 04:47:14] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/41/23/9f9a3a285f252cd3a590f32497a0ea5f558cd5afcff509805655695a2e21/onediff-1.0.0.dev202404140132.tar.gz
+[2024-04-15 04:47:14] INFO root fetch - processPackages [bacpypes3]: Downloading https://files.pythonhosted.org/packages/04/23/6d0abc95f5f3030694d2b3c5819cc0990e01440492e41723f951871016e8/bacpypes3-0.0.92.tar.gz
+[2024-04-15 04:47:14] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/b5/29/032ea71c78a531770b94839290ab7bdd09fe602e658711af92ddd90f6dc0/onediffx-1.0.0.dev202404140132.tar.gz
+[2024-04-15 04:47:15] INFO root fetch - processPackages [ai-characters]: Downloading https://files.pythonhosted.org/packages/89/7c/2c62274300457eca350786cdaa0a65752faa4a0edee88d71e6b56f52ddba/ai_characters-1.6.0.tar.gz
+[2024-04-15 04:47:15] INFO root fetch - processPackages [ceotr-config]: Downloading https://files.pythonhosted.org/packages/78/55/774663427dd7cc599dc6bf39e094a0effc01224daacd4472966ab175bb7b/ceotr_config-1.0.9.tar.gz
+[2024-04-15 04:47:15] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/b0/de/7eb355dbf466aaaa72a36df0d80810cb27794914d4e6750e07dfba196008/onediff-1.0.0.dev202404150245.tar.gz
+[2024-04-15 04:47:15] INFO root fetch - processPackages [ai-characters]: executing diffoscope
+[2024-04-15 04:47:15] INFO root fetch - processPackages [ai-characters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_characters-1.5.0.tar.gz tmp/ai_characters-1.6.0.tar.gz --markdown 20240415/a/ai-characters/1.5.0-1.6.0/README.md --exclude *.pyd
+[2024-04-15 04:47:15] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/df/10/ed613b83e26f2f61c67c1ede64b03f0a6cb81118f0051cb053c5a38fb667/onediffx-1.0.0.dev202404150245.tar.gz
+[2024-04-15 04:47:15] INFO root fetch - processPackages [bacpypes3]: Downloading https://files.pythonhosted.org/packages/64/00/cd20db2b3076bdb7dc5439a17fbd42703b969ae8bb465c1eccbe1eb9da43/bacpypes3-0.0.93.tar.gz
+[2024-04-15 04:47:15] INFO root fetch - processPackages [ceotr-config]: executing diffoscope
+[2024-04-15 04:47:15] INFO root fetch - processPackages [ceotr-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ceotr_config-1.0.8.tar.gz tmp/ceotr_config-1.0.9.tar.gz --markdown 20240415/c/ceotr-config/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-15 04:47:15] INFO root fetch - processPackages [astropy-iers-data]: Downloading https://files.pythonhosted.org/packages/22/b9/c9c77cb70e55488e36127da2edc5f744506c27dd2e7c6326b21b4405ed99/astropy-iers-data-0.2024.4.8.0.32.4.tar.gz
+[2024-04-15 04:47:15] INFO root fetch - processPackages [onediff]: executing diffoscope
+[2024-04-15 04:47:15] INFO root fetch - processPackages [onediff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediff-1.0.0.dev202404140132.tar.gz tmp/onediff-1.0.0.dev202404150245.tar.gz --markdown 20240415/o/onediff/1.0.0.dev202404140132-1.0.0.dev202404150245/README.md --exclude *.pyd
+[2024-04-15 04:47:15] INFO root fetch - processPackages [onediffx]: executing diffoscope
+[2024-04-15 04:47:15] INFO root fetch - processPackages [onediffx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediffx-1.0.0.dev202404140132.tar.gz tmp/onediffx-1.0.0.dev202404150245.tar.gz --markdown 20240415/o/onediffx/1.0.0.dev202404140132-1.0.0.dev202404150245/README.md --exclude *.pyd
+[2024-04-15 04:47:15] INFO root fetch - processPackages [bacpypes3]: executing diffoscope
+[2024-04-15 04:47:15] INFO root fetch - processPackages [bacpypes3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bacpypes3-0.0.92.tar.gz tmp/bacpypes3-0.0.93.tar.gz --markdown 20240415/b/bacpypes3/0.0.92-0.0.93/README.md --exclude *.pyd
+[2024-04-15 04:47:15] INFO root fetch - processPackages [astropy-iers-data]: executing diffoscope
+[2024-04-15 04:47:15] INFO root fetch - processPackages [astropy-iers-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astropy_iers_data-0.2024.4.15.2.45.49.tar.gz tmp/astropy-iers-data-0.2024.4.8.0.32.4.tar.gz --markdown 20240415/a/astropy-iers-data/0.2024.4.15.2.45.49-0.2024.4.8.0.32.4/README.md --exclude *.pyd
+[2024-04-15 04:47:15] INFO root fetch - processPackages [ai-characters]: Remove: archive file [/home/abi/fetcher/tmp/ai_characters-1.5.0.tar.gz]
+[2024-04-15 04:47:15] INFO root fetch - processPackages [ai-characters]: Remove: archive file [/home/abi/fetcher/tmp/ai_characters-1.6.0.tar.gz]
+[2024-04-15 04:47:15] INFO root fetch - main [MainThread]: End processing [ai-characters]: success
+[2024-04-15 04:47:15] INFO root fetch - processPackages [ceotr-config]: Remove: archive file [/home/abi/fetcher/tmp/ceotr_config-1.0.8.tar.gz]
+[2024-04-15 04:47:15] INFO root fetch - processPackages [ceotr-config]: Remove: archive file [/home/abi/fetcher/tmp/ceotr_config-1.0.9.tar.gz]
+[2024-04-15 04:47:15] INFO root fetch - main [MainThread]: End processing [ceotr-config]: success
+[2024-04-15 04:47:15] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-1.0.0.dev202404140132.tar.gz]
+[2024-04-15 04:47:16] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-1.0.0.dev202404150245.tar.gz]
+[2024-04-15 04:47:16] INFO root fetch - main [MainThread]: End processing [onediffx]: success
+[2024-04-15 04:47:16] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-1.0.0.dev202404140132.tar.gz]
+[2024-04-15 04:47:16] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-1.0.0.dev202404150245.tar.gz]
+[2024-04-15 04:47:16] INFO root fetch - main [MainThread]: End processing [onediff]: success
+[2024-04-15 04:47:16] INFO root fetch - processPackages [bacpypes3]: Remove: archive file [/home/abi/fetcher/tmp/bacpypes3-0.0.92.tar.gz]
+[2024-04-15 04:47:16] INFO root fetch - processPackages [bacpypes3]: Remove: archive file [/home/abi/fetcher/tmp/bacpypes3-0.0.93.tar.gz]
+[2024-04-15 04:47:16] INFO root fetch - main [MainThread]: End processing [bacpypes3]: success
+[2024-04-15 04:47:17] INFO root fetch - processPackages [astropy-iers-data]: Remove: archive file [/home/abi/fetcher/tmp/astropy_iers_data-0.2024.4.15.2.45.49.tar.gz]
+[2024-04-15 04:47:17] INFO root fetch - processPackages [astropy-iers-data]: Remove: archive file [/home/abi/fetcher/tmp/astropy-iers-data-0.2024.4.8.0.32.4.tar.gz]
+[2024-04-15 04:47:17] INFO root fetch - main [MainThread]: End processing [astropy-iers-data]: success
+[2024-04-15 04:47:17] INFO root fetch - main [MainThread]: Store serial: [22764836]
