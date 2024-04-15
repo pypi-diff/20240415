@@ -10481,3 +10481,102 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 09:48:26] INFO root fetch - processPackages [terrajinja-imports-vcd]: Remove: archive file [/home/abi/fetcher/tmp/terrajinja-imports-vcd-3.12.0.tar.gz]
 [2024-04-15 09:48:26] INFO root fetch - main [MainThread]: End processing [terrajinja-imports-vcd]: success
 [2024-04-15 09:48:26] INFO root fetch - main [MainThread]: Store serial: [22767468]
+[2024-04-15 09:50:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22767468]
+[2024-04-15 09:50:35] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-15 09:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: radical.pilot
+[2024-04-15 09:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: avania
+[2024-04-15 09:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dm-aiomodbus
+[2024-04-15 09:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: HawaData
+[2024-04-15 09:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qiskit-aqt-provider
+[2024-04-15 09:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: warpzone-sdk
+[2024-04-15 09:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: DXR-BJ-Test-print
+[2024-04-15 09:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: monisha
+[2024-04-15 09:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: radical.entk
+[2024-04-15 09:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: npsam
+[2024-04-15 09:50:35] INFO root fetch - processPackages [avania]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-15 09:50:35] INFO root fetch - processPackages [radical.entk]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-15 09:50:35] INFO root fetch - processPackages [monisha]: New version: [0.0.49] Old Version: [0.0.48]
+[2024-04-15 09:50:35] INFO root fetch - processPackages [npsam]: New version: [1.4.9.2] Old Version: [1.4.9.1]
+[2024-04-15 09:50:35] INFO root fetch - processPackages [radical.pilot]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-04-15 09:50:35] INFO root fetch - processPackages [HawaData]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-15 09:50:35] INFO root fetch - processPackages [qiskit-aqt-provider]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-04-15 09:50:35] INFO root fetch - processPackages [dm-aiomodbus]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-15 09:50:35] WARNING root fetch - processPackages [DXR-BJ-Test-print]: Skipping, unable to determine old version
+[2024-04-15 09:50:35] INFO root fetch - processPackages [avania]: Downloading https://files.pythonhosted.org/packages/91/e3/dc86a2a37f249ce6ab0423501617828ac03520ccd4cb3fb5712163aa8afe/avania-0.1.6.tar.gz
+[2024-04-15 09:50:35] INFO root fetch - processPackages [DXR-BJ-Test-print]: Start processing: wjkutil
+[2024-04-15 09:50:35] INFO root fetch - main [MainThread]: End processing [DXR-BJ-Test-print] error
+[2024-04-15 09:50:35] INFO root fetch - processPackages [warpzone-sdk]: New version: [9.1.9] Old Version: [9.1.8]
+[2024-04-15 09:50:35] INFO root fetch - processPackages [radical.entk]: Downloading https://files.pythonhosted.org/packages/f0/b7/2f841b0cf71c08e32f44c0bfe2d3ccaa9afc6aae30c7ea71a13f5d2ea88e/radical.entk-1.8.0.tar.gz
+[2024-04-15 09:50:35] INFO root fetch - processPackages [monisha]: Downloading https://files.pythonhosted.org/packages/77/6c/4fa3217061257fbae0bedff764cd41388d700aaef905fba597c544fd4aff/monisha-0.0.48.tar.gz
+[2024-04-15 09:50:35] INFO root fetch - processPackages [radical.pilot]: Downloading https://files.pythonhosted.org/packages/c3/7c/d31f91fe541d7d29492a0ea8cfa2445f16b9148c03c1d86fd84515a50a24/radical.pilot-1.9.1.tar.gz
+[2024-04-15 09:50:35] WARNING root fetch - processPackages [wjkutil]: Skipping, unable to determine old version
+[2024-04-15 09:50:35] INFO root fetch - processPackages [wjkutil]: Start processing: radical.repex
+[2024-04-15 09:50:35] INFO root fetch - main [MainThread]: End processing [wjkutil] error
+[2024-04-15 09:50:35] INFO root fetch - processPackages [npsam]: Downloading https://files.pythonhosted.org/packages/9d/a6/2abcac9b9d7710294db02b74d2d2a6cdc02c51c152a0890eab9da6e8be39/npsam-1.4.9.1.tar.gz
+[2024-04-15 09:50:35] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/54/62/07ba491a009c60ed1a2e13076e2b276380ab024ad1b0fe9239d79e73e30f/HawaData-0.9.2.tar.gz
+[2024-04-15 09:50:35] INFO root fetch - processPackages [radical.repex]: New version: [1.47.1] Old Version: [1.47.0]
+[2024-04-15 09:50:35] INFO root fetch - processPackages [dm-aiomodbus]: Downloading https://files.pythonhosted.org/packages/7d/5e/f62c7890a8cb44e5a7655a68a8f6cfa7ab49eadd3961807d9f7d60a6c984/dm-aiomodbus-0.1.5.tar.gz
+[2024-04-15 09:50:35] INFO root fetch - processPackages [qiskit-aqt-provider]: Downloading https://files.pythonhosted.org/packages/8e/c7/fc482fd109d9b9e92080a17faf4c3e8c4c16cf7d2e981d126fd241d9c92e/qiskit_aqt_provider-1.3.0.tar.gz
+[2024-04-15 09:50:35] INFO root fetch - processPackages [warpzone-sdk]: Downloading https://files.pythonhosted.org/packages/30/c5/2385104102242b4b2796d6fcd2d927d857e92c09234689b6b3f81754a9b8/warpzone_sdk-9.1.8.tar.gz
+[2024-04-15 09:50:35] INFO root fetch - processPackages [radical.repex]: Downloading https://files.pythonhosted.org/packages/c8/a9/58c9eb44109f0e3f3e2ef8ea4b2971032f03ada3fd31f6030fe3906eaf66/radical.repex-1.47.0.tar.gz
+[2024-04-15 09:50:35] INFO root fetch - processPackages [radical.entk]: Downloading https://files.pythonhosted.org/packages/d4/3b/7bac551fce4718ea1bf65083bb8a42bf6743a370057fd5dffa604a8c2364/radical.entk-1.9.0.tar.gz
+[2024-04-15 09:50:36] INFO root fetch - processPackages [radical.pilot]: Downloading https://files.pythonhosted.org/packages/40/26/f7f501f7fba04c9d801b429736b04dcf8fe30e907caf6f1ff0bb543bf31b/radical.pilot-1.9.2.tar.gz
+[2024-04-15 09:50:36] INFO root fetch - processPackages [avania]: Downloading https://files.pythonhosted.org/packages/d6/46/2f381ee4fd2b2e1d2d8815898e807f070caf1ac297836678818bfb507ab4/avania-0.1.7.tar.gz
+[2024-04-15 09:50:36] INFO root fetch - processPackages [monisha]: Downloading https://files.pythonhosted.org/packages/eb/44/2a1811b0553b83fac660d0ef5676f03e2be2ffc7e83cc29e820aefdca8b1/monisha-0.0.49.tar.gz
+[2024-04-15 09:50:36] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/95/58/2cdac667a1836addfd4afed0a282ba9b734f08f76df287b35dcfa0d5e79e/HawaData-0.9.3.tar.gz
+[2024-04-15 09:50:36] INFO root fetch - processPackages [radical.entk]: executing diffoscope
+[2024-04-15 09:50:36] INFO root fetch - processPackages [radical.entk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radical.entk-1.8.0.tar.gz tmp/radical.entk-1.9.0.tar.gz --markdown 20240415/r/radical.entk/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-15 09:50:36] INFO root fetch - processPackages [dm-aiomodbus]: Downloading https://files.pythonhosted.org/packages/9e/bd/284bbcbe1641dd24601ebf440fe9ac88d18b6828002fddc3bcd71cdb57c3/dm_aiomodbus-0.1.6.tar.gz
+[2024-04-15 09:50:36] INFO root fetch - processPackages [npsam]: Downloading https://files.pythonhosted.org/packages/17/2b/4975ca9b56fc4a9e318a252c83a9a31760af44e2e7905cad0edb49540e65/npsam-1.4.9.2.tar.gz
+[2024-04-15 09:50:36] INFO root fetch - processPackages [avania]: executing diffoscope
+[2024-04-15 09:50:36] INFO root fetch - processPackages [avania]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avania-0.1.6.tar.gz tmp/avania-0.1.7.tar.gz --markdown 20240415/a/avania/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-15 09:50:36] INFO root fetch - processPackages [qiskit-aqt-provider]: Downloading https://files.pythonhosted.org/packages/68/67/dd3b99b36b96d25c0025f4c60f7a34eb3b05d7fab9d13c769c2e3b0fac3e/qiskit_aqt_provider-1.4.0.tar.gz
+[2024-04-15 09:50:36] INFO root fetch - processPackages [monisha]: executing diffoscope
+[2024-04-15 09:50:36] INFO root fetch - processPackages [monisha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monisha-0.0.48.tar.gz tmp/monisha-0.0.49.tar.gz --markdown 20240415/m/monisha/0.0.48-0.0.49/README.md --exclude *.pyd
+[2024-04-15 09:50:36] INFO root fetch - processPackages [radical.pilot]: executing diffoscope
+[2024-04-15 09:50:36] INFO root fetch - processPackages [radical.pilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radical.pilot-1.9.1.tar.gz tmp/radical.pilot-1.9.2.tar.gz --markdown 20240415/r/radical.pilot/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-04-15 09:50:36] INFO root fetch - processPackages [HawaData]: executing diffoscope
+[2024-04-15 09:50:36] INFO root fetch - processPackages [HawaData]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HawaData-0.9.2.tar.gz tmp/HawaData-0.9.3.tar.gz --markdown 20240415/H/HawaData/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-04-15 09:50:36] INFO root fetch - processPackages [radical.repex]: Downloading https://files.pythonhosted.org/packages/d7/57/a7174e63d75e0ecd97eea016336b6d055417838db76d158eb5878c0e386e/radical_repex-1.47.1.tar.gz
+[2024-04-15 09:50:36] INFO root fetch - processPackages [dm-aiomodbus]: executing diffoscope
+[2024-04-15 09:50:36] INFO root fetch - processPackages [dm-aiomodbus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm-aiomodbus-0.1.5.tar.gz tmp/dm_aiomodbus-0.1.6.tar.gz --markdown 20240415/d/dm-aiomodbus/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-15 09:50:36] INFO root fetch - processPackages [npsam]: executing diffoscope
+[2024-04-15 09:50:36] INFO root fetch - processPackages [npsam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/npsam-1.4.9.1.tar.gz tmp/npsam-1.4.9.2.tar.gz --markdown 20240415/n/npsam/1.4.9.1-1.4.9.2/README.md --exclude *.pyd
+[2024-04-15 09:50:36] INFO root fetch - processPackages [warpzone-sdk]: Downloading https://files.pythonhosted.org/packages/41/7d/cb14d7ee4be30f331412fbf42f28b30dca3df8ad102961c612ff2a1dd661/warpzone_sdk-9.1.9.tar.gz
+[2024-04-15 09:50:36] INFO root fetch - processPackages [qiskit-aqt-provider]: executing diffoscope
+[2024-04-15 09:50:36] INFO root fetch - processPackages [qiskit-aqt-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit_aqt_provider-1.3.0.tar.gz tmp/qiskit_aqt_provider-1.4.0.tar.gz --markdown 20240415/q/qiskit-aqt-provider/1.3.0-1.4.0/README.md --exclude *.pyd
+[2024-04-15 09:50:36] INFO root fetch - processPackages [radical.repex]: executing diffoscope
+[2024-04-15 09:50:36] INFO root fetch - processPackages [radical.repex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radical.repex-1.47.0.tar.gz tmp/radical_repex-1.47.1.tar.gz --markdown 20240415/r/radical.repex/1.47.0-1.47.1/README.md --exclude *.pyd
+[2024-04-15 09:50:36] INFO root fetch - processPackages [warpzone-sdk]: executing diffoscope
+[2024-04-15 09:50:36] INFO root fetch - processPackages [warpzone-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/warpzone_sdk-9.1.8.tar.gz tmp/warpzone_sdk-9.1.9.tar.gz --markdown 20240415/w/warpzone-sdk/9.1.8-9.1.9/README.md --exclude *.pyd
+[2024-04-15 09:50:37] INFO root fetch - processPackages [avania]: Remove: archive file [/home/abi/fetcher/tmp/avania-0.1.6.tar.gz]
+[2024-04-15 09:50:37] INFO root fetch - processPackages [avania]: Remove: archive file [/home/abi/fetcher/tmp/avania-0.1.7.tar.gz]
+[2024-04-15 09:50:37] INFO root fetch - main [MainThread]: End processing [avania]: success
+[2024-04-15 09:50:37] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.9.2.tar.gz]
+[2024-04-15 09:50:37] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.9.3.tar.gz]
+[2024-04-15 09:50:37] INFO root fetch - main [MainThread]: End processing [HawaData]: success
+[2024-04-15 09:50:37] INFO root fetch - processPackages [radical.entk]: Remove: archive file [/home/abi/fetcher/tmp/radical.entk-1.8.0.tar.gz]
+[2024-04-15 09:50:37] INFO root fetch - processPackages [radical.entk]: Remove: archive file [/home/abi/fetcher/tmp/radical.entk-1.9.0.tar.gz]
+[2024-04-15 09:50:37] INFO root fetch - main [MainThread]: End processing [radical.entk]: success
+[2024-04-15 09:50:37] INFO root fetch - processPackages [dm-aiomodbus]: Remove: archive file [/home/abi/fetcher/tmp/dm-aiomodbus-0.1.5.tar.gz]
+[2024-04-15 09:50:37] INFO root fetch - processPackages [dm-aiomodbus]: Remove: archive file [/home/abi/fetcher/tmp/dm_aiomodbus-0.1.6.tar.gz]
+[2024-04-15 09:50:37] INFO root fetch - main [MainThread]: End processing [dm-aiomodbus]: success
+[2024-04-15 09:50:37] INFO root fetch - processPackages [monisha]: Remove: archive file [/home/abi/fetcher/tmp/monisha-0.0.48.tar.gz]
+[2024-04-15 09:50:37] INFO root fetch - processPackages [monisha]: Remove: archive file [/home/abi/fetcher/tmp/monisha-0.0.49.tar.gz]
+[2024-04-15 09:50:37] INFO root fetch - main [MainThread]: End processing [monisha]: success
+[2024-04-15 09:50:37] INFO root fetch - processPackages [npsam]: Remove: archive file [/home/abi/fetcher/tmp/npsam-1.4.9.1.tar.gz]
+[2024-04-15 09:50:37] INFO root fetch - processPackages [npsam]: Remove: archive file [/home/abi/fetcher/tmp/npsam-1.4.9.2.tar.gz]
+[2024-04-15 09:50:37] INFO root fetch - main [MainThread]: End processing [npsam]: success
+[2024-04-15 09:50:37] INFO root fetch - processPackages [warpzone-sdk]: Remove: archive file [/home/abi/fetcher/tmp/warpzone_sdk-9.1.8.tar.gz]
+[2024-04-15 09:50:37] INFO root fetch - processPackages [warpzone-sdk]: Remove: archive file [/home/abi/fetcher/tmp/warpzone_sdk-9.1.9.tar.gz]
+[2024-04-15 09:50:37] INFO root fetch - main [MainThread]: End processing [warpzone-sdk]: success
+[2024-04-15 09:50:37] INFO root fetch - processPackages [qiskit-aqt-provider]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_aqt_provider-1.3.0.tar.gz]
+[2024-04-15 09:50:37] INFO root fetch - processPackages [qiskit-aqt-provider]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_aqt_provider-1.4.0.tar.gz]
+[2024-04-15 09:50:37] INFO root fetch - main [MainThread]: End processing [qiskit-aqt-provider]: success
+[2024-04-15 09:50:37] INFO root fetch - processPackages [radical.repex]: Remove: archive file [/home/abi/fetcher/tmp/radical.repex-1.47.0.tar.gz]
+[2024-04-15 09:50:37] INFO root fetch - processPackages [radical.repex]: Remove: archive file [/home/abi/fetcher/tmp/radical_repex-1.47.1.tar.gz]
+[2024-04-15 09:50:37] INFO root fetch - main [MainThread]: End processing [radical.repex]: success
+[2024-04-15 09:50:37] INFO root fetch - processPackages [radical.pilot]: Remove: archive file [/home/abi/fetcher/tmp/radical.pilot-1.9.1.tar.gz]
+[2024-04-15 09:50:37] INFO root fetch - processPackages [radical.pilot]: Remove: archive file [/home/abi/fetcher/tmp/radical.pilot-1.9.2.tar.gz]
+[2024-04-15 09:50:37] INFO root fetch - main [MainThread]: End processing [radical.pilot]: success
+[2024-04-15 09:50:37] INFO root fetch - main [MainThread]: Store serial: [22767516]
