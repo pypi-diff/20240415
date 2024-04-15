@@ -22499,3 +22499,72 @@ AssertionError: tmp/pyblindrl-0.0.2rc57.post1.tar.gz does not exist
 [2024-04-15 16:30:55] INFO root fetch - processPackages [mkdocs-rtd]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_rtd-0.0.9.tar.gz]
 [2024-04-15 16:30:55] INFO root fetch - main [MainThread]: End processing [mkdocs-rtd]: success
 [2024-04-15 16:30:55] INFO root fetch - main [MainThread]: Store serial: [22772734]
+[2024-04-15 16:32:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22772734]
+[2024-04-15 16:33:04] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-15 16:33:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vantage6-server
+[2024-04-15 16:33:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vantage6-algorithm-store
+[2024-04-15 16:33:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: caracara
+[2024-04-15 16:33:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bingo-elastic
+[2024-04-15 16:33:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: epam.indigo
+[2024-04-15 16:33:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyaoponto-toolkit
+[2024-04-15 16:33:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bfgcardplay
+[2024-04-15 16:33:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb
+[2024-04-15 16:33:04] INFO root fetch - processPackages [vantage6-server]: New version: [4.4.0rc3] Old Version: [4.3.4rc3]
+[2024-04-15 16:33:04] WARNING root fetch - processPackages [pyaoponto-toolkit]: Skipping, unable to determine old version
+[2024-04-15 16:33:04] INFO root fetch - main [MainThread]: End processing [pyaoponto-toolkit] error
+[2024-04-15 16:33:04] INFO root fetch - processPackages [vantage6-algorithm-store]: New version: [4.4.0rc3] Old Version: [4.3.4rc3]
+[2024-04-15 16:33:04] INFO root fetch - processPackages [nucliadb]: New version: [3.0.2.post428] Old Version: [3.0.2.post427]
+[2024-04-15 16:33:04] INFO root fetch - processPackages [caracara]: New version: [0.7.0] Old Version: [0.6.1]
+[2024-04-15 16:33:04] INFO root fetch - processPackages [vantage6-server]: Downloading https://files.pythonhosted.org/packages/59/c0/cfe3bacc8c8ea87580aa27b92eef5feaa64353f2ec53b30ffb71b5b2de55/vantage6-server-4.3.4rc3.tar.gz
+[2024-04-15 16:33:04] INFO root fetch - processPackages [vantage6-algorithm-store]: Downloading https://files.pythonhosted.org/packages/03/e2/116612e1da24f29de9f29472d052837732511230bf3cd47eb108b03fa3fa/vantage6-algorithm-store-4.3.4rc3.tar.gz
+[2024-04-15 16:33:04] INFO root fetch - processPackages [bingo-elastic]: New version: [1.9.0rc4] Old Version: [1.9.0rc3]
+[2024-04-15 16:33:04] INFO root fetch - processPackages [bfgcardplay]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-15 16:33:04] INFO root fetch - processPackages [epam.indigo]: New version: [1.9.0rc4] Old Version: [1.9.0rc3]
+[2024-04-15 16:33:04] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/3b/4c/f6d3e8eea94c7e4720111db7194272345d3f0d88e7a55ba60eb8d44b5591/nucliadb-3.0.2.post427-py3-none-any.whl
+[2024-04-15 16:33:05] INFO root fetch - processPackages [vantage6-algorithm-store]: Downloading https://files.pythonhosted.org/packages/0a/fc/659c18b753eeb2ca260ef69a959d37133bb8d4e8127853177ba904f01295/vantage6-algorithm-store-4.4.0rc3.tar.gz
+[2024-04-15 16:33:05] INFO root fetch - processPackages [caracara]: Downloading https://files.pythonhosted.org/packages/ae/12/b5f4b4c5d0d02c7052a566e5c234ee4b414848e60fb198461019628a0c21/caracara-0.6.1.tar.gz
+[2024-04-15 16:33:05] INFO root fetch - processPackages [vantage6-server]: Downloading https://files.pythonhosted.org/packages/81/b3/710168858aa7ecab891ec9b47244f28d76b9be7f118c344d0949bbf1b488/vantage6-server-4.4.0rc3.tar.gz
+[2024-04-15 16:33:05] INFO root fetch - processPackages [bfgcardplay]: Downloading https://files.pythonhosted.org/packages/e2/fc/bb7a0415a63a05174577006c2515f8545439953701ee127d22b9024d830f/bfgcardplay-1.1.0.tar.gz
+[2024-04-15 16:33:05] INFO root fetch - processPackages [epam.indigo]: Downloading https://files.pythonhosted.org/packages/9c/79/5347eba118f9933e0a487d8029ab2b0766b1bd05b392c56497ddedd20d89/epam.indigo-1.9.0rc3-py3-none-win_amd64.whl
+[2024-04-15 16:33:05] INFO root fetch - processPackages [bingo-elastic]: Downloading https://files.pythonhosted.org/packages/6d/cd/04a2f25555f373f632dbc074e0d2f89db55708716d7884c4a097a82d2ef3/bingo_elastic-1.9.0rc3-py3-none-any.whl
+[2024-04-15 16:33:05] INFO root fetch - processPackages [vantage6-algorithm-store]: executing diffoscope
+[2024-04-15 16:33:05] INFO root fetch - processPackages [vantage6-algorithm-store]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-algorithm-store-4.3.4rc3.tar.gz tmp/vantage6-algorithm-store-4.4.0rc3.tar.gz --markdown 20240415/v/vantage6-algorithm-store/4.3.4rc3-4.4.0rc3/README.md --exclude *.pyd
+[2024-04-15 16:33:05] INFO root fetch - processPackages [vantage6-server]: executing diffoscope
+[2024-04-15 16:33:05] INFO root fetch - processPackages [vantage6-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-server-4.3.4rc3.tar.gz tmp/vantage6-server-4.4.0rc3.tar.gz --markdown 20240415/v/vantage6-server/4.3.4rc3-4.4.0rc3/README.md --exclude *.pyd
+[2024-04-15 16:33:05] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/db/25/ed50ad5a310e61b509c0ee76661f2bb916806b00e04e98c4777e8f982c06/nucliadb-3.0.2.post428-py3-none-any.whl
+[2024-04-15 16:33:05] INFO root fetch - processPackages [caracara]: Downloading https://files.pythonhosted.org/packages/73/e5/788ee59779748fc79e82c835d94e49bc151b582d2568c70f5cee80b5478d/caracara-0.7.0.tar.gz
+[2024-04-15 16:33:05] INFO root fetch - processPackages [bfgcardplay]: Downloading https://files.pythonhosted.org/packages/67/ed/3875f1ac044ff79b1babea352280340a495124fc3830fbc755d47733dcc7/bfgcardplay-1.1.1.tar.gz
+[2024-04-15 16:33:05] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2024-04-15 16:33:05] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-3.0.2.post427-py3-none-any.whl.zip tmp/nucliadb-3.0.2.post428-py3-none-any.whl.zip --markdown 20240415/n/nucliadb/3.0.2.post427-3.0.2.post428/README.md --exclude *.pyd
+[2024-04-15 16:33:05] INFO root fetch - processPackages [caracara]: executing diffoscope
+[2024-04-15 16:33:05] INFO root fetch - processPackages [caracara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caracara-0.6.1.tar.gz tmp/caracara-0.7.0.tar.gz --markdown 20240415/c/caracara/0.6.1-0.7.0/README.md --exclude *.pyd
+[2024-04-15 16:33:05] INFO root fetch - processPackages [bfgcardplay]: executing diffoscope
+[2024-04-15 16:33:05] INFO root fetch - processPackages [bfgcardplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bfgcardplay-1.1.0.tar.gz tmp/bfgcardplay-1.1.1.tar.gz --markdown 20240415/b/bfgcardplay/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-15 16:33:05] INFO root fetch - processPackages [bingo-elastic]: Downloading https://files.pythonhosted.org/packages/34/fb/8816f55d488eeaa423309aa1b297f9a04a91087d26fb5d4641f534342096/bingo_elastic-1.9.0rc4-py3-none-any.whl
+[2024-04-15 16:33:05] INFO root fetch - processPackages [bingo-elastic]: executing diffoscope
+[2024-04-15 16:33:05] INFO root fetch - processPackages [bingo-elastic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bingo_elastic-1.9.0rc3-py3-none-any.whl.zip tmp/bingo_elastic-1.9.0rc4-py3-none-any.whl.zip --markdown 20240415/b/bingo-elastic/1.9.0rc3-1.9.0rc4/README.md --exclude *.pyd
+[2024-04-15 16:33:06] INFO root fetch - processPackages [epam.indigo]: Downloading https://files.pythonhosted.org/packages/74/8b/89f1c05a7600f204968e2f264edc40664ea3e59f6c837d3f189bdd08f1d0/epam.indigo-1.9.0rc4-py3-none-win_amd64.whl
+[2024-04-15 16:33:06] INFO root fetch - processPackages [vantage6-algorithm-store]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-algorithm-store-4.3.4rc3.tar.gz]
+[2024-04-15 16:33:06] INFO root fetch - processPackages [vantage6-algorithm-store]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-algorithm-store-4.4.0rc3.tar.gz]
+[2024-04-15 16:33:06] INFO root fetch - main [MainThread]: End processing [vantage6-algorithm-store]: success
+[2024-04-15 16:33:06] INFO root fetch - processPackages [caracara]: Remove: archive file [/home/abi/fetcher/tmp/caracara-0.6.1.tar.gz]
+[2024-04-15 16:33:06] INFO root fetch - processPackages [caracara]: Remove: archive file [/home/abi/fetcher/tmp/caracara-0.7.0.tar.gz]
+[2024-04-15 16:33:06] INFO root fetch - main [MainThread]: End processing [caracara]: success
+[2024-04-15 16:33:06] INFO root fetch - processPackages [vantage6-server]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-server-4.3.4rc3.tar.gz]
+[2024-04-15 16:33:06] INFO root fetch - processPackages [vantage6-server]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-server-4.4.0rc3.tar.gz]
+[2024-04-15 16:33:06] INFO root fetch - main [MainThread]: End processing [vantage6-server]: success
+[2024-04-15 16:33:06] INFO root fetch - processPackages [bingo-elastic]: Remove: archive file [/home/abi/fetcher/tmp/bingo_elastic-1.9.0rc3-py3-none-any.whl.zip]
+[2024-04-15 16:33:06] INFO root fetch - processPackages [bingo-elastic]: Remove: archive file [/home/abi/fetcher/tmp/bingo_elastic-1.9.0rc4-py3-none-any.whl.zip]
+[2024-04-15 16:33:06] INFO root fetch - main [MainThread]: End processing [bingo-elastic]: success
+[2024-04-15 16:33:06] INFO root fetch - processPackages [bfgcardplay]: Remove: archive file [/home/abi/fetcher/tmp/bfgcardplay-1.1.0.tar.gz]
+[2024-04-15 16:33:06] INFO root fetch - processPackages [bfgcardplay]: Remove: archive file [/home/abi/fetcher/tmp/bfgcardplay-1.1.1.tar.gz]
+[2024-04-15 16:33:06] INFO root fetch - main [MainThread]: End processing [bfgcardplay]: success
+[2024-04-15 16:33:07] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-3.0.2.post427-py3-none-any.whl.zip]
+[2024-04-15 16:33:07] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-3.0.2.post428-py3-none-any.whl.zip]
+[2024-04-15 16:33:07] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2024-04-15 16:33:10] INFO root fetch - processPackages [epam.indigo]: executing diffoscope
+[2024-04-15 16:33:10] INFO root fetch - processPackages [epam.indigo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epam.indigo-1.9.0rc3-py3-none-win_amd64.whl.zip tmp/epam.indigo-1.9.0rc4-py3-none-win_amd64.whl.zip --markdown 20240415/e/epam.indigo/1.9.0rc3-1.9.0rc4/README.md --exclude *.pyd
+[2024-04-15 16:33:53] INFO root fetch - processPackages [epam.indigo]: Remove: archive file [/home/abi/fetcher/tmp/epam.indigo-1.9.0rc3-py3-none-win_amd64.whl.zip]
+[2024-04-15 16:33:53] INFO root fetch - processPackages [epam.indigo]: Remove: archive file [/home/abi/fetcher/tmp/epam.indigo-1.9.0rc4-py3-none-win_amd64.whl.zip]
+[2024-04-15 16:33:53] INFO root fetch - main [MainThread]: End processing [epam.indigo]: success
+[2024-04-15 16:33:53] INFO root fetch - main [MainThread]: Store serial: [22772760]
