@@ -2519,3 +2519,35 @@
 [2024-04-15 03:37:39] INFO root fetch - processPackages [DeFiPy]: Remove: archive file [/home/abi/fetcher/tmp/DeFiPy-0.0.9.tar.gz]
 [2024-04-15 03:37:39] INFO root fetch - main [MainThread]: End processing [DeFiPy]: success
 [2024-04-15 03:37:39] INFO root fetch - main [MainThread]: Store serial: [22764428]
+[2024-04-15 03:39:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22764428]
+[2024-04-15 03:39:47] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-15 03:41:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22764428]
+[2024-04-15 03:41:53] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-15 03:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llm-benchmark
+[2024-04-15 03:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aq-utilities
+[2024-04-15 03:41:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aq-geometric
+[2024-04-15 03:41:53] INFO root fetch - processPackages [llm-benchmark]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-15 03:41:53] INFO root fetch - processPackages [aq-geometric]: New version: [2024.4.7.2] Old Version: [2024.4.6.1]
+[2024-04-15 03:41:53] INFO root fetch - processPackages [aq-utilities]: New version: [2024.4.7.1] Old Version: [2024.4.6.1]
+[2024-04-15 03:41:53] INFO root fetch - processPackages [llm-benchmark]: Downloading https://files.pythonhosted.org/packages/52/95/1bf674bf31370821f79bca95e73545a37a8b265b9449461c69806c1fb7d0/llm_benchmark-0.3.8.tar.gz
+[2024-04-15 03:41:53] INFO root fetch - processPackages [aq-geometric]: Downloading https://files.pythonhosted.org/packages/e8/3a/361e91ac5e9c6f7d6d1f4fae3f93e8654e9e151e1853cbd03ee234b30c96/aq_geometric-2024.4.6.1.tar.gz
+[2024-04-15 03:41:53] INFO root fetch - processPackages [aq-utilities]: Downloading https://files.pythonhosted.org/packages/b6/7c/34289adb7480e92507b57e0aaf63dcd62c24f0aab5ec870afcb10af4be13/aq_utilities-2024.4.6.1.tar.gz
+[2024-04-15 03:41:53] INFO root fetch - processPackages [aq-geometric]: Downloading https://files.pythonhosted.org/packages/0e/08/70b34eb8103823c658557aaaf636d19969e7d9c7e2f66f140ce371644f59/aq_geometric-2024.4.7.2.tar.gz
+[2024-04-15 03:41:53] INFO root fetch - processPackages [aq-utilities]: Downloading https://files.pythonhosted.org/packages/91/6b/f8020391ed6f9278f85c4043b5f3a05dce8ed6c2bc172111577d7d0d2984/aq_utilities-2024.4.7.1.tar.gz
+[2024-04-15 03:41:53] INFO root fetch - processPackages [aq-geometric]: executing diffoscope
+[2024-04-15 03:41:53] INFO root fetch - processPackages [aq-geometric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aq_geometric-2024.4.6.1.tar.gz tmp/aq_geometric-2024.4.7.2.tar.gz --markdown 20240415/a/aq-geometric/2024.4.6.1-2024.4.7.2/README.md --exclude *.pyd
+[2024-04-15 03:41:53] INFO root fetch - processPackages [aq-utilities]: executing diffoscope
+[2024-04-15 03:41:53] INFO root fetch - processPackages [aq-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aq_utilities-2024.4.6.1.tar.gz tmp/aq_utilities-2024.4.7.1.tar.gz --markdown 20240415/a/aq-utilities/2024.4.6.1-2024.4.7.1/README.md --exclude *.pyd
+[2024-04-15 03:41:53] INFO root fetch - processPackages [llm-benchmark]: Downloading https://files.pythonhosted.org/packages/d6/2b/16a568848f2ad6bc55b9f86128de716349ca568d85c995ddaeeaec1c8886/llm_benchmark-0.3.9.tar.gz
+[2024-04-15 03:41:54] INFO root fetch - processPackages [llm-benchmark]: executing diffoscope
+[2024-04-15 03:41:54] INFO root fetch - processPackages [llm-benchmark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_benchmark-0.3.8.tar.gz tmp/llm_benchmark-0.3.9.tar.gz --markdown 20240415/l/llm-benchmark/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-15 03:41:54] INFO root fetch - processPackages [aq-utilities]: Remove: archive file [/home/abi/fetcher/tmp/aq_utilities-2024.4.6.1.tar.gz]
+[2024-04-15 03:41:54] INFO root fetch - processPackages [aq-utilities]: Remove: archive file [/home/abi/fetcher/tmp/aq_utilities-2024.4.7.1.tar.gz]
+[2024-04-15 03:41:54] INFO root fetch - main [MainThread]: End processing [aq-utilities]: success
+[2024-04-15 03:41:54] INFO root fetch - processPackages [aq-geometric]: Remove: archive file [/home/abi/fetcher/tmp/aq_geometric-2024.4.6.1.tar.gz]
+[2024-04-15 03:41:54] INFO root fetch - processPackages [aq-geometric]: Remove: archive file [/home/abi/fetcher/tmp/aq_geometric-2024.4.7.2.tar.gz]
+[2024-04-15 03:41:54] INFO root fetch - main [MainThread]: End processing [aq-geometric]: success
+[2024-04-15 03:41:54] INFO root fetch - processPackages [llm-benchmark]: Remove: archive file [/home/abi/fetcher/tmp/llm_benchmark-0.3.8.tar.gz]
+[2024-04-15 03:41:54] INFO root fetch - processPackages [llm-benchmark]: Remove: archive file [/home/abi/fetcher/tmp/llm_benchmark-0.3.9.tar.gz]
+[2024-04-15 03:41:54] INFO root fetch - main [MainThread]: End processing [llm-benchmark]: success
+[2024-04-15 03:41:54] INFO root fetch - main [MainThread]: Store serial: [22764437]
