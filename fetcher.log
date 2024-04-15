@@ -11312,3 +11312,113 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 10:21:57] INFO root fetch - processPackages [spsam]: Remove: archive file [/home/abi/fetcher/tmp/spsam-0.0.7.tar.gz]
 [2024-04-15 10:21:57] INFO root fetch - main [MainThread]: End processing [spsam]: success
 [2024-04-15 10:21:57] INFO root fetch - main [MainThread]: Store serial: [22767822]
+[2024-04-15 10:24:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22767822]
+[2024-04-15 10:24:07] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-15 10:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spsam
+[2024-04-15 10:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jiebanlp
+[2024-04-15 10:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: persona_ai
+[2024-04-15 10:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nucliadb-admin-assets
+[2024-04-15 10:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qdls
+[2024-04-15 10:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-azure-native
+[2024-04-15 10:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rats-processors
+[2024-04-15 10:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rats-pipelines
+[2024-04-15 10:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: objectcrawler
+[2024-04-15 10:24:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: waylay-sdk-alarms
+[2024-04-15 10:24:07] INFO root fetch - processPackages [spsam]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-15 10:24:07] INFO root fetch - processPackages [jiebanlp]: New version: [1.0.0] Old Version: [0.2.1]
+[2024-04-15 10:24:07] INFO root fetch - processPackages [qdls]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-15 10:24:07] INFO root fetch - processPackages [nucliadb-admin-assets]: New version: [1.0.0.post1488] Old Version: [1.0.0.post1487]
+[2024-04-15 10:24:07] INFO root fetch - processPackages [pulumi-azure-native]: New version: [2.9.1a1696416212] Old Version: [2.9.1a1696411987]
+[2024-04-15 10:24:07] INFO root fetch - processPackages [qdls]: Downloading https://files.pythonhosted.org/packages/6a/02/c8b01d1d04d144d1722db8088d203383f0555bbf80012b29017e32f6e088/qdls-0.1.3.tar.gz
+[2024-04-15 10:24:07] INFO root fetch - processPackages [waylay-sdk-alarms]: New version: [1.11.0rc1] Old Version: [1.11.0.20240415]
+[2024-04-15 10:24:07] INFO root fetch - processPackages [pulumi-azure-native]: Downloading https://files.pythonhosted.org/packages/7c/39/23e88d5a9a544cb9a75a9c0b077f73c9c90cb756d8e32766dfffb90f8833/pulumi_azure_native-2.9.1a1696411987.tar.gz
+[2024-04-15 10:24:07] WARNING root fetch - processPackages [objectcrawler]: Skipping, unable to determine old version
+[2024-04-15 10:24:07] INFO root fetch - processPackages [objectcrawler]: Start processing: xy-health-measurement-sdk
+[2024-04-15 10:24:07] INFO root fetch - main [MainThread]: End processing [objectcrawler] error
+[2024-04-15 10:24:07] INFO root fetch - processPackages [rats-processors]: New version: [0.1.2.dev9] Old Version: [0.1.2.dev8]
+[2024-04-15 10:24:07] INFO root fetch - processPackages [rats-pipelines]: New version: [0.1.2.dev9] Old Version: [0.1.2.dev8]
+[2024-04-15 10:24:07] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/f5/9a/b58f959a667757332763b55ba8d01d517efd1725d9d535d743176ee00a44/nucliadb_admin_assets-1.0.0.post1487-py3-none-any.whl
+[2024-04-15 10:24:07] INFO root fetch - processPackages [spsam]: Downloading https://files.pythonhosted.org/packages/84/b9/66c9dfb4f480ab72b11bf3542d07a84c7eaccc5c0f3f096d52da0a8cf629/spsam-0.0.6.tar.gz
+[2024-04-15 10:24:07] INFO root fetch - processPackages [jiebanlp]: Downloading https://files.pythonhosted.org/packages/c7/26/8676f27d49a3c9b3ee78319663a4945b202dc8130a49442e81aeb3a3958e/jiebanlp-0.2.1.tar.gz
+[2024-04-15 10:24:07] INFO root fetch - processPackages [xy-health-measurement-sdk]: New version: [2.0.0rc2] Old Version: [2.0.0rc1]
+[2024-04-15 10:24:07] WARNING root fetch - processPackages [pulumi-azure-native]: Skipping package: exceeds size limit 27430128>=10485760
+[2024-04-15 10:24:07] INFO root fetch - processPackages [pulumi-azure-native]: Start processing: waylay-sdk-alarms-types
+[2024-04-15 10:24:07] INFO root fetch - main [MainThread]: End processing [pulumi-azure-native] error
+[2024-04-15 10:24:07] INFO root fetch - processPackages [persona_ai]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-15 10:24:07] INFO root fetch - processPackages [waylay-sdk-alarms]: Downloading https://files.pythonhosted.org/packages/2b/e5/365e9cd37076076e6d8299b1b8f4ca8bb974e286561efc0b0c09ced420dd/waylay_sdk_alarms-1.11.0.20240415.tar.gz
+[2024-04-15 10:24:07] INFO root fetch - processPackages [waylay-sdk-alarms-types]: New version: [1.11.0rc1] Old Version: [1.11.0.20240415]
+[2024-04-15 10:24:07] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/a6/7b/990aa2956336107e9272c402ea673b4571912e861b49230e8b209cebb487/rats_processors-0.1.2.dev8-py3-none-any.whl
+[2024-04-15 10:24:07] INFO root fetch - processPackages [qdls]: Downloading https://files.pythonhosted.org/packages/d8/c2/68e8ba74edf05a1d84968eac2d0c0b2bd2adb0b0e16e0c4a0fb84ff99687/qdls-0.1.4.tar.gz
+[2024-04-15 10:24:07] INFO root fetch - processPackages [spsam]: Downloading https://files.pythonhosted.org/packages/ec/62/da2378d3c3b68d0003a7186946a008e2e463c04e4ad704c2eb57835ff96d/spsam-0.0.7.tar.gz
+[2024-04-15 10:24:07] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/fd/3d/9ac7bf4f5a002f3c5e7d488eb9b7bc9788a85f0a2f9a7910cf6ff07bd2e5/rats_pipelines-0.1.2.dev8-py3-none-any.whl
+[2024-04-15 10:24:07] INFO root fetch - processPackages [persona_ai]: Downloading https://files.pythonhosted.org/packages/e2/ea/d523b831a0a5c38ec09c7d87415fb4a638ad26cde84870f76503f7711f56/persona_ai-0.1.8.tar.gz
+[2024-04-15 10:24:07] INFO root fetch - processPackages [xy-health-measurement-sdk]: Downloading https://files.pythonhosted.org/packages/2c/5f/b02fc317e07da3d620f0de636da7fc935ac85db24e164de4288c1889f98d/xy_health_measurement_sdk-2.0.0rc1.tar.gz
+[2024-04-15 10:24:07] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/c1/e9/cffeb3057171a8c5a0b8da919f64557aff2e3897031579afec826c663994/nucliadb_admin_assets-1.0.0.post1488-py3-none-any.whl
+[2024-04-15 10:24:07] INFO root fetch - processPackages [jiebanlp]: Downloading https://files.pythonhosted.org/packages/d9/00/d8ef10eb03f5d279a0499c8778aecaf61c67cdb41fdfce49375fb810e179/jiebanlp-1.0.0.tar.gz
+[2024-04-15 10:24:07] INFO root fetch - processPackages [waylay-sdk-alarms-types]: Downloading https://files.pythonhosted.org/packages/51/4b/c481f26d7de76476d0d179d02e5ffa3c9b28c91e2c59bd0db6c46a117887/waylay_sdk_alarms_types-1.11.0.20240415.tar.gz
+[2024-04-15 10:24:08] INFO root fetch - processPackages [spsam]: executing diffoscope
+[2024-04-15 10:24:08] INFO root fetch - processPackages [spsam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spsam-0.0.6.tar.gz tmp/spsam-0.0.7.tar.gz --markdown 20240415/s/spsam/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-15 10:24:08] INFO root fetch - processPackages [qdls]: executing diffoscope
+[2024-04-15 10:24:08] INFO root fetch - processPackages [qdls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qdls-0.1.3.tar.gz tmp/qdls-0.1.4.tar.gz --markdown 20240415/q/qdls/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-15 10:24:08] INFO root fetch - processPackages [jiebanlp]: executing diffoscope
+[2024-04-15 10:24:08] INFO root fetch - processPackages [jiebanlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jiebanlp-0.2.1.tar.gz tmp/jiebanlp-1.0.0.tar.gz --markdown 20240415/j/jiebanlp/0.2.1-1.0.0/README.md --exclude *.pyd
+[2024-04-15 10:24:08] INFO root fetch - processPackages [waylay-sdk-alarms]: Downloading https://files.pythonhosted.org/packages/17/76/ca09025bfaf8e15f2009da0c121f682edd648b0de263e6894b46012f866a/waylay-sdk-alarms-1.11.0rc1.tar.gz
+[2024-04-15 10:24:08] INFO root fetch - processPackages [nucliadb-admin-assets]: executing diffoscope
+[2024-04-15 10:24:08] INFO root fetch - processPackages [nucliadb-admin-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_admin_assets-1.0.0.post1487-py3-none-any.whl.zip tmp/nucliadb_admin_assets-1.0.0.post1488-py3-none-any.whl.zip --markdown 20240415/n/nucliadb-admin-assets/1.0.0.post1487-1.0.0.post1488/README.md --exclude *.pyd
+[2024-04-15 10:24:08] INFO root fetch - processPackages [persona_ai]: Downloading https://files.pythonhosted.org/packages/ad/08/9ae4384f090081f9f163c5637989479f29ec8dc2b6a21d03a809ae5d3c78/persona_ai-0.1.9.tar.gz
+[2024-04-15 10:24:08] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/a8/23/c3248b458a79c119a3ada7d2b23b95eced3f1c4c98ac0264b24a94517327/rats_processors-0.1.2.dev9-py3-none-any.whl
+[2024-04-15 10:24:08] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/e2/8a/f408a3673d0e20732801e857a5f3a110cd2954b1891dc1928cd25b8852aa/rats_pipelines-0.1.2.dev9-py3-none-any.whl
+[2024-04-15 10:24:08] INFO root fetch - processPackages [waylay-sdk-alarms]: executing diffoscope
+[2024-04-15 10:24:08] INFO root fetch - processPackages [waylay-sdk-alarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waylay_sdk_alarms-1.11.0.20240415.tar.gz tmp/waylay-sdk-alarms-1.11.0rc1.tar.gz --markdown 20240415/w/waylay-sdk-alarms/1.11.0.20240415-1.11.0rc1/README.md --exclude *.pyd
+[2024-04-15 10:24:08] INFO root fetch - processPackages [waylay-sdk-alarms-types]: Downloading https://files.pythonhosted.org/packages/ee/bd/4e4f7f9a11ffbd35d6aa9c40d10203e55e8471a10f225ad527c2f4d79746/waylay-sdk-alarms-types-1.11.0rc1.tar.gz
+[2024-04-15 10:24:08] INFO root fetch - processPackages [persona_ai]: executing diffoscope
+[2024-04-15 10:24:08] INFO root fetch - processPackages [persona_ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/persona_ai-0.1.8.tar.gz tmp/persona_ai-0.1.9.tar.gz --markdown 20240415/p/persona_ai/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-15 10:24:08] INFO root fetch - processPackages [rats-processors]: executing diffoscope
+[2024-04-15 10:24:08] INFO root fetch - processPackages [rats-processors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_processors-0.1.2.dev8-py3-none-any.whl.zip tmp/rats_processors-0.1.2.dev9-py3-none-any.whl.zip --markdown 20240415/r/rats-processors/0.1.2.dev8-0.1.2.dev9/README.md --exclude *.pyd
+[2024-04-15 10:24:08] INFO root fetch - processPackages [rats-pipelines]: executing diffoscope
+[2024-04-15 10:24:08] INFO root fetch - processPackages [rats-pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_pipelines-0.1.2.dev8-py3-none-any.whl.zip tmp/rats_pipelines-0.1.2.dev9-py3-none-any.whl.zip --markdown 20240415/r/rats-pipelines/0.1.2.dev8-0.1.2.dev9/README.md --exclude *.pyd
+[2024-04-15 10:24:08] INFO root fetch - processPackages [xy-health-measurement-sdk]: Downloading https://files.pythonhosted.org/packages/32/02/bd01c886995a16439ef0fac8c0324e19c5b56c1087858a13c0ff071216d5/xy_health_measurement_sdk-2.0.0rc2.tar.gz
+[2024-04-15 10:24:08] INFO root fetch - processPackages [waylay-sdk-alarms-types]: executing diffoscope
+[2024-04-15 10:24:08] INFO root fetch - processPackages [waylay-sdk-alarms-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waylay_sdk_alarms_types-1.11.0.20240415.tar.gz tmp/waylay-sdk-alarms-types-1.11.0rc1.tar.gz --markdown 20240415/w/waylay-sdk-alarms-types/1.11.0.20240415-1.11.0rc1/README.md --exclude *.pyd
+[2024-04-15 10:24:08] INFO root fetch - processPackages [xy-health-measurement-sdk]: executing diffoscope
+[2024-04-15 10:24:08] INFO root fetch - processPackages [xy-health-measurement-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xy_health_measurement_sdk-2.0.0rc1.tar.gz tmp/xy_health_measurement_sdk-2.0.0rc2.tar.gz --markdown 20240415/x/xy-health-measurement-sdk/2.0.0rc1-2.0.0rc2/README.md --exclude *.pyd
+[2024-04-15 10:24:09] INFO root fetch - processPackages [jiebanlp]: Remove: archive file [/home/abi/fetcher/tmp/jiebanlp-0.2.1.tar.gz]
+[2024-04-15 10:24:09] INFO root fetch - processPackages [jiebanlp]: Remove: archive file [/home/abi/fetcher/tmp/jiebanlp-1.0.0.tar.gz]
+[2024-04-15 10:24:09] INFO root fetch - processPackages [jiebanlp]: Start processing: omitme
+[2024-04-15 10:24:09] INFO root fetch - main [MainThread]: End processing [jiebanlp]: success
+[2024-04-15 10:24:09] INFO root fetch - processPackages [omitme]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-15 10:24:09] INFO root fetch - processPackages [spsam]: Remove: archive file [/home/abi/fetcher/tmp/spsam-0.0.6.tar.gz]
+[2024-04-15 10:24:09] INFO root fetch - processPackages [spsam]: Remove: archive file [/home/abi/fetcher/tmp/spsam-0.0.7.tar.gz]
+[2024-04-15 10:24:09] INFO root fetch - main [MainThread]: End processing [spsam]: success
+[2024-04-15 10:24:09] INFO root fetch - processPackages [qdls]: Remove: archive file [/home/abi/fetcher/tmp/qdls-0.1.3.tar.gz]
+[2024-04-15 10:24:09] INFO root fetch - processPackages [qdls]: Remove: archive file [/home/abi/fetcher/tmp/qdls-0.1.4.tar.gz]
+[2024-04-15 10:24:09] INFO root fetch - main [MainThread]: End processing [qdls]: success
+[2024-04-15 10:24:09] INFO root fetch - processPackages [waylay-sdk-alarms]: Remove: archive file [/home/abi/fetcher/tmp/waylay_sdk_alarms-1.11.0.20240415.tar.gz]
+[2024-04-15 10:24:09] INFO root fetch - processPackages [waylay-sdk-alarms]: Remove: archive file [/home/abi/fetcher/tmp/waylay-sdk-alarms-1.11.0rc1.tar.gz]
+[2024-04-15 10:24:09] INFO root fetch - main [MainThread]: End processing [waylay-sdk-alarms]: success
+[2024-04-15 10:24:09] INFO root fetch - processPackages [omitme]: Downloading https://files.pythonhosted.org/packages/1a/05/2286f97faec1880ed052ac733c734cd8b07fa905d1971046f5509ff58d83/omitme-0.0.8.tar.gz
+[2024-04-15 10:24:09] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.2.dev8-py3-none-any.whl.zip]
+[2024-04-15 10:24:09] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.2.dev9-py3-none-any.whl.zip]
+[2024-04-15 10:24:09] INFO root fetch - main [MainThread]: End processing [rats-processors]: success
+[2024-04-15 10:24:09] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.2.dev8-py3-none-any.whl.zip]
+[2024-04-15 10:24:09] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.2.dev9-py3-none-any.whl.zip]
+[2024-04-15 10:24:09] INFO root fetch - main [MainThread]: End processing [rats-pipelines]: success
+[2024-04-15 10:24:09] INFO root fetch - processPackages [persona_ai]: Remove: archive file [/home/abi/fetcher/tmp/persona_ai-0.1.8.tar.gz]
+[2024-04-15 10:24:09] INFO root fetch - processPackages [persona_ai]: Remove: archive file [/home/abi/fetcher/tmp/persona_ai-0.1.9.tar.gz]
+[2024-04-15 10:24:09] INFO root fetch - main [MainThread]: End processing [persona_ai]: success
+[2024-04-15 10:24:09] INFO root fetch - processPackages [waylay-sdk-alarms-types]: Remove: archive file [/home/abi/fetcher/tmp/waylay_sdk_alarms_types-1.11.0.20240415.tar.gz]
+[2024-04-15 10:24:09] INFO root fetch - processPackages [waylay-sdk-alarms-types]: Remove: archive file [/home/abi/fetcher/tmp/waylay-sdk-alarms-types-1.11.0rc1.tar.gz]
+[2024-04-15 10:24:09] INFO root fetch - main [MainThread]: End processing [waylay-sdk-alarms-types]: success
+[2024-04-15 10:24:09] INFO root fetch - processPackages [omitme]: Downloading https://files.pythonhosted.org/packages/6e/26/9952e21159324733fcdb1bdf16d5e817c937d8ca50b3f03edd92d7a98354/omitme-0.0.9.tar.gz
+[2024-04-15 10:24:09] INFO root fetch - processPackages [omitme]: executing diffoscope
+[2024-04-15 10:24:09] INFO root fetch - processPackages [omitme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omitme-0.0.8.tar.gz tmp/omitme-0.0.9.tar.gz --markdown 20240415/o/omitme/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-15 10:24:09] INFO root fetch - processPackages [xy-health-measurement-sdk]: Remove: archive file [/home/abi/fetcher/tmp/xy_health_measurement_sdk-2.0.0rc1.tar.gz]
+[2024-04-15 10:24:09] INFO root fetch - processPackages [xy-health-measurement-sdk]: Remove: archive file [/home/abi/fetcher/tmp/xy_health_measurement_sdk-2.0.0rc2.tar.gz]
+[2024-04-15 10:24:09] INFO root fetch - main [MainThread]: End processing [xy-health-measurement-sdk]: success
+[2024-04-15 10:24:10] INFO root fetch - processPackages [omitme]: Remove: archive file [/home/abi/fetcher/tmp/omitme-0.0.8.tar.gz]
+[2024-04-15 10:24:10] INFO root fetch - processPackages [omitme]: Remove: archive file [/home/abi/fetcher/tmp/omitme-0.0.9.tar.gz]
+[2024-04-15 10:24:10] INFO root fetch - main [MainThread]: End processing [omitme]: success
+[2024-04-15 10:24:22] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1487-py3-none-any.whl.zip]
+[2024-04-15 10:24:22] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1488-py3-none-any.whl.zip]
+[2024-04-15 10:24:22] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
+[2024-04-15 10:24:22] INFO root fetch - main [MainThread]: Store serial: [22767860]
