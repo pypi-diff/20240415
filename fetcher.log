@@ -14683,3 +14683,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 12:17:39] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.9.tar.gz]
 [2024-04-15 12:17:39] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
 [2024-04-15 12:17:39] INFO root fetch - main [MainThread]: Store serial: [22769257]
+[2024-04-15 12:19:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22769257]
+[2024-04-15 12:19:48] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-15 12:19:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wiliot-api
+[2024-04-15 12:19:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: safe-eth-py
+[2024-04-15 12:19:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ActiveCollab
+[2024-04-15 12:19:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vbgptvision
+[2024-04-15 12:19:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sqsx
+[2024-04-15 12:19:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-encryption
+[2024-04-15 12:19:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kimchima
+[2024-04-15 12:19:48] INFO root fetch - processPackages [ActiveCollab]: New version: [2.1] Old Version: [2]
+[2024-04-15 12:19:48] INFO root fetch - processPackages [wiliot-api]: New version: [4.8.3] Old Version: [4.8.2]
+[2024-04-15 12:19:49] WARNING root fetch - processPackages [vbgptvision]: Skipping, unable to determine old version
+[2024-04-15 12:19:49] INFO root fetch - main [MainThread]: End processing [vbgptvision] error
+[2024-04-15 12:19:49] INFO root fetch - processPackages [ActiveCollab]: Downloading https://files.pythonhosted.org/packages/19/7f/be2a113dc1137a50148dbc50a5a787e8df8f188bcb4bbeca3f19701d0f3a/ActiveCollab-2.tar.gz
+[2024-04-15 12:19:49] INFO root fetch - processPackages [sqsx]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-04-15 12:19:49] INFO root fetch - processPackages [safe-eth-py]: New version: [6.0.0b9] Old Version: [6.0.0b8]
+[2024-04-15 12:19:49] INFO root fetch - processPackages [django-encryption]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-15 12:19:49] INFO root fetch - processPackages [kimchima]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-04-15 12:19:49] INFO root fetch - processPackages [wiliot-api]: Downloading https://files.pythonhosted.org/packages/46/e4/0cae2d105351054184c282637a1fdf2f7599c96db56ca53c06b6b60a7bf1/wiliot-api-4.8.2.tar.gz
+[2024-04-15 12:19:49] INFO root fetch - processPackages [sqsx]: Downloading https://files.pythonhosted.org/packages/9d/97/8f7421e4098d6271e30dec25042aa310896696dd0567ef54b30bf5cd7966/sqsx-0.5.tar.gz
+[2024-04-15 12:19:49] INFO root fetch - processPackages [django-encryption]: Downloading https://files.pythonhosted.org/packages/0a/42/6d2637ff91b53729dbe07fd5875ab4b7cd70785b41649c6fe49c305b7d86/django_encryption-0.3.8.tar.gz
+[2024-04-15 12:19:49] INFO root fetch - processPackages [safe-eth-py]: Downloading https://files.pythonhosted.org/packages/0c/ed/23b1f27f14c642c3ed091692af8e7c8a75ab7436c5121a270b14e89f1acf/safe-eth-py-6.0.0b8.tar.gz
+[2024-04-15 12:19:49] INFO root fetch - processPackages [ActiveCollab]: Downloading https://files.pythonhosted.org/packages/1a/9d/46079422ef05f348ae150a637f2f52753eb1146e5c5a664fc955df39cb35/activecollab-2.1.tar.gz
+[2024-04-15 12:19:49] INFO root fetch - processPackages [kimchima]: Downloading https://files.pythonhosted.org/packages/03/bf/96bec46217a46c0033aa7ada2283a21c10c3d0e4d6f1d5e43f1567bfee6d/kimchima-0.4.4.tar.gz
+[2024-04-15 12:19:49] INFO root fetch - processPackages [ActiveCollab]: executing diffoscope
+[2024-04-15 12:19:49] INFO root fetch - processPackages [ActiveCollab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ActiveCollab-2.tar.gz tmp/activecollab-2.1.tar.gz --markdown 20240415/A/ActiveCollab/2-2.1/README.md --exclude *.pyd
+[2024-04-15 12:19:49] INFO root fetch - processPackages [wiliot-api]: Downloading https://files.pythonhosted.org/packages/cf/dc/9c1cd54dd9b4fe390ffccfebe5d7f422dde2a9b9048760657dd1cd42521c/wiliot-api-4.8.3.tar.gz
+[2024-04-15 12:19:49] INFO root fetch - processPackages [sqsx]: Downloading https://files.pythonhosted.org/packages/79/40/93df1c663379733deb7ac0c3a5c2ec4a13488fe731073018b9c8f15ce7a2/sqsx-0.5.1.tar.gz
+[2024-04-15 12:19:49] INFO root fetch - processPackages [wiliot-api]: executing diffoscope
+[2024-04-15 12:19:49] INFO root fetch - processPackages [wiliot-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiliot-api-4.8.2.tar.gz tmp/wiliot-api-4.8.3.tar.gz --markdown 20240415/w/wiliot-api/4.8.2-4.8.3/README.md --exclude *.pyd
+[2024-04-15 12:19:49] INFO root fetch - processPackages [django-encryption]: Downloading https://files.pythonhosted.org/packages/d6/e4/f7445367494b97c1e53299960d6a90be9d25b39ff40e8fd4389479d650a9/django_encryption-0.3.9.tar.gz
+[2024-04-15 12:19:49] INFO root fetch - processPackages [sqsx]: executing diffoscope
+[2024-04-15 12:19:49] INFO root fetch - processPackages [sqsx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqsx-0.5.tar.gz tmp/sqsx-0.5.1.tar.gz --markdown 20240415/s/sqsx/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-04-15 12:19:49] INFO root fetch - processPackages [safe-eth-py]: Downloading https://files.pythonhosted.org/packages/42/24/aefb4dee33f8794acc43acb93d196f0aa3ab97cd49040c45a40a20d1782c/safe-eth-py-6.0.0b9.tar.gz
+[2024-04-15 12:19:49] INFO root fetch - processPackages [kimchima]: Downloading https://files.pythonhosted.org/packages/92/bf/0035d2089938a31715db9faf080a859c06d3c01e16cd537f74a2816ccc83/kimchima-0.4.5.tar.gz
+[2024-04-15 12:19:49] INFO root fetch - processPackages [django-encryption]: executing diffoscope
+[2024-04-15 12:19:49] INFO root fetch - processPackages [django-encryption]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_encryption-0.3.8.tar.gz tmp/django_encryption-0.3.9.tar.gz --markdown 20240415/d/django-encryption/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-04-15 12:19:49] INFO root fetch - processPackages [safe-eth-py]: executing diffoscope
+[2024-04-15 12:19:49] INFO root fetch - processPackages [safe-eth-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safe-eth-py-6.0.0b8.tar.gz tmp/safe-eth-py-6.0.0b9.tar.gz --markdown 20240415/s/safe-eth-py/6.0.0b8-6.0.0b9/README.md --exclude *.pyd
+[2024-04-15 12:19:49] INFO root fetch - processPackages [kimchima]: executing diffoscope
+[2024-04-15 12:19:49] INFO root fetch - processPackages [kimchima]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kimchima-0.4.4.tar.gz tmp/kimchima-0.4.5.tar.gz --markdown 20240415/k/kimchima/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-04-15 12:19:50] INFO root fetch - processPackages [ActiveCollab]: Remove: archive file [/home/abi/fetcher/tmp/ActiveCollab-2.tar.gz]
+[2024-04-15 12:19:50] INFO root fetch - processPackages [ActiveCollab]: Remove: archive file [/home/abi/fetcher/tmp/activecollab-2.1.tar.gz]
+[2024-04-15 12:19:50] INFO root fetch - main [MainThread]: End processing [ActiveCollab]: success
+[2024-04-15 12:19:50] INFO root fetch - processPackages [wiliot-api]: Remove: archive file [/home/abi/fetcher/tmp/wiliot-api-4.8.2.tar.gz]
+[2024-04-15 12:19:50] INFO root fetch - processPackages [wiliot-api]: Remove: archive file [/home/abi/fetcher/tmp/wiliot-api-4.8.3.tar.gz]
+[2024-04-15 12:19:50] INFO root fetch - main [MainThread]: End processing [wiliot-api]: success
+[2024-04-15 12:19:50] INFO root fetch - processPackages [sqsx]: Remove: archive file [/home/abi/fetcher/tmp/sqsx-0.5.tar.gz]
+[2024-04-15 12:19:50] INFO root fetch - processPackages [sqsx]: Remove: archive file [/home/abi/fetcher/tmp/sqsx-0.5.1.tar.gz]
+[2024-04-15 12:19:50] INFO root fetch - main [MainThread]: End processing [sqsx]: success
+[2024-04-15 12:19:50] INFO root fetch - processPackages [django-encryption]: Remove: archive file [/home/abi/fetcher/tmp/django_encryption-0.3.8.tar.gz]
+[2024-04-15 12:19:50] INFO root fetch - processPackages [django-encryption]: Remove: archive file [/home/abi/fetcher/tmp/django_encryption-0.3.9.tar.gz]
+[2024-04-15 12:19:50] INFO root fetch - main [MainThread]: End processing [django-encryption]: success
+[2024-04-15 12:19:50] INFO root fetch - processPackages [kimchima]: Remove: archive file [/home/abi/fetcher/tmp/kimchima-0.4.4.tar.gz]
+[2024-04-15 12:19:50] INFO root fetch - processPackages [kimchima]: Remove: archive file [/home/abi/fetcher/tmp/kimchima-0.4.5.tar.gz]
+[2024-04-15 12:19:50] INFO root fetch - main [MainThread]: End processing [kimchima]: success
+[2024-04-15 12:19:51] INFO root fetch - processPackages [safe-eth-py]: Remove: archive file [/home/abi/fetcher/tmp/safe-eth-py-6.0.0b8.tar.gz]
+[2024-04-15 12:19:51] INFO root fetch - processPackages [safe-eth-py]: Remove: archive file [/home/abi/fetcher/tmp/safe-eth-py-6.0.0b9.tar.gz]
+[2024-04-15 12:19:51] INFO root fetch - main [MainThread]: End processing [safe-eth-py]: success
+[2024-04-15 12:19:51] INFO root fetch - main [MainThread]: Store serial: [22769280]
