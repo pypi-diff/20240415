@@ -15358,3 +15358,189 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 12:48:41] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.7.tar.gz]
 [2024-04-15 12:48:41] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
 [2024-04-15 12:48:41] INFO root fetch - main [MainThread]: Store serial: [22769614]
+[2024-04-15 12:50:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22769614]
+[2024-04-15 12:50:50] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2024-04-15 12:50:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi
+[2024-04-15 12:50:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openst
+[2024-04-15 12:50:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bitmat-tl
+[2024-04-15 12:50:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mapel
+[2024-04-15 12:50:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mapel-core
+[2024-04-15 12:50:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mapel-elections
+[2024-04-15 12:50:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: raga-testing-platform
+[2024-04-15 12:50:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gigagraph
+[2024-04-15 12:50:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: idds-atlas
+[2024-04-15 12:50:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: idds-client
+[2024-04-15 12:50:50] INFO root fetch - processPackages [pulumi]: New version: [3.99.0] Old Version: [3.98.0]
+[2024-04-15 12:50:50] INFO root fetch - processPackages [openst]: New version: [0.0.7] Old Version: [0.0.3]
+[2024-04-15 12:50:50] INFO root fetch - processPackages [mapel-core]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-15 12:50:50] INFO root fetch - processPackages [mapel]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-15 12:50:50] INFO root fetch - processPackages [bitmat-tl]: New version: [0.3.3] Old Version: [0.3.1]
+[2024-04-15 12:50:50] INFO root fetch - processPackages [idds-atlas]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-15 12:50:50] INFO root fetch - processPackages [gigagraph]: New version: [0.0.37] Old Version: [0.0.34]
+[2024-04-15 12:50:50] INFO root fetch - processPackages [idds-client]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-15 12:50:50] INFO root fetch - processPackages [raga-testing-platform]: New version: [1.1.8] Old Version: [1.1.7]
+[2024-04-15 12:50:50] INFO root fetch - processPackages [mapel-elections]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-15 12:50:51] INFO root fetch - processPackages [openst]: Downloading https://files.pythonhosted.org/packages/78/3d/7758d92550e2c03fe816ad2e00f0cb0d217949a577c1606d3e10b3a6e899/openst-0.0.3.tar.gz
+[2024-04-15 12:50:51] INFO root fetch - processPackages [bitmat-tl]: Downloading https://files.pythonhosted.org/packages/69/e8/39e53ad120f4b666c49916dde8194af8839fc4297ca07f1032f8d2d82536/bitmat-tl-0.3.1.tar.gz
+[2024-04-15 12:50:51] INFO root fetch - processPackages [pulumi]: Downloading https://files.pythonhosted.org/packages/c1/38/8ac5a8420c7a95ad63a48e5881ef08233e7ce3dbe95751bfcc7746f0c383/pulumi-3.98.0-py3-none-any.whl
+[2024-04-15 12:50:51] INFO root fetch - processPackages [mapel-core]: Downloading https://files.pythonhosted.org/packages/f0/e8/351b7d562729255d7c27f1000d49755fc123a0fcf9b86ea2961ea93b1ab9/mapel-core-2.1.8.tar.gz
+[2024-04-15 12:50:51] INFO root fetch - processPackages [mapel]: Downloading https://files.pythonhosted.org/packages/11/f4/3a305a53750aa47351d118c4146fb08db6ebf2645db74dac25fe06793af7/mapel-2.1.8.tar.gz
+[2024-04-15 12:50:51] INFO root fetch - processPackages [idds-atlas]: Downloading https://files.pythonhosted.org/packages/4f/92/825e6259c1fccaa55c2159a18b9af3f02a54e141aafa8515c0f6d19b5bad/idds-atlas-2.1.8.tar.gz
+[2024-04-15 12:50:51] INFO root fetch - processPackages [idds-client]: Downloading https://files.pythonhosted.org/packages/21/07/53e35fb5f0c2d3a287117c066052a33410ad95da985307f9030833cff49a/idds-client-2.1.8.tar.gz
+[2024-04-15 12:50:51] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/9e/96/7d3df28f50cc4d409b3729c541cb56bfd959e667a76ebc41e27a2d33774e/raga-testing-platform-1.1.7.tar.gz
+[2024-04-15 12:50:51] INFO root fetch - processPackages [mapel-elections]: Downloading https://files.pythonhosted.org/packages/7a/f6/0fbac789eb1a0665e0996696dd8831b020c928eaf4c5c32f57dadcd4686a/mapel-elections-2.1.8.tar.gz
+[2024-04-15 12:50:51] INFO root fetch - processPackages [gigagraph]: Downloading https://files.pythonhosted.org/packages/7e/c3/e14bfa7cb25f339e93f4b6181ec98d16cc26c1421d3d90d9b5d3595d9546/gigagraph-0.0.34.tar.gz
+[2024-04-15 12:50:51] INFO root fetch - processPackages [bitmat-tl]: Downloading https://files.pythonhosted.org/packages/62/20/fa1366e7d56205877ffc80445f50b7b3e073f31034d839bd43265c21beb4/bitmat_tl-0.3.3.tar.gz
+[2024-04-15 12:50:51] INFO root fetch - processPackages [mapel]: Downloading https://files.pythonhosted.org/packages/01/e2/77c5bb73775f5d71f1536bb0dbe0a786099aca24d29743e5e0adfce7fa55/mapel-2.1.9.tar.gz
+[2024-04-15 12:50:51] INFO root fetch - processPackages [openst]: Downloading https://files.pythonhosted.org/packages/2e/7c/5d860272797e40344be79311b2e7825e2aa3495aa1aa0c25151d0087edec/openst-0.0.7-py3-none-any.whl
+[2024-04-15 12:50:51] INFO root fetch - processPackages [mapel-core]: Downloading https://files.pythonhosted.org/packages/b5/81/e73f6cdb23b49b2583944a53bf47751860172f2dcd4b025666de75a273a4/mapel_core-2.1.9.tar.gz
+[2024-04-15 12:50:51] INFO root fetch - processPackages [gigagraph]: Downloading https://files.pythonhosted.org/packages/7c/31/7c5d908977a5915ac3f1ebb18c3e5bf1c23b561126eff94875f9e3483678/gigagraph-0.0.37.tar.gz
+[2024-04-15 12:50:51] INFO root fetch - processPackages [idds-client]: Downloading https://files.pythonhosted.org/packages/3c/64/c403f924db56ed4a6fab8f2d1ae742ca14a66c433a29bef4c128348501ca/idds-client-2.1.9.tar.gz
+[2024-04-15 12:50:51] INFO root fetch - processPackages [idds-atlas]: Downloading https://files.pythonhosted.org/packages/5e/79/361e4952b1c7cd13863e3218846ec390690a0ae6106ca6131bb538464742/idds-atlas-2.1.9.tar.gz
+[2024-04-15 12:50:51] INFO root fetch - processPackages [mapel-elections]: Downloading https://files.pythonhosted.org/packages/6a/71/f78713d1952e991df22550e4be1209178a0171e25b21026e9a0ea1a1c162/mapel_elections-2.1.9.tar.gz
+[2024-04-15 12:50:51] INFO root fetch - processPackages [pulumi]: Downloading https://files.pythonhosted.org/packages/17/49/ac369781e6bea40b4e15ca66620d1815ffa59727e6dab5e543a8971e8cd9/pulumi-3.99.0-py3-none-any.whl
+[2024-04-15 12:50:51] INFO root fetch - processPackages [bitmat-tl]: executing diffoscope
+[2024-04-15 12:50:51] INFO root fetch - processPackages [bitmat-tl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitmat-tl-0.3.1.tar.gz tmp/bitmat_tl-0.3.3.tar.gz --markdown 20240415/b/bitmat-tl/0.3.1-0.3.3/README.md --exclude *.pyd
+[2024-04-15 12:50:51] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/f3/0c/cf8081496c50df535dc7d62d57017bb420067952060b63e9833e6d7e35ae/raga-testing-platform-1.1.8.tar.gz
+[2024-04-15 12:50:51] INFO root fetch - processPackages [mapel-core]: executing diffoscope
+[2024-04-15 12:50:51] INFO root fetch - processPackages [mapel-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapel-core-2.1.8.tar.gz tmp/mapel_core-2.1.9.tar.gz --markdown 20240415/m/mapel-core/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-15 12:50:51] INFO root fetch - processPackages [gigagraph]: executing diffoscope
+[2024-04-15 12:50:51] INFO root fetch - processPackages [gigagraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gigagraph-0.0.34.tar.gz tmp/gigagraph-0.0.37.tar.gz --markdown 20240415/g/gigagraph/0.0.34-0.0.37/README.md --exclude *.pyd
+[2024-04-15 12:50:51] INFO root fetch - processPackages [idds-client]: executing diffoscope
+[2024-04-15 12:50:51] INFO root fetch - processPackages [idds-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-client-2.1.8.tar.gz tmp/idds-client-2.1.9.tar.gz --markdown 20240415/i/idds-client/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-15 12:50:51] INFO root fetch - processPackages [mapel]: executing diffoscope
+[2024-04-15 12:50:51] INFO root fetch - processPackages [mapel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapel-2.1.8.tar.gz tmp/mapel-2.1.9.tar.gz --markdown 20240415/m/mapel/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-15 12:50:51] INFO root fetch - processPackages [openst]: executing diffoscope
+[2024-04-15 12:50:51] INFO root fetch - processPackages [openst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openst-0.0.3.tar.gz tmp/openst-0.0.7-py3-none-any.whl.zip --markdown 20240415/o/openst/0.0.3-0.0.7/README.md --exclude *.pyd
+[2024-04-15 12:50:51] INFO root fetch - processPackages [pulumi]: executing diffoscope
+[2024-04-15 12:50:51] INFO root fetch - processPackages [pulumi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi-3.98.0-py3-none-any.whl.zip tmp/pulumi-3.99.0-py3-none-any.whl.zip --markdown 20240415/p/pulumi/3.98.0-3.99.0/README.md --exclude *.pyd
+[2024-04-15 12:50:51] INFO root fetch - processPackages [raga-testing-platform]: executing diffoscope
+[2024-04-15 12:50:51] INFO root fetch - processPackages [raga-testing-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-testing-platform-1.1.7.tar.gz tmp/raga-testing-platform-1.1.8.tar.gz --markdown 20240415/r/raga-testing-platform/1.1.7-1.1.8/README.md --exclude *.pyd
+[2024-04-15 12:50:51] INFO root fetch - processPackages [idds-atlas]: executing diffoscope
+[2024-04-15 12:50:51] INFO root fetch - processPackages [idds-atlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-atlas-2.1.8.tar.gz tmp/idds-atlas-2.1.9.tar.gz --markdown 20240415/i/idds-atlas/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-15 12:50:52] INFO root fetch - processPackages [mapel-elections]: executing diffoscope
+[2024-04-15 12:50:52] INFO root fetch - processPackages [mapel-elections]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapel-elections-2.1.8.tar.gz tmp/mapel_elections-2.1.9.tar.gz --markdown 20240415/m/mapel-elections/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-15 12:50:52] INFO root fetch - processPackages [bitmat-tl]: Remove: archive file [/home/abi/fetcher/tmp/bitmat-tl-0.3.1.tar.gz]
+[2024-04-15 12:50:52] INFO root fetch - processPackages [bitmat-tl]: Remove: archive file [/home/abi/fetcher/tmp/bitmat_tl-0.3.3.tar.gz]
+[2024-04-15 12:50:52] INFO root fetch - processPackages [bitmat-tl]: Start processing: idds-common
+[2024-04-15 12:50:52] INFO root fetch - main [MainThread]: End processing [bitmat-tl]: success
+[2024-04-15 12:50:52] INFO root fetch - processPackages [mapel]: Remove: archive file [/home/abi/fetcher/tmp/mapel-2.1.8.tar.gz]
+[2024-04-15 12:50:52] INFO root fetch - processPackages [mapel]: Remove: archive file [/home/abi/fetcher/tmp/mapel-2.1.9.tar.gz]
+[2024-04-15 12:50:52] INFO root fetch - processPackages [mapel]: Start processing: idds-doma
+[2024-04-15 12:50:52] INFO root fetch - main [MainThread]: End processing [mapel]: success
+[2024-04-15 12:50:52] INFO root fetch - processPackages [idds-common]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-15 12:50:52] INFO root fetch - processPackages [gigagraph]: Remove: archive file [/home/abi/fetcher/tmp/gigagraph-0.0.34.tar.gz]
+[2024-04-15 12:50:52] INFO root fetch - processPackages [gigagraph]: Remove: archive file [/home/abi/fetcher/tmp/gigagraph-0.0.37.tar.gz]
+[2024-04-15 12:50:52] INFO root fetch - processPackages [gigagraph]: Start processing: idds-server
+[2024-04-15 12:50:52] INFO root fetch - main [MainThread]: End processing [gigagraph]: success
+[2024-04-15 12:50:52] INFO root fetch - processPackages [idds-doma]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-15 12:50:52] INFO root fetch - processPackages [mapel-core]: Remove: archive file [/home/abi/fetcher/tmp/mapel-core-2.1.8.tar.gz]
+[2024-04-15 12:50:52] INFO root fetch - processPackages [mapel-core]: Remove: archive file [/home/abi/fetcher/tmp/mapel_core-2.1.9.tar.gz]
+[2024-04-15 12:50:52] INFO root fetch - processPackages [mapel-core]: Start processing: idds-monitor
+[2024-04-15 12:50:52] INFO root fetch - main [MainThread]: End processing [mapel-core]: success
+[2024-04-15 12:50:53] INFO root fetch - processPackages [idds-server]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-15 12:50:53] INFO root fetch - processPackages [pulumi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-3.98.0-py3-none-any.whl.zip]
+[2024-04-15 12:50:53] INFO root fetch - processPackages [pulumi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-3.99.0-py3-none-any.whl.zip]
+[2024-04-15 12:50:53] INFO root fetch - processPackages [pulumi]: Start processing: idds-website
+[2024-04-15 12:50:53] INFO root fetch - main [MainThread]: End processing [pulumi]: success
+[2024-04-15 12:50:53] INFO root fetch - processPackages [idds-atlas]: Remove: archive file [/home/abi/fetcher/tmp/idds-atlas-2.1.8.tar.gz]
+[2024-04-15 12:50:53] INFO root fetch - processPackages [idds-atlas]: Remove: archive file [/home/abi/fetcher/tmp/idds-atlas-2.1.9.tar.gz]
+[2024-04-15 12:50:53] INFO root fetch - processPackages [idds-atlas]: Start processing: idds-workflow
+[2024-04-15 12:50:53] INFO root fetch - main [MainThread]: End processing [idds-atlas]: success
+[2024-04-15 12:50:53] INFO root fetch - processPackages [idds-monitor]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-15 12:50:53] INFO root fetch - processPackages [idds-common]: Downloading https://files.pythonhosted.org/packages/f3/e8/b76da5bb5d6a9fcecb92cf13fe7c48fb16cd476d494d942f7262882ff8d0/idds-common-2.1.8.tar.gz
+[2024-04-15 12:50:53] INFO root fetch - processPackages [idds-client]: Remove: archive file [/home/abi/fetcher/tmp/idds-client-2.1.8.tar.gz]
+[2024-04-15 12:50:53] INFO root fetch - processPackages [idds-client]: Remove: archive file [/home/abi/fetcher/tmp/idds-client-2.1.9.tar.gz]
+[2024-04-15 12:50:53] INFO root fetch - processPackages [idds-client]: Start processing: removable-package
+[2024-04-15 12:50:53] INFO root fetch - main [MainThread]: End processing [idds-client]: success
+[2024-04-15 12:50:53] INFO root fetch - processPackages [idds-doma]: Downloading https://files.pythonhosted.org/packages/d8/af/4ccb0f08b2862e66f50df687418f99e5dbf523fa2b22942963b6f15e9ddc/idds-doma-2.1.8.tar.gz
+[2024-04-15 12:50:53] INFO root fetch - processPackages [mapel-elections]: Remove: archive file [/home/abi/fetcher/tmp/mapel-elections-2.1.8.tar.gz]
+[2024-04-15 12:50:53] INFO root fetch - processPackages [mapel-elections]: Remove: archive file [/home/abi/fetcher/tmp/mapel_elections-2.1.9.tar.gz]
+[2024-04-15 12:50:53] INFO root fetch - processPackages [mapel-elections]: Start processing: mapel-marriages
+[2024-04-15 12:50:53] INFO root fetch - main [MainThread]: End processing [mapel-elections]: success
+[2024-04-15 12:50:53] INFO root fetch - processPackages [idds-website]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-15 12:50:53] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.1.7.tar.gz]
+[2024-04-15 12:50:53] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.1.8.tar.gz]
+[2024-04-15 12:50:53] INFO root fetch - processPackages [raga-testing-platform]: Start processing: mapel-roommates
+[2024-04-15 12:50:53] INFO root fetch - main [MainThread]: End processing [raga-testing-platform]: success
+[2024-04-15 12:50:53] INFO root fetch - processPackages [mapel-roommates]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-15 12:50:53] INFO root fetch - processPackages [idds-workflow]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-15 12:50:53] INFO root fetch - processPackages [mapel-marriages]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-15 12:50:53] WARNING root fetch - processPackages [removable-package]: Skipping, unable to determine old version
+[2024-04-15 12:50:53] INFO root fetch - processPackages [removable-package]: Start processing: pydivkit
+[2024-04-15 12:50:53] INFO root fetch - main [MainThread]: End processing [removable-package] error
+[2024-04-15 12:50:53] INFO root fetch - processPackages [idds-server]: Downloading https://files.pythonhosted.org/packages/c9/11/038164aa15346125d484b18968a4243872fdf64187bbe7a67aad9bfc42e4/idds-server-2.1.8.tar.gz
+[2024-04-15 12:50:53] INFO root fetch - processPackages [mapel-roommates]: Downloading https://files.pythonhosted.org/packages/57/26/308c1e4711754ed8f88f50ee00e9f0310f980e50934f948605ff3a2dc536/mapel-roommates-2.1.8.tar.gz
+[2024-04-15 12:50:53] INFO root fetch - processPackages [idds-monitor]: Downloading https://files.pythonhosted.org/packages/4e/fa/c765d4409c3150c46b43ed104aad3c9ba7bf06451f5c09d5a47544e95bb8/idds-monitor-2.1.8.tar.gz
+[2024-04-15 12:50:53] INFO root fetch - processPackages [mapel-marriages]: Downloading https://files.pythonhosted.org/packages/7c/b6/b9e31b8593b48d6166357cd6822ecb8942f879f8b99bd2089d1cb58b9fe4/mapel-marriages-2.1.8.tar.gz
+[2024-04-15 12:50:53] INFO root fetch - processPackages [idds-website]: Downloading https://files.pythonhosted.org/packages/25/87/96b521daa782ac04080a060426d794942c20472474c441dd6ff2ecf1285d/idds-website-2.1.8.tar.gz
+[2024-04-15 12:50:53] INFO root fetch - processPackages [idds-workflow]: Downloading https://files.pythonhosted.org/packages/55/fc/acbe5cdd95a1a358e3ffd73c14d401e268fc9dbf39e7f9432d5199e76f6f/idds-workflow-2.1.8.tar.gz
+[2024-04-15 12:50:53] INFO root fetch - processPackages [pydivkit]: New version: [29.9.0] Old Version: [29.8.0]
+[2024-04-15 12:50:53] INFO root fetch - processPackages [idds-doma]: Downloading https://files.pythonhosted.org/packages/7a/db/d560bfae24647db0ff8de146a252b418d5777764acb329011c308312c740/idds-doma-2.1.9.tar.gz
+[2024-04-15 12:50:53] INFO root fetch - processPackages [mapel-roommates]: Downloading https://files.pythonhosted.org/packages/da/78/68a4a7b1e75443e72847cb33052d9b08470717a3d0cccf01fe2211e9ec7d/mapel_roommates-2.1.9.tar.gz
+[2024-04-15 12:50:53] INFO root fetch - processPackages [mapel-marriages]: Downloading https://files.pythonhosted.org/packages/26/5d/9dda2034a369356f7afbaac33c470e4ccbad16f0d5b29811167a81ac077c/mapel_marriages-2.1.9.tar.gz
+[2024-04-15 12:50:53] INFO root fetch - processPackages [idds-common]: Downloading https://files.pythonhosted.org/packages/52/d9/363af13bef7c43cca28ca3a56c05310b8fe21e3929b3fea6c4c9d686f079/idds-common-2.1.9.tar.gz
+[2024-04-15 12:50:53] INFO root fetch - processPackages [openst]: Remove: archive file [/home/abi/fetcher/tmp/openst-0.0.3.tar.gz]
+[2024-04-15 12:50:53] INFO root fetch - processPackages [openst]: Remove: archive file [/home/abi/fetcher/tmp/openst-0.0.7-py3-none-any.whl.zip]
+[2024-04-15 12:50:53] INFO root fetch - processPackages [openst]: Start processing: leadguru-jobs
+[2024-04-15 12:50:53] INFO root fetch - main [MainThread]: End processing [openst]: success
+[2024-04-15 12:50:53] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-04-15 12:50:53] INFO root fetch - processPackages [pydivkit]: Downloading https://files.pythonhosted.org/packages/42/a1/6e9c9bf0381cdd05c889c253313b5dae76afc9a776d674ae61e59eec076a/pydivkit-29.8.0.tar.gz
+[2024-04-15 12:50:53] INFO root fetch - processPackages [mapel-roommates]: executing diffoscope
+[2024-04-15 12:50:53] INFO root fetch - processPackages [mapel-roommates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapel-roommates-2.1.8.tar.gz tmp/mapel_roommates-2.1.9.tar.gz --markdown 20240415/m/mapel-roommates/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-15 12:50:53] INFO root fetch - processPackages [idds-common]: executing diffoscope
+[2024-04-15 12:50:53] INFO root fetch - processPackages [idds-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-common-2.1.8.tar.gz tmp/idds-common-2.1.9.tar.gz --markdown 20240415/i/idds-common/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-15 12:50:53] INFO root fetch - processPackages [mapel-marriages]: executing diffoscope
+[2024-04-15 12:50:53] INFO root fetch - processPackages [mapel-marriages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapel-marriages-2.1.8.tar.gz tmp/mapel_marriages-2.1.9.tar.gz --markdown 20240415/m/mapel-marriages/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-15 12:50:53] INFO root fetch - processPackages [idds-doma]: executing diffoscope
+[2024-04-15 12:50:53] INFO root fetch - processPackages [idds-doma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-doma-2.1.8.tar.gz tmp/idds-doma-2.1.9.tar.gz --markdown 20240415/i/idds-doma/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-15 12:50:53] INFO root fetch - processPackages [idds-server]: Downloading https://files.pythonhosted.org/packages/ca/86/8f562d8cfc13407a1049f1eafb42f83f55e4ddd5fcd097baf04a642e65ce/idds-server-2.1.9.tar.gz
+[2024-04-15 12:50:53] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2024-04-15 12:50:54] INFO root fetch - processPackages [idds-workflow]: Downloading https://files.pythonhosted.org/packages/4c/72/049cf84e7ad7c539f3825e0591322a34dde07ed50d92cde0e63847d09c37/idds-workflow-2.1.9.tar.gz
+[2024-04-15 12:50:54] INFO root fetch - processPackages [idds-server]: executing diffoscope
+[2024-04-15 12:50:54] INFO root fetch - processPackages [idds-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-server-2.1.8.tar.gz tmp/idds-server-2.1.9.tar.gz --markdown 20240415/i/idds-server/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-15 12:50:54] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2024-04-15 12:50:54] INFO root fetch - processPackages [idds-workflow]: executing diffoscope
+[2024-04-15 12:50:54] INFO root fetch - processPackages [idds-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-workflow-2.1.8.tar.gz tmp/idds-workflow-2.1.9.tar.gz --markdown 20240415/i/idds-workflow/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-15 12:50:54] INFO root fetch - processPackages [pydivkit]: Downloading https://files.pythonhosted.org/packages/c4/cc/fa1edd25ae1d1b30a98ee6486f6794e38f7fe120e457a60d491fc8848148/pydivkit-29.9.0.tar.gz
+[2024-04-15 12:50:54] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2024-04-15 12:50:54] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20240415/l/leadguru-jobs/0.98.0-0.99.0/README.md --exclude *.pyd
+[2024-04-15 12:50:54] INFO root fetch - processPackages [pydivkit]: executing diffoscope
+[2024-04-15 12:50:54] INFO root fetch - processPackages [pydivkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydivkit-29.8.0.tar.gz tmp/pydivkit-29.9.0.tar.gz --markdown 20240415/p/pydivkit/29.8.0-29.9.0/README.md --exclude *.pyd
+[2024-04-15 12:50:54] INFO root fetch - processPackages [mapel-marriages]: Remove: archive file [/home/abi/fetcher/tmp/mapel-marriages-2.1.8.tar.gz]
+[2024-04-15 12:50:54] INFO root fetch - processPackages [mapel-marriages]: Remove: archive file [/home/abi/fetcher/tmp/mapel_marriages-2.1.9.tar.gz]
+[2024-04-15 12:50:54] INFO root fetch - main [MainThread]: End processing [mapel-marriages]: success
+[2024-04-15 12:50:54] INFO root fetch - processPackages [mapel-roommates]: Remove: archive file [/home/abi/fetcher/tmp/mapel-roommates-2.1.8.tar.gz]
+[2024-04-15 12:50:54] INFO root fetch - processPackages [mapel-roommates]: Remove: archive file [/home/abi/fetcher/tmp/mapel_roommates-2.1.9.tar.gz]
+[2024-04-15 12:50:54] INFO root fetch - main [MainThread]: End processing [mapel-roommates]: success
+[2024-04-15 12:50:54] INFO root fetch - processPackages [idds-monitor]: Downloading https://files.pythonhosted.org/packages/d7/92/fbc526d4eb744e1258d1a75611b14c1d386df513442ad67cda353bae496b/idds-monitor-2.1.9.tar.gz
+[2024-04-15 12:50:54] INFO root fetch - processPackages [idds-doma]: Remove: archive file [/home/abi/fetcher/tmp/idds-doma-2.1.8.tar.gz]
+[2024-04-15 12:50:54] INFO root fetch - processPackages [idds-doma]: Remove: archive file [/home/abi/fetcher/tmp/idds-doma-2.1.9.tar.gz]
+[2024-04-15 12:50:54] INFO root fetch - main [MainThread]: End processing [idds-doma]: success
+[2024-04-15 12:50:54] INFO root fetch - processPackages [idds-common]: Remove: archive file [/home/abi/fetcher/tmp/idds-common-2.1.8.tar.gz]
+[2024-04-15 12:50:54] INFO root fetch - processPackages [idds-common]: Remove: archive file [/home/abi/fetcher/tmp/idds-common-2.1.9.tar.gz]
+[2024-04-15 12:50:54] INFO root fetch - main [MainThread]: End processing [idds-common]: success
+[2024-04-15 12:50:55] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2024-04-15 12:50:55] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2024-04-15 12:50:55] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2024-04-15 12:50:55] INFO root fetch - processPackages [idds-workflow]: Remove: archive file [/home/abi/fetcher/tmp/idds-workflow-2.1.8.tar.gz]
+[2024-04-15 12:50:55] INFO root fetch - processPackages [idds-workflow]: Remove: archive file [/home/abi/fetcher/tmp/idds-workflow-2.1.9.tar.gz]
+[2024-04-15 12:50:55] INFO root fetch - main [MainThread]: End processing [idds-workflow]: success
+[2024-04-15 12:50:55] INFO root fetch - processPackages [idds-website]: Downloading https://files.pythonhosted.org/packages/26/54/77c1b99aa5d9ce4f521911dca3bf41c4344092410388b94bd8d7c3e5f22e/idds-website-2.1.9.tar.gz
+[2024-04-15 12:50:55] INFO root fetch - processPackages [pydivkit]: Remove: archive file [/home/abi/fetcher/tmp/pydivkit-29.8.0.tar.gz]
+[2024-04-15 12:50:55] INFO root fetch - processPackages [pydivkit]: Remove: archive file [/home/abi/fetcher/tmp/pydivkit-29.9.0.tar.gz]
+[2024-04-15 12:50:55] INFO root fetch - main [MainThread]: End processing [pydivkit]: success
+[2024-04-15 12:50:55] INFO root fetch - processPackages [idds-monitor]: executing diffoscope
+[2024-04-15 12:50:55] INFO root fetch - processPackages [idds-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-monitor-2.1.8.tar.gz tmp/idds-monitor-2.1.9.tar.gz --markdown 20240415/i/idds-monitor/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-15 12:50:55] INFO root fetch - processPackages [idds-server]: Remove: archive file [/home/abi/fetcher/tmp/idds-server-2.1.8.tar.gz]
+[2024-04-15 12:50:55] INFO root fetch - processPackages [idds-server]: Remove: archive file [/home/abi/fetcher/tmp/idds-server-2.1.9.tar.gz]
+[2024-04-15 12:50:55] INFO root fetch - main [MainThread]: End processing [idds-server]: success
+[2024-04-15 12:50:55] INFO root fetch - processPackages [idds-website]: executing diffoscope
+[2024-04-15 12:50:55] INFO root fetch - processPackages [idds-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-website-2.1.8.tar.gz tmp/idds-website-2.1.9.tar.gz --markdown 20240415/i/idds-website/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-15 12:50:56] INFO root fetch - processPackages [idds-website]: Remove: archive file [/home/abi/fetcher/tmp/idds-website-2.1.8.tar.gz]
+[2024-04-15 12:50:56] INFO root fetch - processPackages [idds-website]: Remove: archive file [/home/abi/fetcher/tmp/idds-website-2.1.9.tar.gz]
+[2024-04-15 12:50:56] INFO root fetch - main [MainThread]: End processing [idds-website]: success
+[2024-04-15 12:50:58] INFO root fetch - processPackages [idds-monitor]: Remove: archive file [/home/abi/fetcher/tmp/idds-monitor-2.1.8.tar.gz]
+[2024-04-15 12:50:58] INFO root fetch - processPackages [idds-monitor]: Remove: archive file [/home/abi/fetcher/tmp/idds-monitor-2.1.9.tar.gz]
+[2024-04-15 12:50:58] INFO root fetch - main [MainThread]: End processing [idds-monitor]: success
+[2024-04-15 12:50:58] INFO root fetch - main [MainThread]: Store serial: [22769725]
