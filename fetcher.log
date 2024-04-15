@@ -16733,3 +16733,98 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 13:35:10] INFO root fetch - processPackages [prosperity2bt]: Remove: archive file [/home/abi/fetcher/tmp/prosperity2bt-0.5.0.tar.gz]
 [2024-04-15 13:35:10] INFO root fetch - main [MainThread]: End processing [prosperity2bt]: success
 [2024-04-15 13:35:10] INFO root fetch - main [MainThread]: Store serial: [22770157]
+[2024-04-15 13:37:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22770157]
+[2024-04-15 13:37:18] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-15 13:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arrlio
+[2024-04-15 13:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyhtml-enhanced
+[2024-04-15 13:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torchserve-nightly
+[2024-04-15 13:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torch-model-archiver-nightly
+[2024-04-15 13:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torch-workflow-archiver-nightly
+[2024-04-15 13:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cyclophaser
+[2024-04-15 13:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hermitage
+[2024-04-15 13:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: checkov
+[2024-04-15 13:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: clax
+[2024-04-15 13:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: scematk
+[2024-04-15 13:37:18] INFO root fetch - processPackages [checkov]: New version: [3.2.9] Old Version: [3.2.8]
+[2024-04-15 13:37:18] INFO root fetch - processPackages [scematk]: New version: [0.0.2rc99.post1] Old Version: [0.0.2rc98.post1]
+[2024-04-15 13:37:18] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2024.4.8] Old Version: [2024.4.7]
+[2024-04-15 13:37:18] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2024.4.8] Old Version: [2024.4.7]
+[2024-04-15 13:37:18] INFO root fetch - processPackages [pyhtml-enhanced]: New version: [2.0.3] Old Version: [2.0.2]
+[2024-04-15 13:37:18] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/88/07/1509be74cf47a29b012a6f7477139e57bee2a7d01634b6bd6a71d095ace8/checkov-3.2.8.tar.gz
+[2024-04-15 13:37:19] INFO root fetch - processPackages [cyclophaser]: New version: [1.7.3] Old Version: [1.7.2]
+[2024-04-15 13:37:19] WARNING root fetch - processPackages [clax]: Skipping, unable to determine old version
+[2024-04-15 13:37:19] INFO root fetch - processPackages [clax]: Start processing: misleep
+[2024-04-15 13:37:19] INFO root fetch - main [MainThread]: End processing [clax] error
+[2024-04-15 13:37:19] INFO root fetch - processPackages [arrlio]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-15 13:37:19] INFO root fetch - processPackages [scematk]: Downloading https://files.pythonhosted.org/packages/74/b4/2c4bf9a440c6109c1526403bd63a1ad539bac9b025336ad220b4b533e7b7/scematk-0.0.2rc98.post1.tar.gz
+[2024-04-15 13:37:19] INFO root fetch - processPackages [torchserve-nightly]: New version: [2024.4.8] Old Version: [2024.4.7]
+[2024-04-15 13:37:19] INFO root fetch - processPackages [hermitage]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-15 13:37:19] INFO root fetch - processPackages [misleep]: New version: [0.1.7b0] Old Version: [0.1.6b0]
+[2024-04-15 13:37:19] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/18/8d/5c32ddd637a0599b7a839f802a7243a55780adba3d383c90ef75166e05a8/torch_model_archiver_nightly-2024.4.7-py3-none-any.whl
+[2024-04-15 13:37:19] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/19/d4/48ed170e79102607db9758662c34c1e9a7d2cca453a976226f2d8dd11967/torch_workflow_archiver_nightly-2024.4.7-py3-none-any.whl
+[2024-04-15 13:37:19] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/45/5e/4f1364a73e0ee415abfe197b77d791f9294a79e4d8f7a3e886e5eec8d664/torchserve_nightly-2024.4.7-py3-none-any.whl
+[2024-04-15 13:37:19] INFO root fetch - processPackages [misleep]: Downloading https://files.pythonhosted.org/packages/db/66/554345e09eb4ebdb5f9895c4d4273de824255eae58d4f1963d7e3df9b3ae/misleep-0.1.6b0.tar.gz
+[2024-04-15 13:37:19] INFO root fetch - processPackages [pyhtml-enhanced]: Downloading https://files.pythonhosted.org/packages/54/ef/27258529cecaf9ff6b3f63c7db238dc5d0395aba52f5080bde7658b73b8f/pyhtml_enhanced-2.0.2.tar.gz
+[2024-04-15 13:37:19] INFO root fetch - processPackages [arrlio]: Downloading https://files.pythonhosted.org/packages/81/d8/6c42f081cd00cb49462f25e81a0de0a22435dfffb7ea0599c08fac7cf484/arrlio-0.8.0.tar.gz
+[2024-04-15 13:37:19] INFO root fetch - processPackages [cyclophaser]: Downloading https://files.pythonhosted.org/packages/37/15/3d46e8a669d65a33a97fd8b55f7dfe2be51e4a6a50e7aba7451f9f680c61/cyclophaser-1.7.2.tar.gz
+[2024-04-15 13:37:19] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 24332257>=10485760
+[2024-04-15 13:37:19] INFO root fetch - processPackages [torchserve-nightly]: Start processing: odoo-addon-account-statement-import-online-qonto
+[2024-04-15 13:37:19] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2024-04-15 13:37:19] INFO root fetch - processPackages [hermitage]: Downloading https://files.pythonhosted.org/packages/07/76/f7746f4d9953ca0fe3cfdf2f322352bd65d208b32bdf5447d7529064ff0b/hermitage-0.1.2.tar.gz
+[2024-04-15 13:37:19] INFO root fetch - processPackages [scematk]: Downloading https://files.pythonhosted.org/packages/88/05/a551ffce29ada02c3b808f4d3523aefcebb95b513746d269b86d0d75e18b/scematk-0.0.2rc99.post1.tar.gz
+[2024-04-15 13:37:19] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/46/e6/cfb9b8e2b84779c413931c88816ff46e987f3bf841f1fb714e6b662e8296/torch_model_archiver_nightly-2024.4.8-py3-none-any.whl
+[2024-04-15 13:37:19] WARNING root fetch - processPackages [odoo-addon-account-statement-import-online-qonto]: Skipping, unable to determine old version
+[2024-04-15 13:37:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-statement-import-online-qonto] error
+[2024-04-15 13:37:19] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8b/2e/76e1600c8d7d81ec9b7cc207e032f23feed398a5b54e6698055f7c5e0f8f/checkov-3.2.9.tar.gz
+[2024-04-15 13:37:19] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/d5/55/6c71d544e2fef7c773e7b994940d2019c84fd5eaa8f6db64fa9983595110/torch_workflow_archiver_nightly-2024.4.8-py3-none-any.whl
+[2024-04-15 13:37:19] INFO root fetch - processPackages [scematk]: executing diffoscope
+[2024-04-15 13:37:19] INFO root fetch - processPackages [scematk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scematk-0.0.2rc98.post1.tar.gz tmp/scematk-0.0.2rc99.post1.tar.gz --markdown 20240415/s/scematk/0.0.2rc98.post1-0.0.2rc99.post1/README.md --exclude *.pyd
+[2024-04-15 13:37:19] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2024-04-15 13:37:19] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2024.4.7-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2024.4.8-py3-none-any.whl.zip --markdown 20240415/t/torch-model-archiver-nightly/2024.4.7-2024.4.8/README.md --exclude *.pyd
+[2024-04-15 13:37:19] INFO root fetch - processPackages [pyhtml-enhanced]: Downloading https://files.pythonhosted.org/packages/65/48/c9be74c779eb854c0e9c9295ff54eb2d693c914087c2b64da33f125825fe/pyhtml_enhanced-2.0.3.tar.gz
+[2024-04-15 13:37:19] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2024-04-15 13:37:19] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2024.4.7-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2024.4.8-py3-none-any.whl.zip --markdown 20240415/t/torch-workflow-archiver-nightly/2024.4.7-2024.4.8/README.md --exclude *.pyd
+[2024-04-15 13:37:19] INFO root fetch - processPackages [arrlio]: Downloading https://files.pythonhosted.org/packages/75/ab/00e6d9e5834a37b99fddb9f192c46e0a8669d040fb0ad1403cc67ac38322/arrlio-0.9.0.tar.gz
+[2024-04-15 13:37:19] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2024-04-15 13:37:19] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-3.2.8.tar.gz tmp/checkov-3.2.9.tar.gz --markdown 20240415/c/checkov/3.2.8-3.2.9/README.md --exclude *.pyd
+[2024-04-15 13:37:19] INFO root fetch - processPackages [cyclophaser]: Downloading https://files.pythonhosted.org/packages/55/00/0ec7efd7ee8f4399ce2847fe444c8c6d904923ac1ca2a2491162d8875b93/cyclophaser-1.7.3.tar.gz
+[2024-04-15 13:37:19] INFO root fetch - processPackages [hermitage]: Downloading https://files.pythonhosted.org/packages/72/3b/b9428c02c0d5bf18bb3a14cd7aa16ca3145d15cdbf61ba8485c47fad22b1/hermitage-0.1.3.tar.gz
+[2024-04-15 13:37:19] INFO root fetch - processPackages [misleep]: Downloading https://files.pythonhosted.org/packages/9c/d4/4c1fcb631d24107084cee7bb5983606f4f8360270cd9b8093590852683f0/misleep-0.1.7b0.tar.gz
+[2024-04-15 13:37:19] INFO root fetch - processPackages [pyhtml-enhanced]: executing diffoscope
+[2024-04-15 13:37:19] INFO root fetch - processPackages [pyhtml-enhanced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhtml_enhanced-2.0.2.tar.gz tmp/pyhtml_enhanced-2.0.3.tar.gz --markdown 20240415/p/pyhtml-enhanced/2.0.2-2.0.3/README.md --exclude *.pyd
+[2024-04-15 13:37:19] INFO root fetch - processPackages [arrlio]: executing diffoscope
+[2024-04-15 13:37:19] INFO root fetch - processPackages [arrlio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arrlio-0.8.0.tar.gz tmp/arrlio-0.9.0.tar.gz --markdown 20240415/a/arrlio/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-15 13:37:19] INFO root fetch - processPackages [hermitage]: executing diffoscope
+[2024-04-15 13:37:19] INFO root fetch - processPackages [hermitage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hermitage-0.1.2.tar.gz tmp/hermitage-0.1.3.tar.gz --markdown 20240415/h/hermitage/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-15 13:37:19] INFO root fetch - processPackages [cyclophaser]: executing diffoscope
+[2024-04-15 13:37:19] INFO root fetch - processPackages [cyclophaser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyclophaser-1.7.2.tar.gz tmp/cyclophaser-1.7.3.tar.gz --markdown 20240415/c/cyclophaser/1.7.2-1.7.3/README.md --exclude *.pyd
+[2024-04-15 13:37:19] INFO root fetch - processPackages [misleep]: executing diffoscope
+[2024-04-15 13:37:19] INFO root fetch - processPackages [misleep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/misleep-0.1.6b0.tar.gz tmp/misleep-0.1.7b0.tar.gz --markdown 20240415/m/misleep/0.1.6b0-0.1.7b0/README.md --exclude *.pyd
+[2024-04-15 13:37:20] INFO root fetch - processPackages [scematk]: Remove: archive file [/home/abi/fetcher/tmp/scematk-0.0.2rc98.post1.tar.gz]
+[2024-04-15 13:37:20] INFO root fetch - processPackages [scematk]: Remove: archive file [/home/abi/fetcher/tmp/scematk-0.0.2rc99.post1.tar.gz]
+[2024-04-15 13:37:20] INFO root fetch - main [MainThread]: End processing [scematk]: success
+[2024-04-15 13:37:20] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2024.4.7-py3-none-any.whl.zip]
+[2024-04-15 13:37:20] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2024.4.8-py3-none-any.whl.zip]
+[2024-04-15 13:37:20] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2024-04-15 13:37:20] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2024.4.7-py3-none-any.whl.zip]
+[2024-04-15 13:37:20] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2024.4.8-py3-none-any.whl.zip]
+[2024-04-15 13:37:20] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2024-04-15 13:37:20] INFO root fetch - processPackages [arrlio]: Remove: archive file [/home/abi/fetcher/tmp/arrlio-0.8.0.tar.gz]
+[2024-04-15 13:37:20] INFO root fetch - processPackages [arrlio]: Remove: archive file [/home/abi/fetcher/tmp/arrlio-0.9.0.tar.gz]
+[2024-04-15 13:37:20] INFO root fetch - main [MainThread]: End processing [arrlio]: success
+[2024-04-15 13:37:21] INFO root fetch - processPackages [cyclophaser]: Remove: archive file [/home/abi/fetcher/tmp/cyclophaser-1.7.2.tar.gz]
+[2024-04-15 13:37:21] INFO root fetch - processPackages [cyclophaser]: Remove: archive file [/home/abi/fetcher/tmp/cyclophaser-1.7.3.tar.gz]
+[2024-04-15 13:37:21] INFO root fetch - main [MainThread]: End processing [cyclophaser]: success
+[2024-04-15 13:37:21] INFO root fetch - processPackages [hermitage]: Remove: archive file [/home/abi/fetcher/tmp/hermitage-0.1.2.tar.gz]
+[2024-04-15 13:37:21] INFO root fetch - processPackages [hermitage]: Remove: archive file [/home/abi/fetcher/tmp/hermitage-0.1.3.tar.gz]
+[2024-04-15 13:37:21] INFO root fetch - main [MainThread]: End processing [hermitage]: success
+[2024-04-15 13:37:21] INFO root fetch - processPackages [pyhtml-enhanced]: Remove: archive file [/home/abi/fetcher/tmp/pyhtml_enhanced-2.0.2.tar.gz]
+[2024-04-15 13:37:21] INFO root fetch - processPackages [pyhtml-enhanced]: Remove: archive file [/home/abi/fetcher/tmp/pyhtml_enhanced-2.0.3.tar.gz]
+[2024-04-15 13:37:21] INFO root fetch - main [MainThread]: End processing [pyhtml-enhanced]: success
+[2024-04-15 13:37:21] INFO root fetch - processPackages [misleep]: Remove: archive file [/home/abi/fetcher/tmp/misleep-0.1.6b0.tar.gz]
+[2024-04-15 13:37:21] INFO root fetch - processPackages [misleep]: Remove: archive file [/home/abi/fetcher/tmp/misleep-0.1.7b0.tar.gz]
+[2024-04-15 13:37:21] INFO root fetch - main [MainThread]: End processing [misleep]: success
+[2024-04-15 13:37:28] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.8.tar.gz]
+[2024-04-15 13:37:28] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.9.tar.gz]
+[2024-04-15 13:37:28] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2024-04-15 13:37:28] INFO root fetch - main [MainThread]: Store serial: [22770193]
