@@ -18077,3 +18077,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 14:26:17] INFO root fetch - processPackages [authentik-client]: Remove: archive file [/home/abi/fetcher/tmp/authentik_client-2024.2.2.post1713180519.tar.gz]
 [2024-04-15 14:26:17] INFO root fetch - main [MainThread]: End processing [authentik-client]: success
 [2024-04-15 14:26:17] INFO root fetch - main [MainThread]: Store serial: [22770805]
+[2024-04-15 14:28:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22770805]
+[2024-04-15 14:28:27] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-15 14:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: badam
+[2024-04-15 14:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: facialfinder
+[2024-04-15 14:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: panpdf
+[2024-04-15 14:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: testpack24
+[2024-04-15 14:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Agently
+[2024-04-15 14:28:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: avaris
+[2024-04-15 14:28:27] INFO root fetch - processPackages [avaris]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-15 14:28:27] INFO root fetch - processPackages [testpack24]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-15 14:28:27] WARNING root fetch - processPackages [badam]: Skipping, unable to determine old version
+[2024-04-15 14:28:27] INFO root fetch - main [MainThread]: End processing [badam] error
+[2024-04-15 14:28:27] INFO root fetch - processPackages [facialfinder]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-15 14:28:27] INFO root fetch - processPackages [testpack24]: Downloading https://files.pythonhosted.org/packages/b1/14/835a4f8f691067c344c65ce4ed9e02880ff69e4ce79132dbe3d5402c8bab/testpack24-0.0.3.tar.gz
+[2024-04-15 14:28:27] INFO root fetch - processPackages [panpdf]: New version: [0.2.0] Old Version: [0.1.8]
+[2024-04-15 14:28:27] INFO root fetch - processPackages [avaris]: Downloading https://files.pythonhosted.org/packages/cc/5d/3ff78acb5ab038a9767c66b70752582ee323aef7e7a1db5ea46a8d0b889c/avaris-0.2.0.tar.gz
+[2024-04-15 14:28:27] INFO root fetch - processPackages [Agently]: New version: [3.3.0.0a6] Old Version: [3.2.2.5]
+[2024-04-15 14:28:28] INFO root fetch - processPackages [Agently]: Downloading https://files.pythonhosted.org/packages/b3/dc/6584bb107a02df957ce9b6385bd06e3eb92d9f54b7cbc5572b7db2e08303/Agently-3.2.2.5.tar.gz
+[2024-04-15 14:28:28] INFO root fetch - processPackages [facialfinder]: Downloading https://files.pythonhosted.org/packages/b7/e5/f93e6e128ad01dff5d45a3cad8ab732cf6c60d043137eccfbaefb63411db/facialfinder-0.0.4.tar.gz
+[2024-04-15 14:28:28] INFO root fetch - processPackages [avaris]: Downloading https://files.pythonhosted.org/packages/de/c8/d52497d268765052135193ab56da0e44a4b83beae31017f5694df038584c/avaris-0.2.1.tar.gz
+[2024-04-15 14:28:28] INFO root fetch - processPackages [panpdf]: Downloading https://files.pythonhosted.org/packages/74/0e/244d742496b540f300b1071b6c973fe7ddac602a5df1d817e125b8fcbfec/panpdf-0.1.8.tar.gz
+[2024-04-15 14:28:28] INFO root fetch - processPackages [testpack24]: Downloading https://files.pythonhosted.org/packages/04/92/4f9d2256963890b9216bb012b90bc927364e71fac66796927054a0d88ddc/testpack24-0.0.4.tar.gz
+[2024-04-15 14:28:28] INFO root fetch - processPackages [avaris]: executing diffoscope
+[2024-04-15 14:28:28] INFO root fetch - processPackages [avaris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avaris-0.2.0.tar.gz tmp/avaris-0.2.1.tar.gz --markdown 20240415/a/avaris/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-15 14:28:28] INFO root fetch - processPackages [panpdf]: Downloading https://files.pythonhosted.org/packages/6a/e0/7a24a3dd6d88e232c8f645eb609a102c258a35969dc9c2ad2240fc4e6148/panpdf-0.2.0.tar.gz
+[2024-04-15 14:28:28] INFO root fetch - processPackages [testpack24]: executing diffoscope
+[2024-04-15 14:28:28] INFO root fetch - processPackages [testpack24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testpack24-0.0.3.tar.gz tmp/testpack24-0.0.4.tar.gz --markdown 20240415/t/testpack24/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-15 14:28:28] INFO root fetch - processPackages [Agently]: Downloading https://files.pythonhosted.org/packages/ef/6b/d8583288f12d824272bc6c062717f72a865885b034a5b0a22bf2a4d0db31/Agently-3.3.0.0a6.tar.gz
+[2024-04-15 14:28:28] INFO root fetch - processPackages [facialfinder]: Downloading https://files.pythonhosted.org/packages/b8/c7/a347ab087631405a110214c8db0cbcce0d31779583feb267669e26e960b3/facialfinder-0.0.5.tar.gz
+[2024-04-15 14:28:28] INFO root fetch - processPackages [Agently]: executing diffoscope
+[2024-04-15 14:28:28] INFO root fetch - processPackages [Agently]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Agently-3.2.2.5.tar.gz tmp/Agently-3.3.0.0a6.tar.gz --markdown 20240415/A/Agently/3.2.2.5-3.3.0.0a6/README.md --exclude *.pyd
+[2024-04-15 14:28:28] INFO root fetch - processPackages [panpdf]: executing diffoscope
+[2024-04-15 14:28:28] INFO root fetch - processPackages [panpdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panpdf-0.1.8.tar.gz tmp/panpdf-0.2.0.tar.gz --markdown 20240415/p/panpdf/0.1.8-0.2.0/README.md --exclude *.pyd
+[2024-04-15 14:28:28] INFO root fetch - processPackages [facialfinder]: executing diffoscope
+[2024-04-15 14:28:28] INFO root fetch - processPackages [facialfinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/facialfinder-0.0.4.tar.gz tmp/facialfinder-0.0.5.tar.gz --markdown 20240415/f/facialfinder/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-15 14:28:29] INFO root fetch - processPackages [avaris]: Remove: archive file [/home/abi/fetcher/tmp/avaris-0.2.0.tar.gz]
+[2024-04-15 14:28:29] INFO root fetch - processPackages [avaris]: Remove: archive file [/home/abi/fetcher/tmp/avaris-0.2.1.tar.gz]
+[2024-04-15 14:28:29] INFO root fetch - main [MainThread]: End processing [avaris]: success
+[2024-04-15 14:28:29] INFO root fetch - processPackages [testpack24]: Remove: archive file [/home/abi/fetcher/tmp/testpack24-0.0.3.tar.gz]
+[2024-04-15 14:28:29] INFO root fetch - processPackages [testpack24]: Remove: archive file [/home/abi/fetcher/tmp/testpack24-0.0.4.tar.gz]
+[2024-04-15 14:28:29] INFO root fetch - main [MainThread]: End processing [testpack24]: success
+[2024-04-15 14:28:29] INFO root fetch - processPackages [panpdf]: Remove: archive file [/home/abi/fetcher/tmp/panpdf-0.1.8.tar.gz]
+[2024-04-15 14:28:29] INFO root fetch - processPackages [panpdf]: Remove: archive file [/home/abi/fetcher/tmp/panpdf-0.2.0.tar.gz]
+[2024-04-15 14:28:29] INFO root fetch - main [MainThread]: End processing [panpdf]: success
+[2024-04-15 14:28:29] INFO root fetch - processPackages [Agently]: Remove: archive file [/home/abi/fetcher/tmp/Agently-3.2.2.5.tar.gz]
+[2024-04-15 14:28:29] INFO root fetch - processPackages [Agently]: Remove: archive file [/home/abi/fetcher/tmp/Agently-3.3.0.0a6.tar.gz]
+[2024-04-15 14:28:29] INFO root fetch - main [MainThread]: End processing [Agently]: success
+[2024-04-15 14:28:30] INFO root fetch - processPackages [facialfinder]: Remove: archive file [/home/abi/fetcher/tmp/facialfinder-0.0.4.tar.gz]
+[2024-04-15 14:28:30] INFO root fetch - processPackages [facialfinder]: Remove: archive file [/home/abi/fetcher/tmp/facialfinder-0.0.5.tar.gz]
+[2024-04-15 14:28:30] INFO root fetch - main [MainThread]: End processing [facialfinder]: success
+[2024-04-15 14:28:30] INFO root fetch - main [MainThread]: Store serial: [22770825]
