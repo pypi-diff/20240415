@@ -16553,3 +16553,102 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 13:28:33] INFO root fetch - processPackages [tradedangerous]: Remove: archive file [/home/abi/fetcher/tmp/tradedangerous-10.9.8.tar.gz]
 [2024-04-15 13:28:33] INFO root fetch - main [MainThread]: End processing [tradedangerous]: success
 [2024-04-15 13:28:33] INFO root fetch - main [MainThread]: Store serial: [22770091]
+[2024-04-15 13:30:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22770091]
+[2024-04-15 13:30:43] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-15 13:30:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kdp
+[2024-04-15 13:30:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: forloop-common-structures
+[2024-04-15 13:30:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: authentik-client
+[2024-04-15 13:30:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zodchy-identity
+[2024-04-15 13:30:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gempy-engine
+[2024-04-15 13:30:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: signapse
+[2024-04-15 13:30:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: micro-service-russ-m
+[2024-04-15 13:30:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: iot-protocols
+[2024-04-15 13:30:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: wlkatapython
+[2024-04-15 13:30:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: opshin
+[2024-04-15 13:30:43] WARNING root fetch - processPackages [signapse]: Skipping, unable to determine old version
+[2024-04-15 13:30:43] INFO root fetch - processPackages [signapse]: Start processing: classiq
+[2024-04-15 13:30:43] INFO root fetch - main [MainThread]: End processing [signapse] error
+[2024-04-15 13:30:43] INFO root fetch - processPackages [gempy-engine]: New version: [2023.2.0b1] Old Version: [2023.1.0b5]
+[2024-04-15 13:30:43] INFO root fetch - processPackages [opshin]: New version: [0.9.15] Old Version: [0.9.14]
+[2024-04-15 13:30:43] INFO root fetch - processPackages [kdp]: New version: [1.4.0] Old Version: [1.0.0]
+[2024-04-15 13:30:43] INFO root fetch - processPackages [zodchy-identity]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-15 13:30:43] WARNING root fetch - processPackages [micro-service-russ-m]: Skipping, unable to determine old version
+[2024-04-15 13:30:43] INFO root fetch - processPackages [micro-service-russ-m]: Start processing: NorenRestApi
+[2024-04-15 13:30:43] INFO root fetch - main [MainThread]: End processing [micro-service-russ-m] error
+[2024-04-15 13:30:43] INFO root fetch - processPackages [wlkatapython]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-15 13:30:43] INFO root fetch - processPackages [forloop-common-structures]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-04-15 13:30:43] INFO root fetch - processPackages [iot-protocols]: New version: [2.1.0.1] Old Version: [2.1.0]
+[2024-04-15 13:30:43] INFO root fetch - processPackages [authentik-client]: New version: [2024.2.2.post1713180519] Old Version: [2024.2.2.post1712922614]
+[2024-04-15 13:30:43] INFO root fetch - processPackages [classiq]: New version: [0.9.3] Old Version: [0.9.1]
+[2024-04-15 13:30:43] INFO root fetch - processPackages [gempy-engine]: Downloading https://files.pythonhosted.org/packages/2c/24/4bfb02848b1baca5eeec33ae0353d1c8048156778f3dcfb2088121638e79/gempy_engine-2023.1.0b5.tar.gz
+[2024-04-15 13:30:43] INFO root fetch - processPackages [opshin]: Downloading https://files.pythonhosted.org/packages/ac/8f/230fda1102c884b7ed406b6fa48643d7b0826e924f753db71c59de2fd65f/opshin-0.9.14.tar.gz
+[2024-04-15 13:30:43] INFO root fetch - processPackages [kdp]: Downloading https://files.pythonhosted.org/packages/55/23/6af5a44f7b1b45cce6c4df8c6aa55519cc865a3571a80ffec07992f5229d/kdp-1.0.0.tar.gz
+[2024-04-15 13:30:43] INFO root fetch - processPackages [NorenRestApi]: New version: [0.0.29] Old Version: [0.0.28]
+[2024-04-15 13:30:43] INFO root fetch - processPackages [zodchy-identity]: Downloading https://files.pythonhosted.org/packages/90/ef/8cd9eeed85acaef974741ecb1e23826a3e5662067d42a49c9a3eba429745/zodchy_identity-0.1.0.tar.gz
+[2024-04-15 13:30:43] INFO root fetch - processPackages [wlkatapython]: Downloading https://files.pythonhosted.org/packages/38/03/4d3fb32c6073f148ee5eca57cfba5f19298d247b3b902bdd2237a54c8f52/wlkatapython-0.0.7.tar.gz
+[2024-04-15 13:30:43] INFO root fetch - processPackages [iot-protocols]: Downloading https://files.pythonhosted.org/packages/cf/72/d8020506d0987da443eb06ce4e896de103e6d905f88da7308923b87aae77/iot-protocols-2.1.0.tar.gz
+[2024-04-15 13:30:43] INFO root fetch - processPackages [forloop-common-structures]: Downloading https://files.pythonhosted.org/packages/4d/8b/482601e4db578d971188a6193207b3ee7e6bb51b4ba4fb30cbcf3b0de803/forloop_common_structures-0.2.7.tar.gz
+[2024-04-15 13:30:43] INFO root fetch - processPackages [classiq]: Downloading https://files.pythonhosted.org/packages/62/bd/a743e4141094b0e9dc17aeac1cedfe15efc910502e7411611d5cdf9d1878/classiq-0.9.1-py3-none-any.whl
+[2024-04-15 13:30:43] INFO root fetch - processPackages [authentik-client]: Downloading https://files.pythonhosted.org/packages/c0/0f/c73e5f562cecb835c49e5a92f827ed07e85d42e3eaeb86e6d6df5a5c8376/authentik_client-2024.2.2.post1712922614.tar.gz
+[2024-04-15 13:30:43] INFO root fetch - processPackages [NorenRestApi]: Downloading https://files.pythonhosted.org/packages/77/a4/208349b6b84abaa4749bdc51080a6e88db43a2c820aa89299605a83178fd/NorenRestApi-0.0.28-py2.py3-none-any.whl
+[2024-04-15 13:30:43] INFO root fetch - processPackages [opshin]: Downloading https://files.pythonhosted.org/packages/85/27/589ead27cf5b537b46af189eb5765afcf156edecbd7075c43b3d788048ac/opshin-0.9.15.tar.gz
+[2024-04-15 13:30:43] INFO root fetch - processPackages [zodchy-identity]: Downloading https://files.pythonhosted.org/packages/d4/d0/9759d2d7715d6dc9e7ef81e4ec033cf27c1fb3dfdef3c04473aaa3c2ebc2/zodchy_identity-0.1.1.tar.gz
+[2024-04-15 13:30:43] INFO root fetch - processPackages [kdp]: Downloading https://files.pythonhosted.org/packages/02/33/a2ebb646e9ab1e728766626a6c306d7cceba81968fb1c86178b6a6628d3f/kdp-1.4.0.tar.gz
+[2024-04-15 13:30:44] INFO root fetch - processPackages [wlkatapython]: Downloading https://files.pythonhosted.org/packages/dc/d0/9ac1b02b4cb15987262d1ed8812c8ee0845ff03766ab9d65951695f1a2b0/wlkatapython-0.0.8.tar.gz
+[2024-04-15 13:30:44] INFO root fetch - processPackages [gempy-engine]: Downloading https://files.pythonhosted.org/packages/6c/30/0b97832601fc94191208ecbfa3308634e7fa40cca191c106c24633e26a16/gempy_engine-2023.2.0b1.tar.gz
+[2024-04-15 13:30:44] INFO root fetch - processPackages [iot-protocols]: Downloading https://files.pythonhosted.org/packages/99/ed/866c351540f9d383f32be608fdc0e53474da1b54fa975cf76bc95c700048/iot_protocols-2.1.0.1.tar.gz
+[2024-04-15 13:30:44] INFO root fetch - processPackages [opshin]: executing diffoscope
+[2024-04-15 13:30:44] INFO root fetch - processPackages [opshin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opshin-0.9.14.tar.gz tmp/opshin-0.9.15.tar.gz --markdown 20240415/o/opshin/0.9.14-0.9.15/README.md --exclude *.pyd
+[2024-04-15 13:30:44] INFO root fetch - processPackages [forloop-common-structures]: Downloading https://files.pythonhosted.org/packages/97/c1/cd953246388cd7e03e78c8cb2bbaddf87e4c2d3e78c75e6cd290c07f69b8/forloop_common_structures-0.2.8.tar.gz
+[2024-04-15 13:30:44] INFO root fetch - processPackages [classiq]: Downloading https://files.pythonhosted.org/packages/e5/eb/9b39365fd2d7c2027f6610a884229059149ab9a3395be331767306762c07/classiq-0.9.3-py3-none-any.whl
+[2024-04-15 13:30:44] INFO root fetch - processPackages [authentik-client]: Downloading https://files.pythonhosted.org/packages/70/97/f6aaf5e02e8ac25338b21dc0020c9bf833eb94477447bb879b3bc936d931/authentik_client-2024.2.2.post1713180519.tar.gz
+[2024-04-15 13:30:44] INFO root fetch - processPackages [zodchy-identity]: executing diffoscope
+[2024-04-15 13:30:44] INFO root fetch - processPackages [zodchy-identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zodchy_identity-0.1.0.tar.gz tmp/zodchy_identity-0.1.1.tar.gz --markdown 20240415/z/zodchy-identity/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-15 13:30:44] INFO root fetch - processPackages [wlkatapython]: executing diffoscope
+[2024-04-15 13:30:44] INFO root fetch - processPackages [wlkatapython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wlkatapython-0.0.7.tar.gz tmp/wlkatapython-0.0.8.tar.gz --markdown 20240415/w/wlkatapython/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-15 13:30:44] INFO root fetch - processPackages [kdp]: executing diffoscope
+[2024-04-15 13:30:44] INFO root fetch - processPackages [kdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kdp-1.0.0.tar.gz tmp/kdp-1.4.0.tar.gz --markdown 20240415/k/kdp/1.0.0-1.4.0/README.md --exclude *.pyd
+[2024-04-15 13:30:44] INFO root fetch - processPackages [NorenRestApi]: Downloading https://files.pythonhosted.org/packages/ef/cd/14881d47f59554f566474250880d3a55761edeaaecbfbfb63e9e97d3c96b/NorenRestApi-0.0.29-py2.py3-none-any.whl
+[2024-04-15 13:30:44] INFO root fetch - processPackages [iot-protocols]: executing diffoscope
+[2024-04-15 13:30:44] INFO root fetch - processPackages [iot-protocols]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iot-protocols-2.1.0.tar.gz tmp/iot_protocols-2.1.0.1.tar.gz --markdown 20240415/i/iot-protocols/2.1.0-2.1.0.1/README.md --exclude *.pyd
+[2024-04-15 13:30:44] INFO root fetch - processPackages [forloop-common-structures]: executing diffoscope
+[2024-04-15 13:30:44] INFO root fetch - processPackages [forloop-common-structures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forloop_common_structures-0.2.7.tar.gz tmp/forloop_common_structures-0.2.8.tar.gz --markdown 20240415/f/forloop-common-structures/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-04-15 13:30:44] INFO root fetch - processPackages [classiq]: executing diffoscope
+[2024-04-15 13:30:44] INFO root fetch - processPackages [classiq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/classiq-0.9.1-py3-none-any.whl.zip tmp/classiq-0.9.3-py3-none-any.whl.zip --markdown 20240415/c/classiq/0.9.1-0.9.3/README.md --exclude *.pyd
+[2024-04-15 13:30:44] INFO root fetch - processPackages [authentik-client]: executing diffoscope
+[2024-04-15 13:30:44] INFO root fetch - processPackages [authentik-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authentik_client-2024.2.2.post1712922614.tar.gz tmp/authentik_client-2024.2.2.post1713180519.tar.gz --markdown 20240415/a/authentik-client/2024.2.2.post1712922614-2024.2.2.post1713180519/README.md --exclude *.pyd
+[2024-04-15 13:30:44] INFO root fetch - processPackages [gempy-engine]: executing diffoscope
+[2024-04-15 13:30:44] INFO root fetch - processPackages [gempy-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gempy_engine-2023.1.0b5.tar.gz tmp/gempy_engine-2023.2.0b1.tar.gz --markdown 20240415/g/gempy-engine/2023.1.0b5-2023.2.0b1/README.md --exclude *.pyd
+[2024-04-15 13:30:44] INFO root fetch - processPackages [NorenRestApi]: executing diffoscope
+[2024-04-15 13:30:44] INFO root fetch - processPackages [NorenRestApi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NorenRestApi-0.0.28-py2.py3-none-any.whl.zip tmp/NorenRestApi-0.0.29-py2.py3-none-any.whl.zip --markdown 20240415/N/NorenRestApi/0.0.28-0.0.29/README.md --exclude *.pyd
+[2024-04-15 13:30:45] INFO root fetch - processPackages [zodchy-identity]: Remove: archive file [/home/abi/fetcher/tmp/zodchy_identity-0.1.0.tar.gz]
+[2024-04-15 13:30:45] INFO root fetch - processPackages [zodchy-identity]: Remove: archive file [/home/abi/fetcher/tmp/zodchy_identity-0.1.1.tar.gz]
+[2024-04-15 13:30:45] INFO root fetch - main [MainThread]: End processing [zodchy-identity]: success
+[2024-04-15 13:30:45] INFO root fetch - processPackages [wlkatapython]: Remove: archive file [/home/abi/fetcher/tmp/wlkatapython-0.0.7.tar.gz]
+[2024-04-15 13:30:45] INFO root fetch - processPackages [wlkatapython]: Remove: archive file [/home/abi/fetcher/tmp/wlkatapython-0.0.8.tar.gz]
+[2024-04-15 13:30:45] INFO root fetch - main [MainThread]: End processing [wlkatapython]: success
+[2024-04-15 13:30:45] INFO root fetch - processPackages [kdp]: Remove: archive file [/home/abi/fetcher/tmp/kdp-1.0.0.tar.gz]
+[2024-04-15 13:30:45] INFO root fetch - processPackages [kdp]: Remove: archive file [/home/abi/fetcher/tmp/kdp-1.4.0.tar.gz]
+[2024-04-15 13:30:45] INFO root fetch - main [MainThread]: End processing [kdp]: success
+[2024-04-15 13:30:45] INFO root fetch - processPackages [forloop-common-structures]: Remove: archive file [/home/abi/fetcher/tmp/forloop_common_structures-0.2.7.tar.gz]
+[2024-04-15 13:30:45] INFO root fetch - processPackages [forloop-common-structures]: Remove: archive file [/home/abi/fetcher/tmp/forloop_common_structures-0.2.8.tar.gz]
+[2024-04-15 13:30:45] INFO root fetch - main [MainThread]: End processing [forloop-common-structures]: success
+[2024-04-15 13:30:45] INFO root fetch - processPackages [iot-protocols]: Remove: archive file [/home/abi/fetcher/tmp/iot-protocols-2.1.0.tar.gz]
+[2024-04-15 13:30:45] INFO root fetch - processPackages [iot-protocols]: Remove: archive file [/home/abi/fetcher/tmp/iot_protocols-2.1.0.1.tar.gz]
+[2024-04-15 13:30:45] INFO root fetch - main [MainThread]: End processing [iot-protocols]: success
+[2024-04-15 13:30:45] INFO root fetch - processPackages [opshin]: Remove: archive file [/home/abi/fetcher/tmp/opshin-0.9.14.tar.gz]
+[2024-04-15 13:30:45] INFO root fetch - processPackages [opshin]: Remove: archive file [/home/abi/fetcher/tmp/opshin-0.9.15.tar.gz]
+[2024-04-15 13:30:45] INFO root fetch - main [MainThread]: End processing [opshin]: success
+[2024-04-15 13:30:45] INFO root fetch - processPackages [NorenRestApi]: Remove: archive file [/home/abi/fetcher/tmp/NorenRestApi-0.0.28-py2.py3-none-any.whl.zip]
+[2024-04-15 13:30:45] INFO root fetch - processPackages [NorenRestApi]: Remove: archive file [/home/abi/fetcher/tmp/NorenRestApi-0.0.29-py2.py3-none-any.whl.zip]
+[2024-04-15 13:30:45] INFO root fetch - main [MainThread]: End processing [NorenRestApi]: success
+[2024-04-15 13:30:46] INFO root fetch - processPackages [classiq]: Remove: archive file [/home/abi/fetcher/tmp/classiq-0.9.1-py3-none-any.whl.zip]
+[2024-04-15 13:30:46] INFO root fetch - processPackages [classiq]: Remove: archive file [/home/abi/fetcher/tmp/classiq-0.9.3-py3-none-any.whl.zip]
+[2024-04-15 13:30:46] INFO root fetch - main [MainThread]: End processing [classiq]: success
+[2024-04-15 13:30:46] INFO root fetch - processPackages [gempy-engine]: Remove: archive file [/home/abi/fetcher/tmp/gempy_engine-2023.1.0b5.tar.gz]
+[2024-04-15 13:30:46] INFO root fetch - processPackages [gempy-engine]: Remove: archive file [/home/abi/fetcher/tmp/gempy_engine-2023.2.0b1.tar.gz]
+[2024-04-15 13:30:46] INFO root fetch - main [MainThread]: End processing [gempy-engine]: success
+[2024-04-15 13:30:48] INFO root fetch - processPackages [authentik-client]: Remove: archive file [/home/abi/fetcher/tmp/authentik_client-2024.2.2.post1712922614.tar.gz]
+[2024-04-15 13:30:48] INFO root fetch - processPackages [authentik-client]: Remove: archive file [/home/abi/fetcher/tmp/authentik_client-2024.2.2.post1713180519.tar.gz]
+[2024-04-15 13:30:48] INFO root fetch - main [MainThread]: End processing [authentik-client]: success
+[2024-04-15 13:30:48] INFO root fetch - main [MainThread]: Store serial: [22770132]
