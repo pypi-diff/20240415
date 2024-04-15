@@ -4420,3 +4420,18 @@
 [2024-04-15 05:46:14] INFO root fetch - processPackages [minitrade]: Remove: archive file [/home/abi/fetcher/tmp/minitrade-0.1.9.tar.gz]
 [2024-04-15 05:46:14] INFO root fetch - main [MainThread]: End processing [minitrade]: success
 [2024-04-15 05:46:14] INFO root fetch - main [MainThread]: Store serial: [22765159]
+[2024-04-15 05:48:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22765159]
+[2024-04-15 05:48:22] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-15 05:48:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OpenRAG
+[2024-04-15 05:48:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ccdt
+[2024-04-15 05:48:22] WARNING root fetch - processPackages [OpenRAG]: Skipping, unable to determine old version
+[2024-04-15 05:48:22] INFO root fetch - main [MainThread]: End processing [OpenRAG] error
+[2024-04-15 05:48:22] INFO root fetch - processPackages [ccdt]: New version: [2.1.95] Old Version: [2.1.94]
+[2024-04-15 05:48:22] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/69/8e/f028ef7baa24a9fcbd43c00def15d67a7b9bbdf10f909cea395772c1e359/ccdt-2.1.94.tar.gz
+[2024-04-15 05:48:23] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/2e/a8/8800b5cef8d30497ed582b5843733c9a5fb161900be31493dada1a7ba3ae/ccdt-2.1.95.tar.gz
+[2024-04-15 05:48:23] INFO root fetch - processPackages [ccdt]: executing diffoscope
+[2024-04-15 05:48:23] INFO root fetch - processPackages [ccdt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccdt-2.1.94.tar.gz tmp/ccdt-2.1.95.tar.gz --markdown 20240415/c/ccdt/2.1.94-2.1.95/README.md --exclude *.pyd
+[2024-04-15 05:48:24] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.94.tar.gz]
+[2024-04-15 05:48:24] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.95.tar.gz]
+[2024-04-15 05:48:24] INFO root fetch - main [MainThread]: End processing [ccdt]: success
+[2024-04-15 05:48:24] INFO root fetch - main [MainThread]: Store serial: [22765168]
