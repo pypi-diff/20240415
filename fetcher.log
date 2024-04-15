@@ -8773,3 +8773,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 08:31:34] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.9.tar.gz]
 [2024-04-15 08:31:34] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
 [2024-04-15 08:31:34] INFO root fetch - main [MainThread]: Store serial: [22766749]
+[2024-04-15 08:33:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22766749]
+[2024-04-15 08:33:42] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-15 08:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: async-redis-uow
+[2024-04-15 08:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clovers
+[2024-04-15 08:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyaction
+[2024-04-15 08:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wg-easy-api-wrapper
+[2024-04-15 08:33:43] INFO root fetch - processPackages [async-redis-uow]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-15 08:33:43] INFO root fetch - processPackages [async-redis-uow]: Downloading https://files.pythonhosted.org/packages/fb/9a/2240712759e637f69f8703e50f3b3515086a9f52d5636f27934ceebdc936/async_redis_uow-0.0.8.tar.gz
+[2024-04-15 08:33:43] INFO root fetch - processPackages [pyaction]: New version: [0.5.4] Old Version: [0.5.3]
+[2024-04-15 08:33:43] INFO root fetch - processPackages [wg-easy-api-wrapper]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-04-15 08:33:43] WARNING root fetch - processPackages [clovers]: Skipping, unable to determine old version
+[2024-04-15 08:33:43] INFO root fetch - main [MainThread]: End processing [clovers] error
+[2024-04-15 08:33:43] INFO root fetch - processPackages [async-redis-uow]: Downloading https://files.pythonhosted.org/packages/c2/79/62365c781012de63460ed6eaf232d50c7e06198fc2c8e98e84d2568d8ec8/async_redis_uow-0.0.9.tar.gz
+[2024-04-15 08:33:43] INFO root fetch - processPackages [wg-easy-api-wrapper]: Downloading https://files.pythonhosted.org/packages/aa/bd/503497f5a2ee7b8c4d59b5f2a728f8b770068f2c3bc4385ee9d9610ba86b/wg-easy-api-wrapper-1.0.7.tar.gz
+[2024-04-15 08:33:43] INFO root fetch - processPackages [pyaction]: Downloading https://files.pythonhosted.org/packages/16/b4/37c969c7c91c9e523ee4c08af9b22800b2dbbfb9cca8063a734fd210a7e0/pyaction-0.5.3.tar.gz
+[2024-04-15 08:33:43] INFO root fetch - processPackages [async-redis-uow]: executing diffoscope
+[2024-04-15 08:33:43] INFO root fetch - processPackages [async-redis-uow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_redis_uow-0.0.8.tar.gz tmp/async_redis_uow-0.0.9.tar.gz --markdown 20240415/a/async-redis-uow/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-15 08:33:43] INFO root fetch - processPackages [wg-easy-api-wrapper]: Downloading https://files.pythonhosted.org/packages/2f/f5/6af143ea84414740549b80b8cdddf83c886ff426a383e617d413ef8d1145/wg_easy_api_wrapper-1.0.8.tar.gz
+[2024-04-15 08:33:43] INFO root fetch - processPackages [pyaction]: Downloading https://files.pythonhosted.org/packages/28/71/3b3b967aee5651af7a439a729380e06e0cc10488e9d2d6895efc4bb1aade/pyaction-0.5.4.tar.gz
+[2024-04-15 08:33:43] INFO root fetch - processPackages [wg-easy-api-wrapper]: executing diffoscope
+[2024-04-15 08:33:43] INFO root fetch - processPackages [wg-easy-api-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wg-easy-api-wrapper-1.0.7.tar.gz tmp/wg_easy_api_wrapper-1.0.8.tar.gz --markdown 20240415/w/wg-easy-api-wrapper/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-04-15 08:33:43] INFO root fetch - processPackages [pyaction]: executing diffoscope
+[2024-04-15 08:33:43] INFO root fetch - processPackages [pyaction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyaction-0.5.3.tar.gz tmp/pyaction-0.5.4.tar.gz --markdown 20240415/p/pyaction/0.5.3-0.5.4/README.md --exclude *.pyd
+[2024-04-15 08:33:44] INFO root fetch - processPackages [async-redis-uow]: Remove: archive file [/home/abi/fetcher/tmp/async_redis_uow-0.0.8.tar.gz]
+[2024-04-15 08:33:44] INFO root fetch - processPackages [async-redis-uow]: Remove: archive file [/home/abi/fetcher/tmp/async_redis_uow-0.0.9.tar.gz]
+[2024-04-15 08:33:44] INFO root fetch - main [MainThread]: End processing [async-redis-uow]: success
+[2024-04-15 08:33:44] INFO root fetch - processPackages [pyaction]: Remove: archive file [/home/abi/fetcher/tmp/pyaction-0.5.3.tar.gz]
+[2024-04-15 08:33:44] INFO root fetch - processPackages [pyaction]: Remove: archive file [/home/abi/fetcher/tmp/pyaction-0.5.4.tar.gz]
+[2024-04-15 08:33:44] INFO root fetch - main [MainThread]: End processing [pyaction]: success
+[2024-04-15 08:33:44] INFO root fetch - processPackages [wg-easy-api-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/wg-easy-api-wrapper-1.0.7.tar.gz]
+[2024-04-15 08:33:44] INFO root fetch - processPackages [wg-easy-api-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/wg_easy_api_wrapper-1.0.8.tar.gz]
+[2024-04-15 08:33:44] INFO root fetch - main [MainThread]: End processing [wg-easy-api-wrapper]: success
+[2024-04-15 08:33:44] INFO root fetch - main [MainThread]: Store serial: [22766764]
