@@ -12327,3 +12327,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 11:00:02] INFO root fetch - processPackages [empire-platform-api-public-client]: Remove: archive file [/home/abi/fetcher/tmp/empire-platform-api-public-client-3.0.7.tar.gz]
 [2024-04-15 11:00:02] INFO root fetch - main [MainThread]: End processing [empire-platform-api-public-client]: success
 [2024-04-15 11:00:02] INFO root fetch - main [MainThread]: Store serial: [22768286]
+[2024-04-15 11:02:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22768286]
+[2024-04-15 11:02:12] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-15 11:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aliyun-python-sdk-core
+[2024-04-15 11:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sg-otio
+[2024-04-15 11:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wechatpayv3
+[2024-04-15 11:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yuankong
+[2024-04-15 11:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fast-gmail
+[2024-04-15 11:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gentccode
+[2024-04-15 11:02:12] INFO root fetch - processPackages [gentccode]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-04-15 11:02:12] INFO root fetch - processPackages [fast-gmail]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-15 11:02:13] INFO root fetch - processPackages [sg-otio]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-15 11:02:13] INFO root fetch - processPackages [fast-gmail]: Downloading https://files.pythonhosted.org/packages/78/67/ff1f04e5a30fec3f94e0f5e69be46e37d979352120b81819d2fbd25f4760/fast_gmail-1.0.2.tar.gz
+[2024-04-15 11:02:13] INFO root fetch - processPackages [yuankong]: New version: [0.7] Old Version: [0.6]
+[2024-04-15 11:02:13] INFO root fetch - processPackages [wechatpayv3]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-15 11:02:13] INFO root fetch - processPackages [gentccode]: Downloading https://files.pythonhosted.org/packages/7c/dc/38a95aa324891b3c05094bf27dc99cf4b532de993528a11d9abeec7b6714/gentccode-0.2.6.tar.gz
+[2024-04-15 11:02:13] INFO root fetch - processPackages [aliyun-python-sdk-core]: New version: [2.9.5] Old Version: [2.9.4]
+[2024-04-15 11:02:13] INFO root fetch - processPackages [sg-otio]: Downloading https://files.pythonhosted.org/packages/1a/96/b8ef95fb14c9d706321c75f19df5ee876e49177ad92f69544f16f43d2b60/sg_otio-1.0.5-py3-none-any.whl
+[2024-04-15 11:02:13] INFO root fetch - processPackages [aliyun-python-sdk-core]: Downloading https://files.pythonhosted.org/packages/c5/5f/c3842223fbb12c8881a844010742611274bd022b4c94eaa642c165379b85/aliyun-python-sdk-core-2.9.4.tar.gz
+[2024-04-15 11:02:13] INFO root fetch - processPackages [yuankong]: Downloading https://files.pythonhosted.org/packages/c9/0a/c839f9e693f0a5fccb4e8cb7d2126191fcdb3b41c7d3c4a04407480505f1/yuankong-0.6.tar.gz
+[2024-04-15 11:02:13] INFO root fetch - processPackages [wechatpayv3]: Downloading https://files.pythonhosted.org/packages/71/83/3a10f7692ca833df60c2c13fc32dd494a1cd913a359f0ce0dbdba33164ea/wechatpayv3-1.2.8.tar.gz
+[2024-04-15 11:02:13] INFO root fetch - processPackages [gentccode]: Downloading https://files.pythonhosted.org/packages/e5/34/b4b09a524a540a7ab07b6f1edb3147a2ffe7284499eca9c5ee8d86dee10b/gentccode-0.2.7.tar.gz
+[2024-04-15 11:02:13] INFO root fetch - processPackages [gentccode]: executing diffoscope
+[2024-04-15 11:02:13] INFO root fetch - processPackages [gentccode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gentccode-0.2.6.tar.gz tmp/gentccode-0.2.7.tar.gz --markdown 20240415/g/gentccode/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-04-15 11:02:13] INFO root fetch - processPackages [fast-gmail]: Downloading https://files.pythonhosted.org/packages/9c/1d/a125035a83201829ba2f7b13b09d3e536c8814123e19aca4618eae074e1d/fast_gmail-1.0.3.tar.gz
+[2024-04-15 11:02:13] INFO root fetch - processPackages [sg-otio]: Downloading https://files.pythonhosted.org/packages/43/b2/8fa89711d58881c0aa581da9dfc7802c2ca2905f07f8593796fbefd5dce2/sg_otio-1.0.6-py3-none-any.whl
+[2024-04-15 11:02:13] INFO root fetch - processPackages [fast-gmail]: executing diffoscope
+[2024-04-15 11:02:13] INFO root fetch - processPackages [fast-gmail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_gmail-1.0.2.tar.gz tmp/fast_gmail-1.0.3.tar.gz --markdown 20240415/f/fast-gmail/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-15 11:02:13] INFO root fetch - processPackages [yuankong]: Downloading https://files.pythonhosted.org/packages/23/4b/ece05b15490f1111c14b4f60fe8ab26bd93bb0de12cf2938621911bbdf44/yuankong-0.7.tar.gz
+[2024-04-15 11:02:13] INFO root fetch - processPackages [wechatpayv3]: Downloading https://files.pythonhosted.org/packages/da/ad/c24743b5be0d84cb9e06e1782533916efab40435177b65150d0773448361/wechatpayv3-1.2.9.tar.gz
+[2024-04-15 11:02:13] INFO root fetch - processPackages [aliyun-python-sdk-core]: Downloading https://files.pythonhosted.org/packages/ca/89/834d50f84329123b3d77c68591569e126d427a8bcd6004edb426ab438c51/aliyun-python-sdk-core-2.9.5.tar.gz
+[2024-04-15 11:02:13] INFO root fetch - processPackages [sg-otio]: executing diffoscope
+[2024-04-15 11:02:13] INFO root fetch - processPackages [sg-otio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sg_otio-1.0.5-py3-none-any.whl.zip tmp/sg_otio-1.0.6-py3-none-any.whl.zip --markdown 20240415/s/sg-otio/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-04-15 11:02:13] INFO root fetch - processPackages [yuankong]: executing diffoscope
+[2024-04-15 11:02:13] INFO root fetch - processPackages [yuankong]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yuankong-0.6.tar.gz tmp/yuankong-0.7.tar.gz --markdown 20240415/y/yuankong/0.6-0.7/README.md --exclude *.pyd
+[2024-04-15 11:02:13] INFO root fetch - processPackages [wechatpayv3]: executing diffoscope
+[2024-04-15 11:02:13] INFO root fetch - processPackages [wechatpayv3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wechatpayv3-1.2.8.tar.gz tmp/wechatpayv3-1.2.9.tar.gz --markdown 20240415/w/wechatpayv3/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-04-15 11:02:13] INFO root fetch - processPackages [aliyun-python-sdk-core]: executing diffoscope
+[2024-04-15 11:02:13] INFO root fetch - processPackages [aliyun-python-sdk-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-core-2.9.4.tar.gz tmp/aliyun-python-sdk-core-2.9.5.tar.gz --markdown 20240415/a/aliyun-python-sdk-core/2.9.4-2.9.5/README.md --exclude *.pyd
+[2024-04-15 11:02:14] INFO root fetch - processPackages [gentccode]: Remove: archive file [/home/abi/fetcher/tmp/gentccode-0.2.6.tar.gz]
+[2024-04-15 11:02:14] INFO root fetch - processPackages [gentccode]: Remove: archive file [/home/abi/fetcher/tmp/gentccode-0.2.7.tar.gz]
+[2024-04-15 11:02:14] INFO root fetch - main [MainThread]: End processing [gentccode]: success
+[2024-04-15 11:02:14] INFO root fetch - processPackages [fast-gmail]: Remove: archive file [/home/abi/fetcher/tmp/fast_gmail-1.0.2.tar.gz]
+[2024-04-15 11:02:14] INFO root fetch - processPackages [fast-gmail]: Remove: archive file [/home/abi/fetcher/tmp/fast_gmail-1.0.3.tar.gz]
+[2024-04-15 11:02:14] INFO root fetch - main [MainThread]: End processing [fast-gmail]: success
+[2024-04-15 11:02:14] INFO root fetch - processPackages [yuankong]: Remove: archive file [/home/abi/fetcher/tmp/yuankong-0.6.tar.gz]
+[2024-04-15 11:02:14] INFO root fetch - processPackages [yuankong]: Remove: archive file [/home/abi/fetcher/tmp/yuankong-0.7.tar.gz]
+[2024-04-15 11:02:14] INFO root fetch - main [MainThread]: End processing [yuankong]: success
+[2024-04-15 11:02:14] INFO root fetch - processPackages [sg-otio]: Remove: archive file [/home/abi/fetcher/tmp/sg_otio-1.0.5-py3-none-any.whl.zip]
+[2024-04-15 11:02:14] INFO root fetch - processPackages [sg-otio]: Remove: archive file [/home/abi/fetcher/tmp/sg_otio-1.0.6-py3-none-any.whl.zip]
+[2024-04-15 11:02:14] INFO root fetch - main [MainThread]: End processing [sg-otio]: success
+[2024-04-15 11:02:14] INFO root fetch - processPackages [aliyun-python-sdk-core]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-core-2.9.4.tar.gz]
+[2024-04-15 11:02:14] INFO root fetch - processPackages [aliyun-python-sdk-core]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-core-2.9.5.tar.gz]
+[2024-04-15 11:02:14] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-core]: success
+[2024-04-15 11:02:14] INFO root fetch - processPackages [wechatpayv3]: Remove: archive file [/home/abi/fetcher/tmp/wechatpayv3-1.2.8.tar.gz]
+[2024-04-15 11:02:14] INFO root fetch - processPackages [wechatpayv3]: Remove: archive file [/home/abi/fetcher/tmp/wechatpayv3-1.2.9.tar.gz]
+[2024-04-15 11:02:14] INFO root fetch - main [MainThread]: End processing [wechatpayv3]: success
+[2024-04-15 11:02:14] INFO root fetch - main [MainThread]: Store serial: [22768301]
