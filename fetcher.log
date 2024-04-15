@@ -19999,3 +19999,66 @@ EOFError: EOF read where object expected
 [2024-04-15 15:22:59] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.6.7.tar.gz]
 [2024-04-15 15:22:59] INFO root fetch - main [MainThread]: End processing [mteb]: success
 [2024-04-15 15:22:59] INFO root fetch - main [MainThread]: Store serial: [22771718]
+[2024-04-15 15:25:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22771718]
+[2024-04-15 15:25:09] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-15 15:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-game-collection
+[2024-04-15 15:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-currency-rate-update-nbp
+[2024-04-15 15:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: compoundwidgets
+[2024-04-15 15:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: t4gpd
+[2024-04-15 15:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wrapchain
+[2024-04-15 15:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eurovat
+[2024-04-15 15:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: types-pyone
+[2024-04-15 15:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: discord-drive
+[2024-04-15 15:25:09] INFO root fetch - processPackages [discord-drive]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-15 15:25:10] INFO root fetch - processPackages [eurovat]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-15 15:25:10] WARNING root fetch - processPackages [wrapchain]: Skipping, unable to determine old version
+[2024-04-15 15:25:10] INFO root fetch - main [MainThread]: End processing [wrapchain] error
+[2024-04-15 15:25:10] INFO root fetch - processPackages [t4gpd]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-15 15:25:10] WARNING root fetch - processPackages [types-pyone]: Skipping, unable to determine old version
+[2024-04-15 15:25:10] INFO root fetch - main [MainThread]: End processing [types-pyone] error
+[2024-04-15 15:25:10] INFO root fetch - processPackages [discord-drive]: Downloading https://files.pythonhosted.org/packages/cd/57/762e112ac483d3cf76d325918c8161ffb625a2561f70db01a4b46c23ff1b/discord_drive-0.0.1.tar.gz
+[2024-04-15 15:25:10] INFO root fetch - processPackages [compoundwidgets]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-15 15:25:10] INFO root fetch - processPackages [odoo-addon-currency-rate-update-nbp]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.2]
+[2024-04-15 15:25:10] INFO root fetch - processPackages [nonebot-plugin-game-collection]: New version: [3.0.0] Old Version: [2.4.9]
+[2024-04-15 15:25:10] INFO root fetch - processPackages [eurovat]: Downloading https://files.pythonhosted.org/packages/fe/46/61182b3d134910831e7ef5717342737a09446a00ef9542f0dea43a7d04b9/eurovat-0.9.4.tar.gz
+[2024-04-15 15:25:10] INFO root fetch - processPackages [t4gpd]: Downloading https://files.pythonhosted.org/packages/78/bf/926fec33ece3ef2eba4344184a52952ee8b4642b88a0d4a8125bf3b2c80a/t4gpd-0.8.0.tar.gz
+[2024-04-15 15:25:10] INFO root fetch - processPackages [discord-drive]: Downloading https://files.pythonhosted.org/packages/1b/3e/ced419e746b82d9c9e9a29d36c212fbf581907229ad6a5267dd19545fc9b/discord_drive-0.0.2.tar.gz
+[2024-04-15 15:25:10] INFO root fetch - processPackages [odoo-addon-currency-rate-update-nbp]: Downloading https://files.pythonhosted.org/packages/fd/b4/4bb4b36a0270968b249651db5df13c76638a242b599e6f9982dc881a6569/odoo_addon_currency_rate_update_nbp-16.0.1.0.0.2-py3-none-any.whl
+[2024-04-15 15:25:10] INFO root fetch - processPackages [compoundwidgets]: Downloading https://files.pythonhosted.org/packages/3c/61/689dc207c5c73777b2fcbdf99d711edd2c9eb0745f0aa928a844db118afd/compoundwidgets-0.4.1.tar.gz
+[2024-04-15 15:25:10] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/8c/0b/709693c079b664107969fc08b6e487c8e151eeb09953befd621996f22a69/nonebot_plugin_game_collection-2.4.9.tar.gz
+[2024-04-15 15:25:10] INFO root fetch - processPackages [discord-drive]: executing diffoscope
+[2024-04-15 15:25:10] INFO root fetch - processPackages [discord-drive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discord_drive-0.0.1.tar.gz tmp/discord_drive-0.0.2.tar.gz --markdown 20240415/d/discord-drive/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-15 15:25:10] INFO root fetch - processPackages [odoo-addon-currency-rate-update-nbp]: Downloading https://files.pythonhosted.org/packages/85/a3/5c79f7bfa567158d0b8d35bf9a381457db70e34f5d9dfadb265ab78f1ca5/odoo_addon_currency_rate_update_nbp-16.0.1.0.1-py3-none-any.whl
+[2024-04-15 15:25:10] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/41/fe/52dcc5ddf7bbd5da7fd4e415962792716f7544a09edd76c3fca9d734d3d2/nonebot_plugin_game_collection-3.0.0.tar.gz
+[2024-04-15 15:25:10] INFO root fetch - processPackages [compoundwidgets]: Downloading https://files.pythonhosted.org/packages/78/7e/4dd4cd2a80e6d7539a2f7a94b7336e7776f2d5bf10e23eda6efbaa64b7b1/compoundwidgets-0.4.2.tar.gz
+[2024-04-15 15:25:10] INFO root fetch - processPackages [eurovat]: Downloading https://files.pythonhosted.org/packages/05/69/9ce4bfb636a3a33dd17562f3b177524b1cdb2c3b85f8ad65484c3c1734a2/eurovat-0.9.5.tar.gz
+[2024-04-15 15:25:10] INFO root fetch - processPackages [t4gpd]: Downloading https://files.pythonhosted.org/packages/73/cb/3b0fe4c2a076b04e7afc892c4ba91a4a522d5b2c079b03924236e8f81c10/t4gpd-0.9.0.tar.gz
+[2024-04-15 15:25:10] INFO root fetch - processPackages [odoo-addon-currency-rate-update-nbp]: executing diffoscope
+[2024-04-15 15:25:10] INFO root fetch - processPackages [odoo-addon-currency-rate-update-nbp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_currency_rate_update_nbp-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_currency_rate_update_nbp-16.0.1.0.1-py3-none-any.whl.zip --markdown 20240415/o/odoo-addon-currency-rate-update-nbp/16.0.1.0.0.2-16.0.1.0.1/README.md --exclude *.pyd
+[2024-04-15 15:25:10] INFO root fetch - processPackages [nonebot-plugin-game-collection]: executing diffoscope
+[2024-04-15 15:25:10] INFO root fetch - processPackages [nonebot-plugin-game-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_game_collection-2.4.9.tar.gz tmp/nonebot_plugin_game_collection-3.0.0.tar.gz --markdown 20240415/n/nonebot-plugin-game-collection/2.4.9-3.0.0/README.md --exclude *.pyd
+[2024-04-15 15:25:10] INFO root fetch - processPackages [eurovat]: executing diffoscope
+[2024-04-15 15:25:10] INFO root fetch - processPackages [eurovat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eurovat-0.9.4.tar.gz tmp/eurovat-0.9.5.tar.gz --markdown 20240415/e/eurovat/0.9.4-0.9.5/README.md --exclude *.pyd
+[2024-04-15 15:25:11] INFO root fetch - processPackages [discord-drive]: Remove: archive file [/home/abi/fetcher/tmp/discord_drive-0.0.1.tar.gz]
+[2024-04-15 15:25:11] INFO root fetch - processPackages [discord-drive]: Remove: archive file [/home/abi/fetcher/tmp/discord_drive-0.0.2.tar.gz]
+[2024-04-15 15:25:11] INFO root fetch - main [MainThread]: End processing [discord-drive]: success
+[2024-04-15 15:25:11] INFO root fetch - processPackages [compoundwidgets]: executing diffoscope
+[2024-04-15 15:25:11] INFO root fetch - processPackages [compoundwidgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compoundwidgets-0.4.1.tar.gz tmp/compoundwidgets-0.4.2.tar.gz --markdown 20240415/c/compoundwidgets/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-04-15 15:25:11] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.4.9.tar.gz]
+[2024-04-15 15:25:11] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-3.0.0.tar.gz]
+[2024-04-15 15:25:11] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-game-collection]: success
+[2024-04-15 15:25:11] INFO root fetch - processPackages [t4gpd]: executing diffoscope
+[2024-04-15 15:25:11] INFO root fetch - processPackages [t4gpd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t4gpd-0.8.0.tar.gz tmp/t4gpd-0.9.0.tar.gz --markdown 20240415/t/t4gpd/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-15 15:25:11] INFO root fetch - processPackages [odoo-addon-currency-rate-update-nbp]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_currency_rate_update_nbp-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-15 15:25:11] INFO root fetch - processPackages [odoo-addon-currency-rate-update-nbp]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_currency_rate_update_nbp-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-04-15 15:25:11] INFO root fetch - main [MainThread]: End processing [odoo-addon-currency-rate-update-nbp]: success
+[2024-04-15 15:25:11] INFO root fetch - processPackages [eurovat]: Remove: archive file [/home/abi/fetcher/tmp/eurovat-0.9.4.tar.gz]
+[2024-04-15 15:25:11] INFO root fetch - processPackages [eurovat]: Remove: archive file [/home/abi/fetcher/tmp/eurovat-0.9.5.tar.gz]
+[2024-04-15 15:25:11] INFO root fetch - main [MainThread]: End processing [eurovat]: success
+[2024-04-15 15:25:12] INFO root fetch - processPackages [compoundwidgets]: Remove: archive file [/home/abi/fetcher/tmp/compoundwidgets-0.4.1.tar.gz]
+[2024-04-15 15:25:12] INFO root fetch - processPackages [compoundwidgets]: Remove: archive file [/home/abi/fetcher/tmp/compoundwidgets-0.4.2.tar.gz]
+[2024-04-15 15:25:12] INFO root fetch - main [MainThread]: End processing [compoundwidgets]: success
+[2024-04-15 15:25:13] INFO root fetch - processPackages [t4gpd]: Remove: archive file [/home/abi/fetcher/tmp/t4gpd-0.8.0.tar.gz]
+[2024-04-15 15:25:13] INFO root fetch - processPackages [t4gpd]: Remove: archive file [/home/abi/fetcher/tmp/t4gpd-0.9.0.tar.gz]
+[2024-04-15 15:25:13] INFO root fetch - main [MainThread]: End processing [t4gpd]: success
+[2024-04-15 15:25:13] INFO root fetch - main [MainThread]: Store serial: [22771744]
