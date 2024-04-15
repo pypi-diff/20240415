@@ -15924,3 +15924,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 13:08:37] INFO root fetch - processPackages [moonstreamdb]: Remove: archive file [/home/abi/fetcher/tmp/moonstreamdb-0.4.1.tar.gz]
 [2024-04-15 13:08:37] INFO root fetch - main [MainThread]: End processing [moonstreamdb]: success
 [2024-04-15 13:08:37] INFO root fetch - main [MainThread]: Store serial: [22769877]
+[2024-04-15 13:10:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22769877]
+[2024-04-15 13:10:46] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-15 13:10:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: f-tools-pkg
+[2024-04-15 13:10:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: youwol
+[2024-04-15 13:10:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ibm-aigov-facts-client
+[2024-04-15 13:10:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: news-signals
+[2024-04-15 13:10:46] INFO root fetch - processPackages [ibm-aigov-facts-client]: New version: [1.0.69] Old Version: [1.0.68]
+[2024-04-15 13:10:46] INFO root fetch - processPackages [youwol]: New version: [0.1.9rc1] Old Version: [0.1.9rc0]
+[2024-04-15 13:10:46] INFO root fetch - processPackages [news-signals]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-04-15 13:10:47] INFO root fetch - processPackages [f-tools-pkg]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-15 13:10:47] INFO root fetch - processPackages [youwol]: Downloading https://files.pythonhosted.org/packages/d1/0b/3346293495321ca05f54f22bf76428fb93c279cd896a7bb38c3fba2dbc19/youwol-0.1.9rc0.tar.gz
+[2024-04-15 13:10:47] INFO root fetch - processPackages [ibm-aigov-facts-client]: Downloading https://files.pythonhosted.org/packages/c4/27/ea6fdeda173b22be9f8e43b8e370ebece5d691cab8a4f29b6bd2f789d957/ibm_aigov_facts_client-1.0.68-py3-none-any.whl
+[2024-04-15 13:10:47] INFO root fetch - processPackages [news-signals]: Downloading https://files.pythonhosted.org/packages/f3/58/dfb4d43bf65a1da293b5148c680a40104ec73138ab52245a95fd5c333d90/news-signals-0.5.0.tar.gz
+[2024-04-15 13:10:47] INFO root fetch - processPackages [f-tools-pkg]: Downloading https://files.pythonhosted.org/packages/9f/a4/fdac5a3c3eafbd3c02f31756d38c5127a63633d21a51c1158c6a7ef9c83a/f_tools_pkg-0.0.7.tar.gz
+[2024-04-15 13:10:47] INFO root fetch - processPackages [ibm-aigov-facts-client]: Downloading https://files.pythonhosted.org/packages/27/a8/1e13567b273bbb022f72895491cc6504ab615cdd5059af058b800e63a043/ibm_aigov_facts_client-1.0.69-py3-none-any.whl
+[2024-04-15 13:10:47] INFO root fetch - processPackages [youwol]: Downloading https://files.pythonhosted.org/packages/9e/42/3d7811c7a33214ffdf0537d9231f2ae903e06631b1c085abb5a00cf99ca5/youwol-0.1.9rc1.tar.gz
+[2024-04-15 13:10:47] INFO root fetch - processPackages [f-tools-pkg]: Downloading https://files.pythonhosted.org/packages/69/75/4cde3aa0d5bf396f994e6f06e6ccb8fb22e57277d73a9096fb259a40152e/f_tools_pkg-0.0.8.tar.gz
+[2024-04-15 13:10:47] INFO root fetch - processPackages [f-tools-pkg]: executing diffoscope
+[2024-04-15 13:10:47] INFO root fetch - processPackages [f-tools-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/f_tools_pkg-0.0.7.tar.gz tmp/f_tools_pkg-0.0.8.tar.gz --markdown 20240415/f/f-tools-pkg/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-15 13:10:47] INFO root fetch - processPackages [news-signals]: Downloading https://files.pythonhosted.org/packages/16/2b/931f91a7edaeab361281cb7c58ecd49544e47c574a7253776d8a2bfe4f2f/news_signals-0.6.0-py3-none-any.whl
+[2024-04-15 13:10:47] INFO root fetch - processPackages [ibm-aigov-facts-client]: executing diffoscope
+[2024-04-15 13:10:47] INFO root fetch - processPackages [ibm-aigov-facts-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibm_aigov_facts_client-1.0.68-py3-none-any.whl.zip tmp/ibm_aigov_facts_client-1.0.69-py3-none-any.whl.zip --markdown 20240415/i/ibm-aigov-facts-client/1.0.68-1.0.69/README.md --exclude *.pyd
+[2024-04-15 13:10:47] INFO root fetch - processPackages [youwol]: executing diffoscope
+[2024-04-15 13:10:47] INFO root fetch - processPackages [youwol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/youwol-0.1.9rc0.tar.gz tmp/youwol-0.1.9rc1.tar.gz --markdown 20240415/y/youwol/0.1.9rc0-0.1.9rc1/README.md --exclude *.pyd
+[2024-04-15 13:10:48] INFO root fetch - processPackages [f-tools-pkg]: Remove: archive file [/home/abi/fetcher/tmp/f_tools_pkg-0.0.7.tar.gz]
+[2024-04-15 13:10:48] INFO root fetch - processPackages [f-tools-pkg]: Remove: archive file [/home/abi/fetcher/tmp/f_tools_pkg-0.0.8.tar.gz]
+[2024-04-15 13:10:48] INFO root fetch - main [MainThread]: End processing [f-tools-pkg]: success
+[2024-04-15 13:10:48] INFO root fetch - processPackages [news-signals]: executing diffoscope
+[2024-04-15 13:10:48] INFO root fetch - processPackages [news-signals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/news-signals-0.5.0.tar.gz tmp/news_signals-0.6.0-py3-none-any.whl.zip --markdown 20240415/n/news-signals/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-04-15 13:10:48] INFO root fetch - processPackages [ibm-aigov-facts-client]: Remove: archive file [/home/abi/fetcher/tmp/ibm_aigov_facts_client-1.0.68-py3-none-any.whl.zip]
+[2024-04-15 13:10:48] INFO root fetch - processPackages [ibm-aigov-facts-client]: Remove: archive file [/home/abi/fetcher/tmp/ibm_aigov_facts_client-1.0.69-py3-none-any.whl.zip]
+[2024-04-15 13:10:48] INFO root fetch - main [MainThread]: End processing [ibm-aigov-facts-client]: success
+[2024-04-15 13:10:49] INFO root fetch - processPackages [news-signals]: Remove: archive file [/home/abi/fetcher/tmp/news-signals-0.5.0.tar.gz]
+[2024-04-15 13:10:49] INFO root fetch - processPackages [news-signals]: Remove: archive file [/home/abi/fetcher/tmp/news_signals-0.6.0-py3-none-any.whl.zip]
+[2024-04-15 13:10:49] INFO root fetch - main [MainThread]: End processing [news-signals]: success
+[2024-04-15 13:10:49] INFO root fetch - processPackages [youwol]: Remove: archive file [/home/abi/fetcher/tmp/youwol-0.1.9rc0.tar.gz]
+[2024-04-15 13:10:49] INFO root fetch - processPackages [youwol]: Remove: archive file [/home/abi/fetcher/tmp/youwol-0.1.9rc1.tar.gz]
+[2024-04-15 13:10:49] INFO root fetch - main [MainThread]: End processing [youwol]: success
+[2024-04-15 13:10:49] INFO root fetch - main [MainThread]: Store serial: [22769885]
