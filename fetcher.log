@@ -1882,3 +1882,27 @@
 [2024-04-15 02:41:17] INFO root fetch - processPackages [byzerllm]: Remove: archive file [/home/abi/fetcher/tmp/byzerllm-0.1.9.tar.gz]
 [2024-04-15 02:41:17] INFO root fetch - main [MainThread]: End processing [byzerllm]: success
 [2024-04-15 02:41:17] INFO root fetch - main [MainThread]: Store serial: [22763984]
+[2024-04-15 02:43:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22763984]
+[2024-04-15 02:43:25] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-15 02:43:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: turbobus
+[2024-04-15 02:43:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: minject
+[2024-04-15 02:43:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autopipeline
+[2024-04-15 02:43:26] INFO root fetch - processPackages [turbobus]: New version: [1.0.0a8] Old Version: [1.0.0a7]
+[2024-04-15 02:43:26] INFO root fetch - processPackages [autopipeline]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-15 02:43:26] WARNING root fetch - processPackages [minject]: Skipping, unable to determine old version
+[2024-04-15 02:43:26] INFO root fetch - processPackages [turbobus]: Downloading https://files.pythonhosted.org/packages/21/56/01e274251dbbf5dfb0c3897126b24972e70913705df8268c3a777301326a/turbobus-1.0.0a7.tar.gz
+[2024-04-15 02:43:26] INFO root fetch - main [MainThread]: End processing [minject] error
+[2024-04-15 02:43:26] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/0f/9eaf209b6d540115afdc9ae31de828df0234756277bceae49a4d1a0ea8b3/autopipeline-0.1.98.tar.gz
+[2024-04-15 02:43:26] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/4a/f3df97d414e0a5e9120459fd5c7ab663092d540df59f7deacc45810deb41/autopipeline-0.1.99.tar.gz
+[2024-04-15 02:43:26] INFO root fetch - processPackages [turbobus]: Downloading https://files.pythonhosted.org/packages/b5/9a/7055074c325d1d6f4038f6c19cc15b66d3861de94c162c9ebc4ca3e989b1/turbobus-1.0.0a8.tar.gz
+[2024-04-15 02:43:26] INFO root fetch - processPackages [autopipeline]: executing diffoscope
+[2024-04-15 02:43:26] INFO root fetch - processPackages [autopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopipeline-0.1.98.tar.gz tmp/autopipeline-0.1.99.tar.gz --markdown 20240415/a/autopipeline/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-15 02:43:26] INFO root fetch - processPackages [turbobus]: executing diffoscope
+[2024-04-15 02:43:26] INFO root fetch - processPackages [turbobus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turbobus-1.0.0a7.tar.gz tmp/turbobus-1.0.0a8.tar.gz --markdown 20240415/t/turbobus/1.0.0a7-1.0.0a8/README.md --exclude *.pyd
+[2024-04-15 02:43:27] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.98.tar.gz]
+[2024-04-15 02:43:27] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.99.tar.gz]
+[2024-04-15 02:43:27] INFO root fetch - main [MainThread]: End processing [autopipeline]: success
+[2024-04-15 02:43:27] INFO root fetch - processPackages [turbobus]: Remove: archive file [/home/abi/fetcher/tmp/turbobus-1.0.0a7.tar.gz]
+[2024-04-15 02:43:27] INFO root fetch - processPackages [turbobus]: Remove: archive file [/home/abi/fetcher/tmp/turbobus-1.0.0a8.tar.gz]
+[2024-04-15 02:43:27] INFO root fetch - main [MainThread]: End processing [turbobus]: success
+[2024-04-15 02:43:27] INFO root fetch - main [MainThread]: Store serial: [22763994]
