@@ -5251,3 +5251,18 @@
 [2024-04-15 06:17:07] INFO root fetch - processPackages [tencentcloud-sdk-python-cbs]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cbs-3.0.999.tar.gz]
 [2024-04-15 06:17:07] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cbs]: success
 [2024-04-15 06:17:07] INFO root fetch - main [MainThread]: Store serial: [22765462]
+[2024-04-15 06:19:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22765462]
+[2024-04-15 06:19:16] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-15 06:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: test-option-deps-new
+[2024-04-15 06:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-cds
+[2024-04-15 06:19:16] WARNING root fetch - processPackages [test-option-deps-new]: Skipping, unable to determine old version
+[2024-04-15 06:19:16] INFO root fetch - main [MainThread]: End processing [test-option-deps-new] error
+[2024-04-15 06:19:17] INFO root fetch - processPackages [tencentcloud-sdk-python-cds]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-15 06:19:17] INFO root fetch - processPackages [tencentcloud-sdk-python-cds]: Downloading https://files.pythonhosted.org/packages/b3/ea/1ac86e855d4ce5e4ed0275233038dd26feee80c8f87ca39cae88f117bba1/tencentcloud-sdk-python-cds-3.0.998.tar.gz
+[2024-04-15 06:19:17] INFO root fetch - processPackages [tencentcloud-sdk-python-cds]: Downloading https://files.pythonhosted.org/packages/55/ee/bf8d875ee88416fa2fd3babfd4d8be07f81ea7ddee8b18c1c7197770284f/tencentcloud-sdk-python-cds-3.0.999.tar.gz
+[2024-04-15 06:19:17] INFO root fetch - processPackages [tencentcloud-sdk-python-cds]: executing diffoscope
+[2024-04-15 06:19:17] INFO root fetch - processPackages [tencentcloud-sdk-python-cds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-cds-3.0.998.tar.gz tmp/tencentcloud-sdk-python-cds-3.0.999.tar.gz --markdown 20240415/t/tencentcloud-sdk-python-cds/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-15 06:19:18] INFO root fetch - processPackages [tencentcloud-sdk-python-cds]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cds-3.0.998.tar.gz]
+[2024-04-15 06:19:18] INFO root fetch - processPackages [tencentcloud-sdk-python-cds]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cds-3.0.999.tar.gz]
+[2024-04-15 06:19:18] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cds]: success
+[2024-04-15 06:19:18] INFO root fetch - main [MainThread]: Store serial: [22765470]
