@@ -20179,3 +20179,50 @@ EOFError: EOF read where object expected
 [2024-04-15 15:29:41] INFO root fetch - processPackages [mode-streaming]: Remove: archive file [/home/abi/fetcher/tmp/mode_streaming-0.4.1-py2.py3-none-any.whl.zip]
 [2024-04-15 15:29:41] INFO root fetch - main [MainThread]: End processing [mode-streaming]: success
 [2024-04-15 15:29:41] INFO root fetch - main [MainThread]: Store serial: [22771786]
+[2024-04-15 15:31:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22771786]
+[2024-04-15 15:31:51] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-15 15:31:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: types-pyone
+[2024-04-15 15:31:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: altscore
+[2024-04-15 15:31:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sysrev
+[2024-04-15 15:31:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cognite-neat
+[2024-04-15 15:31:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyansys
+[2024-04-15 15:31:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: libpss
+[2024-04-15 15:31:51] WARNING root fetch - processPackages [types-pyone]: Skipping, unable to determine old version
+[2024-04-15 15:31:51] INFO root fetch - main [MainThread]: End processing [types-pyone] error
+[2024-04-15 15:31:51] INFO root fetch - processPackages [libpss]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-15 15:31:51] INFO root fetch - processPackages [altscore]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-15 15:31:51] INFO root fetch - processPackages [sysrev]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-04-15 15:31:51] INFO root fetch - processPackages [altscore]: Downloading https://files.pythonhosted.org/packages/5f/a6/fb416592a06e3f048aaf0891b596bd989dcd5841cb33ab09db5bb52d0970/altscore-0.1.98.tar.gz
+[2024-04-15 15:31:51] INFO root fetch - processPackages [cognite-neat]: New version: [0.72.2] Old Version: [0.72.1]
+[2024-04-15 15:31:51] INFO root fetch - processPackages [pyansys]: New version: [2024.2.0b1] Old Version: [2024.1rc1]
+[2024-04-15 15:31:52] INFO root fetch - processPackages [libpss]: Downloading https://files.pythonhosted.org/packages/9a/31/ee9bcd5eaa26f58b0dc10555af5696ea42747c10e6342694a8f068ff8132/libpss-0.1.4.tar.gz
+[2024-04-15 15:31:52] WARNING root fetch - processPackages [libpss]: Skipping package: exceeds size limit 12675799>=10485760
+[2024-04-15 15:31:52] INFO root fetch - main [MainThread]: End processing [libpss] error
+[2024-04-15 15:31:52] INFO root fetch - processPackages [sysrev]: Downloading https://files.pythonhosted.org/packages/d3/17/5de1365afdf6b298af54df1b723e7e1c3843fa422a4824408e66f2ec3acf/sysrev-1.2.1.tar.gz
+[2024-04-15 15:31:52] INFO root fetch - processPackages [altscore]: Downloading https://files.pythonhosted.org/packages/e3/b6/865ff08cbdee5b1522cc15ce8760f46380d0a77722135623bdfa5b3ab9f5/altscore-0.1.99.tar.gz
+[2024-04-15 15:31:52] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/be/85/99bbbbf8b4b0eed845102f2daf0349badf26eba83f0bce542d7689973a72/cognite_neat-0.72.1.tar.gz
+[2024-04-15 15:31:52] INFO root fetch - processPackages [pyansys]: Downloading https://files.pythonhosted.org/packages/6e/f2/e6822ffcf6433e515a83eea338d2694fb2b493413ef56689457efd7c9682/pyansys-2024.1rc1.tar.gz
+[2024-04-15 15:31:52] INFO root fetch - processPackages [altscore]: executing diffoscope
+[2024-04-15 15:31:52] INFO root fetch - processPackages [altscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/altscore-0.1.98.tar.gz tmp/altscore-0.1.99.tar.gz --markdown 20240415/a/altscore/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-15 15:31:52] INFO root fetch - processPackages [sysrev]: Downloading https://files.pythonhosted.org/packages/e1/16/319ae268e2a32ecd51e8f5d68dfb9fc235bee43d12fcb34e25c3c931cb99/sysrev-1.2.2.tar.gz
+[2024-04-15 15:31:52] INFO root fetch - processPackages [pyansys]: Downloading https://files.pythonhosted.org/packages/f8/0f/e0ee74c574de419bdfa50b83e57583990bcfe9b16985eb6ddfb43eaf7a69/pyansys-2024.2.0b1.tar.gz
+[2024-04-15 15:31:52] INFO root fetch - processPackages [cognite-neat]: Downloading https://files.pythonhosted.org/packages/5e/be/91c85ab08aaea827f415030db4c0acd20399d11f375e250fd6a645e78e03/cognite_neat-0.72.2.tar.gz
+[2024-04-15 15:31:52] INFO root fetch - processPackages [sysrev]: executing diffoscope
+[2024-04-15 15:31:52] INFO root fetch - processPackages [sysrev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sysrev-1.2.1.tar.gz tmp/sysrev-1.2.2.tar.gz --markdown 20240415/s/sysrev/1.2.1-1.2.2/README.md --exclude *.pyd
+[2024-04-15 15:31:52] INFO root fetch - processPackages [pyansys]: executing diffoscope
+[2024-04-15 15:31:52] INFO root fetch - processPackages [pyansys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyansys-2024.1rc1.tar.gz tmp/pyansys-2024.2.0b1.tar.gz --markdown 20240415/p/pyansys/2024.1rc1-2024.2.0b1/README.md --exclude *.pyd
+[2024-04-15 15:31:53] INFO root fetch - processPackages [altscore]: Remove: archive file [/home/abi/fetcher/tmp/altscore-0.1.98.tar.gz]
+[2024-04-15 15:31:53] INFO root fetch - processPackages [altscore]: Remove: archive file [/home/abi/fetcher/tmp/altscore-0.1.99.tar.gz]
+[2024-04-15 15:31:53] INFO root fetch - main [MainThread]: End processing [altscore]: success
+[2024-04-15 15:31:53] INFO root fetch - processPackages [cognite-neat]: executing diffoscope
+[2024-04-15 15:31:53] INFO root fetch - processPackages [cognite-neat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_neat-0.72.1.tar.gz tmp/cognite_neat-0.72.2.tar.gz --markdown 20240415/c/cognite-neat/0.72.1-0.72.2/README.md --exclude *.pyd
+[2024-04-15 15:31:53] INFO root fetch - processPackages [sysrev]: Remove: archive file [/home/abi/fetcher/tmp/sysrev-1.2.1.tar.gz]
+[2024-04-15 15:31:53] INFO root fetch - processPackages [sysrev]: Remove: archive file [/home/abi/fetcher/tmp/sysrev-1.2.2.tar.gz]
+[2024-04-15 15:31:53] INFO root fetch - main [MainThread]: End processing [sysrev]: success
+[2024-04-15 15:31:53] INFO root fetch - processPackages [pyansys]: Remove: archive file [/home/abi/fetcher/tmp/pyansys-2024.1rc1.tar.gz]
+[2024-04-15 15:31:53] INFO root fetch - processPackages [pyansys]: Remove: archive file [/home/abi/fetcher/tmp/pyansys-2024.2.0b1.tar.gz]
+[2024-04-15 15:31:53] INFO root fetch - main [MainThread]: End processing [pyansys]: success
+[2024-04-15 15:31:56] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.72.1.tar.gz]
+[2024-04-15 15:31:56] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.72.2.tar.gz]
+[2024-04-15 15:31:56] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
+[2024-04-15 15:31:56] INFO root fetch - main [MainThread]: Store serial: [22771812]
