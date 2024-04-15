@@ -21275,3 +21275,42 @@ EOFError: EOF read where object expected
 [2024-04-15 15:59:58] INFO root fetch - processPackages [pdfminer.rtl]: Remove: archive file [/home/abi/fetcher/tmp/pdfminer_rtl-0.0.2.dev3.tar.gz]
 [2024-04-15 15:59:58] INFO root fetch - main [MainThread]: End processing [pdfminer.rtl]: success
 [2024-04-15 15:59:58] INFO root fetch - main [MainThread]: Store serial: [22772223]
+[2024-04-15 16:02:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22772223]
+[2024-04-15 16:02:09] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-15 16:02:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cogflow
+[2024-04-15 16:02:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Crackerjack
+[2024-04-15 16:02:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zhmiscellany
+[2024-04-15 16:02:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: redturtle.prenotazioni
+[2024-04-15 16:02:10] INFO root fetch - processPackages [cogflow]: New version: [1.8.0] Old Version: [1.6.0]
+[2024-04-15 16:02:10] INFO root fetch - processPackages [zhmiscellany]: New version: [1.9.5] Old Version: [1.9.4]
+[2024-04-15 16:02:10] INFO root fetch - processPackages [cogflow]: Downloading https://files.pythonhosted.org/packages/44/bf/26c8f3e2378d1fdac30334792c350cdb9989f241360cd8df63afc74ab25d/cogflow-1.6.0.tar.gz
+[2024-04-15 16:02:10] INFO root fetch - processPackages [zhmiscellany]: Downloading https://files.pythonhosted.org/packages/35/89/066bf965baf06b87a8948761096dfba483d809831286188e510a97b2d514/zhmiscellany-1.9.4-py3-none-any.whl
+[2024-04-15 16:02:10] INFO root fetch - processPackages [Crackerjack]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-15 16:02:10] INFO root fetch - processPackages [redturtle.prenotazioni]: New version: [2.6.3] Old Version: [2.6.2]
+[2024-04-15 16:02:10] INFO root fetch - processPackages [cogflow]: Downloading https://files.pythonhosted.org/packages/fd/19/7765cb0dcf5318c0a6ea7b98203147461fc86633a3dc0f2301a2c4103697/cogflow-1.8.0.tar.gz
+[2024-04-15 16:02:10] INFO root fetch - processPackages [Crackerjack]: Downloading https://files.pythonhosted.org/packages/a7/40/682dbf1a6b1f3d3ad06a2cdda255b0e2c3c5397a8830e62ede4c0dd7a9ae/crackerjack-0.7.8.tar.gz
+[2024-04-15 16:02:10] INFO root fetch - processPackages [zhmiscellany]: Downloading https://files.pythonhosted.org/packages/b6/16/f021b8d81ecb83cddc3d2dd46b077e9cdf5b2f2423d35d509fb7adb19acc/zhmiscellany-1.9.5-py3-none-any.whl
+[2024-04-15 16:02:10] INFO root fetch - processPackages [cogflow]: executing diffoscope
+[2024-04-15 16:02:10] INFO root fetch - processPackages [cogflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cogflow-1.6.0.tar.gz tmp/cogflow-1.8.0.tar.gz --markdown 20240415/c/cogflow/1.6.0-1.8.0/README.md --exclude *.pyd
+[2024-04-15 16:02:10] INFO root fetch - processPackages [redturtle.prenotazioni]: Downloading https://files.pythonhosted.org/packages/c4/c3/a1230377c52e19bc0cf3ab3b80177841070e129674ab98c7d1388685ad4d/redturtle.prenotazioni-2.6.2.tar.gz
+[2024-04-15 16:02:10] INFO root fetch - processPackages [zhmiscellany]: executing diffoscope
+[2024-04-15 16:02:10] INFO root fetch - processPackages [zhmiscellany]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhmiscellany-1.9.4-py3-none-any.whl.zip tmp/zhmiscellany-1.9.5-py3-none-any.whl.zip --markdown 20240415/z/zhmiscellany/1.9.4-1.9.5/README.md --exclude *.pyd
+[2024-04-15 16:02:10] INFO root fetch - processPackages [Crackerjack]: Downloading https://files.pythonhosted.org/packages/c5/75/3568b19058277b8cd82499102cf3be7570336f14e93bacedeb931e7e18cd/crackerjack-0.7.9.tar.gz
+[2024-04-15 16:02:10] INFO root fetch - processPackages [redturtle.prenotazioni]: Downloading https://files.pythonhosted.org/packages/15/95/d042e1dc838674103b249f9960508138d2abbd75e403842dd168942cb334/redturtle.prenotazioni-2.6.3-py3-none-any.whl
+[2024-04-15 16:02:11] INFO root fetch - processPackages [cogflow]: Remove: archive file [/home/abi/fetcher/tmp/cogflow-1.6.0.tar.gz]
+[2024-04-15 16:02:11] INFO root fetch - processPackages [cogflow]: Remove: archive file [/home/abi/fetcher/tmp/cogflow-1.8.0.tar.gz]
+[2024-04-15 16:02:11] INFO root fetch - main [MainThread]: End processing [cogflow]: success
+[2024-04-15 16:02:11] INFO root fetch - processPackages [zhmiscellany]: Remove: archive file [/home/abi/fetcher/tmp/zhmiscellany-1.9.4-py3-none-any.whl.zip]
+[2024-04-15 16:02:11] INFO root fetch - processPackages [zhmiscellany]: Remove: archive file [/home/abi/fetcher/tmp/zhmiscellany-1.9.5-py3-none-any.whl.zip]
+[2024-04-15 16:02:11] INFO root fetch - main [MainThread]: End processing [zhmiscellany]: success
+[2024-04-15 16:02:11] INFO root fetch - processPackages [Crackerjack]: executing diffoscope
+[2024-04-15 16:02:11] INFO root fetch - processPackages [Crackerjack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crackerjack-0.7.8.tar.gz tmp/crackerjack-0.7.9.tar.gz --markdown 20240415/C/Crackerjack/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-04-15 16:02:11] INFO root fetch - processPackages [redturtle.prenotazioni]: executing diffoscope
+[2024-04-15 16:02:11] INFO root fetch - processPackages [redturtle.prenotazioni]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redturtle.prenotazioni-2.6.2.tar.gz tmp/redturtle.prenotazioni-2.6.3-py3-none-any.whl.zip --markdown 20240415/r/redturtle.prenotazioni/2.6.2-2.6.3/README.md --exclude *.pyd
+[2024-04-15 16:02:12] INFO root fetch - processPackages [Crackerjack]: Remove: archive file [/home/abi/fetcher/tmp/crackerjack-0.7.8.tar.gz]
+[2024-04-15 16:02:12] INFO root fetch - processPackages [Crackerjack]: Remove: archive file [/home/abi/fetcher/tmp/crackerjack-0.7.9.tar.gz]
+[2024-04-15 16:02:12] INFO root fetch - main [MainThread]: End processing [Crackerjack]: success
+[2024-04-15 16:02:12] INFO root fetch - processPackages [redturtle.prenotazioni]: Remove: archive file [/home/abi/fetcher/tmp/redturtle.prenotazioni-2.6.2.tar.gz]
+[2024-04-15 16:02:12] INFO root fetch - processPackages [redturtle.prenotazioni]: Remove: archive file [/home/abi/fetcher/tmp/redturtle.prenotazioni-2.6.3-py3-none-any.whl.zip]
+[2024-04-15 16:02:12] INFO root fetch - main [MainThread]: End processing [redturtle.prenotazioni]: success
+[2024-04-15 16:02:12] INFO root fetch - main [MainThread]: Store serial: [22772233]
