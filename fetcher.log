@@ -4717,3 +4717,60 @@
 [2024-04-15 06:05:56] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2024.4.0b3.tar.gz]
 [2024-04-15 06:05:56] INFO root fetch - main [MainThread]: End processing [esphome]: success
 [2024-04-15 06:05:56] INFO root fetch - main [MainThread]: Store serial: [22765288]
+[2024-04-15 06:08:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22765288]
+[2024-04-15 06:08:05] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-15 06:08:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: surfkit
+[2024-04-15 06:08:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iam-actions
+[2024-04-15 06:08:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: core-pro
+[2024-04-15 06:08:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xagent
+[2024-04-15 06:08:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python
+[2024-04-15 06:08:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tencentcloud-sdk-python-aa
+[2024-04-15 06:08:05] INFO root fetch - processPackages [xagent]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-15 06:08:05] INFO root fetch - processPackages [surfkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-15 06:08:05] INFO root fetch - processPackages [tencentcloud-sdk-python-aa]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-15 06:08:05] INFO root fetch - processPackages [core-pro]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-15 06:08:05] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20240415] Old Version: [1.2.20240414]
+[2024-04-15 06:08:05] INFO root fetch - processPackages [tencentcloud-sdk-python]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-15 06:08:05] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/00/dc/343980c083ea4ae8ce963639c51b39c0b3ba7869e96ca748256ff1b67925/surfkit-0.1.8.tar.gz
+[2024-04-15 06:08:05] INFO root fetch - processPackages [xagent]: Downloading https://files.pythonhosted.org/packages/57/81/3da63331a82ccaba3e656eec8f6d0a8da75a15b08e6b62930041ad2d546c/xagent-0.0.5.tar.gz
+[2024-04-15 06:08:05] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/ae/87/4886ad3b9a4b3d7c9bc0485092d4d9e246b0a21df5400fddff22071f7d88/iam_actions-1.2.20240414.tar.gz
+[2024-04-15 06:08:05] INFO root fetch - processPackages [core-pro]: Downloading https://files.pythonhosted.org/packages/dc/86/b3c6a8d290835afc0d7b1b25dde8bd558795bdce03403c0c90b2e7da9dff/core_pro-0.0.8.tar.gz
+[2024-04-15 06:08:05] INFO root fetch - processPackages [tencentcloud-sdk-python-aa]: Downloading https://files.pythonhosted.org/packages/a2/4c/3c7c6150a011e32b81b38a92f8897a5c6ee494b584fd6090858e85489c02/tencentcloud-sdk-python-aa-3.0.998.tar.gz
+[2024-04-15 06:08:05] INFO root fetch - processPackages [tencentcloud-sdk-python]: Downloading https://files.pythonhosted.org/packages/0e/49/d3deea1dbe9eed3d486f850eab70b665bc903e06042c7b39c19585e01b6a/tencentcloud-sdk-python-3.0.998.tar.gz
+[2024-04-15 06:08:05] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/e2/bd/4b842eb12eca8c3a3ea5d2915b52f91a3259c7e0160d2a0a88aeb13ae4a7/surfkit-0.1.9.tar.gz
+[2024-04-15 06:08:05] INFO root fetch - processPackages [surfkit]: executing diffoscope
+[2024-04-15 06:08:05] INFO root fetch - processPackages [surfkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surfkit-0.1.8.tar.gz tmp/surfkit-0.1.9.tar.gz --markdown 20240415/s/surfkit/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-15 06:08:05] INFO root fetch - processPackages [xagent]: Downloading https://files.pythonhosted.org/packages/ee/a8/2e4249a502b2f17338f444d18141c7d95b1d3fbee8f9e83cc6edea88c0f9/xagent-0.0.6.tar.gz
+[2024-04-15 06:08:05] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/19/7f/107c9af0469f2dcb8579f703febda07f91f96b2f86b1dc9c244246c39ff3/iam_actions-1.2.20240415.tar.gz
+[2024-04-15 06:08:05] INFO root fetch - processPackages [xagent]: executing diffoscope
+[2024-04-15 06:08:05] INFO root fetch - processPackages [xagent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xagent-0.0.5.tar.gz tmp/xagent-0.0.6.tar.gz --markdown 20240415/x/xagent/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-15 06:08:05] INFO root fetch - processPackages [core-pro]: Downloading https://files.pythonhosted.org/packages/6f/4e/6f2935c9906443317c8d830ec5b4f1c67d988d87345c4ae116a0a613c079/core_pro-0.0.9.tar.gz
+[2024-04-15 06:08:06] INFO root fetch - processPackages [tencentcloud-sdk-python-aa]: Downloading https://files.pythonhosted.org/packages/4c/d6/5bd523bd521bb045390dcbe68344c43369604ab7a14166596994e4a2a42f/tencentcloud-sdk-python-aa-3.0.999.tar.gz
+[2024-04-15 06:08:06] INFO root fetch - processPackages [core-pro]: executing diffoscope
+[2024-04-15 06:08:06] INFO root fetch - processPackages [core-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_pro-0.0.8.tar.gz tmp/core_pro-0.0.9.tar.gz --markdown 20240415/c/core-pro/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-15 06:08:06] INFO root fetch - processPackages [tencentcloud-sdk-python-aa]: executing diffoscope
+[2024-04-15 06:08:06] INFO root fetch - processPackages [tencentcloud-sdk-python-aa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-aa-3.0.998.tar.gz tmp/tencentcloud-sdk-python-aa-3.0.999.tar.gz --markdown 20240415/t/tencentcloud-sdk-python-aa/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-15 06:08:06] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2024-04-15 06:08:06] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20240414.tar.gz tmp/iam_actions-1.2.20240415.tar.gz --markdown 20240415/i/iam-actions/1.2.20240414-1.2.20240415/README.md --exclude *.pyd
+[2024-04-15 06:08:06] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.8.tar.gz]
+[2024-04-15 06:08:06] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.9.tar.gz]
+[2024-04-15 06:08:06] INFO root fetch - main [MainThread]: End processing [surfkit]: success
+[2024-04-15 06:08:06] INFO root fetch - processPackages [tencentcloud-sdk-python]: Downloading https://files.pythonhosted.org/packages/72/eb/b7f20f227c30beeb1298a5013dbd98cf616d9c321398cf216c1b15940a8b/tencentcloud-sdk-python-3.0.999.tar.gz
+[2024-04-15 06:08:06] INFO root fetch - processPackages [xagent]: Remove: archive file [/home/abi/fetcher/tmp/xagent-0.0.5.tar.gz]
+[2024-04-15 06:08:06] INFO root fetch - processPackages [xagent]: Remove: archive file [/home/abi/fetcher/tmp/xagent-0.0.6.tar.gz]
+[2024-04-15 06:08:06] INFO root fetch - main [MainThread]: End processing [xagent]: success
+[2024-04-15 06:08:06] INFO root fetch - processPackages [core-pro]: Remove: archive file [/home/abi/fetcher/tmp/core_pro-0.0.8.tar.gz]
+[2024-04-15 06:08:06] INFO root fetch - processPackages [core-pro]: Remove: archive file [/home/abi/fetcher/tmp/core_pro-0.0.9.tar.gz]
+[2024-04-15 06:08:06] INFO root fetch - main [MainThread]: End processing [core-pro]: success
+[2024-04-15 06:08:06] INFO root fetch - processPackages [tencentcloud-sdk-python-aa]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-aa-3.0.998.tar.gz]
+[2024-04-15 06:08:06] INFO root fetch - processPackages [tencentcloud-sdk-python-aa]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-aa-3.0.999.tar.gz]
+[2024-04-15 06:08:06] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-aa]: success
+[2024-04-15 06:08:07] INFO root fetch - processPackages [tencentcloud-sdk-python]: executing diffoscope
+[2024-04-15 06:08:07] INFO root fetch - processPackages [tencentcloud-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-3.0.998.tar.gz tmp/tencentcloud-sdk-python-3.0.999.tar.gz --markdown 20240415/t/tencentcloud-sdk-python/3.0.998-3.0.999/README.md --exclude *.pyd
+[2024-04-15 06:08:07] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240414.tar.gz]
+[2024-04-15 06:08:07] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240415.tar.gz]
+[2024-04-15 06:08:07] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2024-04-15 06:08:17] INFO root fetch - processPackages [tencentcloud-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-3.0.998.tar.gz]
+[2024-04-15 06:08:17] INFO root fetch - processPackages [tencentcloud-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-3.0.999.tar.gz]
+[2024-04-15 06:08:17] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python]: success
+[2024-04-15 06:08:17] INFO root fetch - main [MainThread]: Store serial: [22765303]
