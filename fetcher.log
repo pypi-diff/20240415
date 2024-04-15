@@ -19626,3 +19626,147 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 15:14:11] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2024.4.15-cp38-cp38-manylinux2014_x86_64.whl.zip]
 [2024-04-15 15:14:11] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
 [2024-04-15 15:14:11] INFO root fetch - main [MainThread]: Store serial: [22771565]
+[2024-04-15 15:16:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22771565]
+[2024-04-15 15:16:19] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2024-04-15 15:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wansuite
+[2024-04-15 15:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: khoj-assistant
+[2024-04-15 15:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: git-clog
+[2024-04-15 15:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tool-use
+[2024-04-15 15:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: adafruit-circuitpython-adg72x
+[2024-04-15 15:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: comparable-pattern
+[2024-04-15 15:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ai-models
+[2024-04-15 15:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vantage6-common
+[2024-04-15 15:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vantage6-client
+[2024-04-15 15:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vantage6-algorithm-tools
+[2024-04-15 15:16:20] INFO root fetch - processPackages [wansuite]: New version: [8.0] Old Version: [7.0]
+[2024-04-15 15:16:20] INFO root fetch - processPackages [wansuite]: Downloading https://files.pythonhosted.org/packages/1e/7b/a0e3f4fd965f35f58afe51f8b84743c42ff4829f0c44c88f46bff05f0a74/wansuite-7.0.tar.gz
+[2024-04-15 15:16:20] WARNING root fetch - processPackages [adafruit-circuitpython-adg72x]: Skipping, unable to determine old version
+[2024-04-15 15:16:20] INFO root fetch - processPackages [adafruit-circuitpython-adg72x]: Start processing: vantage6
+[2024-04-15 15:16:20] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-adg72x] error
+[2024-04-15 15:16:20] INFO root fetch - processPackages [git-clog]: New version: [0.3.0] Old Version: [0.2.5]
+[2024-04-15 15:16:20] INFO root fetch - processPackages [ai-models]: New version: [0.5.1] Old Version: [0.4.3]
+[2024-04-15 15:16:20] INFO root fetch - processPackages [tool-use]: New version: [0.1.1rc2] Old Version: [0.1.1rc1]
+[2024-04-15 15:16:20] INFO root fetch - processPackages [vantage6-algorithm-tools]: New version: [4.4.0rc3] Old Version: [4.3.4rc3]
+[2024-04-15 15:16:20] INFO root fetch - processPackages [vantage6-common]: New version: [4.4.0rc3] Old Version: [4.3.4rc3]
+[2024-04-15 15:16:20] INFO root fetch - processPackages [vantage6-client]: New version: [4.4.0rc3] Old Version: [4.3.4rc3]
+[2024-04-15 15:16:20] INFO root fetch - processPackages [tool-use]: Downloading https://files.pythonhosted.org/packages/8f/a0/e285d9c39178dc36d6f789ecc5906a7fba97a7d33a9d132d98775aab38d2/tool_use-0.1.1rc1.tar.gz
+[2024-04-15 15:16:20] INFO root fetch - processPackages [khoj-assistant]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev74]
+[2024-04-15 15:16:20] INFO root fetch - processPackages [vantage6]: New version: [4.4.0rc3] Old Version: [4.3.4rc3]
+[2024-04-15 15:16:20] INFO root fetch - processPackages [comparable-pattern]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-15 15:16:20] INFO root fetch - processPackages [ai-models]: Downloading https://files.pythonhosted.org/packages/12/35/594d10b0e651b3a1736f84abc7c23bd37fba38967ae51fb6226f93f1ba8a/ai-models-0.4.3.tar.gz
+[2024-04-15 15:16:20] INFO root fetch - processPackages [git-clog]: Downloading https://files.pythonhosted.org/packages/e5/3e/a290ac8bb7ab85476edba0281d40ef73640df0001d11b1ff301673884885/git-clog-0.2.5.tar.gz
+[2024-04-15 15:16:20] INFO root fetch - processPackages [vantage6-common]: Downloading https://files.pythonhosted.org/packages/23/da/2c4f483ccc9aa140f0c6084614daf6509f7f164567c8564424d0abb941ff/vantage6-common-4.3.4rc3.tar.gz
+[2024-04-15 15:16:20] INFO root fetch - processPackages [vantage6-algorithm-tools]: Downloading https://files.pythonhosted.org/packages/69/ce/3e015ccaeb43af17fdec4e9feec93a2461c4c1539e9024796bc2fa3e4aa0/vantage6-algorithm-tools-4.3.4rc3.tar.gz
+[2024-04-15 15:16:20] INFO root fetch - processPackages [vantage6-client]: Downloading https://files.pythonhosted.org/packages/4a/f8/cd94c9528c72c6dc5803de79ee9deb83929f939d683bfe80af770516777c/vantage6-client-4.3.4rc3.tar.gz
+[2024-04-15 15:16:20] INFO root fetch - processPackages [wansuite]: Downloading https://files.pythonhosted.org/packages/d3/fa/eab6e310e7086430268379e8a9897466d745699cd46c24db24e5a93444cd/wansuite-8.0.tar.gz
+[2024-04-15 15:16:20] INFO root fetch - processPackages [vantage6]: Downloading https://files.pythonhosted.org/packages/66/5c/3021a8befdbca24be4833abec2bfc1c76320cfaadebe3caaba38e22ef107/vantage6-4.3.4rc3.tar.gz
+[2024-04-15 15:16:20] INFO root fetch - processPackages [comparable-pattern]: Downloading https://files.pythonhosted.org/packages/46/7c/60d3face79bcad74fc84c71a777b93c92bf15c0f391944cd49af44492a21/comparable_pattern-0.0.3.tar.gz
+[2024-04-15 15:16:20] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/fc/89/bbf1c812c39a0f341fea130ae430c11fcdd5fdcc5ca61fbaed2682cc4df7/khoj_assistant-1.9.1.dev74.tar.gz
+[2024-04-15 15:16:20] INFO root fetch - processPackages [wansuite]: executing diffoscope
+[2024-04-15 15:16:20] INFO root fetch - processPackages [wansuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wansuite-7.0.tar.gz tmp/wansuite-8.0.tar.gz --markdown 20240415/w/wansuite/7.0-8.0/README.md --exclude *.pyd
+[2024-04-15 15:16:20] INFO root fetch - processPackages [tool-use]: Downloading https://files.pythonhosted.org/packages/01/bc/209c1b535a60a6c4ba4c526f6d294e8feb3b84630fbfab82f2a74bfdd567/tool_use-0.1.1rc2.tar.gz
+[2024-04-15 15:16:21] INFO root fetch - processPackages [tool-use]: executing diffoscope
+[2024-04-15 15:16:21] INFO root fetch - processPackages [tool-use]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tool_use-0.1.1rc1.tar.gz tmp/tool_use-0.1.1rc2.tar.gz --markdown 20240415/t/tool-use/0.1.1rc1-0.1.1rc2/README.md --exclude *.pyd
+[2024-04-15 15:16:21] INFO root fetch - processPackages [vantage6-common]: Downloading https://files.pythonhosted.org/packages/3a/72/734df2c20ad720f94245bd81c903e5dffcf113ba8476eab157fc530cc31b/vantage6-common-4.4.0rc3.tar.gz
+[2024-04-15 15:16:21] INFO root fetch - processPackages [ai-models]: Downloading https://files.pythonhosted.org/packages/1b/c1/2da4a6e6368e92791e27db41ba81b85b8927b07d50230e78f52637e32731/ai-models-0.5.1.tar.gz
+[2024-04-15 15:16:21] INFO root fetch - processPackages [vantage6-client]: Downloading https://files.pythonhosted.org/packages/84/df/b92d6fdd29a6e1b81b8e8559e572291634926b2511794707df4e896b80f9/vantage6-client-4.4.0rc3.tar.gz
+[2024-04-15 15:16:21] INFO root fetch - processPackages [vantage6-algorithm-tools]: Downloading https://files.pythonhosted.org/packages/3f/29/f506f2a2f6a10779b4cf44cc3b6a497529ff0b8cfe9fc671d93479de7924/vantage6-algorithm-tools-4.4.0rc3.tar.gz
+[2024-04-15 15:16:21] INFO root fetch - processPackages [git-clog]: Downloading https://files.pythonhosted.org/packages/03/6e/835c63d82249a6a3af93ba2ec4e03741a359081c6d32c6d84169886d470b/git-clog-0.3.0.tar.gz
+[2024-04-15 15:16:21] INFO root fetch - processPackages [comparable-pattern]: Downloading https://files.pythonhosted.org/packages/52/dc/fdc137781d6882ebb086c69c31de68161a53ad8bacc9e188c497a247ea5a/comparable_pattern-0.0.4.tar.gz
+[2024-04-15 15:16:21] INFO root fetch - processPackages [vantage6]: Downloading https://files.pythonhosted.org/packages/c9/6f/c5c983de321f64ac36b92261addb1ef6d6761632da43c385123ae7349a01/vantage6-4.4.0rc3.tar.gz
+[2024-04-15 15:16:21] INFO root fetch - processPackages [ai-models]: executing diffoscope
+[2024-04-15 15:16:21] INFO root fetch - processPackages [ai-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai-models-0.4.3.tar.gz tmp/ai-models-0.5.1.tar.gz --markdown 20240415/a/ai-models/0.4.3-0.5.1/README.md --exclude *.pyd
+[2024-04-15 15:16:21] INFO root fetch - processPackages [vantage6-common]: executing diffoscope
+[2024-04-15 15:16:21] INFO root fetch - processPackages [vantage6-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-common-4.3.4rc3.tar.gz tmp/vantage6-common-4.4.0rc3.tar.gz --markdown 20240415/v/vantage6-common/4.3.4rc3-4.4.0rc3/README.md --exclude *.pyd
+[2024-04-15 15:16:21] INFO root fetch - processPackages [vantage6-client]: executing diffoscope
+[2024-04-15 15:16:21] INFO root fetch - processPackages [vantage6-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-client-4.3.4rc3.tar.gz tmp/vantage6-client-4.4.0rc3.tar.gz --markdown 20240415/v/vantage6-client/4.3.4rc3-4.4.0rc3/README.md --exclude *.pyd
+[2024-04-15 15:16:21] INFO root fetch - processPackages [comparable-pattern]: executing diffoscope
+[2024-04-15 15:16:21] INFO root fetch - processPackages [comparable-pattern]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comparable_pattern-0.0.3.tar.gz tmp/comparable_pattern-0.0.4.tar.gz --markdown 20240415/c/comparable-pattern/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-15 15:16:21] INFO root fetch - processPackages [vantage6-algorithm-tools]: executing diffoscope
+[2024-04-15 15:16:21] INFO root fetch - processPackages [vantage6-algorithm-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-algorithm-tools-4.3.4rc3.tar.gz tmp/vantage6-algorithm-tools-4.4.0rc3.tar.gz --markdown 20240415/v/vantage6-algorithm-tools/4.3.4rc3-4.4.0rc3/README.md --exclude *.pyd
+[2024-04-15 15:16:21] INFO root fetch - processPackages [vantage6]: executing diffoscope
+[2024-04-15 15:16:21] INFO root fetch - processPackages [vantage6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-4.3.4rc3.tar.gz tmp/vantage6-4.4.0rc3.tar.gz --markdown 20240415/v/vantage6/4.3.4rc3-4.4.0rc3/README.md --exclude *.pyd
+[2024-04-15 15:16:21] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/47/ae/446626ff585bb336b70b59402ea6a46bf52326a51b81fd9ead920cde4c8a/khoj_assistant-1.9.1.dev8.tar.gz
+[2024-04-15 15:16:21] INFO root fetch - processPackages [git-clog]: executing diffoscope
+[2024-04-15 15:16:21] INFO root fetch - processPackages [git-clog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git-clog-0.2.5.tar.gz tmp/git-clog-0.3.0.tar.gz --markdown 20240415/g/git-clog/0.2.5-0.3.0/README.md --exclude *.pyd
+[2024-04-15 15:16:22] INFO root fetch - processPackages [wansuite]: Remove: archive file [/home/abi/fetcher/tmp/wansuite-7.0.tar.gz]
+[2024-04-15 15:16:22] INFO root fetch - processPackages [wansuite]: Remove: archive file [/home/abi/fetcher/tmp/wansuite-8.0.tar.gz]
+[2024-04-15 15:16:22] INFO root fetch - processPackages [wansuite]: Start processing: vantage6-node
+[2024-04-15 15:16:22] INFO root fetch - main [MainThread]: End processing [wansuite]: success
+[2024-04-15 15:16:22] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-04-15 15:16:22] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.9.1.dev74.tar.gz tmp/khoj_assistant-1.9.1.dev8.tar.gz --markdown 20240415/k/khoj-assistant/1.9.1.dev74-1.9.1.dev8/README.md --exclude *.pyd
+[2024-04-15 15:16:22] INFO root fetch - processPackages [vantage6-node]: New version: [4.4.0rc3] Old Version: [4.3.4rc3]
+[2024-04-15 15:16:22] INFO root fetch - processPackages [tool-use]: Remove: archive file [/home/abi/fetcher/tmp/tool_use-0.1.1rc1.tar.gz]
+[2024-04-15 15:16:22] INFO root fetch - processPackages [tool-use]: Remove: archive file [/home/abi/fetcher/tmp/tool_use-0.1.1rc2.tar.gz]
+[2024-04-15 15:16:22] INFO root fetch - processPackages [tool-use]: Start processing: vantage6-backend-common
+[2024-04-15 15:16:22] INFO root fetch - main [MainThread]: End processing [tool-use]: success
+[2024-04-15 15:16:22] INFO root fetch - processPackages [vantage6-backend-common]: New version: [4.4.0rc3] Old Version: [4.3.4rc3]
+[2024-04-15 15:16:22] INFO root fetch - processPackages [vantage6-node]: Downloading https://files.pythonhosted.org/packages/c6/06/a5892f7dff64498fd138a674195ba475af19fb09da20266695e2d85b787a/vantage6-node-4.3.4rc3.tar.gz
+[2024-04-15 15:16:22] INFO root fetch - processPackages [vantage6-backend-common]: Downloading https://files.pythonhosted.org/packages/85/81/0f22a9c7a45672c058b49c86719b587c650dd9151317a28dd2fc6160c485/vantage6-backend-common-4.3.4rc3.tar.gz
+[2024-04-15 15:16:22] INFO root fetch - processPackages [vantage6-client]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-client-4.3.4rc3.tar.gz]
+[2024-04-15 15:16:22] INFO root fetch - processPackages [vantage6-client]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-client-4.4.0rc3.tar.gz]
+[2024-04-15 15:16:22] INFO root fetch - processPackages [vantage6-client]: Start processing: vantage6-server
+[2024-04-15 15:16:22] INFO root fetch - main [MainThread]: End processing [vantage6-client]: success
+[2024-04-15 15:16:22] INFO root fetch - processPackages [vantage6-node]: Downloading https://files.pythonhosted.org/packages/b7/b7/ac9ad851e1e53caf194edccaa860e596f4c6c645a589c4a30e208a4e7fcb/vantage6-node-4.4.0rc3.tar.gz
+[2024-04-15 15:16:22] INFO root fetch - processPackages [vantage6-common]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-common-4.3.4rc3.tar.gz]
+[2024-04-15 15:16:22] INFO root fetch - processPackages [vantage6-common]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-common-4.4.0rc3.tar.gz]
+[2024-04-15 15:16:22] INFO root fetch - processPackages [vantage6-common]: Start processing: vantage6-algorithm-store
+[2024-04-15 15:16:22] INFO root fetch - main [MainThread]: End processing [vantage6-common]: success
+[2024-04-15 15:16:22] INFO root fetch - processPackages [ai-models]: Remove: archive file [/home/abi/fetcher/tmp/ai-models-0.4.3.tar.gz]
+[2024-04-15 15:16:22] INFO root fetch - processPackages [ai-models]: Remove: archive file [/home/abi/fetcher/tmp/ai-models-0.5.1.tar.gz]
+[2024-04-15 15:16:22] INFO root fetch - processPackages [ai-models]: Start processing: clovers-leafgame
+[2024-04-15 15:16:22] INFO root fetch - main [MainThread]: End processing [ai-models]: success
+[2024-04-15 15:16:22] INFO root fetch - processPackages [comparable-pattern]: Remove: archive file [/home/abi/fetcher/tmp/comparable_pattern-0.0.3.tar.gz]
+[2024-04-15 15:16:22] INFO root fetch - processPackages [comparable-pattern]: Remove: archive file [/home/abi/fetcher/tmp/comparable_pattern-0.0.4.tar.gz]
+[2024-04-15 15:16:22] INFO root fetch - processPackages [comparable-pattern]: Start processing: TracMercurial
+[2024-04-15 15:16:22] INFO root fetch - main [MainThread]: End processing [comparable-pattern]: success
+[2024-04-15 15:16:23] INFO root fetch - processPackages [vantage6-server]: New version: [4.4.0rc3] Old Version: [4.3.4rc3]
+[2024-04-15 15:16:23] INFO root fetch - processPackages [vantage6-algorithm-tools]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-algorithm-tools-4.3.4rc3.tar.gz]
+[2024-04-15 15:16:23] INFO root fetch - processPackages [vantage6-algorithm-tools]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-algorithm-tools-4.4.0rc3.tar.gz]
+[2024-04-15 15:16:23] INFO root fetch - main [MainThread]: End processing [vantage6-algorithm-tools]: success
+[2024-04-15 15:16:23] INFO root fetch - processPackages [git-clog]: Remove: archive file [/home/abi/fetcher/tmp/git-clog-0.2.5.tar.gz]
+[2024-04-15 15:16:23] INFO root fetch - processPackages [git-clog]: Remove: archive file [/home/abi/fetcher/tmp/git-clog-0.3.0.tar.gz]
+[2024-04-15 15:16:23] INFO root fetch - main [MainThread]: End processing [git-clog]: success
+[2024-04-15 15:16:23] WARNING root fetch - processPackages [clovers-leafgame]: Skipping, unable to determine old version
+[2024-04-15 15:16:23] INFO root fetch - main [MainThread]: End processing [clovers-leafgame] error
+[2024-04-15 15:16:23] INFO root fetch - processPackages [vantage6-algorithm-store]: New version: [4.4.0rc3] Old Version: [4.3.4rc3]
+[2024-04-15 15:16:23] INFO root fetch - processPackages [vantage6-node]: executing diffoscope
+[2024-04-15 15:16:23] INFO root fetch - processPackages [vantage6-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-node-4.3.4rc3.tar.gz tmp/vantage6-node-4.4.0rc3.tar.gz --markdown 20240415/v/vantage6-node/4.3.4rc3-4.4.0rc3/README.md --exclude *.pyd
+[2024-04-15 15:16:23] INFO root fetch - processPackages [vantage6-backend-common]: Downloading https://files.pythonhosted.org/packages/b3/7f/b8d18f26afaf29257287e882fd38d60e320a06bebbd3e9f25546ed08ad92/vantage6-backend-common-4.4.0rc3.tar.gz
+[2024-04-15 15:16:23] INFO root fetch - processPackages [TracMercurial]: New version: [1.0.0.9] Old Version: [1.0.0.8]
+[2024-04-15 15:16:23] INFO root fetch - processPackages [vantage6]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-4.3.4rc3.tar.gz]
+[2024-04-15 15:16:23] INFO root fetch - processPackages [vantage6]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-4.4.0rc3.tar.gz]
+[2024-04-15 15:16:23] INFO root fetch - main [MainThread]: End processing [vantage6]: success
+[2024-04-15 15:16:23] INFO root fetch - processPackages [vantage6-server]: Downloading https://files.pythonhosted.org/packages/59/c0/cfe3bacc8c8ea87580aa27b92eef5feaa64353f2ec53b30ffb71b5b2de55/vantage6-server-4.3.4rc3.tar.gz
+[2024-04-15 15:16:23] INFO root fetch - processPackages [vantage6-algorithm-store]: Downloading https://files.pythonhosted.org/packages/03/e2/116612e1da24f29de9f29472d052837732511230bf3cd47eb108b03fa3fa/vantage6-algorithm-store-4.3.4rc3.tar.gz
+[2024-04-15 15:16:23] INFO root fetch - processPackages [TracMercurial]: Downloading https://files.pythonhosted.org/packages/e9/62/ce782e93157fe936d9e1db4dcc8a76e8b16a0c51c52fb1791b3f1be97db4/TracMercurial-1.0.0.8.tar.gz
+[2024-04-15 15:16:23] INFO root fetch - processPackages [vantage6-backend-common]: executing diffoscope
+[2024-04-15 15:16:23] INFO root fetch - processPackages [vantage6-backend-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-backend-common-4.3.4rc3.tar.gz tmp/vantage6-backend-common-4.4.0rc3.tar.gz --markdown 20240415/v/vantage6-backend-common/4.3.4rc3-4.4.0rc3/README.md --exclude *.pyd
+[2024-04-15 15:16:23] INFO root fetch - processPackages [vantage6-server]: Downloading https://files.pythonhosted.org/packages/81/b3/710168858aa7ecab891ec9b47244f28d76b9be7f118c344d0949bbf1b488/vantage6-server-4.4.0rc3.tar.gz
+[2024-04-15 15:16:23] INFO root fetch - processPackages [vantage6-algorithm-store]: Downloading https://files.pythonhosted.org/packages/0a/fc/659c18b753eeb2ca260ef69a959d37133bb8d4e8127853177ba904f01295/vantage6-algorithm-store-4.4.0rc3.tar.gz
+[2024-04-15 15:16:23] INFO root fetch - processPackages [vantage6-server]: executing diffoscope
+[2024-04-15 15:16:23] INFO root fetch - processPackages [vantage6-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-server-4.3.4rc3.tar.gz tmp/vantage6-server-4.4.0rc3.tar.gz --markdown 20240415/v/vantage6-server/4.3.4rc3-4.4.0rc3/README.md --exclude *.pyd
+[2024-04-15 15:16:23] INFO root fetch - processPackages [TracMercurial]: Downloading https://files.pythonhosted.org/packages/a4/42/e2c5f902b5c34235d40e68cc85355377390dad376cbdf4d4b80ceadbaeee/TracMercurial-1.0.0.9.tar.gz
+[2024-04-15 15:16:23] INFO root fetch - processPackages [vantage6-algorithm-store]: executing diffoscope
+[2024-04-15 15:16:23] INFO root fetch - processPackages [vantage6-algorithm-store]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-algorithm-store-4.3.4rc3.tar.gz tmp/vantage6-algorithm-store-4.4.0rc3.tar.gz --markdown 20240415/v/vantage6-algorithm-store/4.3.4rc3-4.4.0rc3/README.md --exclude *.pyd
+[2024-04-15 15:16:23] INFO root fetch - processPackages [vantage6-node]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-node-4.3.4rc3.tar.gz]
+[2024-04-15 15:16:23] INFO root fetch - processPackages [vantage6-node]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-node-4.4.0rc3.tar.gz]
+[2024-04-15 15:16:23] INFO root fetch - main [MainThread]: End processing [vantage6-node]: success
+[2024-04-15 15:16:24] INFO root fetch - processPackages [TracMercurial]: executing diffoscope
+[2024-04-15 15:16:24] INFO root fetch - processPackages [TracMercurial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TracMercurial-1.0.0.8.tar.gz tmp/TracMercurial-1.0.0.9.tar.gz --markdown 20240415/T/TracMercurial/1.0.0.8-1.0.0.9/README.md --exclude *.pyd
+[2024-04-15 15:16:24] INFO root fetch - processPackages [vantage6-backend-common]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-backend-common-4.3.4rc3.tar.gz]
+[2024-04-15 15:16:24] INFO root fetch - processPackages [vantage6-backend-common]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-backend-common-4.4.0rc3.tar.gz]
+[2024-04-15 15:16:24] INFO root fetch - main [MainThread]: End processing [vantage6-backend-common]: success
+[2024-04-15 15:16:24] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev74.tar.gz]
+[2024-04-15 15:16:24] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.9.1.dev8.tar.gz]
+[2024-04-15 15:16:24] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-04-15 15:16:24] INFO root fetch - processPackages [TracMercurial]: Remove: archive file [/home/abi/fetcher/tmp/TracMercurial-1.0.0.8.tar.gz]
+[2024-04-15 15:16:24] INFO root fetch - processPackages [TracMercurial]: Remove: archive file [/home/abi/fetcher/tmp/TracMercurial-1.0.0.9.tar.gz]
+[2024-04-15 15:16:24] INFO root fetch - main [MainThread]: End processing [TracMercurial]: success
+[2024-04-15 15:16:24] INFO root fetch - processPackages [vantage6-algorithm-store]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-algorithm-store-4.3.4rc3.tar.gz]
+[2024-04-15 15:16:24] INFO root fetch - processPackages [vantage6-algorithm-store]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-algorithm-store-4.4.0rc3.tar.gz]
+[2024-04-15 15:16:24] INFO root fetch - main [MainThread]: End processing [vantage6-algorithm-store]: success
+[2024-04-15 15:16:24] INFO root fetch - processPackages [vantage6-server]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-server-4.3.4rc3.tar.gz]
+[2024-04-15 15:16:24] INFO root fetch - processPackages [vantage6-server]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-server-4.4.0rc3.tar.gz]
+[2024-04-15 15:16:24] INFO root fetch - main [MainThread]: End processing [vantage6-server]: success
+[2024-04-15 15:16:24] INFO root fetch - main [MainThread]: Store serial: [22771627]
