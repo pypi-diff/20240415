@@ -2463,3 +2463,38 @@
 [2024-04-15 03:33:18] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev89.tar.gz]
 [2024-04-15 03:33:18] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
 [2024-04-15 03:33:18] INFO root fetch - main [MainThread]: Store serial: [22764382]
+[2024-04-15 03:35:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22764382]
+[2024-04-15 03:35:27] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-15 03:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: encoders
+[2024-04-15 03:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langchain-llm
+[2024-04-15 03:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: surfkit
+[2024-04-15 03:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: easysnowdata
+[2024-04-15 03:35:27] INFO root fetch - processPackages [surfkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-15 03:35:27] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/00/dc/343980c083ea4ae8ce963639c51b39c0b3ba7869e96ca748256ff1b67925/surfkit-0.1.8.tar.gz
+[2024-04-15 03:35:27] INFO root fetch - processPackages [langchain-llm]: New version: [0.4.15] Old Version: [0.1.19]
+[2024-04-15 03:35:27] INFO root fetch - processPackages [encoders]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-15 03:35:27] INFO root fetch - processPackages [easysnowdata]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-15 03:35:27] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/e2/bd/4b842eb12eca8c3a3ea5d2915b52f91a3259c7e0160d2a0a88aeb13ae4a7/surfkit-0.1.9.tar.gz
+[2024-04-15 03:35:27] INFO root fetch - processPackages [encoders]: Downloading https://files.pythonhosted.org/packages/d2/75/7124291002e5f9097ce867b93778cc70b9fd638fd089fd188aaf19dc8294/encoders-0.0.3.tar.gz
+[2024-04-15 03:35:27] INFO root fetch - processPackages [langchain-llm]: Downloading https://files.pythonhosted.org/packages/cc/cc/25b1b11d6dbfb1b48d0c6fde11e35122ec24316d55cec3efd9d1eb4eb462/langchain_llm-0.1.19.tar.gz
+[2024-04-15 03:35:27] INFO root fetch - processPackages [easysnowdata]: Downloading https://files.pythonhosted.org/packages/31/0f/12fa339a0e9df1c1a20132c9061a94fa493597a32f7de9a0c006e3d7db1d/easysnowdata-0.0.2.tar.gz
+[2024-04-15 03:35:27] INFO root fetch - processPackages [surfkit]: executing diffoscope
+[2024-04-15 03:35:27] INFO root fetch - processPackages [surfkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surfkit-0.1.8.tar.gz tmp/surfkit-0.1.9.tar.gz --markdown 20240415/s/surfkit/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-15 03:35:27] WARNING root fetch - processPackages [easysnowdata]: Skipping package: exceeds size limit 13040030>=10485760
+[2024-04-15 03:35:27] INFO root fetch - main [MainThread]: End processing [easysnowdata] error
+[2024-04-15 03:35:27] INFO root fetch - processPackages [encoders]: Downloading https://files.pythonhosted.org/packages/2f/61/86830968f15baaee273dee1eeefc54926480902b658d93bf182bae378f21/encoders-0.0.4.tar.gz
+[2024-04-15 03:35:27] INFO root fetch - processPackages [langchain-llm]: Downloading https://files.pythonhosted.org/packages/8c/2f/1f0082d992536658497eb032ed0e9106ec6efdd2972fb3d74e5589eda64f/langchain_llm-0.4.15.tar.gz
+[2024-04-15 03:35:27] INFO root fetch - processPackages [encoders]: executing diffoscope
+[2024-04-15 03:35:27] INFO root fetch - processPackages [encoders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/encoders-0.0.3.tar.gz tmp/encoders-0.0.4.tar.gz --markdown 20240415/e/encoders/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-15 03:35:27] INFO root fetch - processPackages [langchain-llm]: executing diffoscope
+[2024-04-15 03:35:27] INFO root fetch - processPackages [langchain-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_llm-0.1.19.tar.gz tmp/langchain_llm-0.4.15.tar.gz --markdown 20240415/l/langchain-llm/0.1.19-0.4.15/README.md --exclude *.pyd
+[2024-04-15 03:35:28] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.8.tar.gz]
+[2024-04-15 03:35:28] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.9.tar.gz]
+[2024-04-15 03:35:28] INFO root fetch - main [MainThread]: End processing [surfkit]: success
+[2024-04-15 03:35:28] INFO root fetch - processPackages [langchain-llm]: Remove: archive file [/home/abi/fetcher/tmp/langchain_llm-0.1.19.tar.gz]
+[2024-04-15 03:35:28] INFO root fetch - processPackages [langchain-llm]: Remove: archive file [/home/abi/fetcher/tmp/langchain_llm-0.4.15.tar.gz]
+[2024-04-15 03:35:28] INFO root fetch - main [MainThread]: End processing [langchain-llm]: success
+[2024-04-15 03:35:29] INFO root fetch - processPackages [encoders]: Remove: archive file [/home/abi/fetcher/tmp/encoders-0.0.3.tar.gz]
+[2024-04-15 03:35:29] INFO root fetch - processPackages [encoders]: Remove: archive file [/home/abi/fetcher/tmp/encoders-0.0.4.tar.gz]
+[2024-04-15 03:35:29] INFO root fetch - main [MainThread]: End processing [encoders]: success
+[2024-04-15 03:35:29] INFO root fetch - main [MainThread]: Store serial: [22764423]
