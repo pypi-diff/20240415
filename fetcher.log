@@ -23935,3 +23935,71 @@ AssertionError: tmp/pyblindrl-0.0.2rc57.post1.tar.gz does not exist
 [2024-04-15 17:06:05] INFO root fetch - processPackages [pdfminer.rtl]: Remove: archive file [/home/abi/fetcher/tmp/pdfminer_rtl-0.0.2.dev6.tar.gz]
 [2024-04-15 17:06:05] INFO root fetch - main [MainThread]: End processing [pdfminer.rtl]: success
 [2024-04-15 17:06:05] INFO root fetch - main [MainThread]: Store serial: [22773405]
+[2024-04-15 17:08:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22773405]
+[2024-04-15 17:08:15] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-15 17:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cogflow
+[2024-04-15 17:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: codemodder
+[2024-04-15 17:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dqc-toolkit
+[2024-04-15 17:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mkdocs-frontmatter-plugin
+[2024-04-15 17:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: komoutils
+[2024-04-15 17:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sentry-relay
+[2024-04-15 17:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spine-segmentation
+[2024-04-15 17:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: linktest
+[2024-04-15 17:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: why-tools
+[2024-04-15 17:08:15] INFO root fetch - processPackages [spine-segmentation]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-04-15 17:08:15] INFO root fetch - processPackages [dqc-toolkit]: New version: [0.1.0b2] Old Version: [0.1.0b1]
+[2024-04-15 17:08:15] INFO root fetch - processPackages [cogflow]: New version: [1.8.1] Old Version: [1.6.0]
+[2024-04-15 17:08:15] WARNING root fetch - processPackages [why-tools]: Skipping, unable to determine old version
+[2024-04-15 17:08:15] INFO root fetch - main [MainThread]: End processing [why-tools] error
+[2024-04-15 17:08:15] INFO root fetch - processPackages [sentry-relay]: New version: [1.1.4] Old Version: [0.8.9]
+[2024-04-15 17:08:15] INFO root fetch - processPackages [cogflow]: Downloading https://files.pythonhosted.org/packages/44/bf/26c8f3e2378d1fdac30334792c350cdb9989f241360cd8df63afc74ab25d/cogflow-1.6.0.tar.gz
+[2024-04-15 17:08:15] INFO root fetch - processPackages [spine-segmentation]: Downloading https://files.pythonhosted.org/packages/07/97/2284c23754635745865c439151af8f820125b8ca62a78142f03ee8ac2fa8/spine_segmentation-0.2.5.tar.gz
+[2024-04-15 17:08:15] WARNING root fetch - processPackages [mkdocs-frontmatter-plugin]: Skipping, unable to determine old version
+[2024-04-15 17:08:15] INFO root fetch - main [MainThread]: End processing [mkdocs-frontmatter-plugin] error
+[2024-04-15 17:08:15] INFO root fetch - processPackages [linktest]: New version: [2.4.6] Old Version: [2.4.5]
+[2024-04-15 17:08:15] INFO root fetch - processPackages [komoutils]: New version: [0.0.224] Old Version: [0.0.223]
+[2024-04-15 17:08:15] INFO root fetch - processPackages [codemodder]: New version: [0.91.0] Old Version: [0.90.0]
+[2024-04-15 17:08:15] INFO root fetch - processPackages [sentry-relay]: Downloading https://files.pythonhosted.org/packages/f6/e5/aa1ba95a9654dbeaec6ebc0fd3b439b4c7c406d9ef0b9592002f1e90b6eb/sentry-relay-0.8.9.zip
+[2024-04-15 17:08:15] INFO root fetch - processPackages [dqc-toolkit]: Downloading https://files.pythonhosted.org/packages/d4/ef/85983bafc6dabdd49227e81ccb1b322f474ef7901f9d4cc1eb0885cc60bf/dqc-toolkit-0.1.0b1.tar.gz
+[2024-04-15 17:08:15] WARNING root fetch - processPackages [sentry-relay]: Skipping package: exceeds size limit 31231225>=10485760
+[2024-04-15 17:08:15] INFO root fetch - main [MainThread]: End processing [sentry-relay] error
+[2024-04-15 17:08:15] INFO root fetch - processPackages [komoutils]: Downloading https://files.pythonhosted.org/packages/23/11/96de3820b87ef8687cdeaa81c78a9a191b7b48ebd6fd77f634dd8844ae96/komoutils-0.0.223.tar.gz
+[2024-04-15 17:08:15] INFO root fetch - processPackages [linktest]: Downloading https://files.pythonhosted.org/packages/02/78/8f587dc0cdf5509d58ed00c5bec2f005d93ef1060d6151bbdf9c20015179/linktest-2.4.5.tar.gz
+[2024-04-15 17:08:15] INFO root fetch - processPackages [codemodder]: Downloading https://files.pythonhosted.org/packages/d5/0d/0ce33c2abdc8e136fb6da9240f444d998ea81cea42bc86f12d8cd871e648/codemodder-0.90.0.tar.gz
+[2024-04-15 17:08:15] INFO root fetch - processPackages [cogflow]: Downloading https://files.pythonhosted.org/packages/07/05/1dd192670ed7c4cb59df7d9ca5fa97f5c1745e5ffe199fd96deaa81b310d/cogflow-1.8.1.tar.gz
+[2024-04-15 17:08:15] INFO root fetch - processPackages [spine-segmentation]: Downloading https://files.pythonhosted.org/packages/c0/10/e514c53c4a93799cb8ab9fecae0cb9bbceb9a6c4c15a6f82d9b77b727a75/spine_segmentation-0.2.6.tar.gz
+[2024-04-15 17:08:16] INFO root fetch - processPackages [dqc-toolkit]: Downloading https://files.pythonhosted.org/packages/48/5f/4506d90b593aaeff0f04ef8e1760eb208bae600fecb0645776a61de61138/dqc_toolkit-0.1.0b2.tar.gz
+[2024-04-15 17:08:16] INFO root fetch - processPackages [cogflow]: executing diffoscope
+[2024-04-15 17:08:16] INFO root fetch - processPackages [cogflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cogflow-1.6.0.tar.gz tmp/cogflow-1.8.1.tar.gz --markdown 20240415/c/cogflow/1.6.0-1.8.1/README.md --exclude *.pyd
+[2024-04-15 17:08:16] INFO root fetch - processPackages [linktest]: Downloading https://files.pythonhosted.org/packages/f4/8b/0c597bc114f8ee75bd9d3b097a0544c70c03b14d2d7203a58b0d1ff49126/linktest-2.4.6.tar.gz
+[2024-04-15 17:08:16] INFO root fetch - processPackages [spine-segmentation]: executing diffoscope
+[2024-04-15 17:08:16] INFO root fetch - processPackages [spine-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spine_segmentation-0.2.5.tar.gz tmp/spine_segmentation-0.2.6.tar.gz --markdown 20240415/s/spine-segmentation/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-04-15 17:08:16] INFO root fetch - processPackages [dqc-toolkit]: executing diffoscope
+[2024-04-15 17:08:16] INFO root fetch - processPackages [dqc-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dqc-toolkit-0.1.0b1.tar.gz tmp/dqc_toolkit-0.1.0b2.tar.gz --markdown 20240415/d/dqc-toolkit/0.1.0b1-0.1.0b2/README.md --exclude *.pyd
+[2024-04-15 17:08:16] INFO root fetch - processPackages [komoutils]: Downloading https://files.pythonhosted.org/packages/d8/80/ba1b13b94fcefc7ccc0d0cff662847ffe75392f0bd963eac33dbbced6970/komoutils-0.0.224.tar.gz
+[2024-04-15 17:08:16] INFO root fetch - processPackages [codemodder]: Downloading https://files.pythonhosted.org/packages/03/1e/1bf276527d96ae0d983ebfaf06b0cd147f37ea47c4fdc3aece59c1a42b18/codemodder-0.91.0.tar.gz
+[2024-04-15 17:08:16] INFO root fetch - processPackages [linktest]: executing diffoscope
+[2024-04-15 17:08:16] INFO root fetch - processPackages [linktest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linktest-2.4.5.tar.gz tmp/linktest-2.4.6.tar.gz --markdown 20240415/l/linktest/2.4.5-2.4.6/README.md --exclude *.pyd
+[2024-04-15 17:08:16] INFO root fetch - processPackages [komoutils]: executing diffoscope
+[2024-04-15 17:08:16] INFO root fetch - processPackages [komoutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/komoutils-0.0.223.tar.gz tmp/komoutils-0.0.224.tar.gz --markdown 20240415/k/komoutils/0.0.223-0.0.224/README.md --exclude *.pyd
+[2024-04-15 17:08:16] INFO root fetch - processPackages [codemodder]: executing diffoscope
+[2024-04-15 17:08:16] INFO root fetch - processPackages [codemodder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codemodder-0.90.0.tar.gz tmp/codemodder-0.91.0.tar.gz --markdown 20240415/c/codemodder/0.90.0-0.91.0/README.md --exclude *.pyd
+[2024-04-15 17:08:16] INFO root fetch - processPackages [cogflow]: Remove: archive file [/home/abi/fetcher/tmp/cogflow-1.6.0.tar.gz]
+[2024-04-15 17:08:16] INFO root fetch - processPackages [cogflow]: Remove: archive file [/home/abi/fetcher/tmp/cogflow-1.8.1.tar.gz]
+[2024-04-15 17:08:16] INFO root fetch - main [MainThread]: End processing [cogflow]: success
+[2024-04-15 17:08:16] INFO root fetch - processPackages [spine-segmentation]: Remove: archive file [/home/abi/fetcher/tmp/spine_segmentation-0.2.5.tar.gz]
+[2024-04-15 17:08:16] INFO root fetch - processPackages [spine-segmentation]: Remove: archive file [/home/abi/fetcher/tmp/spine_segmentation-0.2.6.tar.gz]
+[2024-04-15 17:08:16] INFO root fetch - main [MainThread]: End processing [spine-segmentation]: success
+[2024-04-15 17:08:16] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.4.5.tar.gz]
+[2024-04-15 17:08:16] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.4.6.tar.gz]
+[2024-04-15 17:08:16] INFO root fetch - main [MainThread]: End processing [linktest]: success
+[2024-04-15 17:08:17] INFO root fetch - processPackages [komoutils]: Remove: archive file [/home/abi/fetcher/tmp/komoutils-0.0.223.tar.gz]
+[2024-04-15 17:08:17] INFO root fetch - processPackages [komoutils]: Remove: archive file [/home/abi/fetcher/tmp/komoutils-0.0.224.tar.gz]
+[2024-04-15 17:08:17] INFO root fetch - main [MainThread]: End processing [komoutils]: success
+[2024-04-15 17:08:17] INFO root fetch - processPackages [dqc-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/dqc-toolkit-0.1.0b1.tar.gz]
+[2024-04-15 17:08:17] INFO root fetch - processPackages [dqc-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/dqc_toolkit-0.1.0b2.tar.gz]
+[2024-04-15 17:08:17] INFO root fetch - main [MainThread]: End processing [dqc-toolkit]: success
+[2024-04-15 17:08:18] INFO root fetch - processPackages [codemodder]: Remove: archive file [/home/abi/fetcher/tmp/codemodder-0.90.0.tar.gz]
+[2024-04-15 17:08:18] INFO root fetch - processPackages [codemodder]: Remove: archive file [/home/abi/fetcher/tmp/codemodder-0.91.0.tar.gz]
+[2024-04-15 17:08:18] INFO root fetch - main [MainThread]: End processing [codemodder]: success
+[2024-04-15 17:08:18] INFO root fetch - main [MainThread]: Store serial: [22773440]
