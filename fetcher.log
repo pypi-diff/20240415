@@ -8713,3 +8713,15 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 08:27:13] INFO root fetch - processPackages [usearch]: Remove: archive file [/home/abi/fetcher/tmp/usearch-2.9.2-cp39-cp39-win_amd64.whl.zip]
 [2024-04-15 08:27:13] INFO root fetch - main [MainThread]: End processing [usearch]: success
 [2024-04-15 08:27:13] INFO root fetch - main [MainThread]: Store serial: [22766718]
+[2024-04-15 08:29:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22766718]
+[2024-04-15 08:29:22] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-15 08:29:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bttc
+[2024-04-15 08:29:22] INFO root fetch - processPackages [bttc]: New version: [0.0.74] Old Version: [0.0.73.9]
+[2024-04-15 08:29:22] INFO root fetch - processPackages [bttc]: Downloading https://files.pythonhosted.org/packages/f2/f1/06743ed185b36dc6a588af3f1791947e92a0b31acc0e0f40eb77eea5a2fe/bttc-0.0.73.9.tar.gz
+[2024-04-15 08:29:22] INFO root fetch - processPackages [bttc]: Downloading https://files.pythonhosted.org/packages/08/2e/58a2bf61f2063b7b0102355bd92fdb11573428ecc4a7ce440254d6ce0526/bttc-0.0.74.tar.gz
+[2024-04-15 08:29:22] INFO root fetch - processPackages [bttc]: executing diffoscope
+[2024-04-15 08:29:22] INFO root fetch - processPackages [bttc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bttc-0.0.73.9.tar.gz tmp/bttc-0.0.74.tar.gz --markdown 20240415/b/bttc/0.0.73.9-0.0.74/README.md --exclude *.pyd
+[2024-04-15 08:29:23] INFO root fetch - processPackages [bttc]: Remove: archive file [/home/abi/fetcher/tmp/bttc-0.0.73.9.tar.gz]
+[2024-04-15 08:29:23] INFO root fetch - processPackages [bttc]: Remove: archive file [/home/abi/fetcher/tmp/bttc-0.0.74.tar.gz]
+[2024-04-15 08:29:23] INFO root fetch - main [MainThread]: End processing [bttc]: success
+[2024-04-15 08:29:23] INFO root fetch - main [MainThread]: Store serial: [22766735]
