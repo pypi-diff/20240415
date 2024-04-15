@@ -16828,3 +16828,38 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 13:37:28] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.9.tar.gz]
 [2024-04-15 13:37:28] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2024-04-15 13:37:28] INFO root fetch - main [MainThread]: Store serial: [22770193]
+[2024-04-15 13:39:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22770193]
+[2024-04-15 13:39:37] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-15 13:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zimo-web-screenshot
+[2024-04-15 13:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-project-base
+[2024-04-15 13:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: acetone-nnet
+[2024-04-15 13:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pymobiledevice3
+[2024-04-15 13:39:37] INFO root fetch - processPackages [zimo-web-screenshot]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-15 13:39:37] INFO root fetch - processPackages [acetone-nnet]: New version: [0.1.dev1] Old Version: [0.1]
+[2024-04-15 13:39:37] INFO root fetch - processPackages [pymobiledevice3]: New version: [3.4.3] Old Version: [3.4.2]
+[2024-04-15 13:39:37] INFO root fetch - processPackages [django-project-base]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-15 13:39:37] INFO root fetch - processPackages [zimo-web-screenshot]: Downloading https://files.pythonhosted.org/packages/63/f0/0561d6b9fc60a0028e7a9109aad82e22f7546c0897dc04dfecbbcded9f31/zimo-web-screenshot-0.1.0.tar.gz
+[2024-04-15 13:39:37] INFO root fetch - processPackages [acetone-nnet]: Downloading https://files.pythonhosted.org/packages/e1/96/1dea5ff29c8df10d6890657502764d59b04f143b23b7f990c61260ad8590/acetone_nnet-0.1.tar.gz
+[2024-04-15 13:39:37] INFO root fetch - processPackages [pymobiledevice3]: Downloading https://files.pythonhosted.org/packages/0d/e8/2388b4cd38fb5d53a59d55ca7cd962e51934381f9157d809066dfb22ed1b/pymobiledevice3-3.4.2.tar.gz
+[2024-04-15 13:39:37] WARNING root fetch - processPackages [pymobiledevice3]: Skipping package: exceeds size limit 31540679>=10485760
+[2024-04-15 13:39:37] INFO root fetch - main [MainThread]: End processing [pymobiledevice3] error
+[2024-04-15 13:39:37] INFO root fetch - processPackages [django-project-base]: Downloading https://files.pythonhosted.org/packages/5e/80/79b654e965ab524a7a7100a2f70a50f2bb4f45f1d1ba3e84e7ae3304382a/django-project-base-0.4.8.tar.gz
+[2024-04-15 13:39:37] INFO root fetch - processPackages [acetone-nnet]: Downloading https://files.pythonhosted.org/packages/a4/76/05f0e2eba594527b0176f071837532f373a2012170a321645d46d99cc7b2/acetone_nnet-0.1.dev1.tar.gz
+[2024-04-15 13:39:37] INFO root fetch - processPackages [zimo-web-screenshot]: Downloading https://files.pythonhosted.org/packages/ee/3e/963e357c916192cf7e6a2893393e74f119d8d2d9b3492cdd45248e7c69d4/zimo_web_screenshot-0.1.1.tar.gz
+[2024-04-15 13:39:38] INFO root fetch - processPackages [acetone-nnet]: executing diffoscope
+[2024-04-15 13:39:38] INFO root fetch - processPackages [acetone-nnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acetone_nnet-0.1.tar.gz tmp/acetone_nnet-0.1.dev1.tar.gz --markdown 20240415/a/acetone-nnet/0.1-0.1.dev1/README.md --exclude *.pyd
+[2024-04-15 13:39:38] INFO root fetch - processPackages [zimo-web-screenshot]: executing diffoscope
+[2024-04-15 13:39:38] INFO root fetch - processPackages [zimo-web-screenshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zimo-web-screenshot-0.1.0.tar.gz tmp/zimo_web_screenshot-0.1.1.tar.gz --markdown 20240415/z/zimo-web-screenshot/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-15 13:39:38] INFO root fetch - processPackages [django-project-base]: Downloading https://files.pythonhosted.org/packages/5f/7e/cb65b3d5c1084b92a5dc2d9e611005fede46a3436e8936d6efbbdef55efd/django-project-base-0.4.9.tar.gz
+[2024-04-15 13:39:38] INFO root fetch - processPackages [django-project-base]: executing diffoscope
+[2024-04-15 13:39:38] INFO root fetch - processPackages [django-project-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-project-base-0.4.8.tar.gz tmp/django-project-base-0.4.9.tar.gz --markdown 20240415/d/django-project-base/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-15 13:39:38] INFO root fetch - processPackages [zimo-web-screenshot]: Remove: archive file [/home/abi/fetcher/tmp/zimo-web-screenshot-0.1.0.tar.gz]
+[2024-04-15 13:39:38] INFO root fetch - processPackages [zimo-web-screenshot]: Remove: archive file [/home/abi/fetcher/tmp/zimo_web_screenshot-0.1.1.tar.gz]
+[2024-04-15 13:39:38] INFO root fetch - main [MainThread]: End processing [zimo-web-screenshot]: success
+[2024-04-15 13:39:38] INFO root fetch - processPackages [acetone-nnet]: Remove: archive file [/home/abi/fetcher/tmp/acetone_nnet-0.1.tar.gz]
+[2024-04-15 13:39:38] INFO root fetch - processPackages [acetone-nnet]: Remove: archive file [/home/abi/fetcher/tmp/acetone_nnet-0.1.dev1.tar.gz]
+[2024-04-15 13:39:38] INFO root fetch - main [MainThread]: End processing [acetone-nnet]: success
+[2024-04-15 13:39:39] INFO root fetch - processPackages [django-project-base]: Remove: archive file [/home/abi/fetcher/tmp/django-project-base-0.4.8.tar.gz]
+[2024-04-15 13:39:39] INFO root fetch - processPackages [django-project-base]: Remove: archive file [/home/abi/fetcher/tmp/django-project-base-0.4.9.tar.gz]
+[2024-04-15 13:39:39] INFO root fetch - main [MainThread]: End processing [django-project-base]: success
+[2024-04-15 13:39:39] INFO root fetch - main [MainThread]: Store serial: [22770208]
