@@ -17324,3 +17324,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 13:59:23] INFO root fetch - processPackages [iqrfpy]: Remove: archive file [/home/abi/fetcher/tmp/iqrfpy-0.2.1.tar.gz]
 [2024-04-15 13:59:23] INFO root fetch - main [MainThread]: End processing [iqrfpy]: success
 [2024-04-15 13:59:23] INFO root fetch - main [MainThread]: Store serial: [22770443]
+[2024-04-15 14:01:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22770443]
+[2024-04-15 14:01:32] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-15 14:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arion-library
+[2024-04-15 14:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: psd2fabric
+[2024-04-15 14:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nowcasting-datamodel
+[2024-04-15 14:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pancho
+[2024-04-15 14:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: festo-edcon
+[2024-04-15 14:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: soildx-fastapi-jwt-auth
+[2024-04-15 14:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: genv
+[2024-04-15 14:01:32] INFO root fetch - processPackages [psd2fabric]: New version: [0.2] Old Version: [0.1]
+[2024-04-15 14:01:32] INFO root fetch - processPackages [soildx-fastapi-jwt-auth]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-15 14:01:32] INFO root fetch - processPackages [arion-library]: New version: [1.1rc58.dev58] Old Version: [1.1rc57.dev57]
+[2024-04-15 14:01:32] INFO root fetch - processPackages [pancho]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-15 14:01:32] INFO root fetch - processPackages [genv]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-04-15 14:01:32] INFO root fetch - processPackages [festo-edcon]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-15 14:01:32] INFO root fetch - processPackages [psd2fabric]: Downloading https://files.pythonhosted.org/packages/86/e9/b922f008bf9bbc99ac1387c5a51b6eaa174bd449dbb525b283e9308302fa/psd2fabric-0.1.tar.gz
+[2024-04-15 14:01:32] INFO root fetch - processPackages [soildx-fastapi-jwt-auth]: Downloading https://files.pythonhosted.org/packages/38/67/b09a20bb95ba52b20953aecd2974706f67d21c2f5ef8bd88eb57d2ef84a9/soildx_fastapi_jwt_auth-0.0.4.tar.gz
+[2024-04-15 14:01:32] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/ef/80/ff39809dee5103796ed493acec7e910262538c2640e553cf796821b27978/arion_library-1.1rc57.dev57.tar.gz
+[2024-04-15 14:01:32] INFO root fetch - processPackages [nowcasting-datamodel]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-04-15 14:01:32] INFO root fetch - processPackages [pancho]: Downloading https://files.pythonhosted.org/packages/ec/05/3cbe6fc97c65722fe6240619b8646f9549dddd2c2565181b535cf1b7a936/pancho-1.0.2.tar.gz
+[2024-04-15 14:01:32] INFO root fetch - processPackages [genv]: Downloading https://files.pythonhosted.org/packages/82/29/96af9fddc4b41cd7556cd55bd0f98c2d0c36b92786ceaacac4cf86809d04/genv-1.4.0.tar.gz
+[2024-04-15 14:01:32] INFO root fetch - processPackages [nowcasting-datamodel]: Downloading https://files.pythonhosted.org/packages/1c/b1/59a9915375868de28c63c4daecf8fad3f1b17f2e2e195c7e901f0d717ae2/nowcasting_datamodel-1.5.8.tar.gz
+[2024-04-15 14:01:32] INFO root fetch - processPackages [festo-edcon]: Downloading https://files.pythonhosted.org/packages/fb/80/032d30184e045615ab1e535a158fa764b4e55b85d7d50ec9d6c090e9e4a7/festo_edcon-0.8.0-py3-none-any.whl
+[2024-04-15 14:01:32] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/7b/ef/7ae50d2cbd8497e6fb74eb82ec6f671fd81ba21fbf41f8b00d09b2d5850a/arion_library-1.1rc58.dev58.tar.gz
+[2024-04-15 14:01:32] INFO root fetch - processPackages [psd2fabric]: Downloading https://files.pythonhosted.org/packages/99/0b/6a92fc9e0c27eb53de42ec7011decc107eaf636c368cde5426c4a05b1840/psd2fabric-0.2.tar.gz
+[2024-04-15 14:01:32] INFO root fetch - processPackages [arion-library]: executing diffoscope
+[2024-04-15 14:01:32] INFO root fetch - processPackages [arion-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arion_library-1.1rc57.dev57.tar.gz tmp/arion_library-1.1rc58.dev58.tar.gz --markdown 20240415/a/arion-library/1.1rc57.dev57-1.1rc58.dev58/README.md --exclude *.pyd
+[2024-04-15 14:01:33] INFO root fetch - processPackages [psd2fabric]: executing diffoscope
+[2024-04-15 14:01:33] INFO root fetch - processPackages [psd2fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psd2fabric-0.1.tar.gz tmp/psd2fabric-0.2.tar.gz --markdown 20240415/p/psd2fabric/0.1-0.2/README.md --exclude *.pyd
+[2024-04-15 14:01:33] INFO root fetch - processPackages [soildx-fastapi-jwt-auth]: Downloading https://files.pythonhosted.org/packages/a0/73/6b5dfd707810932c852627a8342f590c364124479984023ded3aef45f382/soildx_fastapi_jwt_auth-0.0.5.tar.gz
+[2024-04-15 14:01:33] INFO root fetch - processPackages [pancho]: Downloading https://files.pythonhosted.org/packages/4f/04/8b313b6670da7a0d41976088d9984a4acb287f776496426ac81a407344cb/pancho-1.0.3.tar.gz
+[2024-04-15 14:01:33] INFO root fetch - processPackages [soildx-fastapi-jwt-auth]: executing diffoscope
+[2024-04-15 14:01:33] INFO root fetch - processPackages [soildx-fastapi-jwt-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soildx_fastapi_jwt_auth-0.0.4.tar.gz tmp/soildx_fastapi_jwt_auth-0.0.5.tar.gz --markdown 20240415/s/soildx-fastapi-jwt-auth/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-15 14:01:33] INFO root fetch - processPackages [genv]: Downloading https://files.pythonhosted.org/packages/12/8a/90c7f6b2d01d58570c6aacc62e0fffebc21684b1a82ab21d7a198fdbf6b5/genv-1.4.1.tar.gz
+[2024-04-15 14:01:33] INFO root fetch - processPackages [nowcasting-datamodel]: Downloading https://files.pythonhosted.org/packages/e1/29/2f161e72e5afe3e3a4176debc51596fb16247c07e08d93e9fcba28b2cfba/nowcasting_datamodel-1.5.9.tar.gz
+[2024-04-15 14:01:33] INFO root fetch - processPackages [pancho]: executing diffoscope
+[2024-04-15 14:01:33] INFO root fetch - processPackages [pancho]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pancho-1.0.2.tar.gz tmp/pancho-1.0.3.tar.gz --markdown 20240415/p/pancho/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-15 14:01:33] INFO root fetch - processPackages [nowcasting-datamodel]: executing diffoscope
+[2024-04-15 14:01:33] INFO root fetch - processPackages [nowcasting-datamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nowcasting_datamodel-1.5.8.tar.gz tmp/nowcasting_datamodel-1.5.9.tar.gz --markdown 20240415/n/nowcasting-datamodel/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-04-15 14:01:33] INFO root fetch - processPackages [festo-edcon]: Downloading https://files.pythonhosted.org/packages/78/fc/7a8ecf8113702455aa6143ab630b5c8929208cc84ac3c4a7570417569523/festo_edcon-0.9.0-py3-none-any.whl
+[2024-04-15 14:01:33] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc57.dev57.tar.gz]
+[2024-04-15 14:01:33] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc58.dev58.tar.gz]
+[2024-04-15 14:01:33] INFO root fetch - main [MainThread]: End processing [arion-library]: success
+[2024-04-15 14:01:33] INFO root fetch - processPackages [psd2fabric]: Remove: archive file [/home/abi/fetcher/tmp/psd2fabric-0.1.tar.gz]
+[2024-04-15 14:01:33] INFO root fetch - processPackages [psd2fabric]: Remove: archive file [/home/abi/fetcher/tmp/psd2fabric-0.2.tar.gz]
+[2024-04-15 14:01:33] INFO root fetch - processPackages [genv]: executing diffoscope
+[2024-04-15 14:01:33] INFO root fetch - main [MainThread]: End processing [psd2fabric]: success
+[2024-04-15 14:01:33] INFO root fetch - processPackages [genv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genv-1.4.0.tar.gz tmp/genv-1.4.1.tar.gz --markdown 20240415/g/genv/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-04-15 14:01:33] INFO root fetch - processPackages [festo-edcon]: executing diffoscope
+[2024-04-15 14:01:33] INFO root fetch - processPackages [festo-edcon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/festo_edcon-0.8.0-py3-none-any.whl.zip tmp/festo_edcon-0.9.0-py3-none-any.whl.zip --markdown 20240415/f/festo-edcon/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-15 14:01:34] INFO root fetch - processPackages [soildx-fastapi-jwt-auth]: Remove: archive file [/home/abi/fetcher/tmp/soildx_fastapi_jwt_auth-0.0.4.tar.gz]
+[2024-04-15 14:01:34] INFO root fetch - processPackages [soildx-fastapi-jwt-auth]: Remove: archive file [/home/abi/fetcher/tmp/soildx_fastapi_jwt_auth-0.0.5.tar.gz]
+[2024-04-15 14:01:34] INFO root fetch - main [MainThread]: End processing [soildx-fastapi-jwt-auth]: success
+[2024-04-15 14:01:34] INFO root fetch - processPackages [nowcasting-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/nowcasting_datamodel-1.5.8.tar.gz]
+[2024-04-15 14:01:34] INFO root fetch - processPackages [nowcasting-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/nowcasting_datamodel-1.5.9.tar.gz]
+[2024-04-15 14:01:34] INFO root fetch - main [MainThread]: End processing [nowcasting-datamodel]: success
+[2024-04-15 14:01:34] INFO root fetch - processPackages [pancho]: Remove: archive file [/home/abi/fetcher/tmp/pancho-1.0.2.tar.gz]
+[2024-04-15 14:01:34] INFO root fetch - processPackages [pancho]: Remove: archive file [/home/abi/fetcher/tmp/pancho-1.0.3.tar.gz]
+[2024-04-15 14:01:34] INFO root fetch - main [MainThread]: End processing [pancho]: success
+[2024-04-15 14:01:34] INFO root fetch - processPackages [festo-edcon]: Remove: archive file [/home/abi/fetcher/tmp/festo_edcon-0.8.0-py3-none-any.whl.zip]
+[2024-04-15 14:01:34] INFO root fetch - processPackages [festo-edcon]: Remove: archive file [/home/abi/fetcher/tmp/festo_edcon-0.9.0-py3-none-any.whl.zip]
+[2024-04-15 14:01:34] INFO root fetch - main [MainThread]: End processing [festo-edcon]: success
+[2024-04-15 14:01:34] INFO root fetch - processPackages [genv]: Remove: archive file [/home/abi/fetcher/tmp/genv-1.4.0.tar.gz]
+[2024-04-15 14:01:34] INFO root fetch - processPackages [genv]: Remove: archive file [/home/abi/fetcher/tmp/genv-1.4.1.tar.gz]
+[2024-04-15 14:01:34] INFO root fetch - main [MainThread]: End processing [genv]: success
+[2024-04-15 14:01:34] INFO root fetch - main [MainThread]: Store serial: [22770459]
