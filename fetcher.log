@@ -14561,3 +14561,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 12:13:15] INFO root fetch - processPackages [django-mass-migration]: Remove: archive file [/home/abi/fetcher/tmp/django-mass-migration-0.2.9.tar.gz]
 [2024-04-15 12:13:15] INFO root fetch - main [MainThread]: End processing [django-mass-migration]: success
 [2024-04-15 12:13:15] INFO root fetch - main [MainThread]: Store serial: [22769208]
+[2024-04-15 12:15:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22769208]
+[2024-04-15 12:15:24] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-15 12:15:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: morphdb-utils
+[2024-04-15 12:15:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: npsam
+[2024-04-15 12:15:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datumaro
+[2024-04-15 12:15:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: resolwe
+[2024-04-15 12:15:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stigg-api-client
+[2024-04-15 12:15:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: optrabot
+[2024-04-15 12:15:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: stigg-api-client-v2
+[2024-04-15 12:15:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-base-user-role-company
+[2024-04-15 12:15:24] INFO root fetch - processPackages [npsam]: New version: [1.5.0] Old Version: [1.4.9.3]
+[2024-04-15 12:15:24] INFO root fetch - processPackages [stigg-api-client]: New version: [1.98.1] Old Version: [1.98.0]
+[2024-04-15 12:15:24] INFO root fetch - processPackages [stigg-api-client-v2]: New version: [1.98.1] Old Version: [1.98.0]
+[2024-04-15 12:15:24] INFO root fetch - processPackages [morphdb-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-15 12:15:25] INFO root fetch - processPackages [optrabot]: New version: [0.9.0a0] Old Version: [0.8.2a3]
+[2024-04-15 12:15:25] INFO root fetch - processPackages [npsam]: Downloading https://files.pythonhosted.org/packages/64/be/291803aafc1f17836ac9c7ee82bed6cd40796a23f67830b3de2b0c6d68fb/npsam-1.4.9.3.tar.gz
+[2024-04-15 12:15:25] INFO root fetch - processPackages [resolwe]: New version: [9.0.0a4] Old Version: [9.0.0a3]
+[2024-04-15 12:15:25] INFO root fetch - processPackages [datumaro]: New version: [1.6.1rc1] Old Version: [1.6.0rc1]
+[2024-04-15 12:15:25] INFO root fetch - processPackages [odoo-addon-base-user-role-company]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.2.0]
+[2024-04-15 12:15:25] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/98/38/1422eb2135687adff8e0844dc4afcdcdd3c44140b3b89335819f7a678037/stigg_api_client-1.98.0.tar.gz
+[2024-04-15 12:15:25] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/9e/ad/1fefc56e33c405d4aa0b5a382414f77d27efc7861a1cedce255c72c8f7d7/stigg_api_client_v2-1.98.0.tar.gz
+[2024-04-15 12:15:25] INFO root fetch - processPackages [morphdb-utils]: Downloading https://files.pythonhosted.org/packages/cd/4f/c6949258d5647c0aa4d14e61014c6e3a7c9f08086b8ff176bee34576864d/morphdb_utils-0.1.8.tar.gz
+[2024-04-15 12:15:25] INFO root fetch - processPackages [optrabot]: Downloading https://files.pythonhosted.org/packages/39/a5/21bc356da8a46875c8c5c0b1d0186829892fb9a81ddb5c6c6b2f6400d848/optrabot-0.8.2a3.tar.gz
+[2024-04-15 12:15:25] INFO root fetch - processPackages [resolwe]: Downloading https://files.pythonhosted.org/packages/27/39/5a1ef83e99306588743d0a561a08a825b4383fd5d466c4f3c8fa59dbdbdd/resolwe-9.0.0a3.tar.gz
+[2024-04-15 12:15:25] INFO root fetch - processPackages [datumaro]: Downloading https://files.pythonhosted.org/packages/39/66/6326718eb0146743e6d525cb100ea966a473382f4f45cd6a8babd48b63cc/datumaro-1.6.0rc1.tar.gz
+[2024-04-15 12:15:25] INFO root fetch - processPackages [odoo-addon-base-user-role-company]: Downloading https://files.pythonhosted.org/packages/21/f8/3ba0ffa8d36f95aa88131fbd451387a6fc0fe4cc06ffbd8a9b8a43209f19/odoo_addon_base_user_role_company-16.0.1.2.0-py3-none-any.whl
+[2024-04-15 12:15:25] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/da/d2/6b7a0c4e4205896d09042773fe56913ad646e6493900cc11613eabb26e05/stigg_api_client-1.98.1.tar.gz
+[2024-04-15 12:15:25] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/e4/6e/6806296621be882a70042a1d47ba321aad0c99c69b0e1a5f16346a41b4b5/stigg_api_client_v2-1.98.1.tar.gz
+[2024-04-15 12:15:25] INFO root fetch - processPackages [npsam]: Downloading https://files.pythonhosted.org/packages/d3/e5/c2f43eff5362d8fce84562bbc5d4b48839aab104b2bd8d6e9e12c0684f22/npsam-1.5.0.tar.gz
+[2024-04-15 12:15:25] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2024-04-15 12:15:25] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-1.98.0.tar.gz tmp/stigg_api_client-1.98.1.tar.gz --markdown 20240415/s/stigg-api-client/1.98.0-1.98.1/README.md --exclude *.pyd
+[2024-04-15 12:15:25] INFO root fetch - processPackages [morphdb-utils]: Downloading https://files.pythonhosted.org/packages/f4/69/729494d22abe49b72c25e4b1efa215d54cab59388bae925f40777fce21f3/morphdb_utils-0.1.9.tar.gz
+[2024-04-15 12:15:25] INFO root fetch - processPackages [stigg-api-client-v2]: executing diffoscope
+[2024-04-15 12:15:25] INFO root fetch - processPackages [stigg-api-client-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client_v2-1.98.0.tar.gz tmp/stigg_api_client_v2-1.98.1.tar.gz --markdown 20240415/s/stigg-api-client-v2/1.98.0-1.98.1/README.md --exclude *.pyd
+[2024-04-15 12:15:25] INFO root fetch - processPackages [npsam]: executing diffoscope
+[2024-04-15 12:15:25] INFO root fetch - processPackages [npsam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/npsam-1.4.9.3.tar.gz tmp/npsam-1.5.0.tar.gz --markdown 20240415/n/npsam/1.4.9.3-1.5.0/README.md --exclude *.pyd
+[2024-04-15 12:15:25] INFO root fetch - processPackages [optrabot]: Downloading https://files.pythonhosted.org/packages/4e/17/373a3afb23c995690c704daec11a4dd7599c27e6a606493c4cb888b29a56/optrabot-0.9.0a0.tar.gz
+[2024-04-15 12:15:25] INFO root fetch - processPackages [morphdb-utils]: executing diffoscope
+[2024-04-15 12:15:25] INFO root fetch - processPackages [morphdb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morphdb_utils-0.1.8.tar.gz tmp/morphdb_utils-0.1.9.tar.gz --markdown 20240415/m/morphdb-utils/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-15 12:15:25] INFO root fetch - processPackages [resolwe]: Downloading https://files.pythonhosted.org/packages/ca/ce/736f65f5bdceb20af592eebc6fdff8968ca39d39f2fa9bbbcb62c64ee673/resolwe-9.0.0a4.tar.gz
+[2024-04-15 12:15:25] INFO root fetch - processPackages [datumaro]: Downloading https://files.pythonhosted.org/packages/ce/18/46a63d414a9f28ac8f9bc54e79bef43411f1c7d4333384d04debeb791128/datumaro-1.6.1rc1.tar.gz
+[2024-04-15 12:15:25] INFO root fetch - processPackages [optrabot]: executing diffoscope
+[2024-04-15 12:15:25] INFO root fetch - processPackages [optrabot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optrabot-0.8.2a3.tar.gz tmp/optrabot-0.9.0a0.tar.gz --markdown 20240415/o/optrabot/0.8.2a3-0.9.0a0/README.md --exclude *.pyd
+[2024-04-15 12:15:25] INFO root fetch - processPackages [odoo-addon-base-user-role-company]: Downloading https://files.pythonhosted.org/packages/28/2b/a26ce3031cdc50dd31c01755872c23a6f2efae6f6c1a1b7e2a7230cbca73/odoo_addon_base_user_role_company-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-15 12:15:25] INFO root fetch - processPackages [resolwe]: executing diffoscope
+[2024-04-15 12:15:25] INFO root fetch - processPackages [resolwe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resolwe-9.0.0a3.tar.gz tmp/resolwe-9.0.0a4.tar.gz --markdown 20240415/r/resolwe/9.0.0a3-9.0.0a4/README.md --exclude *.pyd
+[2024-04-15 12:15:25] INFO root fetch - processPackages [datumaro]: executing diffoscope
+[2024-04-15 12:15:25] INFO root fetch - processPackages [datumaro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datumaro-1.6.0rc1.tar.gz tmp/datumaro-1.6.1rc1.tar.gz --markdown 20240415/d/datumaro/1.6.0rc1-1.6.1rc1/README.md --exclude *.pyd
+[2024-04-15 12:15:25] INFO root fetch - processPackages [odoo-addon-base-user-role-company]: executing diffoscope
+[2024-04-15 12:15:25] INFO root fetch - processPackages [odoo-addon-base-user-role-company]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_user_role_company-16.0.1.2.0-py3-none-any.whl.zip tmp/odoo_addon_base_user_role_company-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240415/o/odoo-addon-base-user-role-company/16.0.1.2.0-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-04-15 12:15:26] INFO root fetch - processPackages [morphdb-utils]: Remove: archive file [/home/abi/fetcher/tmp/morphdb_utils-0.1.8.tar.gz]
+[2024-04-15 12:15:26] INFO root fetch - processPackages [morphdb-utils]: Remove: archive file [/home/abi/fetcher/tmp/morphdb_utils-0.1.9.tar.gz]
+[2024-04-15 12:15:26] INFO root fetch - main [MainThread]: End processing [morphdb-utils]: success
+[2024-04-15 12:15:26] INFO root fetch - processPackages [npsam]: Remove: archive file [/home/abi/fetcher/tmp/npsam-1.4.9.3.tar.gz]
+[2024-04-15 12:15:26] INFO root fetch - processPackages [npsam]: Remove: archive file [/home/abi/fetcher/tmp/npsam-1.5.0.tar.gz]
+[2024-04-15 12:15:26] INFO root fetch - main [MainThread]: End processing [npsam]: success
+[2024-04-15 12:15:26] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-1.98.0.tar.gz]
+[2024-04-15 12:15:26] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-1.98.1.tar.gz]
+[2024-04-15 12:15:26] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2024-04-15 12:15:26] INFO root fetch - processPackages [optrabot]: Remove: archive file [/home/abi/fetcher/tmp/optrabot-0.8.2a3.tar.gz]
+[2024-04-15 12:15:26] INFO root fetch - processPackages [optrabot]: Remove: archive file [/home/abi/fetcher/tmp/optrabot-0.9.0a0.tar.gz]
+[2024-04-15 12:15:26] INFO root fetch - main [MainThread]: End processing [optrabot]: success
+[2024-04-15 12:15:26] INFO root fetch - processPackages [odoo-addon-base-user-role-company]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_user_role_company-16.0.1.2.0-py3-none-any.whl.zip]
+[2024-04-15 12:15:26] INFO root fetch - processPackages [odoo-addon-base-user-role-company]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_user_role_company-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-15 12:15:26] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-user-role-company]: success
+[2024-04-15 12:15:26] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.0.tar.gz]
+[2024-04-15 12:15:26] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.1.tar.gz]
+[2024-04-15 12:15:27] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
+[2024-04-15 12:15:27] INFO root fetch - processPackages [resolwe]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-9.0.0a3.tar.gz]
+[2024-04-15 12:15:27] INFO root fetch - processPackages [resolwe]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-9.0.0a4.tar.gz]
+[2024-04-15 12:15:27] INFO root fetch - main [MainThread]: End processing [resolwe]: success
+[2024-04-15 12:15:28] INFO root fetch - processPackages [datumaro]: Remove: archive file [/home/abi/fetcher/tmp/datumaro-1.6.0rc1.tar.gz]
+[2024-04-15 12:15:28] INFO root fetch - processPackages [datumaro]: Remove: archive file [/home/abi/fetcher/tmp/datumaro-1.6.1rc1.tar.gz]
+[2024-04-15 12:15:28] INFO root fetch - main [MainThread]: End processing [datumaro]: success
+[2024-04-15 12:15:28] INFO root fetch - main [MainThread]: Store serial: [22769239]
