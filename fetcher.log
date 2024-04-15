@@ -10652,3 +10652,90 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 09:58:47] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.5.5a117434-py2.py3-none-any.whl.zip]
 [2024-04-15 09:58:47] INFO root fetch - main [MainThread]: End processing [udata-front]: success
 [2024-04-15 09:58:47] INFO root fetch - main [MainThread]: Store serial: [22767536]
+[2024-04-15 10:00:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22767536]
+[2024-04-15 10:00:55] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-15 10:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyprocessors-openai_completion
+[2024-04-15 10:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-stock-average-daily-sale
+[2024-04-15 10:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: telegram-collector
+[2024-04-15 10:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-nightly
+[2024-04-15 10:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: McStasScript
+[2024-04-15 10:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lusid-sdk
+[2024-04-15 10:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: librus-apix
+[2024-04-15 10:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mteb
+[2024-04-15 10:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyromongo
+[2024-04-15 10:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sparse-ir
+[2024-04-15 10:00:56] INFO root fetch - processPackages [telegram-collector]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-15 10:00:56] INFO root fetch - processPackages [mteb]: New version: [1.6.4] Old Version: [1.6.3]
+[2024-04-15 10:00:56] INFO root fetch - processPackages [tf-nightly]: New version: [2.17.0.dev20240415] Old Version: [2.17.0.dev20240414]
+[2024-04-15 10:00:56] INFO root fetch - processPackages [telegram-collector]: Downloading https://files.pythonhosted.org/packages/26/79/c4c890517d308b5d636c920eba6837683bd2b6ccc8a3198e85972fe68399/telegram_collector-0.2.8.tar.gz
+[2024-04-15 10:00:56] INFO root fetch - processPackages [pyromongo]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-15 10:00:56] INFO root fetch - processPackages [librus-apix]: New version: [0.6.9.post3] Old Version: [0.6.9.post2]
+[2024-04-15 10:00:56] WARNING root fetch - processPackages [odoo-addon-stock-average-daily-sale]: Skipping, unable to determine old version
+[2024-04-15 10:00:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-average-daily-sale] error
+[2024-04-15 10:00:56] INFO root fetch - processPackages [McStasScript]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-15 10:00:56] INFO root fetch - processPackages [sparse-ir]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-15 10:00:56] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/c5/a4/98bf1a92db11c0a0d53f6c9543c127ca41e922a6024a7f83f1e5e6dbdb07/mteb-1.6.3.tar.gz
+[2024-04-15 10:00:56] INFO root fetch - processPackages [pyprocessors-openai_completion]: New version: [0.5.98] Old Version: [0.5.96]
+[2024-04-15 10:00:56] INFO root fetch - processPackages [lusid-sdk]: New version: [2.1.7] Old Version: [2.1.5]
+[2024-04-15 10:00:56] INFO root fetch - processPackages [pyromongo]: Downloading https://files.pythonhosted.org/packages/66/c3/22fac07897aa2637840653d8e9141ba1a2b65541b1940e1f0b65cef35bde/pyromongo-0.0.6.tar.gz
+[2024-04-15 10:00:56] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/f8/cb/95a7dbabf5d9c1e39110719309a747124673147057ece5eb020df9ae6233/tf_nightly-2.17.0.dev20240414-cp39-cp39-win_amd64.whl
+[2024-04-15 10:00:56] INFO root fetch - processPackages [McStasScript]: Downloading https://files.pythonhosted.org/packages/56/0a/c24af13421dd6c3e121bb2cfdd52ac0b3d5c702b8580a34167c4053d832b/McStasScript-0.0.8.tar.gz
+[2024-04-15 10:00:56] INFO root fetch - processPackages [librus-apix]: Downloading https://files.pythonhosted.org/packages/80/92/1084523995350cdf2015073d9b1d2ed59b454f5d083d41edf716582e7acd/librus_apix-0.6.9.post2.tar.gz
+[2024-04-15 10:00:56] INFO root fetch - processPackages [pyprocessors-openai_completion]: Downloading https://files.pythonhosted.org/packages/d2/29/9fabe639b4463b58fb0912b24032472e82de458e7cf0d5b7d9ab72f289cb/pyprocessors_openai_completion-0.5.96.tar.gz
+[2024-04-15 10:00:56] INFO root fetch - processPackages [sparse-ir]: Downloading https://files.pythonhosted.org/packages/e5/52/39b215d161948be1df0057a8960e6e11a318f8740b12dcf63a1d2ffee824/sparse-ir-1.1.0.tar.gz
+[2024-04-15 10:00:56] INFO root fetch - processPackages [telegram-collector]: Downloading https://files.pythonhosted.org/packages/0e/62/1828912e5e192f4be063b427eb3b26519d05a73fa112d81b9d661d767a26/telegram_collector-0.2.9.tar.gz
+[2024-04-15 10:00:56] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/e9/95/c5e61f1b00407bb5a7d4b0af7d49bfd5fc9a82a95b330e57eac1f1130493/lusid_sdk-2.1.5.tar.gz
+[2024-04-15 10:00:56] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/92/97/2235045fa08952e1355bfa54eb2ccaf3155d1435c43a46733d28f62ea68f/mteb-1.6.4.tar.gz
+[2024-04-15 10:00:56] INFO root fetch - processPackages [pyromongo]: Downloading https://files.pythonhosted.org/packages/66/fd/fb763ba5ff3f819f6b01a76c4ad845b1e6a18a64e62e137660b68116b268/pyromongo-0.0.7-py3-none-any.whl
+[2024-04-15 10:00:56] INFO root fetch - processPackages [telegram-collector]: executing diffoscope
+[2024-04-15 10:00:56] INFO root fetch - processPackages [telegram-collector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegram_collector-0.2.8.tar.gz tmp/telegram_collector-0.2.9.tar.gz --markdown 20240415/t/telegram-collector/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-15 10:00:56] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/c4/2c/77082e28524751ed1ea24e12dcccdf4acaa16a8fcbfb03fb53277e15f057/tf_nightly-2.17.0.dev20240415-cp39-cp39-win_amd64.whl
+[2024-04-15 10:00:56] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-04-15 10:00:56] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.6.3.tar.gz tmp/mteb-1.6.4.tar.gz --markdown 20240415/m/mteb/1.6.3-1.6.4/README.md --exclude *.pyd
+[2024-04-15 10:00:56] INFO root fetch - processPackages [librus-apix]: Downloading https://files.pythonhosted.org/packages/a3/94/74df5631d825f1689c17ee9ea928e016d0c8c022086352e698660f0a0f17/librus_apix-0.6.9.post3.tar.gz
+[2024-04-15 10:00:56] INFO root fetch - processPackages [sparse-ir]: Downloading https://files.pythonhosted.org/packages/63/56/0d892ad87f0ee84ad1ba63788027cc0f8cd39e9e847e12882d87612264c3/sparse-ir-1.1.1.tar.gz
+[2024-04-15 10:00:57] INFO root fetch - processPackages [pyromongo]: executing diffoscope
+[2024-04-15 10:00:57] INFO root fetch - processPackages [pyromongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyromongo-0.0.6.tar.gz tmp/pyromongo-0.0.7-py3-none-any.whl.zip --markdown 20240415/p/pyromongo/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-15 10:00:57] INFO root fetch - processPackages [pyprocessors-openai_completion]: Downloading https://files.pythonhosted.org/packages/b6/db/9de278b5795af8d5cc38db8eb7b7bb3c8734bf63bf0c51ffb1f72022a3c9/pyprocessors_openai_completion-0.5.98.tar.gz
+[2024-04-15 10:00:57] INFO root fetch - processPackages [tf-nightly]: executing diffoscope
+[2024-04-15 10:00:57] INFO root fetch - processPackages [tf-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly-2.17.0.dev20240414-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly-2.17.0.dev20240415-cp39-cp39-win_amd64.whl.zip --markdown 20240415/t/tf-nightly/2.17.0.dev20240414-2.17.0.dev20240415/README.md --exclude *.pyd
+[2024-04-15 10:00:57] INFO root fetch - processPackages [librus-apix]: executing diffoscope
+[2024-04-15 10:00:57] INFO root fetch - processPackages [librus-apix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/librus_apix-0.6.9.post2.tar.gz tmp/librus_apix-0.6.9.post3.tar.gz --markdown 20240415/l/librus-apix/0.6.9.post2-0.6.9.post3/README.md --exclude *.pyd
+[2024-04-15 10:00:57] INFO root fetch - processPackages [sparse-ir]: executing diffoscope
+[2024-04-15 10:00:57] INFO root fetch - processPackages [sparse-ir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparse-ir-1.1.0.tar.gz tmp/sparse-ir-1.1.1.tar.gz --markdown 20240415/s/sparse-ir/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-15 10:00:57] INFO root fetch - processPackages [pyprocessors-openai_completion]: executing diffoscope
+[2024-04-15 10:00:57] INFO root fetch - processPackages [pyprocessors-openai_completion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyprocessors_openai_completion-0.5.96.tar.gz tmp/pyprocessors_openai_completion-0.5.98.tar.gz --markdown 20240415/p/pyprocessors-openai_completion/0.5.96-0.5.98/README.md --exclude *.pyd
+[2024-04-15 10:00:57] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/ef/9e/cac4eb8acb9b4225644a8ecd621bda7df1f3ecf1d132898e9a3ec1ed6723/lusid_sdk-2.1.7.tar.gz
+[2024-04-15 10:00:57] INFO root fetch - processPackages [McStasScript]: Downloading https://files.pythonhosted.org/packages/98/b6/1a25793f77b2d91c1e78b0626694765539da27789bed1c385949e76786f1/McStasScript-0.0.9.tar.gz
+[2024-04-15 10:00:57] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2024-04-15 10:00:57] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_sdk-2.1.5.tar.gz tmp/lusid_sdk-2.1.7.tar.gz --markdown 20240415/l/lusid-sdk/2.1.5-2.1.7/README.md --exclude *.pyd
+[2024-04-15 10:00:57] INFO root fetch - processPackages [telegram-collector]: Remove: archive file [/home/abi/fetcher/tmp/telegram_collector-0.2.8.tar.gz]
+[2024-04-15 10:00:57] INFO root fetch - processPackages [telegram-collector]: Remove: archive file [/home/abi/fetcher/tmp/telegram_collector-0.2.9.tar.gz]
+[2024-04-15 10:00:57] INFO root fetch - main [MainThread]: End processing [telegram-collector]: success
+[2024-04-15 10:00:57] INFO root fetch - processPackages [McStasScript]: executing diffoscope
+[2024-04-15 10:00:57] INFO root fetch - processPackages [McStasScript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/McStasScript-0.0.8.tar.gz tmp/McStasScript-0.0.9.tar.gz --markdown 20240415/M/McStasScript/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-15 10:00:58] INFO root fetch - processPackages [pyromongo]: Remove: archive file [/home/abi/fetcher/tmp/pyromongo-0.0.6.tar.gz]
+[2024-04-15 10:00:58] INFO root fetch - processPackages [pyromongo]: Remove: archive file [/home/abi/fetcher/tmp/pyromongo-0.0.7-py3-none-any.whl.zip]
+[2024-04-15 10:00:58] INFO root fetch - main [MainThread]: End processing [pyromongo]: success
+[2024-04-15 10:00:58] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240414-cp39-cp39-win_amd64.whl.zip]
+[2024-04-15 10:00:58] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240415-cp39-cp39-win_amd64.whl.zip]
+[2024-04-15 10:00:58] INFO root fetch - main [MainThread]: End processing [tf-nightly]: success
+[2024-04-15 10:00:58] INFO root fetch - processPackages [librus-apix]: Remove: archive file [/home/abi/fetcher/tmp/librus_apix-0.6.9.post2.tar.gz]
+[2024-04-15 10:00:58] INFO root fetch - processPackages [librus-apix]: Remove: archive file [/home/abi/fetcher/tmp/librus_apix-0.6.9.post3.tar.gz]
+[2024-04-15 10:00:58] INFO root fetch - main [MainThread]: End processing [librus-apix]: success
+[2024-04-15 10:00:58] INFO root fetch - processPackages [pyprocessors-openai_completion]: Remove: archive file [/home/abi/fetcher/tmp/pyprocessors_openai_completion-0.5.96.tar.gz]
+[2024-04-15 10:00:58] INFO root fetch - processPackages [pyprocessors-openai_completion]: Remove: archive file [/home/abi/fetcher/tmp/pyprocessors_openai_completion-0.5.98.tar.gz]
+[2024-04-15 10:00:58] INFO root fetch - main [MainThread]: End processing [pyprocessors-openai_completion]: success
+[2024-04-15 10:00:58] INFO root fetch - processPackages [sparse-ir]: Remove: archive file [/home/abi/fetcher/tmp/sparse-ir-1.1.0.tar.gz]
+[2024-04-15 10:00:58] INFO root fetch - processPackages [sparse-ir]: Remove: archive file [/home/abi/fetcher/tmp/sparse-ir-1.1.1.tar.gz]
+[2024-04-15 10:00:58] INFO root fetch - main [MainThread]: End processing [sparse-ir]: success
+[2024-04-15 10:00:59] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.6.3.tar.gz]
+[2024-04-15 10:00:59] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.6.4.tar.gz]
+[2024-04-15 10:00:59] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-04-15 10:00:59] INFO root fetch - processPackages [McStasScript]: Remove: archive file [/home/abi/fetcher/tmp/McStasScript-0.0.8.tar.gz]
+[2024-04-15 10:00:59] INFO root fetch - processPackages [McStasScript]: Remove: archive file [/home/abi/fetcher/tmp/McStasScript-0.0.9.tar.gz]
+[2024-04-15 10:00:59] INFO root fetch - main [MainThread]: End processing [McStasScript]: success
+[2024-04-15 10:01:03] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.5.tar.gz]
+[2024-04-15 10:01:03] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.7.tar.gz]
+[2024-04-15 10:01:03] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2024-04-15 10:01:03] INFO root fetch - main [MainThread]: Store serial: [22767566]
