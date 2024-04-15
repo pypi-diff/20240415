@@ -9378,3 +9378,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 08:58:14] INFO root fetch - processPackages [odoo-addon-account-asset-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_asset_management-16.0.1.2.2-py3-none-any.whl.zip]
 [2024-04-15 08:58:14] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-asset-management]: success
 [2024-04-15 08:58:14] INFO root fetch - main [MainThread]: Store serial: [22766999]
+[2024-04-15 09:00:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22766999]
+[2024-04-15 09:00:23] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-15 09:00:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyroscope-io
+[2024-04-15 09:00:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ResearchTikPy
+[2024-04-15 09:00:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sparrowEncryptionDecryption
+[2024-04-15 09:00:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: FATtools
+[2024-04-15 09:00:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MayuriScanner
+[2024-04-15 09:00:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ligo-softioc
+[2024-04-15 09:00:23] INFO root fetch - processPackages [ResearchTikPy]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-15 09:00:23] INFO root fetch - processPackages [pyroscope-io]: New version: [0.8.7] Old Version: [0.8.6]
+[2024-04-15 09:00:23] INFO root fetch - processPackages [ResearchTikPy]: Downloading https://files.pythonhosted.org/packages/bb/87/04aa1e84a52955df89bbc94d8ce805133568e7cca09edafa32ef9ab2df9e/researchtikpy-0.1.3.tar.gz
+[2024-04-15 09:00:23] WARNING root fetch - processPackages [MayuriScanner]: Skipping, unable to determine old version
+[2024-04-15 09:00:23] INFO root fetch - main [MainThread]: End processing [MayuriScanner] error
+[2024-04-15 09:00:23] WARNING root fetch - processPackages [ligo-softioc]: Skipping, unable to determine old version
+[2024-04-15 09:00:23] INFO root fetch - main [MainThread]: End processing [ligo-softioc] error
+[2024-04-15 09:00:23] WARNING root fetch - processPackages [sparrowEncryptionDecryption]: Skipping, unable to determine old version
+[2024-04-15 09:00:23] INFO root fetch - main [MainThread]: End processing [sparrowEncryptionDecryption] error
+[2024-04-15 09:00:23] INFO root fetch - processPackages [FATtools]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-15 09:00:23] INFO root fetch - processPackages [ResearchTikPy]: Downloading https://files.pythonhosted.org/packages/c5/99/659081542c6a023f07966c4effdb221665369440f311234656565ea394a1/researchtikpy-0.1.4.tar.gz
+[2024-04-15 09:00:23] INFO root fetch - processPackages [pyroscope-io]: Downloading https://files.pythonhosted.org/packages/ba/0a/687732da0daead5bf1773127606cd0ea7565638879acbd2d7a42d6a5054b/pyroscope-io-0.8.6.tar.gz
+[2024-04-15 09:00:23] INFO root fetch - processPackages [FATtools]: Downloading https://files.pythonhosted.org/packages/24/24/933a0201b4e55a6e8d2473a7c49c553d69e947253d7b4d4d1626766cef18/FATtools-1.0.8-py3-none-any.whl
+[2024-04-15 09:00:23] INFO root fetch - processPackages [ResearchTikPy]: executing diffoscope
+[2024-04-15 09:00:23] INFO root fetch - processPackages [ResearchTikPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/researchtikpy-0.1.3.tar.gz tmp/researchtikpy-0.1.4.tar.gz --markdown 20240415/R/ResearchTikPy/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-15 09:00:24] INFO root fetch - processPackages [pyroscope-io]: Downloading https://files.pythonhosted.org/packages/5b/ab/adac4ff54f3de7a22ac55b020745beb9414b8ec0dd24fce78453b7d92f0f/pyroscope_io-0.8.7-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-15 09:00:24] INFO root fetch - processPackages [FATtools]: Downloading https://files.pythonhosted.org/packages/39/de/27ad141dc2d3176c8aff292eada5a66869a0d4d7a3435725fda7919a2ea9/FATtools-1.0.9.tar.gz
+[2024-04-15 09:00:24] INFO root fetch - processPackages [FATtools]: executing diffoscope
+[2024-04-15 09:00:24] INFO root fetch - processPackages [FATtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FATtools-1.0.8-py3-none-any.whl.zip tmp/FATtools-1.0.9.tar.gz --markdown 20240415/F/FATtools/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-15 09:00:24] INFO root fetch - processPackages [ResearchTikPy]: Remove: archive file [/home/abi/fetcher/tmp/researchtikpy-0.1.3.tar.gz]
+[2024-04-15 09:00:24] INFO root fetch - processPackages [ResearchTikPy]: Remove: archive file [/home/abi/fetcher/tmp/researchtikpy-0.1.4.tar.gz]
+[2024-04-15 09:00:24] INFO root fetch - main [MainThread]: End processing [ResearchTikPy]: success
+[2024-04-15 09:00:25] INFO root fetch - processPackages [FATtools]: Remove: archive file [/home/abi/fetcher/tmp/FATtools-1.0.8-py3-none-any.whl.zip]
+[2024-04-15 09:00:25] INFO root fetch - processPackages [FATtools]: Remove: archive file [/home/abi/fetcher/tmp/FATtools-1.0.9.tar.gz]
+[2024-04-15 09:00:25] INFO root fetch - main [MainThread]: End processing [FATtools]: success
+[2024-04-15 09:00:25] INFO root fetch - processPackages [pyroscope-io]: executing diffoscope
+[2024-04-15 09:00:25] INFO root fetch - processPackages [pyroscope-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyroscope-io-0.8.6.tar.gz tmp/pyroscope_io-0.8.7-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240415/p/pyroscope-io/0.8.6-0.8.7/README.md --exclude *.pyd
+[2024-04-15 09:00:25] INFO root fetch - processPackages [pyroscope-io]: Remove: archive file [/home/abi/fetcher/tmp/pyroscope-io-0.8.6.tar.gz]
+[2024-04-15 09:00:25] INFO root fetch - processPackages [pyroscope-io]: Remove: archive file [/home/abi/fetcher/tmp/pyroscope_io-0.8.7-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-15 09:00:25] INFO root fetch - main [MainThread]: End processing [pyroscope-io]: success
+[2024-04-15 09:00:25] INFO root fetch - main [MainThread]: Store serial: [22767027]
