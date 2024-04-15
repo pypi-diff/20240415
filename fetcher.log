@@ -1969,3 +1969,36 @@
 [2024-04-15 02:49:57] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.99.tar.gz]
 [2024-04-15 02:49:57] INFO root fetch - main [MainThread]: End processing [autopipeline]: success
 [2024-04-15 02:49:57] INFO root fetch - main [MainThread]: Store serial: [22764034]
+[2024-04-15 02:52:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22764034]
+[2024-04-15 02:52:05] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-15 02:52:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mct-nightly
+[2024-04-15 02:52:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pasta-man
+[2024-04-15 02:52:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pih-plb
+[2024-04-15 02:52:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stringzilla
+[2024-04-15 02:52:05] WARNING root fetch - processPackages [pasta-man]: Skipping, unable to determine old version
+[2024-04-15 02:52:05] INFO root fetch - main [MainThread]: End processing [pasta-man] error
+[2024-04-15 02:52:05] INFO root fetch - processPackages [pih-plb]: New version: [0.13] Old Version: [0.12]
+[2024-04-15 02:52:05] INFO root fetch - processPackages [stringzilla]: New version: [3.8.0] Old Version: [3.7.3]
+[2024-04-15 02:52:05] INFO root fetch - processPackages [mct-nightly]: New version: [2.0.0.20240415.5018] Old Version: [2.0.0.20240414.858]
+[2024-04-15 02:52:05] INFO root fetch - processPackages [pih-plb]: Downloading https://files.pythonhosted.org/packages/74/9c/aec19515de4968c07daee9a426786a864910fcd6f5586bfa3da6335ae05e/pih-plb-0.12.tar.gz
+[2024-04-15 02:52:05] INFO root fetch - processPackages [stringzilla]: Downloading https://files.pythonhosted.org/packages/46/2b/8c4e142f71ae79b7f97981c4ec92a7061dd9ccba274b943099f5a1ca9aa0/stringzilla-3.7.3-cp39-cp39-win_arm64.whl
+[2024-04-15 02:52:05] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/12/54/8eb58debaca9e150b336e9175b5e11a439bc9e92ac7e3f202b6749523620/mct-nightly-2.0.0.20240414.858.tar.gz
+[2024-04-15 02:52:06] INFO root fetch - processPackages [pih-plb]: Downloading https://files.pythonhosted.org/packages/f1/1f/e3a2dfc7fe7ef7fbd2c98b92ef28bdf5bd53f9bebd09b2f2e6b637adc3c6/pih-plb-0.13.tar.gz
+[2024-04-15 02:52:06] INFO root fetch - processPackages [pih-plb]: executing diffoscope
+[2024-04-15 02:52:06] INFO root fetch - processPackages [pih-plb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-plb-0.12.tar.gz tmp/pih-plb-0.13.tar.gz --markdown 20240415/p/pih-plb/0.12-0.13/README.md --exclude *.pyd
+[2024-04-15 02:52:06] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/f6/3f/0da491a3a3409a4706db36d568714d4035785332ae1317ffc9c8d675bd2a/mct-nightly-2.0.0.20240415.5018.tar.gz
+[2024-04-15 02:52:06] INFO root fetch - processPackages [stringzilla]: Downloading https://files.pythonhosted.org/packages/c1/e9/12419f2bf8204de658501571ef3cb73a9117f764339f7f2316b0a026c910/stringzilla-3.8.0-cp310-cp310-macosx_11_0_arm64.whl
+[2024-04-15 02:52:06] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2024-04-15 02:52:06] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-2.0.0.20240414.858.tar.gz tmp/mct-nightly-2.0.0.20240415.5018.tar.gz --markdown 20240415/m/mct-nightly/2.0.0.20240414.858-2.0.0.20240415.5018/README.md --exclude *.pyd
+[2024-04-15 02:52:06] INFO root fetch - processPackages [pih-plb]: Remove: archive file [/home/abi/fetcher/tmp/pih-plb-0.12.tar.gz]
+[2024-04-15 02:52:06] INFO root fetch - processPackages [pih-plb]: Remove: archive file [/home/abi/fetcher/tmp/pih-plb-0.13.tar.gz]
+[2024-04-15 02:52:06] INFO root fetch - main [MainThread]: End processing [pih-plb]: success
+[2024-04-15 02:52:07] INFO root fetch - processPackages [stringzilla]: executing diffoscope
+[2024-04-15 02:52:07] INFO root fetch - processPackages [stringzilla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stringzilla-3.7.3-cp39-cp39-win_arm64.whl.zip tmp/stringzilla-3.8.0-cp310-cp310-macosx_11_0_arm64.whl.zip --markdown 20240415/s/stringzilla/3.7.3-3.8.0/README.md --exclude *.pyd
+[2024-04-15 02:52:07] INFO root fetch - processPackages [stringzilla]: Remove: archive file [/home/abi/fetcher/tmp/stringzilla-3.7.3-cp39-cp39-win_arm64.whl.zip]
+[2024-04-15 02:52:07] INFO root fetch - processPackages [stringzilla]: Remove: archive file [/home/abi/fetcher/tmp/stringzilla-3.8.0-cp310-cp310-macosx_11_0_arm64.whl.zip]
+[2024-04-15 02:52:07] INFO root fetch - main [MainThread]: End processing [stringzilla]: success
+[2024-04-15 02:52:08] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240414.858.tar.gz]
+[2024-04-15 02:52:08] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240415.5018.tar.gz]
+[2024-04-15 02:52:08] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2024-04-15 02:52:08] INFO root fetch - main [MainThread]: Store serial: [22764048]
