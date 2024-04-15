@@ -1636,3 +1636,27 @@
 [2024-04-15 02:16:53] INFO root fetch - processPackages [steelpy]: Remove: archive file [/home/abi/fetcher/tmp/steelpy-0.1.3.tar.gz]
 [2024-04-15 02:16:53] INFO root fetch - main [MainThread]: End processing [steelpy]: success
 [2024-04-15 02:16:53] INFO root fetch - main [MainThread]: Store serial: [22763862]
+[2024-04-15 02:18:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22763862]
+[2024-04-15 02:19:01] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-15 02:19:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: recommender-agent
+[2024-04-15 02:19:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: byzerllm
+[2024-04-15 02:19:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lollms-client
+[2024-04-15 02:19:02] INFO root fetch - processPackages [lollms-client]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-04-15 02:19:02] WARNING root fetch - processPackages [recommender-agent]: Skipping, unable to determine old version
+[2024-04-15 02:19:02] INFO root fetch - main [MainThread]: End processing [recommender-agent] error
+[2024-04-15 02:19:02] INFO root fetch - processPackages [byzerllm]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-15 02:19:02] INFO root fetch - processPackages [lollms-client]: Downloading https://files.pythonhosted.org/packages/58/be/5eca8bf5270b260a798b49df187490998135eb5bc2a3dacd4bcf1234c78a/lollms_client-0.2.9.tar.gz
+[2024-04-15 02:19:02] INFO root fetch - processPackages [byzerllm]: Downloading https://files.pythonhosted.org/packages/98/c6/1563f4025ee67d92445c7867c7ca1ad9c523055b4708ddd5ab2dab480c51/byzerllm-0.1.8.tar.gz
+[2024-04-15 02:19:02] INFO root fetch - processPackages [lollms-client]: Downloading https://files.pythonhosted.org/packages/21/1b/db9b7997e290a3a73fa61125f669e940757ef41896089df950bf255c4dc4/lollms_client-0.3.0.tar.gz
+[2024-04-15 02:19:02] INFO root fetch - processPackages [lollms-client]: executing diffoscope
+[2024-04-15 02:19:02] INFO root fetch - processPackages [lollms-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lollms_client-0.2.9.tar.gz tmp/lollms_client-0.3.0.tar.gz --markdown 20240415/l/lollms-client/0.2.9-0.3.0/README.md --exclude *.pyd
+[2024-04-15 02:19:02] INFO root fetch - processPackages [byzerllm]: Downloading https://files.pythonhosted.org/packages/a0/04/10289d36794dda29e2a889dcf2e412dcd39997cf2bc11d5af1bcc4670b3d/byzerllm-0.1.9.tar.gz
+[2024-04-15 02:19:03] INFO root fetch - processPackages [byzerllm]: executing diffoscope
+[2024-04-15 02:19:03] INFO root fetch - processPackages [byzerllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/byzerllm-0.1.8.tar.gz tmp/byzerllm-0.1.9.tar.gz --markdown 20240415/b/byzerllm/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-15 02:19:03] INFO root fetch - processPackages [lollms-client]: Remove: archive file [/home/abi/fetcher/tmp/lollms_client-0.2.9.tar.gz]
+[2024-04-15 02:19:03] INFO root fetch - processPackages [lollms-client]: Remove: archive file [/home/abi/fetcher/tmp/lollms_client-0.3.0.tar.gz]
+[2024-04-15 02:19:03] INFO root fetch - main [MainThread]: End processing [lollms-client]: success
+[2024-04-15 02:19:04] INFO root fetch - processPackages [byzerllm]: Remove: archive file [/home/abi/fetcher/tmp/byzerllm-0.1.8.tar.gz]
+[2024-04-15 02:19:04] INFO root fetch - processPackages [byzerllm]: Remove: archive file [/home/abi/fetcher/tmp/byzerllm-0.1.9.tar.gz]
+[2024-04-15 02:19:04] INFO root fetch - main [MainThread]: End processing [byzerllm]: success
+[2024-04-15 02:19:04] INFO root fetch - main [MainThread]: Store serial: [22763873]
