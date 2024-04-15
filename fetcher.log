@@ -20847,3 +20847,72 @@ EOFError: EOF read where object expected
 [2024-04-15 15:50:57] INFO root fetch - processPackages [imio.webspellchecker]: Remove: archive file [/home/abi/fetcher/tmp/imio.webspellchecker-1.0b7.tar.gz]
 [2024-04-15 15:50:57] INFO root fetch - main [MainThread]: End processing [imio.webspellchecker]: success
 [2024-04-15 15:50:57] INFO root fetch - main [MainThread]: Store serial: [22772034]
+[2024-04-15 15:53:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22772034]
+[2024-04-15 15:53:07] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-15 15:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sourceclass
+[2024-04-15 15:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mrsegmentator
+[2024-04-15 15:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wowicache
+[2024-04-15 15:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pdfminer.rtl
+[2024-04-15 15:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cobra-io
+[2024-04-15 15:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: slapos.libnetworkcache
+[2024-04-15 15:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: altscore
+[2024-04-15 15:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zhmiscellany
+[2024-04-15 15:53:07] INFO root fetch - processPackages [sourceclass]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-15 15:53:07] INFO root fetch - processPackages [altscore]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-15 15:53:07] INFO root fetch - processPackages [zhmiscellany]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-04-15 15:53:07] INFO root fetch - processPackages [pdfminer.rtl]: New version: [0.0.2.dev3] Old Version: [0.0.1]
+[2024-04-15 15:53:07] INFO root fetch - processPackages [sourceclass]: Downloading https://files.pythonhosted.org/packages/40/1f/776f824c8f9d4ca2762de1bf6b6aabfa8330eec8bd77e5d117f44ac9fda4/sourceclass-0.1.5.tar.gz
+[2024-04-15 15:53:07] INFO root fetch - processPackages [wowicache]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-15 15:53:07] WARNING root fetch - processPackages [mrsegmentator]: Skipping, unable to determine old version
+[2024-04-15 15:53:07] INFO root fetch - main [MainThread]: End processing [mrsegmentator] error
+[2024-04-15 15:53:07] INFO root fetch - processPackages [cobra-io]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-15 15:53:07] INFO root fetch - processPackages [slapos.libnetworkcache]: New version: [0.9] Old Version: [0.8]
+[2024-04-15 15:53:07] INFO root fetch - processPackages [altscore]: Downloading https://files.pythonhosted.org/packages/5f/a6/fb416592a06e3f048aaf0891b596bd989dcd5841cb33ab09db5bb52d0970/altscore-0.1.98.tar.gz
+[2024-04-15 15:53:07] INFO root fetch - processPackages [zhmiscellany]: Downloading https://files.pythonhosted.org/packages/fd/6f/676e18714ef1ba8916d770c252cf2f4ca76c9ec0c917f9e653511eab5db2/zhmiscellany-1.9.2-py3-none-any.whl
+[2024-04-15 15:53:07] INFO root fetch - processPackages [pdfminer.rtl]: Downloading https://files.pythonhosted.org/packages/ca/39/8f442f9326d0c31d174d33883e6d70b5b4f75dcaed7e261b3918d0315f4f/pdfminer_rtl-0.0.1.tar.gz
+[2024-04-15 15:53:07] INFO root fetch - processPackages [wowicache]: Downloading https://files.pythonhosted.org/packages/6d/2a/10fd322fb6e96375c9bd3467399c6fb25522333925921b01b3d9fc4a65b3/wowicache-1.0.8.tar.gz
+[2024-04-15 15:53:07] INFO root fetch - processPackages [cobra-io]: Downloading https://files.pythonhosted.org/packages/4c/c7/3929fdd859d1299c29c6c2a5c995a56792745e833c63e4210ab77b2b6718/cobra_io-0.0.3-py3-none-any.whl
+[2024-04-15 15:53:07] INFO root fetch - processPackages [slapos.libnetworkcache]: Downloading https://files.pythonhosted.org/packages/ce/56/c353c694e10f619206897bec233de3e5f3ebaeaa609548d866abd44c13cc/slapos.libnetworkcache-0.8.tar.gz
+[2024-04-15 15:53:07] INFO root fetch - processPackages [altscore]: Downloading https://files.pythonhosted.org/packages/e3/b6/865ff08cbdee5b1522cc15ce8760f46380d0a77722135623bdfa5b3ab9f5/altscore-0.1.99.tar.gz
+[2024-04-15 15:53:07] INFO root fetch - processPackages [sourceclass]: Downloading https://files.pythonhosted.org/packages/b0/44/bf6302cd31362b93e6e1ddf5e252f1cf879f6e5ac0ef65495b81f5546b06/sourceclass-0.1.6.tar.gz
+[2024-04-15 15:53:07] INFO root fetch - processPackages [zhmiscellany]: Downloading https://files.pythonhosted.org/packages/56/47/cfbc8320f9fc71f93edb5845716ba757c97e3d0726e940c70285ce87726b/zhmiscellany-1.9.3-py3-none-any.whl
+[2024-04-15 15:53:07] INFO root fetch - processPackages [altscore]: executing diffoscope
+[2024-04-15 15:53:07] INFO root fetch - processPackages [altscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/altscore-0.1.98.tar.gz tmp/altscore-0.1.99.tar.gz --markdown 20240415/a/altscore/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-15 15:53:07] INFO root fetch - processPackages [sourceclass]: executing diffoscope
+[2024-04-15 15:53:07] INFO root fetch - processPackages [sourceclass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sourceclass-0.1.5.tar.gz tmp/sourceclass-0.1.6.tar.gz --markdown 20240415/s/sourceclass/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-15 15:53:07] INFO root fetch - processPackages [zhmiscellany]: executing diffoscope
+[2024-04-15 15:53:07] INFO root fetch - processPackages [zhmiscellany]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhmiscellany-1.9.2-py3-none-any.whl.zip tmp/zhmiscellany-1.9.3-py3-none-any.whl.zip --markdown 20240415/z/zhmiscellany/1.9.2-1.9.3/README.md --exclude *.pyd
+[2024-04-15 15:53:07] INFO root fetch - processPackages [cobra-io]: Downloading https://files.pythonhosted.org/packages/67/0d/c691a8c9dc4de5bd5ff16ac2fb5c15d563025f9b6bd1c5eba8aab3598be7/cobra_io-0.0.4-py3-none-any.whl
+[2024-04-15 15:53:08] INFO root fetch - processPackages [wowicache]: Downloading https://files.pythonhosted.org/packages/f0/b8/ddf219ba6efa11cc020aa96133fa8a9496e36b3cb325588df560c6eb5340/wowicache-1.0.9.tar.gz
+[2024-04-15 15:53:08] INFO root fetch - processPackages [slapos.libnetworkcache]: Downloading https://files.pythonhosted.org/packages/49/fe/603acb32114b3a3cc5e548148f857d77a1d768bd5f4535791ee6e20229cd/slapos.libnetworkcache-0.9.tar.gz
+[2024-04-15 15:53:08] INFO root fetch - processPackages [wowicache]: executing diffoscope
+[2024-04-15 15:53:08] INFO root fetch - processPackages [wowicache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wowicache-1.0.8.tar.gz tmp/wowicache-1.0.9.tar.gz --markdown 20240415/w/wowicache/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-15 15:53:08] INFO root fetch - processPackages [slapos.libnetworkcache]: executing diffoscope
+[2024-04-15 15:53:08] INFO root fetch - processPackages [slapos.libnetworkcache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slapos.libnetworkcache-0.8.tar.gz tmp/slapos.libnetworkcache-0.9.tar.gz --markdown 20240415/s/slapos.libnetworkcache/0.8-0.9/README.md --exclude *.pyd
+[2024-04-15 15:53:08] INFO root fetch - processPackages [cobra-io]: executing diffoscope
+[2024-04-15 15:53:08] INFO root fetch - processPackages [cobra-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cobra_io-0.0.3-py3-none-any.whl.zip tmp/cobra_io-0.0.4-py3-none-any.whl.zip --markdown 20240415/c/cobra-io/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-15 15:53:08] INFO root fetch - processPackages [pdfminer.rtl]: Downloading https://files.pythonhosted.org/packages/dd/15/c0ab2439c69d3098f90cc615858b7f7d8b5acc592d03d01f68be21cd09c5/pdfminer_rtl-0.0.2.dev3.tar.gz
+[2024-04-15 15:53:08] INFO root fetch - processPackages [sourceclass]: Remove: archive file [/home/abi/fetcher/tmp/sourceclass-0.1.5.tar.gz]
+[2024-04-15 15:53:08] INFO root fetch - processPackages [sourceclass]: Remove: archive file [/home/abi/fetcher/tmp/sourceclass-0.1.6.tar.gz]
+[2024-04-15 15:53:08] INFO root fetch - main [MainThread]: End processing [sourceclass]: success
+[2024-04-15 15:53:08] INFO root fetch - processPackages [zhmiscellany]: Remove: archive file [/home/abi/fetcher/tmp/zhmiscellany-1.9.2-py3-none-any.whl.zip]
+[2024-04-15 15:53:08] INFO root fetch - processPackages [zhmiscellany]: Remove: archive file [/home/abi/fetcher/tmp/zhmiscellany-1.9.3-py3-none-any.whl.zip]
+[2024-04-15 15:53:08] INFO root fetch - main [MainThread]: End processing [zhmiscellany]: success
+[2024-04-15 15:53:08] INFO root fetch - processPackages [altscore]: Remove: archive file [/home/abi/fetcher/tmp/altscore-0.1.98.tar.gz]
+[2024-04-15 15:53:08] INFO root fetch - processPackages [altscore]: Remove: archive file [/home/abi/fetcher/tmp/altscore-0.1.99.tar.gz]
+[2024-04-15 15:53:08] INFO root fetch - main [MainThread]: End processing [altscore]: success
+[2024-04-15 15:53:08] INFO root fetch - processPackages [wowicache]: Remove: archive file [/home/abi/fetcher/tmp/wowicache-1.0.8.tar.gz]
+[2024-04-15 15:53:08] INFO root fetch - processPackages [wowicache]: Remove: archive file [/home/abi/fetcher/tmp/wowicache-1.0.9.tar.gz]
+[2024-04-15 15:53:08] INFO root fetch - main [MainThread]: End processing [wowicache]: success
+[2024-04-15 15:53:08] INFO root fetch - processPackages [slapos.libnetworkcache]: Remove: archive file [/home/abi/fetcher/tmp/slapos.libnetworkcache-0.8.tar.gz]
+[2024-04-15 15:53:08] INFO root fetch - processPackages [slapos.libnetworkcache]: Remove: archive file [/home/abi/fetcher/tmp/slapos.libnetworkcache-0.9.tar.gz]
+[2024-04-15 15:53:08] INFO root fetch - main [MainThread]: End processing [slapos.libnetworkcache]: success
+[2024-04-15 15:53:08] INFO root fetch - processPackages [cobra-io]: Remove: archive file [/home/abi/fetcher/tmp/cobra_io-0.0.3-py3-none-any.whl.zip]
+[2024-04-15 15:53:08] INFO root fetch - processPackages [cobra-io]: Remove: archive file [/home/abi/fetcher/tmp/cobra_io-0.0.4-py3-none-any.whl.zip]
+[2024-04-15 15:53:08] INFO root fetch - main [MainThread]: End processing [cobra-io]: success
+[2024-04-15 15:53:09] INFO root fetch - processPackages [pdfminer.rtl]: executing diffoscope
+[2024-04-15 15:53:09] INFO root fetch - processPackages [pdfminer.rtl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdfminer_rtl-0.0.1.tar.gz tmp/pdfminer_rtl-0.0.2.dev3.tar.gz --markdown 20240415/p/pdfminer.rtl/0.0.1-0.0.2.dev3/README.md --exclude *.pyd
+[2024-04-15 15:53:11] INFO root fetch - processPackages [pdfminer.rtl]: Remove: archive file [/home/abi/fetcher/tmp/pdfminer_rtl-0.0.1.tar.gz]
+[2024-04-15 15:53:11] INFO root fetch - processPackages [pdfminer.rtl]: Remove: archive file [/home/abi/fetcher/tmp/pdfminer_rtl-0.0.2.dev3.tar.gz]
+[2024-04-15 15:53:11] INFO root fetch - main [MainThread]: End processing [pdfminer.rtl]: success
+[2024-04-15 15:53:11] INFO root fetch - main [MainThread]: Store serial: [22772076]
