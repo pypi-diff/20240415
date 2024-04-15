@@ -8383,3 +8383,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 08:11:51] INFO root fetch - processPackages [radical.pilot]: Remove: archive file [/home/abi/fetcher/tmp/radical.pilot-1.9.2.tar.gz]
 [2024-04-15 08:11:51] INFO root fetch - main [MainThread]: End processing [radical.pilot]: success
 [2024-04-15 08:11:51] INFO root fetch - main [MainThread]: Store serial: [22766554]
+[2024-04-15 08:13:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22766554]
+[2024-04-15 08:13:59] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-15 08:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: radical.analytics
+[2024-04-15 08:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libreppc
+[2024-04-15 08:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: LLMSmith
+[2024-04-15 08:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: easy-utils-dev
+[2024-04-15 08:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nimmpy
+[2024-04-15 08:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autopipeline
+[2024-04-15 08:14:00] INFO root fetch - processPackages [libreppc]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-15 08:14:00] INFO root fetch - processPackages [radical.analytics]: New version: [1.6.7] Old Version: [1.5.0]
+[2024-04-15 08:14:00] INFO root fetch - processPackages [autopipeline]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-15 08:14:00] WARNING root fetch - processPackages [nimmpy]: Skipping, unable to determine old version
+[2024-04-15 08:14:00] INFO root fetch - main [MainThread]: End processing [nimmpy] error
+[2024-04-15 08:14:00] INFO root fetch - processPackages [libreppc]: Downloading https://files.pythonhosted.org/packages/63/44/c9a923c67a34205a69b9b6890ad0f90ba61db13d8a99e461248a5b005629/libreppc-0.1.7.tar.gz
+[2024-04-15 08:14:00] INFO root fetch - processPackages [LLMSmith]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-04-15 08:14:00] INFO root fetch - processPackages [easy-utils-dev]: New version: [2.9] Old Version: [2.8.9]
+[2024-04-15 08:14:00] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/0f/9eaf209b6d540115afdc9ae31de828df0234756277bceae49a4d1a0ea8b3/autopipeline-0.1.98.tar.gz
+[2024-04-15 08:14:00] INFO root fetch - processPackages [radical.analytics]: Downloading https://files.pythonhosted.org/packages/7b/7c/1b8c292d299a1fb7d166102d20468f1201b41c673bc19d219d6c0b741b8c/radical.analytics-1.5.0.tar.gz
+[2024-04-15 08:14:00] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/4a/f3df97d414e0a5e9120459fd5c7ab663092d540df59f7deacc45810deb41/autopipeline-0.1.99.tar.gz
+[2024-04-15 08:14:00] INFO root fetch - processPackages [LLMSmith]: Downloading https://files.pythonhosted.org/packages/0e/9e/a0ceba2e681c400c1761bc2abbac5f698c648fbd90b8ffc90581e944c2dc/llmsmith-0.1.2.tar.gz
+[2024-04-15 08:14:00] INFO root fetch - processPackages [easy-utils-dev]: Downloading https://files.pythonhosted.org/packages/cb/9e/733069bda720d8bb6841ec493e820c3c09b9c4914d51ce9ac1c70aa88fe9/easy_utils_dev-2.8.9.tar.gz
+[2024-04-15 08:14:00] INFO root fetch - processPackages [libreppc]: Downloading https://files.pythonhosted.org/packages/cc/dc/b117805623dfc2354cd0418fab5b49cc67628de42e822934f83784b30d94/libreppc-0.1.8.tar.gz
+[2024-04-15 08:14:00] INFO root fetch - processPackages [autopipeline]: executing diffoscope
+[2024-04-15 08:14:00] INFO root fetch - processPackages [autopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopipeline-0.1.98.tar.gz tmp/autopipeline-0.1.99.tar.gz --markdown 20240415/a/autopipeline/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-15 08:14:00] INFO root fetch - processPackages [libreppc]: executing diffoscope
+[2024-04-15 08:14:00] INFO root fetch - processPackages [libreppc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libreppc-0.1.7.tar.gz tmp/libreppc-0.1.8.tar.gz --markdown 20240415/l/libreppc/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-04-15 08:14:00] INFO root fetch - processPackages [LLMSmith]: Downloading https://files.pythonhosted.org/packages/7c/63/b4b846926b313cbe27ee1ac79c595a49a831843e8ea8107a437a3cafb80e/llmsmith-0.2.0.tar.gz
+[2024-04-15 08:14:00] INFO root fetch - processPackages [easy-utils-dev]: Downloading https://files.pythonhosted.org/packages/b1/41/949c545adcca86889ccc3d216767da8bc2fa4706f94522b0163f517f1626/easy_utils_dev-2.9.tar.gz
+[2024-04-15 08:14:00] INFO root fetch - processPackages [LLMSmith]: executing diffoscope
+[2024-04-15 08:14:00] INFO root fetch - processPackages [LLMSmith]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmsmith-0.1.2.tar.gz tmp/llmsmith-0.2.0.tar.gz --markdown 20240415/L/LLMSmith/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-04-15 08:14:01] INFO root fetch - processPackages [easy-utils-dev]: executing diffoscope
+[2024-04-15 08:14:01] INFO root fetch - processPackages [easy-utils-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_utils_dev-2.8.9.tar.gz tmp/easy_utils_dev-2.9.tar.gz --markdown 20240415/e/easy-utils-dev/2.8.9-2.9/README.md --exclude *.pyd
+[2024-04-15 08:14:01] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.98.tar.gz]
+[2024-04-15 08:14:01] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.99.tar.gz]
+[2024-04-15 08:14:01] INFO root fetch - main [MainThread]: End processing [autopipeline]: success
+[2024-04-15 08:14:01] INFO root fetch - processPackages [libreppc]: Remove: archive file [/home/abi/fetcher/tmp/libreppc-0.1.7.tar.gz]
+[2024-04-15 08:14:01] INFO root fetch - processPackages [libreppc]: Remove: archive file [/home/abi/fetcher/tmp/libreppc-0.1.8.tar.gz]
+[2024-04-15 08:14:01] INFO root fetch - main [MainThread]: End processing [libreppc]: success
+[2024-04-15 08:14:01] INFO root fetch - processPackages [LLMSmith]: Remove: archive file [/home/abi/fetcher/tmp/llmsmith-0.1.2.tar.gz]
+[2024-04-15 08:14:01] INFO root fetch - processPackages [LLMSmith]: Remove: archive file [/home/abi/fetcher/tmp/llmsmith-0.2.0.tar.gz]
+[2024-04-15 08:14:01] INFO root fetch - main [MainThread]: End processing [LLMSmith]: success
+[2024-04-15 08:14:01] INFO root fetch - processPackages [radical.analytics]: Downloading https://files.pythonhosted.org/packages/dd/ea/c60eeaf6b1275bfd4aa95f6d7e3b3969cfd767711c0f98183e5d86535c37/radical.analytics-1.6.7.tar.gz
+[2024-04-15 08:14:01] INFO root fetch - processPackages [easy-utils-dev]: Remove: archive file [/home/abi/fetcher/tmp/easy_utils_dev-2.8.9.tar.gz]
+[2024-04-15 08:14:01] INFO root fetch - processPackages [easy-utils-dev]: Remove: archive file [/home/abi/fetcher/tmp/easy_utils_dev-2.9.tar.gz]
+[2024-04-15 08:14:01] INFO root fetch - main [MainThread]: End processing [easy-utils-dev]: success
+[2024-04-15 08:14:02] INFO root fetch - processPackages [radical.analytics]: executing diffoscope
+[2024-04-15 08:14:02] INFO root fetch - processPackages [radical.analytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radical.analytics-1.5.0.tar.gz tmp/radical.analytics-1.6.7.tar.gz --markdown 20240415/r/radical.analytics/1.5.0-1.6.7/README.md --exclude *.pyd
+[2024-04-15 08:14:04] INFO root fetch - processPackages [radical.analytics]: Remove: archive file [/home/abi/fetcher/tmp/radical.analytics-1.5.0.tar.gz]
+[2024-04-15 08:14:04] INFO root fetch - processPackages [radical.analytics]: Remove: archive file [/home/abi/fetcher/tmp/radical.analytics-1.6.7.tar.gz]
+[2024-04-15 08:14:04] INFO root fetch - main [MainThread]: End processing [radical.analytics]: success
+[2024-04-15 08:14:04] INFO root fetch - main [MainThread]: Store serial: [22766574]
