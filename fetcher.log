@@ -9711,3 +9711,24 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 09:14:58] INFO root fetch - processPackages [tjax]: Remove: archive file [/home/abi/fetcher/tmp/tjax-0.9.0.tar.gz]
 [2024-04-15 09:14:58] INFO root fetch - main [MainThread]: End processing [tjax]: success
 [2024-04-15 09:14:58] INFO root fetch - main [MainThread]: Store serial: [22767133]
+[2024-04-15 09:17:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22767133]
+[2024-04-15 09:17:06] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-15 09:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jiebanlp
+[2024-04-15 09:17:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lxa-iobus
+[2024-04-15 09:17:06] INFO root fetch - processPackages [jiebanlp]: New version: [0.2.1] Old Version: [0.1.1]
+[2024-04-15 09:17:07] INFO root fetch - processPackages [jiebanlp]: Downloading https://files.pythonhosted.org/packages/d4/fa/e3fb46d9149c6861050669616bc120cab87c2e9972bbbe53a47d52ef7087/jiebanlp-0.1.1.tar.gz
+[2024-04-15 09:17:07] INFO root fetch - processPackages [lxa-iobus]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-04-15 09:17:07] INFO root fetch - processPackages [lxa-iobus]: Downloading https://files.pythonhosted.org/packages/17/69/c2eedb0400427a79e986b7e8500cfb7757ac827a1423f0564e5c4132eaed/lxa-iobus-0.5.0.tar.gz
+[2024-04-15 09:17:07] INFO root fetch - processPackages [jiebanlp]: Downloading https://files.pythonhosted.org/packages/c7/26/8676f27d49a3c9b3ee78319663a4945b202dc8130a49442e81aeb3a3958e/jiebanlp-0.2.1.tar.gz
+[2024-04-15 09:17:07] INFO root fetch - processPackages [jiebanlp]: executing diffoscope
+[2024-04-15 09:17:07] INFO root fetch - processPackages [jiebanlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jiebanlp-0.1.1.tar.gz tmp/jiebanlp-0.2.1.tar.gz --markdown 20240415/j/jiebanlp/0.1.1-0.2.1/README.md --exclude *.pyd
+[2024-04-15 09:17:07] INFO root fetch - processPackages [lxa-iobus]: Downloading https://files.pythonhosted.org/packages/df/dc/a0c5055b72e1215454805c35c35f55ab10d01947851d70e250a8449b6739/lxa_iobus-0.5.1.tar.gz
+[2024-04-15 09:17:07] INFO root fetch - processPackages [lxa-iobus]: executing diffoscope
+[2024-04-15 09:17:07] INFO root fetch - processPackages [lxa-iobus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lxa-iobus-0.5.0.tar.gz tmp/lxa_iobus-0.5.1.tar.gz --markdown 20240415/l/lxa-iobus/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-04-15 09:17:07] INFO root fetch - processPackages [jiebanlp]: Remove: archive file [/home/abi/fetcher/tmp/jiebanlp-0.1.1.tar.gz]
+[2024-04-15 09:17:07] INFO root fetch - processPackages [jiebanlp]: Remove: archive file [/home/abi/fetcher/tmp/jiebanlp-0.2.1.tar.gz]
+[2024-04-15 09:17:07] INFO root fetch - main [MainThread]: End processing [jiebanlp]: success
+[2024-04-15 09:17:08] INFO root fetch - processPackages [lxa-iobus]: Remove: archive file [/home/abi/fetcher/tmp/lxa-iobus-0.5.0.tar.gz]
+[2024-04-15 09:17:08] INFO root fetch - processPackages [lxa-iobus]: Remove: archive file [/home/abi/fetcher/tmp/lxa_iobus-0.5.1.tar.gz]
+[2024-04-15 09:17:08] INFO root fetch - main [MainThread]: End processing [lxa-iobus]: success
+[2024-04-15 09:17:08] INFO root fetch - main [MainThread]: Store serial: [22767139]
