@@ -1685,3 +1685,54 @@
 [2024-04-15 02:26:05] INFO root fetch - processPackages [burr]: Remove: archive file [/home/abi/fetcher/tmp/burr-0.9.0.tar.gz]
 [2024-04-15 02:26:05] INFO root fetch - main [MainThread]: End processing [burr]: success
 [2024-04-15 02:26:05] INFO root fetch - main [MainThread]: Store serial: [22763882]
+[2024-04-15 02:28:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22763882]
+[2024-04-15 02:28:15] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-15 02:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tosspay
+[2024-04-15 02:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yoto-api
+[2024-04-15 02:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autopipeline
+[2024-04-15 02:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pih
+[2024-04-15 02:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pih-plb-ntf-answ
+[2024-04-15 02:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: byzerllm
+[2024-04-15 02:28:15] INFO root fetch - processPackages [autopipeline]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-15 02:28:15] INFO root fetch - processPackages [yoto-api]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-15 02:28:15] INFO root fetch - processPackages [byzerllm]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-15 02:28:15] WARNING root fetch - processPackages [tosspay]: Skipping, unable to determine old version
+[2024-04-15 02:28:15] INFO root fetch - main [MainThread]: End processing [tosspay] error
+[2024-04-15 02:28:15] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/0f/9eaf209b6d540115afdc9ae31de828df0234756277bceae49a4d1a0ea8b3/autopipeline-0.1.98.tar.gz
+[2024-04-15 02:28:15] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/de/f4/5ee0600af4a566d3f479406bf7395f04ea324d4c920e0a5443915f286413/yoto_api-1.0.8.tar.gz
+[2024-04-15 02:28:15] INFO root fetch - processPackages [pih]: New version: [0.36.5] Old Version: [0.36.4]
+[2024-04-15 02:28:15] INFO root fetch - processPackages [pih-plb-ntf-answ]: New version: [0.13] Old Version: [0.12]
+[2024-04-15 02:28:15] INFO root fetch - processPackages [byzerllm]: Downloading https://files.pythonhosted.org/packages/98/c6/1563f4025ee67d92445c7867c7ca1ad9c523055b4708ddd5ab2dab480c51/byzerllm-0.1.8.tar.gz
+[2024-04-15 02:28:15] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/09/69/13a7d883f2d6c1c7e3af46239af0b780574a1efa5114b1207cbd58224656/pih-0.36.4.tar.gz
+[2024-04-15 02:28:15] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/29/29/1b344cc343dfdd31eed135d8da17d3752522853f41f4af8843665d80102f/yoto_api-1.0.9.tar.gz
+[2024-04-15 02:28:15] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/4a/f3df97d414e0a5e9120459fd5c7ab663092d540df59f7deacc45810deb41/autopipeline-0.1.99.tar.gz
+[2024-04-15 02:28:15] INFO root fetch - processPackages [pih-plb-ntf-answ]: Downloading https://files.pythonhosted.org/packages/a1/26/ccc69f2c6d6127eda529ef916bd0adabb3381213bb021101015faf70ec2e/pih-plb_ntf_answ-0.12.tar.gz
+[2024-04-15 02:28:15] INFO root fetch - processPackages [yoto-api]: executing diffoscope
+[2024-04-15 02:28:15] INFO root fetch - processPackages [yoto-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yoto_api-1.0.8.tar.gz tmp/yoto_api-1.0.9.tar.gz --markdown 20240415/y/yoto-api/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-15 02:28:15] INFO root fetch - processPackages [autopipeline]: executing diffoscope
+[2024-04-15 02:28:15] INFO root fetch - processPackages [autopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopipeline-0.1.98.tar.gz tmp/autopipeline-0.1.99.tar.gz --markdown 20240415/a/autopipeline/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-15 02:28:15] INFO root fetch - processPackages [byzerllm]: Downloading https://files.pythonhosted.org/packages/a0/04/10289d36794dda29e2a889dcf2e412dcd39997cf2bc11d5af1bcc4670b3d/byzerllm-0.1.9.tar.gz
+[2024-04-15 02:28:16] INFO root fetch - processPackages [pih-plb-ntf-answ]: Downloading https://files.pythonhosted.org/packages/69/19/84f982f65239cd038852180dbcdc24470e6ddd7e4e74411d93ed073d0088/pih-plb_ntf_answ-0.13.tar.gz
+[2024-04-15 02:28:16] INFO root fetch - processPackages [byzerllm]: executing diffoscope
+[2024-04-15 02:28:16] INFO root fetch - processPackages [byzerllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/byzerllm-0.1.8.tar.gz tmp/byzerllm-0.1.9.tar.gz --markdown 20240415/b/byzerllm/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-15 02:28:16] INFO root fetch - processPackages [pih-plb-ntf-answ]: executing diffoscope
+[2024-04-15 02:28:16] INFO root fetch - processPackages [pih-plb-ntf-answ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-plb_ntf_answ-0.12.tar.gz tmp/pih-plb_ntf_answ-0.13.tar.gz --markdown 20240415/p/pih-plb-ntf-answ/0.12-0.13/README.md --exclude *.pyd
+[2024-04-15 02:28:16] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/36/e5/e9f1b8690daef71e0284682a08e4c1c20e93fe878170eb1461c1648f8447/pih-0.36.5.tar.gz
+[2024-04-15 02:28:16] INFO root fetch - processPackages [pih]: executing diffoscope
+[2024-04-15 02:28:16] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-0.36.4.tar.gz tmp/pih-0.36.5.tar.gz --markdown 20240415/p/pih/0.36.4-0.36.5/README.md --exclude *.pyd
+[2024-04-15 02:28:16] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.0.8.tar.gz]
+[2024-04-15 02:28:16] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.0.9.tar.gz]
+[2024-04-15 02:28:16] INFO root fetch - main [MainThread]: End processing [yoto-api]: success
+[2024-04-15 02:28:16] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.98.tar.gz]
+[2024-04-15 02:28:16] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.99.tar.gz]
+[2024-04-15 02:28:16] INFO root fetch - main [MainThread]: End processing [autopipeline]: success
+[2024-04-15 02:28:16] INFO root fetch - processPackages [pih-plb-ntf-answ]: Remove: archive file [/home/abi/fetcher/tmp/pih-plb_ntf_answ-0.12.tar.gz]
+[2024-04-15 02:28:16] INFO root fetch - processPackages [pih-plb-ntf-answ]: Remove: archive file [/home/abi/fetcher/tmp/pih-plb_ntf_answ-0.13.tar.gz]
+[2024-04-15 02:28:16] INFO root fetch - main [MainThread]: End processing [pih-plb-ntf-answ]: success
+[2024-04-15 02:28:17] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.36.4.tar.gz]
+[2024-04-15 02:28:17] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.36.5.tar.gz]
+[2024-04-15 02:28:17] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2024-04-15 02:28:18] INFO root fetch - processPackages [byzerllm]: Remove: archive file [/home/abi/fetcher/tmp/byzerllm-0.1.8.tar.gz]
+[2024-04-15 02:28:18] INFO root fetch - processPackages [byzerllm]: Remove: archive file [/home/abi/fetcher/tmp/byzerllm-0.1.9.tar.gz]
+[2024-04-15 02:28:18] INFO root fetch - main [MainThread]: End processing [byzerllm]: success
+[2024-04-15 02:28:18] INFO root fetch - main [MainThread]: Store serial: [22763902]
