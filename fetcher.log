@@ -15805,3 +15805,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 13:01:55] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-mig-1.0.9.zip]
 [2024-04-15 13:01:55] INFO root fetch - main [MainThread]: End processing [sbcli-mig]: success
 [2024-04-15 13:01:55] INFO root fetch - main [MainThread]: Store serial: [22769835]
+[2024-04-15 13:03:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22769835]
+[2024-04-15 13:04:04] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-15 13:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vbgptvision
+[2024-04-15 13:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zodchy-fastapi
+[2024-04-15 13:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aspose-words-cloud
+[2024-04-15 13:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: t-bug-catcher
+[2024-04-15 13:04:05] INFO root fetch - processPackages [vbgptvision]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-15 13:04:05] INFO root fetch - processPackages [t-bug-catcher]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-04-15 13:04:05] INFO root fetch - processPackages [zodchy-fastapi]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-15 13:04:05] INFO root fetch - processPackages [aspose-words-cloud]: New version: [24.4.0] Old Version: [24.3.0]
+[2024-04-15 13:04:05] INFO root fetch - processPackages [vbgptvision]: Downloading https://files.pythonhosted.org/packages/79/c7/5fb613535b8aa2b5164d3c4270e99b0d339ace101a9ec85572a02797ae35/vbgptvision-0.1.0.tar.gz
+[2024-04-15 13:04:05] INFO root fetch - processPackages [t-bug-catcher]: Downloading https://files.pythonhosted.org/packages/0d/dc/b83a900002767e5feb49ef107b3317e0bd9b08c246d446615dcbe14aaa50/t_bug_catcher-0.4.2.tar.gz
+[2024-04-15 13:04:05] INFO root fetch - processPackages [zodchy-fastapi]: Downloading https://files.pythonhosted.org/packages/5c/7c/ef64d1c2cc3c6f7f752267209540a2bdb982e6017a77b0ed56b84079c524/zodchy_fastapi-0.1.0.tar.gz
+[2024-04-15 13:04:05] INFO root fetch - processPackages [aspose-words-cloud]: Downloading https://files.pythonhosted.org/packages/3f/04/35b8d436af2394e48e3fbb705af74d77c9cb530c72a008743d50f909a4ee/aspose-words-cloud-24.3.0.tar.gz
+[2024-04-15 13:04:05] INFO root fetch - processPackages [vbgptvision]: Downloading https://files.pythonhosted.org/packages/83/b6/344c693d1ddb98027f8fbcce58dce68bb7448ecbae5a0ccbe40c7bfbd000/vbgptvision-0.1.1.tar.gz
+[2024-04-15 13:04:05] INFO root fetch - processPackages [t-bug-catcher]: Downloading https://files.pythonhosted.org/packages/7d/c5/a6ec5721c96b4ac9facecd9eb85414212bfd69f4c2148dcb91d6733990c8/t_bug_catcher-0.4.3.tar.gz
+[2024-04-15 13:04:05] INFO root fetch - processPackages [zodchy-fastapi]: Downloading https://files.pythonhosted.org/packages/11/ec/802577d09dba86b9801af278ded2b474f0c17a61e579cbb74ff4fe2ca41b/zodchy_fastapi-0.1.1.tar.gz
+[2024-04-15 13:04:05] INFO root fetch - processPackages [vbgptvision]: executing diffoscope
+[2024-04-15 13:04:05] INFO root fetch - processPackages [vbgptvision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbgptvision-0.1.0.tar.gz tmp/vbgptvision-0.1.1.tar.gz --markdown 20240415/v/vbgptvision/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-15 13:04:05] INFO root fetch - processPackages [aspose-words-cloud]: Downloading https://files.pythonhosted.org/packages/8d/9f/26f5842583f8cdf6022a8c7a3657d2b636289265aeb0d6c94fad4e062fc6/aspose-words-cloud-24.4.0.tar.gz
+[2024-04-15 13:04:05] INFO root fetch - processPackages [t-bug-catcher]: executing diffoscope
+[2024-04-15 13:04:05] INFO root fetch - processPackages [zodchy-fastapi]: executing diffoscope
+[2024-04-15 13:04:05] INFO root fetch - processPackages [zodchy-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zodchy_fastapi-0.1.0.tar.gz tmp/zodchy_fastapi-0.1.1.tar.gz --markdown 20240415/z/zodchy-fastapi/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-15 13:04:05] INFO root fetch - processPackages [t-bug-catcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t_bug_catcher-0.4.2.tar.gz tmp/t_bug_catcher-0.4.3.tar.gz --markdown 20240415/t/t-bug-catcher/0.4.2-0.4.3/README.md --exclude *.pyd
+[2024-04-15 13:04:05] INFO root fetch - processPackages [aspose-words-cloud]: executing diffoscope
+[2024-04-15 13:04:05] INFO root fetch - processPackages [aspose-words-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aspose-words-cloud-24.3.0.tar.gz tmp/aspose-words-cloud-24.4.0.tar.gz --markdown 20240415/a/aspose-words-cloud/24.3.0-24.4.0/README.md --exclude *.pyd
+[2024-04-15 13:04:06] INFO root fetch - processPackages [vbgptvision]: Remove: archive file [/home/abi/fetcher/tmp/vbgptvision-0.1.0.tar.gz]
+[2024-04-15 13:04:06] INFO root fetch - processPackages [vbgptvision]: Remove: archive file [/home/abi/fetcher/tmp/vbgptvision-0.1.1.tar.gz]
+[2024-04-15 13:04:06] INFO root fetch - main [MainThread]: End processing [vbgptvision]: success
+[2024-04-15 13:04:06] INFO root fetch - processPackages [zodchy-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/zodchy_fastapi-0.1.0.tar.gz]
+[2024-04-15 13:04:06] INFO root fetch - processPackages [zodchy-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/zodchy_fastapi-0.1.1.tar.gz]
+[2024-04-15 13:04:06] INFO root fetch - main [MainThread]: End processing [zodchy-fastapi]: success
+[2024-04-15 13:04:06] INFO root fetch - processPackages [t-bug-catcher]: Remove: archive file [/home/abi/fetcher/tmp/t_bug_catcher-0.4.2.tar.gz]
+[2024-04-15 13:04:06] INFO root fetch - processPackages [t-bug-catcher]: Remove: archive file [/home/abi/fetcher/tmp/t_bug_catcher-0.4.3.tar.gz]
+[2024-04-15 13:04:06] INFO root fetch - main [MainThread]: End processing [t-bug-catcher]: success
+[2024-04-15 13:04:09] INFO root fetch - processPackages [aspose-words-cloud]: Remove: archive file [/home/abi/fetcher/tmp/aspose-words-cloud-24.3.0.tar.gz]
+[2024-04-15 13:04:09] INFO root fetch - processPackages [aspose-words-cloud]: Remove: archive file [/home/abi/fetcher/tmp/aspose-words-cloud-24.4.0.tar.gz]
+[2024-04-15 13:04:09] INFO root fetch - main [MainThread]: End processing [aspose-words-cloud]: success
+[2024-04-15 13:04:09] INFO root fetch - main [MainThread]: Store serial: [22769847]
