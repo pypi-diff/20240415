@@ -22568,3 +22568,180 @@ AssertionError: tmp/pyblindrl-0.0.2rc57.post1.tar.gz does not exist
 [2024-04-15 16:33:53] INFO root fetch - processPackages [epam.indigo]: Remove: archive file [/home/abi/fetcher/tmp/epam.indigo-1.9.0rc4-py3-none-win_amd64.whl.zip]
 [2024-04-15 16:33:53] INFO root fetch - main [MainThread]: End processing [epam.indigo]: success
 [2024-04-15 16:33:53] INFO root fetch - main [MainThread]: Store serial: [22772760]
+[2024-04-15 16:36:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22772760]
+[2024-04-15 16:36:16] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2024-04-15 16:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nucliadb-dataset
+[2024-04-15 16:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nucliadb-models
+[2024-04-15 16:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: netswitcher
+[2024-04-15 16:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nucliadb-protos
+[2024-04-15 16:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb-sdk
+[2024-04-15 16:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: piwiPre
+[2024-04-15 16:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb-telemetry
+[2024-04-15 16:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-utils
+[2024-04-15 16:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ozon-api-client
+[2024-04-15 16:36:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-command
+[2024-04-15 16:36:16] INFO root fetch - processPackages [nucliadb-dataset]: New version: [3.0.2.post428] Old Version: [3.0.2.post427]
+[2024-04-15 16:36:16] INFO root fetch - processPackages [piwiPre]: New version: [0.8.5] Old Version: [0.8.4]
+[2024-04-15 16:36:16] INFO root fetch - processPackages [netswitcher]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-15 16:36:16] INFO root fetch - processPackages [nucliadb-telemetry]: New version: [3.0.2.post428] Old Version: [3.0.2.post427]
+[2024-04-15 16:36:16] INFO root fetch - processPackages [pulumi-command]: New version: [4.6.0a1662390243] Old Version: [4.5.0]
+[2024-04-15 16:36:16] INFO root fetch - processPackages [nucliadb-protos]: New version: [3.0.2.post428] Old Version: [3.0.2.post427]
+[2024-04-15 16:36:16] INFO root fetch - processPackages [nucliadb-models]: New version: [3.0.2.post428] Old Version: [3.0.2.post427]
+[2024-04-15 16:36:16] INFO root fetch - processPackages [nucliadb-sdk]: New version: [3.0.2.post428] Old Version: [3.0.2.post427]
+[2024-04-15 16:36:16] INFO root fetch - processPackages [nucliadb-utils]: New version: [3.0.2.post428] Old Version: [3.0.2.post427]
+[2024-04-15 16:36:16] INFO root fetch - processPackages [ozon-api-client]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-15 16:36:16] INFO root fetch - processPackages [piwiPre]: Downloading https://files.pythonhosted.org/packages/ad/fc/9cf4c3c37cd2895067bd93495f09c783b2a9d4650f43ea0506b7b50e1f67/piwiPre-0.8.4.tar.gz
+[2024-04-15 16:36:16] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/29/6a/ac9037acdcd75311320837227b8490a205233de2f1a5727f3df9ffcee86d/nucliadb_utils-3.0.2.post427-py3-none-any.whl
+[2024-04-15 16:36:16] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/e5/be/a729b938fa05a2f530846d48fedfbda6651331b04e81da7a5ef4a62ee07c/nucliadb_dataset-3.0.2.post427-py3-none-any.whl
+[2024-04-15 16:36:16] INFO root fetch - processPackages [netswitcher]: Downloading https://files.pythonhosted.org/packages/36/12/ccdfd5e2e7cf0683dae307d3caaa2161db7f1df95cae708f94efc1673b64/netswitcher-0.1.0.tar.gz
+[2024-04-15 16:36:16] INFO root fetch - processPackages [pulumi-command]: Downloading https://files.pythonhosted.org/packages/e3/ad/91738e9991d6e5d03f2d97069c62ffdf7c4e8df52da3e4b1520ad04fb63a/pulumi_command-4.5.0.tar.gz
+[2024-04-15 16:36:16] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/bf/40/b9afbe8f7d70eef87582370951ba377f8b7760ee54b11555fd95ae6ef008/nucliadb_protos-3.0.2.post427-py3-none-any.whl
+[2024-04-15 16:36:16] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/14/47/4a9d63c650a33564f0225d866aa9ca54a9f6f5192342fbdc147c5f82dad6/nucliadb_sdk-3.0.2.post427-py3-none-any.whl
+[2024-04-15 16:36:16] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/7e/20/0d1f8d2a64eb5a9166a49065fb2bbe485c1051fe2ba4579aa443a1d69da8/nucliadb_models-3.0.2.post427-py3-none-any.whl
+[2024-04-15 16:36:16] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/1f/af/3610ac905b1f88214fbc0f0ff2cbd8f082cbdc0e6febfdb8ab95b01ca8b0/nucliadb_telemetry-3.0.2.post427-py3-none-any.whl
+[2024-04-15 16:36:17] INFO root fetch - processPackages [ozon-api-client]: Downloading https://files.pythonhosted.org/packages/de/28/2390d34f501abca512a80f55c5470ba26acb36c3225b1b20f02cce0fed86/ozon_api_client-0.0.6.tar.gz
+[2024-04-15 16:36:17] INFO root fetch - processPackages [piwiPre]: Downloading https://files.pythonhosted.org/packages/e7/59/c5cfd3133f61e11e92c5834c1ac8dde4bd134a5d7fb13d632d1efa6ef294/piwiPre-0.8.5.tar.gz
+[2024-04-15 16:36:17] INFO root fetch - processPackages [pulumi-command]: Downloading https://files.pythonhosted.org/packages/d4/2b/2d872326d49a5b01e18c24ac8a4e77ab79811ada5de4827e995ceda283c4/pulumi_command-4.6.0a1662390243.tar.gz
+[2024-04-15 16:36:17] INFO root fetch - processPackages [netswitcher]: Downloading https://files.pythonhosted.org/packages/3c/cd/776b84739417e66886f405153cb54bf445dc954a1eec5a7e3c7355ec2458/netswitcher-0.2.0.tar.gz
+[2024-04-15 16:36:17] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/1a/0f/9bcdf55bc7a1e84fcecc9c4e62906bee41a3626b90b82ea832a9c2dfd9fd/nucliadb_utils-3.0.2.post428-py3-none-any.whl
+[2024-04-15 16:36:17] INFO root fetch - processPackages [piwiPre]: executing diffoscope
+[2024-04-15 16:36:17] INFO root fetch - processPackages [piwiPre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piwiPre-0.8.4.tar.gz tmp/piwiPre-0.8.5.tar.gz --markdown 20240415/p/piwiPre/0.8.4-0.8.5/README.md --exclude *.pyd
+[2024-04-15 16:36:17] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/71/e0/818f656c3ac34ee48cbe80503b98357fe15ce4850178f9930aeac1a0dec4/nucliadb_dataset-3.0.2.post428-py3-none-any.whl
+[2024-04-15 16:36:17] INFO root fetch - processPackages [pulumi-command]: executing diffoscope
+[2024-04-15 16:36:17] INFO root fetch - processPackages [pulumi-command]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_command-4.5.0.tar.gz tmp/pulumi_command-4.6.0a1662390243.tar.gz --markdown 20240415/p/pulumi-command/4.5.0-4.6.0a1662390243/README.md --exclude *.pyd
+[2024-04-15 16:36:17] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/5c/40/035ad870ba8c3ab67ff0c8dd5b9e01559d099e5e7a43e679f784950817c4/nucliadb_sdk-3.0.2.post428-py3-none-any.whl
+[2024-04-15 16:36:17] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/3c/d2/cfe947347fb9b921eddfc1e26d3093b074551f4d47f6d4b99737ac6e247d/nucliadb_protos-3.0.2.post428-py3-none-any.whl
+[2024-04-15 16:36:17] INFO root fetch - processPackages [netswitcher]: executing diffoscope
+[2024-04-15 16:36:17] INFO root fetch - processPackages [netswitcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netswitcher-0.1.0.tar.gz tmp/netswitcher-0.2.0.tar.gz --markdown 20240415/n/netswitcher/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-04-15 16:36:17] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/15/33/247ce3e7d9a092e1d9ecb38b993acd7cefab192a5e2551e4283722200c12/nucliadb_telemetry-3.0.2.post428-py3-none-any.whl
+[2024-04-15 16:36:17] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/5f/03/a309d80223d17e344783e00b5ba27f819770a8bd7e85fd34606df3de8881/nucliadb_models-3.0.2.post428-py3-none-any.whl
+[2024-04-15 16:36:17] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2024-04-15 16:36:17] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-3.0.2.post427-py3-none-any.whl.zip tmp/nucliadb_utils-3.0.2.post428-py3-none-any.whl.zip --markdown 20240415/n/nucliadb-utils/3.0.2.post427-3.0.2.post428/README.md --exclude *.pyd
+[2024-04-15 16:36:17] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2024-04-15 16:36:17] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-3.0.2.post427-py3-none-any.whl.zip tmp/nucliadb_dataset-3.0.2.post428-py3-none-any.whl.zip --markdown 20240415/n/nucliadb-dataset/3.0.2.post427-3.0.2.post428/README.md --exclude *.pyd
+[2024-04-15 16:36:17] INFO root fetch - processPackages [ozon-api-client]: Downloading https://files.pythonhosted.org/packages/6f/29/c6c4fa577cc375b3b544eedb2f88552744e1570a3694cd44da9ed0247189/ozon_api_client-0.0.7.tar.gz
+[2024-04-15 16:36:17] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2024-04-15 16:36:17] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-3.0.2.post427-py3-none-any.whl.zip tmp/nucliadb_sdk-3.0.2.post428-py3-none-any.whl.zip --markdown 20240415/n/nucliadb-sdk/3.0.2.post427-3.0.2.post428/README.md --exclude *.pyd
+[2024-04-15 16:36:17] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2024-04-15 16:36:17] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-3.0.2.post427-py3-none-any.whl.zip tmp/nucliadb_protos-3.0.2.post428-py3-none-any.whl.zip --markdown 20240415/n/nucliadb-protos/3.0.2.post427-3.0.2.post428/README.md --exclude *.pyd
+[2024-04-15 16:36:17] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2024-04-15 16:36:17] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-3.0.2.post427-py3-none-any.whl.zip tmp/nucliadb_models-3.0.2.post428-py3-none-any.whl.zip --markdown 20240415/n/nucliadb-models/3.0.2.post427-3.0.2.post428/README.md --exclude *.pyd
+[2024-04-15 16:36:17] INFO root fetch - processPackages [ozon-api-client]: executing diffoscope
+[2024-04-15 16:36:17] INFO root fetch - processPackages [ozon-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ozon_api_client-0.0.6.tar.gz tmp/ozon_api_client-0.0.7.tar.gz --markdown 20240415/o/ozon-api-client/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-15 16:36:17] INFO root fetch - processPackages [nucliadb-telemetry]: executing diffoscope
+[2024-04-15 16:36:17] INFO root fetch - processPackages [nucliadb-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_telemetry-3.0.2.post427-py3-none-any.whl.zip tmp/nucliadb_telemetry-3.0.2.post428-py3-none-any.whl.zip --markdown 20240415/n/nucliadb-telemetry/3.0.2.post427-3.0.2.post428/README.md --exclude *.pyd
+[2024-04-15 16:36:18] INFO root fetch - processPackages [piwiPre]: Remove: archive file [/home/abi/fetcher/tmp/piwiPre-0.8.4.tar.gz]
+[2024-04-15 16:36:18] INFO root fetch - processPackages [piwiPre]: Remove: archive file [/home/abi/fetcher/tmp/piwiPre-0.8.5.tar.gz]
+[2024-04-15 16:36:18] INFO root fetch - processPackages [piwiPre]: Start processing: pyorchestra
+[2024-04-15 16:36:18] INFO root fetch - main [MainThread]: End processing [piwiPre]: success
+[2024-04-15 16:36:18] INFO root fetch - processPackages [pulumi-command]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_command-4.5.0.tar.gz]
+[2024-04-15 16:36:18] INFO root fetch - processPackages [pulumi-command]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_command-4.6.0a1662390243.tar.gz]
+[2024-04-15 16:36:18] INFO root fetch - processPackages [pulumi-command]: Start processing: coiled
+[2024-04-15 16:36:18] INFO root fetch - main [MainThread]: End processing [pulumi-command]: success
+[2024-04-15 16:36:18] INFO root fetch - processPackages [netswitcher]: Remove: archive file [/home/abi/fetcher/tmp/netswitcher-0.1.0.tar.gz]
+[2024-04-15 16:36:18] INFO root fetch - processPackages [netswitcher]: Remove: archive file [/home/abi/fetcher/tmp/netswitcher-0.2.0.tar.gz]
+[2024-04-15 16:36:18] INFO root fetch - processPackages [netswitcher]: Start processing: rats-pipelines
+[2024-04-15 16:36:18] INFO root fetch - main [MainThread]: End processing [netswitcher]: success
+[2024-04-15 16:36:18] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-3.0.2.post427-py3-none-any.whl.zip]
+[2024-04-15 16:36:18] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-3.0.2.post428-py3-none-any.whl.zip]
+[2024-04-15 16:36:18] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: rats-processors
+[2024-04-15 16:36:18] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2024-04-15 16:36:18] INFO root fetch - processPackages [rats-pipelines]: New version: [0.1.2.dev9] Old Version: [0.1.2.dev8]
+[2024-04-15 16:36:18] INFO root fetch - processPackages [pyorchestra]: New version: [0.5.4] Old Version: [0.5.3]
+[2024-04-15 16:36:18] INFO root fetch - processPackages [rats-processors]: New version: [0.1.2.dev9] Old Version: [0.1.2.dev8]
+[2024-04-15 16:36:18] INFO root fetch - processPackages [coiled]: New version: [1.9.1.dev9] Old Version: [1.9.1.dev8]
+[2024-04-15 16:36:18] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-3.0.2.post427-py3-none-any.whl.zip]
+[2024-04-15 16:36:18] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-3.0.2.post428-py3-none-any.whl.zip]
+[2024-04-15 16:36:18] INFO root fetch - processPackages [nucliadb-protos]: Start processing: mrsegmentator
+[2024-04-15 16:36:18] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2024-04-15 16:36:18] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/fd/3d/9ac7bf4f5a002f3c5e7d488eb9b7bc9788a85f0a2f9a7910cf6ff07bd2e5/rats_pipelines-0.1.2.dev8-py3-none-any.whl
+[2024-04-15 16:36:18] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-3.0.2.post427-py3-none-any.whl.zip]
+[2024-04-15 16:36:18] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-3.0.2.post428-py3-none-any.whl.zip]
+[2024-04-15 16:36:18] INFO root fetch - processPackages [nucliadb-models]: Start processing: rats-apps
+[2024-04-15 16:36:18] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2024-04-15 16:36:18] WARNING root fetch - processPackages [mrsegmentator]: Skipping, unable to determine old version
+[2024-04-15 16:36:18] INFO root fetch - processPackages [mrsegmentator]: Start processing: anomeda
+[2024-04-15 16:36:18] INFO root fetch - main [MainThread]: End processing [mrsegmentator] error
+[2024-04-15 16:36:18] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/a6/7b/990aa2956336107e9272c402ea673b4571912e861b49230e8b209cebb487/rats_processors-0.1.2.dev8-py3-none-any.whl
+[2024-04-15 16:36:18] INFO root fetch - processPackages [pyorchestra]: Downloading https://files.pythonhosted.org/packages/2e/13/d1f5834b163b7fcc5b05d029b4d766912ef41a56aec95e132b5c675efa03/pyorchestra-0.5.3.tar.gz
+[2024-04-15 16:36:18] INFO root fetch - processPackages [rats-apps]: New version: [0.1.2.dev9] Old Version: [0.1.2.dev8]
+[2024-04-15 16:36:18] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-3.0.2.post427-py3-none-any.whl.zip]
+[2024-04-15 16:36:18] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-3.0.2.post428-py3-none-any.whl.zip]
+[2024-04-15 16:36:18] INFO root fetch - processPackages [nucliadb-sdk]: Start processing: chainlit
+[2024-04-15 16:36:18] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2024-04-15 16:36:18] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-3.0.2.post427-py3-none-any.whl.zip]
+[2024-04-15 16:36:18] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-3.0.2.post428-py3-none-any.whl.zip]
+[2024-04-15 16:36:18] INFO root fetch - processPackages [nucliadb-telemetry]: Start processing: arlecchino
+[2024-04-15 16:36:18] INFO root fetch - main [MainThread]: End processing [nucliadb-telemetry]: success
+[2024-04-15 16:36:18] INFO root fetch - processPackages [anomeda]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-15 16:36:18] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/75/fa/bb66e052cb8be630a363579ebf75bc0e9f6af65552f35f7686e7ce9cedf8/rats_apps-0.1.2.dev8-py3-none-any.whl
+[2024-04-15 16:36:18] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/8b/97/14337c08d9fc8bec2c9c7a5961519e141cf75d7dffa582bb987eecacefa4/coiled-1.9.1.dev8.tar.gz
+[2024-04-15 16:36:18] INFO root fetch - processPackages [rats-pipelines]: Downloading https://files.pythonhosted.org/packages/e2/8a/f408a3673d0e20732801e857a5f3a110cd2954b1891dc1928cd25b8852aa/rats_pipelines-0.1.2.dev9-py3-none-any.whl
+[2024-04-15 16:36:18] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-3.0.2.post427-py3-none-any.whl.zip]
+[2024-04-15 16:36:18] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-3.0.2.post428-py3-none-any.whl.zip]
+[2024-04-15 16:36:18] INFO root fetch - processPackages [nucliadb-utils]: Start processing: baseapp-core
+[2024-04-15 16:36:18] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2024-04-15 16:36:18] INFO root fetch - processPackages [chainlit]: New version: [1.0.503] Old Version: [1.0.502]
+[2024-04-15 16:36:18] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/a8/23/c3248b458a79c119a3ada7d2b23b95eced3f1c4c98ac0264b24a94517327/rats_processors-0.1.2.dev9-py3-none-any.whl
+[2024-04-15 16:36:18] INFO root fetch - processPackages [arlecchino]: New version: [1.1] Old Version: [1.0]
+[2024-04-15 16:36:19] INFO root fetch - processPackages [rats-pipelines]: executing diffoscope
+[2024-04-15 16:36:19] INFO root fetch - processPackages [rats-pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_pipelines-0.1.2.dev8-py3-none-any.whl.zip tmp/rats_pipelines-0.1.2.dev9-py3-none-any.whl.zip --markdown 20240415/r/rats-pipelines/0.1.2.dev8-0.1.2.dev9/README.md --exclude *.pyd
+[2024-04-15 16:36:19] INFO root fetch - processPackages [pyorchestra]: Downloading https://files.pythonhosted.org/packages/56/87/12626f632dd594c4203bccd6f03b00abf0f215e9cf648a1ae2f2d358f975/pyorchestra-0.5.4.tar.gz
+[2024-04-15 16:36:19] INFO root fetch - processPackages [anomeda]: Downloading https://files.pythonhosted.org/packages/11/79/924267a332d5633151f06b8c9a0916007b9e15c5290c64b8df29baff744a/anomeda-0.1.2.tar.gz
+[2024-04-15 16:36:19] INFO root fetch - processPackages [baseapp-core]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-15 16:36:19] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/c6/ef/123a368096a4d4dcec4671218e49b9d8aafdadad684dcaef1a28234060b0/rats_apps-0.1.2.dev9-py3-none-any.whl
+[2024-04-15 16:36:19] INFO root fetch - processPackages [rats-processors]: executing diffoscope
+[2024-04-15 16:36:19] INFO root fetch - processPackages [rats-processors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_processors-0.1.2.dev8-py3-none-any.whl.zip tmp/rats_processors-0.1.2.dev9-py3-none-any.whl.zip --markdown 20240415/r/rats-processors/0.1.2.dev8-0.1.2.dev9/README.md --exclude *.pyd
+[2024-04-15 16:36:19] INFO root fetch - processPackages [chainlit]: Downloading https://files.pythonhosted.org/packages/01/7e/1665851bb643a039128b2e6b9fd8eb3d8625c0ffa3ef60ab56765f6ca045/chainlit-1.0.502.tar.gz
+[2024-04-15 16:36:19] INFO root fetch - processPackages [arlecchino]: Downloading https://files.pythonhosted.org/packages/4b/eb/3623c6485c0d53646e4be90ef5af4e7aa7c2d4009604121572308750f029/arlecchino-1.0.tar.gz
+[2024-04-15 16:36:19] INFO root fetch - processPackages [rats-apps]: executing diffoscope
+[2024-04-15 16:36:19] INFO root fetch - processPackages [rats-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_apps-0.1.2.dev8-py3-none-any.whl.zip tmp/rats_apps-0.1.2.dev9-py3-none-any.whl.zip --markdown 20240415/r/rats-apps/0.1.2.dev8-0.1.2.dev9/README.md --exclude *.pyd
+[2024-04-15 16:36:19] INFO root fetch - processPackages [pyorchestra]: executing diffoscope
+[2024-04-15 16:36:19] INFO root fetch - processPackages [pyorchestra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyorchestra-0.5.3.tar.gz tmp/pyorchestra-0.5.4.tar.gz --markdown 20240415/p/pyorchestra/0.5.3-0.5.4/README.md --exclude *.pyd
+[2024-04-15 16:36:19] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/58/16/aec6b9100728dfee740792b7dd55fc6e56240fdadb5ef317a1d120e019d7/coiled-1.9.1.dev9.tar.gz
+[2024-04-15 16:36:19] INFO root fetch - processPackages [baseapp-core]: Downloading https://files.pythonhosted.org/packages/76/fc/4b3ce3effc0841a6cd51e3eae3a7c45dd1c7e6a1470cd8870a9b221472bb/baseapp-core-0.2.8.tar.gz
+[2024-04-15 16:36:19] INFO root fetch - processPackages [anomeda]: Downloading https://files.pythonhosted.org/packages/50/75/76f2fb23c579c6722de56d790ee1bf784599fb6269aee64b04bb4d869847/anomeda-0.1.3.tar.gz
+[2024-04-15 16:36:19] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2024-04-15 16:36:19] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-1.9.1.dev8.tar.gz tmp/coiled-1.9.1.dev9.tar.gz --markdown 20240415/c/coiled/1.9.1.dev8-1.9.1.dev9/README.md --exclude *.pyd
+[2024-04-15 16:36:19] INFO root fetch - processPackages [arlecchino]: Downloading https://files.pythonhosted.org/packages/5b/e4/027f34fc9dde0f55c17ba5000bfc9ca8bf18b44c2e3017383c1da6c0320c/arlecchino-1.1.tar.gz
+[2024-04-15 16:36:19] INFO root fetch - processPackages [chainlit]: Downloading https://files.pythonhosted.org/packages/f0/14/b33e0bf87b4194feb70c5da8171148232873969bbdbc14e0f8569d5e0e49/chainlit-1.0.503.tar.gz
+[2024-04-15 16:36:19] INFO root fetch - processPackages [anomeda]: executing diffoscope
+[2024-04-15 16:36:19] INFO root fetch - processPackages [anomeda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anomeda-0.1.2.tar.gz tmp/anomeda-0.1.3.tar.gz --markdown 20240415/a/anomeda/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-15 16:36:19] INFO root fetch - processPackages [baseapp-core]: Downloading https://files.pythonhosted.org/packages/19/94/ef32a737b7d47e6d25a273c5146405b192bb70ef0c51f44aa9490ba17d4f/baseapp-core-0.2.9.tar.gz
+[2024-04-15 16:36:19] INFO root fetch - processPackages [arlecchino]: executing diffoscope
+[2024-04-15 16:36:19] INFO root fetch - processPackages [arlecchino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arlecchino-1.0.tar.gz tmp/arlecchino-1.1.tar.gz --markdown 20240415/a/arlecchino/1.0-1.1/README.md --exclude *.pyd
+[2024-04-15 16:36:19] INFO root fetch - processPackages [baseapp-core]: executing diffoscope
+[2024-04-15 16:36:19] INFO root fetch - processPackages [baseapp-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baseapp-core-0.2.8.tar.gz tmp/baseapp-core-0.2.9.tar.gz --markdown 20240415/b/baseapp-core/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-15 16:36:20] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.2.dev8-py3-none-any.whl.zip]
+[2024-04-15 16:36:20] INFO root fetch - processPackages [rats-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/rats_pipelines-0.1.2.dev9-py3-none-any.whl.zip]
+[2024-04-15 16:36:20] INFO root fetch - main [MainThread]: End processing [rats-pipelines]: success
+[2024-04-15 16:36:20] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.2.dev8-py3-none-any.whl.zip]
+[2024-04-15 16:36:20] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.2.dev9-py3-none-any.whl.zip]
+[2024-04-15 16:36:20] INFO root fetch - main [MainThread]: End processing [rats-apps]: success
+[2024-04-15 16:36:20] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.2.dev8-py3-none-any.whl.zip]
+[2024-04-15 16:36:20] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.2.dev9-py3-none-any.whl.zip]
+[2024-04-15 16:36:20] INFO root fetch - main [MainThread]: End processing [rats-processors]: success
+[2024-04-15 16:36:20] INFO root fetch - processPackages [chainlit]: executing diffoscope
+[2024-04-15 16:36:20] INFO root fetch - processPackages [chainlit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainlit-1.0.502.tar.gz tmp/chainlit-1.0.503.tar.gz --markdown 20240415/c/chainlit/1.0.502-1.0.503/README.md --exclude *.pyd
+[2024-04-15 16:36:20] INFO root fetch - processPackages [pyorchestra]: Remove: archive file [/home/abi/fetcher/tmp/pyorchestra-0.5.3.tar.gz]
+[2024-04-15 16:36:20] INFO root fetch - processPackages [pyorchestra]: Remove: archive file [/home/abi/fetcher/tmp/pyorchestra-0.5.4.tar.gz]
+[2024-04-15 16:36:20] INFO root fetch - main [MainThread]: End processing [pyorchestra]: success
+[2024-04-15 16:36:20] INFO root fetch - processPackages [anomeda]: Remove: archive file [/home/abi/fetcher/tmp/anomeda-0.1.2.tar.gz]
+[2024-04-15 16:36:20] INFO root fetch - processPackages [anomeda]: Remove: archive file [/home/abi/fetcher/tmp/anomeda-0.1.3.tar.gz]
+[2024-04-15 16:36:20] INFO root fetch - main [MainThread]: End processing [anomeda]: success
+[2024-04-15 16:36:20] INFO root fetch - processPackages [arlecchino]: Remove: archive file [/home/abi/fetcher/tmp/arlecchino-1.0.tar.gz]
+[2024-04-15 16:36:20] INFO root fetch - processPackages [arlecchino]: Remove: archive file [/home/abi/fetcher/tmp/arlecchino-1.1.tar.gz]
+[2024-04-15 16:36:20] INFO root fetch - main [MainThread]: End processing [arlecchino]: success
+[2024-04-15 16:36:20] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev8.tar.gz]
+[2024-04-15 16:36:20] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev9.tar.gz]
+[2024-04-15 16:36:20] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2024-04-15 16:36:20] INFO root fetch - processPackages [baseapp-core]: Remove: archive file [/home/abi/fetcher/tmp/baseapp-core-0.2.8.tar.gz]
+[2024-04-15 16:36:20] INFO root fetch - processPackages [baseapp-core]: Remove: archive file [/home/abi/fetcher/tmp/baseapp-core-0.2.9.tar.gz]
+[2024-04-15 16:36:20] INFO root fetch - main [MainThread]: End processing [baseapp-core]: success
+[2024-04-15 16:36:21] INFO root fetch - processPackages [ozon-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ozon_api_client-0.0.6.tar.gz]
+[2024-04-15 16:36:21] INFO root fetch - processPackages [ozon-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ozon_api_client-0.0.7.tar.gz]
+[2024-04-15 16:36:21] INFO root fetch - main [MainThread]: End processing [ozon-api-client]: success
+[2024-04-15 16:38:09] INFO root fetch - processPackages [chainlit]: Remove: archive file [/home/abi/fetcher/tmp/chainlit-1.0.502.tar.gz]
+[2024-04-15 16:38:09] INFO root fetch - processPackages [chainlit]: Remove: archive file [/home/abi/fetcher/tmp/chainlit-1.0.503.tar.gz]
+[2024-04-15 16:38:09] INFO root fetch - main [MainThread]: End processing [chainlit]: success
+[2024-04-15 16:38:09] INFO root fetch - main [MainThread]: Store serial: [22772808]
