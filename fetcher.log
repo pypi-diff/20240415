@@ -15771,3 +15771,37 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 12:59:45] INFO root fetch - processPackages [shopware-api-client]: Remove: archive file [/home/abi/fetcher/tmp/shopware_api_client-1.0.9.tar.gz]
 [2024-04-15 12:59:45] INFO root fetch - main [MainThread]: End processing [shopware-api-client]: success
 [2024-04-15 12:59:45] INFO root fetch - main [MainThread]: Store serial: [22769819]
+[2024-04-15 13:01:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22769819]
+[2024-04-15 13:01:54] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-15 13:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyAnaf
+[2024-04-15 13:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sbcli-mig
+[2024-04-15 13:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vbgptvision
+[2024-04-15 13:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gma
+[2024-04-15 13:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: im2deep
+[2024-04-15 13:01:54] INFO root fetch - processPackages [sbcli-mig]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-15 13:01:54] WARNING root fetch - processPackages [vbgptvision]: Skipping, unable to determine old version
+[2024-04-15 13:01:54] INFO root fetch - main [MainThread]: End processing [vbgptvision] error
+[2024-04-15 13:01:54] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/06/2f/2b2f1cfa7b91365cf5cd645c5967a8e8a8bd7f1c8e89f91d7e43e2aefc87/sbcli-mig-1.0.8.zip
+[2024-04-15 13:01:54] INFO root fetch - processPackages [pyAnaf]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-15 13:01:54] INFO root fetch - processPackages [gma]: New version: [2.0.9a2] Old Version: [2.0.9a1]
+[2024-04-15 13:01:54] INFO root fetch - processPackages [pyAnaf]: Downloading https://files.pythonhosted.org/packages/d7/1f/ff10cd9dd251f25dad73a153a9c8c3c93029dca51e974d15a4cc204d24dc/pyAnaf-0.0.2.tar.gz
+[2024-04-15 13:01:54] INFO root fetch - processPackages [im2deep]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-15 13:01:54] INFO root fetch - processPackages [gma]: Downloading https://files.pythonhosted.org/packages/75/ea/a0d11007e20b24b76e52e702ba04da58e68eb94662dbe3afff12879dbfbe/gma-2.0.9a1-cp39-cp39-win_amd64.whl
+[2024-04-15 13:01:54] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/4b/15/9c1afe915f08547ce582aeae079f597b2a173df003109bcd1d0f0bbf037e/sbcli-mig-1.0.9.zip
+[2024-04-15 13:01:54] WARNING root fetch - processPackages [gma]: Skipping package: exceeds size limit 31114675>=10485760
+[2024-04-15 13:01:54] INFO root fetch - main [MainThread]: End processing [gma] error
+[2024-04-15 13:01:54] INFO root fetch - processPackages [im2deep]: Downloading https://files.pythonhosted.org/packages/19/2b/e52ff630cc6e902536963504b626f3b8c3697ba1d567fba7c38b1c8e8ce4/im2deep-0.1.5.tar.gz
+[2024-04-15 13:01:54] INFO root fetch - processPackages [sbcli-mig]: executing diffoscope
+[2024-04-15 13:01:54] INFO root fetch - processPackages [sbcli-mig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli-mig-1.0.8.zip tmp/sbcli-mig-1.0.9.zip --markdown 20240415/s/sbcli-mig/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-15 13:01:54] WARNING root fetch - processPackages [im2deep]: Skipping package: exceeds size limit 47178978>=10485760
+[2024-04-15 13:01:54] INFO root fetch - main [MainThread]: End processing [im2deep] error
+[2024-04-15 13:01:55] INFO root fetch - processPackages [pyAnaf]: Downloading https://files.pythonhosted.org/packages/f5/73/426290e7375a8516ab6c9ef4a2f083772344dc806902b7e58c5c0377d57c/pyanaf-0.0.3.tar.gz
+[2024-04-15 13:01:55] INFO root fetch - processPackages [pyAnaf]: executing diffoscope
+[2024-04-15 13:01:55] INFO root fetch - processPackages [pyAnaf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAnaf-0.0.2.tar.gz tmp/pyanaf-0.0.3.tar.gz --markdown 20240415/p/pyAnaf/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-15 13:01:55] INFO root fetch - processPackages [pyAnaf]: Remove: archive file [/home/abi/fetcher/tmp/pyAnaf-0.0.2.tar.gz]
+[2024-04-15 13:01:55] INFO root fetch - processPackages [pyAnaf]: Remove: archive file [/home/abi/fetcher/tmp/pyanaf-0.0.3.tar.gz]
+[2024-04-15 13:01:55] INFO root fetch - main [MainThread]: End processing [pyAnaf]: success
+[2024-04-15 13:01:55] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-mig-1.0.8.zip]
+[2024-04-15 13:01:55] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-mig-1.0.9.zip]
+[2024-04-15 13:01:55] INFO root fetch - main [MainThread]: End processing [sbcli-mig]: success
+[2024-04-15 13:01:55] INFO root fetch - main [MainThread]: Store serial: [22769835]
