@@ -8566,3 +8566,9 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 08:20:41] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.1.0.post0.dev9.tar.gz]
 [2024-04-15 08:20:41] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
 [2024-04-15 08:20:41] INFO root fetch - main [MainThread]: Store serial: [22766621]
+[2024-04-15 08:22:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22766621]
+[2024-04-15 08:22:49] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-15 08:22:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cyzutils
+[2024-04-15 08:22:49] WARNING root fetch - processPackages [cyzutils]: Skipping, unable to determine old version
+[2024-04-15 08:22:49] INFO root fetch - main [MainThread]: End processing [cyzutils] error
+[2024-04-15 08:22:49] INFO root fetch - main [MainThread]: Store serial: [22766626]
