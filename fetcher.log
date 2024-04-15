@@ -4660,3 +4660,60 @@
 [2024-04-15 06:03:34] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.9.tar.gz]
 [2024-04-15 06:03:34] INFO root fetch - main [MainThread]: End processing [surfkit]: success
 [2024-04-15 06:03:34] INFO root fetch - main [MainThread]: Store serial: [22765271]
+[2024-04-15 06:05:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22765271]
+[2024-04-15 06:05:42] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-15 06:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: namex
+[2024-04-15 06:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: types-setuptools
+[2024-04-15 06:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: types-Pillow
+[2024-04-15 06:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: types-pyinstaller
+[2024-04-15 06:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chromedriver-binary
+[2024-04-15 06:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: esphome
+[2024-04-15 06:05:42] INFO root fetch - processPackages [types-setuptools]: New version: [69.2.0.20240317] Old Version: [69.2.0.20240316]
+[2024-04-15 06:05:42] INFO root fetch - processPackages [chromedriver-binary]: New version: [99.0.4844.51.0] Old Version: [99.0.4844.35.0]
+[2024-04-15 06:05:42] INFO root fetch - processPackages [types-pyinstaller]: New version: [6.6.0.20240415] Old Version: [6.5.0.20240311]
+[2024-04-15 06:05:42] INFO root fetch - processPackages [namex]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-15 06:05:42] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/50/a2/f36a3d2f2aa37ccc496e5f81d594f06e3965b836712da14b4b01d2f05ca8/chromedriver-binary-99.0.4844.35.0.tar.gz
+[2024-04-15 06:05:42] INFO root fetch - processPackages [esphome]: New version: [2024.4.0b3] Old Version: [2024.4.0b2]
+[2024-04-15 06:05:42] INFO root fetch - processPackages [types-Pillow]: New version: [9.5.0.6] Old Version: [9.5.0.5]
+[2024-04-15 06:05:42] INFO root fetch - processPackages [types-setuptools]: Downloading https://files.pythonhosted.org/packages/37/f1/72d90c354f15ba5d465293e59aaf80cc11fe070c9609ace09be3b1a97a87/types-setuptools-69.2.0.20240316.tar.gz
+[2024-04-15 06:05:43] INFO root fetch - processPackages [types-pyinstaller]: Downloading https://files.pythonhosted.org/packages/cb/db/496e2b6155625d94f381d07aef428a833d410a3fb84dbfa75ba029d04c0a/types-pyinstaller-6.5.0.20240311.tar.gz
+[2024-04-15 06:05:43] INFO root fetch - processPackages [types-Pillow]: Downloading https://files.pythonhosted.org/packages/fe/b4/ffa2908d4b69a4cb983289fdf30cb11ca33bee293012fc663529fcba7615/types-Pillow-9.5.0.5.tar.gz
+[2024-04-15 06:05:43] INFO root fetch - processPackages [namex]: Downloading https://files.pythonhosted.org/packages/89/82/097a7953a6db88e4f84cbfcfbc666c608b64cf8c91b1b740624975126145/namex-0.0.7.tar.gz
+[2024-04-15 06:05:43] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/14/51/7a20890ca1fe2453add6f1c59699dcaeab51c581329d063a0ae3e15e1653/esphome-2024.4.0b2.tar.gz
+[2024-04-15 06:05:43] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/d9/eb/3bd2a308b9e6f7441fbed7b759578bddade2cb983bb4ffe7fc3777863314/chromedriver-binary-99.0.4844.51.0.tar.gz
+[2024-04-15 06:05:43] INFO root fetch - processPackages [types-setuptools]: Downloading https://files.pythonhosted.org/packages/2d/06/0de7b539346aaa8758b3c80375c4841dc2764ef92c5e743f1ebe9789da54/types-setuptools-69.2.0.20240317.tar.gz
+[2024-04-15 06:05:43] INFO root fetch - processPackages [chromedriver-binary]: executing diffoscope
+[2024-04-15 06:05:43] INFO root fetch - processPackages [chromedriver-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-binary-99.0.4844.35.0.tar.gz tmp/chromedriver-binary-99.0.4844.51.0.tar.gz --markdown 20240415/c/chromedriver-binary/99.0.4844.35.0-99.0.4844.51.0/README.md --exclude *.pyd
+[2024-04-15 06:05:43] INFO root fetch - processPackages [types-pyinstaller]: Downloading https://files.pythonhosted.org/packages/0b/14/a403a68735158a2e2ec2eeb8b7ad5498281726568df86f131468982bf70d/types-pyinstaller-6.6.0.20240415.tar.gz
+[2024-04-15 06:05:43] INFO root fetch - processPackages [types-setuptools]: executing diffoscope
+[2024-04-15 06:05:43] INFO root fetch - processPackages [types-setuptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-setuptools-69.2.0.20240316.tar.gz tmp/types-setuptools-69.2.0.20240317.tar.gz --markdown 20240415/t/types-setuptools/69.2.0.20240316-69.2.0.20240317/README.md --exclude *.pyd
+[2024-04-15 06:05:43] INFO root fetch - processPackages [namex]: Downloading https://files.pythonhosted.org/packages/9d/48/d275cdb6216c6bb4f9351675795a0b48974e138f16b1ffe0252c1f8faa28/namex-0.0.8.tar.gz
+[2024-04-15 06:05:43] INFO root fetch - processPackages [types-Pillow]: Downloading https://files.pythonhosted.org/packages/2d/78/d71281c253ba82f7630f5fabef175ea2f19556f2d1004eecae276e71bc75/types-Pillow-9.5.0.6.tar.gz
+[2024-04-15 06:05:43] INFO root fetch - processPackages [types-pyinstaller]: executing diffoscope
+[2024-04-15 06:05:43] INFO root fetch - processPackages [types-pyinstaller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-pyinstaller-6.5.0.20240311.tar.gz tmp/types-pyinstaller-6.6.0.20240415.tar.gz --markdown 20240415/t/types-pyinstaller/6.5.0.20240311-6.6.0.20240415/README.md --exclude *.pyd
+[2024-04-15 06:05:43] INFO root fetch - processPackages [namex]: executing diffoscope
+[2024-04-15 06:05:43] INFO root fetch - processPackages [namex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/namex-0.0.7.tar.gz tmp/namex-0.0.8.tar.gz --markdown 20240415/n/namex/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-15 06:05:43] INFO root fetch - processPackages [types-Pillow]: executing diffoscope
+[2024-04-15 06:05:43] INFO root fetch - processPackages [types-Pillow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-Pillow-9.5.0.5.tar.gz tmp/types-Pillow-9.5.0.6.tar.gz --markdown 20240415/t/types-Pillow/9.5.0.5-9.5.0.6/README.md --exclude *.pyd
+[2024-04-15 06:05:43] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/22/37/7b0b35884ed4711eca08df63bc6c3819990500b24ebaaee98b02351ce1a5/esphome-2024.4.0b3.tar.gz
+[2024-04-15 06:05:43] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.35.0.tar.gz]
+[2024-04-15 06:05:43] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.51.0.tar.gz]
+[2024-04-15 06:05:43] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
+[2024-04-15 06:05:44] INFO root fetch - processPackages [esphome]: executing diffoscope
+[2024-04-15 06:05:44] INFO root fetch - processPackages [esphome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esphome-2024.4.0b2.tar.gz tmp/esphome-2024.4.0b3.tar.gz --markdown 20240415/e/esphome/2024.4.0b2-2024.4.0b3/README.md --exclude *.pyd
+[2024-04-15 06:05:44] INFO root fetch - processPackages [types-setuptools]: Remove: archive file [/home/abi/fetcher/tmp/types-setuptools-69.2.0.20240316.tar.gz]
+[2024-04-15 06:05:44] INFO root fetch - processPackages [types-setuptools]: Remove: archive file [/home/abi/fetcher/tmp/types-setuptools-69.2.0.20240317.tar.gz]
+[2024-04-15 06:05:44] INFO root fetch - main [MainThread]: End processing [types-setuptools]: success
+[2024-04-15 06:05:44] INFO root fetch - processPackages [namex]: Remove: archive file [/home/abi/fetcher/tmp/namex-0.0.7.tar.gz]
+[2024-04-15 06:05:44] INFO root fetch - processPackages [namex]: Remove: archive file [/home/abi/fetcher/tmp/namex-0.0.8.tar.gz]
+[2024-04-15 06:05:44] INFO root fetch - main [MainThread]: End processing [namex]: success
+[2024-04-15 06:05:44] INFO root fetch - processPackages [types-pyinstaller]: Remove: archive file [/home/abi/fetcher/tmp/types-pyinstaller-6.5.0.20240311.tar.gz]
+[2024-04-15 06:05:44] INFO root fetch - processPackages [types-pyinstaller]: Remove: archive file [/home/abi/fetcher/tmp/types-pyinstaller-6.6.0.20240415.tar.gz]
+[2024-04-15 06:05:44] INFO root fetch - main [MainThread]: End processing [types-pyinstaller]: success
+[2024-04-15 06:05:44] INFO root fetch - processPackages [types-Pillow]: Remove: archive file [/home/abi/fetcher/tmp/types-Pillow-9.5.0.5.tar.gz]
+[2024-04-15 06:05:44] INFO root fetch - processPackages [types-Pillow]: Remove: archive file [/home/abi/fetcher/tmp/types-Pillow-9.5.0.6.tar.gz]
+[2024-04-15 06:05:44] INFO root fetch - main [MainThread]: End processing [types-Pillow]: success
+[2024-04-15 06:05:56] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2024.4.0b2.tar.gz]
+[2024-04-15 06:05:56] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2024.4.0b3.tar.gz]
+[2024-04-15 06:05:56] INFO root fetch - main [MainThread]: End processing [esphome]: success
+[2024-04-15 06:05:56] INFO root fetch - main [MainThread]: Store serial: [22765288]
