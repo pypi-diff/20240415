@@ -3903,3 +3903,29 @@
 [2024-04-15 05:08:56] INFO root fetch - processPackages [python-amcards]: Remove: archive file [/home/abi/fetcher/tmp/python-amcards-1.2.9.tar.gz]
 [2024-04-15 05:08:56] INFO root fetch - main [MainThread]: End processing [python-amcards]: success
 [2024-04-15 05:08:56] INFO root fetch - main [MainThread]: Store serial: [22764956]
+[2024-04-15 05:11:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22764956]
+[2024-04-15 05:11:05] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-15 05:13:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22764956]
+[2024-04-15 05:13:10] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-15 05:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: state-machine-semaphore
+[2024-04-15 05:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: organoids
+[2024-04-15 05:13:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DebugInfo
+[2024-04-15 05:13:10] WARNING root fetch - processPackages [organoids]: Skipping, unable to determine old version
+[2024-04-15 05:13:10] INFO root fetch - main [MainThread]: End processing [organoids] error
+[2024-04-15 05:13:10] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-15 05:13:10] INFO root fetch - processPackages [DebugInfo]: New version: [9.1.0] Old Version: [9.0.0]
+[2024-04-15 05:13:10] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/fa/f7/eea494ef2079699969c054c97478b7e0d5db0ce186fbb2708d9a243b4366/state-machine-semaphore-0.1.98.tar.gz
+[2024-04-15 05:13:10] INFO root fetch - processPackages [DebugInfo]: Downloading https://files.pythonhosted.org/packages/06/dc/6f041269ad379c07e91b1bbf9bbcea47f424f3d9b04bf58b8af95b10bd3a/DebugInfo-9.0.0.tar.gz
+[2024-04-15 05:13:11] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/80/0f/c73e069a7ceff3d9f61065aa4b5b338bc0b9f4f933b94a97692457bfa317/state-machine-semaphore-0.1.99.tar.gz
+[2024-04-15 05:13:11] INFO root fetch - processPackages [DebugInfo]: Downloading https://files.pythonhosted.org/packages/3a/f6/279accf5d57aa0fb1b9308ac3c3f52eb99a26d6af32968ec7ea6a2d3e079/DebugInfo-9.1.0.tar.gz
+[2024-04-15 05:13:11] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2024-04-15 05:13:11] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20240415/s/state-machine-semaphore/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-15 05:13:11] INFO root fetch - processPackages [DebugInfo]: executing diffoscope
+[2024-04-15 05:13:11] INFO root fetch - processPackages [DebugInfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DebugInfo-9.0.0.tar.gz tmp/DebugInfo-9.1.0.tar.gz --markdown 20240415/D/DebugInfo/9.0.0-9.1.0/README.md --exclude *.pyd
+[2024-04-15 05:13:11] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.98.tar.gz]
+[2024-04-15 05:13:11] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.99.tar.gz]
+[2024-04-15 05:13:11] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2024-04-15 05:13:12] INFO root fetch - processPackages [DebugInfo]: Remove: archive file [/home/abi/fetcher/tmp/DebugInfo-9.0.0.tar.gz]
+[2024-04-15 05:13:12] INFO root fetch - processPackages [DebugInfo]: Remove: archive file [/home/abi/fetcher/tmp/DebugInfo-9.1.0.tar.gz]
+[2024-04-15 05:13:12] INFO root fetch - main [MainThread]: End processing [DebugInfo]: success
+[2024-04-15 05:13:12] INFO root fetch - main [MainThread]: Store serial: [22764965]
