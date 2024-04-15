@@ -18161,3 +18161,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 14:30:40] INFO root fetch - processPackages [django-socio-grpc]: Remove: archive file [/home/abi/fetcher/tmp/django-socio-grpc-0.9.0.tar.gz]
 [2024-04-15 14:30:41] INFO root fetch - main [MainThread]: End processing [django-socio-grpc]: success
 [2024-04-15 14:30:41] INFO root fetch - main [MainThread]: Store serial: [22770841]
+[2024-04-15 14:32:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22770841]
+[2024-04-15 14:32:49] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-15 14:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: comparable-pattern
+[2024-04-15 14:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: objr
+[2024-04-15 14:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: psd2fabric
+[2024-04-15 14:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: testpack24
+[2024-04-15 14:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langflow
+[2024-04-15 14:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: owega
+[2024-04-15 14:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mecab-python3
+[2024-04-15 14:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pytest-mock-resources
+[2024-04-15 14:32:49] INFO root fetch - processPackages [psd2fabric]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-15 14:32:49] INFO root fetch - processPackages [testpack24]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-15 14:32:49] INFO root fetch - processPackages [langflow]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2024-04-15 14:32:49] WARNING root fetch - processPackages [comparable-pattern]: Skipping, unable to determine old version
+[2024-04-15 14:32:49] INFO root fetch - main [MainThread]: End processing [comparable-pattern] error
+[2024-04-15 14:32:49] INFO root fetch - processPackages [psd2fabric]: Downloading https://files.pythonhosted.org/packages/2e/2d/3a1e856640f5f9dd57c4b47ef6487f6060817817fbe339152940f0ad2d8a/psd2fabric-0.1.4.tar.gz
+[2024-04-15 14:32:49] INFO root fetch - processPackages [testpack24]: Downloading https://files.pythonhosted.org/packages/04/92/4f9d2256963890b9216bb012b90bc927364e71fac66796927054a0d88ddc/testpack24-0.0.4.tar.gz
+[2024-04-15 14:32:49] INFO root fetch - processPackages [objr]: New version: [130] Old Version: [120]
+[2024-04-15 14:32:49] INFO root fetch - processPackages [pytest-mock-resources]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-04-15 14:32:49] INFO root fetch - processPackages [owega]: New version: [5.5.5] Old Version: [5.5.4]
+[2024-04-15 14:32:49] INFO root fetch - processPackages [mecab-python3]: New version: [1.0.9.dev6] Old Version: [1.0.9.dev5]
+[2024-04-15 14:32:49] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/f1/f1/24fc8fab9078fe9a44249227b1e8c735ca2edcb3d35df1eb8fe21940eda2/langflow-1.0.0a8.tar.gz
+[2024-04-15 14:32:49] INFO root fetch - processPackages [objr]: Downloading https://files.pythonhosted.org/packages/8b/c4/426895b79247ca0e278242468483f72f880b5f4f2a18a3044e121a0a9919/objr-120.tar.gz
+[2024-04-15 14:32:49] INFO root fetch - processPackages [owega]: Downloading https://files.pythonhosted.org/packages/91/c9/ca1493bbdd98859b96c6381ed8c5bdd8790e70abb6c0cdd792c2407c9d3a/owega-5.5.4.tar.gz
+[2024-04-15 14:32:50] INFO root fetch - processPackages [pytest-mock-resources]: Downloading https://files.pythonhosted.org/packages/48/51/06cc791a49ae5c547b59b7a126c06261eebd1c9e364e5f0cbc965ac1882a/pytest_mock_resources-2.9.1.tar.gz
+[2024-04-15 14:32:50] INFO root fetch - processPackages [mecab-python3]: Downloading https://files.pythonhosted.org/packages/18/0b/9cd9a13b413d57e3508a902e0233d0fd0ddcf7c47acd6b03e1981276515f/mecab-python3-1.0.9.dev5.tar.gz
+[2024-04-15 14:32:50] INFO root fetch - processPackages [testpack24]: Downloading https://files.pythonhosted.org/packages/31/94/ce2db4c5a88bc88d9b204313cd28aba8407683cad957a6ac452aadbb0bc7/testpack24-0.0.5.tar.gz
+[2024-04-15 14:32:50] INFO root fetch - processPackages [psd2fabric]: Downloading https://files.pythonhosted.org/packages/ff/fc/fc3d1a6dbb4b24f725d69908ac19d0767e004323880cd3ed41e1f2e3a6f1/psd2fabric-0.1.5.tar.gz
+[2024-04-15 14:32:50] INFO root fetch - processPackages [psd2fabric]: executing diffoscope
+[2024-04-15 14:32:50] INFO root fetch - processPackages [psd2fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psd2fabric-0.1.4.tar.gz tmp/psd2fabric-0.1.5.tar.gz --markdown 20240415/p/psd2fabric/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-15 14:32:50] INFO root fetch - processPackages [testpack24]: executing diffoscope
+[2024-04-15 14:32:50] INFO root fetch - processPackages [testpack24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testpack24-0.0.4.tar.gz tmp/testpack24-0.0.5.tar.gz --markdown 20240415/t/testpack24/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-15 14:32:50] INFO root fetch - processPackages [objr]: Downloading https://files.pythonhosted.org/packages/7e/e9/7a646675fab3ffbc546833e5ed3f24b53beede2e4fedaf01d1a91de4b8ce/objr-130.tar.gz
+[2024-04-15 14:32:50] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/b0/40/f603fd33ef5b1456a6be83efd05ca28a5af58e3ed1070e760b30edb9080e/langflow-1.0.0a9.tar.gz
+[2024-04-15 14:32:50] INFO root fetch - processPackages [owega]: Downloading https://files.pythonhosted.org/packages/24/35/a733fdc322bb42e4c85694fe781a61fc2f37a4707d2eaa2ae72143697d32/owega-5.5.5.tar.gz
+[2024-04-15 14:32:50] INFO root fetch - processPackages [objr]: executing diffoscope
+[2024-04-15 14:32:50] INFO root fetch - processPackages [objr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/objr-120.tar.gz tmp/objr-130.tar.gz --markdown 20240415/o/objr/120-130/README.md --exclude *.pyd
+[2024-04-15 14:32:50] INFO root fetch - processPackages [mecab-python3]: Downloading https://files.pythonhosted.org/packages/fc/0c/7654c11de2ac0aaa7e387c7add25594a88f37276a237a92cac80531cac80/mecab_python3-1.0.9.dev6.tar.gz
+[2024-04-15 14:32:50] INFO root fetch - processPackages [pytest-mock-resources]: Downloading https://files.pythonhosted.org/packages/2b/25/f4c0fdfed40eaafea837684dcc7a6a5a94eaecabdd01337686b5055a4680/pytest_mock_resources-2.9.2.tar.gz
+[2024-04-15 14:32:50] INFO root fetch - processPackages [langflow]: executing diffoscope
+[2024-04-15 14:32:50] INFO root fetch - processPackages [langflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langflow-1.0.0a8.tar.gz tmp/langflow-1.0.0a9.tar.gz --markdown 20240415/l/langflow/1.0.0a8-1.0.0a9/README.md --exclude *.pyd
+[2024-04-15 14:32:50] INFO root fetch - processPackages [owega]: executing diffoscope
+[2024-04-15 14:32:50] INFO root fetch - processPackages [owega]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owega-5.5.4.tar.gz tmp/owega-5.5.5.tar.gz --markdown 20240415/o/owega/5.5.4-5.5.5/README.md --exclude *.pyd
+[2024-04-15 14:32:50] INFO root fetch - processPackages [pytest-mock-resources]: executing diffoscope
+[2024-04-15 14:32:50] INFO root fetch - processPackages [pytest-mock-resources]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_mock_resources-2.9.1.tar.gz tmp/pytest_mock_resources-2.9.2.tar.gz --markdown 20240415/p/pytest-mock-resources/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-04-15 14:32:50] INFO root fetch - processPackages [mecab-python3]: executing diffoscope
+[2024-04-15 14:32:50] INFO root fetch - processPackages [mecab-python3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecab-python3-1.0.9.dev5.tar.gz tmp/mecab_python3-1.0.9.dev6.tar.gz --markdown 20240415/m/mecab-python3/1.0.9.dev5-1.0.9.dev6/README.md --exclude *.pyd
+[2024-04-15 14:32:51] INFO root fetch - processPackages [objr]: Remove: archive file [/home/abi/fetcher/tmp/objr-120.tar.gz]
+[2024-04-15 14:32:51] INFO root fetch - processPackages [objr]: Remove: archive file [/home/abi/fetcher/tmp/objr-130.tar.gz]
+[2024-04-15 14:32:51] INFO root fetch - main [MainThread]: End processing [objr]: success
+[2024-04-15 14:32:51] INFO root fetch - processPackages [psd2fabric]: Remove: archive file [/home/abi/fetcher/tmp/psd2fabric-0.1.4.tar.gz]
+[2024-04-15 14:32:51] INFO root fetch - processPackages [psd2fabric]: Remove: archive file [/home/abi/fetcher/tmp/psd2fabric-0.1.5.tar.gz]
+[2024-04-15 14:32:51] INFO root fetch - main [MainThread]: End processing [psd2fabric]: success
+[2024-04-15 14:32:51] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-1.0.0a8.tar.gz]
+[2024-04-15 14:32:51] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-1.0.0a9.tar.gz]
+[2024-04-15 14:32:51] INFO root fetch - main [MainThread]: End processing [langflow]: success
+[2024-04-15 14:32:51] INFO root fetch - processPackages [testpack24]: Remove: archive file [/home/abi/fetcher/tmp/testpack24-0.0.4.tar.gz]
+[2024-04-15 14:32:51] INFO root fetch - processPackages [testpack24]: Remove: archive file [/home/abi/fetcher/tmp/testpack24-0.0.5.tar.gz]
+[2024-04-15 14:32:51] INFO root fetch - main [MainThread]: End processing [testpack24]: success
+[2024-04-15 14:32:51] INFO root fetch - processPackages [owega]: Remove: archive file [/home/abi/fetcher/tmp/owega-5.5.4.tar.gz]
+[2024-04-15 14:32:51] INFO root fetch - processPackages [owega]: Remove: archive file [/home/abi/fetcher/tmp/owega-5.5.5.tar.gz]
+[2024-04-15 14:32:51] INFO root fetch - main [MainThread]: End processing [owega]: success
+[2024-04-15 14:32:51] INFO root fetch - processPackages [pytest-mock-resources]: Remove: archive file [/home/abi/fetcher/tmp/pytest_mock_resources-2.9.1.tar.gz]
+[2024-04-15 14:32:51] INFO root fetch - processPackages [pytest-mock-resources]: Remove: archive file [/home/abi/fetcher/tmp/pytest_mock_resources-2.9.2.tar.gz]
+[2024-04-15 14:32:51] INFO root fetch - main [MainThread]: End processing [pytest-mock-resources]: success
+[2024-04-15 14:32:51] INFO root fetch - processPackages [mecab-python3]: Remove: archive file [/home/abi/fetcher/tmp/mecab-python3-1.0.9.dev5.tar.gz]
+[2024-04-15 14:32:51] INFO root fetch - processPackages [mecab-python3]: Remove: archive file [/home/abi/fetcher/tmp/mecab_python3-1.0.9.dev6.tar.gz]
+[2024-04-15 14:32:51] INFO root fetch - main [MainThread]: End processing [mecab-python3]: success
+[2024-04-15 14:32:51] INFO root fetch - main [MainThread]: Store serial: [22770871]
