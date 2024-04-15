@@ -10916,3 +10916,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 10:07:57] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-59.9.1.tar.gz]
 [2024-04-15 10:07:57] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-04-15 10:07:57] INFO root fetch - main [MainThread]: Store serial: [22767647]
+[2024-04-15 10:10:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22767647]
+[2024-04-15 10:10:13] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-15 10:10:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: checkov
+[2024-04-15 10:10:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vloc-plugin-selenium
+[2024-04-15 10:10:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-currency-rate-update-xe
+[2024-04-15 10:10:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nucliadb-admin-assets
+[2024-04-15 10:10:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: robotframework-parrot-qrcodescanner
+[2024-04-15 10:10:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: phenomApis
+[2024-04-15 10:10:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wikidot
+[2024-04-15 10:10:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mxcubeweb
+[2024-04-15 10:10:14] INFO root fetch - processPackages [checkov]: New version: [3.2.9] Old Version: [3.2.8]
+[2024-04-15 10:10:14] INFO root fetch - processPackages [phenomApis]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-15 10:10:14] INFO root fetch - processPackages [wikidot]: New version: [3.0.1] Old Version: [3.0.0a21]
+[2024-04-15 10:10:14] INFO root fetch - processPackages [vloc-plugin-selenium]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-15 10:10:14] INFO root fetch - processPackages [odoo-addon-currency-rate-update-xe]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.0.1]
+[2024-04-15 10:10:14] WARNING root fetch - processPackages [robotframework-parrot-qrcodescanner]: Skipping, unable to determine old version
+[2024-04-15 10:10:14] INFO root fetch - main [MainThread]: End processing [robotframework-parrot-qrcodescanner] error
+[2024-04-15 10:10:14] INFO root fetch - processPackages [nucliadb-admin-assets]: New version: [1.0.0.post1488] Old Version: [1.0.0.post1487]
+[2024-04-15 10:10:14] INFO root fetch - processPackages [mxcubeweb]: New version: [4.9.0] Old Version: [4.8.0]
+[2024-04-15 10:10:14] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/88/07/1509be74cf47a29b012a6f7477139e57bee2a7d01634b6bd6a71d095ace8/checkov-3.2.8.tar.gz
+[2024-04-15 10:10:14] INFO root fetch - processPackages [phenomApis]: Downloading https://files.pythonhosted.org/packages/dc/6e/9d8d6d0a353f15c4e0dbcac21813fecf658590610c200b290d1d52cf4bcf/phenomApis-0.0.8.tar.gz
+[2024-04-15 10:10:14] INFO root fetch - processPackages [wikidot]: Downloading https://files.pythonhosted.org/packages/2f/f3/e5ea57e084e2faa6f7bed19d5a1fe6998e26fda8fa9e1d0b03d638aae990/wikidot-3.0.0a21.tar.gz
+[2024-04-15 10:10:14] INFO root fetch - processPackages [vloc-plugin-selenium]: Downloading https://files.pythonhosted.org/packages/64/7a/d6e63fd2ecfabdd347dd0d8d35efec6162bfe9be2fed751b6809ba2fb33f/vloc_plugin_selenium-0.0.6.tar.gz
+[2024-04-15 10:10:14] INFO root fetch - processPackages [odoo-addon-currency-rate-update-xe]: Downloading https://files.pythonhosted.org/packages/26/8b/900d568d16bd88ab9c7254707a923ebcd1315bfb9b0db9d5f4b781f283ea/odoo_addon_currency_rate_update_xe-16.0.1.0.0.1-py3-none-any.whl
+[2024-04-15 10:10:14] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/f5/9a/b58f959a667757332763b55ba8d01d517efd1725d9d535d743176ee00a44/nucliadb_admin_assets-1.0.0.post1487-py3-none-any.whl
+[2024-04-15 10:10:14] INFO root fetch - processPackages [mxcubeweb]: Downloading https://files.pythonhosted.org/packages/e9/9e/c4f610f4b2e24f0448292119c5697d9e6dfdefa4d71a8b7089d4a6953107/mxcubeweb-4.8.0.tar.gz
+[2024-04-15 10:10:14] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/8b/2e/76e1600c8d7d81ec9b7cc207e032f23feed398a5b54e6698055f7c5e0f8f/checkov-3.2.9.tar.gz
+[2024-04-15 10:10:14] INFO root fetch - processPackages [wikidot]: Downloading https://files.pythonhosted.org/packages/73/9a/b9cbf250c5e85acdc2f225f3bbeb1d731ba523955366d7341b651824bb0a/wikidot-3.0.1.tar.gz
+[2024-04-15 10:10:14] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2024-04-15 10:10:14] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-3.2.8.tar.gz tmp/checkov-3.2.9.tar.gz --markdown 20240415/c/checkov/3.2.8-3.2.9/README.md --exclude *.pyd
+[2024-04-15 10:10:14] INFO root fetch - processPackages [vloc-plugin-selenium]: Downloading https://files.pythonhosted.org/packages/60/04/b9076bf878e6371a20421ebf3f117ddc68878eaa6db098eabd431c234a18/vloc_plugin_selenium-0.0.7.tar.gz
+[2024-04-15 10:10:14] INFO root fetch - processPackages [odoo-addon-currency-rate-update-xe]: Downloading https://files.pythonhosted.org/packages/54/7f/f3ac226a87e07e31caebb28b1c09e516270a8ccfc0016200b5727bbb28d9/odoo_addon_currency_rate_update_xe-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-15 10:10:14] INFO root fetch - processPackages [phenomApis]: Downloading https://files.pythonhosted.org/packages/5f/02/49c95ae3497919b13b780a550e266d2efa5075914f9577ea76fee1cd3852/phenomApis-0.0.9.tar.gz
+[2024-04-15 10:10:14] INFO root fetch - processPackages [mxcubeweb]: Downloading https://files.pythonhosted.org/packages/70/0a/11c323a9a6ce9c93c1b0707df775fe6f1e768b7bab1fef02a49855813397/mxcubeweb-4.9.0.tar.gz
+[2024-04-15 10:10:14] INFO root fetch - processPackages [wikidot]: executing diffoscope
+[2024-04-15 10:10:14] INFO root fetch - processPackages [wikidot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wikidot-3.0.0a21.tar.gz tmp/wikidot-3.0.1.tar.gz --markdown 20240415/w/wikidot/3.0.0a21-3.0.1/README.md --exclude *.pyd
+[2024-04-15 10:10:14] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/c1/e9/cffeb3057171a8c5a0b8da919f64557aff2e3897031579afec826c663994/nucliadb_admin_assets-1.0.0.post1488-py3-none-any.whl
+[2024-04-15 10:10:14] INFO root fetch - processPackages [odoo-addon-currency-rate-update-xe]: executing diffoscope
+[2024-04-15 10:10:14] INFO root fetch - processPackages [odoo-addon-currency-rate-update-xe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_currency_rate_update_xe-16.0.1.0.0.1-py3-none-any.whl.zip tmp/odoo_addon_currency_rate_update_xe-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240415/o/odoo-addon-currency-rate-update-xe/16.0.1.0.0.1-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-04-15 10:10:14] INFO root fetch - processPackages [vloc-plugin-selenium]: executing diffoscope
+[2024-04-15 10:10:14] INFO root fetch - processPackages [vloc-plugin-selenium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vloc_plugin_selenium-0.0.6.tar.gz tmp/vloc_plugin_selenium-0.0.7.tar.gz --markdown 20240415/v/vloc-plugin-selenium/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-15 10:10:14] INFO root fetch - processPackages [phenomApis]: executing diffoscope
+[2024-04-15 10:10:14] INFO root fetch - processPackages [phenomApis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phenomApis-0.0.8.tar.gz tmp/phenomApis-0.0.9.tar.gz --markdown 20240415/p/phenomApis/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-15 10:10:15] INFO root fetch - processPackages [mxcubeweb]: executing diffoscope
+[2024-04-15 10:10:15] INFO root fetch - processPackages [mxcubeweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mxcubeweb-4.8.0.tar.gz tmp/mxcubeweb-4.9.0.tar.gz --markdown 20240415/m/mxcubeweb/4.8.0-4.9.0/README.md --exclude *.pyd
+[2024-04-15 10:10:15] INFO root fetch - processPackages [nucliadb-admin-assets]: executing diffoscope
+[2024-04-15 10:10:15] INFO root fetch - processPackages [nucliadb-admin-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_admin_assets-1.0.0.post1487-py3-none-any.whl.zip tmp/nucliadb_admin_assets-1.0.0.post1488-py3-none-any.whl.zip --markdown 20240415/n/nucliadb-admin-assets/1.0.0.post1487-1.0.0.post1488/README.md --exclude *.pyd
+[2024-04-15 10:10:16] INFO root fetch - processPackages [vloc-plugin-selenium]: Remove: archive file [/home/abi/fetcher/tmp/vloc_plugin_selenium-0.0.6.tar.gz]
+[2024-04-15 10:10:16] INFO root fetch - processPackages [vloc-plugin-selenium]: Remove: archive file [/home/abi/fetcher/tmp/vloc_plugin_selenium-0.0.7.tar.gz]
+[2024-04-15 10:10:16] INFO root fetch - main [MainThread]: End processing [vloc-plugin-selenium]: success
+[2024-04-15 10:10:16] INFO root fetch - processPackages [wikidot]: Remove: archive file [/home/abi/fetcher/tmp/wikidot-3.0.0a21.tar.gz]
+[2024-04-15 10:10:16] INFO root fetch - processPackages [wikidot]: Remove: archive file [/home/abi/fetcher/tmp/wikidot-3.0.1.tar.gz]
+[2024-04-15 10:10:16] INFO root fetch - main [MainThread]: End processing [wikidot]: success
+[2024-04-15 10:10:16] INFO root fetch - processPackages [odoo-addon-currency-rate-update-xe]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_currency_rate_update_xe-16.0.1.0.0.1-py3-none-any.whl.zip]
+[2024-04-15 10:10:16] INFO root fetch - processPackages [odoo-addon-currency-rate-update-xe]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_currency_rate_update_xe-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-15 10:10:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-currency-rate-update-xe]: success
+[2024-04-15 10:10:16] INFO root fetch - processPackages [mxcubeweb]: Remove: archive file [/home/abi/fetcher/tmp/mxcubeweb-4.8.0.tar.gz]
+[2024-04-15 10:10:16] INFO root fetch - processPackages [mxcubeweb]: Remove: archive file [/home/abi/fetcher/tmp/mxcubeweb-4.9.0.tar.gz]
+[2024-04-15 10:10:16] INFO root fetch - main [MainThread]: End processing [mxcubeweb]: success
+[2024-04-15 10:10:17] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.8.tar.gz]
+[2024-04-15 10:10:17] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.9.tar.gz]
+[2024-04-15 10:10:17] INFO root fetch - main [MainThread]: End processing [phenomApis]: success
+[2024-04-15 10:10:25] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.8.tar.gz]
+[2024-04-15 10:10:25] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.9.tar.gz]
+[2024-04-15 10:10:25] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2024-04-15 10:10:32] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1487-py3-none-any.whl.zip]
+[2024-04-15 10:10:32] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1488-py3-none-any.whl.zip]
+[2024-04-15 10:10:32] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
+[2024-04-15 10:10:32] INFO root fetch - main [MainThread]: Store serial: [22767679]
