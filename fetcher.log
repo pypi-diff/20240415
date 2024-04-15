@@ -17679,3 +17679,79 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 14:12:50] INFO root fetch - processPackages [darfix]: Remove: archive file [/home/abi/fetcher/tmp/darfix-1.0.1rc1.tar.gz]
 [2024-04-15 14:12:50] INFO root fetch - main [MainThread]: End processing [darfix]: success
 [2024-04-15 14:12:50] INFO root fetch - main [MainThread]: Store serial: [22770599]
+[2024-04-15 14:14:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22770599]
+[2024-04-15 14:14:59] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-15 14:14:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scl-loader
+[2024-04-15 14:14:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk8s
+[2024-04-15 14:14:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk8s
+[2024-04-15 14:14:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: telegram-wallet-pay
+[2024-04-15 14:14:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sbcli-dev
+[2024-04-15 14:14:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: event-time-format
+[2024-04-15 14:14:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: testpack24
+[2024-04-15 14:14:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: psd2fabric
+[2024-04-15 14:14:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-base-wamas-ubl
+[2024-04-15 14:15:00] INFO root fetch - processPackages [psd2fabric]: New version: [0.1.1] Old Version: [0.1]
+[2024-04-15 14:15:00] INFO root fetch - processPackages [odoo-addon-base-wamas-ubl]: New version: [16.0.1.9.0] Old Version: [16.0.1.8.0.2]
+[2024-04-15 14:15:00] WARNING root fetch - processPackages [testpack24]: Skipping, unable to determine old version
+[2024-04-15 14:15:00] INFO root fetch - main [MainThread]: End processing [testpack24] error
+[2024-04-15 14:15:00] INFO root fetch - processPackages [telegram-wallet-pay]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-15 14:15:00] INFO root fetch - processPackages [scl-loader]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-04-15 14:15:00] INFO root fetch - processPackages [sbcli-dev]: New version: [2.1.3] Old Version: [2.1.2]
+[2024-04-15 14:15:00] INFO root fetch - processPackages [event-time-format]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-15 14:15:00] INFO root fetch - processPackages [cdk8s]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-04-15 14:15:00] INFO root fetch - processPackages [odoo-addon-base-wamas-ubl]: Downloading https://files.pythonhosted.org/packages/ce/c7/ecbe4fafda4a1a84cb3a87377835976c977746fbd44e2d31952557d4838c/odoo_addon_base_wamas_ubl-16.0.1.8.0.2-py3-none-any.whl
+[2024-04-15 14:15:00] INFO root fetch - processPackages [cdk8s]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-04-15 14:15:00] INFO root fetch - processPackages [psd2fabric]: Downloading https://files.pythonhosted.org/packages/86/e9/b922f008bf9bbc99ac1387c5a51b6eaa174bd449dbb525b283e9308302fa/psd2fabric-0.1.tar.gz
+[2024-04-15 14:15:00] INFO root fetch - processPackages [scl-loader]: Downloading https://files.pythonhosted.org/packages/4c/88/b352a93fd5258a07bea173589d516df1c82e17a869c6c64572e5a0b50c4c/scl_loader-1.9.2.tar.gz
+[2024-04-15 14:15:00] INFO root fetch - processPackages [telegram-wallet-pay]: Downloading https://files.pythonhosted.org/packages/a7/15/b99878fe16f926bbc09ccf44565f7e17e0bf3c1dd784207b34e2fe5f5692/telegram_wallet_pay-0.3.0.tar.gz
+[2024-04-15 14:15:00] INFO root fetch - processPackages [event-time-format]: Downloading https://files.pythonhosted.org/packages/fe/14/8fe3c7c5517c4d836e909e684db7e63d27dc2fb2669961a32022e4ab60b4/event_time_format-1.0.2-py3-none-any.whl
+[2024-04-15 14:15:00] INFO root fetch - processPackages [sbcli-dev]: Downloading https://files.pythonhosted.org/packages/15/2b/b0039ef62873c45de4fecc5bb847a9375c531dac5c7a1b78e672400de5bc/sbcli-dev-2.1.2.zip
+[2024-04-15 14:15:00] INFO root fetch - processPackages [odoo-addon-base-wamas-ubl]: Downloading https://files.pythonhosted.org/packages/a2/bf/a9e568e374dc99ea82f5acdfa3e0a70c1b94a8b50eec85d1946cff535526/odoo_addon_base_wamas_ubl-16.0.1.9.0-py3-none-any.whl
+[2024-04-15 14:15:00] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/7d/c5/592391e50b273450851cb1dd87401069971eead9d407a9d5c5ec13704f65/cdk8s-2.8.0.tar.gz
+[2024-04-15 14:15:00] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/7d/c5/592391e50b273450851cb1dd87401069971eead9d407a9d5c5ec13704f65/cdk8s-2.8.0.tar.gz
+[2024-04-15 14:15:00] INFO root fetch - processPackages [odoo-addon-base-wamas-ubl]: executing diffoscope
+[2024-04-15 14:15:00] INFO root fetch - processPackages [odoo-addon-base-wamas-ubl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_wamas_ubl-16.0.1.8.0.2-py3-none-any.whl.zip tmp/odoo_addon_base_wamas_ubl-16.0.1.9.0-py3-none-any.whl.zip --markdown 20240415/o/odoo-addon-base-wamas-ubl/16.0.1.8.0.2-16.0.1.9.0/README.md --exclude *.pyd
+[2024-04-15 14:15:00] INFO root fetch - processPackages [scl-loader]: Downloading https://files.pythonhosted.org/packages/9c/1b/9529ec092cb77eb968682a2dffbfc19df2667246f56cedd4779c5c7ff9f2/scl_loader-1.9.3.tar.gz
+[2024-04-15 14:15:00] INFO root fetch - processPackages [psd2fabric]: Downloading https://files.pythonhosted.org/packages/5f/86/587fe442d35e54bfe0baa8af1777fd7cf732879bb236e07dbf0c8612264d/psd2fabric-0.1.1.tar.gz
+[2024-04-15 14:15:00] INFO root fetch - processPackages [telegram-wallet-pay]: Downloading https://files.pythonhosted.org/packages/2f/44/640fc887b81919ba66c60dceff18786eb590739cb9ebb73d3c544d8fad3a/telegram_wallet_pay-0.3.1.tar.gz
+[2024-04-15 14:15:00] INFO root fetch - processPackages [event-time-format]: Downloading https://files.pythonhosted.org/packages/62/65/889b346660cf3a0a7e2c305dfb03af6cec7917e58836d9d315d8dfbe618c/event_time_format-1.0.3-py3-none-any.whl
+[2024-04-15 14:15:00] INFO root fetch - processPackages [psd2fabric]: executing diffoscope
+[2024-04-15 14:15:00] INFO root fetch - processPackages [psd2fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psd2fabric-0.1.tar.gz tmp/psd2fabric-0.1.1.tar.gz --markdown 20240415/p/psd2fabric/0.1-0.1.1/README.md --exclude *.pyd
+[2024-04-15 14:15:01] INFO root fetch - processPackages [scl-loader]: executing diffoscope
+[2024-04-15 14:15:01] INFO root fetch - processPackages [scl-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scl_loader-1.9.2.tar.gz tmp/scl_loader-1.9.3.tar.gz --markdown 20240415/s/scl-loader/1.9.2-1.9.3/README.md --exclude *.pyd
+[2024-04-15 14:15:01] INFO root fetch - processPackages [sbcli-dev]: Downloading https://files.pythonhosted.org/packages/25/5d/5fad160535a7411afed56e4994de1e15ffc2eb6f02d8f54039ba10b12edf/sbcli_dev-2.1.3.zip
+[2024-04-15 14:15:01] INFO root fetch - processPackages [telegram-wallet-pay]: executing diffoscope
+[2024-04-15 14:15:01] INFO root fetch - processPackages [telegram-wallet-pay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegram_wallet_pay-0.3.0.tar.gz tmp/telegram_wallet_pay-0.3.1.tar.gz --markdown 20240415/t/telegram-wallet-pay/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-04-15 14:15:01] INFO root fetch - processPackages [event-time-format]: executing diffoscope
+[2024-04-15 14:15:01] INFO root fetch - processPackages [event-time-format]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/event_time_format-1.0.2-py3-none-any.whl.zip tmp/event_time_format-1.0.3-py3-none-any.whl.zip --markdown 20240415/e/event-time-format/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-15 14:15:01] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/3b/6d/920a6a9be9d1576059ced41c1fd11a3f7214589f1add4c7d3da2290b1198/cdk8s-2.9.0.tar.gz
+[2024-04-15 14:15:01] INFO root fetch - processPackages [sbcli-dev]: executing diffoscope
+[2024-04-15 14:15:01] INFO root fetch - processPackages [sbcli-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli-dev-2.1.2.zip tmp/sbcli_dev-2.1.3.zip --markdown 20240415/s/sbcli-dev/2.1.2-2.1.3/README.md --exclude *.pyd
+[2024-04-15 14:15:01] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/3b/6d/920a6a9be9d1576059ced41c1fd11a3f7214589f1add4c7d3da2290b1198/cdk8s-2.9.0.tar.gz
+[2024-04-15 14:15:01] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2024-04-15 14:15:01] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.8.0.tar.gz tmp/cdk8s-2.9.0.tar.gz --markdown 20240415/c/cdk8s/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-04-15 14:15:01] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2024-04-15 14:15:01] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.8.0.tar.gz tmp/cdk8s-2.9.0.tar.gz --markdown 20240415/c/cdk8s/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-04-15 14:15:01] INFO root fetch - processPackages [psd2fabric]: Remove: archive file [/home/abi/fetcher/tmp/psd2fabric-0.1.tar.gz]
+[2024-04-15 14:15:01] INFO root fetch - processPackages [psd2fabric]: Remove: archive file [/home/abi/fetcher/tmp/psd2fabric-0.1.1.tar.gz]
+[2024-04-15 14:15:01] INFO root fetch - main [MainThread]: End processing [psd2fabric]: success
+[2024-04-15 14:15:01] INFO root fetch - processPackages [telegram-wallet-pay]: Remove: archive file [/home/abi/fetcher/tmp/telegram_wallet_pay-0.3.0.tar.gz]
+[2024-04-15 14:15:01] INFO root fetch - processPackages [telegram-wallet-pay]: Remove: archive file [/home/abi/fetcher/tmp/telegram_wallet_pay-0.3.1.tar.gz]
+[2024-04-15 14:15:01] INFO root fetch - main [MainThread]: End processing [telegram-wallet-pay]: success
+[2024-04-15 14:15:02] INFO root fetch - processPackages [event-time-format]: Remove: archive file [/home/abi/fetcher/tmp/event_time_format-1.0.2-py3-none-any.whl.zip]
+[2024-04-15 14:15:02] INFO root fetch - processPackages [event-time-format]: Remove: archive file [/home/abi/fetcher/tmp/event_time_format-1.0.3-py3-none-any.whl.zip]
+[2024-04-15 14:15:02] INFO root fetch - main [MainThread]: End processing [event-time-format]: success
+[2024-04-15 14:15:02] INFO root fetch - processPackages [scl-loader]: Remove: archive file [/home/abi/fetcher/tmp/scl_loader-1.9.2.tar.gz]
+[2024-04-15 14:15:02] INFO root fetch - processPackages [scl-loader]: Remove: archive file [/home/abi/fetcher/tmp/scl_loader-1.9.3.tar.gz]
+[2024-04-15 14:15:02] INFO root fetch - main [MainThread]: End processing [scl-loader]: success
+[2024-04-15 14:15:02] INFO root fetch - processPackages [odoo-addon-base-wamas-ubl]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_wamas_ubl-16.0.1.8.0.2-py3-none-any.whl.zip]
+[2024-04-15 14:15:02] INFO root fetch - processPackages [odoo-addon-base-wamas-ubl]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_wamas_ubl-16.0.1.9.0-py3-none-any.whl.zip]
+[2024-04-15 14:15:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-wamas-ubl]: success
+[2024-04-15 14:15:02] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.8.0.tar.gz]
+[2024-04-15 14:15:02] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.9.0.tar.gz]
+[2024-04-15 14:15:02] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2024-04-15 14:15:02] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2024-04-15 14:15:02] INFO root fetch - processPackages [sbcli-dev]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-dev-2.1.2.zip]
+[2024-04-15 14:15:02] INFO root fetch - processPackages [sbcli-dev]: Remove: archive file [/home/abi/fetcher/tmp/sbcli_dev-2.1.3.zip]
+[2024-04-15 14:15:02] INFO root fetch - main [MainThread]: End processing [sbcli-dev]: success
+[2024-04-15 14:15:02] INFO root fetch - main [MainThread]: Store serial: [22770625]
