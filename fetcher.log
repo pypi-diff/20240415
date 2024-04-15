@@ -22180,3 +22180,139 @@ EOFError: EOF read where object expected
 [2024-04-15 16:23:36] INFO root fetch - processPackages [powerprofile]: Remove: archive file [/home/abi/fetcher/tmp/powerprofile-0.9.1.tar.gz]
 [2024-04-15 16:23:36] INFO root fetch - main [MainThread]: End processing [powerprofile]: success
 [2024-04-15 16:23:36] INFO root fetch - main [MainThread]: Store serial: [22772624]
+[2024-04-15 16:25:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22772624]
+[2024-04-15 16:25:47] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-04-15 16:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rats-processors
+[2024-04-15 16:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rats-apps
+[2024-04-15 16:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: b2
+[2024-04-15 16:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: streamlit-searchbox
+[2024-04-15 16:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ckanext-files
+[2024-04-15 16:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oca-port
+[2024-04-15 16:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qronos-client
+[2024-04-15 16:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: roktools
+[2024-04-15 16:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: octodns-cloudflare
+[2024-04-15 16:25:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyBlindRL
+[2024-04-15 16:25:47] INFO root fetch - processPackages [rats-processors]: New version: [0.1.2.dev9] Old Version: [0.1.2.dev8]
+[2024-04-15 16:25:47] INFO root fetch - processPackages [rats-apps]: New version: [0.1.2.dev9] Old Version: [0.1.2.dev8]
+[2024-04-15 16:25:47] INFO root fetch - processPackages [streamlit-searchbox]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-15 16:25:47] INFO root fetch - processPackages [roktools]: New version: [6.1.0] Old Version: [6.0.6]
+[2024-04-15 16:25:47] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/a6/7b/990aa2956336107e9272c402ea673b4571912e861b49230e8b209cebb487/rats_processors-0.1.2.dev8-py3-none-any.whl
+[2024-04-15 16:25:47] INFO root fetch - processPackages [oca-port]: New version: [0.9] Old Version: [0.15]
+[2024-04-15 16:25:47] INFO root fetch - processPackages [ckanext-files]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-15 16:25:47] INFO root fetch - processPackages [qronos-client]: New version: [1.8.2] Old Version: [1.8.1]
+[2024-04-15 16:25:47] INFO root fetch - processPackages [b2]: New version: [3.9.0] Old Version: [3.8.0]
+[2024-04-15 16:25:47] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/75/fa/bb66e052cb8be630a363579ebf75bc0e9f6af65552f35f7686e7ce9cedf8/rats_apps-0.1.2.dev8-py3-none-any.whl
+[2024-04-15 16:25:47] INFO root fetch - processPackages [octodns-cloudflare]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-15 16:25:47] INFO root fetch - processPackages [roktools]: Downloading https://files.pythonhosted.org/packages/40/9d/2aef30021aec3556c2ec7e9e93d60cb9e1318f333d7146ae49c0c4c7547d/roktools-6.0.6.tar.gz
+[2024-04-15 16:25:47] INFO root fetch - processPackages [pyBlindRL]: New version: [0.0.2rc58.post1] Old Version: [0.0.2rc57.post1]
+[2024-04-15 16:25:47] INFO root fetch - processPackages [streamlit-searchbox]: Downloading https://files.pythonhosted.org/packages/03/05/d3b2298bad20f380da271265171fdd373da7cf0016ef0177ffe99f322864/streamlit-searchbox-0.1.8.tar.gz
+[2024-04-15 16:25:47] INFO root fetch - processPackages [oca-port]: Downloading https://files.pythonhosted.org/packages/70/ef/d977fc5bb927d65d2f5227ef5af7da42bb5117bc1471e92ac1b5ab8d6aaf/oca_port-0.15.tar.gz
+[2024-04-15 16:25:47] INFO root fetch - processPackages [ckanext-files]: Downloading https://files.pythonhosted.org/packages/be/22/c5a6abcc64f756c56408b2a862464f0f6bb8751374d46b665e82daf6a6a0/ckanext-files-0.2.3.tar.gz
+[2024-04-15 16:25:47] INFO root fetch - processPackages [pyBlindRL]: Downloading https://files.pythonhosted.org/packages/7a/fb/e3277d7a56b361093aa78da321e0b1eee540dcb237ec08b8ea89040b3dfd/pyblindrl-0.0.2rc57.post1.tar.gz
+[2024-04-15 16:25:47] INFO root fetch - processPackages [rats-processors]: Downloading https://files.pythonhosted.org/packages/a8/23/c3248b458a79c119a3ada7d2b23b95eced3f1c4c98ac0264b24a94517327/rats_processors-0.1.2.dev9-py3-none-any.whl
+[2024-04-15 16:25:47] INFO root fetch - processPackages [qronos-client]: Downloading https://files.pythonhosted.org/packages/87/23/3d0d3eac7cc51b6c2f4fdadaa87b1f5c0645343c94ec119dafc7bc95ec4b/qronos-client-1.8.1.tar.gz
+[2024-04-15 16:25:47] INFO root fetch - processPackages [b2]: Downloading https://files.pythonhosted.org/packages/ee/24/559591795e8d390a95b1cbc92c212db1baf875336ab5fb9d1b3477ee6ea4/b2-3.8.0.tar.gz
+[2024-04-15 16:25:47] INFO root fetch - processPackages [octodns-cloudflare]: Downloading https://files.pythonhosted.org/packages/09/7c/5516bee5a1fe373b306342c4b5b9670894794c6d89e8c2d53b306d96ed3b/octodns-cloudflare-0.0.4.tar.gz
+[2024-04-15 16:25:47] INFO root fetch - processPackages [rats-apps]: Downloading https://files.pythonhosted.org/packages/c6/ef/123a368096a4d4dcec4671218e49b9d8aafdadad684dcaef1a28234060b0/rats_apps-0.1.2.dev9-py3-none-any.whl
+[2024-04-15 16:25:47] INFO root fetch - processPackages [streamlit-searchbox]: Downloading https://files.pythonhosted.org/packages/d9/79/b7dc3794a3eed8a6353683d4234ea1df36db473b37ccb009e9508d7e8f84/streamlit-searchbox-0.1.9.tar.gz
+[2024-04-15 16:25:47] INFO root fetch - processPackages [rats-processors]: executing diffoscope
+[2024-04-15 16:25:47] INFO root fetch - processPackages [rats-processors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_processors-0.1.2.dev8-py3-none-any.whl.zip tmp/rats_processors-0.1.2.dev9-py3-none-any.whl.zip --markdown 20240415/r/rats-processors/0.1.2.dev8-0.1.2.dev9/README.md --exclude *.pyd
+[2024-04-15 16:25:47] INFO root fetch - processPackages [rats-apps]: executing diffoscope
+[2024-04-15 16:25:47] INFO root fetch - processPackages [rats-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rats_apps-0.1.2.dev8-py3-none-any.whl.zip tmp/rats_apps-0.1.2.dev9-py3-none-any.whl.zip --markdown 20240415/r/rats-apps/0.1.2.dev8-0.1.2.dev9/README.md --exclude *.pyd
+[2024-04-15 16:25:48] INFO root fetch - processPackages [oca-port]: Downloading https://files.pythonhosted.org/packages/b3/a8/dc7bfd0ba37862f21356dadb597e039ebbcc0884126a687f34d8ec84f188/oca_port-0.9.tar.gz
+[2024-04-15 16:25:48] INFO root fetch - processPackages [streamlit-searchbox]: executing diffoscope
+[2024-04-15 16:25:48] INFO root fetch - processPackages [streamlit-searchbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-searchbox-0.1.8.tar.gz tmp/streamlit-searchbox-0.1.9.tar.gz --markdown 20240415/s/streamlit-searchbox/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-15 16:25:48] INFO root fetch - processPackages [ckanext-files]: Downloading https://files.pythonhosted.org/packages/f4/ff/690dd9e8b1df8a418c8fb8b9cde8164ae98c8050ba448f00c83797fd0a77/ckanext_files-0.2.4.tar.gz
+[2024-04-15 16:25:48] INFO root fetch - processPackages [octodns-cloudflare]: Downloading https://files.pythonhosted.org/packages/21/f1/07250ceebf699aa5e631f03bb92df9820df2707a55d1c452aeec1da61c2a/octodns_cloudflare-0.0.5.tar.gz
+[2024-04-15 16:25:48] INFO root fetch - processPackages [oca-port]: executing diffoscope
+[2024-04-15 16:25:48] INFO root fetch - processPackages [oca-port]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oca_port-0.15.tar.gz tmp/oca_port-0.9.tar.gz --markdown 20240415/o/oca-port/0.15-0.9/README.md --exclude *.pyd
+[2024-04-15 16:25:48] INFO root fetch - processPackages [qronos-client]: Downloading https://files.pythonhosted.org/packages/a0/21/c4b0b1d6c1412cf881ae57c202e457945d23df1352c3f2eb3f35931ccb75/qronos_client-1.8.2.tar.gz
+[2024-04-15 16:25:48] INFO root fetch - processPackages [pyBlindRL]: Downloading https://files.pythonhosted.org/packages/8e/a1/7f281452f2584dac7bdbead0bfc7e96a178b75c0c0885cee425464cf1103/pyblindrl-0.0.2rc58.post1.tar.gz
+[2024-04-15 16:25:48] INFO root fetch - processPackages [b2]: Downloading https://files.pythonhosted.org/packages/35/74/0fab7c98aa690cac877a87efa3245b32ffcaf9e9a8311deffd3d3c07e560/b2-3.9.0.tar.gz
+[2024-04-15 16:25:48] INFO root fetch - processPackages [ckanext-files]: executing diffoscope
+[2024-04-15 16:25:48] INFO root fetch - processPackages [ckanext-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-files-0.2.3.tar.gz tmp/ckanext_files-0.2.4.tar.gz --markdown 20240415/c/ckanext-files/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-15 16:25:48] INFO root fetch - processPackages [octodns-cloudflare]: executing diffoscope
+[2024-04-15 16:25:48] INFO root fetch - processPackages [octodns-cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/octodns-cloudflare-0.0.4.tar.gz tmp/octodns_cloudflare-0.0.5.tar.gz --markdown 20240415/o/octodns-cloudflare/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-15 16:25:48] INFO root fetch - processPackages [pyBlindRL]: executing diffoscope
+[2024-04-15 16:25:48] INFO root fetch - processPackages [pyBlindRL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyblindrl-0.0.2rc57.post1.tar.gz tmp/pyblindrl-0.0.2rc58.post1.tar.gz --markdown 20240415/p/pyBlindRL/0.0.2rc57.post1-0.0.2rc58.post1/README.md --exclude *.pyd
+[2024-04-15 16:25:48] INFO root fetch - processPackages [b2]: executing diffoscope
+[2024-04-15 16:25:48] INFO root fetch - processPackages [b2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/b2-3.8.0.tar.gz tmp/b2-3.9.0.tar.gz --markdown 20240415/b/b2/3.8.0-3.9.0/README.md --exclude *.pyd
+[2024-04-15 16:25:48] INFO root fetch - processPackages [qronos-client]: executing diffoscope
+[2024-04-15 16:25:48] INFO root fetch - processPackages [qronos-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qronos-client-1.8.1.tar.gz tmp/qronos_client-1.8.2.tar.gz --markdown 20240415/q/qronos-client/1.8.1-1.8.2/README.md --exclude *.pyd
+[2024-04-15 16:25:48] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.2.dev8-py3-none-any.whl.zip]
+[2024-04-15 16:25:48] INFO root fetch - processPackages [rats-apps]: Remove: archive file [/home/abi/fetcher/tmp/rats_apps-0.1.2.dev9-py3-none-any.whl.zip]
+[2024-04-15 16:25:48] INFO root fetch - processPackages [rats-apps]: Start processing: pyBlindRL
+[2024-04-15 16:25:48] INFO root fetch - main [MainThread]: End processing [rats-apps]: success
+[2024-04-15 16:25:48] INFO root fetch - processPackages [roktools]: Downloading https://files.pythonhosted.org/packages/91/a2/7d9c62dbb728a8680392538a8c73f9c3a7e4ae9fcd32fbe62b315ec1c1da/roktools-6.1.0.tar.gz
+[2024-04-15 16:25:48] INFO root fetch - processPackages [pyBlindRL]: New version: [0.0.2rc58.post1] Old Version: [0.0.2rc57.post1]
+[2024-04-15 16:25:49] INFO root fetch - processPackages [roktools]: executing diffoscope
+[2024-04-15 16:25:49] INFO root fetch - processPackages [roktools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roktools-6.0.6.tar.gz tmp/roktools-6.1.0.tar.gz --markdown 20240415/r/roktools/6.0.6-6.1.0/README.md --exclude *.pyd
+[2024-04-15 16:25:49] INFO root fetch - processPackages [pyBlindRL]: executing diffoscope
+[2024-04-15 16:25:49] INFO root fetch - processPackages [pyBlindRL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyblindrl-0.0.2rc57.post1.tar.gz tmp/pyblindrl-0.0.2rc58.post1.tar.gz --markdown 20240415/p/pyBlindRL/0.0.2rc57.post1-0.0.2rc58.post1/README.md --exclude *.pyd
+[2024-04-15 16:25:49] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.2.dev8-py3-none-any.whl.zip]
+[2024-04-15 16:25:49] INFO root fetch - processPackages [rats-processors]: Remove: archive file [/home/abi/fetcher/tmp/rats_processors-0.1.2.dev9-py3-none-any.whl.zip]
+[2024-04-15 16:25:49] INFO root fetch - processPackages [rats-processors]: Start processing: tq42-grpc-client
+[2024-04-15 16:25:49] INFO root fetch - main [MainThread]: End processing [rats-processors]: success
+[2024-04-15 16:25:49] INFO root fetch - processPackages [streamlit-searchbox]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-searchbox-0.1.8.tar.gz]
+[2024-04-15 16:25:49] INFO root fetch - processPackages [streamlit-searchbox]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-searchbox-0.1.9.tar.gz]
+[2024-04-15 16:25:49] INFO root fetch - processPackages [streamlit-searchbox]: Start processing: certora-cli-alpha-master
+[2024-04-15 16:25:49] INFO root fetch - main [MainThread]: End processing [streamlit-searchbox]: success
+[2024-04-15 16:25:49] INFO root fetch - processPackages [tq42-grpc-client]: New version: [1.0.96] Old Version: [1.0.95]
+[2024-04-15 16:25:49] INFO root fetch - processPackages [oca-port]: Remove: archive file [/home/abi/fetcher/tmp/oca_port-0.15.tar.gz]
+[2024-04-15 16:25:49] INFO root fetch - processPackages [oca-port]: Remove: archive file [/home/abi/fetcher/tmp/oca_port-0.9.tar.gz]
+[2024-04-15 16:25:49] INFO root fetch - processPackages [oca-port]: Start processing: sampa
+[2024-04-15 16:25:49] INFO root fetch - main [MainThread]: End processing [oca-port]: success
+[2024-04-15 16:25:49] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240415.13.59.503294] Old Version: [20240415.13.33.533406]
+[2024-04-15 16:25:49] WARNING root fetch - processPackages [sampa]: Skipping, unable to determine old version
+[2024-04-15 16:25:49] INFO root fetch - main [MainThread]: End processing [sampa] error
+[2024-04-15 16:25:49] INFO root fetch - processPackages [pyBlindRL]: Remove: archive file [/home/abi/fetcher/tmp/pyblindrl-0.0.2rc57.post1.tar.gz]
+[2024-04-15 16:25:49] INFO root fetch - processPackages [pyBlindRL]: Remove: archive file [/home/abi/fetcher/tmp/pyblindrl-0.0.2rc58.post1.tar.gz]
+[2024-04-15 16:25:49] INFO root fetch - main [MainThread]: End processing [pyBlindRL]: success
+[2024-04-15 16:25:49] INFO root fetch - processPackages [octodns-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/octodns-cloudflare-0.0.4.tar.gz]
+[2024-04-15 16:25:49] INFO root fetch - processPackages [octodns-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/octodns_cloudflare-0.0.5.tar.gz]
+[2024-04-15 16:25:49] INFO root fetch - main [MainThread]: End processing [octodns-cloudflare]: success
+[2024-04-15 16:25:49] INFO root fetch - processPackages [tq42-grpc-client]: Downloading https://files.pythonhosted.org/packages/b4/8d/dde85cb0f94a9f5ec255cb91cbabac7bdb36d53f9aa48b3b383f0282293d/tq42-grpc-client-1.0.95.tar.gz
+[2024-04-15 16:25:49] INFO root fetch - processPackages [qronos-client]: Remove: archive file [/home/abi/fetcher/tmp/qronos-client-1.8.1.tar.gz]
+[2024-04-15 16:25:49] INFO root fetch - processPackages [qronos-client]: Remove: archive file [/home/abi/fetcher/tmp/qronos_client-1.8.2.tar.gz]
+[2024-04-15 16:25:49] INFO root fetch - main [MainThread]: End processing [qronos-client]: success
+[2024-04-15 16:25:49] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/ef/14/d8f73526248d02b5d325ae6c1c3566f96b69a2a494c7ee14cd698a76ba94/certora-cli-alpha-master-20240415.13.33.533406.tar.gz
+[2024-04-15 16:25:49] ERROR root fetch - processPackages [pyBlindRL]: Diffoscope failed: time="2024-04-15T16:25:49+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 75, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 35, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/pyblindrl-0.0.2rc57.post1.tar.gz does not exist
+
+[2024-04-15 16:25:49] INFO root fetch - main [MainThread]: End processing [pyBlindRL] error
+[2024-04-15 16:25:49] INFO root fetch - processPackages [tq42-grpc-client]: Downloading https://files.pythonhosted.org/packages/52/38/e7726d8a7a397af5aec0afe4e74276f3fcca8109666769dca40501cd4146/tq42_grpc_client-1.0.96.tar.gz
+[2024-04-15 16:25:50] INFO root fetch - processPackages [b2]: Remove: archive file [/home/abi/fetcher/tmp/b2-3.8.0.tar.gz]
+[2024-04-15 16:25:50] INFO root fetch - processPackages [b2]: Remove: archive file [/home/abi/fetcher/tmp/b2-3.9.0.tar.gz]
+[2024-04-15 16:25:50] INFO root fetch - main [MainThread]: End processing [b2]: success
+[2024-04-15 16:25:50] INFO root fetch - processPackages [roktools]: Remove: archive file [/home/abi/fetcher/tmp/roktools-6.0.6.tar.gz]
+[2024-04-15 16:25:50] INFO root fetch - processPackages [roktools]: Remove: archive file [/home/abi/fetcher/tmp/roktools-6.1.0.tar.gz]
+[2024-04-15 16:25:50] INFO root fetch - main [MainThread]: End processing [roktools]: success
+[2024-04-15 16:25:50] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14499439>=10485760
+[2024-04-15 16:25:50] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-04-15 16:25:50] INFO root fetch - processPackages [tq42-grpc-client]: executing diffoscope
+[2024-04-15 16:25:50] INFO root fetch - processPackages [tq42-grpc-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tq42-grpc-client-1.0.95.tar.gz tmp/tq42_grpc_client-1.0.96.tar.gz --markdown 20240415/t/tq42-grpc-client/1.0.95-1.0.96/README.md --exclude *.pyd
+[2024-04-15 16:25:50] INFO root fetch - processPackages [ckanext-files]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-files-0.2.3.tar.gz]
+[2024-04-15 16:25:50] INFO root fetch - processPackages [ckanext-files]: Remove: archive file [/home/abi/fetcher/tmp/ckanext_files-0.2.4.tar.gz]
+[2024-04-15 16:25:50] INFO root fetch - main [MainThread]: End processing [ckanext-files]: success
+[2024-04-15 16:25:51] INFO root fetch - processPackages [tq42-grpc-client]: Remove: archive file [/home/abi/fetcher/tmp/tq42-grpc-client-1.0.95.tar.gz]
+[2024-04-15 16:25:51] INFO root fetch - processPackages [tq42-grpc-client]: Remove: archive file [/home/abi/fetcher/tmp/tq42_grpc_client-1.0.96.tar.gz]
+[2024-04-15 16:25:51] INFO root fetch - main [MainThread]: End processing [tq42-grpc-client]: success
+[2024-04-15 16:25:51] INFO root fetch - main [MainThread]: Store serial: [22772666]
