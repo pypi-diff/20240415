@@ -14449,3 +14449,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 12:08:47] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024041509.tar.gz]
 [2024-04-15 12:08:47] INFO root fetch - main [MainThread]: End processing [tf-keras-nightly]: success
 [2024-04-15 12:08:47] INFO root fetch - main [MainThread]: Store serial: [22769163]
+[2024-04-15 12:10:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22769163]
+[2024-04-15 12:10:56] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-15 12:10:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jetson-examples
+[2024-04-15 12:10:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: resolwe-bio
+[2024-04-15 12:10:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-sale-force-invoiced
+[2024-04-15 12:10:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: github-custom-actions
+[2024-04-15 12:10:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-product-form-sale-link
+[2024-04-15 12:10:56] WARNING root fetch - processPackages [github-custom-actions]: Skipping, unable to determine old version
+[2024-04-15 12:10:56] INFO root fetch - main [MainThread]: End processing [github-custom-actions] error
+[2024-04-15 12:10:56] INFO root fetch - processPackages [jetson-examples]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-15 12:10:56] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: New version: [17.0.1.0.0.2] Old Version: [16.0.2.0.0]
+[2024-04-15 12:10:56] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.1.5]
+[2024-04-15 12:10:56] INFO root fetch - processPackages [resolwe-bio]: New version: [9.0.0a4] Old Version: [9.0.0a3]
+[2024-04-15 12:10:57] INFO root fetch - processPackages [jetson-examples]: Downloading https://files.pythonhosted.org/packages/80/b3/36908a35c633d5e3cb0f3073efd7e2d0ef850c76d6020434cc808b63f973/jetson-examples-0.0.2.tar.gz
+[2024-04-15 12:10:57] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: Downloading https://files.pythonhosted.org/packages/ac/06/0693983ccfbd93c3cad205aeeaf296a540921d29a72e11795a69d6df2547/odoo_addon_sale_force_invoiced-16.0.2.0.0-py3-none-any.whl
+[2024-04-15 12:10:57] INFO root fetch - processPackages [resolwe-bio]: Downloading https://files.pythonhosted.org/packages/c2/bc/f6993bc75941b8f8244e41353c3ec4b4e616477c70876197f0e454cf674e/resolwe-bio-9.0.0a3.tar.gz
+[2024-04-15 12:10:57] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: Downloading https://files.pythonhosted.org/packages/84/a4/6e6e8c79fc32387a789921390acd927566edf502c4dc82ad2fab74274013/odoo_addon_product_form_sale_link-16.0.1.0.1.5-py3-none-any.whl
+[2024-04-15 12:10:57] INFO root fetch - processPackages [jetson-examples]: Downloading https://files.pythonhosted.org/packages/87/33/f3a14be47d33451e45b483334ef0530191e4fa2fd5f11e090baf38e6e628/jetson_examples-0.0.3.tar.gz
+[2024-04-15 12:10:57] INFO root fetch - processPackages [jetson-examples]: executing diffoscope
+[2024-04-15 12:10:57] INFO root fetch - processPackages [jetson-examples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jetson-examples-0.0.2.tar.gz tmp/jetson_examples-0.0.3.tar.gz --markdown 20240415/j/jetson-examples/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-15 12:10:57] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: Downloading https://files.pythonhosted.org/packages/95/2f/6e909b8fd08501a237638f79132ca1a7be018a57cb91deab6c9d79b917a5/odoo_addon_sale_force_invoiced-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-15 12:10:57] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: Downloading https://files.pythonhosted.org/packages/d7/b7/b37e125f3a82878a793e1333eea60de30b56bf583453a55787cb0f169795/odoo_addon_product_form_sale_link-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-15 12:10:57] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: executing diffoscope
+[2024-04-15 12:10:57] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_force_invoiced-16.0.2.0.0-py3-none-any.whl.zip tmp/odoo_addon_sale_force_invoiced-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240415/o/odoo-addon-sale-force-invoiced/16.0.2.0.0-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-04-15 12:10:57] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: executing diffoscope
+[2024-04-15 12:10:57] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_form_sale_link-16.0.1.0.1.5-py3-none-any.whl.zip tmp/odoo_addon_product_form_sale_link-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240415/o/odoo-addon-product-form-sale-link/16.0.1.0.1.5-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-04-15 12:10:58] INFO root fetch - processPackages [jetson-examples]: Remove: archive file [/home/abi/fetcher/tmp/jetson-examples-0.0.2.tar.gz]
+[2024-04-15 12:10:58] INFO root fetch - processPackages [jetson-examples]: Remove: archive file [/home/abi/fetcher/tmp/jetson_examples-0.0.3.tar.gz]
+[2024-04-15 12:10:58] INFO root fetch - main [MainThread]: End processing [jetson-examples]: success
+[2024-04-15 12:10:58] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_force_invoiced-16.0.2.0.0-py3-none-any.whl.zip]
+[2024-04-15 12:10:58] INFO root fetch - processPackages [odoo-addon-sale-force-invoiced]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_force_invoiced-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-15 12:10:58] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-force-invoiced]: success
+[2024-04-15 12:10:58] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_form_sale_link-16.0.1.0.1.5-py3-none-any.whl.zip]
+[2024-04-15 12:10:58] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_form_sale_link-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-15 12:10:58] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-form-sale-link]: success
+[2024-04-15 12:10:59] INFO root fetch - processPackages [resolwe-bio]: Downloading https://files.pythonhosted.org/packages/c9/30/533d131f30f01305f0d25555f7e3eaa209d8400cd99b38de17dfec330f11/resolwe-bio-9.0.0a4.tar.gz
+[2024-04-15 12:11:00] INFO root fetch - processPackages [resolwe-bio]: executing diffoscope
+[2024-04-15 12:11:00] INFO root fetch - processPackages [resolwe-bio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resolwe-bio-9.0.0a3.tar.gz tmp/resolwe-bio-9.0.0a4.tar.gz --markdown 20240415/r/resolwe-bio/9.0.0a3-9.0.0a4/README.md --exclude *.pyd
+[2024-04-15 12:11:04] INFO root fetch - processPackages [resolwe-bio]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-bio-9.0.0a3.tar.gz]
+[2024-04-15 12:11:04] INFO root fetch - processPackages [resolwe-bio]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-bio-9.0.0a4.tar.gz]
+[2024-04-15 12:11:04] INFO root fetch - main [MainThread]: End processing [resolwe-bio]: success
+[2024-04-15 12:11:04] INFO root fetch - main [MainThread]: Store serial: [22769178]
