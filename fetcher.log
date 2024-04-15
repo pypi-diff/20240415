@@ -3033,3 +3033,42 @@
 [2024-04-15 04:23:09] INFO root fetch - processPackages [qtlink]: Remove: archive file [/home/abi/fetcher/tmp/qtlink-1.2.0.tar.gz]
 [2024-04-15 04:23:09] INFO root fetch - main [MainThread]: End processing [qtlink]: success
 [2024-04-15 04:23:09] INFO root fetch - main [MainThread]: Store serial: [22764621]
+[2024-04-15 04:25:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22764621]
+[2024-04-15 04:25:18] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-15 04:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: soundtools
+[2024-04-15 04:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: BioSAK
+[2024-04-15 04:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyqqq-cli
+[2024-04-15 04:25:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moval
+[2024-04-15 04:25:18] INFO root fetch - processPackages [soundtools]: New version: [0.2.0.1] Old Version: [0.2.0.0]
+[2024-04-15 04:25:18] INFO root fetch - processPackages [soundtools]: Downloading https://files.pythonhosted.org/packages/ee/ef/5f6964fcd1c1a2704ba7e77a3106bccd6aa82934abb48ccf22217ae5bc8a/soundtools-0.2.0.0.tar.gz
+[2024-04-15 04:25:18] INFO root fetch - processPackages [BioSAK]: New version: [1.84.0] Old Version: [1.83.3]
+[2024-04-15 04:25:18] INFO root fetch - processPackages [pyqqq-cli]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-15 04:25:18] INFO root fetch - processPackages [moval]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-15 04:25:18] INFO root fetch - processPackages [BioSAK]: Downloading https://files.pythonhosted.org/packages/a7/f1/125127f767c60dbda620b68f211652df844843ec44718a4059eed0b01188/BioSAK-1.83.3.tar.gz
+[2024-04-15 04:25:18] INFO root fetch - processPackages [soundtools]: Downloading https://files.pythonhosted.org/packages/e5/1f/8fe7b65b86ccb48a70835d4f2c7d3676c802174c48a3715f35f6d53d73b9/soundtools-0.2.0.1.tar.gz
+[2024-04-15 04:25:18] INFO root fetch - processPackages [pyqqq-cli]: Downloading https://files.pythonhosted.org/packages/4d/4a/2e10a603863af07a6a09c1a883af132e0d83ec6bc0ca9aa74d841f8adba7/pyqqq_cli-0.2.1.tar.gz
+[2024-04-15 04:25:18] INFO root fetch - processPackages [moval]: Downloading https://files.pythonhosted.org/packages/2f/2a/fce64bfb12450128441844587623d883ace479e64f62685d578d0994f441/moval-0.2.8.tar.gz
+[2024-04-15 04:25:18] INFO root fetch - processPackages [soundtools]: executing diffoscope
+[2024-04-15 04:25:18] INFO root fetch - processPackages [soundtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soundtools-0.2.0.0.tar.gz tmp/soundtools-0.2.0.1.tar.gz --markdown 20240415/s/soundtools/0.2.0.0-0.2.0.1/README.md --exclude *.pyd
+[2024-04-15 04:25:19] INFO root fetch - processPackages [pyqqq-cli]: Downloading https://files.pythonhosted.org/packages/33/ea/be22b1fa4980026d0c2f62b88812022b8afe9f01a1e3f5d4981f5d41bb9f/pyqqq_cli-0.2.2.tar.gz
+[2024-04-15 04:25:19] INFO root fetch - processPackages [moval]: Downloading https://files.pythonhosted.org/packages/ad/4e/1ade376222c4151a24bb8a4462afedaa311f1595b592028fb7632f57e1ae/moval-0.2.9.tar.gz
+[2024-04-15 04:25:19] INFO root fetch - processPackages [BioSAK]: Downloading https://files.pythonhosted.org/packages/d2/a5/852601ad07caa8dec9172e9dda1519cf3234002ef3fa5043c8265bf5045c/BioSAK-1.84.0.tar.gz
+[2024-04-15 04:25:19] INFO root fetch - processPackages [pyqqq-cli]: executing diffoscope
+[2024-04-15 04:25:19] INFO root fetch - processPackages [pyqqq-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqqq_cli-0.2.1.tar.gz tmp/pyqqq_cli-0.2.2.tar.gz --markdown 20240415/p/pyqqq-cli/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-15 04:25:19] INFO root fetch - processPackages [moval]: executing diffoscope
+[2024-04-15 04:25:19] INFO root fetch - processPackages [moval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moval-0.2.8.tar.gz tmp/moval-0.2.9.tar.gz --markdown 20240415/m/moval/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-15 04:25:19] INFO root fetch - processPackages [soundtools]: Remove: archive file [/home/abi/fetcher/tmp/soundtools-0.2.0.0.tar.gz]
+[2024-04-15 04:25:19] INFO root fetch - processPackages [soundtools]: Remove: archive file [/home/abi/fetcher/tmp/soundtools-0.2.0.1.tar.gz]
+[2024-04-15 04:25:19] INFO root fetch - main [MainThread]: End processing [soundtools]: success
+[2024-04-15 04:25:19] INFO root fetch - processPackages [BioSAK]: executing diffoscope
+[2024-04-15 04:25:19] INFO root fetch - processPackages [BioSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BioSAK-1.83.3.tar.gz tmp/BioSAK-1.84.0.tar.gz --markdown 20240415/B/BioSAK/1.83.3-1.84.0/README.md --exclude *.pyd
+[2024-04-15 04:25:19] INFO root fetch - processPackages [pyqqq-cli]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq_cli-0.2.1.tar.gz]
+[2024-04-15 04:25:19] INFO root fetch - processPackages [pyqqq-cli]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq_cli-0.2.2.tar.gz]
+[2024-04-15 04:25:19] INFO root fetch - main [MainThread]: End processing [pyqqq-cli]: success
+[2024-04-15 04:25:19] INFO root fetch - processPackages [moval]: Remove: archive file [/home/abi/fetcher/tmp/moval-0.2.8.tar.gz]
+[2024-04-15 04:25:19] INFO root fetch - processPackages [moval]: Remove: archive file [/home/abi/fetcher/tmp/moval-0.2.9.tar.gz]
+[2024-04-15 04:25:19] INFO root fetch - main [MainThread]: End processing [moval]: success
+[2024-04-15 04:25:20] INFO root fetch - processPackages [BioSAK]: Remove: archive file [/home/abi/fetcher/tmp/BioSAK-1.83.3.tar.gz]
+[2024-04-15 04:25:20] INFO root fetch - processPackages [BioSAK]: Remove: archive file [/home/abi/fetcher/tmp/BioSAK-1.84.0.tar.gz]
+[2024-04-15 04:25:20] INFO root fetch - main [MainThread]: End processing [BioSAK]: success
+[2024-04-15 04:25:20] INFO root fetch - main [MainThread]: Store serial: [22764629]
