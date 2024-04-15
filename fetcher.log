@@ -16967,3 +16967,53 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 13:44:01] INFO root fetch - processPackages [lbt-grasshopper]: Remove: archive file [/home/abi/fetcher/tmp/lbt-grasshopper-1.8.9.tar.gz]
 [2024-04-15 13:44:01] INFO root fetch - main [MainThread]: End processing [lbt-grasshopper]: success
 [2024-04-15 13:44:01] INFO root fetch - main [MainThread]: Store serial: [22770242]
+[2024-04-15 13:46:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22770242]
+[2024-04-15 13:46:10] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-15 13:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sunholo
+[2024-04-15 13:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymobiledevice3
+[2024-04-15 13:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: waitcondition-hook-for-aws-fargate-task
+[2024-04-15 13:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dm-aioinfluxdb
+[2024-04-15 13:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: soma-integ
+[2024-04-15 13:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: widgetastic.patternfly5
+[2024-04-15 13:46:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: factorial-nam
+[2024-04-15 13:46:10] INFO root fetch - processPackages [dm-aioinfluxdb]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-15 13:46:10] INFO root fetch - processPackages [sunholo]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-15 13:46:10] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/cc/35/0cc2a83f59b1ddd740a568e10894833a89bedfc91b8ebd172a427676694a/sunholo-0.8.8.tar.gz
+[2024-04-15 13:46:10] WARNING root fetch - processPackages [soma-integ]: Skipping, unable to determine old version
+[2024-04-15 13:46:10] INFO root fetch - main [MainThread]: End processing [soma-integ] error
+[2024-04-15 13:46:10] INFO root fetch - processPackages [waitcondition-hook-for-aws-fargate-task]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-15 13:46:10] WARNING root fetch - processPackages [factorial-nam]: Skipping, unable to determine old version
+[2024-04-15 13:46:10] INFO root fetch - main [MainThread]: End processing [factorial-nam] error
+[2024-04-15 13:46:10] INFO root fetch - processPackages [widgetastic.patternfly5]: New version: [24.4.15.0] Old Version: [24.3.19.0]
+[2024-04-15 13:46:10] INFO root fetch - processPackages [pymobiledevice3]: New version: [4.0.0] Old Version: [3.4.4]
+[2024-04-15 13:46:10] INFO root fetch - processPackages [dm-aioinfluxdb]: Downloading https://files.pythonhosted.org/packages/76/87/31b1a7889b0fe0e0b7420ea6ccf71d510d963807f6a919d3565db4778e45/dm-aioinfluxdb-0.2.3.tar.gz
+[2024-04-15 13:46:10] INFO root fetch - processPackages [waitcondition-hook-for-aws-fargate-task]: Downloading https://files.pythonhosted.org/packages/f0/32/0c74e0a17654fbb8cc323b651b93651680d46dceaaef9fb3faa265ba242c/waitcondition-hook-for-aws-fargate-task-1.0.2.tar.gz
+[2024-04-15 13:46:10] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/f4/84/78248df3236e593119b75003e77cf5b5bd0761e53dc91c6a148cb0571cf9/sunholo-0.8.9.tar.gz
+[2024-04-15 13:46:10] INFO root fetch - processPackages [widgetastic.patternfly5]: Downloading https://files.pythonhosted.org/packages/15/9f/6c73a34c8fd9288bbd3ccbf6a1356bedbe1428b4b062c598f9b1f284c62a/widgetastic.patternfly5-24.3.19.0-py3-none-any.whl
+[2024-04-15 13:46:10] INFO root fetch - processPackages [pymobiledevice3]: Downloading https://files.pythonhosted.org/packages/ab/09/969b480e153e2434638ad2accd3708bf9b2f78269752a146e27226e3bccc/pymobiledevice3-3.4.4.tar.gz
+[2024-04-15 13:46:10] INFO root fetch - processPackages [dm-aioinfluxdb]: Downloading https://files.pythonhosted.org/packages/37/dd/d182edd104240ff3ebee461e29f7f9993febbdc964af8fae2b868a272500/dm_aioinfluxdb-0.2.4.tar.gz
+[2024-04-15 13:46:11] WARNING root fetch - processPackages [pymobiledevice3]: Skipping package: exceeds size limit 31541278>=10485760
+[2024-04-15 13:46:11] INFO root fetch - main [MainThread]: End processing [pymobiledevice3] error
+[2024-04-15 13:46:11] INFO root fetch - processPackages [sunholo]: executing diffoscope
+[2024-04-15 13:46:11] INFO root fetch - processPackages [sunholo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunholo-0.8.8.tar.gz tmp/sunholo-0.8.9.tar.gz --markdown 20240415/s/sunholo/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-04-15 13:46:11] INFO root fetch - processPackages [dm-aioinfluxdb]: executing diffoscope
+[2024-04-15 13:46:11] INFO root fetch - processPackages [dm-aioinfluxdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm-aioinfluxdb-0.2.3.tar.gz tmp/dm_aioinfluxdb-0.2.4.tar.gz --markdown 20240415/d/dm-aioinfluxdb/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-15 13:46:11] INFO root fetch - processPackages [waitcondition-hook-for-aws-fargate-task]: Downloading https://files.pythonhosted.org/packages/43/2f/87025b51699edc673e6a3a808ff38ab0f1c469699c861f9da5f9ea356347/waitcondition-hook-for-aws-fargate-task-1.0.3.tar.gz
+[2024-04-15 13:46:11] INFO root fetch - processPackages [widgetastic.patternfly5]: Downloading https://files.pythonhosted.org/packages/5a/4b/1c55db6af69dd6c3de803bd62a04947888a117a9b533dd8cbfa742de16b2/widgetastic.patternfly5-24.4.15.0-py3-none-any.whl
+[2024-04-15 13:46:11] INFO root fetch - processPackages [waitcondition-hook-for-aws-fargate-task]: executing diffoscope
+[2024-04-15 13:46:11] INFO root fetch - processPackages [waitcondition-hook-for-aws-fargate-task]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waitcondition-hook-for-aws-fargate-task-1.0.2.tar.gz tmp/waitcondition-hook-for-aws-fargate-task-1.0.3.tar.gz --markdown 20240415/w/waitcondition-hook-for-aws-fargate-task/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-15 13:46:11] INFO root fetch - processPackages [widgetastic.patternfly5]: executing diffoscope
+[2024-04-15 13:46:11] INFO root fetch - processPackages [widgetastic.patternfly5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/widgetastic.patternfly5-24.3.19.0-py3-none-any.whl.zip tmp/widgetastic.patternfly5-24.4.15.0-py3-none-any.whl.zip --markdown 20240415/w/widgetastic.patternfly5/24.3.19.0-24.4.15.0/README.md --exclude *.pyd
+[2024-04-15 13:46:11] INFO root fetch - processPackages [dm-aioinfluxdb]: Remove: archive file [/home/abi/fetcher/tmp/dm-aioinfluxdb-0.2.3.tar.gz]
+[2024-04-15 13:46:11] INFO root fetch - processPackages [dm-aioinfluxdb]: Remove: archive file [/home/abi/fetcher/tmp/dm_aioinfluxdb-0.2.4.tar.gz]
+[2024-04-15 13:46:11] INFO root fetch - main [MainThread]: End processing [dm-aioinfluxdb]: success
+[2024-04-15 13:46:11] INFO root fetch - processPackages [waitcondition-hook-for-aws-fargate-task]: Remove: archive file [/home/abi/fetcher/tmp/waitcondition-hook-for-aws-fargate-task-1.0.2.tar.gz]
+[2024-04-15 13:46:11] INFO root fetch - processPackages [waitcondition-hook-for-aws-fargate-task]: Remove: archive file [/home/abi/fetcher/tmp/waitcondition-hook-for-aws-fargate-task-1.0.3.tar.gz]
+[2024-04-15 13:46:11] INFO root fetch - main [MainThread]: End processing [waitcondition-hook-for-aws-fargate-task]: success
+[2024-04-15 13:46:12] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.8.tar.gz]
+[2024-04-15 13:46:12] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.9.tar.gz]
+[2024-04-15 13:46:12] INFO root fetch - main [MainThread]: End processing [sunholo]: success
+[2024-04-15 13:46:12] INFO root fetch - processPackages [widgetastic.patternfly5]: Remove: archive file [/home/abi/fetcher/tmp/widgetastic.patternfly5-24.3.19.0-py3-none-any.whl.zip]
+[2024-04-15 13:46:12] INFO root fetch - processPackages [widgetastic.patternfly5]: Remove: archive file [/home/abi/fetcher/tmp/widgetastic.patternfly5-24.4.15.0-py3-none-any.whl.zip]
+[2024-04-15 13:46:12] INFO root fetch - main [MainThread]: End processing [widgetastic.patternfly5]: success
+[2024-04-15 13:46:12] INFO root fetch - main [MainThread]: Store serial: [22770267]
