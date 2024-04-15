@@ -23890,3 +23890,48 @@ AssertionError: tmp/pyblindrl-0.0.2rc57.post1.tar.gz does not exist
 [2024-04-15 17:03:47] INFO root fetch - processPackages [python-telegram-bot]: Remove: archive file [/home/abi/fetcher/tmp/python-telegram-bot-9.0.0.tar.gz]
 [2024-04-15 17:03:47] INFO root fetch - main [MainThread]: End processing [python-telegram-bot]: success
 [2024-04-15 17:03:47] INFO root fetch - main [MainThread]: Store serial: [22773379]
+[2024-04-15 17:05:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22773379]
+[2024-04-15 17:05:57] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-15 17:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gigachain-robocorp
+[2024-04-15 17:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cybrid-api-organization-python
+[2024-04-15 17:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: exciton
+[2024-04-15 17:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cybrid-api-id-python
+[2024-04-15 17:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pdfminer.rtl
+[2024-04-15 17:05:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: why-tools
+[2024-04-15 17:05:57] INFO root fetch - processPackages [pdfminer.rtl]: New version: [0.0.2.dev6] Old Version: [0.0.2.dev5]
+[2024-04-15 17:05:57] INFO root fetch - processPackages [exciton]: New version: [2.5.0] Old Version: [2.4.9]
+[2024-04-15 17:05:57] WARNING root fetch - processPackages [gigachain-robocorp]: Skipping, unable to determine old version
+[2024-04-15 17:05:57] INFO root fetch - main [MainThread]: End processing [gigachain-robocorp] error
+[2024-04-15 17:05:57] INFO root fetch - processPackages [exciton]: Downloading https://files.pythonhosted.org/packages/44/37/dcaf2ea69b4cdb9f5a3b1cf84a7775759ea1054599c82ace6a8fb37fcca2/exciton-2.4.9-py3-none-any.whl
+[2024-04-15 17:05:57] INFO root fetch - processPackages [pdfminer.rtl]: Downloading https://files.pythonhosted.org/packages/f3/e5/2649ebc49b9a425ac601b2e365e9d954444b95b8049a6ae0ce2614e77f06/pdfminer_rtl-0.0.2.dev5.tar.gz
+[2024-04-15 17:05:57] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-04-15 17:05:57] WARNING root fetch - processPackages [why-tools]: Skipping, unable to determine old version
+[2024-04-15 17:05:57] INFO root fetch - main [MainThread]: End processing [why-tools] error
+[2024-04-15 17:05:57] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-04-15 17:05:57] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/75/d9/17a583a2d5fccaef7210a11d9f7dc963aab51cd4a5ae5f7983c03291f4bc/cybrid-api-organization-python-0.98.2.tar.gz
+[2024-04-15 17:05:57] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/2d/66/0d5dc17801b737dd53e021a1548eb784ef8520799bdffbae60e088bf723c/cybrid-api-id-python-0.98.2.tar.gz
+[2024-04-15 17:05:57] INFO root fetch - processPackages [exciton]: Downloading https://files.pythonhosted.org/packages/40/85/d990689d838a6aa4a9f941d605ec46d5d4cc1f9e496abe8e4873f13e9669/exciton-2.5.0-py3-none-any.whl
+[2024-04-15 17:05:57] INFO root fetch - processPackages [exciton]: executing diffoscope
+[2024-04-15 17:05:57] INFO root fetch - processPackages [exciton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exciton-2.4.9-py3-none-any.whl.zip tmp/exciton-2.5.0-py3-none-any.whl.zip --markdown 20240415/e/exciton/2.4.9-2.5.0/README.md --exclude *.pyd
+[2024-04-15 17:05:57] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/93/ab/a857018ac26aeaa884608066dbe6bd482e17a4edf88533d3335a3ed2a25c/cybrid-api-organization-python-0.99.0.tar.gz
+[2024-04-15 17:05:58] INFO root fetch - processPackages [pdfminer.rtl]: Downloading https://files.pythonhosted.org/packages/b5/98/265854f818d72c88e2d4e2d95e64adf6afd34235f2ffa0792633526ef100/pdfminer_rtl-0.0.2.dev6.tar.gz
+[2024-04-15 17:05:58] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/de/07/de389a95ca98f482f653401dbe8342cf8d4930d1efee86d1f28f3c1afcd1/cybrid-api-id-python-0.99.0.tar.gz
+[2024-04-15 17:05:58] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2024-04-15 17:05:58] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.98.2.tar.gz tmp/cybrid-api-organization-python-0.99.0.tar.gz --markdown 20240415/c/cybrid-api-organization-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-04-15 17:05:58] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2024-04-15 17:05:58] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.98.2.tar.gz tmp/cybrid-api-id-python-0.99.0.tar.gz --markdown 20240415/c/cybrid-api-id-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-04-15 17:05:58] INFO root fetch - processPackages [exciton]: Remove: archive file [/home/abi/fetcher/tmp/exciton-2.4.9-py3-none-any.whl.zip]
+[2024-04-15 17:05:58] INFO root fetch - processPackages [exciton]: Remove: archive file [/home/abi/fetcher/tmp/exciton-2.5.0-py3-none-any.whl.zip]
+[2024-04-15 17:05:58] INFO root fetch - main [MainThread]: End processing [exciton]: success
+[2024-04-15 17:05:58] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.98.2.tar.gz]
+[2024-04-15 17:05:58] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.99.0.tar.gz]
+[2024-04-15 17:05:58] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2024-04-15 17:05:59] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.98.2.tar.gz]
+[2024-04-15 17:05:59] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.99.0.tar.gz]
+[2024-04-15 17:05:59] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2024-04-15 17:06:03] INFO root fetch - processPackages [pdfminer.rtl]: executing diffoscope
+[2024-04-15 17:06:03] INFO root fetch - processPackages [pdfminer.rtl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdfminer_rtl-0.0.2.dev5.tar.gz tmp/pdfminer_rtl-0.0.2.dev6.tar.gz --markdown 20240415/p/pdfminer.rtl/0.0.2.dev5-0.0.2.dev6/README.md --exclude *.pyd
+[2024-04-15 17:06:05] INFO root fetch - processPackages [pdfminer.rtl]: Remove: archive file [/home/abi/fetcher/tmp/pdfminer_rtl-0.0.2.dev5.tar.gz]
+[2024-04-15 17:06:05] INFO root fetch - processPackages [pdfminer.rtl]: Remove: archive file [/home/abi/fetcher/tmp/pdfminer_rtl-0.0.2.dev6.tar.gz]
+[2024-04-15 17:06:05] INFO root fetch - main [MainThread]: End processing [pdfminer.rtl]: success
+[2024-04-15 17:06:05] INFO root fetch - main [MainThread]: Store serial: [22773405]
