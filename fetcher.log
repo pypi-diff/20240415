@@ -3584,3 +3584,27 @@
 [2024-04-15 04:47:17] INFO root fetch - processPackages [astropy-iers-data]: Remove: archive file [/home/abi/fetcher/tmp/astropy-iers-data-0.2024.4.8.0.32.4.tar.gz]
 [2024-04-15 04:47:17] INFO root fetch - main [MainThread]: End processing [astropy-iers-data]: success
 [2024-04-15 04:47:17] INFO root fetch - main [MainThread]: Store serial: [22764836]
+[2024-04-15 04:49:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22764836]
+[2024-04-15 04:49:26] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-15 04:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: proton-web
+[2024-04-15 04:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyhdl-call-if
+[2024-04-15 04:49:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spaceone-monitoring
+[2024-04-15 04:49:26] WARNING root fetch - processPackages [proton-web]: Skipping, unable to determine old version
+[2024-04-15 04:49:26] INFO root fetch - main [MainThread]: End processing [proton-web] error
+[2024-04-15 04:49:26] INFO root fetch - processPackages [pyhdl-call-if]: New version: [0.0.1.8682446142] Old Version: [0.0.1]
+[2024-04-15 04:49:26] INFO root fetch - processPackages [spaceone-monitoring]: New version: [2.0.dev9] Old Version: [2.0.dev8]
+[2024-04-15 04:49:26] INFO root fetch - processPackages [pyhdl-call-if]: Downloading https://files.pythonhosted.org/packages/1f/69/2f5bf42e3dab0722a126db11d6cbffeba161f8065b770ec2a804341aa48b/pyhdl_call_if-0.0.1-py2.py3-none-any.whl
+[2024-04-15 04:49:26] INFO root fetch - processPackages [spaceone-monitoring]: Downloading https://files.pythonhosted.org/packages/c8/8b/9685a10ae0789df3d5753f09dea0f810a63c92806ff003181dc787d9663a/spaceone-monitoring-2.0.dev8.tar.gz
+[2024-04-15 04:49:26] INFO root fetch - processPackages [pyhdl-call-if]: Downloading https://files.pythonhosted.org/packages/91/c4/6fa16279e4506dc2796b8b8e2978bc2a8b6dba909d5e3d64676d0be3cca0/pyhdl_call_if-0.0.1.8682446142-py2.py3-none-any.whl
+[2024-04-15 04:49:26] INFO root fetch - processPackages [spaceone-monitoring]: Downloading https://files.pythonhosted.org/packages/56/2e/99c8fb393fd0efba4e7b42a346481ce8dd09778e34b90e3603fb295d7af1/spaceone-monitoring-2.0.dev9.tar.gz
+[2024-04-15 04:49:26] INFO root fetch - processPackages [pyhdl-call-if]: executing diffoscope
+[2024-04-15 04:49:26] INFO root fetch - processPackages [pyhdl-call-if]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhdl_call_if-0.0.1-py2.py3-none-any.whl.zip tmp/pyhdl_call_if-0.0.1.8682446142-py2.py3-none-any.whl.zip --markdown 20240415/p/pyhdl-call-if/0.0.1-0.0.1.8682446142/README.md --exclude *.pyd
+[2024-04-15 04:49:27] INFO root fetch - processPackages [spaceone-monitoring]: executing diffoscope
+[2024-04-15 04:49:27] INFO root fetch - processPackages [spaceone-monitoring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-monitoring-2.0.dev8.tar.gz tmp/spaceone-monitoring-2.0.dev9.tar.gz --markdown 20240415/s/spaceone-monitoring/2.0.dev8-2.0.dev9/README.md --exclude *.pyd
+[2024-04-15 04:49:27] INFO root fetch - processPackages [pyhdl-call-if]: Remove: archive file [/home/abi/fetcher/tmp/pyhdl_call_if-0.0.1-py2.py3-none-any.whl.zip]
+[2024-04-15 04:49:27] INFO root fetch - processPackages [pyhdl-call-if]: Remove: archive file [/home/abi/fetcher/tmp/pyhdl_call_if-0.0.1.8682446142-py2.py3-none-any.whl.zip]
+[2024-04-15 04:49:27] INFO root fetch - main [MainThread]: End processing [pyhdl-call-if]: success
+[2024-04-15 04:49:27] INFO root fetch - processPackages [spaceone-monitoring]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-monitoring-2.0.dev8.tar.gz]
+[2024-04-15 04:49:27] INFO root fetch - processPackages [spaceone-monitoring]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-monitoring-2.0.dev9.tar.gz]
+[2024-04-15 04:49:27] INFO root fetch - main [MainThread]: End processing [spaceone-monitoring]: success
+[2024-04-15 04:49:27] INFO root fetch - main [MainThread]: Store serial: [22764846]
