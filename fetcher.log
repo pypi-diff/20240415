@@ -10091,3 +10091,39 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 09:33:05] INFO root fetch - processPackages [synrbl]: Remove: archive file [/home/abi/fetcher/tmp/synrbl-0.0.6.tar.gz]
 [2024-04-15 09:33:05] INFO root fetch - main [MainThread]: End processing [synrbl]: success
 [2024-04-15 09:33:05] INFO root fetch - main [MainThread]: Store serial: [22767339]
+[2024-04-15 09:35:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22767339]
+[2024-04-15 09:35:13] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-15 09:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gpuwidget
+[2024-04-15 09:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pipez
+[2024-04-15 09:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: multiagents
+[2024-04-15 09:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eirStru
+[2024-04-15 09:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: coglib
+[2024-04-15 09:35:13] INFO root fetch - processPackages [coglib]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-15 09:35:13] INFO root fetch - processPackages [eirStru]: New version: [0.2.93] Old Version: [0.2.92]
+[2024-04-15 09:35:13] INFO root fetch - processPackages [pipez]: New version: [0.0.9] Old Version: [0.0.88]
+[2024-04-15 09:35:13] WARNING root fetch - processPackages [gpuwidget]: Skipping, unable to determine old version
+[2024-04-15 09:35:13] INFO root fetch - main [MainThread]: End processing [gpuwidget] error
+[2024-04-15 09:35:13] WARNING root fetch - processPackages [multiagents]: Skipping, unable to determine old version
+[2024-04-15 09:35:13] INFO root fetch - main [MainThread]: End processing [multiagents] error
+[2024-04-15 09:35:13] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/83/c7/1ea6fc37b59559d5545a3ed149f23d6cd288f0e485f591236146af8a5b52/eirStru-0.2.92.tar.gz
+[2024-04-15 09:35:14] INFO root fetch - processPackages [coglib]: Downloading https://files.pythonhosted.org/packages/73/bc/eeff7fbbe1a01491172879f91b99370d425599d8fb93868600b021b72c74/coglib-0.1.0.tar.gz
+[2024-04-15 09:35:14] INFO root fetch - processPackages [pipez]: Downloading https://files.pythonhosted.org/packages/09/15/22779257ea3bc33d59058baff5777167e651f0a6bf18dc8271c1cc2c51ff/pipez-0.0.88.tar.gz
+[2024-04-15 09:35:14] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/f6/6e/046918fb626cff2cec3681f75d96e78e7fd7ffec5149fdd8bca5788f140a/eirStru-0.2.93.tar.gz
+[2024-04-15 09:35:14] INFO root fetch - processPackages [eirStru]: executing diffoscope
+[2024-04-15 09:35:14] INFO root fetch - processPackages [eirStru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eirStru-0.2.92.tar.gz tmp/eirStru-0.2.93.tar.gz --markdown 20240415/e/eirStru/0.2.92-0.2.93/README.md --exclude *.pyd
+[2024-04-15 09:35:14] INFO root fetch - processPackages [coglib]: Downloading https://files.pythonhosted.org/packages/d8/81/9fa04dfefafad0f3a1b1946d4b1eabafccbd4c5ece02f4c41d18f289443e/coglib-0.1.1.tar.gz
+[2024-04-15 09:35:14] INFO root fetch - processPackages [pipez]: Downloading https://files.pythonhosted.org/packages/a3/7b/b75e90898c1b52cbcd0b17ad4595e5ed0f6d4554e94be045c641282bc131/pipez-0.0.9.tar.gz
+[2024-04-15 09:35:14] INFO root fetch - processPackages [coglib]: executing diffoscope
+[2024-04-15 09:35:14] INFO root fetch - processPackages [coglib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coglib-0.1.0.tar.gz tmp/coglib-0.1.1.tar.gz --markdown 20240415/c/coglib/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-15 09:35:14] INFO root fetch - processPackages [pipez]: executing diffoscope
+[2024-04-15 09:35:14] INFO root fetch - processPackages [pipez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipez-0.0.88.tar.gz tmp/pipez-0.0.9.tar.gz --markdown 20240415/p/pipez/0.0.88-0.0.9/README.md --exclude *.pyd
+[2024-04-15 09:35:15] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.2.92.tar.gz]
+[2024-04-15 09:35:15] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.2.93.tar.gz]
+[2024-04-15 09:35:15] INFO root fetch - main [MainThread]: End processing [eirStru]: success
+[2024-04-15 09:35:15] INFO root fetch - processPackages [coglib]: Remove: archive file [/home/abi/fetcher/tmp/coglib-0.1.0.tar.gz]
+[2024-04-15 09:35:15] INFO root fetch - processPackages [coglib]: Remove: archive file [/home/abi/fetcher/tmp/coglib-0.1.1.tar.gz]
+[2024-04-15 09:35:15] INFO root fetch - main [MainThread]: End processing [coglib]: success
+[2024-04-15 09:35:15] INFO root fetch - processPackages [pipez]: Remove: archive file [/home/abi/fetcher/tmp/pipez-0.0.88.tar.gz]
+[2024-04-15 09:35:15] INFO root fetch - processPackages [pipez]: Remove: archive file [/home/abi/fetcher/tmp/pipez-0.0.9.tar.gz]
+[2024-04-15 09:35:15] INFO root fetch - main [MainThread]: End processing [pipez]: success
+[2024-04-15 09:35:15] INFO root fetch - main [MainThread]: Store serial: [22767354]
