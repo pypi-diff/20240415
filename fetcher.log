@@ -2298,3 +2298,15 @@
 [2024-04-15 03:15:59] INFO root fetch - processPackages [hypickle]: Remove: archive file [/home/abi/fetcher/tmp/hypickle-1.1.33.tar.gz]
 [2024-04-15 03:15:59] INFO root fetch - main [MainThread]: End processing [hypickle]: success
 [2024-04-15 03:15:59] INFO root fetch - main [MainThread]: Store serial: [22764305]
+[2024-04-15 03:18:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22764305]
+[2024-04-15 03:18:08] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-15 03:18:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clingwrap
+[2024-04-15 03:18:08] INFO root fetch - processPackages [clingwrap]: New version: [1.6.6] Old Version: [1.6.5]
+[2024-04-15 03:18:08] INFO root fetch - processPackages [clingwrap]: Downloading https://files.pythonhosted.org/packages/5c/2e/2bf65bdb00a6b126553fc08ea4f5213458caa5feb1f16cf7f74933357431/clingwrap-1.6.5.tar.gz
+[2024-04-15 03:18:09] INFO root fetch - processPackages [clingwrap]: Downloading https://files.pythonhosted.org/packages/ab/f5/1f8da1642a22809cc112f6092d37cd2ced316c701f65756240244059a1ab/clingwrap-1.6.6.tar.gz
+[2024-04-15 03:18:09] INFO root fetch - processPackages [clingwrap]: executing diffoscope
+[2024-04-15 03:18:09] INFO root fetch - processPackages [clingwrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clingwrap-1.6.5.tar.gz tmp/clingwrap-1.6.6.tar.gz --markdown 20240415/c/clingwrap/1.6.5-1.6.6/README.md --exclude *.pyd
+[2024-04-15 03:18:09] INFO root fetch - processPackages [clingwrap]: Remove: archive file [/home/abi/fetcher/tmp/clingwrap-1.6.5.tar.gz]
+[2024-04-15 03:18:09] INFO root fetch - processPackages [clingwrap]: Remove: archive file [/home/abi/fetcher/tmp/clingwrap-1.6.6.tar.gz]
+[2024-04-15 03:18:09] INFO root fetch - main [MainThread]: End processing [clingwrap]: success
+[2024-04-15 03:18:09] INFO root fetch - main [MainThread]: Store serial: [22764308]
