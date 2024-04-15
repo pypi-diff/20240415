@@ -13425,3 +13425,61 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 11:35:39] INFO root fetch - processPackages [mtutils]: Remove: archive file [/home/abi/fetcher/tmp/mtutils-2.1.9.tar.gz]
 [2024-04-15 11:35:39] INFO root fetch - main [MainThread]: End processing [mtutils]: success
 [2024-04-15 11:35:39] INFO root fetch - main [MainThread]: Store serial: [22768719]
+[2024-04-15 11:37:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22768719]
+[2024-04-15 11:37:48] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-15 11:37:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spai
+[2024-04-15 11:37:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dataminer
+[2024-04-15 11:37:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rapids-singlecell
+[2024-04-15 11:37:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gliner-finetune
+[2024-04-15 11:37:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: airbyte-source-azure-blob-storage
+[2024-04-15 11:37:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: happy-vllm
+[2024-04-15 11:37:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: optinist
+[2024-04-15 11:37:48] INFO root fetch - processPackages [gliner-finetune]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-15 11:37:48] INFO root fetch - processPackages [rapids-singlecell]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-04-15 11:37:48] INFO root fetch - processPackages [airbyte-source-azure-blob-storage]: New version: [0.4.0] Old Version: [0.3.6]
+[2024-04-15 11:37:48] INFO root fetch - processPackages [dataminer]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-15 11:37:48] INFO root fetch - processPackages [gliner-finetune]: Downloading https://files.pythonhosted.org/packages/a0/97/92caaa6ae7637dcb05aa8ce9f2eff204eaf02e074cda5a5e84920f1641e7/gliner-finetune-0.0.2.tar.gz
+[2024-04-15 11:37:48] INFO root fetch - processPackages [optinist]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-15 11:37:48] INFO root fetch - processPackages [happy-vllm]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-15 11:37:48] INFO root fetch - processPackages [spai]: New version: [2024.4.15] Old Version: [2024.4.11.post5]
+[2024-04-15 11:37:49] INFO root fetch - processPackages [rapids-singlecell]: Downloading https://files.pythonhosted.org/packages/19/7e/6cf4b24a636e26f2cbbd634bd0d26c8a2eeb7ac84bcd3c964e79df55a5bc/rapids_singlecell-0.9.5.tar.gz
+[2024-04-15 11:37:49] INFO root fetch - processPackages [dataminer]: Downloading https://files.pythonhosted.org/packages/84/4f/d02f682f5975e97aef48b43afbcd02a7e5551a9969bcdabd25cde7a569ff/dataminer-0.1.3.tar.gz
+[2024-04-15 11:37:49] INFO root fetch - processPackages [airbyte-source-azure-blob-storage]: Downloading https://files.pythonhosted.org/packages/cc/70/7e3eea25cf80e932e47f88ed3cd69c367d9e77b2c811fc1b4e7795e839f1/airbyte_source_azure_blob_storage-0.3.6.tar.gz
+[2024-04-15 11:37:49] INFO root fetch - processPackages [happy-vllm]: Downloading https://files.pythonhosted.org/packages/96/b0/531cf7ba37df8b1e043800f72428ce5ba673ed036d7586733858262b21d5/happy_vllm-1.0.0.tar.gz
+[2024-04-15 11:37:49] INFO root fetch - processPackages [spai]: Downloading https://files.pythonhosted.org/packages/4d/69/c01acacc42f40c9557d23228a288b2a5ac08cb2b4af8277b1159fd43f1bb/spai-2024.4.11.post5.tar.gz
+[2024-04-15 11:37:49] INFO root fetch - processPackages [optinist]: Downloading https://files.pythonhosted.org/packages/21/44/9d94899ca75c51b4f32ef26efba1d21a9ac4110409104e70ebc6e8161a98/optinist-1.2.0.tar.gz
+[2024-04-15 11:37:49] INFO root fetch - processPackages [gliner-finetune]: Downloading https://files.pythonhosted.org/packages/1b/3a/c830dfe8ac8d8e4ef5bd63405065287d99c9833b0d796d41c207764d57a2/gliner-finetune-0.0.3.tar.gz
+[2024-04-15 11:37:49] WARNING root fetch - processPackages [optinist]: Skipping package: exceeds size limit 71875647>=10485760
+[2024-04-15 11:37:49] INFO root fetch - main [MainThread]: End processing [optinist] error
+[2024-04-15 11:37:49] INFO root fetch - processPackages [gliner-finetune]: executing diffoscope
+[2024-04-15 11:37:49] INFO root fetch - processPackages [gliner-finetune]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gliner-finetune-0.0.2.tar.gz tmp/gliner-finetune-0.0.3.tar.gz --markdown 20240415/g/gliner-finetune/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-15 11:37:49] ERROR root fetch - processPackages [airbyte-source-azure-blob-storage]: Unable to fetch info: No such project/version 'airbyte-source-azure-blob-storage' 0.4.0
+[2024-04-15 11:37:49] INFO root fetch - main [MainThread]: End processing [airbyte-source-azure-blob-storage] error
+[2024-04-15 11:37:49] INFO root fetch - processPackages [dataminer]: Downloading https://files.pythonhosted.org/packages/eb/be/8286917639ae2efa10caa2e2b2ad5a03abfb89b3dc2a297b4d0deb69073f/dataminer-0.1.4.tar.gz
+[2024-04-15 11:37:49] INFO root fetch - processPackages [happy-vllm]: Downloading https://files.pythonhosted.org/packages/73/f3/16f4f05fa0e41cd1d048f4776ae20ad9dfcf85665e967057b17e57aebb02/happy_vllm-1.1.0.tar.gz
+[2024-04-15 11:37:49] INFO root fetch - processPackages [rapids-singlecell]: Downloading https://files.pythonhosted.org/packages/f1/9e/72c631018473d6c9fc5e686353754a4badb42f829af9793d8b87f1c575f9/rapids_singlecell-0.9.6.tar.gz
+[2024-04-15 11:37:49] INFO root fetch - processPackages [spai]: Downloading https://files.pythonhosted.org/packages/38/f6/a2090a184c0cf211861dfb616c1d2d5f15e9e0c6dab5fbf8ea8cfb1d1ed5/spai-2024.4.15.tar.gz
+[2024-04-15 11:37:49] INFO root fetch - processPackages [dataminer]: executing diffoscope
+[2024-04-15 11:37:49] INFO root fetch - processPackages [dataminer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataminer-0.1.3.tar.gz tmp/dataminer-0.1.4.tar.gz --markdown 20240415/d/dataminer/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-15 11:37:49] INFO root fetch - processPackages [rapids-singlecell]: executing diffoscope
+[2024-04-15 11:37:49] INFO root fetch - processPackages [rapids-singlecell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapids_singlecell-0.9.5.tar.gz tmp/rapids_singlecell-0.9.6.tar.gz --markdown 20240415/r/rapids-singlecell/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-04-15 11:37:49] INFO root fetch - processPackages [spai]: executing diffoscope
+[2024-04-15 11:37:49] INFO root fetch - processPackages [spai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spai-2024.4.11.post5.tar.gz tmp/spai-2024.4.15.tar.gz --markdown 20240415/s/spai/2024.4.11.post5-2024.4.15/README.md --exclude *.pyd
+[2024-04-15 11:37:49] INFO root fetch - processPackages [happy-vllm]: executing diffoscope
+[2024-04-15 11:37:49] INFO root fetch - processPackages [happy-vllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/happy_vllm-1.0.0.tar.gz tmp/happy_vllm-1.1.0.tar.gz --markdown 20240415/h/happy-vllm/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-04-15 11:37:50] INFO root fetch - processPackages [gliner-finetune]: Remove: archive file [/home/abi/fetcher/tmp/gliner-finetune-0.0.2.tar.gz]
+[2024-04-15 11:37:50] INFO root fetch - processPackages [gliner-finetune]: Remove: archive file [/home/abi/fetcher/tmp/gliner-finetune-0.0.3.tar.gz]
+[2024-04-15 11:37:50] INFO root fetch - main [MainThread]: End processing [gliner-finetune]: success
+[2024-04-15 11:37:50] INFO root fetch - processPackages [dataminer]: Remove: archive file [/home/abi/fetcher/tmp/dataminer-0.1.3.tar.gz]
+[2024-04-15 11:37:50] INFO root fetch - processPackages [dataminer]: Remove: archive file [/home/abi/fetcher/tmp/dataminer-0.1.4.tar.gz]
+[2024-04-15 11:37:50] INFO root fetch - main [MainThread]: End processing [dataminer]: success
+[2024-04-15 11:37:50] INFO root fetch - processPackages [happy-vllm]: Remove: archive file [/home/abi/fetcher/tmp/happy_vllm-1.0.0.tar.gz]
+[2024-04-15 11:37:50] INFO root fetch - processPackages [happy-vllm]: Remove: archive file [/home/abi/fetcher/tmp/happy_vllm-1.1.0.tar.gz]
+[2024-04-15 11:37:50] INFO root fetch - main [MainThread]: End processing [happy-vllm]: success
+[2024-04-15 11:37:50] INFO root fetch - processPackages [rapids-singlecell]: Remove: archive file [/home/abi/fetcher/tmp/rapids_singlecell-0.9.5.tar.gz]
+[2024-04-15 11:37:50] INFO root fetch - processPackages [rapids-singlecell]: Remove: archive file [/home/abi/fetcher/tmp/rapids_singlecell-0.9.6.tar.gz]
+[2024-04-15 11:37:50] INFO root fetch - main [MainThread]: End processing [rapids-singlecell]: success
+[2024-04-15 11:37:50] INFO root fetch - processPackages [spai]: Remove: archive file [/home/abi/fetcher/tmp/spai-2024.4.11.post5.tar.gz]
+[2024-04-15 11:37:50] INFO root fetch - processPackages [spai]: Remove: archive file [/home/abi/fetcher/tmp/spai-2024.4.15.tar.gz]
+[2024-04-15 11:37:50] INFO root fetch - main [MainThread]: End processing [spai]: success
+[2024-04-15 11:37:50] INFO root fetch - main [MainThread]: Store serial: [22768754]
