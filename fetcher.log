@@ -9906,3 +9906,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 09:24:18] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-59.9.1.tar.gz]
 [2024-04-15 09:24:18] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-04-15 09:24:18] INFO root fetch - main [MainThread]: Store serial: [22767216]
+[2024-04-15 09:26:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22767216]
+[2024-04-15 09:26:26] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-15 09:26:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pre5g
+[2024-04-15 09:26:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: avania
+[2024-04-15 09:26:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pre5g
+[2024-04-15 09:26:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: har2locust
+[2024-04-15 09:26:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumiverse-grafana
+[2024-04-15 09:26:27] INFO root fetch - processPackages [avania]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-15 09:26:27] INFO root fetch - processPackages [pulumiverse-grafana]: New version: [0.4.2a1713162907] Old Version: [0.4.2a1712913962]
+[2024-04-15 09:26:27] INFO root fetch - processPackages [pre5g]: New version: [2.9] Old Version: [2.0]
+[2024-04-15 09:26:27] INFO root fetch - processPackages [pre5g]: New version: [2.9] Old Version: [2.0]
+[2024-04-15 09:26:27] INFO root fetch - processPackages [avania]: Downloading https://files.pythonhosted.org/packages/80/73/ebe74336733d6e6ba2a0bdaf405d61c3c962bd69493622087772f0d2ede7/avania-0.1.4.tar.gz
+[2024-04-15 09:26:27] INFO root fetch - processPackages [pulumiverse-grafana]: Downloading https://files.pythonhosted.org/packages/f6/38/0406298c5587d4cb619546d213fa4a637e026af196ec11ba3697a2179a21/pulumiverse_grafana-0.4.2a1712913962.tar.gz
+[2024-04-15 09:26:27] INFO root fetch - processPackages [har2locust]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-04-15 09:26:27] INFO root fetch - processPackages [pre5g]: Downloading https://files.pythonhosted.org/packages/b5/8e/c60592e3cf14e29d3b5d07e931172e4c5640108480cb40ff5ee59fb7d3c5/pre5g-2.0.tar.gz
+[2024-04-15 09:26:27] INFO root fetch - processPackages [pre5g]: Downloading https://files.pythonhosted.org/packages/b5/8e/c60592e3cf14e29d3b5d07e931172e4c5640108480cb40ff5ee59fb7d3c5/pre5g-2.0.tar.gz
+[2024-04-15 09:26:27] INFO root fetch - processPackages [har2locust]: Downloading https://files.pythonhosted.org/packages/bf/46/57a42ebd1a5107a86c90a5681f1cce7f1880acc3ce01c28a5d0b933f8d5f/har2locust-0.9.1.tar.gz
+[2024-04-15 09:26:27] INFO root fetch - processPackages [pulumiverse-grafana]: Downloading https://files.pythonhosted.org/packages/ec/ff/2daf1e6d35279112814280c7ebc5b86b603c058f2839c60a356d634b46ec/pulumiverse_grafana-0.4.2a1713162907.tar.gz
+[2024-04-15 09:26:27] INFO root fetch - processPackages [avania]: Downloading https://files.pythonhosted.org/packages/61/13/80a817f0ba00cff6f28ce3135fb521cb78f1fb29e759c4767670fccc66dd/avania-0.1.5.tar.gz
+[2024-04-15 09:26:27] INFO root fetch - processPackages [pulumiverse-grafana]: executing diffoscope
+[2024-04-15 09:26:27] INFO root fetch - processPackages [pulumiverse-grafana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumiverse_grafana-0.4.2a1712913962.tar.gz tmp/pulumiverse_grafana-0.4.2a1713162907.tar.gz --markdown 20240415/p/pulumiverse-grafana/0.4.2a1712913962-0.4.2a1713162907/README.md --exclude *.pyd
+[2024-04-15 09:26:27] WARNING root fetch - processPackages [har2locust]: Skipping package: exceeds size limit 25599932>=10485760
+[2024-04-15 09:26:27] INFO root fetch - main [MainThread]: End processing [har2locust] error
+[2024-04-15 09:26:27] INFO root fetch - processPackages [avania]: executing diffoscope
+[2024-04-15 09:26:27] INFO root fetch - processPackages [avania]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avania-0.1.4.tar.gz tmp/avania-0.1.5.tar.gz --markdown 20240415/a/avania/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-15 09:26:27] INFO root fetch - processPackages [pre5g]: Downloading https://files.pythonhosted.org/packages/63/47/361c781837564b1d95f2c3f2ed2e12205703a14b23c8a6ab16f90abbd062/pre5g-2.9.tar.gz
+[2024-04-15 09:26:27] INFO root fetch - processPackages [pre5g]: Downloading https://files.pythonhosted.org/packages/63/47/361c781837564b1d95f2c3f2ed2e12205703a14b23c8a6ab16f90abbd062/pre5g-2.9.tar.gz
+[2024-04-15 09:26:27] INFO root fetch - processPackages [pre5g]: executing diffoscope
+[2024-04-15 09:26:27] INFO root fetch - processPackages [pre5g]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pre5g-2.0.tar.gz tmp/pre5g-2.9.tar.gz --markdown 20240415/p/pre5g/2.0-2.9/README.md --exclude *.pyd
+[2024-04-15 09:26:27] INFO root fetch - processPackages [pre5g]: executing diffoscope
+[2024-04-15 09:26:27] INFO root fetch - processPackages [pre5g]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pre5g-2.0.tar.gz tmp/pre5g-2.9.tar.gz --markdown 20240415/p/pre5g/2.0-2.9/README.md --exclude *.pyd
+[2024-04-15 09:26:28] INFO root fetch - processPackages [avania]: Remove: archive file [/home/abi/fetcher/tmp/avania-0.1.4.tar.gz]
+[2024-04-15 09:26:28] INFO root fetch - processPackages [avania]: Remove: archive file [/home/abi/fetcher/tmp/avania-0.1.5.tar.gz]
+[2024-04-15 09:26:28] INFO root fetch - main [MainThread]: End processing [avania]: success
+[2024-04-15 09:26:28] INFO root fetch - processPackages [pre5g]: Remove: archive file [/home/abi/fetcher/tmp/pre5g-2.0.tar.gz]
+[2024-04-15 09:26:28] INFO root fetch - processPackages [pre5g]: Remove: archive file [/home/abi/fetcher/tmp/pre5g-2.9.tar.gz]
+[2024-04-15 09:26:28] INFO root fetch - main [MainThread]: End processing [pre5g]: success
+[2024-04-15 09:26:28] INFO root fetch - main [MainThread]: End processing [pre5g]: success
+[2024-04-15 09:26:28] INFO root fetch - processPackages [pulumiverse-grafana]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_grafana-0.4.2a1712913962.tar.gz]
+[2024-04-15 09:26:28] INFO root fetch - processPackages [pulumiverse-grafana]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_grafana-0.4.2a1713162907.tar.gz]
+[2024-04-15 09:26:28] INFO root fetch - main [MainThread]: End processing [pulumiverse-grafana]: success
+[2024-04-15 09:26:28] INFO root fetch - main [MainThread]: Store serial: [22767241]
