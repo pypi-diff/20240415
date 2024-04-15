@@ -21090,3 +21090,188 @@ EOFError: EOF read where object expected
 [2024-04-15 15:57:43] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-59.9.1.tar.gz]
 [2024-04-15 15:57:43] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-04-15 15:57:43] INFO root fetch - main [MainThread]: Store serial: [22772150]
+[2024-04-15 15:59:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22772150]
+[2024-04-15 15:59:52] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2024-04-15 15:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oedialect
+[2024-04-15 15:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scematk
+[2024-04-15 15:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: google-ai-generativelanguage
+[2024-04-15 15:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: google-cloud-backupdr
+[2024-04-15 15:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: google-cloud-batch
+[2024-04-15 15:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wowicache
+[2024-04-15 15:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: google-cloud-bigquery-datatransfer
+[2024-04-15 15:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: roktools
+[2024-04-15 15:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: google-cloud-discoveryengine
+[2024-04-15 15:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: google-cloud-monitoring
+[2024-04-15 15:59:53] INFO root fetch - processPackages [google-cloud-bigquery-datatransfer]: New version: [3.9.0] Old Version: [3.8.0]
+[2024-04-15 15:59:53] INFO root fetch - processPackages [roktools]: New version: [6.0.6] Old Version: [5.7.0]
+[2024-04-15 15:59:53] INFO root fetch - processPackages [scematk]: New version: [0.0.2rc99.post1] Old Version: [0.0.2rc98.post1]
+[2024-04-15 15:59:53] INFO root fetch - processPackages [wowicache]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-15 15:59:53] INFO root fetch - processPackages [google-cloud-batch]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-15 15:59:53] INFO root fetch - processPackages [google-ai-generativelanguage]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-04-15 15:59:53] INFO root fetch - processPackages [oedialect]: New version: [0.1.1.dev0] Old Version: [0.0.9.dev0]
+[2024-04-15 15:59:53] INFO root fetch - processPackages [roktools]: Downloading https://files.pythonhosted.org/packages/dc/c2/7a45a28418308c83cba5c911436c725d72a51b7bb705a8d7d01271d4cb63/roktools-5.7.0-py2.py3-none-any.whl
+[2024-04-15 15:59:53] INFO root fetch - processPackages [google-cloud-discoveryengine]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-15 15:59:53] WARNING root fetch - processPackages [google-cloud-backupdr]: Skipping, unable to determine old version
+[2024-04-15 15:59:53] INFO root fetch - processPackages [google-cloud-backupdr]: Start processing: google-maps-places
+[2024-04-15 15:59:53] INFO root fetch - main [MainThread]: End processing [google-cloud-backupdr] error
+[2024-04-15 15:59:53] INFO root fetch - processPackages [scematk]: Downloading https://files.pythonhosted.org/packages/74/b4/2c4bf9a440c6109c1526403bd63a1ad539bac9b025336ad220b4b533e7b7/scematk-0.0.2rc98.post1.tar.gz
+[2024-04-15 15:59:53] INFO root fetch - processPackages [wowicache]: Downloading https://files.pythonhosted.org/packages/6d/2a/10fd322fb6e96375c9bd3467399c6fb25522333925921b01b3d9fc4a65b3/wowicache-1.0.8.tar.gz
+[2024-04-15 15:59:53] INFO root fetch - processPackages [google-cloud-monitoring]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-04-15 15:59:53] INFO root fetch - processPackages [google-cloud-bigquery-datatransfer]: Downloading https://files.pythonhosted.org/packages/e3/bb/a08f7bbafdb50407784ad14b88507adea50c729ab56fd946b08b61750c78/google-cloud-bigquery-datatransfer-3.8.0.tar.gz
+[2024-04-15 15:59:53] INFO root fetch - processPackages [google-cloud-batch]: Downloading https://files.pythonhosted.org/packages/92/17/3d76d0539868125a5c02c46b73c5c60eb5ee73bea8419b597b79b418f35c/google-cloud-batch-0.8.1.tar.gz
+[2024-04-15 15:59:53] INFO root fetch - processPackages [google-maps-places]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-15 15:59:53] INFO root fetch - processPackages [google-ai-generativelanguage]: Downloading https://files.pythonhosted.org/packages/72/7d/4f72121134f824a08040cb94b6a8efbfee9865da7629cc160e3cbdd8e183/google-ai-generativelanguage-0.6.1.tar.gz
+[2024-04-15 15:59:53] INFO root fetch - processPackages [oedialect]: Downloading https://files.pythonhosted.org/packages/05/09/5c6ee2486bd65a0968fd5027d86e3f6af080a99d677625f4feda9020d965/oedialect-0.0.9.dev0.tar.gz
+[2024-04-15 15:59:53] INFO root fetch - processPackages [google-cloud-discoveryengine]: Downloading https://files.pythonhosted.org/packages/7b/17/25cd2617fd8eacb5a3bafe8967b1a0d714a7b088ac9c0ccd065e1d21226f/google-cloud-discoveryengine-0.9.0.tar.gz
+[2024-04-15 15:59:53] INFO root fetch - processPackages [google-cloud-monitoring]: Downloading https://files.pythonhosted.org/packages/fb/10/e50eedd59eb506da3922689994d5420db7f3a73704bb4998fcd9d909abfe/google-cloud-monitoring-2.9.1.tar.gz
+[2024-04-15 15:59:53] INFO root fetch - processPackages [wowicache]: Downloading https://files.pythonhosted.org/packages/f0/b8/ddf219ba6efa11cc020aa96133fa8a9496e36b3cb325588df560c6eb5340/wowicache-1.0.9.tar.gz
+[2024-04-15 15:59:53] INFO root fetch - processPackages [scematk]: Downloading https://files.pythonhosted.org/packages/88/05/a551ffce29ada02c3b808f4d3523aefcebb95b513746d269b86d0d75e18b/scematk-0.0.2rc99.post1.tar.gz
+[2024-04-15 15:59:53] INFO root fetch - processPackages [roktools]: Downloading https://files.pythonhosted.org/packages/40/9d/2aef30021aec3556c2ec7e9e93d60cb9e1318f333d7146ae49c0c4c7547d/roktools-6.0.6.tar.gz
+[2024-04-15 15:59:53] INFO root fetch - processPackages [google-maps-places]: Downloading https://files.pythonhosted.org/packages/28/82/33e0834ad5d32943b1916d74c2a3ed90bf11d6fb347ec5520d4ce530fcef/google-maps-places-0.1.8.tar.gz
+[2024-04-15 15:59:53] INFO root fetch - processPackages [scematk]: executing diffoscope
+[2024-04-15 15:59:53] INFO root fetch - processPackages [scematk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scematk-0.0.2rc98.post1.tar.gz tmp/scematk-0.0.2rc99.post1.tar.gz --markdown 20240415/s/scematk/0.0.2rc98.post1-0.0.2rc99.post1/README.md --exclude *.pyd
+[2024-04-15 15:59:53] INFO root fetch - processPackages [wowicache]: executing diffoscope
+[2024-04-15 15:59:53] INFO root fetch - processPackages [wowicache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wowicache-1.0.8.tar.gz tmp/wowicache-1.0.9.tar.gz --markdown 20240415/w/wowicache/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-15 15:59:53] INFO root fetch - processPackages [roktools]: executing diffoscope
+[2024-04-15 15:59:53] INFO root fetch - processPackages [roktools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roktools-5.7.0-py2.py3-none-any.whl.zip tmp/roktools-6.0.6.tar.gz --markdown 20240415/r/roktools/5.7.0-6.0.6/README.md --exclude *.pyd
+[2024-04-15 15:59:53] INFO root fetch - processPackages [google-cloud-batch]: Downloading https://files.pythonhosted.org/packages/78/08/5ad5ee07b16179631a400ac2ce05373e52510132b1a5af3e4a5fc91c6cf6/google-cloud-batch-0.9.0.tar.gz
+[2024-04-15 15:59:53] INFO root fetch - processPackages [oedialect]: Downloading https://files.pythonhosted.org/packages/2c/28/aa138af44a1ed555d398028ff4931e1c37810521cf58c302d233d891ef69/oedialect-0.1.1.dev0.tar.gz
+[2024-04-15 15:59:53] INFO root fetch - processPackages [google-ai-generativelanguage]: Downloading https://files.pythonhosted.org/packages/50/4a/92f79ba31aec166e8a1355949433c3d2d5c79892b27a7a384028aaee2182/google-ai-generativelanguage-0.6.2.tar.gz
+[2024-04-15 15:59:53] INFO root fetch - processPackages [google-cloud-discoveryengine]: Downloading https://files.pythonhosted.org/packages/e8/43/303a69470555fb02a45161bded4cd46d6b80101080ef8a30f1d0a82da62d/google-cloud-discoveryengine-0.9.1.tar.gz
+[2024-04-15 15:59:53] INFO root fetch - processPackages [google-cloud-bigquery-datatransfer]: Downloading https://files.pythonhosted.org/packages/6a/e1/00b33527eb89d9812f47b2c44bbd59968f6d4e956798306e994dabb2954c/google-cloud-bigquery-datatransfer-3.9.0.tar.gz
+[2024-04-15 15:59:54] INFO root fetch - processPackages [google-cloud-batch]: executing diffoscope
+[2024-04-15 15:59:54] INFO root fetch - processPackages [google-cloud-batch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-batch-0.8.1.tar.gz tmp/google-cloud-batch-0.9.0.tar.gz --markdown 20240415/g/google-cloud-batch/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-15 15:59:54] INFO root fetch - processPackages [google-cloud-monitoring]: Downloading https://files.pythonhosted.org/packages/40/d2/65eb7171f8da6ac2dbb33bab99b3518eec47f1b0275dc369ea5b2c2f1430/google-cloud-monitoring-2.9.2.tar.gz
+[2024-04-15 15:59:54] INFO root fetch - processPackages [google-cloud-discoveryengine]: executing diffoscope
+[2024-04-15 15:59:54] INFO root fetch - processPackages [google-cloud-discoveryengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-discoveryengine-0.9.0.tar.gz tmp/google-cloud-discoveryengine-0.9.1.tar.gz --markdown 20240415/g/google-cloud-discoveryengine/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-15 15:59:54] INFO root fetch - processPackages [google-maps-places]: Downloading https://files.pythonhosted.org/packages/04/56/0922daad1ab401d11cd47e860568d996f253e0fe5a7cf80084c4a376c146/google-maps-places-0.1.9.tar.gz
+[2024-04-15 15:59:54] INFO root fetch - processPackages [oedialect]: executing diffoscope
+[2024-04-15 15:59:54] INFO root fetch - processPackages [oedialect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oedialect-0.0.9.dev0.tar.gz tmp/oedialect-0.1.1.dev0.tar.gz --markdown 20240415/o/oedialect/0.0.9.dev0-0.1.1.dev0/README.md --exclude *.pyd
+[2024-04-15 15:59:54] INFO root fetch - processPackages [google-cloud-bigquery-datatransfer]: executing diffoscope
+[2024-04-15 15:59:54] INFO root fetch - processPackages [google-cloud-bigquery-datatransfer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-bigquery-datatransfer-3.8.0.tar.gz tmp/google-cloud-bigquery-datatransfer-3.9.0.tar.gz --markdown 20240415/g/google-cloud-bigquery-datatransfer/3.8.0-3.9.0/README.md --exclude *.pyd
+[2024-04-15 15:59:54] INFO root fetch - processPackages [google-maps-places]: executing diffoscope
+[2024-04-15 15:59:54] INFO root fetch - processPackages [google-maps-places]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-maps-places-0.1.8.tar.gz tmp/google-maps-places-0.1.9.tar.gz --markdown 20240415/g/google-maps-places/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-15 15:59:54] INFO root fetch - processPackages [google-cloud-monitoring]: executing diffoscope
+[2024-04-15 15:59:54] INFO root fetch - processPackages [google-cloud-monitoring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-monitoring-2.9.1.tar.gz tmp/google-cloud-monitoring-2.9.2.tar.gz --markdown 20240415/g/google-cloud-monitoring/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-04-15 15:59:54] INFO root fetch - processPackages [google-ai-generativelanguage]: executing diffoscope
+[2024-04-15 15:59:54] INFO root fetch - processPackages [google-ai-generativelanguage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-ai-generativelanguage-0.6.1.tar.gz tmp/google-ai-generativelanguage-0.6.2.tar.gz --markdown 20240415/g/google-ai-generativelanguage/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-04-15 15:59:54] INFO root fetch - processPackages [wowicache]: Remove: archive file [/home/abi/fetcher/tmp/wowicache-1.0.8.tar.gz]
+[2024-04-15 15:59:54] INFO root fetch - processPackages [wowicache]: Remove: archive file [/home/abi/fetcher/tmp/wowicache-1.0.9.tar.gz]
+[2024-04-15 15:59:54] INFO root fetch - processPackages [wowicache]: Start processing: europarser
+[2024-04-15 15:59:54] INFO root fetch - main [MainThread]: End processing [wowicache]: success
+[2024-04-15 15:59:54] INFO root fetch - processPackages [scematk]: Remove: archive file [/home/abi/fetcher/tmp/scematk-0.0.2rc98.post1.tar.gz]
+[2024-04-15 15:59:54] INFO root fetch - processPackages [scematk]: Remove: archive file [/home/abi/fetcher/tmp/scematk-0.0.2rc99.post1.tar.gz]
+[2024-04-15 15:59:54] INFO root fetch - processPackages [scematk]: Start processing: google-maps-routing
+[2024-04-15 15:59:54] INFO root fetch - main [MainThread]: End processing [scematk]: success
+[2024-04-15 15:59:54] INFO root fetch - processPackages [roktools]: Remove: archive file [/home/abi/fetcher/tmp/roktools-5.7.0-py2.py3-none-any.whl.zip]
+[2024-04-15 15:59:54] INFO root fetch - processPackages [roktools]: Remove: archive file [/home/abi/fetcher/tmp/roktools-6.0.6.tar.gz]
+[2024-04-15 15:59:54] INFO root fetch - processPackages [roktools]: Start processing: google-shopping-merchant-inventories
+[2024-04-15 15:59:54] INFO root fetch - main [MainThread]: End processing [roktools]: success
+[2024-04-15 15:59:54] INFO root fetch - processPackages [europarser]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-15 15:59:54] INFO root fetch - processPackages [google-maps-routing]: New version: [0.6.8] Old Version: [0.6.7]
+[2024-04-15 15:59:54] INFO root fetch - processPackages [google-shopping-merchant-inventories]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-15 15:59:55] INFO root fetch - processPackages [europarser]: Downloading https://files.pythonhosted.org/packages/db/f6/4f999cc30a77b65e212749a983d043662915f855430f791424d7131c71a0/europarser-0.1.6.tar.gz
+[2024-04-15 15:59:55] INFO root fetch - processPackages [oedialect]: Remove: archive file [/home/abi/fetcher/tmp/oedialect-0.0.9.dev0.tar.gz]
+[2024-04-15 15:59:55] INFO root fetch - processPackages [oedialect]: Remove: archive file [/home/abi/fetcher/tmp/oedialect-0.1.1.dev0.tar.gz]
+[2024-04-15 15:59:55] INFO root fetch - processPackages [oedialect]: Start processing: pdfminer.rtl
+[2024-04-15 15:59:55] INFO root fetch - main [MainThread]: End processing [oedialect]: success
+[2024-04-15 15:59:55] INFO root fetch - processPackages [google-maps-routing]: Downloading https://files.pythonhosted.org/packages/14/8f/498214bcbe5bb046a116c343c3cf88b0988f0fb606039111ea4d9fca4672/google-maps-routing-0.6.7.tar.gz
+[2024-04-15 15:59:55] INFO root fetch - processPackages [pdfminer.rtl]: New version: [0.0.2.dev3] Old Version: [0.0.1]
+[2024-04-15 15:59:55] INFO root fetch - processPackages [google-shopping-merchant-inventories]: Downloading https://files.pythonhosted.org/packages/bb/7c/7b3c70c2015f0c6e3e72ae28a99e554aa3c7d1b0815dba1ee9c61848e17d/google-shopping-merchant-inventories-0.1.5.tar.gz
+[2024-04-15 15:59:55] INFO root fetch - processPackages [pdfminer.rtl]: Downloading https://files.pythonhosted.org/packages/ca/39/8f442f9326d0c31d174d33883e6d70b5b4f75dcaed7e261b3918d0315f4f/pdfminer_rtl-0.0.1.tar.gz
+[2024-04-15 15:59:55] INFO root fetch - processPackages [europarser]: Downloading https://files.pythonhosted.org/packages/17/9f/474d55cf6e610ebfa57c694f62a376fb2d1cb357fe89e1e2b38874d12744/europarser-0.1.7.tar.gz
+[2024-04-15 15:59:55] INFO root fetch - processPackages [google-maps-places]: Remove: archive file [/home/abi/fetcher/tmp/google-maps-places-0.1.8.tar.gz]
+[2024-04-15 15:59:55] INFO root fetch - processPackages [google-maps-places]: Remove: archive file [/home/abi/fetcher/tmp/google-maps-places-0.1.9.tar.gz]
+[2024-04-15 15:59:55] INFO root fetch - processPackages [google-maps-places]: Start processing: google-shopping-merchant-reports
+[2024-04-15 15:59:55] INFO root fetch - main [MainThread]: End processing [google-maps-places]: success
+[2024-04-15 15:59:55] INFO root fetch - processPackages [google-cloud-batch]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-batch-0.8.1.tar.gz]
+[2024-04-15 15:59:55] INFO root fetch - processPackages [google-cloud-batch]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-batch-0.9.0.tar.gz]
+[2024-04-15 15:59:55] INFO root fetch - processPackages [google-cloud-batch]: Start processing: certora-cli-alpha-master
+[2024-04-15 15:59:55] INFO root fetch - main [MainThread]: End processing [google-cloud-batch]: success
+[2024-04-15 15:59:55] INFO root fetch - processPackages [google-shopping-merchant-inventories]: Downloading https://files.pythonhosted.org/packages/52/ca/aa3bdb5690f222589ecad64e325a6613113fb2cec8b5e647aa7575de0086/google-shopping-merchant-inventories-0.1.6.tar.gz
+[2024-04-15 15:59:55] INFO root fetch - processPackages [google-cloud-bigquery-datatransfer]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-bigquery-datatransfer-3.8.0.tar.gz]
+[2024-04-15 15:59:55] INFO root fetch - processPackages [google-cloud-bigquery-datatransfer]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-bigquery-datatransfer-3.9.0.tar.gz]
+[2024-04-15 15:59:55] INFO root fetch - processPackages [google-cloud-bigquery-datatransfer]: Start processing: ducktools-pythonfinder
+[2024-04-15 15:59:55] INFO root fetch - main [MainThread]: End processing [google-cloud-bigquery-datatransfer]: success
+[2024-04-15 15:59:55] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240415.13.33.533406] Old Version: [20240414.9.8.204994]
+[2024-04-15 15:59:55] INFO root fetch - processPackages [google-maps-routing]: Downloading https://files.pythonhosted.org/packages/2b/f6/694142db39799b8f8159192c10495a346700fbdc9188369c59f7346c57d7/google-maps-routing-0.6.8.tar.gz
+[2024-04-15 15:59:55] INFO root fetch - processPackages [europarser]: executing diffoscope
+[2024-04-15 15:59:55] INFO root fetch - processPackages [europarser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/europarser-0.1.6.tar.gz tmp/europarser-0.1.7.tar.gz --markdown 20240415/e/europarser/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-15 15:59:55] INFO root fetch - processPackages [google-shopping-merchant-reports]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-15 15:59:55] INFO root fetch - processPackages [ducktools-pythonfinder]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-15 15:59:55] INFO root fetch - processPackages [google-shopping-merchant-inventories]: executing diffoscope
+[2024-04-15 15:59:55] INFO root fetch - processPackages [google-shopping-merchant-inventories]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-shopping-merchant-inventories-0.1.5.tar.gz tmp/google-shopping-merchant-inventories-0.1.6.tar.gz --markdown 20240415/g/google-shopping-merchant-inventories/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-15 15:59:55] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/b1/77/f716ab2f1c241c55b43a68e2ed4048a847b86fe7356a4632d845643a8ead/certora-cli-alpha-master-20240414.9.8.204994.tar.gz
+[2024-04-15 15:59:55] INFO root fetch - processPackages [google-maps-routing]: executing diffoscope
+[2024-04-15 15:59:55] INFO root fetch - processPackages [google-maps-routing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-maps-routing-0.6.7.tar.gz tmp/google-maps-routing-0.6.8.tar.gz --markdown 20240415/g/google-maps-routing/0.6.7-0.6.8/README.md --exclude *.pyd
+[2024-04-15 15:59:55] INFO root fetch - processPackages [pdfminer.rtl]: Downloading https://files.pythonhosted.org/packages/dd/15/c0ab2439c69d3098f90cc615858b7f7d8b5acc592d03d01f68be21cd09c5/pdfminer_rtl-0.0.2.dev3.tar.gz
+[2024-04-15 15:59:55] INFO root fetch - processPackages [google-shopping-merchant-reports]: Downloading https://files.pythonhosted.org/packages/22/11/8bc555a379741759ab26941b3391ccd839ce4388f46df831ed9463fa70bb/google-shopping-merchant-reports-0.1.5.tar.gz
+[2024-04-15 15:59:55] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14483198>=10485760
+[2024-04-15 15:59:55] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: zhmiscellany
+[2024-04-15 15:59:55] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-04-15 15:59:55] INFO root fetch - processPackages [ducktools-pythonfinder]: Downloading https://files.pythonhosted.org/packages/b0/15/113ea94534bc6017a6b243b5512fa8b3d828540c2607a343811537cc3b7a/ducktools-pythonfinder-0.1.0.tar.gz
+[2024-04-15 15:59:56] INFO root fetch - processPackages [zhmiscellany]: New version: [1.9.5] Old Version: [1.9.4]
+[2024-04-15 15:59:56] INFO root fetch - processPackages [ducktools-pythonfinder]: Downloading https://files.pythonhosted.org/packages/38/12/b007f2f7644aec0dafdb4960f6fbe915f0481a5ae3faa54f653cd6d6288b/ducktools_pythonfinder-0.1.1.tar.gz
+[2024-04-15 15:59:56] INFO root fetch - processPackages [google-shopping-merchant-reports]: Downloading https://files.pythonhosted.org/packages/0b/74/1cc13b1996a3cea591b4038ec01d79078ed91847b5623d7f8e1dc94a91f0/google-shopping-merchant-reports-0.1.6.tar.gz
+[2024-04-15 15:59:56] INFO root fetch - processPackages [zhmiscellany]: Downloading https://files.pythonhosted.org/packages/35/89/066bf965baf06b87a8948761096dfba483d809831286188e510a97b2d514/zhmiscellany-1.9.4-py3-none-any.whl
+[2024-04-15 15:59:56] INFO root fetch - processPackages [pdfminer.rtl]: executing diffoscope
+[2024-04-15 15:59:56] INFO root fetch - processPackages [pdfminer.rtl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdfminer_rtl-0.0.1.tar.gz tmp/pdfminer_rtl-0.0.2.dev3.tar.gz --markdown 20240415/p/pdfminer.rtl/0.0.1-0.0.2.dev3/README.md --exclude *.pyd
+[2024-04-15 15:59:56] INFO root fetch - processPackages [ducktools-pythonfinder]: executing diffoscope
+[2024-04-15 15:59:56] INFO root fetch - processPackages [ducktools-pythonfinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ducktools-pythonfinder-0.1.0.tar.gz tmp/ducktools_pythonfinder-0.1.1.tar.gz --markdown 20240415/d/ducktools-pythonfinder/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-15 15:59:56] INFO root fetch - processPackages [google-cloud-discoveryengine]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-discoveryengine-0.9.0.tar.gz]
+[2024-04-15 15:59:56] INFO root fetch - processPackages [google-cloud-discoveryengine]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-discoveryengine-0.9.1.tar.gz]
+[2024-04-15 15:59:56] INFO root fetch - processPackages [google-cloud-discoveryengine]: Start processing: stomics3d
+[2024-04-15 15:59:56] INFO root fetch - main [MainThread]: End processing [google-cloud-discoveryengine]: success
+[2024-04-15 15:59:56] INFO root fetch - processPackages [google-shopping-merchant-reports]: executing diffoscope
+[2024-04-15 15:59:56] INFO root fetch - processPackages [google-shopping-merchant-reports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-shopping-merchant-reports-0.1.5.tar.gz tmp/google-shopping-merchant-reports-0.1.6.tar.gz --markdown 20240415/g/google-shopping-merchant-reports/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-15 15:59:56] WARNING root fetch - processPackages [stomics3d]: Skipping, unable to determine old version
+[2024-04-15 15:59:56] INFO root fetch - processPackages [stomics3d]: Start processing: wansuite
+[2024-04-15 15:59:56] INFO root fetch - main [MainThread]: End processing [stomics3d] error
+[2024-04-15 15:59:56] INFO root fetch - processPackages [europarser]: Remove: archive file [/home/abi/fetcher/tmp/europarser-0.1.6.tar.gz]
+[2024-04-15 15:59:56] INFO root fetch - processPackages [europarser]: Remove: archive file [/home/abi/fetcher/tmp/europarser-0.1.7.tar.gz]
+[2024-04-15 15:59:56] INFO root fetch - processPackages [europarser]: Start processing: pyminerva
+[2024-04-15 15:59:56] INFO root fetch - main [MainThread]: End processing [europarser]: success
+[2024-04-15 15:59:56] INFO root fetch - processPackages [wansuite]: New version: [9.0] Old Version: [8.0]
+[2024-04-15 15:59:56] INFO root fetch - processPackages [zhmiscellany]: Downloading https://files.pythonhosted.org/packages/b6/16/f021b8d81ecb83cddc3d2dd46b077e9cdf5b2f2423d35d509fb7adb19acc/zhmiscellany-1.9.5-py3-none-any.whl
+[2024-04-15 15:59:56] INFO root fetch - processPackages [wansuite]: Downloading https://files.pythonhosted.org/packages/d3/fa/eab6e310e7086430268379e8a9897466d745699cd46c24db24e5a93444cd/wansuite-8.0.tar.gz
+[2024-04-15 15:59:56] INFO root fetch - processPackages [pyminerva]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-15 15:59:56] INFO root fetch - processPackages [zhmiscellany]: executing diffoscope
+[2024-04-15 15:59:56] INFO root fetch - processPackages [zhmiscellany]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhmiscellany-1.9.4-py3-none-any.whl.zip tmp/zhmiscellany-1.9.5-py3-none-any.whl.zip --markdown 20240415/z/zhmiscellany/1.9.4-1.9.5/README.md --exclude *.pyd
+[2024-04-15 15:59:56] INFO root fetch - processPackages [google-cloud-monitoring]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-monitoring-2.9.1.tar.gz]
+[2024-04-15 15:59:56] INFO root fetch - processPackages [google-cloud-monitoring]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-monitoring-2.9.2.tar.gz]
+[2024-04-15 15:59:56] INFO root fetch - main [MainThread]: End processing [google-cloud-monitoring]: success
+[2024-04-15 15:59:57] INFO root fetch - processPackages [wansuite]: Downloading https://files.pythonhosted.org/packages/37/74/7622080d878dd0cce7d00a1ed8852325164aa9d9158cc26a52f8caa9e235/wansuite-9.0.tar.gz
+[2024-04-15 15:59:57] INFO root fetch - processPackages [pyminerva]: Downloading https://files.pythonhosted.org/packages/71/85/01e8f26ee3130cf86f9e4b898bf1c77b6edaa3ff18d78ab72ab3042c1c41/pyminerva-0.0.98.tar.gz
+[2024-04-15 15:59:57] INFO root fetch - processPackages [google-ai-generativelanguage]: Remove: archive file [/home/abi/fetcher/tmp/google-ai-generativelanguage-0.6.1.tar.gz]
+[2024-04-15 15:59:57] INFO root fetch - processPackages [google-ai-generativelanguage]: Remove: archive file [/home/abi/fetcher/tmp/google-ai-generativelanguage-0.6.2.tar.gz]
+[2024-04-15 15:59:57] INFO root fetch - main [MainThread]: End processing [google-ai-generativelanguage]: success
+[2024-04-15 15:59:57] INFO root fetch - processPackages [wansuite]: executing diffoscope
+[2024-04-15 15:59:57] INFO root fetch - processPackages [wansuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wansuite-8.0.tar.gz tmp/wansuite-9.0.tar.gz --markdown 20240415/w/wansuite/8.0-9.0/README.md --exclude *.pyd
+[2024-04-15 15:59:57] INFO root fetch - processPackages [google-shopping-merchant-inventories]: Remove: archive file [/home/abi/fetcher/tmp/google-shopping-merchant-inventories-0.1.5.tar.gz]
+[2024-04-15 15:59:57] INFO root fetch - processPackages [google-shopping-merchant-inventories]: Remove: archive file [/home/abi/fetcher/tmp/google-shopping-merchant-inventories-0.1.6.tar.gz]
+[2024-04-15 15:59:57] INFO root fetch - main [MainThread]: End processing [google-shopping-merchant-inventories]: success
+[2024-04-15 15:59:57] INFO root fetch - processPackages [google-maps-routing]: Remove: archive file [/home/abi/fetcher/tmp/google-maps-routing-0.6.7.tar.gz]
+[2024-04-15 15:59:57] INFO root fetch - processPackages [google-maps-routing]: Remove: archive file [/home/abi/fetcher/tmp/google-maps-routing-0.6.8.tar.gz]
+[2024-04-15 15:59:57] INFO root fetch - main [MainThread]: End processing [google-maps-routing]: success
+[2024-04-15 15:59:57] INFO root fetch - processPackages [ducktools-pythonfinder]: Remove: archive file [/home/abi/fetcher/tmp/ducktools-pythonfinder-0.1.0.tar.gz]
+[2024-04-15 15:59:57] INFO root fetch - processPackages [ducktools-pythonfinder]: Remove: archive file [/home/abi/fetcher/tmp/ducktools_pythonfinder-0.1.1.tar.gz]
+[2024-04-15 15:59:57] INFO root fetch - main [MainThread]: End processing [ducktools-pythonfinder]: success
+[2024-04-15 15:59:57] INFO root fetch - processPackages [pyminerva]: Downloading https://files.pythonhosted.org/packages/30/9b/396cf38441ad3c8ce48c213fff676d95f1f3f4feeb1b7dc8824277fe413e/pyminerva-0.0.99.tar.gz
+[2024-04-15 15:59:57] INFO root fetch - processPackages [pyminerva]: executing diffoscope
+[2024-04-15 15:59:57] INFO root fetch - processPackages [pyminerva]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyminerva-0.0.98.tar.gz tmp/pyminerva-0.0.99.tar.gz --markdown 20240415/p/pyminerva/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-15 15:59:57] INFO root fetch - processPackages [google-shopping-merchant-reports]: Remove: archive file [/home/abi/fetcher/tmp/google-shopping-merchant-reports-0.1.5.tar.gz]
+[2024-04-15 15:59:57] INFO root fetch - processPackages [google-shopping-merchant-reports]: Remove: archive file [/home/abi/fetcher/tmp/google-shopping-merchant-reports-0.1.6.tar.gz]
+[2024-04-15 15:59:57] INFO root fetch - main [MainThread]: End processing [google-shopping-merchant-reports]: success
+[2024-04-15 15:59:57] INFO root fetch - processPackages [wansuite]: Remove: archive file [/home/abi/fetcher/tmp/wansuite-8.0.tar.gz]
+[2024-04-15 15:59:57] INFO root fetch - processPackages [wansuite]: Remove: archive file [/home/abi/fetcher/tmp/wansuite-9.0.tar.gz]
+[2024-04-15 15:59:57] INFO root fetch - main [MainThread]: End processing [wansuite]: success
+[2024-04-15 15:59:58] INFO root fetch - processPackages [zhmiscellany]: Remove: archive file [/home/abi/fetcher/tmp/zhmiscellany-1.9.4-py3-none-any.whl.zip]
+[2024-04-15 15:59:58] INFO root fetch - processPackages [zhmiscellany]: Remove: archive file [/home/abi/fetcher/tmp/zhmiscellany-1.9.5-py3-none-any.whl.zip]
+[2024-04-15 15:59:58] INFO root fetch - main [MainThread]: End processing [zhmiscellany]: success
+[2024-04-15 15:59:58] INFO root fetch - processPackages [pyminerva]: Remove: archive file [/home/abi/fetcher/tmp/pyminerva-0.0.98.tar.gz]
+[2024-04-15 15:59:58] INFO root fetch - processPackages [pyminerva]: Remove: archive file [/home/abi/fetcher/tmp/pyminerva-0.0.99.tar.gz]
+[2024-04-15 15:59:58] INFO root fetch - main [MainThread]: End processing [pyminerva]: success
+[2024-04-15 15:59:58] INFO root fetch - processPackages [pdfminer.rtl]: Remove: archive file [/home/abi/fetcher/tmp/pdfminer_rtl-0.0.1.tar.gz]
+[2024-04-15 15:59:58] INFO root fetch - processPackages [pdfminer.rtl]: Remove: archive file [/home/abi/fetcher/tmp/pdfminer_rtl-0.0.2.dev3.tar.gz]
+[2024-04-15 15:59:58] INFO root fetch - main [MainThread]: End processing [pdfminer.rtl]: success
+[2024-04-15 15:59:58] INFO root fetch - main [MainThread]: Store serial: [22772223]
