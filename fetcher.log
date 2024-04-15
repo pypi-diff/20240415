@@ -9732,3 +9732,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 09:17:08] INFO root fetch - processPackages [lxa-iobus]: Remove: archive file [/home/abi/fetcher/tmp/lxa_iobus-0.5.1.tar.gz]
 [2024-04-15 09:17:08] INFO root fetch - main [MainThread]: End processing [lxa-iobus]: success
 [2024-04-15 09:17:08] INFO root fetch - main [MainThread]: Store serial: [22767139]
+[2024-04-15 09:19:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22767139]
+[2024-04-15 09:19:16] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-15 09:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aixblock-ml
+[2024-04-15 09:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytiqs
+[2024-04-15 09:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cmrseq
+[2024-04-15 09:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pldag
+[2024-04-15 09:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qianfan
+[2024-04-15 09:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: acetone-nnet
+[2024-04-15 09:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tushare
+[2024-04-15 09:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: swarmauri
+[2024-04-15 09:19:17] INFO root fetch - processPackages [aixblock-ml]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-15 09:19:17] INFO root fetch - processPackages [acetone-nnet]: New version: [0.0.1.dev6] Old Version: [0.0.1.dev5]
+[2024-04-15 09:19:17] INFO root fetch - processPackages [aixblock-ml]: Downloading https://files.pythonhosted.org/packages/85/67/2a59811f392cc51e11de672a1a17261a8b4a4e3dfe251613465f346e6b7f/aixblock_ml-0.0.5.tar.gz
+[2024-04-15 09:19:17] INFO root fetch - processPackages [acetone-nnet]: Downloading https://files.pythonhosted.org/packages/bc/3f/f5245ded5bacd41038ba9cf3fd969ca2824fde00cf1821f1728ced5a43cd/acetone_nnet-0.0.1.dev5.tar.gz
+[2024-04-15 09:19:17] INFO root fetch - processPackages [swarmauri]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-15 09:19:17] INFO root fetch - processPackages [cmrseq]: New version: [0.23] Old Version: [0.22]
+[2024-04-15 09:19:17] INFO root fetch - processPackages [pytiqs]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-15 09:19:17] INFO root fetch - processPackages [qianfan]: New version: [0.3.8.1] Old Version: [0.3.8]
+[2024-04-15 09:19:17] INFO root fetch - processPackages [pldag]: New version: [0.6.3] Old Version: [0.6.1]
+[2024-04-15 09:19:17] INFO root fetch - processPackages [tushare]: New version: [1.4.6] Old Version: [1.4.5]
+[2024-04-15 09:19:17] INFO root fetch - processPackages [pytiqs]: Downloading https://files.pythonhosted.org/packages/95/8e/30a66078f825e4ef7045cffc809f51ec2b0ff062088fd5a1af1b443447a6/pytiqs-1.0.8.tar.gz
+[2024-04-15 09:19:17] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/6f/f9/130aeeef865461afb5cc003721ceb7c3ebcd9ef2fe49fd812b8532fb5035/swarmauri-0.1.8.tar.gz
+[2024-04-15 09:19:17] INFO root fetch - processPackages [cmrseq]: Downloading https://files.pythonhosted.org/packages/65/d5/2b75c22f836a8661d5a907bc28df871eba13f4ceffe6e35b5aaee57e8d04/cmrseq-0.22.tar.gz
+[2024-04-15 09:19:17] INFO root fetch - processPackages [pldag]: Downloading https://files.pythonhosted.org/packages/db/1a/a1be0ef5527bf9816d60a071ef5a3d8fabdf4d58f16d68a5538ca72f094b/pldag-0.6.1.tar.gz
+[2024-04-15 09:19:17] INFO root fetch - processPackages [tushare]: Downloading https://files.pythonhosted.org/packages/3f/15/aee543b3734e502382749d124fcd07edfb475d4f9f8a3519bcdbceaf9c9b/tushare-1.4.5.tar.gz
+[2024-04-15 09:19:17] INFO root fetch - processPackages [aixblock-ml]: Downloading https://files.pythonhosted.org/packages/ae/6d/ae7af7b17156a8e73148ecccbdac68c50169261a1ed48081fed80de544aa/aixblock_ml-0.0.6.tar.gz
+[2024-04-15 09:19:17] INFO root fetch - processPackages [qianfan]: Downloading https://files.pythonhosted.org/packages/f7/9c/21f3e4eca83f6cafc205126a7f41b5aee4563703d8f2cc9323a65b9de9a6/qianfan-0.3.8.tar.gz
+[2024-04-15 09:19:17] INFO root fetch - processPackages [acetone-nnet]: Downloading https://files.pythonhosted.org/packages/c7/2c/d4847945bfca6b2e5d137847c1b744839be9055ad051d6d42dba2d4288fa/acetone_nnet-0.0.1.dev6.tar.gz
+[2024-04-15 09:19:17] INFO root fetch - processPackages [aixblock-ml]: executing diffoscope
+[2024-04-15 09:19:17] INFO root fetch - processPackages [aixblock-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aixblock_ml-0.0.5.tar.gz tmp/aixblock_ml-0.0.6.tar.gz --markdown 20240415/a/aixblock-ml/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-15 09:19:17] INFO root fetch - processPackages [acetone-nnet]: executing diffoscope
+[2024-04-15 09:19:17] INFO root fetch - processPackages [acetone-nnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acetone_nnet-0.0.1.dev5.tar.gz tmp/acetone_nnet-0.0.1.dev6.tar.gz --markdown 20240415/a/acetone-nnet/0.0.1.dev5-0.0.1.dev6/README.md --exclude *.pyd
+[2024-04-15 09:19:17] INFO root fetch - processPackages [pytiqs]: Downloading https://files.pythonhosted.org/packages/58/d2/c0049b0f30ead12686d88eed4acd08a2cd919d150d089ac12e4616494aed/pytiqs-1.0.9.tar.gz
+[2024-04-15 09:19:17] INFO root fetch - processPackages [pldag]: Downloading https://files.pythonhosted.org/packages/d6/41/e88913516fc274ad4a86f0f98e9f6e50ac246f8a0849a28f6b6e46093467/pldag-0.6.3.tar.gz
+[2024-04-15 09:19:17] INFO root fetch - processPackages [tushare]: Downloading https://files.pythonhosted.org/packages/a3/89/c329f61b4cf0064af8080b9e3cfc7fbcd0980da47f552dbb1a3ccde7f5e8/tushare-1.4.6.tar.gz
+[2024-04-15 09:19:17] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/c7/70/0b55d158ba42355a67cda5d200e3d5817bac0a8e9ce2da2bf294eb6b03ec/swarmauri-0.1.9.tar.gz
+[2024-04-15 09:19:17] INFO root fetch - processPackages [pytiqs]: executing diffoscope
+[2024-04-15 09:19:17] INFO root fetch - processPackages [pytiqs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytiqs-1.0.8.tar.gz tmp/pytiqs-1.0.9.tar.gz --markdown 20240415/p/pytiqs/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-15 09:19:17] INFO root fetch - processPackages [qianfan]: Downloading https://files.pythonhosted.org/packages/f9/62/0b10fdf105d8be2e491833f71f76558ea46a62332cd306784b3e19fbfe84/qianfan-0.3.8.1.tar.gz
+[2024-04-15 09:19:17] INFO root fetch - processPackages [cmrseq]: Downloading https://files.pythonhosted.org/packages/3f/70/0fcc7348cb90779643405a2fe3f54d14311182c1847b29886c92553021e9/cmrseq-0.23-py3-none-any.whl
+[2024-04-15 09:19:18] INFO root fetch - processPackages [pldag]: executing diffoscope
+[2024-04-15 09:19:18] INFO root fetch - processPackages [pldag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pldag-0.6.1.tar.gz tmp/pldag-0.6.3.tar.gz --markdown 20240415/p/pldag/0.6.1-0.6.3/README.md --exclude *.pyd
+[2024-04-15 09:19:18] INFO root fetch - processPackages [tushare]: executing diffoscope
+[2024-04-15 09:19:18] INFO root fetch - processPackages [tushare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tushare-1.4.5.tar.gz tmp/tushare-1.4.6.tar.gz --markdown 20240415/t/tushare/1.4.5-1.4.6/README.md --exclude *.pyd
+[2024-04-15 09:19:18] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-04-15 09:19:18] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.1.8.tar.gz tmp/swarmauri-0.1.9.tar.gz --markdown 20240415/s/swarmauri/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-15 09:19:18] INFO root fetch - processPackages [cmrseq]: executing diffoscope
+[2024-04-15 09:19:18] INFO root fetch - processPackages [cmrseq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmrseq-0.22.tar.gz tmp/cmrseq-0.23-py3-none-any.whl.zip --markdown 20240415/c/cmrseq/0.22-0.23/README.md --exclude *.pyd
+[2024-04-15 09:19:18] INFO root fetch - processPackages [qianfan]: executing diffoscope
+[2024-04-15 09:19:18] INFO root fetch - processPackages [qianfan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qianfan-0.3.8.tar.gz tmp/qianfan-0.3.8.1.tar.gz --markdown 20240415/q/qianfan/0.3.8-0.3.8.1/README.md --exclude *.pyd
+[2024-04-15 09:19:18] INFO root fetch - processPackages [aixblock-ml]: Remove: archive file [/home/abi/fetcher/tmp/aixblock_ml-0.0.5.tar.gz]
+[2024-04-15 09:19:18] INFO root fetch - processPackages [aixblock-ml]: Remove: archive file [/home/abi/fetcher/tmp/aixblock_ml-0.0.6.tar.gz]
+[2024-04-15 09:19:18] INFO root fetch - main [MainThread]: End processing [aixblock-ml]: success
+[2024-04-15 09:19:18] INFO root fetch - processPackages [pytiqs]: Remove: archive file [/home/abi/fetcher/tmp/pytiqs-1.0.8.tar.gz]
+[2024-04-15 09:19:18] INFO root fetch - processPackages [pytiqs]: Remove: archive file [/home/abi/fetcher/tmp/pytiqs-1.0.9.tar.gz]
+[2024-04-15 09:19:18] INFO root fetch - main [MainThread]: End processing [pytiqs]: success
+[2024-04-15 09:19:18] INFO root fetch - processPackages [pldag]: Remove: archive file [/home/abi/fetcher/tmp/pldag-0.6.1.tar.gz]
+[2024-04-15 09:19:18] INFO root fetch - processPackages [pldag]: Remove: archive file [/home/abi/fetcher/tmp/pldag-0.6.3.tar.gz]
+[2024-04-15 09:19:18] INFO root fetch - main [MainThread]: End processing [pldag]: success
+[2024-04-15 09:19:18] INFO root fetch - processPackages [acetone-nnet]: Remove: archive file [/home/abi/fetcher/tmp/acetone_nnet-0.0.1.dev5.tar.gz]
+[2024-04-15 09:19:18] INFO root fetch - processPackages [acetone-nnet]: Remove: archive file [/home/abi/fetcher/tmp/acetone_nnet-0.0.1.dev6.tar.gz]
+[2024-04-15 09:19:18] INFO root fetch - main [MainThread]: End processing [acetone-nnet]: success
+[2024-04-15 09:19:19] INFO root fetch - processPackages [cmrseq]: Remove: archive file [/home/abi/fetcher/tmp/cmrseq-0.22.tar.gz]
+[2024-04-15 09:19:19] INFO root fetch - processPackages [cmrseq]: Remove: archive file [/home/abi/fetcher/tmp/cmrseq-0.23-py3-none-any.whl.zip]
+[2024-04-15 09:19:19] INFO root fetch - main [MainThread]: End processing [cmrseq]: success
+[2024-04-15 09:19:19] INFO root fetch - processPackages [tushare]: Remove: archive file [/home/abi/fetcher/tmp/tushare-1.4.5.tar.gz]
+[2024-04-15 09:19:19] INFO root fetch - processPackages [tushare]: Remove: archive file [/home/abi/fetcher/tmp/tushare-1.4.6.tar.gz]
+[2024-04-15 09:19:19] INFO root fetch - main [MainThread]: End processing [tushare]: success
+[2024-04-15 09:19:19] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.8.tar.gz]
+[2024-04-15 09:19:19] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.9.tar.gz]
+[2024-04-15 09:19:19] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-04-15 09:19:19] INFO root fetch - processPackages [qianfan]: Remove: archive file [/home/abi/fetcher/tmp/qianfan-0.3.8.tar.gz]
+[2024-04-15 09:19:19] INFO root fetch - processPackages [qianfan]: Remove: archive file [/home/abi/fetcher/tmp/qianfan-0.3.8.1.tar.gz]
+[2024-04-15 09:19:19] INFO root fetch - main [MainThread]: End processing [qianfan]: success
+[2024-04-15 09:19:19] INFO root fetch - main [MainThread]: Store serial: [22767163]
