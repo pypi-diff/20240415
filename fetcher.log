@@ -19296,3 +19296,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 15:01:49] INFO root fetch - processPackages [geo-skeletons]: Remove: archive file [/home/abi/fetcher/tmp/geo_skeletons-0.9.9.tar.gz]
 [2024-04-15 15:01:49] INFO root fetch - main [MainThread]: End processing [geo-skeletons]: success
 [2024-04-15 15:01:49] INFO root fetch - main [MainThread]: Store serial: [22771405]
+[2024-04-15 15:03:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22771405]
+[2024-04-15 15:03:58] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-15 15:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sommify
+[2024-04-15 15:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycotore
+[2024-04-15 15:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tradedangerous
+[2024-04-15 15:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: switchinglogfilehandlers
+[2024-04-15 15:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: neurom
+[2024-04-15 15:03:58] INFO root fetch - processPackages [tradedangerous]: New version: [10.9.8] Old Version: [10.9.7]
+[2024-04-15 15:03:58] INFO root fetch - processPackages [pycotore]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-15 15:03:58] INFO root fetch - processPackages [neurom]: New version: [3.2.9] Old Version: [3.2.8]
+[2024-04-15 15:03:58] INFO root fetch - processPackages [sommify]: New version: [0.8.5] Old Version: [0.8.4]
+[2024-04-15 15:03:58] INFO root fetch - processPackages [switchinglogfilehandlers]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-15 15:03:58] INFO root fetch - processPackages [tradedangerous]: Downloading https://files.pythonhosted.org/packages/f0/71/5c26485ec7d39c61db0e0eff321b9fcd6656ad98bae9dd80db18336dc73d/tradedangerous-10.9.7.tar.gz
+[2024-04-15 15:03:58] INFO root fetch - processPackages [switchinglogfilehandlers]: Downloading https://files.pythonhosted.org/packages/d7/51/c618de3a7f327a6e550765ff7d2da49a860f07d676f65ebbbbce11f4a2c8/switchinglogfilehandlers-0.0.4.tar.gz
+[2024-04-15 15:03:58] INFO root fetch - processPackages [neurom]: Downloading https://files.pythonhosted.org/packages/70/6e/6f1c2b442b8be3209d15321d68bc2624a4cb9215ef2f13f3853f97095ca1/neurom-3.2.8.tar.gz
+[2024-04-15 15:03:58] INFO root fetch - processPackages [sommify]: Downloading https://files.pythonhosted.org/packages/c7/e7/5d6b9ddea11a03b219218db54fa9fbba65a980fac49ba0d9c21edd974bcd/sommify-0.8.4.tar.gz
+[2024-04-15 15:03:58] INFO root fetch - processPackages [pycotore]: Downloading https://files.pythonhosted.org/packages/7b/25/ec4e70f70c7bb0ec4e80a6fd9ec2804502b39024d13e5a2c4c5a8cde3cc8/pycotore-0.2.1.tar.gz
+[2024-04-15 15:03:59] INFO root fetch - processPackages [tradedangerous]: Downloading https://files.pythonhosted.org/packages/d9/11/d9ffad5dfc88cd5ec054cd2e82b8477ba81df779f293f62a341c1dbd90cd/tradedangerous-10.9.8.tar.gz
+[2024-04-15 15:03:59] INFO root fetch - processPackages [switchinglogfilehandlers]: Downloading https://files.pythonhosted.org/packages/59/2b/a0a68837faad97607933bc8155374574bd6132797805aa25a1658258e5a5/switchinglogfilehandlers-0.0.5.tar.gz
+[2024-04-15 15:03:59] INFO root fetch - processPackages [pycotore]: Downloading https://files.pythonhosted.org/packages/3d/e6/35746d6abcb694546061a9b2f1382bd5f85617e52cf8602226b6093306c1/pycotore-0.2.2.tar.gz
+[2024-04-15 15:03:59] INFO root fetch - processPackages [neurom]: Downloading https://files.pythonhosted.org/packages/38/d9/7a311610b1b66e408ef4b3ee9edbed70af03245d599b3894ec9c661ccf37/neurom-3.2.9.tar.gz
+[2024-04-15 15:03:59] INFO root fetch - processPackages [tradedangerous]: executing diffoscope
+[2024-04-15 15:03:59] INFO root fetch - processPackages [tradedangerous]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tradedangerous-10.9.7.tar.gz tmp/tradedangerous-10.9.8.tar.gz --markdown 20240415/t/tradedangerous/10.9.7-10.9.8/README.md --exclude *.pyd
+[2024-04-15 15:03:59] INFO root fetch - processPackages [switchinglogfilehandlers]: executing diffoscope
+[2024-04-15 15:03:59] INFO root fetch - processPackages [switchinglogfilehandlers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/switchinglogfilehandlers-0.0.4.tar.gz tmp/switchinglogfilehandlers-0.0.5.tar.gz --markdown 20240415/s/switchinglogfilehandlers/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-15 15:03:59] INFO root fetch - processPackages [sommify]: Downloading https://files.pythonhosted.org/packages/07/79/095b904d5599d887b70014a5f2d1052bdc5b3f03c515ed20361eb63e18ae/sommify-0.8.5.tar.gz
+[2024-04-15 15:03:59] INFO root fetch - processPackages [pycotore]: executing diffoscope
+[2024-04-15 15:03:59] INFO root fetch - processPackages [pycotore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycotore-0.2.1.tar.gz tmp/pycotore-0.2.2.tar.gz --markdown 20240415/p/pycotore/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-04-15 15:03:59] INFO root fetch - processPackages [neurom]: executing diffoscope
+[2024-04-15 15:03:59] INFO root fetch - processPackages [neurom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurom-3.2.8.tar.gz tmp/neurom-3.2.9.tar.gz --markdown 20240415/n/neurom/3.2.8-3.2.9/README.md --exclude *.pyd
+[2024-04-15 15:04:00] INFO root fetch - processPackages [sommify]: executing diffoscope
+[2024-04-15 15:04:00] INFO root fetch - processPackages [sommify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sommify-0.8.4.tar.gz tmp/sommify-0.8.5.tar.gz --markdown 20240415/s/sommify/0.8.4-0.8.5/README.md --exclude *.pyd
+[2024-04-15 15:04:00] INFO root fetch - processPackages [pycotore]: Remove: archive file [/home/abi/fetcher/tmp/pycotore-0.2.1.tar.gz]
+[2024-04-15 15:04:00] INFO root fetch - processPackages [pycotore]: Remove: archive file [/home/abi/fetcher/tmp/pycotore-0.2.2.tar.gz]
+[2024-04-15 15:04:00] INFO root fetch - main [MainThread]: End processing [pycotore]: success
+[2024-04-15 15:04:00] INFO root fetch - processPackages [switchinglogfilehandlers]: Remove: archive file [/home/abi/fetcher/tmp/switchinglogfilehandlers-0.0.4.tar.gz]
+[2024-04-15 15:04:00] INFO root fetch - processPackages [switchinglogfilehandlers]: Remove: archive file [/home/abi/fetcher/tmp/switchinglogfilehandlers-0.0.5.tar.gz]
+[2024-04-15 15:04:00] INFO root fetch - main [MainThread]: End processing [switchinglogfilehandlers]: success
+[2024-04-15 15:04:00] INFO root fetch - processPackages [neurom]: Remove: archive file [/home/abi/fetcher/tmp/neurom-3.2.8.tar.gz]
+[2024-04-15 15:04:00] INFO root fetch - processPackages [neurom]: Remove: archive file [/home/abi/fetcher/tmp/neurom-3.2.9.tar.gz]
+[2024-04-15 15:04:00] INFO root fetch - main [MainThread]: End processing [neurom]: success
+[2024-04-15 15:04:00] INFO root fetch - processPackages [tradedangerous]: Remove: archive file [/home/abi/fetcher/tmp/tradedangerous-10.9.7.tar.gz]
+[2024-04-15 15:04:00] INFO root fetch - processPackages [tradedangerous]: Remove: archive file [/home/abi/fetcher/tmp/tradedangerous-10.9.8.tar.gz]
+[2024-04-15 15:04:00] INFO root fetch - main [MainThread]: End processing [tradedangerous]: success
+[2024-04-15 15:04:01] INFO root fetch - processPackages [sommify]: Remove: archive file [/home/abi/fetcher/tmp/sommify-0.8.4.tar.gz]
+[2024-04-15 15:04:01] INFO root fetch - processPackages [sommify]: Remove: archive file [/home/abi/fetcher/tmp/sommify-0.8.5.tar.gz]
+[2024-04-15 15:04:01] INFO root fetch - main [MainThread]: End processing [sommify]: success
+[2024-04-15 15:04:01] INFO root fetch - main [MainThread]: Store serial: [22771435]
