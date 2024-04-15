@@ -8491,3 +8491,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 08:16:17] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-2.3.9.dev20240302.tar.gz]
 [2024-04-15 08:16:17] INFO root fetch - main [MainThread]: End processing [pretext]: success
 [2024-04-15 08:16:17] INFO root fetch - main [MainThread]: Store serial: [22766591]
+[2024-04-15 08:18:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22766591]
+[2024-04-15 08:18:27] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-15 08:18:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-alist
+[2024-04-15 08:18:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: facecrop-thumb
+[2024-04-15 08:18:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: terminate-thread
+[2024-04-15 08:18:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sembansurga
+[2024-04-15 08:18:27] WARNING root fetch - processPackages [terminate-thread]: Skipping, unable to determine old version
+[2024-04-15 08:18:27] INFO root fetch - main [MainThread]: End processing [terminate-thread] error
+[2024-04-15 08:18:27] INFO root fetch - processPackages [python-alist]: New version: [0.0.9.9] Old Version: [0.0.9.8.1]
+[2024-04-15 08:18:27] INFO root fetch - processPackages [facecrop-thumb]: New version: [1.0.5.post1] Old Version: [1.0.5]
+[2024-04-15 08:18:27] INFO root fetch - processPackages [python-alist]: Downloading https://files.pythonhosted.org/packages/16/4c/767ed3dbd217eb3ea1f030c845f5a098d8e656f2fb4ab63c7fa0eadcf367/python_alist-0.0.9.8.1.tar.gz
+[2024-04-15 08:18:27] INFO root fetch - processPackages [sembansurga]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-15 08:18:27] INFO root fetch - processPackages [python-alist]: Downloading https://files.pythonhosted.org/packages/a4/c8/c4ceead1bdae1d44cce58995ae016d39c6e4134cefa9b31ef2daf97d4c36/python_alist-0.0.9.9.tar.gz
+[2024-04-15 08:18:27] INFO root fetch - processPackages [facecrop-thumb]: Downloading https://files.pythonhosted.org/packages/1b/dd/d5f50b2c44d5db7d3d77a0d81a9e24a0e0dc0a8d4b87aa637629ab7e8ab0/facecrop-thumb-1.0.5.tar.gz
+[2024-04-15 08:18:27] INFO root fetch - processPackages [sembansurga]: Downloading https://files.pythonhosted.org/packages/e0/58/b04adf5c23d495ea9745aa743d28565b223c5e82d58dd492f311b9e060b5/sembansurga-1.0.5.tar.gz
+[2024-04-15 08:18:27] INFO root fetch - processPackages [python-alist]: executing diffoscope
+[2024-04-15 08:18:27] INFO root fetch - processPackages [python-alist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_alist-0.0.9.8.1.tar.gz tmp/python_alist-0.0.9.9.tar.gz --markdown 20240415/p/python-alist/0.0.9.8.1-0.0.9.9/README.md --exclude *.pyd
+[2024-04-15 08:18:28] INFO root fetch - processPackages [sembansurga]: Downloading https://files.pythonhosted.org/packages/46/44/f587a8d85d21746ce2e620e915529a8f99f6860e028d8bae5a7981ecd1b3/sembansurga-1.0.6.tar.gz
+[2024-04-15 08:18:28] INFO root fetch - processPackages [facecrop-thumb]: Downloading https://files.pythonhosted.org/packages/a8/df/fcb836461f1af3e34daaf1e50b23e896e6e6720eec891cddb209a8ef964c/facecrop-thumb-1.0.5.post1.tar.gz
+[2024-04-15 08:18:28] INFO root fetch - processPackages [sembansurga]: executing diffoscope
+[2024-04-15 08:18:28] INFO root fetch - processPackages [sembansurga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sembansurga-1.0.5.tar.gz tmp/sembansurga-1.0.6.tar.gz --markdown 20240415/s/sembansurga/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-04-15 08:18:28] INFO root fetch - processPackages [facecrop-thumb]: executing diffoscope
+[2024-04-15 08:18:28] INFO root fetch - processPackages [facecrop-thumb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/facecrop-thumb-1.0.5.tar.gz tmp/facecrop-thumb-1.0.5.post1.tar.gz --markdown 20240415/f/facecrop-thumb/1.0.5-1.0.5.post1/README.md --exclude *.pyd
+[2024-04-15 08:18:28] INFO root fetch - processPackages [python-alist]: Remove: archive file [/home/abi/fetcher/tmp/python_alist-0.0.9.8.1.tar.gz]
+[2024-04-15 08:18:28] INFO root fetch - processPackages [python-alist]: Remove: archive file [/home/abi/fetcher/tmp/python_alist-0.0.9.9.tar.gz]
+[2024-04-15 08:18:28] INFO root fetch - main [MainThread]: End processing [python-alist]: success
+[2024-04-15 08:18:28] INFO root fetch - processPackages [facecrop-thumb]: Remove: archive file [/home/abi/fetcher/tmp/facecrop-thumb-1.0.5.tar.gz]
+[2024-04-15 08:18:28] INFO root fetch - processPackages [facecrop-thumb]: Remove: archive file [/home/abi/fetcher/tmp/facecrop-thumb-1.0.5.post1.tar.gz]
+[2024-04-15 08:18:28] INFO root fetch - main [MainThread]: End processing [facecrop-thumb]: success
+[2024-04-15 08:18:29] INFO root fetch - processPackages [sembansurga]: Remove: archive file [/home/abi/fetcher/tmp/sembansurga-1.0.5.tar.gz]
+[2024-04-15 08:18:29] INFO root fetch - processPackages [sembansurga]: Remove: archive file [/home/abi/fetcher/tmp/sembansurga-1.0.6.tar.gz]
+[2024-04-15 08:18:29] INFO root fetch - main [MainThread]: End processing [sembansurga]: success
+[2024-04-15 08:18:29] INFO root fetch - main [MainThread]: Store serial: [22766603]
