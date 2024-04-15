@@ -11246,3 +11246,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 10:19:46] INFO root fetch - processPackages [erlab]: Remove: archive file [/home/abi/fetcher/tmp/erlab-2.2.2.tar.gz]
 [2024-04-15 10:19:46] INFO root fetch - main [MainThread]: End processing [erlab]: success
 [2024-04-15 10:19:46] INFO root fetch - main [MainThread]: Store serial: [22767773]
+[2024-04-15 10:21:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22767773]
+[2024-04-15 10:21:54] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-15 10:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: serpyco-rs
+[2024-04-15 10:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyromongo
+[2024-04-15 10:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: waylay-sdk-storage-types
+[2024-04-15 10:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: leeselab-project-creator
+[2024-04-15 10:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: waylay-sdk-storage
+[2024-04-15 10:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: langchain-tools
+[2024-04-15 10:21:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spsam
+[2024-04-15 10:21:54] INFO root fetch - processPackages [pyromongo]: New version: [0.0.7a0] Old Version: [0.0.6]
+[2024-04-15 10:21:54] INFO root fetch - processPackages [langchain-tools]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-15 10:21:55] INFO root fetch - processPackages [waylay-sdk-storage]: New version: [0.4.1b1] Old Version: [0.4.1.20240415]
+[2024-04-15 10:21:55] INFO root fetch - processPackages [pyromongo]: Downloading https://files.pythonhosted.org/packages/66/c3/22fac07897aa2637840653d8e9141ba1a2b65541b1940e1f0b65cef35bde/pyromongo-0.0.6.tar.gz
+[2024-04-15 10:21:55] INFO root fetch - processPackages [waylay-sdk-storage-types]: New version: [0.4.1b1] Old Version: [0.4.1.20240415]
+[2024-04-15 10:21:55] INFO root fetch - processPackages [leeselab-project-creator]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-15 10:21:55] INFO root fetch - processPackages [serpyco-rs]: New version: [1.6.1] Old Version: [1.6.0]
+[2024-04-15 10:21:55] INFO root fetch - processPackages [spsam]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-15 10:21:55] INFO root fetch - processPackages [langchain-tools]: Downloading https://files.pythonhosted.org/packages/38/85/5bc6eece5a6b29bdc7c857bd7125e507560ba965e9956c9d698ffc4d4073/langchain-tools-0.1.4.tar.gz
+[2024-04-15 10:21:55] INFO root fetch - processPackages [waylay-sdk-storage]: Downloading https://files.pythonhosted.org/packages/6c/6f/1c22f4f750acf2de454187c3fa3479fad386b2e375ff8ae5ed748500c6b5/waylay_sdk_storage-0.4.1.20240415.tar.gz
+[2024-04-15 10:21:55] INFO root fetch - processPackages [waylay-sdk-storage-types]: Downloading https://files.pythonhosted.org/packages/a4/47/a55572e3b460a392e1565bfa8594d190191bb191601af3c28b389b14ce7a/waylay_sdk_storage_types-0.4.1.20240415.tar.gz
+[2024-04-15 10:21:55] INFO root fetch - processPackages [pyromongo]: Downloading https://files.pythonhosted.org/packages/5f/ac/830e47501401cdae494a99a069c3379155912711dedcf4e9e5391e882dd5/pyromongo-0.0.7a0.tar.gz
+[2024-04-15 10:21:55] INFO root fetch - processPackages [leeselab-project-creator]: Downloading https://files.pythonhosted.org/packages/91/66/cb5717bb881b3b2d3b0b4bf0764f2aebdb055cb6acdd831f305d5e94dee2/leeselab-project-creator-1.1.0.tar.gz
+[2024-04-15 10:21:55] INFO root fetch - processPackages [spsam]: Downloading https://files.pythonhosted.org/packages/84/b9/66c9dfb4f480ab72b11bf3542d07a84c7eaccc5c0f3f096d52da0a8cf629/spsam-0.0.6.tar.gz
+[2024-04-15 10:21:55] INFO root fetch - processPackages [serpyco-rs]: Downloading https://files.pythonhosted.org/packages/15/36/7a7e527168075b98455f69c0af4781e0db6943304af2176deac87b670c58/serpyco_rs-1.6.0.tar.gz
+[2024-04-15 10:21:55] INFO root fetch - processPackages [pyromongo]: executing diffoscope
+[2024-04-15 10:21:55] INFO root fetch - processPackages [pyromongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyromongo-0.0.6.tar.gz tmp/pyromongo-0.0.7a0.tar.gz --markdown 20240415/p/pyromongo/0.0.6-0.0.7a0/README.md --exclude *.pyd
+[2024-04-15 10:21:55] INFO root fetch - processPackages [waylay-sdk-storage]: Downloading https://files.pythonhosted.org/packages/c4/ab/5eb6bca1314d75641f8fbd7f767dcb320acc2de63262f45f2c37d14a21c7/waylay-sdk-storage-0.4.1b1.tar.gz
+[2024-04-15 10:21:55] INFO root fetch - processPackages [langchain-tools]: Downloading https://files.pythonhosted.org/packages/6b/00/163bdee32da39c08882b88ee6983de813905743f23581dbfb76b13a9fe9a/langchain-tools-0.1.5.tar.gz
+[2024-04-15 10:21:55] INFO root fetch - processPackages [leeselab-project-creator]: Downloading https://files.pythonhosted.org/packages/8d/bd/fe0e0321319b3c4956004bc2063d1f7a95a80d6cd367adb66611c9fc6ecd/leeselab_project_creator-1.1.1.tar.gz
+[2024-04-15 10:21:55] INFO root fetch - processPackages [waylay-sdk-storage-types]: Downloading https://files.pythonhosted.org/packages/2b/69/74db45c6266a985a744f99168ecab425fad6595b8ecb081ff70a13d5c496/waylay-sdk-storage-types-0.4.1b1.tar.gz
+[2024-04-15 10:21:55] INFO root fetch - processPackages [langchain-tools]: executing diffoscope
+[2024-04-15 10:21:55] INFO root fetch - processPackages [langchain-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-tools-0.1.4.tar.gz tmp/langchain-tools-0.1.5.tar.gz --markdown 20240415/l/langchain-tools/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-15 10:21:55] INFO root fetch - processPackages [leeselab-project-creator]: executing diffoscope
+[2024-04-15 10:21:55] INFO root fetch - processPackages [leeselab-project-creator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leeselab-project-creator-1.1.0.tar.gz tmp/leeselab_project_creator-1.1.1.tar.gz --markdown 20240415/l/leeselab-project-creator/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-15 10:21:55] INFO root fetch - processPackages [waylay-sdk-storage]: executing diffoscope
+[2024-04-15 10:21:55] INFO root fetch - processPackages [waylay-sdk-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waylay_sdk_storage-0.4.1.20240415.tar.gz tmp/waylay-sdk-storage-0.4.1b1.tar.gz --markdown 20240415/w/waylay-sdk-storage/0.4.1.20240415-0.4.1b1/README.md --exclude *.pyd
+[2024-04-15 10:21:55] INFO root fetch - processPackages [waylay-sdk-storage-types]: executing diffoscope
+[2024-04-15 10:21:55] INFO root fetch - processPackages [waylay-sdk-storage-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waylay_sdk_storage_types-0.4.1.20240415.tar.gz tmp/waylay-sdk-storage-types-0.4.1b1.tar.gz --markdown 20240415/w/waylay-sdk-storage-types/0.4.1.20240415-0.4.1b1/README.md --exclude *.pyd
+[2024-04-15 10:21:55] INFO root fetch - processPackages [serpyco-rs]: Downloading https://files.pythonhosted.org/packages/36/bc/d7338536c02e83e0b3486cebee144b3da45ff613f578b3d783a19376086d/serpyco_rs-1.6.1.tar.gz
+[2024-04-15 10:21:56] INFO root fetch - processPackages [pyromongo]: Remove: archive file [/home/abi/fetcher/tmp/pyromongo-0.0.6.tar.gz]
+[2024-04-15 10:21:56] INFO root fetch - processPackages [pyromongo]: Remove: archive file [/home/abi/fetcher/tmp/pyromongo-0.0.7a0.tar.gz]
+[2024-04-15 10:21:56] INFO root fetch - main [MainThread]: End processing [pyromongo]: success
+[2024-04-15 10:21:56] INFO root fetch - processPackages [langchain-tools]: Remove: archive file [/home/abi/fetcher/tmp/langchain-tools-0.1.4.tar.gz]
+[2024-04-15 10:21:56] INFO root fetch - processPackages [langchain-tools]: Remove: archive file [/home/abi/fetcher/tmp/langchain-tools-0.1.5.tar.gz]
+[2024-04-15 10:21:56] INFO root fetch - main [MainThread]: End processing [langchain-tools]: success
+[2024-04-15 10:21:56] INFO root fetch - processPackages [serpyco-rs]: executing diffoscope
+[2024-04-15 10:21:56] INFO root fetch - processPackages [serpyco-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serpyco_rs-1.6.0.tar.gz tmp/serpyco_rs-1.6.1.tar.gz --markdown 20240415/s/serpyco-rs/1.6.0-1.6.1/README.md --exclude *.pyd
+[2024-04-15 10:21:56] INFO root fetch - processPackages [leeselab-project-creator]: Remove: archive file [/home/abi/fetcher/tmp/leeselab-project-creator-1.1.0.tar.gz]
+[2024-04-15 10:21:56] INFO root fetch - processPackages [leeselab-project-creator]: Remove: archive file [/home/abi/fetcher/tmp/leeselab_project_creator-1.1.1.tar.gz]
+[2024-04-15 10:21:56] INFO root fetch - main [MainThread]: End processing [leeselab-project-creator]: success
+[2024-04-15 10:21:56] INFO root fetch - processPackages [spsam]: Downloading https://files.pythonhosted.org/packages/ec/62/da2378d3c3b68d0003a7186946a008e2e463c04e4ad704c2eb57835ff96d/spsam-0.0.7.tar.gz
+[2024-04-15 10:21:56] INFO root fetch - processPackages [waylay-sdk-storage]: Remove: archive file [/home/abi/fetcher/tmp/waylay_sdk_storage-0.4.1.20240415.tar.gz]
+[2024-04-15 10:21:56] INFO root fetch - processPackages [waylay-sdk-storage]: Remove: archive file [/home/abi/fetcher/tmp/waylay-sdk-storage-0.4.1b1.tar.gz]
+[2024-04-15 10:21:56] INFO root fetch - main [MainThread]: End processing [waylay-sdk-storage]: success
+[2024-04-15 10:21:56] INFO root fetch - processPackages [waylay-sdk-storage-types]: Remove: archive file [/home/abi/fetcher/tmp/waylay_sdk_storage_types-0.4.1.20240415.tar.gz]
+[2024-04-15 10:21:56] INFO root fetch - processPackages [waylay-sdk-storage-types]: Remove: archive file [/home/abi/fetcher/tmp/waylay-sdk-storage-types-0.4.1b1.tar.gz]
+[2024-04-15 10:21:56] INFO root fetch - main [MainThread]: End processing [waylay-sdk-storage-types]: success
+[2024-04-15 10:21:57] INFO root fetch - processPackages [spsam]: executing diffoscope
+[2024-04-15 10:21:57] INFO root fetch - processPackages [spsam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spsam-0.0.6.tar.gz tmp/spsam-0.0.7.tar.gz --markdown 20240415/s/spsam/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-15 10:21:57] INFO root fetch - processPackages [serpyco-rs]: Remove: archive file [/home/abi/fetcher/tmp/serpyco_rs-1.6.0.tar.gz]
+[2024-04-15 10:21:57] INFO root fetch - processPackages [serpyco-rs]: Remove: archive file [/home/abi/fetcher/tmp/serpyco_rs-1.6.1.tar.gz]
+[2024-04-15 10:21:57] INFO root fetch - main [MainThread]: End processing [serpyco-rs]: success
+[2024-04-15 10:21:57] INFO root fetch - processPackages [spsam]: Remove: archive file [/home/abi/fetcher/tmp/spsam-0.0.6.tar.gz]
+[2024-04-15 10:21:57] INFO root fetch - processPackages [spsam]: Remove: archive file [/home/abi/fetcher/tmp/spsam-0.0.7.tar.gz]
+[2024-04-15 10:21:57] INFO root fetch - main [MainThread]: End processing [spsam]: success
+[2024-04-15 10:21:57] INFO root fetch - main [MainThread]: Store serial: [22767822]
