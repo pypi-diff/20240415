@@ -2310,3 +2310,15 @@
 [2024-04-15 03:18:09] INFO root fetch - processPackages [clingwrap]: Remove: archive file [/home/abi/fetcher/tmp/clingwrap-1.6.6.tar.gz]
 [2024-04-15 03:18:09] INFO root fetch - main [MainThread]: End processing [clingwrap]: success
 [2024-04-15 03:18:09] INFO root fetch - main [MainThread]: Store serial: [22764308]
+[2024-04-15 03:20:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22764308]
+[2024-04-15 03:20:17] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-15 03:20:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moped
+[2024-04-15 03:20:18] INFO root fetch - processPackages [moped]: New version: [1rc1] Old Version: [1.9.9]
+[2024-04-15 03:20:18] INFO root fetch - processPackages [moped]: Downloading https://files.pythonhosted.org/packages/fa/e5/eae730d18630be4dc4e22bf10412607b7b68e8adba0ea08af0f1a74ce2ba/moped-1.9.9.tar.gz
+[2024-04-15 03:20:18] INFO root fetch - processPackages [moped]: Downloading https://files.pythonhosted.org/packages/73/71/391f981ecc1118b3a2d5699507b8d46eba5a3f8290bcf8184f6e741fef40/moped-1rc1.tar.gz
+[2024-04-15 03:20:18] INFO root fetch - processPackages [moped]: executing diffoscope
+[2024-04-15 03:20:18] INFO root fetch - processPackages [moped]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moped-1.9.9.tar.gz tmp/moped-1rc1.tar.gz --markdown 20240415/m/moped/1.9.9-1rc1/README.md --exclude *.pyd
+[2024-04-15 03:20:19] INFO root fetch - processPackages [moped]: Remove: archive file [/home/abi/fetcher/tmp/moped-1.9.9.tar.gz]
+[2024-04-15 03:20:19] INFO root fetch - processPackages [moped]: Remove: archive file [/home/abi/fetcher/tmp/moped-1rc1.tar.gz]
+[2024-04-15 03:20:19] INFO root fetch - main [MainThread]: End processing [moped]: success
+[2024-04-15 03:20:19] INFO root fetch - main [MainThread]: Store serial: [22764312]
