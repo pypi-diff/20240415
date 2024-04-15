@@ -10805,3 +10805,114 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 10:05:38] INFO root fetch - processPackages [recce]: Remove: archive file [/home/abi/fetcher/tmp/recce-0.9.0.tar.gz]
 [2024-04-15 10:05:38] INFO root fetch - main [MainThread]: End processing [recce]: success
 [2024-04-15 10:05:38] INFO root fetch - main [MainThread]: Store serial: [22767584]
+[2024-04-15 10:07:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22767584]
+[2024-04-15 10:07:47] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-04-15 10:07:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cg
+[2024-04-15 10:07:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-ecd20200930-py2
+[2024-04-15 10:07:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-ecd20200930
+[2024-04-15 10:07:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: waylay-sdk-resources-types
+[2024-04-15 10:07:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumiverse-grafana
+[2024-04-15 10:07:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nestipy-cli
+[2024-04-15 10:07:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-stock-picking-restrict-cancel-printed
+[2024-04-15 10:07:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eds-scikit
+[2024-04-15 10:07:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyglove
+[2024-04-15 10:07:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyAgrum-nightly
+[2024-04-15 10:07:48] INFO root fetch - processPackages [cg]: New version: [59.9.1] Old Version: [59.9.0]
+[2024-04-15 10:07:48] INFO root fetch - processPackages [pulumiverse-grafana]: New version: [0.4.2a1713165727] Old Version: [0.4.2a1713164959]
+[2024-04-15 10:07:48] WARNING root fetch - processPackages [nestipy-cli]: Skipping, unable to determine old version
+[2024-04-15 10:07:48] INFO root fetch - processPackages [nestipy-cli]: Start processing: prolothar-rule-mining
+[2024-04-15 10:07:48] INFO root fetch - main [MainThread]: End processing [nestipy-cli] error
+[2024-04-15 10:07:48] INFO root fetch - processPackages [pyglove]: New version: [0.4.5.dev20240414] Old Version: [0.4.5.dev20240413]
+[2024-04-15 10:07:48] INFO root fetch - processPackages [alibabacloud-ecd20200930-py2]: New version: [3.6.0] Old Version: [3.5.3]
+[2024-04-15 10:07:48] WARNING root fetch - processPackages [waylay-sdk-resources-types]: Skipping, unable to determine old version
+[2024-04-15 10:07:48] INFO root fetch - processPackages [waylay-sdk-resources-types]: Start processing: python-amcards
+[2024-04-15 10:07:48] INFO root fetch - main [MainThread]: End processing [waylay-sdk-resources-types] error
+[2024-04-15 10:07:48] INFO root fetch - processPackages [eds-scikit]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-15 10:07:48] WARNING root fetch - processPackages [odoo-addon-stock-picking-restrict-cancel-printed]: Skipping, unable to determine old version
+[2024-04-15 10:07:48] INFO root fetch - processPackages [alibabacloud-ecd20200930]: New version: [3.6.0] Old Version: [3.5.3]
+[2024-04-15 10:07:48] INFO root fetch - processPackages [odoo-addon-stock-picking-restrict-cancel-printed]: Start processing: vloc-plugin
+[2024-04-15 10:07:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-picking-restrict-cancel-printed] error
+[2024-04-15 10:07:48] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/a4/79/664dc1d5b463ee0406caa2e43f4dec36f68ff9a520e4d9d51666e6ea5021/cg-59.9.0.tar.gz
+[2024-04-15 10:07:48] INFO root fetch - processPackages [prolothar-rule-mining]: New version: [3.0.2] Old Version: [3.0.1]
+[2024-04-15 10:07:48] INFO root fetch - processPackages [pulumiverse-grafana]: Downloading https://files.pythonhosted.org/packages/e0/1a/b16ce2655dc77d30984de5b7441404fc253485e320811689ba7f8a77ee5b/pulumiverse_grafana-0.4.2a1713164959.tar.gz
+[2024-04-15 10:07:48] INFO root fetch - processPackages [python-amcards]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-15 10:07:48] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/11/9a/6b1ee73b23f220d587b8a0eca0f72d04e69c2c410d82c89ef6970b847a10/pyglove-0.4.5.dev20240413.tar.gz
+[2024-04-15 10:07:48] INFO root fetch - processPackages [vloc-plugin]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-15 10:07:48] INFO root fetch - processPackages [python-amcards]: Downloading https://files.pythonhosted.org/packages/2d/b6/9b87dbf33b87811a8f9ac6e1bf94aac65dcef8d727a8b65bb105369718b5/python-amcards-1.2.8.tar.gz
+[2024-04-15 10:07:48] INFO root fetch - processPackages [alibabacloud-ecd20200930-py2]: Downloading https://files.pythonhosted.org/packages/46/3c/1d857ec1bcd2ba673c6f05558daf9c511a9a12f69080392d8736f775a69f/alibabacloud_ecd20200930_py2-3.5.3.tar.gz
+[2024-04-15 10:07:48] INFO root fetch - processPackages [eds-scikit]: Downloading https://files.pythonhosted.org/packages/57/1d/db2db468ee404a234eef5e408aad1ca23350656f44954af548e75ddcbf8d/eds-scikit-0.1.6.tar.gz
+[2024-04-15 10:07:48] INFO root fetch - processPackages [alibabacloud-ecd20200930]: Downloading https://files.pythonhosted.org/packages/67/32/eda5ea48433b20bfc853100dc8d56b53fbc529a9904eb28ef979ef6677f7/alibabacloud_ecd20200930-3.5.3.tar.gz
+[2024-04-15 10:07:48] INFO root fetch - processPackages [prolothar-rule-mining]: Downloading https://files.pythonhosted.org/packages/ad/a5/ec0e11cd6c22596daad1568ebea294383c16dd0fd02e460c7aee46a16577/prolothar-rule-mining-3.0.1.tar.gz
+[2024-04-15 10:07:48] INFO root fetch - processPackages [vloc-plugin]: Downloading https://files.pythonhosted.org/packages/c5/c1/dac57a7e5d4efc5d4b4b8fc091dd6072fcbcdb546e5fb894649c6155d4ee/vloc_plugin-0.0.6.tar.gz
+[2024-04-15 10:07:48] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/02/99/1b81a1261ae4c898b5a458356ec50d88f5e0ad05caf74b90f29fc12813f3/pyglove-0.4.5.dev20240414.tar.gz
+[2024-04-15 10:07:48] INFO root fetch - processPackages [pulumiverse-grafana]: Downloading https://files.pythonhosted.org/packages/da/f1/4c682df16f31ed0b47cda43f063cfca3e9312220644fe19cbd66618a7e59/pulumiverse_grafana-0.4.2a1713165727.tar.gz
+[2024-04-15 10:07:48] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/da/9f/c4869b003070cd94f090db42e1f076a49bf9c0b1856d209eeb540379d711/cg-59.9.1.tar.gz
+[2024-04-15 10:07:48] INFO root fetch - processPackages [python-amcards]: Downloading https://files.pythonhosted.org/packages/8e/77/a7238e5324ac5a2b2e4005f67aa51330133e4c1255c267e828c5dfb45cf1/python-amcards-1.2.9.tar.gz
+[2024-04-15 10:07:48] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2024-04-15 10:07:48] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.5.dev20240413.tar.gz tmp/pyglove-0.4.5.dev20240414.tar.gz --markdown 20240415/p/pyglove/0.4.5.dev20240413-0.4.5.dev20240414/README.md --exclude *.pyd
+[2024-04-15 10:07:48] INFO root fetch - processPackages [alibabacloud-ecd20200930-py2]: Downloading https://files.pythonhosted.org/packages/22/61/8fdb528d4d8319027ab02912ff036554182607d825f39d6cdbb084f26fa3/alibabacloud_ecd20200930_py2-3.6.0.tar.gz
+[2024-04-15 10:07:48] INFO root fetch - processPackages [pulumiverse-grafana]: executing diffoscope
+[2024-04-15 10:07:48] INFO root fetch - processPackages [pulumiverse-grafana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumiverse_grafana-0.4.2a1713164959.tar.gz tmp/pulumiverse_grafana-0.4.2a1713165727.tar.gz --markdown 20240415/p/pulumiverse-grafana/0.4.2a1713164959-0.4.2a1713165727/README.md --exclude *.pyd
+[2024-04-15 10:07:49] INFO root fetch - processPackages [alibabacloud-ecd20200930]: Downloading https://files.pythonhosted.org/packages/c9/7f/4f4c955b294b15eeb6f19a317fcb90115d5d643110d7ae338cfb12850e81/alibabacloud_ecd20200930-3.6.0.tar.gz
+[2024-04-15 10:07:49] INFO root fetch - processPackages [eds-scikit]: Downloading https://files.pythonhosted.org/packages/05/ab/2f4daabe2669b31736a7330dc05037ac0114a67199dfe4b3015923a77a18/eds-scikit-0.1.7.tar.gz
+[2024-04-15 10:07:49] INFO root fetch - processPackages [python-amcards]: executing diffoscope
+[2024-04-15 10:07:49] INFO root fetch - processPackages [python-amcards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-amcards-1.2.8.tar.gz tmp/python-amcards-1.2.9.tar.gz --markdown 20240415/p/python-amcards/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-04-15 10:07:49] INFO root fetch - processPackages [vloc-plugin]: Downloading https://files.pythonhosted.org/packages/a2/38/2fa39b066b450e26a0fecda3c015fbdf5edc0362a08a5b008453f83cd56a/vloc_plugin-0.0.7.tar.gz
+[2024-04-15 10:07:49] INFO root fetch - processPackages [alibabacloud-ecd20200930-py2]: executing diffoscope
+[2024-04-15 10:07:49] INFO root fetch - processPackages [alibabacloud-ecd20200930-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ecd20200930_py2-3.5.3.tar.gz tmp/alibabacloud_ecd20200930_py2-3.6.0.tar.gz --markdown 20240415/a/alibabacloud-ecd20200930-py2/3.5.3-3.6.0/README.md --exclude *.pyd
+[2024-04-15 10:07:49] INFO root fetch - processPackages [alibabacloud-ecd20200930]: executing diffoscope
+[2024-04-15 10:07:49] INFO root fetch - processPackages [alibabacloud-ecd20200930]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ecd20200930-3.5.3.tar.gz tmp/alibabacloud_ecd20200930-3.6.0.tar.gz --markdown 20240415/a/alibabacloud-ecd20200930/3.5.3-3.6.0/README.md --exclude *.pyd
+[2024-04-15 10:07:49] INFO root fetch - processPackages [prolothar-rule-mining]: Downloading https://files.pythonhosted.org/packages/a3/67/ca2b9a6856c6c5a56adb00df39fbf30ab8a750c34110f622e888270f1ba8/prolothar-rule-mining-3.0.2.tar.gz
+[2024-04-15 10:07:49] INFO root fetch - processPackages [eds-scikit]: executing diffoscope
+[2024-04-15 10:07:49] INFO root fetch - processPackages [eds-scikit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eds-scikit-0.1.6.tar.gz tmp/eds-scikit-0.1.7.tar.gz --markdown 20240415/e/eds-scikit/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-15 10:07:49] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-04-15 10:07:49] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-59.9.0.tar.gz tmp/cg-59.9.1.tar.gz --markdown 20240415/c/cg/59.9.0-59.9.1/README.md --exclude *.pyd
+[2024-04-15 10:07:49] INFO root fetch - processPackages [vloc-plugin]: executing diffoscope
+[2024-04-15 10:07:49] INFO root fetch - processPackages [vloc-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vloc_plugin-0.0.6.tar.gz tmp/vloc_plugin-0.0.7.tar.gz --markdown 20240415/v/vloc-plugin/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-15 10:07:49] INFO root fetch - processPackages [prolothar-rule-mining]: executing diffoscope
+[2024-04-15 10:07:49] INFO root fetch - processPackages [prolothar-rule-mining]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prolothar-rule-mining-3.0.1.tar.gz tmp/prolothar-rule-mining-3.0.2.tar.gz --markdown 20240415/p/prolothar-rule-mining/3.0.1-3.0.2/README.md --exclude *.pyd
+[2024-04-15 10:07:50] INFO root fetch - processPackages [pyAgrum-nightly]: New version: [1.9.0.9.dev202310191697564854] Old Version: [1.9.0.9.dev202310181697564854]
+[2024-04-15 10:07:50] INFO root fetch - processPackages [pyAgrum-nightly]: Downloading https://files.pythonhosted.org/packages/64/23/4308469c4be3abcfc53ec2ccbd7dcca1618077035522cae4b364a9c6cc56/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl
+[2024-04-15 10:07:50] INFO root fetch - processPackages [python-amcards]: Remove: archive file [/home/abi/fetcher/tmp/python-amcards-1.2.8.tar.gz]
+[2024-04-15 10:07:50] INFO root fetch - processPackages [python-amcards]: Remove: archive file [/home/abi/fetcher/tmp/python-amcards-1.2.9.tar.gz]
+[2024-04-15 10:07:50] INFO root fetch - processPackages [python-amcards]: Start processing: tq42
+[2024-04-15 10:07:50] INFO root fetch - main [MainThread]: End processing [python-amcards]: success
+[2024-04-15 10:07:51] INFO root fetch - processPackages [tq42]: New version: [0.5.20] Old Version: [0.5.19]
+[2024-04-15 10:07:51] INFO root fetch - processPackages [vloc-plugin]: Remove: archive file [/home/abi/fetcher/tmp/vloc_plugin-0.0.6.tar.gz]
+[2024-04-15 10:07:51] INFO root fetch - processPackages [vloc-plugin]: Remove: archive file [/home/abi/fetcher/tmp/vloc_plugin-0.0.7.tar.gz]
+[2024-04-15 10:07:51] INFO root fetch - main [MainThread]: End processing [vloc-plugin]: success
+[2024-04-15 10:07:51] INFO root fetch - processPackages [tq42]: Downloading https://files.pythonhosted.org/packages/10/47/29c7f5b5b4e26e550f66c7f70041970c606e02bc3884ea202fd1a8481a5d/tq42-0.5.19.tar.gz
+[2024-04-15 10:07:51] INFO root fetch - processPackages [pyAgrum-nightly]: Downloading https://files.pythonhosted.org/packages/84/cc/6d2d3b13a2080cfbfa9792321774075d119b4fa37902c5a9d93d8eccf13d/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl
+[2024-04-15 10:07:51] INFO root fetch - processPackages [pulumiverse-grafana]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_grafana-0.4.2a1713164959.tar.gz]
+[2024-04-15 10:07:51] INFO root fetch - processPackages [pulumiverse-grafana]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_grafana-0.4.2a1713165727.tar.gz]
+[2024-04-15 10:07:51] INFO root fetch - main [MainThread]: End processing [pulumiverse-grafana]: success
+[2024-04-15 10:07:51] INFO root fetch - processPackages [tq42]: Downloading https://files.pythonhosted.org/packages/48/a4/3212f2c1585e7f8be370b0119872a02df580be1183e6eea2fe5ea3fed518/tq42-0.5.20.tar.gz
+[2024-04-15 10:07:52] INFO root fetch - processPackages [eds-scikit]: Remove: archive file [/home/abi/fetcher/tmp/eds-scikit-0.1.6.tar.gz]
+[2024-04-15 10:07:52] INFO root fetch - processPackages [eds-scikit]: Remove: archive file [/home/abi/fetcher/tmp/eds-scikit-0.1.7.tar.gz]
+[2024-04-15 10:07:52] INFO root fetch - main [MainThread]: End processing [eds-scikit]: success
+[2024-04-15 10:07:52] INFO root fetch - processPackages [tq42]: executing diffoscope
+[2024-04-15 10:07:52] INFO root fetch - processPackages [tq42]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tq42-0.5.19.tar.gz tmp/tq42-0.5.20.tar.gz --markdown 20240415/t/tq42/0.5.19-0.5.20/README.md --exclude *.pyd
+[2024-04-15 10:07:52] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240413.tar.gz]
+[2024-04-15 10:07:52] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240414.tar.gz]
+[2024-04-15 10:07:52] INFO root fetch - processPackages [pyAgrum-nightly]: executing diffoscope
+[2024-04-15 10:07:52] INFO root fetch - processPackages [pyAgrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip --markdown 20240415/p/pyAgrum-nightly/1.9.0.9.dev202310181697564854-1.9.0.9.dev202310191697564854/README.md --exclude *.pyd
+[2024-04-15 10:07:52] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2024-04-15 10:07:53] INFO root fetch - processPackages [alibabacloud-ecd20200930-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ecd20200930_py2-3.5.3.tar.gz]
+[2024-04-15 10:07:53] INFO root fetch - processPackages [alibabacloud-ecd20200930-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ecd20200930_py2-3.6.0.tar.gz]
+[2024-04-15 10:07:53] INFO root fetch - main [MainThread]: End processing [alibabacloud-ecd20200930-py2]: success
+[2024-04-15 10:07:53] INFO root fetch - processPackages [alibabacloud-ecd20200930]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ecd20200930-3.5.3.tar.gz]
+[2024-04-15 10:07:53] INFO root fetch - processPackages [alibabacloud-ecd20200930]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ecd20200930-3.6.0.tar.gz]
+[2024-04-15 10:07:53] INFO root fetch - main [MainThread]: End processing [alibabacloud-ecd20200930]: success
+[2024-04-15 10:07:53] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl.zip]
+[2024-04-15 10:07:53] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip]
+[2024-04-15 10:07:53] INFO root fetch - main [MainThread]: End processing [pyAgrum-nightly]: success
+[2024-04-15 10:07:53] INFO root fetch - processPackages [tq42]: Remove: archive file [/home/abi/fetcher/tmp/tq42-0.5.19.tar.gz]
+[2024-04-15 10:07:53] INFO root fetch - processPackages [tq42]: Remove: archive file [/home/abi/fetcher/tmp/tq42-0.5.20.tar.gz]
+[2024-04-15 10:07:53] INFO root fetch - main [MainThread]: End processing [tq42]: success
+[2024-04-15 10:07:55] INFO root fetch - processPackages [prolothar-rule-mining]: Remove: archive file [/home/abi/fetcher/tmp/prolothar-rule-mining-3.0.1.tar.gz]
+[2024-04-15 10:07:55] INFO root fetch - processPackages [prolothar-rule-mining]: Remove: archive file [/home/abi/fetcher/tmp/prolothar-rule-mining-3.0.2.tar.gz]
+[2024-04-15 10:07:55] INFO root fetch - main [MainThread]: End processing [prolothar-rule-mining]: success
+[2024-04-15 10:07:57] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-59.9.0.tar.gz]
+[2024-04-15 10:07:57] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-59.9.1.tar.gz]
+[2024-04-15 10:07:57] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-04-15 10:07:57] INFO root fetch - main [MainThread]: Store serial: [22767647]
