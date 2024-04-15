@@ -14410,3 +14410,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 12:06:35] INFO root fetch - processPackages [cython-lint]: Remove: archive file [/home/abi/fetcher/tmp/cython_lint-0.9.1.tar.gz]
 [2024-04-15 12:06:35] INFO root fetch - main [MainThread]: End processing [cython-lint]: success
 [2024-04-15 12:06:35] INFO root fetch - main [MainThread]: Store serial: [22769150]
+[2024-04-15 12:08:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22769150]
+[2024-04-15 12:08:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-15 12:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cython-lint
+[2024-04-15 12:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-flow-forge
+[2024-04-15 12:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: embed-anything
+[2024-04-15 12:08:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-keras-nightly
+[2024-04-15 12:08:43] INFO root fetch - processPackages [embed-anything]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-15 12:08:43] INFO root fetch - processPackages [cython-lint]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-15 12:08:44] INFO root fetch - processPackages [cython-lint]: Downloading https://files.pythonhosted.org/packages/29/4c/be39dc3601bf055258180529db1d55def18a36c9a7fa543c69f9ea35837a/cython_lint-0.9.0.tar.gz
+[2024-04-15 12:08:44] INFO root fetch - processPackages [embed-anything]: Downloading https://files.pythonhosted.org/packages/e8/53/b2eebb6e05883659299f48e3c38418debc9a9af52877d40b0846963084eb/embed_anything-0.1.4.tar.gz
+[2024-04-15 12:08:44] INFO root fetch - processPackages [django-flow-forge]: New version: [0.3.4] Old Version: [0.3.3.2]
+[2024-04-15 12:08:44] INFO root fetch - processPackages [tf-keras-nightly]: New version: [2.17.0.dev2024041509] Old Version: [2.17.0.dev2024041409]
+[2024-04-15 12:08:44] INFO root fetch - processPackages [django-flow-forge]: Downloading https://files.pythonhosted.org/packages/d2/5d/515e9cf4f142f8a933b06523b420ee91da6ef1e0c699ed00401710608ad9/django_flow_forge-0.3.3.2.tar.gz
+[2024-04-15 12:08:44] INFO root fetch - processPackages [cython-lint]: Downloading https://files.pythonhosted.org/packages/e6/7e/746be6992b936153ae92be43258f85a4ff097559fd2e44bf74f76307f6d7/cython_lint-0.9.1.tar.gz
+[2024-04-15 12:08:44] INFO root fetch - processPackages [embed-anything]: Downloading https://files.pythonhosted.org/packages/1f/df/91c860fd0640387d4836a59ff33317f4c646187c923e6b22664e8f071145/embed_anything-0.1.5-cp38-abi3-win_amd64.whl
+[2024-04-15 12:08:44] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/2f/9e/6697ff350bb8543e723879bedf9cff42b8448072ab265b0c35a5620bb546/tf_keras_nightly-2.17.0.dev2024041409.tar.gz
+[2024-04-15 12:08:44] INFO root fetch - processPackages [cython-lint]: executing diffoscope
+[2024-04-15 12:08:44] INFO root fetch - processPackages [cython-lint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cython_lint-0.9.0.tar.gz tmp/cython_lint-0.9.1.tar.gz --markdown 20240415/c/cython-lint/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-15 12:08:44] INFO root fetch - processPackages [django-flow-forge]: Downloading https://files.pythonhosted.org/packages/85/ca/ef58752372b3dbf7ab44c9ccc0a5fb411e4a206d6f4bec64c2bdb3f00f31/django_flow_forge-0.3.4.tar.gz
+[2024-04-15 12:08:44] INFO root fetch - processPackages [django-flow-forge]: executing diffoscope
+[2024-04-15 12:08:44] INFO root fetch - processPackages [django-flow-forge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_flow_forge-0.3.3.2.tar.gz tmp/django_flow_forge-0.3.4.tar.gz --markdown 20240415/d/django-flow-forge/0.3.3.2-0.3.4/README.md --exclude *.pyd
+[2024-04-15 12:08:44] INFO root fetch - processPackages [embed-anything]: executing diffoscope
+[2024-04-15 12:08:44] INFO root fetch - processPackages [embed-anything]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embed_anything-0.1.4.tar.gz tmp/embed_anything-0.1.5-cp38-abi3-win_amd64.whl.zip --markdown 20240415/e/embed-anything/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-15 12:08:44] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/e5/98/66657ce08472fd570441b566925db1dd8d6eb604ef22da7395d9a19e076a/tf_keras_nightly-2.17.0.dev2024041509.tar.gz
+[2024-04-15 12:08:44] INFO root fetch - processPackages [tf-keras-nightly]: executing diffoscope
+[2024-04-15 12:08:44] INFO root fetch - processPackages [tf-keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_keras_nightly-2.17.0.dev2024041409.tar.gz tmp/tf_keras_nightly-2.17.0.dev2024041509.tar.gz --markdown 20240415/t/tf-keras-nightly/2.17.0.dev2024041409-2.17.0.dev2024041509/README.md --exclude *.pyd
+[2024-04-15 12:08:45] INFO root fetch - processPackages [cython-lint]: Remove: archive file [/home/abi/fetcher/tmp/cython_lint-0.9.0.tar.gz]
+[2024-04-15 12:08:45] INFO root fetch - processPackages [cython-lint]: Remove: archive file [/home/abi/fetcher/tmp/cython_lint-0.9.1.tar.gz]
+[2024-04-15 12:08:45] INFO root fetch - main [MainThread]: End processing [cython-lint]: success
+[2024-04-15 12:08:45] INFO root fetch - processPackages [embed-anything]: Remove: archive file [/home/abi/fetcher/tmp/embed_anything-0.1.4.tar.gz]
+[2024-04-15 12:08:45] INFO root fetch - processPackages [embed-anything]: Remove: archive file [/home/abi/fetcher/tmp/embed_anything-0.1.5-cp38-abi3-win_amd64.whl.zip]
+[2024-04-15 12:08:45] INFO root fetch - main [MainThread]: End processing [embed-anything]: success
+[2024-04-15 12:08:45] INFO root fetch - processPackages [django-flow-forge]: Remove: archive file [/home/abi/fetcher/tmp/django_flow_forge-0.3.3.2.tar.gz]
+[2024-04-15 12:08:45] INFO root fetch - processPackages [django-flow-forge]: Remove: archive file [/home/abi/fetcher/tmp/django_flow_forge-0.3.4.tar.gz]
+[2024-04-15 12:08:45] INFO root fetch - main [MainThread]: End processing [django-flow-forge]: success
+[2024-04-15 12:08:47] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024041409.tar.gz]
+[2024-04-15 12:08:47] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024041509.tar.gz]
+[2024-04-15 12:08:47] INFO root fetch - main [MainThread]: End processing [tf-keras-nightly]: success
+[2024-04-15 12:08:47] INFO root fetch - main [MainThread]: Store serial: [22769163]
