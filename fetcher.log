@@ -19548,3 +19548,81 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 15:10:41] INFO root fetch - processPackages [monai]: Remove: archive file [/home/abi/fetcher/tmp/monai-1.3.1rc3.tar.gz]
 [2024-04-15 15:10:41] INFO root fetch - main [MainThread]: End processing [monai]: success
 [2024-04-15 15:10:41] INFO root fetch - main [MainThread]: Store serial: [22771533]
+[2024-04-15 15:12:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22771533]
+[2024-04-15 15:12:53] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-15 15:12:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chanfig
+[2024-04-15 15:12:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unified-planning
+[2024-04-15 15:12:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fbgemm-gpu-nightly-cpu
+[2024-04-15 15:12:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mseedindex
+[2024-04-15 15:12:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: edgeimpulse-api
+[2024-04-15 15:12:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: optician
+[2024-04-15 15:12:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: optician
+[2024-04-15 15:12:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: epigos
+[2024-04-15 15:12:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sentry-relay
+[2024-04-15 15:12:53] INFO root fetch - processPackages [mseedindex]: New version: [3.0.5] Old Version: [3.0.4]
+[2024-04-15 15:12:53] INFO root fetch - processPackages [optician]: New version: [1.1.0] Old Version: [1.0.2]
+[2024-04-15 15:12:53] INFO root fetch - processPackages [optician]: New version: [1.1.0] Old Version: [1.0.2]
+[2024-04-15 15:12:53] INFO root fetch - processPackages [epigos]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-04-15 15:12:53] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2024.4.15] Old Version: [2024.4.14]
+[2024-04-15 15:12:53] INFO root fetch - processPackages [edgeimpulse-api]: New version: [1.49.5] Old Version: [1.49.4]
+[2024-04-15 15:12:53] INFO root fetch - processPackages [chanfig]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-15 15:12:53] INFO root fetch - processPackages [unified-planning]: New version: [1.1.0.9.dev1] Old Version: [1.1.0.5.dev1]
+[2024-04-15 15:12:53] INFO root fetch - processPackages [sentry-relay]: New version: [1.1.4] Old Version: [0.8.9]
+[2024-04-15 15:12:53] INFO root fetch - processPackages [mseedindex]: Downloading https://files.pythonhosted.org/packages/dd/50/0affba1f2fcf13f6bed1583a04ea26cdd7ee071a9c7679880603e2455557/mseedindex-3.0.4.tar.gz
+[2024-04-15 15:12:53] INFO root fetch - processPackages [edgeimpulse-api]: Downloading https://files.pythonhosted.org/packages/2f/a0/082f753ec96bf421918b2f2d49f5d5dda1d81378de5a239841795ddfe598/edgeimpulse_api-1.49.4.tar.gz
+[2024-04-15 15:12:54] INFO root fetch - processPackages [epigos]: Downloading https://files.pythonhosted.org/packages/86/31/35ef2a80f7206f45245597c7830cdf4f6584791f58d016bc24c8483da8dc/epigos-2.0.1.tar.gz
+[2024-04-15 15:12:54] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/46/20/80fc9205e17c1b783bf8b997bf1c530c7ee81422c9cbc4c6dded2ac94800/fbgemm_gpu_nightly_cpu-2024.4.14-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-15 15:12:54] INFO root fetch - processPackages [optician]: Downloading https://files.pythonhosted.org/packages/f0/36/e681eddd5a4548b5cb423aa860f317508ddd91f3316167db443ea9e81639/optician-1.0.2.tar.gz
+[2024-04-15 15:12:54] INFO root fetch - processPackages [chanfig]: Downloading https://files.pythonhosted.org/packages/34/7d/56eb4966a1bace9d208f3af57027605c9be0d1648caf8d7ff2a7a0609d90/chanfig-0.0.98.tar.gz
+[2024-04-15 15:12:54] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/75/60/84750ec7e344f7f4bec90686f3ea15398b31b461b9c1c4c5aff43879b120/unified_planning-1.1.0.5.dev1.tar.gz
+[2024-04-15 15:12:54] INFO root fetch - processPackages [optician]: Downloading https://files.pythonhosted.org/packages/f0/36/e681eddd5a4548b5cb423aa860f317508ddd91f3316167db443ea9e81639/optician-1.0.2.tar.gz
+[2024-04-15 15:12:54] INFO root fetch - processPackages [sentry-relay]: Downloading https://files.pythonhosted.org/packages/f6/e5/aa1ba95a9654dbeaec6ebc0fd3b439b4c7c406d9ef0b9592002f1e90b6eb/sentry-relay-0.8.9.zip
+[2024-04-15 15:12:55] INFO root fetch - processPackages [optician]: Downloading https://files.pythonhosted.org/packages/a6/7a/96d8b4018e16733dd2ca241a23f6603f6986fd448208eaac56ac5a4b195b/optician-1.1.0.tar.gz
+[2024-04-15 15:12:55] INFO root fetch - processPackages [optician]: Downloading https://files.pythonhosted.org/packages/a6/7a/96d8b4018e16733dd2ca241a23f6603f6986fd448208eaac56ac5a4b195b/optician-1.1.0.tar.gz
+[2024-04-15 15:12:55] INFO root fetch - processPackages [edgeimpulse-api]: Downloading https://files.pythonhosted.org/packages/ac/b3/8fd02b3b6f4d6366c2eef4fc86cb404d1a0451251deb58a7ff7fb61f4dde/edgeimpulse_api-1.49.5.tar.gz
+[2024-04-15 15:12:55] INFO root fetch - processPackages [epigos]: Downloading https://files.pythonhosted.org/packages/14/55/d00c90cfaec2bd4a6e0a847b3cfc4cda3443fc3bb25d103c70f239d5694a/epigos-2.0.2.tar.gz
+[2024-04-15 15:12:55] INFO root fetch - processPackages [optician]: executing diffoscope
+[2024-04-15 15:12:55] INFO root fetch - processPackages [optician]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optician-1.0.2.tar.gz tmp/optician-1.1.0.tar.gz --markdown 20240415/o/optician/1.0.2-1.1.0/README.md --exclude *.pyd
+[2024-04-15 15:12:55] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/3e/ec/03dc4365f94c5ede698807b6ccad1ecbb2292584f5aef610857104b3073b/unified_planning-1.1.0.9.dev1.tar.gz
+[2024-04-15 15:12:55] INFO root fetch - processPackages [optician]: executing diffoscope
+[2024-04-15 15:12:55] INFO root fetch - processPackages [optician]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optician-1.0.2.tar.gz tmp/optician-1.1.0.tar.gz --markdown 20240415/o/optician/1.0.2-1.1.0/README.md --exclude *.pyd
+[2024-04-15 15:12:55] INFO root fetch - processPackages [epigos]: executing diffoscope
+[2024-04-15 15:12:55] INFO root fetch - processPackages [epigos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epigos-2.0.1.tar.gz tmp/epigos-2.0.2.tar.gz --markdown 20240415/e/epigos/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-04-15 15:12:55] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/28/7d/f15aafc59ae9cbf5bcec2961d176f82f0e11523a10a973812fe96252f3c9/fbgemm_gpu_nightly_cpu-2024.4.15-cp38-cp38-manylinux2014_x86_64.whl
+[2024-04-15 15:12:55] INFO root fetch - processPackages [edgeimpulse-api]: executing diffoscope
+[2024-04-15 15:12:55] INFO root fetch - processPackages [edgeimpulse-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgeimpulse_api-1.49.4.tar.gz tmp/edgeimpulse_api-1.49.5.tar.gz --markdown 20240415/e/edgeimpulse-api/1.49.4-1.49.5/README.md --exclude *.pyd
+[2024-04-15 15:12:55] INFO root fetch - processPackages [mseedindex]: Downloading https://files.pythonhosted.org/packages/93/72/0098c15720bf04cf7067c00a1081054ecddbec3ea84bb9d34c571b298b12/mseedindex-3.0.5.tar.gz
+[2024-04-15 15:12:55] WARNING root fetch - processPackages [sentry-relay]: Skipping package: exceeds size limit 31231225>=10485760
+[2024-04-15 15:12:55] INFO root fetch - main [MainThread]: End processing [sentry-relay] error
+[2024-04-15 15:12:55] INFO root fetch - processPackages [unified-planning]: executing diffoscope
+[2024-04-15 15:12:55] INFO root fetch - processPackages [unified-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unified_planning-1.1.0.5.dev1.tar.gz tmp/unified_planning-1.1.0.9.dev1.tar.gz --markdown 20240415/u/unified-planning/1.1.0.5.dev1-1.1.0.9.dev1/README.md --exclude *.pyd
+[2024-04-15 15:12:55] INFO root fetch - processPackages [chanfig]: Downloading https://files.pythonhosted.org/packages/01/c5/a36b303af3385e68259e6ed2ab16ae8be3a7d64efe0d85d95b5a1902785e/chanfig-0.0.99.tar.gz
+[2024-04-15 15:12:56] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2024-04-15 15:12:56] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2024.4.14-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2024.4.15-cp38-cp38-manylinux2014_x86_64.whl.zip --markdown 20240415/f/fbgemm-gpu-nightly-cpu/2024.4.14-2024.4.15/README.md --exclude *.pyd
+[2024-04-15 15:12:56] INFO root fetch - processPackages [mseedindex]: executing diffoscope
+[2024-04-15 15:12:56] INFO root fetch - processPackages [mseedindex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mseedindex-3.0.4.tar.gz tmp/mseedindex-3.0.5.tar.gz --markdown 20240415/m/mseedindex/3.0.4-3.0.5/README.md --exclude *.pyd
+[2024-04-15 15:12:56] INFO root fetch - processPackages [optician]: Remove: archive file [/home/abi/fetcher/tmp/optician-1.0.2.tar.gz]
+[2024-04-15 15:12:56] INFO root fetch - processPackages [optician]: Remove: archive file [/home/abi/fetcher/tmp/optician-1.1.0.tar.gz]
+[2024-04-15 15:12:56] INFO root fetch - main [MainThread]: End processing [optician]: success
+[2024-04-15 15:12:56] INFO root fetch - main [MainThread]: End processing [optician]: success
+[2024-04-15 15:12:56] INFO root fetch - processPackages [epigos]: Remove: archive file [/home/abi/fetcher/tmp/epigos-2.0.1.tar.gz]
+[2024-04-15 15:12:56] INFO root fetch - processPackages [epigos]: Remove: archive file [/home/abi/fetcher/tmp/epigos-2.0.2.tar.gz]
+[2024-04-15 15:12:56] INFO root fetch - main [MainThread]: End processing [epigos]: success
+[2024-04-15 15:12:56] INFO root fetch - processPackages [chanfig]: executing diffoscope
+[2024-04-15 15:12:56] INFO root fetch - processPackages [chanfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chanfig-0.0.98.tar.gz tmp/chanfig-0.0.99.tar.gz --markdown 20240415/c/chanfig/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-15 15:12:58] INFO root fetch - processPackages [mseedindex]: Remove: archive file [/home/abi/fetcher/tmp/mseedindex-3.0.4.tar.gz]
+[2024-04-15 15:12:58] INFO root fetch - processPackages [mseedindex]: Remove: archive file [/home/abi/fetcher/tmp/mseedindex-3.0.5.tar.gz]
+[2024-04-15 15:12:58] INFO root fetch - main [MainThread]: End processing [mseedindex]: success
+[2024-04-15 15:12:58] INFO root fetch - processPackages [unified-planning]: Remove: archive file [/home/abi/fetcher/tmp/unified_planning-1.1.0.5.dev1.tar.gz]
+[2024-04-15 15:12:58] INFO root fetch - processPackages [unified-planning]: Remove: archive file [/home/abi/fetcher/tmp/unified_planning-1.1.0.9.dev1.tar.gz]
+[2024-04-15 15:12:58] INFO root fetch - main [MainThread]: End processing [unified-planning]: success
+[2024-04-15 15:12:58] INFO root fetch - processPackages [chanfig]: Remove: archive file [/home/abi/fetcher/tmp/chanfig-0.0.98.tar.gz]
+[2024-04-15 15:12:58] INFO root fetch - processPackages [chanfig]: Remove: archive file [/home/abi/fetcher/tmp/chanfig-0.0.99.tar.gz]
+[2024-04-15 15:12:58] INFO root fetch - main [MainThread]: End processing [chanfig]: success
+[2024-04-15 15:13:00] INFO root fetch - processPackages [edgeimpulse-api]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse_api-1.49.4.tar.gz]
+[2024-04-15 15:13:00] INFO root fetch - processPackages [edgeimpulse-api]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse_api-1.49.5.tar.gz]
+[2024-04-15 15:13:00] INFO root fetch - main [MainThread]: End processing [edgeimpulse-api]: success
+[2024-04-15 15:14:11] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2024.4.14-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-04-15 15:14:11] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2024.4.15-cp38-cp38-manylinux2014_x86_64.whl.zip]
+[2024-04-15 15:14:11] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2024-04-15 15:14:11] INFO root fetch - main [MainThread]: Store serial: [22771565]
