@@ -2626,3 +2626,24 @@
 [2024-04-15 03:50:34] INFO root fetch - processPackages [PortableTab]: Remove: archive file [/home/abi/fetcher/tmp/portabletab-0.3.4.tar.gz]
 [2024-04-15 03:50:34] INFO root fetch - main [MainThread]: End processing [PortableTab]: success
 [2024-04-15 03:50:34] INFO root fetch - main [MainThread]: Store serial: [22764462]
+[2024-04-15 03:52:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22764462]
+[2024-04-15 03:52:43] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-15 03:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cloudben
+[2024-04-15 03:52:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dragons96-tools
+[2024-04-15 03:52:43] INFO root fetch - processPackages [cloudben]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-15 03:52:43] INFO root fetch - processPackages [cloudben]: Downloading https://files.pythonhosted.org/packages/6a/ca/391a8b46cc3ddb0b75071edae6ad6f0616d637ef420a53388d7f6e30f4bd/cloudben-0.1.1.tar.gz
+[2024-04-15 03:52:43] INFO root fetch - processPackages [dragons96-tools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-15 03:52:43] INFO root fetch - processPackages [cloudben]: Downloading https://files.pythonhosted.org/packages/43/97/9ef2a23d36de6ff3a74781252d11c3eebea3ba2ac0de5c5ffffb8b0a228d/cloudben-0.1.2.tar.gz
+[2024-04-15 03:52:43] INFO root fetch - processPackages [dragons96-tools]: Downloading https://files.pythonhosted.org/packages/a3/35/4f02f0f12780bf7b791989ab642ec21f06b9fd66e4025906bb9c6a5af6a4/dragons96_tools-0.0.8.tar.gz
+[2024-04-15 03:52:43] INFO root fetch - processPackages [cloudben]: executing diffoscope
+[2024-04-15 03:52:43] INFO root fetch - processPackages [cloudben]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudben-0.1.1.tar.gz tmp/cloudben-0.1.2.tar.gz --markdown 20240415/c/cloudben/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-15 03:52:43] INFO root fetch - processPackages [dragons96-tools]: Downloading https://files.pythonhosted.org/packages/ac/7c/813105da4cb1a3a4e0403b37ea632347837dd95f4dabad1c6224360f1284/dragons96_tools-0.0.9.tar.gz
+[2024-04-15 03:52:43] INFO root fetch - processPackages [dragons96-tools]: executing diffoscope
+[2024-04-15 03:52:43] INFO root fetch - processPackages [dragons96-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragons96_tools-0.0.8.tar.gz tmp/dragons96_tools-0.0.9.tar.gz --markdown 20240415/d/dragons96-tools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-15 03:52:44] INFO root fetch - processPackages [cloudben]: Remove: archive file [/home/abi/fetcher/tmp/cloudben-0.1.1.tar.gz]
+[2024-04-15 03:52:44] INFO root fetch - processPackages [cloudben]: Remove: archive file [/home/abi/fetcher/tmp/cloudben-0.1.2.tar.gz]
+[2024-04-15 03:52:44] INFO root fetch - main [MainThread]: End processing [cloudben]: success
+[2024-04-15 03:52:44] INFO root fetch - processPackages [dragons96-tools]: Remove: archive file [/home/abi/fetcher/tmp/dragons96_tools-0.0.8.tar.gz]
+[2024-04-15 03:52:44] INFO root fetch - processPackages [dragons96-tools]: Remove: archive file [/home/abi/fetcher/tmp/dragons96_tools-0.0.9.tar.gz]
+[2024-04-15 03:52:44] INFO root fetch - main [MainThread]: End processing [dragons96-tools]: success
+[2024-04-15 03:52:44] INFO root fetch - main [MainThread]: Store serial: [22764469]
