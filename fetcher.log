@@ -12822,3 +12822,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 11:15:48] INFO root fetch - processPackages [osm-fieldwork]: Remove: archive file [/home/abi/fetcher/tmp/osm-fieldwork-0.8.1.tar.gz]
 [2024-04-15 11:15:48] INFO root fetch - main [MainThread]: End processing [osm-fieldwork]: success
 [2024-04-15 11:15:48] INFO root fetch - main [MainThread]: Store serial: [22768448]
+[2024-04-15 11:17:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22768448]
+[2024-04-15 11:17:57] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-15 11:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: figaro
+[2024-04-15 11:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ocdiff
+[2024-04-15 11:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: testy-rust
+[2024-04-15 11:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lanQ
+[2024-04-15 11:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tbp-nightly
+[2024-04-15 11:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: soildx-fastapi-jwt-auth
+[2024-04-15 11:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lomas-client
+[2024-04-15 11:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odbc2deltalake
+[2024-04-15 11:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: peth
+[2024-04-15 11:17:57] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2024-04-15 11:17:57] INFO root fetch - processPackages [figaro]: New version: [1.6.1] Old Version: [1.6.0]
+[2024-04-15 11:17:57] WARNING root fetch - processPackages [testy-rust]: Skipping, unable to determine old version
+[2024-04-15 11:17:57] INFO root fetch - main [MainThread]: End processing [testy-rust] error
+[2024-04-15 11:17:57] INFO root fetch - processPackages [lanQ]: New version: [1.3] Old Version: [1.2]
+[2024-04-15 11:17:57] INFO root fetch - processPackages [peth]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-15 11:17:57] WARNING root fetch - processPackages [soildx-fastapi-jwt-auth]: Skipping, unable to determine old version
+[2024-04-15 11:17:57] INFO root fetch - main [MainThread]: End processing [soildx-fastapi-jwt-auth] error
+[2024-04-15 11:17:57] WARNING root fetch - processPackages [lomas-client]: Skipping, unable to determine old version
+[2024-04-15 11:17:57] INFO root fetch - main [MainThread]: End processing [lomas-client] error
+[2024-04-15 11:17:57] INFO root fetch - processPackages [odbc2deltalake]: New version: [0.8.4] Old Version: [0.8.3]
+[2024-04-15 11:17:57] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2024-04-15 11:17:57] INFO root fetch - processPackages [ocdiff]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-15 11:17:57] INFO root fetch - processPackages [lanQ]: Downloading https://files.pythonhosted.org/packages/29/07/84a1f42c0536c29d79214b24f9592698d15ea2f690c0ea62bebb30f4a232/lanQ-1.2.tar.gz
+[2024-04-15 11:17:57] INFO root fetch - processPackages [figaro]: Downloading https://files.pythonhosted.org/packages/10/bd/6d180b82c07625f302b878f4b77621f8dbe947e26eed05620ec5a62b211e/figaro-1.6.0.tar.gz
+[2024-04-15 11:17:57] INFO root fetch - processPackages [peth]: Downloading https://files.pythonhosted.org/packages/9f/b6/e39b35e704d60c9a2339a99262c5e185eb6298db8a76c8e30883edd5392d/peth-1.0.5.tar.gz
+[2024-04-15 11:17:57] INFO root fetch - processPackages [odbc2deltalake]: Downloading https://files.pythonhosted.org/packages/f6/d3/7200de3caaacfad2fccb402f99066bf5d8004f3009d089cc0810da463c34/odbc2deltalake-0.8.3.tar.gz
+[2024-04-15 11:17:57] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2024-04-15 11:17:57] INFO root fetch - processPackages [ocdiff]: Downloading https://files.pythonhosted.org/packages/93/05/f19786a45157f799cdb7f17e5380406d719e4937ddafea9e253b3d9c8a04/ocdiff-0.0.6.tar.gz
+[2024-04-15 11:17:57] INFO root fetch - processPackages [lanQ]: Downloading https://files.pythonhosted.org/packages/a8/b2/8b5344a7e36d38b8c37e69cbbdf513bcffe5b0f18b9f04b61dee118d6679/lanQ-1.3.tar.gz
+[2024-04-15 11:17:57] INFO root fetch - processPackages [figaro]: Downloading https://files.pythonhosted.org/packages/15/1e/05a505a4878fdd85626181d225a50520f52c9bfd67c7aa5233a50d6a22bf/figaro-1.6.1.tar.gz
+[2024-04-15 11:17:57] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2024-04-15 11:17:57] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20240415/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/README.md --exclude *.pyd
+[2024-04-15 11:17:57] INFO root fetch - processPackages [peth]: Downloading https://files.pythonhosted.org/packages/9c/95/2fe2016cc190f3570ff48610cd8df9b90070f08acc9f1ea70eb2daf59b68/peth-1.0.6.tar.gz
+[2024-04-15 11:17:57] INFO root fetch - processPackages [odbc2deltalake]: Downloading https://files.pythonhosted.org/packages/65/8c/5d5dbe455ee2f13a2ba2a0a2905fc572f38b5d6072e6af75d89d1821a5b9/odbc2deltalake-0.8.4.tar.gz
+[2024-04-15 11:17:58] INFO root fetch - processPackages [lanQ]: executing diffoscope
+[2024-04-15 11:17:58] INFO root fetch - processPackages [lanQ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lanQ-1.2.tar.gz tmp/lanQ-1.3.tar.gz --markdown 20240415/l/lanQ/1.2-1.3/README.md --exclude *.pyd
+[2024-04-15 11:17:58] INFO root fetch - processPackages [figaro]: executing diffoscope
+[2024-04-15 11:17:58] INFO root fetch - processPackages [figaro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/figaro-1.6.0.tar.gz tmp/figaro-1.6.1.tar.gz --markdown 20240415/f/figaro/1.6.0-1.6.1/README.md --exclude *.pyd
+[2024-04-15 11:17:58] INFO root fetch - processPackages [ocdiff]: Downloading https://files.pythonhosted.org/packages/dc/65/3e9f0c9d0e2f94cf9a85944fdac426d80ab3fc9e810f6098955800994473/ocdiff-0.0.7.tar.gz
+[2024-04-15 11:17:58] INFO root fetch - processPackages [odbc2deltalake]: executing diffoscope
+[2024-04-15 11:17:58] INFO root fetch - processPackages [odbc2deltalake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odbc2deltalake-0.8.3.tar.gz tmp/odbc2deltalake-0.8.4.tar.gz --markdown 20240415/o/odbc2deltalake/0.8.3-0.8.4/README.md --exclude *.pyd
+[2024-04-15 11:17:58] INFO root fetch - processPackages [peth]: executing diffoscope
+[2024-04-15 11:17:58] INFO root fetch - processPackages [peth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peth-1.0.5.tar.gz tmp/peth-1.0.6.tar.gz --markdown 20240415/p/peth/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-04-15 11:17:58] INFO root fetch - processPackages [ocdiff]: executing diffoscope
+[2024-04-15 11:17:58] INFO root fetch - processPackages [ocdiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocdiff-0.0.6.tar.gz tmp/ocdiff-0.0.7.tar.gz --markdown 20240415/o/ocdiff/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-15 11:17:58] INFO root fetch - processPackages [lanQ]: Remove: archive file [/home/abi/fetcher/tmp/lanQ-1.2.tar.gz]
+[2024-04-15 11:17:58] INFO root fetch - processPackages [lanQ]: Remove: archive file [/home/abi/fetcher/tmp/lanQ-1.3.tar.gz]
+[2024-04-15 11:17:58] INFO root fetch - main [MainThread]: End processing [lanQ]: success
+[2024-04-15 11:17:58] INFO root fetch - processPackages [ocdiff]: Remove: archive file [/home/abi/fetcher/tmp/ocdiff-0.0.6.tar.gz]
+[2024-04-15 11:17:58] INFO root fetch - processPackages [ocdiff]: Remove: archive file [/home/abi/fetcher/tmp/ocdiff-0.0.7.tar.gz]
+[2024-04-15 11:17:58] INFO root fetch - main [MainThread]: End processing [ocdiff]: success
+[2024-04-15 11:17:59] INFO root fetch - processPackages [odbc2deltalake]: Remove: archive file [/home/abi/fetcher/tmp/odbc2deltalake-0.8.3.tar.gz]
+[2024-04-15 11:17:59] INFO root fetch - processPackages [odbc2deltalake]: Remove: archive file [/home/abi/fetcher/tmp/odbc2deltalake-0.8.4.tar.gz]
+[2024-04-15 11:17:59] INFO root fetch - main [MainThread]: End processing [odbc2deltalake]: success
+[2024-04-15 11:17:59] INFO root fetch - processPackages [figaro]: Remove: archive file [/home/abi/fetcher/tmp/figaro-1.6.0.tar.gz]
+[2024-04-15 11:17:59] INFO root fetch - processPackages [figaro]: Remove: archive file [/home/abi/fetcher/tmp/figaro-1.6.1.tar.gz]
+[2024-04-15 11:17:59] INFO root fetch - main [MainThread]: End processing [figaro]: success
+[2024-04-15 11:17:59] INFO root fetch - processPackages [peth]: Remove: archive file [/home/abi/fetcher/tmp/peth-1.0.5.tar.gz]
+[2024-04-15 11:17:59] INFO root fetch - processPackages [peth]: Remove: archive file [/home/abi/fetcher/tmp/peth-1.0.6.tar.gz]
+[2024-04-15 11:17:59] INFO root fetch - main [MainThread]: End processing [peth]: success
+[2024-04-15 11:17:59] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2024-04-15 11:17:59] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2024-04-15 11:17:59] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2024-04-15 11:17:59] INFO root fetch - main [MainThread]: Store serial: [22768488]
