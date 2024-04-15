@@ -13293,3 +13293,75 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 11:31:17] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-59.9.1.tar.gz]
 [2024-04-15 11:31:17] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-04-15 11:31:17] INFO root fetch - main [MainThread]: Store serial: [22768645]
+[2024-04-15 11:33:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22768645]
+[2024-04-15 11:33:26] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-15 11:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jupyter-docprovider
+[2024-04-15 11:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cycode
+[2024-04-15 11:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: loops-diff
+[2024-04-15 11:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jupyter-server-ydoc
+[2024-04-15 11:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: codex-africanus
+[2024-04-15 11:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: markdown-word-count
+[2024-04-15 11:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: whaox-wapi
+[2024-04-15 11:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdktf
+[2024-04-15 11:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: itk-dev-shared-components
+[2024-04-15 11:33:26] INFO root fetch - processPackages [whaox-wapi]: New version: [1.0.26] Old Version: [1.0.25]
+[2024-04-15 11:33:26] WARNING root fetch - processPackages [loops-diff]: Skipping, unable to determine old version
+[2024-04-15 11:33:26] INFO root fetch - main [MainThread]: End processing [loops-diff] error
+[2024-04-15 11:33:26] INFO root fetch - processPackages [cycode]: New version: [1.9.4.dev3] Old Version: [1.9.4.dev2]
+[2024-04-15 11:33:26] INFO root fetch - processPackages [whaox-wapi]: Downloading https://files.pythonhosted.org/packages/9e/cd/6a4b5167c646915906a9be8fee73a0488ba8fdf52806d011678a6e428591/whaox-wapi-1.0.25.tar.gz
+[2024-04-15 11:33:26] INFO root fetch - processPackages [jupyter-server-ydoc]: New version: [1.0.0a0] Old Version: [0.8.0a0]
+[2024-04-15 11:33:26] INFO root fetch - processPackages [markdown-word-count]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-04-15 11:33:26] WARNING root fetch - processPackages [jupyter-docprovider]: Skipping, unable to determine old version
+[2024-04-15 11:33:26] INFO root fetch - main [MainThread]: End processing [jupyter-docprovider] error
+[2024-04-15 11:33:26] INFO root fetch - processPackages [codex-africanus]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-04-15 11:33:26] INFO root fetch - processPackages [itk-dev-shared-components]: New version: [2.1.1] Old Version: [2.1.0]
+[2024-04-15 11:33:26] INFO root fetch - processPackages [cdktf]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-15 11:33:26] INFO root fetch - processPackages [cdktf]: Downloading https://files.pythonhosted.org/packages/87/b3/c146d54086d890741cc9d05c63504e1386b268ef8cbc52d9aa78c1080aa3/cdktf-0.9.3.tar.gz
+[2024-04-15 11:33:26] INFO root fetch - processPackages [jupyter-server-ydoc]: Downloading https://files.pythonhosted.org/packages/34/65/369c3ef3d0860f1e1da000bf95bd183e5f71c520bc8f0ef7f00b84ae45ad/jupyter_server_ydoc-0.8.0a0.tar.gz
+[2024-04-15 11:33:26] INFO root fetch - processPackages [whaox-wapi]: Downloading https://files.pythonhosted.org/packages/b1/a7/6d5ba04ffe8169d1c05954389f2eb4efe0f4948c1ff9410bce24e71b6052/whaox-wapi-1.0.26.tar.gz
+[2024-04-15 11:33:26] INFO root fetch - processPackages [markdown-word-count]: Downloading https://files.pythonhosted.org/packages/52/4a/d1d215bc6fe7a07a8b47125b1de26a07c360d4b29932e50e1beb49785501/markdown-word-count-0.0.1.tar.gz
+[2024-04-15 11:33:26] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/9c/7d/4d5ad0af93796f8f357e2cae1dc621319d3f9b239266370b725d02c7e1ed/cycode-1.9.4.dev2.tar.gz
+[2024-04-15 11:33:26] INFO root fetch - processPackages [codex-africanus]: Downloading https://files.pythonhosted.org/packages/8c/77/39b8555113527762aaa5fe3394257f0fff744857360dcb99a5f309c8de1c/codex-africanus-0.3.5.tar.gz
+[2024-04-15 11:33:26] INFO root fetch - processPackages [itk-dev-shared-components]: Downloading https://files.pythonhosted.org/packages/fc/4c/9c3fac91d40fc96be95b06c014a45be05d28d8b26163b7b03f664ef50f2f/itk_dev_shared_components-2.1.0.tar.gz
+[2024-04-15 11:33:26] INFO root fetch - processPackages [whaox-wapi]: executing diffoscope
+[2024-04-15 11:33:26] INFO root fetch - processPackages [whaox-wapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whaox-wapi-1.0.25.tar.gz tmp/whaox-wapi-1.0.26.tar.gz --markdown 20240415/w/whaox-wapi/1.0.25-1.0.26/README.md --exclude *.pyd
+[2024-04-15 11:33:27] INFO root fetch - processPackages [cdktf]: Downloading https://files.pythonhosted.org/packages/80/8d/cbc9ef418f046a8c17f614889aba72b6e668540a2966498bef6f1dbb3a10/cdktf-0.9.4.tar.gz
+[2024-04-15 11:33:27] INFO root fetch - processPackages [jupyter-server-ydoc]: Downloading https://files.pythonhosted.org/packages/ab/ea/8dbb47f3ef2374e0bc8aeecbf14dcc3b3b43d98c7a40d510e45b96eaac42/jupyter_server_ydoc-1.0.0a0.tar.gz
+[2024-04-15 11:33:27] INFO root fetch - processPackages [markdown-word-count]: Downloading https://files.pythonhosted.org/packages/50/4d/a747bf3756fb0a7f24920e864b104d417e636daadd23ffbe032dcd2ce152/markdown_word_count-0.1.0.tar.gz
+[2024-04-15 11:33:27] INFO root fetch - processPackages [cdktf]: executing diffoscope
+[2024-04-15 11:33:27] INFO root fetch - processPackages [cdktf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-0.9.3.tar.gz tmp/cdktf-0.9.4.tar.gz --markdown 20240415/c/cdktf/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-04-15 11:33:27] INFO root fetch - processPackages [itk-dev-shared-components]: Downloading https://files.pythonhosted.org/packages/62/72/361681f5e64e138a67ef23ff92fba85a3a861b59257c91d787d29e77458a/itk_dev_shared_components-2.1.1.tar.gz
+[2024-04-15 11:33:27] INFO root fetch - processPackages [cycode]: Downloading https://files.pythonhosted.org/packages/e6/a1/ec6134a1bf7ee6d2d5aa76a63dc5a3d4ba25e9f67df1d3ad57cf737612ac/cycode-1.9.4.dev3.tar.gz
+[2024-04-15 11:33:27] INFO root fetch - processPackages [jupyter-server-ydoc]: executing diffoscope
+[2024-04-15 11:33:27] INFO root fetch - processPackages [jupyter-server-ydoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_server_ydoc-0.8.0a0.tar.gz tmp/jupyter_server_ydoc-1.0.0a0.tar.gz --markdown 20240415/j/jupyter-server-ydoc/0.8.0a0-1.0.0a0/README.md --exclude *.pyd
+[2024-04-15 11:33:27] INFO root fetch - processPackages [codex-africanus]: Downloading https://files.pythonhosted.org/packages/87/41/4c08aff74678566d9ee0cd7d05d51578299c8f1b6693c386097a40133e77/codex_africanus-0.3.6.tar.gz
+[2024-04-15 11:33:27] INFO root fetch - processPackages [markdown-word-count]: executing diffoscope
+[2024-04-15 11:33:27] INFO root fetch - processPackages [markdown-word-count]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markdown-word-count-0.0.1.tar.gz tmp/markdown_word_count-0.1.0.tar.gz --markdown 20240415/m/markdown-word-count/0.0.1-0.1.0/README.md --exclude *.pyd
+[2024-04-15 11:33:27] INFO root fetch - processPackages [cycode]: executing diffoscope
+[2024-04-15 11:33:27] INFO root fetch - processPackages [cycode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cycode-1.9.4.dev2.tar.gz tmp/cycode-1.9.4.dev3.tar.gz --markdown 20240415/c/cycode/1.9.4.dev2-1.9.4.dev3/README.md --exclude *.pyd
+[2024-04-15 11:33:27] INFO root fetch - processPackages [codex-africanus]: executing diffoscope
+[2024-04-15 11:33:27] INFO root fetch - processPackages [codex-africanus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codex-africanus-0.3.5.tar.gz tmp/codex_africanus-0.3.6.tar.gz --markdown 20240415/c/codex-africanus/0.3.5-0.3.6/README.md --exclude *.pyd
+[2024-04-15 11:33:27] INFO root fetch - processPackages [itk-dev-shared-components]: executing diffoscope
+[2024-04-15 11:33:27] INFO root fetch - processPackages [itk-dev-shared-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itk_dev_shared_components-2.1.0.tar.gz tmp/itk_dev_shared_components-2.1.1.tar.gz --markdown 20240415/i/itk-dev-shared-components/2.1.0-2.1.1/README.md --exclude *.pyd
+[2024-04-15 11:33:27] INFO root fetch - processPackages [whaox-wapi]: Remove: archive file [/home/abi/fetcher/tmp/whaox-wapi-1.0.25.tar.gz]
+[2024-04-15 11:33:27] INFO root fetch - processPackages [whaox-wapi]: Remove: archive file [/home/abi/fetcher/tmp/whaox-wapi-1.0.26.tar.gz]
+[2024-04-15 11:33:27] INFO root fetch - main [MainThread]: End processing [whaox-wapi]: success
+[2024-04-15 11:33:28] INFO root fetch - processPackages [cdktf]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-0.9.3.tar.gz]
+[2024-04-15 11:33:28] INFO root fetch - processPackages [cdktf]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-0.9.4.tar.gz]
+[2024-04-15 11:33:28] INFO root fetch - main [MainThread]: End processing [cdktf]: success
+[2024-04-15 11:33:28] INFO root fetch - processPackages [markdown-word-count]: Remove: archive file [/home/abi/fetcher/tmp/markdown-word-count-0.0.1.tar.gz]
+[2024-04-15 11:33:28] INFO root fetch - processPackages [markdown-word-count]: Remove: archive file [/home/abi/fetcher/tmp/markdown_word_count-0.1.0.tar.gz]
+[2024-04-15 11:33:28] INFO root fetch - main [MainThread]: End processing [markdown-word-count]: success
+[2024-04-15 11:33:28] INFO root fetch - processPackages [itk-dev-shared-components]: Remove: archive file [/home/abi/fetcher/tmp/itk_dev_shared_components-2.1.0.tar.gz]
+[2024-04-15 11:33:28] INFO root fetch - processPackages [itk-dev-shared-components]: Remove: archive file [/home/abi/fetcher/tmp/itk_dev_shared_components-2.1.1.tar.gz]
+[2024-04-15 11:33:28] INFO root fetch - main [MainThread]: End processing [itk-dev-shared-components]: success
+[2024-04-15 11:33:28] INFO root fetch - processPackages [jupyter-server-ydoc]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_server_ydoc-0.8.0a0.tar.gz]
+[2024-04-15 11:33:28] INFO root fetch - processPackages [jupyter-server-ydoc]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_server_ydoc-1.0.0a0.tar.gz]
+[2024-04-15 11:33:28] INFO root fetch - main [MainThread]: End processing [jupyter-server-ydoc]: success
+[2024-04-15 11:33:28] INFO root fetch - processPackages [cycode]: Remove: archive file [/home/abi/fetcher/tmp/cycode-1.9.4.dev2.tar.gz]
+[2024-04-15 11:33:28] INFO root fetch - processPackages [cycode]: Remove: archive file [/home/abi/fetcher/tmp/cycode-1.9.4.dev3.tar.gz]
+[2024-04-15 11:33:28] INFO root fetch - main [MainThread]: End processing [cycode]: success
+[2024-04-15 11:33:28] INFO root fetch - processPackages [codex-africanus]: Remove: archive file [/home/abi/fetcher/tmp/codex-africanus-0.3.5.tar.gz]
+[2024-04-15 11:33:28] INFO root fetch - processPackages [codex-africanus]: Remove: archive file [/home/abi/fetcher/tmp/codex_africanus-0.3.6.tar.gz]
+[2024-04-15 11:33:28] INFO root fetch - main [MainThread]: End processing [codex-africanus]: success
+[2024-04-15 11:33:28] INFO root fetch - main [MainThread]: Store serial: [22768687]
