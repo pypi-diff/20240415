@@ -13841,3 +13841,94 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 11:51:07] INFO root fetch - processPackages [nipyapi]: Remove: archive file [/home/abi/fetcher/tmp/nipyapi-0.9.1.tar.gz]
 [2024-04-15 11:51:07] INFO root fetch - main [MainThread]: End processing [nipyapi]: success
 [2024-04-15 11:51:07] INFO root fetch - main [MainThread]: Store serial: [22768894]
+[2024-04-15 11:53:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22768894]
+[2024-04-15 11:53:15] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-15 11:53:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: onnx2tf
+[2024-04-15 11:53:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fta
+[2024-04-15 11:53:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpas
+[2024-04-15 11:53:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: radical.gtod
+[2024-04-15 11:53:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PVNet
+[2024-04-15 11:53:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: e2enetworks
+[2024-04-15 11:53:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: datalad-cds
+[2024-04-15 11:53:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: radical.saga
+[2024-04-15 11:53:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: auto-coder
+[2024-04-15 11:53:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fta
+[2024-04-15 11:53:16] INFO root fetch - processPackages [fta]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-15 11:53:16] INFO root fetch - processPackages [radical.gtod]: New version: [1.6.7] Old Version: [1.51.0]
+[2024-04-15 11:53:16] INFO root fetch - processPackages [fta]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-15 11:53:16] INFO root fetch - processPackages [radical.saga]: New version: [1.8.0] Old Version: [1.6.9]
+[2024-04-15 11:53:16] INFO root fetch - processPackages [auto-coder]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-15 11:53:16] INFO root fetch - processPackages [datalad-cds]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-15 11:53:16] INFO root fetch - processPackages [e2enetworks]: New version: [1.2.0] Old Version: [1.1.9]
+[2024-04-15 11:53:16] INFO root fetch - processPackages [fta]: Downloading https://files.pythonhosted.org/packages/a9/65/b395b1e69e18f12c00816cb1cf58186caada443314c392ec6037c777e267/fta-0.0.1.tar.gz
+[2024-04-15 11:53:16] INFO root fetch - processPackages [gpas]: New version: [1.0.1a2] Old Version: [1.0.1a1]
+[2024-04-15 11:53:16] INFO root fetch - processPackages [radical.gtod]: Downloading https://files.pythonhosted.org/packages/3b/84/37990d8e727a9b75b1fe37fb82335213ce8dc4f54bd8fb6fb130379b80e2/radical_gtod-1.51.0.tar.gz
+[2024-04-15 11:53:16] INFO root fetch - processPackages [fta]: Downloading https://files.pythonhosted.org/packages/a9/65/b395b1e69e18f12c00816cb1cf58186caada443314c392ec6037c777e267/fta-0.0.1.tar.gz
+[2024-04-15 11:53:16] INFO root fetch - processPackages [radical.saga]: Downloading https://files.pythonhosted.org/packages/3b/69/eb760e93f8f0646aff6eb1902e3568f7defd688b92a4e0c67d8b3d349496/radical.saga-1.6.9.tar.gz
+[2024-04-15 11:53:16] INFO root fetch - processPackages [PVNet]: New version: [3.0.9] Old Version: [3.0.8]
+[2024-04-15 11:53:16] INFO root fetch - processPackages [onnx2tf]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-04-15 11:53:16] INFO root fetch - processPackages [auto-coder]: Downloading https://files.pythonhosted.org/packages/d1/69/520c5552e42e8901e930364867dc863b8beb917b52544194a46c864a7385/auto-coder-0.1.8.tar.gz
+[2024-04-15 11:53:16] INFO root fetch - processPackages [gpas]: Downloading https://files.pythonhosted.org/packages/4d/5b/75ed4ced5f1299262530a762f8fd55a971a3cc4da262d1f0c4b1f0d0f428/gpas-1.0.1a1.tar.gz
+[2024-04-15 11:53:16] INFO root fetch - processPackages [radical.gtod]: Downloading https://files.pythonhosted.org/packages/e7/99/b30606ef545cb7dd3965e4271424fac7ce5ea037377a5a165605efd5aced/radical.gtod-1.6.7.tar.gz
+[2024-04-15 11:53:16] INFO root fetch - processPackages [e2enetworks]: Downloading https://files.pythonhosted.org/packages/68/53/72c1e6dd4992c678c2895d0aadd14309195deec8e3ef1bdb421609092595/e2enetworks-1.1.9.tar.gz
+[2024-04-15 11:53:16] INFO root fetch - processPackages [datalad-cds]: Downloading https://files.pythonhosted.org/packages/dc/99/482fd4f0f2aa0853be7d9d42c6f2e0bba8edf42e66fa2858e89cfb5580d2/datalad-cds-0.0.3.tar.gz
+[2024-04-15 11:53:16] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/47/d6/3a89799187c251f632672a9aa190b5b93fac0e00f5ec20eb85fe39a56fe2/PVNet-3.0.8.tar.gz
+[2024-04-15 11:53:16] INFO root fetch - processPackages [radical.saga]: Downloading https://files.pythonhosted.org/packages/4f/4b/15452082443a7cc86d52bcb6ff568b457eed3d787d65d867942840f1d52c/radical.saga-1.8.0.tar.gz
+[2024-04-15 11:53:16] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/6f/b3/519ee148592d2531639c5f3c1434df000ecf2c24a5b55b61cba8fd4767f9/onnx2tf-1.9.8.tar.gz
+[2024-04-15 11:53:16] INFO root fetch - processPackages [fta]: Downloading https://files.pythonhosted.org/packages/f6/0f/1a186de175e6d97c4771461c00484b6f381f30989140c912a96ade66a860/fta-0.0.2.tar.gz
+[2024-04-15 11:53:16] INFO root fetch - processPackages [fta]: Downloading https://files.pythonhosted.org/packages/f6/0f/1a186de175e6d97c4771461c00484b6f381f30989140c912a96ade66a860/fta-0.0.2.tar.gz
+[2024-04-15 11:53:16] INFO root fetch - processPackages [radical.gtod]: executing diffoscope
+[2024-04-15 11:53:16] INFO root fetch - processPackages [radical.gtod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radical_gtod-1.51.0.tar.gz tmp/radical.gtod-1.6.7.tar.gz --markdown 20240415/r/radical.gtod/1.51.0-1.6.7/README.md --exclude *.pyd
+[2024-04-15 11:53:16] INFO root fetch - processPackages [radical.saga]: executing diffoscope
+[2024-04-15 11:53:16] INFO root fetch - processPackages [radical.saga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radical.saga-1.6.9.tar.gz tmp/radical.saga-1.8.0.tar.gz --markdown 20240415/r/radical.saga/1.6.9-1.8.0/README.md --exclude *.pyd
+[2024-04-15 11:53:16] INFO root fetch - processPackages [fta]: executing diffoscope
+[2024-04-15 11:53:16] INFO root fetch - processPackages [fta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fta-0.0.1.tar.gz tmp/fta-0.0.2.tar.gz --markdown 20240415/f/fta/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-15 11:53:16] INFO root fetch - processPackages [fta]: executing diffoscope
+[2024-04-15 11:53:16] INFO root fetch - processPackages [fta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fta-0.0.1.tar.gz tmp/fta-0.0.2.tar.gz --markdown 20240415/f/fta/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-15 11:53:17] INFO root fetch - processPackages [e2enetworks]: Downloading https://files.pythonhosted.org/packages/85/0a/785124554fc76e0e7ad13114346c6000cfb6e874f75035d7757833854747/e2enetworks-1.2.0.tar.gz
+[2024-04-15 11:53:17] INFO root fetch - processPackages [datalad-cds]: Downloading https://files.pythonhosted.org/packages/12/92/45fc2b6e31267c16fb633e8b70fe25360cd8d0e6d5987ce9bba9f45a0826/datalad_cds-0.0.4.tar.gz
+[2024-04-15 11:53:17] INFO root fetch - processPackages [gpas]: Downloading https://files.pythonhosted.org/packages/7e/15/ca40dfa57cf90c189ba9e8b51a015d68dbcb5f59807ec5eaddc4ca7d7067/gpas-1.0.1a2.tar.gz
+[2024-04-15 11:53:17] INFO root fetch - processPackages [auto-coder]: Downloading https://files.pythonhosted.org/packages/4d/9a/1bad03fbe8fd6d47cd359f857b05e28efaa8cba07c33aa029696a40dd646/auto-coder-0.1.9.tar.gz
+[2024-04-15 11:53:17] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/05/79/f3c9a6a17b563f480074d48bf5010f5bd4c77a300c1cbbb5b246ad094c7c/PVNet-3.0.9.tar.gz
+[2024-04-15 11:53:17] INFO root fetch - processPackages [e2enetworks]: executing diffoscope
+[2024-04-15 11:53:17] INFO root fetch - processPackages [e2enetworks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2enetworks-1.1.9.tar.gz tmp/e2enetworks-1.2.0.tar.gz --markdown 20240415/e/e2enetworks/1.1.9-1.2.0/README.md --exclude *.pyd
+[2024-04-15 11:53:17] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/0e/df/e0c6978b06db6c5c04de100ecbe0bbb281caed31c4dd88663e61e36ca571/onnx2tf-1.9.9.tar.gz
+[2024-04-15 11:53:17] INFO root fetch - processPackages [datalad-cds]: executing diffoscope
+[2024-04-15 11:53:17] INFO root fetch - processPackages [datalad-cds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datalad-cds-0.0.3.tar.gz tmp/datalad_cds-0.0.4.tar.gz --markdown 20240415/d/datalad-cds/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-15 11:53:17] INFO root fetch - processPackages [auto-coder]: executing diffoscope
+[2024-04-15 11:53:17] INFO root fetch - processPackages [auto-coder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-coder-0.1.8.tar.gz tmp/auto-coder-0.1.9.tar.gz --markdown 20240415/a/auto-coder/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-15 11:53:17] INFO root fetch - processPackages [gpas]: executing diffoscope
+[2024-04-15 11:53:17] INFO root fetch - processPackages [gpas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpas-1.0.1a1.tar.gz tmp/gpas-1.0.1a2.tar.gz --markdown 20240415/g/gpas/1.0.1a1-1.0.1a2/README.md --exclude *.pyd
+[2024-04-15 11:53:17] INFO root fetch - processPackages [PVNet]: executing diffoscope
+[2024-04-15 11:53:17] INFO root fetch - processPackages [PVNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PVNet-3.0.8.tar.gz tmp/PVNet-3.0.9.tar.gz --markdown 20240415/P/PVNet/3.0.8-3.0.9/README.md --exclude *.pyd
+[2024-04-15 11:53:17] INFO root fetch - processPackages [onnx2tf]: executing diffoscope
+[2024-04-15 11:53:17] INFO root fetch - processPackages [onnx2tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2tf-1.9.8.tar.gz tmp/onnx2tf-1.9.9.tar.gz --markdown 20240415/o/onnx2tf/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-04-15 11:53:18] INFO root fetch - processPackages [radical.gtod]: Remove: archive file [/home/abi/fetcher/tmp/radical_gtod-1.51.0.tar.gz]
+[2024-04-15 11:53:18] INFO root fetch - processPackages [radical.gtod]: Remove: archive file [/home/abi/fetcher/tmp/radical.gtod-1.6.7.tar.gz]
+[2024-04-15 11:53:18] INFO root fetch - main [MainThread]: End processing [radical.gtod]: success
+[2024-04-15 11:53:18] INFO root fetch - processPackages [fta]: Remove: archive file [/home/abi/fetcher/tmp/fta-0.0.1.tar.gz]
+[2024-04-15 11:53:18] INFO root fetch - processPackages [fta]: Remove: archive file [/home/abi/fetcher/tmp/fta-0.0.2.tar.gz]
+[2024-04-15 11:53:18] INFO root fetch - main [MainThread]: End processing [fta]: success
+[2024-04-15 11:53:18] INFO root fetch - main [MainThread]: End processing [fta]: success
+[2024-04-15 11:53:18] INFO root fetch - processPackages [e2enetworks]: Remove: archive file [/home/abi/fetcher/tmp/e2enetworks-1.1.9.tar.gz]
+[2024-04-15 11:53:18] INFO root fetch - processPackages [e2enetworks]: Remove: archive file [/home/abi/fetcher/tmp/e2enetworks-1.2.0.tar.gz]
+[2024-04-15 11:53:18] INFO root fetch - main [MainThread]: End processing [e2enetworks]: success
+[2024-04-15 11:53:18] INFO root fetch - processPackages [gpas]: Remove: archive file [/home/abi/fetcher/tmp/gpas-1.0.1a1.tar.gz]
+[2024-04-15 11:53:18] INFO root fetch - processPackages [gpas]: Remove: archive file [/home/abi/fetcher/tmp/gpas-1.0.1a2.tar.gz]
+[2024-04-15 11:53:18] INFO root fetch - main [MainThread]: End processing [gpas]: success
+[2024-04-15 11:53:18] INFO root fetch - processPackages [datalad-cds]: Remove: archive file [/home/abi/fetcher/tmp/datalad-cds-0.0.3.tar.gz]
+[2024-04-15 11:53:18] INFO root fetch - processPackages [datalad-cds]: Remove: archive file [/home/abi/fetcher/tmp/datalad_cds-0.0.4.tar.gz]
+[2024-04-15 11:53:18] INFO root fetch - main [MainThread]: End processing [datalad-cds]: success
+[2024-04-15 11:53:18] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-3.0.8.tar.gz]
+[2024-04-15 11:53:18] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-3.0.9.tar.gz]
+[2024-04-15 11:53:18] INFO root fetch - main [MainThread]: End processing [PVNet]: success
+[2024-04-15 11:53:18] INFO root fetch - processPackages [auto-coder]: Remove: archive file [/home/abi/fetcher/tmp/auto-coder-0.1.8.tar.gz]
+[2024-04-15 11:53:18] INFO root fetch - processPackages [auto-coder]: Remove: archive file [/home/abi/fetcher/tmp/auto-coder-0.1.9.tar.gz]
+[2024-04-15 11:53:18] INFO root fetch - main [MainThread]: End processing [auto-coder]: success
+[2024-04-15 11:53:18] INFO root fetch - processPackages [radical.saga]: Remove: archive file [/home/abi/fetcher/tmp/radical.saga-1.6.9.tar.gz]
+[2024-04-15 11:53:18] INFO root fetch - processPackages [radical.saga]: Remove: archive file [/home/abi/fetcher/tmp/radical.saga-1.8.0.tar.gz]
+[2024-04-15 11:53:18] INFO root fetch - main [MainThread]: End processing [radical.saga]: success
+[2024-04-15 11:53:19] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.8.tar.gz]
+[2024-04-15 11:53:19] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.9.tar.gz]
+[2024-04-15 11:53:19] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
+[2024-04-15 11:53:19] INFO root fetch - main [MainThread]: Store serial: [22768922]
