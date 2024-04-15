@@ -12727,3 +12727,38 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 11:11:25] INFO root fetch - processPackages [pylogram]: Remove: archive file [/home/abi/fetcher/tmp/pylogram-0.5.0.tar.gz]
 [2024-04-15 11:11:25] INFO root fetch - main [MainThread]: End processing [pylogram]: success
 [2024-04-15 11:11:25] INFO root fetch - main [MainThread]: Store serial: [22768414]
+[2024-04-15 11:13:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22768414]
+[2024-04-15 11:13:34] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-15 11:13:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mriqc
+[2024-04-15 11:13:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymc
+[2024-04-15 11:13:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: whaox-wapi
+[2024-04-15 11:13:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: codeframe
+[2024-04-15 11:13:34] INFO root fetch - processPackages [mriqc]: New version: [24.0.0rc7] Old Version: [24.0.0rc6]
+[2024-04-15 11:13:34] INFO root fetch - processPackages [mriqc]: Downloading https://files.pythonhosted.org/packages/47/bf/711bd7619671a5836a1b2497fb9a99747a80df0ea533154725b49a209883/mriqc-24.0.0rc6.tar.gz
+[2024-04-15 11:13:34] INFO root fetch - processPackages [codeframe]: New version: [0.5.7] Old Version: [0.5.5]
+[2024-04-15 11:13:34] INFO root fetch - processPackages [whaox-wapi]: New version: [1.0.26] Old Version: [1.0.25]
+[2024-04-15 11:13:34] INFO root fetch - processPackages [pymc]: New version: [5.9.2] Old Version: [5.9.1]
+[2024-04-15 11:13:34] WARNING root fetch - processPackages [mriqc]: Skipping package: exceeds size limit 45827774>=10485760
+[2024-04-15 11:13:34] INFO root fetch - main [MainThread]: End processing [mriqc] error
+[2024-04-15 11:13:34] INFO root fetch - processPackages [codeframe]: Downloading https://files.pythonhosted.org/packages/f3/21/cdedee69d4692bb9b4c515c386afc9b4e28282efe1f898d48a8f8f1f19d3/codeframe-0.5.5.tar.gz
+[2024-04-15 11:13:34] INFO root fetch - processPackages [whaox-wapi]: Downloading https://files.pythonhosted.org/packages/9e/cd/6a4b5167c646915906a9be8fee73a0488ba8fdf52806d011678a6e428591/whaox-wapi-1.0.25.tar.gz
+[2024-04-15 11:13:34] INFO root fetch - processPackages [pymc]: Downloading https://files.pythonhosted.org/packages/50/62/6477b9893f692652153b89cd210fdc1c1ac58104cebd187064b86476c7cf/pymc-5.9.1.tar.gz
+[2024-04-15 11:13:35] INFO root fetch - processPackages [codeframe]: Downloading https://files.pythonhosted.org/packages/a2/17/d44b2ca4c8f262af8381ce3c512326ed991ff74f739e685effaaec2cf698/codeframe-0.5.7.tar.gz
+[2024-04-15 11:13:35] INFO root fetch - processPackages [whaox-wapi]: Downloading https://files.pythonhosted.org/packages/b1/a7/6d5ba04ffe8169d1c05954389f2eb4efe0f4948c1ff9410bce24e71b6052/whaox-wapi-1.0.26.tar.gz
+[2024-04-15 11:13:35] INFO root fetch - processPackages [pymc]: Downloading https://files.pythonhosted.org/packages/56/56/15707b013e219d938becadd281066352063998ee753f1e936d432ee974eb/pymc-5.9.2.tar.gz
+[2024-04-15 11:13:35] INFO root fetch - processPackages [codeframe]: executing diffoscope
+[2024-04-15 11:13:35] INFO root fetch - processPackages [codeframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codeframe-0.5.5.tar.gz tmp/codeframe-0.5.7.tar.gz --markdown 20240415/c/codeframe/0.5.5-0.5.7/README.md --exclude *.pyd
+[2024-04-15 11:13:35] INFO root fetch - processPackages [whaox-wapi]: executing diffoscope
+[2024-04-15 11:13:35] INFO root fetch - processPackages [whaox-wapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whaox-wapi-1.0.25.tar.gz tmp/whaox-wapi-1.0.26.tar.gz --markdown 20240415/w/whaox-wapi/1.0.25-1.0.26/README.md --exclude *.pyd
+[2024-04-15 11:13:35] INFO root fetch - processPackages [pymc]: executing diffoscope
+[2024-04-15 11:13:35] INFO root fetch - processPackages [pymc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymc-5.9.1.tar.gz tmp/pymc-5.9.2.tar.gz --markdown 20240415/p/pymc/5.9.1-5.9.2/README.md --exclude *.pyd
+[2024-04-15 11:13:35] INFO root fetch - processPackages [codeframe]: Remove: archive file [/home/abi/fetcher/tmp/codeframe-0.5.5.tar.gz]
+[2024-04-15 11:13:35] INFO root fetch - processPackages [codeframe]: Remove: archive file [/home/abi/fetcher/tmp/codeframe-0.5.7.tar.gz]
+[2024-04-15 11:13:35] INFO root fetch - main [MainThread]: End processing [codeframe]: success
+[2024-04-15 11:13:35] INFO root fetch - processPackages [whaox-wapi]: Remove: archive file [/home/abi/fetcher/tmp/whaox-wapi-1.0.25.tar.gz]
+[2024-04-15 11:13:35] INFO root fetch - processPackages [whaox-wapi]: Remove: archive file [/home/abi/fetcher/tmp/whaox-wapi-1.0.26.tar.gz]
+[2024-04-15 11:13:35] INFO root fetch - main [MainThread]: End processing [whaox-wapi]: success
+[2024-04-15 11:13:36] INFO root fetch - processPackages [pymc]: Remove: archive file [/home/abi/fetcher/tmp/pymc-5.9.1.tar.gz]
+[2024-04-15 11:13:36] INFO root fetch - processPackages [pymc]: Remove: archive file [/home/abi/fetcher/tmp/pymc-5.9.2.tar.gz]
+[2024-04-15 11:13:36] INFO root fetch - main [MainThread]: End processing [pymc]: success
+[2024-04-15 11:13:36] INFO root fetch - main [MainThread]: Store serial: [22768427]
