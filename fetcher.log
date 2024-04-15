@@ -9028,3 +9028,18 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 08:44:39] INFO root fetch - processPackages [pytelegrambotapi-fixed]: Remove: archive file [/home/abi/fetcher/tmp/pytelegrambotapi_fixed-4.12.7.tar.gz]
 [2024-04-15 08:44:39] INFO root fetch - main [MainThread]: End processing [pytelegrambotapi-fixed]: success
 [2024-04-15 08:44:39] INFO root fetch - main [MainThread]: Store serial: [22766835]
+[2024-04-15 08:46:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22766835]
+[2024-04-15 08:46:48] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-15 08:46:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chronik-client
+[2024-04-15 08:46:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mqi-sspd-api
+[2024-04-15 08:46:48] INFO root fetch - processPackages [mqi-sspd-api]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-15 08:46:48] WARNING root fetch - processPackages [chronik-client]: Skipping, unable to determine old version
+[2024-04-15 08:46:48] INFO root fetch - main [MainThread]: End processing [chronik-client] error
+[2024-04-15 08:46:48] INFO root fetch - processPackages [mqi-sspd-api]: Downloading https://files.pythonhosted.org/packages/02/a6/fceec63d87b5ffc5a9343e46ea9ea437578aec1fdcc14d32d5d0dffe6a47/mqi_sspd_api-0.0.7.tar.gz
+[2024-04-15 08:46:49] INFO root fetch - processPackages [mqi-sspd-api]: Downloading https://files.pythonhosted.org/packages/ee/ae/4a3b6ddc3ca5c7fb26459aac3527bca5e6879ad9622cd590be6bc1a59884/mqi_sspd_api-0.0.8.tar.gz
+[2024-04-15 08:46:49] INFO root fetch - processPackages [mqi-sspd-api]: executing diffoscope
+[2024-04-15 08:46:49] INFO root fetch - processPackages [mqi-sspd-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mqi_sspd_api-0.0.7.tar.gz tmp/mqi_sspd_api-0.0.8.tar.gz --markdown 20240415/m/mqi-sspd-api/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-15 08:46:49] INFO root fetch - processPackages [mqi-sspd-api]: Remove: archive file [/home/abi/fetcher/tmp/mqi_sspd_api-0.0.7.tar.gz]
+[2024-04-15 08:46:49] INFO root fetch - processPackages [mqi-sspd-api]: Remove: archive file [/home/abi/fetcher/tmp/mqi_sspd_api-0.0.8.tar.gz]
+[2024-04-15 08:46:49] INFO root fetch - main [MainThread]: End processing [mqi-sspd-api]: success
+[2024-04-15 08:46:49] INFO root fetch - main [MainThread]: Store serial: [22766842]
