@@ -8962,3 +8962,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 08:42:28] INFO root fetch - processPackages [satella]: Remove: archive file [/home/abi/fetcher/tmp/satella-2.9.9-py2.py3-none-any.whl.zip]
 [2024-04-15 08:42:28] INFO root fetch - main [MainThread]: End processing [satella]: success
 [2024-04-15 08:42:28] INFO root fetch - main [MainThread]: Store serial: [22766815]
+[2024-04-15 08:44:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22766815]
+[2024-04-15 08:44:37] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-15 08:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: krypper-tgstat
+[2024-04-15 08:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: magentic
+[2024-04-15 08:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytelegrambotapi-fixed
+[2024-04-15 08:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lazy-type-hint
+[2024-04-15 08:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tailer-sdk
+[2024-04-15 08:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dm-aioinfluxdb
+[2024-04-15 08:44:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qtlink
+[2024-04-15 08:44:37] INFO root fetch - processPackages [lazy-type-hint]: New version: [2.0.3] Old Version: [2.0.2]
+[2024-04-15 08:44:37] INFO root fetch - processPackages [krypper-tgstat]: New version: [0.1.6.1] Old Version: [0.1.6]
+[2024-04-15 08:44:37] INFO root fetch - processPackages [qtlink]: New version: [1.2.0] Old Version: [1.1.4]
+[2024-04-15 08:44:37] INFO root fetch - processPackages [lazy-type-hint]: Downloading https://files.pythonhosted.org/packages/dc/0f/81f7f6ce6478d46981981af13c01e8b6a4e203242f08a4e56db1797a4f77/lazy_type_hint-2.0.2.tar.gz
+[2024-04-15 08:44:37] INFO root fetch - processPackages [dm-aioinfluxdb]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-15 08:44:37] INFO root fetch - processPackages [magentic]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-15 08:44:37] INFO root fetch - processPackages [krypper-tgstat]: Downloading https://files.pythonhosted.org/packages/8a/d2/04f69285ce4867e7c21a1c1c0dd6c4712461f7b1cad2a67fb2baf62643f1/krypper_tgstat-0.1.6.tar.gz
+[2024-04-15 08:44:37] INFO root fetch - processPackages [qtlink]: Downloading https://files.pythonhosted.org/packages/46/9c/4a86ebf68817a408973810d60a83ba6cf5adfac0630aeb9a0f3fa5982073/qtlink-1.1.4.tar.gz
+[2024-04-15 08:44:37] INFO root fetch - processPackages [tailer-sdk]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-04-15 08:44:37] INFO root fetch - processPackages [pytelegrambotapi-fixed]: New version: [4.12.7] Old Version: [4.12.6]
+[2024-04-15 08:44:37] INFO root fetch - processPackages [qtlink]: Downloading https://files.pythonhosted.org/packages/ff/85/5e2abaf2044334539132f89ef5cd6b699ad2f478797033254d58a0ce6b4a/qtlink-1.2.0.tar.gz
+[2024-04-15 08:44:37] INFO root fetch - processPackages [dm-aioinfluxdb]: Downloading https://files.pythonhosted.org/packages/76/87/31b1a7889b0fe0e0b7420ea6ccf71d510d963807f6a919d3565db4778e45/dm-aioinfluxdb-0.2.3.tar.gz
+[2024-04-15 08:44:37] INFO root fetch - processPackages [tailer-sdk]: Downloading https://files.pythonhosted.org/packages/fc/5e/048b4a919dec4ae72e476a212d9786eff467ad771a1af0994abb67c676a6/tailer_sdk-1.3.8-py3-none-any.whl
+[2024-04-15 08:44:38] INFO root fetch - processPackages [magentic]: Downloading https://files.pythonhosted.org/packages/b1/4c/c92b3a38ac6e6e9e2715083d4b0cd75ceb0e3bcbd7f805d25522283b4708/magentic-0.9.0.tar.gz
+[2024-04-15 08:44:38] INFO root fetch - processPackages [pytelegrambotapi-fixed]: Downloading https://files.pythonhosted.org/packages/d1/e0/94932430ffb7f90f90de831bc2ffe38a70bace0ad806b2d8815c8d35ebf7/pytelegrambotapi_fixed-4.12.6.tar.gz
+[2024-04-15 08:44:38] INFO root fetch - processPackages [qtlink]: executing diffoscope
+[2024-04-15 08:44:38] INFO root fetch - processPackages [qtlink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtlink-1.1.4.tar.gz tmp/qtlink-1.2.0.tar.gz --markdown 20240415/q/qtlink/1.1.4-1.2.0/README.md --exclude *.pyd
+[2024-04-15 08:44:38] INFO root fetch - processPackages [krypper-tgstat]: Downloading https://files.pythonhosted.org/packages/54/f6/b910713d7c9a94d4052de76a03aac243b38a4bbbb8eb48b17d9afe3584b4/krypper_tgstat-0.1.6.1.tar.gz
+[2024-04-15 08:44:38] INFO root fetch - processPackages [lazy-type-hint]: Downloading https://files.pythonhosted.org/packages/37/ca/0dea7f1e51c5b670aaaee989f05752e5d08efee74fc5c94e22a7e963be9c/lazy_type_hint-2.0.3.tar.gz
+[2024-04-15 08:44:38] INFO root fetch - processPackages [krypper-tgstat]: executing diffoscope
+[2024-04-15 08:44:38] INFO root fetch - processPackages [krypper-tgstat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krypper_tgstat-0.1.6.tar.gz tmp/krypper_tgstat-0.1.6.1.tar.gz --markdown 20240415/k/krypper-tgstat/0.1.6-0.1.6.1/README.md --exclude *.pyd
+[2024-04-15 08:44:38] INFO root fetch - processPackages [lazy-type-hint]: executing diffoscope
+[2024-04-15 08:44:38] INFO root fetch - processPackages [lazy-type-hint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazy_type_hint-2.0.2.tar.gz tmp/lazy_type_hint-2.0.3.tar.gz --markdown 20240415/l/lazy-type-hint/2.0.2-2.0.3/README.md --exclude *.pyd
+[2024-04-15 08:44:38] INFO root fetch - processPackages [dm-aioinfluxdb]: Downloading https://files.pythonhosted.org/packages/37/dd/d182edd104240ff3ebee461e29f7f9993febbdc964af8fae2b868a272500/dm_aioinfluxdb-0.2.4.tar.gz
+[2024-04-15 08:44:38] INFO root fetch - processPackages [pytelegrambotapi-fixed]: Downloading https://files.pythonhosted.org/packages/be/0c/d1f2ea5047c5b656b29e8b215d50c96a7cac735ccc92e9627e04164df8ec/pytelegrambotapi_fixed-4.12.7.tar.gz
+[2024-04-15 08:44:38] INFO root fetch - processPackages [dm-aioinfluxdb]: executing diffoscope
+[2024-04-15 08:44:38] INFO root fetch - processPackages [dm-aioinfluxdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm-aioinfluxdb-0.2.3.tar.gz tmp/dm_aioinfluxdb-0.2.4.tar.gz --markdown 20240415/d/dm-aioinfluxdb/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-15 08:44:38] INFO root fetch - processPackages [tailer-sdk]: Downloading https://files.pythonhosted.org/packages/79/8b/2e35f45b4df6d08c868143473471dfb5fd8d51b88f5e5a5dc81f6f6ca2bb/tailer_sdk-1.3.9-py3-none-any.whl
+[2024-04-15 08:44:38] INFO root fetch - processPackages [magentic]: Downloading https://files.pythonhosted.org/packages/14/4d/5c6c2464c5abac2cf0a83ac11e48dd90edf9b6d646f6825ce23b0bfe99bf/magentic-0.9.1.tar.gz
+[2024-04-15 08:44:38] INFO root fetch - processPackages [pytelegrambotapi-fixed]: executing diffoscope
+[2024-04-15 08:44:38] INFO root fetch - processPackages [pytelegrambotapi-fixed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytelegrambotapi_fixed-4.12.6.tar.gz tmp/pytelegrambotapi_fixed-4.12.7.tar.gz --markdown 20240415/p/pytelegrambotapi-fixed/4.12.6-4.12.7/README.md --exclude *.pyd
+[2024-04-15 08:44:38] INFO root fetch - processPackages [magentic]: executing diffoscope
+[2024-04-15 08:44:38] INFO root fetch - processPackages [magentic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magentic-0.9.0.tar.gz tmp/magentic-0.9.1.tar.gz --markdown 20240415/m/magentic/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-15 08:44:38] INFO root fetch - processPackages [tailer-sdk]: executing diffoscope
+[2024-04-15 08:44:38] INFO root fetch - processPackages [tailer-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tailer_sdk-1.3.8-py3-none-any.whl.zip tmp/tailer_sdk-1.3.9-py3-none-any.whl.zip --markdown 20240415/t/tailer-sdk/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-04-15 08:44:39] INFO root fetch - processPackages [qtlink]: Remove: archive file [/home/abi/fetcher/tmp/qtlink-1.1.4.tar.gz]
+[2024-04-15 08:44:39] INFO root fetch - processPackages [qtlink]: Remove: archive file [/home/abi/fetcher/tmp/qtlink-1.2.0.tar.gz]
+[2024-04-15 08:44:39] INFO root fetch - main [MainThread]: End processing [qtlink]: success
+[2024-04-15 08:44:39] INFO root fetch - processPackages [krypper-tgstat]: Remove: archive file [/home/abi/fetcher/tmp/krypper_tgstat-0.1.6.tar.gz]
+[2024-04-15 08:44:39] INFO root fetch - processPackages [krypper-tgstat]: Remove: archive file [/home/abi/fetcher/tmp/krypper_tgstat-0.1.6.1.tar.gz]
+[2024-04-15 08:44:39] INFO root fetch - main [MainThread]: End processing [krypper-tgstat]: success
+[2024-04-15 08:44:39] INFO root fetch - processPackages [lazy-type-hint]: Remove: archive file [/home/abi/fetcher/tmp/lazy_type_hint-2.0.2.tar.gz]
+[2024-04-15 08:44:39] INFO root fetch - processPackages [lazy-type-hint]: Remove: archive file [/home/abi/fetcher/tmp/lazy_type_hint-2.0.3.tar.gz]
+[2024-04-15 08:44:39] INFO root fetch - main [MainThread]: End processing [lazy-type-hint]: success
+[2024-04-15 08:44:39] INFO root fetch - processPackages [dm-aioinfluxdb]: Remove: archive file [/home/abi/fetcher/tmp/dm-aioinfluxdb-0.2.3.tar.gz]
+[2024-04-15 08:44:39] INFO root fetch - processPackages [dm-aioinfluxdb]: Remove: archive file [/home/abi/fetcher/tmp/dm_aioinfluxdb-0.2.4.tar.gz]
+[2024-04-15 08:44:39] INFO root fetch - main [MainThread]: End processing [dm-aioinfluxdb]: success
+[2024-04-15 08:44:39] INFO root fetch - processPackages [magentic]: Remove: archive file [/home/abi/fetcher/tmp/magentic-0.9.0.tar.gz]
+[2024-04-15 08:44:39] INFO root fetch - processPackages [magentic]: Remove: archive file [/home/abi/fetcher/tmp/magentic-0.9.1.tar.gz]
+[2024-04-15 08:44:39] INFO root fetch - main [MainThread]: End processing [magentic]: success
+[2024-04-15 08:44:39] INFO root fetch - processPackages [tailer-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tailer_sdk-1.3.8-py3-none-any.whl.zip]
+[2024-04-15 08:44:39] INFO root fetch - processPackages [tailer-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tailer_sdk-1.3.9-py3-none-any.whl.zip]
+[2024-04-15 08:44:39] INFO root fetch - main [MainThread]: End processing [tailer-sdk]: success
+[2024-04-15 08:44:39] INFO root fetch - processPackages [pytelegrambotapi-fixed]: Remove: archive file [/home/abi/fetcher/tmp/pytelegrambotapi_fixed-4.12.6.tar.gz]
+[2024-04-15 08:44:39] INFO root fetch - processPackages [pytelegrambotapi-fixed]: Remove: archive file [/home/abi/fetcher/tmp/pytelegrambotapi_fixed-4.12.7.tar.gz]
+[2024-04-15 08:44:39] INFO root fetch - main [MainThread]: End processing [pytelegrambotapi-fixed]: success
+[2024-04-15 08:44:39] INFO root fetch - main [MainThread]: Store serial: [22766835]
