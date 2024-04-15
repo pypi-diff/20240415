@@ -15544,3 +15544,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 12:50:58] INFO root fetch - processPackages [idds-monitor]: Remove: archive file [/home/abi/fetcher/tmp/idds-monitor-2.1.9.tar.gz]
 [2024-04-15 12:50:58] INFO root fetch - main [MainThread]: End processing [idds-monitor]: success
 [2024-04-15 12:50:58] INFO root fetch - main [MainThread]: Store serial: [22769725]
+[2024-04-15 12:53:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22769725]
+[2024-04-15 12:53:09] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-15 12:53:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: signapse
+[2024-04-15 12:53:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stadb
+[2024-04-15 12:53:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quartz-solar-forecast
+[2024-04-15 12:53:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: drfexts
+[2024-04-15 12:53:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vbpdf
+[2024-04-15 12:53:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bio-volumentations
+[2024-04-15 12:53:10] INFO root fetch - processPackages [drfexts]: New version: [3.8.1] Old Version: [3.8.0]
+[2024-04-15 12:53:10] INFO root fetch - processPackages [stadb]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-15 12:53:10] WARNING root fetch - processPackages [signapse]: Skipping, unable to determine old version
+[2024-04-15 12:53:10] INFO root fetch - main [MainThread]: End processing [signapse] error
+[2024-04-15 12:53:10] INFO root fetch - processPackages [vbpdf]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-15 12:53:10] INFO root fetch - processPackages [drfexts]: Downloading https://files.pythonhosted.org/packages/31/2a/6f9fdf4ee5dd93e290f144c731f2c919cea9a287bf619f08e2b5fdeb403e/drfexts-3.8.0.tar.gz
+[2024-04-15 12:53:10] INFO root fetch - processPackages [bio-volumentations]: New version: [1.1.0] Old Version: [1.0.10]
+[2024-04-15 12:53:10] INFO root fetch - processPackages [quartz-solar-forecast]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-15 12:53:10] INFO root fetch - processPackages [stadb]: Downloading https://files.pythonhosted.org/packages/a1/e2/84bfd870d59e61f363d5ac9c134b117ed15e6e6322fd3ea20719343e2d27/stadb-0.0.3.tar.gz
+[2024-04-15 12:53:10] INFO root fetch - processPackages [drfexts]: Downloading https://files.pythonhosted.org/packages/b5/77/61f396173ead6cf64f66430860762338198102cca3d2f6390e4162c3d50b/drfexts-3.8.1.tar.gz
+[2024-04-15 12:53:10] INFO root fetch - processPackages [vbpdf]: Downloading https://files.pythonhosted.org/packages/f7/b7/a8b54186388ae145e2a39819f469e89d56bb9dab328e0026106cd5596fb9/vbpdf-0.1.8.tar.gz
+[2024-04-15 12:53:10] INFO root fetch - processPackages [bio-volumentations]: Downloading https://files.pythonhosted.org/packages/af/4e/aa8190b96d7d8110be4ae005b20bdc59f37bab21cb1080adeaba5995a331/bio_volumentations-1.0.10.tar.gz
+[2024-04-15 12:53:10] INFO root fetch - processPackages [quartz-solar-forecast]: Downloading https://files.pythonhosted.org/packages/0d/a8/ee147294e81be2e9274d941b626981b0df1b12acfaf2ae02d8331d025398/quartz_solar_forecast-1.0.8.tar.gz
+[2024-04-15 12:53:10] INFO root fetch - processPackages [drfexts]: executing diffoscope
+[2024-04-15 12:53:10] INFO root fetch - processPackages [drfexts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drfexts-3.8.0.tar.gz tmp/drfexts-3.8.1.tar.gz --markdown 20240415/d/drfexts/3.8.0-3.8.1/README.md --exclude *.pyd
+[2024-04-15 12:53:10] INFO root fetch - processPackages [stadb]: Downloading https://files.pythonhosted.org/packages/f4/66/f09f8444882f873e85b8f69f98b721ea7869695ccce28547f5e706dd25b6/stadb-0.0.4.tar.gz
+[2024-04-15 12:53:10] INFO root fetch - processPackages [bio-volumentations]: Downloading https://files.pythonhosted.org/packages/42/88/52f3bf716731f49698900e5bff6fbf600c12de9fe219b0e41232229ec136/bio_volumentations-1.1.0.tar.gz
+[2024-04-15 12:53:10] INFO root fetch - processPackages [vbpdf]: Downloading https://files.pythonhosted.org/packages/0e/4d/d337142ba717c2e1c455f5028fd42b0f2eef4e75b6bb25200cae085fba3f/vbpdf-0.1.9.tar.gz
+[2024-04-15 12:53:10] INFO root fetch - processPackages [quartz-solar-forecast]: Downloading https://files.pythonhosted.org/packages/0e/b9/7ccd44f74671069cbf95adc294da069634730309a62687625a2d685c17e7/quartz_solar_forecast-1.0.9.tar.gz
+[2024-04-15 12:53:10] INFO root fetch - processPackages [stadb]: executing diffoscope
+[2024-04-15 12:53:10] INFO root fetch - processPackages [stadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stadb-0.0.3.tar.gz tmp/stadb-0.0.4.tar.gz --markdown 20240415/s/stadb/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-15 12:53:10] INFO root fetch - processPackages [bio-volumentations]: executing diffoscope
+[2024-04-15 12:53:10] INFO root fetch - processPackages [bio-volumentations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bio_volumentations-1.0.10.tar.gz tmp/bio_volumentations-1.1.0.tar.gz --markdown 20240415/b/bio-volumentations/1.0.10-1.1.0/README.md --exclude *.pyd
+[2024-04-15 12:53:10] INFO root fetch - processPackages [vbpdf]: executing diffoscope
+[2024-04-15 12:53:10] INFO root fetch - processPackages [vbpdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbpdf-0.1.8.tar.gz tmp/vbpdf-0.1.9.tar.gz --markdown 20240415/v/vbpdf/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-15 12:53:10] INFO root fetch - processPackages [quartz-solar-forecast]: executing diffoscope
+[2024-04-15 12:53:10] INFO root fetch - processPackages [quartz-solar-forecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quartz_solar_forecast-1.0.8.tar.gz tmp/quartz_solar_forecast-1.0.9.tar.gz --markdown 20240415/q/quartz-solar-forecast/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-15 12:53:11] INFO root fetch - processPackages [drfexts]: Remove: archive file [/home/abi/fetcher/tmp/drfexts-3.8.0.tar.gz]
+[2024-04-15 12:53:11] INFO root fetch - processPackages [drfexts]: Remove: archive file [/home/abi/fetcher/tmp/drfexts-3.8.1.tar.gz]
+[2024-04-15 12:53:11] INFO root fetch - main [MainThread]: End processing [drfexts]: success
+[2024-04-15 12:53:11] INFO root fetch - processPackages [stadb]: Remove: archive file [/home/abi/fetcher/tmp/stadb-0.0.3.tar.gz]
+[2024-04-15 12:53:11] INFO root fetch - processPackages [stadb]: Remove: archive file [/home/abi/fetcher/tmp/stadb-0.0.4.tar.gz]
+[2024-04-15 12:53:11] INFO root fetch - main [MainThread]: End processing [stadb]: success
+[2024-04-15 12:53:11] INFO root fetch - processPackages [quartz-solar-forecast]: Remove: archive file [/home/abi/fetcher/tmp/quartz_solar_forecast-1.0.8.tar.gz]
+[2024-04-15 12:53:11] INFO root fetch - processPackages [quartz-solar-forecast]: Remove: archive file [/home/abi/fetcher/tmp/quartz_solar_forecast-1.0.9.tar.gz]
+[2024-04-15 12:53:11] INFO root fetch - main [MainThread]: End processing [quartz-solar-forecast]: success
+[2024-04-15 12:53:11] INFO root fetch - processPackages [bio-volumentations]: Remove: archive file [/home/abi/fetcher/tmp/bio_volumentations-1.0.10.tar.gz]
+[2024-04-15 12:53:11] INFO root fetch - processPackages [bio-volumentations]: Remove: archive file [/home/abi/fetcher/tmp/bio_volumentations-1.1.0.tar.gz]
+[2024-04-15 12:53:11] INFO root fetch - main [MainThread]: End processing [bio-volumentations]: success
+[2024-04-15 12:53:11] INFO root fetch - processPackages [vbpdf]: Remove: archive file [/home/abi/fetcher/tmp/vbpdf-0.1.8.tar.gz]
+[2024-04-15 12:53:11] INFO root fetch - processPackages [vbpdf]: Remove: archive file [/home/abi/fetcher/tmp/vbpdf-0.1.9.tar.gz]
+[2024-04-15 12:53:11] INFO root fetch - main [MainThread]: End processing [vbpdf]: success
+[2024-04-15 12:53:11] INFO root fetch - main [MainThread]: Store serial: [22769750]
