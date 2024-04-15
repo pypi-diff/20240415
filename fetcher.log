@@ -7817,3 +7817,42 @@
 [2024-04-15 07:38:46] INFO root fetch - processPackages [biofkit]: Remove: archive file [/home/abi/fetcher/tmp/biofkit-0.1.9.tar.gz]
 [2024-04-15 07:38:46] INFO root fetch - main [MainThread]: End processing [biofkit]: success
 [2024-04-15 07:38:46] INFO root fetch - main [MainThread]: Store serial: [22766348]
+[2024-04-15 07:40:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22766348]
+[2024-04-15 07:40:56] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-15 07:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flake8-no-else
+[2024-04-15 07:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pillow-jxl-plugin
+[2024-04-15 07:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chalk-harness
+[2024-04-15 07:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-alist
+[2024-04-15 07:40:56] INFO root fetch - processPackages [flake8-no-else]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-15 07:40:56] INFO root fetch - processPackages [flake8-no-else]: Downloading https://files.pythonhosted.org/packages/dc/55/2a3f795a280bcb8052dc0d61246fe435f8ef25ac8a93237a304bc4922918/flake8_no_else-0.1.1.tar.gz
+[2024-04-15 07:40:56] INFO root fetch - processPackages [python-alist]: New version: [0.0.9.9] Old Version: [0.0.9.8.1]
+[2024-04-15 07:40:56] INFO root fetch - processPackages [pillow-jxl-plugin]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-04-15 07:40:56] INFO root fetch - processPackages [chalk-harness]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-04-15 07:40:56] INFO root fetch - processPackages [chalk-harness]: Downloading https://files.pythonhosted.org/packages/04/cf/7b5f46fcb7ff618c41cba126b21c03047ab357635bab1cb1fa76c6c31081/chalk-harness-1.9.8.tar.gz
+[2024-04-15 07:40:56] INFO root fetch - processPackages [pillow-jxl-plugin]: Downloading https://files.pythonhosted.org/packages/5e/71/0087e43720a6b7c8ff8987b4e379a32c1ca3ad1b0ebd711594097095d78b/pillow_jxl_plugin-1.2.2.tar.gz
+[2024-04-15 07:40:56] INFO root fetch - processPackages [python-alist]: Downloading https://files.pythonhosted.org/packages/16/4c/767ed3dbd217eb3ea1f030c845f5a098d8e656f2fb4ab63c7fa0eadcf367/python_alist-0.0.9.8.1.tar.gz
+[2024-04-15 07:40:56] INFO root fetch - processPackages [flake8-no-else]: Downloading https://files.pythonhosted.org/packages/0e/5a/788ee4dbc000de01d041efc047f4adb6204124076075e3eb1cd30b0c8a00/flake8_no_else-0.1.2.tar.gz
+[2024-04-15 07:40:57] INFO root fetch - processPackages [flake8-no-else]: executing diffoscope
+[2024-04-15 07:40:57] INFO root fetch - processPackages [flake8-no-else]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flake8_no_else-0.1.1.tar.gz tmp/flake8_no_else-0.1.2.tar.gz --markdown 20240415/f/flake8-no-else/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-15 07:40:57] INFO root fetch - processPackages [chalk-harness]: Downloading https://files.pythonhosted.org/packages/71/ea/d40dc649c4c8238582eeede1c8cfae5807f94913301efa0c34aff4e959f8/chalk-harness-1.9.9.tar.gz
+[2024-04-15 07:40:57] INFO root fetch - processPackages [python-alist]: Downloading https://files.pythonhosted.org/packages/a4/c8/c4ceead1bdae1d44cce58995ae016d39c6e4134cefa9b31ef2daf97d4c36/python_alist-0.0.9.9.tar.gz
+[2024-04-15 07:40:57] INFO root fetch - processPackages [pillow-jxl-plugin]: Downloading https://files.pythonhosted.org/packages/22/e1/5e4eee9fc3633b120b81814aabe224db7d70d036935f1eb2fdf3050f046f/pillow_jxl_plugin-1.2.3.tar.gz
+[2024-04-15 07:40:57] INFO root fetch - processPackages [chalk-harness]: executing diffoscope
+[2024-04-15 07:40:57] INFO root fetch - processPackages [chalk-harness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalk-harness-1.9.8.tar.gz tmp/chalk-harness-1.9.9.tar.gz --markdown 20240415/c/chalk-harness/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-04-15 07:40:57] INFO root fetch - processPackages [python-alist]: executing diffoscope
+[2024-04-15 07:40:57] INFO root fetch - processPackages [python-alist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_alist-0.0.9.8.1.tar.gz tmp/python_alist-0.0.9.9.tar.gz --markdown 20240415/p/python-alist/0.0.9.8.1-0.0.9.9/README.md --exclude *.pyd
+[2024-04-15 07:40:57] INFO root fetch - processPackages [pillow-jxl-plugin]: executing diffoscope
+[2024-04-15 07:40:57] INFO root fetch - processPackages [pillow-jxl-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillow_jxl_plugin-1.2.2.tar.gz tmp/pillow_jxl_plugin-1.2.3.tar.gz --markdown 20240415/p/pillow-jxl-plugin/1.2.2-1.2.3/README.md --exclude *.pyd
+[2024-04-15 07:40:57] INFO root fetch - processPackages [flake8-no-else]: Remove: archive file [/home/abi/fetcher/tmp/flake8_no_else-0.1.1.tar.gz]
+[2024-04-15 07:40:57] INFO root fetch - processPackages [flake8-no-else]: Remove: archive file [/home/abi/fetcher/tmp/flake8_no_else-0.1.2.tar.gz]
+[2024-04-15 07:40:57] INFO root fetch - main [MainThread]: End processing [flake8-no-else]: success
+[2024-04-15 07:40:57] INFO root fetch - processPackages [chalk-harness]: Remove: archive file [/home/abi/fetcher/tmp/chalk-harness-1.9.8.tar.gz]
+[2024-04-15 07:40:57] INFO root fetch - processPackages [chalk-harness]: Remove: archive file [/home/abi/fetcher/tmp/chalk-harness-1.9.9.tar.gz]
+[2024-04-15 07:40:57] INFO root fetch - main [MainThread]: End processing [chalk-harness]: success
+[2024-04-15 07:40:57] INFO root fetch - processPackages [python-alist]: Remove: archive file [/home/abi/fetcher/tmp/python_alist-0.0.9.8.1.tar.gz]
+[2024-04-15 07:40:57] INFO root fetch - processPackages [python-alist]: Remove: archive file [/home/abi/fetcher/tmp/python_alist-0.0.9.9.tar.gz]
+[2024-04-15 07:40:58] INFO root fetch - main [MainThread]: End processing [python-alist]: success
+[2024-04-15 07:40:58] INFO root fetch - processPackages [pillow-jxl-plugin]: Remove: archive file [/home/abi/fetcher/tmp/pillow_jxl_plugin-1.2.2.tar.gz]
+[2024-04-15 07:40:58] INFO root fetch - processPackages [pillow-jxl-plugin]: Remove: archive file [/home/abi/fetcher/tmp/pillow_jxl_plugin-1.2.3.tar.gz]
+[2024-04-15 07:40:58] INFO root fetch - main [MainThread]: End processing [pillow-jxl-plugin]: success
+[2024-04-15 07:40:58] INFO root fetch - main [MainThread]: Store serial: [22766384]
