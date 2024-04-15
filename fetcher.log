@@ -19344,3 +19344,56 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 15:04:01] INFO root fetch - processPackages [sommify]: Remove: archive file [/home/abi/fetcher/tmp/sommify-0.8.5.tar.gz]
 [2024-04-15 15:04:01] INFO root fetch - main [MainThread]: End processing [sommify]: success
 [2024-04-15 15:04:01] INFO root fetch - main [MainThread]: Store serial: [22771435]
+[2024-04-15 15:06:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22771435]
+[2024-04-15 15:06:10] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-15 15:06:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: psl
+[2024-04-15 15:06:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airbyte-source-salesforce
+[2024-04-15 15:06:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: forwardkinematics
+[2024-04-15 15:06:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyparlaclarin
+[2024-04-15 15:06:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: uploadgram
+[2024-04-15 15:06:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wansuite
+[2024-04-15 15:06:10] INFO root fetch - processPackages [wansuite]: New version: [7.0] Old Version: [6.0]
+[2024-04-15 15:06:10] INFO root fetch - processPackages [forwardkinematics]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-15 15:06:10] INFO root fetch - processPackages [uploadgram]: New version: [0.3.1] Old Version: [0.2.3]
+[2024-04-15 15:06:10] INFO root fetch - processPackages [airbyte-source-salesforce]: New version: [2.5.2] Old Version: [2.5.1]
+[2024-04-15 15:06:10] INFO root fetch - processPackages [wansuite]: Downloading https://files.pythonhosted.org/packages/4b/79/e857a55a44e08d11b5ad33661e96fef7943d332e32ad61fc6d8d46c54bc8/wansuite-6.0.tar.gz
+[2024-04-15 15:06:10] INFO root fetch - processPackages [pyparlaclarin]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-15 15:06:10] INFO root fetch - processPackages [psl]: New version: [2024.4.8] Old Version: [2024.4.15]
+[2024-04-15 15:06:10] INFO root fetch - processPackages [psl]: Downloading https://files.pythonhosted.org/packages/b8/16/6515d048cfb7d3e0cab6f167c938157e6260cbb5dd0497f8f68e25e928de/psl-2024.4.15.tar.gz
+[2024-04-15 15:06:10] INFO root fetch - processPackages [uploadgram]: Downloading https://files.pythonhosted.org/packages/ad/95/4b0166e2b0483cd4b0511d590df774f4bec02cb5a127ee2956b7be8edd33/uploadgram-0.2.3.tar.gz
+[2024-04-15 15:06:10] INFO root fetch - processPackages [forwardkinematics]: Downloading https://files.pythonhosted.org/packages/ae/e4/c62f5b92948c031c76c657d6957592bc5963614d96a7ba729b9ed07279cf/forwardkinematics-1.2.0.tar.gz
+[2024-04-15 15:06:10] INFO root fetch - processPackages [airbyte-source-salesforce]: Downloading https://files.pythonhosted.org/packages/7d/0e/63102d0fd176190cddbb48db8156b002b8d2a35dbf7182e77413780d77b8/airbyte_source_salesforce-2.5.1.tar.gz
+[2024-04-15 15:06:10] INFO root fetch - processPackages [pyparlaclarin]: Downloading https://files.pythonhosted.org/packages/d8/fb/560f665c3e3fd4c981d5c005bd9d20e64be839756e1c203a4351fc38c256/pyparlaclarin-0.9.0.tar.gz
+[2024-04-15 15:06:10] INFO root fetch - processPackages [wansuite]: Downloading https://files.pythonhosted.org/packages/1e/7b/a0e3f4fd965f35f58afe51f8b84743c42ff4829f0c44c88f46bff05f0a74/wansuite-7.0.tar.gz
+[2024-04-15 15:06:10] INFO root fetch - processPackages [wansuite]: executing diffoscope
+[2024-04-15 15:06:10] INFO root fetch - processPackages [wansuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wansuite-6.0.tar.gz tmp/wansuite-7.0.tar.gz --markdown 20240415/w/wansuite/6.0-7.0/README.md --exclude *.pyd
+[2024-04-15 15:06:10] ERROR root fetch - processPackages [airbyte-source-salesforce]: Unable to fetch info: No such project/version 'airbyte-source-salesforce' 2.5.2
+[2024-04-15 15:06:10] INFO root fetch - main [MainThread]: End processing [airbyte-source-salesforce] error
+[2024-04-15 15:06:10] INFO root fetch - processPackages [uploadgram]: Downloading https://files.pythonhosted.org/packages/c4/b8/70809f954f04be06c636713ca2eae7d241d9c62f05936b9c3efd070d0a98/uploadgram-0.3.1.tar.gz
+[2024-04-15 15:06:10] INFO root fetch - processPackages [forwardkinematics]: Downloading https://files.pythonhosted.org/packages/a2/af/fa0e84b2fc2d6fe1bd972b86e9ddfe0ec838fec693c85a8e06839f345061/forwardkinematics-1.2.1.tar.gz
+[2024-04-15 15:06:10] INFO root fetch - processPackages [pyparlaclarin]: Downloading https://files.pythonhosted.org/packages/7b/5e/c1830540458fdfcb3fa6a119fb9de9a2a5c7ffb89e9a6ea0f2012d43483a/pyparlaclarin-0.9.1.tar.gz
+[2024-04-15 15:06:11] INFO root fetch - processPackages [psl]: Downloading https://files.pythonhosted.org/packages/9e/20/77382f93c165261f7bc7761f03bd2536aede851113676c65531adf216f3e/psl-2024.4.8.tar.gz
+[2024-04-15 15:06:11] INFO root fetch - processPackages [forwardkinematics]: executing diffoscope
+[2024-04-15 15:06:11] INFO root fetch - processPackages [forwardkinematics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forwardkinematics-1.2.0.tar.gz tmp/forwardkinematics-1.2.1.tar.gz --markdown 20240415/f/forwardkinematics/1.2.0-1.2.1/README.md --exclude *.pyd
+[2024-04-15 15:06:11] INFO root fetch - processPackages [uploadgram]: executing diffoscope
+[2024-04-15 15:06:11] INFO root fetch - processPackages [uploadgram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uploadgram-0.2.3.tar.gz tmp/uploadgram-0.3.1.tar.gz --markdown 20240415/u/uploadgram/0.2.3-0.3.1/README.md --exclude *.pyd
+[2024-04-15 15:06:11] INFO root fetch - processPackages [pyparlaclarin]: executing diffoscope
+[2024-04-15 15:06:11] INFO root fetch - processPackages [pyparlaclarin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyparlaclarin-0.9.0.tar.gz tmp/pyparlaclarin-0.9.1.tar.gz --markdown 20240415/p/pyparlaclarin/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-04-15 15:06:11] INFO root fetch - processPackages [psl]: executing diffoscope
+[2024-04-15 15:06:11] INFO root fetch - processPackages [psl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psl-2024.4.15.tar.gz tmp/psl-2024.4.8.tar.gz --markdown 20240415/p/psl/2024.4.15-2024.4.8/README.md --exclude *.pyd
+[2024-04-15 15:06:11] INFO root fetch - processPackages [wansuite]: Remove: archive file [/home/abi/fetcher/tmp/wansuite-6.0.tar.gz]
+[2024-04-15 15:06:11] INFO root fetch - processPackages [wansuite]: Remove: archive file [/home/abi/fetcher/tmp/wansuite-7.0.tar.gz]
+[2024-04-15 15:06:11] INFO root fetch - main [MainThread]: End processing [wansuite]: success
+[2024-04-15 15:06:11] INFO root fetch - processPackages [forwardkinematics]: Remove: archive file [/home/abi/fetcher/tmp/forwardkinematics-1.2.0.tar.gz]
+[2024-04-15 15:06:11] INFO root fetch - processPackages [forwardkinematics]: Remove: archive file [/home/abi/fetcher/tmp/forwardkinematics-1.2.1.tar.gz]
+[2024-04-15 15:06:11] INFO root fetch - main [MainThread]: End processing [forwardkinematics]: success
+[2024-04-15 15:06:11] INFO root fetch - processPackages [pyparlaclarin]: Remove: archive file [/home/abi/fetcher/tmp/pyparlaclarin-0.9.0.tar.gz]
+[2024-04-15 15:06:11] INFO root fetch - processPackages [pyparlaclarin]: Remove: archive file [/home/abi/fetcher/tmp/pyparlaclarin-0.9.1.tar.gz]
+[2024-04-15 15:06:11] INFO root fetch - main [MainThread]: End processing [pyparlaclarin]: success
+[2024-04-15 15:06:11] INFO root fetch - processPackages [uploadgram]: Remove: archive file [/home/abi/fetcher/tmp/uploadgram-0.2.3.tar.gz]
+[2024-04-15 15:06:11] INFO root fetch - processPackages [uploadgram]: Remove: archive file [/home/abi/fetcher/tmp/uploadgram-0.3.1.tar.gz]
+[2024-04-15 15:06:11] INFO root fetch - main [MainThread]: End processing [uploadgram]: success
+[2024-04-15 15:06:11] INFO root fetch - processPackages [psl]: Remove: archive file [/home/abi/fetcher/tmp/psl-2024.4.15.tar.gz]
+[2024-04-15 15:06:11] INFO root fetch - processPackages [psl]: Remove: archive file [/home/abi/fetcher/tmp/psl-2024.4.8.tar.gz]
+[2024-04-15 15:06:11] INFO root fetch - main [MainThread]: End processing [psl]: success
+[2024-04-15 15:06:11] INFO root fetch - main [MainThread]: Store serial: [22771461]
