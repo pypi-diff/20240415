@@ -15595,3 +15595,95 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 12:53:11] INFO root fetch - processPackages [vbpdf]: Remove: archive file [/home/abi/fetcher/tmp/vbpdf-0.1.9.tar.gz]
 [2024-04-15 12:53:11] INFO root fetch - main [MainThread]: End processing [vbpdf]: success
 [2024-04-15 12:53:11] INFO root fetch - main [MainThread]: Store serial: [22769750]
+[2024-04-15 12:55:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22769750]
+[2024-04-15 12:55:20] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-15 12:55:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: faim-wako-searchfirst
+[2024-04-15 12:55:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: HiveWebCrawler
+[2024-04-15 12:55:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bring-api
+[2024-04-15 12:55:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flare-floss
+[2024-04-15 12:55:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scematk
+[2024-04-15 12:55:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytest-coveragemarkers
+[2024-04-15 12:55:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cmsis-stream
+[2024-04-15 12:55:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sunholo
+[2024-04-15 12:55:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: deezer-downloader
+[2024-04-15 12:55:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PyProfQueue
+[2024-04-15 12:55:20] WARNING root fetch - processPackages [HiveWebCrawler]: Skipping, unable to determine old version
+[2024-04-15 12:55:20] INFO root fetch - processPackages [HiveWebCrawler]: Start processing: apitoolkit-pyramid
+[2024-04-15 12:55:20] INFO root fetch - main [MainThread]: End processing [HiveWebCrawler] error
+[2024-04-15 12:55:20] INFO root fetch - processPackages [pytest-coveragemarkers]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-04-15 12:55:20] INFO root fetch - processPackages [PyProfQueue]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-15 12:55:20] INFO root fetch - processPackages [scematk]: New version: [0.0.2rc99.post1] Old Version: [0.0.2rc98.post1]
+[2024-04-15 12:55:20] INFO root fetch - processPackages [faim-wako-searchfirst]: New version: [0.7.1] Old Version: [0.6.0]
+[2024-04-15 12:55:20] INFO root fetch - processPackages [bring-api]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-04-15 12:55:20] INFO root fetch - processPackages [flare-floss]: New version: [3.1.0] Old Version: [3.0.1]
+[2024-04-15 12:55:20] INFO root fetch - processPackages [deezer-downloader]: New version: [2.0.8] Old Version: [2.0.7]
+[2024-04-15 12:55:20] INFO root fetch - processPackages [cmsis-stream]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-04-15 12:55:20] INFO root fetch - processPackages [apitoolkit-pyramid]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-15 12:55:20] INFO root fetch - processPackages [sunholo]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-15 12:55:20] INFO root fetch - processPackages [pytest-coveragemarkers]: Downloading https://files.pythonhosted.org/packages/75/15/861629163accbb375ae733c1605339d40b3b8701a5224e61a467b7429b66/pytest-coveragemarkers-2.0.0.tar.gz
+[2024-04-15 12:55:20] INFO root fetch - processPackages [PyProfQueue]: Downloading https://files.pythonhosted.org/packages/ce/c8/a4a7a11da268b3dbe3231a4f1278ffd6c86636b67b6ca7947676c4f52646/PyProfQueue-0.1.6.tar.gz
+[2024-04-15 12:55:20] INFO root fetch - processPackages [faim-wako-searchfirst]: Downloading https://files.pythonhosted.org/packages/af/13/31928e79e0133967097663f34d1a239fcbeb382cb184ee283a39a8a0d6b2/faim_wako_searchfirst-0.6.0.tar.gz
+[2024-04-15 12:55:20] INFO root fetch - processPackages [apitoolkit-pyramid]: Downloading https://files.pythonhosted.org/packages/8b/1a/29354411e69c0220a54729fa0002fdfc2270e796de9f9739edacf3466d96/apitoolkit-pyramid-0.1.3.tar.gz
+[2024-04-15 12:55:20] INFO root fetch - processPackages [scematk]: Downloading https://files.pythonhosted.org/packages/74/b4/2c4bf9a440c6109c1526403bd63a1ad539bac9b025336ad220b4b533e7b7/scematk-0.0.2rc98.post1.tar.gz
+[2024-04-15 12:55:20] INFO root fetch - processPackages [deezer-downloader]: Downloading https://files.pythonhosted.org/packages/5e/82/5d5f51abf9cbcf1f7d639f39a48cafdb0604cbd87b156d78a44de593762f/deezer_downloader-2.0.7.tar.gz
+[2024-04-15 12:55:20] INFO root fetch - processPackages [bring-api]: Downloading https://files.pythonhosted.org/packages/78/ad/dac7d14d53792c2f3dcede4ee2589fc43374942f0fa208faf66737683ca3/bring-api-0.7.0.tar.gz
+[2024-04-15 12:55:20] INFO root fetch - processPackages [flare-floss]: Downloading https://files.pythonhosted.org/packages/95/4a/9f790ea321ad240eda8668f678f0ac3abfaf8d97946c051ac7a1030a7570/flare-floss-3.0.1.tar.gz
+[2024-04-15 12:55:20] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/cc/35/0cc2a83f59b1ddd740a568e10894833a89bedfc91b8ebd172a427676694a/sunholo-0.8.8.tar.gz
+[2024-04-15 12:55:20] INFO root fetch - processPackages [cmsis-stream]: Downloading https://files.pythonhosted.org/packages/b9/28/f38218f2a95f4af219e9b95ddcc6904d9b9766d24b663b44ff4c5a206b8d/cmsis_stream-1.9.1-py3-none-any.whl
+[2024-04-15 12:55:21] WARNING root fetch - processPackages [flare-floss]: Skipping package: exceeds size limit 15179601>=10485760
+[2024-04-15 12:55:21] INFO root fetch - main [MainThread]: End processing [flare-floss] error
+[2024-04-15 12:55:21] INFO root fetch - processPackages [pytest-coveragemarkers]: Downloading https://files.pythonhosted.org/packages/2e/e2/9980a189ebc43c43b43750ea23047c75e7f75564b9fbe56cbd807fd1d908/pytest_coveragemarkers-2.1.0.tar.gz
+[2024-04-15 12:55:21] INFO root fetch - processPackages [PyProfQueue]: Downloading https://files.pythonhosted.org/packages/da/9a/83940f990559aa134ba6b07f4ac5cd63bbba7014888637210dd1c77d618f/PyProfQueue-0.1.7.tar.gz
+[2024-04-15 12:55:21] INFO root fetch - processPackages [faim-wako-searchfirst]: Downloading https://files.pythonhosted.org/packages/d4/4b/c80c6aee85dee96ddf9807604e6f19e74f1df00767f23f2a4ca12477ae7c/faim_wako_searchfirst-0.7.1.tar.gz
+[2024-04-15 12:55:21] INFO root fetch - processPackages [apitoolkit-pyramid]: Downloading https://files.pythonhosted.org/packages/3d/1c/42fd0b2769dabee1f8edb4f3ba55dfbd47f06e3272a84941b5964af49ecb/apitoolkit-pyramid-0.1.4.tar.gz
+[2024-04-15 12:55:21] INFO root fetch - processPackages [pytest-coveragemarkers]: executing diffoscope
+[2024-04-15 12:55:21] INFO root fetch - processPackages [pytest-coveragemarkers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-coveragemarkers-2.0.0.tar.gz tmp/pytest_coveragemarkers-2.1.0.tar.gz --markdown 20240415/p/pytest-coveragemarkers/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-04-15 12:55:21] INFO root fetch - processPackages [bring-api]: Downloading https://files.pythonhosted.org/packages/07/8a/728724057d1c5916acbbc0a81e99e15757f375a9c045151b9c90e1cd3afc/bring_api-0.7.1.tar.gz
+[2024-04-15 12:55:21] INFO root fetch - processPackages [scematk]: Downloading https://files.pythonhosted.org/packages/88/05/a551ffce29ada02c3b808f4d3523aefcebb95b513746d269b86d0d75e18b/scematk-0.0.2rc99.post1.tar.gz
+[2024-04-15 12:55:21] INFO root fetch - processPackages [PyProfQueue]: executing diffoscope
+[2024-04-15 12:55:21] INFO root fetch - processPackages [PyProfQueue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyProfQueue-0.1.6.tar.gz tmp/PyProfQueue-0.1.7.tar.gz --markdown 20240415/P/PyProfQueue/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-04-15 12:55:21] INFO root fetch - processPackages [deezer-downloader]: Downloading https://files.pythonhosted.org/packages/48/d3/b638c78774ed778bb1893df78b379c20fcedeb280027bff9fee0385676ee/deezer_downloader-2.0.8.tar.gz
+[2024-04-15 12:55:21] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/f4/84/78248df3236e593119b75003e77cf5b5bd0761e53dc91c6a148cb0571cf9/sunholo-0.8.9.tar.gz
+[2024-04-15 12:55:21] INFO root fetch - processPackages [cmsis-stream]: Downloading https://files.pythonhosted.org/packages/b2/66/0d1e34c99fc8cbcab3c6e39ea3afccb5712e15ffb480b0b617395533814b/cmsis_stream-1.9.2-py3-none-any.whl
+[2024-04-15 12:55:21] INFO root fetch - processPackages [apitoolkit-pyramid]: executing diffoscope
+[2024-04-15 12:55:21] INFO root fetch - processPackages [apitoolkit-pyramid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apitoolkit-pyramid-0.1.3.tar.gz tmp/apitoolkit-pyramid-0.1.4.tar.gz --markdown 20240415/a/apitoolkit-pyramid/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-15 12:55:21] INFO root fetch - processPackages [faim-wako-searchfirst]: executing diffoscope
+[2024-04-15 12:55:21] INFO root fetch - processPackages [faim-wako-searchfirst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faim_wako_searchfirst-0.6.0.tar.gz tmp/faim_wako_searchfirst-0.7.1.tar.gz --markdown 20240415/f/faim-wako-searchfirst/0.6.0-0.7.1/README.md --exclude *.pyd
+[2024-04-15 12:55:21] INFO root fetch - processPackages [scematk]: executing diffoscope
+[2024-04-15 12:55:21] INFO root fetch - processPackages [scematk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scematk-0.0.2rc98.post1.tar.gz tmp/scematk-0.0.2rc99.post1.tar.gz --markdown 20240415/s/scematk/0.0.2rc98.post1-0.0.2rc99.post1/README.md --exclude *.pyd
+[2024-04-15 12:55:21] INFO root fetch - processPackages [bring-api]: executing diffoscope
+[2024-04-15 12:55:21] INFO root fetch - processPackages [bring-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bring-api-0.7.0.tar.gz tmp/bring_api-0.7.1.tar.gz --markdown 20240415/b/bring-api/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-04-15 12:55:21] INFO root fetch - processPackages [sunholo]: executing diffoscope
+[2024-04-15 12:55:21] INFO root fetch - processPackages [sunholo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunholo-0.8.8.tar.gz tmp/sunholo-0.8.9.tar.gz --markdown 20240415/s/sunholo/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-04-15 12:55:21] INFO root fetch - processPackages [cmsis-stream]: executing diffoscope
+[2024-04-15 12:55:21] INFO root fetch - processPackages [cmsis-stream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmsis_stream-1.9.1-py3-none-any.whl.zip tmp/cmsis_stream-1.9.2-py3-none-any.whl.zip --markdown 20240415/c/cmsis-stream/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-04-15 12:55:21] INFO root fetch - processPackages [deezer-downloader]: executing diffoscope
+[2024-04-15 12:55:21] INFO root fetch - processPackages [deezer-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deezer_downloader-2.0.7.tar.gz tmp/deezer_downloader-2.0.8.tar.gz --markdown 20240415/d/deezer-downloader/2.0.7-2.0.8/README.md --exclude *.pyd
+[2024-04-15 12:55:22] INFO root fetch - processPackages [PyProfQueue]: Remove: archive file [/home/abi/fetcher/tmp/PyProfQueue-0.1.6.tar.gz]
+[2024-04-15 12:55:22] INFO root fetch - processPackages [PyProfQueue]: Remove: archive file [/home/abi/fetcher/tmp/PyProfQueue-0.1.7.tar.gz]
+[2024-04-15 12:55:22] INFO root fetch - main [MainThread]: End processing [PyProfQueue]: success
+[2024-04-15 12:55:22] INFO root fetch - processPackages [apitoolkit-pyramid]: Remove: archive file [/home/abi/fetcher/tmp/apitoolkit-pyramid-0.1.3.tar.gz]
+[2024-04-15 12:55:22] INFO root fetch - processPackages [apitoolkit-pyramid]: Remove: archive file [/home/abi/fetcher/tmp/apitoolkit-pyramid-0.1.4.tar.gz]
+[2024-04-15 12:55:22] INFO root fetch - main [MainThread]: End processing [apitoolkit-pyramid]: success
+[2024-04-15 12:55:22] INFO root fetch - processPackages [pytest-coveragemarkers]: Remove: archive file [/home/abi/fetcher/tmp/pytest-coveragemarkers-2.0.0.tar.gz]
+[2024-04-15 12:55:22] INFO root fetch - processPackages [pytest-coveragemarkers]: Remove: archive file [/home/abi/fetcher/tmp/pytest_coveragemarkers-2.1.0.tar.gz]
+[2024-04-15 12:55:22] INFO root fetch - main [MainThread]: End processing [pytest-coveragemarkers]: success
+[2024-04-15 12:55:22] INFO root fetch - processPackages [bring-api]: Remove: archive file [/home/abi/fetcher/tmp/bring-api-0.7.0.tar.gz]
+[2024-04-15 12:55:22] INFO root fetch - processPackages [bring-api]: Remove: archive file [/home/abi/fetcher/tmp/bring_api-0.7.1.tar.gz]
+[2024-04-15 12:55:22] INFO root fetch - main [MainThread]: End processing [bring-api]: success
+[2024-04-15 12:55:22] INFO root fetch - processPackages [faim-wako-searchfirst]: Remove: archive file [/home/abi/fetcher/tmp/faim_wako_searchfirst-0.6.0.tar.gz]
+[2024-04-15 12:55:22] INFO root fetch - processPackages [faim-wako-searchfirst]: Remove: archive file [/home/abi/fetcher/tmp/faim_wako_searchfirst-0.7.1.tar.gz]
+[2024-04-15 12:55:22] INFO root fetch - main [MainThread]: End processing [faim-wako-searchfirst]: success
+[2024-04-15 12:55:22] INFO root fetch - processPackages [scematk]: Remove: archive file [/home/abi/fetcher/tmp/scematk-0.0.2rc98.post1.tar.gz]
+[2024-04-15 12:55:22] INFO root fetch - processPackages [scematk]: Remove: archive file [/home/abi/fetcher/tmp/scematk-0.0.2rc99.post1.tar.gz]
+[2024-04-15 12:55:22] INFO root fetch - main [MainThread]: End processing [scematk]: success
+[2024-04-15 12:55:22] INFO root fetch - processPackages [deezer-downloader]: Remove: archive file [/home/abi/fetcher/tmp/deezer_downloader-2.0.7.tar.gz]
+[2024-04-15 12:55:22] INFO root fetch - processPackages [deezer-downloader]: Remove: archive file [/home/abi/fetcher/tmp/deezer_downloader-2.0.8.tar.gz]
+[2024-04-15 12:55:22] INFO root fetch - main [MainThread]: End processing [deezer-downloader]: success
+[2024-04-15 12:55:22] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.8.tar.gz]
+[2024-04-15 12:55:22] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.9.tar.gz]
+[2024-04-15 12:55:22] INFO root fetch - main [MainThread]: End processing [sunholo]: success
+[2024-04-15 12:55:22] INFO root fetch - processPackages [cmsis-stream]: Remove: archive file [/home/abi/fetcher/tmp/cmsis_stream-1.9.1-py3-none-any.whl.zip]
+[2024-04-15 12:55:22] INFO root fetch - processPackages [cmsis-stream]: Remove: archive file [/home/abi/fetcher/tmp/cmsis_stream-1.9.2-py3-none-any.whl.zip]
+[2024-04-15 12:55:22] INFO root fetch - main [MainThread]: End processing [cmsis-stream]: success
+[2024-04-15 12:55:22] INFO root fetch - main [MainThread]: Store serial: [22769781]
