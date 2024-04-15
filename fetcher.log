@@ -8335,3 +8335,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 08:09:39] INFO root fetch - processPackages [nuon]: Remove: archive file [/home/abi/fetcher/tmp/nuon-0.19.99.tar.gz]
 [2024-04-15 08:09:39] INFO root fetch - main [MainThread]: End processing [nuon]: success
 [2024-04-15 08:09:39] INFO root fetch - main [MainThread]: Store serial: [22766541]
+[2024-04-15 08:11:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22766541]
+[2024-04-15 08:11:48] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-15 08:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: radical.saga
+[2024-04-15 08:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: porkbun-ddns
+[2024-04-15 08:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: radical.pilot
+[2024-04-15 08:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-alist
+[2024-04-15 08:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: radical.entk
+[2024-04-15 08:11:48] INFO root fetch - processPackages [python-alist]: New version: [0.0.9.9] Old Version: [0.0.9.8.1]
+[2024-04-15 08:11:48] INFO root fetch - processPackages [radical.entk]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-15 08:11:49] INFO root fetch - processPackages [radical.saga]: New version: [1.8.0] Old Version: [1.6.9]
+[2024-04-15 08:11:49] INFO root fetch - processPackages [python-alist]: Downloading https://files.pythonhosted.org/packages/16/4c/767ed3dbd217eb3ea1f030c845f5a098d8e656f2fb4ab63c7fa0eadcf367/python_alist-0.0.9.8.1.tar.gz
+[2024-04-15 08:11:49] INFO root fetch - processPackages [porkbun-ddns]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-04-15 08:11:49] INFO root fetch - processPackages [radical.pilot]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-04-15 08:11:49] INFO root fetch - processPackages [python-alist]: Downloading https://files.pythonhosted.org/packages/a4/c8/c4ceead1bdae1d44cce58995ae016d39c6e4134cefa9b31ef2daf97d4c36/python_alist-0.0.9.9.tar.gz
+[2024-04-15 08:11:49] INFO root fetch - processPackages [radical.saga]: Downloading https://files.pythonhosted.org/packages/3b/69/eb760e93f8f0646aff6eb1902e3568f7defd688b92a4e0c67d8b3d349496/radical.saga-1.6.9.tar.gz
+[2024-04-15 08:11:49] INFO root fetch - processPackages [porkbun-ddns]: Downloading https://files.pythonhosted.org/packages/fe/d7/5dc3ce7f0783b9867a8eba24fcf860887f43026db441e574c54c8c7d816c/porkbun_ddns-0.6.1-py3-none-any.whl
+[2024-04-15 08:11:49] INFO root fetch - processPackages [radical.entk]: Downloading https://files.pythonhosted.org/packages/f0/b7/2f841b0cf71c08e32f44c0bfe2d3ccaa9afc6aae30c7ea71a13f5d2ea88e/radical.entk-1.8.0.tar.gz
+[2024-04-15 08:11:49] INFO root fetch - processPackages [radical.pilot]: Downloading https://files.pythonhosted.org/packages/c3/7c/d31f91fe541d7d29492a0ea8cfa2445f16b9148c03c1d86fd84515a50a24/radical.pilot-1.9.1.tar.gz
+[2024-04-15 08:11:49] INFO root fetch - processPackages [python-alist]: executing diffoscope
+[2024-04-15 08:11:49] INFO root fetch - processPackages [python-alist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_alist-0.0.9.8.1.tar.gz tmp/python_alist-0.0.9.9.tar.gz --markdown 20240415/p/python-alist/0.0.9.8.1-0.0.9.9/README.md --exclude *.pyd
+[2024-04-15 08:11:49] INFO root fetch - processPackages [porkbun-ddns]: Downloading https://files.pythonhosted.org/packages/2a/17/db53f90fe9a594cc7a2efd9bac1448a7edf1d0654dc8e4ef364fab15987c/porkbun_ddns-0.6.2-py3-none-any.whl
+[2024-04-15 08:11:49] INFO root fetch - processPackages [radical.entk]: Downloading https://files.pythonhosted.org/packages/d4/3b/7bac551fce4718ea1bf65083bb8a42bf6743a370057fd5dffa604a8c2364/radical.entk-1.9.0.tar.gz
+[2024-04-15 08:11:49] INFO root fetch - processPackages [porkbun-ddns]: executing diffoscope
+[2024-04-15 08:11:49] INFO root fetch - processPackages [porkbun-ddns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/porkbun_ddns-0.6.1-py3-none-any.whl.zip tmp/porkbun_ddns-0.6.2-py3-none-any.whl.zip --markdown 20240415/p/porkbun-ddns/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-04-15 08:11:49] INFO root fetch - processPackages [radical.pilot]: Downloading https://files.pythonhosted.org/packages/40/26/f7f501f7fba04c9d801b429736b04dcf8fe30e907caf6f1ff0bb543bf31b/radical.pilot-1.9.2.tar.gz
+[2024-04-15 08:11:49] INFO root fetch - processPackages [radical.saga]: Downloading https://files.pythonhosted.org/packages/4f/4b/15452082443a7cc86d52bcb6ff568b457eed3d787d65d867942840f1d52c/radical.saga-1.8.0.tar.gz
+[2024-04-15 08:11:49] INFO root fetch - processPackages [radical.entk]: executing diffoscope
+[2024-04-15 08:11:49] INFO root fetch - processPackages [radical.entk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radical.entk-1.8.0.tar.gz tmp/radical.entk-1.9.0.tar.gz --markdown 20240415/r/radical.entk/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-15 08:11:49] INFO root fetch - processPackages [radical.pilot]: executing diffoscope
+[2024-04-15 08:11:49] INFO root fetch - processPackages [radical.pilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radical.pilot-1.9.1.tar.gz tmp/radical.pilot-1.9.2.tar.gz --markdown 20240415/r/radical.pilot/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-04-15 08:11:50] INFO root fetch - processPackages [radical.saga]: executing diffoscope
+[2024-04-15 08:11:50] INFO root fetch - processPackages [radical.saga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radical.saga-1.6.9.tar.gz tmp/radical.saga-1.8.0.tar.gz --markdown 20240415/r/radical.saga/1.6.9-1.8.0/README.md --exclude *.pyd
+[2024-04-15 08:11:50] INFO root fetch - processPackages [python-alist]: Remove: archive file [/home/abi/fetcher/tmp/python_alist-0.0.9.8.1.tar.gz]
+[2024-04-15 08:11:50] INFO root fetch - processPackages [python-alist]: Remove: archive file [/home/abi/fetcher/tmp/python_alist-0.0.9.9.tar.gz]
+[2024-04-15 08:11:50] INFO root fetch - main [MainThread]: End processing [python-alist]: success
+[2024-04-15 08:11:50] INFO root fetch - processPackages [porkbun-ddns]: Remove: archive file [/home/abi/fetcher/tmp/porkbun_ddns-0.6.1-py3-none-any.whl.zip]
+[2024-04-15 08:11:50] INFO root fetch - processPackages [porkbun-ddns]: Remove: archive file [/home/abi/fetcher/tmp/porkbun_ddns-0.6.2-py3-none-any.whl.zip]
+[2024-04-15 08:11:50] INFO root fetch - main [MainThread]: End processing [porkbun-ddns]: success
+[2024-04-15 08:11:50] INFO root fetch - processPackages [radical.entk]: Remove: archive file [/home/abi/fetcher/tmp/radical.entk-1.8.0.tar.gz]
+[2024-04-15 08:11:50] INFO root fetch - processPackages [radical.entk]: Remove: archive file [/home/abi/fetcher/tmp/radical.entk-1.9.0.tar.gz]
+[2024-04-15 08:11:50] INFO root fetch - main [MainThread]: End processing [radical.entk]: success
+[2024-04-15 08:11:51] INFO root fetch - processPackages [radical.saga]: Remove: archive file [/home/abi/fetcher/tmp/radical.saga-1.6.9.tar.gz]
+[2024-04-15 08:11:51] INFO root fetch - processPackages [radical.saga]: Remove: archive file [/home/abi/fetcher/tmp/radical.saga-1.8.0.tar.gz]
+[2024-04-15 08:11:51] INFO root fetch - main [MainThread]: End processing [radical.saga]: success
+[2024-04-15 08:11:51] INFO root fetch - processPackages [radical.pilot]: Remove: archive file [/home/abi/fetcher/tmp/radical.pilot-1.9.1.tar.gz]
+[2024-04-15 08:11:51] INFO root fetch - processPackages [radical.pilot]: Remove: archive file [/home/abi/fetcher/tmp/radical.pilot-1.9.2.tar.gz]
+[2024-04-15 08:11:51] INFO root fetch - main [MainThread]: End processing [radical.pilot]: success
+[2024-04-15 08:11:51] INFO root fetch - main [MainThread]: Store serial: [22766554]
