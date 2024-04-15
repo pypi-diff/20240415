@@ -21855,3 +21855,84 @@ EOFError: EOF read where object expected
 [2024-04-15 16:14:40] INFO root fetch - processPackages [multiview-stitcher]: Remove: archive file [/home/abi/fetcher/tmp/multiview_stitcher-0.1.5.tar.gz]
 [2024-04-15 16:14:40] INFO root fetch - main [MainThread]: End processing [multiview-stitcher]: success
 [2024-04-15 16:14:40] INFO root fetch - main [MainThread]: Store serial: [22772486]
+[2024-04-15 16:16:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22772486]
+[2024-04-15 16:16:50] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-15 16:16:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neura-library
+[2024-04-15 16:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyExcelerate
+[2024-04-15 16:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: absfuyu
+[2024-04-15 16:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: feos-torch
+[2024-04-15 16:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: assemblyline-service-client
+[2024-04-15 16:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: assemblyline-service-server
+[2024-04-15 16:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: assemblyline-ui
+[2024-04-15 16:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qontract-reconcile
+[2024-04-15 16:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: assemblyline-v4-service
+[2024-04-15 16:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: assemblyline
+[2024-04-15 16:16:51] WARNING root fetch - processPackages [neura-library]: Skipping, unable to determine old version
+[2024-04-15 16:16:51] INFO root fetch - main [MainThread]: End processing [neura-library] error
+[2024-04-15 16:16:51] INFO root fetch - processPackages [assemblyline-service-server]: New version: [4.5.1.dev83] Old Version: [4.5.1.dev82]
+[2024-04-15 16:16:51] INFO root fetch - processPackages [assemblyline-ui]: New version: [4.5.1.dev83] Old Version: [4.5.1.dev82]
+[2024-04-15 16:16:51] INFO root fetch - processPackages [PyExcelerate]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-15 16:16:51] INFO root fetch - processPackages [assemblyline-service-client]: New version: [4.5.1.dev83] Old Version: [4.5.1.dev82]
+[2024-04-15 16:16:51] INFO root fetch - processPackages [assemblyline-v4-service]: New version: [4.5.1.dev83] Old Version: [4.5.1.dev82]
+[2024-04-15 16:16:51] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-04-15 16:16:51] INFO root fetch - processPackages [absfuyu]: New version: [3.3.3] Old Version: [3.3.2]
+[2024-04-15 16:16:51] INFO root fetch - processPackages [assemblyline]: New version: [4.5.1.dev83] Old Version: [4.5.1.dev82]
+[2024-04-15 16:16:51] WARNING root fetch - processPackages [feos-torch]: Skipping, unable to determine old version
+[2024-04-15 16:16:51] INFO root fetch - main [MainThread]: End processing [feos-torch] error
+[2024-04-15 16:16:51] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/1d/ee/25d31850390bd66bb2bb9d5b3707948a8b45bbc489166a2f98962dffaed4/assemblyline_service_client-4.5.1.dev82-py3-none-any.whl
+[2024-04-15 16:16:51] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/4c/4a/a1dd38fea17c75dcc2a49793cc3c0ed1293c316fa17274b7e779f0a712cc/assemblyline_ui-4.5.1.dev82-py3-none-any.whl
+[2024-04-15 16:16:51] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/f4/dc/b80a90565d543747c5145f4a261c57b91599829821665eb7fdf07155a975/assemblyline_v4_service-4.5.1.dev82-py3-none-any.whl
+[2024-04-15 16:16:51] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/ce/d4/e58c5450600e1a6c78e9ad7c70914893571d261adf3649b3ca9e8fc9f256/assemblyline_service_server-4.5.1.dev82-py3-none-any.whl
+[2024-04-15 16:16:51] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-04-15 16:16:51] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/bb/eb/9c422ebf02e22126a664d4399eb9490fd63ff82fa10bb88e340c49d99132/assemblyline-4.5.1.dev82.tar.gz
+[2024-04-15 16:16:51] INFO root fetch - processPackages [PyExcelerate]: Downloading https://files.pythonhosted.org/packages/7e/4d/4fec6ccd792619f80021b851a1653ac5da76ddd21d68c59274a81c439659/PyExcelerate-0.8.0.tar.gz
+[2024-04-15 16:16:51] INFO root fetch - processPackages [absfuyu]: Downloading https://files.pythonhosted.org/packages/88/9f/810744f5b6a7cb12d96c24fd2e6c4a41c6befef1712307d75944b93f9ff7/absfuyu-3.3.2.tar.gz
+[2024-04-15 16:16:51] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/ce/87/32711f64718b2c9cd5251205f0a56fe2a6ab2f4f1e796341e746f3958c9b/assemblyline_service_client-4.5.1.dev83-py3-none-any.whl
+[2024-04-15 16:16:51] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/73/63/671e3adee0438fe3269ea499a0723b9b43966a16a39b679156dac8cd107e/assemblyline_service_server-4.5.1.dev83-py3-none-any.whl
+[2024-04-15 16:16:51] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/53/21/01567b9985e44f20a5563d194edf4c3f29e1578804c9bcca02431d69e2ef/assemblyline_v4_service-4.5.1.dev83-py3-none-any.whl
+[2024-04-15 16:16:51] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/2a/e8/5d8280280e4eb14682700ad0463ee3fa1ba0875460e39833729b8b6b33ad/assemblyline_ui-4.5.1.dev83-py3-none-any.whl
+[2024-04-15 16:16:51] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/7f/82/9b1c547c8bf4df327c6228ffce739226e761a8ddb20a91510bfe5cf01e3f/assemblyline-4.5.1.dev83.tar.gz
+[2024-04-15 16:16:51] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-04-15 16:16:51] INFO root fetch - processPackages [assemblyline-service-client]: executing diffoscope
+[2024-04-15 16:16:51] INFO root fetch - processPackages [assemblyline-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_client-4.5.1.dev82-py3-none-any.whl.zip tmp/assemblyline_service_client-4.5.1.dev83-py3-none-any.whl.zip --markdown 20240415/a/assemblyline-service-client/4.5.1.dev82-4.5.1.dev83/README.md --exclude *.pyd
+[2024-04-15 16:16:51] INFO root fetch - processPackages [assemblyline-service-server]: executing diffoscope
+[2024-04-15 16:16:51] INFO root fetch - processPackages [assemblyline-service-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_server-4.5.1.dev82-py3-none-any.whl.zip tmp/assemblyline_service_server-4.5.1.dev83-py3-none-any.whl.zip --markdown 20240415/a/assemblyline-service-server/4.5.1.dev82-4.5.1.dev83/README.md --exclude *.pyd
+[2024-04-15 16:16:51] INFO root fetch - processPackages [assemblyline-v4-service]: executing diffoscope
+[2024-04-15 16:16:51] INFO root fetch - processPackages [assemblyline-v4-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_v4_service-4.5.1.dev82-py3-none-any.whl.zip tmp/assemblyline_v4_service-4.5.1.dev83-py3-none-any.whl.zip --markdown 20240415/a/assemblyline-v4-service/4.5.1.dev82-4.5.1.dev83/README.md --exclude *.pyd
+[2024-04-15 16:16:51] INFO root fetch - processPackages [assemblyline-ui]: executing diffoscope
+[2024-04-15 16:16:51] INFO root fetch - processPackages [assemblyline-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_ui-4.5.1.dev82-py3-none-any.whl.zip tmp/assemblyline_ui-4.5.1.dev83-py3-none-any.whl.zip --markdown 20240415/a/assemblyline-ui/4.5.1.dev82-4.5.1.dev83/README.md --exclude *.pyd
+[2024-04-15 16:16:52] INFO root fetch - processPackages [PyExcelerate]: Downloading https://files.pythonhosted.org/packages/72/68/c867f65a2f15e58cbed04ef4e98fa36c15622ef26967398ed5f451ff1693/PyExcelerate-0.9.0.tar.gz
+[2024-04-15 16:16:52] INFO root fetch - processPackages [absfuyu]: Downloading https://files.pythonhosted.org/packages/d0/62/fec89fa167c1f600e8b5c4ed9382753ec203168db9d8f7805ae7dba6c8a5/absfuyu-3.3.3.tar.gz
+[2024-04-15 16:16:52] INFO root fetch - processPackages [assemblyline]: executing diffoscope
+[2024-04-15 16:16:52] INFO root fetch - processPackages [assemblyline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-4.5.1.dev82.tar.gz tmp/assemblyline-4.5.1.dev83.tar.gz --markdown 20240415/a/assemblyline/4.5.1.dev82-4.5.1.dev83/README.md --exclude *.pyd
+[2024-04-15 16:16:52] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-04-15 16:16:52] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240415/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-04-15 16:16:52] INFO root fetch - processPackages [PyExcelerate]: executing diffoscope
+[2024-04-15 16:16:52] INFO root fetch - processPackages [PyExcelerate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyExcelerate-0.8.0.tar.gz tmp/PyExcelerate-0.9.0.tar.gz --markdown 20240415/P/PyExcelerate/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-04-15 16:16:52] INFO root fetch - processPackages [absfuyu]: executing diffoscope
+[2024-04-15 16:16:52] INFO root fetch - processPackages [absfuyu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/absfuyu-3.3.2.tar.gz tmp/absfuyu-3.3.3.tar.gz --markdown 20240415/a/absfuyu/3.3.2-3.3.3/README.md --exclude *.pyd
+[2024-04-15 16:16:52] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.5.1.dev82-py3-none-any.whl.zip]
+[2024-04-15 16:16:52] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.5.1.dev83-py3-none-any.whl.zip]
+[2024-04-15 16:16:52] INFO root fetch - main [MainThread]: End processing [assemblyline-service-client]: success
+[2024-04-15 16:16:52] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.5.1.dev82-py3-none-any.whl.zip]
+[2024-04-15 16:16:52] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.5.1.dev83-py3-none-any.whl.zip]
+[2024-04-15 16:16:52] INFO root fetch - main [MainThread]: End processing [assemblyline-service-server]: success
+[2024-04-15 16:16:52] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.5.1.dev82-py3-none-any.whl.zip]
+[2024-04-15 16:16:52] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.5.1.dev83-py3-none-any.whl.zip]
+[2024-04-15 16:16:52] INFO root fetch - main [MainThread]: End processing [assemblyline-ui]: success
+[2024-04-15 16:16:53] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.5.1.dev82-py3-none-any.whl.zip]
+[2024-04-15 16:16:53] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.5.1.dev83-py3-none-any.whl.zip]
+[2024-04-15 16:16:53] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
+[2024-04-15 16:16:53] INFO root fetch - processPackages [PyExcelerate]: Remove: archive file [/home/abi/fetcher/tmp/PyExcelerate-0.8.0.tar.gz]
+[2024-04-15 16:16:53] INFO root fetch - processPackages [PyExcelerate]: Remove: archive file [/home/abi/fetcher/tmp/PyExcelerate-0.9.0.tar.gz]
+[2024-04-15 16:16:53] INFO root fetch - main [MainThread]: End processing [PyExcelerate]: success
+[2024-04-15 16:16:53] INFO root fetch - processPackages [absfuyu]: Remove: archive file [/home/abi/fetcher/tmp/absfuyu-3.3.2.tar.gz]
+[2024-04-15 16:16:53] INFO root fetch - processPackages [absfuyu]: Remove: archive file [/home/abi/fetcher/tmp/absfuyu-3.3.3.tar.gz]
+[2024-04-15 16:16:53] INFO root fetch - main [MainThread]: End processing [absfuyu]: success
+[2024-04-15 16:16:53] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.5.1.dev82.tar.gz]
+[2024-04-15 16:16:53] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.5.1.dev83.tar.gz]
+[2024-04-15 16:16:53] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
+[2024-04-15 16:16:54] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-04-15 16:16:54] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-04-15 16:16:54] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-04-15 16:16:54] INFO root fetch - main [MainThread]: Store serial: [22772527]
