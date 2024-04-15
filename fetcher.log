@@ -24069,3 +24069,96 @@ AssertionError: tmp/pyblindrl-0.0.2rc57.post1.tar.gz does not exist
 [2024-04-15 17:10:55] INFO root fetch - processPackages [ipex-llm]: Remove: archive file [/home/abi/fetcher/tmp/ipex_llm-2.1.0b20240414-py3-none-win_amd64.whl.zip]
 [2024-04-15 17:10:55] INFO root fetch - main [MainThread]: End processing [ipex-llm]: success
 [2024-04-15 17:10:55] INFO root fetch - main [MainThread]: Store serial: [22773479]
+[2024-04-15 17:12:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22773479]
+[2024-04-15 17:13:04] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-15 17:13:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fuxion
+[2024-04-15 17:13:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: modal
+[2024-04-15 17:13:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: modal-client
+[2024-04-15 17:13:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: agptools
+[2024-04-15 17:13:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyplotlib
+[2024-04-15 17:13:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: paasta-tools
+[2024-04-15 17:13:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qLDPC
+[2024-04-15 17:13:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wikipedia-zh
+[2024-04-15 17:13:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: syncmodels
+[2024-04-15 17:13:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyphetools
+[2024-04-15 17:13:04] INFO root fetch - processPackages [modal]: New version: [0.62.9] Old Version: [0.62.8]
+[2024-04-15 17:13:04] INFO root fetch - processPackages [fuxion]: New version: [0.0.2] Old Version: [0.0.1.5]
+[2024-04-15 17:13:04] INFO root fetch - processPackages [pyplotlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-15 17:13:04] INFO root fetch - processPackages [wikipedia-zh]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-15 17:13:04] INFO root fetch - processPackages [modal-client]: New version: [0.62.9] Old Version: [0.62.8]
+[2024-04-15 17:13:04] INFO root fetch - processPackages [qLDPC]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-15 17:13:04] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/8a/dd/32da92c8c574400929f770cfc5c78136ebc7b566de71c8e84a423d0ee9cc/modal-0.62.8-py3-none-any.whl
+[2024-04-15 17:13:04] INFO root fetch - processPackages [fuxion]: Downloading https://files.pythonhosted.org/packages/21/d2/61f9e6d0b8bccf510bee8fe5a4f7ff3d42649cd67192625e87907dec8b2d/fuxion-0.0.1.5.tar.gz
+[2024-04-15 17:13:04] INFO root fetch - processPackages [agptools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-15 17:13:04] INFO root fetch - processPackages [syncmodels]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-15 17:13:04] INFO root fetch - processPackages [paasta-tools]: New version: [0.92.1] Old Version: [0.92.0]
+[2024-04-15 17:13:04] INFO root fetch - processPackages [wikipedia-zh]: Downloading https://files.pythonhosted.org/packages/6e/9e/5e972053b5f1cf430825269ba6955ff1353d0a58dd24d86cc7d95544cf52/wikipedia_zh-0.0.4.tar.gz
+[2024-04-15 17:13:04] INFO root fetch - processPackages [pyplotlib]: Downloading https://files.pythonhosted.org/packages/28/bb/58ba19c8fed8024ef2c0efd0523dded73560d64857fcd7916d35aa6aa8af/pyplotlib-0.0.8.tar.gz
+[2024-04-15 17:13:04] INFO root fetch - processPackages [pyphetools]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-15 17:13:04] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/d0/c2/c05a679647fc54f88ed4f2453aec5ec1ea866c5ddaf1d85b52981f84c662/modal_client-0.62.8-py3-none-any.whl
+[2024-04-15 17:13:04] INFO root fetch - processPackages [qLDPC]: Downloading https://files.pythonhosted.org/packages/88/f7/51a90d4d6d46c878068c0a2ee891256d1321ec65adc2438457a548c7243b/qldpc-0.0.8.tar.gz
+[2024-04-15 17:13:04] INFO root fetch - processPackages [agptools]: Downloading https://files.pythonhosted.org/packages/ef/90/08317ea7b8434657a0c64c671a0ce91127781d19896203a19175d974fc12/agptools-0.1.8-py2.py3-none-any.whl
+[2024-04-15 17:13:04] INFO root fetch - processPackages [syncmodels]: Downloading https://files.pythonhosted.org/packages/09/13/db4988a642af43523190154e2a5fc392ebeed8a8fa626973e593b7c6b635/syncmodels-0.1.8-py2.py3-none-any.whl
+[2024-04-15 17:13:04] INFO root fetch - processPackages [paasta-tools]: Downloading https://files.pythonhosted.org/packages/4a/0d/4404f538f73fd9262e827faffa3ec48b8413a24ff7a44cb416e30e89634c/paasta-tools-0.92.0.tar.gz
+[2024-04-15 17:13:04] INFO root fetch - processPackages [pyplotlib]: Downloading https://files.pythonhosted.org/packages/8b/f8/1cec6ba77c9aee645ad1564c6fe928db135b36bec387a9574c6422edd191/pyplotlib-0.0.9.tar.gz
+[2024-04-15 17:13:05] INFO root fetch - processPackages [pyphetools]: Downloading https://files.pythonhosted.org/packages/eb/49/8a9e5cca779524924c1b7909aebe5e709f83336dfa338fc61229446262fd/pyphetools-0.9.8.tar.gz
+[2024-04-15 17:13:05] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/c0/f7/8dd227328bcea0baf27836ce9f00c26e7e27195101883dc782c55387e12f/modal-0.62.9-py3-none-any.whl
+[2024-04-15 17:13:05] INFO root fetch - processPackages [wikipedia-zh]: Downloading https://files.pythonhosted.org/packages/9c/52/37acb0c5c4fda6c3cac636c9679f4dd9ebcc80d154e1b03822b88ea23cd3/wikipedia_zh-0.0.5.tar.gz
+[2024-04-15 17:13:05] INFO root fetch - processPackages [fuxion]: Downloading https://files.pythonhosted.org/packages/e4/07/c6f7bad34c8f07140776a9b942b4b984275d3109992d0bc6a2b8342a5b65/fuxion-0.0.2.tar.gz
+[2024-04-15 17:13:05] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/08/2d/ba9d3e39c32f579d689b9f619a197109b7086b3f8e0764e5eed9501a303e/modal_client-0.62.9-py3-none-any.whl
+[2024-04-15 17:13:05] INFO root fetch - processPackages [pyplotlib]: executing diffoscope
+[2024-04-15 17:13:05] INFO root fetch - processPackages [pyplotlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyplotlib-0.0.8.tar.gz tmp/pyplotlib-0.0.9.tar.gz --markdown 20240415/p/pyplotlib/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-15 17:13:05] INFO root fetch - processPackages [wikipedia-zh]: executing diffoscope
+[2024-04-15 17:13:05] INFO root fetch - processPackages [wikipedia-zh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wikipedia_zh-0.0.4.tar.gz tmp/wikipedia_zh-0.0.5.tar.gz --markdown 20240415/w/wikipedia-zh/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-04-15 17:13:05] INFO root fetch - processPackages [fuxion]: executing diffoscope
+[2024-04-15 17:13:05] INFO root fetch - processPackages [fuxion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fuxion-0.0.1.5.tar.gz tmp/fuxion-0.0.2.tar.gz --markdown 20240415/f/fuxion/0.0.1.5-0.0.2/README.md --exclude *.pyd
+[2024-04-15 17:13:05] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2024-04-15 17:13:05] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.62.8-py3-none-any.whl.zip tmp/modal_client-0.62.9-py3-none-any.whl.zip --markdown 20240415/m/modal-client/0.62.8-0.62.9/README.md --exclude *.pyd
+[2024-04-15 17:13:05] INFO root fetch - processPackages [modal]: executing diffoscope
+[2024-04-15 17:13:05] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.62.8-py3-none-any.whl.zip tmp/modal-0.62.9-py3-none-any.whl.zip --markdown 20240415/m/modal/0.62.8-0.62.9/README.md --exclude *.pyd
+[2024-04-15 17:13:05] INFO root fetch - processPackages [agptools]: Downloading https://files.pythonhosted.org/packages/b4/96/a1fa0a1e147cbeb8acd6a36e118eb3b3ecfbf93d5b5de31b99b5d8bef5f4/agptools-0.1.9-py2.py3-none-any.whl
+[2024-04-15 17:13:05] INFO root fetch - processPackages [qLDPC]: Downloading https://files.pythonhosted.org/packages/80/7b/9cfc980134de12a4c1585c2afcb1058a619c603ac7f9c3df17f02114dc3d/qldpc-0.0.9.tar.gz
+[2024-04-15 17:13:05] INFO root fetch - processPackages [syncmodels]: Downloading https://files.pythonhosted.org/packages/fa/f6/eeeb0b12fc045f5917cfc3967317eddb0f896b12df99ee9cb26dd42b0529/syncmodels-0.1.9-py2.py3-none-any.whl
+[2024-04-15 17:13:05] INFO root fetch - processPackages [pyphetools]: Downloading https://files.pythonhosted.org/packages/21/0f/082981f834d44e19354002ae37884bb9cf87bb330242ae69908f6f893dcf/pyphetools-0.9.9.tar.gz
+[2024-04-15 17:13:05] INFO root fetch - processPackages [paasta-tools]: Downloading https://files.pythonhosted.org/packages/d8/f5/9a4c0134f4d0862da0cbcc57381d5c9f52e37ea937fa628e123433ccb7a4/paasta-tools-0.92.1.tar.gz
+[2024-04-15 17:13:05] INFO root fetch - processPackages [agptools]: executing diffoscope
+[2024-04-15 17:13:05] INFO root fetch - processPackages [agptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agptools-0.1.8-py2.py3-none-any.whl.zip tmp/agptools-0.1.9-py2.py3-none-any.whl.zip --markdown 20240415/a/agptools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-15 17:13:05] INFO root fetch - processPackages [syncmodels]: executing diffoscope
+[2024-04-15 17:13:05] INFO root fetch - processPackages [syncmodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncmodels-0.1.8-py2.py3-none-any.whl.zip tmp/syncmodels-0.1.9-py2.py3-none-any.whl.zip --markdown 20240415/s/syncmodels/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-15 17:13:05] INFO root fetch - processPackages [pyphetools]: executing diffoscope
+[2024-04-15 17:13:05] INFO root fetch - processPackages [pyphetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyphetools-0.9.8.tar.gz tmp/pyphetools-0.9.9.tar.gz --markdown 20240415/p/pyphetools/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-15 17:13:05] INFO root fetch - processPackages [qLDPC]: executing diffoscope
+[2024-04-15 17:13:05] INFO root fetch - processPackages [qLDPC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qldpc-0.0.8.tar.gz tmp/qldpc-0.0.9.tar.gz --markdown 20240415/q/qLDPC/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-15 17:13:05] INFO root fetch - processPackages [paasta-tools]: executing diffoscope
+[2024-04-15 17:13:05] INFO root fetch - processPackages [paasta-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paasta-tools-0.92.0.tar.gz tmp/paasta-tools-0.92.1.tar.gz --markdown 20240415/p/paasta-tools/0.92.0-0.92.1/README.md --exclude *.pyd
+[2024-04-15 17:13:06] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.8-py3-none-any.whl.zip]
+[2024-04-15 17:13:06] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.9-py3-none-any.whl.zip]
+[2024-04-15 17:13:06] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2024-04-15 17:13:06] INFO root fetch - processPackages [wikipedia-zh]: Remove: archive file [/home/abi/fetcher/tmp/wikipedia_zh-0.0.4.tar.gz]
+[2024-04-15 17:13:06] INFO root fetch - processPackages [wikipedia-zh]: Remove: archive file [/home/abi/fetcher/tmp/wikipedia_zh-0.0.5.tar.gz]
+[2024-04-15 17:13:06] INFO root fetch - main [MainThread]: End processing [wikipedia-zh]: success
+[2024-04-15 17:13:06] INFO root fetch - processPackages [pyplotlib]: Remove: archive file [/home/abi/fetcher/tmp/pyplotlib-0.0.8.tar.gz]
+[2024-04-15 17:13:06] INFO root fetch - processPackages [pyplotlib]: Remove: archive file [/home/abi/fetcher/tmp/pyplotlib-0.0.9.tar.gz]
+[2024-04-15 17:13:06] INFO root fetch - main [MainThread]: End processing [pyplotlib]: success
+[2024-04-15 17:13:06] INFO root fetch - processPackages [agptools]: Remove: archive file [/home/abi/fetcher/tmp/agptools-0.1.8-py2.py3-none-any.whl.zip]
+[2024-04-15 17:13:06] INFO root fetch - processPackages [agptools]: Remove: archive file [/home/abi/fetcher/tmp/agptools-0.1.9-py2.py3-none-any.whl.zip]
+[2024-04-15 17:13:06] INFO root fetch - main [MainThread]: End processing [agptools]: success
+[2024-04-15 17:13:06] INFO root fetch - processPackages [syncmodels]: Remove: archive file [/home/abi/fetcher/tmp/syncmodels-0.1.8-py2.py3-none-any.whl.zip]
+[2024-04-15 17:13:06] INFO root fetch - processPackages [syncmodels]: Remove: archive file [/home/abi/fetcher/tmp/syncmodels-0.1.9-py2.py3-none-any.whl.zip]
+[2024-04-15 17:13:06] INFO root fetch - main [MainThread]: End processing [syncmodels]: success
+[2024-04-15 17:13:06] INFO root fetch - processPackages [pyphetools]: Remove: archive file [/home/abi/fetcher/tmp/pyphetools-0.9.8.tar.gz]
+[2024-04-15 17:13:06] INFO root fetch - processPackages [pyphetools]: Remove: archive file [/home/abi/fetcher/tmp/pyphetools-0.9.9.tar.gz]
+[2024-04-15 17:13:06] INFO root fetch - main [MainThread]: End processing [pyphetools]: success
+[2024-04-15 17:13:06] INFO root fetch - processPackages [qLDPC]: Remove: archive file [/home/abi/fetcher/tmp/qldpc-0.0.8.tar.gz]
+[2024-04-15 17:13:06] INFO root fetch - processPackages [qLDPC]: Remove: archive file [/home/abi/fetcher/tmp/qldpc-0.0.9.tar.gz]
+[2024-04-15 17:13:06] INFO root fetch - main [MainThread]: End processing [qLDPC]: success
+[2024-04-15 17:13:06] INFO root fetch - processPackages [fuxion]: Remove: archive file [/home/abi/fetcher/tmp/fuxion-0.0.1.5.tar.gz]
+[2024-04-15 17:13:06] INFO root fetch - processPackages [fuxion]: Remove: archive file [/home/abi/fetcher/tmp/fuxion-0.0.2.tar.gz]
+[2024-04-15 17:13:06] INFO root fetch - main [MainThread]: End processing [fuxion]: success
+[2024-04-15 17:13:06] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.8-py3-none-any.whl.zip]
+[2024-04-15 17:13:06] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.9-py3-none-any.whl.zip]
+[2024-04-15 17:13:06] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2024-04-15 17:13:07] INFO root fetch - processPackages [paasta-tools]: Remove: archive file [/home/abi/fetcher/tmp/paasta-tools-0.92.0.tar.gz]
+[2024-04-15 17:13:07] INFO root fetch - processPackages [paasta-tools]: Remove: archive file [/home/abi/fetcher/tmp/paasta-tools-0.92.1.tar.gz]
+[2024-04-15 17:13:07] INFO root fetch - main [MainThread]: End processing [paasta-tools]: success
+[2024-04-15 17:13:07] INFO root fetch - main [MainThread]: Store serial: [22773505]
