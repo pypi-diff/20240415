@@ -11659,3 +11659,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 10:35:21] INFO root fetch - processPackages [pulumiverse-scaleway]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_scaleway-1.13.0a1713167679.tar.gz]
 [2024-04-15 10:35:21] INFO root fetch - main [MainThread]: End processing [pulumiverse-scaleway]: success
 [2024-04-15 10:35:21] INFO root fetch - main [MainThread]: Store serial: [22767930]
+[2024-04-15 10:37:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22767930]
+[2024-04-15 10:37:30] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-15 10:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: radical.utils
+[2024-04-15 10:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eirStru
+[2024-04-15 10:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: snakemake-interface-storage-plugins
+[2024-04-15 10:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: myRIO-library
+[2024-04-15 10:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quantplay
+[2024-04-15 10:37:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tinybird-cli
+[2024-04-15 10:37:30] INFO root fetch - processPackages [radical.utils]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-15 10:37:30] INFO root fetch - processPackages [eirStru]: New version: [0.2.94] Old Version: [0.2.93]
+[2024-04-15 10:37:30] INFO root fetch - processPackages [quantplay]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-04-15 10:37:30] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/f6/6e/046918fb626cff2cec3681f75d96e78e7fd7ffec5149fdd8bca5788f140a/eirStru-0.2.93.tar.gz
+[2024-04-15 10:37:30] INFO root fetch - processPackages [tinybird-cli]: New version: [3.8.1.dev1] Old Version: [3.7.1.dev2]
+[2024-04-15 10:37:30] INFO root fetch - processPackages [myRIO-library]: New version: [1.3.3] Old Version: [1.3.2]
+[2024-04-15 10:37:30] INFO root fetch - processPackages [radical.utils]: Downloading https://files.pythonhosted.org/packages/1f/11/cff0051613a1687c77e09b3096568dfa01f96271c0c2a0040cafae59f52b/radical.utils-1.9.0.tar.gz
+[2024-04-15 10:37:30] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/71/23/85a802491d69beb714dd8831f123c9440301eb94caca43392e50be63fff6/quantplay-1.5.8.tar.gz
+[2024-04-15 10:37:31] INFO root fetch - processPackages [snakemake-interface-storage-plugins]: New version: [3.2.0] Old Version: [3.1.1]
+[2024-04-15 10:37:31] INFO root fetch - processPackages [myRIO-library]: Downloading https://files.pythonhosted.org/packages/35/b8/923dc478f65fd71933b2d73e7621a07fc3c42933129f8f4f6ff4c6232ff8/myRIO_library-1.3.2.tar.gz
+[2024-04-15 10:37:31] INFO root fetch - processPackages [radical.utils]: Downloading https://files.pythonhosted.org/packages/20/d0/1fdf2dbde27e3a8d85ba804e54707f9aae40ab8b524492de97c15a6d0fbf/radical.utils-1.9.1.tar.gz
+[2024-04-15 10:37:31] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/29/44/bc619a0a4e2ecba52ee7f6eac8f51f600a1d90bb67f88a28638d7d9f9c62/quantplay-1.5.9.tar.gz
+[2024-04-15 10:37:31] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/3c/7d/9d26f3463b0bcb5f04633a0358c677bfb2ad0aa9022518c3cd7b2224640d/tinybird-cli-3.7.1.dev2.tar.gz
+[2024-04-15 10:37:31] INFO root fetch - processPackages [eirStru]: Downloading https://files.pythonhosted.org/packages/fd/be/2fdb14675d587883e849f19baf74c5af574552d18c8876665b4ccb901591/eirStru-0.2.94.tar.gz
+[2024-04-15 10:37:31] INFO root fetch - processPackages [radical.utils]: executing diffoscope
+[2024-04-15 10:37:31] INFO root fetch - processPackages [radical.utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radical.utils-1.9.0.tar.gz tmp/radical.utils-1.9.1.tar.gz --markdown 20240415/r/radical.utils/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-15 10:37:31] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2024-04-15 10:37:31] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.5.8.tar.gz tmp/quantplay-1.5.9.tar.gz --markdown 20240415/q/quantplay/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-04-15 10:37:31] INFO root fetch - processPackages [eirStru]: executing diffoscope
+[2024-04-15 10:37:31] INFO root fetch - processPackages [eirStru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eirStru-0.2.93.tar.gz tmp/eirStru-0.2.94.tar.gz --markdown 20240415/e/eirStru/0.2.93-0.2.94/README.md --exclude *.pyd
+[2024-04-15 10:37:31] INFO root fetch - processPackages [snakemake-interface-storage-plugins]: Downloading https://files.pythonhosted.org/packages/ab/f6/23f8c6edb39f3a4e897f2e0c89ab91cf804ad2ec700122c780cad7ed216f/snakemake_interface_storage_plugins-3.1.1.tar.gz
+[2024-04-15 10:37:31] INFO root fetch - processPackages [myRIO-library]: Downloading https://files.pythonhosted.org/packages/c9/ef/788bb10e0f290244d37fb67d817e3767bb9b07ed529c31c328ddd026aed0/myrio_library-1.3.3.tar.gz
+[2024-04-15 10:37:31] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/5b/ff/794dc4718084b7b6996093929e16c3668fb1afcf005affd80569193179b2/tinybird-cli-3.8.1.dev1.tar.gz
+[2024-04-15 10:37:31] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2024-04-15 10:37:31] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-3.7.1.dev2.tar.gz tmp/tinybird-cli-3.8.1.dev1.tar.gz --markdown 20240415/t/tinybird-cli/3.7.1.dev2-3.8.1.dev1/README.md --exclude *.pyd
+[2024-04-15 10:37:31] INFO root fetch - processPackages [myRIO-library]: executing diffoscope
+[2024-04-15 10:37:31] INFO root fetch - processPackages [myRIO-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myRIO_library-1.3.2.tar.gz tmp/myrio_library-1.3.3.tar.gz --markdown 20240415/m/myRIO-library/1.3.2-1.3.3/README.md --exclude *.pyd
+[2024-04-15 10:37:31] INFO root fetch - processPackages [snakemake-interface-storage-plugins]: Downloading https://files.pythonhosted.org/packages/cc/af/3365a70e323609113060e4c4496abd0040c246e86189d4f1f9708bf61540/snakemake_interface_storage_plugins-3.2.0.tar.gz
+[2024-04-15 10:37:32] INFO root fetch - processPackages [snakemake-interface-storage-plugins]: executing diffoscope
+[2024-04-15 10:37:32] INFO root fetch - processPackages [snakemake-interface-storage-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snakemake_interface_storage_plugins-3.1.1.tar.gz tmp/snakemake_interface_storage_plugins-3.2.0.tar.gz --markdown 20240415/s/snakemake-interface-storage-plugins/3.1.1-3.2.0/README.md --exclude *.pyd
+[2024-04-15 10:37:32] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.2.93.tar.gz]
+[2024-04-15 10:37:32] INFO root fetch - processPackages [eirStru]: Remove: archive file [/home/abi/fetcher/tmp/eirStru-0.2.94.tar.gz]
+[2024-04-15 10:37:32] INFO root fetch - main [MainThread]: End processing [eirStru]: success
+[2024-04-15 10:37:32] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.8.tar.gz]
+[2024-04-15 10:37:32] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.9.tar.gz]
+[2024-04-15 10:37:32] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2024-04-15 10:37:32] INFO root fetch - processPackages [radical.utils]: Remove: archive file [/home/abi/fetcher/tmp/radical.utils-1.9.0.tar.gz]
+[2024-04-15 10:37:32] INFO root fetch - processPackages [radical.utils]: Remove: archive file [/home/abi/fetcher/tmp/radical.utils-1.9.1.tar.gz]
+[2024-04-15 10:37:32] INFO root fetch - main [MainThread]: End processing [radical.utils]: success
+[2024-04-15 10:37:32] INFO root fetch - processPackages [snakemake-interface-storage-plugins]: Remove: archive file [/home/abi/fetcher/tmp/snakemake_interface_storage_plugins-3.1.1.tar.gz]
+[2024-04-15 10:37:32] INFO root fetch - processPackages [snakemake-interface-storage-plugins]: Remove: archive file [/home/abi/fetcher/tmp/snakemake_interface_storage_plugins-3.2.0.tar.gz]
+[2024-04-15 10:37:32] INFO root fetch - main [MainThread]: End processing [snakemake-interface-storage-plugins]: success
+[2024-04-15 10:37:32] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-3.7.1.dev2.tar.gz]
+[2024-04-15 10:37:32] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-3.8.1.dev1.tar.gz]
+[2024-04-15 10:37:32] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2024-04-15 10:37:33] INFO root fetch - processPackages [myRIO-library]: Remove: archive file [/home/abi/fetcher/tmp/myRIO_library-1.3.2.tar.gz]
+[2024-04-15 10:37:33] INFO root fetch - processPackages [myRIO-library]: Remove: archive file [/home/abi/fetcher/tmp/myrio_library-1.3.3.tar.gz]
+[2024-04-15 10:37:33] INFO root fetch - main [MainThread]: End processing [myRIO-library]: success
+[2024-04-15 10:37:33] INFO root fetch - main [MainThread]: Store serial: [22767946]
