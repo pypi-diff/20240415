@@ -2322,3 +2322,33 @@
 [2024-04-15 03:20:19] INFO root fetch - processPackages [moped]: Remove: archive file [/home/abi/fetcher/tmp/moped-1rc1.tar.gz]
 [2024-04-15 03:20:19] INFO root fetch - main [MainThread]: End processing [moped]: success
 [2024-04-15 03:20:19] INFO root fetch - main [MainThread]: Store serial: [22764312]
+[2024-04-15 03:22:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22764312]
+[2024-04-15 03:22:27] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-15 03:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modulo-alejandrotafer
+[2024-04-15 03:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alejandrotafer
+[2024-04-15 03:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-events-notify
+[2024-04-15 03:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: batcharray
+[2024-04-15 03:22:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: unifyai
+[2024-04-15 03:22:28] INFO root fetch - processPackages [unifyai]: New version: [0.8.0] Old Version: [0.7.2]
+[2024-04-15 03:22:28] INFO root fetch - processPackages [unifyai]: Downloading https://files.pythonhosted.org/packages/73/2f/306092abdcfaf19a2f64ed6f2513a343b0c2866e06ecca7624f714995bef/unifyai-0.7.2.tar.gz
+[2024-04-15 03:22:28] WARNING root fetch - processPackages [alejandrotafer]: Skipping, unable to determine old version
+[2024-04-15 03:22:28] INFO root fetch - main [MainThread]: End processing [alejandrotafer] error
+[2024-04-15 03:22:28] WARNING root fetch - processPackages [modulo-alejandrotafer]: Skipping, unable to determine old version
+[2024-04-15 03:22:28] INFO root fetch - main [MainThread]: End processing [modulo-alejandrotafer] error
+[2024-04-15 03:22:28] WARNING root fetch - processPackages [batcharray]: Skipping, unable to determine old version
+[2024-04-15 03:22:28] INFO root fetch - main [MainThread]: End processing [batcharray] error
+[2024-04-15 03:22:28] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.2.98] Old Version: [2.2.97]
+[2024-04-15 03:22:28] INFO root fetch - processPackages [unifyai]: Downloading https://files.pythonhosted.org/packages/4b/39/113fe491b66bb6ba542a55a2a13aadc5738e4e3014b6778bd0f951bdf12a/unifyai-0.8.0.tar.gz
+[2024-04-15 03:22:28] INFO root fetch - processPackages [unifyai]: executing diffoscope
+[2024-04-15 03:22:28] INFO root fetch - processPackages [unifyai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unifyai-0.7.2.tar.gz tmp/unifyai-0.8.0.tar.gz --markdown 20240415/u/unifyai/0.7.2-0.8.0/README.md --exclude *.pyd
+[2024-04-15 03:22:28] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/1d/1f/64cd64b1d993b6532e232b33fc500b99a5ea8f77b68a4e6687b6c31d1907/cdk-events-notify-2.2.97.tar.gz
+[2024-04-15 03:22:28] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b7/7d/50ca1bff3db85ede28826faf2d11bb449770cac87fe89483636e0fe57d94/cdk-events-notify-2.2.98.tar.gz
+[2024-04-15 03:22:29] INFO root fetch - processPackages [unifyai]: Remove: archive file [/home/abi/fetcher/tmp/unifyai-0.7.2.tar.gz]
+[2024-04-15 03:22:29] INFO root fetch - processPackages [unifyai]: Remove: archive file [/home/abi/fetcher/tmp/unifyai-0.8.0.tar.gz]
+[2024-04-15 03:22:29] INFO root fetch - main [MainThread]: End processing [unifyai]: success
+[2024-04-15 03:22:29] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2024-04-15 03:22:29] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.2.97.tar.gz tmp/cdk-events-notify-2.2.98.tar.gz --markdown 20240415/c/cdk-events-notify/2.2.97-2.2.98/README.md --exclude *.pyd
+[2024-04-15 03:22:29] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.97.tar.gz]
+[2024-04-15 03:22:29] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.98.tar.gz]
+[2024-04-15 03:22:29] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2024-04-15 03:22:29] INFO root fetch - main [MainThread]: Store serial: [22764332]
