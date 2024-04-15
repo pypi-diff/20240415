@@ -19770,3 +19770,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 15:16:24] INFO root fetch - processPackages [vantage6-server]: Remove: archive file [/home/abi/fetcher/tmp/vantage6-server-4.4.0rc3.tar.gz]
 [2024-04-15 15:16:24] INFO root fetch - main [MainThread]: End processing [vantage6-server]: success
 [2024-04-15 15:16:24] INFO root fetch - main [MainThread]: Store serial: [22771627]
+[2024-04-15 15:18:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22771627]
+[2024-04-15 15:18:33] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-15 15:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: signapse
+[2024-04-15 15:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: asapo
+[2024-04-15 15:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: otf-addons-aws
+[2024-04-15 15:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: skaff-pirate-speak-configurable
+[2024-04-15 15:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: panthon
+[2024-04-15 15:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wansuite
+[2024-04-15 15:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: datumaro
+[2024-04-15 15:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: HiveWebCrawler
+[2024-04-15 15:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: quartz-solar-forecast
+[2024-04-15 15:18:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: monisha
+[2024-04-15 15:18:34] INFO root fetch - processPackages [panthon]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-15 15:18:34] INFO root fetch - processPackages [HiveWebCrawler]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-15 15:18:34] INFO root fetch - processPackages [wansuite]: New version: [9.0] Old Version: [8.0]
+[2024-04-15 15:18:34] WARNING root fetch - processPackages [signapse]: Skipping, unable to determine old version
+[2024-04-15 15:18:34] INFO root fetch - main [MainThread]: End processing [signapse] error
+[2024-04-15 15:18:34] INFO root fetch - processPackages [quartz-solar-forecast]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-15 15:18:34] WARNING root fetch - processPackages [skaff-pirate-speak-configurable]: Skipping, unable to determine old version
+[2024-04-15 15:18:34] INFO root fetch - main [MainThread]: End processing [skaff-pirate-speak-configurable] error
+[2024-04-15 15:18:34] INFO root fetch - processPackages [datumaro]: New version: [1.6.1rc1] Old Version: [1.6.0rc1]
+[2024-04-15 15:18:34] WARNING root fetch - processPackages [asapo]: Skipping, unable to determine old version
+[2024-04-15 15:18:34] INFO root fetch - main [MainThread]: End processing [asapo] error
+[2024-04-15 15:18:34] INFO root fetch - processPackages [panthon]: Downloading https://files.pythonhosted.org/packages/5b/be/637697a1a360b2abf15d82ef62ff6af3b5b70b45f082f7344cf49df07c61/panthon-0.2.3.tar.gz
+[2024-04-15 15:18:34] WARNING root fetch - processPackages [monisha]: Skipping, unable to determine old version
+[2024-04-15 15:18:34] INFO root fetch - main [MainThread]: End processing [monisha] error
+[2024-04-15 15:18:34] INFO root fetch - processPackages [otf-addons-aws]: New version: [24.9.1] Old Version: [24.9.0]
+[2024-04-15 15:18:34] INFO root fetch - processPackages [quartz-solar-forecast]: Downloading https://files.pythonhosted.org/packages/0d/a8/ee147294e81be2e9274d941b626981b0df1b12acfaf2ae02d8331d025398/quartz_solar_forecast-1.0.8.tar.gz
+[2024-04-15 15:18:34] INFO root fetch - processPackages [wansuite]: Downloading https://files.pythonhosted.org/packages/d3/fa/eab6e310e7086430268379e8a9897466d745699cd46c24db24e5a93444cd/wansuite-8.0.tar.gz
+[2024-04-15 15:18:34] INFO root fetch - processPackages [datumaro]: Downloading https://files.pythonhosted.org/packages/39/66/6326718eb0146743e6d525cb100ea966a473382f4f45cd6a8babd48b63cc/datumaro-1.6.0rc1.tar.gz
+[2024-04-15 15:18:34] INFO root fetch - processPackages [HiveWebCrawler]: Downloading https://files.pythonhosted.org/packages/63/09/2c52227d29ddd6013969b265afdb521aa29fddc23a58379540f6cf079f4d/hivewebcrawler-0.0.1.tar.gz
+[2024-04-15 15:18:34] INFO root fetch - processPackages [otf-addons-aws]: Downloading https://files.pythonhosted.org/packages/48/3a/91ab4aa922807c70070f16b72e096623bdeca0e6af1bb2dac3e032001cac/otf-addons-aws-24.9.0.tar.gz
+[2024-04-15 15:18:34] INFO root fetch - processPackages [quartz-solar-forecast]: Downloading https://files.pythonhosted.org/packages/0e/b9/7ccd44f74671069cbf95adc294da069634730309a62687625a2d685c17e7/quartz_solar_forecast-1.0.9.tar.gz
+[2024-04-15 15:18:34] INFO root fetch - processPackages [datumaro]: Downloading https://files.pythonhosted.org/packages/ce/18/46a63d414a9f28ac8f9bc54e79bef43411f1c7d4333384d04debeb791128/datumaro-1.6.1rc1.tar.gz
+[2024-04-15 15:18:34] INFO root fetch - processPackages [panthon]: Downloading https://files.pythonhosted.org/packages/de/e7/a0ac953f85b99b770ab79a67dd4791f803957d0d6b1d9a24df827dcfe4e7/panthon-0.2.4.tar.gz
+[2024-04-15 15:18:34] INFO root fetch - processPackages [wansuite]: Downloading https://files.pythonhosted.org/packages/37/74/7622080d878dd0cce7d00a1ed8852325164aa9d9158cc26a52f8caa9e235/wansuite-9.0.tar.gz
+[2024-04-15 15:18:34] INFO root fetch - processPackages [quartz-solar-forecast]: executing diffoscope
+[2024-04-15 15:18:34] INFO root fetch - processPackages [quartz-solar-forecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quartz_solar_forecast-1.0.8.tar.gz tmp/quartz_solar_forecast-1.0.9.tar.gz --markdown 20240415/q/quartz-solar-forecast/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-15 15:18:34] INFO root fetch - processPackages [HiveWebCrawler]: Downloading https://files.pythonhosted.org/packages/a5/f3/ac20334d05e888b988c81bdae6dda1500f34867e6239daffd739b47fb990/hivewebcrawler-0.0.2.tar.gz
+[2024-04-15 15:18:34] INFO root fetch - processPackages [wansuite]: executing diffoscope
+[2024-04-15 15:18:34] INFO root fetch - processPackages [wansuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wansuite-8.0.tar.gz tmp/wansuite-9.0.tar.gz --markdown 20240415/w/wansuite/8.0-9.0/README.md --exclude *.pyd
+[2024-04-15 15:18:34] INFO root fetch - processPackages [datumaro]: executing diffoscope
+[2024-04-15 15:18:34] INFO root fetch - processPackages [datumaro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datumaro-1.6.0rc1.tar.gz tmp/datumaro-1.6.1rc1.tar.gz --markdown 20240415/d/datumaro/1.6.0rc1-1.6.1rc1/README.md --exclude *.pyd
+[2024-04-15 15:18:34] INFO root fetch - processPackages [HiveWebCrawler]: executing diffoscope
+[2024-04-15 15:18:34] INFO root fetch - processPackages [HiveWebCrawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hivewebcrawler-0.0.1.tar.gz tmp/hivewebcrawler-0.0.2.tar.gz --markdown 20240415/H/HiveWebCrawler/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-15 15:18:34] INFO root fetch - processPackages [otf-addons-aws]: Downloading https://files.pythonhosted.org/packages/d4/6e/ba37bf409e1ae96be4575d031aa3764b18d8396bba18a3a84c1ed56ef85f/otf-addons-aws-24.9.1.tar.gz
+[2024-04-15 15:18:34] INFO root fetch - processPackages [panthon]: executing diffoscope
+[2024-04-15 15:18:34] INFO root fetch - processPackages [panthon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panthon-0.2.3.tar.gz tmp/panthon-0.2.4.tar.gz --markdown 20240415/p/panthon/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-15 15:18:35] INFO root fetch - processPackages [otf-addons-aws]: executing diffoscope
+[2024-04-15 15:18:35] INFO root fetch - processPackages [otf-addons-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otf-addons-aws-24.9.0.tar.gz tmp/otf-addons-aws-24.9.1.tar.gz --markdown 20240415/o/otf-addons-aws/24.9.0-24.9.1/README.md --exclude *.pyd
+[2024-04-15 15:18:35] INFO root fetch - processPackages [quartz-solar-forecast]: Remove: archive file [/home/abi/fetcher/tmp/quartz_solar_forecast-1.0.8.tar.gz]
+[2024-04-15 15:18:35] INFO root fetch - processPackages [quartz-solar-forecast]: Remove: archive file [/home/abi/fetcher/tmp/quartz_solar_forecast-1.0.9.tar.gz]
+[2024-04-15 15:18:35] INFO root fetch - main [MainThread]: End processing [quartz-solar-forecast]: success
+[2024-04-15 15:18:35] INFO root fetch - processPackages [HiveWebCrawler]: Remove: archive file [/home/abi/fetcher/tmp/hivewebcrawler-0.0.1.tar.gz]
+[2024-04-15 15:18:35] INFO root fetch - processPackages [HiveWebCrawler]: Remove: archive file [/home/abi/fetcher/tmp/hivewebcrawler-0.0.2.tar.gz]
+[2024-04-15 15:18:35] INFO root fetch - main [MainThread]: End processing [HiveWebCrawler]: success
+[2024-04-15 15:18:35] INFO root fetch - processPackages [wansuite]: Remove: archive file [/home/abi/fetcher/tmp/wansuite-8.0.tar.gz]
+[2024-04-15 15:18:35] INFO root fetch - processPackages [wansuite]: Remove: archive file [/home/abi/fetcher/tmp/wansuite-9.0.tar.gz]
+[2024-04-15 15:18:35] INFO root fetch - main [MainThread]: End processing [wansuite]: success
+[2024-04-15 15:18:35] INFO root fetch - processPackages [otf-addons-aws]: Remove: archive file [/home/abi/fetcher/tmp/otf-addons-aws-24.9.0.tar.gz]
+[2024-04-15 15:18:35] INFO root fetch - processPackages [otf-addons-aws]: Remove: archive file [/home/abi/fetcher/tmp/otf-addons-aws-24.9.1.tar.gz]
+[2024-04-15 15:18:35] INFO root fetch - main [MainThread]: End processing [otf-addons-aws]: success
+[2024-04-15 15:18:36] INFO root fetch - processPackages [panthon]: Remove: archive file [/home/abi/fetcher/tmp/panthon-0.2.3.tar.gz]
+[2024-04-15 15:18:36] INFO root fetch - processPackages [panthon]: Remove: archive file [/home/abi/fetcher/tmp/panthon-0.2.4.tar.gz]
+[2024-04-15 15:18:36] INFO root fetch - main [MainThread]: End processing [panthon]: success
+[2024-04-15 15:18:37] INFO root fetch - processPackages [datumaro]: Remove: archive file [/home/abi/fetcher/tmp/datumaro-1.6.0rc1.tar.gz]
+[2024-04-15 15:18:37] INFO root fetch - processPackages [datumaro]: Remove: archive file [/home/abi/fetcher/tmp/datumaro-1.6.1rc1.tar.gz]
+[2024-04-15 15:18:37] INFO root fetch - main [MainThread]: End processing [datumaro]: success
+[2024-04-15 15:18:37] INFO root fetch - main [MainThread]: Store serial: [22771672]
