@@ -2575,3 +2575,24 @@
 [2024-04-15 03:46:14] INFO root fetch - processPackages [tree-sitter-cpp]: Remove: archive file [/home/abi/fetcher/tmp/tree_sitter_cpp-0.22.0-cp38-abi3-win_amd64.whl.zip]
 [2024-04-15 03:46:14] INFO root fetch - main [MainThread]: End processing [tree-sitter-cpp]: success
 [2024-04-15 03:46:14] INFO root fetch - main [MainThread]: Store serial: [22764448]
+[2024-04-15 03:48:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22764448]
+[2024-04-15 03:48:22] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-15 03:48:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: drf-error-handler
+[2024-04-15 03:48:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyontoenv
+[2024-04-15 03:48:22] INFO root fetch - processPackages [pyontoenv]: New version: [0.1.4a4] Old Version: [0.1.4a3]
+[2024-04-15 03:48:22] INFO root fetch - processPackages [pyontoenv]: Downloading https://files.pythonhosted.org/packages/f9/45/bddc3096c4206a2ebe77167eb5e77e729965739d87768eec5c168d1f43ea/pyontoenv-0.1.4a3.tar.gz
+[2024-04-15 03:48:22] INFO root fetch - processPackages [drf-error-handler]: New version: [0.14.3] Old Version: [0.14.2]
+[2024-04-15 03:48:23] INFO root fetch - processPackages [drf-error-handler]: Downloading https://files.pythonhosted.org/packages/78/2e/f8ef62e99b37368bdd7fcfe34c97d2b4a6846e6504d891c0776d6364237f/drf_error_handler-0.14.2.tar.gz
+[2024-04-15 03:48:23] INFO root fetch - processPackages [pyontoenv]: Downloading https://files.pythonhosted.org/packages/bd/fc/c3092010941794ded708a6019414431c400ce57d39bcfe555970bc1d6b01/pyontoenv-0.1.4a4.tar.gz
+[2024-04-15 03:48:23] INFO root fetch - processPackages [drf-error-handler]: Downloading https://files.pythonhosted.org/packages/1d/a9/391f96b460d2a5de12f731a91ca9a84baa0977b55593c249df72c67ce689/drf_error_handler-0.14.3.tar.gz
+[2024-04-15 03:48:23] INFO root fetch - processPackages [drf-error-handler]: executing diffoscope
+[2024-04-15 03:48:23] INFO root fetch - processPackages [drf-error-handler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf_error_handler-0.14.2.tar.gz tmp/drf_error_handler-0.14.3.tar.gz --markdown 20240415/d/drf-error-handler/0.14.2-0.14.3/README.md --exclude *.pyd
+[2024-04-15 03:48:23] INFO root fetch - processPackages [pyontoenv]: executing diffoscope
+[2024-04-15 03:48:23] INFO root fetch - processPackages [pyontoenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyontoenv-0.1.4a3.tar.gz tmp/pyontoenv-0.1.4a4.tar.gz --markdown 20240415/p/pyontoenv/0.1.4a3-0.1.4a4/README.md --exclude *.pyd
+[2024-04-15 03:48:24] INFO root fetch - processPackages [drf-error-handler]: Remove: archive file [/home/abi/fetcher/tmp/drf_error_handler-0.14.2.tar.gz]
+[2024-04-15 03:48:24] INFO root fetch - processPackages [drf-error-handler]: Remove: archive file [/home/abi/fetcher/tmp/drf_error_handler-0.14.3.tar.gz]
+[2024-04-15 03:48:24] INFO root fetch - main [MainThread]: End processing [drf-error-handler]: success
+[2024-04-15 03:48:24] INFO root fetch - processPackages [pyontoenv]: Remove: archive file [/home/abi/fetcher/tmp/pyontoenv-0.1.4a3.tar.gz]
+[2024-04-15 03:48:24] INFO root fetch - processPackages [pyontoenv]: Remove: archive file [/home/abi/fetcher/tmp/pyontoenv-0.1.4a4.tar.gz]
+[2024-04-15 03:48:24] INFO root fetch - main [MainThread]: End processing [pyontoenv]: success
+[2024-04-15 03:48:24] INFO root fetch - main [MainThread]: Store serial: [22764454]
