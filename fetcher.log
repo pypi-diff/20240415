@@ -19113,3 +19113,135 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 14:57:26] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.5.1.dev83-py3-none-any.whl.zip]
 [2024-04-15 14:57:26] INFO root fetch - main [MainThread]: End processing [assemblyline-ui]: success
 [2024-04-15 14:57:26] INFO root fetch - main [MainThread]: Store serial: [22771329]
+[2024-04-15 14:59:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22771329]
+[2024-04-15 14:59:34] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2024-04-15 14:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: assemblyline-v4-service
+[2024-04-15 14:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: large-image-source-tiff
+[2024-04-15 14:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TrajAtlas
+[2024-04-15 14:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datamana
+[2024-04-15 14:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-flex-report
+[2024-04-15 14:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: assemblyline
+[2024-04-15 14:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ParendumLib
+[2024-04-15 14:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: large-image-source-tifffile
+[2024-04-15 14:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: assemblyline-core
+[2024-04-15 14:59:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: clovers-apscheduler
+[2024-04-15 14:59:35] INFO root fetch - processPackages [clovers-apscheduler]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-15 14:59:35] INFO root fetch - processPackages [ParendumLib]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-15 14:59:35] INFO root fetch - processPackages [django-flex-report]: New version: [0.6.7] Old Version: [0.6.6]
+[2024-04-15 14:59:35] INFO root fetch - processPackages [datamana]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-15 14:59:35] INFO root fetch - processPackages [TrajAtlas]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-15 14:59:35] ERROR root fetch - processPackages [clovers-apscheduler]: Unable to fetch info: No such project/version 'clovers-apscheduler' 0.1.0
+[2024-04-15 14:59:35] INFO root fetch - processPackages [clovers-apscheduler]: Start processing: ParendumLib
+[2024-04-15 14:59:35] INFO root fetch - main [MainThread]: End processing [clovers-apscheduler] error
+[2024-04-15 14:59:35] INFO root fetch - processPackages [large-image-source-tifffile]: New version: [1.28.2.dev4] Old Version: [1.28.2.dev2]
+[2024-04-15 14:59:35] INFO root fetch - processPackages [assemblyline-v4-service]: New version: [4.5.1.dev83] Old Version: [4.5.1.dev82]
+[2024-04-15 14:59:35] INFO root fetch - processPackages [ParendumLib]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-15 14:59:35] INFO root fetch - processPackages [large-image-source-tiff]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-04-15 14:59:35] INFO root fetch - processPackages [assemblyline-core]: New version: [4.5.1.dev83] Old Version: [4.5.1.dev82]
+[2024-04-15 14:59:35] INFO root fetch - processPackages [assemblyline]: New version: [4.5.1.dev83] Old Version: [4.5.1.dev82]
+[2024-04-15 14:59:35] INFO root fetch - processPackages [ParendumLib]: Downloading https://files.pythonhosted.org/packages/9e/57/9c5dcbd5ac51d99d65085c128e28d689340a94b8a348f9b3cd3fac3ff2a4/ParendumLib-0.1.8.tar.gz
+[2024-04-15 14:59:35] INFO root fetch - processPackages [ParendumLib]: Downloading https://files.pythonhosted.org/packages/9e/57/9c5dcbd5ac51d99d65085c128e28d689340a94b8a348f9b3cd3fac3ff2a4/ParendumLib-0.1.8.tar.gz
+[2024-04-15 14:59:35] INFO root fetch - processPackages [django-flex-report]: Downloading https://files.pythonhosted.org/packages/7e/90/f213b56884a595298ea8cdf0fc887534e26833b7aadf1a220b5327750c6d/django-flex-report-0.6.6.tar.gz
+[2024-04-15 14:59:35] INFO root fetch - processPackages [TrajAtlas]: Downloading https://files.pythonhosted.org/packages/e5/f6/5a9c62282fa7b43c2317525bc72a48faf894f0edd02f600aeedcd816d576/TrajAtlas-0.1.3.tar.gz
+[2024-04-15 14:59:35] INFO root fetch - processPackages [datamana]: Downloading https://files.pythonhosted.org/packages/07/8f/5892fb71d433e9cb912abd2571f6516c09b114f68bba4353dfc25fc4f2c2/datamana-0.0.5.tar.gz
+[2024-04-15 14:59:35] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/f4/dc/b80a90565d543747c5145f4a261c57b91599829821665eb7fdf07155a975/assemblyline_v4_service-4.5.1.dev82-py3-none-any.whl
+[2024-04-15 14:59:35] INFO root fetch - processPackages [large-image-source-tifffile]: Downloading https://files.pythonhosted.org/packages/6e/99/ad466897db0e3f4dcd4d95cda9e0b7dcaddde628eee2255ef5831353057e/large-image-source-tifffile-1.28.2.dev2.tar.gz
+[2024-04-15 14:59:35] INFO root fetch - processPackages [large-image-source-tiff]: Downloading https://files.pythonhosted.org/packages/de/d8/11a04e7da12bfb1cea85e4c0ff3b470f2d1e1b4f18bdbc908482765c9bef/large-image-source-tiff-1.9.1.dev6.tar.gz
+[2024-04-15 14:59:35] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/bb/eb/9c422ebf02e22126a664d4399eb9490fd63ff82fa10bb88e340c49d99132/assemblyline-4.5.1.dev82.tar.gz
+[2024-04-15 14:59:35] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/3e/75/19029ef2067178987462572a85d4605272e4e659f3c70b0b9e7de810e88f/assemblyline-core-4.5.1.dev82.tar.gz
+[2024-04-15 14:59:35] INFO root fetch - processPackages [ParendumLib]: Downloading https://files.pythonhosted.org/packages/8b/21/9a6aa3e314b67367ff0ab2ffea5277cff8e76cfc439396c9923c785355a6/ParendumLib-0.1.9.tar.gz
+[2024-04-15 14:59:35] INFO root fetch - processPackages [ParendumLib]: Downloading https://files.pythonhosted.org/packages/8b/21/9a6aa3e314b67367ff0ab2ffea5277cff8e76cfc439396c9923c785355a6/ParendumLib-0.1.9.tar.gz
+[2024-04-15 14:59:35] WARNING root fetch - processPackages [TrajAtlas]: Skipping package: exceeds size limit 12426383>=10485760
+[2024-04-15 14:59:35] INFO root fetch - processPackages [TrajAtlas]: Start processing: large-image-source-vips
+[2024-04-15 14:59:35] INFO root fetch - main [MainThread]: End processing [TrajAtlas] error
+[2024-04-15 14:59:35] INFO root fetch - processPackages [django-flex-report]: Downloading https://files.pythonhosted.org/packages/5f/cd/ed95a1a4758fa0eede8ca035d5bab97b04ac96d352940970f52d0d9c39b9/django-flex-report-0.6.7.tar.gz
+[2024-04-15 14:59:35] INFO root fetch - processPackages [datamana]: Downloading https://files.pythonhosted.org/packages/52/25/9038fda2ce55dd59099059da88467d674d31cbfcbf9848c0edf8b9d27e3e/datamana-0.0.6.tar.gz
+[2024-04-15 14:59:36] INFO root fetch - processPackages [ParendumLib]: executing diffoscope
+[2024-04-15 14:59:36] INFO root fetch - processPackages [ParendumLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ParendumLib-0.1.8.tar.gz tmp/ParendumLib-0.1.9.tar.gz --markdown 20240415/P/ParendumLib/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-15 14:59:36] INFO root fetch - processPackages [ParendumLib]: executing diffoscope
+[2024-04-15 14:59:36] INFO root fetch - processPackages [ParendumLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ParendumLib-0.1.8.tar.gz tmp/ParendumLib-0.1.9.tar.gz --markdown 20240415/P/ParendumLib/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-15 14:59:36] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/53/21/01567b9985e44f20a5563d194edf4c3f29e1578804c9bcca02431d69e2ef/assemblyline_v4_service-4.5.1.dev83-py3-none-any.whl
+[2024-04-15 14:59:36] INFO root fetch - processPackages [large-image-source-tifffile]: Downloading https://files.pythonhosted.org/packages/89/e6/f756edcd75d47d3fa2afb0093dfe62d2237121238dac437524cc5649d8e7/large-image-source-tifffile-1.28.2.dev4.tar.gz
+[2024-04-15 14:59:36] INFO root fetch - processPackages [django-flex-report]: executing diffoscope
+[2024-04-15 14:59:36] INFO root fetch - processPackages [django-flex-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-flex-report-0.6.6.tar.gz tmp/django-flex-report-0.6.7.tar.gz --markdown 20240415/d/django-flex-report/0.6.6-0.6.7/README.md --exclude *.pyd
+[2024-04-15 14:59:36] INFO root fetch - processPackages [datamana]: executing diffoscope
+[2024-04-15 14:59:36] INFO root fetch - processPackages [large-image-source-vips]: New version: [1.28.2.dev4] Old Version: [1.28.2.dev2]
+[2024-04-15 14:59:36] INFO root fetch - processPackages [datamana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamana-0.0.5.tar.gz tmp/datamana-0.0.6.tar.gz --markdown 20240415/d/datamana/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-04-15 14:59:36] INFO root fetch - processPackages [large-image-source-tiff]: Downloading https://files.pythonhosted.org/packages/1d/e4/def78005a865fada3d6d1f1d1b45d1dc76a9ba074c2b7284b81717b67cea/large-image-source-tiff-1.9.1.dev8.tar.gz
+[2024-04-15 14:59:36] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/c9/53/a5d0b963a02fa6de7c56e65eec16458476b10f0ad71184852da1090fa5b9/assemblyline-core-4.5.1.dev83.tar.gz
+[2024-04-15 14:59:36] INFO root fetch - processPackages [assemblyline-v4-service]: executing diffoscope
+[2024-04-15 14:59:36] INFO root fetch - processPackages [assemblyline-v4-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_v4_service-4.5.1.dev82-py3-none-any.whl.zip tmp/assemblyline_v4_service-4.5.1.dev83-py3-none-any.whl.zip --markdown 20240415/a/assemblyline-v4-service/4.5.1.dev82-4.5.1.dev83/README.md --exclude *.pyd
+[2024-04-15 14:59:36] INFO root fetch - processPackages [large-image-source-tifffile]: executing diffoscope
+[2024-04-15 14:59:36] INFO root fetch - processPackages [large-image-source-tifffile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-tifffile-1.28.2.dev2.tar.gz tmp/large-image-source-tifffile-1.28.2.dev4.tar.gz --markdown 20240415/l/large-image-source-tifffile/1.28.2.dev2-1.28.2.dev4/README.md --exclude *.pyd
+[2024-04-15 14:59:36] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/7f/82/9b1c547c8bf4df327c6228ffce739226e761a8ddb20a91510bfe5cf01e3f/assemblyline-4.5.1.dev83.tar.gz
+[2024-04-15 14:59:36] INFO root fetch - processPackages [large-image-source-tiff]: executing diffoscope
+[2024-04-15 14:59:36] INFO root fetch - processPackages [large-image-source-tiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-tiff-1.9.1.dev6.tar.gz tmp/large-image-source-tiff-1.9.1.dev8.tar.gz --markdown 20240415/l/large-image-source-tiff/1.9.1.dev6-1.9.1.dev8/README.md --exclude *.pyd
+[2024-04-15 14:59:36] INFO root fetch - processPackages [large-image-source-vips]: Downloading https://files.pythonhosted.org/packages/34/ae/8729b97ef37521d127b8f308e4800ff1b40e8ef3599fb40c24a4d0afe3bd/large-image-source-vips-1.28.2.dev2.tar.gz
+[2024-04-15 14:59:36] INFO root fetch - processPackages [assemblyline-core]: executing diffoscope
+[2024-04-15 14:59:36] INFO root fetch - processPackages [assemblyline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-core-4.5.1.dev82.tar.gz tmp/assemblyline-core-4.5.1.dev83.tar.gz --markdown 20240415/a/assemblyline-core/4.5.1.dev82-4.5.1.dev83/README.md --exclude *.pyd
+[2024-04-15 14:59:36] INFO root fetch - processPackages [assemblyline]: executing diffoscope
+[2024-04-15 14:59:36] INFO root fetch - processPackages [assemblyline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-4.5.1.dev82.tar.gz tmp/assemblyline-4.5.1.dev83.tar.gz --markdown 20240415/a/assemblyline/4.5.1.dev82-4.5.1.dev83/README.md --exclude *.pyd
+[2024-04-15 14:59:36] INFO root fetch - processPackages [large-image-source-vips]: Downloading https://files.pythonhosted.org/packages/3e/52/a7b61e8dfa5ec1cc2951dbf1c2f032d34257dc7274a99fe41a7514f0575d/large-image-source-vips-1.28.2.dev4.tar.gz
+[2024-04-15 14:59:36] INFO root fetch - processPackages [large-image-source-vips]: executing diffoscope
+[2024-04-15 14:59:36] INFO root fetch - processPackages [large-image-source-vips]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-vips-1.28.2.dev2.tar.gz tmp/large-image-source-vips-1.28.2.dev4.tar.gz --markdown 20240415/l/large-image-source-vips/1.28.2.dev2-1.28.2.dev4/README.md --exclude *.pyd
+[2024-04-15 14:59:36] INFO root fetch - processPackages [ParendumLib]: Remove: archive file [/home/abi/fetcher/tmp/ParendumLib-0.1.8.tar.gz]
+[2024-04-15 14:59:36] INFO root fetch - processPackages [ParendumLib]: Remove: archive file [/home/abi/fetcher/tmp/ParendumLib-0.1.9.tar.gz]
+[2024-04-15 14:59:36] INFO root fetch - processPackages [ParendumLib]: Start processing: mediapipe-nightly
+[2024-04-15 14:59:36] INFO root fetch - main [MainThread]: End processing [ParendumLib]: success
+[2024-04-15 14:59:37] INFO root fetch - processPackages [ParendumLib]: Start processing: large-image-source-zarr
+[2024-04-15 14:59:37] INFO root fetch - main [MainThread]: End processing [ParendumLib]: success
+[2024-04-15 14:59:37] INFO root fetch - processPackages [datamana]: Remove: archive file [/home/abi/fetcher/tmp/datamana-0.0.5.tar.gz]
+[2024-04-15 14:59:37] INFO root fetch - processPackages [datamana]: Remove: archive file [/home/abi/fetcher/tmp/datamana-0.0.6.tar.gz]
+[2024-04-15 14:59:37] INFO root fetch - processPackages [datamana]: Start processing: testpack24
+[2024-04-15 14:59:37] INFO root fetch - main [MainThread]: End processing [datamana]: success
+[2024-04-15 14:59:37] INFO root fetch - processPackages [mediapipe-nightly]: New version: [0.10.13.post20240415] Old Version: [0.10.13.post20240414]
+[2024-04-15 14:59:37] INFO root fetch - processPackages [testpack24]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-04-15 14:59:37] INFO root fetch - processPackages [large-image-source-zarr]: New version: [1.28.2.dev4] Old Version: [1.28.2.dev2]
+[2024-04-15 14:59:37] INFO root fetch - processPackages [large-image-source-tifffile]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-tifffile-1.28.2.dev2.tar.gz]
+[2024-04-15 14:59:37] INFO root fetch - processPackages [large-image-source-tifffile]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-tifffile-1.28.2.dev4.tar.gz]
+[2024-04-15 14:59:37] INFO root fetch - processPackages [large-image-source-tifffile]: Start processing: waylay-sdk
+[2024-04-15 14:59:37] INFO root fetch - main [MainThread]: End processing [large-image-source-tifffile]: success
+[2024-04-15 14:59:37] INFO root fetch - processPackages [django-flex-report]: Remove: archive file [/home/abi/fetcher/tmp/django-flex-report-0.6.6.tar.gz]
+[2024-04-15 14:59:37] INFO root fetch - processPackages [django-flex-report]: Remove: archive file [/home/abi/fetcher/tmp/django-flex-report-0.6.7.tar.gz]
+[2024-04-15 14:59:37] INFO root fetch - main [MainThread]: End processing [django-flex-report]: success
+[2024-04-15 14:59:37] INFO root fetch - processPackages [large-image-source-tiff]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-tiff-1.9.1.dev6.tar.gz]
+[2024-04-15 14:59:37] INFO root fetch - processPackages [large-image-source-tiff]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-tiff-1.9.1.dev8.tar.gz]
+[2024-04-15 14:59:37] INFO root fetch - main [MainThread]: End processing [large-image-source-tiff]: success
+[2024-04-15 14:59:37] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.5.1.dev82-py3-none-any.whl.zip]
+[2024-04-15 14:59:37] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.5.1.dev83-py3-none-any.whl.zip]
+[2024-04-15 14:59:37] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
+[2024-04-15 14:59:37] INFO root fetch - processPackages [waylay-sdk]: New version: [2024.4.15] Old Version: [0.0.6]
+[2024-04-15 14:59:37] INFO root fetch - processPackages [mediapipe-nightly]: Downloading https://files.pythonhosted.org/packages/35/01/bf113a235a452437d79f820894aed91bc862f6b5a31da39e7f14b6b19ec1/mediapipe_nightly-0.10.13.post20240414-cp39-cp39-macosx_11_0_x86_64.whl
+[2024-04-15 14:59:37] INFO root fetch - processPackages [testpack24]: Downloading https://files.pythonhosted.org/packages/e5/c8/b716a25f3736906fd85fb0f3317a3d671fbee93a43e1bb7c6d2647dd429f/testpack24-0.0.9.tar.gz
+[2024-04-15 14:59:37] WARNING root fetch - processPackages [mediapipe-nightly]: Skipping package: exceeds size limit 49965740>=10485760
+[2024-04-15 14:59:37] INFO root fetch - main [MainThread]: End processing [mediapipe-nightly] error
+[2024-04-15 14:59:37] INFO root fetch - processPackages [large-image-source-zarr]: Downloading https://files.pythonhosted.org/packages/20/41/0343b7c5809b849651403595efb5fbdc476b70396f9a82943efa84fd0a13/large-image-source-zarr-1.28.2.dev2.tar.gz
+[2024-04-15 14:59:37] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.5.1.dev82.tar.gz]
+[2024-04-15 14:59:37] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.5.1.dev83.tar.gz]
+[2024-04-15 14:59:37] INFO root fetch - main [MainThread]: End processing [assemblyline-core]: success
+[2024-04-15 14:59:37] INFO root fetch - processPackages [waylay-sdk]: Downloading https://files.pythonhosted.org/packages/c1/d4/081dfa5804eba3d27d4e7a988899a8c9cb221d982b6b8ae3078a978284b5/waylay-sdk-0.0.6.tar.gz
+[2024-04-15 14:59:37] INFO root fetch - processPackages [large-image-source-vips]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-vips-1.28.2.dev2.tar.gz]
+[2024-04-15 14:59:37] INFO root fetch - processPackages [large-image-source-vips]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-vips-1.28.2.dev4.tar.gz]
+[2024-04-15 14:59:37] INFO root fetch - main [MainThread]: End processing [large-image-source-vips]: success
+[2024-04-15 14:59:37] INFO root fetch - processPackages [large-image-source-zarr]: Downloading https://files.pythonhosted.org/packages/aa/a8/6c1a2cb6b36c0e6c1516db0f2b8671230db0f4851d65b6604f0987a09bef/large-image-source-zarr-1.28.2.dev4.tar.gz
+[2024-04-15 14:59:37] INFO root fetch - processPackages [testpack24]: Downloading https://files.pythonhosted.org/packages/5d/f9/73b4f5a5b2756c52e82803029c7fbf535627a1654a2f7217262b6af2bf25/testpack24-0.1.0.tar.gz
+[2024-04-15 14:59:37] INFO root fetch - processPackages [testpack24]: executing diffoscope
+[2024-04-15 14:59:37] INFO root fetch - processPackages [testpack24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testpack24-0.0.9.tar.gz tmp/testpack24-0.1.0.tar.gz --markdown 20240415/t/testpack24/0.0.9-0.1.0/README.md --exclude *.pyd
+[2024-04-15 14:59:37] INFO root fetch - processPackages [waylay-sdk]: Downloading https://files.pythonhosted.org/packages/ae/dc/1578fd773d2299e8d4dbe45fcaf61e7cc7cd8d101ab71e0c934dfbfeda5a/waylay_sdk-2024.4.15.tar.gz
+[2024-04-15 14:59:37] INFO root fetch - processPackages [large-image-source-zarr]: executing diffoscope
+[2024-04-15 14:59:37] INFO root fetch - processPackages [large-image-source-zarr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-source-zarr-1.28.2.dev2.tar.gz tmp/large-image-source-zarr-1.28.2.dev4.tar.gz --markdown 20240415/l/large-image-source-zarr/1.28.2.dev2-1.28.2.dev4/README.md --exclude *.pyd
+[2024-04-15 14:59:37] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.5.1.dev82.tar.gz]
+[2024-04-15 14:59:37] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.5.1.dev83.tar.gz]
+[2024-04-15 14:59:37] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
+[2024-04-15 14:59:38] INFO root fetch - processPackages [waylay-sdk]: executing diffoscope
+[2024-04-15 14:59:38] INFO root fetch - processPackages [waylay-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waylay-sdk-0.0.6.tar.gz tmp/waylay_sdk-2024.4.15.tar.gz --markdown 20240415/w/waylay-sdk/0.0.6-2024.4.15/README.md --exclude *.pyd
+[2024-04-15 14:59:38] INFO root fetch - processPackages [testpack24]: Remove: archive file [/home/abi/fetcher/tmp/testpack24-0.0.9.tar.gz]
+[2024-04-15 14:59:38] INFO root fetch - processPackages [testpack24]: Remove: archive file [/home/abi/fetcher/tmp/testpack24-0.1.0.tar.gz]
+[2024-04-15 14:59:38] INFO root fetch - main [MainThread]: End processing [testpack24]: success
+[2024-04-15 14:59:38] INFO root fetch - processPackages [large-image-source-zarr]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-zarr-1.28.2.dev2.tar.gz]
+[2024-04-15 14:59:38] INFO root fetch - processPackages [large-image-source-zarr]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-zarr-1.28.2.dev4.tar.gz]
+[2024-04-15 14:59:38] INFO root fetch - main [MainThread]: End processing [large-image-source-zarr]: success
+[2024-04-15 14:59:38] INFO root fetch - processPackages [waylay-sdk]: Remove: archive file [/home/abi/fetcher/tmp/waylay-sdk-0.0.6.tar.gz]
+[2024-04-15 14:59:38] INFO root fetch - processPackages [waylay-sdk]: Remove: archive file [/home/abi/fetcher/tmp/waylay_sdk-2024.4.15.tar.gz]
+[2024-04-15 14:59:38] INFO root fetch - main [MainThread]: End processing [waylay-sdk]: success
+[2024-04-15 14:59:38] INFO root fetch - main [MainThread]: Store serial: [22771381]
