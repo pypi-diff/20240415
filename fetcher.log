@@ -2692,3 +2692,18 @@
 [2024-04-15 03:57:06] WARNING root fetch - processPackages [cyclomonitor]: Skipping, unable to determine old version
 [2024-04-15 03:57:06] INFO root fetch - main [MainThread]: End processing [cyclomonitor] error
 [2024-04-15 03:57:06] INFO root fetch - main [MainThread]: Store serial: [22764486]
+[2024-04-15 03:59:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22764486]
+[2024-04-15 03:59:15] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-15 03:59:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: maling
+[2024-04-15 03:59:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-distribution-example
+[2024-04-15 03:59:15] ERROR root fetch - processPackages [python-distribution-example]: Unable to get metadata: No such project 'python-distribution-example'
+[2024-04-15 03:59:15] INFO root fetch - main [MainThread]: End processing [python-distribution-example] error
+[2024-04-15 03:59:15] INFO root fetch - processPackages [maling]: New version: [2.1.6] Old Version: [2.1.5]
+[2024-04-15 03:59:15] INFO root fetch - processPackages [maling]: Downloading https://files.pythonhosted.org/packages/67/2f/76e8371b1c4e50bd9d01d2b9c96052c675149deea80c7da58a600c2f6c61/maling-2.1.5.tar.gz
+[2024-04-15 03:59:15] INFO root fetch - processPackages [maling]: Downloading https://files.pythonhosted.org/packages/e1/e5/e5c2b7e7324073c2668281ead40fd1e0232a7d2da11ab8ac3f11fecd8b19/maling-2.1.6.tar.gz
+[2024-04-15 03:59:15] INFO root fetch - processPackages [maling]: executing diffoscope
+[2024-04-15 03:59:15] INFO root fetch - processPackages [maling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maling-2.1.5.tar.gz tmp/maling-2.1.6.tar.gz --markdown 20240415/m/maling/2.1.5-2.1.6/README.md --exclude *.pyd
+[2024-04-15 03:59:17] INFO root fetch - processPackages [maling]: Remove: archive file [/home/abi/fetcher/tmp/maling-2.1.5.tar.gz]
+[2024-04-15 03:59:17] INFO root fetch - processPackages [maling]: Remove: archive file [/home/abi/fetcher/tmp/maling-2.1.6.tar.gz]
+[2024-04-15 03:59:17] INFO root fetch - main [MainThread]: End processing [maling]: success
+[2024-04-15 03:59:17] INFO root fetch - main [MainThread]: Store serial: [22764492]
