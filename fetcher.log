@@ -24162,3 +24162,72 @@ AssertionError: tmp/pyblindrl-0.0.2rc57.post1.tar.gz does not exist
 [2024-04-15 17:13:07] INFO root fetch - processPackages [paasta-tools]: Remove: archive file [/home/abi/fetcher/tmp/paasta-tools-0.92.1.tar.gz]
 [2024-04-15 17:13:07] INFO root fetch - main [MainThread]: End processing [paasta-tools]: success
 [2024-04-15 17:13:07] INFO root fetch - main [MainThread]: Store serial: [22773505]
+[2024-04-15 17:15:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22773505]
+[2024-04-15 17:15:15] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-15 17:15:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zhmiscellany
+[2024-04-15 17:15:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: inuits-python-logging-loki
+[2024-04-15 17:15:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hapi-schema
+[2024-04-15 17:15:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ebi-eva-common-pyutils
+[2024-04-15 17:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eox-tenant
+[2024-04-15 17:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zou
+[2024-04-15 17:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jsonPagination
+[2024-04-15 17:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mkdocs-frontmatter-plugin
+[2024-04-15 17:15:16] WARNING root fetch - processPackages [mkdocs-frontmatter-plugin]: Skipping, unable to determine old version
+[2024-04-15 17:15:16] INFO root fetch - main [MainThread]: End processing [mkdocs-frontmatter-plugin] error
+[2024-04-15 17:15:16] INFO root fetch - processPackages [zhmiscellany]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-04-15 17:15:16] INFO root fetch - processPackages [inuits-python-logging-loki]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-15 17:15:16] INFO root fetch - processPackages [hapi-schema]: New version: [0.7.0] Old Version: [0.6.2]
+[2024-04-15 17:15:16] INFO root fetch - processPackages [jsonPagination]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-15 17:15:16] INFO root fetch - processPackages [ebi-eva-common-pyutils]: New version: [0.6.6] Old Version: [0.6.5]
+[2024-04-15 17:15:16] INFO root fetch - processPackages [eox-tenant]: New version: [9.2.1] Old Version: [9.2.0]
+[2024-04-15 17:15:16] INFO root fetch - processPackages [zhmiscellany]: Downloading https://files.pythonhosted.org/packages/26/40/8d3db9c842c67334f819cfe9c6bee692b0a8bb4c6e5e95f8e636a24041c5/zhmiscellany-1.9.8-py3-none-any.whl
+[2024-04-15 17:15:16] INFO root fetch - processPackages [zou]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-15 17:15:16] INFO root fetch - processPackages [inuits-python-logging-loki]: Downloading https://files.pythonhosted.org/packages/51/9d/b28c4c05442bfb84b8c0a1eccf1e4e5ead7f9d679bd3cf5ccdaeada3ae2a/inuits-python-logging-loki-1.1.3.tar.gz
+[2024-04-15 17:15:16] INFO root fetch - processPackages [hapi-schema]: Downloading https://files.pythonhosted.org/packages/01/a8/880b13fb1fbaae19556dd00cf21f0078694e81bd00ac71a54bd20f6dce78/hapi_schema-0.6.2.tar.gz
+[2024-04-15 17:15:16] INFO root fetch - processPackages [jsonPagination]: Downloading https://files.pythonhosted.org/packages/ea/48/2f06bbf56da9c09061f2c676bb09336d327b464a51794fcaaac924e86a5e/jsonPagination-0.2.3.tar.gz
+[2024-04-15 17:15:16] INFO root fetch - processPackages [ebi-eva-common-pyutils]: Downloading https://files.pythonhosted.org/packages/2d/18/590e2bfa30803989c85a3f8d1840d62f0390c16a18c0cf5423c43430eaa7/ebi_eva_common_pyutils-0.6.5.tar.gz
+[2024-04-15 17:15:16] INFO root fetch - processPackages [eox-tenant]: Downloading https://files.pythonhosted.org/packages/d5/fe/4e7f16d42481c11423ee9851b6302b5bcd190d06aa865c4481a2e75bfe15/eox-tenant-9.2.0.tar.gz
+[2024-04-15 17:15:16] INFO root fetch - processPackages [zou]: Downloading https://files.pythonhosted.org/packages/3d/26/8a5c822e737ac50a4f66516c5b80f6cb5a2ce0b5258e3c904aa5abae876c/zou-0.9.8-py2.py3-none-any.whl
+[2024-04-15 17:15:16] INFO root fetch - processPackages [zhmiscellany]: Downloading https://files.pythonhosted.org/packages/79/b3/27ca9283264ce360742e99b6961c1bb9bac35b01872f8bb2629401a76d6e/zhmiscellany-1.9.9-py3-none-any.whl
+[2024-04-15 17:15:16] INFO root fetch - processPackages [inuits-python-logging-loki]: Downloading https://files.pythonhosted.org/packages/bb/f0/7d8d6f36fe002af0607fdf77fbf6c971ef71eaf0749dea441f2f66c39b54/inuits_python_logging_loki-1.1.4.tar.gz
+[2024-04-15 17:15:16] INFO root fetch - processPackages [zhmiscellany]: executing diffoscope
+[2024-04-15 17:15:16] INFO root fetch - processPackages [zhmiscellany]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhmiscellany-1.9.8-py3-none-any.whl.zip tmp/zhmiscellany-1.9.9-py3-none-any.whl.zip --markdown 20240415/z/zhmiscellany/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-04-15 17:15:16] INFO root fetch - processPackages [ebi-eva-common-pyutils]: Downloading https://files.pythonhosted.org/packages/65/8c/9762f63b92537b75292e115cb66b9dd479566511ce6447d9d09ffde8be13/ebi_eva_common_pyutils-0.6.6.tar.gz
+[2024-04-15 17:15:16] INFO root fetch - processPackages [hapi-schema]: Downloading https://files.pythonhosted.org/packages/37/4d/e36c4a031b8bf4a86b2b16f66e14d8b73a0c01ff6da2e19f815c18e14ae7/hapi_schema-0.7.0.tar.gz
+[2024-04-15 17:15:17] INFO root fetch - processPackages [jsonPagination]: Downloading https://files.pythonhosted.org/packages/4a/9c/0c61f9fdaedf14a807da32c3b6ec153824f2a33fb125a2808dfc07f31e31/jsonpagination-0.2.4.tar.gz
+[2024-04-15 17:15:17] INFO root fetch - processPackages [eox-tenant]: Downloading https://files.pythonhosted.org/packages/ec/c4/772388f18c82ec0fd51f22b54104a0beed4aab09b4c2119ff7e788f5718a/eox-tenant-9.2.1.tar.gz
+[2024-04-15 17:15:17] INFO root fetch - processPackages [zou]: Downloading https://files.pythonhosted.org/packages/b4/cb/e536d9ca1d2e8c1820b5431cb69768c10b0f438a73bf846d3e2d008f896a/zou-0.9.9-py2.py3-none-any.whl
+[2024-04-15 17:15:17] INFO root fetch - processPackages [inuits-python-logging-loki]: executing diffoscope
+[2024-04-15 17:15:17] INFO root fetch - processPackages [inuits-python-logging-loki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inuits-python-logging-loki-1.1.3.tar.gz tmp/inuits_python_logging_loki-1.1.4.tar.gz --markdown 20240415/i/inuits-python-logging-loki/1.1.3-1.1.4/README.md --exclude *.pyd
+[2024-04-15 17:15:17] INFO root fetch - processPackages [ebi-eva-common-pyutils]: executing diffoscope
+[2024-04-15 17:15:17] INFO root fetch - processPackages [ebi-eva-common-pyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebi_eva_common_pyutils-0.6.5.tar.gz tmp/ebi_eva_common_pyutils-0.6.6.tar.gz --markdown 20240415/e/ebi-eva-common-pyutils/0.6.5-0.6.6/README.md --exclude *.pyd
+[2024-04-15 17:15:17] INFO root fetch - processPackages [hapi-schema]: executing diffoscope
+[2024-04-15 17:15:17] INFO root fetch - processPackages [hapi-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hapi_schema-0.6.2.tar.gz tmp/hapi_schema-0.7.0.tar.gz --markdown 20240415/h/hapi-schema/0.6.2-0.7.0/README.md --exclude *.pyd
+[2024-04-15 17:15:17] INFO root fetch - processPackages [jsonPagination]: executing diffoscope
+[2024-04-15 17:15:17] INFO root fetch - processPackages [jsonPagination]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonPagination-0.2.3.tar.gz tmp/jsonpagination-0.2.4.tar.gz --markdown 20240415/j/jsonPagination/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-15 17:15:17] INFO root fetch - processPackages [eox-tenant]: executing diffoscope
+[2024-04-15 17:15:17] INFO root fetch - processPackages [eox-tenant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eox-tenant-9.2.0.tar.gz tmp/eox-tenant-9.2.1.tar.gz --markdown 20240415/e/eox-tenant/9.2.0-9.2.1/README.md --exclude *.pyd
+[2024-04-15 17:15:17] INFO root fetch - processPackages [zou]: executing diffoscope
+[2024-04-15 17:15:17] INFO root fetch - processPackages [zou]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zou-0.9.8-py2.py3-none-any.whl.zip tmp/zou-0.9.9-py2.py3-none-any.whl.zip --markdown 20240415/z/zou/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-04-15 17:15:17] INFO root fetch - processPackages [zhmiscellany]: Remove: archive file [/home/abi/fetcher/tmp/zhmiscellany-1.9.8-py3-none-any.whl.zip]
+[2024-04-15 17:15:17] INFO root fetch - processPackages [zhmiscellany]: Remove: archive file [/home/abi/fetcher/tmp/zhmiscellany-1.9.9-py3-none-any.whl.zip]
+[2024-04-15 17:15:17] INFO root fetch - main [MainThread]: End processing [zhmiscellany]: success
+[2024-04-15 17:15:17] INFO root fetch - processPackages [inuits-python-logging-loki]: Remove: archive file [/home/abi/fetcher/tmp/inuits-python-logging-loki-1.1.3.tar.gz]
+[2024-04-15 17:15:17] INFO root fetch - processPackages [inuits-python-logging-loki]: Remove: archive file [/home/abi/fetcher/tmp/inuits_python_logging_loki-1.1.4.tar.gz]
+[2024-04-15 17:15:17] INFO root fetch - main [MainThread]: End processing [inuits-python-logging-loki]: success
+[2024-04-15 17:15:17] INFO root fetch - processPackages [jsonPagination]: Remove: archive file [/home/abi/fetcher/tmp/jsonPagination-0.2.3.tar.gz]
+[2024-04-15 17:15:17] INFO root fetch - processPackages [jsonPagination]: Remove: archive file [/home/abi/fetcher/tmp/jsonpagination-0.2.4.tar.gz]
+[2024-04-15 17:15:17] INFO root fetch - main [MainThread]: End processing [jsonPagination]: success
+[2024-04-15 17:15:17] INFO root fetch - processPackages [ebi-eva-common-pyutils]: Remove: archive file [/home/abi/fetcher/tmp/ebi_eva_common_pyutils-0.6.5.tar.gz]
+[2024-04-15 17:15:17] INFO root fetch - processPackages [ebi-eva-common-pyutils]: Remove: archive file [/home/abi/fetcher/tmp/ebi_eva_common_pyutils-0.6.6.tar.gz]
+[2024-04-15 17:15:17] INFO root fetch - main [MainThread]: End processing [ebi-eva-common-pyutils]: success
+[2024-04-15 17:15:18] INFO root fetch - processPackages [hapi-schema]: Remove: archive file [/home/abi/fetcher/tmp/hapi_schema-0.6.2.tar.gz]
+[2024-04-15 17:15:18] INFO root fetch - processPackages [hapi-schema]: Remove: archive file [/home/abi/fetcher/tmp/hapi_schema-0.7.0.tar.gz]
+[2024-04-15 17:15:18] INFO root fetch - main [MainThread]: End processing [hapi-schema]: success
+[2024-04-15 17:15:18] INFO root fetch - processPackages [eox-tenant]: Remove: archive file [/home/abi/fetcher/tmp/eox-tenant-9.2.0.tar.gz]
+[2024-04-15 17:15:18] INFO root fetch - processPackages [eox-tenant]: Remove: archive file [/home/abi/fetcher/tmp/eox-tenant-9.2.1.tar.gz]
+[2024-04-15 17:15:18] INFO root fetch - main [MainThread]: End processing [eox-tenant]: success
+[2024-04-15 17:15:18] INFO root fetch - processPackages [zou]: Remove: archive file [/home/abi/fetcher/tmp/zou-0.9.8-py2.py3-none-any.whl.zip]
+[2024-04-15 17:15:18] INFO root fetch - processPackages [zou]: Remove: archive file [/home/abi/fetcher/tmp/zou-0.9.9-py2.py3-none-any.whl.zip]
+[2024-04-15 17:15:18] INFO root fetch - main [MainThread]: End processing [zou]: success
+[2024-04-15 17:15:18] INFO root fetch - main [MainThread]: Store serial: [22773528]
