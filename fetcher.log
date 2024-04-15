@@ -1520,3 +1520,36 @@
 [2024-04-15 02:06:08] INFO root fetch - processPackages [ubo-gui]: Remove: archive file [/home/abi/fetcher/tmp/ubo_gui-0.9.9.tar.gz]
 [2024-04-15 02:06:08] INFO root fetch - main [MainThread]: End processing [ubo-gui]: success
 [2024-04-15 02:06:08] INFO root fetch - main [MainThread]: Store serial: [22763808]
+[2024-04-15 02:08:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22763808]
+[2024-04-15 02:08:16] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-15 02:08:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ez-pyload
+[2024-04-15 02:08:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jaxutils-nightly
+[2024-04-15 02:08:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: intellikit
+[2024-04-15 02:08:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: steelpy
+[2024-04-15 02:08:17] INFO root fetch - processPackages [ez-pyload]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-15 02:08:17] WARNING root fetch - processPackages [steelpy]: Skipping, unable to determine old version
+[2024-04-15 02:08:17] INFO root fetch - main [MainThread]: End processing [steelpy] error
+[2024-04-15 02:08:17] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20240414] Old Version: [0.0.8.dev20240413]
+[2024-04-15 02:08:17] INFO root fetch - processPackages [ez-pyload]: Downloading https://files.pythonhosted.org/packages/cc/da/44912a9b6b8c5856f846e347f35f7ad84c08e10eca1177d32aa0439800c6/ez_pyload-1.0.2.tar.gz
+[2024-04-15 02:08:17] INFO root fetch - processPackages [intellikit]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-15 02:08:17] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/22/fb/10b6bafdd0270c982f1f036615ac8c6ab9f1b7f2cb14cde48f38f699ffb9/jaxutils-nightly-0.0.8.dev20240413.tar.gz
+[2024-04-15 02:08:17] INFO root fetch - processPackages [intellikit]: Downloading https://files.pythonhosted.org/packages/8b/58/2ee25475bf980dbd1c4118255c4c5c59067e536f3e6901c3c0f7c082f10a/intellikit-0.0.3.tar.gz
+[2024-04-15 02:08:17] INFO root fetch - processPackages [ez-pyload]: Downloading https://files.pythonhosted.org/packages/d9/da/209e5e6a74c84147b1b51130c2f530532f9ad03b38bb0643a8e6ed3f4c51/ez_pyload-1.0.3.tar.gz
+[2024-04-15 02:08:17] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/3c/86/48b75f021ef7dd86ace7a9414724572111022d4db20c24b85a805df08077/jaxutils-nightly-0.0.8.dev20240414.tar.gz
+[2024-04-15 02:08:17] INFO root fetch - processPackages [ez-pyload]: executing diffoscope
+[2024-04-15 02:08:17] INFO root fetch - processPackages [ez-pyload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ez_pyload-1.0.2.tar.gz tmp/ez_pyload-1.0.3.tar.gz --markdown 20240415/e/ez-pyload/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-15 02:08:17] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2024-04-15 02:08:17] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20240413.tar.gz tmp/jaxutils-nightly-0.0.8.dev20240414.tar.gz --markdown 20240415/j/jaxutils-nightly/0.0.8.dev20240413-0.0.8.dev20240414/README.md --exclude *.pyd
+[2024-04-15 02:08:17] INFO root fetch - processPackages [intellikit]: Downloading https://files.pythonhosted.org/packages/ec/9f/f437ef87f1735be01ce6f52e4f1790a75028f6d53d57ae89eba2a6cb650b/intellikit-0.0.4.tar.gz
+[2024-04-15 02:08:17] INFO root fetch - processPackages [intellikit]: executing diffoscope
+[2024-04-15 02:08:17] INFO root fetch - processPackages [intellikit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intellikit-0.0.3.tar.gz tmp/intellikit-0.0.4.tar.gz --markdown 20240415/i/intellikit/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-15 02:08:18] INFO root fetch - processPackages [ez-pyload]: Remove: archive file [/home/abi/fetcher/tmp/ez_pyload-1.0.2.tar.gz]
+[2024-04-15 02:08:18] INFO root fetch - processPackages [ez-pyload]: Remove: archive file [/home/abi/fetcher/tmp/ez_pyload-1.0.3.tar.gz]
+[2024-04-15 02:08:18] INFO root fetch - main [MainThread]: End processing [ez-pyload]: success
+[2024-04-15 02:08:18] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240413.tar.gz]
+[2024-04-15 02:08:18] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240414.tar.gz]
+[2024-04-15 02:08:18] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2024-04-15 02:08:18] INFO root fetch - processPackages [intellikit]: Remove: archive file [/home/abi/fetcher/tmp/intellikit-0.0.3.tar.gz]
+[2024-04-15 02:08:18] INFO root fetch - processPackages [intellikit]: Remove: archive file [/home/abi/fetcher/tmp/intellikit-0.0.4.tar.gz]
+[2024-04-15 02:08:18] INFO root fetch - main [MainThread]: End processing [intellikit]: success
+[2024-04-15 02:08:18] INFO root fetch - main [MainThread]: Store serial: [22763820]
