@@ -17598,3 +17598,84 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 14:10:34] INFO root fetch - processPackages [custom-horizontal-plot]: Remove: archive file [/home/abi/fetcher/tmp/custom-horizontal-plot-0.0.7.tar.gz]
 [2024-04-15 14:10:34] INFO root fetch - main [MainThread]: End processing [custom-horizontal-plot]: success
 [2024-04-15 14:10:34] INFO root fetch - main [MainThread]: Store serial: [22770568]
+[2024-04-15 14:12:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22770568]
+[2024-04-15 14:12:44] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-15 14:12:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arion-library
+[2024-04-15 14:12:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqlalchemy-schema-factory
+[2024-04-15 14:12:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-announcement-dialog-size
+[2024-04-15 14:12:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqlalchemy-schema-factory
+[2024-04-15 14:12:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: psd2fabric
+[2024-04-15 14:12:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hnbex-cli
+[2024-04-15 14:12:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk8s-awscdk-resolver
+[2024-04-15 14:12:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: darfix
+[2024-04-15 14:12:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: phiml
+[2024-04-15 14:12:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rag-doc-search
+[2024-04-15 14:12:45] INFO root fetch - processPackages [arion-library]: New version: [1.1rc60.dev60] Old Version: [1.1rc59.dev59]
+[2024-04-15 14:12:45] INFO root fetch - processPackages [psd2fabric]: New version: [0.5] Old Version: [0.4]
+[2024-04-15 14:12:45] INFO root fetch - processPackages [sqlalchemy-schema-factory]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-15 14:12:45] INFO root fetch - processPackages [sqlalchemy-schema-factory]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-15 14:12:45] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/23/ba/b5f6c15a8fd4ca2b29ea4c6cb925e9a5906987f6426790436bd90f55f1c6/arion_library-1.1rc59.dev59.tar.gz
+[2024-04-15 14:12:45] INFO root fetch - processPackages [phiml]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-04-15 14:12:45] INFO root fetch - processPackages [psd2fabric]: Downloading https://files.pythonhosted.org/packages/10/dd/e983785b34e17085b3d177e58dee2eb14da671937852a9d2af9cb911510a/psd2fabric-0.4.tar.gz
+[2024-04-15 14:12:45] WARNING root fetch - processPackages [odoo-addon-announcement-dialog-size]: Skipping, unable to determine old version
+[2024-04-15 14:12:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-announcement-dialog-size] error
+[2024-04-15 14:12:45] INFO root fetch - processPackages [hnbex-cli]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-04-15 14:12:45] INFO root fetch - processPackages [rag-doc-search]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-15 14:12:45] INFO root fetch - processPackages [darfix]: New version: [1.0.1rc1] Old Version: [1.0.1rc0]
+[2024-04-15 14:12:45] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: New version: [0.0.9] Old Version: [0.0.85]
+[2024-04-15 14:12:45] INFO root fetch - processPackages [sqlalchemy-schema-factory]: Downloading https://files.pythonhosted.org/packages/e3/13/b5256381af9140846d2d33db91f273f973a4bd786e8034dbbbd305745c0b/sqlalchemy_schema_factory-0.1.1.tar.gz
+[2024-04-15 14:12:45] INFO root fetch - processPackages [sqlalchemy-schema-factory]: Downloading https://files.pythonhosted.org/packages/e3/13/b5256381af9140846d2d33db91f273f973a4bd786e8034dbbbd305745c0b/sqlalchemy_schema_factory-0.1.1.tar.gz
+[2024-04-15 14:12:45] INFO root fetch - processPackages [phiml]: Downloading https://files.pythonhosted.org/packages/9e/3b/aa800fcd45d19501f2ccf82ef3bf4900cfdc34fbc99cdb3b5dcd48e8fcdc/phiml-1.5.0.tar.gz
+[2024-04-15 14:12:45] INFO root fetch - processPackages [hnbex-cli]: Downloading https://files.pythonhosted.org/packages/b6/29/85c23d1877474726a2589a44a977b0b679d53bd7d34f76e6b9dd2ef920f3/hnbex-cli-2.0.0.tar.gz
+[2024-04-15 14:12:45] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Downloading https://files.pythonhosted.org/packages/d1/85/4dab9a82652f2df8c18aa794e032103a89ae19f0612a8f209acaa4d52d7f/cdk8s-awscdk-resolver-0.0.85.tar.gz
+[2024-04-15 14:12:45] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/f3/0c/2b91510b84104fa6cfd6deae9096361d7e1d6e908756ce35fd7d81eb84c3/arion_library-1.1rc60.dev60.tar.gz
+[2024-04-15 14:12:45] INFO root fetch - processPackages [rag-doc-search]: Downloading https://files.pythonhosted.org/packages/f7/8d/62deec1e2aa2b356925c761e92291934d79a29b1d690092e74fc6bc279ff/rag_doc_search-0.1.4.tar.gz
+[2024-04-15 14:12:45] INFO root fetch - processPackages [darfix]: Downloading https://files.pythonhosted.org/packages/d1/a0/54724eed1d11d206b46a98f36d9f3efe60bee0deb11333a2ba5e8cd5be91/darfix-1.0.1rc0.tar.gz
+[2024-04-15 14:12:45] ERROR root fetch - processPackages [psd2fabric]: Unable to fetch info: No such project/version 'psd2fabric' 0.5
+[2024-04-15 14:12:45] INFO root fetch - main [MainThread]: End processing [psd2fabric] error
+[2024-04-15 14:12:45] INFO root fetch - processPackages [arion-library]: executing diffoscope
+[2024-04-15 14:12:45] INFO root fetch - processPackages [arion-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arion_library-1.1rc59.dev59.tar.gz tmp/arion_library-1.1rc60.dev60.tar.gz --markdown 20240415/a/arion-library/1.1rc59.dev59-1.1rc60.dev60/README.md --exclude *.pyd
+[2024-04-15 14:12:45] INFO root fetch - processPackages [sqlalchemy-schema-factory]: Downloading https://files.pythonhosted.org/packages/2e/46/a241eabe6b5040389d92c8f3699d790808c6a1019cda000bcb3148641941/sqlalchemy_schema_factory-0.1.2.tar.gz
+[2024-04-15 14:12:45] INFO root fetch - processPackages [sqlalchemy-schema-factory]: Downloading https://files.pythonhosted.org/packages/2e/46/a241eabe6b5040389d92c8f3699d790808c6a1019cda000bcb3148641941/sqlalchemy_schema_factory-0.1.2.tar.gz
+[2024-04-15 14:12:45] INFO root fetch - processPackages [phiml]: Downloading https://files.pythonhosted.org/packages/ed/93/41850e0c3211af445c00a04b74968260ea79a0c7ce75e47749928c14edff/phiml-1.5.1.tar.gz
+[2024-04-15 14:12:45] INFO root fetch - processPackages [rag-doc-search]: Downloading https://files.pythonhosted.org/packages/c9/9e/cbd7cc12cce26a9c2bab6ec8567821440a38e386b4c8d9fdc3ff512233a3/rag_doc_search-0.1.5.tar.gz
+[2024-04-15 14:12:45] INFO root fetch - processPackages [hnbex-cli]: Downloading https://files.pythonhosted.org/packages/3d/c4/2984f901d6b097ba0ec2f030259e37d7f8745b325dd6af42b6527151e52b/hnbex_cli-2.1.0.tar.gz
+[2024-04-15 14:12:46] INFO root fetch - processPackages [sqlalchemy-schema-factory]: executing diffoscope
+[2024-04-15 14:12:46] INFO root fetch - processPackages [sqlalchemy-schema-factory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy_schema_factory-0.1.1.tar.gz tmp/sqlalchemy_schema_factory-0.1.2.tar.gz --markdown 20240415/s/sqlalchemy-schema-factory/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-15 14:12:46] INFO root fetch - processPackages [sqlalchemy-schema-factory]: executing diffoscope
+[2024-04-15 14:12:46] INFO root fetch - processPackages [sqlalchemy-schema-factory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy_schema_factory-0.1.1.tar.gz tmp/sqlalchemy_schema_factory-0.1.2.tar.gz --markdown 20240415/s/sqlalchemy-schema-factory/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-15 14:12:46] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Downloading https://files.pythonhosted.org/packages/e4/ba/3b1af2b8b411cdb77e57e6b1d4e656a18d1c62c5fddbd831b369378f4fbd/cdk8s-awscdk-resolver-0.0.9.tar.gz
+[2024-04-15 14:12:46] INFO root fetch - processPackages [rag-doc-search]: executing diffoscope
+[2024-04-15 14:12:46] INFO root fetch - processPackages [rag-doc-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rag_doc_search-0.1.4.tar.gz tmp/rag_doc_search-0.1.5.tar.gz --markdown 20240415/r/rag-doc-search/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-04-15 14:12:46] INFO root fetch - processPackages [hnbex-cli]: executing diffoscope
+[2024-04-15 14:12:46] INFO root fetch - processPackages [hnbex-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hnbex-cli-2.0.0.tar.gz tmp/hnbex_cli-2.1.0.tar.gz --markdown 20240415/h/hnbex-cli/2.0.0-2.1.0/README.md --exclude *.pyd
+[2024-04-15 14:12:46] INFO root fetch - processPackages [darfix]: Downloading https://files.pythonhosted.org/packages/a2/f3/c8cd7e26220383b7957845e380bfcbfad4b19233946bbc8e1c381e81486f/darfix-1.0.1rc1.tar.gz
+[2024-04-15 14:12:46] INFO root fetch - processPackages [phiml]: executing diffoscope
+[2024-04-15 14:12:46] INFO root fetch - processPackages [phiml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phiml-1.5.0.tar.gz tmp/phiml-1.5.1.tar.gz --markdown 20240415/p/phiml/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-04-15 14:12:46] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc59.dev59.tar.gz]
+[2024-04-15 14:12:46] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc60.dev60.tar.gz]
+[2024-04-15 14:12:46] INFO root fetch - main [MainThread]: End processing [arion-library]: success
+[2024-04-15 14:12:46] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: executing diffoscope
+[2024-04-15 14:12:46] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-awscdk-resolver-0.0.85.tar.gz tmp/cdk8s-awscdk-resolver-0.0.9.tar.gz --markdown 20240415/c/cdk8s-awscdk-resolver/0.0.85-0.0.9/README.md --exclude *.pyd
+[2024-04-15 14:12:46] INFO root fetch - processPackages [sqlalchemy-schema-factory]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_schema_factory-0.1.1.tar.gz]
+[2024-04-15 14:12:46] INFO root fetch - processPackages [sqlalchemy-schema-factory]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_schema_factory-0.1.2.tar.gz]
+[2024-04-15 14:12:46] INFO root fetch - main [MainThread]: End processing [sqlalchemy-schema-factory]: success
+[2024-04-15 14:12:46] INFO root fetch - main [MainThread]: End processing [sqlalchemy-schema-factory]: success
+[2024-04-15 14:12:47] INFO root fetch - processPackages [rag-doc-search]: Remove: archive file [/home/abi/fetcher/tmp/rag_doc_search-0.1.4.tar.gz]
+[2024-04-15 14:12:47] INFO root fetch - processPackages [rag-doc-search]: Remove: archive file [/home/abi/fetcher/tmp/rag_doc_search-0.1.5.tar.gz]
+[2024-04-15 14:12:47] INFO root fetch - main [MainThread]: End processing [rag-doc-search]: success
+[2024-04-15 14:12:47] INFO root fetch - processPackages [hnbex-cli]: Remove: archive file [/home/abi/fetcher/tmp/hnbex-cli-2.0.0.tar.gz]
+[2024-04-15 14:12:47] INFO root fetch - processPackages [hnbex-cli]: Remove: archive file [/home/abi/fetcher/tmp/hnbex_cli-2.1.0.tar.gz]
+[2024-04-15 14:12:47] INFO root fetch - main [MainThread]: End processing [hnbex-cli]: success
+[2024-04-15 14:12:47] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-awscdk-resolver-0.0.85.tar.gz]
+[2024-04-15 14:12:47] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-awscdk-resolver-0.0.9.tar.gz]
+[2024-04-15 14:12:47] INFO root fetch - main [MainThread]: End processing [cdk8s-awscdk-resolver]: success
+[2024-04-15 14:12:47] INFO root fetch - processPackages [phiml]: Remove: archive file [/home/abi/fetcher/tmp/phiml-1.5.0.tar.gz]
+[2024-04-15 14:12:47] INFO root fetch - processPackages [phiml]: Remove: archive file [/home/abi/fetcher/tmp/phiml-1.5.1.tar.gz]
+[2024-04-15 14:12:47] INFO root fetch - main [MainThread]: End processing [phiml]: success
+[2024-04-15 14:12:48] INFO root fetch - processPackages [darfix]: executing diffoscope
+[2024-04-15 14:12:48] INFO root fetch - processPackages [darfix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/darfix-1.0.1rc0.tar.gz tmp/darfix-1.0.1rc1.tar.gz --markdown 20240415/d/darfix/1.0.1rc0-1.0.1rc1/README.md --exclude *.pyd
+[2024-04-15 14:12:50] INFO root fetch - processPackages [darfix]: Remove: archive file [/home/abi/fetcher/tmp/darfix-1.0.1rc0.tar.gz]
+[2024-04-15 14:12:50] INFO root fetch - processPackages [darfix]: Remove: archive file [/home/abi/fetcher/tmp/darfix-1.0.1rc1.tar.gz]
+[2024-04-15 14:12:50] INFO root fetch - main [MainThread]: End processing [darfix]: success
+[2024-04-15 14:12:50] INFO root fetch - main [MainThread]: Store serial: [22770599]
