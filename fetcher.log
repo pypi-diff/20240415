@@ -2080,3 +2080,18 @@
 [2024-04-15 03:00:46] WARNING root fetch - processPackages [pih-plb-rvw-auto]: Skipping, unable to determine old version
 [2024-04-15 03:00:46] INFO root fetch - main [MainThread]: End processing [pih-plb-rvw-auto] error
 [2024-04-15 03:00:46] INFO root fetch - main [MainThread]: Store serial: [22764195]
+[2024-04-15 03:02:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22764195]
+[2024-04-15 03:02:55] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-15 03:02:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: securechat
+[2024-04-15 03:02:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apollo-lunar
+[2024-04-15 03:02:55] INFO root fetch - processPackages [apollo-lunar]: New version: [2024.4.4rc1] Old Version: [2024.4.4]
+[2024-04-15 03:02:55] WARNING root fetch - processPackages [securechat]: Skipping, unable to determine old version
+[2024-04-15 03:02:55] INFO root fetch - main [MainThread]: End processing [securechat] error
+[2024-04-15 03:02:55] INFO root fetch - processPackages [apollo-lunar]: Downloading https://files.pythonhosted.org/packages/a7/d1/da315750c330973c1ef139a12c8e514b80c836abc6647ae2db699b1dae35/apollo_lunar-2024.4.4.tar.gz
+[2024-04-15 03:02:55] INFO root fetch - processPackages [apollo-lunar]: Downloading https://files.pythonhosted.org/packages/2b/7d/ac278e0c2b56e554ec91a1fe5793ba9eec4ac940340d612bc809f49fb825/apollo_lunar-2024.4.4rc1.tar.gz
+[2024-04-15 03:02:55] INFO root fetch - processPackages [apollo-lunar]: executing diffoscope
+[2024-04-15 03:02:55] INFO root fetch - processPackages [apollo-lunar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apollo_lunar-2024.4.4.tar.gz tmp/apollo_lunar-2024.4.4rc1.tar.gz --markdown 20240415/a/apollo-lunar/2024.4.4-2024.4.4rc1/README.md --exclude *.pyd
+[2024-04-15 03:02:56] INFO root fetch - processPackages [apollo-lunar]: Remove: archive file [/home/abi/fetcher/tmp/apollo_lunar-2024.4.4.tar.gz]
+[2024-04-15 03:02:56] INFO root fetch - processPackages [apollo-lunar]: Remove: archive file [/home/abi/fetcher/tmp/apollo_lunar-2024.4.4rc1.tar.gz]
+[2024-04-15 03:02:56] INFO root fetch - main [MainThread]: End processing [apollo-lunar]: success
+[2024-04-15 03:02:56] INFO root fetch - main [MainThread]: Store serial: [22764205]
