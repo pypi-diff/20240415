@@ -1660,3 +1660,11 @@
 [2024-04-15 02:19:04] INFO root fetch - processPackages [byzerllm]: Remove: archive file [/home/abi/fetcher/tmp/byzerllm-0.1.9.tar.gz]
 [2024-04-15 02:19:04] INFO root fetch - main [MainThread]: End processing [byzerllm]: success
 [2024-04-15 02:19:04] INFO root fetch - main [MainThread]: Store serial: [22763873]
+[2024-04-15 02:21:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22763873]
+[2024-04-15 02:21:13] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-15 02:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-amazon-chime-resources
+[2024-04-15 02:21:13] INFO root fetch - processPackages [cdk-amazon-chime-resources]: New version: [3.2.5] Old Version: [3.2.4]
+[2024-04-15 02:21:13] INFO root fetch - processPackages [cdk-amazon-chime-resources]: Downloading https://files.pythonhosted.org/packages/d9/c2/d4009c66ba2cca5e321d117e4aaaef0e19101878c906e2f7f25468646699/cdk-amazon-chime-resources-3.2.4.tar.gz
+[2024-04-15 02:21:13] WARNING root fetch - processPackages [cdk-amazon-chime-resources]: Skipping package: exceeds size limit 15379934>=10485760
+[2024-04-15 02:21:13] INFO root fetch - main [MainThread]: End processing [cdk-amazon-chime-resources] error
+[2024-04-15 02:21:13] INFO root fetch - main [MainThread]: Store serial: [22763876]
