@@ -18456,3 +18456,75 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 14:39:26] INFO root fetch - processPackages [iinfer]: Remove: archive file [/home/abi/fetcher/tmp/iinfer-0.6.9.tar.gz]
 [2024-04-15 14:39:26] INFO root fetch - main [MainThread]: End processing [iinfer]: success
 [2024-04-15 14:39:26] INFO root fetch - main [MainThread]: Store serial: [22770985]
+[2024-04-15 14:41:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22770985]
+[2024-04-15 14:41:36] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-15 14:41:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wawona
+[2024-04-15 14:41:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xcs-rc
+[2024-04-15 14:41:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langalf
+[2024-04-15 14:41:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: momotor-engine-options
+[2024-04-15 14:41:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jinaai-api-schemas
+[2024-04-15 14:41:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ScopeSim
+[2024-04-15 14:41:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: CTADIRAC
+[2024-04-15 14:41:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tensorcircuit-nightly
+[2024-04-15 14:41:36] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230608] Old Version: [0.9.1.dev20230607]
+[2024-04-15 14:41:36] INFO root fetch - processPackages [wawona]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-15 14:41:36] INFO root fetch - processPackages [xcs-rc]: New version: [1.1.9] Old Version: [1.1.7]
+[2024-04-15 14:41:36] INFO root fetch - processPackages [jinaai-api-schemas]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-15 14:41:36] INFO root fetch - processPackages [momotor-engine-options]: New version: [2.0.0rc9] Old Version: [2.0.0rc8]
+[2024-04-15 14:41:36] INFO root fetch - processPackages [ScopeSim]: New version: [0.8.0] Old Version: [0.7.1]
+[2024-04-15 14:41:36] INFO root fetch - processPackages [CTADIRAC]: New version: [2.2a3] Old Version: [2.2.9]
+[2024-04-15 14:41:37] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/79/2a/50740b6f8b7e1d0c4223c72c789f41baca7a4e77f32e8f52bd91e7ebff20/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz
+[2024-04-15 14:41:37] INFO root fetch - processPackages [langalf]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-15 14:41:37] INFO root fetch - processPackages [ScopeSim]: Downloading https://files.pythonhosted.org/packages/6d/91/35f4fd362d9b07925d7c2a0544eff79eeda075079e4bd3a72176c163130a/ScopeSim-0.7.1.tar.gz
+[2024-04-15 14:41:37] INFO root fetch - processPackages [wawona]: Downloading https://files.pythonhosted.org/packages/99/18/0826965e7c594504930c0ef2fd9382990066d87087542cca5892806bc37f/wawona-1.1.0.tar.gz
+[2024-04-15 14:41:37] INFO root fetch - processPackages [xcs-rc]: Downloading https://files.pythonhosted.org/packages/10/25/d2602f92c4e9bf2391f869f6d2df7f040f9558414af68759447991d867fd/xcs-rc-1.1.7.tar.gz
+[2024-04-15 14:41:37] INFO root fetch - processPackages [jinaai-api-schemas]: Downloading https://files.pythonhosted.org/packages/25/39/f863141710107516bb3ddba4fc7996934fb79d7c7b3f929453a812fa8eab/jinaai_api_schemas-0.0.8.tar.gz
+[2024-04-15 14:41:37] INFO root fetch - processPackages [momotor-engine-options]: Downloading https://files.pythonhosted.org/packages/85/3f/950bab814039f48ce93dc990f389e338a2fe5c04aa054027bf1bb89ea524/momotor-engine-options-2.0.0rc8.tar.gz
+[2024-04-15 14:41:37] INFO root fetch - processPackages [CTADIRAC]: Downloading https://files.pythonhosted.org/packages/c4/fd/863c06d80a7cb3f8b807886edd3b375bed2ee4d3a384cb8b7213479f2248/CTADIRAC-2.2.9.tar.gz
+[2024-04-15 14:41:37] INFO root fetch - processPackages [langalf]: Downloading https://files.pythonhosted.org/packages/9d/06/1587587c4e7e9536967c0f3e1b8011577d8c6c489d0883733f49dd4deebe/langalf-0.0.3.tar.gz
+[2024-04-15 14:41:37] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/2f/cc/671276320457670987d1eb503de15ee19924e63c7ec9c99b14c240d5aa18/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz
+[2024-04-15 14:41:37] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2024-04-15 14:41:37] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz --markdown 20240415/t/tensorcircuit-nightly/0.9.1.dev20230607-0.9.1.dev20230608/README.md --exclude *.pyd
+[2024-04-15 14:41:37] INFO root fetch - processPackages [wawona]: Downloading https://files.pythonhosted.org/packages/be/c7/e639bad35193246df28e4c5b30fd44bd13c0f2c37e61f39215e026664bd2/wawona-1.1.1.tar.gz
+[2024-04-15 14:41:37] INFO root fetch - processPackages [xcs-rc]: Downloading https://files.pythonhosted.org/packages/fc/09/7061813aba81d00fa317261d992749d6e95295bd99538f33ffcede87c9c9/xcs-rc-1.1.9.tar.gz
+[2024-04-15 14:41:37] INFO root fetch - processPackages [jinaai-api-schemas]: Downloading https://files.pythonhosted.org/packages/61/d2/6821514a6cc42b5b55a3eb2ee495174540c809889a9e0ba57657f8d637c4/jinaai_api_schemas-0.0.9.tar.gz
+[2024-04-15 14:41:37] INFO root fetch - processPackages [langalf]: Downloading https://files.pythonhosted.org/packages/96/50/f752856e34f0ebc8ec65252c95ccbab83b0444fd97205fbdefe581c23019/langalf-0.0.4.tar.gz
+[2024-04-15 14:41:37] INFO root fetch - processPackages [momotor-engine-options]: Downloading https://files.pythonhosted.org/packages/b3/c5/1ae7c4aa77e2508c42de048faa94ceff31d294a89818f0dac3f50087f627/momotor-engine-options-2.0.0rc9.tar.gz
+[2024-04-15 14:41:37] INFO root fetch - processPackages [CTADIRAC]: Downloading https://files.pythonhosted.org/packages/b3/dc/eeb2adbd38eb21f4638e8a34f30ed6748361e02727136583e01b66570df8/CTADIRAC-2.2a3.tar.gz
+[2024-04-15 14:41:37] INFO root fetch - processPackages [jinaai-api-schemas]: executing diffoscope
+[2024-04-15 14:41:37] INFO root fetch - processPackages [jinaai-api-schemas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jinaai_api_schemas-0.0.8.tar.gz tmp/jinaai_api_schemas-0.0.9.tar.gz --markdown 20240415/j/jinaai-api-schemas/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-15 14:41:37] INFO root fetch - processPackages [ScopeSim]: Downloading https://files.pythonhosted.org/packages/b7/4f/125c0254c15e0ff849709ea7b1feb062c9710e75e64be936b14bde9255b0/scopesim-0.8.0.tar.gz
+[2024-04-15 14:41:37] INFO root fetch - processPackages [wawona]: executing diffoscope
+[2024-04-15 14:41:37] INFO root fetch - processPackages [wawona]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wawona-1.1.0.tar.gz tmp/wawona-1.1.1.tar.gz --markdown 20240415/w/wawona/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-15 14:41:37] INFO root fetch - processPackages [xcs-rc]: executing diffoscope
+[2024-04-15 14:41:37] INFO root fetch - processPackages [xcs-rc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xcs-rc-1.1.7.tar.gz tmp/xcs-rc-1.1.9.tar.gz --markdown 20240415/x/xcs-rc/1.1.7-1.1.9/README.md --exclude *.pyd
+[2024-04-15 14:41:37] INFO root fetch - processPackages [langalf]: executing diffoscope
+[2024-04-15 14:41:37] INFO root fetch - processPackages [langalf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langalf-0.0.3.tar.gz tmp/langalf-0.0.4.tar.gz --markdown 20240415/l/langalf/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-15 14:41:37] INFO root fetch - processPackages [momotor-engine-options]: executing diffoscope
+[2024-04-15 14:41:37] INFO root fetch - processPackages [momotor-engine-options]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/momotor-engine-options-2.0.0rc8.tar.gz tmp/momotor-engine-options-2.0.0rc9.tar.gz --markdown 20240415/m/momotor-engine-options/2.0.0rc8-2.0.0rc9/README.md --exclude *.pyd
+[2024-04-15 14:41:38] WARNING root fetch - processPackages [ScopeSim]: Skipping package: exceeds size limit 17563082>=10485760
+[2024-04-15 14:41:38] INFO root fetch - main [MainThread]: End processing [ScopeSim] error
+[2024-04-15 14:41:38] INFO root fetch - processPackages [CTADIRAC]: executing diffoscope
+[2024-04-15 14:41:38] INFO root fetch - processPackages [CTADIRAC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CTADIRAC-2.2.9.tar.gz tmp/CTADIRAC-2.2a3.tar.gz --markdown 20240415/C/CTADIRAC/2.2.9-2.2a3/README.md --exclude *.pyd
+[2024-04-15 14:41:38] INFO root fetch - processPackages [jinaai-api-schemas]: Remove: archive file [/home/abi/fetcher/tmp/jinaai_api_schemas-0.0.8.tar.gz]
+[2024-04-15 14:41:38] INFO root fetch - processPackages [jinaai-api-schemas]: Remove: archive file [/home/abi/fetcher/tmp/jinaai_api_schemas-0.0.9.tar.gz]
+[2024-04-15 14:41:38] INFO root fetch - main [MainThread]: End processing [jinaai-api-schemas]: success
+[2024-04-15 14:41:38] INFO root fetch - processPackages [wawona]: Remove: archive file [/home/abi/fetcher/tmp/wawona-1.1.0.tar.gz]
+[2024-04-15 14:41:38] INFO root fetch - processPackages [wawona]: Remove: archive file [/home/abi/fetcher/tmp/wawona-1.1.1.tar.gz]
+[2024-04-15 14:41:38] INFO root fetch - main [MainThread]: End processing [wawona]: success
+[2024-04-15 14:41:38] INFO root fetch - processPackages [xcs-rc]: Remove: archive file [/home/abi/fetcher/tmp/xcs-rc-1.1.7.tar.gz]
+[2024-04-15 14:41:38] INFO root fetch - processPackages [xcs-rc]: Remove: archive file [/home/abi/fetcher/tmp/xcs-rc-1.1.9.tar.gz]
+[2024-04-15 14:41:38] INFO root fetch - main [MainThread]: End processing [xcs-rc]: success
+[2024-04-15 14:41:38] INFO root fetch - processPackages [langalf]: Remove: archive file [/home/abi/fetcher/tmp/langalf-0.0.3.tar.gz]
+[2024-04-15 14:41:38] INFO root fetch - processPackages [langalf]: Remove: archive file [/home/abi/fetcher/tmp/langalf-0.0.4.tar.gz]
+[2024-04-15 14:41:38] INFO root fetch - main [MainThread]: End processing [langalf]: success
+[2024-04-15 14:41:38] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz]
+[2024-04-15 14:41:38] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
+[2024-04-15 14:41:38] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2024-04-15 14:41:39] INFO root fetch - processPackages [momotor-engine-options]: Remove: archive file [/home/abi/fetcher/tmp/momotor-engine-options-2.0.0rc8.tar.gz]
+[2024-04-15 14:41:39] INFO root fetch - processPackages [momotor-engine-options]: Remove: archive file [/home/abi/fetcher/tmp/momotor-engine-options-2.0.0rc9.tar.gz]
+[2024-04-15 14:41:39] INFO root fetch - main [MainThread]: End processing [momotor-engine-options]: success
+[2024-04-15 14:41:39] INFO root fetch - processPackages [CTADIRAC]: Remove: archive file [/home/abi/fetcher/tmp/CTADIRAC-2.2.9.tar.gz]
+[2024-04-15 14:41:39] INFO root fetch - processPackages [CTADIRAC]: Remove: archive file [/home/abi/fetcher/tmp/CTADIRAC-2.2a3.tar.gz]
+[2024-04-15 14:41:39] INFO root fetch - main [MainThread]: End processing [CTADIRAC]: success
+[2024-04-15 14:41:39] INFO root fetch - main [MainThread]: Store serial: [22771018]
