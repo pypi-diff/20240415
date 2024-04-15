@@ -11836,3 +11836,83 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 10:42:00] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.3.3.dev34.tar.gz]
 [2024-04-15 10:42:00] INFO root fetch - main [MainThread]: End processing [kuzu]: success
 [2024-04-15 10:42:00] INFO root fetch - main [MainThread]: Store serial: [22768018]
+[2024-04-15 10:44:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22768018]
+[2024-04-15 10:44:09] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-15 10:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: radical.entk
+[2024-04-15 10:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fast-gmail
+[2024-04-15 10:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyzmq
+[2024-04-15 10:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyapetnet
+[2024-04-15 10:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ms-swift
+[2024-04-15 10:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: radical.analytics
+[2024-04-15 10:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: capellambse
+[2024-04-15 10:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: leap-model-parser
+[2024-04-15 10:44:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: radical.repex
+[2024-04-15 10:44:10] INFO root fetch - processPackages [fast-gmail]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-15 10:44:10] INFO root fetch - processPackages [radical.analytics]: New version: [1.6.7] Old Version: [1.50.0]
+[2024-04-15 10:44:10] INFO root fetch - processPackages [pyzmq]: New version: [26.0.0b2] Old Version: [26.0.0b1]
+[2024-04-15 10:44:10] INFO root fetch - processPackages [radical.repex]: New version: [1.50.0] Old Version: [1.47.1]
+[2024-04-15 10:44:10] INFO root fetch - processPackages [radical.entk]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-15 10:44:10] INFO root fetch - processPackages [leap-model-parser]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-15 10:44:10] INFO root fetch - processPackages [pyapetnet]: New version: [1.5.5] Old Version: [1.5.4]
+[2024-04-15 10:44:10] INFO root fetch - processPackages [ms-swift]: New version: [2.0.0] Old Version: [1.7.3]
+[2024-04-15 10:44:10] INFO root fetch - processPackages [capellambse]: New version: [0.5.9.dev5] Old Version: [0.5.9]
+[2024-04-15 10:44:10] INFO root fetch - processPackages [radical.repex]: Downloading https://files.pythonhosted.org/packages/d7/57/a7174e63d75e0ecd97eea016336b6d055417838db76d158eb5878c0e386e/radical_repex-1.47.1.tar.gz
+[2024-04-15 10:44:10] INFO root fetch - processPackages [radical.entk]: Downloading https://files.pythonhosted.org/packages/f0/b7/2f841b0cf71c08e32f44c0bfe2d3ccaa9afc6aae30c7ea71a13f5d2ea88e/radical.entk-1.8.0.tar.gz
+[2024-04-15 10:44:10] INFO root fetch - processPackages [fast-gmail]: Downloading https://files.pythonhosted.org/packages/d3/53/0eaf7f744a879ba0fb49c628062bb98bb70d3a832dfaabcec2c0f1ec262e/fast_gmail-1.0.0.tar.gz
+[2024-04-15 10:44:10] INFO root fetch - processPackages [leap-model-parser]: Downloading https://files.pythonhosted.org/packages/9e/21/dca060e54af9d262ff3c7db5881970d454aabed10a4a09138f0f135d7271/leap_model_parser-0.1.98.tar.gz
+[2024-04-15 10:44:10] INFO root fetch - processPackages [radical.analytics]: Downloading https://files.pythonhosted.org/packages/19/66/2758b1ef6d44e90667a774637de5bec3d466c9b9b30f789053788e8626be/radical_analytics-1.50.0.tar.gz
+[2024-04-15 10:44:10] INFO root fetch - processPackages [pyapetnet]: Downloading https://files.pythonhosted.org/packages/19/6c/1794d1b12619d3cdb798c5455e363e6118d2d66ccb03bd117bca0005ddbc/pyapetnet-1.5.4.tar.gz
+[2024-04-15 10:44:10] INFO root fetch - processPackages [ms-swift]: Downloading https://files.pythonhosted.org/packages/c6/87/435b3e349d9606046b5ea83f80007612a8bc511b5142f5070982610ed371/ms-swift-1.7.3.tar.gz
+[2024-04-15 10:44:10] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/0a/bb/e7974d92c6a3d93dbf30730a6d9302f37f52093b4985246d97e22939147d/capellambse-0.5.9.tar.gz
+[2024-04-15 10:44:10] INFO root fetch - processPackages [radical.entk]: Downloading https://files.pythonhosted.org/packages/d4/3b/7bac551fce4718ea1bf65083bb8a42bf6743a370057fd5dffa604a8c2364/radical.entk-1.9.0.tar.gz
+[2024-04-15 10:44:10] INFO root fetch - processPackages [leap-model-parser]: Downloading https://files.pythonhosted.org/packages/de/85/627b6119883db46691990e41cb4a673afe0913625d499dc365b69c6fe6f6/leap_model_parser-0.1.99.tar.gz
+[2024-04-15 10:44:10] INFO root fetch - processPackages [pyzmq]: Downloading https://files.pythonhosted.org/packages/a4/71/a44240bcd3e4d763aeba340358d5e1fbcb0aadbd77f73c1875d503faa1ec/pyzmq-26.0.0b1.tar.gz
+[2024-04-15 10:44:10] WARNING root fetch - processPackages [pyapetnet]: Skipping package: exceeds size limit 11559197>=10485760
+[2024-04-15 10:44:10] INFO root fetch - main [MainThread]: End processing [pyapetnet] error
+[2024-04-15 10:44:10] INFO root fetch - processPackages [fast-gmail]: Downloading https://files.pythonhosted.org/packages/ad/5a/c90f1014c1863e9fe2bf158e98a6b7923170cef537dfec203b45602b1435/fast_gmail-1.0.1.tar.gz
+[2024-04-15 10:44:10] INFO root fetch - processPackages [radical.repex]: Downloading https://files.pythonhosted.org/packages/b8/32/c07282199601b10f151784161f81bbffd83d4c366d7b982a8de1e511c4c5/radical_repex-1.50.0.tar.gz
+[2024-04-15 10:44:10] INFO root fetch - processPackages [radical.entk]: executing diffoscope
+[2024-04-15 10:44:10] INFO root fetch - processPackages [radical.entk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radical.entk-1.8.0.tar.gz tmp/radical.entk-1.9.0.tar.gz --markdown 20240415/r/radical.entk/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-15 10:44:10] INFO root fetch - processPackages [leap-model-parser]: executing diffoscope
+[2024-04-15 10:44:10] INFO root fetch - processPackages [leap-model-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leap_model_parser-0.1.98.tar.gz tmp/leap_model_parser-0.1.99.tar.gz --markdown 20240415/l/leap-model-parser/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-04-15 10:44:10] INFO root fetch - processPackages [fast-gmail]: executing diffoscope
+[2024-04-15 10:44:10] INFO root fetch - processPackages [fast-gmail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_gmail-1.0.0.tar.gz tmp/fast_gmail-1.0.1.tar.gz --markdown 20240415/f/fast-gmail/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-15 10:44:10] INFO root fetch - processPackages [radical.analytics]: Downloading https://files.pythonhosted.org/packages/dd/ea/c60eeaf6b1275bfd4aa95f6d7e3b3969cfd767711c0f98183e5d86535c37/radical.analytics-1.6.7.tar.gz
+[2024-04-15 10:44:10] INFO root fetch - processPackages [radical.repex]: executing diffoscope
+[2024-04-15 10:44:10] INFO root fetch - processPackages [radical.repex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radical_repex-1.47.1.tar.gz tmp/radical_repex-1.50.0.tar.gz --markdown 20240415/r/radical.repex/1.47.1-1.50.0/README.md --exclude *.pyd
+[2024-04-15 10:44:11] INFO root fetch - processPackages [ms-swift]: Downloading https://files.pythonhosted.org/packages/73/20/51a5237834c35e8b7f7678f30df890ef21e8b05ee3e6fd166178c0c7525d/ms-swift-2.0.0.tar.gz
+[2024-04-15 10:44:11] INFO root fetch - processPackages [radical.analytics]: executing diffoscope
+[2024-04-15 10:44:11] INFO root fetch - processPackages [radical.analytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radical_analytics-1.50.0.tar.gz tmp/radical.analytics-1.6.7.tar.gz --markdown 20240415/r/radical.analytics/1.50.0-1.6.7/README.md --exclude *.pyd
+[2024-04-15 10:44:11] INFO root fetch - processPackages [pyzmq]: Downloading https://files.pythonhosted.org/packages/67/10/ab31a95f1733cddda6bbbff5f4a1e339b4390694d5cebe95c627500b1283/pyzmq-26.0.0b2.tar.gz
+[2024-04-15 10:44:11] INFO root fetch - processPackages [ms-swift]: executing diffoscope
+[2024-04-15 10:44:11] INFO root fetch - processPackages [ms-swift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms-swift-1.7.3.tar.gz tmp/ms-swift-2.0.0.tar.gz --markdown 20240415/m/ms-swift/1.7.3-2.0.0/README.md --exclude *.pyd
+[2024-04-15 10:44:11] INFO root fetch - processPackages [pyzmq]: executing diffoscope
+[2024-04-15 10:44:11] INFO root fetch - processPackages [pyzmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyzmq-26.0.0b1.tar.gz tmp/pyzmq-26.0.0b2.tar.gz --markdown 20240415/p/pyzmq/26.0.0b1-26.0.0b2/README.md --exclude *.pyd
+[2024-04-15 10:44:11] INFO root fetch - processPackages [fast-gmail]: Remove: archive file [/home/abi/fetcher/tmp/fast_gmail-1.0.0.tar.gz]
+[2024-04-15 10:44:11] INFO root fetch - processPackages [fast-gmail]: Remove: archive file [/home/abi/fetcher/tmp/fast_gmail-1.0.1.tar.gz]
+[2024-04-15 10:44:11] INFO root fetch - main [MainThread]: End processing [fast-gmail]: success
+[2024-04-15 10:44:11] INFO root fetch - processPackages [radical.repex]: Remove: archive file [/home/abi/fetcher/tmp/radical_repex-1.47.1.tar.gz]
+[2024-04-15 10:44:11] INFO root fetch - processPackages [radical.repex]: Remove: archive file [/home/abi/fetcher/tmp/radical_repex-1.50.0.tar.gz]
+[2024-04-15 10:44:11] INFO root fetch - main [MainThread]: End processing [radical.repex]: success
+[2024-04-15 10:44:11] INFO root fetch - processPackages [radical.entk]: Remove: archive file [/home/abi/fetcher/tmp/radical.entk-1.8.0.tar.gz]
+[2024-04-15 10:44:11] INFO root fetch - processPackages [radical.entk]: Remove: archive file [/home/abi/fetcher/tmp/radical.entk-1.9.0.tar.gz]
+[2024-04-15 10:44:11] INFO root fetch - main [MainThread]: End processing [radical.entk]: success
+[2024-04-15 10:44:12] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/31/3c/3a68e2e4cc3165b37471f5302bc500647962d3db54edea8081d0ced76387/capellambse-0.5.9.dev5.tar.gz
+[2024-04-15 10:44:12] INFO root fetch - processPackages [radical.analytics]: Remove: archive file [/home/abi/fetcher/tmp/radical_analytics-1.50.0.tar.gz]
+[2024-04-15 10:44:12] INFO root fetch - processPackages [radical.analytics]: Remove: archive file [/home/abi/fetcher/tmp/radical.analytics-1.6.7.tar.gz]
+[2024-04-15 10:44:12] INFO root fetch - main [MainThread]: End processing [radical.analytics]: success
+[2024-04-15 10:44:12] INFO root fetch - processPackages [ms-swift]: Remove: archive file [/home/abi/fetcher/tmp/ms-swift-1.7.3.tar.gz]
+[2024-04-15 10:44:12] INFO root fetch - processPackages [ms-swift]: Remove: archive file [/home/abi/fetcher/tmp/ms-swift-2.0.0.tar.gz]
+[2024-04-15 10:44:12] INFO root fetch - main [MainThread]: End processing [ms-swift]: success
+[2024-04-15 10:44:13] INFO root fetch - processPackages [pyzmq]: Remove: archive file [/home/abi/fetcher/tmp/pyzmq-26.0.0b1.tar.gz]
+[2024-04-15 10:44:13] INFO root fetch - processPackages [pyzmq]: Remove: archive file [/home/abi/fetcher/tmp/pyzmq-26.0.0b2.tar.gz]
+[2024-04-15 10:44:13] INFO root fetch - main [MainThread]: End processing [pyzmq]: success
+[2024-04-15 10:44:13] INFO root fetch - processPackages [capellambse]: executing diffoscope
+[2024-04-15 10:44:13] INFO root fetch - processPackages [capellambse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capellambse-0.5.9.tar.gz tmp/capellambse-0.5.9.dev5.tar.gz --markdown 20240415/c/capellambse/0.5.9-0.5.9.dev5/README.md --exclude *.pyd
+[2024-04-15 10:44:18] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.tar.gz]
+[2024-04-15 10:44:18] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.dev5.tar.gz]
+[2024-04-15 10:44:18] INFO root fetch - main [MainThread]: End processing [capellambse]: success
+[2024-04-15 10:44:29] INFO root fetch - processPackages [leap-model-parser]: Remove: archive file [/home/abi/fetcher/tmp/leap_model_parser-0.1.98.tar.gz]
+[2024-04-15 10:44:29] INFO root fetch - processPackages [leap-model-parser]: Remove: archive file [/home/abi/fetcher/tmp/leap_model_parser-0.1.99.tar.gz]
+[2024-04-15 10:44:29] INFO root fetch - main [MainThread]: End processing [leap-model-parser]: success
+[2024-04-15 10:44:29] INFO root fetch - main [MainThread]: Store serial: [22768055]
