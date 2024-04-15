@@ -9657,3 +9657,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 09:10:36] INFO root fetch - processPackages [jy_lib]: Remove: archive file [/home/abi/fetcher/tmp/jy_lib-0.5.9.tar.gz]
 [2024-04-15 09:10:36] INFO root fetch - main [MainThread]: End processing [jy_lib]: success
 [2024-04-15 09:10:36] INFO root fetch - main [MainThread]: Store serial: [22767112]
+[2024-04-15 09:12:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22767112]
+[2024-04-15 09:12:46] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-15 09:12:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sqla-assigner
+[2024-04-15 09:12:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: daktari
+[2024-04-15 09:12:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jiebanlp
+[2024-04-15 09:12:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cm2py
+[2024-04-15 09:12:46] INFO root fetch - processPackages [jiebanlp]: New version: [0.1.1] Old Version: [0.1]
+[2024-04-15 09:12:46] WARNING root fetch - processPackages [sqla-assigner]: Skipping, unable to determine old version
+[2024-04-15 09:12:46] INFO root fetch - main [MainThread]: End processing [sqla-assigner] error
+[2024-04-15 09:12:46] INFO root fetch - processPackages [daktari]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-15 09:12:46] INFO root fetch - processPackages [cm2py]: New version: [0.3.7] Old Version: [0.3.6]
+[2024-04-15 09:12:46] INFO root fetch - processPackages [jiebanlp]: Downloading https://files.pythonhosted.org/packages/2e/81/eb4f2153c7383a8c9aa0b5dff0641f354a60ad02bde90fbf05e8a7343691/jiebanlp-0.1.tar.gz
+[2024-04-15 09:12:46] INFO root fetch - processPackages [daktari]: Downloading https://files.pythonhosted.org/packages/80/e2/e763e02669b3c5003eab9a1d3f23a8c11ddea7b9843baca75d4a3f67dfd1/daktari-0.0.98.tar.gz
+[2024-04-15 09:12:46] INFO root fetch - processPackages [cm2py]: Downloading https://files.pythonhosted.org/packages/57/e8/761e04ce784e675f328230654bc00c3ef3c95f8f4ec7813d2c8c1a9216f1/cm2py-0.3.6.tar.gz
+[2024-04-15 09:12:46] INFO root fetch - processPackages [jiebanlp]: Downloading https://files.pythonhosted.org/packages/d4/fa/e3fb46d9149c6861050669616bc120cab87c2e9972bbbe53a47d52ef7087/jiebanlp-0.1.1.tar.gz
+[2024-04-15 09:12:46] INFO root fetch - processPackages [jiebanlp]: executing diffoscope
+[2024-04-15 09:12:46] INFO root fetch - processPackages [jiebanlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jiebanlp-0.1.tar.gz tmp/jiebanlp-0.1.1.tar.gz --markdown 20240415/j/jiebanlp/0.1-0.1.1/README.md --exclude *.pyd
+[2024-04-15 09:12:46] INFO root fetch - processPackages [daktari]: Downloading https://files.pythonhosted.org/packages/35/1f/9e7becfab4e84e6879ca6968ba9f3963734de77bebf086053003ea27839c/daktari-0.0.99.tar.gz
+[2024-04-15 09:12:46] INFO root fetch - processPackages [cm2py]: Downloading https://files.pythonhosted.org/packages/5b/bc/b3d946317e2172dee5d43d004cabf15ae051b8451b16fae6e2eff7230807/cm2py-0.3.7.tar.gz
+[2024-04-15 09:12:47] INFO root fetch - processPackages [daktari]: executing diffoscope
+[2024-04-15 09:12:47] INFO root fetch - processPackages [daktari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daktari-0.0.98.tar.gz tmp/daktari-0.0.99.tar.gz --markdown 20240415/d/daktari/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-04-15 09:12:47] INFO root fetch - processPackages [cm2py]: executing diffoscope
+[2024-04-15 09:12:47] INFO root fetch - processPackages [cm2py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cm2py-0.3.6.tar.gz tmp/cm2py-0.3.7.tar.gz --markdown 20240415/c/cm2py/0.3.6-0.3.7/README.md --exclude *.pyd
+[2024-04-15 09:12:47] INFO root fetch - processPackages [jiebanlp]: Remove: archive file [/home/abi/fetcher/tmp/jiebanlp-0.1.tar.gz]
+[2024-04-15 09:12:47] INFO root fetch - processPackages [jiebanlp]: Remove: archive file [/home/abi/fetcher/tmp/jiebanlp-0.1.1.tar.gz]
+[2024-04-15 09:12:47] INFO root fetch - main [MainThread]: End processing [jiebanlp]: success
+[2024-04-15 09:12:47] INFO root fetch - processPackages [cm2py]: Remove: archive file [/home/abi/fetcher/tmp/cm2py-0.3.6.tar.gz]
+[2024-04-15 09:12:47] INFO root fetch - processPackages [cm2py]: Remove: archive file [/home/abi/fetcher/tmp/cm2py-0.3.7.tar.gz]
+[2024-04-15 09:12:47] INFO root fetch - main [MainThread]: End processing [cm2py]: success
+[2024-04-15 09:12:47] INFO root fetch - processPackages [daktari]: Remove: archive file [/home/abi/fetcher/tmp/daktari-0.0.98.tar.gz]
+[2024-04-15 09:12:47] INFO root fetch - processPackages [daktari]: Remove: archive file [/home/abi/fetcher/tmp/daktari-0.0.99.tar.gz]
+[2024-04-15 09:12:47] INFO root fetch - main [MainThread]: End processing [daktari]: success
+[2024-04-15 09:12:47] INFO root fetch - main [MainThread]: Store serial: [22767126]
