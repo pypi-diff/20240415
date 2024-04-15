@@ -4330,3 +4330,15 @@
 [2024-04-15 05:39:42] INFO root fetch - processPackages [visioncube]: Remove: archive file [/home/abi/fetcher/tmp/visioncube-0.2.8.tar.gz]
 [2024-04-15 05:39:42] INFO root fetch - main [MainThread]: End processing [visioncube]: success
 [2024-04-15 05:39:42] INFO root fetch - main [MainThread]: Store serial: [22765133]
+[2024-04-15 05:41:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22765133]
+[2024-04-15 05:41:51] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-15 05:41:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: surfkit
+[2024-04-15 05:41:51] INFO root fetch - processPackages [surfkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-15 05:41:51] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/00/dc/343980c083ea4ae8ce963639c51b39c0b3ba7869e96ca748256ff1b67925/surfkit-0.1.8.tar.gz
+[2024-04-15 05:41:52] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/e2/bd/4b842eb12eca8c3a3ea5d2915b52f91a3259c7e0160d2a0a88aeb13ae4a7/surfkit-0.1.9.tar.gz
+[2024-04-15 05:41:52] INFO root fetch - processPackages [surfkit]: executing diffoscope
+[2024-04-15 05:41:52] INFO root fetch - processPackages [surfkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surfkit-0.1.8.tar.gz tmp/surfkit-0.1.9.tar.gz --markdown 20240415/s/surfkit/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-15 05:41:52] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.8.tar.gz]
+[2024-04-15 05:41:52] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.9.tar.gz]
+[2024-04-15 05:41:52] INFO root fetch - main [MainThread]: End processing [surfkit]: success
+[2024-04-15 05:41:52] INFO root fetch - main [MainThread]: Store serial: [22765136]
