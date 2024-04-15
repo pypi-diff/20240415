@@ -9043,3 +9043,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 08:46:49] INFO root fetch - processPackages [mqi-sspd-api]: Remove: archive file [/home/abi/fetcher/tmp/mqi_sspd_api-0.0.8.tar.gz]
 [2024-04-15 08:46:49] INFO root fetch - main [MainThread]: End processing [mqi-sspd-api]: success
 [2024-04-15 08:46:49] INFO root fetch - main [MainThread]: Store serial: [22766842]
+[2024-04-15 08:48:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22766842]
+[2024-04-15 08:48:58] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-15 08:48:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-stock-move-location
+[2024-04-15 08:48:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-purchase-only-by-packaging
+[2024-04-15 08:48:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: c2cciutils
+[2024-04-15 08:48:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: meshtastic
+[2024-04-15 08:48:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: deepctools
+[2024-04-15 08:48:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-product-operating-unit
+[2024-04-15 08:48:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mqi-sspd-api
+[2024-04-15 08:48:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hubble-exchange
+[2024-04-15 08:48:58] INFO root fetch - processPackages [meshtastic]: New version: [2.3.5] Old Version: [2.3.4.post1]
+[2024-04-15 08:48:58] INFO root fetch - processPackages [mqi-sspd-api]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-15 08:48:58] INFO root fetch - processPackages [deepctools]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-15 08:48:58] INFO root fetch - processPackages [mqi-sspd-api]: Downloading https://files.pythonhosted.org/packages/02/a6/fceec63d87b5ffc5a9343e46ea9ea437578aec1fdcc14d32d5d0dffe6a47/mqi_sspd_api-0.0.7.tar.gz
+[2024-04-15 08:48:58] INFO root fetch - processPackages [odoo-addon-purchase-only-by-packaging]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.5]
+[2024-04-15 08:48:58] INFO root fetch - processPackages [odoo14-addon-product-operating-unit]: New version: [14.0.1.0.3.dev2] Old Version: [14.0.1.0.3]
+[2024-04-15 08:48:58] INFO root fetch - processPackages [odoo-addon-stock-move-location]: New version: [16.0.1.2.3] Old Version: [16.0.1.2.2]
+[2024-04-15 08:48:58] INFO root fetch - processPackages [hubble-exchange]: New version: [0.9.0rc9] Old Version: [0.9.0rc8]
+[2024-04-15 08:48:58] INFO root fetch - processPackages [c2cciutils]: New version: [1.7.0.dev99] Old Version: [1.7.0.dev98]
+[2024-04-15 08:48:58] INFO root fetch - processPackages [meshtastic]: Downloading https://files.pythonhosted.org/packages/49/34/cfa60b08abdfb4c694809b5f7e267f6d517187c9574ff7f916786596e502/meshtastic-2.3.4.post1.tar.gz
+[2024-04-15 08:48:58] INFO root fetch - processPackages [deepctools]: Downloading https://files.pythonhosted.org/packages/ab/5f/c980fe9798a352db012e837a172148b5206ccc16102044e89dd4f4630ca3/deepctools-1.0.2.tar.gz
+[2024-04-15 08:48:58] INFO root fetch - processPackages [odoo-addon-purchase-only-by-packaging]: Downloading https://files.pythonhosted.org/packages/04/33/072f8f15ff7effcf7e1f1f317950c2ffd1318dd6e0d83706101958f2bc76/odoo_addon_purchase_only_by_packaging-16.0.1.0.0.5-py3-none-any.whl
+[2024-04-15 08:48:58] INFO root fetch - processPackages [mqi-sspd-api]: Downloading https://files.pythonhosted.org/packages/ee/ae/4a3b6ddc3ca5c7fb26459aac3527bca5e6879ad9622cd590be6bc1a59884/mqi_sspd_api-0.0.8.tar.gz
+[2024-04-15 08:48:58] INFO root fetch - processPackages [odoo-addon-stock-move-location]: Downloading https://files.pythonhosted.org/packages/eb/b9/7d0121756702776146a3c54e55661f41c6b865addac56f804c76a6a7991b/odoo_addon_stock_move_location-16.0.1.2.2-py3-none-any.whl
+[2024-04-15 08:48:58] INFO root fetch - processPackages [hubble-exchange]: Downloading https://files.pythonhosted.org/packages/ec/89/602d4318220e32de7327223f209a593b29ea3f5d6ad5f10c32a6d796ac0b/hubble_exchange-0.9.0rc8.tar.gz
+[2024-04-15 08:48:58] INFO root fetch - processPackages [odoo14-addon-product-operating-unit]: Downloading https://files.pythonhosted.org/packages/bd/d9/9836117ef6a43170195fe81e9bd7ae8886b64e519a3f7fc55a372bc9c82f/odoo14_addon_product_operating_unit-14.0.1.0.3-py3-none-any.whl
+[2024-04-15 08:48:58] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/62/aa/080c37692bc6af730809e32f5cb82932c00c5513d164349ff96537069e82/c2cciutils-1.7.0.dev98.tar.gz
+[2024-04-15 08:48:58] INFO root fetch - processPackages [mqi-sspd-api]: executing diffoscope
+[2024-04-15 08:48:58] INFO root fetch - processPackages [mqi-sspd-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mqi_sspd_api-0.0.7.tar.gz tmp/mqi_sspd_api-0.0.8.tar.gz --markdown 20240415/m/mqi-sspd-api/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-15 08:48:58] INFO root fetch - processPackages [meshtastic]: Downloading https://files.pythonhosted.org/packages/89/10/53f9d03107dad1af867ce3e23235bdcbe12938de5c4571e8912f8b49b499/meshtastic-2.3.5.tar.gz
+[2024-04-15 08:48:59] INFO root fetch - processPackages [deepctools]: Downloading https://files.pythonhosted.org/packages/32/48/449a11792866d78f18ff0b5fd6d2d521cd2b3229bb7a9828f6117fc8e2e3/deepctools-1.0.3.tar.gz
+[2024-04-15 08:48:59] INFO root fetch - processPackages [odoo-addon-purchase-only-by-packaging]: Downloading https://files.pythonhosted.org/packages/07/b5/48c19ce2ff2722855ade5e45e2c66a45b1f5fbe18b147e571d64761e6f34/odoo_addon_purchase_only_by_packaging-16.0.1.0.1-py3-none-any.whl
+[2024-04-15 08:48:59] INFO root fetch - processPackages [meshtastic]: executing diffoscope
+[2024-04-15 08:48:59] INFO root fetch - processPackages [meshtastic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meshtastic-2.3.4.post1.tar.gz tmp/meshtastic-2.3.5.tar.gz --markdown 20240415/m/meshtastic/2.3.4.post1-2.3.5/README.md --exclude *.pyd
+[2024-04-15 08:48:59] INFO root fetch - processPackages [odoo-addon-stock-move-location]: Downloading https://files.pythonhosted.org/packages/d3/e3/4de744bb48efc6919592d473af785626c24f9a691ebdf5461eec6fbf9b3f/odoo_addon_stock_move_location-16.0.1.2.3-py3-none-any.whl
+[2024-04-15 08:48:59] INFO root fetch - processPackages [hubble-exchange]: Downloading https://files.pythonhosted.org/packages/9b/7f/2ee6e11f25ee216192ab43f3f5f91dd9e1f749c7c48a61fdbfe06df096e5/hubble_exchange-0.9.0rc9.tar.gz
+[2024-04-15 08:48:59] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/0b/33/b4f2b2d1c9a7ae924ddcc8b7cbf69f1ed37a1a5f0faa155ac94becd05a90/c2cciutils-1.7.0.dev99.tar.gz
+[2024-04-15 08:48:59] INFO root fetch - processPackages [deepctools]: executing diffoscope
+[2024-04-15 08:48:59] INFO root fetch - processPackages [deepctools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepctools-1.0.2.tar.gz tmp/deepctools-1.0.3.tar.gz --markdown 20240415/d/deepctools/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-04-15 08:48:59] INFO root fetch - processPackages [odoo14-addon-product-operating-unit]: Downloading https://files.pythonhosted.org/packages/ac/78/f4286c150e58a50f2c08decb695457cdcabccc7206768c9929fc045d9939/odoo14_addon_product_operating_unit-14.0.1.0.3.dev2-py3-none-any.whl
+[2024-04-15 08:48:59] INFO root fetch - processPackages [odoo-addon-purchase-only-by-packaging]: executing diffoscope
+[2024-04-15 08:48:59] INFO root fetch - processPackages [odoo-addon-purchase-only-by-packaging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_only_by_packaging-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_purchase_only_by_packaging-16.0.1.0.1-py3-none-any.whl.zip --markdown 20240415/o/odoo-addon-purchase-only-by-packaging/16.0.1.0.0.5-16.0.1.0.1/README.md --exclude *.pyd
+[2024-04-15 08:48:59] INFO root fetch - processPackages [hubble-exchange]: executing diffoscope
+[2024-04-15 08:48:59] INFO root fetch - processPackages [hubble-exchange]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hubble_exchange-0.9.0rc8.tar.gz tmp/hubble_exchange-0.9.0rc9.tar.gz --markdown 20240415/h/hubble-exchange/0.9.0rc8-0.9.0rc9/README.md --exclude *.pyd
+[2024-04-15 08:48:59] INFO root fetch - processPackages [odoo-addon-stock-move-location]: executing diffoscope
+[2024-04-15 08:48:59] INFO root fetch - processPackages [odoo-addon-stock-move-location]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_move_location-16.0.1.2.2-py3-none-any.whl.zip tmp/odoo_addon_stock_move_location-16.0.1.2.3-py3-none-any.whl.zip --markdown 20240415/o/odoo-addon-stock-move-location/16.0.1.2.2-16.0.1.2.3/README.md --exclude *.pyd
+[2024-04-15 08:48:59] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2024-04-15 08:48:59] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.7.0.dev98.tar.gz tmp/c2cciutils-1.7.0.dev99.tar.gz --markdown 20240415/c/c2cciutils/1.7.0.dev98-1.7.0.dev99/README.md --exclude *.pyd
+[2024-04-15 08:48:59] INFO root fetch - processPackages [odoo14-addon-product-operating-unit]: executing diffoscope
+[2024-04-15 08:48:59] INFO root fetch - processPackages [odoo14-addon-product-operating-unit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_product_operating_unit-14.0.1.0.3-py3-none-any.whl.zip tmp/odoo14_addon_product_operating_unit-14.0.1.0.3.dev2-py3-none-any.whl.zip --markdown 20240415/o/odoo14-addon-product-operating-unit/14.0.1.0.3-14.0.1.0.3.dev2/README.md --exclude *.pyd
+[2024-04-15 08:48:59] INFO root fetch - processPackages [mqi-sspd-api]: Remove: archive file [/home/abi/fetcher/tmp/mqi_sspd_api-0.0.7.tar.gz]
+[2024-04-15 08:48:59] INFO root fetch - processPackages [mqi-sspd-api]: Remove: archive file [/home/abi/fetcher/tmp/mqi_sspd_api-0.0.8.tar.gz]
+[2024-04-15 08:49:00] INFO root fetch - main [MainThread]: End processing [mqi-sspd-api]: success
+[2024-04-15 08:49:00] INFO root fetch - processPackages [odoo-addon-purchase-only-by-packaging]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_only_by_packaging-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-15 08:49:00] INFO root fetch - processPackages [odoo-addon-purchase-only-by-packaging]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_only_by_packaging-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-04-15 08:49:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-only-by-packaging]: success
+[2024-04-15 08:49:00] INFO root fetch - processPackages [deepctools]: Remove: archive file [/home/abi/fetcher/tmp/deepctools-1.0.2.tar.gz]
+[2024-04-15 08:49:00] INFO root fetch - processPackages [deepctools]: Remove: archive file [/home/abi/fetcher/tmp/deepctools-1.0.3.tar.gz]
+[2024-04-15 08:49:00] INFO root fetch - main [MainThread]: End processing [deepctools]: success
+[2024-04-15 08:49:00] INFO root fetch - processPackages [odoo14-addon-product-operating-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_product_operating_unit-14.0.1.0.3-py3-none-any.whl.zip]
+[2024-04-15 08:49:00] INFO root fetch - processPackages [odoo14-addon-product-operating-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_product_operating_unit-14.0.1.0.3.dev2-py3-none-any.whl.zip]
+[2024-04-15 08:49:00] INFO root fetch - main [MainThread]: End processing [odoo14-addon-product-operating-unit]: success
+[2024-04-15 08:49:00] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.7.0.dev98.tar.gz]
+[2024-04-15 08:49:00] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.7.0.dev99.tar.gz]
+[2024-04-15 08:49:00] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2024-04-15 08:49:00] INFO root fetch - processPackages [hubble-exchange]: Remove: archive file [/home/abi/fetcher/tmp/hubble_exchange-0.9.0rc8.tar.gz]
+[2024-04-15 08:49:00] INFO root fetch - processPackages [hubble-exchange]: Remove: archive file [/home/abi/fetcher/tmp/hubble_exchange-0.9.0rc9.tar.gz]
+[2024-04-15 08:49:00] INFO root fetch - main [MainThread]: End processing [hubble-exchange]: success
+[2024-04-15 08:49:00] INFO root fetch - processPackages [odoo-addon-stock-move-location]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_move_location-16.0.1.2.2-py3-none-any.whl.zip]
+[2024-04-15 08:49:00] INFO root fetch - processPackages [odoo-addon-stock-move-location]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_move_location-16.0.1.2.3-py3-none-any.whl.zip]
+[2024-04-15 08:49:01] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-move-location]: success
+[2024-04-15 08:49:01] INFO root fetch - processPackages [meshtastic]: Remove: archive file [/home/abi/fetcher/tmp/meshtastic-2.3.4.post1.tar.gz]
+[2024-04-15 08:49:01] INFO root fetch - processPackages [meshtastic]: Remove: archive file [/home/abi/fetcher/tmp/meshtastic-2.3.5.tar.gz]
+[2024-04-15 08:49:01] INFO root fetch - main [MainThread]: End processing [meshtastic]: success
+[2024-04-15 08:49:01] INFO root fetch - main [MainThread]: Store serial: [22766865]
