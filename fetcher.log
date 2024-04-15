@@ -15172,3 +15172,105 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 12:42:01] INFO root fetch - processPackages [tad-mctc]: Remove: archive file [/home/abi/fetcher/tmp/tad_mctc-0.1.3.tar.gz]
 [2024-04-15 12:42:01] INFO root fetch - main [MainThread]: End processing [tad-mctc]: success
 [2024-04-15 12:42:01] INFO root fetch - main [MainThread]: Store serial: [22769557]
+[2024-04-15 12:44:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22769557]
+[2024-04-15 12:44:10] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-15 12:44:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langbank
+[2024-04-15 12:44:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: misleep
+[2024-04-15 12:44:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eth-accounts-index
+[2024-04-15 12:44:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: truefoundry
+[2024-04-15 12:44:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: testit-adapter-behave
+[2024-04-15 12:44:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: testit-adapter-pytest
+[2024-04-15 12:44:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: testit-adapter-nose
+[2024-04-15 12:44:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: testit-python-commons
+[2024-04-15 12:44:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: testit-adapter-robotframework
+[2024-04-15 12:44:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sbcli-mig
+[2024-04-15 12:44:10] INFO root fetch - processPackages [sbcli-mig]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-15 12:44:10] INFO root fetch - processPackages [langbank]: New version: [0.1.2] Old Version: [0.1]
+[2024-04-15 12:44:10] INFO root fetch - processPackages [truefoundry]: New version: [0.2.0rc5] Old Version: [0.2.0rc4]
+[2024-04-15 12:44:10] INFO root fetch - processPackages [testit-python-commons]: New version: [3.0.0] Old Version: [2.8.3]
+[2024-04-15 12:44:10] INFO root fetch - processPackages [testit-adapter-pytest]: New version: [3.0.0] Old Version: [2.8.3]
+[2024-04-15 12:44:10] INFO root fetch - processPackages [testit-adapter-nose]: New version: [3.0.0] Old Version: [2.8.3]
+[2024-04-15 12:44:10] INFO root fetch - processPackages [testit-adapter-robotframework]: New version: [3.0.0] Old Version: [2.8.3]
+[2024-04-15 12:44:10] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/06/2f/2b2f1cfa7b91365cf5cd645c5967a8e8a8bd7f1c8e89f91d7e43e2aefc87/sbcli-mig-1.0.8.zip
+[2024-04-15 12:44:10] INFO root fetch - processPackages [misleep]: New version: [0.1.6b0] Old Version: [0.1.5b0]
+[2024-04-15 12:44:10] INFO root fetch - processPackages [testit-adapter-behave]: New version: [3.0.0] Old Version: [2.8.3]
+[2024-04-15 12:44:10] INFO root fetch - processPackages [eth-accounts-index]: New version: [0.6.0] Old Version: [0.5.3]
+[2024-04-15 12:44:10] INFO root fetch - processPackages [langbank]: Downloading https://files.pythonhosted.org/packages/77/4c/4ea62c46356d3898a85d9196a97a345deaea20e871a950cd77872af9af49/langbank-0.1.tar.gz
+[2024-04-15 12:44:10] INFO root fetch - processPackages [truefoundry]: Downloading https://files.pythonhosted.org/packages/7c/08/8b655c7e854714ddfa433b0a020df6ec3ea9f83eb6799670a38a5d3c2a77/truefoundry-0.2.0rc4.tar.gz
+[2024-04-15 12:44:10] INFO root fetch - processPackages [testit-python-commons]: Downloading https://files.pythonhosted.org/packages/04/db/96ab5908169242cf1ad9a89e3b8864f479c54a7e3ddc4554c8e9fecd36ab/testit-python-commons-2.8.3.tar.gz
+[2024-04-15 12:44:10] INFO root fetch - processPackages [testit-adapter-pytest]: Downloading https://files.pythonhosted.org/packages/bf/20/7ab0ce5a3531b569394c178ee3f1696356b3a0d3cdf3765599a217f96d4e/testit-adapter-pytest-2.8.3.tar.gz
+[2024-04-15 12:44:10] INFO root fetch - processPackages [testit-adapter-nose]: Downloading https://files.pythonhosted.org/packages/c0/6e/0c466588d73c7c3696182cbdb2314772143ea54ba92d862d2cd6e671ea3f/testit-adapter-nose-2.8.3.tar.gz
+[2024-04-15 12:44:10] INFO root fetch - processPackages [testit-adapter-robotframework]: Downloading https://files.pythonhosted.org/packages/7d/52/3cab0a115e71d54d8c7a84f446d762a34edaca59039e93e6ab26bdc1a2d4/testit-adapter-robotframework-2.8.3.tar.gz
+[2024-04-15 12:44:10] INFO root fetch - processPackages [eth-accounts-index]: Downloading https://files.pythonhosted.org/packages/e9/73/3b7a241a93c7860a7b0dfbd2f310289fbf52ae20c542364943ae12c740ec/eth-accounts-index-0.5.3.tar.gz
+[2024-04-15 12:44:10] INFO root fetch - processPackages [misleep]: Downloading https://files.pythonhosted.org/packages/b6/16/fdd6c668f86a9c4de319b9b8881cec7eeee4b3e3313fd0314109730517b0/misleep-0.1.5b0.tar.gz
+[2024-04-15 12:44:10] INFO root fetch - processPackages [testit-adapter-behave]: Downloading https://files.pythonhosted.org/packages/f0/3e/6c8f1271494925f392b471c7e6f962a673f3820cb9551da4dd5de99dd1df/testit-adapter-behave-2.8.3.tar.gz
+[2024-04-15 12:44:10] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/4b/15/9c1afe915f08547ce582aeae079f597b2a173df003109bcd1d0f0bbf037e/sbcli-mig-1.0.9.zip
+[2024-04-15 12:44:11] INFO root fetch - processPackages [langbank]: Downloading https://files.pythonhosted.org/packages/40/1a/f392c98511d0a08ff8c91d4be96b714675ecbe871c4e47f089911993fc4b/langbank-0.1.2.tar.gz
+[2024-04-15 12:44:11] INFO root fetch - processPackages [truefoundry]: Downloading https://files.pythonhosted.org/packages/51/57/1e9981a3da23f5bd2b8f102b7681b829ee74000792dca66ddad082b8d65a/truefoundry-0.2.0rc5.tar.gz
+[2024-04-15 12:44:11] INFO root fetch - processPackages [sbcli-mig]: executing diffoscope
+[2024-04-15 12:44:11] INFO root fetch - processPackages [sbcli-mig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli-mig-1.0.8.zip tmp/sbcli-mig-1.0.9.zip --markdown 20240415/s/sbcli-mig/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-15 12:44:11] INFO root fetch - processPackages [testit-python-commons]: Downloading https://files.pythonhosted.org/packages/c0/a5/418fd86ae0e3c64db76309647d4fac04ff97a2fcca347901b590cd9f60ea/testit_python_commons-3.0.0.tar.gz
+[2024-04-15 12:44:11] INFO root fetch - processPackages [testit-adapter-pytest]: Downloading https://files.pythonhosted.org/packages/fc/29/26227761d1811866c50523b031a8eb486fa8f68b1ec798d5c3fca2e7604e/testit_adapter_pytest-3.0.0.tar.gz
+[2024-04-15 12:44:11] INFO root fetch - processPackages [testit-adapter-nose]: Downloading https://files.pythonhosted.org/packages/5f/55/fd64c0d3759ad62b8101840c4b26ff06b4e518d63fb2ec20337730589a82/testit_adapter_nose-3.0.0.tar.gz
+[2024-04-15 12:44:11] INFO root fetch - processPackages [testit-adapter-robotframework]: Downloading https://files.pythonhosted.org/packages/9f/c3/4475f90fd39c03384904a9a30263fc7c8a2189e27da720c357cc5bd44abb/testit_adapter_robotframework-3.0.0.tar.gz
+[2024-04-15 12:44:11] INFO root fetch - processPackages [eth-accounts-index]: Downloading https://files.pythonhosted.org/packages/8f/1a/6328e185ea47fc23a5dd5a9dd58f7f8124a42fe79277260c99ec84ca91fc/eth-accounts-index-0.6.0.tar.gz
+[2024-04-15 12:44:11] INFO root fetch - processPackages [langbank]: executing diffoscope
+[2024-04-15 12:44:11] INFO root fetch - processPackages [langbank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langbank-0.1.tar.gz tmp/langbank-0.1.2.tar.gz --markdown 20240415/l/langbank/0.1-0.1.2/README.md --exclude *.pyd
+[2024-04-15 12:44:11] INFO root fetch - processPackages [testit-adapter-behave]: Downloading https://files.pythonhosted.org/packages/61/45/a950c9421d47c551e14673be3ef1a45298964f24fd1ce396fba33b0fdbe9/testit_adapter_behave-3.0.0.tar.gz
+[2024-04-15 12:44:11] INFO root fetch - processPackages [misleep]: Downloading https://files.pythonhosted.org/packages/db/66/554345e09eb4ebdb5f9895c4d4273de824255eae58d4f1963d7e3df9b3ae/misleep-0.1.6b0.tar.gz
+[2024-04-15 12:44:11] INFO root fetch - processPackages [truefoundry]: executing diffoscope
+[2024-04-15 12:44:11] INFO root fetch - processPackages [truefoundry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/truefoundry-0.2.0rc4.tar.gz tmp/truefoundry-0.2.0rc5.tar.gz --markdown 20240415/t/truefoundry/0.2.0rc4-0.2.0rc5/README.md --exclude *.pyd
+[2024-04-15 12:44:11] INFO root fetch - processPackages [testit-python-commons]: executing diffoscope
+[2024-04-15 12:44:11] INFO root fetch - processPackages [testit-python-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testit-python-commons-2.8.3.tar.gz tmp/testit_python_commons-3.0.0.tar.gz --markdown 20240415/t/testit-python-commons/2.8.3-3.0.0/README.md --exclude *.pyd
+[2024-04-15 12:44:11] INFO root fetch - processPackages [testit-adapter-pytest]: executing diffoscope
+[2024-04-15 12:44:11] INFO root fetch - processPackages [testit-adapter-pytest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testit-adapter-pytest-2.8.3.tar.gz tmp/testit_adapter_pytest-3.0.0.tar.gz --markdown 20240415/t/testit-adapter-pytest/2.8.3-3.0.0/README.md --exclude *.pyd
+[2024-04-15 12:44:11] INFO root fetch - processPackages [testit-adapter-nose]: executing diffoscope
+[2024-04-15 12:44:11] INFO root fetch - processPackages [testit-adapter-nose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testit-adapter-nose-2.8.3.tar.gz tmp/testit_adapter_nose-3.0.0.tar.gz --markdown 20240415/t/testit-adapter-nose/2.8.3-3.0.0/README.md --exclude *.pyd
+[2024-04-15 12:44:11] INFO root fetch - processPackages [testit-adapter-robotframework]: executing diffoscope
+[2024-04-15 12:44:11] INFO root fetch - processPackages [testit-adapter-robotframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testit-adapter-robotframework-2.8.3.tar.gz tmp/testit_adapter_robotframework-3.0.0.tar.gz --markdown 20240415/t/testit-adapter-robotframework/2.8.3-3.0.0/README.md --exclude *.pyd
+[2024-04-15 12:44:11] INFO root fetch - processPackages [eth-accounts-index]: executing diffoscope
+[2024-04-15 12:44:11] INFO root fetch - processPackages [eth-accounts-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eth-accounts-index-0.5.3.tar.gz tmp/eth-accounts-index-0.6.0.tar.gz --markdown 20240415/e/eth-accounts-index/0.5.3-0.6.0/README.md --exclude *.pyd
+[2024-04-15 12:44:11] INFO root fetch - processPackages [testit-adapter-behave]: executing diffoscope
+[2024-04-15 12:44:11] INFO root fetch - processPackages [testit-adapter-behave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testit-adapter-behave-2.8.3.tar.gz tmp/testit_adapter_behave-3.0.0.tar.gz --markdown 20240415/t/testit-adapter-behave/2.8.3-3.0.0/README.md --exclude *.pyd
+[2024-04-15 12:44:11] INFO root fetch - processPackages [misleep]: executing diffoscope
+[2024-04-15 12:44:11] INFO root fetch - processPackages [misleep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/misleep-0.1.5b0.tar.gz tmp/misleep-0.1.6b0.tar.gz --markdown 20240415/m/misleep/0.1.5b0-0.1.6b0/README.md --exclude *.pyd
+[2024-04-15 12:44:12] INFO root fetch - processPackages [langbank]: Remove: archive file [/home/abi/fetcher/tmp/langbank-0.1.tar.gz]
+[2024-04-15 12:44:12] INFO root fetch - processPackages [langbank]: Remove: archive file [/home/abi/fetcher/tmp/langbank-0.1.2.tar.gz]
+[2024-04-15 12:44:12] INFO root fetch - processPackages [langbank]: Start processing: libcnmc
+[2024-04-15 12:44:12] INFO root fetch - main [MainThread]: End processing [langbank]: success
+[2024-04-15 12:44:12] INFO root fetch - processPackages [testit-python-commons]: Remove: archive file [/home/abi/fetcher/tmp/testit-python-commons-2.8.3.tar.gz]
+[2024-04-15 12:44:12] INFO root fetch - processPackages [testit-python-commons]: Remove: archive file [/home/abi/fetcher/tmp/testit_python_commons-3.0.0.tar.gz]
+[2024-04-15 12:44:12] INFO root fetch - main [MainThread]: End processing [testit-python-commons]: success
+[2024-04-15 12:44:12] INFO root fetch - processPackages [truefoundry]: Remove: archive file [/home/abi/fetcher/tmp/truefoundry-0.2.0rc4.tar.gz]
+[2024-04-15 12:44:12] INFO root fetch - processPackages [truefoundry]: Remove: archive file [/home/abi/fetcher/tmp/truefoundry-0.2.0rc5.tar.gz]
+[2024-04-15 12:44:12] INFO root fetch - main [MainThread]: End processing [truefoundry]: success
+[2024-04-15 12:44:12] INFO root fetch - processPackages [libcnmc]: New version: [24.9.0] Old Version: [24.8.3]
+[2024-04-15 12:44:12] INFO root fetch - processPackages [testit-adapter-pytest]: Remove: archive file [/home/abi/fetcher/tmp/testit-adapter-pytest-2.8.3.tar.gz]
+[2024-04-15 12:44:12] INFO root fetch - processPackages [testit-adapter-pytest]: Remove: archive file [/home/abi/fetcher/tmp/testit_adapter_pytest-3.0.0.tar.gz]
+[2024-04-15 12:44:12] INFO root fetch - main [MainThread]: End processing [testit-adapter-pytest]: success
+[2024-04-15 12:44:12] INFO root fetch - processPackages [testit-adapter-nose]: Remove: archive file [/home/abi/fetcher/tmp/testit-adapter-nose-2.8.3.tar.gz]
+[2024-04-15 12:44:12] INFO root fetch - processPackages [testit-adapter-nose]: Remove: archive file [/home/abi/fetcher/tmp/testit_adapter_nose-3.0.0.tar.gz]
+[2024-04-15 12:44:12] INFO root fetch - main [MainThread]: End processing [testit-adapter-nose]: success
+[2024-04-15 12:44:12] INFO root fetch - processPackages [eth-accounts-index]: Remove: archive file [/home/abi/fetcher/tmp/eth-accounts-index-0.5.3.tar.gz]
+[2024-04-15 12:44:12] INFO root fetch - processPackages [eth-accounts-index]: Remove: archive file [/home/abi/fetcher/tmp/eth-accounts-index-0.6.0.tar.gz]
+[2024-04-15 12:44:12] INFO root fetch - main [MainThread]: End processing [eth-accounts-index]: success
+[2024-04-15 12:44:12] INFO root fetch - processPackages [testit-adapter-behave]: Remove: archive file [/home/abi/fetcher/tmp/testit-adapter-behave-2.8.3.tar.gz]
+[2024-04-15 12:44:12] INFO root fetch - processPackages [testit-adapter-behave]: Remove: archive file [/home/abi/fetcher/tmp/testit_adapter_behave-3.0.0.tar.gz]
+[2024-04-15 12:44:12] INFO root fetch - main [MainThread]: End processing [testit-adapter-behave]: success
+[2024-04-15 12:44:12] INFO root fetch - processPackages [testit-adapter-robotframework]: Remove: archive file [/home/abi/fetcher/tmp/testit-adapter-robotframework-2.8.3.tar.gz]
+[2024-04-15 12:44:12] INFO root fetch - processPackages [testit-adapter-robotframework]: Remove: archive file [/home/abi/fetcher/tmp/testit_adapter_robotframework-3.0.0.tar.gz]
+[2024-04-15 12:44:12] INFO root fetch - main [MainThread]: End processing [testit-adapter-robotframework]: success
+[2024-04-15 12:44:12] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/06/95/80722d6009cc50259f4ce428e98ab7aa5f24029258e48badd2a15d9022d1/libcnmc-24.8.3.tar.gz
+[2024-04-15 12:44:12] INFO root fetch - processPackages [misleep]: Remove: archive file [/home/abi/fetcher/tmp/misleep-0.1.5b0.tar.gz]
+[2024-04-15 12:44:12] INFO root fetch - processPackages [misleep]: Remove: archive file [/home/abi/fetcher/tmp/misleep-0.1.6b0.tar.gz]
+[2024-04-15 12:44:12] INFO root fetch - main [MainThread]: End processing [misleep]: success
+[2024-04-15 12:44:12] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-mig-1.0.8.zip]
+[2024-04-15 12:44:12] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-mig-1.0.9.zip]
+[2024-04-15 12:44:12] INFO root fetch - main [MainThread]: End processing [sbcli-mig]: success
+[2024-04-15 12:44:12] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/80/9b/3c50acc630ff122623a0def3d1145430763cb3ca6f3195b9288ef0962a44/libcnmc-24.9.0.tar.gz
+[2024-04-15 12:44:13] INFO root fetch - processPackages [libcnmc]: executing diffoscope
+[2024-04-15 12:44:13] INFO root fetch - processPackages [libcnmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcnmc-24.8.3.tar.gz tmp/libcnmc-24.9.0.tar.gz --markdown 20240415/l/libcnmc/24.8.3-24.9.0/README.md --exclude *.pyd
+[2024-04-15 12:44:13] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-24.8.3.tar.gz]
+[2024-04-15 12:44:13] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-24.9.0.tar.gz]
+[2024-04-15 12:44:14] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
+[2024-04-15 12:44:14] INFO root fetch - main [MainThread]: Store serial: [22769582]
