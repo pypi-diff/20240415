@@ -3819,3 +3819,66 @@
 [2024-04-15 05:04:35] INFO root fetch - processPackages [xcloud-client]: Remove: archive file [/home/abi/fetcher/tmp/xcloud_client-2.0.tar.gz]
 [2024-04-15 05:04:35] INFO root fetch - main [MainThread]: End processing [xcloud-client]: success
 [2024-04-15 05:04:35] INFO root fetch - main [MainThread]: Store serial: [22764917]
+[2024-04-15 05:06:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22764917]
+[2024-04-15 05:06:44] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-15 05:06:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sphinx-issues
+[2024-04-15 05:06:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyLevelSet
+[2024-04-15 05:06:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: calpit
+[2024-04-15 05:06:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tsugu
+[2024-04-15 05:06:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: s360tools
+[2024-04-15 05:06:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Pyprintery
+[2024-04-15 05:06:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: moyopy
+[2024-04-15 05:06:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dyff-client
+[2024-04-15 05:06:44] WARNING root fetch - processPackages [Pyprintery]: Skipping, unable to determine old version
+[2024-04-15 05:06:44] INFO root fetch - main [MainThread]: End processing [Pyprintery] error
+[2024-04-15 05:06:44] INFO root fetch - processPackages [tsugu]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-04-15 05:06:44] INFO root fetch - processPackages [s360tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-15 05:06:44] INFO root fetch - processPackages [dyff-client]: New version: [0.3.0] Old Version: [0.2.2]
+[2024-04-15 05:06:44] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/b6/f2/a6993d6d0de55dfd9ba964779acad8a38e57a48b81b2be4a87b1727d89dd/tsugu-0.4.4.tar.gz
+[2024-04-15 05:06:44] INFO root fetch - processPackages [calpit]: New version: [0.1.2] Old Version: [0.1]
+[2024-04-15 05:06:44] INFO root fetch - processPackages [sphinx-issues]: New version: [4.1.0] Old Version: [4.0.0]
+[2024-04-15 05:06:44] INFO root fetch - processPackages [moyopy]: New version: [0.1.2] Old Version: [0.1.0]
+[2024-04-15 05:06:44] WARNING root fetch - processPackages [pyLevelSet]: Skipping, unable to determine old version
+[2024-04-15 05:06:44] INFO root fetch - main [MainThread]: End processing [pyLevelSet] error
+[2024-04-15 05:06:44] INFO root fetch - processPackages [s360tools]: Downloading https://files.pythonhosted.org/packages/0d/7c/8be870f97f0339b8f2e7ace8fe106cac54ed02414402cee2c0b6a6752439/s360tools-0.1.8.tar.gz
+[2024-04-15 05:06:44] INFO root fetch - processPackages [dyff-client]: Downloading https://files.pythonhosted.org/packages/38/b3/5e7a08cc9d6d96559cab91bf288c5d994d504da4b88efc58b282338e717b/dyff-client-0.2.2.tar.gz
+[2024-04-15 05:06:45] INFO root fetch - processPackages [calpit]: Downloading https://files.pythonhosted.org/packages/26/5e/34c98f5bc9e9b220281df796dc02b35b97e74bc7cc8fa54da86ce0e750d6/calpit-0.1.tar.gz
+[2024-04-15 05:06:45] INFO root fetch - processPackages [sphinx-issues]: Downloading https://files.pythonhosted.org/packages/dd/8b/d0c10bb1a98273c08cbe6fe773bada84597d250960c91dbe7d1a97f6df7d/sphinx_issues-4.0.0.tar.gz
+[2024-04-15 05:06:45] INFO root fetch - processPackages [moyopy]: Downloading https://files.pythonhosted.org/packages/a6/80/777f0c57d050b35ac3bd8f149447390cbb6025ca17d7c898e62f921e3fde/moyopy-0.1.0.tar.gz
+[2024-04-15 05:06:45] INFO root fetch - processPackages [s360tools]: Downloading https://files.pythonhosted.org/packages/36/a7/b8ffea09fda00e3b858dd7c2d542c99922c6acee6cc2ab85d52ee832f477/s360tools-0.1.9.tar.gz
+[2024-04-15 05:06:45] INFO root fetch - processPackages [dyff-client]: Downloading https://files.pythonhosted.org/packages/47/7f/1a3480e23996f48c983a312d9d62e55f21d9e4df9fd6879284af5f45bd54/dyff_client-0.3.0.tar.gz
+[2024-04-15 05:06:45] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/db/52/d9e4bdbaa361a87e3fd548b5fc8f9aeea6a9fc58b2ad070c422ec107bd71/tsugu-0.4.5.tar.gz
+[2024-04-15 05:06:45] INFO root fetch - processPackages [s360tools]: executing diffoscope
+[2024-04-15 05:06:45] INFO root fetch - processPackages [s360tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s360tools-0.1.8.tar.gz tmp/s360tools-0.1.9.tar.gz --markdown 20240415/s/s360tools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-15 05:06:45] INFO root fetch - processPackages [tsugu]: executing diffoscope
+[2024-04-15 05:06:45] INFO root fetch - processPackages [tsugu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsugu-0.4.4.tar.gz tmp/tsugu-0.4.5.tar.gz --markdown 20240415/t/tsugu/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-04-15 05:06:45] INFO root fetch - processPackages [dyff-client]: executing diffoscope
+[2024-04-15 05:06:45] INFO root fetch - processPackages [dyff-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dyff-client-0.2.2.tar.gz tmp/dyff_client-0.3.0.tar.gz --markdown 20240415/d/dyff-client/0.2.2-0.3.0/README.md --exclude *.pyd
+[2024-04-15 05:06:45] INFO root fetch - processPackages [sphinx-issues]: Downloading https://files.pythonhosted.org/packages/ba/fb/fa7829987e801056f16d8c63ace3f1d6f91e44940ad00f512450581ed63f/sphinx_issues-4.1.0.tar.gz
+[2024-04-15 05:06:45] INFO root fetch - processPackages [calpit]: Downloading https://files.pythonhosted.org/packages/c8/11/947811483c3bf02a0c816a5ab332e78ed81cac11e957b4cb195daf363606/calpit-0.1.2.tar.gz
+[2024-04-15 05:06:45] INFO root fetch - processPackages [moyopy]: Downloading https://files.pythonhosted.org/packages/13/49/2a758b86855d8c0d6dce100974ee341757348df9a55ebf2183264b3772bb/moyopy-0.1.2.tar.gz
+[2024-04-15 05:06:45] INFO root fetch - processPackages [sphinx-issues]: executing diffoscope
+[2024-04-15 05:06:45] INFO root fetch - processPackages [sphinx-issues]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_issues-4.0.0.tar.gz tmp/sphinx_issues-4.1.0.tar.gz --markdown 20240415/s/sphinx-issues/4.0.0-4.1.0/README.md --exclude *.pyd
+[2024-04-15 05:06:45] INFO root fetch - processPackages [calpit]: executing diffoscope
+[2024-04-15 05:06:45] INFO root fetch - processPackages [calpit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calpit-0.1.tar.gz tmp/calpit-0.1.2.tar.gz --markdown 20240415/c/calpit/0.1-0.1.2/README.md --exclude *.pyd
+[2024-04-15 05:06:45] INFO root fetch - processPackages [moyopy]: executing diffoscope
+[2024-04-15 05:06:45] INFO root fetch - processPackages [moyopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moyopy-0.1.0.tar.gz tmp/moyopy-0.1.2.tar.gz --markdown 20240415/m/moyopy/0.1.0-0.1.2/README.md --exclude *.pyd
+[2024-04-15 05:06:45] INFO root fetch - processPackages [s360tools]: Remove: archive file [/home/abi/fetcher/tmp/s360tools-0.1.8.tar.gz]
+[2024-04-15 05:06:45] INFO root fetch - processPackages [s360tools]: Remove: archive file [/home/abi/fetcher/tmp/s360tools-0.1.9.tar.gz]
+[2024-04-15 05:06:45] INFO root fetch - main [MainThread]: End processing [s360tools]: success
+[2024-04-15 05:06:46] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.4.4.tar.gz]
+[2024-04-15 05:06:46] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-0.4.5.tar.gz]
+[2024-04-15 05:06:46] INFO root fetch - main [MainThread]: End processing [tsugu]: success
+[2024-04-15 05:06:46] INFO root fetch - processPackages [sphinx-issues]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_issues-4.0.0.tar.gz]
+[2024-04-15 05:06:46] INFO root fetch - processPackages [sphinx-issues]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_issues-4.1.0.tar.gz]
+[2024-04-15 05:06:46] INFO root fetch - main [MainThread]: End processing [sphinx-issues]: success
+[2024-04-15 05:06:46] INFO root fetch - processPackages [calpit]: Remove: archive file [/home/abi/fetcher/tmp/calpit-0.1.tar.gz]
+[2024-04-15 05:06:46] INFO root fetch - processPackages [calpit]: Remove: archive file [/home/abi/fetcher/tmp/calpit-0.1.2.tar.gz]
+[2024-04-15 05:06:46] INFO root fetch - main [MainThread]: End processing [calpit]: success
+[2024-04-15 05:06:46] INFO root fetch - processPackages [dyff-client]: Remove: archive file [/home/abi/fetcher/tmp/dyff-client-0.2.2.tar.gz]
+[2024-04-15 05:06:46] INFO root fetch - processPackages [dyff-client]: Remove: archive file [/home/abi/fetcher/tmp/dyff_client-0.3.0.tar.gz]
+[2024-04-15 05:06:46] INFO root fetch - main [MainThread]: End processing [dyff-client]: success
+[2024-04-15 05:06:46] INFO root fetch - processPackages [moyopy]: Remove: archive file [/home/abi/fetcher/tmp/moyopy-0.1.0.tar.gz]
+[2024-04-15 05:06:46] INFO root fetch - processPackages [moyopy]: Remove: archive file [/home/abi/fetcher/tmp/moyopy-0.1.2.tar.gz]
+[2024-04-15 05:06:46] INFO root fetch - main [MainThread]: End processing [moyopy]: success
+[2024-04-15 05:06:46] INFO root fetch - main [MainThread]: Store serial: [22764950]
