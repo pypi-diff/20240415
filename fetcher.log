@@ -19951,3 +19951,51 @@ EOFError: EOF read where object expected
 [2024-04-15 15:20:48] INFO root fetch - processPackages [moodle-dl]: Remove: archive file [/home/abi/fetcher/tmp/moodle_dl-2.3.3.tar.gz]
 [2024-04-15 15:20:48] INFO root fetch - main [MainThread]: End processing [moodle-dl]: success
 [2024-04-15 15:20:48] INFO root fetch - main [MainThread]: Store serial: [22771697]
+[2024-04-15 15:22:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22771697]
+[2024-04-15 15:22:57] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-15 15:22:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: agogos
+[2024-04-15 15:22:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ipympl
+[2024-04-15 15:22:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mteb
+[2024-04-15 15:22:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cg-hermes
+[2024-04-15 15:22:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyworxcloud
+[2024-04-15 15:22:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: neura-library
+[2024-04-15 15:22:57] INFO root fetch - processPackages [mteb]: New version: [1.6.7] Old Version: [1.6.6]
+[2024-04-15 15:22:57] INFO root fetch - processPackages [agogos]: New version: [0.4] Old Version: [0.3.4]
+[2024-04-15 15:22:57] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/2d/15/4849a100cb188fa347905d7eedbf677793cc22ef03eb41ea3d9e18fcb9f4/mteb-1.6.6.tar.gz
+[2024-04-15 15:22:57] INFO root fetch - processPackages [pyworxcloud]: New version: [4.1.9] Old Version: [4.1.8]
+[2024-04-15 15:22:57] WARNING root fetch - processPackages [neura-library]: Skipping, unable to determine old version
+[2024-04-15 15:22:57] INFO root fetch - main [MainThread]: End processing [neura-library] error
+[2024-04-15 15:22:57] INFO root fetch - processPackages [cg-hermes]: New version: [4.4.0] Old Version: [4.3.0]
+[2024-04-15 15:22:57] INFO root fetch - processPackages [ipympl]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-15 15:22:57] INFO root fetch - processPackages [ipympl]: Downloading https://files.pythonhosted.org/packages/c6/64/e92aef26bb8117d804a33e4037fc05ee7c740182379fbffb00d493543ff5/ipympl-0.9.3.tar.gz
+[2024-04-15 15:22:57] INFO root fetch - processPackages [agogos]: Downloading https://files.pythonhosted.org/packages/b9/06/9a6d5e8ff123eb1a1ffa883a8263d26ace327d78a8765866b8bb8596b4cc/agogos-0.3.4.tar.gz
+[2024-04-15 15:22:57] INFO root fetch - processPackages [cg-hermes]: Downloading https://files.pythonhosted.org/packages/0c/a6/b3c6980e2a021a7ca26c7934705e6f2eb2c797c0bfb1253048853260b179/cg_hermes-4.3.0.tar.gz
+[2024-04-15 15:22:57] INFO root fetch - processPackages [pyworxcloud]: Downloading https://files.pythonhosted.org/packages/a4/c0/0059322e7b2c1ad481301b528d5d2aeff7bd4818b7d90510f1402d6e1c68/pyworxcloud-4.1.8.tar.gz
+[2024-04-15 15:22:58] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/cb/65/7b509ca11456ffcac2abbc67bc7b2ad5fcf216db5b86ff063938aa9b7bbd/mteb-1.6.7.tar.gz
+[2024-04-15 15:22:58] INFO root fetch - processPackages [agogos]: Downloading https://files.pythonhosted.org/packages/0b/d7/145c7b72b43208278dac3a22c63a18be9995fc9d8a4c8a0f379eac63d443/agogos-0.4.tar.gz
+[2024-04-15 15:22:58] INFO root fetch - processPackages [cg-hermes]: Downloading https://files.pythonhosted.org/packages/4c/be/77eb6de6fdb1286c4292c626a33b38d0a05f92c78f9cf23eb9156fc2afd2/cg_hermes-4.4.0.tar.gz
+[2024-04-15 15:22:58] INFO root fetch - processPackages [ipympl]: Downloading https://files.pythonhosted.org/packages/36/64/05a5051f1fe457331f3d4353ad28e2e2ec4c98caaee0a087f0108ab9a40c/ipympl-0.9.4.tar.gz
+[2024-04-15 15:22:58] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-04-15 15:22:58] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.6.6.tar.gz tmp/mteb-1.6.7.tar.gz --markdown 20240415/m/mteb/1.6.6-1.6.7/README.md --exclude *.pyd
+[2024-04-15 15:22:58] INFO root fetch - processPackages [pyworxcloud]: Downloading https://files.pythonhosted.org/packages/12/4d/2b2447a08954ec87133970966f929613b5b41156b26ecefdd26695183e9a/pyworxcloud-4.1.9.tar.gz
+[2024-04-15 15:22:58] WARNING root fetch - processPackages [ipympl]: Skipping package: exceeds size limit 58552737>=10485760
+[2024-04-15 15:22:58] INFO root fetch - main [MainThread]: End processing [ipympl] error
+[2024-04-15 15:22:58] INFO root fetch - processPackages [agogos]: executing diffoscope
+[2024-04-15 15:22:58] INFO root fetch - processPackages [agogos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agogos-0.3.4.tar.gz tmp/agogos-0.4.tar.gz --markdown 20240415/a/agogos/0.3.4-0.4/README.md --exclude *.pyd
+[2024-04-15 15:22:58] INFO root fetch - processPackages [cg-hermes]: executing diffoscope
+[2024-04-15 15:22:58] INFO root fetch - processPackages [cg-hermes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg_hermes-4.3.0.tar.gz tmp/cg_hermes-4.4.0.tar.gz --markdown 20240415/c/cg-hermes/4.3.0-4.4.0/README.md --exclude *.pyd
+[2024-04-15 15:22:58] INFO root fetch - processPackages [pyworxcloud]: executing diffoscope
+[2024-04-15 15:22:58] INFO root fetch - processPackages [pyworxcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyworxcloud-4.1.8.tar.gz tmp/pyworxcloud-4.1.9.tar.gz --markdown 20240415/p/pyworxcloud/4.1.8-4.1.9/README.md --exclude *.pyd
+[2024-04-15 15:22:59] INFO root fetch - processPackages [cg-hermes]: Remove: archive file [/home/abi/fetcher/tmp/cg_hermes-4.3.0.tar.gz]
+[2024-04-15 15:22:59] INFO root fetch - processPackages [cg-hermes]: Remove: archive file [/home/abi/fetcher/tmp/cg_hermes-4.4.0.tar.gz]
+[2024-04-15 15:22:59] INFO root fetch - main [MainThread]: End processing [cg-hermes]: success
+[2024-04-15 15:22:59] INFO root fetch - processPackages [agogos]: Remove: archive file [/home/abi/fetcher/tmp/agogos-0.3.4.tar.gz]
+[2024-04-15 15:22:59] INFO root fetch - processPackages [agogos]: Remove: archive file [/home/abi/fetcher/tmp/agogos-0.4.tar.gz]
+[2024-04-15 15:22:59] INFO root fetch - main [MainThread]: End processing [agogos]: success
+[2024-04-15 15:22:59] INFO root fetch - processPackages [pyworxcloud]: Remove: archive file [/home/abi/fetcher/tmp/pyworxcloud-4.1.8.tar.gz]
+[2024-04-15 15:22:59] INFO root fetch - processPackages [pyworxcloud]: Remove: archive file [/home/abi/fetcher/tmp/pyworxcloud-4.1.9.tar.gz]
+[2024-04-15 15:22:59] INFO root fetch - main [MainThread]: End processing [pyworxcloud]: success
+[2024-04-15 15:22:59] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.6.6.tar.gz]
+[2024-04-15 15:22:59] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.6.7.tar.gz]
+[2024-04-15 15:22:59] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-04-15 15:22:59] INFO root fetch - main [MainThread]: Store serial: [22771718]
