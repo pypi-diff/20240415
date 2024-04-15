@@ -10985,3 +10985,81 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 10:10:32] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1488-py3-none-any.whl.zip]
 [2024-04-15 10:10:32] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
 [2024-04-15 10:10:32] INFO root fetch - main [MainThread]: Store serial: [22767679]
+[2024-04-15 10:12:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22767679]
+[2024-04-15 10:12:43] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-15 10:12:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: waylay-sdk-data
+[2024-04-15 10:12:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: waylay-sdk-data-types
+[2024-04-15 10:12:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vloc
+[2024-04-15 10:12:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumiverse-scaleway
+[2024-04-15 10:12:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prowler
+[2024-04-15 10:12:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fast-gmail
+[2024-04-15 10:12:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: prowler-cloud
+[2024-04-15 10:12:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kyoslib_py
+[2024-04-15 10:12:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pikachu-chem
+[2024-04-15 10:12:43] INFO root fetch - processPackages [pulumiverse-scaleway]: New version: [1.13.0a1713165540] Old Version: [1.13.0a1713162939]
+[2024-04-15 10:12:43] INFO root fetch - processPackages [prowler]: New version: [4.0.1] Old Version: [4.0.0]
+[2024-04-15 10:12:43] INFO root fetch - processPackages [waylay-sdk-data-types]: New version: [2.14.0rc2] Old Version: [2.14.0rc1]
+[2024-04-15 10:12:43] WARNING root fetch - processPackages [fast-gmail]: Skipping, unable to determine old version
+[2024-04-15 10:12:43] INFO root fetch - main [MainThread]: End processing [fast-gmail] error
+[2024-04-15 10:12:43] INFO root fetch - processPackages [pulumiverse-scaleway]: Downloading https://files.pythonhosted.org/packages/7e/21/15ee16a4582c1971f7256c84716d7a6958c3ec858990304b4bb47098dc04/pulumiverse_scaleway-1.13.0a1713162939.tar.gz
+[2024-04-15 10:12:43] INFO root fetch - processPackages [kyoslib_py]: New version: [5.1.1] Old Version: [5.1.0]
+[2024-04-15 10:12:43] INFO root fetch - processPackages [waylay-sdk-data]: New version: [2.14.0rc2] Old Version: [2.14.0rc1]
+[2024-04-15 10:12:43] INFO root fetch - processPackages [vloc]: New version: [0.1.9] Old Version: [0.1.17]
+[2024-04-15 10:12:43] INFO root fetch - processPackages [pikachu-chem]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-15 10:12:43] INFO root fetch - processPackages [prowler-cloud]: New version: [4.0.1] Old Version: [4.0.0]
+[2024-04-15 10:12:43] INFO root fetch - processPackages [prowler]: Downloading https://files.pythonhosted.org/packages/72/3e/aea117a74df11b8a0d2b5587d39c0ab314b2376301705bf5fc3cad0e9ee6/prowler-4.0.0.tar.gz
+[2024-04-15 10:12:43] INFO root fetch - processPackages [waylay-sdk-data-types]: Downloading https://files.pythonhosted.org/packages/4d/61/af7d4fa16df9e4670ac8a2be64124142a0594c1bb50c69c6f8bc54e6d3e3/waylay-sdk-data-types-2.14.0rc1.tar.gz
+[2024-04-15 10:12:43] INFO root fetch - processPackages [vloc]: Downloading https://files.pythonhosted.org/packages/4a/c1/06f43472a922702b8fbdbd65ded3c47c7d7d1648ea8f54d2ac5b7bac2acd/vloc-0.1.17.tar.gz
+[2024-04-15 10:12:43] INFO root fetch - processPackages [kyoslib_py]: Downloading https://files.pythonhosted.org/packages/26/07/d3b2f0705f01df87a78d06476a5fd19077ac739d68e35e5c4992a6ee8643/kyoslib_py-5.1.0.tar.gz
+[2024-04-15 10:12:43] INFO root fetch - processPackages [waylay-sdk-data]: Downloading https://files.pythonhosted.org/packages/31/75/bde5c96c7505fc2458e4c1a883694a5123f2680f885af103f4d351450967/waylay-sdk-data-2.14.0rc1.tar.gz
+[2024-04-15 10:12:43] INFO root fetch - processPackages [pikachu-chem]: Downloading https://files.pythonhosted.org/packages/43/4c/29e68fefd5b5926cf8f7f2573523a1cf1a6f798430d975c9ce7975ec3481/pikachu-chem-1.1.0.tar.gz
+[2024-04-15 10:12:43] INFO root fetch - processPackages [prowler-cloud]: Downloading https://files.pythonhosted.org/packages/3c/fe/1003cd628981bd26f39b6980ec5b628128326327d4379635290de95a4768/prowler_cloud-4.0.0.tar.gz
+[2024-04-15 10:12:43] INFO root fetch - processPackages [pulumiverse-scaleway]: Downloading https://files.pythonhosted.org/packages/41/76/392c486af7b537a9972c169e0c2fe22969866fe15d6508539cc7f253105d/pulumiverse_scaleway-1.13.0a1713165540.tar.gz
+[2024-04-15 10:12:44] INFO root fetch - processPackages [pulumiverse-scaleway]: executing diffoscope
+[2024-04-15 10:12:44] INFO root fetch - processPackages [pulumiverse-scaleway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumiverse_scaleway-1.13.0a1713162939.tar.gz tmp/pulumiverse_scaleway-1.13.0a1713165540.tar.gz --markdown 20240415/p/pulumiverse-scaleway/1.13.0a1713162939-1.13.0a1713165540/README.md --exclude *.pyd
+[2024-04-15 10:12:44] INFO root fetch - processPackages [kyoslib_py]: Downloading https://files.pythonhosted.org/packages/f3/95/4400df8f6659fa49a3c1cc53667734c9a5a9de4a0db530e30b7316ba0e91/kyoslib_py-5.1.1.tar.gz
+[2024-04-15 10:12:44] INFO root fetch - processPackages [vloc]: Downloading https://files.pythonhosted.org/packages/75/38/dae0cec666987d786564bf9fb8f8fd73ad932ebeccdf04e63b6a20cb49c8/vloc-0.1.9.tar.gz
+[2024-04-15 10:12:44] INFO root fetch - processPackages [pikachu-chem]: Downloading https://files.pythonhosted.org/packages/2b/36/477806ef57b9267f103b592893c96e768520915335ff56b12113471597e2/pikachu_chem-1.1.1.tar.gz
+[2024-04-15 10:12:44] INFO root fetch - processPackages [prowler]: Downloading https://files.pythonhosted.org/packages/12/d1/92243380f3e56e54d6aac68f3961bdc26d9904bce3385258dc002ffaea37/prowler-4.0.1.tar.gz
+[2024-04-15 10:12:44] INFO root fetch - processPackages [waylay-sdk-data-types]: Downloading https://files.pythonhosted.org/packages/90/fe/66fecf64d3cb4d8b87cb0a4b4b429ccf16407a86191db5ecc26a25e85fc6/waylay-sdk-data-types-2.14.0rc2.tar.gz
+[2024-04-15 10:12:44] INFO root fetch - processPackages [kyoslib_py]: executing diffoscope
+[2024-04-15 10:12:44] INFO root fetch - processPackages [kyoslib_py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kyoslib_py-5.1.0.tar.gz tmp/kyoslib_py-5.1.1.tar.gz --markdown 20240415/k/kyoslib_py/5.1.0-5.1.1/README.md --exclude *.pyd
+[2024-04-15 10:12:44] INFO root fetch - processPackages [waylay-sdk-data]: Downloading https://files.pythonhosted.org/packages/19/e7/54c273243c8019c25172f9997993d2b6b48984eda910f950e84593da4d25/waylay-sdk-data-2.14.0rc2.tar.gz
+[2024-04-15 10:12:44] INFO root fetch - processPackages [vloc]: executing diffoscope
+[2024-04-15 10:12:44] INFO root fetch - processPackages [vloc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vloc-0.1.17.tar.gz tmp/vloc-0.1.9.tar.gz --markdown 20240415/v/vloc/0.1.17-0.1.9/README.md --exclude *.pyd
+[2024-04-15 10:12:44] INFO root fetch - processPackages [pikachu-chem]: executing diffoscope
+[2024-04-15 10:12:44] INFO root fetch - processPackages [pikachu-chem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pikachu-chem-1.1.0.tar.gz tmp/pikachu_chem-1.1.1.tar.gz --markdown 20240415/p/pikachu-chem/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-04-15 10:12:44] INFO root fetch - processPackages [waylay-sdk-data-types]: executing diffoscope
+[2024-04-15 10:12:44] INFO root fetch - processPackages [waylay-sdk-data-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waylay-sdk-data-types-2.14.0rc1.tar.gz tmp/waylay-sdk-data-types-2.14.0rc2.tar.gz --markdown 20240415/w/waylay-sdk-data-types/2.14.0rc1-2.14.0rc2/README.md --exclude *.pyd
+[2024-04-15 10:12:44] INFO root fetch - processPackages [prowler-cloud]: Downloading https://files.pythonhosted.org/packages/71/30/ebe8700b29ae95de014d31d0569bcfe7238623b4e04a8553613f00ae4cb5/prowler_cloud-4.0.1.tar.gz
+[2024-04-15 10:12:44] INFO root fetch - processPackages [prowler]: executing diffoscope
+[2024-04-15 10:12:44] INFO root fetch - processPackages [prowler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prowler-4.0.0.tar.gz tmp/prowler-4.0.1.tar.gz --markdown 20240415/p/prowler/4.0.0-4.0.1/README.md --exclude *.pyd
+[2024-04-15 10:12:44] INFO root fetch - processPackages [prowler-cloud]: executing diffoscope
+[2024-04-15 10:12:44] INFO root fetch - processPackages [prowler-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prowler_cloud-4.0.0.tar.gz tmp/prowler_cloud-4.0.1.tar.gz --markdown 20240415/p/prowler-cloud/4.0.0-4.0.1/README.md --exclude *.pyd
+[2024-04-15 10:12:44] INFO root fetch - processPackages [waylay-sdk-data]: executing diffoscope
+[2024-04-15 10:12:44] INFO root fetch - processPackages [waylay-sdk-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waylay-sdk-data-2.14.0rc1.tar.gz tmp/waylay-sdk-data-2.14.0rc2.tar.gz --markdown 20240415/w/waylay-sdk-data/2.14.0rc1-2.14.0rc2/README.md --exclude *.pyd
+[2024-04-15 10:12:44] INFO root fetch - processPackages [kyoslib_py]: Remove: archive file [/home/abi/fetcher/tmp/kyoslib_py-5.1.0.tar.gz]
+[2024-04-15 10:12:44] INFO root fetch - processPackages [kyoslib_py]: Remove: archive file [/home/abi/fetcher/tmp/kyoslib_py-5.1.1.tar.gz]
+[2024-04-15 10:12:44] INFO root fetch - main [MainThread]: End processing [kyoslib_py]: success
+[2024-04-15 10:12:45] INFO root fetch - processPackages [vloc]: Remove: archive file [/home/abi/fetcher/tmp/vloc-0.1.17.tar.gz]
+[2024-04-15 10:12:45] INFO root fetch - processPackages [vloc]: Remove: archive file [/home/abi/fetcher/tmp/vloc-0.1.9.tar.gz]
+[2024-04-15 10:12:45] INFO root fetch - main [MainThread]: End processing [vloc]: success
+[2024-04-15 10:12:45] INFO root fetch - processPackages [waylay-sdk-data-types]: Remove: archive file [/home/abi/fetcher/tmp/waylay-sdk-data-types-2.14.0rc1.tar.gz]
+[2024-04-15 10:12:45] INFO root fetch - processPackages [waylay-sdk-data-types]: Remove: archive file [/home/abi/fetcher/tmp/waylay-sdk-data-types-2.14.0rc2.tar.gz]
+[2024-04-15 10:12:45] INFO root fetch - main [MainThread]: End processing [waylay-sdk-data-types]: success
+[2024-04-15 10:12:45] INFO root fetch - processPackages [pikachu-chem]: Remove: archive file [/home/abi/fetcher/tmp/pikachu-chem-1.1.0.tar.gz]
+[2024-04-15 10:12:45] INFO root fetch - processPackages [pikachu-chem]: Remove: archive file [/home/abi/fetcher/tmp/pikachu_chem-1.1.1.tar.gz]
+[2024-04-15 10:12:45] INFO root fetch - main [MainThread]: End processing [pikachu-chem]: success
+[2024-04-15 10:12:45] INFO root fetch - processPackages [pulumiverse-scaleway]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_scaleway-1.13.0a1713162939.tar.gz]
+[2024-04-15 10:12:45] INFO root fetch - processPackages [pulumiverse-scaleway]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_scaleway-1.13.0a1713165540.tar.gz]
+[2024-04-15 10:12:45] INFO root fetch - main [MainThread]: End processing [pulumiverse-scaleway]: success
+[2024-04-15 10:12:45] INFO root fetch - processPackages [waylay-sdk-data]: Remove: archive file [/home/abi/fetcher/tmp/waylay-sdk-data-2.14.0rc1.tar.gz]
+[2024-04-15 10:12:45] INFO root fetch - processPackages [waylay-sdk-data]: Remove: archive file [/home/abi/fetcher/tmp/waylay-sdk-data-2.14.0rc2.tar.gz]
+[2024-04-15 10:12:45] INFO root fetch - main [MainThread]: End processing [waylay-sdk-data]: success
+[2024-04-15 10:12:53] INFO root fetch - processPackages [prowler]: Remove: archive file [/home/abi/fetcher/tmp/prowler-4.0.0.tar.gz]
+[2024-04-15 10:12:53] INFO root fetch - processPackages [prowler]: Remove: archive file [/home/abi/fetcher/tmp/prowler-4.0.1.tar.gz]
+[2024-04-15 10:12:53] INFO root fetch - main [MainThread]: End processing [prowler]: success
+[2024-04-15 10:12:54] INFO root fetch - processPackages [prowler-cloud]: Remove: archive file [/home/abi/fetcher/tmp/prowler_cloud-4.0.0.tar.gz]
+[2024-04-15 10:12:54] INFO root fetch - processPackages [prowler-cloud]: Remove: archive file [/home/abi/fetcher/tmp/prowler_cloud-4.0.1.tar.gz]
+[2024-04-15 10:12:54] INFO root fetch - main [MainThread]: End processing [prowler-cloud]: success
+[2024-04-15 10:12:54] INFO root fetch - main [MainThread]: Store serial: [22767708]
