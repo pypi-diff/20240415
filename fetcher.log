@@ -20226,3 +20226,101 @@ EOFError: EOF read where object expected
 [2024-04-15 15:31:56] INFO root fetch - processPackages [cognite-neat]: Remove: archive file [/home/abi/fetcher/tmp/cognite_neat-0.72.2.tar.gz]
 [2024-04-15 15:31:56] INFO root fetch - main [MainThread]: End processing [cognite-neat]: success
 [2024-04-15 15:31:56] INFO root fetch - main [MainThread]: Store serial: [22771812]
+[2024-04-15 15:34:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22771812]
+[2024-04-15 15:34:04] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-15 15:34:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cg
+[2024-04-15 15:34:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zhmiscellany
+[2024-04-15 15:34:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ducktools-classbuilder
+[2024-04-15 15:34:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spine-segmentation
+[2024-04-15 15:34:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: perun
+[2024-04-15 15:34:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cloudfloordns
+[2024-04-15 15:34:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytest-inmanta-lsm
+[2024-04-15 15:34:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: certora-cli-alpha-master
+[2024-04-15 15:34:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-log-inspector
+[2024-04-15 15:34:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: w-render
+[2024-04-15 15:34:05] INFO root fetch - processPackages [spine-segmentation]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-15 15:34:05] INFO root fetch - processPackages [zhmiscellany]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-15 15:34:05] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240414.9.8.204994] Old Version: [20240414.19.19.874445]
+[2024-04-15 15:34:05] INFO root fetch - processPackages [cloudfloordns]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-15 15:34:05] INFO root fetch - processPackages [cg]: New version: [59.9.1] Old Version: [59.9.0]
+[2024-04-15 15:34:05] INFO root fetch - processPackages [django-log-inspector]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-15 15:34:05] INFO root fetch - processPackages [ducktools-classbuilder]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-15 15:34:05] INFO root fetch - processPackages [perun]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-04-15 15:34:05] INFO root fetch - processPackages [w-render]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-15 15:34:05] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/a4/79/664dc1d5b463ee0406caa2e43f4dec36f68ff9a520e4d9d51666e6ea5021/cg-59.9.0.tar.gz
+[2024-04-15 15:34:05] INFO root fetch - processPackages [pytest-inmanta-lsm]: New version: [3.3.0] Old Version: [3.2.0]
+[2024-04-15 15:34:05] INFO root fetch - processPackages [spine-segmentation]: Downloading https://files.pythonhosted.org/packages/ba/5a/ed0d03a7459445504a34d8ae01fd52529215c4cc3659bd0c496b3b5d340d/spine_segmentation-0.2.3.tar.gz
+[2024-04-15 15:34:05] INFO root fetch - processPackages [zhmiscellany]: Downloading https://files.pythonhosted.org/packages/69/67/5290f40fb6315b0ebf5fd7f1415d816664f2035dc97b0c6cac38f6077ad8/zhmiscellany-1.9.0-py3-none-any.whl
+[2024-04-15 15:34:05] INFO root fetch - processPackages [cloudfloordns]: Downloading https://files.pythonhosted.org/packages/43/ab/98f8e80254f4531cd82b13d1bcba2b65346d574fdcc59c1f8aa868cf4421/cloudfloordns-0.1.2.tar.gz
+[2024-04-15 15:34:05] INFO root fetch - processPackages [ducktools-classbuilder]: Downloading https://files.pythonhosted.org/packages/8e/2a/03ffd1f5b9fd46c1fd5a3c70833a16527782c0f4c876999007e54e9d60dd/ducktools-classbuilder-0.1.0.tar.gz
+[2024-04-15 15:34:05] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/de/d3/99b21ea897f86283499c1111b3d1bf0ecd8045afef07dc827de7d1468190/certora-cli-alpha-master-20240414.19.19.874445.tar.gz
+[2024-04-15 15:34:05] INFO root fetch - processPackages [perun]: Downloading https://files.pythonhosted.org/packages/a7/a3/3509f876b2302920d01f4620e5fbfad8e640cd1f965e40dc84879f3984af/perun-0.6.1.tar.gz
+[2024-04-15 15:34:05] INFO root fetch - processPackages [zhmiscellany]: Downloading https://files.pythonhosted.org/packages/c3/d6/838c9f940cb296c10a89c61c144d369472b87dcc6235d802f421da8ea318/zhmiscellany-1.9.1-py3-none-any.whl
+[2024-04-15 15:34:05] INFO root fetch - processPackages [pytest-inmanta-lsm]: Downloading https://files.pythonhosted.org/packages/6d/ea/7aa2792812f6e8d1154b8559507f2ca37273ae914b1508fa2c6a36f82620/pytest-inmanta-lsm-3.2.0.tar.gz
+[2024-04-15 15:34:05] INFO root fetch - processPackages [w-render]: Downloading https://files.pythonhosted.org/packages/5e/67/91c672b5ffa6dd61e85ec33189be36996bcaa573da07f4d8d9442046c76c/w_render-0.2.4.tar.gz
+[2024-04-15 15:34:05] INFO root fetch - processPackages [django-log-inspector]: Downloading https://files.pythonhosted.org/packages/4d/02/353090dfdbab12654e1b796b2f2a0c2aea3737d913b7b8686474a89402e4/django_log_inspector-0.0.3.tar.gz
+[2024-04-15 15:34:05] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14499448>=10485760
+[2024-04-15 15:34:05] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: fancy-collections
+[2024-04-15 15:34:05] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-04-15 15:34:05] INFO root fetch - processPackages [spine-segmentation]: Downloading https://files.pythonhosted.org/packages/53/cc/632dc91b28f6e8a47949980ca811107022ad3b0c0c34771054cb80e7d8cd/spine_segmentation-0.2.4.tar.gz
+[2024-04-15 15:34:05] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/da/9f/c4869b003070cd94f090db42e1f076a49bf9c0b1856d209eeb540379d711/cg-59.9.1.tar.gz
+[2024-04-15 15:34:05] INFO root fetch - processPackages [cloudfloordns]: Downloading https://files.pythonhosted.org/packages/a2/76/d5e4bc363e1893c610d94fe4b4abec25b9915265da8042d40cee876f209a/cloudfloordns-0.1.3.tar.gz
+[2024-04-15 15:34:05] INFO root fetch - processPackages [zhmiscellany]: executing diffoscope
+[2024-04-15 15:34:05] INFO root fetch - processPackages [zhmiscellany]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhmiscellany-1.9.0-py3-none-any.whl.zip tmp/zhmiscellany-1.9.1-py3-none-any.whl.zip --markdown 20240415/z/zhmiscellany/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-15 15:34:05] INFO root fetch - processPackages [fancy-collections]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-04-15 15:34:05] INFO root fetch - processPackages [spine-segmentation]: executing diffoscope
+[2024-04-15 15:34:05] INFO root fetch - processPackages [spine-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spine_segmentation-0.2.3.tar.gz tmp/spine_segmentation-0.2.4.tar.gz --markdown 20240415/s/spine-segmentation/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-04-15 15:34:05] INFO root fetch - processPackages [ducktools-classbuilder]: Downloading https://files.pythonhosted.org/packages/b2/0b/4bda9ddbb68d3efdfe8d388318c1a3fb85c86bee57ef73d1ccf7563376a8/ducktools_classbuilder-0.1.1.tar.gz
+[2024-04-15 15:34:05] INFO root fetch - processPackages [perun]: Downloading https://files.pythonhosted.org/packages/ec/da/d09249248bb7f1045f482b287b3ce4af94bd68d3a815d8e5dad5695f950e/perun-0.6.2.tar.gz
+[2024-04-15 15:34:05] INFO root fetch - processPackages [pytest-inmanta-lsm]: Downloading https://files.pythonhosted.org/packages/2a/57/a73b9702b79dcffcec622dbd6ccd6612f42b0d0ff956b9b0e6d57363578a/pytest_inmanta_lsm-3.3.0.tar.gz
+[2024-04-15 15:34:05] INFO root fetch - processPackages [w-render]: Downloading https://files.pythonhosted.org/packages/d2/96/c67a08847214812f6d743ed7d09d943e99e4527275c94c102277ce5b9348/w_render-0.2.5.tar.gz
+[2024-04-15 15:34:05] INFO root fetch - processPackages [django-log-inspector]: Downloading https://files.pythonhosted.org/packages/2d/d5/b87e5d8ca4aa9d437e98f160e5278320f34fef4439e3d1c9b94d2a0073b1/django_log_inspector-0.0.4.tar.gz
+[2024-04-15 15:34:05] INFO root fetch - processPackages [cloudfloordns]: executing diffoscope
+[2024-04-15 15:34:05] INFO root fetch - processPackages [cloudfloordns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudfloordns-0.1.2.tar.gz tmp/cloudfloordns-0.1.3.tar.gz --markdown 20240415/c/cloudfloordns/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-04-15 15:34:05] INFO root fetch - processPackages [ducktools-classbuilder]: executing diffoscope
+[2024-04-15 15:34:05] INFO root fetch - processPackages [ducktools-classbuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ducktools-classbuilder-0.1.0.tar.gz tmp/ducktools_classbuilder-0.1.1.tar.gz --markdown 20240415/d/ducktools-classbuilder/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-15 15:34:05] INFO root fetch - processPackages [fancy-collections]: Downloading https://files.pythonhosted.org/packages/5f/b8/be8b0f6b3dbe8ea754fedceda921cfc272046b38834fb566b787bfc93c61/fancy_collections-0.2.1.tar.gz
+[2024-04-15 15:34:06] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-04-15 15:34:06] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-59.9.0.tar.gz tmp/cg-59.9.1.tar.gz --markdown 20240415/c/cg/59.9.0-59.9.1/README.md --exclude *.pyd
+[2024-04-15 15:34:06] INFO root fetch - processPackages [perun]: executing diffoscope
+[2024-04-15 15:34:06] INFO root fetch - processPackages [perun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perun-0.6.1.tar.gz tmp/perun-0.6.2.tar.gz --markdown 20240415/p/perun/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-04-15 15:34:06] INFO root fetch - processPackages [pytest-inmanta-lsm]: executing diffoscope
+[2024-04-15 15:34:06] INFO root fetch - processPackages [w-render]: executing diffoscope
+[2024-04-15 15:34:06] INFO root fetch - processPackages [pytest-inmanta-lsm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-inmanta-lsm-3.2.0.tar.gz tmp/pytest_inmanta_lsm-3.3.0.tar.gz --markdown 20240415/p/pytest-inmanta-lsm/3.2.0-3.3.0/README.md --exclude *.pyd
+[2024-04-15 15:34:06] INFO root fetch - processPackages [w-render]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/w_render-0.2.4.tar.gz tmp/w_render-0.2.5.tar.gz --markdown 20240415/w/w-render/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-04-15 15:34:06] INFO root fetch - processPackages [django-log-inspector]: executing diffoscope
+[2024-04-15 15:34:06] INFO root fetch - processPackages [django-log-inspector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_log_inspector-0.0.3.tar.gz tmp/django_log_inspector-0.0.4.tar.gz --markdown 20240415/d/django-log-inspector/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-15 15:34:06] INFO root fetch - processPackages [fancy-collections]: Downloading https://files.pythonhosted.org/packages/c5/4f/6db17aff594dfb37af6936308bd4e8e700a0a58c3d86edebc366e7b8d001/fancy_collections-0.3.0.tar.gz
+[2024-04-15 15:34:06] INFO root fetch - processPackages [fancy-collections]: executing diffoscope
+[2024-04-15 15:34:06] INFO root fetch - processPackages [fancy-collections]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fancy_collections-0.2.1.tar.gz tmp/fancy_collections-0.3.0.tar.gz --markdown 20240415/f/fancy-collections/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-04-15 15:34:07] INFO root fetch - processPackages [zhmiscellany]: Remove: archive file [/home/abi/fetcher/tmp/zhmiscellany-1.9.0-py3-none-any.whl.zip]
+[2024-04-15 15:34:07] INFO root fetch - processPackages [zhmiscellany]: Remove: archive file [/home/abi/fetcher/tmp/zhmiscellany-1.9.1-py3-none-any.whl.zip]
+[2024-04-15 15:34:07] INFO root fetch - main [MainThread]: End processing [zhmiscellany]: success
+[2024-04-15 15:34:07] INFO root fetch - processPackages [spine-segmentation]: Remove: archive file [/home/abi/fetcher/tmp/spine_segmentation-0.2.3.tar.gz]
+[2024-04-15 15:34:07] INFO root fetch - processPackages [spine-segmentation]: Remove: archive file [/home/abi/fetcher/tmp/spine_segmentation-0.2.4.tar.gz]
+[2024-04-15 15:34:07] INFO root fetch - main [MainThread]: End processing [spine-segmentation]: success
+[2024-04-15 15:34:07] INFO root fetch - processPackages [ducktools-classbuilder]: Remove: archive file [/home/abi/fetcher/tmp/ducktools-classbuilder-0.1.0.tar.gz]
+[2024-04-15 15:34:07] INFO root fetch - processPackages [ducktools-classbuilder]: Remove: archive file [/home/abi/fetcher/tmp/ducktools_classbuilder-0.1.1.tar.gz]
+[2024-04-15 15:34:07] INFO root fetch - main [MainThread]: End processing [ducktools-classbuilder]: success
+[2024-04-15 15:34:07] INFO root fetch - processPackages [cloudfloordns]: Remove: archive file [/home/abi/fetcher/tmp/cloudfloordns-0.1.2.tar.gz]
+[2024-04-15 15:34:07] INFO root fetch - processPackages [cloudfloordns]: Remove: archive file [/home/abi/fetcher/tmp/cloudfloordns-0.1.3.tar.gz]
+[2024-04-15 15:34:07] INFO root fetch - main [MainThread]: End processing [cloudfloordns]: success
+[2024-04-15 15:34:07] INFO root fetch - processPackages [perun]: Remove: archive file [/home/abi/fetcher/tmp/perun-0.6.1.tar.gz]
+[2024-04-15 15:34:07] INFO root fetch - processPackages [perun]: Remove: archive file [/home/abi/fetcher/tmp/perun-0.6.2.tar.gz]
+[2024-04-15 15:34:07] INFO root fetch - main [MainThread]: End processing [perun]: success
+[2024-04-15 15:34:07] INFO root fetch - processPackages [w-render]: Remove: archive file [/home/abi/fetcher/tmp/w_render-0.2.4.tar.gz]
+[2024-04-15 15:34:07] INFO root fetch - processPackages [w-render]: Remove: archive file [/home/abi/fetcher/tmp/w_render-0.2.5.tar.gz]
+[2024-04-15 15:34:07] INFO root fetch - main [MainThread]: End processing [w-render]: success
+[2024-04-15 15:34:07] INFO root fetch - processPackages [pytest-inmanta-lsm]: Remove: archive file [/home/abi/fetcher/tmp/pytest-inmanta-lsm-3.2.0.tar.gz]
+[2024-04-15 15:34:07] INFO root fetch - processPackages [pytest-inmanta-lsm]: Remove: archive file [/home/abi/fetcher/tmp/pytest_inmanta_lsm-3.3.0.tar.gz]
+[2024-04-15 15:34:07] INFO root fetch - main [MainThread]: End processing [pytest-inmanta-lsm]: success
+[2024-04-15 15:34:07] INFO root fetch - processPackages [django-log-inspector]: Remove: archive file [/home/abi/fetcher/tmp/django_log_inspector-0.0.3.tar.gz]
+[2024-04-15 15:34:07] INFO root fetch - processPackages [django-log-inspector]: Remove: archive file [/home/abi/fetcher/tmp/django_log_inspector-0.0.4.tar.gz]
+[2024-04-15 15:34:07] INFO root fetch - main [MainThread]: End processing [django-log-inspector]: success
+[2024-04-15 15:34:07] INFO root fetch - processPackages [fancy-collections]: Remove: archive file [/home/abi/fetcher/tmp/fancy_collections-0.2.1.tar.gz]
+[2024-04-15 15:34:07] INFO root fetch - processPackages [fancy-collections]: Remove: archive file [/home/abi/fetcher/tmp/fancy_collections-0.3.0.tar.gz]
+[2024-04-15 15:34:07] INFO root fetch - main [MainThread]: End processing [fancy-collections]: success
+[2024-04-15 15:34:11] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-59.9.0.tar.gz]
+[2024-04-15 15:34:11] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-59.9.1.tar.gz]
+[2024-04-15 15:34:11] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-04-15 15:34:11] INFO root fetch - main [MainThread]: Store serial: [22771844]
