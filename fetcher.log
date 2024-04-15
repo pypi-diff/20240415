@@ -1430,3 +1430,42 @@
 [2024-04-15 01:59:35] INFO root fetch - processPackages [pyvk]: Remove: archive file [/home/abi/fetcher/tmp/pyvk-0.2.1.tar.gz]
 [2024-04-15 01:59:35] INFO root fetch - main [MainThread]: End processing [pyvk]: success
 [2024-04-15 01:59:35] INFO root fetch - main [MainThread]: Store serial: [22763745]
+[2024-04-15 02:01:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22763745]
+[2024-04-15 02:01:44] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-15 02:01:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: foamlib
+[2024-04-15 02:01:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PokemonLibrary
+[2024-04-15 02:01:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pygpt-net
+[2024-04-15 02:01:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mqt.ddsim
+[2024-04-15 02:01:44] INFO root fetch - processPackages [PokemonLibrary]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-15 02:01:44] INFO root fetch - processPackages [pygpt-net]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-15 02:01:44] INFO root fetch - processPackages [PokemonLibrary]: Downloading https://files.pythonhosted.org/packages/12/6b/a51afc61129c9b39e5eb2a3ad379066fb089b90a1b436fa01f9fe13b7147/PokemonLibrary-1.0.0.tar.gz
+[2024-04-15 02:01:44] INFO root fetch - processPackages [foamlib]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-15 02:01:44] INFO root fetch - processPackages [mqt.ddsim]: New version: [1.22.0] Old Version: [1.21.0]
+[2024-04-15 02:01:44] INFO root fetch - processPackages [pygpt-net]: Downloading https://files.pythonhosted.org/packages/a5/de/e40709b6067cd6a2fe2ce05bb561b0d9d4c91f6cd91f7b3c4bd151d18a9b/pygpt_net-2.1.8.tar.gz
+[2024-04-15 02:01:45] INFO root fetch - processPackages [foamlib]: Downloading https://files.pythonhosted.org/packages/08/13/7fb43014400d81044a56234d73ada38a1cb7dd0cf7c041537a840b71875d/foamlib-0.2.8.tar.gz
+[2024-04-15 02:01:45] INFO root fetch - processPackages [PokemonLibrary]: Downloading https://files.pythonhosted.org/packages/46/2f/c844d9f1f98668143c9adb154bfd4eeb002a83be9fdadd7906ef0b1e3b05/PokemonLibrary-1.0.1.tar.gz
+[2024-04-15 02:01:45] INFO root fetch - processPackages [pygpt-net]: Downloading https://files.pythonhosted.org/packages/b1/0c/70ca3376ad87325507daa188a0b208ac8aba51d8f326cbde31d57835c897/pygpt_net-2.1.9.tar.gz
+[2024-04-15 02:01:45] INFO root fetch - processPackages [mqt.ddsim]: Downloading https://files.pythonhosted.org/packages/e4/d9/a30561b229aef3c1009a9d9404db0a237baecacc0a9ea4dbbd122ba94495/mqt_ddsim-1.21.0.tar.gz
+[2024-04-15 02:01:45] INFO root fetch - processPackages [PokemonLibrary]: executing diffoscope
+[2024-04-15 02:01:45] INFO root fetch - processPackages [PokemonLibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PokemonLibrary-1.0.0.tar.gz tmp/PokemonLibrary-1.0.1.tar.gz --markdown 20240415/P/PokemonLibrary/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-15 02:01:45] INFO root fetch - processPackages [foamlib]: Downloading https://files.pythonhosted.org/packages/9e/9b/cc5d21f671405c512a8e7d2d281f23f7f4867816bf2513e88b50941f0b7d/foamlib-0.2.9.tar.gz
+[2024-04-15 02:01:45] INFO root fetch - processPackages [pygpt-net]: executing diffoscope
+[2024-04-15 02:01:45] INFO root fetch - processPackages [pygpt-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygpt_net-2.1.8.tar.gz tmp/pygpt_net-2.1.9.tar.gz --markdown 20240415/p/pygpt-net/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-15 02:01:45] INFO root fetch - processPackages [foamlib]: executing diffoscope
+[2024-04-15 02:01:45] INFO root fetch - processPackages [foamlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foamlib-0.2.8.tar.gz tmp/foamlib-0.2.9.tar.gz --markdown 20240415/f/foamlib/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-15 02:01:45] INFO root fetch - processPackages [mqt.ddsim]: Downloading https://files.pythonhosted.org/packages/31/67/576f7d435a5da00603ab546bc9804f1a3773997cef2e5406ebf9b0ebd1ff/mqt_ddsim-1.22.0-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2024-04-15 02:01:45] INFO root fetch - processPackages [PokemonLibrary]: Remove: archive file [/home/abi/fetcher/tmp/PokemonLibrary-1.0.0.tar.gz]
+[2024-04-15 02:01:45] INFO root fetch - processPackages [PokemonLibrary]: Remove: archive file [/home/abi/fetcher/tmp/PokemonLibrary-1.0.1.tar.gz]
+[2024-04-15 02:01:45] INFO root fetch - main [MainThread]: End processing [PokemonLibrary]: success
+[2024-04-15 02:01:46] INFO root fetch - processPackages [foamlib]: Remove: archive file [/home/abi/fetcher/tmp/foamlib-0.2.8.tar.gz]
+[2024-04-15 02:01:46] INFO root fetch - processPackages [foamlib]: Remove: archive file [/home/abi/fetcher/tmp/foamlib-0.2.9.tar.gz]
+[2024-04-15 02:01:46] INFO root fetch - main [MainThread]: End processing [foamlib]: success
+[2024-04-15 02:01:46] INFO root fetch - processPackages [mqt.ddsim]: executing diffoscope
+[2024-04-15 02:01:46] INFO root fetch - processPackages [mqt.ddsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mqt_ddsim-1.21.0.tar.gz tmp/mqt_ddsim-1.22.0-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip --markdown 20240415/m/mqt.ddsim/1.21.0-1.22.0/README.md --exclude *.pyd
+[2024-04-15 02:01:47] INFO root fetch - processPackages [mqt.ddsim]: Remove: archive file [/home/abi/fetcher/tmp/mqt_ddsim-1.21.0.tar.gz]
+[2024-04-15 02:01:47] INFO root fetch - processPackages [mqt.ddsim]: Remove: archive file [/home/abi/fetcher/tmp/mqt_ddsim-1.22.0-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
+[2024-04-15 02:01:47] INFO root fetch - main [MainThread]: End processing [mqt.ddsim]: success
+[2024-04-15 02:01:48] INFO root fetch - processPackages [pygpt-net]: Remove: archive file [/home/abi/fetcher/tmp/pygpt_net-2.1.8.tar.gz]
+[2024-04-15 02:01:48] INFO root fetch - processPackages [pygpt-net]: Remove: archive file [/home/abi/fetcher/tmp/pygpt_net-2.1.9.tar.gz]
+[2024-04-15 02:01:48] INFO root fetch - main [MainThread]: End processing [pygpt-net]: success
+[2024-04-15 02:01:48] INFO root fetch - main [MainThread]: Store serial: [22763756]
