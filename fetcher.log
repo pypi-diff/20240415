@@ -3608,3 +3608,20 @@
 [2024-04-15 04:49:27] INFO root fetch - processPackages [spaceone-monitoring]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-monitoring-2.0.dev9.tar.gz]
 [2024-04-15 04:49:27] INFO root fetch - main [MainThread]: End processing [spaceone-monitoring]: success
 [2024-04-15 04:49:27] INFO root fetch - main [MainThread]: Store serial: [22764846]
+[2024-04-15 04:51:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22764846]
+[2024-04-15 04:51:36] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-15 04:51:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: budgetize
+[2024-04-15 04:51:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: npu-compiler
+[2024-04-15 04:51:36] INFO root fetch - processPackages [budgetize]: New version: [0.1.0] Old Version: [0.0.3]
+[2024-04-15 04:51:36] INFO root fetch - processPackages [npu-compiler]: New version: [1.6.0rc4] Old Version: [1.6.0rc3]
+[2024-04-15 04:51:36] INFO root fetch - processPackages [budgetize]: Downloading https://files.pythonhosted.org/packages/c8/5e/e3cf7489c28af5bc188f0bc058ed62a97b3feec402f5341ee3288ebecff2/budgetize-0.0.3.tar.gz
+[2024-04-15 04:51:36] INFO root fetch - processPackages [npu-compiler]: Downloading https://files.pythonhosted.org/packages/2d/9f/aa1b396976c599a6e04733799bef1a25f77e4577133f1974fa1185ff8ac5/npu_compiler-1.6.0rc3-py2-none-any.whl
+[2024-04-15 04:51:36] WARNING root fetch - processPackages [npu-compiler]: Skipping package: exceeds size limit 28934902>=10485760
+[2024-04-15 04:51:36] INFO root fetch - main [MainThread]: End processing [npu-compiler] error
+[2024-04-15 04:51:36] INFO root fetch - processPackages [budgetize]: Downloading https://files.pythonhosted.org/packages/88/58/773e68b8d598200ebe14a6ce124e693bf3ff0ac85303243f7f752ef05c5f/budgetize-0.1.0.tar.gz
+[2024-04-15 04:51:37] INFO root fetch - processPackages [budgetize]: executing diffoscope
+[2024-04-15 04:51:37] INFO root fetch - processPackages [budgetize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/budgetize-0.0.3.tar.gz tmp/budgetize-0.1.0.tar.gz --markdown 20240415/b/budgetize/0.0.3-0.1.0/README.md --exclude *.pyd
+[2024-04-15 04:51:37] INFO root fetch - processPackages [budgetize]: Remove: archive file [/home/abi/fetcher/tmp/budgetize-0.0.3.tar.gz]
+[2024-04-15 04:51:37] INFO root fetch - processPackages [budgetize]: Remove: archive file [/home/abi/fetcher/tmp/budgetize-0.1.0.tar.gz]
+[2024-04-15 04:51:37] INFO root fetch - main [MainThread]: End processing [budgetize]: success
+[2024-04-15 04:51:37] INFO root fetch - main [MainThread]: Store serial: [22764851]
