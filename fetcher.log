@@ -11216,3 +11216,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 10:17:17] INFO root fetch - processPackages [waylay-sdk-rules-types]: Remove: archive file [/home/abi/fetcher/tmp/waylay-sdk-rules-types-6.5.0rc1.tar.gz]
 [2024-04-15 10:17:17] INFO root fetch - main [MainThread]: End processing [waylay-sdk-rules-types]: success
 [2024-04-15 10:17:17] INFO root fetch - main [MainThread]: Store serial: [22767764]
+[2024-04-15 10:19:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22767764]
+[2024-04-15 10:19:26] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-15 10:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: erlab
+[2024-04-15 10:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bridgecrew
+[2024-04-15 10:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Lisva81
+[2024-04-15 10:19:26] INFO root fetch - processPackages [Lisva81]: New version: [6.0.0] Old Version: [5.0.0]
+[2024-04-15 10:19:26] INFO root fetch - processPackages [erlab]: New version: [2.2.2] Old Version: [2.2.1]
+[2024-04-15 10:19:26] INFO root fetch - processPackages [bridgecrew]: New version: [3.2.9] Old Version: [3.2.8]
+[2024-04-15 10:19:26] INFO root fetch - processPackages [Lisva81]: Downloading https://files.pythonhosted.org/packages/52/f5/efcd9bc4ff1a268eadcbe878fde45a04af9f77e1c5fc463616904db78193/Lisva81-5.0.0.tar.gz
+[2024-04-15 10:19:26] INFO root fetch - processPackages [erlab]: Downloading https://files.pythonhosted.org/packages/6e/49/cdc8c9e950d4cb546ca723c4c155ef16599ee2a992f2dd2a389b1446c61b/erlab-2.2.1.tar.gz
+[2024-04-15 10:19:26] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/10/ba/dce7980ff0b7c11c6b0d4933f275f376eb8a4c997f0527cc483ac2310c8b/bridgecrew-3.2.8.tar.gz
+[2024-04-15 10:19:27] INFO root fetch - processPackages [Lisva81]: Downloading https://files.pythonhosted.org/packages/b9/3d/d7fd3ce6f6cbc0969e1f0e3777b271063ac7e86bb6193afb5201a138e529/Lisva81-6.0.0.tar.gz
+[2024-04-15 10:19:27] INFO root fetch - processPackages [erlab]: Downloading https://files.pythonhosted.org/packages/3d/f1/c96d75ba5268cbb5af2e7a525311e9086c5b52997e68999ebafd679c3dea/erlab-2.2.2.tar.gz
+[2024-04-15 10:19:27] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/f5/cd/d4c4caa7926c87e041723a31e232e562f13e2fa83f05b7451436564fe03f/bridgecrew-3.2.9.tar.gz
+[2024-04-15 10:19:27] INFO root fetch - processPackages [Lisva81]: executing diffoscope
+[2024-04-15 10:19:27] INFO root fetch - processPackages [Lisva81]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Lisva81-5.0.0.tar.gz tmp/Lisva81-6.0.0.tar.gz --markdown 20240415/L/Lisva81/5.0.0-6.0.0/README.md --exclude *.pyd
+[2024-04-15 10:19:27] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2024-04-15 10:19:27] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-3.2.8.tar.gz tmp/bridgecrew-3.2.9.tar.gz --markdown 20240415/b/bridgecrew/3.2.8-3.2.9/README.md --exclude *.pyd
+[2024-04-15 10:19:27] INFO root fetch - processPackages [erlab]: executing diffoscope
+[2024-04-15 10:19:27] INFO root fetch - processPackages [erlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erlab-2.2.1.tar.gz tmp/erlab-2.2.2.tar.gz --markdown 20240415/e/erlab/2.2.1-2.2.2/README.md --exclude *.pyd
+[2024-04-15 10:19:27] INFO root fetch - processPackages [Lisva81]: Remove: archive file [/home/abi/fetcher/tmp/Lisva81-5.0.0.tar.gz]
+[2024-04-15 10:19:27] INFO root fetch - processPackages [Lisva81]: Remove: archive file [/home/abi/fetcher/tmp/Lisva81-6.0.0.tar.gz]
+[2024-04-15 10:19:27] INFO root fetch - main [MainThread]: End processing [Lisva81]: success
+[2024-04-15 10:19:28] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-3.2.8.tar.gz]
+[2024-04-15 10:19:28] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-3.2.9.tar.gz]
+[2024-04-15 10:19:28] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2024-04-15 10:19:46] INFO root fetch - processPackages [erlab]: Remove: archive file [/home/abi/fetcher/tmp/erlab-2.2.1.tar.gz]
+[2024-04-15 10:19:46] INFO root fetch - processPackages [erlab]: Remove: archive file [/home/abi/fetcher/tmp/erlab-2.2.2.tar.gz]
+[2024-04-15 10:19:46] INFO root fetch - main [MainThread]: End processing [erlab]: success
+[2024-04-15 10:19:46] INFO root fetch - main [MainThread]: Store serial: [22767773]
