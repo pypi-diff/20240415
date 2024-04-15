@@ -11063,3 +11063,81 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 10:12:54] INFO root fetch - processPackages [prowler-cloud]: Remove: archive file [/home/abi/fetcher/tmp/prowler_cloud-4.0.1.tar.gz]
 [2024-04-15 10:12:54] INFO root fetch - main [MainThread]: End processing [prowler-cloud]: success
 [2024-04-15 10:12:54] INFO root fetch - main [MainThread]: Store serial: [22767708]
+[2024-04-15 10:14:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22767708]
+[2024-04-15 10:15:02] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-15 10:15:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: up-tamer
+[2024-04-15 10:15:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-invoice-report-grouped-by-picking
+[2024-04-15 10:15:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-invoice-report-grouped-by-picking-sale-mrp
+[2024-04-15 10:15:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cykooz.heif
+[2024-04-15 10:15:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dgenerate
+[2024-04-15 10:15:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rooms-shared-services
+[2024-04-15 10:15:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: langchain-tools
+[2024-04-15 10:15:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: DLMS-SPODES-client
+[2024-04-15 10:15:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ppss-auth
+[2024-04-15 10:15:03] WARNING root fetch - processPackages [langchain-tools]: Skipping, unable to determine old version
+[2024-04-15 10:15:03] INFO root fetch - main [MainThread]: End processing [langchain-tools] error
+[2024-04-15 10:15:03] INFO root fetch - processPackages [DLMS-SPODES-client]: New version: [0.7.7] Old Version: [0.7.6]
+[2024-04-15 10:15:03] INFO root fetch - processPackages [ppss-auth]: New version: [0.9.5] Old Version: [0.9.4.4]
+[2024-04-15 10:15:03] INFO root fetch - processPackages [odoo-addon-account-invoice-report-grouped-by-picking]: New version: [17.0.1.0.0.5] Old Version: [17.0.1.0.0.4]
+[2024-04-15 10:15:03] INFO root fetch - processPackages [odoo-addon-account-invoice-report-grouped-by-picking-sale-mrp]: New version: [15.0.1.0.1] Old Version: [15.0.1.0.0.5]
+[2024-04-15 10:15:03] INFO root fetch - processPackages [up-tamer]: New version: [1.1.2.1.dev1] Old Version: [1.1.2]
+[2024-04-15 10:15:03] INFO root fetch - processPackages [cykooz.heif]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-15 10:15:03] INFO root fetch - processPackages [rooms-shared-services]: New version: [0.1.99] Old Version: [0.1.97]
+[2024-04-15 10:15:03] INFO root fetch - processPackages [dgenerate]: New version: [3.4.3] Old Version: [3.4.2]
+[2024-04-15 10:15:03] INFO root fetch - processPackages [DLMS-SPODES-client]: Downloading https://files.pythonhosted.org/packages/eb/c2/2fe8573fd0e160a156a83927a8e6113320278ae75ad405523cff77dea591/DLMS_SPODES_client-0.7.6.tar.gz
+[2024-04-15 10:15:03] INFO root fetch - processPackages [cykooz.heif]: Downloading https://files.pythonhosted.org/packages/ea/d7/05595ff50431e246de299835cbb3aa4d7ac5e3df5b77e46fd052db1515a7/cykooz.heif-1.0.0.tar.gz
+[2024-04-15 10:15:03] INFO root fetch - processPackages [odoo-addon-account-invoice-report-grouped-by-picking-sale-mrp]: Downloading https://files.pythonhosted.org/packages/02/90/bf5ea4da455e81d61e479abe7628f4e4ddd53a633ae59d879b2bf3c23c64/odoo_addon_account_invoice_report_grouped_by_picking_sale_mrp-15.0.1.0.0.5-py3-none-any.whl
+[2024-04-15 10:15:03] INFO root fetch - processPackages [up-tamer]: Downloading https://files.pythonhosted.org/packages/a6/80/c9cc113820b21fb87aae36752e546560092f320af412aeff23f9388fe6e8/up_tamer-1.1.2.tar.gz
+[2024-04-15 10:15:03] INFO root fetch - processPackages [odoo-addon-account-invoice-report-grouped-by-picking]: Downloading https://files.pythonhosted.org/packages/29/d5/b8cce8f1be8f6b96af40758207b70f927202f570a6d0466e0976144c24ef/odoo_addon_account_invoice_report_grouped_by_picking-17.0.1.0.0.4-py3-none-any.whl
+[2024-04-15 10:15:03] INFO root fetch - processPackages [ppss-auth]: Downloading https://files.pythonhosted.org/packages/9f/4d/616ddc471de440735834fed4b7116556f0f72249ce6f4ac81e1b26e4f97b/ppss_auth-0.9.4.4.tar.gz
+[2024-04-15 10:15:03] INFO root fetch - processPackages [rooms-shared-services]: Downloading https://files.pythonhosted.org/packages/16/6e/7a35dabe25e96c04274cbd9f69a6e68b4f36dc149e22451fb099f79d153e/rooms_shared_services-0.1.97.tar.gz
+[2024-04-15 10:15:03] INFO root fetch - processPackages [dgenerate]: Downloading https://files.pythonhosted.org/packages/ea/d4/1843b387d914c916a542849786178c7d2d3cf99441143b7f6fea027a3eb6/dgenerate-3.4.2.tar.gz
+[2024-04-15 10:15:03] INFO root fetch - processPackages [DLMS-SPODES-client]: Downloading https://files.pythonhosted.org/packages/7d/5a/a5edf5df077a3998a17d31410a73624b1b029845910bcbfa4d53355e6d55/DLMS_SPODES_client-0.7.7.tar.gz
+[2024-04-15 10:15:03] INFO root fetch - processPackages [up-tamer]: Downloading https://files.pythonhosted.org/packages/67/0c/da5b748cbf86fe6bb8c8260d82190a023e866ff032b4cef5acb782f07a21/up_tamer-1.1.2.1.dev1.tar.gz
+[2024-04-15 10:15:03] INFO root fetch - processPackages [cykooz.heif]: Downloading https://files.pythonhosted.org/packages/12/90/8f1b8bbc555c80a2b104c359856e1dd2ad84a84b86a83cd017e9166101d5/cykooz.heif-1.0.1.tar.gz
+[2024-04-15 10:15:03] INFO root fetch - processPackages [odoo-addon-account-invoice-report-grouped-by-picking-sale-mrp]: Downloading https://files.pythonhosted.org/packages/69/0d/3fab2830c8967572d8af5af1988ab6d9c44f663e996202854401ac481d64/odoo_addon_account_invoice_report_grouped_by_picking_sale_mrp-15.0.1.0.1-py3-none-any.whl
+[2024-04-15 10:15:03] INFO root fetch - processPackages [ppss-auth]: Downloading https://files.pythonhosted.org/packages/58/62/52b6eebcac0d22c560b582083e034d61f3f5954bc451c6bcf40e73e59400/ppss_auth-0.9.5.tar.gz
+[2024-04-15 10:15:03] INFO root fetch - processPackages [rooms-shared-services]: Downloading https://files.pythonhosted.org/packages/69/d1/238526d33d58183ec73b9cb900a4aea16c13e7618af0394e6c55838d4395/rooms_shared_services-0.1.99.tar.gz
+[2024-04-15 10:15:03] INFO root fetch - processPackages [odoo-addon-account-invoice-report-grouped-by-picking]: Downloading https://files.pythonhosted.org/packages/b7/f9/2fbcb34a62aa77284c1efc968199dc64675a0f97f1939313759566e2e58c/odoo_addon_account_invoice_report_grouped_by_picking-17.0.1.0.0.5-py3-none-any.whl
+[2024-04-15 10:15:04] INFO root fetch - processPackages [up-tamer]: executing diffoscope
+[2024-04-15 10:15:04] INFO root fetch - processPackages [up-tamer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/up_tamer-1.1.2.tar.gz tmp/up_tamer-1.1.2.1.dev1.tar.gz --markdown 20240415/u/up-tamer/1.1.2-1.1.2.1.dev1/README.md --exclude *.pyd
+[2024-04-15 10:15:04] INFO root fetch - processPackages [DLMS-SPODES-client]: executing diffoscope
+[2024-04-15 10:15:04] INFO root fetch - processPackages [DLMS-SPODES-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES_client-0.7.6.tar.gz tmp/DLMS_SPODES_client-0.7.7.tar.gz --markdown 20240415/D/DLMS-SPODES-client/0.7.6-0.7.7/README.md --exclude *.pyd
+[2024-04-15 10:15:04] INFO root fetch - processPackages [cykooz.heif]: executing diffoscope
+[2024-04-15 10:15:04] INFO root fetch - processPackages [cykooz.heif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cykooz.heif-1.0.0.tar.gz tmp/cykooz.heif-1.0.1.tar.gz --markdown 20240415/c/cykooz.heif/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-04-15 10:15:04] INFO root fetch - processPackages [odoo-addon-account-invoice-report-grouped-by-picking-sale-mrp]: executing diffoscope
+[2024-04-15 10:15:04] INFO root fetch - processPackages [odoo-addon-account-invoice-report-grouped-by-picking-sale-mrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_invoice_report_grouped_by_picking_sale_mrp-15.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_account_invoice_report_grouped_by_picking_sale_mrp-15.0.1.0.1-py3-none-any.whl.zip --markdown 20240415/o/odoo-addon-account-invoice-report-grouped-by-picking-sale-mrp/15.0.1.0.0.5-15.0.1.0.1/README.md --exclude *.pyd
+[2024-04-15 10:15:04] INFO root fetch - processPackages [rooms-shared-services]: executing diffoscope
+[2024-04-15 10:15:04] INFO root fetch - processPackages [rooms-shared-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rooms_shared_services-0.1.97.tar.gz tmp/rooms_shared_services-0.1.99.tar.gz --markdown 20240415/r/rooms-shared-services/0.1.97-0.1.99/README.md --exclude *.pyd
+[2024-04-15 10:15:04] INFO root fetch - processPackages [ppss-auth]: executing diffoscope
+[2024-04-15 10:15:04] INFO root fetch - processPackages [ppss-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ppss_auth-0.9.4.4.tar.gz tmp/ppss_auth-0.9.5.tar.gz --markdown 20240415/p/ppss-auth/0.9.4.4-0.9.5/README.md --exclude *.pyd
+[2024-04-15 10:15:04] INFO root fetch - processPackages [dgenerate]: Downloading https://files.pythonhosted.org/packages/92/38/572228c92bce04d1fb5225f917eb9c4e3aaaaa4d8bd790ef32b4a8111bb3/dgenerate-3.4.3.tar.gz
+[2024-04-15 10:15:04] INFO root fetch - processPackages [odoo-addon-account-invoice-report-grouped-by-picking]: executing diffoscope
+[2024-04-15 10:15:04] INFO root fetch - processPackages [odoo-addon-account-invoice-report-grouped-by-picking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_invoice_report_grouped_by_picking-17.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_account_invoice_report_grouped_by_picking-17.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240415/o/odoo-addon-account-invoice-report-grouped-by-picking/17.0.1.0.0.4-17.0.1.0.0.5/README.md --exclude *.pyd
+[2024-04-15 10:15:04] INFO root fetch - processPackages [dgenerate]: executing diffoscope
+[2024-04-15 10:15:04] INFO root fetch - processPackages [dgenerate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dgenerate-3.4.2.tar.gz tmp/dgenerate-3.4.3.tar.gz --markdown 20240415/d/dgenerate/3.4.2-3.4.3/README.md --exclude *.pyd
+[2024-04-15 10:15:04] INFO root fetch - processPackages [odoo-addon-account-invoice-report-grouped-by-picking-sale-mrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_report_grouped_by_picking_sale_mrp-15.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-15 10:15:04] INFO root fetch - processPackages [odoo-addon-account-invoice-report-grouped-by-picking-sale-mrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_report_grouped_by_picking_sale_mrp-15.0.1.0.1-py3-none-any.whl.zip]
+[2024-04-15 10:15:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-report-grouped-by-picking-sale-mrp]: success
+[2024-04-15 10:15:05] INFO root fetch - processPackages [cykooz.heif]: Remove: archive file [/home/abi/fetcher/tmp/cykooz.heif-1.0.0.tar.gz]
+[2024-04-15 10:15:05] INFO root fetch - processPackages [cykooz.heif]: Remove: archive file [/home/abi/fetcher/tmp/cykooz.heif-1.0.1.tar.gz]
+[2024-04-15 10:15:05] INFO root fetch - main [MainThread]: End processing [cykooz.heif]: success
+[2024-04-15 10:15:05] INFO root fetch - processPackages [rooms-shared-services]: Remove: archive file [/home/abi/fetcher/tmp/rooms_shared_services-0.1.97.tar.gz]
+[2024-04-15 10:15:05] INFO root fetch - processPackages [rooms-shared-services]: Remove: archive file [/home/abi/fetcher/tmp/rooms_shared_services-0.1.99.tar.gz]
+[2024-04-15 10:15:05] INFO root fetch - main [MainThread]: End processing [rooms-shared-services]: success
+[2024-04-15 10:15:05] INFO root fetch - processPackages [up-tamer]: Remove: archive file [/home/abi/fetcher/tmp/up_tamer-1.1.2.tar.gz]
+[2024-04-15 10:15:05] INFO root fetch - processPackages [up-tamer]: Remove: archive file [/home/abi/fetcher/tmp/up_tamer-1.1.2.1.dev1.tar.gz]
+[2024-04-15 10:15:05] INFO root fetch - main [MainThread]: End processing [up-tamer]: success
+[2024-04-15 10:15:05] INFO root fetch - processPackages [DLMS-SPODES-client]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES_client-0.7.6.tar.gz]
+[2024-04-15 10:15:05] INFO root fetch - processPackages [DLMS-SPODES-client]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES_client-0.7.7.tar.gz]
+[2024-04-15 10:15:05] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES-client]: success
+[2024-04-15 10:15:05] INFO root fetch - processPackages [odoo-addon-account-invoice-report-grouped-by-picking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_report_grouped_by_picking-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-15 10:15:05] INFO root fetch - processPackages [odoo-addon-account-invoice-report-grouped-by-picking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_report_grouped_by_picking-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-15 10:15:05] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-report-grouped-by-picking]: success
+[2024-04-15 10:15:05] INFO root fetch - processPackages [ppss-auth]: Remove: archive file [/home/abi/fetcher/tmp/ppss_auth-0.9.4.4.tar.gz]
+[2024-04-15 10:15:05] INFO root fetch - processPackages [ppss-auth]: Remove: archive file [/home/abi/fetcher/tmp/ppss_auth-0.9.5.tar.gz]
+[2024-04-15 10:15:05] INFO root fetch - main [MainThread]: End processing [ppss-auth]: success
+[2024-04-15 10:15:06] INFO root fetch - processPackages [dgenerate]: Remove: archive file [/home/abi/fetcher/tmp/dgenerate-3.4.2.tar.gz]
+[2024-04-15 10:15:06] INFO root fetch - processPackages [dgenerate]: Remove: archive file [/home/abi/fetcher/tmp/dgenerate-3.4.3.tar.gz]
+[2024-04-15 10:15:06] INFO root fetch - main [MainThread]: End processing [dgenerate]: success
+[2024-04-15 10:15:06] INFO root fetch - main [MainThread]: Store serial: [22767739]
