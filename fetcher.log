@@ -17390,3 +17390,24 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 14:01:34] INFO root fetch - processPackages [genv]: Remove: archive file [/home/abi/fetcher/tmp/genv-1.4.1.tar.gz]
 [2024-04-15 14:01:34] INFO root fetch - main [MainThread]: End processing [genv]: success
 [2024-04-15 14:01:34] INFO root fetch - main [MainThread]: Store serial: [22770459]
+[2024-04-15 14:03:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22770459]
+[2024-04-15 14:03:43] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-15 14:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: genv
+[2024-04-15 14:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: psd2fabric
+[2024-04-15 14:03:43] INFO root fetch - processPackages [psd2fabric]: New version: [0.3] Old Version: [0.2]
+[2024-04-15 14:03:43] INFO root fetch - processPackages [genv]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-04-15 14:03:43] INFO root fetch - processPackages [psd2fabric]: Downloading https://files.pythonhosted.org/packages/99/0b/6a92fc9e0c27eb53de42ec7011decc107eaf636c368cde5426c4a05b1840/psd2fabric-0.2.tar.gz
+[2024-04-15 14:03:43] INFO root fetch - processPackages [genv]: Downloading https://files.pythonhosted.org/packages/82/29/96af9fddc4b41cd7556cd55bd0f98c2d0c36b92786ceaacac4cf86809d04/genv-1.4.0.tar.gz
+[2024-04-15 14:03:44] INFO root fetch - processPackages [genv]: Downloading https://files.pythonhosted.org/packages/12/8a/90c7f6b2d01d58570c6aacc62e0fffebc21684b1a82ab21d7a198fdbf6b5/genv-1.4.1.tar.gz
+[2024-04-15 14:03:44] INFO root fetch - processPackages [psd2fabric]: Downloading https://files.pythonhosted.org/packages/0e/74/3d9e2186cffe9234b47df427b7b87df7563ad1d66e4c0cbc7ac18ad76192/psd2fabric-0.3.tar.gz
+[2024-04-15 14:03:44] INFO root fetch - processPackages [genv]: executing diffoscope
+[2024-04-15 14:03:44] INFO root fetch - processPackages [genv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genv-1.4.0.tar.gz tmp/genv-1.4.1.tar.gz --markdown 20240415/g/genv/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-04-15 14:03:44] INFO root fetch - processPackages [psd2fabric]: executing diffoscope
+[2024-04-15 14:03:44] INFO root fetch - processPackages [psd2fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psd2fabric-0.2.tar.gz tmp/psd2fabric-0.3.tar.gz --markdown 20240415/p/psd2fabric/0.2-0.3/README.md --exclude *.pyd
+[2024-04-15 14:03:44] INFO root fetch - processPackages [psd2fabric]: Remove: archive file [/home/abi/fetcher/tmp/psd2fabric-0.2.tar.gz]
+[2024-04-15 14:03:44] INFO root fetch - processPackages [psd2fabric]: Remove: archive file [/home/abi/fetcher/tmp/psd2fabric-0.3.tar.gz]
+[2024-04-15 14:03:44] INFO root fetch - main [MainThread]: End processing [psd2fabric]: success
+[2024-04-15 14:03:44] INFO root fetch - processPackages [genv]: Remove: archive file [/home/abi/fetcher/tmp/genv-1.4.0.tar.gz]
+[2024-04-15 14:03:44] INFO root fetch - processPackages [genv]: Remove: archive file [/home/abi/fetcher/tmp/genv-1.4.1.tar.gz]
+[2024-04-15 14:03:44] INFO root fetch - main [MainThread]: End processing [genv]: success
+[2024-04-15 14:03:44] INFO root fetch - main [MainThread]: Store serial: [22770465]
