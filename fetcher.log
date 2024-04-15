@@ -17411,3 +17411,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 14:03:44] INFO root fetch - processPackages [genv]: Remove: archive file [/home/abi/fetcher/tmp/genv-1.4.1.tar.gz]
 [2024-04-15 14:03:44] INFO root fetch - main [MainThread]: End processing [genv]: success
 [2024-04-15 14:03:44] INFO root fetch - main [MainThread]: Store serial: [22770465]
+[2024-04-15 14:05:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22770465]
+[2024-04-15 14:05:53] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-15 14:05:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: infisical-python
+[2024-04-15 14:05:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pynest-api
+[2024-04-15 14:05:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arion-library
+[2024-04-15 14:05:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: psd2fabric
+[2024-04-15 14:05:53] INFO root fetch - processPackages [arion-library]: New version: [1.1rc59.dev59] Old Version: [1.1rc58.dev58]
+[2024-04-15 14:05:53] INFO root fetch - processPackages [psd2fabric]: New version: [0.4] Old Version: [0.3]
+[2024-04-15 14:05:53] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/7b/ef/7ae50d2cbd8497e6fb74eb82ec6f671fd81ba21fbf41f8b00d09b2d5850a/arion_library-1.1rc58.dev58.tar.gz
+[2024-04-15 14:05:53] INFO root fetch - processPackages [psd2fabric]: Downloading https://files.pythonhosted.org/packages/0e/74/3d9e2186cffe9234b47df427b7b87df7563ad1d66e4c0cbc7ac18ad76192/psd2fabric-0.3.tar.gz
+[2024-04-15 14:05:53] INFO root fetch - processPackages [pynest-api]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-15 14:05:54] INFO root fetch - processPackages [infisical-python]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-15 14:05:54] INFO root fetch - processPackages [pynest-api]: Downloading https://files.pythonhosted.org/packages/55/30/b98f6f9a1d26f544626c9f4b0bd9467160db4df372aecac7ca9d6433e38d/pynest-api-0.2.0.tar.gz
+[2024-04-15 14:05:54] INFO root fetch - processPackages [infisical-python]: Downloading https://files.pythonhosted.org/packages/27/80/1ddf0a8da7339cf820646888ae8be1235b623a65bd4c3179da0a5ec3cd50/infisical_python-2.1.8.tar.gz
+[2024-04-15 14:05:54] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/23/ba/b5f6c15a8fd4ca2b29ea4c6cb925e9a5906987f6426790436bd90f55f1c6/arion_library-1.1rc59.dev59.tar.gz
+[2024-04-15 14:05:54] INFO root fetch - processPackages [psd2fabric]: Downloading https://files.pythonhosted.org/packages/10/dd/e983785b34e17085b3d177e58dee2eb14da671937852a9d2af9cb911510a/psd2fabric-0.4.tar.gz
+[2024-04-15 14:05:54] INFO root fetch - processPackages [arion-library]: executing diffoscope
+[2024-04-15 14:05:54] INFO root fetch - processPackages [arion-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arion_library-1.1rc58.dev58.tar.gz tmp/arion_library-1.1rc59.dev59.tar.gz --markdown 20240415/a/arion-library/1.1rc58.dev58-1.1rc59.dev59/README.md --exclude *.pyd
+[2024-04-15 14:05:54] INFO root fetch - processPackages [psd2fabric]: executing diffoscope
+[2024-04-15 14:05:54] INFO root fetch - processPackages [psd2fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psd2fabric-0.3.tar.gz tmp/psd2fabric-0.4.tar.gz --markdown 20240415/p/psd2fabric/0.3-0.4/README.md --exclude *.pyd
+[2024-04-15 14:05:54] INFO root fetch - processPackages [pynest-api]: Downloading https://files.pythonhosted.org/packages/a1/d9/04e417336b0648a56e1dd8a8b5036e3121117158b715a633a0cf5f36701b/pynest_api-0.2.1.tar.gz
+[2024-04-15 14:05:54] INFO root fetch - processPackages [infisical-python]: Downloading https://files.pythonhosted.org/packages/86/82/ddb69014f3c77c6b6c8b9ab017ab25917d9d542d98ae7e597093a036887b/infisical_python-2.1.9.tar.gz
+[2024-04-15 14:05:54] INFO root fetch - processPackages [pynest-api]: executing diffoscope
+[2024-04-15 14:05:54] INFO root fetch - processPackages [pynest-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynest-api-0.2.0.tar.gz tmp/pynest_api-0.2.1.tar.gz --markdown 20240415/p/pynest-api/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-15 14:05:54] INFO root fetch - processPackages [infisical-python]: executing diffoscope
+[2024-04-15 14:05:54] INFO root fetch - processPackages [infisical-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infisical_python-2.1.8.tar.gz tmp/infisical_python-2.1.9.tar.gz --markdown 20240415/i/infisical-python/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-15 14:05:55] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc58.dev58.tar.gz]
+[2024-04-15 14:05:55] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc59.dev59.tar.gz]
+[2024-04-15 14:05:55] INFO root fetch - main [MainThread]: End processing [arion-library]: success
+[2024-04-15 14:05:55] INFO root fetch - processPackages [psd2fabric]: Remove: archive file [/home/abi/fetcher/tmp/psd2fabric-0.3.tar.gz]
+[2024-04-15 14:05:55] INFO root fetch - processPackages [psd2fabric]: Remove: archive file [/home/abi/fetcher/tmp/psd2fabric-0.4.tar.gz]
+[2024-04-15 14:05:55] INFO root fetch - main [MainThread]: End processing [psd2fabric]: success
+[2024-04-15 14:05:55] INFO root fetch - processPackages [pynest-api]: Remove: archive file [/home/abi/fetcher/tmp/pynest-api-0.2.0.tar.gz]
+[2024-04-15 14:05:55] INFO root fetch - processPackages [pynest-api]: Remove: archive file [/home/abi/fetcher/tmp/pynest_api-0.2.1.tar.gz]
+[2024-04-15 14:05:55] INFO root fetch - main [MainThread]: End processing [pynest-api]: success
+[2024-04-15 14:05:55] INFO root fetch - processPackages [infisical-python]: Remove: archive file [/home/abi/fetcher/tmp/infisical_python-2.1.8.tar.gz]
+[2024-04-15 14:05:55] INFO root fetch - processPackages [infisical-python]: Remove: archive file [/home/abi/fetcher/tmp/infisical_python-2.1.9.tar.gz]
+[2024-04-15 14:05:55] INFO root fetch - main [MainThread]: End processing [infisical-python]: success
+[2024-04-15 14:05:55] INFO root fetch - main [MainThread]: Store serial: [22770512]
