@@ -7940,3 +7940,18 @@
 [2024-04-15 07:49:37] INFO root fetch - processPackages [eodc-faas-sen2like]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_sen2like-2024.4.6.tar.gz]
 [2024-04-15 07:49:37] INFO root fetch - main [MainThread]: End processing [eodc-faas-sen2like]: success
 [2024-04-15 07:49:37] INFO root fetch - main [MainThread]: Store serial: [22766409]
+[2024-04-15 07:51:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22766409]
+[2024-04-15 07:51:46] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-15 07:51:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deepctools
+[2024-04-15 07:51:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dmk-packages
+[2024-04-15 07:51:46] WARNING root fetch - processPackages [deepctools]: Skipping, unable to determine old version
+[2024-04-15 07:51:46] INFO root fetch - main [MainThread]: End processing [deepctools] error
+[2024-04-15 07:51:46] INFO root fetch - processPackages [dmk-packages]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-04-15 07:51:46] INFO root fetch - processPackages [dmk-packages]: Downloading https://files.pythonhosted.org/packages/f4/f2/af305c98c89d5a8896c916a11788d42121a7b9a812c3635dc111d6244bc6/dmk_packages-0.6.1.tar.gz
+[2024-04-15 07:51:46] INFO root fetch - processPackages [dmk-packages]: Downloading https://files.pythonhosted.org/packages/b3/e6/47ca5c0c92e58733094bab3767de1288a8c999f5a4dcf6bdb145f05702c6/dmk_packages-0.6.2.tar.gz
+[2024-04-15 07:51:47] INFO root fetch - processPackages [dmk-packages]: executing diffoscope
+[2024-04-15 07:51:47] INFO root fetch - processPackages [dmk-packages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dmk_packages-0.6.1.tar.gz tmp/dmk_packages-0.6.2.tar.gz --markdown 20240415/d/dmk-packages/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-04-15 07:51:47] INFO root fetch - processPackages [dmk-packages]: Remove: archive file [/home/abi/fetcher/tmp/dmk_packages-0.6.1.tar.gz]
+[2024-04-15 07:51:47] INFO root fetch - processPackages [dmk-packages]: Remove: archive file [/home/abi/fetcher/tmp/dmk_packages-0.6.2.tar.gz]
+[2024-04-15 07:51:47] INFO root fetch - main [MainThread]: End processing [dmk-packages]: success
+[2024-04-15 07:51:47] INFO root fetch - main [MainThread]: Store serial: [22766415]
