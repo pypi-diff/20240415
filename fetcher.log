@@ -2134,3 +2134,42 @@
 [2024-04-15 03:05:06] INFO root fetch - processPackages [mqt.qcec]: Remove: archive file [/home/abi/fetcher/tmp/mqt_qcec-2.6.0-cp38-cp38-manylinux_2_17_s390x.manylinux2014_s390x.whl.zip]
 [2024-04-15 03:05:06] INFO root fetch - main [MainThread]: End processing [mqt.qcec]: success
 [2024-04-15 03:05:06] INFO root fetch - main [MainThread]: Store serial: [22764236]
+[2024-04-15 03:07:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22764236]
+[2024-04-15 03:07:15] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-15 03:07:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: corkit
+[2024-04-15 03:07:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hue-sunrise
+[2024-04-15 03:07:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PokemonLibrary
+[2024-04-15 03:07:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dismo
+[2024-04-15 03:07:15] INFO root fetch - processPackages [corkit]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-04-15 03:07:15] INFO root fetch - processPackages [PokemonLibrary]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-15 03:07:15] INFO root fetch - processPackages [dismo]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-15 03:07:15] INFO root fetch - processPackages [PokemonLibrary]: Downloading https://files.pythonhosted.org/packages/46/2f/c844d9f1f98668143c9adb154bfd4eeb002a83be9fdadd7906ef0b1e3b05/PokemonLibrary-1.0.1.tar.gz
+[2024-04-15 03:07:15] INFO root fetch - processPackages [corkit]: Downloading https://files.pythonhosted.org/packages/8d/b7/1bdc140474657d33338bb6c651ac98450c1b2daede9d0057765d191bce2b/corkit-1.0.6.tar.gz
+[2024-04-15 03:07:15] INFO root fetch - processPackages [hue-sunrise]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-04-15 03:07:15] INFO root fetch - processPackages [hue-sunrise]: Downloading https://files.pythonhosted.org/packages/ca/e9/540d059956f78f9c8fe289ac263b36659e46539f8aa5f3d1bed8516aceb4/hue_sunrise-0.6.8.tar.gz
+[2024-04-15 03:07:15] INFO root fetch - processPackages [dismo]: Downloading https://files.pythonhosted.org/packages/e9/d8/33ec1926582882ec91e543cb167d590ea8473e0c8fdc328d9b16cf94dc2e/dismo-1.0.8.tar.gz
+[2024-04-15 03:07:16] INFO root fetch - processPackages [PokemonLibrary]: Downloading https://files.pythonhosted.org/packages/f9/46/fce20d49a174da76bf1c9508d9e010f1a2293875b7722c2010571cc8a1d8/PokemonLibrary-1.0.2.tar.gz
+[2024-04-15 03:07:16] INFO root fetch - processPackages [corkit]: Downloading https://files.pythonhosted.org/packages/88/c0/84683b8f1511b181c41e38456cc133b69b76582780214c0fe1bdd3d13da2/corkit-1.0.7.tar.gz
+[2024-04-15 03:07:16] INFO root fetch - processPackages [PokemonLibrary]: executing diffoscope
+[2024-04-15 03:07:16] INFO root fetch - processPackages [PokemonLibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PokemonLibrary-1.0.1.tar.gz tmp/PokemonLibrary-1.0.2.tar.gz --markdown 20240415/P/PokemonLibrary/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-15 03:07:16] INFO root fetch - processPackages [corkit]: executing diffoscope
+[2024-04-15 03:07:16] INFO root fetch - processPackages [corkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corkit-1.0.6.tar.gz tmp/corkit-1.0.7.tar.gz --markdown 20240415/c/corkit/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-04-15 03:07:16] INFO root fetch - processPackages [hue-sunrise]: Downloading https://files.pythonhosted.org/packages/fa/05/26bf05e0f3613c7bb941514f32b7c545625037f03289eec39ac8cf0557c9/hue_sunrise-0.6.9.tar.gz
+[2024-04-15 03:07:16] INFO root fetch - processPackages [dismo]: Downloading https://files.pythonhosted.org/packages/46/ea/aca21eb7dddb69cc86666a35b07fe59fd6139a8b65bae53f8052ace4d4ec/dismo-1.0.9.tar.gz
+[2024-04-15 03:07:16] INFO root fetch - processPackages [dismo]: executing diffoscope
+[2024-04-15 03:07:16] INFO root fetch - processPackages [dismo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dismo-1.0.8.tar.gz tmp/dismo-1.0.9.tar.gz --markdown 20240415/d/dismo/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-15 03:07:16] INFO root fetch - processPackages [PokemonLibrary]: Remove: archive file [/home/abi/fetcher/tmp/PokemonLibrary-1.0.1.tar.gz]
+[2024-04-15 03:07:16] INFO root fetch - processPackages [PokemonLibrary]: Remove: archive file [/home/abi/fetcher/tmp/PokemonLibrary-1.0.2.tar.gz]
+[2024-04-15 03:07:16] INFO root fetch - main [MainThread]: End processing [PokemonLibrary]: success
+[2024-04-15 03:07:16] INFO root fetch - processPackages [corkit]: Remove: archive file [/home/abi/fetcher/tmp/corkit-1.0.6.tar.gz]
+[2024-04-15 03:07:16] INFO root fetch - processPackages [corkit]: Remove: archive file [/home/abi/fetcher/tmp/corkit-1.0.7.tar.gz]
+[2024-04-15 03:07:16] INFO root fetch - main [MainThread]: End processing [corkit]: success
+[2024-04-15 03:07:16] INFO root fetch - processPackages [dismo]: Remove: archive file [/home/abi/fetcher/tmp/dismo-1.0.8.tar.gz]
+[2024-04-15 03:07:16] INFO root fetch - processPackages [dismo]: Remove: archive file [/home/abi/fetcher/tmp/dismo-1.0.9.tar.gz]
+[2024-04-15 03:07:16] INFO root fetch - main [MainThread]: End processing [dismo]: success
+[2024-04-15 03:07:17] INFO root fetch - processPackages [hue-sunrise]: executing diffoscope
+[2024-04-15 03:07:17] INFO root fetch - processPackages [hue-sunrise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hue_sunrise-0.6.8.tar.gz tmp/hue_sunrise-0.6.9.tar.gz --markdown 20240415/h/hue-sunrise/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-04-15 03:07:17] INFO root fetch - processPackages [hue-sunrise]: Remove: archive file [/home/abi/fetcher/tmp/hue_sunrise-0.6.8.tar.gz]
+[2024-04-15 03:07:17] INFO root fetch - processPackages [hue-sunrise]: Remove: archive file [/home/abi/fetcher/tmp/hue_sunrise-0.6.9.tar.gz]
+[2024-04-15 03:07:17] INFO root fetch - main [MainThread]: End processing [hue-sunrise]: success
+[2024-04-15 03:07:17] INFO root fetch - main [MainThread]: Store serial: [22764259]
