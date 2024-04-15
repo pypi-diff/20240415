@@ -10364,3 +10364,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 09:43:59] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.1.9.tar.gz]
 [2024-04-15 09:43:59] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
 [2024-04-15 09:43:59] INFO root fetch - main [MainThread]: Store serial: [22767434]
+[2024-04-15 09:46:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22767434]
+[2024-04-15 09:46:07] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-15 09:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: radical.gtod
+[2024-04-15 09:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyfilename
+[2024-04-15 09:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pygdsm
+[2024-04-15 09:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: metaagents
+[2024-04-15 09:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: radical.utils
+[2024-04-15 09:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: msanic
+[2024-04-15 09:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pipez
+[2024-04-15 09:46:07] INFO root fetch - processPackages [radical.gtod]: New version: [1.6.7] Old Version: [1.5.0]
+[2024-04-15 09:46:07] INFO root fetch - processPackages [radical.utils]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-15 09:46:07] INFO root fetch - processPackages [pipez]: New version: [0.0.9] Old Version: [0.0.89]
+[2024-04-15 09:46:07] INFO root fetch - processPackages [radical.gtod]: Downloading https://files.pythonhosted.org/packages/79/10/f1a89928a077875824f44a6b09a26408148d8b18ca0639ae0a3782adb7f1/radical.gtod-1.5.0.tar.gz
+[2024-04-15 09:46:07] INFO root fetch - processPackages [pygdsm]: New version: [1.5.3] Old Version: [1.5.2]
+[2024-04-15 09:46:07] WARNING root fetch - processPackages [metaagents]: Skipping, unable to determine old version
+[2024-04-15 09:46:07] INFO root fetch - main [MainThread]: End processing [metaagents] error
+[2024-04-15 09:46:07] INFO root fetch - processPackages [msanic]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-15 09:46:07] INFO root fetch - processPackages [radical.utils]: Downloading https://files.pythonhosted.org/packages/1f/11/cff0051613a1687c77e09b3096568dfa01f96271c0c2a0040cafae59f52b/radical.utils-1.9.0.tar.gz
+[2024-04-15 09:46:07] INFO root fetch - processPackages [pyfilename]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-04-15 09:46:07] INFO root fetch - processPackages [pipez]: Downloading https://files.pythonhosted.org/packages/72/c7/1a57d281a6f5ca85956f4e1a3557874ce052290242b5cf8c741d1914fa20/pipez-0.0.89.tar.gz
+[2024-04-15 09:46:07] INFO root fetch - processPackages [pygdsm]: Downloading https://files.pythonhosted.org/packages/ce/b8/3bde1897ad1159a9752b15007dcc963a6e4938436310bf86066bd4501a2e/pygdsm-1.5.2.tar.gz
+[2024-04-15 09:46:07] INFO root fetch - processPackages [msanic]: Downloading https://files.pythonhosted.org/packages/b5/f6/a2023f9fde587ed33ef6885c2f26ef1a8b44eb40a2c71e91b7c5f0b86dc5/msanic-1.0.8-py3-none-any.whl
+[2024-04-15 09:46:07] INFO root fetch - processPackages [radical.gtod]: Downloading https://files.pythonhosted.org/packages/e7/99/b30606ef545cb7dd3965e4271424fac7ce5ea037377a5a165605efd5aced/radical.gtod-1.6.7.tar.gz
+[2024-04-15 09:46:07] INFO root fetch - processPackages [pyfilename]: Downloading https://files.pythonhosted.org/packages/58/e3/43610ca0eeeddce64aa0bf06a99ebebb1e16ed7f2898c2c92cda6eadec5b/pyfilename-0.4.0.tar.gz
+[2024-04-15 09:46:07] INFO root fetch - processPackages [radical.utils]: Downloading https://files.pythonhosted.org/packages/20/d0/1fdf2dbde27e3a8d85ba804e54707f9aae40ab8b524492de97c15a6d0fbf/radical.utils-1.9.1.tar.gz
+[2024-04-15 09:46:07] INFO root fetch - processPackages [radical.gtod]: executing diffoscope
+[2024-04-15 09:46:07] INFO root fetch - processPackages [radical.gtod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radical.gtod-1.5.0.tar.gz tmp/radical.gtod-1.6.7.tar.gz --markdown 20240415/r/radical.gtod/1.5.0-1.6.7/README.md --exclude *.pyd
+[2024-04-15 09:46:07] INFO root fetch - processPackages [radical.utils]: executing diffoscope
+[2024-04-15 09:46:07] INFO root fetch - processPackages [radical.utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radical.utils-1.9.0.tar.gz tmp/radical.utils-1.9.1.tar.gz --markdown 20240415/r/radical.utils/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-04-15 09:46:08] INFO root fetch - processPackages [pipez]: Downloading https://files.pythonhosted.org/packages/a3/7b/b75e90898c1b52cbcd0b17ad4595e5ed0f6d4554e94be045c641282bc131/pipez-0.0.9.tar.gz
+[2024-04-15 09:46:08] INFO root fetch - processPackages [pygdsm]: Downloading https://files.pythonhosted.org/packages/a8/d1/4834226c0c6173db3cbf3ac25cc8e3cb7aa6bc42a2c1d9a3a002cb304558/pygdsm-1.5.3.tar.gz
+[2024-04-15 09:46:08] INFO root fetch - processPackages [pipez]: executing diffoscope
+[2024-04-15 09:46:08] INFO root fetch - processPackages [pipez]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipez-0.0.89.tar.gz tmp/pipez-0.0.9.tar.gz --markdown 20240415/p/pipez/0.0.89-0.0.9/README.md --exclude *.pyd
+[2024-04-15 09:46:08] INFO root fetch - processPackages [pyfilename]: Downloading https://files.pythonhosted.org/packages/08/4a/b3c798a7715f1e0a4c7b6f6a23b3d8db58fc18b233c85ab75989f89ddcf1/pyfilename-0.5.0.tar.gz
+[2024-04-15 09:46:08] INFO root fetch - processPackages [pygdsm]: executing diffoscope
+[2024-04-15 09:46:08] INFO root fetch - processPackages [pygdsm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygdsm-1.5.2.tar.gz tmp/pygdsm-1.5.3.tar.gz --markdown 20240415/p/pygdsm/1.5.2-1.5.3/README.md --exclude *.pyd
+[2024-04-15 09:46:08] INFO root fetch - processPackages [msanic]: Downloading https://files.pythonhosted.org/packages/1e/09/dba7fc2c55ca49e1d82bc027500292e9b4c99b593ffea2a5d51d748b7643/msanic-1.0.9-py3-none-any.whl
+[2024-04-15 09:46:08] INFO root fetch - processPackages [pyfilename]: executing diffoscope
+[2024-04-15 09:46:08] INFO root fetch - processPackages [pyfilename]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfilename-0.4.0.tar.gz tmp/pyfilename-0.5.0.tar.gz --markdown 20240415/p/pyfilename/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-04-15 09:46:08] INFO root fetch - processPackages [msanic]: executing diffoscope
+[2024-04-15 09:46:08] INFO root fetch - processPackages [msanic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msanic-1.0.8-py3-none-any.whl.zip tmp/msanic-1.0.9-py3-none-any.whl.zip --markdown 20240415/m/msanic/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-04-15 09:46:09] INFO root fetch - processPackages [radical.gtod]: Remove: archive file [/home/abi/fetcher/tmp/radical.gtod-1.5.0.tar.gz]
+[2024-04-15 09:46:09] INFO root fetch - processPackages [radical.gtod]: Remove: archive file [/home/abi/fetcher/tmp/radical.gtod-1.6.7.tar.gz]
+[2024-04-15 09:46:09] INFO root fetch - main [MainThread]: End processing [radical.gtod]: success
+[2024-04-15 09:46:09] INFO root fetch - processPackages [pyfilename]: Remove: archive file [/home/abi/fetcher/tmp/pyfilename-0.4.0.tar.gz]
+[2024-04-15 09:46:09] INFO root fetch - processPackages [pyfilename]: Remove: archive file [/home/abi/fetcher/tmp/pyfilename-0.5.0.tar.gz]
+[2024-04-15 09:46:09] INFO root fetch - main [MainThread]: End processing [pyfilename]: success
+[2024-04-15 09:46:09] INFO root fetch - processPackages [pygdsm]: Remove: archive file [/home/abi/fetcher/tmp/pygdsm-1.5.2.tar.gz]
+[2024-04-15 09:46:09] INFO root fetch - processPackages [pygdsm]: Remove: archive file [/home/abi/fetcher/tmp/pygdsm-1.5.3.tar.gz]
+[2024-04-15 09:46:09] INFO root fetch - main [MainThread]: End processing [pygdsm]: success
+[2024-04-15 09:46:09] INFO root fetch - processPackages [radical.utils]: Remove: archive file [/home/abi/fetcher/tmp/radical.utils-1.9.0.tar.gz]
+[2024-04-15 09:46:09] INFO root fetch - processPackages [radical.utils]: Remove: archive file [/home/abi/fetcher/tmp/radical.utils-1.9.1.tar.gz]
+[2024-04-15 09:46:09] INFO root fetch - main [MainThread]: End processing [radical.utils]: success
+[2024-04-15 09:46:09] INFO root fetch - processPackages [pipez]: Remove: archive file [/home/abi/fetcher/tmp/pipez-0.0.89.tar.gz]
+[2024-04-15 09:46:09] INFO root fetch - processPackages [pipez]: Remove: archive file [/home/abi/fetcher/tmp/pipez-0.0.9.tar.gz]
+[2024-04-15 09:46:09] INFO root fetch - main [MainThread]: End processing [pipez]: success
+[2024-04-15 09:46:09] INFO root fetch - processPackages [msanic]: Remove: archive file [/home/abi/fetcher/tmp/msanic-1.0.8-py3-none-any.whl.zip]
+[2024-04-15 09:46:09] INFO root fetch - processPackages [msanic]: Remove: archive file [/home/abi/fetcher/tmp/msanic-1.0.9-py3-none-any.whl.zip]
+[2024-04-15 09:46:09] INFO root fetch - main [MainThread]: End processing [msanic]: success
+[2024-04-15 09:46:09] INFO root fetch - main [MainThread]: Store serial: [22767450]
