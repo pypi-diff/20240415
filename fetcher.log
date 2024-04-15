@@ -7528,3 +7528,9 @@
 [2024-04-15 07:10:35] INFO root fetch - processPackages [zfit]: Remove: archive file [/home/abi/fetcher/tmp/zfit-0.9.0a3.tar.gz]
 [2024-04-15 07:10:35] INFO root fetch - main [MainThread]: End processing [zfit]: success
 [2024-04-15 07:10:35] INFO root fetch - main [MainThread]: Store serial: [22766219]
+[2024-04-15 07:12:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22766219]
+[2024-04-15 07:12:44] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-15 07:12:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: test-option-deps
+[2024-04-15 07:12:44] WARNING root fetch - processPackages [test-option-deps]: Skipping, unable to determine old version
+[2024-04-15 07:12:44] INFO root fetch - main [MainThread]: End processing [test-option-deps] error
+[2024-04-15 07:12:44] INFO root fetch - main [MainThread]: Store serial: [22766224]
