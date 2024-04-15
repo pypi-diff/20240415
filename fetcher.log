@@ -2647,3 +2647,42 @@
 [2024-04-15 03:52:44] INFO root fetch - processPackages [dragons96-tools]: Remove: archive file [/home/abi/fetcher/tmp/dragons96_tools-0.0.9.tar.gz]
 [2024-04-15 03:52:44] INFO root fetch - main [MainThread]: End processing [dragons96-tools]: success
 [2024-04-15 03:52:44] INFO root fetch - main [MainThread]: Store serial: [22764469]
+[2024-04-15 03:54:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22764469]
+[2024-04-15 03:54:52] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-15 03:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mdformat_mkdocs
+[2024-04-15 03:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tableconv
+[2024-04-15 03:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sampa
+[2024-04-15 03:54:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: airportsdata
+[2024-04-15 03:54:53] INFO root fetch - processPackages [mdformat_mkdocs]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-15 03:54:53] INFO root fetch - processPackages [sampa]: New version: [1.0.0.30] Old Version: [1.0.0.29]
+[2024-04-15 03:54:53] INFO root fetch - processPackages [tableconv]: New version: [1.9960.20240415] Old Version: [1.9957.20240331]
+[2024-04-15 03:54:53] INFO root fetch - processPackages [airportsdata]: New version: [20240415] Old Version: [20240409]
+[2024-04-15 03:54:53] INFO root fetch - processPackages [mdformat_mkdocs]: Downloading https://files.pythonhosted.org/packages/5c/37/a8cf961a5fdf8922f4a3e8082e11fbc96457d1b51721ee0ab0be7f0fc2db/mdformat_mkdocs-2.0.8.tar.gz
+[2024-04-15 03:54:53] INFO root fetch - processPackages [sampa]: Downloading https://files.pythonhosted.org/packages/03/80/f74ad4ce512c45ff3731a041386262104de2c5431fa6b11861e39207782c/sampa-1.0.0.29.tar.gz
+[2024-04-15 03:54:53] INFO root fetch - processPackages [tableconv]: Downloading https://files.pythonhosted.org/packages/e2/e0/98cfb1243767acbe618c8ccdc43fcf4db45b3a3ae8a84393653fc88db134/tableconv-1.9957.20240331.tar.gz
+[2024-04-15 03:54:53] INFO root fetch - processPackages [airportsdata]: Downloading https://files.pythonhosted.org/packages/73/11/bd1a2d8c4495944b83213a377d491fc6f15ad96cb91a7c6cff4cd5a7c587/airportsdata-20240409.tar.gz
+[2024-04-15 03:54:53] INFO root fetch - processPackages [mdformat_mkdocs]: Downloading https://files.pythonhosted.org/packages/13/7f/3f9650602e1814d092e1a92da3c8d98d875094e13f2be73a26b145b22bc9/mdformat_mkdocs-2.0.9.tar.gz
+[2024-04-15 03:54:53] INFO root fetch - processPackages [tableconv]: Downloading https://files.pythonhosted.org/packages/58/f2/161a59dc827a17fd9e7f5d690fae3b5e09294520c6d892ae1ffd6b609da3/tableconv-1.9960.20240415.tar.gz
+[2024-04-15 03:54:53] INFO root fetch - processPackages [mdformat_mkdocs]: executing diffoscope
+[2024-04-15 03:54:53] INFO root fetch - processPackages [mdformat_mkdocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdformat_mkdocs-2.0.8.tar.gz tmp/mdformat_mkdocs-2.0.9.tar.gz --markdown 20240415/m/mdformat_mkdocs/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-04-15 03:54:53] INFO root fetch - processPackages [sampa]: Downloading https://files.pythonhosted.org/packages/3a/aa/548389c730d885e72be23394cbf86360a97e833d2134f43d3f783d54c2d5/sampa-1.0.0.30.tar.gz
+[2024-04-15 03:54:53] INFO root fetch - processPackages [tableconv]: executing diffoscope
+[2024-04-15 03:54:53] INFO root fetch - processPackages [tableconv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tableconv-1.9957.20240331.tar.gz tmp/tableconv-1.9960.20240415.tar.gz --markdown 20240415/t/tableconv/1.9957.20240331-1.9960.20240415/README.md --exclude *.pyd
+[2024-04-15 03:54:53] INFO root fetch - processPackages [airportsdata]: Downloading https://files.pythonhosted.org/packages/a4/c4/f9bbf96d57ab8cce1eb9d4f6c3c4a4d5c7f3cbb4e88e7e98e8b7f20e77aa/airportsdata-20240415.tar.gz
+[2024-04-15 03:54:54] INFO root fetch - processPackages [sampa]: executing diffoscope
+[2024-04-15 03:54:54] INFO root fetch - processPackages [sampa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sampa-1.0.0.29.tar.gz tmp/sampa-1.0.0.30.tar.gz --markdown 20240415/s/sampa/1.0.0.29-1.0.0.30/README.md --exclude *.pyd
+[2024-04-15 03:54:54] INFO root fetch - processPackages [airportsdata]: executing diffoscope
+[2024-04-15 03:54:54] INFO root fetch - processPackages [airportsdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airportsdata-20240409.tar.gz tmp/airportsdata-20240415.tar.gz --markdown 20240415/a/airportsdata/20240409-20240415/README.md --exclude *.pyd
+[2024-04-15 03:54:54] INFO root fetch - processPackages [mdformat_mkdocs]: Remove: archive file [/home/abi/fetcher/tmp/mdformat_mkdocs-2.0.8.tar.gz]
+[2024-04-15 03:54:54] INFO root fetch - processPackages [mdformat_mkdocs]: Remove: archive file [/home/abi/fetcher/tmp/mdformat_mkdocs-2.0.9.tar.gz]
+[2024-04-15 03:54:54] INFO root fetch - main [MainThread]: End processing [mdformat_mkdocs]: success
+[2024-04-15 03:54:54] INFO root fetch - processPackages [tableconv]: Remove: archive file [/home/abi/fetcher/tmp/tableconv-1.9957.20240331.tar.gz]
+[2024-04-15 03:54:54] INFO root fetch - processPackages [tableconv]: Remove: archive file [/home/abi/fetcher/tmp/tableconv-1.9960.20240415.tar.gz]
+[2024-04-15 03:54:54] INFO root fetch - main [MainThread]: End processing [tableconv]: success
+[2024-04-15 03:54:54] INFO root fetch - processPackages [sampa]: Remove: archive file [/home/abi/fetcher/tmp/sampa-1.0.0.29.tar.gz]
+[2024-04-15 03:54:54] INFO root fetch - processPackages [sampa]: Remove: archive file [/home/abi/fetcher/tmp/sampa-1.0.0.30.tar.gz]
+[2024-04-15 03:54:54] INFO root fetch - main [MainThread]: End processing [sampa]: success
+[2024-04-15 03:54:56] INFO root fetch - processPackages [airportsdata]: Remove: archive file [/home/abi/fetcher/tmp/airportsdata-20240409.tar.gz]
+[2024-04-15 03:54:56] INFO root fetch - processPackages [airportsdata]: Remove: archive file [/home/abi/fetcher/tmp/airportsdata-20240415.tar.gz]
+[2024-04-15 03:54:56] INFO root fetch - main [MainThread]: End processing [airportsdata]: success
+[2024-04-15 03:54:56] INFO root fetch - main [MainThread]: Store serial: [22764480]
