@@ -4522,3 +4522,44 @@
 [2024-04-15 05:54:53] INFO root fetch - processPackages [http-content-parser]: Remove: archive file [/home/abi/fetcher/tmp/http_content_parser-0.0.9.tar.gz]
 [2024-04-15 05:54:53] INFO root fetch - main [MainThread]: End processing [http-content-parser]: success
 [2024-04-15 05:54:53] INFO root fetch - main [MainThread]: Store serial: [22765199]
+[2024-04-15 05:56:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22765199]
+[2024-04-15 05:57:01] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-15 05:57:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xgw
+[2024-04-15 05:57:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: miservice-fork
+[2024-04-15 05:57:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-core-xe-21
+[2024-04-15 05:57:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xgw
+[2024-04-15 05:57:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: l3c
+[2024-04-15 05:57:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: libreppc
+[2024-04-15 05:57:01] WARNING root fetch - processPackages [xgw]: Skipping, unable to determine old version
+[2024-04-15 05:57:01] INFO root fetch - main [MainThread]: End processing [xgw] error
+[2024-04-15 05:57:01] INFO root fetch - processPackages [bigdl-core-xe-21]: New version: [2.5.0b20240414] Old Version: [2.5.0b20240413]
+[2024-04-15 05:57:01] WARNING root fetch - processPackages [xgw]: Skipping, unable to determine old version
+[2024-04-15 05:57:01] INFO root fetch - main [MainThread]: End processing [xgw] error
+[2024-04-15 05:57:01] INFO root fetch - processPackages [libreppc]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-15 05:57:01] INFO root fetch - processPackages [miservice-fork]: New version: [2.4.3] Old Version: [2.4.2]
+[2024-04-15 05:57:01] INFO root fetch - processPackages [l3c]: New version: [0.1.0.1] Old Version: [0.1.0]
+[2024-04-15 05:57:01] INFO root fetch - processPackages [libreppc]: Downloading https://files.pythonhosted.org/packages/38/b7/ddb7d775ac5d0f96ba898782ca395479e4f8391cc12576a568a2f62d95ab/libreppc-0.1.5.tar.gz
+[2024-04-15 05:57:01] INFO root fetch - processPackages [bigdl-core-xe-21]: Downloading https://files.pythonhosted.org/packages/4f/c8/a922e7bea43ff489c0c9aeb70b1a1513fdc6a3ec5012939d97512b43fcb8/bigdl_core_xe_21-2.5.0b20240413-cp39-cp39-win_amd64.whl
+[2024-04-15 05:57:02] WARNING root fetch - processPackages [bigdl-core-xe-21]: Skipping package: exceeds size limit 25479337>=10485760
+[2024-04-15 05:57:02] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-21] error
+[2024-04-15 05:57:02] INFO root fetch - processPackages [miservice-fork]: Downloading https://files.pythonhosted.org/packages/4a/d5/d8a2c3a27b11beea27ce80107e1b661852f41262d8f7e945661edcaeaf6c/miservice_fork-2.4.2.tar.gz
+[2024-04-15 05:57:02] INFO root fetch - processPackages [l3c]: Downloading https://files.pythonhosted.org/packages/36/a9/b669396e712e9a6c8fae3ee71035b19d2e654daeca4e9d622b804ebd1833/l3c-0.1.0.tar.gz
+[2024-04-15 05:57:02] INFO root fetch - processPackages [libreppc]: Downloading https://files.pythonhosted.org/packages/da/c2/030ecac3af2875fc29f3f9a43ad9b1019479c1ab97e681af2f2906931e16/libreppc-0.1.6.tar.gz
+[2024-04-15 05:57:02] INFO root fetch - processPackages [libreppc]: executing diffoscope
+[2024-04-15 05:57:02] INFO root fetch - processPackages [libreppc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libreppc-0.1.5.tar.gz tmp/libreppc-0.1.6.tar.gz --markdown 20240415/l/libreppc/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-15 05:57:02] INFO root fetch - processPackages [miservice-fork]: Downloading https://files.pythonhosted.org/packages/52/78/03374295f6b27ed09059be600f0590658ec055396120a2f74a3940b11c20/miservice_fork-2.4.3.tar.gz
+[2024-04-15 05:57:02] INFO root fetch - processPackages [l3c]: Downloading https://files.pythonhosted.org/packages/46/d9/bc3acfde542af1dbe64ef7bdd93da3f4118882b5843bb73f447074a730ed/l3c-0.1.0.1.tar.gz
+[2024-04-15 05:57:02] INFO root fetch - processPackages [miservice-fork]: executing diffoscope
+[2024-04-15 05:57:02] INFO root fetch - processPackages [miservice-fork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miservice_fork-2.4.2.tar.gz tmp/miservice_fork-2.4.3.tar.gz --markdown 20240415/m/miservice-fork/2.4.2-2.4.3/README.md --exclude *.pyd
+[2024-04-15 05:57:02] INFO root fetch - processPackages [l3c]: executing diffoscope
+[2024-04-15 05:57:02] INFO root fetch - processPackages [l3c]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/l3c-0.1.0.tar.gz tmp/l3c-0.1.0.1.tar.gz --markdown 20240415/l/l3c/0.1.0-0.1.0.1/README.md --exclude *.pyd
+[2024-04-15 05:57:02] INFO root fetch - processPackages [libreppc]: Remove: archive file [/home/abi/fetcher/tmp/libreppc-0.1.5.tar.gz]
+[2024-04-15 05:57:02] INFO root fetch - processPackages [libreppc]: Remove: archive file [/home/abi/fetcher/tmp/libreppc-0.1.6.tar.gz]
+[2024-04-15 05:57:02] INFO root fetch - main [MainThread]: End processing [libreppc]: success
+[2024-04-15 05:57:03] INFO root fetch - processPackages [miservice-fork]: Remove: archive file [/home/abi/fetcher/tmp/miservice_fork-2.4.2.tar.gz]
+[2024-04-15 05:57:03] INFO root fetch - processPackages [miservice-fork]: Remove: archive file [/home/abi/fetcher/tmp/miservice_fork-2.4.3.tar.gz]
+[2024-04-15 05:57:03] INFO root fetch - main [MainThread]: End processing [miservice-fork]: success
+[2024-04-15 05:57:03] INFO root fetch - processPackages [l3c]: Remove: archive file [/home/abi/fetcher/tmp/l3c-0.1.0.tar.gz]
+[2024-04-15 05:57:03] INFO root fetch - processPackages [l3c]: Remove: archive file [/home/abi/fetcher/tmp/l3c-0.1.0.1.tar.gz]
+[2024-04-15 05:57:03] INFO root fetch - main [MainThread]: End processing [l3c]: success
+[2024-04-15 05:57:03] INFO root fetch - main [MainThread]: Store serial: [22765214]
