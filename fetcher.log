@@ -11916,3 +11916,132 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 10:44:29] INFO root fetch - processPackages [leap-model-parser]: Remove: archive file [/home/abi/fetcher/tmp/leap_model_parser-0.1.99.tar.gz]
 [2024-04-15 10:44:29] INFO root fetch - main [MainThread]: End processing [leap-model-parser]: success
 [2024-04-15 10:44:29] INFO root fetch - main [MainThread]: Store serial: [22768055]
+[2024-04-15 10:46:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22768055]
+[2024-04-15 10:46:39] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-04-15 10:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: upsonic
+[2024-04-15 10:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mteb
+[2024-04-15 10:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: osc
+[2024-04-15 10:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fdamages
+[2024-04-15 10:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fast-gmail
+[2024-04-15 10:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-pagerduty
+[2024-04-15 10:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aTeam-PySparkLibrary
+[2024-04-15 10:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tf-nightly-cpu
+[2024-04-15 10:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: db-cache-manager
+[2024-04-15 10:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: coglib
+[2024-04-15 10:46:39] INFO root fetch - processPackages [fdamages]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-15 10:46:39] INFO root fetch - processPackages [fast-gmail]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-15 10:46:39] INFO root fetch - processPackages [coglib]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-15 10:46:39] INFO root fetch - processPackages [upsonic]: New version: [0.9.0] Old Version: [0.8.4]
+[2024-04-15 10:46:39] INFO root fetch - processPackages [mteb]: New version: [1.6.6] Old Version: [1.6.5]
+[2024-04-15 10:46:39] INFO root fetch - processPackages [db-cache-manager]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-15 10:46:39] INFO root fetch - processPackages [osc]: New version: [1.6.2] Old Version: [1.6.1]
+[2024-04-15 10:46:39] INFO root fetch - processPackages [fast-gmail]: Downloading https://files.pythonhosted.org/packages/ad/5a/c90f1014c1863e9fe2bf158e98a6b7923170cef537dfec203b45602b1435/fast_gmail-1.0.1.tar.gz
+[2024-04-15 10:46:39] INFO root fetch - processPackages [aTeam-PySparkLibrary]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-15 10:46:39] INFO root fetch - processPackages [pulumi-pagerduty]: New version: [4.9.0a1709566454] Old Version: [4.9.0a1709366773]
+[2024-04-15 10:46:39] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.17.0.dev20240415] Old Version: [2.17.0.dev20240414]
+[2024-04-15 10:46:39] INFO root fetch - processPackages [coglib]: Downloading https://files.pythonhosted.org/packages/98/3d/d358ac8fc8ead47f0fd8922537db56addbb7a7284120dd236b6f6bd176b9/coglib-0.1.3.tar.gz
+[2024-04-15 10:46:39] INFO root fetch - processPackages [upsonic]: Downloading https://files.pythonhosted.org/packages/28/4f/e4de97c3853a38f0003dd35e31de9d8003b16d10fd76b190f4778626ce27/upsonic-0.8.4.tar.gz
+[2024-04-15 10:46:39] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/00/b1/465b85695badd736c6fc52fc94df829d74d1b1dda5c4086d8d9b87962a5e/mteb-1.6.5.tar.gz
+[2024-04-15 10:46:39] INFO root fetch - processPackages [fdamages]: Downloading https://files.pythonhosted.org/packages/5c/ec/075d765fa0336bca5ba9d7be244f938b8b9b6252212cb344d6cd5514108a/fdamages-0.0.7.tar.gz
+[2024-04-15 10:46:39] INFO root fetch - processPackages [db-cache-manager]: Downloading https://files.pythonhosted.org/packages/72/2e/f9760603501f3b503b65e772894668a3beda6b9bbe094e72016bf85c203d/db_cache_manager-0.1.0.tar.gz
+[2024-04-15 10:46:39] INFO root fetch - processPackages [osc]: Downloading https://files.pythonhosted.org/packages/b8/b1/663b74b69216ad180b2fb10a331f92eaecf6476d1d824299312119f2587a/osc-1.6.1.tar.gz
+[2024-04-15 10:46:39] INFO root fetch - processPackages [aTeam-PySparkLibrary]: Downloading https://files.pythonhosted.org/packages/a2/2e/1d6481b8487316b5ef587bec1a35494da504ddd8b889542a6a0f2df01410/ateam_pysparklibrary-0.0.8.tar.gz
+[2024-04-15 10:46:39] INFO root fetch - processPackages [pulumi-pagerduty]: Downloading https://files.pythonhosted.org/packages/ba/dc/468cc1cc3ab57e83660f1775ea0d9f1dcfc62c6de9c10832b834d737ec1a/pulumi_pagerduty-4.9.0a1709366773.tar.gz
+[2024-04-15 10:46:39] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/11/7b/4d87ddd27b602718138a0a9a39ecab1f8ac76c670541f54e6eaa0ca3fe15/tf_nightly_cpu-2.17.0.dev20240414-cp39-cp39-win_amd64.whl
+[2024-04-15 10:46:39] INFO root fetch - processPackages [upsonic]: Downloading https://files.pythonhosted.org/packages/e2/c6/1f2c73c8b576a9a13477f4177f58dce58e65a860c35204e42f53a5db8144/upsonic-0.9.0.tar.gz
+[2024-04-15 10:46:39] INFO root fetch - processPackages [fast-gmail]: Downloading https://files.pythonhosted.org/packages/78/67/ff1f04e5a30fec3f94e0f5e69be46e37d979352120b81819d2fbd25f4760/fast_gmail-1.0.2.tar.gz
+[2024-04-15 10:46:40] INFO root fetch - processPackages [coglib]: Downloading https://files.pythonhosted.org/packages/30/18/03992a003d917730a725ad0c45caa309cf3a06913cc4e295ed39303e7d2b/coglib-0.1.4.tar.gz
+[2024-04-15 10:46:40] INFO root fetch - processPackages [fdamages]: Downloading https://files.pythonhosted.org/packages/f7/47/b073d66da70f033a16648506bf9c8c9bf6bb94a4c2addffde34a57d1029e/fdamages-0.0.8.tar.gz
+[2024-04-15 10:46:40] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/2d/15/4849a100cb188fa347905d7eedbf677793cc22ef03eb41ea3d9e18fcb9f4/mteb-1.6.6.tar.gz
+[2024-04-15 10:46:40] INFO root fetch - processPackages [upsonic]: executing diffoscope
+[2024-04-15 10:46:40] INFO root fetch - processPackages [upsonic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upsonic-0.8.4.tar.gz tmp/upsonic-0.9.0.tar.gz --markdown 20240415/u/upsonic/0.8.4-0.9.0/README.md --exclude *.pyd
+[2024-04-15 10:46:40] INFO root fetch - processPackages [db-cache-manager]: Downloading https://files.pythonhosted.org/packages/54/a6/4dc6a2abe15c2b463164453e859d4513689510a8937552bd527b5fbe1e15/db_cache_manager-0.1.1.tar.gz
+[2024-04-15 10:46:40] INFO root fetch - processPackages [fast-gmail]: executing diffoscope
+[2024-04-15 10:46:40] INFO root fetch - processPackages [fast-gmail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_gmail-1.0.1.tar.gz tmp/fast_gmail-1.0.2.tar.gz --markdown 20240415/f/fast-gmail/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-04-15 10:46:40] INFO root fetch - processPackages [coglib]: executing diffoscope
+[2024-04-15 10:46:40] INFO root fetch - processPackages [coglib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coglib-0.1.3.tar.gz tmp/coglib-0.1.4.tar.gz --markdown 20240415/c/coglib/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-15 10:46:40] INFO root fetch - processPackages [fdamages]: executing diffoscope
+[2024-04-15 10:46:40] INFO root fetch - processPackages [fdamages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdamages-0.0.7.tar.gz tmp/fdamages-0.0.8.tar.gz --markdown 20240415/f/fdamages/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-04-15 10:46:40] INFO root fetch - processPackages [aTeam-PySparkLibrary]: Downloading https://files.pythonhosted.org/packages/e9/d2/aeddb456bd2964ac5d6053e8d9bb51e4a330281981e77a00dad7238f2061/ateam_pysparklibrary-0.0.9.tar.gz
+[2024-04-15 10:46:40] INFO root fetch - processPackages [osc]: Downloading https://files.pythonhosted.org/packages/dc/cd/d7160f8effe2fa80cc78bf7e3731900c904b7da0cae5ec40ae481f863c9d/osc-1.6.2.tar.gz
+[2024-04-15 10:46:40] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-04-15 10:46:40] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.6.5.tar.gz tmp/mteb-1.6.6.tar.gz --markdown 20240415/m/mteb/1.6.5-1.6.6/README.md --exclude *.pyd
+[2024-04-15 10:46:40] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/43/0c/5b5225c560295e2b195e50a524444b7157452b45d3e2c4ffc90be81d0546/tf_nightly_cpu-2.17.0.dev20240415-cp39-cp39-win_amd64.whl
+[2024-04-15 10:46:40] INFO root fetch - processPackages [db-cache-manager]: executing diffoscope
+[2024-04-15 10:46:40] INFO root fetch - processPackages [db-cache-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/db_cache_manager-0.1.0.tar.gz tmp/db_cache_manager-0.1.1.tar.gz --markdown 20240415/d/db-cache-manager/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-15 10:46:40] INFO root fetch - processPackages [aTeam-PySparkLibrary]: executing diffoscope
+[2024-04-15 10:46:40] INFO root fetch - processPackages [aTeam-PySparkLibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ateam_pysparklibrary-0.0.8.tar.gz tmp/ateam_pysparklibrary-0.0.9.tar.gz --markdown 20240415/a/aTeam-PySparkLibrary/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-15 10:46:40] INFO root fetch - processPackages [pulumi-pagerduty]: Downloading https://files.pythonhosted.org/packages/ea/4e/a77d2efabe6daeb6878eeed9b4c2b3c43c2b854c19e3be4b3d627c2c0427/pulumi_pagerduty-4.9.0a1709566454.tar.gz
+[2024-04-15 10:46:40] INFO root fetch - processPackages [osc]: executing diffoscope
+[2024-04-15 10:46:40] INFO root fetch - processPackages [osc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osc-1.6.1.tar.gz tmp/osc-1.6.2.tar.gz --markdown 20240415/o/osc/1.6.1-1.6.2/README.md --exclude *.pyd
+[2024-04-15 10:46:40] INFO root fetch - processPackages [pulumi-pagerduty]: executing diffoscope
+[2024-04-15 10:46:40] INFO root fetch - processPackages [pulumi-pagerduty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_pagerduty-4.9.0a1709366773.tar.gz tmp/pulumi_pagerduty-4.9.0a1709566454.tar.gz --markdown 20240415/p/pulumi-pagerduty/4.9.0a1709366773-4.9.0a1709566454/README.md --exclude *.pyd
+[2024-04-15 10:46:40] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2024-04-15 10:46:40] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.17.0.dev20240414-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.17.0.dev20240415-cp39-cp39-win_amd64.whl.zip --markdown 20240415/t/tf-nightly-cpu/2.17.0.dev20240414-2.17.0.dev20240415/README.md --exclude *.pyd
+[2024-04-15 10:46:41] INFO root fetch - processPackages [fast-gmail]: Remove: archive file [/home/abi/fetcher/tmp/fast_gmail-1.0.1.tar.gz]
+[2024-04-15 10:46:41] INFO root fetch - processPackages [fast-gmail]: Remove: archive file [/home/abi/fetcher/tmp/fast_gmail-1.0.2.tar.gz]
+[2024-04-15 10:46:41] INFO root fetch - processPackages [fast-gmail]: Start processing: waylay-sdk-registry
+[2024-04-15 10:46:41] INFO root fetch - main [MainThread]: End processing [fast-gmail]: success
+[2024-04-15 10:46:41] INFO root fetch - processPackages [fdamages]: Remove: archive file [/home/abi/fetcher/tmp/fdamages-0.0.7.tar.gz]
+[2024-04-15 10:46:41] INFO root fetch - processPackages [fdamages]: Remove: archive file [/home/abi/fetcher/tmp/fdamages-0.0.8.tar.gz]
+[2024-04-15 10:46:41] INFO root fetch - processPackages [fdamages]: Start processing: waylay-sdk-registry-types
+[2024-04-15 10:46:41] INFO root fetch - main [MainThread]: End processing [fdamages]: success
+[2024-04-15 10:46:41] INFO root fetch - processPackages [upsonic]: Remove: archive file [/home/abi/fetcher/tmp/upsonic-0.8.4.tar.gz]
+[2024-04-15 10:46:41] INFO root fetch - processPackages [upsonic]: Remove: archive file [/home/abi/fetcher/tmp/upsonic-0.9.0.tar.gz]
+[2024-04-15 10:46:41] INFO root fetch - processPackages [upsonic]: Start processing: testsolar-testtool-sdk
+[2024-04-15 10:46:41] INFO root fetch - main [MainThread]: End processing [upsonic]: success
+[2024-04-15 10:46:41] INFO root fetch - processPackages [coglib]: Remove: archive file [/home/abi/fetcher/tmp/coglib-0.1.3.tar.gz]
+[2024-04-15 10:46:41] INFO root fetch - processPackages [coglib]: Remove: archive file [/home/abi/fetcher/tmp/coglib-0.1.4.tar.gz]
+[2024-04-15 10:46:41] INFO root fetch - processPackages [coglib]: Start processing: radical.synapse
+[2024-04-15 10:46:41] INFO root fetch - main [MainThread]: End processing [coglib]: success
+[2024-04-15 10:46:41] INFO root fetch - processPackages [waylay-sdk-registry-types]: New version: [2.13.0rc0] Old Version: [2.13.0b0.post0]
+[2024-04-15 10:46:41] INFO root fetch - processPackages [waylay-sdk-registry]: New version: [2.13.0rc0] Old Version: [2.13.0b20240415]
+[2024-04-15 10:46:41] INFO root fetch - processPackages [radical.synapse]: New version: [1.50.0] Old Version: [1.48.1]
+[2024-04-15 10:46:41] INFO root fetch - processPackages [testsolar-testtool-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-15 10:46:41] INFO root fetch - processPackages [db-cache-manager]: Remove: archive file [/home/abi/fetcher/tmp/db_cache_manager-0.1.0.tar.gz]
+[2024-04-15 10:46:41] INFO root fetch - processPackages [db-cache-manager]: Remove: archive file [/home/abi/fetcher/tmp/db_cache_manager-0.1.1.tar.gz]
+[2024-04-15 10:46:41] INFO root fetch - main [MainThread]: End processing [db-cache-manager]: success
+[2024-04-15 10:46:41] INFO root fetch - processPackages [radical.synapse]: Downloading https://files.pythonhosted.org/packages/64/6b/6f64727d449402b14b5abb6efe5cdb98a0e8357884b9328804ccc22dd068/radical_synapse-1.48.1.tar.gz
+[2024-04-15 10:46:41] INFO root fetch - processPackages [aTeam-PySparkLibrary]: Remove: archive file [/home/abi/fetcher/tmp/ateam_pysparklibrary-0.0.8.tar.gz]
+[2024-04-15 10:46:41] INFO root fetch - processPackages [aTeam-PySparkLibrary]: Remove: archive file [/home/abi/fetcher/tmp/ateam_pysparklibrary-0.0.9.tar.gz]
+[2024-04-15 10:46:41] INFO root fetch - main [MainThread]: End processing [aTeam-PySparkLibrary]: success
+[2024-04-15 10:46:41] INFO root fetch - processPackages [waylay-sdk-registry]: Downloading https://files.pythonhosted.org/packages/62/5c/b9e702c8c4ea11aaec9aa725f56e18c3f846c10f4cea1da3b032fb537d9c/waylay_sdk_registry-2.13.0b20240415.tar.gz
+[2024-04-15 10:46:41] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240414-cp39-cp39-win_amd64.whl.zip]
+[2024-04-15 10:46:41] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240415-cp39-cp39-win_amd64.whl.zip]
+[2024-04-15 10:46:41] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2024-04-15 10:46:41] INFO root fetch - processPackages [waylay-sdk-registry-types]: Downloading https://files.pythonhosted.org/packages/0d/e6/635cfd41c20ff6472c403cc8adf9b83972908ac980ffd38126e0b7411832/waylay-sdk-registry-types-2.13.0b0.post0.tar.gz
+[2024-04-15 10:46:41] INFO root fetch - processPackages [testsolar-testtool-sdk]: Downloading https://files.pythonhosted.org/packages/c8/b6/0eae408bfa2f05965a4a652cd1e066a7e8638bff231636daf2d1c1a83c1e/testsolar-testtool-sdk-0.1.8.tar.gz
+[2024-04-15 10:46:41] INFO root fetch - processPackages [waylay-sdk-registry-types]: Downloading https://files.pythonhosted.org/packages/8c/06/b1a4d3c4d75d8af05bcf634494d8eebbf4a58f581cb10b21b21d9e4ded76/waylay-sdk-registry-types-2.13.0rc0.tar.gz
+[2024-04-15 10:46:41] INFO root fetch - processPackages [radical.synapse]: Downloading https://files.pythonhosted.org/packages/d2/ec/e809b75e76fb122f36fc24155d18da7e6a4ab3d76ac1ed2f77aa998d28d7/radical_synapse-1.50.0.tar.gz
+[2024-04-15 10:46:41] INFO root fetch - processPackages [waylay-sdk-registry]: Downloading https://files.pythonhosted.org/packages/a4/6b/65a7c73cb0f5fa23b1f3df3bff39199688ed0345df034b7e0cbcff8c76d5/waylay-sdk-registry-2.13.0rc0.tar.gz
+[2024-04-15 10:46:42] INFO root fetch - processPackages [waylay-sdk-registry-types]: executing diffoscope
+[2024-04-15 10:46:42] INFO root fetch - processPackages [waylay-sdk-registry-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waylay-sdk-registry-types-2.13.0b0.post0.tar.gz tmp/waylay-sdk-registry-types-2.13.0rc0.tar.gz --markdown 20240415/w/waylay-sdk-registry-types/2.13.0b0.post0-2.13.0rc0/README.md --exclude *.pyd
+[2024-04-15 10:46:42] INFO root fetch - processPackages [testsolar-testtool-sdk]: Downloading https://files.pythonhosted.org/packages/47/86/bccf1bb132d9252440e3861854f8e3ed5738242294632662472cd5eb3f30/testsolar_testtool_sdk-0.1.9.tar.gz
+[2024-04-15 10:46:42] INFO root fetch - processPackages [radical.synapse]: executing diffoscope
+[2024-04-15 10:46:42] INFO root fetch - processPackages [radical.synapse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radical_synapse-1.48.1.tar.gz tmp/radical_synapse-1.50.0.tar.gz --markdown 20240415/r/radical.synapse/1.48.1-1.50.0/README.md --exclude *.pyd
+[2024-04-15 10:46:42] INFO root fetch - processPackages [pulumi-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pagerduty-4.9.0a1709366773.tar.gz]
+[2024-04-15 10:46:42] INFO root fetch - processPackages [pulumi-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pagerduty-4.9.0a1709566454.tar.gz]
+[2024-04-15 10:46:42] INFO root fetch - main [MainThread]: End processing [pulumi-pagerduty]: success
+[2024-04-15 10:46:42] INFO root fetch - processPackages [waylay-sdk-registry]: executing diffoscope
+[2024-04-15 10:46:42] INFO root fetch - processPackages [waylay-sdk-registry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waylay_sdk_registry-2.13.0b20240415.tar.gz tmp/waylay-sdk-registry-2.13.0rc0.tar.gz --markdown 20240415/w/waylay-sdk-registry/2.13.0b20240415-2.13.0rc0/README.md --exclude *.pyd
+[2024-04-15 10:46:42] INFO root fetch - processPackages [testsolar-testtool-sdk]: executing diffoscope
+[2024-04-15 10:46:42] INFO root fetch - processPackages [testsolar-testtool-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testsolar-testtool-sdk-0.1.8.tar.gz tmp/testsolar_testtool_sdk-0.1.9.tar.gz --markdown 20240415/t/testsolar-testtool-sdk/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-15 10:46:42] INFO root fetch - processPackages [osc]: Remove: archive file [/home/abi/fetcher/tmp/osc-1.6.1.tar.gz]
+[2024-04-15 10:46:42] INFO root fetch - processPackages [osc]: Remove: archive file [/home/abi/fetcher/tmp/osc-1.6.2.tar.gz]
+[2024-04-15 10:46:42] INFO root fetch - main [MainThread]: End processing [osc]: success
+[2024-04-15 10:46:42] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.6.5.tar.gz]
+[2024-04-15 10:46:42] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.6.6.tar.gz]
+[2024-04-15 10:46:42] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-04-15 10:46:42] INFO root fetch - processPackages [testsolar-testtool-sdk]: Remove: archive file [/home/abi/fetcher/tmp/testsolar-testtool-sdk-0.1.8.tar.gz]
+[2024-04-15 10:46:42] INFO root fetch - processPackages [testsolar-testtool-sdk]: Remove: archive file [/home/abi/fetcher/tmp/testsolar_testtool_sdk-0.1.9.tar.gz]
+[2024-04-15 10:46:42] INFO root fetch - main [MainThread]: End processing [testsolar-testtool-sdk]: success
+[2024-04-15 10:46:42] INFO root fetch - processPackages [radical.synapse]: Remove: archive file [/home/abi/fetcher/tmp/radical_synapse-1.48.1.tar.gz]
+[2024-04-15 10:46:42] INFO root fetch - processPackages [radical.synapse]: Remove: archive file [/home/abi/fetcher/tmp/radical_synapse-1.50.0.tar.gz]
+[2024-04-15 10:46:42] INFO root fetch - main [MainThread]: End processing [radical.synapse]: success
+[2024-04-15 10:46:43] INFO root fetch - processPackages [waylay-sdk-registry]: Remove: archive file [/home/abi/fetcher/tmp/waylay_sdk_registry-2.13.0b20240415.tar.gz]
+[2024-04-15 10:46:43] INFO root fetch - processPackages [waylay-sdk-registry]: Remove: archive file [/home/abi/fetcher/tmp/waylay-sdk-registry-2.13.0rc0.tar.gz]
+[2024-04-15 10:46:43] INFO root fetch - main [MainThread]: End processing [waylay-sdk-registry]: success
+[2024-04-15 10:46:43] INFO root fetch - processPackages [waylay-sdk-registry-types]: Remove: archive file [/home/abi/fetcher/tmp/waylay-sdk-registry-types-2.13.0b0.post0.tar.gz]
+[2024-04-15 10:46:43] INFO root fetch - processPackages [waylay-sdk-registry-types]: Remove: archive file [/home/abi/fetcher/tmp/waylay-sdk-registry-types-2.13.0rc0.tar.gz]
+[2024-04-15 10:46:43] INFO root fetch - main [MainThread]: End processing [waylay-sdk-registry-types]: success
+[2024-04-15 10:46:43] INFO root fetch - main [MainThread]: Store serial: [22768097]
