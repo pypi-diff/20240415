@@ -9338,3 +9338,43 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 08:56:03] INFO root fetch - processPackages [tjax]: Remove: archive file [/home/abi/fetcher/tmp/tjax-0.9.0.tar.gz]
 [2024-04-15 08:56:03] INFO root fetch - main [MainThread]: End processing [tjax]: success
 [2024-04-15 08:56:03] INFO root fetch - main [MainThread]: Store serial: [22766986]
+[2024-04-15 08:58:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22766986]
+[2024-04-15 08:58:11] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-15 08:58:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gentccode
+[2024-04-15 08:58:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xfastertransformer
+[2024-04-15 08:58:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: secator
+[2024-04-15 08:58:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stac-fastapi.mongo
+[2024-04-15 08:58:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-account-asset-management
+[2024-04-15 08:58:12] INFO root fetch - processPackages [gentccode]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-04-15 08:58:12] INFO root fetch - processPackages [stac-fastapi.mongo]: New version: [3.0.1] Old Version: [3.0.0]
+[2024-04-15 08:58:12] INFO root fetch - processPackages [secator]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-04-15 08:58:12] INFO root fetch - processPackages [xfastertransformer]: New version: [1.5.0] Old Version: [1.4.0]
+[2024-04-15 08:58:12] INFO root fetch - processPackages [odoo-addon-account-asset-management]: New version: [16.0.1.2.2] Old Version: [16.0.1.2.1.2]
+[2024-04-15 08:58:12] INFO root fetch - processPackages [gentccode]: Downloading https://files.pythonhosted.org/packages/7c/dc/38a95aa324891b3c05094bf27dc99cf4b532de993528a11d9abeec7b6714/gentccode-0.2.6.tar.gz
+[2024-04-15 08:58:12] INFO root fetch - processPackages [stac-fastapi.mongo]: Downloading https://files.pythonhosted.org/packages/6b/2b/28772e701e5e596776a0b4d9ba7524c8dbb8d6923c4b2c04b7c235e4ae64/stac-fastapi.mongo-3.0.0.tar.gz
+[2024-04-15 08:58:12] INFO root fetch - processPackages [odoo-addon-account-asset-management]: Downloading https://files.pythonhosted.org/packages/81/12/c70108027422f54bb707db02429edeee649cb6cfa46df411bc95337695f3/odoo_addon_account_asset_management-16.0.1.2.1.2-py3-none-any.whl
+[2024-04-15 08:58:12] INFO root fetch - processPackages [secator]: Downloading https://files.pythonhosted.org/packages/bd/d5/c2c8c9d11cefe841501fd6988dc4d97a8bfab0b43e780eca021f1b573ac2/secator-0.3.3.tar.gz
+[2024-04-15 08:58:12] INFO root fetch - processPackages [xfastertransformer]: Downloading https://files.pythonhosted.org/packages/e3/ba/95983451ecd9e06a412cf81bc8dcf92781f1719455830594f5db74ab8763/xfastertransformer-1.4.0-py3-none-any.whl
+[2024-04-15 08:58:12] WARNING root fetch - processPackages [xfastertransformer]: Skipping package: exceeds size limit 28202194>=10485760
+[2024-04-15 08:58:12] INFO root fetch - main [MainThread]: End processing [xfastertransformer] error
+[2024-04-15 08:58:12] WARNING root fetch - processPackages [secator]: Skipping package: exceeds size limit 23069813>=10485760
+[2024-04-15 08:58:12] INFO root fetch - main [MainThread]: End processing [secator] error
+[2024-04-15 08:58:12] INFO root fetch - processPackages [stac-fastapi.mongo]: Downloading https://files.pythonhosted.org/packages/0d/d7/98d9179a69d812976935833ae9b5b06359e21aab47358a6b02347625e045/stac_fastapi_mongo-3.0.1.tar.gz
+[2024-04-15 08:58:12] INFO root fetch - processPackages [gentccode]: Downloading https://files.pythonhosted.org/packages/e5/34/b4b09a524a540a7ab07b6f1edb3147a2ffe7284499eca9c5ee8d86dee10b/gentccode-0.2.7.tar.gz
+[2024-04-15 08:58:13] INFO root fetch - processPackages [odoo-addon-account-asset-management]: Downloading https://files.pythonhosted.org/packages/82/dc/9450aa6c5608e49793544cfdce7575bf23c48e44e3758dd02cdeaf70595a/odoo_addon_account_asset_management-16.0.1.2.2-py3-none-any.whl
+[2024-04-15 08:58:13] INFO root fetch - processPackages [stac-fastapi.mongo]: executing diffoscope
+[2024-04-15 08:58:13] INFO root fetch - processPackages [stac-fastapi.mongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stac-fastapi.mongo-3.0.0.tar.gz tmp/stac_fastapi_mongo-3.0.1.tar.gz --markdown 20240415/s/stac-fastapi.mongo/3.0.0-3.0.1/README.md --exclude *.pyd
+[2024-04-15 08:58:13] INFO root fetch - processPackages [gentccode]: executing diffoscope
+[2024-04-15 08:58:13] INFO root fetch - processPackages [gentccode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gentccode-0.2.6.tar.gz tmp/gentccode-0.2.7.tar.gz --markdown 20240415/g/gentccode/0.2.6-0.2.7/README.md --exclude *.pyd
+[2024-04-15 08:58:13] INFO root fetch - processPackages [odoo-addon-account-asset-management]: executing diffoscope
+[2024-04-15 08:58:13] INFO root fetch - processPackages [odoo-addon-account-asset-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_asset_management-16.0.1.2.1.2-py3-none-any.whl.zip tmp/odoo_addon_account_asset_management-16.0.1.2.2-py3-none-any.whl.zip --markdown 20240415/o/odoo-addon-account-asset-management/16.0.1.2.1.2-16.0.1.2.2/README.md --exclude *.pyd
+[2024-04-15 08:58:13] INFO root fetch - processPackages [stac-fastapi.mongo]: Remove: archive file [/home/abi/fetcher/tmp/stac-fastapi.mongo-3.0.0.tar.gz]
+[2024-04-15 08:58:13] INFO root fetch - processPackages [stac-fastapi.mongo]: Remove: archive file [/home/abi/fetcher/tmp/stac_fastapi_mongo-3.0.1.tar.gz]
+[2024-04-15 08:58:13] INFO root fetch - main [MainThread]: End processing [stac-fastapi.mongo]: success
+[2024-04-15 08:58:13] INFO root fetch - processPackages [gentccode]: Remove: archive file [/home/abi/fetcher/tmp/gentccode-0.2.6.tar.gz]
+[2024-04-15 08:58:13] INFO root fetch - processPackages [gentccode]: Remove: archive file [/home/abi/fetcher/tmp/gentccode-0.2.7.tar.gz]
+[2024-04-15 08:58:13] INFO root fetch - main [MainThread]: End processing [gentccode]: success
+[2024-04-15 08:58:14] INFO root fetch - processPackages [odoo-addon-account-asset-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_asset_management-16.0.1.2.1.2-py3-none-any.whl.zip]
+[2024-04-15 08:58:14] INFO root fetch - processPackages [odoo-addon-account-asset-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_asset_management-16.0.1.2.2-py3-none-any.whl.zip]
+[2024-04-15 08:58:14] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-asset-management]: success
+[2024-04-15 08:58:14] INFO root fetch - main [MainThread]: Store serial: [22766999]
