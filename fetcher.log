@@ -17221,3 +17221,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 13:55:00] INFO root fetch - processPackages [ixdat]: Remove: archive file [/home/abi/fetcher/tmp/ixdat-0.2.9.dev3.tar.gz]
 [2024-04-15 13:55:00] INFO root fetch - main [MainThread]: End processing [ixdat]: success
 [2024-04-15 13:55:00] INFO root fetch - main [MainThread]: Store serial: [22770404]
+[2024-04-15 13:57:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22770404]
+[2024-04-15 13:57:09] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-15 13:57:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyfilename
+[2024-04-15 13:57:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alembic-tools
+[2024-04-15 13:57:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: psd2fabric
+[2024-04-15 13:57:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: arion-library
+[2024-04-15 13:57:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nkululeko
+[2024-04-15 13:57:10] INFO root fetch - processPackages [arion-library]: New version: [1.1rc58.dev58] Old Version: [1.1rc57.dev57]
+[2024-04-15 13:57:10] INFO root fetch - processPackages [pyfilename]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-04-15 13:57:10] INFO root fetch - processPackages [pyfilename]: Downloading https://files.pythonhosted.org/packages/58/e3/43610ca0eeeddce64aa0bf06a99ebebb1e16ed7f2898c2c92cda6eadec5b/pyfilename-0.4.0.tar.gz
+[2024-04-15 13:57:10] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/ef/80/ff39809dee5103796ed493acec7e910262538c2640e553cf796821b27978/arion_library-1.1rc57.dev57.tar.gz
+[2024-04-15 13:57:10] INFO root fetch - processPackages [psd2fabric]: New version: [0.2] Old Version: [0.1]
+[2024-04-15 13:57:10] INFO root fetch - processPackages [nkululeko]: New version: [0.81.2] Old Version: [0.81.1]
+[2024-04-15 13:57:10] INFO root fetch - processPackages [alembic-tools]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-15 13:57:10] INFO root fetch - processPackages [alembic-tools]: Downloading https://files.pythonhosted.org/packages/f7/88/190fb93b1b4e57e52cd007061dd25f2ff60cdb096ff55d905ec018b3f83a/alembic_tools-0.1.3.tar.gz
+[2024-04-15 13:57:10] INFO root fetch - processPackages [pyfilename]: Downloading https://files.pythonhosted.org/packages/08/4a/b3c798a7715f1e0a4c7b6f6a23b3d8db58fc18b233c85ab75989f89ddcf1/pyfilename-0.5.0.tar.gz
+[2024-04-15 13:57:10] INFO root fetch - processPackages [psd2fabric]: Downloading https://files.pythonhosted.org/packages/86/e9/b922f008bf9bbc99ac1387c5a51b6eaa174bd449dbb525b283e9308302fa/psd2fabric-0.1.tar.gz
+[2024-04-15 13:57:10] INFO root fetch - processPackages [nkululeko]: Downloading https://files.pythonhosted.org/packages/31/06/38452d78f951ed240fa0be2e9153c502cff3b07de8b9433df8ec2ef92356/nkululeko-0.81.1.tar.gz
+[2024-04-15 13:57:10] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/7b/ef/7ae50d2cbd8497e6fb74eb82ec6f671fd81ba21fbf41f8b00d09b2d5850a/arion_library-1.1rc58.dev58.tar.gz
+[2024-04-15 13:57:10] INFO root fetch - processPackages [pyfilename]: executing diffoscope
+[2024-04-15 13:57:10] INFO root fetch - processPackages [pyfilename]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfilename-0.4.0.tar.gz tmp/pyfilename-0.5.0.tar.gz --markdown 20240415/p/pyfilename/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-04-15 13:57:10] INFO root fetch - processPackages [arion-library]: executing diffoscope
+[2024-04-15 13:57:10] INFO root fetch - processPackages [arion-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arion_library-1.1rc57.dev57.tar.gz tmp/arion_library-1.1rc58.dev58.tar.gz --markdown 20240415/a/arion-library/1.1rc57.dev57-1.1rc58.dev58/README.md --exclude *.pyd
+[2024-04-15 13:57:10] INFO root fetch - processPackages [alembic-tools]: Downloading https://files.pythonhosted.org/packages/21/fb/62470e5c578ac6e2767e2f798c08e7311fa0b77ce2cdc9f789144f684074/alembic_tools-0.1.4.tar.gz
+[2024-04-15 13:57:10] INFO root fetch - processPackages [psd2fabric]: Downloading https://files.pythonhosted.org/packages/99/0b/6a92fc9e0c27eb53de42ec7011decc107eaf636c368cde5426c4a05b1840/psd2fabric-0.2.tar.gz
+[2024-04-15 13:57:10] INFO root fetch - processPackages [nkululeko]: Downloading https://files.pythonhosted.org/packages/6f/cf/f5a24fdc065d9e0496a39244444262b0bc23985c52ceead0f7bd6ce6fa2e/nkululeko-0.81.2.tar.gz
+[2024-04-15 13:57:11] INFO root fetch - processPackages [psd2fabric]: executing diffoscope
+[2024-04-15 13:57:11] INFO root fetch - processPackages [psd2fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psd2fabric-0.1.tar.gz tmp/psd2fabric-0.2.tar.gz --markdown 20240415/p/psd2fabric/0.1-0.2/README.md --exclude *.pyd
+[2024-04-15 13:57:11] INFO root fetch - processPackages [alembic-tools]: executing diffoscope
+[2024-04-15 13:57:11] INFO root fetch - processPackages [alembic-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alembic_tools-0.1.3.tar.gz tmp/alembic_tools-0.1.4.tar.gz --markdown 20240415/a/alembic-tools/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-04-15 13:57:11] INFO root fetch - processPackages [nkululeko]: executing diffoscope
+[2024-04-15 13:57:11] INFO root fetch - processPackages [nkululeko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nkululeko-0.81.1.tar.gz tmp/nkululeko-0.81.2.tar.gz --markdown 20240415/n/nkululeko/0.81.1-0.81.2/README.md --exclude *.pyd
+[2024-04-15 13:57:11] INFO root fetch - processPackages [pyfilename]: Remove: archive file [/home/abi/fetcher/tmp/pyfilename-0.4.0.tar.gz]
+[2024-04-15 13:57:11] INFO root fetch - processPackages [pyfilename]: Remove: archive file [/home/abi/fetcher/tmp/pyfilename-0.5.0.tar.gz]
+[2024-04-15 13:57:11] INFO root fetch - main [MainThread]: End processing [pyfilename]: success
+[2024-04-15 13:57:11] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc57.dev57.tar.gz]
+[2024-04-15 13:57:11] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc58.dev58.tar.gz]
+[2024-04-15 13:57:11] INFO root fetch - main [MainThread]: End processing [arion-library]: success
+[2024-04-15 13:57:11] INFO root fetch - processPackages [alembic-tools]: Remove: archive file [/home/abi/fetcher/tmp/alembic_tools-0.1.3.tar.gz]
+[2024-04-15 13:57:11] INFO root fetch - processPackages [alembic-tools]: Remove: archive file [/home/abi/fetcher/tmp/alembic_tools-0.1.4.tar.gz]
+[2024-04-15 13:57:11] INFO root fetch - main [MainThread]: End processing [alembic-tools]: success
+[2024-04-15 13:57:11] INFO root fetch - processPackages [psd2fabric]: Remove: archive file [/home/abi/fetcher/tmp/psd2fabric-0.1.tar.gz]
+[2024-04-15 13:57:11] INFO root fetch - processPackages [psd2fabric]: Remove: archive file [/home/abi/fetcher/tmp/psd2fabric-0.2.tar.gz]
+[2024-04-15 13:57:11] INFO root fetch - main [MainThread]: End processing [psd2fabric]: success
+[2024-04-15 13:57:12] INFO root fetch - processPackages [nkululeko]: Remove: archive file [/home/abi/fetcher/tmp/nkululeko-0.81.1.tar.gz]
+[2024-04-15 13:57:12] INFO root fetch - processPackages [nkululeko]: Remove: archive file [/home/abi/fetcher/tmp/nkululeko-0.81.2.tar.gz]
+[2024-04-15 13:57:12] INFO root fetch - main [MainThread]: End processing [nkululeko]: success
+[2024-04-15 13:57:12] INFO root fetch - main [MainThread]: Store serial: [22770421]
