@@ -18358,3 +18358,101 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 14:37:14] INFO root fetch - processPackages [croud]: Remove: archive file [/home/abi/fetcher/tmp/croud-1.9.0.tar.gz]
 [2024-04-15 14:37:14] INFO root fetch - main [MainThread]: End processing [croud]: success
 [2024-04-15 14:37:14] INFO root fetch - main [MainThread]: Store serial: [22770937]
+[2024-04-15 14:39:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22770937]
+[2024-04-15 14:39:23] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-15 14:39:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: few-shot-priming
+[2024-04-15 14:39:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clovers
+[2024-04-15 14:39:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: modal
+[2024-04-15 14:39:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ParendumLib
+[2024-04-15 14:39:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sarus-data-spec-public
+[2024-04-15 14:39:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: phosx
+[2024-04-15 14:39:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: modal-client
+[2024-04-15 14:39:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Predviz
+[2024-04-15 14:39:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dataset-tools
+[2024-04-15 14:39:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bigdl-llm
+[2024-04-15 14:39:23] INFO root fetch - processPackages [clovers]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-15 14:39:23] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-04-15 14:39:23] INFO root fetch - processPackages [dataset-tools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-15 14:39:23] INFO root fetch - processPackages [ParendumLib]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-15 14:39:23] INFO root fetch - processPackages [phosx]: New version: [0.6.0] Old Version: [0.5.5]
+[2024-04-15 14:39:23] INFO root fetch - processPackages [Predviz]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-15 14:39:23] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-04-15 14:39:23] INFO root fetch - processPackages [modal]: New version: [0.62.9] Old Version: [0.62.8]
+[2024-04-15 14:39:23] INFO root fetch - processPackages [modal-client]: New version: [0.62.9] Old Version: [0.62.8]
+[2024-04-15 14:39:23] INFO root fetch - processPackages [sarus-data-spec-public]: New version: [4.0.0.dev6] Old Version: [4.0.0.dev5]
+[2024-04-15 14:39:23] INFO root fetch - processPackages [bigdl-llm]: New version: [2.5.0b20240415] Old Version: [2.5.0b20240414]
+[2024-04-15 14:39:23] INFO root fetch - processPackages [clovers]: Downloading https://files.pythonhosted.org/packages/18/8e/1480ea8b6a3d32f1011744bcd991fc03ed68f718032dd0cbae59911870b9/clovers-0.1.0.tar.gz
+[2024-04-15 14:39:23] INFO root fetch - processPackages [dataset-tools]: Downloading https://files.pythonhosted.org/packages/45/97/f8cfcb2381e26631dc0de064078e7012c0e84fe2bc5eb59bb6846009f169/dataset-tools-0.0.8.tar.gz
+[2024-04-15 14:39:23] INFO root fetch - processPackages [ParendumLib]: Downloading https://files.pythonhosted.org/packages/9e/57/9c5dcbd5ac51d99d65085c128e28d689340a94b8a348f9b3cd3fac3ff2a4/ParendumLib-0.1.8.tar.gz
+[2024-04-15 14:39:23] INFO root fetch - processPackages [phosx]: Downloading https://files.pythonhosted.org/packages/16/06/25e1be29616a7227b917075589e5b04068bcca0dde9a569c8f9385a30c5a/phosx-0.5.5.tar.gz
+[2024-04-15 14:39:23] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/58/ca/1a4a13c9eb837803ef45a0d4762f383a6eb32818c9a87c22e302769eb0c1/bigdl_llm-2.5.0b20240414-py3-none-win_amd64.whl
+[2024-04-15 14:39:23] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/8a/dd/32da92c8c574400929f770cfc5c78136ebc7b566de71c8e84a423d0ee9cc/modal-0.62.8-py3-none-any.whl
+[2024-04-15 14:39:23] INFO root fetch - processPackages [Predviz]: Downloading https://files.pythonhosted.org/packages/73/ec/b83e2a809b32a7c2cc7b18bb9901339d470dc6a6413c0a3eb5c8ded92dac/Predviz-0.0.3.tar.gz
+[2024-04-15 14:39:23] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/d0/c2/c05a679647fc54f88ed4f2453aec5ec1ea866c5ddaf1d85b52981f84c662/modal_client-0.62.8-py3-none-any.whl
+[2024-04-15 14:39:23] INFO root fetch - processPackages [sarus-data-spec-public]: Downloading https://files.pythonhosted.org/packages/a6/c3/baf41fe13cf895e1fd0bbe082601d4757b34d178f1efec36ffee0bbf32ad/sarus_data_spec_public-4.0.0.dev5.tar.gz
+[2024-04-15 14:39:23] INFO root fetch - processPackages [clovers]: Downloading https://files.pythonhosted.org/packages/f2/e8/b8d73cc6771403cf299caef38f6ef19600d1dcdb091382c137264656a303/clovers-0.1.1.tar.gz
+[2024-04-15 14:39:24] WARNING root fetch - processPackages [phosx]: Skipping package: exceeds size limit 23880142>=10485760
+[2024-04-15 14:39:24] INFO root fetch - processPackages [phosx]: Start processing: iinfer
+[2024-04-15 14:39:24] INFO root fetch - main [MainThread]: End processing [phosx] error
+[2024-04-15 14:39:24] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-04-15 14:39:24] INFO root fetch - processPackages [ParendumLib]: Downloading https://files.pythonhosted.org/packages/8b/21/9a6aa3e314b67367ff0ab2ffea5277cff8e76cfc439396c9923c785355a6/ParendumLib-0.1.9.tar.gz
+[2024-04-15 14:39:24] INFO root fetch - processPackages [clovers]: executing diffoscope
+[2024-04-15 14:39:24] INFO root fetch - processPackages [clovers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clovers-0.1.0.tar.gz tmp/clovers-0.1.1.tar.gz --markdown 20240415/c/clovers/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-15 14:39:24] INFO root fetch - processPackages [dataset-tools]: Downloading https://files.pythonhosted.org/packages/b8/58/c030ec40cb92d73145fa4f9c8df9dc35360f48d85535390567bd984369b2/dataset-tools-0.0.9.tar.gz
+[2024-04-15 14:39:24] INFO root fetch - processPackages [Predviz]: Downloading https://files.pythonhosted.org/packages/f8/e7/af99a8ca2dc786943d6dca705b664da449b5da6bb6d5ac95d62f35b77ae6/Predviz-0.0.4.tar.gz
+[2024-04-15 14:39:24] INFO root fetch - processPackages [iinfer]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-04-15 14:39:24] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/08/2d/ba9d3e39c32f579d689b9f619a197109b7086b3f8e0764e5eed9501a303e/modal_client-0.62.9-py3-none-any.whl
+[2024-04-15 14:39:24] INFO root fetch - processPackages [ParendumLib]: executing diffoscope
+[2024-04-15 14:39:24] INFO root fetch - processPackages [ParendumLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ParendumLib-0.1.8.tar.gz tmp/ParendumLib-0.1.9.tar.gz --markdown 20240415/P/ParendumLib/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-15 14:39:24] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/c0/f7/8dd227328bcea0baf27836ce9f00c26e7e27195101883dc782c55387e12f/modal-0.62.9-py3-none-any.whl
+[2024-04-15 14:39:24] INFO root fetch - processPackages [Predviz]: executing diffoscope
+[2024-04-15 14:39:24] INFO root fetch - processPackages [Predviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Predviz-0.0.3.tar.gz tmp/Predviz-0.0.4.tar.gz --markdown 20240415/P/Predviz/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-04-15 14:39:24] INFO root fetch - processPackages [sarus-data-spec-public]: Downloading https://files.pythonhosted.org/packages/5f/c5/469663f75847a545cd515af0559a48782d2f1aaf82bc3f7247c0bd6bdbf0/sarus_data_spec_public-4.0.0.dev6.tar.gz
+[2024-04-15 14:39:24] INFO root fetch - processPackages [dataset-tools]: executing diffoscope
+[2024-04-15 14:39:24] INFO root fetch - processPackages [dataset-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataset-tools-0.0.8.tar.gz tmp/dataset-tools-0.0.9.tar.gz --markdown 20240415/d/dataset-tools/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-15 14:39:24] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2024-04-15 14:39:24] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.62.8-py3-none-any.whl.zip tmp/modal_client-0.62.9-py3-none-any.whl.zip --markdown 20240415/m/modal-client/0.62.8-0.62.9/README.md --exclude *.pyd
+[2024-04-15 14:39:24] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/5a/8d/6e27d32912c5d05b9d23c10f88de59ecfc2a542e0f7f00d0326a533568e0/bigdl_llm-2.5.0b20240415-py3-none-win_amd64.whl
+[2024-04-15 14:39:24] INFO root fetch - processPackages [modal]: executing diffoscope
+[2024-04-15 14:39:24] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.62.8-py3-none-any.whl.zip tmp/modal-0.62.9-py3-none-any.whl.zip --markdown 20240415/m/modal/0.62.8-0.62.9/README.md --exclude *.pyd
+[2024-04-15 14:39:24] INFO root fetch - processPackages [iinfer]: Downloading https://files.pythonhosted.org/packages/b8/62/0114f3fedc08cf3f13fa4deeffbfd5975e85cfed7a88ad276c2d75a5a464/iinfer-0.6.8.tar.gz
+[2024-04-15 14:39:24] INFO root fetch - processPackages [sarus-data-spec-public]: executing diffoscope
+[2024-04-15 14:39:24] INFO root fetch - processPackages [sarus-data-spec-public]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarus_data_spec_public-4.0.0.dev5.tar.gz tmp/sarus_data_spec_public-4.0.0.dev6.tar.gz --markdown 20240415/s/sarus-data-spec-public/4.0.0.dev5-4.0.0.dev6/README.md --exclude *.pyd
+[2024-04-15 14:39:24] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-04-15 14:39:24] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240415/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-04-15 14:39:24] INFO root fetch - processPackages [iinfer]: Downloading https://files.pythonhosted.org/packages/60/dd/ad20da60d16c59146a74028f31fcf00984be0ec991bc67f57c631cfed7af/iinfer-0.6.9.tar.gz
+[2024-04-15 14:39:24] INFO root fetch - processPackages [clovers]: Remove: archive file [/home/abi/fetcher/tmp/clovers-0.1.0.tar.gz]
+[2024-04-15 14:39:24] INFO root fetch - processPackages [clovers]: Remove: archive file [/home/abi/fetcher/tmp/clovers-0.1.1.tar.gz]
+[2024-04-15 14:39:24] INFO root fetch - main [MainThread]: End processing [clovers]: success
+[2024-04-15 14:39:25] INFO root fetch - processPackages [ParendumLib]: Remove: archive file [/home/abi/fetcher/tmp/ParendumLib-0.1.8.tar.gz]
+[2024-04-15 14:39:25] INFO root fetch - processPackages [ParendumLib]: Remove: archive file [/home/abi/fetcher/tmp/ParendumLib-0.1.9.tar.gz]
+[2024-04-15 14:39:25] INFO root fetch - main [MainThread]: End processing [ParendumLib]: success
+[2024-04-15 14:39:25] INFO root fetch - processPackages [Predviz]: Remove: archive file [/home/abi/fetcher/tmp/Predviz-0.0.3.tar.gz]
+[2024-04-15 14:39:25] INFO root fetch - processPackages [Predviz]: Remove: archive file [/home/abi/fetcher/tmp/Predviz-0.0.4.tar.gz]
+[2024-04-15 14:39:25] INFO root fetch - main [MainThread]: End processing [Predviz]: success
+[2024-04-15 14:39:25] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.8-py3-none-any.whl.zip]
+[2024-04-15 14:39:25] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.9-py3-none-any.whl.zip]
+[2024-04-15 14:39:25] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2024-04-15 14:39:25] INFO root fetch - processPackages [dataset-tools]: Remove: archive file [/home/abi/fetcher/tmp/dataset-tools-0.0.8.tar.gz]
+[2024-04-15 14:39:25] INFO root fetch - processPackages [dataset-tools]: Remove: archive file [/home/abi/fetcher/tmp/dataset-tools-0.0.9.tar.gz]
+[2024-04-15 14:39:25] INFO root fetch - main [MainThread]: End processing [dataset-tools]: success
+[2024-04-15 14:39:25] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2024-04-15 14:39:25] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.5.0b20240414-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.5.0b20240415-py3-none-win_amd64.whl.zip --markdown 20240415/b/bigdl-llm/2.5.0b20240414-2.5.0b20240415/README.md --exclude *.pyd
+[2024-04-15 14:39:25] INFO root fetch - processPackages [iinfer]: executing diffoscope
+[2024-04-15 14:39:25] INFO root fetch - processPackages [iinfer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iinfer-0.6.8.tar.gz tmp/iinfer-0.6.9.tar.gz --markdown 20240415/i/iinfer/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-04-15 14:39:25] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-04-15 14:39:25] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-04-15 14:39:25] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-04-15 14:39:25] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.8-py3-none-any.whl.zip]
+[2024-04-15 14:39:25] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.9-py3-none-any.whl.zip]
+[2024-04-15 14:39:25] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2024-04-15 14:39:25] INFO root fetch - processPackages [sarus-data-spec-public]: Remove: archive file [/home/abi/fetcher/tmp/sarus_data_spec_public-4.0.0.dev5.tar.gz]
+[2024-04-15 14:39:25] INFO root fetch - processPackages [sarus-data-spec-public]: Remove: archive file [/home/abi/fetcher/tmp/sarus_data_spec_public-4.0.0.dev6.tar.gz]
+[2024-04-15 14:39:25] INFO root fetch - main [MainThread]: End processing [sarus-data-spec-public]: success
+[2024-04-15 14:39:26] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240414-py3-none-win_amd64.whl.zip]
+[2024-04-15 14:39:26] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240415-py3-none-win_amd64.whl.zip]
+[2024-04-15 14:39:26] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2024-04-15 14:39:26] INFO root fetch - processPackages [iinfer]: Remove: archive file [/home/abi/fetcher/tmp/iinfer-0.6.8.tar.gz]
+[2024-04-15 14:39:26] INFO root fetch - processPackages [iinfer]: Remove: archive file [/home/abi/fetcher/tmp/iinfer-0.6.9.tar.gz]
+[2024-04-15 14:39:26] INFO root fetch - main [MainThread]: End processing [iinfer]: success
+[2024-04-15 14:39:26] INFO root fetch - main [MainThread]: Store serial: [22770985]
