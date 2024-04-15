@@ -20916,3 +20916,78 @@ EOFError: EOF read where object expected
 [2024-04-15 15:53:11] INFO root fetch - processPackages [pdfminer.rtl]: Remove: archive file [/home/abi/fetcher/tmp/pdfminer_rtl-0.0.2.dev3.tar.gz]
 [2024-04-15 15:53:11] INFO root fetch - main [MainThread]: End processing [pdfminer.rtl]: success
 [2024-04-15 15:53:11] INFO root fetch - main [MainThread]: Store serial: [22772076]
+[2024-04-15 15:55:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22772076]
+[2024-04-15 15:55:21] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-15 15:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tensordict-nightly
+[2024-04-15 15:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zettel-org
+[2024-04-15 15:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gradio-highlightedtextbox
+[2024-04-15 15:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lusid-sdk
+[2024-04-15 15:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bellek
+[2024-04-15 15:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nrp-invenio-client
+[2024-04-15 15:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tsk-monster
+[2024-04-15 15:55:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: serialtools
+[2024-04-15 15:55:21] INFO root fetch - processPackages [tsk-monster]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-15 15:55:21] INFO root fetch - processPackages [zettel-org]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-04-15 15:55:21] INFO root fetch - processPackages [bellek]: New version: [0.9.0] Old Version: [0.81.0]
+[2024-04-15 15:55:21] INFO root fetch - processPackages [lusid-sdk]: New version: [2.1.7] Old Version: [2.1.5]
+[2024-04-15 15:55:21] INFO root fetch - processPackages [gradio-highlightedtextbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-15 15:55:21] INFO root fetch - processPackages [nrp-invenio-client]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-15 15:55:21] INFO root fetch - processPackages [zettel-org]: Downloading https://files.pythonhosted.org/packages/09/a8/65966ef8ca2c9f45bfa8fc87ed4a0206a91e729b56fcba345169c546acba/zettel-org-0.6.0.tar.gz
+[2024-04-15 15:55:21] INFO root fetch - processPackages [tsk-monster]: Downloading https://files.pythonhosted.org/packages/37/1d/909d8d90bce691193ba9c7cbab6edfe8ef434db7e5b38dd2520121d4e483/tsk_monster-0.0.8.tar.gz
+[2024-04-15 15:55:21] INFO root fetch - processPackages [serialtools]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-15 15:55:21] INFO root fetch - processPackages [tensordict-nightly]: New version: [2024.4.9] Old Version: [2024.4.8]
+[2024-04-15 15:55:21] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/e9/95/c5e61f1b00407bb5a7d4b0af7d49bfd5fc9a82a95b330e57eac1f1130493/lusid_sdk-2.1.5.tar.gz
+[2024-04-15 15:55:21] INFO root fetch - processPackages [bellek]: Downloading https://files.pythonhosted.org/packages/e9/e0/990572d5ff3f3568361bf810b43c3657bc818c9fa0130acfd8a54d1c4a68/bellek-0.81.0.tar.gz
+[2024-04-15 15:55:22] INFO root fetch - processPackages [nrp-invenio-client]: Downloading https://files.pythonhosted.org/packages/b8/7f/1a2f126bdeeddcc6f29e8762e813cee0ddeb6107e20def1e5c2be1def6f3/nrp-invenio-client-0.2.0.tar.gz
+[2024-04-15 15:55:22] INFO root fetch - processPackages [tsk-monster]: Downloading https://files.pythonhosted.org/packages/bd/0d/76bc9f0c428722f67988b8db745d256aefb82e1f9e36269eee144c2705f1/tsk_monster-0.0.9.tar.gz
+[2024-04-15 15:55:22] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/cd/1c/8579b410faa082f73f4c5e15b9f2df9564f5500baeca12f401c71c95762b/tensordict_nightly-2024.4.8-cp39-cp39-win_amd64.whl
+[2024-04-15 15:55:22] INFO root fetch - processPackages [gradio-highlightedtextbox]: Downloading https://files.pythonhosted.org/packages/35/94/449ba81ce6aece0811033e65107f80a5d4aff1b0aa58624211c84f0ac379/gradio_highlightedtextbox-0.0.8.tar.gz
+[2024-04-15 15:55:22] INFO root fetch - processPackages [serialtools]: Downloading https://files.pythonhosted.org/packages/32/1b/652b603e0fb8d7c217190c4635c8846f386cacfa42a55fc4ed7b57691196/serialtools-0.8.1.tar.gz
+[2024-04-15 15:55:22] INFO root fetch - processPackages [zettel-org]: Downloading https://files.pythonhosted.org/packages/d5/c3/e896a4950ad0abbadeab07cfdf09956a0b66ada6fac135ef081865369184/zettel_org-0.6.1.tar.gz
+[2024-04-15 15:55:22] INFO root fetch - processPackages [bellek]: Downloading https://files.pythonhosted.org/packages/ec/cb/2e453e973c51c52f57d3533e8d2f7192b8c626e0078fe08fb907191e69fb/bellek-0.9.0.tar.gz
+[2024-04-15 15:55:22] INFO root fetch - processPackages [tsk-monster]: executing diffoscope
+[2024-04-15 15:55:22] INFO root fetch - processPackages [tsk-monster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsk_monster-0.0.8.tar.gz tmp/tsk_monster-0.0.9.tar.gz --markdown 20240415/t/tsk-monster/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-15 15:55:22] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/ef/9e/cac4eb8acb9b4225644a8ecd621bda7df1f3ecf1d132898e9a3ec1ed6723/lusid_sdk-2.1.7.tar.gz
+[2024-04-15 15:55:22] INFO root fetch - processPackages [zettel-org]: executing diffoscope
+[2024-04-15 15:55:22] INFO root fetch - processPackages [zettel-org]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zettel-org-0.6.0.tar.gz tmp/zettel_org-0.6.1.tar.gz --markdown 20240415/z/zettel-org/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-04-15 15:55:22] INFO root fetch - processPackages [bellek]: executing diffoscope
+[2024-04-15 15:55:22] INFO root fetch - processPackages [bellek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bellek-0.81.0.tar.gz tmp/bellek-0.9.0.tar.gz --markdown 20240415/b/bellek/0.81.0-0.9.0/README.md --exclude *.pyd
+[2024-04-15 15:55:22] INFO root fetch - processPackages [nrp-invenio-client]: Downloading https://files.pythonhosted.org/packages/70/c5/78a20faaa7630e692bb610cb20a28737e87471b3d5bd3db0b14d962f1261/nrp_invenio_client-0.3.0.tar.gz
+[2024-04-15 15:55:22] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2024-04-15 15:55:22] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_sdk-2.1.5.tar.gz tmp/lusid_sdk-2.1.7.tar.gz --markdown 20240415/l/lusid-sdk/2.1.5-2.1.7/README.md --exclude *.pyd
+[2024-04-15 15:55:22] INFO root fetch - processPackages [gradio-highlightedtextbox]: Downloading https://files.pythonhosted.org/packages/24/38/6c1224380483476f2540f43b3bfe325bf2444c8435af00629b17b77ec55c/gradio_highlightedtextbox-0.0.9.tar.gz
+[2024-04-15 15:55:22] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/07/82/e5cb687b1d6b19f6d3c57c14285a0e891743c0fd72b7d62c9298fc937736/tensordict_nightly-2024.4.9-cp39-cp39-win_amd64.whl
+[2024-04-15 15:55:22] INFO root fetch - processPackages [nrp-invenio-client]: executing diffoscope
+[2024-04-15 15:55:22] INFO root fetch - processPackages [nrp-invenio-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nrp-invenio-client-0.2.0.tar.gz tmp/nrp_invenio_client-0.3.0.tar.gz --markdown 20240415/n/nrp-invenio-client/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-04-15 15:55:22] INFO root fetch - processPackages [gradio-highlightedtextbox]: executing diffoscope
+[2024-04-15 15:55:22] INFO root fetch - processPackages [gradio-highlightedtextbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gradio_highlightedtextbox-0.0.8.tar.gz tmp/gradio_highlightedtextbox-0.0.9.tar.gz --markdown 20240415/g/gradio-highlightedtextbox/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-15 15:55:22] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2024-04-15 15:55:22] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2024.4.8-cp39-cp39-win_amd64.whl.zip tmp/tensordict_nightly-2024.4.9-cp39-cp39-win_amd64.whl.zip --markdown 20240415/t/tensordict-nightly/2024.4.8-2024.4.9/README.md --exclude *.pyd
+[2024-04-15 15:55:23] INFO root fetch - processPackages [tsk-monster]: Remove: archive file [/home/abi/fetcher/tmp/tsk_monster-0.0.8.tar.gz]
+[2024-04-15 15:55:23] INFO root fetch - processPackages [tsk-monster]: Remove: archive file [/home/abi/fetcher/tmp/tsk_monster-0.0.9.tar.gz]
+[2024-04-15 15:55:23] INFO root fetch - main [MainThread]: End processing [tsk-monster]: success
+[2024-04-15 15:55:23] INFO root fetch - processPackages [bellek]: Remove: archive file [/home/abi/fetcher/tmp/bellek-0.81.0.tar.gz]
+[2024-04-15 15:55:23] INFO root fetch - processPackages [bellek]: Remove: archive file [/home/abi/fetcher/tmp/bellek-0.9.0.tar.gz]
+[2024-04-15 15:55:23] INFO root fetch - main [MainThread]: End processing [bellek]: success
+[2024-04-15 15:55:23] INFO root fetch - processPackages [nrp-invenio-client]: Remove: archive file [/home/abi/fetcher/tmp/nrp-invenio-client-0.2.0.tar.gz]
+[2024-04-15 15:55:23] INFO root fetch - processPackages [nrp-invenio-client]: Remove: archive file [/home/abi/fetcher/tmp/nrp_invenio_client-0.3.0.tar.gz]
+[2024-04-15 15:55:23] INFO root fetch - main [MainThread]: End processing [nrp-invenio-client]: success
+[2024-04-15 15:55:23] INFO root fetch - processPackages [zettel-org]: Remove: archive file [/home/abi/fetcher/tmp/zettel-org-0.6.0.tar.gz]
+[2024-04-15 15:55:23] INFO root fetch - processPackages [zettel-org]: Remove: archive file [/home/abi/fetcher/tmp/zettel_org-0.6.1.tar.gz]
+[2024-04-15 15:55:23] INFO root fetch - main [MainThread]: End processing [zettel-org]: success
+[2024-04-15 15:55:23] INFO root fetch - processPackages [serialtools]: Downloading https://files.pythonhosted.org/packages/67/5d/228d5a50909871470ef7de734e46b1841e811252e7b607e980fc4801c981/serialtools-0.9.0-py3-none-any.whl
+[2024-04-15 15:55:23] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2024.4.8-cp39-cp39-win_amd64.whl.zip]
+[2024-04-15 15:55:23] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2024.4.9-cp39-cp39-win_amd64.whl.zip]
+[2024-04-15 15:55:23] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2024-04-15 15:55:24] INFO root fetch - processPackages [serialtools]: executing diffoscope
+[2024-04-15 15:55:24] INFO root fetch - processPackages [serialtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serialtools-0.8.1.tar.gz tmp/serialtools-0.9.0-py3-none-any.whl.zip --markdown 20240415/s/serialtools/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-04-15 15:55:24] INFO root fetch - processPackages [gradio-highlightedtextbox]: Remove: archive file [/home/abi/fetcher/tmp/gradio_highlightedtextbox-0.0.8.tar.gz]
+[2024-04-15 15:55:24] INFO root fetch - processPackages [gradio-highlightedtextbox]: Remove: archive file [/home/abi/fetcher/tmp/gradio_highlightedtextbox-0.0.9.tar.gz]
+[2024-04-15 15:55:24] INFO root fetch - main [MainThread]: End processing [gradio-highlightedtextbox]: success
+[2024-04-15 15:55:24] INFO root fetch - processPackages [serialtools]: Remove: archive file [/home/abi/fetcher/tmp/serialtools-0.8.1.tar.gz]
+[2024-04-15 15:55:24] INFO root fetch - processPackages [serialtools]: Remove: archive file [/home/abi/fetcher/tmp/serialtools-0.9.0-py3-none-any.whl.zip]
+[2024-04-15 15:55:24] INFO root fetch - main [MainThread]: End processing [serialtools]: success
+[2024-04-15 15:55:27] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.5.tar.gz]
+[2024-04-15 15:55:27] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_sdk-2.1.7.tar.gz]
+[2024-04-15 15:55:27] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2024-04-15 15:55:27] INFO root fetch - main [MainThread]: Store serial: [22772104]
