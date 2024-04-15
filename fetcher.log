@@ -23830,3 +23830,63 @@ AssertionError: tmp/pyblindrl-0.0.2rc57.post1.tar.gz does not exist
 [2024-04-15 17:01:35] INFO root fetch - processPackages [p-template-generator]: Remove: archive file [/home/abi/fetcher/tmp/p-template-generator-0.1.99.tar.gz]
 [2024-04-15 17:01:35] INFO root fetch - main [MainThread]: End processing [p-template-generator]: success
 [2024-04-15 17:01:35] INFO root fetch - main [MainThread]: Store serial: [22773327]
+[2024-04-15 17:03:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22773327]
+[2024-04-15 17:03:44] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-15 17:03:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: adbctool
+[2024-04-15 17:03:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: detoxio
+[2024-04-15 17:03:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-telegram-bot
+[2024-04-15 17:03:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-telegram-bot-raw
+[2024-04-15 17:03:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: telegram-collector
+[2024-04-15 17:03:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: shibuya
+[2024-04-15 17:03:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: soa-report
+[2024-04-15 17:03:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: breez-sdk
+[2024-04-15 17:03:44] INFO root fetch - processPackages [telegram-collector]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-15 17:03:44] INFO root fetch - processPackages [detoxio]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-15 17:03:44] INFO root fetch - processPackages [telegram-collector]: Downloading https://files.pythonhosted.org/packages/26/79/c4c890517d308b5d636c920eba6837683bd2b6ccc8a3198e85972fe68399/telegram_collector-0.2.8.tar.gz
+[2024-04-15 17:03:44] INFO root fetch - processPackages [detoxio]: Downloading https://files.pythonhosted.org/packages/7a/5e/2207f75fcd9c9e3eeb1f53ed18cb1468e5ecae5a0d5a386bc0a5eff17fc5/detoxio-0.1.8.tar.gz
+[2024-04-15 17:03:44] WARNING root fetch - processPackages [adbctool]: Skipping, unable to determine old version
+[2024-04-15 17:03:44] INFO root fetch - main [MainThread]: End processing [adbctool] error
+[2024-04-15 17:03:44] WARNING root fetch - processPackages [soa-report]: Skipping, unable to determine old version
+[2024-04-15 17:03:44] INFO root fetch - main [MainThread]: End processing [soa-report] error
+[2024-04-15 17:03:44] INFO root fetch - processPackages [shibuya]: New version: [2024.4.8] Old Version: [2024.4.4]
+[2024-04-15 17:03:44] INFO root fetch - processPackages [python-telegram-bot-raw]: New version: [21.1.1] Old Version: [21.1]
+[2024-04-15 17:03:44] INFO root fetch - processPackages [breez-sdk]: New version: [0.4.0rc2] Old Version: [0.4.0rc1]
+[2024-04-15 17:03:44] INFO root fetch - processPackages [python-telegram-bot]: New version: [9.0.0] Old Version: [8.1.1]
+[2024-04-15 17:03:45] INFO root fetch - processPackages [telegram-collector]: Downloading https://files.pythonhosted.org/packages/0e/62/1828912e5e192f4be063b427eb3b26519d05a73fa112d81b9d661d767a26/telegram_collector-0.2.9.tar.gz
+[2024-04-15 17:03:45] INFO root fetch - processPackages [detoxio]: Downloading https://files.pythonhosted.org/packages/b9/f4/192d739051a1a272b5b9f8a3638bbb082ff6c329b0a59b2a9e0435bdc1e9/detoxio-0.1.9.tar.gz
+[2024-04-15 17:03:45] INFO root fetch - processPackages [python-telegram-bot-raw]: Downloading https://files.pythonhosted.org/packages/71/7e/ab3845f6c442114d1e266ca630124c3dddcb3802ab60cdd1b9ff0131002a/python-telegram-bot-raw-21.1.tar.gz
+[2024-04-15 17:03:45] INFO root fetch - processPackages [shibuya]: Downloading https://files.pythonhosted.org/packages/05/3c/b5181db9c4522b52597518fb0957c29cb4ffd41e22d68ceca86c9c1067b0/shibuya-2024.4.4.tar.gz
+[2024-04-15 17:03:45] INFO root fetch - processPackages [breez-sdk]: Downloading https://files.pythonhosted.org/packages/bf/b2/5213b2edc84157a51464f2238fc2f2b8d07d0b3180dc4ce0f6559478c382/breez_sdk-0.4.0rc1-cp39-cp39-win_amd64.whl
+[2024-04-15 17:03:45] INFO root fetch - processPackages [python-telegram-bot]: Downloading https://files.pythonhosted.org/packages/b4/d4/66e153eb470179dd6346ae1f5a50c75b871c2263ab7b976427b2d9722689/python-telegram-bot-8.1.1.tar.gz
+[2024-04-15 17:03:45] INFO root fetch - processPackages [telegram-collector]: executing diffoscope
+[2024-04-15 17:03:45] INFO root fetch - processPackages [telegram-collector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegram_collector-0.2.8.tar.gz tmp/telegram_collector-0.2.9.tar.gz --markdown 20240415/t/telegram-collector/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-04-15 17:03:45] INFO root fetch - processPackages [detoxio]: executing diffoscope
+[2024-04-15 17:03:45] INFO root fetch - processPackages [detoxio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/detoxio-0.1.8.tar.gz tmp/detoxio-0.1.9.tar.gz --markdown 20240415/d/detoxio/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-15 17:03:45] INFO root fetch - processPackages [python-telegram-bot-raw]: Downloading https://files.pythonhosted.org/packages/e4/e2/44d94f47e7ad5e379988cfe5d9dc2f338e1d2ac1a28ca6cca8b3d15bdf7b/python-telegram-bot-raw-21.1.1.tar.gz
+[2024-04-15 17:03:45] INFO root fetch - processPackages [shibuya]: Downloading https://files.pythonhosted.org/packages/60/19/1778e5768a479550bbe7795c20bc5ec3e34ff3a62c71cb25491b48ba2009/shibuya-2024.4.8.tar.gz
+[2024-04-15 17:03:45] INFO root fetch - processPackages [python-telegram-bot]: Downloading https://files.pythonhosted.org/packages/f6/bc/a63239325cc5a28c5bee06fdf0a259fc4100194c11e6d029036aa6fe7ea8/python-telegram-bot-9.0.0.tar.gz
+[2024-04-15 17:03:45] INFO root fetch - processPackages [shibuya]: executing diffoscope
+[2024-04-15 17:03:45] INFO root fetch - processPackages [shibuya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shibuya-2024.4.4.tar.gz tmp/shibuya-2024.4.8.tar.gz --markdown 20240415/s/shibuya/2024.4.4-2024.4.8/README.md --exclude *.pyd
+[2024-04-15 17:03:45] INFO root fetch - processPackages [python-telegram-bot]: executing diffoscope
+[2024-04-15 17:03:45] INFO root fetch - processPackages [python-telegram-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-telegram-bot-8.1.1.tar.gz tmp/python-telegram-bot-9.0.0.tar.gz --markdown 20240415/p/python-telegram-bot/8.1.1-9.0.0/README.md --exclude *.pyd
+[2024-04-15 17:03:45] INFO root fetch - processPackages [breez-sdk]: Downloading https://files.pythonhosted.org/packages/a0/99/91fabbe6d0e6f5e94071ae07e91f7992432b00f22259758099a8f763c4fe/breez_sdk-0.4.0rc2-cp39-cp39-manylinux_2_31_aarch64.whl
+[2024-04-15 17:03:45] INFO root fetch - processPackages [telegram-collector]: Remove: archive file [/home/abi/fetcher/tmp/telegram_collector-0.2.8.tar.gz]
+[2024-04-15 17:03:45] INFO root fetch - processPackages [telegram-collector]: Remove: archive file [/home/abi/fetcher/tmp/telegram_collector-0.2.9.tar.gz]
+[2024-04-15 17:03:45] INFO root fetch - main [MainThread]: End processing [telegram-collector]: success
+[2024-04-15 17:03:45] INFO root fetch - processPackages [python-telegram-bot-raw]: executing diffoscope
+[2024-04-15 17:03:45] INFO root fetch - processPackages [python-telegram-bot-raw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-telegram-bot-raw-21.1.tar.gz tmp/python-telegram-bot-raw-21.1.1.tar.gz --markdown 20240415/p/python-telegram-bot-raw/21.1-21.1.1/README.md --exclude *.pyd
+[2024-04-15 17:03:46] INFO root fetch - processPackages [detoxio]: Remove: archive file [/home/abi/fetcher/tmp/detoxio-0.1.8.tar.gz]
+[2024-04-15 17:03:46] INFO root fetch - processPackages [detoxio]: Remove: archive file [/home/abi/fetcher/tmp/detoxio-0.1.9.tar.gz]
+[2024-04-15 17:03:46] INFO root fetch - main [MainThread]: End processing [detoxio]: success
+[2024-04-15 17:03:46] INFO root fetch - processPackages [shibuya]: Remove: archive file [/home/abi/fetcher/tmp/shibuya-2024.4.4.tar.gz]
+[2024-04-15 17:03:46] INFO root fetch - processPackages [shibuya]: Remove: archive file [/home/abi/fetcher/tmp/shibuya-2024.4.8.tar.gz]
+[2024-04-15 17:03:46] INFO root fetch - main [MainThread]: End processing [shibuya]: success
+[2024-04-15 17:03:46] WARNING root fetch - processPackages [breez-sdk]: Skipping package: exceeds size limit 13045208>=10485760
+[2024-04-15 17:03:46] INFO root fetch - main [MainThread]: End processing [breez-sdk] error
+[2024-04-15 17:03:47] INFO root fetch - processPackages [python-telegram-bot-raw]: Remove: archive file [/home/abi/fetcher/tmp/python-telegram-bot-raw-21.1.tar.gz]
+[2024-04-15 17:03:47] INFO root fetch - processPackages [python-telegram-bot-raw]: Remove: archive file [/home/abi/fetcher/tmp/python-telegram-bot-raw-21.1.1.tar.gz]
+[2024-04-15 17:03:47] INFO root fetch - main [MainThread]: End processing [python-telegram-bot-raw]: success
+[2024-04-15 17:03:47] INFO root fetch - processPackages [python-telegram-bot]: Remove: archive file [/home/abi/fetcher/tmp/python-telegram-bot-8.1.1.tar.gz]
+[2024-04-15 17:03:47] INFO root fetch - processPackages [python-telegram-bot]: Remove: archive file [/home/abi/fetcher/tmp/python-telegram-bot-9.0.0.tar.gz]
+[2024-04-15 17:03:47] INFO root fetch - main [MainThread]: End processing [python-telegram-bot]: success
+[2024-04-15 17:03:47] INFO root fetch - main [MainThread]: Store serial: [22773379]
