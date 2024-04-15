@@ -8845,3 +8845,24 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 08:35:55] INFO root fetch - processPackages [panda-server]: Remove: archive file [/home/abi/fetcher/tmp/panda_server-0.3.3.tar.gz]
 [2024-04-15 08:35:55] INFO root fetch - main [MainThread]: End processing [panda-server]: success
 [2024-04-15 08:35:55] INFO root fetch - main [MainThread]: Store serial: [22766777]
+[2024-04-15 08:38:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22766777]
+[2024-04-15 08:38:05] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-15 08:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ragdaemon
+[2024-04-15 08:38:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nhmail
+[2024-04-15 08:38:05] INFO root fetch - processPackages [ragdaemon]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-15 08:38:05] INFO root fetch - processPackages [nhmail]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-15 08:38:06] INFO root fetch - processPackages [nhmail]: Downloading https://files.pythonhosted.org/packages/a6/f7/d16e712524d663592ae483ee6aeeee9107a0b981bae77ad47af411e432e4/nhmail-1.0.3.tar.gz
+[2024-04-15 08:38:06] INFO root fetch - processPackages [ragdaemon]: Downloading https://files.pythonhosted.org/packages/54/63/03753faced8338170090fb9ddabbab51d87767ed9dad8d5690d9078bfc39/ragdaemon-0.1.5.tar.gz
+[2024-04-15 08:38:06] INFO root fetch - processPackages [nhmail]: Downloading https://files.pythonhosted.org/packages/ce/f7/60d9b6d75a60a223abf247b8b1e554193579f7b9d9fe7374efbb4d3ff326/nhmail-1.0.4.tar.gz
+[2024-04-15 08:38:06] INFO root fetch - processPackages [ragdaemon]: Downloading https://files.pythonhosted.org/packages/04/db/2dd06bd3d2507d4edc0cebc39127873b7085943f67a889430e906cc90b4b/ragdaemon-0.1.6.tar.gz
+[2024-04-15 08:38:06] INFO root fetch - processPackages [ragdaemon]: executing diffoscope
+[2024-04-15 08:38:06] INFO root fetch - processPackages [ragdaemon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragdaemon-0.1.5.tar.gz tmp/ragdaemon-0.1.6.tar.gz --markdown 20240415/r/ragdaemon/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-04-15 08:38:06] INFO root fetch - processPackages [nhmail]: executing diffoscope
+[2024-04-15 08:38:06] INFO root fetch - processPackages [nhmail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nhmail-1.0.3.tar.gz tmp/nhmail-1.0.4.tar.gz --markdown 20240415/n/nhmail/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-04-15 08:38:07] INFO root fetch - processPackages [nhmail]: Remove: archive file [/home/abi/fetcher/tmp/nhmail-1.0.3.tar.gz]
+[2024-04-15 08:38:07] INFO root fetch - processPackages [nhmail]: Remove: archive file [/home/abi/fetcher/tmp/nhmail-1.0.4.tar.gz]
+[2024-04-15 08:38:07] INFO root fetch - main [MainThread]: End processing [nhmail]: success
+[2024-04-15 08:38:07] INFO root fetch - processPackages [ragdaemon]: Remove: archive file [/home/abi/fetcher/tmp/ragdaemon-0.1.5.tar.gz]
+[2024-04-15 08:38:07] INFO root fetch - processPackages [ragdaemon]: Remove: archive file [/home/abi/fetcher/tmp/ragdaemon-0.1.6.tar.gz]
+[2024-04-15 08:38:07] INFO root fetch - main [MainThread]: End processing [ragdaemon]: success
+[2024-04-15 08:38:07] INFO root fetch - main [MainThread]: Store serial: [22766785]
