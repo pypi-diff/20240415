@@ -14878,3 +14878,71 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 12:28:41] INFO root fetch - processPackages [multiqc-sgr]: Remove: archive file [/home/abi/fetcher/tmp/multiqc_sgr-1.22.post0.tar.gz]
 [2024-04-15 12:28:41] INFO root fetch - main [MainThread]: End processing [multiqc-sgr]: success
 [2024-04-15 12:28:41] INFO root fetch - main [MainThread]: Store serial: [22769327]
+[2024-04-15 12:30:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22769327]
+[2024-04-15 12:30:51] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-15 12:30:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: anemoi-utils
+[2024-04-15 12:30:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: data-syncmaster
+[2024-04-15 12:30:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytest-neos
+[2024-04-15 12:30:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: atomrdf
+[2024-04-15 12:30:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gemini-ng
+[2024-04-15 12:30:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hsfs
+[2024-04-15 12:30:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-djazz
+[2024-04-15 12:30:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: CUQIpy
+[2024-04-15 12:30:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: soildx-fastapi-jwt-auth
+[2024-04-15 12:30:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: poium
+[2024-04-15 12:30:51] INFO root fetch - processPackages [poium]: New version: [1.5.0] Old Version: [1.3.2]
+[2024-04-15 12:30:51] WARNING root fetch - processPackages [atomrdf]: Skipping, unable to determine old version
+[2024-04-15 12:30:51] INFO root fetch - processPackages [atomrdf]: Start processing: DLMS-Firmware-updater
+[2024-04-15 12:30:51] INFO root fetch - main [MainThread]: End processing [atomrdf] error
+[2024-04-15 12:30:51] INFO root fetch - processPackages [soildx-fastapi-jwt-auth]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-15 12:30:51] WARNING root fetch - processPackages [gemini-ng]: Skipping, unable to determine old version
+[2024-04-15 12:30:51] INFO root fetch - main [MainThread]: End processing [gemini-ng] error
+[2024-04-15 12:30:51] WARNING root fetch - processPackages [anemoi-utils]: Skipping, unable to determine old version
+[2024-04-15 12:30:51] WARNING root fetch - processPackages [pytest-neos]: Skipping, unable to determine old version
+[2024-04-15 12:30:51] INFO root fetch - main [MainThread]: End processing [anemoi-utils] error
+[2024-04-15 12:30:51] INFO root fetch - main [MainThread]: End processing [pytest-neos] error
+[2024-04-15 12:30:51] INFO root fetch - processPackages [hsfs]: New version: [3.7.2] Old Version: [3.7.1rc0]
+[2024-04-15 12:30:51] INFO root fetch - processPackages [data-syncmaster]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-15 12:30:51] WARNING root fetch - processPackages [django-djazz]: Skipping, unable to determine old version
+[2024-04-15 12:30:51] INFO root fetch - main [MainThread]: End processing [django-djazz] error
+[2024-04-15 12:30:51] INFO root fetch - processPackages [CUQIpy]: New version: [1.0.0.post0.dev91] Old Version: [1.0.0.post0.dev84]
+[2024-04-15 12:30:51] INFO root fetch - processPackages [poium]: Downloading https://files.pythonhosted.org/packages/e8/97/7363dee34fc9e794296858a2ef1a3c19657d3af6761061c15970e3c572cb/poium-1.5.0.tar.gz
+[2024-04-15 12:30:51] INFO root fetch - processPackages [DLMS-Firmware-updater]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-15 12:30:51] WARNING root fetch - processPackages [poium]: Skipping package: exceeds size limit 43372759>=10485760
+[2024-04-15 12:30:51] INFO root fetch - main [MainThread]: End processing [poium] error
+[2024-04-15 12:30:51] INFO root fetch - processPackages [soildx-fastapi-jwt-auth]: Downloading https://files.pythonhosted.org/packages/11/c9/95f6fb864f90debb85208c18bea89d76ee95878d0d657a60f59daab26c07/soildx_fastapi_jwt_auth-0.0.2.tar.gz
+[2024-04-15 12:30:51] INFO root fetch - processPackages [data-syncmaster]: Downloading https://files.pythonhosted.org/packages/64/5c/10e366e8f5e302edd0e86f531448f1d041a28f53f8fdd65a1299e1976fb1/data_syncmaster-0.1.1.tar.gz
+[2024-04-15 12:30:51] INFO root fetch - processPackages [hsfs]: Downloading https://files.pythonhosted.org/packages/12/9e/4eae4606725af0cb269021b3554842767e02c2564e1c678f7afc91fb2c78/hsfs-3.7.1rc0.tar.gz
+[2024-04-15 12:30:51] INFO root fetch - processPackages [CUQIpy]: Downloading https://files.pythonhosted.org/packages/a3/7a/3055a8605b15ec5a340925b0806d2098b023cdcdfbce3a64efc80ac9b179/CUQIpy-1.0.0.post0.dev84.tar.gz
+[2024-04-15 12:30:51] INFO root fetch - processPackages [DLMS-Firmware-updater]: Downloading https://files.pythonhosted.org/packages/05/d1/657470a87063e68ade271c44d39c0e93d686bcab1e46a18b19aa7078b6b5/DLMS_Firmware_updater-0.2.0.tar.gz
+[2024-04-15 12:30:52] INFO root fetch - processPackages [soildx-fastapi-jwt-auth]: Downloading https://files.pythonhosted.org/packages/c9/1e/cceecc332c107443643dc44ffc24b6cd1283dfe3b05ef05c0921f6f23599/soildx_fastapi_jwt_auth-0.0.3.tar.gz
+[2024-04-15 12:30:52] INFO root fetch - processPackages [data-syncmaster]: Downloading https://files.pythonhosted.org/packages/48/0f/d2e3b5a71b17d368f065945cc339f44d4f732fae302e9185d36224ca3eb6/data_syncmaster-0.1.2.tar.gz
+[2024-04-15 12:30:52] INFO root fetch - processPackages [hsfs]: Downloading https://files.pythonhosted.org/packages/86/b3/ca365d11b9c113d307b82391b36d8aaa4192c27d9034cad7df9bd3fb0eef/hsfs-3.7.2.tar.gz
+[2024-04-15 12:30:52] INFO root fetch - processPackages [soildx-fastapi-jwt-auth]: executing diffoscope
+[2024-04-15 12:30:52] INFO root fetch - processPackages [soildx-fastapi-jwt-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soildx_fastapi_jwt_auth-0.0.2.tar.gz tmp/soildx_fastapi_jwt_auth-0.0.3.tar.gz --markdown 20240415/s/soildx-fastapi-jwt-auth/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-04-15 12:30:52] INFO root fetch - processPackages [data-syncmaster]: executing diffoscope
+[2024-04-15 12:30:52] INFO root fetch - processPackages [data-syncmaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_syncmaster-0.1.1.tar.gz tmp/data_syncmaster-0.1.2.tar.gz --markdown 20240415/d/data-syncmaster/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-15 12:30:52] INFO root fetch - processPackages [hsfs]: executing diffoscope
+[2024-04-15 12:30:52] INFO root fetch - processPackages [hsfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hsfs-3.7.1rc0.tar.gz tmp/hsfs-3.7.2.tar.gz --markdown 20240415/h/hsfs/3.7.1rc0-3.7.2/README.md --exclude *.pyd
+[2024-04-15 12:30:52] INFO root fetch - processPackages [DLMS-Firmware-updater]: Downloading https://files.pythonhosted.org/packages/0e/3a/50085a9bcaeb593912d9369d976eed4c6875229e674b399fb7651cb6b0ef/DLMS_Firmware_updater-0.2.1.tar.gz
+[2024-04-15 12:30:52] INFO root fetch - processPackages [soildx-fastapi-jwt-auth]: Remove: archive file [/home/abi/fetcher/tmp/soildx_fastapi_jwt_auth-0.0.2.tar.gz]
+[2024-04-15 12:30:52] INFO root fetch - processPackages [soildx-fastapi-jwt-auth]: Remove: archive file [/home/abi/fetcher/tmp/soildx_fastapi_jwt_auth-0.0.3.tar.gz]
+[2024-04-15 12:30:52] INFO root fetch - main [MainThread]: End processing [soildx-fastapi-jwt-auth]: success
+[2024-04-15 12:30:53] INFO root fetch - processPackages [CUQIpy]: Downloading https://files.pythonhosted.org/packages/20/73/290e5c26c332d440fb4538f8ec866910cfe4be75fbfeb121b4d47fcd6a21/CUQIpy-1.0.0.post0.dev91.tar.gz
+[2024-04-15 12:30:53] INFO root fetch - processPackages [data-syncmaster]: Remove: archive file [/home/abi/fetcher/tmp/data_syncmaster-0.1.1.tar.gz]
+[2024-04-15 12:30:53] INFO root fetch - processPackages [data-syncmaster]: Remove: archive file [/home/abi/fetcher/tmp/data_syncmaster-0.1.2.tar.gz]
+[2024-04-15 12:30:53] INFO root fetch - main [MainThread]: End processing [data-syncmaster]: success
+[2024-04-15 12:30:53] INFO root fetch - processPackages [DLMS-Firmware-updater]: executing diffoscope
+[2024-04-15 12:30:53] INFO root fetch - processPackages [DLMS-Firmware-updater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_Firmware_updater-0.2.0.tar.gz tmp/DLMS_Firmware_updater-0.2.1.tar.gz --markdown 20240415/D/DLMS-Firmware-updater/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-04-15 12:30:53] INFO root fetch - processPackages [CUQIpy]: executing diffoscope
+[2024-04-15 12:30:53] INFO root fetch - processPackages [CUQIpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CUQIpy-1.0.0.post0.dev84.tar.gz tmp/CUQIpy-1.0.0.post0.dev91.tar.gz --markdown 20240415/C/CUQIpy/1.0.0.post0.dev84-1.0.0.post0.dev91/README.md --exclude *.pyd
+[2024-04-15 12:30:53] INFO root fetch - processPackages [hsfs]: Remove: archive file [/home/abi/fetcher/tmp/hsfs-3.7.1rc0.tar.gz]
+[2024-04-15 12:30:53] INFO root fetch - processPackages [hsfs]: Remove: archive file [/home/abi/fetcher/tmp/hsfs-3.7.2.tar.gz]
+[2024-04-15 12:30:53] INFO root fetch - main [MainThread]: End processing [hsfs]: success
+[2024-04-15 12:30:54] INFO root fetch - processPackages [CUQIpy]: Remove: archive file [/home/abi/fetcher/tmp/CUQIpy-1.0.0.post0.dev84.tar.gz]
+[2024-04-15 12:30:54] INFO root fetch - processPackages [CUQIpy]: Remove: archive file [/home/abi/fetcher/tmp/CUQIpy-1.0.0.post0.dev91.tar.gz]
+[2024-04-15 12:30:54] INFO root fetch - main [MainThread]: End processing [CUQIpy]: success
+[2024-04-15 12:30:55] INFO root fetch - processPackages [DLMS-Firmware-updater]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_Firmware_updater-0.2.0.tar.gz]
+[2024-04-15 12:30:55] INFO root fetch - processPackages [DLMS-Firmware-updater]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_Firmware_updater-0.2.1.tar.gz]
+[2024-04-15 12:30:55] INFO root fetch - main [MainThread]: End processing [DLMS-Firmware-updater]: success
+[2024-04-15 12:30:55] INFO root fetch - main [MainThread]: Store serial: [22769363]
