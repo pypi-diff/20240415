@@ -15687,3 +15687,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 12:55:22] INFO root fetch - processPackages [cmsis-stream]: Remove: archive file [/home/abi/fetcher/tmp/cmsis_stream-1.9.2-py3-none-any.whl.zip]
 [2024-04-15 12:55:22] INFO root fetch - main [MainThread]: End processing [cmsis-stream]: success
 [2024-04-15 12:55:22] INFO root fetch - main [MainThread]: Store serial: [22769781]
+[2024-04-15 12:57:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22769781]
+[2024-04-15 12:57:31] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-15 12:57:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: internetnl-domain-analyse
+[2024-04-15 12:57:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bigeye-sdk
+[2024-04-15 12:57:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-plain-permissions
+[2024-04-15 12:57:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ioiopype
+[2024-04-15 12:57:32] INFO root fetch - processPackages [internetnl-domain-analyse]: New version: [1.9.8] Old Version: [1.9.6]
+[2024-04-15 12:57:32] INFO root fetch - processPackages [ioiopype]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-15 12:57:32] INFO root fetch - processPackages [bigeye-sdk]: New version: [0.4.78] Old Version: [0.4.77]
+[2024-04-15 12:57:32] WARNING root fetch - processPackages [django-plain-permissions]: Skipping, unable to determine old version
+[2024-04-15 12:57:32] INFO root fetch - main [MainThread]: End processing [django-plain-permissions] error
+[2024-04-15 12:57:32] INFO root fetch - processPackages [internetnl-domain-analyse]: Downloading https://files.pythonhosted.org/packages/2e/07/8f247d52a3e03d934cd3ec981be27ed4fd5fcf5fece0a7170762bd8d6ca4/internetnl_domain_analyse-1.9.6.tar.gz
+[2024-04-15 12:57:32] INFO root fetch - processPackages [ioiopype]: Downloading https://files.pythonhosted.org/packages/e8/7b/a9ee428055f74a9fe3f4986a94a1870a072e5fcf3e21f0b7835dc9afaafd/ioiopype-0.0.6.tar.gz
+[2024-04-15 12:57:32] INFO root fetch - processPackages [bigeye-sdk]: Downloading https://files.pythonhosted.org/packages/d6/90/819a4189263728f19af7f7531776962e971ab67073dfc5c2a6a200d59f94/bigeye_sdk-0.4.77.tar.gz
+[2024-04-15 12:57:32] INFO root fetch - processPackages [bigeye-sdk]: Downloading https://files.pythonhosted.org/packages/af/24/57a6f478b9d8ff87b1c3550aa5a39b0b0216a4827f443af10833b349fad2/bigeye_sdk-0.4.78.tar.gz
+[2024-04-15 12:57:32] INFO root fetch - processPackages [internetnl-domain-analyse]: Downloading https://files.pythonhosted.org/packages/7b/98/ed7cff6a52bfb171f98efbae158618dc990d5ef17f011a0d05807e25296c/internetnl_domain_analyse-1.9.8.tar.gz
+[2024-04-15 12:57:32] INFO root fetch - processPackages [ioiopype]: Downloading https://files.pythonhosted.org/packages/4f/98/fe0cbf3c995d252db943bddfef043f205f023b8ba3faac9b028857e503af/ioiopype-0.0.7.tar.gz
+[2024-04-15 12:57:32] INFO root fetch - processPackages [bigeye-sdk]: executing diffoscope
+[2024-04-15 12:57:32] INFO root fetch - processPackages [bigeye-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigeye_sdk-0.4.77.tar.gz tmp/bigeye_sdk-0.4.78.tar.gz --markdown 20240415/b/bigeye-sdk/0.4.77-0.4.78/README.md --exclude *.pyd
+[2024-04-15 12:57:32] INFO root fetch - processPackages [internetnl-domain-analyse]: executing diffoscope
+[2024-04-15 12:57:32] INFO root fetch - processPackages [internetnl-domain-analyse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/internetnl_domain_analyse-1.9.6.tar.gz tmp/internetnl_domain_analyse-1.9.8.tar.gz --markdown 20240415/i/internetnl-domain-analyse/1.9.6-1.9.8/README.md --exclude *.pyd
+[2024-04-15 12:57:32] INFO root fetch - processPackages [ioiopype]: executing diffoscope
+[2024-04-15 12:57:32] INFO root fetch - processPackages [ioiopype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ioiopype-0.0.6.tar.gz tmp/ioiopype-0.0.7.tar.gz --markdown 20240415/i/ioiopype/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-15 12:57:33] INFO root fetch - processPackages [ioiopype]: Remove: archive file [/home/abi/fetcher/tmp/ioiopype-0.0.6.tar.gz]
+[2024-04-15 12:57:33] INFO root fetch - processPackages [ioiopype]: Remove: archive file [/home/abi/fetcher/tmp/ioiopype-0.0.7.tar.gz]
+[2024-04-15 12:57:33] INFO root fetch - main [MainThread]: End processing [ioiopype]: success
+[2024-04-15 12:57:33] INFO root fetch - processPackages [bigeye-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bigeye_sdk-0.4.77.tar.gz]
+[2024-04-15 12:57:33] INFO root fetch - processPackages [bigeye-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bigeye_sdk-0.4.78.tar.gz]
+[2024-04-15 12:57:33] INFO root fetch - main [MainThread]: End processing [bigeye-sdk]: success
+[2024-04-15 12:57:33] INFO root fetch - processPackages [internetnl-domain-analyse]: Remove: archive file [/home/abi/fetcher/tmp/internetnl_domain_analyse-1.9.6.tar.gz]
+[2024-04-15 12:57:33] INFO root fetch - processPackages [internetnl-domain-analyse]: Remove: archive file [/home/abi/fetcher/tmp/internetnl_domain_analyse-1.9.8.tar.gz]
+[2024-04-15 12:57:33] INFO root fetch - main [MainThread]: End processing [internetnl-domain-analyse]: success
+[2024-04-15 12:57:33] INFO root fetch - main [MainThread]: Store serial: [22769799]
