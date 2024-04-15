@@ -18296,3 +18296,65 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 14:35:03] INFO root fetch - processPackages [hestia-earth-models]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-models-0.9.1.tar.gz]
 [2024-04-15 14:35:03] INFO root fetch - main [MainThread]: End processing [hestia-earth-models]: success
 [2024-04-15 14:35:03] INFO root fetch - main [MainThread]: Store serial: [22770907]
+[2024-04-15 14:37:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22770907]
+[2024-04-15 14:37:12] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-15 14:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: croud
+[2024-04-15 14:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: testpack24
+[2024-04-15 14:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-l10n-extensions
+[2024-04-15 14:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mecab-python3
+[2024-04-15 14:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: objd
+[2024-04-15 14:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-project-base
+[2024-04-15 14:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: udata
+[2024-04-15 14:37:12] INFO root fetch - processPackages [testpack24]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-15 14:37:12] INFO root fetch - processPackages [django-project-base]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-15 14:37:12] INFO root fetch - processPackages [mecab-python3]: New version: [1.0.9.dev6] Old Version: [1.0.9.dev5]
+[2024-04-15 14:37:12] INFO root fetch - processPackages [udata]: New version: [7.0.7.dev28669] Old Version: [7.0.7.dev28639]
+[2024-04-15 14:37:12] INFO root fetch - processPackages [testpack24]: Downloading https://files.pythonhosted.org/packages/e4/18/b2356da70a404a3b2d6c32e537690e23954f28fc7113a3f0e957d7297cdc/testpack24-0.0.6.tar.gz
+[2024-04-15 14:37:12] INFO root fetch - processPackages [objd]: New version: [3] Old Version: [2]
+[2024-04-15 14:37:12] INFO root fetch - processPackages [django-l10n-extensions]: New version: [1.1.1] Old Version: [1.1]
+[2024-04-15 14:37:12] INFO root fetch - processPackages [croud]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-15 14:37:12] INFO root fetch - processPackages [django-project-base]: Downloading https://files.pythonhosted.org/packages/5e/80/79b654e965ab524a7a7100a2f70a50f2bb4f45f1d1ba3e84e7ae3304382a/django-project-base-0.4.8.tar.gz
+[2024-04-15 14:37:12] INFO root fetch - processPackages [mecab-python3]: Downloading https://files.pythonhosted.org/packages/18/0b/9cd9a13b413d57e3508a902e0233d0fd0ddcf7c47acd6b03e1981276515f/mecab-python3-1.0.9.dev5.tar.gz
+[2024-04-15 14:37:12] INFO root fetch - processPackages [objd]: Downloading https://files.pythonhosted.org/packages/f1/a0/d2ac18314344841f6541ad040b2e5cb1839527e129d6fe38f8cf57d48d60/objd-2.tar.gz
+[2024-04-15 14:37:12] INFO root fetch - processPackages [croud]: Downloading https://files.pythonhosted.org/packages/83/76/3284f90fb78c41301f2f709d549eebc962f1d537523d82ac8d9fbd780724/croud-1.8.0.tar.gz
+[2024-04-15 14:37:12] INFO root fetch - processPackages [django-l10n-extensions]: Downloading https://files.pythonhosted.org/packages/4b/93/ba6d1175c743a6b1fd5f7ed016e4a71296c79dd843c29088f91dea739528/django-l10n-extensions-1.1.tar.gz
+[2024-04-15 14:37:12] INFO root fetch - processPackages [django-project-base]: Downloading https://files.pythonhosted.org/packages/5f/7e/cb65b3d5c1084b92a5dc2d9e611005fede46a3436e8936d6efbbdef55efd/django-project-base-0.4.9.tar.gz
+[2024-04-15 14:37:12] INFO root fetch - processPackages [udata]: Downloading https://files.pythonhosted.org/packages/6b/54/f40863f79c4e30db1f4058e6a9d88c86400dca2e91c9fd22d451b17ba87c/udata-7.0.7.dev28639-py2.py3-none-any.whl
+[2024-04-15 14:37:12] INFO root fetch - processPackages [testpack24]: Downloading https://files.pythonhosted.org/packages/9f/f2/9ecab1708a7ad8765b83295752cd65fba0dc43edeff3af8f61b76e77dafb/testpack24-0.0.7.tar.gz
+[2024-04-15 14:37:12] INFO root fetch - processPackages [mecab-python3]: Downloading https://files.pythonhosted.org/packages/fc/0c/7654c11de2ac0aaa7e387c7add25594a88f37276a237a92cac80531cac80/mecab_python3-1.0.9.dev6.tar.gz
+[2024-04-15 14:37:12] WARNING root fetch - processPackages [udata]: Skipping package: exceeds size limit 19777213>=10485760
+[2024-04-15 14:37:12] INFO root fetch - main [MainThread]: End processing [udata] error
+[2024-04-15 14:37:12] INFO root fetch - processPackages [objd]: Downloading https://files.pythonhosted.org/packages/2e/2f/996dab8e04adb3e9fc7fadd164be39e959429e4fe1f12edac1220431b01e/objd-3.tar.gz
+[2024-04-15 14:37:12] INFO root fetch - processPackages [django-project-base]: executing diffoscope
+[2024-04-15 14:37:12] INFO root fetch - processPackages [django-project-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-project-base-0.4.8.tar.gz tmp/django-project-base-0.4.9.tar.gz --markdown 20240415/d/django-project-base/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-04-15 14:37:12] INFO root fetch - processPackages [testpack24]: executing diffoscope
+[2024-04-15 14:37:12] INFO root fetch - processPackages [testpack24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testpack24-0.0.6.tar.gz tmp/testpack24-0.0.7.tar.gz --markdown 20240415/t/testpack24/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-04-15 14:37:13] INFO root fetch - processPackages [objd]: executing diffoscope
+[2024-04-15 14:37:13] INFO root fetch - processPackages [objd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/objd-2.tar.gz tmp/objd-3.tar.gz --markdown 20240415/o/objd/2-3/README.md --exclude *.pyd
+[2024-04-15 14:37:13] INFO root fetch - processPackages [mecab-python3]: executing diffoscope
+[2024-04-15 14:37:13] INFO root fetch - processPackages [mecab-python3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecab-python3-1.0.9.dev5.tar.gz tmp/mecab_python3-1.0.9.dev6.tar.gz --markdown 20240415/m/mecab-python3/1.0.9.dev5-1.0.9.dev6/README.md --exclude *.pyd
+[2024-04-15 14:37:13] INFO root fetch - processPackages [django-l10n-extensions]: Downloading https://files.pythonhosted.org/packages/76/ea/308d41e7b7fa20f8aff5cea4e8e13f03daed697fa8bc662edcf09019e76b/django-l10n-extensions-1.1.1.tar.gz
+[2024-04-15 14:37:13] INFO root fetch - processPackages [croud]: Downloading https://files.pythonhosted.org/packages/98/33/ea8fec7e1f18a8aa4f29ef980c0a36a08d01d09c3bc46b3c2719131d5726/croud-1.9.0.tar.gz
+[2024-04-15 14:37:13] INFO root fetch - processPackages [django-l10n-extensions]: executing diffoscope
+[2024-04-15 14:37:13] INFO root fetch - processPackages [django-l10n-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-l10n-extensions-1.1.tar.gz tmp/django-l10n-extensions-1.1.1.tar.gz --markdown 20240415/d/django-l10n-extensions/1.1-1.1.1/README.md --exclude *.pyd
+[2024-04-15 14:37:13] INFO root fetch - processPackages [croud]: executing diffoscope
+[2024-04-15 14:37:13] INFO root fetch - processPackages [croud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/croud-1.8.0.tar.gz tmp/croud-1.9.0.tar.gz --markdown 20240415/c/croud/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-04-15 14:37:13] INFO root fetch - processPackages [testpack24]: Remove: archive file [/home/abi/fetcher/tmp/testpack24-0.0.6.tar.gz]
+[2024-04-15 14:37:13] INFO root fetch - processPackages [testpack24]: Remove: archive file [/home/abi/fetcher/tmp/testpack24-0.0.7.tar.gz]
+[2024-04-15 14:37:13] INFO root fetch - main [MainThread]: End processing [testpack24]: success
+[2024-04-15 14:37:13] INFO root fetch - processPackages [objd]: Remove: archive file [/home/abi/fetcher/tmp/objd-2.tar.gz]
+[2024-04-15 14:37:13] INFO root fetch - processPackages [objd]: Remove: archive file [/home/abi/fetcher/tmp/objd-3.tar.gz]
+[2024-04-15 14:37:13] INFO root fetch - main [MainThread]: End processing [objd]: success
+[2024-04-15 14:37:14] INFO root fetch - processPackages [django-l10n-extensions]: Remove: archive file [/home/abi/fetcher/tmp/django-l10n-extensions-1.1.tar.gz]
+[2024-04-15 14:37:14] INFO root fetch - processPackages [django-l10n-extensions]: Remove: archive file [/home/abi/fetcher/tmp/django-l10n-extensions-1.1.1.tar.gz]
+[2024-04-15 14:37:14] INFO root fetch - main [MainThread]: End processing [django-l10n-extensions]: success
+[2024-04-15 14:37:14] INFO root fetch - processPackages [mecab-python3]: Remove: archive file [/home/abi/fetcher/tmp/mecab-python3-1.0.9.dev5.tar.gz]
+[2024-04-15 14:37:14] INFO root fetch - processPackages [mecab-python3]: Remove: archive file [/home/abi/fetcher/tmp/mecab_python3-1.0.9.dev6.tar.gz]
+[2024-04-15 14:37:14] INFO root fetch - main [MainThread]: End processing [mecab-python3]: success
+[2024-04-15 14:37:14] INFO root fetch - processPackages [django-project-base]: Remove: archive file [/home/abi/fetcher/tmp/django-project-base-0.4.8.tar.gz]
+[2024-04-15 14:37:14] INFO root fetch - processPackages [django-project-base]: Remove: archive file [/home/abi/fetcher/tmp/django-project-base-0.4.9.tar.gz]
+[2024-04-15 14:37:14] INFO root fetch - main [MainThread]: End processing [django-project-base]: success
+[2024-04-15 14:37:14] INFO root fetch - processPackages [croud]: Remove: archive file [/home/abi/fetcher/tmp/croud-1.8.0.tar.gz]
+[2024-04-15 14:37:14] INFO root fetch - processPackages [croud]: Remove: archive file [/home/abi/fetcher/tmp/croud-1.9.0.tar.gz]
+[2024-04-15 14:37:14] INFO root fetch - main [MainThread]: End processing [croud]: success
+[2024-04-15 14:37:14] INFO root fetch - main [MainThread]: Store serial: [22770937]
