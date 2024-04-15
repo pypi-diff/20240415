@@ -8196,3 +8196,142 @@
 [2024-04-15 08:07:27] INFO root fetch - processPackages [radical.utils]: Remove: archive file [/home/abi/fetcher/tmp/radical.utils-1.9.1.tar.gz]
 [2024-04-15 08:07:27] INFO root fetch - main [MainThread]: End processing [radical.utils]: success
 [2024-04-15 08:07:27] INFO root fetch - main [MainThread]: Store serial: [22766497]
+[2024-04-15 08:09:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22766497]
+[2024-04-15 08:09:35] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-15 08:09:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: danila
+[2024-04-15 08:09:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ucall
+[2024-04-15 08:09:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-nai3
+[2024-04-15 08:09:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-osubot
+[2024-04-15 08:09:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: organoids
+[2024-04-15 08:09:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nuon
+[2024-04-15 08:09:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gwml
+[2024-04-15 08:09:36] WARNING root fetch - processPackages [danila]: Skipping, unable to determine old version
+[2024-04-15 08:09:36] INFO root fetch - main [MainThread]: End processing [danila] error
+[2024-04-15 08:09:36] WARNING root fetch - processPackages [organoids]: Skipping, unable to determine old version
+[2024-04-15 08:09:36] INFO root fetch - main [MainThread]: End processing [organoids] error
+[2024-04-15 08:09:36] INFO root fetch - processPackages [nonebot-plugin-nai3]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-15 08:09:36] INFO root fetch - processPackages [ucall]: New version: [0.5.4] Old Version: [0.5.3]
+[2024-04-15 08:09:36] INFO root fetch - processPackages [nonebot-plugin-nai3]: Downloading https://files.pythonhosted.org/packages/3e/a9/dcf2b07ef7b8c8da98e3b0bb7675bd943a747aaf748fd398515d541626d2/nonebot_plugin_nai3-0.1.0.tar.gz
+[2024-04-15 08:09:36] INFO root fetch - processPackages [gwml]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-15 08:09:36] INFO root fetch - processPackages [nuon]: New version: [0.19.99] Old Version: [0.19.98]
+[2024-04-15 08:09:36] INFO root fetch - processPackages [nonebot-plugin-osubot]: New version: [5.6.0] Old Version: [5.5.3]
+[2024-04-15 08:09:36] INFO root fetch - processPackages [gwml]: Downloading https://files.pythonhosted.org/packages/20/d4/e89d0c97a49bc1ed73a22b5fc8942ecc4c67bbef60d21e0683c6e1968c0e/gwml-0.0.1-py3-none-any.whl
+[2024-04-15 08:09:36] INFO root fetch - processPackages [nonebot-plugin-osubot]: Downloading https://files.pythonhosted.org/packages/4e/ca/3f8e72a5cede4748ea42da24ef6a510d84f4936d7e7351950d8624abbbf7/nonebot-plugin-osubot-5.5.3.tar.gz
+[2024-04-15 08:09:36] INFO root fetch - processPackages [nuon]: Downloading https://files.pythonhosted.org/packages/8d/82/73a4a9564f53819f1d2ce0052786b8fbaac8797092a6e5b9ad8368807e5a/nuon-0.19.98.tar.gz
+[2024-04-15 08:09:36] INFO root fetch - processPackages [ucall]: Downloading https://files.pythonhosted.org/packages/74/8f/831af1e5efe4b63c328405f3f14352d141f2c410df904e13ddd17bca12c8/ucall-0.5.3-cp39-cp39-win_amd64.whl
+[2024-04-15 08:09:36] INFO root fetch - processPackages [nonebot-plugin-nai3]: Downloading https://files.pythonhosted.org/packages/f9/95/0459aff8505e07ff28b104c8959b10b6b00c9aff91a27a9798c8909a7de8/nonebot_plugin_nai3-0.1.1.tar.gz
+[2024-04-15 08:09:36] WARNING root fetch - processPackages [nonebot-plugin-osubot]: Skipping package: exceeds size limit 29381938>=10485760
+[2024-04-15 08:09:36] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-osubot] error
+[2024-04-15 08:09:36] INFO root fetch - processPackages [nonebot-plugin-nai3]: executing diffoscope
+[2024-04-15 08:09:36] INFO root fetch - processPackages [nonebot-plugin-nai3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_nai3-0.1.0.tar.gz tmp/nonebot_plugin_nai3-0.1.1.tar.gz --markdown 20240415/n/nonebot-plugin-nai3/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-04-15 08:09:36] INFO root fetch - processPackages [gwml]: Downloading https://files.pythonhosted.org/packages/aa/af/28aeb1db3cae1652bd216ea4519c89bc488b4710bb5fa2fd3ae2ee8716c4/gwml-0.0.2-py3-none-any.whl
+[2024-04-15 08:09:36] INFO root fetch - processPackages [nuon]: Downloading https://files.pythonhosted.org/packages/2e/32/73fde17d65f51538c324ffecb418e1d8709cd44e594ad86a351bb39fa67f/nuon-0.19.99.tar.gz
+[2024-04-15 08:09:37] INFO root fetch - processPackages [ucall]: Downloading https://files.pythonhosted.org/packages/2a/b2/39efa711ab3ef61c7f3f90882aa1bc2ce9c8e9161ac572f81c0ae441ab09/ucall-0.5.4-cp39-cp39-win_amd64.whl
+[2024-04-15 08:09:37] INFO root fetch - processPackages [nuon]: executing diffoscope
+[2024-04-15 08:09:37] INFO root fetch - processPackages [nuon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuon-0.19.98.tar.gz tmp/nuon-0.19.99.tar.gz --markdown 20240415/n/nuon/0.19.98-0.19.99/README.md --exclude *.pyd
+[2024-04-15 08:09:37] INFO root fetch - processPackages [gwml]: executing diffoscope
+[2024-04-15 08:09:37] INFO root fetch - processPackages [gwml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gwml-0.0.1-py3-none-any.whl.zip tmp/gwml-0.0.2-py3-none-any.whl.zip --markdown 20240415/g/gwml/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-04-15 08:09:37] INFO root fetch - processPackages [ucall]: executing diffoscope
+[2024-04-15 08:09:37] INFO root fetch - processPackages [ucall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ucall-0.5.3-cp39-cp39-win_amd64.whl.zip tmp/ucall-0.5.4-cp39-cp39-win_amd64.whl.zip --markdown 20240415/u/ucall/0.5.3-0.5.4/README.md --exclude *.pyd
+[2024-04-15 08:09:37] INFO root fetch - processPackages [nonebot-plugin-nai3]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_nai3-0.1.0.tar.gz]
+[2024-04-15 08:09:37] INFO root fetch - processPackages [nonebot-plugin-nai3]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_nai3-0.1.1.tar.gz]
+[2024-04-15 08:09:37] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-nai3]: success
+[2024-04-15 08:09:37] INFO root fetch - processPackages [gwml]: Remove: archive file [/home/abi/fetcher/tmp/gwml-0.0.1-py3-none-any.whl.zip]
+[2024-04-15 08:09:37] INFO root fetch - processPackages [gwml]: Remove: archive file [/home/abi/fetcher/tmp/gwml-0.0.2-py3-none-any.whl.zip]
+[2024-04-15 08:09:37] INFO root fetch - main [MainThread]: End processing [gwml]: success
+[2024-04-15 08:09:38] ERROR root fetch - processPackages [ucall]: Diffoscope failed: time="2024-04-15T08:09:37+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 134, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=139848094588416)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/ar.py", line 71, in compare_details
+    Difference.from_text_readers(
+  File "/srv/diffoscope/diffoscope/difference.py", line 258, in from_text_readers
+    return Difference.from_feeder(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 134, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=139848228806032)
+
+[2024-04-15 08:09:38] INFO root fetch - main [MainThread]: End processing [ucall] error
+[2024-04-15 08:09:39] INFO root fetch - processPackages [nuon]: Remove: archive file [/home/abi/fetcher/tmp/nuon-0.19.98.tar.gz]
+[2024-04-15 08:09:39] INFO root fetch - processPackages [nuon]: Remove: archive file [/home/abi/fetcher/tmp/nuon-0.19.99.tar.gz]
+[2024-04-15 08:09:39] INFO root fetch - main [MainThread]: End processing [nuon]: success
+[2024-04-15 08:09:39] INFO root fetch - main [MainThread]: Store serial: [22766541]
