@@ -2017,3 +2017,45 @@
 [2024-04-15 02:54:18] INFO root fetch - processPackages [gqylpy-log]: Remove: archive file [/home/abi/fetcher/tmp/gqylpy_log-2.0a1.tar.gz]
 [2024-04-15 02:54:18] INFO root fetch - main [MainThread]: End processing [gqylpy-log]: success
 [2024-04-15 02:54:18] INFO root fetch - main [MainThread]: Store serial: [22764140]
+[2024-04-15 02:56:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22764140]
+[2024-04-15 02:56:27] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-15 02:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sectionproperties
+[2024-04-15 02:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pih-plb-auto
+[2024-04-15 02:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: corkit
+[2024-04-15 02:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pih-plb-db
+[2024-04-15 02:56:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oknrerun
+[2024-04-15 02:56:27] INFO root fetch - processPackages [oknrerun]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-04-15 02:56:27] INFO root fetch - processPackages [pih-plb-db]: New version: [0.16] Old Version: [0.15]
+[2024-04-15 02:56:27] INFO root fetch - processPackages [corkit]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-15 02:56:27] WARNING root fetch - processPackages [pih-plb-auto]: Skipping, unable to determine old version
+[2024-04-15 02:56:27] INFO root fetch - main [MainThread]: End processing [pih-plb-auto] error
+[2024-04-15 02:56:27] INFO root fetch - processPackages [sectionproperties]: New version: [3.2.1] Old Version: [3.2.0]
+[2024-04-15 02:56:27] INFO root fetch - processPackages [oknrerun]: Downloading https://files.pythonhosted.org/packages/b4/a5/752ec90e3b531cb6f8be8787441826e20473c799713c6c2243c7780b27b0/oknrerun-1.0.6.tar.gz
+[2024-04-15 02:56:27] INFO root fetch - processPackages [pih-plb-db]: Downloading https://files.pythonhosted.org/packages/01/a7/96f0d50462da20907121e3904e7be5b10ba332f1fbe4ab11f218ce426664/pih-plb_db-0.15.tar.gz
+[2024-04-15 02:56:27] INFO root fetch - processPackages [corkit]: Downloading https://files.pythonhosted.org/packages/61/ce/7371e907b3be38818d0162d70eaac2fde03f053ea4dbc3187f52e89099f1/corkit-1.0.5.tar.gz
+[2024-04-15 02:56:27] INFO root fetch - processPackages [sectionproperties]: Downloading https://files.pythonhosted.org/packages/3e/33/cb453f9d364a5df3f9c67be61facfbd5826ebdda53e0c72827cb3b64a9d0/sectionproperties-3.2.0.tar.gz
+[2024-04-15 02:56:27] INFO root fetch - processPackages [oknrerun]: Downloading https://files.pythonhosted.org/packages/84/d3/a1357229ecade2ee618a04906ad2f5704047d01e7bbad6ee0426e39e4753/oknrerun-1.0.7.tar.gz
+[2024-04-15 02:56:27] INFO root fetch - processPackages [corkit]: Downloading https://files.pythonhosted.org/packages/8d/b7/1bdc140474657d33338bb6c651ac98450c1b2daede9d0057765d191bce2b/corkit-1.0.6.tar.gz
+[2024-04-15 02:56:27] INFO root fetch - processPackages [pih-plb-db]: Downloading https://files.pythonhosted.org/packages/1d/54/4eaa76e23de9b4a829d4d2237f1c7e41295271e577f9943e00cf384dce0b/pih-plb_db-0.16.tar.gz
+[2024-04-15 02:56:28] INFO root fetch - processPackages [corkit]: executing diffoscope
+[2024-04-15 02:56:28] INFO root fetch - processPackages [corkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corkit-1.0.5.tar.gz tmp/corkit-1.0.6.tar.gz --markdown 20240415/c/corkit/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-04-15 02:56:28] INFO root fetch - processPackages [pih-plb-db]: executing diffoscope
+[2024-04-15 02:56:28] INFO root fetch - processPackages [pih-plb-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-plb_db-0.15.tar.gz tmp/pih-plb_db-0.16.tar.gz --markdown 20240415/p/pih-plb-db/0.15-0.16/README.md --exclude *.pyd
+[2024-04-15 02:56:28] INFO root fetch - processPackages [sectionproperties]: Downloading https://files.pythonhosted.org/packages/59/80/94a43875af2f6a9bdffedb0ccaa7b7b397276b80e0bd1a13a37f67e8e286/sectionproperties-3.2.1.tar.gz
+[2024-04-15 02:56:28] INFO root fetch - processPackages [oknrerun]: executing diffoscope
+[2024-04-15 02:56:28] INFO root fetch - processPackages [oknrerun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oknrerun-1.0.6.tar.gz tmp/oknrerun-1.0.7.tar.gz --markdown 20240415/o/oknrerun/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-04-15 02:56:28] INFO root fetch - processPackages [sectionproperties]: executing diffoscope
+[2024-04-15 02:56:28] INFO root fetch - processPackages [sectionproperties]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sectionproperties-3.2.0.tar.gz tmp/sectionproperties-3.2.1.tar.gz --markdown 20240415/s/sectionproperties/3.2.0-3.2.1/README.md --exclude *.pyd
+[2024-04-15 02:56:28] INFO root fetch - processPackages [corkit]: Remove: archive file [/home/abi/fetcher/tmp/corkit-1.0.5.tar.gz]
+[2024-04-15 02:56:28] INFO root fetch - processPackages [corkit]: Remove: archive file [/home/abi/fetcher/tmp/corkit-1.0.6.tar.gz]
+[2024-04-15 02:56:28] INFO root fetch - main [MainThread]: End processing [corkit]: success
+[2024-04-15 02:56:28] INFO root fetch - processPackages [pih-plb-db]: Remove: archive file [/home/abi/fetcher/tmp/pih-plb_db-0.15.tar.gz]
+[2024-04-15 02:56:28] INFO root fetch - processPackages [pih-plb-db]: Remove: archive file [/home/abi/fetcher/tmp/pih-plb_db-0.16.tar.gz]
+[2024-04-15 02:56:28] INFO root fetch - main [MainThread]: End processing [pih-plb-db]: success
+[2024-04-15 02:56:28] INFO root fetch - processPackages [sectionproperties]: Remove: archive file [/home/abi/fetcher/tmp/sectionproperties-3.2.0.tar.gz]
+[2024-04-15 02:56:28] INFO root fetch - processPackages [sectionproperties]: Remove: archive file [/home/abi/fetcher/tmp/sectionproperties-3.2.1.tar.gz]
+[2024-04-15 02:56:28] INFO root fetch - main [MainThread]: End processing [sectionproperties]: success
+[2024-04-15 02:56:28] INFO root fetch - processPackages [oknrerun]: Remove: archive file [/home/abi/fetcher/tmp/oknrerun-1.0.6.tar.gz]
+[2024-04-15 02:56:28] INFO root fetch - processPackages [oknrerun]: Remove: archive file [/home/abi/fetcher/tmp/oknrerun-1.0.7.tar.gz]
+[2024-04-15 02:56:28] INFO root fetch - main [MainThread]: End processing [oknrerun]: success
+[2024-04-15 02:56:28] INFO root fetch - main [MainThread]: Store serial: [22764182]
