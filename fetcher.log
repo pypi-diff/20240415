@@ -14743,3 +14743,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 12:19:51] INFO root fetch - processPackages [safe-eth-py]: Remove: archive file [/home/abi/fetcher/tmp/safe-eth-py-6.0.0b9.tar.gz]
 [2024-04-15 12:19:51] INFO root fetch - main [MainThread]: End processing [safe-eth-py]: success
 [2024-04-15 12:19:51] INFO root fetch - main [MainThread]: Store serial: [22769280]
+[2024-04-15 12:21:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22769280]
+[2024-04-15 12:21:59] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-15 12:21:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pybts
+[2024-04-15 12:21:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: finbourne-access-sdk
+[2024-04-15 12:21:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: timeseries-etl-utils
+[2024-04-15 12:21:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DLMS-SPODES-client
+[2024-04-15 12:22:00] WARNING root fetch - processPackages [timeseries-etl-utils]: Skipping, unable to determine old version
+[2024-04-15 12:22:00] INFO root fetch - main [MainThread]: End processing [timeseries-etl-utils] error
+[2024-04-15 12:22:00] INFO root fetch - processPackages [DLMS-SPODES-client]: New version: [0.7.7] Old Version: [0.7.6]
+[2024-04-15 12:22:00] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-15 12:22:00] INFO root fetch - processPackages [DLMS-SPODES-client]: Downloading https://files.pythonhosted.org/packages/eb/c2/2fe8573fd0e160a156a83927a8e6113320278ae75ad405523cff77dea591/DLMS_SPODES_client-0.7.6.tar.gz
+[2024-04-15 12:22:00] INFO root fetch - processPackages [pybts]: New version: [1.7.1] Old Version: [1.7.0]
+[2024-04-15 12:22:00] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/67/5a/2e8d70b51969063ac34619b9a07be19893b64107b4dab37e771b94bd1b03/finbourne_access_sdk-2.1.8.tar.gz
+[2024-04-15 12:22:00] INFO root fetch - processPackages [pybts]: Downloading https://files.pythonhosted.org/packages/32/28/ffb1cee9bb795476f255f1f5f1f376f1910e8234c1504cae12fa752682e0/pybts-1.7.0.tar.gz
+[2024-04-15 12:22:00] INFO root fetch - processPackages [DLMS-SPODES-client]: Downloading https://files.pythonhosted.org/packages/7d/5a/a5edf5df077a3998a17d31410a73624b1b029845910bcbfa4d53355e6d55/DLMS_SPODES_client-0.7.7.tar.gz
+[2024-04-15 12:22:00] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/2d/9e/be08614b45729ae547c5c8acd046e8c90ae89d6b812ee70666b6e24bcbe8/finbourne_access_sdk-2.1.9.tar.gz
+[2024-04-15 12:22:00] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2024-04-15 12:22:00] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_access_sdk-2.1.8.tar.gz tmp/finbourne_access_sdk-2.1.9.tar.gz --markdown 20240415/f/finbourne-access-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-04-15 12:22:00] INFO root fetch - processPackages [DLMS-SPODES-client]: executing diffoscope
+[2024-04-15 12:22:00] INFO root fetch - processPackages [DLMS-SPODES-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES_client-0.7.6.tar.gz tmp/DLMS_SPODES_client-0.7.7.tar.gz --markdown 20240415/D/DLMS-SPODES-client/0.7.6-0.7.7/README.md --exclude *.pyd
+[2024-04-15 12:22:00] INFO root fetch - processPackages [pybts]: Downloading https://files.pythonhosted.org/packages/a8/07/a075b125143ff20c37c03e5866d99d99fcd974e9bd2afb455520ea00ba99/pybts-1.7.1.tar.gz
+[2024-04-15 12:22:01] INFO root fetch - processPackages [pybts]: executing diffoscope
+[2024-04-15 12:22:01] INFO root fetch - processPackages [pybts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybts-1.7.0.tar.gz tmp/pybts-1.7.1.tar.gz --markdown 20240415/p/pybts/1.7.0-1.7.1/README.md --exclude *.pyd
+[2024-04-15 12:22:01] INFO root fetch - processPackages [DLMS-SPODES-client]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES_client-0.7.6.tar.gz]
+[2024-04-15 12:22:01] INFO root fetch - processPackages [DLMS-SPODES-client]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_SPODES_client-0.7.7.tar.gz]
+[2024-04-15 12:22:01] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES-client]: success
+[2024-04-15 12:22:01] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.8.tar.gz]
+[2024-04-15 12:22:01] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.9.tar.gz]
+[2024-04-15 12:22:01] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2024-04-15 12:22:01] INFO root fetch - processPackages [pybts]: Remove: archive file [/home/abi/fetcher/tmp/pybts-1.7.0.tar.gz]
+[2024-04-15 12:22:01] INFO root fetch - processPackages [pybts]: Remove: archive file [/home/abi/fetcher/tmp/pybts-1.7.1.tar.gz]
+[2024-04-15 12:22:01] INFO root fetch - main [MainThread]: End processing [pybts]: success
+[2024-04-15 12:22:01] INFO root fetch - main [MainThread]: Store serial: [22769291]
