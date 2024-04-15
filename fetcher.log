@@ -17806,3 +17806,31 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-04-15 14:17:12] INFO root fetch - processPackages [ds20kdb-avt]: Remove: archive file [/home/abi/fetcher/tmp/ds20kdb_avt-1.0.9.tar.gz]
 [2024-04-15 14:17:12] INFO root fetch - main [MainThread]: End processing [ds20kdb-avt]: success
 [2024-04-15 14:17:12] INFO root fetch - main [MainThread]: Store serial: [22770644]
+[2024-04-15 14:19:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22770644]
+[2024-04-15 14:19:21] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-15 14:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: psd2fabric
+[2024-04-15 14:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pixel-font-builder
+[2024-04-15 14:19:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: psd2fabric
+[2024-04-15 14:19:21] INFO root fetch - processPackages [psd2fabric]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-15 14:19:21] INFO root fetch - processPackages [psd2fabric]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-15 14:19:21] INFO root fetch - processPackages [psd2fabric]: Downloading https://files.pythonhosted.org/packages/5f/86/587fe442d35e54bfe0baa8af1777fd7cf732879bb236e07dbf0c8612264d/psd2fabric-0.1.1.tar.gz
+[2024-04-15 14:19:21] INFO root fetch - processPackages [pixel-font-builder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-15 14:19:21] INFO root fetch - processPackages [psd2fabric]: Downloading https://files.pythonhosted.org/packages/5f/86/587fe442d35e54bfe0baa8af1777fd7cf732879bb236e07dbf0c8612264d/psd2fabric-0.1.1.tar.gz
+[2024-04-15 14:19:21] INFO root fetch - processPackages [pixel-font-builder]: Downloading https://files.pythonhosted.org/packages/79/ad/e5074cef3451521cb8b859d7f8e55bc7e0b814fc84479c02b995ced8b444/pixel-font-builder-0.0.8.tar.gz
+[2024-04-15 14:19:21] INFO root fetch - processPackages [psd2fabric]: Downloading https://files.pythonhosted.org/packages/70/5f/160df7a86ce358601ea912d424e09bdd896d9872b13260667effee2e1550/psd2fabric-0.1.2.tar.gz
+[2024-04-15 14:19:21] INFO root fetch - processPackages [psd2fabric]: Downloading https://files.pythonhosted.org/packages/70/5f/160df7a86ce358601ea912d424e09bdd896d9872b13260667effee2e1550/psd2fabric-0.1.2.tar.gz
+[2024-04-15 14:19:21] INFO root fetch - processPackages [pixel-font-builder]: Downloading https://files.pythonhosted.org/packages/a9/a0/9853b02b59999eb2eb450c7c1946ce7c2565d6c50e8c02d4f3f0fd55d95c/pixel-font-builder-0.0.9.tar.gz
+[2024-04-15 14:19:22] INFO root fetch - processPackages [psd2fabric]: executing diffoscope
+[2024-04-15 14:19:22] INFO root fetch - processPackages [psd2fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psd2fabric-0.1.1.tar.gz tmp/psd2fabric-0.1.2.tar.gz --markdown 20240415/p/psd2fabric/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-15 14:19:22] INFO root fetch - processPackages [psd2fabric]: executing diffoscope
+[2024-04-15 14:19:22] INFO root fetch - processPackages [psd2fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psd2fabric-0.1.1.tar.gz tmp/psd2fabric-0.1.2.tar.gz --markdown 20240415/p/psd2fabric/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-04-15 14:19:22] INFO root fetch - processPackages [pixel-font-builder]: executing diffoscope
+[2024-04-15 14:19:22] INFO root fetch - processPackages [pixel-font-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pixel-font-builder-0.0.8.tar.gz tmp/pixel-font-builder-0.0.9.tar.gz --markdown 20240415/p/pixel-font-builder/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-04-15 14:19:22] INFO root fetch - processPackages [pixel-font-builder]: Remove: archive file [/home/abi/fetcher/tmp/pixel-font-builder-0.0.8.tar.gz]
+[2024-04-15 14:19:22] INFO root fetch - processPackages [pixel-font-builder]: Remove: archive file [/home/abi/fetcher/tmp/pixel-font-builder-0.0.9.tar.gz]
+[2024-04-15 14:19:22] INFO root fetch - main [MainThread]: End processing [pixel-font-builder]: success
+[2024-04-15 14:19:22] INFO root fetch - processPackages [psd2fabric]: Remove: archive file [/home/abi/fetcher/tmp/psd2fabric-0.1.1.tar.gz]
+[2024-04-15 14:19:22] INFO root fetch - processPackages [psd2fabric]: Remove: archive file [/home/abi/fetcher/tmp/psd2fabric-0.1.2.tar.gz]
+[2024-04-15 14:19:22] INFO root fetch - main [MainThread]: End processing [psd2fabric]: success
+[2024-04-15 14:19:22] INFO root fetch - main [MainThread]: End processing [psd2fabric]: success
+[2024-04-15 14:19:22] INFO root fetch - main [MainThread]: Store serial: [22770653]
