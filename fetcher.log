@@ -4013,3 +4013,31 @@
 [2024-04-15 05:20:04] INFO root fetch - processPackages [pinjected-openai]: Remove: archive file [/home/abi/fetcher/tmp/pinjected_openai-0.4.6.tar.gz]
 [2024-04-15 05:20:04] INFO root fetch - main [MainThread]: End processing [pinjected-openai]: success
 [2024-04-15 05:20:04] INFO root fetch - main [MainThread]: Store serial: [22764994]
+[2024-04-15 05:22:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22764994]
+[2024-04-15 05:22:12] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-15 05:22:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-04-15 05:22:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: surfkit
+[2024-04-15 05:22:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-04-15 05:22:12] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.13a1713149286] Old Version: [0.0.13a1713148341]
+[2024-04-15 05:22:12] INFO root fetch - processPackages [surfkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-15 05:22:12] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.13a1713149286] Old Version: [0.0.13a1713148341]
+[2024-04-15 05:22:12] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/69/73/979bd0b5155d0b8f959bedfccd936db278711bdefc2f8026ca02aecc6b1e/pulumi_kubernetes_the_hard_way-0.0.13a1713148341.tar.gz
+[2024-04-15 05:22:12] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/69/73/979bd0b5155d0b8f959bedfccd936db278711bdefc2f8026ca02aecc6b1e/pulumi_kubernetes_the_hard_way-0.0.13a1713148341.tar.gz
+[2024-04-15 05:22:12] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/00/dc/343980c083ea4ae8ce963639c51b39c0b3ba7869e96ca748256ff1b67925/surfkit-0.1.8.tar.gz
+[2024-04-15 05:22:12] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/e2/bd/4b842eb12eca8c3a3ea5d2915b52f91a3259c7e0160d2a0a88aeb13ae4a7/surfkit-0.1.9.tar.gz
+[2024-04-15 05:22:12] INFO root fetch - processPackages [surfkit]: executing diffoscope
+[2024-04-15 05:22:12] INFO root fetch - processPackages [surfkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surfkit-0.1.8.tar.gz tmp/surfkit-0.1.9.tar.gz --markdown 20240415/s/surfkit/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-04-15 05:22:12] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/7b/f4/1c08aa23e49e4a0afea012a40c2b8d6a1f9c30427d365ac7448b05974f76/pulumi_kubernetes_the_hard_way-0.0.13a1713149286.tar.gz
+[2024-04-15 05:22:12] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/7b/f4/1c08aa23e49e4a0afea012a40c2b8d6a1f9c30427d365ac7448b05974f76/pulumi_kubernetes_the_hard_way-0.0.13a1713149286.tar.gz
+[2024-04-15 05:22:12] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-04-15 05:22:12] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.13a1713148341.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.13a1713149286.tar.gz --markdown 20240415/p/pulumi-kubernetes-the-hard-way/0.0.13a1713148341-0.0.13a1713149286/README.md --exclude *.pyd
+[2024-04-15 05:22:12] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-04-15 05:22:12] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240415:/home/abi/fetcher/20240415:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.13a1713148341.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.13a1713149286.tar.gz --markdown 20240415/p/pulumi-kubernetes-the-hard-way/0.0.13a1713148341-0.0.13a1713149286/README.md --exclude *.pyd
+[2024-04-15 05:22:13] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.8.tar.gz]
+[2024-04-15 05:22:13] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.9.tar.gz]
+[2024-04-15 05:22:13] INFO root fetch - main [MainThread]: End processing [surfkit]: success
+[2024-04-15 05:22:13] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.13a1713148341.tar.gz]
+[2024-04-15 05:22:13] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.13a1713149286.tar.gz]
+[2024-04-15 05:22:13] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-04-15 05:22:13] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-04-15 05:22:13] INFO root fetch - main [MainThread]: Store serial: [22765003]
